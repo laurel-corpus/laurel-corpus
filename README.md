@@ -3,11 +3,11 @@
 English verse in the public domain, encoded in TEI P5, with the scansion, rhyme and canonical
 references that Laurel adds to it.
 
-**416 works · 18,107 poems · 1,201,730 lines**
+**416 works · 18,105 poems · 1,201,722 lines**
 
 Every line carries two scansions: what the words themselves settle, and what the poem's metre asks for.
 Every poem carries a canonical reference that names its edition, and a permanent identifier that
-survives being re-titled or re-parsed. Around 1,700 poems also carry line-level timings against public
+survives being re-titled or re-parsed. 1,680 poems also carry line-level timings against public
 domain recordings, so a reading can be followed word by word.
 
 The site that reads this corpus is at [laurelpoetry.com](https://laurelpoetry.com).
