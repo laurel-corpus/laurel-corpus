@@ -1,7 +1,11 @@
-# Laurel corpus
+# Laurel
 
-English verse in the public domain, encoded in TEI P5, with the scansion, rhyme and canonical
-references that Laurel adds to it.
+A free reading room for English poetry, at [laurelpoetry.com](https://laurelpoetry.com). Four hundred
+books set out the way a good edition sets them: the rhymes lettered, the stresses marked, the hard
+words explained. Nothing costs anything and nothing is behind a login.
+
+**This repository is the corpus underneath it** — the texts, and everything Laurel works out about
+them, published so the working can be checked and built on.
 
 **416 works · 18,105 poems · 1,201,722 lines**
 
@@ -9,8 +13,6 @@ Every line carries two scansions: what the words themselves settle, and what the
 Every poem carries a canonical reference that names its edition, and a permanent identifier that
 survives being re-titled or re-parsed. 1,680 poems also carry line-level timings against public
 domain recordings, so a reading can be followed word by word.
-
-The site that reads this corpus is at [laurelpoetry.com](https://laurelpoetry.com).
 
 ## What is here
 
