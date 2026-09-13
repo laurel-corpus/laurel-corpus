@@ -1,6 +1,6 @@
 # How accurate the scansion is
 
-*Part of the [Laurel corpus](../README.md). Method notes: [texts](texts.md) · [scansion](scansion.md) · [accuracy](accuracy.md) · [audio](audio.md) · [references](references.md)*
+*Part of the [Laurel corpus](../README.md). Method notes: [texts](texts.md) · [scansion](scansion.md) · [accuracy](accuracy.md) · [definitions](definitions.md) · [commentary](commentary.md) · [audio](audio.md) · [references](references.md) · [sources](sources.md)*
 
 Scored against [For Better For Verse](https://github.com/waynegraham/for_better_for_verse), the
 University of Virginia's corpus of poems hand-scanned by a prosodist. It is the only public expert

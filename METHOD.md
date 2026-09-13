@@ -8,8 +8,11 @@ easy, that is said.
 | [Texts](docs/texts.md) | where they come from, and why the editions are the honest weakness |
 | [Syllables, stress and metre](docs/scansion.md) | how a poem's metre is determined, and what counts as evidence |
 | [Accuracy](docs/accuracy.md) | scored against hand-scansion, and three ways the score flatters itself |
+| [Definitions](docs/definitions.md) | Webster's 1913, and where it is the wrong dictionary |
+| [Commentary](docs/commentary.md) | editors' notes, including OCR placed on a translation |
 | [Audio timings](docs/audio.md) | how a recording is aligned to the lines |
 | [References](docs/references.md) | canonical URNs and the permanent identifier registry |
+| [Sources and tools](docs/sources.md) | every public text, dataset and standard this rests on |
 
 ## Known limits
 
