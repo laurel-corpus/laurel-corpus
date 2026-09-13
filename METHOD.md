@@ -15,20 +15,14 @@ known to be a poor witness it should be treated as such.
 
 ## Syllables and stress
 
-Word stress comes from the CMU Pronouncing Dictionary. It settles the stress inside a word of two or
-more syllables and says nothing about a word of one, which is most of English verse:
+Syllables are divided on the CMU Pronouncing Dictionary, with the elisions and expansions verse itself
+uses: *every* contracting to *ev'ry* where the line runs long, a spelled *-ed* opening into its own
+syllable where the line runs short.
 
-```
-That saved a wretch like me      uxuxxu
-```
-
-Six syllables, six words, not one of them fixed. A method that listens only to the dictionary is deaf
-to the ballads, the hymns and most of Dickinson. So a monosyllable votes too, quietly: a closed-class
-word (article, preposition, conjunction, pronoun, auxiliary) expects a slack, anything else expects a
-beat. That vote is worth 0.30 of a dictionary stress, because it is a tendency and not a fact.
-
-In the TEI these appear as `x` in `@real`: the words leave them open and the metre may take them either
-way.
+The dictionary settles the stress inside a word of two syllables or more and says nothing about a word
+of one. Those unsettled syllables appear in the TEI as `x` in `@real`: the words leave them open, and
+the metre may take them either way. How they are weighed when a metre is being determined is set out
+below.
 
 ## How a poem's metre is determined
 
@@ -44,8 +38,8 @@ Shall I compare thee to a summer's day?      xuUSuuuSUx
 
 Ten syllables carrying two stresses the dictionary will vouch for. Paradise Lost supplies tens of
 thousands of such gaps and settles easily; fourteen lines supply twenty-eight and settle into nothing.
-Under that method **12,621 of 18,108 poems came back unnamed** — and they were not the obscure ones,
-they were the short ones.
+Scanned that way, **roughly two thirds of this library returns no metre at all** — and not the obscure
+poems but the short ones, which is to say the lyric.
 
 ### Proposing metres instead of measuring gaps
 
@@ -193,7 +187,9 @@ LibriVox recording, along with the reader's name and the project.
 Alignment is by transcription: the recording is transcribed, the transcript matched against the known
 text, and the matched words carry their timings back to the lines. A reading is kept only when at least
 90% of the poem's words are found in it, which rejects bad microphones, bad rooms, heavy stumbling, and
-readers working from a different edition. Around 78% of attempts pass.
+readers working from a different edition. The rate at which readings pass depends on how a book was
+recorded: above 90% for the single-reader projects, nearer 65% where LibriVox has only a collaborative
+recording, and 78% taken across the library as a whole.
 
 Two offsets travel with each poem. `start` is where the poem's first line begins, after the spoken
 LibriVox announcement. `title`, where present, is the span in which the reader names the poem, which may
