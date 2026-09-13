@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Sephestia’s Lullaby, and other poems</title><author>Robert Greene</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="samela" n="L15977">
+      <head>Samela</head>
+      <idno type="URN">urn:laurel:eng:greene.obev-robert-greene.pg66619:samela</idno><idno type="laurel-id">L15977</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abcabcdecdec">
+        <l n="1" real="xx-+-xx+-x" met="-+-+-+-+-+">Like to Diana in her summer weed,</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">Girt with a crimson robe of brightest dye,</l>
+        <l n="3" real="xxxxx" met="-+-+-">Goes fair Samela.</l>
+        <l n="4" real="+-xxxxxxxx" met="-+-+-+-+-+">Whiter than be the flocks that straggling feed</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">When wash’d by Arethusa faint they lie,</l>
+        <l n="6" real="xxxxx" met="-+-+-">Is fair Samela.</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">As fair Aurora in her morning grey,</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">Deck’d with the ruddy glister of her love</l>
+        <l n="9" real="xxxxx" met="-+-+-">Is fair Samela;</l>
+        <l n="10" real="x+-+-xxxx" met="+-+-+-+-+">Like lovely Thetis on a calmèd day</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Whenas her brightness Neptune’s fancy move,</l>
+        <l n="12" real="xxxxx" met="-+-+-">Shines fair Samela.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabcdecdec">
+        <l n="13" real="x+-xxxx+-x" met="-+-+-+-+-+">Her tresses gold, her eyes like glassy streams,</l>
+        <l n="14" real="xxxxxxx+--" met="-+-+-+-+-+">Her teeth are pearl, the breasts are ivory</l>
+        <l n="15" real="xxxxx" met="-+-+-">Of fair Samela;</l>
+        <l n="16" real="xxxxx+-xxx" met="-+-+-+-+-+">Her cheeks like rose and lily yield forth gleams;</l>
+        <l n="17" real="xxx+-xx+--" met="-+-+-+-+-+">Her brows bright arches framed of ebony.</l>
+        <l n="18" real="xxxxx" met="-+-+-">Thus fair Samela</l>
+        <l n="19" real="xxx+-xx+-x" met="-+-+-+-+-+">Passeth fair Venus in her bravest hue,</l>
+        <l n="20" real="x+-xxxx+--" met="-+-+-+-+-+">And Juno in the show of majesty</l>
+        <l n="21" real="xxxxx" met="-+-+-">(For she’s Samela!),</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">Pallas in wit,--all three, if you well view,</l>
+        <l n="23" real="x+-xxxx+--" met="-+-+-+-+-+">For beauty, wit, and matchless dignity,</l>
+        <l n="24" real="xxxxx" met="-+-+-">Yield to Samela.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fawnia" n="L15978">
+      <head>Fawnia</head>
+      <idno type="URN">urn:laurel:eng:greene.obev-robert-greene.pg66619:fawnia</idno><idno type="laurel-id">L15978</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="xxx+--xxxx" met="-+-+-+-+-+">Ah! were she pitiful as she is fair,</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Or but as mild as she is seeming so,</l>
+        <l n="3" real="xxxx+-xx-+" met="-+-+-+-+-+">Then were my hopes greater than my despair,</l>
+        <l n="4" real="xxxxx+-+-x" met="-+-+-+-+-+">Then all the world were heaven, nothing woe.</l>
+        <l n="5" real="xxxx-+-xxx" met="-+-+-+-+-+">Ah! were her heart relenting as her hand,</l>
+        <l n="6" real="xxxx+xx+-x" met="-+-+-+-+-+">That seems to melt even with the mildest touch,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Then knew I where to seat me in a land</l>
+        <l n="8" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Under wide heavens, but yet there is not such.</l>
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">So as she shows she seems the budding rose,</l>
+        <l n="10" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Yet sweeter far than is an earthly flower;</l>
+        <l n="11" real="+-x+-xxxxx" met="-+-+-+-+-+">Sovran of beauty, like the spray she grows;</l>
+        <l n="12" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Compass’d she is with thorns and canker’d flower.</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">Yet were she willing to be pluck’d and worn,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">She would be gather’d, though she grew on thorn.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcdee">
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">Ah! when she sings, all music else be still,</l>
+        <l n="16" real="xxxxxxxxx" met="+-+-+-+-+">For none must be comparèd to her note;</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">Ne’er breathed such glee from Philomela’s bill,</l>
+        <l n="18" real="xxx+-+-+-x" met="-+-+-+-+-+">Nor from the morning-singer’s swelling throat.</l>
+        <l n="19" real="xxxxxxx+-x" met="-+-+-+-+-+">Ah! when she riseth from her blissful bed</l>
+        <l n="20" real="x+-xxxxxxx" met="-+-+-+-+-+">She comforts all the world as doth the sun,</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">And at her sight the night’s foul vapour’s fled;</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">When she is set the gladsome day is done.</l>
+        <l n="23" real="x+-x-+-xxx" met="-+-+-+-+-+">O glorious sun, imagine me the west,</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">Shine in my arms, and set thou in my breast!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sephestias-lullaby" n="L15979">
+      <head>Sephestia’s Lullaby</head>
+      <idno type="URN">urn:laurel:eng:greene.obev-robert-greene.pg66619:sephestias-lullaby</idno><idno type="laurel-id">L15979</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbaaccbb">
+        <l n="1" real="xxx+-xxxxx" met="--+-+-+-+-">Weep not, my wanton, smile upon my knee;</l>
+        <l n="2" real="xxxxxx-+xx" met="--+-+-+-+-">When thou art old there’s grief enough for thee.</l>
+        <l n="3" real="+-x+-x" met="-+-+-+">Mother’s wag, pretty boy,</l>
+        <l n="4" real="+-+-+-x" met="-+-+-+-">Father’s sorrow, father’s joy;</l>
+        <l n="5" real="xx+-xxx" met="-+-+-+-">When thy father first did see</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">Such a boy by him and me,</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">He was glad, I was woe;</l>
+        <l n="8" real="+-xxxx" met="-+-+-+">Fortune changèd made him so,</l>
+        <l n="9" real="xxxx+-x" met="-+-+-+-">When he left his pretty boy,</l>
+        <l n="10" real="xx+-xxx" met="-+-+-+-">Last his sorrow, first his joy.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddee">
+        <l n="11" real="xxx+-xxxxx" met="--+-+-+-+-">Weep not, my wanton, smile upon my knee;</l>
+        <l n="12" real="xxxxxx-+xx" met="--+-+-+-+-">When thou art old there’s grief enough for thee.</l>
+        <l n="13" real="+-xx+-x" met="-+-+-+-">Streaming tears that never stint,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">Like pearl-drops from a flint,</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">Fell by course from his eyes,</l>
+        <l n="16" real="xx-+-x-+" met="--+-+-+-">That one another’s place supplies;</l>
+        <l n="17" real="xxxx+-x" met="-+-+-+-">Thus he grieved in every part,</l>
+        <l n="18" real="xxxxxxx" met="-+-+-+-">Tears of blood fell from his heart,</l>
+        <l n="19" real="xxxx+-x" met="-+-+-+-">When he left his pretty boy,</l>
+        <l n="20" real="+-+-+-x" met="-+-+-+-">Father’s sorrow, father’s joy.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddee">
+        <l n="21" real="xxx+-xxxxx" met="--+-+-+-+-">Weep not, my wanton, smile upon my knee;</l>
+        <l n="22" real="xxxxxx-+xx" met="--+-+-+-+-">When thou art old there’s grief enough for thee.</l>
+        <l n="23" real="x+-x+-x" met="-+-+-+-">The wanton smiled, father wept,</l>
+        <l n="24" real="+-x+-x" met="-+-+-+">Mother cried, baby leapt;</l>
+        <l n="25" real="xxxxxx" met="-+-+-+">More he crow’d, more we cried,</l>
+        <l n="26" real="+-xx+-x" met="-+-+-+-">Nature could not sorrow hide:</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">He must go, he must kiss</l>
+        <l n="28" real="xx+-+-x" met="-+-+-+-">Child and mother, baby bliss,</l>
+        <l n="29" real="xxxx+-x" met="-+-+-+-">For he left his pretty boy,</l>
+        <l n="30" real="+-+-+-x" met="-+-+-+-">Father’s sorrow, father’s joy.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa">
+        <l n="31" real="xxx+-xxxxx" met="--+-+-+-+-">Weep not, my wanton, smile upon my knee,</l>
+        <l n="32" real="xxxxxx-+xx" met="--+-+-+-+-">When thou art old there’s grief enough for thee.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

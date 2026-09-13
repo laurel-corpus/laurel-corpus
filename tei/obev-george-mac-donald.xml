@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>That Holy Thing</title><author>George Mac Donald</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="that-holy-thing" n="L16239">
+      <head>That Holy Thing</head>
+      <idno type="URN">urn:laurel:eng:donald.obev-george-mac-donald.pg66619:that-holy-thing</idno><idno type="laurel-id">L16239</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">They all were looking for a king</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">To slay their foes and lift them high:</l>
+        <l n="3" real="xxx+-+-x" met="-+-+-+-+">Thou cam’st, a little baby thing</l>
+        <l n="4" real="xxx+-x" met="--+-+-">That made a woman cry.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">O Son of Man, to right my lot</l>
+        <l n="6" real="xxx+-x-+" met="-+-+-+-+">Naught but Thy presence can avail;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Yet on the road Thy wheels are not,</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Nor on the sea Thy sail!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">My how or when Thou wilt not heed,</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">But come down Thine own secret stair,</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">That Thou mayst answer all my need--</l>
+        <l n="12" real="x+--+xx" met="+-+-+-+">Yea, every bygone prayer.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

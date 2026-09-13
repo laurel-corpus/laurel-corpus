@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Hue and Cry after Fair Amoret, and other poems</title><author>William Congreve</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="false-though-she-be" n="L16143">
+      <head>False though She be</head>
+      <idno type="URN">urn:laurel:eng:congreve.obev-william-congreve.pg66619:false-though-she-be</idno><idno type="laurel-id">L16143</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">False though she be to me and love,</l>
+        <l n="2" real="xx-+-+" met="--+-+-">I’ll ne’er pursue revenge;</l>
+        <l n="3" real="xxx+-x-+" met="-+-+-+-+">For still the charmer I approve,</l>
+        <l n="4" real="xx-+xx" met="--+-+-">Though I deplore her change.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xxxxxx" met="-+-+-+-+-">In hours of bliss we oft have met:</l>
+        <l n="6" real="xxx+xx" met="--+-+-">They could not always last;</l>
+        <l n="7" real="xxx+-x-+" met="-+-+-+-+">And though the present I regret,</l>
+        <l n="8" real="x+-xxx" met="--+-+-">I’m grateful for the past.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-hue-and-cry-after-fair-amoret" n="L16144">
+      <head>A Hue and Cry after Fair Amoret</head>
+      <idno type="URN">urn:laurel:eng:congreve.obev-william-congreve.pg66619:a-hue-and-cry-after-fair-amoret</idno><idno type="laurel-id">L16144</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx-+" met="-+-+-+-+">Fair Amoret is gone astray--</l>
+        <l n="2" real="-+xxxxx+-" met="-+-+-+-+-">Pursue and seek her, ev’ry lover;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">I’ll tell the signs by which you may</l>
+        <l n="4" real="xxxxxx-+-" met="-+-+-+-+-">The wand’ring Shepherdess discover.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Coquette and coy at once her air,</l>
+        <l n="6" real="x+-xxx-+-" met="-+-+-+-+-">Both studied, tho’ both seem neglected;</l>
+        <l n="7" real="+-xxx+-x" met="-+-+-+-+">Careless she is, with artful care,</l>
+        <l n="8" real="-+-xxx-+-" met="-+-+-+-+-">Affecting to seem unaffected.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">With skill her eyes dart ev’ry glance,</l>
+        <l n="10" real="xxxxxx-+x" met="-+-+-+-+-">Yet change so soon you’d ne’er suspect them,</l>
+        <l n="11" real="xx-+xxxx" met="-+-+-+-+">For she’d persuade they wound by chance,</l>
+        <l n="12" real="x+-xxx-+x" met="-+-+-+-+-">Tho’ certain aim and art direct them.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx-+x+-x" met="-+-+-+-+">She likes herself, yet others hates</l>
+        <l n="14" real="xxxx-+x+-" met="-+-+-+-+-">For that which in herself she prizes;</l>
+        <l n="15" real="xxxxxx-+" met="-+-+-+-+">And, while she laughs at them, forgets</l>
+        <l n="16" real="xxxxxx-+-" met="-+-+-+-+-">She is the thing that she despises.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

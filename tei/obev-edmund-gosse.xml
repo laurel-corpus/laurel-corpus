@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Revelation</title><author>Edmund Gosse</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="revelation" n="L16272">
+      <head>Revelation</head>
+      <idno type="URN">urn:laurel:eng:gosse.obev-edmund-gosse.pg66619:revelation</idno><idno type="laurel-id">L16272</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababbcbc">
+        <l n="1" real="xxx+-x" met="-+-+-+">Into the silver night</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">She brought with her pale hand</l>
+        <l n="3" real="x+xxxx" met="-+-+-+">The topaz lanthorn-light,</l>
+        <l n="4" real="x+-+-xxx" met="--+-+-+-">And darted splendour o’er the land;</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Around her in a band,</l>
+        <l n="6" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Ringstraked and pied, the great soft moths came flying,</l>
+        <l n="7" real="x+-xxxxx" met="--+-+-+-">And flapping with their mad wings, fann’d</l>
+        <l n="8" real="x+--x-+-+-+-" met="--+-+-+-+-+-">The flickering flame, ascending, falling, dying.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababbcbc">
+        <l n="9" real="xxx+-x" met="-+-+-+">Behind the thorny pink</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">Close wall of blossom’d may,</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">I gazed thro’ one green chink</l>
+        <l n="12" real="xxxxx+-x" met="--+-+-+-">And saw no more than thousands may,--</l>
+        <l n="13" real="x+-+-xx" met="-+-+-+-">Saw sweetness, tender and gay,--</l>
+        <l n="14" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Saw full rose lips as rounded as the cherry,</l>
+        <l n="15" real="x+-xxxxx" met="--+-+-+-">Saw braided locks more dark than bay,</l>
+        <l n="16" real="x+-x+--xx+-" met="-+-+-+-+-+-">And flashing eyes decorous, pure, and merry.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababbcbc">
+        <l n="17" real="xxx+-x" met="-+-+-+">With food for furry friends</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">She pass’d, her lamp and she,</l>
+        <l n="19" real="xxx+-x" met="-+-+-+">Till eaves and gable-ends</l>
+        <l n="20" real="xxx+-xxx" met="--+-+-+-">Hid all that saffron sheen from me:</l>
+        <l n="21" real="xxx+-x" met="-+-+-+">Around my rosy tree</l>
+        <l n="22" real="xxx+-+-xx+-" met="-+-+-+-+-+-">Once more the silver-starry night was shining,</l>
+        <l n="23" real="xxx+-+-xx" met="-+-+-+-+-">With depths of heaven, dewy and free,</l>
+        <l n="24" real="x+-xxxxx-+-" met="-+-+-+-+-+-">And crystals of a carven moon declining.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababbcbc">
+        <l n="25" real="-+xxxx" met="-+-+-+">Alas! for him who dwells</l>
+        <l n="26" real="x+-xxx" met="-+-+-+">In frigid air of thought,</l>
+        <l n="27" real="x+-x-+" met="-+-+-+">When warmer light dispels</l>
+        <l n="28" real="x+-xx+-x" met="--+-+-+-">The frozen calm his spirit sought;</l>
+        <l n="29" real="xxx+-x" met="-+-+-+">By life too lately taught</l>
+        <l n="30" real="xxx-+-+-xx+-" met="--+-+-+-+-+-">He sees the ecstatic Human from him stealing;</l>
+        <l n="31" real="xxxx-+--x" met="-+-+-+-+-">Reels from the joy experience brought,</l>
+        <l n="32" real="xxxxxxxx-+-" met="-+-+-+-+-+-">And dares not clutch what Love was half revealing.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

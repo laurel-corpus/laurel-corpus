@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Reunited</title><author>Gilbert Parker</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="reunited" n="L16280">
+      <head>Reunited</head>
+      <idno type="URN">urn:laurel:eng:parker.obev-gilbert-parker.pg66619:reunited</idno><idno type="laurel-id">L16280</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbac-dcefefdd">
+        <l n="1" real="xxxxxxx+-+-" met="-+-+-+-+-+-">When you and I have play’d the little hour,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Have seen the tall subaltern Life to Death</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Yield up his sword; and, smiling, draw the breath,</l>
+        <l n="4" real="xxxxx+-xx+-" met="-+-+-+-+-+-">The first long breath of freedom; when the flower</l>
+        <l n="5" real="x+-xx+-x+x" met="-+-+-+-+-+">Of Recompense hath flutter’d to our feet,</l>
+        <l n="6" real="xxx+-xx+-x" met="-+-+-+-+-+">As to an actor’s; and, the curtain down,</l>
+        <l n="7" real="xxxxx+-x-+" met="-+-+-+-+-+">We turn to face each other all alone--</l>
+        <l n="8" real="-+xxx+-xxx" met="-+-+-+-+-+">Alone, we two, who never yet did meet,</l>
+        <l n="9" real="-+x+-xxxxx" met="-+-+-+-+-+">Alone, and absolute, and free: O then,</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">O then, most dear, how shall be told the tale?</l>
+        <l n="11" real="xxxxxxxx-+" met="-+-+-+-+-+">Clasp’d hands, press’d lips, and so clasp’d hands again;</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">No words. But as the proud wind fills the sail,</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">My love to yours shall reach, then one deep moan</l>
+        <l n="14" real="xxxx++---+" met="-+-+-+-+-+">Of joy, and then our infinite Alone.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

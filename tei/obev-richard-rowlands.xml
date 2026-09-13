@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Lullaby</title><author>Richard Rowlands</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="lullaby" n="L15987">
+      <head>Lullaby</head>
+      <idno type="URN">urn:laurel:eng:rowlands.obev-richard-rowlands.pg66619:lullaby</idno><idno type="laurel-id">L15987</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-abb">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Upon my lap my sovereign sits</l>
+        <l n="2" real="xxxxxx" met="--+-+-">And sucks upon my breast;</l>
+        <l n="3" real="+xxx-+xx" met="-+-+-+-+">Meantime his love maintains my life</l>
+        <l n="4" real="xxxxxx" met="--+-+-">And gives my sense her rest.</l>
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, my little boy,</l>
+        <l n="6" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, mine only joy!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-abb">
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">When thou hast taken thy repast,</l>
+        <l n="8" real="-+xxxx" met="--+-+-">Repose, my babe, on me;</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">So may thy mother and thy nurse</l>
+        <l n="10" real="x+-+-x" met="--+-+-">Thy cradle also be.</l>
+        <l n="11" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, my little boy,</l>
+        <l n="12" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, mine only joy!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-abb">
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">I grieve that duty doth not work</l>
+        <l n="14" real="xxx+-x" met="--+-+-">All that my wishing would;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Because I would not be to thee</l>
+        <l n="16" real="xxxxxx" met="--+-+-">But in the best I should.</l>
+        <l n="17" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, my little boy,</l>
+        <l n="18" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, mine only joy!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-abb">
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">Yet as I am, and as I may,</l>
+        <l n="20" real="xxxxxx" met="--+-+-">I must and will be thine,</l>
+        <l n="21" real="xxx+-xxx" met="-+-+-+-+">Though all too little for thyself</l>
+        <l n="22" real="xxxxxx" met="--+-+-">Vouchsafing to be mine.</l>
+        <l n="23" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, my little boy,</l>
+        <l n="24" real="x+-xx+-x" met="-+-+-+-+">Sing lullaby, mine only joy!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

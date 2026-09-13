@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Welcome, and other poems</title><author>William Browne, of Tavistock</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-welcome" n="L16051">
+      <head>A Welcome</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:a-welcome</idno><idno type="laurel-id">L16051</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-aa">
+        <l n="1" real="xx+-xxx" met="+-+-+-+">_Far more welcome than the spring;_</l>
+        <l n="2" real="xxxxxx+-" met="+-+-+-+-">_He that parteth from you never_</l>
+        <l n="3" real="x-+xxx+-" met="+-+-+-+-">_Shall enjoy a spring for ever._</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-">
+        <l n="4" real="xxxxxxx" met="+-+-+-+">He that to the voice is near</l>
+        <l n="5" real="+-xxxxx" met="+-+-+-+">Breaking from your iv’ry pale,</l>
+        <l n="6" real="xxx-+xx" met="+-+-+-+">Need not walk abroad to hear</l>
+        <l n="7" real="x-+-+--" met="+-+-+-+">The delightful nightingale.</l>
+        <l n="8" real="+-+-x" met="+-+--">_Welcome, welcome, then...._</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab-">
+        <l n="9" real="xxxxxxx" met="+-+-+-+">He that looks still on your eyes,</l>
+        <l n="10" real="xx+-x-+" met="+-+-+-+">Though the winter have begun</l>
+        <l n="11" real="xxx+-+--" met="+-+-+-+-">To benumb our arteries,</l>
+        <l n="12" real="xxxx+-x" met="+-+-+-+">Shall not want the summer’s sun.</l>
+        <l n="13" real="+-+-x" met="+-+--">_Welcome, welcome, then...._</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab-">
+        <l n="14" real="xxxxxxx" met="+-+-+-+">He that still may see your cheeks,</l>
+        <l n="15" real="xx+-xxxx" met="+-+-+-+-">Where all rareness still reposes,</l>
+        <l n="16" real="xxxxxxx" met="+-+-+-+">Is a fool if e’er he seeks</l>
+        <l n="17" real="+-+-+-+-" met="+-+-+-+-">Other lilies, other roses.</l>
+        <l n="18" real="+-+-x" met="+-+--">_Welcome, welcome, then...._</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab-">
+        <l n="19" real="xxxxxxx" met="+-+-+-+">He to whom your soft lip yields,</l>
+        <l n="20" real="x-+xxx+-" met="+-+-+-+-">And perceives your breath in kissing,</l>
+        <l n="21" real="xx+-xxx" met="+-+-+-+">All the odours of the fields</l>
+        <l n="22" real="+-+-xx+-" met="+-+-+-+-">Never, never shall be missing.</l>
+        <l n="23" real="+-+-x" met="+-+--">_Welcome, welcome, then...._</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab-">
+        <l n="24" real="xx+-x-+" met="+-+-+-+">He that question would anew</l>
+        <l n="25" real="xx+-xxx" met="+-+-+-+">What fair Eden was of old,</l>
+        <l n="26" real="xx+-+-x" met="+-+-+-+">Let him rightly study you,</l>
+        <l n="27" real="xxxxx-+" met="+-+-+-+">And a brief of that behold.</l>
+        <l n="28" real="+-+-x" met="+-+--">_Welcome, welcome, then...._</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sirens-song" n="L16052">
+      <head>The Sirens’ Song</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:the-sirens-song</idno><idno type="laurel-id">L16052</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababccddee">
+        <l n="1" real="x+-xxxx" met="+-+-+-+">Steer, hither steer your wingèd pines,</l>
+        <l n="2" real="x+-+--" met="--+-+-">All beaten mariners!</l>
+        <l n="3" real="xxxx-+-x" met="-+-+-+-+">Here lie Love’s undiscover’d mines,</l>
+        <l n="4" real="xxx+--" met="--+-+-">A prey to passengers--</l>
+        <l n="5" real="-+x+-xxx" met="-+-+-+-+">Perfumes far sweeter than the best</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Which make the Phœnix’ urn and nest.</l>
+        <l n="7" real="xxxx" met="--+-">Fear not your ships,</l>
+        <l n="8" real="x+-x-+xx+-x" met="-+-+-+-+-+-">Nor any to oppose you save our lips;</l>
+        <l n="9" real="xxxx" met="--+-">But come on shore,</l>
+        <l n="10" real="xxxxxxx+-x" met="--+-+-+-+-">Where no joy dies till Love hath gotten more.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababccddee">
+        <l n="11" real="x+-x+-+-x" met="-+-+-+-+-">For swelling waves our panting breasts,</l>
+        <l n="12" real="x+-x-+" met="--+-+-">Where never storms arise,</l>
+        <l n="13" real="-+xx-++-x" met="-+-+-+-+-">Exchange, and be awhile our guests:</l>
+        <l n="14" real="xxxx+-x" met="+-+-+-+">For stars gaze on our eyes.</l>
+        <l n="15" real="x+-xx+-x" met="-+-+-+-+">The compass Love shall hourly sing,</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">And as he goes about the ring,</l>
+        <l n="17" real="xxxx" met="--+-">We will not miss</l>
+        <l n="18" real="xxxxxxxxxx" met="--+-+-+-+-">To tell each point he nameth with a kiss.</l>
+        <l n="19" real="xxxx" met="--+-">--Then come on shore,</l>
+        <l n="20" real="xxxxxxx+-x" met="--+-+-+-+-">Where no joy dies till Love hath gotten more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-rose" n="L16053">
+      <head>The Rose</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:the-rose</idno><idno type="laurel-id">L16053</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">A rose, as fair as ever saw the North,</l>
+        <l n="2" real="xxx+-+-x-+" met="-+-+-+-+-+">Grew in a little garden all alone;</l>
+        <l n="3" real="x+-+x+-xxx" met="-+-+-+-+-+">A sweeter flower did Nature ne’er put forth,</l>
+        <l n="4" real="x+-+-xx+-x" met="-+-+-+-+-+">Nor fairer garden yet was never known:</l>
+        <l n="5" real="x+-xxxxxxx" met="-+-+-+-+-+">The maidens danced about it morn and noon.</l>
+        <l n="6" real="xxxxxx+-x" met="+-+-+-+-+">And learnèd bards of it their ditties made;</l>
+        <l n="7" real="x+-+-xxxxx" met="-+-+-+-+-+">The nimble fairies by the pale-faced moon</l>
+        <l n="8" real="+-xxxxx+-x" met="-+-+-+-+-+">Water’d the root and kiss’d her pretty shade.</l>
+        <l n="9" real="xxxxx+-+-x" met="-+-+-+-+-+">But well-a-day!--the gardener careless grew;</l>
+        <l n="10" real="xxx+-xxx-+" met="-+-+-+-+-+">The maids and fairies both were kept away,</l>
+        <l n="11" real="xxxxx+-x-x" met="-+-+-+-+-+">And in a drought the caterpillars threw</l>
+        <l n="12" real="-+xxxxx+-x" met="-+-+-+-+-+">Themselves upon the bud and every spray.</l>
+        <l n="13" real="xxxxx+xx-+" met="-+-+-+-+-+">God shield the stock! If heaven send no supplies,</l>
+        <l n="14" real="x+-+-xx+-x" met="-+-+-+-+-+">The fairest blossom of the garden dies.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song" n="L16054">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:song</idno><idno type="laurel-id">L16054</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abbabb">
+        <l n="1" real="xxxxxx+-" met="+-+-+-+-">For her gait, if she be walking;</l>
+        <l n="2" real="xx+-x-+x" met="+-+-+-+-">Be she sitting, I desire her</l>
+        <l n="3" real="xxxxx-+x" met="+-+-+-+-">For her state’s sake; and admire her</l>
+        <l n="4" real="xxxxxx+-" met="+-+-+-+-">For her wit if she be talking;</l>
+        <l n="5" real="xxxxx-+x" met="+-+-+-+-">Gait and state and wit approve her;</l>
+        <l n="6" real="xxxxxxxx" met="+-+-+-+-">For which all and each I love her.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--aaa">
+        <l n="7" real="xx+-x-+x" met="+-+-+-+-">Be she sullen, I commend her</l>
+        <l n="8" real="xx+-xx+-" met="+-+-+-+-">For a modest. Be she merry,</l>
+        <l n="9" real="xxxxx-+x" met="+-+-+-+-">For a kind one her prefer I.</l>
+        <l n="10" real="+-+-xxxx" met="+-+-+-+-">Briefly, everything doth lend her</l>
+        <l n="11" real="xxxxx-+x" met="+-+-+-+-">So much grace, and so approve her,</l>
+        <l n="12" real="xx+-xxxx" met="+-+-+-+-">That for everything I love her.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="memory" n="L16055">
+      <head>Memory</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:memory</idno><idno type="laurel-id">L16055</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababb-">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">So shuts the marigold her leaves</l>
+        <l n="2" real="xx-+-xxx" met="-+-+-+-+">At the departure of the sun;</l>
+        <l n="3" real="xxx+-x-x" met="-+-+-+-+">So from the honeysuckle sheaves</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">The bee goes when the day is done;</l>
+        <l n="5" real="xxx+-xxxxx" met="--+-+-+-+-">So sits the turtle when she is but one,</l>
+        <l n="6" real="xxxxxxxxxx" met="--+-+-+-+-">And so all woe, as I since she is gone.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">To some few birds kind Nature hath</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">Made all the summer as one day:</l>
+        <l n="9" real="xx-+x+-x" met="-+-+-+-+">Which once enjoy’d, cold winter’s wrath</l>
+        <l n="10" real="xxx+-x-+" met="-+-+-+-+">As night they sleeping pass away.</l>
+        <l n="11" real="x+-+-xxxxx" met="--+-+-+-+-">Those happy creatures are, that know not yet</l>
+        <l n="12" real="xxxx-+xx-+" met="--+-+-+-+-">The pain to be deprived or to forget.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-abb">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">I oft have heard men say there be</l>
+        <l n="14" real="xxx+---+" met="-+-+-+-+">Some that with confidence profess</l>
+        <l n="15" real="x+-xx+--" met="-+-+-+-+">The helpful Art of Memory:</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">But could they teach Forgetfulness,</l>
+        <l n="17" real="xxxxx+-xxx" met="--+-+-+-+-">I’d learn; and try what further art could do</l>
+        <l n="18" real="xxxxxx-+xx" met="--+-+-+-+-">To make me love her and forget her too.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="19" real="+-x" met="-+-">_Epitaphs_</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="in-obitum-m-s-xo-maij-1614" n="L16056">
+      <head>In Obitum M.S. Xº Maij, 1614</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:in-obitum-m-s-xo-maij-1614</idno><idno type="laurel-id">L16056</idno>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+-xxxxx">May! Be thou never graced with birds that sing,</l>
+        <l n="2" real="xxxx">Nor Flora’s pride!</l>
+        <l n="3" real="xxx+-x+-x">In thee all flowers and roses spring,</l>
+        <l n="4" real="x+-x">Mine only died.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-the-countess-dowager-of-pembroke" n="L16057">
+      <head>On the Countess Dowager of Pembroke</head>
+      <idno type="URN">urn:laurel:eng:tavistock.obev-william-browne-of-tavistock.pg66619:on-the-countess-dowager-of-pembroke</idno><idno type="laurel-id">L16057</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc">
+        <l n="1" real="x-+x+-x" met="+-+-+-+">Underneath this sable herse</l>
+        <l n="2" real="xx-+xxx" met="+-+-+-+">Lies the subject of all verse:</l>
+        <l n="3" real="xx+-xx+-" met="+-+-+-+-">Sidney’s sister, Pembroke’s mother:</l>
+        <l n="4" real="xxxxx-+-" met="+-+-+-+-">Death, ere thou hast slain another</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Fair and learn’d and good as she,</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">Time shall throw a dart at thee.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

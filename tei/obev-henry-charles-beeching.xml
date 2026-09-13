@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Going down Hill on a Bicycle, and other poems</title><author>Henry Charles Beeching</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="prayers" n="L16276">
+      <head>Prayers</head>
+      <idno type="URN">urn:laurel:eng:beeching.obev-henry-charles-beeching.pg66619:prayers</idno><idno type="laurel-id">L16276</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababbcbc">
+        <l n="1" real="xx-+-x" met="-+-+-+">God who created me</l>
+        <l n="2" real="+-xxxx" met="-+-+-+">Nimble and light of limb,</l>
+        <l n="3" real="xx+--x" met="-+-+-+">In three elements free,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">To run, to ride, to swim:</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Not when the sense is dim,</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">But now from the heart of joy,</l>
+        <l n="7" real="xx-+-x" met="-+-+-+">I would remember Him:</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Take the thanks of a boy.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababbcbc">
+        <l n="9" real="xxxxx" met="+-+-+">Jesu, King and Lord,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Whose are my foes to fight,</l>
+        <l n="11" real="xxxxx" met="+-+-+">Gird me with Thy sword</l>
+        <l n="12" real="xxxxx" met="+-+-+">Swift and sharp and bright.</l>
+        <l n="13" real="xxxxxxx" met="-+-+-+-">Thee would I serve if I might;</l>
+        <l n="14" real="x+-xxx" met="-+-+-+">And conquer if I can,</l>
+        <l n="15" real="xxxxx" met="+-+-+">From day-dawn till night,</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Take the strength of a man.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababbcbc">
+        <l n="17" real="+-xxxx" met="-+-+-+">Spirit of Love and Truth,</l>
+        <l n="18" real="+-x+-x" met="-+-+-+">Breathing in grosser clay,</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">The light and flame of youth,</l>
+        <l n="20" real="-+xxxxx" met="-+-+-+-">Delight of men in the fray,</l>
+        <l n="21" real="+-xx-+" met="-+-+-+">Wisdom in strength’s decay;</l>
+        <l n="22" real="xxxxxxx" met="-+-+-+-">From pain, strife, wrong to be free,</l>
+        <l n="23" real="xxxxx" met="+-+-+">This best gift I pray,</l>
+        <l n="24" real="xx+-xx" met="-+-+-+">Take my spirit to Thee.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="going-down-hill-on-a-bicycle" n="L16277">
+      <head>Going down Hill on a Bicycle</head>
+      <idno type="URN">urn:laurel:eng:beeching.obev-henry-charles-beeching.pg66619:going-down-hill-on-a-bicycle</idno><idno type="laurel-id">L16277</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx" met="-+-">A BOY’S SONG</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="2" real="x+-xxx" met="-+-+-+">With lifted feet, hands still,</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">I am poised, and down the hill</l>
+        <l n="4" real="xxxxx" met="+-+-+">Dart, with heedful mind;</l>
+        <l n="5" real="xxxxxxx" met="-+-+-+-">The air goes by in a wind.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="6" real="+-xxxx" met="-+-+-+">Swifter and yet more swift,</l>
+        <l n="7" real="xxxxx+-x" met="--+-+-+-">Till the heart with a mighty lift</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">Makes the lungs laugh, the throat cry:--</l>
+        <l n="9" real="xxxxxxx" met="-+-+-+-">‘O bird, see; see, bird, I fly.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="10" real="xxxxxx" met="-+-+-+">‘Is this, is this your joy?</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">O bird, then I, though a boy,</l>
+        <l n="12" real="xx+-+-x" met="-+-+-+-">For a golden moment share</l>
+        <l n="13" real="x+--xxx" met="-+-+-+-">Your feathery life in air!’</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="14" real="xxxxxxx" met="-+-+-+-">Say, heart, is there aught like this</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">In a world that is full of bliss?</l>
+        <l n="16" real="xxx+-x" met="-+-+-+">’Tis more than skating, bound</l>
+        <l n="17" real="xxxx+-x" met="-+-+-+-">Steel-shod to the level ground.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="18" real="x+-xxx" met="-+-+-+">Speed slackens now, I float</l>
+        <l n="19" real="-+xx+-x" met="-+-+-+-">Awhile in my airy boat;</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Till, when the wheels scarce crawl,</l>
+        <l n="21" real="xxxxxx" met="-+-+-+">My feet to the treadles fall.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabb">
+        <l n="22" real="-+xx+-x" met="-+-+-+-">Alas, that the longest hill</l>
+        <l n="23" real="xxxxxxx" met="-+-+-+-">Must end in a vale; but still,</l>
+        <l n="24" real="xxxxxxx" met="-+-+-+-">Who climbs with toil, wheresoe’er,</l>
+        <l n="25" real="xxx+-x" met="-+-+-+">Shall find wings waiting there.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

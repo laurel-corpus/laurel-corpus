@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Fallen Star, and other poems</title><author>George Darley</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16196">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:darley.obev-george-darley.pg66619:song</idno><idno type="laurel-id">L16196</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx+x+-xx" met="--+-+-+-+-+-">Sweet in her green dell the flower of beauty slumbers,</l>
+        <l n="2" real="xxxx+-+-xxx" met="-+-+-+-+-+-">Lull’d by the faint breezes sighing through her hair;</l>
+        <l n="3" real="xxxxxx+-x-+-" met="--+-+-+-+-+-">Sleeps she and hears not the melancholy numbers</l>
+        <l n="4" real="x-xxxxxx+-x" met="-+-+-+-+-+-">Breathed to my sad lute ’mid the lonely air.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">Down from the high cliffs the rivulet is teeming</l>
+        <l n="6" real="xxxx+xxxxxxxx" met="-+-+-+-+-+-+-">To wind round the willow banks that lure him from above:</l>
+        <l n="7" real="xxxxxx+-+-+-" met="--+-+-+-+-+-">O that in tears, from my rocky prison streaming,</l>
+        <l n="8" real="xxxxxx+-xxx" met="-+-+-+-+-+-">I too could glide to the bower of my love!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxx+-xxxx" met="--+-+-+-+-+-">Ah! where the woodbines with sleepy arms have wound her,</l>
+        <l n="10" real="xxx+xxxxxxx" met="-+-+-+-+-+-">Opes she her eyelids at the dream of my lay,</l>
+        <l n="11" real="+-xxxxx+-+-xx" met="-+-+-+-+-+-+-">Listening, like the dove, while the fountains echo round her,</l>
+        <l n="12" real="xxxxxxx+-x-+" met="--+-+-+-+-+-">To her lost mate’s call in the forests far away.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxxxxx+-xx" met="--+-+-+-+-+-">Come then, my bird! For the peace thou ever bearest,</l>
+        <l n="14" real="x+-+--x+-xx" met="-+-+-+-+-+-">Still Heaven’s messenger of comfort to me--</l>
+        <l n="15" real="xxx+-xxxxx+-" met="--+-+-+-+-+-">Come--this fond bosom, O faithfullest and fairest,</l>
+        <l n="16" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Bleeds with its death-wound, its wound of love for thee!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-helene" n="L16197">
+      <head>To Helene</head>
+      <idno type="URN">urn:laurel:eng:darley.obev-george-darley.pg66619:to-helene</idno><idno type="laurel-id">L16197</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a-a---">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">I sent a ring--a little band</l>
+        <l n="2" real="x+-x+-x" met="+-+-+-+">Of emerald and ruby stone,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">And bade it, sparkling on thy hand,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Tell thee sweet tales of one</l>
+        <l n="5" real="x+-+--" met="--+-+-">Whose constant memory</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">Was full of loveliness, and thee.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab--">
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">A shell was graven on its gold,--</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">’Twas Cupid fix’d without his wings--</l>
+        <l n="9" real="x-+xxxxx" met="-+-+-+-+">To Helene once it would have told</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">More than was ever told by rings:</l>
+        <l n="11" real="xxxxxx" met="--+-+-">But now all’s past and gone,</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Her love is buried with that stone.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Thou shalt not see the tears that start</l>
+        <l n="14" real="xxxxxx-+" met="-+-+-+-+">From eyes by thoughts like these beguiled;</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">Thou shalt not know the beating heart,</l>
+        <l n="16" real="+-x+-xxx" met="-+-+-+-+">Ever a victim and a child:</l>
+        <l n="17" real="x-+x-+" met="--+-+-">Yet Helene, love, believe</l>
+        <l n="18" real="xxx+-x-+" met="-+-+-+-+">The heart that never could deceive.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="--a--a">
+        <l n="19" real="xxxxx+--" met="-+-+-+-+">I’ll hear thy voice of melody</l>
+        <l n="20" real="xxx+-xxx" met="-+-+-+-+">In the sweet whispers of the air;</l>
+        <l n="21" real="xxx+-xxx" met="-+-+-+-+">I’ll see the brightness of thine eye</l>
+        <l n="22" real="xxx+-+-x" met="-+-+-+-+">In the blue evening’s dewy star;</l>
+        <l n="23" real="x+-xx+--" met="-+-+-+-+">In crystal streams thy purity;</l>
+        <l n="24" real="xxx+xxxx" met="-+-+-+-+">And look on Heaven to look on thee.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-fallen-star" n="L16198">
+      <head>The Fallen Star</head>
+      <idno type="URN">urn:laurel:eng:darley.obev-george-darley.pg66619:the-fallen-star</idno><idno type="laurel-id">L16198</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="aaaa">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">A star is gone! a star is gone!</l>
+        <l n="2" real="xxxxx+-" met="+-+-+-+">There is a blank in Heaven;</l>
+        <l n="3" real="xxx+-+xx" met="-+-+-+-+">One of the cherub choir has done</l>
+        <l n="4" real="x+-xx+-" met="+-+-+-+">His airy course this even.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxx+-" met="-+-+-+-+-">He sat upon the orb of fire</l>
+        <l n="6" real="xxx+-x" met="--+-+-">That hung for ages there,</l>
+        <l n="7" real="xxx+-xx+-" met="-+-+-+-+-">And lent his music to the choir</l>
+        <l n="8" real="xxx+-x" met="--+-+-">That haunts the nightly air.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">But when his thousand years are pass’d,</l>
+        <l n="10" real="xx-+-x" met="--+-+-">With a cherubic sigh</l>
+        <l n="11" real="x+-xxxxx" met="-+-+-+-+">He vanish’d with his car at last,</l>
+        <l n="12" real="x+-+-x" met="--+-+-">For even cherubs die!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxx+-+-x" met="-+-+-+-+">Hear how his angel-brothers mourn--</l>
+        <l n="14" real="x+-xxx" met="--+-+-">The minstrels of the spheres--</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">Each chiming sadly in his turn</l>
+        <l n="16" real="x+-+-x" met="--+-+-">And dropping splendid tears.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="x+-x-+-x" met="-+-+-+-+">The planetary sisters all</l>
+        <l n="18" real="xxx+-x" met="--+-+-">Join in the fatal song,</l>
+        <l n="19" real="xxx+-+-x" met="-+-+-+-+">And weep this hapless brother’s fall,</l>
+        <l n="20" real="xxxxxx" met="--+-+-">Who sang with them so long.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="x+-xx+-x" met="-+-+-+-+">But deepest of the choral band</l>
+        <l n="22" real="x+-+-x" met="--+-+-">The Lunar Spirit sings,</l>
+        <l n="23" real="xxxx-+-x" met="-+-+-+-+">And with a bass-according hand</l>
+        <l n="24" real="xxx+-x" met="--+-+-">Sweeps all her sullen strings.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxx+-xxx" met="-+-+-+-+">From the deep chambers of the dome</l>
+        <l n="26" real="x+-xxx" met="--+-+-">Where sleepless Uriel lies,</l>
+        <l n="27" real="xx-+-+-x" met="-+-+-+-+">His rude harmonic thunders come</l>
+        <l n="28" real="+--x+-x" met="+-+-+-+">Mingled with mighty sighs.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="x+-xxxxx" met="-+-+-+-+">The thousand car-borne cherubim,</l>
+        <l n="30" real="x+---+-" met="+-+-+-+">The wandering eleven,</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">All join to chant the dirge of him</l>
+        <l n="32" real="xxxxx+-" met="+-+-+-+">Who fell just now from Heaven.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

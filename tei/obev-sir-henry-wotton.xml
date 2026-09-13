@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Character of a Happy Life, and other poems</title><author>Sir Henry Wotton</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="elizabeth-of-bohemia" n="L16000">
+      <head>Elizabeth of Bohemia</head>
+      <idno type="URN">urn:laurel:eng:wotton.obev-sir-henry-wotton.pg66619:elizabeth-of-bohemia</idno><idno type="laurel-id">L16000</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababb">
+        <l n="1" real="x+-+-xxx" met="-+-+-+-+">You meaner beauties of the night,</l>
+        <l n="2" real="x+-+-x+x" met="-+-+-+-+">That poorly satisfy our eyes</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">More by your number than your light,</l>
+        <l n="4" real="x+-+-xxx" met="-+-+-+-+">You common people of the skies;</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">What are you when the moon shall rise?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababb">
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">You curious chanters of the wood,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">That warble forth Dime Nature’s lays,</l>
+        <l n="8" real="+-x+-x-+" met="-+-+-+-+">Thinking your passions understood</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">By your weak accents; what’s your praise</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">When Philomel her voice shall raise?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababb">
+        <l n="11" real="x+--xx-+" met="-+-+-+-+">You violets that first appear,</l>
+        <l n="12" real="xxx+-+-x" met="-+-+-+-+">By your pure purple mantles known</l>
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">Like the proud virgins of the year,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">As if the spring were all your own;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">What are you when the rose is blown?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababb">
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">So, when my mistress shall be seen</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">In form and beauty of her mind,</l>
+        <l n="18" real="x+-xxxxx" met="-+-+-+-+">By virtue first, then choice, a Queen,</l>
+        <l n="19" real="xxxxxx-+" met="-+-+-+-+">Tell me, if she were not design’d</l>
+        <l n="20" real="-+x+-xxx" met="-+-+-+-+">Th’ eclipse and glory of her kind.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-character-of-a-happy-life" n="L16001">
+      <head>The Character of a Happy Life</head>
+      <idno type="URN">urn:laurel:eng:wotton.obev-sir-henry-wotton.pg66619:the-character-of-a-happy-life</idno><idno type="laurel-id">L16001</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">How happy is he born and taught</l>
+        <l n="2" real="xxxx-+-x" met="-+-+-+-+">That serveth not another’s will;</l>
+        <l n="3" real="x+-xx+-x" met="-+-+-+-+">Whose armour is his honest thought,</l>
+        <l n="4" real="x+-xx+xx" met="-+-+-+-+">And simple truth his utmost skill!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">Whose passions not his masters are;</l>
+        <l n="6" real="xxxx-+xx" met="-+-+-+-+">Whose soul is still prepared for death,</l>
+        <l n="7" real="-+xxxxxx" met="-+-+-+-+">Untied unto the world by care</l>
+        <l n="8" real="x+-xx+-x" met="-+-+-+-+">Of public fame or private breath;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababc-c-">
+        <l n="9" real="xxxxxxx" met="+-+-+-+">Who envies none that chance doth raise,</l>
+        <l n="10" real="xxx+-x-+" met="-+-+-+-+">Nor vice; who never understood</l>
+        <l n="11" real="x+-xx+xx" met="-+-+-+-+">How deepest wounds are given by praise;</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">Nor rules of state, but rules of good;</l>
+        <l n="13" real="xxxxxx-x" met="-+-+-+-+">Who hath his life from rumours freed;</l>
+        <l n="14" real="x+-xxx-+" met="-+-+-+-+">Whose conscience is his strong retreat;</l>
+        <l n="15" real="xxx+-xxxx" met="-+-+-+-+-">Whose state can neither flatterers feed,</l>
+        <l n="16" real="x+-x-+-x" met="-+-+-+-+">Nor ruin make oppressors great;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">Who God doth late and early pray</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">More of His grace than gifts to lend;</l>
+        <l n="19" real="xx-+x+-x" met="-+-+-+-+">And entertains the harmless day</l>
+        <l n="20" real="xx-+-xxx" met="-+-+-+-+">With a religious book or friend;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="21" real="xxxxx+-x" met="-+-+-+-+">--This man is freed from servile bands</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">Of hope to rise or fear to fall:</l>
+        <l n="23" real="xx-+xxxx" met="-+-+-+-+">Lord of himself, though not of lands,</l>
+        <l n="24" real="x+-+-xxx" met="-+-+-+-+">And having nothing, yet hath all.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="upon-the-death-of-sir-albert-mortons-wife" n="L16002">
+      <head>Upon the Death of Sir Albert Morton’s Wife</head>
+      <idno type="URN">urn:laurel:eng:wotton.obev-sir-henry-wotton.pg66619:upon-the-death-of-sir-albert-mortons-wife</idno><idno type="laurel-id">L16002</idno>
+      <lg type="stanza" n="1" rhyme="aa">
+        <l n="1" real="xx-+xxx+-x">He first deceased; she for a little tried</l>
+        <l n="2" real="xxxxxxxxxx">To live without him, liked it not, and died.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

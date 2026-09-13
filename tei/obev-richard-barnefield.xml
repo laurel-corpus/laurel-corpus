@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Philomel</title><author>Richard Barnefield</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="philomel" n="L16016">
+      <head>Philomel</head>
+      <idno type="URN">urn:laurel:eng:barnefield.obev-richard-barnefield.pg66619:philomel</idno><idno type="laurel-id">L16016</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhddhhiijjccii">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">As it fell upon a day</l>
+        <l n="2" real="xx+-xxx" met="+-+-+-+">In the merry month of May,</l>
+        <l n="3" real="+-xx+-x" met="+-+-+-+">Sitting in a pleasant shade</l>
+        <l n="4" real="xxxx+-x" met="+-+-+-+">Which a grove of myrtles made,</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Beasts did leap and birds did sing,</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">Trees did grow and plants did spring;</l>
+        <l n="7" real="+-xx+-x" met="+-+-+-+">Everything did banish moan</l>
+        <l n="8" real="xx+---+" met="+-+-+-+">Save the Nightingale alone:</l>
+        <l n="9" real="xxxxx-+" met="+-+-+-+">She, poor bird, as all forlorn</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">Lean’d her breast up-till a thorn,</l>
+        <l n="11" real="xxxxxxx+-" met="-+-+-+-+-">And there sung the dolefull’st ditty,</l>
+        <l n="12" real="xxxxxx+-" met="-+-+-+-+">That to hear it was great pity.</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">_Fie, fie, fie!_ now would she cry;</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">_Tereu, Tereu!_ by and by;</l>
+        <l n="15" real="xxxxx-+" met="+-+-+-+">That to hear her so complain</l>
+        <l n="16" real="xxxxx-+" met="+-+-+-+">Scarce I could from tears refrain;</l>
+        <l n="17" real="xxxx+-x" met="+-+-+-+">For her griefs so lively shown</l>
+        <l n="18" real="xxxxxxx" met="+-+-+-+">Made me think upon mine own.</l>
+        <l n="19" real="xxxxxxx" met="+-+-+-+">Ah! thought I, thou mourn’st in vain,</l>
+        <l n="20" real="xx+-xxx" met="+-+-+-+">None takes pity on thy pain:</l>
+        <l n="21" real="+-xx+-xx" met="-+-+-+-+">Senseless trees they cannot hear thee,</l>
+        <l n="22" real="+-xxxxxx" met="-+-+-+-+">Ruthless beasts they will not cheer thee:</l>
+        <l n="23" real="xxxxxx" met="--+-+-">King Pandion he is dead,</l>
+        <l n="24" real="xxxxxxx" met="+-+-+-+">All thy friends are lapp’d in lead;</l>
+        <l n="25" real="xx+-xxx" met="+-+-+-+">All thy fellow birds do sing</l>
+        <l n="26" real="+-xxxxx" met="+-+-+-+">Careless of thy sorrowing:</l>
+        <l n="27" real="+-xxxxx" met="+-+-+-+">Even so, poor bird, like thee,</l>
+        <l n="28" real="x-+x+-x" met="+-+-+-+">None alive will pity me.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

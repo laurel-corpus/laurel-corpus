@@ -1,0 +1,2491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Young Adventure</title><author>Stephen Vincent Benét</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Young Adventure: A Book of Poems. Project Gutenberg ebook #312. <ref target="https://www.gutenberg.org/ebooks/312">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="prefatory-note" n="L13376">
+      <head>Prefatory Note</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:prefatory-note</idno><idno type="laurel-id">L13376</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-+x++-+xxx+-x" met="-+-+-+-+-+-+-+-">This poem received the nineteenth award of the prize offered by</l>
+        <l n="2" real="-+-+-xxxxxxx-+-xxx" met="--+-+-+-+-+-+-+-+-">Professor Albert Stanburrough Cook to Yale University for the best</l>
+        <l n="3" real="-+-xx-+-x-+-+-x-+-xx">unpublished verse, the Committee of Award consisting of Professors C. F.</l>
+        <l n="4" real="+-xxxx-+-+-xx+-+-x" met="--+-+-+-+-+-+-+-+-">Tucker Brooke, of Yale University, Robert Frost, of Amherst College, and</l>
+        <l n="5" real="xxxxxxx-+-xx-+-" met="-+-+-+-+-+-+-+-">Charles M. Gayley, of the University of California.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="xxxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+-">&quot;Oh yes, I went over to Edmonstoun the other day and saw</l>
+        <l n="7" real="+-xxxxx+-xx+xx" met="--+-+-+-+-+-+-">Johnny, mooning around as usual!  He will never make his</l>
+        <l n="8" real="x" met="+">way.&quot;</l>
+        <l n="9" real="+-xxx" met="-+-+-">--Letter of George Keats, 18--</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Night falls; the great jars glow against the dark,</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Dark green, dusk red, and, like a coiling snake,</l>
+        <l n="12" real="+--+--x+-x" met="-+-+-+-+-+">Writhing eternally in smoky gyres,</l>
+        <l n="13" real="xxx+-+-xxx" met="-+-+-+-+-+">Great ropes of gorgeous vapor twist and turn</l>
+        <l n="14" real="xxxxx+-+-x" met="-+-+-+-+-+">Within them.  So the Eastern fisherman</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">Saw the swart genie rise when the lead seal,</l>
+        <l n="16" real="+-xxx+-xxx" met="-+-+-+-+-+">Scribbled with charms, was lifted from the jar;</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">And -- well, how went the tale?  Like this, like this?...</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abaab">
+        <l n="18" real="xxxxx+-xxx" met="-+-+-+-+-+">No herbage broke the barren flats of land,</l>
+        <l n="19" real="xxx+-xx+-x" met="-+-+-+-+-+">No winds dared loiter within smiling trees,</l>
+        <l n="20" real="xxx+-xx+-x" met="-+-+-+-+-+">Nor were there any brooks on either hand,</l>
+        <l n="21" real="+-xxxx" met="--+-+-">Only the dry, bright sand,</l>
+        <l n="22" real="+-x+-xxxxx" met="-+-+-+-+-+">Naked and golden, lay before the seas.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abaab">
+        <l n="23" real="xxxxxxx-+xx" met="-+-+-+-+-+-">One boat toiled noiselessly along the deep,</l>
+        <l n="24" real="x+-+-+-+--" met="-+-+-+-+-+">The thirsty ripples dying silently</l>
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">Upon its track.  Far out the brown nets sweep,</l>
+        <l n="26" real="xx-+xx" met="--+-+-">And night begins to creep</l>
+        <l n="27" real="-+x-+-+-xxx" met="-+-+-+-+-+-">Across the intolerable mirror of the sea.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abaab">
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Twice the nets rise, a-trail with sea-plants brown,</l>
+        <l n="29" real="-+-xxxxxxx" met="-+-+-+-+-+">Distorted shells, and rocks green-mossed with slime,</l>
+        <l n="30" real="xxx+-xxxxx" met="-+-+-+-+-+">Nought else.  The fisher, sick at heart, kneels down;</l>
+        <l n="31" real="xx-+xx" met="--+-+-">&quot;Prayer may appease God&#x27;s frown,&quot;</l>
+        <l n="32" real="xxx+-xxxxx" met="-+-+-+-+-+">He thinks, then, kneeling, casts for the third time.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abaab">
+        <l n="33" real="xxx+-xxxxx" met="-+-+-+-+-+">And lo! an earthen jar, bound round with brass,</l>
+        <l n="34" real="x+-xx+-xxx" met="-+-+-+-+-+">Lies tangled in the cordage of his net.</l>
+        <l n="35" real="xxxxxxx+-x" met="-+-+-+-+-+">About the bright waves gleam like shattered glass,</l>
+        <l n="36" real="xxxxxx" met="--+-+-">And where the sea&#x27;s rim was</l>
+        <l n="37" real="xxxxxxxxxx" met="-+-+-+-+-+">The sun dips, flat and red, about to set.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a--a">
+        <l n="38" real="xxxxxxx+-x" met="-+-+-+-+-+">The prow grates on the beach.  The fisherman</l>
+        <l n="39" real="x+-xxxxxxx" met="-+-+-+-+-+">Stoops, tearing at the cords that bind the seal.</l>
+        <l n="40" real="xxxx+-xxxx" met="-+-+-+-+-+">Shall pearls roll out, lustrous and white and wan?</l>
+        <l n="41" real="+-xxx" met="-+-+-">Lapis? carnelian?</l>
+        <l n="42" real="-+xxxxxxxx" met="-+-+-+-+-+">Unheard-of stones that make the sick mind reel</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abaab">
+        <l n="43" real="x+-xx+-+-x" met="-+-+-+-+-+">With wonder of their beauty?  Rubies, then?</l>
+        <l n="44" real="x+-+-xxxxx" met="-+-+-+-+-+">Green emeralds, glittering like the eyes of beasts?</l>
+        <l n="45" real="+--xxxx+-x" met="-+-+-+-+-+">Poisonous opals, good to madden men?</l>
+        <l n="46" real="xxxxxx" met="--+-+-">Gold bezants, ten and ten?</l>
+        <l n="47" real="x+-+-x+-x" met="+-+-+-+-+">Hard, regal diamonds, like kingly feasts?</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="a-aa-">
+        <l n="48" real="xxxxxxx+-x" met="-+-+-+-+-+">He tugged; the seal gave way.  A little smoke</l>
+        <l n="49" real="xxx+-xx+-x" met="-+-+-+-+-+">Curled like a feather in the darkening sky.</l>
+        <l n="50" real="x+-xx+xxxx" met="-+-+-+-+-+">A blinding gush of fire burst, flamed, and broke.</l>
+        <l n="51" real="xxxxxx" met="--+-+-">A voice like a wind spoke.</l>
+        <l n="52" real="+-xxxxx+--" met="-+-+-+-+-+">Armored with light, and turbaned terribly,</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abaab">
+        <l n="53" real="x+-xxxxx-+" met="-+-+-+-+-+">A genie tramped the round earth underfoot;</l>
+        <l n="54" real="xxxxxxxxxx" met="-+-+-+-+-+">His head sought out the stars, his cupped right hand</l>
+        <l n="55" real="xxxxx+-xxx" met="-+-+-+-+-+">Made half the sky one darkness.  He was mute.</l>
+        <l n="56" real="xxx+-x" met="--+-+-">The sun, a ripened fruit,</l>
+        <l n="57" real="x-+-+-xxxx" met="-+-+-+-+-+">Drooped lower.  Scarlet eddied o&#x27;er the sand.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abaab">
+        <l n="58" real="x+-xx+---x" met="-+-+-+-+-+">The genie spoke:  &quot;O miserable one!</l>
+        <l n="59" real="xx-+xxxxxx" met="-+-+-+-+-+">Thy prize awaits thee; come, and hug it close!</l>
+        <l n="60" real="x+-xxx-xxx" met="-+-+-+-+-+">A noble crown thy draggled nets have won</l>
+        <l n="61" real="xxxxxx" met="--+-+-">For this that thou hast done.</l>
+        <l n="62" real="x-xxxx-+xx" met="-+-+-+-+-+">Blessed are fools!  A gift remains for those!&quot;</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abaab">
+        <l n="63" real="xxxxxxx+-x" met="-+-+-+-+-+">His hand sought out his sword, and lightnings flared</l>
+        <l n="64" real="-+xxxxxxx+-" met="-+-+-+-+-+-">Across the sky in one great bloom of fire.</l>
+        <l n="65" real="xxx+-+-xxx" met="-+-+-+-+-+">Poised like a toppling mountain, it hung bared;</l>
+        <l n="66" real="xxx+-x" met="--+-+-">Suns that were jewels glared</l>
+        <l n="67" real="-+xxxxxxx+-" met="-+-+-+-+-+-">Along its hilt.  The air burnt like a pyre.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abaab--">
+        <l n="68" real="xxx+-x+-xx" met="-+-+-+-+-+">Once more the genie spoke:  &quot;Something I owe</l>
+        <l n="69" real="xxxxxxxxxx" met="-+-+-+-+-+">To thee, thou fool, thou fool.  Come, canst thou sing?</l>
+        <l n="70" real="xxxxxxxxxx" met="-+-+-+-+-+">Yea?  Sing then; if thy song be brave, then go</l>
+        <l n="71" real="xx-+xx" met="--+-+-">Free and released -- or no!</l>
+        <l n="72" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Find first some task, some overmastering thing</l>
+        <l n="73" real="x+-xxxx+--" met="-+-+-+-+-+">I cannot do, and find it speedily,</l>
+        <l n="74" real="xxxxxxx+-x" met="-+-+-+-+-+">For if thou dost not thou shalt surely die!&quot;</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abaab">
+        <l n="75" real="xxxxx+-xxx" met="-+-+-+-+-+">The sword whirled back.  The fisherman uprose,</l>
+        <l n="76" real="xxxxxxxxxx" met="-+-+-+-+-+">And if at first his voice was weak with fear</l>
+        <l n="77" real="xxx+-xxxxx" met="-+-+-+-+-+">And his limbs trembled, it was but a doze,</l>
+        <l n="78" real="xxxxxx" met="--+-+-">And at the high song&#x27;s close</l>
+        <l n="79" real="xxxxxxxxxx" met="-+-+-+-+-+">He stood up straight.  His voice rang loud and clear.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song" n="L13377">
+      <head>The Song</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-song</idno><idno type="laurel-id">L13377</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">Last night the quays were lighted;</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">Cressets of smoking pine</l>
+        <l n="3" real="x-xx+-+--" met="-+-+-+-+-">Glared o&#x27;er the roaring mariners</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">That drink the yellow wine.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-" met="-+-+-+-">Their song rolled to the rafters,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">It struck the high stars pale,</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">Such worth was in their discourse,</l>
+        <l n="8" real="x+-xxx" met="-+-+-+">Such wonder in their tale.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxx-xxxx" met="-+-+-+-+-">Blue borage filled the clinking cups,</l>
+        <l n="10" real="x+-xxx" met="-+-+-+">The murky night grew wan,</l>
+        <l n="11" real="xxxx-x+-x" met="-+-+-+-+-">Till one rose, crowned with laurel-leaves,</l>
+        <l n="12" real="xxx+xx" met="-+-+-+">That was an outland man.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">&quot;Come, let us drink to war!&quot; said he,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">&quot;The torch of the sacked town!</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">The swan&#x27;s-bath and the wolf-ships,</l>
+        <l n="16" real="x+-x-+" met="-+-+-+">And Harald of renown!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxxxxx" met="--+-+-+-">&quot;Yea, while the milk was on his lips,</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">Before the day was born,</l>
+        <l n="19" real="xxxxx+-x" met="--+-+-+-">He took the Almayne Kaiser&#x27;s head</l>
+        <l n="20" real="xxx+-x" met="-+-+-+">To be his drinking-horn!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxxxxxxx" met="--+-+-+-">&quot;Yea, while the down was on his chin,</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">Or yet his beard was grown,</l>
+        <l n="23" real="xxxxxxxx" met="--+-+-+-">He broke the gates of Micklegarth,</l>
+        <l n="24" real="xxx+-x" met="-+-+-+">And stole the lion-throne!</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="25" real="xx+-xxxx" met="--+-+-+-">&quot;Drink to Harald, king of the world,</l>
+        <l n="26" real="xxxxxxx" met="-+-+-+-">Lord of the tongue and the troth!</l>
+        <l n="27" real="xx+--xxxxx" met="--+-+-+-+-">To the bellowing horns of Ostfriesland,</l>
+        <l n="28" real="xx+-xxx" met="-+-+-+-">And the trumpets of the Goth!&quot;</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a">
+        <l n="29" real="xxxxx+-" met="-+-+-+-">Their shouts rolled to the rafters,</l>
+        <l n="30" real="xxxxxx" met="-+-+-+">The drink-horns crashed and rang,</l>
+        <l n="31" real="xxxxxxxxxx" met="--+-+-+-+-">And all their talk was a clangor of war,</l>
+        <l n="32" real="xx-+-x" met="-+-+-+">As swords together sang!</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="x+-xxxx" met="-+-+-+-">But dimly, through the deep night,</l>
+        <l n="34" real="xxx+-x" met="-+-+-+">Where stars like flowers shone,</l>
+        <l n="35" real="x+--xx+-" met="--+-+-+-">A passionate shape came gliding --</l>
+        <l n="36" real="xxxx-+" met="-+-+-+">I saw one thing alone.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="x+-xxxx" met="-+-+-+-">I only saw my young love</l>
+        <l n="38" real="+-xxxx" met="-+-+-+">Shining against the dark,</l>
+        <l n="39" real="x+-xxxx" met="-+-+-+-">The whiteness of her raiment,</l>
+        <l n="40" real="xxxxxx" met="-+-+-+">The head that bent to hark.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a">
+        <l n="41" real="x+-xxxx" met="-+-+-+-">I only saw my young love,</l>
+        <l n="42" real="x+-xxx" met="-+-+-+">Like flowers in the sun --</l>
+        <l n="43" real="xxxxx+-" met="-+-+-+-">Her hands like waxen petals,</l>
+        <l n="44" real="x+-+-x" met="-+-+-+">Where yawning poppies run.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="45" real="x+-xxxx" met="-+-+-+-">I only felt there, chrysmal,</l>
+        <l n="46" real="xxxxxx" met="-+-+-+">Against my cheek her breath,</l>
+        <l n="47" real="xxxxx+-" met="-+-+-+-">Though all the winds were baying,</l>
+        <l n="48" real="xxxxxx" met="-+-+-+">And the sky bright with Death.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="49" real="xxxxx+-" met="-+-+-+-">Red sparks whirled up the chimney,</l>
+        <l n="50" real="x+-xxx" met="-+-+-+">A hungry flaught of flame,</l>
+        <l n="51" real="xxxxxx-+" met="--+-+-+-">And a lean man from Greece arose;</l>
+        <l n="52" real="xxxxxx" met="-+-+-+">Thrasyllos was his name.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="-a-a">
+        <l n="53" real="xxx+-xxx" met="--+-+-+-">&quot;I praise all noble wines!&quot; he cried,</l>
+        <l n="54" real="xxx+xx" met="-+-+-+">&quot;Green robes of tissue fine,</l>
+        <l n="55" real="+xxxx+--" met="--+-+-+-">Peacocks and apes and ivory,</l>
+        <l n="56" real="x+-xxx" met="-+-+-+">And Homer&#x27;s sea-loud line,</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a">
+        <l n="57" real="+xxxxxxx" met="--+-+-+-">&quot;Statues and rings and carven gems,</l>
+        <l n="58" real="xxx+-x" met="-+-+-+">And the wise crawling sea;</l>
+        <l n="59" real="xxxxxxxx" met="--+-+-+-">But most of all the crowns of kings,</l>
+        <l n="60" real="xxxxxx" met="-+-+-+">The rule they wield thereby!</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="-a-a">
+        <l n="61" real="+-+--+-xxx" met="--+-+-+-+-">&quot;Power, fired power, blank and bright!</l>
+        <l n="62" real="xxxxxx" met="-+-+-+">A fit hilt for the hand!</l>
+        <l n="63" real="xxxxxx+-" met="--+-+-+-">The one good sword for a freeman,</l>
+        <l n="64" real="xxxxxx" met="-+-+-+">While yet the cold stars stand!&quot;</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="xxxxx+-" met="-+-+-+-">Their shouts rolled to the rafters,</l>
+        <l n="66" real="xxxxxx" met="-+-+-+">The air was thick with wine.</l>
+        <l n="67" real="x+-xxxx" met="-+-+-+-">I only knew her deep eyes,</l>
+        <l n="68" real="xxxxxx" met="-+-+-+">And felt her hand in mine.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="-a-a">
+        <l n="69" real="+-x+-+-" met="-+-+-+-">Softly as quiet water,</l>
+        <l n="70" real="x+-xxx" met="-+-+-+">One finger touched my cheek;</l>
+        <l n="71" real="xxx+-+x" met="-+-+-+-">Her face like gracious moonlight --</l>
+        <l n="72" real="xxxxxx" met="-+-+-+">I might not move nor speak.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a">
+        <l n="73" real="x+-xx+-" met="-+-+-+-">I only saw that beauty,</l>
+        <l n="74" real="x+-xxx" met="-+-+-+">I only felt that form</l>
+        <l n="75" real="xxx+-+-" met="-+-+-+-">There, in the silken darkness --</l>
+        <l n="76" real="xxxxxx" met="-+-+-+">God wot my heart was warm!</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="-a-a">
+        <l n="77" real="xxxxx+-" met="-+-+-+-">Their shouts rolled to the rafters,</l>
+        <l n="78" real="-+-x-+" met="-+-+-+">Another chief began;</l>
+        <l n="79" real="xxxx-xxxx" met="-+-+-+-+-">His slit lips showed him for a Hun;</l>
+        <l n="80" real="xxx+-x" met="-+-+-+">He was an evil man.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="-a-a">
+        <l n="81" real="xxxxx+-xx-" met="--+-+-+-+-">&quot;Sing to the joys of women!&quot; he yelled,</l>
+        <l n="82" real="xx-+-x" met="-+-+-+">&quot;The hot delicious tents,</l>
+        <l n="83" real="xxxxxxx" met="-+-+-+-">The soft couch, and the white limbs;</l>
+        <l n="84" real="xxxxxx" met="-+-+-+">The air a steam of scents!&quot;</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="-a-a">
+        <l n="85" real="xxx-xxxxx" met="-+-+-+-+-">His eyes gleamed, and he wet his lips,</l>
+        <l n="86" real="x+-xxx" met="-+-+-+">The rafters shook with cheers,</l>
+        <l n="87" real="xxxx+-xxxx" met="--+-+-+-+-">As he sang of woman, who is man&#x27;s slave</l>
+        <l n="88" real="xxxxxx" met="-+-+-+">For all unhonored years.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="-a-a">
+        <l n="89" real="xxx+-xxx" met="--+-+-+-">&quot;Whether the wanton laughs amain,</l>
+        <l n="90" real="xxx+-x" met="-+-+-+">With one white shoulder bare,</l>
+        <l n="91" real="xxxx-xxxx" met="-+-+-+-+-">Or in a sacked room you unbind</l>
+        <l n="92" real="x+-+-x" met="-+-+-+">Some crouching maiden&#x27;s hair;</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="-a-a">
+        <l n="93" real="xxx+-xxx" met="--+-+-+-">&quot;This is the only good for man,</l>
+        <l n="94" real="x+-xxx" met="-+-+-+">Like spices of the South --</l>
+        <l n="95" real="xxx+--+-x" met="-+-+-+-+-">To see the glimmering body laid</l>
+        <l n="96" real="x+-xxx" met="-+-+-+">As pasture to his mouth!</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="-a-a">
+        <l n="97" real="xxxxxxxx" met="--+-+-+-">&quot;To leave no lees within the cup,</l>
+        <l n="98" real="xxxxxx" met="-+-+-+">To see and take and rend;</l>
+        <l n="99" real="xxxxxxxx" met="--+-+-+-">To lap a girl&#x27;s limbs up like wine,</l>
+        <l n="100" real="xx+-xx" met="-+-+-+">And laugh, knowing the end!&quot;</l>
+      </lg>
+      <lg type="stanza" n="26">
+        <l n="101" real="+-xxx+-" met="-+-+-+-">Only, like low, still breathing,</l>
+        <l n="102" real="xxxxxx" met="-+-+-+">I heard one voice, one word;</l>
+        <l n="103" real="xxxx-xxxx" met="-+-+-+-+-">And hot speech poured upon my lips,</l>
+        <l n="104" real="xxxxxx" met="-+-+-+">As my hands held a sword.</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="-ab-ba">
+        <l n="105" real="xxxxxxx" met="-+-+-+-">&quot;Fools, thrice fools of lust!&quot; I cried,</l>
+        <l n="106" real="xxxxxx" met="-+-+-+">&quot;Your eyes are blind to see</l>
+        <l n="107" real="-+-+-+-x" met="--+-+-+-">Eternal beauty, moving far,</l>
+        <l n="108" real="x+--xxxx" met="--+-+-+-">More glorious than horns of war!</l>
+        <l n="109" real="xxxxxxxx" met="--+-+-+-">But though my eyes were one blind scar,</l>
+        <l n="110" real="xxxxxx" met="-+-+-+">That sight is shown to me!</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="-abbba">
+        <l n="111" real="x+-xx+--x" met="-+-+-+-+-">&quot;You nuzzle at the ivory side,</l>
+        <l n="112" real="xxx+-x" met="-+-+-+">You clasp the golden head;</l>
+        <l n="113" real="xxx+-xx" met="-+-+-+-">Fools, fools, who chatter and sing,</l>
+        <l n="114" real="xx+-xxxx+-x" met="-+-+-+-+-+-">You have taken the sign of a terrible thing,</l>
+        <l n="115" real="xxxxxxxxx" met="-+-+-+-+-">You have drunk down God with your beeswing,</l>
+        <l n="116" real="x+-xxxx" met="-+-+-+-">And broken the saints for bread!</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="-a-a">
+        <l n="117" real="xxx+-" met="+-+-+">&quot;For God moves darkly,</l>
+        <l n="118" real="x+-xxx" met="-+-+-+">In silence and in storm;</l>
+        <l n="119" real="xxx+-x+-" met="--+-+-+-">But in the body of woman</l>
+        <l n="120" real="xxx+-x" met="-+-+-+">He shows one burning form.</l>
+      </lg>
+      <lg type="stanza" n="30" rhyme="-a-a">
+        <l n="121" real="xxx+-" met="+-+-+">&quot;For God moves blindly,</l>
+        <l n="122" real="x+-xxx" met="-+-+-+">In darkness and in dread;</l>
+        <l n="123" real="xxx+-x+-" met="--+-+-+-">But in the body of woman</l>
+        <l n="124" real="x+-xxx" met="-+-+-+">He raises up the dead.</l>
+      </lg>
+      <lg type="stanza" n="31" rhyme="-a-a">
+        <l n="125" real="+-xxxxx" met="-+-+-+-">&quot;Gracile and straight as birches,</l>
+        <l n="126" real="xxxxxx" met="-+-+-+">Swift as the questing birds,</l>
+        <l n="127" real="xxx+-xxx" met="--+-+-+-">They fill true-lovers&#x27; drink-horns up,</l>
+        <l n="128" real="xxx+-xx" met="-+-+-+-">Who speak not, having no words.</l>
+      </lg>
+      <lg type="stanza" n="32" rhyme="-a-a">
+        <l n="129" real="xxx+--+-" met="--+-+-+-">&quot;Love is not delicate toying,</l>
+        <l n="130" real="xxx+--x" met="-+-+-+-">A slim and shimmering mesh;</l>
+        <l n="131" real="xxxxx-xxx" met="-+-+-+-+-">It is two souls wrenched into one,</l>
+        <l n="132" real="x+-xxx" met="-+-+-+">Two bodies made one flesh.</l>
+      </lg>
+      <lg type="stanza" n="33" rhyme="-a-a">
+        <l n="133" real="xxx+-+-" met="-+-+-+-">&quot;Lust is a sprightly servant,</l>
+        <l n="134" real="+-xxxx" met="-+-+-+">Gallant where wines are poured;</l>
+        <l n="135" real="xxx+-+-" met="-+-+-+-">Love is a bitter master,</l>
+        <l n="136" real="xxx+-x" met="-+-+-+">Love is an iron lord.</l>
+      </lg>
+      <lg type="stanza" n="34" rhyme="-abbba">
+        <l n="137" real="+-xxx+-" met="-+-+-+-">&quot;Satin ease of the body,</l>
+        <l n="138" real="+-xxxx" met="-+-+-+">Fattened sloth of the hands,</l>
+        <l n="139" real="xxxxxxxx" met="--+-+-+-">These and their like he will not send,</l>
+        <l n="140" real="+--+-+-xx" met="-+-+-+-+-">Only immortal fires to rend --</l>
+        <l n="141" real="xxxxxx+-x" met="-+-+-+-+-">And the world&#x27;s end is your journey&#x27;s end,</l>
+        <l n="142" real="xxxxxxx" met="-+-+-+-">And your stream chokes in the sands.</l>
+      </lg>
+      <lg type="stanza" n="35" rhyme="-a-a">
+        <l n="143" real="xxxx-+x" met="-+-+-+-">&quot;Pleached calms shall not await you,</l>
+        <l n="144" real="xxx+-x" met="-+-+-+">Peace you shall never find;</l>
+        <l n="145" real="xxx+-+x" met="-+-+-+-">Nought but the living moorland</l>
+        <l n="146" real="x+-xxx" met="-+-+-+">Scourged naked by the wind.</l>
+      </lg>
+      <lg type="stanza" n="36" rhyme="-a-a">
+        <l n="147" real="xxx+-+x" met="-+-+-+-">&quot;Nought but the living moorland,</l>
+        <l n="148" real="xxxxxx" met="-+-+-+">And your love&#x27;s hand in yours;</l>
+        <l n="149" real="xxxxx+--" met="--+-+-+-">The strength more sure than surety,</l>
+        <l n="150" real="x+-x-+" met="-+-+-+">The mercy that endures.</l>
+      </lg>
+      <lg type="stanza" n="37" rhyme="-a-a">
+        <l n="151" real="xxxxxxxx-" met="-+-+-+-+-">&quot;Then, though they give you to be burned,</l>
+        <l n="152" real="xxxxxx" met="-+-+-+">And slay you like a stoat,</l>
+        <l n="153" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">You have found the world&#x27;s heart in the turn of a cheek,</l>
+        <l n="154" real="+-xxxxxx" met="--+-+-+-">Heaven in the lift of a throat.</l>
+      </lg>
+      <lg type="stanza" n="38" rhyme="-abb-a">
+        <l n="155" real="xxxxxxxx" met="--+-+-+-">&quot;Although they break you on the wheel,</l>
+        <l n="156" real="xxxxxxx" met="-+-+-+-">That stood so straight in the sun,</l>
+        <l n="157" real="xxxx+-xxx" met="-+-+-+-+-">Behind you the trumpets split the sky,</l>
+        <l n="158" real="xxxx+--xxx" met="--+-+-+-+-">Where the lost and furious fight goes by --</l>
+        <l n="159" real="xx+-xxx+--" met="--+-+-+-+-">And God, our God, will have victory</l>
+        <l n="160" real="xxxxxx" met="-+-+-+">When the red day is done!&quot;</l>
+      </lg>
+      <lg type="stanza" n="39">
+        <l n="161" real="xxxxx+-" met="-+-+-+-">Their mirth rolled to the rafters,</l>
+        <l n="162" real="x+-xxx" met="-+-+-+">They bellowed lechery;</l>
+        <l n="163" real="xxx+-+-" met="-+-+-+-">Light as a drifting feather</l>
+        <l n="164" real="xxxxxx" met="-+-+-+">My love slipped from my knee.</l>
+      </lg>
+      <lg type="stanza" n="40" rhyme="-a-a">
+        <l n="165" real="xxxxx+-" met="-+-+-+-">Within, the lights were yellow</l>
+        <l n="166" real="x+-xxx" met="-+-+-+">In drowsy rooms and warm;</l>
+        <l n="167" real="xxx+-+-" met="-+-+-+-">Without, the stabbing lightning</l>
+        <l n="168" real="+--+xx" met="-+-+-+">Shattered across the storm.</l>
+      </lg>
+      <lg type="stanza" n="41" rhyme="-a-a">
+        <l n="169" real="xxxxx+-" met="-+-+-+-">Within, the great logs crackled,</l>
+        <l n="170" real="xxx+-x" met="-+-+-+">The drink-horns emptied soon;</l>
+        <l n="171" real="xxxxxxxx" met="--+-+-+-">Without, the black cloaks of the clouds</l>
+        <l n="172" real="+-x+-x" met="-+-+-+">Strangled the waning moon.</l>
+      </lg>
+      <lg type="stanza" n="42" rhyme="abab">
+        <l n="173" real="xxxxx+x" met="-+-+-+-">My love crossed o&#x27;er the threshold --</l>
+        <l n="174" real="xxxxxx" met="-+-+-+">God! but the night was murk!</l>
+        <l n="175" real="xxx+xxxx" met="--+-+-+-">I set myself against the cold,</l>
+        <l n="176" real="xxxxxx" met="-+-+-+">And left them to their work.</l>
+      </lg>
+      <lg type="stanza" n="43" rhyme="-aaa">
+        <l n="177" real="xxxxx+-" met="-+-+-+-">Their shouts rolled to the rafters;</l>
+        <l n="178" real="xxxxxxx" met="-+-+-+-">A bitterer way was mine,</l>
+        <l n="179" real="xxxxxx+-" met="--+-+-+-">And I left them in the tavern,</l>
+        <l n="180" real="+-x+-x" met="-+-+-+">Drinking the yellow wine!</l>
+      </lg>
+      <lg type="stanza" n="44" rhyme="abaab">
+        <l n="181" real="xxx+-x-+xx" met="--+-+-+-+-">The last faint echoes rang along the plains,</l>
+        <l n="182" real="xxxxx+-xxx" met="--+-+-+-+-">Died, and were gone.  The genie spoke:  &quot;Thy song</l>
+        <l n="183" real="xx-+xxxx-+" met="--+-+-+-+-">Serves well enough -- but yet thy task remains;</l>
+        <l n="184" real="+-x+-x" met="-+-+-+">Many and rending pains</l>
+        <l n="185" real="x+-xxx-+xx" met="--+-+-+-+-">Shall torture him who dares delay too long!&quot;</l>
+      </lg>
+      <lg type="stanza" n="45" rhyme="abaab">
+        <l n="186" real="xxx+-xx+-x" met="--+-+-+-+-">His brown face hardened to a leaden mask.</l>
+        <l n="187" real="x+-x+-x+-x" met="--+-+-+-+-">A bitter brine crusted the fisher&#x27;s cheek --</l>
+        <l n="188" real="-+-xxx-+xx" met="--+-+-+-+-">&quot;Almighty God, one thing alone I ask,</l>
+        <l n="189" real="xxxxxx" met="-+-+-+">Show me a task, a task!&quot;</l>
+        <l n="190" real="xxxxxxxxxx" met="--+-+-+-+-">The hard cup of the sky shone, gemmed and bleak.</l>
+      </lg>
+      <lg type="stanza" n="46" rhyme="a-aa-">
+        <l n="191" real="xxxxxxx+-x" met="--+-+-+-+-">&quot;O love, whom I have sought by devious ways;</l>
+        <l n="192" real="x+-+-+-xxx" met="--+-+-+-+-">O hidden beauty, naked as a star;</l>
+        <l n="193" real="xxxxxx-+xx" met="--+-+-+-+-">You whose bright hair has burned across my days,</l>
+        <l n="194" real="+-xxxx" met="-+-+-+">Making them lamps of praise;</l>
+        <l n="195" real="xxx+-x-+--" met="--+-+-+-+-">O dawn-wind, breathing of Arabia!</l>
+      </lg>
+      <lg type="stanza" n="47" rhyme="abaab">
+        <l n="196" real="xxxxx+xxxx" met="--+-+-+-+-">&quot;You have I served.  Now fire has parched the vine,</l>
+        <l n="197" real="xxxxx+-xxx" met="--+-+-+-+-">And Death is on the singers and the song.</l>
+        <l n="198" real="x+-xxxxxxx" met="--+-+-+-+-">No longer are there lips to cling to mine,</l>
+        <l n="199" real="xxxxxx" met="-+-+-+">And the heart wearies of wine,</l>
+        <l n="200" real="xxxxxx-+xx" met="--+-+-+-+-">And I am sick, for my desire is long.</l>
+      </lg>
+      <lg type="stanza" n="48" rhyme="a-a--">
+        <l n="201" real="xxx+-+--x+-" met="-+-+-+-+-+-">&quot;O love, soft-moving, delicate and tender!</l>
+        <l n="202" real="xxxxxxxxxxx" met="-+-+-+-+-+-">In her gold house the pipe calls querulously,</l>
+        <l n="203" real="xxxxxxx+-+-" met="-+-+-+-+-+-">They cloud with thin green silks her body slender,</l>
+        <l n="204" real="xxxxxxx" met="-+-+-+-">They talk to her and tend her;</l>
+        <l n="205" real="xxx+-xxxxx" met="--+-+-+-+-">Come, piteous, gentle love, and set me free!&quot;</l>
+      </lg>
+      <lg type="stanza" n="49" rhyme="abaab">
+        <l n="206" real="xxx+-+-xxx" met="--+-+-+-+-">He ceased -- and, slowly rising o&#x27;er the deep,</l>
+        <l n="207" real="xxxxx+-xxx" met="--+-+-+-+-">A faint song chimed, grew clearer, till at last</l>
+        <l n="208" real="x+-xxx-+xx" met="--+-+-+-+-">A golden horn of light began to creep</l>
+        <l n="209" real="xxx+-x" met="-+-+-+">Where the dumb ripples sweep,</l>
+        <l n="210" real="+-xxx+-xxx" met="--+-+-+-+-">Making the sea one splendor where it passed.</l>
+      </lg>
+      <lg type="stanza" n="50" rhyme="abaab">
+        <l n="211" real="x+-xxxx+-x" met="--+-+-+-+-">A golden boat!  The bright oars rested soon,</l>
+        <l n="212" real="xxxxxxx+-x" met="--+-+-+-+-">And the prow met the sand.  The purple veils</l>
+        <l n="213" real="xxx+-xxxxx" met="--+-+-+-+-">Misting the cabin fell.  Fair as the moon</l>
+        <l n="214" real="xx+-xxx" met="-+-+-+-">When the morning comes too soon,</l>
+        <l n="215" real="xxxxx+-xxx" met="--+-+-+-+-">And all the air is silver in the dales,</l>
+      </lg>
+      <lg type="stanza" n="51" rhyme="abaab">
+        <l n="216" real="xxx+-xxxxx" met="--+-+-+-+-">A gold-robed princess stepped upon the beach.</l>
+        <l n="217" real="x+-xxxx+-x" met="--+-+-+-+-">The fisher knelt and kissed her garment&#x27;s hem,</l>
+        <l n="218" real="xxxxxxxxxx" met="--+-+-+-+-">And then her lips, and strove at last for speech.</l>
+        <l n="219" real="x+-xxx" met="-+-+-+">The waters lapped the reach.</l>
+        <l n="220" real="xxxxxxxxxx" met="--+-+-+-+-">&quot;Here thy strength breaks, thy might is nought to stem!&quot;</l>
+      </lg>
+      <lg type="stanza" n="52" rhyme="a-aa-">
+        <l n="221" real="xxxxxxxxxx" met="--+-+-+-+-">He cried at last.  Speech shook him like a flame:</l>
+        <l n="222" real="xxxxxxxxxx" met="--+-+-+-+-">&quot;Yea, though thou plucked the stars from out the sky,</l>
+        <l n="223" real="x+-xxxx+-x" met="--+-+-+-+-">Each lovely one would be a withered shame --</l>
+        <l n="224" real="xxxxxx" met="-+-+-+">Each thou couldst find or name --</l>
+        <l n="225" real="xx+-+-+-+--" met="-+-+-+-+-+-">To this fire-hearted beauty!&quot;  Wearily</l>
+      </lg>
+      <lg type="stanza" n="53" rhyme="aba-b">
+        <l n="226" real="x+-xxxxxxx" met="--+-+-+-+-">The genie heard.  A slow smile came like dawn</l>
+        <l n="227" real="xxxxxxxxxx" met="--+-+-+-+-">Over his face.  &quot;Thy task is done!&quot; he said.</l>
+        <l n="228" real="x+xxx+-xxx" met="--+-+-+-+-">A whirlwind roared, smoke shattered, he was gone;</l>
+        <l n="229" real="xxx+-x" met="-+-+-+">And, like a sudden horn,</l>
+        <l n="230" real="xxxxx+-xxx" met="--+-+-+-+-">The moon shone clear, no longer smoked and red.</l>
+      </lg>
+      <lg type="stanza" n="54" rhyme="ab-ba-">
+        <l n="231" real="xxxxxxxxxx" met="--+-+-+-+-">They passed into the boat.  The gold oars beat</l>
+        <l n="232" real="+-x+-+-xxx" met="--+-+-+-+-">Loudly, then fainter, fainter, till at last</l>
+        <l n="233" real="+-x+-+-+-x" met="--+-+-+-+-">Only the quiet waters barely moved</l>
+        <l n="234" real="-+x+-xxxxx" met="--+-+-+-+-">Along the whispering sand -- till all the vast</l>
+        <l n="235" real="-+xx-+xxxx" met="--+-+-+-+-">Expanse of sea began to shake with heat,</l>
+        <l n="236" real="x+-xxxx+-x" met="--+-+-+-+-">And morning brought soft airs, by sailors loved.</l>
+      </lg>
+      <lg type="stanza" n="55">
+        <l n="237" real="xxxx" met="--+-">And after?...  Well...</l>
+        <l n="238" real="xxxxxx" met="-+-+-+">The shop-bell clangs!  Who comes?</l>
+        <l n="239" real="+xxxx+-+-x" met="--+-+-+-+-">Quinine -- I pour the little bitter grains</l>
+        <l n="240" real="xxxxxxx+-x" met="--+-+-+-+-">Out upon blue, glazed squares of paper.  So.</l>
+        <l n="241" real="xxxxxxxx-+" met="--+-+-+-+-">And all the dusk I shall sit here alone,</l>
+        <l n="242" real="x+-+-xxxxx" met="--+-+-+-+-">With many powers in my hands -- ah, see</l>
+        <l n="243" real="xxx+-xxxxx" met="--+-+-+-+-">How the blurred labels run on the old jars!</l>
+        <l n="244" real="+--xx+x+-x" met="--+-+-+-+-">Opium -- and a cruel and sleepy scent,</l>
+        <l n="245" real="xxxxx+-+--" met="--+-+-+-+-">The harsh taste of white poppies; India --</l>
+        <l n="246" real="x+-xxxx+-x" met="--+-+-+-+-">The writhing woods a-crawl with monstrous life,</l>
+        <l n="247" real="xxxxxxxxx" met="-+-+-+-+-">Save where the deodars are set like spears,</l>
+        <l n="248" real="xxxxx+-+--" met="--+-+-+-+-">And a calm pool is mirrored ebony;</l>
+        <l n="249" real="+--xxxx+-+-" met="-+-+-+-+-+-">Opium -- brown and warm and slender-breasted</l>
+        <l n="250" real="x+-+-xxxx+-" met="-+-+-+-+-+-">She rises, shaking off the cool black water,</l>
+        <l n="251" real="x+-xxxx+-x" met="--+-+-+-+-">And twisting up her hair, that ripples down,</l>
+        <l n="252" real="x+-xx+-xxx" met="--+-+-+-+-">A torrent of black water, to her feet;</l>
+        <l n="253" real="xxx+-xx+xx" met="--+-+-+-+-">How the drops sparkle in the moonlight!  Once</l>
+        <l n="254" real="xxxxxxx+-+-" met="-+-+-+-+-+-">I made a rhyme about it, singing softly:</l>
+      </lg>
+      <lg type="stanza" n="56" rhyme="ababa">
+        <l n="255" real="xx-+-+--x" met="-+-+-+-+-">Over Damascus every star</l>
+        <l n="256" real="xx-+-xxx" met="--+-+-+-">Keeps his unchanging course and cold,</l>
+        <l n="257" real="xxxxx+-x" met="--+-+-+-">The dark weighs like an iron bar,</l>
+        <l n="258" real="x-+x+-xxx" met="-+-+-+-+-">The intense and pallid night is old,</l>
+        <l n="259" real="xxxxxx" met="-+-+-+">Dim the moon&#x27;s scimitar.</l>
+      </lg>
+      <lg type="stanza" n="57" rhyme="ababa">
+        <l n="260" real="xxxxxxxx" met="--+-+-+-">Still the lamps blaze within those halls,</l>
+        <l n="261" real="x+-xx+-x" met="--+-+-+-">Where poppies heap the marble vats</l>
+        <l n="262" real="xxxxxxxx" met="--+-+-+-">For girls to tread; the thick air palls;</l>
+        <l n="263" real="x+xxx+-x" met="--+-+-+-">And shadows hang like evil bats</l>
+        <l n="264" real="xxx+-x" met="-+-+-+">About the scented walls.</l>
+      </lg>
+      <lg type="stanza" n="58" rhyme="ababa">
+        <l n="265" real="xxx+-xxx" met="--+-+-+-">The girls are many, and they sing;</l>
+        <l n="266" real="xxxxxxxx" met="--+-+-+-">Their white feet fall like flakes of snow,</l>
+        <l n="267" real="+-x+-+--" met="--+-+-+-">Making a ceaseless murmuring --</l>
+        <l n="268" real="+-xxxx-+" met="--+-+-+-">Whispers of love, dead long ago,</l>
+        <l n="269" real="xx-+-x" met="-+-+-+">And dear, forgotten Spring.</l>
+      </lg>
+      <lg type="stanza" n="59">
+        <l n="270" real="x-+xxxxx" met="--+-+-+-">One alone sings not.  Tiredly</l>
+        <l n="271" real="xxxxxx-xx" met="-+-+-+-+-">She sees the white blooms crushed, and smells</l>
+        <l n="272" real="x+-xx+-x" met="--+-+-+-">The heavy scent.  They chatter:  &quot;See!</l>
+        <l n="273" real="xxxxx+-x" met="--+-+-+-">White Zira thinks of nothing else</l>
+        <l n="274" real="xxxxxx" met="-+-+-+">But the morn&#x27;s jollity --</l>
+      </lg>
+      <lg type="stanza" n="60" rhyme="ababa">
+        <l n="275" real="xxxxxxxx" met="--+-+-+-">&quot;Then Haroun takes her!&quot;  But she dreams,</l>
+        <l n="276" real="xxxxx+-x" met="--+-+-+-">Unhearing, of a certain field</l>
+        <l n="277" real="x+-xx+-x" met="--+-+-+-">Of poppies, cut by many streams,</l>
+        <l n="278" real="xx-+xxxx" met="--+-+-+-">Like lines across a round Turk shield,</l>
+        <l n="279" real="xxxxxx" met="-+-+-+">Where now the hot sun gleams.</l>
+      </lg>
+      <lg type="stanza" n="61" rhyme="ababa">
+        <l n="280" real="xxxxxx-xx" met="-+-+-+-+-">The field whereon they walked that day,</l>
+        <l n="281" real="x+-x-x+-x" met="-+-+-+-+-">And splendor filled her body up,</l>
+        <l n="282" real="xxxxx+--x" met="-+-+-+-+-">And his; and then the trampled clay,</l>
+        <l n="283" real="xxx+-xxx" met="--+-+-+-">And slow smoke climbing the sky&#x27;s cup</l>
+        <l n="284" real="xxx+-x" met="-+-+-+">From where the village lay.</l>
+      </lg>
+      <lg type="stanza" n="62" rhyme="ababa">
+        <l n="285" real="xxxxxxxx" met="--+-+-+-">And after -- much ache of the wrists,</l>
+        <l n="286" real="xxxx-xxxx" met="-+-+-+-+-">Where the cords irked her -- till she came,</l>
+        <l n="287" real="xxx+-xxx" met="--+-+-+-">The price of many amethysts,</l>
+        <l n="288" real="+-xxx+--x" met="-+-+-+-+-">Hither.  And now the ultimate shame</l>
+        <l n="289" real="x+-xxx" met="-+-+-+">Blew trumpet in the lists.</l>
+      </lg>
+      <lg type="stanza" n="63" rhyme="ababa">
+        <l n="290" real="xxxxx+-x" met="--+-+-+-">And so she trod the poppies there,</l>
+        <l n="291" real="-+--+-+-x" met="-+-+-+-+-">Remembering other poppies, too,</l>
+        <l n="292" real="xxxxxxxx" met="--+-+-+-">And did not seem to see or care.</l>
+        <l n="293" real="xxxxxxxx" met="--+-+-+-">Without, the first gray drops of dew</l>
+        <l n="294" real="+-x+--x" met="-+-+-+-">Sweetened the trembling air.</l>
+      </lg>
+      <lg type="stanza" n="64" rhyme="ababa">
+        <l n="295" real="xxx+-+-x-" met="-+-+-+-+-">She trod the poppies.  Hours passed</l>
+        <l n="296" real="xxxxxxxx" met="--+-+-+-">Until she slept at length -- and Time</l>
+        <l n="297" real="x-xx+-xxx" met="-+-+-+-+-">Dragged his slow sickle.  When at last</l>
+        <l n="298" real="xxxxxxxx" met="--+-+-+-">She woke, the moon shone, bright as rime,</l>
+        <l n="299" real="xxxxxx" met="-+-+-+">And night&#x27;s tide rolled on fast.</l>
+      </lg>
+      <lg type="stanza" n="65" rhyme="ababa">
+        <l n="300" real="xx-x+-+-x" met="-+-+-+-+-">She moaned once, knowing everything;</l>
+        <l n="301" real="xxxxxxxx" met="--+-+-+-">Then, bitterer than death, she found</l>
+        <l n="302" real="xxxxxxxx" met="--+-+-+-">The soft handmaidens, in a ring,</l>
+        <l n="303" real="xx-+xxxx" met="--+-+-+-">Come to anoint her, all around,</l>
+        <l n="304" real="xxxxxx" met="-+-+-+">That she might please the king.</l>
+      </lg>
+      <lg type="stanza" n="66" rhyme="---a--a--a---b---b------------c-c-------------------------------------">
+        <l n="305" real="+--xx+-x-+" met="--+-+-+-+-">Opium -- and the odor dies away,</l>
+        <l n="306" real="+-xxx+-+-x" met="--+-+-+-+-">Leaving the air yet heavy -- cassia -- myrrh --</l>
+        <l n="307" real="+-x+-xx+-x" met="--+-+-+-+-">Bitter and splendid.  See, the poisons come,</l>
+        <l n="308" real="+-xxx+-xxx" met="--+-+-+-+-">Trooping in squat green vials, blazoned red</l>
+        <l n="309" real="x+-x+xx+-x" met="--+-+-+-+-">With grinning skulls:  strychnine, a pallid dust</l>
+        <l n="310" real="x+-xxxxxxx" met="--+-+-+-+-">Of tiny grains, like bones ground fine; and next</l>
+        <l n="311" real="x+-xx+--x+-" met="-+-+-+-+-+-">The muddy green of arsenic, all livid,</l>
+        <l n="312" real="xxxxxxxxxx" met="--+-+-+-+-">Likest the face of one long dead -- they creep</l>
+        <l n="313" real="-+x+-xx+-+-" met="-+-+-+-+-+-">Along the dusty shelf like deadly beetles,</l>
+        <l n="314" real="xxxxx+-xxx" met="--+-+-+-+-">Whose fangs are carved with runnels, that the blood</l>
+        <l n="315" real="xxx+--xxxx" met="--+-+-+-+-">May run down easily to the blind mouth</l>
+        <l n="316" real="xxxxxxxxxx" met="--+-+-+-+-">That snaps and gapes; and high above them there,</l>
+        <l n="317" real="x+-xxxx+-x" met="--+-+-+-+-">My master&#x27;s pride, a cobwebbed, yellow pot</l>
+        <l n="318" real="x+-xxxxxxx" met="--+-+-+-+-">Of honey from Mount Hybla.  Do the bees</l>
+        <l n="319" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Still moan among the low sweet purple clover,</l>
+        <l n="320" real="+--+-xxxxx" met="--+-+-+-+-">Endlessly many?  Still in deep-hushed woods,</l>
+        <l n="321" real="xx-+-+-xxx" met="--+-+-+-+-">When the incredible silver of the moon</l>
+        <l n="322" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Comes like a living wind through sleep-bowed branches,</l>
+        <l n="323" real="xxxxxx-+-x" met="--+-+-+-+-">Still steal dark shapes from the enchanted glens,</l>
+        <l n="324" real="xxx+-xxxxx" met="--+-+-+-+-">Which yet are purple with high dreams, and still</l>
+        <l n="325" real="+-x+-x-+-x" met="--+-+-+-+-">Fronting that quiet and eternal shield</l>
+        <l n="326" real="xxxxxxxxxx" met="--+-+-+-+-">Which is much more than Peace, does there still stand</l>
+        <l n="327" real="xxx+xxxxxx" met="--+-+-+-+-">One sharp black shadow -- and the short, smooth horns</l>
+        <l n="328" real="xxxxxx" met="-+-+-+">Are clear against that disk?</l>
+        <l n="329" real="xx-+-" met="+-+-+">O great Diana!</l>
+        <l n="330" real="xxxxxxxxxx" met="--+-+-+-+-">I, I have praised thee, yet I do not know</l>
+        <l n="331" real="xxxxx+-xxx" met="--+-+-+-+-">What moves my mind so strangely, save that once</l>
+        <l n="332" real="xxxxxxxxxx" met="--+-+-+-+-">I lay all night upon a thymy hill,</l>
+        <l n="333" real="xxxxxxxxxx" met="--+-+-+-+-">And watched the slow clouds pass like heaped-up foam</l>
+        <l n="334" real="-+x+-xxxxx" met="--+-+-+-+-">Across blue marble, till at last no speck</l>
+        <l n="335" real="+-xx-+xxxx" met="--+-+-+-+-">Blotted the clear expanse, and the full moon</l>
+        <l n="336" real="xxxxxxxxxx" met="--+-+-+-+-">Rose in much light, and all night long I saw</l>
+        <l n="337" real="x+-+xxxxx+-" met="-+-+-+-+-+-">Her ordered progress, till, in midmost heaven,</l>
+        <l n="338" real="xxx+-+-xxx" met="--+-+-+-+-">There came a terrible silence, and the mice</l>
+        <l n="339" real="xxxxx+-xxx" met="--+-+-+-+-">Crept to their holes, the crickets did not chirp,</l>
+        <l n="340" real="xxxxxxxxxx" met="--+-+-+-+-">All the small night-sounds stopped -- and clear pure light</l>
+        <l n="341" real="+-xxxxx+-x" met="--+-+-+-+-">Rippled like silk over the universe,</l>
+        <l n="342" real="xxxxxxxxxx" met="--+-+-+-+-">Most cold and bleak; and yet my heart beat fast,</l>
+        <l n="343" real="+-xxx+-xxxx" met="-+-+-+-+-+-">Waiting until the stillness broke.  I know not</l>
+        <l n="344" real="xxx+-+-+-x" met="--+-+-+-+-">For what I waited -- something very great --</l>
+        <l n="345" real="xxxxxxxxxx" met="--+-+-+-+-">I dared not look up to the sky for fear</l>
+        <l n="346" real="x+-+-xx+--" met="--+-+-+-+-">A brittle crackling should clash suddenly</l>
+        <l n="347" real="xxx+-xxxxx" met="--+-+-+-+-">Against the quiet, and a black line creep</l>
+        <l n="348" real="-+xxx+-xxx" met="--+-+-+-+-">Across the sky, and widen like a mouth,</l>
+        <l n="349" real="xxx+-+-x-+" met="--+-+-+-+-">Until the broken heavens streamed apart,</l>
+        <l n="350" real="xxx+-xx-+-+" met="-+-+-+-+-+-">Like torn lost banners, and the immortal fires,</l>
+        <l n="351" real="+-x+-xxxxx" met="--+-+-+-+-">Roaring like lions, asked their meat from God.</l>
+        <l n="352" real="xxxxxxxxxx" met="--+-+-+-+-">I lay there, a black blot upon a shield</l>
+        <l n="353" real="x+-+-+-xxx" met="--+-+-+-+-">Of quivering, watery whiteness.  The hush held</l>
+        <l n="354" real="xxx+-xxx-+" met="--+-+-+-+-">Until I staggered up and cried aloud,</l>
+        <l n="355" real="xxxxx+-xxx" met="--+-+-+-+-">And then it seemed that something far too great</l>
+        <l n="356" real="x+-xxxxxxxx" met="-+-+-+-+-+-">For knowledge, and illimitable as God,</l>
+        <l n="357" real="xxxxx+-xxx" met="--+-+-+-+-">Rent the dark sky like lightning, and I fell,</l>
+        <l n="358" real="x+-xxxx+-x" met="--+-+-+-+-">And, falling, heard a wild and rushing wind</l>
+        <l n="359" real="x+-xxxx+-x" met="--+-+-+-+-">Of music, and saw lights that blinded me</l>
+        <l n="360" real="xx-+---xxx" met="--+-+-+-+-">With white, impenetrable swords, and felt</l>
+        <l n="361" real="x+-xxxxxxx" met="--+-+-+-+-">A pressure of soft hands upon my lips,</l>
+        <l n="362" real="xxx+xxxxxx" met="--+-+-+-+-">Upon my eyelids -- and since then I cough</l>
+        <l n="363" real="xxxxxxxxxx" met="--+-+-+-+-">At times, and have strange thoughts about the stars,</l>
+        <l n="364" real="xxxxx" met="+-+-+">That some day -- some day --</l>
+        <l n="365" real="xxxxx" met="+-+-+">Come, I must be quick!</l>
+        <l n="366" real="x+-xxxxxxx" met="--+-+-+-+-">My master will be back soon.  Let me light</l>
+        <l n="367" real="xx-+--xxxx" met="--+-+-+-+-">Thin blue Arabian pastilles, and sit</l>
+        <l n="368" real="xxxx+xx+-x" met="--+-+-+-+-">Like a dead god incensed by chanting priests,</l>
+        <l n="369" real="xxx+-xxxxx" met="--+-+-+-+-">And watch the pungent smoke wreathe up and up,</l>
+        <l n="370" real="xxxxxxxxxx" met="--+-+-+-+-">Until he comes -- though he may rage because</l>
+        <l n="371" real="xxx+-xxxxx" met="--+-+-+-+-">They cost good money.  Then I shall walk home</l>
+        <l n="372" real="xxxx-+-xxx" met="--+-+-+-+-">Over the moor.  Already the moon climbs</l>
+        <l n="373" real="xxxxxxxxxx" met="--+-+-+-+-">Above the world&#x27;s edge.  By the time he comes</l>
+        <l n="374" real="xxx+-+-xxx" met="--+-+-+-+-">She will be fully risen. --  There&#x27;s his step!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="miscellaneous" n="L13378">
+      <head>Miscellaneous</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:miscellaneous</idno><idno type="laurel-id">L13378</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjklkl--mmnn">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">The last pose flickered, failed.  The screen&#x27;s dead white</l>
+        <l n="2" real="xxx+-+-xxx" met="-+-+-+-+-+">Glared in a sudden flooding of harsh light</l>
+        <l n="3" real="+-xxxxx+-x" met="-+-+-+-+-+">Stabbing the eyes; and as I stumbled out</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">The curtain rose.  A fat girl with a pout</l>
+        <l n="5" real="xxxx-+xxx+-" met="-+-+-+-+-+-">And legs like hams, began to sing &quot;His Mother&quot;.</l>
+        <l n="6" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Gusts of bad air rose in a choking smother;</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Smoke, the wet steam of clothes, the stench of plush,</l>
+        <l n="8" real="+-x-++-xxx" met="-+-+-+-+-+">Powder, cheap perfume, mingled in a rush.</l>
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">I stepped into the lobby -- and stood still</l>
+        <l n="10" real="xxx+-+-+-xx" met="-+-+-+-+-+-">Struck dumb by sudden beauty, body and will.</l>
+        <l n="11" real="+-x+-+--xx" met="-+-+-+-+-+">Cleanness and rapture -- excellence made plain --</l>
+        <l n="12" real="x+-+-+-xxx" met="-+-+-+-+-+">The storming, thrashing arrows of the rain!</l>
+        <l n="13" real="+-x+-xxxxx" met="-+-+-+-+-+">Pouring and dripping on the roofs and rods,</l>
+        <l n="14" real="+-xxxxxxxx" met="-+-+-+-+-+">Smelling of woods and hills and fresh-turned sods,</l>
+        <l n="15" real="xxx+xxxxxx" met="-+-+-+-+-+">Black on the sidewalks, gray in the far sky,</l>
+        <l n="16" real="+-x+-xx+-x" met="-+-+-+-+-+">Crashing on thirsty panes, on gutters dry,</l>
+        <l n="17" real="+-xxx+-+-x" met="-+-+-+-+-+">Hurrying the crowd to shelter, making fair</l>
+        <l n="18" real="xxx+-xxxxx" met="-+-+-+-+-+">The streets, the houses, and the heat-soaked air, --</l>
+        <l n="19" real="+--+-+-+-+-" met="-+-+-+-+-+-">Merciful, holy, charging, sweeping, flashing,</l>
+        <l n="20" real="xxxxxxx+-+-" met="-+-+-+-+-+-">It smote the soul with a most iron clashing!...</l>
+        <l n="21" real="x+-xxxx+-x" met="-+-+-+-+-+">Like dragons&#x27; eyes the street-lamps suddenly gleamed,</l>
+        <l n="22" real="+-xxxxxxxx" met="-+-+-+-+-+">Yellow and round and dim-low globes of flame.</l>
+        <l n="23" real="xx-+xxx+-x" met="-+-+-+-+-+">And, scarce-perceived, the clouds&#x27; tall banners streamed.</l>
+        <l n="24" real="xxx+-xx+-x" met="-+-+-+-+-+">Out of the petty wars, the daily shame,</l>
+        <l n="25" real="+-x+--xxx+-" met="-+-+-+-+-+-">Beauty strove suddenly, and rose, and flowered....</l>
+        <l n="26" real="xxxxxxxxx+-" met="-+-+-+-+-+-">I gripped my coat and plunged where awnings lowered.</l>
+        <l n="27" real="xxx+-+-x-+" met="-+-+-+-+-+">Made one with hissing blackness, caught, embraced,</l>
+        <l n="28" real="x+-xx+-xxx" met="-+-+-+-+-+">By splendor and by striving and swift haste --</l>
+        <l n="29" real="x+-xxxxxxx" met="-+-+-+-+-+">Spring coming in with thunderings and strife --</l>
+        <l n="30" real="xxxxxxxxxx" met="-+-+-+-+-+">I stamped the ground in the strong joy of life!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-city-revisited" n="L13379">
+      <head>The City Revisited</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-city-revisited</idno><idno type="laurel-id">L13379</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcddec-efg-gf-">
+        <l n="1" real="xxxx-+xx" met="-+-+-+-+">The grey gulls drift across the bay</l>
+        <l n="2" real="+-xxxxxx" met="-+-+-+-+">Softly and still as flakes of snow</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">Against the thinning fog.  All day</l>
+        <l n="4" real="xxxx-xxxx" met="-+-+-+-+-">I sat and watched them come and go;</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">And now at last the sun was set,</l>
+        <l n="6" real="+-xxx+--+-" met="--+-+-+-+-">Filling the waves with colored fire</l>
+        <l n="7" real="xxx-xxxx-x" met="--+-+-+-+-">Till each seemed like a jewelled spire</l>
+        <l n="8" real="xxxxx-+-x" met="-+-+-+-+-">Thrust up from some drowned city.  Soon</l>
+        <l n="9" real="xxxxxx-+" met="-+-+-+-+">From peak and cliff and minaret</l>
+        <l n="10" real="x+-x-+xx" met="-+-+-+-+">The city&#x27;s lights began to wink,</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">Each like a friendly word.  The moon</l>
+        <l n="12" real="-+x+-xxx" met="-+-+-+-+">Began to broaden out her shield,</l>
+        <l n="13" real="+-x+-xxx" met="-+-+-+-+">Spurting with silver.  Straight before</l>
+        <l n="14" real="xxxxx+-x" met="-+-+-+-+">The brown hills lay like quiet beasts</l>
+        <l n="15" real="x-x-+xxx-x" met="--+-+-+-+-">Stretched out beside a well-loved door,</l>
+        <l n="16" real="x+-xxxxx" met="-+-+-+-+">And filling earth and sky and field</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">With the calm heaving of their breasts.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc">
+        <l n="18" real="+-xx+-xx-" met="-+-+-+-+-">Nothing was gone, nothing was changed,</l>
+        <l n="19" real="x+-xxxxx-" met="-+-+-+-+-">The smallest wave was unestranged</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">By all the long ache of the years</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">Since last I saw them, blind with tears.</l>
+        <l n="22" real="x+-xxxxx" met="-+-+-+-+">Their welcome like the hills stood fast:</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">And I, I had come home at last.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="----aabbc-cdd">
+        <l n="24" real="xxx-xxx-+" met="-+-+-+-+-">So I laughed out with them aloud</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">To think that now the sun was broad,</l>
+        <l n="26" real="x+-xx+-x" met="-+-+-+-+">And climbing up the iron sky,</l>
+        <l n="27" real="xxxxx-xxx" met="-+-+-+-+-">Where the raw streets stretched sullenly</l>
+        <l n="28" real="xx-+-xxx" met="-+-+-+-+">About another room I knew,</l>
+        <l n="29" real="xxxxxxxx" met="-+-+-+-+">In a mean house -- and soon there, too,</l>
+        <l n="30" real="xxxxx+-x" met="-+-+-+-+">The smith would burst the flimsy door</l>
+        <l n="31" real="xxx+-xxx" met="-+-+-+-+">And find me lying on the floor.</l>
+        <l n="32" real="xxxxx+-x" met="-+-+-+-+">Just where I fell the other night,</l>
+        <l n="33" real="xxx+-xxx" met="-+-+-+-+">After that breaking wave of pain. --</l>
+        <l n="34" real="xxxxxxxx" met="-+-+-+-+">How they will storm and rage and fight,</l>
+        <l n="35" real="+-x+-xxx" met="-+-+-+-+">Servants and mistress, one and all,</l>
+        <l n="36" real="x+-xx+--" met="-+-+-+-+">&quot;No money for the funeral!&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a--abbccddeeffgghh-">
+        <l n="37" real="xxxxxxxx" met="-+-+-+-+">I broke my life there.  Let it stand</l>
+        <l n="38" real="xx" met="-+">At that.</l>
+        <l n="39" real="x+-xxx" met="--+-+-">The waters are a plain,</l>
+        <l n="40" real="+-xxx+-x" met="-+-+-+-+">Heaving and bright on either hand,</l>
+        <l n="41" real="x+--xxxx" met="-+-+-+-+">A tremulous and lustral peace</l>
+        <l n="42" real="xx-+xxxx" met="-+-+-+-+">Which shall endure though all things cease,</l>
+        <l n="43" real="+-xxx+-x" met="-+-+-+-+">Filling my heart as water fills</l>
+        <l n="44" real="xxxxx+-x" met="-+-+-+-+">A cup.  There stand the quiet hills.</l>
+        <l n="45" real="x+-xxxxx" met="-+-+-+-+">So, waiting for my wings to grow,</l>
+        <l n="46" real="xxxxxxxx" met="-+-+-+-+">I watch the gulls sail to and fro,</l>
+        <l n="47" real="+-x+-xxx" met="-+-+-+-+">Rising and falling, soft and swift,</l>
+        <l n="48" real="+--+x+-x" met="-+-+-+-+">Drifting along as bubbles drift.</l>
+        <l n="49" real="xxxxxxxx" met="-+-+-+-+">And, though I see the face of God</l>
+        <l n="50" real="-+-xxxxx" met="-+-+-+-+">Hereafter -- this day have I trod</l>
+        <l n="51" real="+-xxxxxx" met="-+-+-+-+">Nearer to Him than I shall tread</l>
+        <l n="52" real="+--+xxxx" met="-+-+-+-+">Ever again.  The night is dead.</l>
+        <l n="53" real="xxxxx-xxx" met="-+-+-+-+-">And there&#x27;s the dawn, poured out like wine</l>
+        <l n="54" real="-+xx-+-x" met="-+-+-+-+">Along the dim horizon-line.</l>
+        <l n="55" real="xxx+-xxx" met="-+-+-+-+">And from the city comes the chimes --</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="going-back-to-school" n="L13380">
+      <head>Going Back to School</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:going-back-to-school</idno><idno type="laurel-id">L13380</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aba-bcc--defedgfgh-hijij-kkllmm">
+        <l n="1" real="xxxxxx-+xx" met="-+-+-+-+-+">The boat ploughed on.  Now Alcatraz was past</l>
+        <l n="2" real="xxxxxxxx-+" met="-+-+-+-+-+">And all the grey waves flamed to red again</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">At the dead sun&#x27;s last glimmer.  Far and vast</l>
+        <l n="4" real="xx-+-xx+--" met="-+-+-+-+-+">The Sausalito lights burned suddenly</l>
+        <l n="5" real="x+-xxxxxxx" met="-+-+-+-+-+">In little dots and clumps, as if a pen</l>
+        <l n="6" real="xxxxxx-+xx" met="-+-+-+-+-+">Had scrawled vague lines of gold across the hills;</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">The sky was like a cup some rare wine fills,</l>
+        <l n="8" real="xxxxxx" met="--+-+-">And stars came as he watched</l>
+        <l n="9" real="xxxx" met="--+-">-- and he was free</l>
+        <l n="10" real="x+-+-xxxxx" met="-+-+-+-+-+">One splendid instant -- back in the great room,</l>
+        <l n="11" real="xxxxxxxx-+" met="-+-+-+-+-+">Curled in a chair with all of them beside</l>
+        <l n="12" real="xxxxxxx+-+-" met="-+-+-+-+-+-">And the whole world a rush of happy voices,</l>
+        <l n="13" real="x+-+-xxxxxx" met="-+-+-+-+-+-">With laughter beating in a clamorous tide....</l>
+        <l n="14" real="xx-+xxx+-x" met="-+-+-+-+-+">Saw once again the heat of harvest fume</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">Up to the empty sky in threads like glass,</l>
+        <l n="16" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And ran, and was a part of what rejoices</l>
+        <l n="17" real="x+-xxxxxxx" met="-+-+-+-+-+">In thunderous nights of rain; lay in the grass</l>
+        <l n="18" real="xxx+-+-xxx" met="-+-+-+-+-+">Sun-baked and tired, looking through a maze</l>
+        <l n="19" real="x+-xxxxxxx" met="-+-+-+-+-+">Of tiny stems into a new green world;</l>
+        <l n="20" real="xxxxx-+x-+" met="-+-+-+-+-+">Once more knew eves of perfume, days ablaze</l>
+        <l n="21" real="xxxxxxx+-x" met="-+-+-+-+-+">With clear, dry heat on the brown, rolling fields;</l>
+        <l n="22" real="+-x+-+--xx" met="-+-+-+-+-+">Shuddered with fearful ecstasy in bed</l>
+        <l n="23" real="xxxxxxx+-x" met="-+-+-+-+-+">Over a book of knights and bloody shields...</l>
+        <l n="24" real="xxxxxxxx-+" met="-+-+-+-+-+">The ship slowed, jarred and stopped.  There, straight ahead,</l>
+        <l n="25" real="xxx+-+-xxx" met="-+-+-+-+-+">Were dock and fellows.  Stumbling, he was whirled</l>
+        <l n="26" real="xx-+xxxxxx" met="-+-+-+-+-+">Out and away to meet them -- and his back</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">Slumped to the old half-cringe, his hands fell slack;</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">A big boy&#x27;s arm went round him -- and a twist</l>
+        <l n="29" real="x+-x-+x+-x" met="-+-+-+-+-+">Sent shattering pain along his tortured wrist,</l>
+        <l n="30" real="xxxxx+-xxx" met="-+-+-+-+-+">As a voice cried, a bloated voice and fat,</l>
+        <l n="31" real="xxx+-x-+xx" met="-+-+-+-+-+">&quot;Why it&#x27;s Miss Nancy!  Come along, you rat!&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nos-immortales" n="L13381">
+      <head>Nos Immortales</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:nos-immortales</idno><idno type="laurel-id">L13381</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab-c-c">
+        <l n="1" real="-+xxxxxxxx" met="-+-+-+-+-+">Perhaps we go with wind and cloud and sun,</l>
+        <l n="2" real="xxxx-+-xxx" met="-+-+-+-+-+">Into the free companionship of air;</l>
+        <l n="3" real="-+x+xxxxxx" met="-+-+-+-+-+">Perhaps with sunsets when the day is done,</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">All&#x27;s one to me -- I do not greatly care;</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">So long as there are brown hills -- and a tree</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">Like a mad prophet in a land of dearth --</l>
+        <l n="7" real="xxxxxx-+--" met="-+-+-+-+-+">And I can lie and hear eternally</l>
+        <l n="8" real="xx-+-+-xxx" met="-+-+-+-+-+">The vast monotonous breathing of the earth.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="xxx+-xx+-+-" met="-+-+-+-+-+-">I have known hours, slow and golden-glowing,</l>
+        <l n="10" real="+-x+-x-+xx" met="-+-+-+-+-+">Lovely with laughter and suffused with light,</l>
+        <l n="11" real="xxxxxx-+x+-" met="-+-+-+-+-+-">O Lord, in such a time appoint my going,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">When the hands clench, and the cold face grows white,</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">And the spark dies within the feeble brain,</l>
+        <l n="14" real="+-xxxxxx-+" met="-+-+-+-+-+">Spilling its star-dust back to dust again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="young-blood" n="L13382">
+      <head>Young Blood</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:young-blood</idno><idno type="laurel-id">L13382</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">&quot;But, sir,&quot; I said, &quot;they tell me the man is like to die!&quot;</l>
+        <l n="2" real="x+-xxxxxxxxx+-xx" met="--+-+-+-+-+-+-+-">The Canon shook his head indulgently.  &quot;Young blood, Cousin,&quot; he boomed.</l>
+        <l n="3" real="xxxxxxxxxxx" met="-+-+-+-+-+-">&quot;Young blood!  Youth will be served!&quot;  -- D&#x27;Hermonville&#x27;s Fabliaux.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="----------a--a---bb----------------">
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">He woke up with a sick taste in his mouth</l>
+        <l n="5" real="xxx+--x+-x" met="-+-+-+-+-+">And lay there heavily, while dancing motes</l>
+        <l n="6" real="xxxxx+-+-x" met="-+-+-+-+-+">Whirled through his brain in endless, rippling streams,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">And a grey mist weighed down upon his eyes</l>
+        <l n="8" real="xxxxx+-+-x" met="-+-+-+-+-+">So that they could not open fully.  Yet</l>
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">After some time his blurred mind stumbled back</l>
+        <l n="10" real="xxx+-+--xx" met="-+-+-+-+-+">To its last ragged memory -- a room;</l>
+        <l n="11" real="xxxxx+-+-x" met="-+-+-+-+-+">Air foul with wine; a shouting, reeling crowd</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Of friends who dragged him, dazed and blind with drink</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">Out to the street; a crazy rout of cabs;</l>
+        <l n="14" real="x+-+-xx+-x" met="-+-+-+-+-+">The steady mutter of his neighbor&#x27;s voice,</l>
+        <l n="15" real="+-xx-+--xx" met="-+-+-+-+-+">Mumbling out dull obscenity by rote;</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">And then... well, they had brought him home it seemed,</l>
+        <l n="17" real="xx-+xxxxx+-" met="-+-+-+-+-+-">Since he awoke in bed -- oh, damn the business!</l>
+        <l n="18" real="xxx+-xx+-x" met="-+-+-+-+-+">He had not wanted it -- the silly jokes,</l>
+        <l n="19" real="xxxxx+-xx+-" met="-+-+-+-+-+-">&quot;One last, great night of freedom ere you&#x27;re married!&quot;</l>
+        <l n="20" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">&quot;You&#x27;ll get no fun then!&quot;  &quot;H-ssh, don&#x27;t tell that story!</l>
+        <l n="21" real="xxxxxxx+-x" met="-+-+-+-+-+">He&#x27;ll have a wife soon!&quot; -- God! the sitting down</l>
+        <l n="22" real="xxxxx+-" met="-+-+-+-">To drink till you were sodden!...</l>
+        <l n="23" real="xxx" met="-+-">Like great light</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">She came into his thoughts.  That was the worst.</l>
+        <l n="25" real="x+-xxxxxxx" met="-+-+-+-+-+">To wallow in the mud like this because</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">His friends were fools....  He was not fit to touch,</l>
+        <l n="27" real="xxxxxxx+-x" met="-+-+-+-+-+">To see, oh far, far off, that silver place</l>
+        <l n="28" real="xxx+-xxxxx" met="-+-+-+-+-+">Where God stood manifest to man in her....</l>
+        <l n="29" real="+--+xxxxxx" met="-+-+-+-+-+">Fouling himself....  One thing he brought to her,</l>
+        <l n="30" real="xxxxxxx+-x" met="-+-+-+-+-+">At least.  He had been clean; had taken it</l>
+        <l n="31" real="xxxxx+-xxx" met="-+-+-+-+-+">A kind of point of honor from the first...</l>
+        <l n="32" real="+-xxxxx+-x" met="-+-+-+-+-+">Others might do it... but he didn&#x27;t care</l>
+        <l n="33" real="xxx" met="-+-">For those things....</l>
+        <l n="34" real="+--x+-x" met="-+-+-+-">Suddenly his vision cleared.</l>
+        <l n="35" real="x+-xxxxxxx" met="-+-+-+-+-+">And something seemed to grow within his mind....</l>
+        <l n="36" real="+-xxx+-xxx" met="-+-+-+-+-+">Something was wrong -- the color of the wall --</l>
+        <l n="37" real="xxxxxxx+-x" met="-+-+-+-+-+">The queer shape of the bedposts -- everything</l>
+        <l n="38" real="xx+xxxxxxx" met="-+-+-+-+-+">Was changed, somehow... his room.  Was this his room?</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="39" real="xxxxxx-+xx" met="-+-+-+-+-+">... He turned his head -- and saw beside him there</l>
+        <l n="40" real="x+-+-xxxxx" met="-+-+-+-+-+">The sagging body&#x27;s slope, the paint-smeared face,</l>
+        <l n="41" real="xxx+-xxx-+" met="-+-+-+-+-+">And the loose, open mouth, lax and awry,</l>
+        <l n="42" real="xxxxx+-xxx" met="-+-+-+-+-+">The breasts, the bleached and brittle hair... these things.</l>
+        <l n="43" real="xxxxxxxxxx" met="-+-+-+-+-+">... As if all Hell were crushed to one bright line</l>
+        <l n="44" real="x+-xx+-xxx" met="-+-+-+-+-+">Of lightning for a moment.  Then he sank,</l>
+        <l n="45" real="xxxx-+---x" met="-+-+-+-+-+">Prone beneath an intolerable weight.</l>
+        <l n="46" real="x+-+-xxxxx" met="-+-+-+-+-+">And bitter loathing crept up all his limbs.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-quality-of-courage" n="L13383">
+      <head>The Quality of Courage</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-quality-of-courage</idno><idno type="laurel-id">L13383</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="--abb-acc">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Black trees against an orange sky,</l>
+        <l n="2" real="xxxxx+--" met="-+-+-+-+">Trees that the wind shook terribly,</l>
+        <l n="3" real="xxxx-+xx" met="-+-+-+-+">Like a harsh spume along the road,</l>
+        <l n="4" real="+--xx+--x" met="-+-+-+-+-">Quavering up like withered arms,</l>
+        <l n="5" real="+-xxx+-x" met="-+-+-+-+">Writhing like streams, like twisted charms</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Of hot lead flung in snow.  Below</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">The iron ice stung like a goad,</l>
+        <l n="8" real="+-xxxxxx" met="-+-+-+-+">Slashing the torn shoes from my feet,</l>
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">And all the air was bitter sleet.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aabcbdcd--eeffgg--hh">
+        <l n="10" real="xxxxxx-xx" met="-+-+-+-+-">And all the land was cramped with snow,</l>
+        <l n="11" real="xxxxx+--x" met="-+-+-+-+-">Steel-strong and fierce and glimmering wan,</l>
+        <l n="12" real="xxxx-+--" met="-+-+-+-+">Like pale plains of obsidian.</l>
+        <l n="13" real="xxxxxxx+-" met="-+-+-+-+-">-- And yet I strove -- and I was fire</l>
+        <l n="14" real="xxx+-xxxx" met="-+-+-+-+-">And ice -- and fire and ice were one</l>
+        <l n="15" real="xxx+-x-+-" met="-+-+-+-+-">In one vast hunger of desire.</l>
+        <l n="16" real="xx-+-x+-+-" met="--+-+-+-+-">A dim desire, of pleasant places,</l>
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">And lush fields in the summer sun,</l>
+        <l n="18" real="xx-+xxx+-" met="-+-+-+-+-">And logs aflame, and walls, and faces,</l>
+        <l n="19" real="xxxx-+-x" met="-+-+-+-+">-- And wine, and old ambrosial talk,</l>
+        <l n="20" real="x+-xx+-+-" met="-+-+-+-+-">A golden ball in fountains dancing,</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">And unforgotten hands.  (Ah, God,</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">I trod them down where I have trod,</l>
+        <l n="23" real="xx-+xx-+" met="-+-+-+-+">And they remain, and they remain,</l>
+        <l n="24" real="x-xxxxxxx" met="-+-+-+-+-">Etched in unutterable pain,</l>
+        <l n="25" real="x-xx+-x-+" met="-+-+-+-+-">Loved lips and faces now apart,</l>
+        <l n="26" real="xxx+-xxx" met="-+-+-+-+">That once were closer than my heart --</l>
+        <l n="27" real="x+--x+--" met="-+-+-+-+">In agony, in agony,</l>
+        <l n="28" real="x+--xxxx" met="-+-+-+-+">And horribly a part of me....</l>
+        <l n="29" real="xxxxxxx" met="+-+-+-+">For Lethe is for no man set,</l>
+        <l n="30" real="xxxxxx-+" met="-+-+-+-+">And in Hell may no man forget.)</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="--aabccbb--dd--eeffbbgg----">
+        <l n="31" real="xxx+-xxx+-" met="--+-+-+-+-">And there were flowers, and jugs, bright-glancing,</l>
+        <l n="32" real="xx-+-xxx" met="-+-+-+-+">And old Italian swords -- and looks,</l>
+        <l n="33" real="x+-xx+-x+-" met="--+-+-+-+-">A moment&#x27;s glance of fire, of fire,</l>
+        <l n="34" real="xx+-+-+-" met="-+-+-+-+">Spiring, leaping, flaming higher,</l>
+        <l n="35" real="xxx-+x+-x" met="-+-+-+-+-">Into the intense, the cloudless blue,</l>
+        <l n="36" real="xxxxxxxx" met="-+-+-+-+">Until two souls were one, and flame,</l>
+        <l n="37" real="x+-xxxxx" met="-+-+-+-+">And very flesh, and yet the same!</l>
+        <l n="38" real="xxxxxx--+" met="-+-+-+-+-">As if all springs were crushed anew</l>
+        <l n="39" real="xxxxxxx" met="+-+-+-+">Into one globed drop of dew!</l>
+        <l n="40" real="xxxxxxxx" met="-+-+-+-+">But for the most I thought of heat,</l>
+        <l n="41" real="-+--+-xxx" met="-+-+-+-+-">Desiring greatly....  Hot white sand</l>
+        <l n="42" real="x+-+-xxxx" met="-+-+-+-+-">The lazy body lies at rest in,</l>
+        <l n="43" real="xxx+-xxxx" met="-+-+-+-+-">Or sun-dried, scented grass to nest in,</l>
+        <l n="44" real="x+--+---+-" met="--+-+-+-+-">And fires, innumerable fires,</l>
+        <l n="45" real="xxx+-+-x" met="-+-+-+-+">Great fagots hurling golden gyres</l>
+        <l n="46" real="xxxxxxxx" met="-+-+-+-+">Of sparks far up, and the red heart</l>
+        <l n="47" real="xxx+-xxx" met="-+-+-+-+">In sea-coals, crashing as they part</l>
+        <l n="48" real="x+-xx+-+-" met="-+-+-+-+-">To tiny flares, and kindling snapping,</l>
+        <l n="49" real="x-xxxxxx+-" met="--+-+-+-+-">Bunched sticks that burst their string and wrapping</l>
+        <l n="50" real="xxxxxxxx" met="-+-+-+-+">And fall like jackstraws; green and blue</l>
+        <l n="51" real="x+-xx+xx" met="-+-+-+-+">The evil flames of driftwood too,</l>
+        <l n="52" real="x+-+-xxx" met="-+-+-+-+">And heavy, sullen lumps of coke</l>
+        <l n="53" real="xxxxx+-x" met="-+-+-+-+">With still, fierce heat and ugly smoke....</l>
+        <l n="54" real="xxx+-xxx" met="-+-+-+-+">... And then the vision of his face,</l>
+        <l n="55" real="xxxxxxxx" met="-+-+-+-+">And theirs, all theirs, came like a sword,</l>
+        <l n="56" real="xxxxxxxx" met="-+-+-+-+">Thrice, to the heart -- and as I fell</l>
+        <l n="57" real="xxxxxxxx" met="-+-+-+-+">I thought I saw a light before.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-aabbccddee-ff">
+        <l n="58" real="xxxxxxxx" met="-+-+-+-+">I woke.  My hands were blue and sore,</l>
+        <l n="59" real="xxxxx+-x" met="-+-+-+-+">Torn on the ice.  I scarcely felt</l>
+        <l n="60" real="x+-x-+xx" met="-+-+-+-+">The frozen sleet begin to melt</l>
+        <l n="61" real="xxxxxxx-+-" met="--+-+-+-+-">Upon my face as I breathed deeper,</l>
+        <l n="62" real="xxx+-xx+-" met="-+-+-+-+-">But lay there warmly, like a sleeper</l>
+        <l n="63" real="xxxxxxxx" met="-+-+-+-+">Who shifts his arm once, and moans low,</l>
+        <l n="64" real="xxxxxxxx" met="-+-+-+-+">And then sinks back to night.  Slow, slow,</l>
+        <l n="65" real="xxxxxxxx" met="-+-+-+-+">And still as Death, came Sleep and Death</l>
+        <l n="66" real="xx-xxx+-x" met="-+-+-+-+-">And looked at me with quiet breath.</l>
+        <l n="67" real="x+-+-xxx" met="-+-+-+-+">Unbending figures, black and stark</l>
+        <l n="68" real="xxx-+xxxx" met="-+-+-+-+-">Against the intense deeps of the dark.</l>
+        <l n="69" real="xxxxxxx+-" met="-+-+-+-+-">Tall and like trees.  Like sweet and fire</l>
+        <l n="70" real="xxxx-+xx" met="-+-+-+-+">Rest crept and crept along my veins,</l>
+        <l n="71" real="+-xxxxxx" met="-+-+-+-+">Gently.  And there were no more pains....</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="--aabb">
+        <l n="72" real="xxx+-xxx" met="-+-+-+-+">Was it not better so to lie?</l>
+        <l n="73" real="xxxx+-x+-" met="-+-+-+-+-">The fight was done.  Even gods tire</l>
+        <l n="74" real="x+-xxxxx" met="-+-+-+-+">Of fighting....  My way was the wrong.</l>
+        <l n="75" real="xxxxxx-+" met="-+-+-+-+">Now I should drift and drift along</l>
+        <l n="76" real="x+-+-+-x" met="-+-+-+-+">To endless quiet, golden peace...</l>
+        <l n="77" real="xxx+--+-x" met="-+-+-+-+-">And let the tortured body cease.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-abbccddbb--eeff-g-g">
+        <l n="78" real="xxxxx-xxx" met="-+-+-+-+-">And then a light winked like an eye.</l>
+        <l n="79" real="x+-+-x-+" met="-+-+-+-+">... And very many miles away</l>
+        <l n="80" real="xxxxxxxx" met="-+-+-+-+">A girl stood at a warm, lit door,</l>
+        <l n="81" real="+-xxxxxx" met="-+-+-+-+">Holding a lamp.  Ray upon ray</l>
+        <l n="82" real="xx-xxx-+x" met="-+-+-+-+-">It cloaked the snow with perfect light.</l>
+        <l n="83" real="xxxxxxxx" met="-+-+-+-+">And where she was there was no night</l>
+        <l n="84" real="xxx+-xxx" met="-+-+-+-+">Nor could be, ever.  God is sure,</l>
+        <l n="85" real="xxxxxx-+" met="-+-+-+-+">And in his hands are things secure.</l>
+        <l n="86" real="xxx+-xxx" met="-+-+-+-+">It is not given me to trace</l>
+        <l n="87" real="x+-+-xxx" met="-+-+-+-+">The lovely laughter of that face,</l>
+        <l n="88" real="xxxxxxxx" met="-+-+-+-+">Like a clear brook most full of light,</l>
+        <l n="89" real="x+-+-xxx" met="-+-+-+-+">Or olives swaying on a height,</l>
+        <l n="90" real="x+-xxx+x" met="-+-+-+-+">So silver they have wings, almost;</l>
+        <l n="91" real="xxxxxxxx" met="-+-+-+-+">Like a great word once known and lost</l>
+        <l n="92" real="x+-xxxxx" met="-+-+-+-+">And meaning all things.  Nor her voice</l>
+        <l n="93" real="x+-xxx-+" met="-+-+-+-+">A happy sound where larks rejoice,</l>
+        <l n="94" real="x+-xxxxxx" met="-+-+-+-+-">Her body, that great loveliness,</l>
+        <l n="95" real="x+-+-xxx" met="-+-+-+-+">The tender fashion of her dress,</l>
+        <l n="96" real="xxxxx" met="-+-+-">I may not paint them.</l>
+        <l n="97" real="xxx" met="-+-">These I see,</l>
+        <l n="98" real="+-xx-+--" met="-+-+-+-+">Blazing through all eternity,</l>
+        <l n="99" real="x+-xxx+--x" met="--+-+-+-+-">A fire-winged sign, a glorious tree!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aa--bb-cc--ddeeffg-g-g-h-h--iijkk-jlll-m-m-nn-----">
+        <l n="100" real="xxxxxxxx" met="-+-+-+-+">She stood there, and at once I knew</l>
+        <l n="101" real="x+-xxxxx" met="-+-+-+-+">The bitter thing that I must do.</l>
+        <l n="102" real="xxxx-+-x" met="-+-+-+-+">There could be no surrender now;</l>
+        <l n="103" real="xxxxx+--x" met="-+-+-+-+-">Though Sleep and Death were whispering low.</l>
+        <l n="104" real="xxxxxxxx" met="-+-+-+-+">My way was wrong.  So.  Would it mend</l>
+        <l n="105" real="xxxxxxxx" met="-+-+-+-+">If I shrank back before the end?</l>
+        <l n="106" real="xxxxx+--" met="-+-+-+-+">And sank to death and cowardice?</l>
+        <l n="107" real="xxxxxxx-x" met="-+-+-+-+-">No, the last lees must be drained up,</l>
+        <l n="108" real="xxxx-+-x" met="-+-+-+-+">Base wine from an ignoble cup;</l>
+        <l n="109" real="xxxxxx+-" met="-+-+-+-+">(Yet not so base as sleek content</l>
+        <l n="110" real="xxxxx+--" met="-+-+-+-+">When I had shrunk from punishment)</l>
+        <l n="111" real="x+-+-x-+" met="-+-+-+-+">The wretched body strain anew!</l>
+        <l n="112" real="xxxxx+-x" met="-+-+-+-+">Life was a storm to wander through.</l>
+        <l n="113" real="xxxxxxxx" met="-+-+-+-+">I took the wrong way.  Good and well,</l>
+        <l n="114" real="xxxxxxxx" met="-+-+-+-+">At least my feet sought out not Hell!</l>
+        <l n="115" real="xxxx-+-x" met="-+-+-+-+">Though night were one consuming flame</l>
+        <l n="116" real="xxxxxxxx" met="-+-+-+-+">I must go on for my base aim,</l>
+        <l n="117" real="xx-+x+-x" met="-+-+-+-+">And so, perhaps, make evil grow</l>
+        <l n="118" real="x+-xx+--" met="-+-+-+-+">To something clean by agony...</l>
+        <l n="119" real="xxxxxxxx" met="-+-+-+-+">And reach that light upon the snow...</l>
+        <l n="120" real="xxxxxx" met="--+-+-">And touch her dress at last...</l>
+        <l n="121" real="xx" met="-+">So, so,</l>
+        <l n="122" real="xx-xxxxxx" met="-+-+-+-+-">I crawled.  I could not speak or see</l>
+        <l n="123" real="x+-xxx-x+-" met="--+-+-+-+-">Save dimly.  The ice glared like fire,</l>
+        <l n="124" real="xxxxx+-x" met="-+-+-+-+">A long bright Hell of choking cold,</l>
+        <l n="125" real="xxxxxxx-+-" met="--+-+-+-+-">And each vein was a tautened wire,</l>
+        <l n="126" real="+-x+-xxx-" met="-+-+-+-+-">Throbbing with torture -- and I crawled.</l>
+        <l n="127" real="xxxx" met="--+-">My hands were wounds.</l>
+        <l n="128" real="xx-+" met="--+-">So I attained</l>
+        <l n="129" real="x+-xxxxx-" met="-+-+-+-+-">The second Hell.  The snow was stained</l>
+        <l n="130" real="xxxxxxxx" met="-+-+-+-+">I thought, and shook my head at it</l>
+        <l n="131" real="xxxxxxxx-" met="-+-+-+-+-">How red it was!  Black tree-roots clutched</l>
+        <l n="132" real="xxxxxxxx-" met="-+-+-+-+-">And tore -- and soon the snow was smutched</l>
+        <l n="133" real="-+xxx-+--x" met="--+-+-+-+-">Anew; and I lurched babbling on,</l>
+        <l n="134" real="xxxxxxxx" met="-+-+-+-+">And then fell down to rest a bit,</l>
+        <l n="135" real="xxxx-+-x" met="-+-+-+-+">And came upon another Hell...</l>
+        <l n="136" real="xxxxx+--" met="-+-+-+-+">Loose stones that ice made terrible,</l>
+        <l n="137" real="xx-xx-xxxx" met="--+-+-+-+-">That rolled and gashed men as they fell.</l>
+        <l n="138" real="x+--x-xxxx" met="--+-+-+-+-">I stumbled, slipped... and all was gone</l>
+        <l n="139" real="xxxx-xxxx" met="-+-+-+-+-">That I had gained.  Once more I lay</l>
+        <l n="140" real="xxxxxxxx" met="-+-+-+-+">Before the long bright Hell of ice.</l>
+        <l n="141" real="xxxxxx-+" met="-+-+-+-+">And still the light was far away.</l>
+        <l n="142" real="xxxxxxxx" met="-+-+-+-+">There was red mist before my eyes</l>
+        <l n="143" real="xxxxxxxx" met="-+-+-+-+">Or I could tell you how I went</l>
+        <l n="144" real="-+x+-xxx" met="-+-+-+-+">Across the swaying firmament,</l>
+        <l n="145" real="x+--+-xxx" met="-+-+-+-+-">A glittering torture of cold stars,</l>
+        <l n="146" real="xxxxx+-x" met="-+-+-+-+">And how I fought in Titan wars...</l>
+        <l n="147" real="xxxx--+xx" met="-+-+-+-+-">And died... and lived again upon</l>
+        <l n="148" real="xxxxx+-x" met="-+-+-+-+">The rack... and how the horses strain</l>
+        <l n="149" real="xxxxx+-x" met="-+-+-+-+">When their red task is nearly done....</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaa">
+        <l n="150" real="x+-xxxxx" met="-+-+-+-+">I only know that there was Pain,</l>
+        <l n="151" real="+--x-+-x" met="-+-+-+-+">Infinite and eternal Pain.</l>
+        <l n="152" real="xxxxxx-+" met="-+-+-+-+">And that I fell -- and rose again.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="a---bab--">
+        <l n="153" real="xxx+-xxx" met="-+-+-+-+">So she was walking in the road.</l>
+        <l n="154" real="xxx-+xxx" met="-+-+-+-+">And I stood upright like a man,</l>
+        <l n="155" real="xxxxxxxx" met="-+-+-+-+">Once, and fell blind, and heard her cry...</l>
+        <l n="156" real="xxxxx+--" met="-+-+-+-+">And then there came long agony.</l>
+        <l n="157" real="xxxxxx-+" met="-+-+-+-+">There was no pain when I awoke,</l>
+        <l n="158" real="xxxxxxxx" met="-+-+-+-+">No pain at all.  Rest, like a goad,</l>
+        <l n="159" real="x-xx+-xxx" met="-+-+-+-+-">Spurred my eyes open -- and light broke</l>
+        <l n="160" real="xxxxx+-x" met="-+-+-+-+">Upon them like a million swords:</l>
+        <l n="161" real="xxxxxxxx" met="-+-+-+-+">And she was there.  There are no words.</l>
+      </lg>
+      <lg type="stanza" n="10">
+        <l n="162" real="+-xxx+-x" met="-+-+-+-+">Heaven is for a moment&#x27;s span.</l>
+        <l n="163" real="x+-" met="-+-">And ever.</l>
+        <l n="164" real="xxxxx" met="-+-+-">So I spoke and said,</l>
+        <l n="165" real="x+-xxxx" met="+-+-+-+">&quot;My honor stands up unbetrayed,</l>
+        <l n="166" real="xxxxxx" met="--+-+-">And I have seen you.  Dear...&quot;</l>
+        <l n="167" real="xx" met="-+">Sharp pain</l>
+        <l n="168" real="xxxx" met="--+-">Closed like a cloak....</l>
+        <l n="169" real="xxxx" met="--+-">I moaned and died.</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="170" real="x+-xxx-+" met="-+-+-+-+">Here, even here, these things remain.</l>
+        <l n="171" real="xxx+-xxx" met="-+-+-+-+">I shall draw nearer to her side.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="a-bbccdd-a">
+        <l n="172" real="xxx+-xxx" met="-+-+-+-+">Oh dear and laughing, lost to me,</l>
+        <l n="173" real="+-xx-+--" met="-+-+-+-+">Hidden in grey Eternity,</l>
+        <l n="174" real="xx-+x+-x" met="-+-+-+-+">I shall attain, with burning feet,</l>
+        <l n="175" real="xxxxx+-x" met="-+-+-+-+">To you and to the mercy-seat!</l>
+        <l n="176" real="x+-+-xxx" met="-+-+-+-+">The ages crumble down like dust,</l>
+        <l n="177" real="x+-xxxx" met="+-+-+-+">Dark roses, deviously thrust</l>
+        <l n="178" real="x+--xxxxx" met="-+-+-+-+-">And scattered in sweet wine -- but I,</l>
+        <l n="179" real="xxxxxxxx" met="-+-+-+-+">I shall lift up to you my cry,</l>
+        <l n="180" real="xxxxx+--" met="-+-+-+-+">And kiss your wet lips presently</l>
+        <l n="181" real="xxx+-+-x" met="-+-+-+-+">Beneath the ever-living Tree.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aaa">
+        <l n="182" real="xxxxxxxx" met="-+-+-+-+">This in my heart I keep for goad!</l>
+        <l n="183" real="+xx+-xxxx" met="-+-+-+-+-">Somewhere, in Heaven she walks that road.</l>
+        <l n="184" real="+xx+-xxxx" met="-+-+-+-+-">Somewhere... in Heaven... she walks... that... road....</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="campus-sonnets" n="L13384">
+      <head>Campus Sonnets</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:campus-sonnets</idno><idno type="laurel-id">L13384</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-+-x-+xx" met="-+-+-+-+-+">The little letters dance across the page,</l>
+        <l n="2" real="xx-+xxx+-x" met="-+-+-+-+-+">Flaunt and retire, and trick the tired eyes;</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Sick of the strain, the glaring light, I rise</l>
+        <l n="4" real="+-x+-xx+-x" met="-+-+-+-+-+">Yawning and stretching, full of empty rage</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">At the dull maunderings of a long dead sage,</l>
+        <l n="6" real="xxx+-x-+xx" met="-+-+-+-+-+">Fling up the windows, fling aside his lies;</l>
+        <l n="7" real="+-xxx+-xxx" met="-+-+-+-+-+">Choosing to breathe, not stifle and be wise,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">And let the air pour in upon my cage.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-ab-ab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">The breeze blows cool and there are stars and stars</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Beyond the dark, soft masses of the elms</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">That whisper things in windy tones and light.</l>
+        <l n="12" real="xxxxxx-+-x" met="-+-+-+-+-+">They seem to wheel for dim, celestial wars;</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">And I -- I hear the clash of silver helms</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">Ring icy-clear from the far deeps of night.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcdcd">
+        <l n="15" real="-+xxxxxxx+-" met="-+-+-+-+-+-">Tobacco smoke drifts up to the dim ceiling</l>
+        <l n="16" real="xxx+-xxx-+" met="-+-+-+-+-+">From half a dozen pipes and cigarettes,</l>
+        <l n="17" real="+-x+-xxxx+-" met="-+-+-+-+-+-">Curling in endless shapes, in blue rings wheeling,</l>
+        <l n="18" real="xxxx+xxxxx" met="-+-+-+-+-+">As formless as our talk.  Phil, drawling, bets</l>
+        <l n="19" real="-+xxx+xxxx" met="-+-+-+-+-+">Cornell will win the relay in a walk,</l>
+        <l n="20" real="xxxx-+x+-+-" met="-+-+-+-+-+-">While Bob and Mac discuss the Giants&#x27; chances;</l>
+        <l n="21" real="xxx+-xxxxx" met="-+-+-+-+-+">Deep in a morris-chair, Bill scowls at &quot;Falk&quot;,</l>
+        <l n="22" real="xxxxxxxxx+-" met="-+-+-+-+-+-">John gives large views about the last few dances.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc">
+        <l n="23" real="xxxxx+-xx+-" met="-+-+-+-+-+-">And so it goes -- an idle speech and aimless,</l>
+        <l n="24" real="xxx+-xxxxx" met="-+-+-+-+-+">A few chance phrases; yet I see behind</l>
+        <l n="25" real="x+-xxxxx+-xxx" met="-+-+-+-+-+-+-">The empty words the gleam of a beauty tameless,</l>
+        <l n="26" real="+-xxx+xxxx" met="-+-+-+-+-+">Friendship and peace and fire to strike men blind,</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">Till the whole world seems small and bright to hold --</l>
+        <l n="28" real="xx+xx+-xxx" met="-+-+-+-+-+">Of all our youth this hour is pure gold.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abbaacca">
+        <l n="29" real="xxxxxxx+-x" met="-+-+-+-+-+">I lie stretched out upon the window-seat</l>
+        <l n="30" real="xxxxxxxxxx" met="-+-+-+-+-+">And doze, and read a page or two, and doze,</l>
+        <l n="31" real="xxxxx+-xxx" met="-+-+-+-+-+">And feel the air like water on me close,</l>
+        <l n="32" real="xxx+-xxxxx" met="-+-+-+-+-+">Great waves of sunny air that lip and beat</l>
+        <l n="33" real="xxxx-+--xx" met="-+-+-+-+-+">With a small noise, monotonous and sweet,</l>
+        <l n="34" real="xxx+-xxxxx" met="-+-+-+-+-+">Against the window -- and the scent of cool,</l>
+        <l n="35" real="x+-xxxxxxx" met="-+-+-+-+-+">Frail flowers by some brown and dew-drenched pool</l>
+        <l n="36" real="-+-xx+-xxx" met="-+-+-+-+-+">Possesses me from drowsy head to feet.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababcc">
+        <l n="37" real="xxxxxxxxx+-" met="-+-+-+-+-+-">This is the time of all-sufficing laughter</l>
+        <l n="38" real="xx-+-xxxxx" met="-+-+-+-+-+">At idiotic things some one has done,</l>
+        <l n="39" real="xxx+-xxx-+-" met="-+-+-+-+-+-">And there is neither past nor vague hereafter.</l>
+        <l n="40" real="xxx+-+-xxx" met="-+-+-+-+-+">And all your body stretches in the sun</l>
+        <l n="41" real="xxxxxxx+-x" met="-+-+-+-+-+">And drinks the light in like a liquid thing;</l>
+        <l n="42" real="xxx-+xxxxx" met="-+-+-+-+-+">Filled with the divine languor of late spring.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abbaacca">
+        <l n="43" real="xxx+-xxx-x" met="-+-+-+-+-+">I was just aiming at the jagged hole</l>
+        <l n="44" real="xxx+-+xxxx" met="-+-+-+-+-+">Torn in the yellow sandbags of their trench,</l>
+        <l n="45" real="x+-xx+xxxx" met="-+-+-+-+-+">When something threw me sideways with a wrench,</l>
+        <l n="46" real="xxxxx+-xxx" met="-+-+-+-+-+">And the skies seemed to shrivel like a scroll</l>
+        <l n="47" real="xx-+xxxxxx" met="-+-+-+-+-+">And disappear... and propped against the bole</l>
+        <l n="48" real="xxxxxxxxxx" met="-+-+-+-+-+">Of a big elm I lay, and watched the clouds</l>
+        <l n="49" real="xxxxxxxxxx" met="-+-+-+-+-+">Float through the blue, deep sky in speckless crowds,</l>
+        <l n="50" real="xxxx-+xxxx" met="-+-+-+-+-+">And I was clean again, and young, and whole.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abcbac">
+        <l n="51" real="xxxxxxxxxx" met="-+-+-+-+-+">Lord, what a dream that was!  And what a doze</l>
+        <l n="52" real="+-xxxx-+xx" met="-+-+-+-+-+">Waiting for Bill to come along to class!</l>
+        <l n="53" real="xxxxxxx-+x" met="-+-+-+-+-+">I&#x27;ve cut it now -- and he --  Oh, hello, Fred!</l>
+        <l n="54" real="xxx+-xxxxx" met="-+-+-+-+-+">Why, what&#x27;s the matter? -- here -- don&#x27;t be an ass,</l>
+        <l n="55" real="xxxxxxxx-+" met="-+-+-+-+-+">Sit down and tell me! --  What do you suppose?</l>
+        <l n="56" real="xxxxx+-xxx" met="-+-+-+-+-+">I dreamed I... AM I... wounded?  &quot;YOU ARE DEAD.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="alexander-vi-dines-with-the-cardinal-of-capua" n="L13385">
+      <head>Alexander VI Dines with the Cardinal of Capua</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:alexander-vi-dines-with-the-cardinal-of-capua</idno><idno type="laurel-id">L13385</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbacc">
+        <l n="1" real="xxx+xx" met="--+-+-">Next, then, the peacock, gilt</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">With all its feathers.  Look, what gorgeous dyes</l>
+        <l n="3" real="xxxx" met="--+-">Flow in the eyes!</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">And how deep, lustrous greens are splashed and spilt</l>
+        <l n="5" real="-+xxxxxxxx" met="-+-+-+-+-+">Along the back, that like a sea-wave&#x27;s crest</l>
+        <l n="6" real="xxx+-x-+-x" met="-+-+-+-+-+">Scatters soft beauty o&#x27;er th&#x27; emblazoned breast!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="7" real="xxxxxx" met="--+-+-">A strange fowl!  But most fit</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">For feasts like this, whereby I honor one</l>
+        <l n="9" real="xxxx" met="--+-">Pure as the sun!</l>
+        <l n="10" real="x+-xx+-xxx" met="-+-+-+-+-+">Yet glowing with the fiery zeal of it!</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">Some wine?  Your goblet&#x27;s empty?  Let it foam!</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">It is not often that you come to Rome!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbacc">
+        <l n="13" real="xxx+-x" met="--+-+-">You like the Venice glass?</l>
+        <l n="14" real="+-xxxxx+-x" met="-+-+-+-+-+">Rippled with lines that float like women&#x27;s curls,</l>
+        <l n="15" real="xxxx" met="--+-">Neck like a girl&#x27;s,</l>
+        <l n="16" real="x+-xx+-xxx" met="-+-+-+-+-+">Fierce-glowing as a chalice in the Mass?</l>
+        <l n="17" real="xxx+-xxxxx" met="-+-+-+-+-+">You start -- &#x27;twas artist then, not Pope who spoke!</l>
+        <l n="18" real="+--+-+-xxx" met="-+-+-+-+-+">Ave Maria stella! -- ah, it broke!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbacc">
+        <l n="19" real="xxxx-+" met="--+-+-">&#x27;Tis said they break alone</l>
+        <l n="20" real="x+-xxxx+-x" met="-+-+-+-+-+">When poison writhes within.  A foolish tale!</l>
+        <l n="21" real="xxxx" met="--+-">What, you look pale?</l>
+        <l n="22" real="xxxxx+-xxx" met="-+-+-+-+-+">Caraffa, fetch a silver cup!...  You own</l>
+        <l n="23" real="xxx+-xxxxx" met="-+-+-+-+-+">A Birth of Venus, now -- or so I&#x27;ve heard,</l>
+        <l n="24" real="+-xxx+-xxx" met="-+-+-+-+-+">Lovely as the breast-plumage of a bird.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a--a--">
+        <l n="25" real="+-x+-x" met="--+-+-">Also a Dancing Faun,</l>
+        <l n="26" real="xxxxxxxxx" met="+-+-+-+-+">Hewn with the lithe grace of Praxiteles;</l>
+        <l n="27" real="xxxx" met="--+-">Globed pearls to please</l>
+        <l n="28" real="x+-+-xxxxx" met="-+-+-+-+-+">A sultan; golden veils that drop like lawn --</l>
+        <l n="29" real="x+-xxxxxxx" met="-+-+-+-+-+">How happy I could be with but a tithe</l>
+        <l n="30" real="xx-+-+-xxx" met="-+-+-+-+-+">Of your possessions, fortunate one!  Don&#x27;t writhe</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abbacc">
+        <l n="31" real="xxx+-x" met="--+-+-">But take these cushions here!</l>
+        <l n="32" real="xxxxx+-+-x" met="-+-+-+-+-+">Now for the fruit!  Great peaches, satin-skinned,</l>
+        <l n="33" real="xxxx" met="--+-">Rough tamarind,</l>
+        <l n="34" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Pomegranates red as lips -- oh they come dear!</l>
+        <l n="35" real="xxxxxxx+-x" met="-+-+-+-+-+">But men like you we feast at any price --</l>
+        <l n="36" real="xx-+x+-+-x" met="-+-+-+-+-+">A plum perhaps?  They&#x27;re looking rather nice!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abbacc">
+        <l n="37" real="xxxxxx" met="--+-+-">I&#x27;ll cut the thing in half.</l>
+        <l n="38" real="xxxxxxx+-x" met="-+-+-+-+-+">There&#x27;s yours!  Now, with a one-side-poisoned knife</l>
+        <l n="39" real="xxxx" met="--+-">One might snuff life</l>
+        <l n="40" real="xxxxxxx+-x" met="-+-+-+-+-+">And leave one&#x27;s friend with -- &quot;fool&quot; for epitaph!</l>
+        <l n="41" real="xxxxxxxxxx" met="-+-+-+-+-+">An old trick?  Truth!  But when one has the itch</l>
+        <l n="42" real="x+-xx+-+-x" met="-+-+-+-+-+">For pretty things and isn&#x27;t very rich....</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="a--a--">
+        <l n="43" real="xxxxxx" met="--+-+-">There, eat it all or I&#x27;ll</l>
+        <l n="44" real="x+-xx+-xxx" met="-+-+-+-+-+">Be angry!  You feel giddy?  Well, it&#x27;s hot!</l>
+        <l n="45" real="xxxx" met="--+-">This bergamot</l>
+        <l n="46" real="xxxxx+-xxx" met="-+-+-+-+-+">Take home and smell -- it purges blood of bile!</l>
+        <l n="47" real="xxxxxx+--x" met="-+-+-+-+-+">And when you kiss Bianca&#x27;s dimpled knee,</l>
+        <l n="48" real="xxxxxxx+--" met="-+-+-+-+-+">Think of the poor Pope in his misery!</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abbacc">
+        <l n="49" real="xxxxxx" met="--+-+-">Now you may kiss my ring!</l>
+        <l n="50" real="xxx+-+-xxx" met="-+-+-+-+-+">Ho there, the Cardinal&#x27;s litter! --  You must dine</l>
+        <l n="51" real="xxxx" met="--+-">When the new wine</l>
+        <l n="52" real="xx-+xxxxx" met="+-+-+-+-+">Is in, again with me -- hear Bice sing,</l>
+        <l n="53" real="+--+x+-xxx" met="-+-+-+-+-+">Even admire my frescoes -- though they&#x27;re nought</l>
+        <l n="54" real="-+xxx+-xxx" met="-+-+-+-+-+">Beside the calm Greek glories you have bought!</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abbacc">
+        <l n="55" real="+-x+--" met="--+-+-">Godspeed, Sir Cardinal!</l>
+        <l n="56" real="xxxxx+-xxx" met="-+-+-+-+-+">And take a weak man&#x27;s blessing!  Help him there</l>
+        <l n="57" real="xxxx" met="--+-">To the cool air!...</l>
+        <l n="58" real="xxxxx+-xxx" met="-+-+-+-+-+">Lucrezia here?  You&#x27;re ready for the ball?</l>
+        <l n="59" real="xxxxx+-x-+" met="-+-+-+-+-+">-- He&#x27;ll die within ten hours, I suppose --</l>
+        <l n="60" real="-xxxx+-+-x" met="-+-+-+-+-+">MhM!  Kiss your poor old father, little rose!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-breaking-point" n="L13386">
+      <head>The Breaking Point</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-breaking-point</idno><idno type="laurel-id">L13386</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa--bccbddeeff">
+        <l n="1" real="xxxx-+-x" met="-+-+-+-+">It was not when temptation came,</l>
+        <l n="2" real="+-xxxxxx" met="-+-+-+-+">Swiftly and blastingly as flame,</l>
+        <l n="3" real="xx-xxx+-x" met="-+-+-+-+-">And seared me white with burning scars;</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">When I stood up for age-long wars</l>
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">And held the very Fiend at grips;</l>
+        <l n="6" real="xxx+--+-x" met="-+-+-+-+-">When all my mutinous body rose</l>
+        <l n="7" real="xx-+-+xx" met="-+-+-+-+">To range itself beside my foes,</l>
+        <l n="8" real="xxx+xxxx" met="-+-+-+-+">And, like a greyhound in the slips,</l>
+        <l n="9" real="xxxxxxxx-" met="-+-+-+-+-">The Beast that dwells within me roared,</l>
+        <l n="10" real="+-x+-xxx" met="-+-+-+-+">Lunging and straining at his cord....</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">For all the blusterings of Hell,</l>
+        <l n="12" real="xxxxxx-xx" met="-+-+-+-+-">It was not then I slipped and fell;</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">For all the storm, for all the hate,</l>
+        <l n="14" real="xxxx-+--" met="-+-+-+-+">I kept my soul inviolate!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcdeefgghhf">
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">But when the fight was fought and won,</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">And there was Peace as still as Death</l>
+        <l n="17" real="x+-xxxxx" met="-+-+-+-+">On everything beneath the sun.</l>
+        <l n="18" real="xxx+-xxx" met="-+-+-+-+">Just as I started to draw breath,</l>
+        <l n="19" real="xxxxxxx+" met="-+-+-+-+">And yawn, and stretch, and pat myself,</l>
+        <l n="20" real="xx-+x+-x" met="-+-+-+-+">-- The grass began to whisper things --</l>
+        <l n="21" real="x+--x-+xx" met="-+-+-+-+-">And every tree became an elf,</l>
+        <l n="22" real="xx-x+--xxx" met="--+-+-+-+-">That grinned and chuckled counsellings:</l>
+        <l n="23" real="xxxx-+xx" met="-+-+-+-+">Birds, beasts, one thing alone they said,</l>
+        <l n="24" real="+-x+-xxx" met="-+-+-+-+">Beating and dinning at my head.</l>
+        <l n="25" real="xxxxxxxxx" met="-+-+-+-+-">I could not fly.  I could not shun it.</l>
+        <l n="26" real="xxx+-xxx" met="-+-+-+-+">Slimily twisting, slow and blind,</l>
+        <l n="27" real="xxxxxxxx" met="-+-+-+-+">It crept and crept into my mind.</l>
+        <l n="28" real="+--x+-x-xx" met="--+-+-+-+-">Whispered and shouted, sneered and laughed,</l>
+        <l n="29" real="x-xxxxxxx" met="-+-+-+-+-">Screamed out until my brain was daft....</l>
+        <l n="30" real="xxxxxxxxx" met="-+-+-+-+-">One snaky word, &quot;WHAT IF YOU&#x27;D DONE IT?&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aabb">
+        <l n="31" real="xx-+xx" met="--+-+-">And I began to think...</l>
+        <l n="32" real="xx" met="-+">Ah, well,</l>
+        <l n="33" real="x+-xxx-xx" met="-+-+-+-+-">What matter how I slipped and fell?</l>
+        <l n="34" real="xxx+-+-x" met="-+-+-+-+">Or you, you gutter-searcher say!</l>
+        <l n="35" real="xxxxx+-x" met="-+-+-+-+">Tell where you found me yesterday!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lonely-burial" n="L13387">
+      <head>Lonely Burial</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:lonely-burial</idno><idno type="laurel-id">L13387</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba-c-c">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">There were not many at that lonely place,</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Where two scourged hills met in a little plain.</l>
+        <l n="3" real="xxxxxxxx-+" met="-+-+-+-+-+">The wind cried loud in gusts, then low again.</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">Three pines strained darkly, runners in a race</l>
+        <l n="5" real="-+x+-xxx+-x" met="-+-+-+-+-+-">Unseen by any.  Toward the further woods</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">A dim harsh noise of voices rose and ceased.</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">-- We were most silent in those solitudes --</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">Then, sudden as a flame, the black-robed priest,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab--">
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">The clotted earth piled roughly up about</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">The hacked red oblong of the new-made thing,</l>
+        <l n="11" real="xxx+x+-xxx" met="-+-+-+-+-+">Short words in swordlike Latin -- and a rout</l>
+        <l n="12" real="xxx+--xxx" met="+-+-+-+-+">Of dreams most impotent, unwearying.</l>
+        <l n="13" real="xxxxxxxx-+" met="-+-+-+-+-+">Then, like a blind door shut on a carouse,</l>
+        <l n="14" real="x+-xxxxxxxx" met="-+-+-+-+-+-">The terrible bareness of the soul&#x27;s last house.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="dinner-in-a-quick-lunch-room" n="L13388">
+      <head>Dinner in a Quick Lunch Room</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:dinner-in-a-quick-lunch-room</idno><idno type="laurel-id">L13388</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbacddc">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">Soup should be heralded with a mellow horn,</l>
+        <l n="2" real="+-xxxxxxxx" met="-+-+-+-+-+">Blowing clear notes of gold against the stars;</l>
+        <l n="3" real="x+xxx+-xxx" met="-+-+-+-+-+">Strange entrees with a jangle of glass bars</l>
+        <l n="4" real="-+---+x+-x" met="-+-+-+-+-+">Fantastically alive with subtle scorn;</l>
+        <l n="5" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Fish, by a plopping, gurgling rush of waters,</l>
+        <l n="6" real="x+-+-+---+" met="-+-+-+-+-+">Clear, vibrant waters, beautifully austere;</l>
+        <l n="7" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Roast, with a thunder of drums to stun the ear,</l>
+        <l n="8" real="x+-xxxx+-+-" met="-+-+-+-+-+-">A screaming fife, a voice from ancient slaughters!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="xxx+-xx+xx" met="-+-+-+-+-+">Over the salad let the woodwinds moan;</l>
+        <l n="10" real="xxx+-x+xxxx" met="-+-+-+-+-+-">Then the green silence of many watercresses;</l>
+        <l n="11" real="-+xxxxxx-+" met="-+-+-+-+-+">Dessert, a balalaika, strummed alone;</l>
+        <l n="12" real="+-xxx+-x+-+-" met="--+-+-+-+-+-">Coffee, a slow, low singing no passion stresses;</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Such are my thoughts as -- clang! crash! bang! -- I brood</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">And gorge the sticky mess these fools call food!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-planting-of-the-hemp" n="L13389">
+      <head>The Planting of the Hemp</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-planting-of-the-hemp</idno><idno type="laurel-id">L13389</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Captain Hawk scourged clean the seas</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">(Black is the gap below the plank)</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">From the Great North Bank to the Caribbees</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">(Down by the marsh the hemp grows rank).</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbb">
+        <l n="5" real="xxxxx+xx" met="-+-+-+-+">His fear was on the seaport towns,</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">The weight of his hand held hard the downs.</l>
+        <l n="7" real="xx+-xx+-xx" met="--+-+-+-+-">And the merchants cursed him, bitter and black,</l>
+        <l n="8" real="xxxxxxxxx" met="-+-+-+-+-">For a red flame in the sea-fog&#x27;s wrack</l>
+        <l n="9" real="xxxxxxxxx" met="-+-+-+-+-">Was all of their ships that might come back.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaa">
+        <l n="10" real="xxxxxx-+" met="-+-+-+-+">For all he had one word alone,</l>
+        <l n="11" real="xxxxxx+-x" met="-+-+-+-+-">One clod of dirt in their faces thrown,</l>
+        <l n="12" real="xxxxxxxxx" met="-+-+-+-+-">&quot;The hemp that shall hang me is not grown!&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa">
+        <l n="13" real="xx-+xxxx" met="-+-+-+-+">His name bestrode the seas like Death.</l>
+        <l n="14" real="x+-+--xxx" met="-+-+-+-+-">The waters trembled at his breath.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaa">
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">This is the tale of how he fell,</l>
+        <l n="16" real="xxxxxx+-x" met="-+-+-+-+-">Of the long sweep and the heavy swell,</l>
+        <l n="17" real="xxxxx-xxxx" met="--+-+-+-+-">And the rope that dragged him down to hell.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa">
+        <l n="18" real="xxxxxx+-x" met="-+-+-+-+-">The fight was done, and the gutted ship,</l>
+        <l n="19" real="x-xxxxxxx" met="-+-+-+-+-">Stripped like a shark the sea-gulls strip,</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaa">
+        <l n="20" real="x-+-+-xxx" met="-+-+-+-+-">Lurched blindly, eaten out with flame,</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">Back to the land from where she came,</l>
+        <l n="22" real="x+-+-x+-x" met="-+-+-+-+-">A skimming horror, an eyeless shame.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aa">
+        <l n="23" real="xxxxxx+-x" met="-+-+-+-+-">And Hawk stood upon his quarter-deck,</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">And saw the sky and saw the wreck.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aaa">
+        <l n="25" real="xxxxx+-x" met="-+-+-+-+">Below, a butt for sailors&#x27; jeers,</l>
+        <l n="26" real="xxxxxxxxx" met="-+-+-+-+-">White as the sky when a white squall nears,</l>
+        <l n="27" real="+--xxxx+--" met="--+-+-+-+-">Huddled the crowd of the prisoners.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aaa">
+        <l n="28" real="xxxxxx+--x" met="--+-+-+-+-">Over the bridge of the tottering plank,</l>
+        <l n="29" real="xxxxxxxx-x" met="--+-+-+-+-">Where the sea shook and the gulf yawned blank,</l>
+        <l n="30" real="xx-x+-xxxx" met="--+-+-+-+-">They shrieked and struggled and dropped and sank,</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aa">
+        <l n="31" real="xxxxxxx" met="+-+-+-+">Pinioned arms and hands bound fast.</l>
+        <l n="32" real="xx-+xxxx" met="-+-+-+-+">One girl alone was left at last.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aabb">
+        <l n="33" real="x+-xxx+-x" met="-+-+-+-+-">Sir Henry Gaunt was a mighty lord.</l>
+        <l n="34" real="xxxxxx+-x" met="-+-+-+-+-">He sat in state at the Council board;</l>
+        <l n="35" real="x+--xxxxx" met="-+-+-+-+-">The governors were as nought to him.</l>
+        <l n="36" real="xxxxx+-x" met="-+-+-+-+">From one rim to the other rim</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aa">
+        <l n="37" real="xxxx+-xxx" met="-+-+-+-+-">Of his great plantations, flung out wide</l>
+        <l n="38" real="xx+-xxxxxx" met="--+-+-+-+-">Like a purple cloak, was a full month&#x27;s ride.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aaa">
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">Life and death in his white hands lay,</l>
+        <l n="40" real="xx+-+-xxx" met="-+-+-+-+-">And his only daughter stood at bay,</l>
+        <l n="41" real="x-xxxxxxxx" met="--+-+-+-+-">Trapped like a hare in the toils that day.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="aaa">
+        <l n="42" real="xxxxxxxxxx" met="--+-+-+-+-">He sat at wine in his gold and his lace,</l>
+        <l n="43" real="xx-+xx+-x" met="-+-+-+-+-">And far away, in a bloody place,</l>
+        <l n="44" real="xxxxx+--xx" met="--+-+-+-+-">Hawk came near, and she covered her face.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="aa-a">
+        <l n="45" real="xxxxxxxxxx" met="--+-+-+-+-">He rode in the fields, and the hunt was brave,</l>
+        <l n="46" real="xx-+x+-x" met="-+-+-+-+">And far away his daughter gave</l>
+        <l n="47" real="xxxxxxxxx" met="-+-+-+-+-">A shriek that the seas cried out to hear,</l>
+        <l n="48" real="xxxxxxxxxx" met="--+-+-+-+-">And he could not see and he could not save.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aa-a">
+        <l n="49" real="xxx+--xxx" met="-+-+-+-+-">Her white soul withered in the mire</l>
+        <l n="50" real="x+-xxxx+-" met="-+-+-+-+-">As paper shrivels up in fire,</l>
+        <l n="51" real="xxx-xxx-xx" met="--+-+-+-+-">And Hawk laughed, and he kissed her mouth,</l>
+        <l n="52" real="xx+-xxxx-+-" met="-+-+-+-+-+-">And her body he took for his desire.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-growing-of-the-hemp" n="L13390">
+      <head>The Growing of the Hemp</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-growing-of-the-hemp</idno><idno type="laurel-id">L13390</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa">
+        <l n="1" real="x+-xxx+-x" met="-+-+-+-+-">Sir Henry stood in the manor room,</l>
+        <l n="2" real="xxxxxxxxx" met="-+-+-+-+-">And his eyes were hard gems in the gloom.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa">
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">And he said, &quot;Go dig me furrows five</l>
+        <l n="4" real="xxxxxxxx-+" met="--+-+-+-+-">Where the green marsh creeps like a thing alive --</l>
+        <l n="5" real="xxxxxx+-x" met="-+-+-+-+-">There at its edge, where the rushes thrive.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa">
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And where the furrows rent the ground,</l>
+        <l n="7" real="xx-xxxxxx" met="-+-+-+-+-">He sowed the seed of hemp around.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaa">
+        <l n="8" real="xxxxxxxx-+" met="--+-+-+-+-">And the blacks shrink back and are sore afraid</l>
+        <l n="9" real="xxxxxxxxx" met="-+-+-+-+-">At the furrows five that rib the glade,</l>
+        <l n="10" real="xx+xxxx+-x" met="--+-+-+-+-">And the voodoo work of the master&#x27;s spade.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaa">
+        <l n="11" real="xxxxxxx+xx" met="--+-+-+-+-">For a cold wind blows from the marshland near,</l>
+        <l n="12" real="xxxxxxxxx" met="-+-+-+-+-">And white things move, and the night grows drear,</l>
+        <l n="13" real="xx+-xxxxxxx" met="-+-+-+-+-+-">And they chatter and crouch and are sick with fear.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aaa">
+        <l n="14" real="xxxxxxxxxx" met="--+-+-+-+-">But down by the marsh, where the gray slaves glean,</l>
+        <l n="15" real="xxxxxxxxx" met="-+-+-+-+-">The hemp sprouts up, and the earth is seen</l>
+        <l n="16" real="x-xx+--xxx" met="--+-+-+-+-">Veiled with a tenuous mist of green.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aa">
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">And Hawk still scourges the Caribbees,</l>
+        <l n="18" real="x+-xxxxx" met="-+-+-+-+">And many men kneel at his knees.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aa">
+        <l n="19" real="x+-xxxx-+" met="-+-+-+-+-">Sir Henry sits in his house alone,</l>
+        <l n="20" real="xxxxxxxxx" met="-+-+-+-+-">And his eyes are hard and dull like stone.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aa">
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">And the waves beat, and the winds roar,</l>
+        <l n="22" real="xxxxxxxxx" met="-+-+-+-+-">And all things are as they were before.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aa">
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">And the days pass, and the weeks pass,</l>
+        <l n="24" real="x+-+-xxx" met="-+-+-+-+">And nothing changes but the grass.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aaa">
+        <l n="25" real="xxxx+-xxxx" met="--+-+-+-+-">But down where the fireflies are like eyes,</l>
+        <l n="26" real="xxx+-xxxx" met="-+-+-+-+-">And the damps shudder, and the mists rise,</l>
+        <l n="27" real="xxxxxxxxx" met="-+-+-+-+-">The hemp-stalks stand up toward the skies.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aa">
+        <l n="28" real="xxxxxxx+-x" met="--+-+-+-+-">And down from the poop of the pirate ship</l>
+        <l n="29" real="x+-xxxxxx" met="-+-+-+-+-">A body falls, and the great sharks grip.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aa">
+        <l n="30" real="+--+-xxx" met="-+-+-+-+">Innocent, lovely, go in grace!</l>
+        <l n="31" real="xxxxxxxxx" met="-+-+-+-+-">At last there is peace upon your face.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aa">
+        <l n="32" real="xxxxxxxxx" met="-+-+-+-+-">And Hawk laughs loud as the corpse is thrown,</l>
+        <l n="33" real="xxxxxxxxx" met="-+-+-+-+-">&quot;The hemp that shall hang me is not grown!&quot;</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="aa">
+        <l n="34" real="x+-xx+-xx" met="-+-+-+-+-">Sir Henry&#x27;s face is iron to mark,</l>
+        <l n="35" real="xx+-+-xxx" met="-+-+-+-+-">And he gazes ever in the dark.</l>
+      </lg>
+      <lg type="stanza" n="16">
+        <l n="36" real="xxxxxxxx" met="-+-+-+-+">And the days pass, and the weeks pass,</l>
+        <l n="37" real="xxxxxx+xx" met="-+-+-+-+-">And the world is as it always was.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aaa">
+        <l n="38" real="xxxxxx+-x" met="-+-+-+-+-">But down by the marsh the sickles beam,</l>
+        <l n="39" real="+-x+-xxx" met="-+-+-+-+">Glitter on glitter, gleam on gleam,</l>
+        <l n="40" real="xxxxxxx+-x" met="--+-+-+-+-">And the hemp falls down by the stagnant stream.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="aa">
+        <l n="41" real="xxxxxxxx" met="-+-+-+-+">And Hawk beats up from the Caribbees,</l>
+        <l n="42" real="+-xxxx+-x" met="-+-+-+-+-">Swooping to pounce in the Northern seas.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="aa">
+        <l n="43" real="x+-xxxxxx" met="-+-+-+-+-">Sir Henry sits sunk deep in his chair,</l>
+        <l n="44" real="xxxxxxxxx" met="-+-+-+-+-">And white as his hand is grown his hair.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="aa">
+        <l n="45" real="xxxxxxxx" met="-+-+-+-+">And the days pass, and the weeks pass,</l>
+        <l n="46" real="xxxxxx+-x" met="-+-+-+-+-">And the sands roll from the hour-glass.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="aaa">
+        <l n="47" real="xxxxxxx+-x" met="--+-+-+-+-">But down by the marsh in the blazing sun</l>
+        <l n="48" real="xxxx-x+-xx" met="--+-+-+-+-">The hemp is smoothed and twisted and spun,</l>
+        <l n="49" real="xxxxxxx" met="+-+-+-+">The rope made, and the work done.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-using-of-the-hemp" n="L13391">
+      <head>The Using of the Hemp</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-using-of-the-hemp</idno><idno type="laurel-id">L13391</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Captain Hawk scourged clean the seas</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">(Black is the gap below the plank)</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">From the Great North Bank to the Caribbees</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">(Down by the marsh the hemp grows rank).</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa">
+        <l n="5" real="xx-xxx-+-x" met="--+-+-+-+-">He sailed in the broad Atlantic track,</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">And the ships that saw him came not back.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="7" real="xx-+xxxxx" met="-+-+-+-+-">And once again, where the wide tides ran,</l>
+        <l n="8" real="xx-x+-xxxx" met="--+-+-+-+-">He stooped to harry a merchantman.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaa">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">He bade her stop.  Ten guns spake true</l>
+        <l n="10" real="xx+-xxx+-x" met="--+-+-+-+-">From her hidden ports, and a hidden crew,</l>
+        <l n="11" real="+-xxxxxx" met="-+-+-+-+">Lacking his great ship through and through.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa">
+        <l n="12" real="x-xxxx+-x" met="-+-+-+-+-">Dazed and dumb with the sudden death,</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">He scarce had time to draw a breath</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa">
+        <l n="14" real="xxx+-+-xx" met="-+-+-+-+-">Before the grappling-irons bit deep,</l>
+        <l n="15" real="xx+-xxxxx" met="-+-+-+-+-">And the boarders slew his crew like sheep.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aa">
+        <l n="16" real="xxxxxxxxx" met="-+-+-+-+-">Hawk stood up straight, his breast to the steel;</l>
+        <l n="17" real="x+-xx+-x" met="-+-+-+-+">His cutlass made a bloody wheel.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aa">
+        <l n="18" real="x+-xxxxx" met="-+-+-+-+">His cutlass made a wheel of flame.</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">They shrank before him as he came.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aa">
+        <l n="20" real="xx+-xxx+-x" met="--+-+-+-+-">And the bodies fell in a choking crowd,</l>
+        <l n="21" real="xxx+--x-+" met="-+-+-+-+-">And still he thundered out aloud,</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aa">
+        <l n="22" real="xxxxxxxxx" met="-+-+-+-+-">&quot;The hemp that shall hang me is not grown!&quot;</l>
+        <l n="23" real="xxxxxxx-+" met="-+-+-+-+-">They fled at last.  He was left alone.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aa">
+        <l n="24" real="xxxxx+-x" met="-+-+-+-+">Before his foe Sir Henry stood.</l>
+        <l n="25" real="xxxxxxxxx" met="-+-+-+-+-">&quot;The hemp is grown, and my word made good!&quot;</l>
+      </lg>
+      <lg type="stanza" n="12">
+        <l n="26" real="xx+-xxx+-x" met="--+-+-+-+-">And the cutlass clanged with a hissing whir</l>
+        <l n="27" real="xx+-xxx+--" met="--+-+-+-+-">On the lashing blade of the rapier.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aa">
+        <l n="28" real="xx-xxxxxxx" met="--+-+-+-+-">Hawk roared and charged like a maddened buck.</l>
+        <l n="29" real="xx+-xx+-x" met="-+-+-+-+-">As the cobra strikes, Sir Henry struck,</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aa">
+        <l n="30" real="+-xxxx+-x" met="-+-+-+-+-">Pouring his life in a single thrust,</l>
+        <l n="31" real="xx+-+-xxxx" met="--+-+-+-+-">And the cutlass shivered to sparks and dust.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="aa">
+        <l n="32" real="x+-xxxxx-x" met="--+-+-+-+-">Sir Henry stood on the blood-stained deck,</l>
+        <l n="33" real="xxxxxxxx" met="-+-+-+-+">And set his foot on his foe&#x27;s neck.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="aaa">
+        <l n="34" real="xxxxxxxxx" met="-+-+-+-+-">Then from the hatch, where the rent decks slope,</l>
+        <l n="35" real="xxxxxx+-x" met="-+-+-+-+-">Where the dead roll and the wounded grope,</l>
+        <l n="36" real="xx-x+-xxx" met="-+-+-+-+-">He dragged the serpent of the rope.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aa-a">
+        <l n="37" real="xxxxxxxxx" met="-+-+-+-+-">The sky was blue, and the sea was still,</l>
+        <l n="38" real="xxx-+-xxx" met="-+-+-+-+-">The waves lapped softly, hill on hill,</l>
+        <l n="39" real="xxxxxx-+-x" met="--+-+-+-+-">And between one wave and another wave</l>
+        <l n="40" real="xx-xxx+-xx" met="--+-+-+-+-">The doomed man&#x27;s cries were little and shrill.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="aa--">
+        <l n="41" real="xxxxxxxxx" met="-+-+-+-+-">The sea was blue, and the sky was calm;</l>
+        <l n="42" real="xxx-xx+-x" met="-+-+-+-+-">The air dripped with a golden balm.</l>
+        <l n="43" real="xxxxxxxxxx" met="--+-+-+-+-">Like a wind-blown fruit between sea and sun,</l>
+        <l n="44" real="xxxx-xxxx" met="-+-+-+-+-">A black thing writhed at a yard-arm.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a">
+        <l n="45" real="+-xx+--" met="+-+-+-+">Slowly then, and awesomely,</l>
+        <l n="46" real="xxxxx+-x" met="-+-+-+-+">The ship sank, and the gallows-tree,</l>
+        <l n="47" real="xxxxxxxxx" met="-+-+-+-+-">And there was nought between sea and sun --</l>
+        <l n="48" real="xxxxxxxxxx" met="--+-+-+-+-">Nought but the sun and the sky and the sea.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="aa-a">
+        <l n="49" real="xxxxxxx+-x" met="--+-+-+-+-">But down by the marsh where the fever breeds,</l>
+        <l n="50" real="+-x+-+-xx" met="-+-+-+-+-">Only the water chuckles and pleads;</l>
+        <l n="51" real="xxxxxxxxxx" met="--+-+-+-+-">For the hemp clings fast to a dead man&#x27;s throat,</l>
+        <l n="52" real="xxx+-xxx" met="-+-+-+-+">And blind Fate gathers back her seeds.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poor-devil" n="L13392">
+      <head>Poor Devil!</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:poor-devil</idno><idno type="laurel-id">L13392</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abacbc--">
+        <l n="1" real="xxx+xxx+-x" met="-+-+-+-+-+">Well, I was tired of life; the silly folk,</l>
+        <l n="2" real="x+-+-xx+-x" met="-+-+-+-+-+">The tiresome noises, all the common things</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">I loved once, crushed me with an iron yoke.</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">I longed for the cool quiet and the dark,</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">Under the common sod where louts and kings</l>
+        <l n="6" real="xx-+xxx+-x" met="-+-+-+-+-+">Lie down, serene, unheeding, careless, stark,</l>
+        <l n="7" real="+-xxxxxx-+" met="-+-+-+-+-+">Never to rise or move or feel again,</l>
+        <l n="8" real="xxx+--x+-x" met="-+-+-+-+-+">Filled with the ecstasy of being dead....</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--abb-accddee--e">
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">I put the shining pistol to my head</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">And pulled the trigger hard -- I felt no pain,</l>
+        <l n="11" real="xxxxx+-xx+-" met="-+-+-+-+-+-">No pain at all; the pistol had missed fire</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">I thought; then, looking at the floor, I saw</l>
+        <l n="13" real="x+-+-+-xxx" met="-+-+-+-+-+">My huddled body lying there -- and awe</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">Swept over me.  I trembled -- and looked up.</l>
+        <l n="15" real="xxxxxxxx-+-" met="-+-+-+-+-+-">About me was -- not that, my heart&#x27;s desire,</l>
+        <l n="16" real="xxxx-+xxxx" met="-+-+-+-+-+">That small and dark abode of death and peace --</l>
+        <l n="17" real="xxxxxxxx-+" met="-+-+-+-+-+">But all from which I sought a vain release!</l>
+        <l n="18" real="xxx+-xx+-x" met="-+-+-+-+-+">The sky, the people and the staring sun</l>
+        <l n="19" real="xxxxxxxx-+" met="-+-+-+-+-+">Glared at me as before.  I was undone.</l>
+        <l n="20" real="xxxxxxxxxx" met="-+-+-+-+-+">My last state ten times worse than was my first.</l>
+        <l n="21" real="+-xxxx-+xx" met="-+-+-+-+-+">Helpless I stood, befooled, betrayed, accursed,</l>
+        <l n="22" real="+-xx-+-+--" met="-+-+-+-+-+">Fettered to Life forever, horribly;</l>
+        <l n="23" real="xxx+-x-+--" met="-+-+-+-+-+">Caught in the meshes of Eternity,</l>
+        <l n="24" real="x+-xxxxxxx" met="-+-+-+-+-+">No further doors to break or bars to burst!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ghosts-of-a-lunatic-asylum" n="L13393">
+      <head>Ghosts of a Lunatic Asylum</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:ghosts-of-a-lunatic-asylum</idno><idno type="laurel-id">L13393</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Here, where men&#x27;s eyes were empty and as bright</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">As the blank windows set in glaring brick,</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">When the wind strengthens from the sea -- and night</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Drops like a fog and makes the breath come thick;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="xx-+-xx+-x" met="-+-+-+-+-+">By the deserted paths, the vacant halls,</l>
+        <l n="6" real="xxx+-+-xxx" met="-+-+-+-+-+">One may see figures, twisted shades and lean,</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Like the mad shapes that crawl an Indian screen,</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">Or paunchy smears you find on prison walls.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">Turn the knob gently!  There&#x27;s the Thumbless Man,</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">Still weaving glass and silk into a dream,</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Although the wall shows through him -- and the Khan</l>
+        <l n="12" real="+--+-+x+-x" met="-+-+-+-+-+">Journeys Cathay beside a paper stream.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+-+-xxxxx" met="-+-+-+-+-+">A Rabbit Woman chitters by the door --</l>
+        <l n="14" real="+-xxxxxxxx" met="-+-+-+-+-+">-- Chilly the grave-smell comes from the turned sod --</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">Come -- lift the curtain -- and be cold before</l>
+        <l n="16" real="x+-xxxxxxx" met="-+-+-+-+-+">The silence of the eight men who were God!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-white-peacock-i" n="L13394">
+      <head>The White Peacock I</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-white-peacock-i</idno><idno type="laurel-id">L13394</idno><note type="metre">iambic octameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxxxxxxx+-+-" met="--+-+-+-+-+-+-+-+-">His black biretta clings like a hangman&#x27;s cap; under his twitching fingers</l>
+        <l n="2" real="xx+-xx" met="--+-+-">the beads shiver and click,</l>
+        <l n="3" real="xx+-xx+-x+x+-xxx" met="-+-+-+-+-+-+-+-+">As he mumbles in his corner, the shadow deepens upon him;</l>
+        <l n="4" real="xxx-+" met="-+-+-">I will not confess!...</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-aa--">
+        <l n="5" real="xxxxxxxxx+x" met="-+-+-+-+-+-">Is he there or is it intenser shadow?</l>
+        <l n="6" real="x+-xxxx-+x" met="--+-+-+-+-">Dark huddled coilings from the obscene depths,</l>
+        <l n="7" real="xxx+x" met="-+-+-">Black, formless shadow,</l>
+        <l n="8" real="+x" met="-+">Shadow.</l>
+        <l n="9" real="xxx+-xxx-+xx+-x+-" met="-+-+-+-+-+-+-+-+-">Doors creak; from secret parts of the chateau come the scuffle and worry</l>
+        <l n="10" real="xx" met="-+">of rats.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="11" real="+-xxxx+--+-" met="-+-+-+-+-+-">Orange light drips from the guttering candles,</l>
+        <l n="12" real="xxxxx-+-xxx" met="-+-+-+-+-+-">Eddying over the vast embroideries of the bed</l>
+        <l n="13" real="+-x+-+--" met="--+-+-+-">Stirring the monstrous tapestries,</l>
+        <l n="14" real="-+-xxx+--+-xxx+-" met="-+-+-+-+-+-+-+-+">Retreating before the sable impending gloom of the canopy</l>
+        <l n="15" real="xxxxx+-xx" met="-+-+-+-+-">With a swift thrust and sparkle of gold,</l>
+        <l n="16" real="xxxx" met="--+-">Lipping my hands,</l>
+        <l n="17" real="x" met="+">Then</l>
+        <l n="18" real="+-x-+xxx+-+-" met="--+-+-+-+-+-">Rippling back abashed before the ominous silences</l>
+        <l n="19" real="xxxxxxxxx-+xx" met="-+-+-+-+-+-+-">Like the swift turns and starts of an overpowered fencer</l>
+        <l n="20" real="xxxxx+-" met="-+-+-+-">Who sees before him Horror</l>
+        <l n="21" real="xxx+-" met="-+-+-">Behind him darkness,</l>
+        <l n="22" real="+x" met="-+">Shadow.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="---aa">
+        <l n="23" real="xxxxxxx+-xxxxxxx" met="-+-+-+-+-+-+-+-+">The clock jars and strikes, a thin, sudden note like the sob of a child.</l>
+        <l n="24" real="xxxxxxx+-+xxx" met="-+-+-+-+-+-+-">Clock, buhl clock that ticked out the tortuous hours of my birth,</l>
+        <l n="25" real="x++-xxxxx+xx+-" met="--+-+-+-+-+-+-">Clock, evil, wizened dwarf of a clock, how many years of agony</l>
+        <l n="26" real="xx-+--+--" met="-+-+-+-+-">have you relentlessly measured,</l>
+        <l n="27" real="+xxx+-x" met="-+-+-+-">Yardstick of my stifling shroud?</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="28" real="xxxxxxxxxxxxx+-xx" met="-+-+-+-+-+-+-+-+-">I am Aumaury de Montreuil; once quick, soon to be eaten of worms.</l>
+        <l n="29" real="xx+-xxx-+xxxx" met="-+-+-+-+-+-+-">You hear, Father?  Hsh, he is asleep in the night&#x27;s cloak.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="30" real="xxxxxx" met="--+-+-">Over me too steals sleep.</l>
+        <l n="31" real="xxxxxxx+-+-x+-xx" met="-+-+-+-+-+-+-+-+">Sleep like a white mist on the rotting paintings of cupids and gods</l>
+        <l n="32" real="xx+-" met="--+-">on the ceiling;</l>
+        <l n="33" real="xxxxxxxxxxxxxx" met="--+-+-+-+-+-+-">Sleep on the carven shields and knots at the foot of the bed,</l>
+        <l n="34" real="+-+-+x-+-x-+-" met="-+-+-+-+-+-+-">Oozing, blurring outlines, obliterating colors,</l>
+        <l n="35" real="x" met="+">Death.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="36" real="+-+-xxxx" met="--+-+-+-">Father, Father, I must not sleep!</l>
+        <l n="37" real="xxxxx+xxxx+-" met="--+-+-+-+-+-">It does not hear -- that shadow crouched in the corner...</l>
+        <l n="38" real="xxx+x" met="-+-+-">Is it a shadow?</l>
+        <l n="39" real="xxxx-+xxxxx+-xx" met="+-+-+-+-+-+-+-+">One might think so indeed, save for the calm face, yellow as wax,</l>
+        <l n="40" real="xxxxxxxxxxx+-+-" met="+-+-+-+-+-+-+-+">that lifts like the face of a drowned man from the choking darkness.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-white-peacock-ii" n="L13395">
+      <head>The White Peacock II</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-white-peacock-ii</idno><idno type="laurel-id">L13395</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ab-abb--">
+        <l n="1" real="xxx+-xx+-xxxx" met="-+-+-+-+-+-+-">Out of the drowsy fog my body creeps back to me.</l>
+        <l n="2" real="xxxxxxxx" met="--+-+-+-">It is the white time before dawn.</l>
+        <l n="3" real="+x+-xxx+-+-xxx" met="--+-+-+-+-+-+-">Moonlight, watery, pellucid, lifeless, ripples over the world.</l>
+        <l n="4" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">The grass beneath it is gray; the stars pale in the sky.</l>
+        <l n="5" real="xxxx+-" met="--+-+-">The night dew has fallen;</l>
+        <l n="6" real="x-+-x+-x+-xxxxxx+-" met="--+-+-+-+-+-+-+-+-">An infinity of little drops, crystals from which all light has been taken,</l>
+        <l n="7" real="xxx+-+-" met="-+-+-+-">Glint on the sighing branches.</l>
+        <l n="8" real="xx+-xx+-xxxxx+-" met="-+-+-+-+-+-+-+-">All is purity, without color, without stir, without passion.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="9" real="xxxxx" met="-+-+-">My heart shocks and stops;</l>
+        <l n="10" real="xxxx" met="--+-">Sweat, cold corpse-sweat</l>
+        <l n="11" real="+-x+-+-" met="-+-+-+-">Covers my rigid body.</l>
+        <l n="12" real="xxxxxx+-xx+-x" met="-+-+-+-+-+-+-">My hair stands on end.  I cannot stir.  I cannot speak.</l>
+        <l n="13" real="xx+-+-xx+-xxx+-" met="-+-+-+-+-+-+-+-">It is terror, terror that is walking the pale sick gardens</l>
+        <l n="14" real="xx+-xxxxxxx" met="-+-+-+-+-+-">And the eyeless face no man may see and live!</l>
+        <l n="15" real="xxxxx" met="-+-+-">Ah-h-h-h-h!</l>
+        <l n="16" real="+-+-xxxxx" met="+-+-+-+-+">Father, Father, wake! wake and save me!</l>
+        <l n="17" real="xx+-xx+x" met="--+-+-+-">In his corner all is shadow.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="--------------a--a-----">
+        <l n="18" real="xxxxxx" met="--+-+-">Dead things creep from the ground.</l>
+        <l n="19" real="xxxx-+xxxxx-+" met="-+-+-+-+-+-+-">It is so long ago that she died, so long ago!</l>
+        <l n="20" real="x+-xxxxxxx" met="-+-+-+-+-+">Dust crushes her, earth holds her, mold grips her.</l>
+        <l n="21" real="xxxxxxxxx" met="+-+-+-+-+">Fiends, do you not know that she is dead?...</l>
+        <l n="22" real="xxxx+-xxxxx+-xx" met="-+-+-+-+-+-+-+-">&quot;Let us dance the pavon!&quot; she said; the waxlights glittered like swords</l>
+        <l n="23" real="xx+-x" met="-+-+-">on the polished floor.</l>
+        <l n="24" real="+-xxxxxx+-+-xxxx" met="--+-+-+-+-+-+-+-">Twinkling on jewelled snuffboxes, beaming savagely from the crass gold</l>
+        <l n="25" real="xx-+-" met="-+-+-">of candelabra,</l>
+        <l n="26" real="xxx+-xxxxx+xxx" met="--+-+-+-+-+-+-">From the white shoulders of girls and the white powdered wigs of men...</l>
+        <l n="27" real="xxxxx" met="-+-+-">All life was that dance.</l>
+        <l n="28" real="x+-xxx+-" met="--+-+-+-">The mocking, resistless current,</l>
+        <l n="29" real="x+-x+-x+-+-" met="-+-+-+-+-+-">The beauty, the passion, the perilous madness --</l>
+        <l n="30" real="xxxxx-+xxxx+-x+-" met="--+-+-+-+-+-+-+-">As she took my hand, released it and spread her dresses like petals,</l>
+        <l n="31" real="+-+-x+-" met="-+-+-+-">Turning, swaying in beauty,</l>
+        <l n="32" real="x+-xxxx" met="-+-+-+-">A lily, bowed by the rain, --</l>
+        <l n="33" real="+xxxxx+-x+xxx" met="-+-+-+-+-+-+-">Moonlight she was, and her body of moonlight and foam,</l>
+        <l n="34" real="xxxx" met="--+-">And her eyes stars.</l>
+        <l n="35" real="xxxxx+-" met="-+-+-+-">Oh the dance has a pattern!</l>
+        <l n="36" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">But the clear grace of her thrilled through the notes of the viols,</l>
+        <l n="37" real="+-+--+--+-xx" met="--+-+-+-+-+-">Tremulous, pleading, escaping, immortal, untamed,</l>
+        <l n="38" real="xxx+-" met="-+-+-">And, as we ended,</l>
+        <l n="39" real="xxxxxxxxxx+-x+-" met="-+-+-+-+-+-+-+-">She blew me a kiss from her hand like a drifting white blossom --</l>
+        <l n="40" real="xxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-">And the starshine was gone; and she fled like a bird up the stair.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="41" real="x-+x+-x+xx" met="-+-+-+-+-+">Underneath the window a peacock screams,</l>
+        <l n="42" real="xxxx" met="--+-">And claws click, scrape</l>
+        <l n="43" real="x+-+-xxxxx" met="-+-+-+-+-+">Like little lacquered boots on the rough stone.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="44" real="xxx+-xxxx+-+-+-" met="-+-+-+-+-+-+-+-">Oh the long fantasy of the kiss; the ceaseless hunger, ceaselessly,</l>
+        <l n="45" real="-+--+" met="-+-+-">divinely appeased!</l>
+        <l n="46" real="x+-+-xxxxx+-" met="--+-+-+-+-+-">The aching presence of the beloved&#x27;s beauty!</l>
+        <l n="47" real="x+-x-+x+-" met="+-+-+-+-+">The wisdom, the incense, the brightness!</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="48" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">Once more on the ice-bright floor they danced the pavon</l>
+        <l n="49" real="xxxxx+-xxxx+-+-" met="-+-+-+-+-+-+-+-">But I turned to the garden and her from the lighted candles.</l>
+        <l n="50" real="+-xxxxxxxxx+-xx" met="-+-+-+-+-+-+-+-">Softly I trod the lush grass between the black hedges of box.</l>
+        <l n="51" real="+-xxxxxx-+xxxx" met="--+-+-+-+-+-+-">Softly, for I should take her unawares and catch her arms,</l>
+        <l n="52" real="x-+xxx+--" met="+-+-+-+-+">And embrace her, dear and startled.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="53" real="xx+-xx+xxx+-" met="--+-+-+-+-+-">By the arbor all the moonlight flowed in silver</l>
+        <l n="54" real="xxxxxxx" met="-+-+-+-">And her head was on his breast.</l>
+        <l n="55" real="xxxxx+-" met="-+-+-+-">She did not scream or shudder</l>
+        <l n="56" real="xxxxxxxxx" met="+-+-+-+-+">When my sword was where her head had lain</l>
+        <l n="57" real="xx+-+x" met="--+-+-">In the quiet moonlight;</l>
+        <l n="58" real="xxxxxxxx+--" met="-+-+-+-+-+-">But turned to me with one pale hand uplifted,</l>
+        <l n="59" real="xx+-+-xxxx" met="-+-+-+-+-+">All her satins fiery with the starshine,</l>
+        <l n="60" real="xx+--+-x-+-" met="-+-+-+-+-+-">Nacreous, shimmering, weeping, iridescent,</l>
+        <l n="61" real="xx+-+-xx+x" met="-+-+-+-+-+">Like the quivering plumage of a peacock...</l>
+        <l n="62" real="xxxx-xxxxx" met="-+-+-+-+-+">Then her head drooped and I gripped her hair,</l>
+        <l n="63" real="xx+-x-+x+-" met="-+-+-+-+-+">Oh soft, scented cloud across my fingers! --</l>
+        <l n="64" real="+-xxxx" met="--+-+-">Bending her white neck back....</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="a--a--">
+        <l n="65" real="xx-xxxxxxx" met="-+-+-+-+-+">Blood writhed on my hands; I trod in blood....</l>
+        <l n="66" real="+--xx" met="-+-+-">Stupidly agaze</l>
+        <l n="67" real="xx+-xxxx+x" met="-+-+-+-+-+">At that crumpled heap of silk and moonlight,</l>
+        <l n="68" real="xx+-xxxx+-" met="-+-+-+-+-+">Where like twitching pinions, an arm twisted,</l>
+        <l n="69" real="xxxxxx" met="--+-+-">Palely, and was still</l>
+        <l n="70" real="xxxxx" met="-+-+-">As the face of chalk.</l>
+      </lg>
+      <lg type="stanza" n="9">
+        <l n="71" real="xxxx" met="--+-">The buhl clock strikes.</l>
+        <l n="72" real="+-xx+-x" met="-+-+-+-">Thirty years.  Christ, thirty years!</l>
+        <l n="73" real="+--+--" met="--+-+-">Agony.  Agony.</l>
+      </lg>
+      <lg type="stanza" n="10">
+        <l n="74" real="+-xxx+-" met="-+-+-+-">Something stirs in the window,</l>
+        <l n="75" real="+--x+x" met="--+-+-">Shattering the moonlight.</l>
+        <l n="76" real="xxx" met="-+-">White wings fan.</l>
+        <l n="77" real="+-+-" met="--+-">Father, Father!</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="78" real="xx+-+-xxxx" met="-+-+-+-+-+">All its plumage fiery with the starshine,</l>
+        <l n="79" real="xx+--+-x-+-" met="-+-+-+-+-+-">Nacreous, shimmering, weeping, iridescent,</l>
+        <l n="80" real="xx-+xxxxxx" met="-+-+-+-+-+">It drifts across the floor and mounts the bed,</l>
+        <l n="81" real="xxxx+-+-x" met="+-+-+-+-+">To the tap of little satin shoes.</l>
+        <l n="82" real="+-x-+-x" met="-+-+-+-">Gazing with infernal eyes.</l>
+        <l n="83" real="xxx+-+-+-+-" met="-+-+-+-+-+-">Its quick beak thrusting, rending, devil&#x27;s crimson...</l>
+        <l n="84" real="xx+-xxxx+--" met="-+-+-+-+-+-">Screams, great tortured screams shake the dark canopy.</l>
+        <l n="85" real="xx+-x+xxx+-x" met="--+-+-+-+-+-">The light flickers, the shadow in the corner stirs;</l>
+        <l n="86" real="xxxxxx+-" met="--+-+-+-">The wax face lifts; the eyes open.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="colors" n="L13396">
+      <head>Colors</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:colors</idno><idno type="laurel-id">L13396</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdeaeaff">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">The little man with the vague beard and guise</l>
+        <l n="2" real="xxx+-x-+xx" met="-+-+-+-+-+">Pulled at the wicket.  &quot;Come inside!&quot; he said,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;I&#x27;ll show you all we&#x27;ve got now -- it was size</l>
+        <l n="4" real="x+-xx+-xxx" met="-+-+-+-+-+">You wanted? -- oh, dry colors!  Well&quot; -- he led</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">To a dim alley lined with musty bins,</l>
+        <l n="6" real="xxx+-+--xx" met="-+-+-+-+-+">And pulled one fiercely.  Violent and bold</l>
+        <l n="7" real="x+-+-xx+-x" met="-+-+-+-+-+">A sudden tempest of mad, shrieking sins</l>
+        <l n="8" real="+-xxxxx+-x" met="-+-+-+-+-+">Scarlet screamed out above the battered gold</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">Of tins and picture-frames.  I held my breath.</l>
+        <l n="10" real="xx-+-xx+-x" met="-+-+-+-+-+">He tugged another hard -- and sapphire skies</l>
+        <l n="11" real="xxxxx-+xx" met="+-+-+-+-+">Spread in vast quietude, serene as death,</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">O&#x27;er waves like crackled turquoise -- and my eyes</l>
+        <l n="13" real="xxx+-+-xxx" met="-+-+-+-+-+">Burnt with the blinding brilliance of calm sea!</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">&quot;We&#x27;re selling that lot there out cheap!&quot; said he.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-minor-poet" n="L13397">
+      <head>A Minor Poet</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:a-minor-poet</idno><idno type="laurel-id">L13397</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa--a">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">I am a shell.  From me you shall not hear</l>
+        <l n="2" real="x+-xxx-+-x" met="-+-+-+-+-+">The splendid tramplings of insistent drums,</l>
+        <l n="3" real="xx-xxxxxxx" met="-+-+-+-+-+">The orbed gold of the viol&#x27;s voice that comes,</l>
+        <l n="4" real="+-x+-xxxxx" met="-+-+-+-+-+">Heavy with radiance, languorous and clear.</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet, if you hold me close against the ear,</l>
+        <l n="6" real="xxx+-+-xxxx" met="-+-+-+-+-+-">A dim, far whisper rises clamorously,</l>
+        <l n="7" real="x+-xx+-xxx" met="-+-+-+-+-+">The thunderous beat and passion of the sea,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">The slow surge of the tides that drown the mere.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="+-x+-xxxxx" met="-+-+-+-+-+">Others with subtle hands may pluck the strings,</l>
+        <l n="10" real="+-+-xx+-+--" met="-+-+-+-+-+-">Making even Love in music audible,</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">And earth one glory.  I am but a shell</l>
+        <l n="12" real="xxxx-+x+-x" met="-+-+-+-+-+">That moves, not of itself, and moving sings;</l>
+        <l n="13" real="+-x+-xxxxx" met="-+-+-+-+-+">Leaving a fragrance, faint as wine new-shed,</l>
+        <l n="14" real="x+-+-xxxxx" met="-+-+-+-+-+">A tremulous murmur from great days long dead.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lover-in-hell" n="L13398">
+      <head>The Lover in Hell</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-lover-in-hell</idno><idno type="laurel-id">L13398</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="-+--x+-xxx" met="-+-+-+-+-+">Eternally the choking steam goes up</l>
+        <l n="2" real="xxxxx+-x" met="--+-+-+-">From the black pools of seething oil....</l>
+        <l n="3" real="x+-" met="-+-">How merry</l>
+        <l n="4" real="x+-+-xx+-x+x" met="--+-+-+-+-+-">Those little devils are!  They&#x27;ve stolen the pitchfork</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">From Bel, there, as he slept... Look! -- oh look, look!</l>
+        <l n="6" real="xxx+-xx+-x" met="-+-+-+-+-+">They&#x27;ve got at Nero!  Oh it isn&#x27;t fair!</l>
+        <l n="7" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Lord, how he squeals!  Stop it... it&#x27;s, well -- indecent!</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">But funny!...  See, Bel&#x27;s waked.  They&#x27;ll catch it now!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--------------------------a---a------------------b--b-----">
+        <l n="9" real="-+--x+-x-+-" met="-+-+-+-+-+-">... Eternally that stifling reek arises,</l>
+        <l n="10" real="+-xxx+-+-+" met="-+-+-+-+-+">Blotting the dome with smoky, terrible towers,</l>
+        <l n="11" real="x+-x+---+x" met="-+-+-+-+-+">Black, strangling trees, whispering obscene things</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">Amongst their branches, clutching with maimed hands,</l>
+        <l n="13" real="x+-+-xx+--" met="-+-+-+-+-+">Or oozing slowly, like blind tentacles</l>
+        <l n="14" real="xxxx+-xxxx" met="-+-+-+-+-+">Up to the gates; higher than that heaped brick</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Man piled to smite the sun.  And all around</l>
+        <l n="16" real="x+-xxxxxxx" met="-+-+-+-+-+">Are devils.  One can laugh... but that hunched shape</l>
+        <l n="17" real="xxxxxx-+-x" met="-+-+-+-+-+">The face one stone, like those Assyrian kings!</l>
+        <l n="18" real="xxx+-+-xxx" met="-+-+-+-+-+">One sees in carvings, watching men flayed red</l>
+        <l n="19" real="+--+--xxxx" met="-+-+-+-+-+">Horribly laughable in leaps and writhes;</l>
+        <l n="20" real="xx+--+-+-x" met="-+-+-+-+-+">That face -- utterly evil, clouded round</l>
+        <l n="21" real="x+-xxxxxx+-" met="-+-+-+-+-+-">With evil like a smoke -- it turns smiles sour!</l>
+        <l n="22" real="x+-xx+-xxx" met="-+-+-+-+-+">... And Nero there, the flabby cheeks astrain</l>
+        <l n="23" real="x+-+--x+--" met="-+-+-+-+-+">And sweating agony... long agony...</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">Imperishable, unappeasable</l>
+        <l n="25" real="x+-xxxxxxx" met="-+-+-+-+-+">For ever... well... it droops the mouth.  Till I</l>
+        <l n="26" real="xx" met="-+">Look up.</l>
+        <l n="27" real="xxxxxxxx" met="--+-+-+-">There&#x27;s one blue patch no smoke dares touch.</l>
+        <l n="28" real="xx-+---+xx" met="-+-+-+-+-+">Sky, clear, ineffable, alive with light,</l>
+        <l n="29" real="+xxx" met="--+-">Always the same...</l>
+        <l n="30" real="xxx+-x" met="--+-+-">Before, I never knew</l>
+        <l n="31" real="xxxx" met="--+-">Rest and green peace.</l>
+        <l n="32" real="xxxxxx" met="--+-+-">She stands there in the sun.</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">... It seems so quaint she should have long gold wings.</l>
+        <l n="34" real="x+-xxx+--+" met="-+-+-+-+-+">I never have got used -- folded across</l>
+        <l n="35" real="xxx+--xxxx" met="-+-+-+-+-+">Her breast, or fluttering with fierce, pure light,</l>
+        <l n="36" real="x+-xxxxxxx" met="-+-+-+-+-+">Like shaken steel.  Her crown too.  Well, it&#x27;s queer!</l>
+        <l n="37" real="xxx+-xxxxx" met="-+-+-+-+-+">And then she never cared much for the harp</l>
+        <l n="38" real="xxxx" met="--+-">On earth.  Here, though...</l>
+        <l n="39" real="xxxxx+-" met="-+-+-+-">She is all peace, all quiet,</l>
+        <l n="40" real="x+--+x+--+-" met="-+-+-+-+-+-">All passionate desires, the eloquent thunder</l>
+        <l n="41" real="xxxx+--+xx" met="-+-+-+-+-+">Of new, glad suns, shouting aloud for joy,</l>
+        <l n="42" real="xxxxxx+-xx" met="-+-+-+-+-+">Over fresh worlds and clean, trampling the air</l>
+        <l n="43" real="x+-xxxxxxx" met="-+-+-+-+-+">Like stooping hawks, to the long wind of horns,</l>
+        <l n="44" real="xxx+-x-+--" met="-+-+-+-+-+">Flung from the bastions of Eternity...</l>
+        <l n="45" real="xxxxxx+-x+-" met="-+-+-+-+-+-">And she is the low lake, drowsy and gentle,</l>
+        <l n="46" real="xxx+-xxxxx" met="-+-+-+-+-+">And good words spoken from the tongues of friends,</l>
+        <l n="47" real="x+-xx+-xxx" met="-+-+-+-+-+">And calmness in the evening, and deep thoughts,</l>
+        <l n="48" real="+-xxxxx+-x" met="-+-+-+-+-+">Falling like dreams from the stars&#x27; solemn mouths.</l>
+        <l n="49" real="xx" met="-+">All these.</l>
+        <l n="50" real="xxxx-+-x" met="--+-+-+-">They said she was unfaithful once.</l>
+        <l n="51" real="xx-+-xxxxx" met="-+-+-+-+-+">Or I remembered it -- and so, for that,</l>
+        <l n="52" real="xxxx-+xxxx" met="-+-+-+-+-+">I lie here, I suppose.  Yes, so they said.</l>
+        <l n="53" real="xxxxx+-+-x" met="-+-+-+-+-+">You see she is so troubled, looking down,</l>
+        <l n="54" real="xxx+-xx+xx" met="-+-+-+-+-+">Sorrowing deeply for my torments.  I</l>
+        <l n="55" real="xxx+-xxxxx" met="-+-+-+-+-+">Of course, feel nothing while I see her -- save</l>
+        <l n="56" real="x+xxxxx+-x" met="-+-+-+-+-+">That sometimes when I think the matter out,</l>
+        <l n="57" real="xxx+-xxxxx" met="-+-+-+-+-+">And what earth-people said of us, of her,</l>
+        <l n="58" real="xxxxxxxxx+-" met="-+-+-+-+-+-">It seems as if I must be, here, in heaven,</l>
+        <l n="59" real="xx" met="-+">And she --</l>
+        <l n="60" real="xxxxx+--" met="--+-+-+-">... Then I grow proud; and suddenly</l>
+        <l n="61" real="xxx+-xxxxxx" met="-+-+-+-+-+-">There comes a splatter of oil against my skin,</l>
+        <l n="62" real="+-xxxx-+xx" met="-+-+-+-+-+">Hurting this time.  And I forget my pride:</l>
+        <l n="63" real="xxxx" met="--+-">And my face writhes.</l>
+        <l n="64" real="xxx+-+-" met="-+-+-+-">Some day the little ladder</l>
+        <l n="65" real="xxxxxxxxxx" met="-+-+-+-+-+">Of white words that I build up, up, to her</l>
+        <l n="66" real="xxxx+xx+-x" met="-+-+-+-+-+">May fetch me out.  Meanwhile it isn&#x27;t bad....</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="winged-man" n="L13399">
+      <head>Winged Man</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:winged-man</idno><idno type="laurel-id">L13399</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxx+-xxxxxx+-x" met="-+-+-+-+-+-+-+">The moon, a sweeping scimitar, dipped in the stormy straits,</l>
+        <l n="2" real="xxx+-+-xxx+-x" met="+-+-+-+-+-+-+">The dawn, a crimson cataract, burst through the eastern gates,</l>
+        <l n="3" real="xxxxx+-xxx+-x" met="+-+-+-+-+-+-+">The cliffs were robed in scarlet, the sands were cinnabar,</l>
+        <l n="4" real="xxxxxxxxxxxx-+" met="-+-+-+-+-+-+-+">Where first two men spread wings for flight and dared the hawk afar.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxx+-+-x+-xxx" met="+-+-+-+-+-+-+">There stands the cunning workman, the crafty past all praise,</l>
+        <l n="6" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">The man who chained the Minotaur, the man who built the Maze.</l>
+        <l n="7" real="xxxx-+xxxxxxxx" met="-+-+-+-+-+-+-+">His young son is beside him and the boy&#x27;s face is a light,</l>
+        <l n="8" real="xxxxx+-xx+-+-" met="+-+-+-+-+-+-+">A light of dawn and wonder and of valor infinite.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+">Their great vans beat the cloven air, like eagles they mount up,</l>
+        <l n="10" real="xxxxx+-xxx+-x" met="+-+-+-+-+-+-+">Motes in the wine of morning, specks in a crystal cup,</l>
+        <l n="11" real="xxxxxx-+x+-xx" met="+-+-+-+-+-+-+">And lest his wings should melt apace old Daedalus flies low,</l>
+        <l n="12" real="x+x-xxxxxxx+-x" met="-+-+-+-+-+-+-+">But Icarus beats up, beats up, he goes where lightnings go.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxx+-x+-xxx" met="+-+-+-+-+-+-+">He cares no more for warnings, he rushes through the sky,</l>
+        <l n="14" real="+-xxx+-+-xxxx" met="+-+-+-+-+-+-+">Braving the crags of ether, daring the gods on high,</l>
+        <l n="15" real="xxx+-+x+-x+-x" met="+-+-+-+-+-+-+">Black &#x27;gainst the crimson sunset, golden o&#x27;er cloudy snows,</l>
+        <l n="16" real="xx-+-xxxxxxx-+" met="-+-+-+-+-+-+-+">With all Adventure in his heart the first winged man arose.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaa">
+        <l n="17" real="+-x+-xxxxx+-x" met="+-+-+-+-+-+-+">Dropping gold, dropping gold, where the mists of morning rolled,</l>
+        <l n="18" real="xxxxx-+-xxxxxxx" met="-+-+-+-+-+-+-+-">On he kept his way undaunted, though his breaths were stabs of cold,</l>
+        <l n="19" real="xx+-x+-xx+-x-+" met="-+-+-+-+-+-+-+">Through the mystery of dawning that no mortal may behold.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="20" real="xxxxxxxx+-xxx" met="+-+-+-+-+-+-+">Now he shouts, now he sings in the rapture of his wings,</l>
+        <l n="21" real="xxxxxxxxxxxxx-+" met="-+-+-+-+-+-+-+-">And his great heart burns intenser with the strength of his desire,</l>
+        <l n="22" real="xx+-xx+-+-+-xxx" met="-+-+-+-+-+-+-+-">As he circles like a swallow, wheeling, flaming, gyre on gyre.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-aa">
+        <l n="23" real="+-xxxxxx+-xx" met="--+-+-+-+-+-">Gazing straight at the sun, half his pilgrimage is done,</l>
+        <l n="24" real="xx+-xx+-+-xx+-x" met="-+-+-+-+-+-+-+-">And he staggers for a moment, hurries on, reels backward, swerves</l>
+        <l n="25" real="xxxx+-+-xxxx+-x" met="-+-+-+-+-+-+-+-">In a rain of scattered feathers as he falls in broken curves.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaa">
+        <l n="26" real="+x-+x-xxxxxx" met="--+-+-+-+-+-">Icarus, Icarus, though the end is piteous,</l>
+        <l n="27" real="x-+-x-+-xxxx+-x" met="-+-+-+-+-+-+-+-">Yet forever, yea, forever we shall see thee rising thus,</l>
+        <l n="28" real="xxxxxx+-xx++-" met="+-+-+-+-+-+-+">See the first supernal glory, not the ruin hideous.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-aa">
+        <l n="29" real="xxxxxx+-x+xxx" met="+-+-+-+-+-+-+">You were Man, you who ran farther than our eyes can scan,</l>
+        <l n="30" real="x-+-+-+-x-+-+-" met="-+-+-+-+-+-+-+">Man absurd, gigantic, eager for impossible Romance,</l>
+        <l n="31" real="+-x-xx+-xxxx+-x" met="-+-+-+-+-+-+-+-">Overthrowing all Hell&#x27;s legions with one warped and broken lance.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-aa">
+        <l n="32" real="xx+-xxxxxxx+-x" met="-+-+-+-+-+-+-+">On the highest steeps of Space he will have his dwelling-place,</l>
+        <l n="33" real="xxx-+-+-xxxxxxx" met="-+-+-+-+-+-+-+-">In those far, terrific regions where the cold comes down like Death</l>
+        <l n="34" real="xxxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+-">Gleams the red glint of his pinions, smokes the vapor of his breath.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-aa">
+        <l n="35" real="+-++-xxx+-xxx" met="+-+-+-+-+-+-+">Floating downward, very clear, still the echoes reach the ear</l>
+        <l n="36" real="xx+-xx+-xx+-xxx" met="-+-+-+-+-+-+-+-">Of a little tune he whistles and a little song he sings,</l>
+        <l n="37" real="+-+-x-+-xxxx+-x" met="-+-+-+-+-+-+-+-">Mounting, mounting still, triumphant, on his torn and broken wings!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="music" n="L13400">
+      <head>Music</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:music</idno><idno type="laurel-id">L13400</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aab-bccddee--ffgghhiijjkkjj">
+        <l n="1" real="xxxxx-+-xxx" met="-+-+-+-+-+-">My friend went to the piano; spun the stool</l>
+        <l n="2" real="x+-+-xxxxx" met="-+-+-+-+-+">A little higher; left his pipe to cool;</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Picked up a fat green volume from the chest;</l>
+        <l n="4" real="xxx+-" met="-+-+-">And propped it open.</l>
+        <l n="5" real="+-xxx" met="-+-+-">Whitely without rest,</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">His fingers swept the keys that flashed like swords,</l>
+        <l n="7" real="xxxxxx-+-x" met="-+-+-+-+-+">... And to the brute drums of barbarian hordes,</l>
+        <l n="8" real="+-x+--x+-x" met="-+-+-+-+-+">Roaring and thunderous and weapon-bare,</l>
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">An army stormed the bastions of the air!</l>
+        <l n="10" real="+-x+-+xxxx" met="-+-+-+-+-+">Dreadful with banners, fire to slay and parch,</l>
+        <l n="11" real="+--+-xx+-x" met="-+-+-+-+-+">Marching together as the lightnings march,</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">And swift as storm-clouds.  Brazen helms and cars</l>
+        <l n="13" real="xxxx-+-xxx" met="-+-+-+-+-+">Clanged to a fierce resurgence of old wars</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Above the screaming horns.  In state they passed,</l>
+        <l n="15" real="+-x+-xxxxx" met="-+-+-+-+-+">Trampling and splendid on and sought the vast --</l>
+        <l n="16" real="+-x+-xx+-x" met="-+-+-+-+-+">Rending the darkness like a leaping knife,</l>
+        <l n="17" real="xxx+-+-x+x" met="-+-+-+-+-+">The flame, the noble pageant of our life!</l>
+        <l n="18" real="x+-xxxxx-+-" met="-+-+-+-+-+-">The burning seal that stamps man&#x27;s high indenture</l>
+        <l n="19" real="xx-+xx-+-+-" met="-+-+-+-+-+-">To vain attempt and most forlorn adventure;</l>
+        <l n="20" real="-+x+-xx+-x" met="-+-+-+-+-+">Romance, and purple seas, and toppling towns,</l>
+        <l n="21" real="xxxxx+-xxx" met="-+-+-+-+-+">And the wind&#x27;s valiance crying o&#x27;er the downs;</l>
+        <l n="22" real="xxx+-xx+-x" met="-+-+-+-+-+">That nerves the silly hand, the feeble brain,</l>
+        <l n="23" real="xxxxxxxx-+" met="-+-+-+-+-+">From the loose net of words to deeds again</l>
+        <l n="24" real="xxx+-+--xx" met="-+-+-+-+-+">And to all courage!  Perilous and sharp</l>
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">The last chord shook me as wind shakes a harp!</l>
+        <l n="26" real="xxxxxxxxxxxxxx" met="--+-+-+-+-+-+-">... And my friend swung round on his stool, and from gods we were men,</l>
+        <l n="27" real="x+-xxxxxx+x-+" met="-+-+-+-+-+-+-">&quot;How pretty!&quot; we said; and went on with our talk again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-innovator" n="L13401">
+      <head>The Innovator</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-innovator</idno><idno type="laurel-id">L13401</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababa">
+        <l n="1" real="xxxxx+--" met="-+-+-+-+">I said, &quot;Why should a pyramid</l>
+        <l n="2" real="x+xxxxxx" met="-+-+-+-+">Stand always dully on its base?</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">I&#x27;ll change it!  Let the top be hid,</l>
+        <l n="4" real="x+-xx+xx" met="-+-+-+-+">The bottom take the apex-place!&quot;</l>
+        <l n="5" real="xxxxxx" met="--+-+-">And as I bade they did.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababa">
+        <l n="6" real="x+-x-xxxx" met="-+-+-+-+-">The people flocked in, scores on scores,</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">To see it balance on its tip.</l>
+        <l n="8" real="xx-xxxxxx" met="-+-+-+-+-">They praised me with the praise that bores,</l>
+        <l n="9" real="xxxxx+--x" met="-+-+-+-+-">My godlike mind on every lip.</l>
+        <l n="10" real="xxxxxx" met="--+-+-">-- Until it fell, of course.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababa">
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">And then they took my body out</l>
+        <l n="12" real="xxx-+-xxx" met="-+-+-+-+-">From my crushed palace, mad with rage,</l>
+        <l n="13" real="xxxxxx-xx" met="-+-+-+-+-">-- Well, half the town WAS wrecked, no doubt --</l>
+        <l n="14" real="x+-+-x-+" met="-+-+-+-+">Their crazy anger to assuage</l>
+        <l n="15" real="x+-xxx" met="--+-+-">By dragging it about.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababa">
+        <l n="16" real="xxxxxxxxx" met="-+-+-+-+-">The end?  Foul birds defile my skull.</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">The new king&#x27;s praises fill the land.</l>
+        <l n="18" real="xxx+x+-x" met="-+-+-+-+">He clings to precept, simple, dull;</l>
+        <l n="19" real="x+--x+-x" met="-+-+-+-+">HIS pyramids on bases stand.</l>
+        <l n="20" real="xxx+--" met="--+-+-">But -- Lord, how usual!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-in-twilight" n="L13402">
+      <head>Love in Twilight</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:love-in-twilight</idno><idno type="laurel-id">L13402</idno>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xx+-xxxxxxxxx">There is darkness behind the light -- and the pale light drips</l>
+        <l n="2" real="xxxxx+-xxxx">Cold on vague shapes and figures, that, half-seen loom</l>
+        <l n="3" real="xxxxxxxxxxx">Like the carven prows of proud, far-triumphing ships --</l>
+        <l n="4" real="xxxxxxxx+-xxxx">And the firelight wavers and changes about the room,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxx+-xxxxxxx">As the three logs crackle and burn with a small still sound;</l>
+        <l n="6" real="x+-xxx+-xxxx">Half-blotting with dark the deeper dark of her hair,</l>
+        <l n="7" real="xxxxxxxxxxxxx">Where she lies, head pillowed on arm, and one hand curved round</l>
+        <l n="8" real="xxxxxxxxxxxx">To shield the white face and neck from the faint thin glare.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="+-xxxxxxxxx">Gently she breathes -- and the long limbs lie at ease,</l>
+        <l n="10" real="xxxxxxxxx+-x">And the rise and fall of the young, slim, virginal breast</l>
+        <l n="11" real="xx+-xxxxxxxxx">Is as certain-sweet as the march of slow wind through trees,</l>
+        <l n="12" real="xxxx+-xxxxxxx">Or the great soft passage of clouds in a sky at rest.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxx+xxxxxxxx">I kneel, and our arms enlace, and we kiss long, long.</l>
+        <l n="14" real="xxxxxxxxxxxxx">I am drowned in her as in sleep.  There is no more pain.</l>
+        <l n="15" real="+-x+-xxxx+-x">Only the rustle of flames like a broken song</l>
+        <l n="16" real="xxxxxx+-xxxx">That rings half-heard through the dusty halls of the brain.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="x+-x+-+-x+-">One shaking and fragile moment of ecstasy,</l>
+        <l n="18" real="xxxx+-xxxxxxx">While the grey gloom flutters and beats like an owl above.</l>
+        <l n="19" real="xxxxxxxxxxxxx">And I would not move or speak for the sea or the sky</l>
+        <l n="20" real="xxxxxxx-+-x">Or the flame-bright wings of the miraculous Dove!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-fiddling-wood" n="L13403">
+      <head>The Fiddling Wood</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-fiddling-wood</idno><idno type="laurel-id">L13403</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ab-ba-">
+        <l n="1" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Gods, what a black, fierce day!  The clouds were iron,</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">Wrenched to strange, rugged shapes; the red sun winked</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">Over the rough crest of the hairy wood</l>
+        <l n="4" real="x+-xxxx+-x" met="-+-+-+-+-+">In angry scorn; the grey road twisted, kinked,</l>
+        <l n="5" real="xxx+-+-xxxx" met="-+-+-+-+-+-">Like a sick serpent, seeming to environ</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">The trees with magic.  All the wood was still --</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcbac">
+        <l n="7" real="xxxxx-+-+-" met="-+-+-+-+-+">Cracked, crannied pines bent like malicious cripples</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">Before the gusty wind; they seemed to nose,</l>
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">Nudge, poke each other, cackling with ill mirth --</l>
+        <l n="10" real="xxxxxx++-+" met="-+-+-+-+-+">Enchantment&#x27;s days were over -- sh! -- Suppose</l>
+        <l n="11" real="x+-xxxxxxx" met="-+-+-+-+-+">That crouching log there, where the white light stipples</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">Should -- break its quiet!  WAS THAT CRIMSON -- EARTH?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abcbac">
+        <l n="13" real="xxxxxxx+-+-" met="-+-+-+-+-+-">It smirched the ground like a lewd whisper, &quot;Danger!&quot; --</l>
+        <l n="14" real="xxxxxxxx-+" met="-+-+-+-+-+">I hunched my cloak about me -- then, appalled,</l>
+        <l n="15" real="xxx+xxx+xx" met="-+-+-+-+-+">Turned ice and fire by turns -- for -- someone stirred</l>
+        <l n="16" real="xxx+-+-+-x" met="-+-+-+-+-+">The brown, dry needles sharply!  Terror crawled</l>
+        <l n="17" real="-+xxxxxxx+-" met="-+-+-+-+-+-">Along my spine, as forth there stepped -- a Stranger!</l>
+        <l n="18" real="xxxxxxx+-x" met="-+-+-+-+-+">And all the pines crooned like a drowsy bird!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abcbac">
+        <l n="19" real="xxxxxxx+-+-" met="-+-+-+-+-+-">His stock was black.  His great shoe-buckles glistened.</l>
+        <l n="20" real="xxx+-xxxxx" met="-+-+-+-+-+">His fur cuffs ended in a sheen of rings.</l>
+        <l n="21" real="xx-+xxxxxxx" met="-+-+-+-+-+-">And underneath his coat a case bulged blackly --</l>
+        <l n="22" real="xxx+-xxxxx" met="-+-+-+-+-+">He swept his beaver in a rush of wings!</l>
+        <l n="23" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Then took the fiddle out, and, as I listened,</l>
+        <l n="24" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Tightened and tuned the yellowed strings, hung slackly.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a-b-ba">
+        <l n="25" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Ping!  Pang!  The clear notes swooped and curved and darted,</l>
+        <l n="26" real="+-xxxxx+-+-" met="-+-+-+-+-+-">Rising like gulls.  Then, with a finger skinny,</l>
+        <l n="27" real="xxxxx+-xx+-" met="-+-+-+-+-+-">He rubbed the bow with rosin, said, &quot;Your pardon</l>
+        <l n="28" real="+-+-+--x-+-" met="-+-+-+-+-+-">Signor! -- Maestro Nicolo Paganini</l>
+        <l n="29" real="xxxxxxxxxxx" met="-+-+-+-+-+-">They used to call me!  Tchk! --  The cold grips hard on</l>
+        <l n="30" real="xx-+-+-xx+-" met="-+-+-+-+-+-">A poor musician&#x27;s fingers!&quot; --  His lips parted.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abcbac">
+        <l n="31" real="x+-xx+--xx" met="-+-+-+-+-+">A tortured soul screamed suddenly and loud,</l>
+        <l n="32" real="xxx+-xx+-+-" met="-+-+-+-+-+-">From the brown, quivering case!  Then, faster, faster,</l>
+        <l n="33" real="+-xxxxx+-+-" met="-+-+-+-+-+-">Dancing in flame-like whorls, wild, beating, screaming,</l>
+        <l n="34" real="x+-xxxxxx-+-" met="--+-+-+-+-+-">The music wailed unutterable disaster;</l>
+        <l n="35" real="+x-+-xxxxx" met="-+-+-+-+-+">Heartbroken murmurs from pale lips once proud,</l>
+        <l n="36" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Dead, choking moans from hearts once nobly dreaming.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abcbac">
+        <l n="37" real="xx-+x+-x-+" met="-+-+-+-+-+">Till all resolved in anguish -- died away</l>
+        <l n="38" real="xxx+-xxx-+" met="-+-+-+-+-+">Upon one minor chord, and was resumed</l>
+        <l n="39" real="x+-x-+xxxx" met="-+-+-+-+-+">In anguish; fell again to a low cry,</l>
+        <l n="40" real="xx-+-xxx+x" met="-+-+-+-+-+">Then rose triumphant where the white fires fumed,</l>
+        <l n="41" real="+--+-+-+-x" met="-+-+-+-+-+">Terrible, marching, trampling, reeling, gay,</l>
+        <l n="42" real="+-x+-+-xxx" met="-+-+-+-+-+">Hurling mad, broken legions down to die</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abcbac">
+        <l n="43" real="xx-+-xxxxx" met="-+-+-+-+-+">Through everlasting hells --  The tears were salt</l>
+        <l n="44" real="xxx+-xxxxx" met="-+-+-+-+-+">Upon my fingers --  Then, I saw, behind</l>
+        <l n="45" real="x+-xx+-xxx" met="-+-+-+-+-+">The fury of the player, all the trees</l>
+        <l n="46" real="xx-+-x+-+-x" met="-+-+-+-+-+-">Crouched like violinists, boughs crooked, jerking, blind,</l>
+        <l n="47" real="+-xxx+-xxx" met="-+-+-+-+-+">Sweeping mad bows to music without fault,</l>
+        <l n="48" real="xxxx+-+--x" met="-+-+-+-+-+">Grey cheeks to greyer fiddles, withered knees.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abcbca">
+        <l n="49" real="+-xxxxx+-x" met="-+-+-+-+-+">Gasping, I fled! -- but still that devilish tune</l>
+        <l n="50" real="xxxx-+xxxx" met="-+-+-+-+-+">Stunned ears and brain alike -- till clouds of dust</l>
+        <l n="51" real="+-x+-xxxxx" met="-+-+-+-+-+">Blotted the picture, and the noise grew dim --</l>
+        <l n="52" real="+-xxxxxxxx" met="-+-+-+-+-+">Shaking, I reached the town -- and turned -- in trust --</l>
+        <l n="53" real="x+-xxxxxxx" met="-+-+-+-+-+">Wind-smitten, dread, against the sky-line&#x27;s rim,</l>
+        <l n="54" real="x+-+-xxxxx" met="-+-+-+-+-+">Black, dragon branches whipped below a moon!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="portrait-of-a-boy" n="L13404">
+      <head>Portrait of a Boy</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:portrait-of-a-boy</idno><idno type="laurel-id">L13404</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">After the whipping he crawled into bed,</l>
+        <l n="2" real="-+-xxxxxx+-" met="-+-+-+-+-+-">Accepting the harsh fact with no great weeping.</l>
+        <l n="3" real="x+-+-xxxxx" met="-+-+-+-+-+">How funny uncle&#x27;s hat had looked striped red!</l>
+        <l n="4" real="x+-+--xxx+-" met="-+-+-+-+-+-">He chuckled silently.  The moon came, sweeping</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">A black, frayed rag of tattered cloud before</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">In scorning; very pure and pale she seemed,</l>
+        <l n="7" real="+-xxx+-xxx" met="-+-+-+-+-+">Flooding his bed with radiance.  On the floor</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Fat motes danced.  He sobbed, closed his eyes and dreamed.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababccdedeafafgg">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">Warm sand flowed round him.  Blurts of crimson light</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Splashed the white grains like blood.  Past the cave&#x27;s mouth</l>
+        <l n="11" real="xxxxx+-+-x" met="-+-+-+-+-+">Shone with a large, fierce splendor, wildly bright,</l>
+        <l n="12" real="x+-x-+-xxx" met="-+-+-+-+-+">The crooked constellations of the South;</l>
+        <l n="13" real="xxxxxx-+-x" met="-+-+-+-+-+">Here the Cross swung; and there, affronting Mars,</l>
+        <l n="14" real="x+xx-+xxxx" met="-+-+-+-+-+">The Centaur stormed aside a froth of stars.</l>
+        <l n="15" real="xxxxx+-+--" met="-+-+-+-+-+">Within, great casks, like wattled aldermen,</l>
+        <l n="16" real="xx-+-xxxxx" met="-+-+-+-+-+">Sighed of enormous feasts, and cloth of gold</l>
+        <l n="17" real="xxxxxx-+-+" met="-+-+-+-+-+">Glowed on the walls like hot desire.  Again,</l>
+        <l n="18" real="-+x+-xx+-x" met="-+-+-+-+-+">Beside webbed purples from some galleon&#x27;s hold,</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">A black chest bore the skull and bones in white</l>
+        <l n="20" real="xxxx+x-xxx" met="-+-+-+-+-+">Above a scrawled &quot;Gunpowder!&quot;  By the flames,</l>
+        <l n="21" real="x-xx+-xxxx" met="-+-+-+-+-+">Decked out in crimson, gemmed with syenite,</l>
+        <l n="22" real="+-x+-x-+-x" met="-+-+-+-+-+">Hailing their fellows with outrageous names,</l>
+        <l n="23" real="x+-xxxxxxx" met="-+-+-+-+-+">The pirates sat and diced.  Their eyes were moons.</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Doubloons!&quot; they said.  The words crashed gold.  &quot;Doubloons!&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="portrait-of-a-baby" n="L13405">
+      <head>Portrait of a Baby</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:portrait-of-a-baby</idno><idno type="laurel-id">L13405</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abba--c---c-ddeeffgghhiijjkkllmmnnoop-qqprr">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">He lay within a warm, soft world</l>
+        <l n="2" real="x+-+-x-xx" met="-+-+-+-+-">Of motion.  Colors bloomed and fled,</l>
+        <l n="3" real="-+x+-+-x" met="-+-+-+-+">Maroon and turquoise, saffron, red,</l>
+        <l n="4" real="xxxxxxxx-" met="-+-+-+-+-">Wave upon wave that broke and whirled</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">To vanish in the grey-green gloom,</l>
+        <l n="6" real="xxxxxx+--" met="-+-+-+-+-">Perspectiveless and shadowy.</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">A bulging world that had no walls,</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">A flowing world, most like the sea,</l>
+        <l n="9" real="xxxx-+--" met="-+-+-+-+">Compassing all infinity</l>
+        <l n="10" real="xxx+-+-x" met="-+-+-+-+">Within a shapeless, ebbing room,</l>
+        <l n="11" real="x+-xxxxx" met="-+-+-+-+">An endless tide that swells and falls...</l>
+        <l n="12" real="xxxxxx-+" met="-+-+-+-+">He slept and woke and slept again.</l>
+        <l n="13" real="xxxxxx--+" met="-+-+-+-+-">As a veil drops Time dropped away;</l>
+        <l n="14" real="xxxxx+-x" met="-+-+-+-+">Space grew a toy for children&#x27;s play,</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">Sleep bolted fast the gates of Sense --</l>
+        <l n="16" real="xxx+--+--" met="-+-+-+-+-">He lay in naked impotence;</l>
+        <l n="17" real="xxx-xxxxx" met="-+-+-+-+-">Like a drenched moth that creeps and crawls</l>
+        <l n="18" real="+--xxxx-x" met="-+-+-+-+-">Heavily up brown, light-baked walls,</l>
+        <l n="19" real="xxxxxx-+" met="-+-+-+-+">To fall in wreck, her task undone,</l>
+        <l n="20" real="x+x+-xxxx" met="-+-+-+-+-">Yet somehow striving toward the sun.</l>
+        <l n="21" real="xxxxxxx-+-" met="--+-+-+-+-">So, as he slept, his hands clenched tighter,</l>
+        <l n="22" real="xxxxxxx+-" met="-+-+-+-+-">Shut in the old way of the fighter,</l>
+        <l n="23" real="xxx-xxxxx" met="-+-+-+-+-">His feet curled up to grip the ground,</l>
+        <l n="24" real="x+-xx-xxx" met="-+-+-+-+-">His muscles tautened for a bound;</l>
+        <l n="25" real="xxxxxx-+" met="-+-+-+-+">And though he felt, and felt alone,</l>
+        <l n="26" real="x+-x-xxxx" met="-+-+-+-+-">Strange brightness stirred him to the bone,</l>
+        <l n="27" real="+-xxx+-x" met="-+-+-+-+">Cravings to rise -- till deeper sleep</l>
+        <l n="28" real="+-xxxxxx" met="-+-+-+-+">Buried the hope, the call, the leap;</l>
+        <l n="29" real="xxx-xxxxx" met="-+-+-+-+-">A wind puffed out his mind&#x27;s faint spark.</l>
+        <l n="30" real="xx-+-xxxx" met="-+-+-+-+-">He was absorbed into the dark.</l>
+        <l n="31" real="xx-+xxxx" met="-+-+-+-+">He woke again and felt a surge</l>
+        <l n="32" real="xxxx-+--x" met="-+-+-+-+-">Within him, a mysterious urge</l>
+        <l n="33" real="xxx+-xx+-" met="-+-+-+-+-">That grew one hungry flame of passion;</l>
+        <l n="34" real="xxx+--xx+-" met="--+-+-+-+-">The whole world altered shape and fashion.</l>
+        <l n="35" real="-+-xx--+xx" met="--+-+-+-+-">Deceived, befooled, bereft and torn,</l>
+        <l n="36" real="xx-x+-xxx" met="-+-+-+-+-">He scourged the heavens with his scorn,</l>
+        <l n="37" real="+-x+-xxx" met="-+-+-+-+">Lifting a bitter voice to cry</l>
+        <l n="38" real="xxx-+-+--" met="-+-+-+-+-">Against the eternal treachery --</l>
+        <l n="39" real="x+--xxxx" met="-+-+-+-+">Till, suddenly, he found the breast,</l>
+        <l n="40" real="xx-xxxxxx" met="-+-+-+-+-">And ceased, and all things were at rest,</l>
+        <l n="41" real="xxxxx+-x" met="-+-+-+-+">The earth grew one warm languid sea</l>
+        <l n="42" real="xxxxx+--x" met="-+-+-+-+-">And he a wave.  Joy, tingling, crept</l>
+        <l n="43" real="xxxxxx-xx" met="-+-+-+-+-">Throughout him.  He was quenched and slept.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeff">
+        <l n="44" real="xxxxxxxx" met="-+-+-+-+">So, while the moon made broad her ring,</l>
+        <l n="45" real="xxxxxxxx" met="-+-+-+-+">He slept and cried and was a king.</l>
+        <l n="46" real="xxxxx+-x" met="-+-+-+-+">So, worthily, he acted o&#x27;er</l>
+        <l n="47" real="x+-+--xx" met="-+-+-+-+">The endless miracle once more.</l>
+        <l n="48" real="+--+-+-+-" met="-+-+-+-+-">Facing immense adventures daily,</l>
+        <l n="49" real="xxx+-+-+-" met="-+-+-+-+-">He strove still onward, weeping, gaily,</l>
+        <l n="50" real="+--xxxxxx" met="-+-+-+-+-">Conquered or fled from them, but grew</l>
+        <l n="51" real="xxx-xx+-x" met="-+-+-+-+-">As soil-starved, rough pine-saplings do.</l>
+        <l n="52" real="xxx+-x-+x" met="-+-+-+-+-">Till, one day, crawling seemed suspect.</l>
+        <l n="53" real="xx-xxxx-+" met="-+-+-+-+-">He gripped the air and stood erect</l>
+        <l n="54" real="x+-x-+-x" met="-+-+-+-+">And splendid.  With immortal rage</l>
+        <l n="55" real="x+--xx+--" met="-+-+-+-+-">He entered on man&#x27;s heritage!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-general-public" n="L13406">
+      <head>The General Public</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:the-general-public</idno><idno type="laurel-id">L13406</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-xxxxx+-x" met="-+-+-+-+-+">&quot;Shelley?  Oh, yes, I saw him often then,&quot;</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">The old man said.  A dry smile creased his face</l>
+        <l n="3" real="x++-xxx+-x" met="-+-+-+-+-+">With many wrinkles.  &quot;That&#x27;s a great poem, now!</l>
+        <l n="4" real="xxx+-+-+-x" met="-+-+-+-+-+">That one of Browning&#x27;s!  Shelley?  Shelley plain?</l>
+        <l n="5" real="xxxx-+-xxx" met="-+-+-+-+-+">The time that I remember best is this --</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="xxxx-+x+-x" met="-+-+-+-+-+">A thin mire crept along the rutted ways,</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">And all the trees were harried by cold rain</l>
+        <l n="8" real="xxx+-+-xxx" met="-+-+-+-+-+">That drove a moment fiercely and then ceased,</l>
+        <l n="9" real="+-xxxxxxxx" met="-+-+-+-+-+">Falling so slow it hung like a grey mist</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Over the school.  The walks were like blurred glass.</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">The buildings reeked with vapor, black and harsh</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">Against the deepening darkness of the sky;</l>
+        <l n="13" real="xxxxx+-+-x" met="-+-+-+-+-+">And each lamp was a hazy yellow moon,</l>
+        <l n="14" real="+-xxxxx+-x" met="-+-+-+-+-+">Filling the space about with golden motes,</l>
+        <l n="15" real="x+-xx+-xxx" met="-+-+-+-+-+">And making all things larger than they were.</l>
+        <l n="16" real="x+-+-xxxxx" met="-+-+-+-+-+">One yellow halo hung above a door,</l>
+        <l n="17" real="xxxxx+-xxx" met="-+-+-+-+-+">That gave on a black passage.  Round about</l>
+        <l n="18" real="+-x+-xxxxx" met="-+-+-+-+-+">Struggled a howling crowd of boys, pell-mell,</l>
+        <l n="19" real="+-x+-xx+-x" met="-+-+-+-+-+">Pushing and jostling like a stormy sea,</l>
+        <l n="20" real="x+-+-xxxxx" met="-+-+-+-+-+">With shouting faces, turned a pasty white</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">By the strange light, for foam.  They all had clods,</l>
+        <l n="22" real="x+-xxxxxxx" met="-+-+-+-+-+">Or slimy balls of mud.  A few gripped stones.</l>
+        <l n="23" real="xxxxxxx+-x" met="-+-+-+-+-+">And there, his back against the battered door,</l>
+        <l n="24" real="xxxx+-xxxx" met="-+-+-+-+-+">His pile of books scattered about his feet,</l>
+        <l n="25" real="x+-xx+-xxx" met="-+-+-+-+-+">Stood Shelley while two others held him fast,</l>
+        <l n="26" real="xxxxxxx+-+-" met="-+-+-+-+-+-">And the clods beat upon him.  `Shelley!  Shelley!&#x27;</l>
+        <l n="27" real="xxxxxxx+--" met="-+-+-+-+-+">The high shouts rang through all the corridors,</l>
+        <l n="28" real="+-x+-x-+xx" met="-+-+-+-+-+">`Shelley!  Mad Shelley!  Come along and help!&#x27;</l>
+        <l n="29" real="xxxxx+-xxx" met="-+-+-+-+-+">And all the crowd dug madly at the earth,</l>
+        <l n="30" real="+-x+-xx+-x" met="-+-+-+-+-+">Scratching and clawing at the streaming mud,</l>
+        <l n="31" real="xxx+-x-+xx" met="-+-+-+-+-+">And fouled each other and themselves.  And still</l>
+        <l n="32" real="+-xxxxxxxx" met="-+-+-+-+-+">Shelley stood up.  His eyes were like a flame</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">Set in some white, still room; for all his face</l>
+        <l n="34" real="xxx+-xx+-+-" met="-+-+-+-+-+-">Was white, a whiteness like no human color,</l>
+        <l n="35" real="xxx+-x-+-+-" met="-+-+-+-+-+-">But white and dreadful as consuming fire.</l>
+        <l n="36" real="xxxxxxx+-x" met="-+-+-+-+-+">His hands shook now and then, like slender cords</l>
+        <l n="37" real="xxx+-xxxxx" met="-+-+-+-+-+">Which bear too heavy weights.  He did not speak.</l>
+        <l n="38" real="xxx+-x" met="--+-+-">So I saw Shelley plain.&quot;</l>
+        <l n="39" real="xxxx" met="--+-">&quot;And you?&quot; I said.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="40" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;I?  I threw straighter than the most of them,</l>
+        <l n="41" real="xxxxxxxxxx" met="-+-+-+-+-+">And had firm clods.  I hit him -- well, at least</l>
+        <l n="42" real="xxxxxxxxxx" met="-+-+-+-+-+">Thrice in the face.  He made good sport that night.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="road-and-hills" n="L13407">
+      <head>Road and Hills</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:road-and-hills</idno><idno type="laurel-id">L13407</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx-+" met="+-+-+">I shall go away</l>
+        <l n="2" real="xxxxx+-x" met="--+-+-+-">To the brown hills, the quiet ones,</l>
+        <l n="3" real="xxx+--x+-" met="-+-+-+-+-">The vast, the mountainous, the rolling,</l>
+        <l n="4" real="x+-x+-" met="-+-+-+">Sun-fired and drowsy!</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxx+---" met="-+-+-+-">My horse snuffs delicately</l>
+        <l n="6" real="xxxx" met="--+-">At the strange wind;</l>
+        <l n="7" real="x+-xx+-xxxxxx" met="-+-+-+-+-+-+-">He settles to a swinging trot; his hoofs tramp the dust.</l>
+        <l n="8" real="xxx+-" met="+-+-+">The road winds, straightens,</l>
+        <l n="9" real="+-xx" met="--+-">Slashes a marsh,</l>
+        <l n="10" real="+-xxx" met="+-+-+">Shoulders out a bridge,</l>
+        <l n="11" real="x" met="+">Then --</l>
+        <l n="12" real="-+xx" met="--+-">Again the hills.</l>
+        <l n="13" real="-+-+---" met="-+-+-+-">Unchanged, innumerable,</l>
+        <l n="14" real="+-xxx" met="+-+-+">Bowing huge, round backs;</l>
+        <l n="15" real="+-+--++-" met="--+-+-+-">Holding secret, immense converse:</l>
+        <l n="16" real="x+-+-" met="+-+-+">In gusty voices,</l>
+        <l n="17" real="+-xx+-" met="-+-+-+">Fruitful, fecund, toiling</l>
+        <l n="18" real="xxx+-" met="+-+-+">Like yoked black oxen.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="19" real="xxxxxxx" met="-+-+-+-">The clouds pass like great, slow thoughts</l>
+        <l n="20" real="x+-" met="-+-">And vanish</l>
+        <l n="21" real="xx-+x" met="+-+-+">In the intense blue.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a-aa-">
+        <l n="22" real="xxxx+-xxx" met="-+-+-+-+-">My horse lopes; the saddle creaks and sways.</l>
+        <l n="23" real="x+-+-xxxxxxx" met="--+-+-+-+-+-">A thousand glittering spears of sun slant from on high.</l>
+        <l n="24" real="xxxxxx+-" met="--+-+-+-">The immensity, the spaces,</l>
+        <l n="25" real="xxx+-" met="+-+-+">Are like the spaces</l>
+        <l n="26" real="xxxxx" met="+-+-+">Between star and star.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="27" real="xxx" met="-+-">The hills sleep.</l>
+        <l n="28" real="xxxxxxx" met="-+-+-+-">If I put my hand on one,</l>
+        <l n="29" real="xxxxxxxxx" met="-+-+-+-+-">I would feel the vast heave of its breath.</l>
+        <l n="30" real="xxx-+xxx-+-" met="-+-+-+-+-+-">I would start away before it awakened</l>
+        <l n="31" real="xxxxxx+-" met="--+-+-+-">And shook the world from its shoulders.</l>
+        <l n="32" real="x-+-x+-xx+-" met="-+-+-+-+-+-">A cicada&#x27;s cry deepens the hot silence.</l>
+        <l n="33" real="xx+-" met="--+-">The hills open</l>
+        <l n="34" real="xxxxx+-" met="-+-+-+-">To show a slope of poppies,</l>
+        <l n="35" real="+-+--+-" met="-+-+-+-">Ardent, noble, heroic,</l>
+        <l n="36" real="xxxxxx+-" met="--+-+-+-">A flare, a great flame of orange;</l>
+        <l n="37" real="+-+-+-x" met="-+-+-+-">Giving sleepy, brittle scent</l>
+        <l n="38" real="xxxx" met="--+-">That stings the lungs.</l>
+        <l n="39" real="x+-xxxxxx+-xxxx" met="-+-+-+-+-+-+-+-">A creeping wind slips through them like a ferret; they bow and dance,</l>
+        <l n="40" real="+--xxx" met="-+-+-+">answering Beauty&#x27;s voice...</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="41" real="xxxxxx" met="-+-+-+">The horse whinnies.  I dismount</l>
+        <l n="42" real="xxxxxxxx" met="--+-+-+-">And tie him to the grey worn fence.</l>
+        <l n="43" real="xxx+xxxxxxxxxx" met="--+-+-+-+-+-+-">I set myself against the javelins of grass and sun;</l>
+        <l n="44" real="xxx+-x" met="-+-+-+">And climb the rounded breast,</l>
+        <l n="45" real="xxxxxx" met="-+-+-+">That flows like a sea-wave.</l>
+        <l n="46" real="x+-+-xxxxx+-x+-x" met="--+-+-+-+-+-+-+-">The summit crackles with heat, there is no shelter, no hollow from</l>
+        <l n="47" real="xxxxxx" met="-+-+-+">the flagellating glare.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="48" real="xxxxxxxx+-xx" met="--+-+-+-+-+-">I lie down and look at the sky, shading my eyes.</l>
+        <l n="49" real="x+--+xxxxxx+-xxxxx" met="--+-+-+-+-+-+-+-+-">My body becomes strange, the sun takes it and changes it, it does not feel,</l>
+        <l n="50" real="xxxx+-x-+-" met="--+-+-+-+-">it is like the body of another.</l>
+        <l n="51" real="xx+-xxx+-" met="-+-+-+-+-">The air blazes.  The air is diamond.</l>
+        <l n="52" real="x+-xxxxx" met="--+-+-+-">Small noises move among the grass...</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="---aa">
+        <l n="53" real="xx" met="-+">Blackly,</l>
+        <l n="54" real="xxxxxx-+" met="--+-+-+-">A hawk mounts, mounts in the inane</l>
+        <l n="55" real="+-xxx" met="+-+-+">Seeking the star-road,</l>
+        <l n="56" real="+-xx" met="--+-">Seeking the end...</l>
+        <l n="57" real="xxxxx" met="+-+-+">But there is no end.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="elegy-for-an-enemy" n="L13408">
+      <head>Elegy for an Enemy</head>
+      <idno type="URN">urn:laurel:eng:benet.benet-young-adventure.pg312:elegy-for-an-enemy</idno><idno type="laurel-id">L13408</idno><note type="metre">trochaic dimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd">
+        <l n="1" real="xxx+-x" met="+--+--">Say, does that stupid earth</l>
+        <l n="2" real="xxxxx" met="+-+--">Where they have laid her,</l>
+        <l n="3" real="xxx+-x" met="+--+--">Bind still her sullen mirth,</l>
+        <l n="4" real="xx-+x" met="+-+--">Mirth which betrayed her?</l>
+        <l n="5" real="xxx+-x" met="+--+--">Do the lush grasses hold,</l>
+        <l n="6" real="+-xx" met="+-+-">Greenly and glad,</l>
+        <l n="7" real="x+-+xx" met="+--+--">That brittle-perfect gold</l>
+        <l n="8" real="x-+x" met="+-+-">She alone had?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-c-c">
+        <l n="9" real="+-x+-x" met="+--+--">Smugly the common crew,</l>
+        <l n="10" real="xxx+-" met="+-+--">Over their knitting,</l>
+        <l n="11" real="xxx+-x" met="+--+--">Mourn her -- as butchers do</l>
+        <l n="12" real="xxx+-" met="+-+--">Sheep-throats they&#x27;re slitting!</l>
+        <l n="13" real="xxx+--" met="+--+--">She was my enemy,</l>
+        <l n="14" real="xxxxxx" met="+--+--">One of the best of them.</l>
+        <l n="15" real="xxxxxx" met="+--+--">Would she come back to me,</l>
+        <l n="16" real="xxxxxx" met="+--+--">God damn the rest of them!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab----">
+        <l n="17" real="xxx+-x" met="+--+--">Damn them, the flabby, fat,</l>
+        <l n="18" real="x+-+-" met="+-+--">Sleek little darlings!</l>
+        <l n="19" real="xxxxxx" met="+--+--">We gave them tit for tat,</l>
+        <l n="20" real="xxxxx" met="+-+--">Snarlings for snarlings!</l>
+        <l n="21" real="+-xxx" met="+-+--">Squashy pomposities,</l>
+        <l n="22" real="xx+-+--" met="+-+-+--">Shocked at our violence,</l>
+        <l n="23" real="xxx+-x" met="+--+--">Let not one tactful hiss</l>
+        <l n="24" real="xxx+-" met="+-+--">Break her new silence!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="----a-a-">
+        <l n="25" real="xx-+--" met="+--+--">Maids of antiquity,</l>
+        <l n="26" real="xxxxx" met="+-+--">Look well upon her;</l>
+        <l n="27" real="xxx+--" met="+--+--">Ice was her chastity,</l>
+        <l n="28" real="+-x+-" met="+-+--">Spotless her honor.</l>
+        <l n="29" real="+-xxxx" met="+--+--">Neighbors, with breasts of snow,</l>
+        <l n="30" real="xxx+-" met="+-+--">Dames of much virtue,</l>
+        <l n="31" real="xxxxxx" met="+--+--">How she could flame and glow!</l>
+        <l n="32" real="xxxxx" met="+-+--">Lord, how she hurt you!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab-c-c">
+        <l n="33" real="xxx+-x" met="+--+--">She was a woman, and</l>
+        <l n="34" real="+-xx" met="+-+-">Tender -- at times!</l>
+        <l n="35" real="+--xxx" met="+--+--">(Delicate was her hand)</l>
+        <l n="36" real="xxxx" met="+-+-">One of her crimes!</l>
+        <l n="37" real="xxxxxx" met="+--+--">Hair that strayed elfinly,</l>
+        <l n="38" real="xxxx" met="+-+-">Lips red as haws,</l>
+        <l n="39" real="xxx+-x" met="+--+--">You, with the ready lie,</l>
+        <l n="40" real="xxxx" met="+-+-">Was that the cause?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-abcbc">
+        <l n="41" real="xxx+--" met="+--+--">Rest you, my enemy,</l>
+        <l n="42" real="xxxx" met="+-+-">Slain without fault,</l>
+        <l n="43" real="xxxxxxx" met="+-+-+--">Life smacks but tastelessly</l>
+        <l n="44" real="+-xx" met="+-+-">Lacking your salt!</l>
+        <l n="45" real="xxxxxx" met="+--+--">Stuck in a bog whence naught</l>
+        <l n="46" real="x+-xx" met="+-+--">May catapult me,</l>
+        <l n="47" real="xxxxxx" met="+--+--">Come from the grave, long-sought,</l>
+        <l n="48" real="xx-+x" met="+-+--">Come and insult me!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="ababcdcd">
+        <l n="49" real="xxx+-x" met="+--+--">WE knew that sugared stuff</l>
+        <l n="50" real="+-x+-" met="+-+--">Poisoned the other;</l>
+        <l n="51" real="xxxxxx" met="+--+--">Rough as the wind is rough,</l>
+        <l n="52" real="+-x+-" met="+-+--">Sister and brother!</l>
+        <l n="53" real="+-x+-x" met="+--+--">Breathing the ether clear</l>
+        <l n="54" real="+--+xx" met="+--+--">Others forlorn have found --</l>
+        <l n="55" real="xxxx-+" met="+--+--">Oh, for that peace austere</l>
+        <l n="56" real="xxxxxx" met="+--+--">She and her scorn have found!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

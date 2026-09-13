@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Wooing Song</title><author>Giles Fletcher</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="wooing-song" n="L16045">
+      <head>Wooing Song</head>
+      <idno type="URN">urn:laurel:eng:fletcher.obev-giles-fletcher.pg66619:wooing-song</idno><idno type="laurel-id">L16045</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijj">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">Love is the blossom where there blows</l>
+        <l n="2" real="+-xxxxx" met="+-+-+-+">Every thing that lives or grows:</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Love doth make the Heav’ns to move,</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">And the Sun doth burn in love:</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Love the strong and weak doth yoke,</l>
+        <l n="6" real="xxx+-xxx" met="-+-+-+-+">And makes the ivy climb the oak,</l>
+        <l n="7" real="xxx+x+-x" met="-+-+-+-+">Under whose shadows lions wild,</l>
+        <l n="8" real="+-xxxxxx" met="-+-+-+-+">Soften’d by love, grow tame and mild:</l>
+        <l n="9" real="xxxxx-+" met="+-+-+-+">Love no med’cine can appease,</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">He burns the fishes in the seas:</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Not all the skill his wounds can stench,</l>
+        <l n="12" real="xxxxx+xx" met="-+-+-+-+">Not all the sea his fire can quench.</l>
+        <l n="13" real="xxxx+-x" met="+-+-+-+">Love did make the bloody spear</l>
+        <l n="14" real="xx+-xxx" met="+-+-+-+">Once a leavy coat to wear,</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">While in his leaves there shrouded lay</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Sweet birds, for love that sing and play</l>
+        <l n="17" real="xxxx+-x" met="+-+-+-+">And of all love’s joyful flame</l>
+        <l n="18" real="xxxx+-x" met="+-+-+-+">I the bud and blossom am.</l>
+        <l n="19" real="+-xxxxx" met="+-+-+-+">Only bend thy knee to me,</l>
+        <l n="20" real="x+-xx+-x" met="-+-+-+-+">Thy wooing shall thy winning be</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb--ccddb-eeffgghhiiggii">
+        <l n="21" real="xxx+xxx" met="+-+-+-+">See, see the flowers that below</l>
+        <l n="22" real="xxxx+-x" met="+-+-+-+">Now as fresh as morning blow;</l>
+        <l n="23" real="xxxx+-x" met="+-+-+-+">And of all the virgin rose</l>
+        <l n="24" real="xxxxxxx" met="+-+-+-+">That as bright Aurora shows;</l>
+        <l n="25" real="xxxxxx" met="--+-+-">How they all unleavèd die,</l>
+        <l n="26" real="+-x-+--" met="+-+-+-+">Losing their virginity!</l>
+        <l n="27" real="xxxx+-x" met="+-+-+-+">Like unto a summer shade,</l>
+        <l n="28" real="xxxxxxx" met="+-+-+-+">But now born, and now they fade.</l>
+        <l n="29" real="+-xxx-+" met="+-+-+-+">Every thing doth pass away;</l>
+        <l n="30" real="xx+-x-+" met="+-+-+-+">There is danger in delay:</l>
+        <l n="31" real="xx+-xxx" met="+-+-+-+">Come, come, gather then the rose,</l>
+        <l n="32" real="+-xxxxx" met="+-+-+-+">Gather it, or it you lose!</l>
+        <l n="33" real="xxxxxxx" met="+-+-+-+">All the sand of Tagus’ shore</l>
+        <l n="34" real="xxx+-xxx" met="-+-+-+-+">Into my bosom casts his ore:</l>
+        <l n="35" real="xx+-+-x" met="+-+-+-+">All the valleys’ swimming corn</l>
+        <l n="36" real="xxxx+-x" met="+-+-+-+">To my house is yearly borne:</l>
+        <l n="37" real="+-xx+-x" met="+-+-+-+">Every grape of every vine</l>
+        <l n="38" real="x+-xxxxx" met="-+-+-+-+">Is gladly bruised to make me wine:</l>
+        <l n="39" real="xx+-xxx" met="+-+-+-+">While ten thousand kings, as proud,</l>
+        <l n="40" real="x+-xxxxx" met="-+-+-+-+">To carry up my train have bow’d,</l>
+        <l n="41" real="xxxx+-xx" met="-+-+-+-+">And a world of ladies send me</l>
+        <l n="42" real="xx+-x-+x" met="-+-+-+-+">In my chambers to attend me:</l>
+        <l n="43" real="xxxxxxx" met="+-+-+-+">All the stars in Heav’n that shine,</l>
+        <l n="44" real="xx+-xxx" met="+-+-+-+">And ten thousand more, are mine:</l>
+        <l n="45" real="+-xxxxx" met="+-+-+-+">Only bend thy knee to me,</l>
+        <l n="46" real="x+-xx+-x" met="-+-+-+-+">Thy wooing shall thy winning be!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

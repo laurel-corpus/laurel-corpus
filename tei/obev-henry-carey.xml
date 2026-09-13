@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Sally in our Alley, and other poems</title><author>Henry Carey</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="sally-in-our-alley" n="L16152">
+      <head>Sally in our Alley</head>
+      <idno type="URN">urn:laurel:eng:carey.obev-henry-carey.pg66619:sally-in-our-alley</idno><idno type="laurel-id">L16152</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab-bab">
+        <l n="1" real="xxxxxxxx" met="--+-+-+-">Of all the girls that are so smart</l>
+        <l n="2" real="xxx+-+-" met="-+-+-+-">There’s none like pretty Sally;</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="4" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+        <l n="5" real="xxx+-xxx" met="--+-+-+-">There is no lady in the land</l>
+        <l n="6" real="xxxxx+-" met="-+-+-+-">Is half so sweet as Sally;</l>
+        <l n="7" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="8" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="x+-xx+-x" met="--+-+-+-">Her father he makes cabbage-nets,</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">And through the streets does cry ’em;</l>
+        <l n="11" real="x+-xx+-x" met="--+-+-+-">Her mother she sells laces long</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">To such as please to buy ’em:</l>
+        <l n="13" real="xxxxxx-+" met="--+-+-+-">But sure such folks could ne’er beget</l>
+        <l n="14" real="xxxxx+-" met="-+-+-+-">So sweet a girl as Sally!</l>
+        <l n="15" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="16" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab-c-c">
+        <l n="17" real="xxxxxxxx" met="--+-+-+-">When she is by, I leave my work,</l>
+        <l n="18" real="xxxx-+-" met="-+-+-+-">I love her so sincerely;</l>
+        <l n="19" real="x+-xx+-x" met="--+-+-+-">My master comes like any Turk,</l>
+        <l n="20" real="xxxx-+-" met="-+-+-+-">And bangs me most severely:</l>
+        <l n="21" real="xxxxxxxx" met="--+-+-+-">But let him bang his bellyful,</l>
+        <l n="22" real="xxxxx+-" met="-+-+-+-">I’ll bear it all for Sally;</l>
+        <l n="23" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="24" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a-b-b">
+        <l n="25" real="xxxxxxxx" met="--+-+-+-">Of all the days that’s in the week</l>
+        <l n="26" real="x+-xxxx" met="-+-+-+-">I dearly love but one day--</l>
+        <l n="27" real="xxxxxx-+" met="--+-+-+-">And that’s the day that comes betwixt</l>
+        <l n="28" real="x+xxx+-" met="-+-+-+-">A Saturday and Monday;</l>
+        <l n="29" real="xxxxxxxx" met="--+-+-+-">For then I’m drest all in my best</l>
+        <l n="30" real="xx-+x+-" met="-+-+-+-">To walk abroad with Sally;</l>
+        <l n="31" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="32" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab-c-c">
+        <l n="33" real="x+-+-xxx" met="--+-+-+-">My master carries me to church,</l>
+        <l n="34" real="x+-xxx" met="-+-+-+">And often am I blamèd</l>
+        <l n="35" real="xxxxxxxx" met="--+-+-+-">Because I leave him in the lurch</l>
+        <l n="36" real="xxxxxx" met="-+-+-+">As soon as text is namèd;</l>
+        <l n="37" real="xxxxx+-x" met="--+-+-+-">I leave the church in sermon-time</l>
+        <l n="38" real="xx-+x+-" met="-+-+-+-">And slink away to Sally;</l>
+        <l n="39" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="40" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a-b-b">
+        <l n="41" real="x+-xxx-+" met="--+-+-+-">When Christmas comes about again,</l>
+        <l n="42" real="xxxxx+-" met="-+-+-+-">O, then I shall have money;</l>
+        <l n="43" real="xxxxxxxx" met="--+-+-+-">I’ll hoard it up, and box it all,</l>
+        <l n="44" real="xxxxx+-" met="-+-+-+-">I’ll give it to my honey:</l>
+        <l n="45" real="xxxxx+-x" met="--+-+-+-">I would it were ten thousand pound,</l>
+        <l n="46" real="xxxxx+-" met="-+-+-+-">I’d give it all to Sally;</l>
+        <l n="47" real="xxx+-xxx" met="--+-+-+-">She is the darling of my heart,</l>
+        <l n="48" real="xxxx+-+-" met="--+-+-+-">And she lives in our alley.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a-a-a">
+        <l n="49" real="x+-xx+-x" met="--+-+-+-">My master and the neighbours all</l>
+        <l n="50" real="xxxxx+-" met="-+-+-+-">Make game of me and Sally,</l>
+        <l n="51" real="xxxxx+-x" met="--+-+-+-">And, but for her, I’d better be</l>
+        <l n="52" real="xxxxx+-" met="-+-+-+-">A slave and row a galley;</l>
+        <l n="53" real="xxx+xxxx" met="--+-+-+-">But when my seven long years are out,</l>
+        <l n="54" real="xxx+-+-" met="-+-+-+-">O, then I’ll marry Sally;</l>
+        <l n="55" real="xxxxxxxx" met="--+-+-+-">O, then we’ll wed, and then we’ll bed--</l>
+        <l n="56" real="xxx+-+-" met="-+-+-+-">But not in our alley!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-drinking-song" n="L16153">
+      <head>A Drinking-Song</head>
+      <idno type="URN">urn:laurel:eng:carey.obev-henry-carey.pg66619:a-drinking-song</idno><idno type="laurel-id">L16153</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbb">
+        <l n="1" real="+-xxx+-+" met="-+-+-+-+">Bacchus must now his power resign--</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">I am the only God of Wine!</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">It is not fit the wretch should be</l>
+        <l n="4" real="xx-+-xxx" met="-+-+-+-+">In competition set with me,</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Who can drink ten times more than he.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbb">
+        <l n="6" real="xxxxx+-+" met="-+-+-+-+">Make a new world, ye powers divine!</l>
+        <l n="7" real="xx+-xxx" met="+-+-+-+">Stock’d with nothing else but Wine:</l>
+        <l n="8" real="xxx+-+-x" met="-+-+-+-+">Let Wine its only product be,</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Let Wine be earth, and air, and sea--</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">And let that Wine be all for me!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

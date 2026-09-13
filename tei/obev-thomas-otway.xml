@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Enchantment</title><author>Thomas Otway</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-enchantment" n="L16134">
+      <head>The Enchantment</head>
+      <idno type="URN">urn:laurel:eng:otway.obev-thomas-otway.pg66619:the-enchantment</idno><idno type="laurel-id">L16134</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx-+" met="--+-+-+-">I did but look and love awhile,</l>
+        <l n="2" real="xxxxx+-" met="-+-+-+-">’Twas but for one half-hour;</l>
+        <l n="3" real="xx-+xxxx" met="--+-+-+-">Then to resist I had no will,</l>
+        <l n="4" real="xxxxx+-" met="-+-+-+-">And now I have no power.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">To sigh and wish is all my ease;</l>
+        <l n="6" real="xxxx-+" met="-+-+-+">Sighs which do heat impart</l>
+        <l n="7" real="-+xxx+-x" met="--+-+-+-">Enough to melt the coldest ice,</l>
+        <l n="8" real="x+-xxx" met="-+-+-+">Yet cannot warm your heart.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-xxx" met="--+-+-+-">O would your pity give my heart</l>
+        <l n="10" real="x+-xxx" met="-+-+-+">One corner of your breast,</l>
+        <l n="11" real="xxxxx+-x" met="--+-+-+-">’Twould learn of yours the winning art,</l>
+        <l n="12" real="x+-xxx" met="-+-+-+">And quickly steal the rest.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

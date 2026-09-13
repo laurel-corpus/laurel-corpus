@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Rivals</title><author>William Walsh</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="rivals" n="L16142">
+      <head>Rivals</head>
+      <idno type="URN">urn:laurel:eng:walsh.obev-william-walsh.pg66619:rivals</idno><idno type="laurel-id">L16142</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd">
+        <l n="1" real="xxx+xxxx" met="--+-+-+-">Of all the torments, all the cares,</l>
+        <l n="2" real="xx+-xxx" met="-+-+-+-">With which our lives are curst;</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">Of all the plagues a lover bears,</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">Sure rivals are the worst!</l>
+        <l n="5" real="x+-xx+-x" met="--+-+-+-">By partners in each other kind</l>
+        <l n="6" real="-+-+--x" met="-+-+-+-">Afflictions easier grow;</l>
+        <l n="7" real="xx-+xxxx" met="--+-+-+-">In love alone we hate to find</l>
+        <l n="8" real="-+-x+-x" met="-+-+-+-">Companions of our woe.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcd">
+        <l n="9" real="+--xxxxxx" met="-+-+-+-+-">Sylvia, for all the pangs you see</l>
+        <l n="10" real="x+--xxx" met="-+-+-+-">Are labouring in my breast,</l>
+        <l n="11" real="xxxxx+-x" met="--+-+-+-">I beg not you would favour me,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Would you but slight the rest!</l>
+        <l n="13" real="xxxx+-x" met="-+-+-+-">How great soe’er your rigours are,</l>
+        <l n="14" real="xx-+xx" met="-+-+-+">With them alone I’ll cope;</l>
+        <l n="15" real="xx-+xx-+" met="--+-+-+-">I can endure my own despair,</l>
+        <l n="16" real="xx-+-x" met="-+-+-+">But not another’s hope.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

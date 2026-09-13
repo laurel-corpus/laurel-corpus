@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Night is Near Gone</title><author>Alexander Montgomerie</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-night-is-near-gone" n="L15965">
+      <head>The Night is Near Gone</head>
+      <idno type="URN">urn:laurel:eng:montgomerie.obev-alexander-montgomerie.pg66619:the-night-is-near-gone</idno><idno type="laurel-id">L15965</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aaa-bbb-">
+        <l n="1" real="xxxxxx" met="--+-+-">Hey! now the day dawis;</l>
+        <l n="2" real="x+-xxx" met="--+-+-">The jolly cock crawis;</l>
+        <l n="3" real="xxxxxx" met="--+-+-">Now shroudis the shawis</l>
+        <l n="4" real="x+-xx" met="-+-+-">Thro’ Nature anon.</l>
+        <l n="5" real="xxxxx" met="-+-+-">The thissel-cock cryis</l>
+        <l n="6" real="x+-xx" met="-+-+-">On lovers wha lyis:</l>
+        <l n="7" real="xxxxx" met="-+-+-">Now skaillis the skyis;</l>
+        <l n="8" real="xxxxx" met="-+-+-">The nicht is neir gone.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--">
+        <l n="9" real="xxxxxx" met="--+-+-">The fieldis ouerflowis</l>
+        <l n="10" real="x+-xxx" met="--+-+-">With gowans that growis,</l>
+        <l n="11" real="xx+-xxx" met="-+-+-+-">Quhair lilies like low is</l>
+        <l n="12" real="xxxxx" met="-+-+-">As red as the rone.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="13" real="x+-xxx" met="--+-+-">The turtle that true is,</l>
+        <l n="14" real="xxxxxx" met="--+-+-">With notes that renewis,</l>
+        <l n="15" real="xxxxx" met="-+-+-">Her pairty pursuis:</l>
+        <l n="16" real="xxxxx" met="-+-+-">The nicht is neir gone.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaa-bba-">
+        <l n="17" real="xxxxxx" met="--+-+-">Now hairtis with hindis</l>
+        <l n="18" real="-+xxxx" met="--+-+-">Conform to their kindis,</l>
+        <l n="19" real="xxxxxx" met="--+-+-">Hie tursis their tyndis</l>
+        <l n="20" real="xxxxxx" met="--+-+-">On ground quhair they grone.</l>
+        <l n="21" real="xxxxxxx" met="-+-+-+-">Now hurchonis, with hairis,</l>
+        <l n="22" real="xxxxxx" met="--+-+-">Aye passis in pairis;</l>
+        <l n="23" real="xx+-xxx" met="-+-+-+-">Quhilk duly declaris</l>
+        <l n="24" real="xxxxx" met="-+-+-">The nicht is neir gone.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaa-bbb-">
+        <l n="25" real="x+-xxx" met="--+-+-">The season excellis</l>
+        <l n="26" real="x+-xxx" met="--+-+-">Through sweetness that smellis;</l>
+        <l n="27" real="x+-xxx" met="--+-+-">Now Cupid compellis</l>
+        <l n="28" real="+-xxxx" met="--+-+-">Our hairtis echone</l>
+        <l n="29" real="x+-xxx" met="--+-+-">On Venus wha waikis,</l>
+        <l n="30" real="xxx+xx" met="--+-+-">To muse on our maikis,</l>
+        <l n="31" real="xxxxxx" met="--+-+-">Syne sing for their saikis--</l>
+        <l n="32" real="xxxxx" met="-+-+-">‘The nicht is neir gone!’</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa--bbb-">
+        <l n="33" real="x-+-xx" met="--+-+-">All courageous knichtis</l>
+        <l n="34" real="xxxxxxx" met="-+-+-+-">Aganis the day dichtis</l>
+        <l n="35" real="xxxxxx" met="--+-+-">The breist-plate that bright is</l>
+        <l n="36" real="xxxxx" met="-+-+-">To fight with their fone.</l>
+        <l n="37" real="xxxxx" met="-+-+-">The stonèd steed stampis</l>
+        <l n="38" real="x+-xxx" met="--+-+-">Through courage, and crampis,</l>
+        <l n="39" real="xxxxxx" met="--+-+-">Syne on the land lampis:</l>
+        <l n="40" real="xxxxx" met="-+-+-">The nicht is neir gone.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaa-bab-">
+        <l n="41" real="xxxxxx" met="--+-+-">The freikis on feildis</l>
+        <l n="42" real="xxxxxx" met="--+-+-">That wight wapins weildis</l>
+        <l n="43" real="xxxxxx" met="--+-+-">With shyning bright shieldis</l>
+        <l n="44" real="x+-xx" met="-+-+-">At Titan in trone;</l>
+        <l n="45" real="xxxxxx" met="--+-+-">Stiff speiris in reistis</l>
+        <l n="46" real="xxxxxx" met="--+-+-">Ouer corseris crestis</l>
+        <l n="47" real="xxxxxx" met="--+-+-">Are broke on their breistis:</l>
+        <l n="48" real="xxxxx" met="-+-+-">The nicht is neir gone.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaa--bb-">
+        <l n="49" real="xxxxxx" met="--+-+-">So hard are their hittis,</l>
+        <l n="50" real="xxxxx" met="-+-+-">Some sweyis, some sittis,</l>
+        <l n="51" real="xx-+xx" met="--+-+-">And some perforce flittis</l>
+        <l n="52" real="xxxxxxx" met="-+-+-+-">On ground quhile they grone.</l>
+        <l n="53" real="xxxxxx" met="--+-+-">Syne groomis that gay is</l>
+        <l n="54" real="xxxxx" met="-+-+-">On blonkis that brayis</l>
+        <l n="55" real="xxxxx" met="-+-+-">With swordis assayis:--</l>
+        <l n="56" real="xxxxx" met="-+-+-">The nicht is neir gone.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

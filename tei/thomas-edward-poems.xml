@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Adlestrop, and other poems</title><author>Edward Thomas</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Poems. Project Gutenberg ebook #22423. <ref target="https://www.gutenberg.org/ebooks/22423">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-trumpet" n="L08133">
+      <head>The Trumpet</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-trumpet</idno><idno type="laurel-id">L08133</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-ab--ccb">
+        <l n="1" real="xxxx" met="--+-">RISE up, rise up,</l>
+        <l n="2" real="xxx+-+-" met="-+-+-+-">And, as the trumpet blowing</l>
+        <l n="3" real="+-xxxx" met="-+-+-+">Chases the dreams of men,</l>
+        <l n="4" real="xxx+-" met="+-+-+">As the dawn glowing</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">The stars that left unlit</l>
+        <l n="6" real="xxx+-" met="+-+-+">The land and water,</l>
+        <l n="7" real="xxx+-" met="+-+-+">Rise up and scatter</l>
+        <l n="8" real="xxx+-" met="+-+-+">The dew that covers</l>
+        <l n="9" real="xxxxx+-" met="-+-+-+-">The print of last night&#x27;s lovers--</l>
+        <l n="10" real="+-x+-x" met="-+-+-+">Scatter it, scatter it!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab----cc--">
+        <l n="11" real="xxx+--" met="-+-+-+">While you are listening</l>
+        <l n="12" real="xxxx" met="--+-">To the clear horn,</l>
+        <l n="13" real="-+x+-x" met="-+-+-+">Forget, men, everything</l>
+        <l n="14" real="xxx+-" met="+-+-+">On this earth newborn,</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">Except that it is lovelier</l>
+        <l n="16" real="x+-+--" met="-+-+-+">Than any mysteries.</l>
+        <l n="17" real="+-xxxxx" met="-+-+-+-">Open your eyes to the air</l>
+        <l n="18" real="xxx-xxxxx" met="-+-+-+-+-">That has washed the eyes of the stars</l>
+        <l n="19" real="xxx+-x" met="-+-+-+">Through all the dewy night:</l>
+        <l n="20" real="xxxx" met="--+-">Up with the light,</l>
+        <l n="21" real="xxxx" met="--+-">To the old wars;</l>
+        <l n="22" real="-+-+" met="--+-">Arise, arise!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sign-post" n="L08134">
+      <head>The Sign-Post</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-sign-post</idno><idno type="laurel-id">L08134</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa--bb">
+        <l n="1" real="xxxxxxxxxx" met="--+-+-+-+-">THE dim sea glints chill. The white sun is shy.</l>
+        <l n="2" real="xx+--xxx+x" met="--+-+-+-+-">And the skeleton weeds and the never-dry,</l>
+        <l n="3" real="xx+-xxxx" met="-+-+-+-+">Rough, long grasses keep white with frost</l>
+        <l n="4" real="xx+xxx+-x" met="-+-+-+-+-">At the hilltop by the finger-post;</l>
+        <l n="5" real="xxxx+--xxx" met="--+-+-+-+-">The smoke of the traveller&#x27;s-joy is puffed</l>
+        <l n="6" real="xx+x+-x+-x" met="--+-+-+-+-">Over hawthorn berry and hazel tuft.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="7" real="xxxxxxxxx" met="-+-+-+-+-">I read the sign. Which way shall I go?</l>
+        <l n="8" real="xxxxxxx+-x" met="--+-+-+-+-">A voice says: You would not have doubted so</l>
+        <l n="9" real="x+--+-x+-xx" met="-+-+-+-+-+-">At twenty. Another voice gentle with scorn</l>
+        <l n="10" real="xx+-xxxx+xx" met="-+-+-+-+-+-">Says: At twenty you wished you had never been born.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddeeffgghhiijj">
+        <l n="11" real="x+-xxxxx" met="-+-+-+-+">One hazel lost a leaf of gold</l>
+        <l n="12" real="xxxxxxxxxxx" met="-+-+-+-+-+-">From a tuft at the tip, when the first voice told</l>
+        <l n="13" real="x+-xxxxxxx" met="--+-+-+-+-">The other he wished to know what &#x27;twould be</l>
+        <l n="14" real="xx+-xxxxxxx" met="-+-+-+-+-+-">To be sixty by this same post. &quot;You shall see,&quot;</l>
+        <l n="15" real="xxxxxxxx+-" met="--+-+-+-+-">He laughed--and I had to join his laughter--</l>
+        <l n="16" real="xxxx+-xxxxx" met="-+-+-+-+-+-">&quot;You shall see; but either before or after,</l>
+        <l n="17" real="x+-+-xx-+" met="-+-+-+-+-">Whatever happens, it must befall,</l>
+        <l n="18" real="x+xxxx+--x" met="--+-+-+-+-">A mouthful of earth to remedy all</l>
+        <l n="19" real="-+x+-x+-x+-" met="-+-+-+-+-+-">Regrets and wishes shall freely be given;</l>
+        <l n="20" real="xxxxxxxx+-" met="--+-+-+-+-">And if there be a flaw in that heaven</l>
+        <l n="21" real="xx+-xxxxxxx" met="-+-+-+-+-+-">&#x27;Twill be freedom to wish, and your wish may be</l>
+        <l n="22" real="xxxx+-x+-xx" met="-+-+-+-+-+-">To be here or anywhere talking to me,</l>
+        <l n="23" real="x+-xx+-xx" met="-+-+-+-+-">No matter what the weather, on earth,</l>
+        <l n="24" real="x+-xxxxxx" met="-+-+-+-+-">At any age between death and birth,--</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">To see what day or night can be,</l>
+        <l n="26" real="xxxxxxxxxx" met="--+-+-+-+-">The sun and the frost, the land and the sea,</l>
+        <l n="27" real="+-+-+-x" met="+-+-+-+">Summer, Autumn, Winter, Spring,--</l>
+        <l n="28" real="xxxxx+-xxxxx" met="--+-+-+-+-+-">With a poor man of any sort, down to a king,</l>
+        <l n="29" real="+-+xxxxx" met="-+-+-+-+">Standing upright out in the air</l>
+        <l n="30" real="+--xxx+-xx" met="--+-+-+-+-">Wondering where he shall journey, O where?&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tears" n="L08135">
+      <head>Tears</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:tears</idno><idno type="laurel-id">L08135</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a---bbac--c-------">
+        <l n="1" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">IT seems I have no tears left. They should have fallen--</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Their ghosts, if tears have ghosts, did fall--that day</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">When twenty hounds streamed by me, not yet combed</l>
+        <l n="4" real="x" met="+">out</l>
+        <l n="5" real="xxx+-xxxxxx" met="-+-+-+-+-+-">But still all equals in their rage of gladness</l>
+        <l n="6" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Upon the scent, made one, like a great dragon</l>
+        <l n="7" real="x+-+xxxxxx" met="-+-+-+-+-+">In Blooming Meadow that bends towards the sun</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">And once bore hops: and on that other day</l>
+        <l n="9" real="xxxxxx+-+-+" met="-+-+-+-+-+-">When I stepped out from the double-shadowed Tower</l>
+        <l n="10" real="xxx+-+-+-xx" met="-+-+-+-+-+-">Into an April morning, stirring and sweet</l>
+        <l n="11" real="xxx+-xxxx+-" met="-+-+-+-+-+-">And warm. Strange solitude was there and silence.</l>
+        <l n="12" real="x+-xx+-xx+" met="-+-+-+-+-+">A mightier charm than any in the Tower</l>
+        <l n="13" real="-+x+xxx+-x" met="-+-+-+-+-+">Possessed the courtyard. They were changing guard</l>
+        <l n="14" real="+-xxx+-+--" met="-+-+-+-+-+">Soldiers in line, young English countrymen,</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">Fair-haired and ruddy, in white tunics. Drums</l>
+        <l n="16" real="xxx+-x+-xxx" met="-+-+-+-+-+-">And fifes were playing &quot;The British Grenadiers&quot;.</l>
+        <l n="17" real="xxx+-+-x+-x" met="-+-+-+-+-+-">The men, the music piercing that solitude</l>
+        <l n="18" real="x+-xxxxxxx" met="-+-+-+-+-+">And silence, told me truths I had not dreamed</l>
+        <l n="19" real="xx-+-xx+-x" met="-+-+-+-+-+">And have forgotten since their beauty passed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="two-pewits" n="L08136">
+      <head>Two Pewits</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:two-pewits</idno><idno type="laurel-id">L08136</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aaabaaaaaaaaabb">
+        <l n="1" real="xxxxx+xx" met="-+-+-+-+">UNDER the after-sunset sky</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Two pewits sport and cry,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">More white than is the moon on high</l>
+        <l n="4" real="+-xxx+--" met="-+-+-+-+">Riding the dark surge silently;</l>
+        <l n="5" real="xxxxxx" met="--+-+-">More black than earth. Their cry</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Is the one sound under the sky.</l>
+        <l n="7" real="x-+xxxxx" met="-+-+-+-+">They alone move, now low, now high,</l>
+        <l n="8" real="x+--xx" met="--+-+-">And merrily they cry</l>
+        <l n="9" real="xx+--xx" met="+-+-+-+">To the mischievous Spring sky,</l>
+        <l n="10" real="+-xx+-x" met="+-+-+-+">Plunging earthward, tossing high,</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">Over the ghost who wonders why</l>
+        <l n="12" real="x+--xxxx" met="-+-+-+-+">So merrily they cry and fly,</l>
+        <l n="13" real="xxxxxx" met="--+-+-">Nor choose &#x27;twixt earth and sky,</l>
+        <l n="14" real="xxx+-+--" met="-+-+-+-+">While the moon&#x27;s quarter silently</l>
+        <l n="15" real="xxxxx+--" met="-+-+-+-+">Rides, and earth rests as silently.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-manor-farm" n="L08137">
+      <head>The Manor Farm</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-manor-farm</idno><idno type="laurel-id">L08137</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="---a------b-ba---">
+        <l n="1" real="xxxxxxx+-xx" met="-+-+-+-+-+-">THE rock-like mud unfroze a little and rills</l>
+        <l n="2" real="xx+-xxxxxx" met="-+-+-+-+-+">Ran and sparkled down each side of the road</l>
+        <l n="3" real="xxx+-+-xxx" met="-+-+-+-+-+">Under the catkins wagging in the hedge.</l>
+        <l n="4" real="xxxxxxxxxxx" met="-+-+-+-+-+-">But earth would have her sleep out, spite of the sun;</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">Nor did I value that thin gilding beam</l>
+        <l n="6" real="xxx+-+-x-x" met="-+-+-+-+-+">More than a pretty February thing</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Till I came down to the old Manor Farm,</l>
+        <l n="8" real="xxxxx+--xx" met="-+-+-+-+-+">And church and yew-tree opposite, in age</l>
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">Its equals and in size. The church and yew</l>
+        <l n="10" real="x+xxxx+xxxx" met="-+-+-+-+-+-">And farmhouse slept in a Sunday silentness.</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">The air raised not a straw. The steep farm roof,</l>
+        <l n="12" real="xxxxx+-x-+" met="-+-+-+-+-+">With tiles duskily glowing, entertained</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">The mid-day sun; and up and down the roof</l>
+        <l n="14" real="x+-+-xxxxxx" met="-+-+-+-+-+-">White pigeons nestled. There was no sound but one.</l>
+        <l n="15" real="xx+-x+-xxx" met="-+-+-+-+-+">Three cart-horses were looking over a gate</l>
+        <l n="16" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Drowsily through their forelocks, swishing their tails</l>
+        <l n="17" real="xxxxx+-x-x" met="-+-+-+-+-+">Against a fly, a solitary fly.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="18" real="x+-xxxxxxx" met="-+-+-+-+-+">The Winter&#x27;s cheek flushed as if he had drained</l>
+        <l n="19" real="x+-x+-xxx" met="+-+-+-+-+">Spring, Summer, and Autumn at a draught</l>
+        <l n="20" real="xx+--xxx+-" met="-+-+-+-+-+">And smiled quietly. But &#x27;twas not Winter--</l>
+        <l n="21" real="+-x+-xxxxxx" met="-+-+-+-+-+-">Rather a season of bliss unchangeable</l>
+        <l n="22" real="-+-xxxxxxxx" met="-+-+-+-+-+-">Awakened from farm and church where it had lain</l>
+        <l n="23" real="xxxxxxx+-x" met="-+-+-+-+-+">Safe under tile and thatch for ages since</l>
+        <l n="24" real="x+-x-+-xx+-" met="-+-+-+-+-+-">This England, Old already, was called Merry.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-owl" n="L08138">
+      <head>The Owl</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-owl</idno><idno type="laurel-id">L08138</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="++xx+-xxxx" met="-+-+-+-+-+">DOWNHILL I came, hungry, and yet not starved;</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Cold, yet had heat within me that was proof</l>
+        <l n="3" real="xxxxx+xxxx" met="-+-+-+-+-+">Against the North wind; tired, yet so that rest</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">Had seemed the sweetest thing under a roof.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx+xx" met="-+-+-+-+-+">Then at the inn I had food, fire, and rest,</l>
+        <l n="6" real="+x+-xx+-xx" met="-+-+-+-+-+">Knowing how hungry, cold, and tired was I.</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">All of the night was quite barred out except</l>
+        <l n="8" real="xxxxx+-x-x" met="-+-+-+-+-+">An owl&#x27;s cry, a most melancholy cry</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="+-xxxxxxxx" met="-+-+-+-+-+">Shaken out long and clear upon the hill,</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">No merry note, nor cause of merriment,</l>
+        <l n="11" real="xx+-xxxx-+" met="-+-+-+-+-+">But one telling me plain what I escaped</l>
+        <l n="12" real="x+-xxxxxxxx" met="-+-+-+-+-+-">And others could not, that night, as in I went.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="x+-xxxxx-+" met="-+-+-+-+-+">And salted was my food, and my repose,</l>
+        <l n="14" real="+-x+-xxxxx" met="-+-+-+-+-+">Salted and sobered, too, by the bird&#x27;s voice</l>
+        <l n="15" real="+-xxxxxxxx" met="-+-+-+-+-+">Speaking for all who lay under the stars,</l>
+        <l n="16" real="+-xx-+-x-+" met="-+-+-+-+-+">Soldiers and poor, unable to rejoice.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="swedes" n="L08139">
+      <head>Swedes</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:swedes</idno><idno type="laurel-id">L08139</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xx+-x+-xxxxx" met="--+-+-+-+-+-">THEY have taken the gable from the roof of clay</l>
+        <l n="2" real="xxxxxxxxxxx" met="-+-+-+-+-+-">On the long swede pile. They have let in the sun</l>
+        <l n="3" real="xxxxxx+-xxx" met="-+-+-+-+-+-">To the white and gold and purple of curled fronds</l>
+        <l n="4" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Unsunned. It is a sight more tender-gorgeous</l>
+        <l n="5" real="xxx+-x+-xxx" met="-+-+-+-+-+-">At the wood-corner where Winter moans and drips</l>
+        <l n="6" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Than when, in the Valley of the Tombs of Kings,</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">A boy crawls down into a Pharaoh&#x27;s tomb</l>
+        <l n="8" real="xxx+-xxxx+-" met="-+-+-+-+-+-">And, first of Christian men, beholds the mummy,</l>
+        <l n="9" real="xx+-+-xxxx" met="-+-+-+-+-+">God and monkey, chariot and throne and vase,</l>
+        <l n="10" real="x+--+-x-xx" met="-+-+-+-+-+">Blue pottery, alabaster, and gold.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="11" real="xxxxx-+xxx" met="-+-+-+-+-+">But dreamless long-dead Amen-hotep lies.</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">This is a dream of Winter, sweet as Spring.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="will-you-come" n="L08140">
+      <head>Will You Come?</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:will-you-come</idno><idno type="laurel-id">L08140</idno><note type="metre">iambic monometer</note>
+      <lg type="stanza" n="1" rhyme="aab-ba">
+        <l n="1" real="xxx" met="-+-">WILL you come?</l>
+        <l n="2" real="xxx" met="-+-">Will you come?</l>
+        <l n="3" real="xxx" met="-+-">Will you ride</l>
+        <l n="4" real="xx" met="-+">So late</l>
+        <l n="5" real="xxx" met="-+-">At my side?</l>
+        <l n="6" real="xxxx" met="--+-">O, will you come?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aab-ba">
+        <l n="7" real="xxx" met="-+-">Will you come?</l>
+        <l n="8" real="xxx" met="-+-">Will you come</l>
+        <l n="9" real="xxx" met="-+-">If the night</l>
+        <l n="10" real="xxx" met="-+-">Has a moon,</l>
+        <l n="11" real="xxx" met="-+-">Full and bright?</l>
+        <l n="12" real="xxxx" met="--+-">O, will you come?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aab-ba">
+        <l n="13" real="xxx" met="-+-">Would you come?</l>
+        <l n="14" real="xxx" met="-+-">Would you come</l>
+        <l n="15" real="xxx" met="-+-">If the noon</l>
+        <l n="16" real="xx" met="-+">Gave light,</l>
+        <l n="17" real="xxx" met="-+-">Not the moon?</l>
+        <l n="18" real="+--xxx" met="--+-+-">Beautiful, would you come?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aab-ba">
+        <l n="19" real="xxxx" met="--+-">Would you have come?</l>
+        <l n="20" real="xxxx" met="--+-">Would you have come</l>
+        <l n="21" real="xxxx" met="--+-">Without scorning,</l>
+        <l n="22" real="xxx" met="-+-">Had it been</l>
+        <l n="23" real="x+-" met="-+-">Still morning?</l>
+        <l n="24" real="-+xxxx" met="--+-+-">Beloved, would you have come?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aab-ba">
+        <l n="25" real="xxx" met="-+-">If you come</l>
+        <l n="26" real="xxx" met="-+-">Haste and come.</l>
+        <l n="27" real="xxx" met="-+-">Owls have cried:</l>
+        <l n="28" real="xxx" met="-+-">It grows dark</l>
+        <l n="29" real="xx" met="-+">To ride.</l>
+        <l n="30" real="-++--x" met="--+-+-">Beloved, beautiful, come.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="as-the-team-s-head-brass" n="L08141">
+      <head>As the Team&#x27;s Head-Brass</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:as-the-team-s-head-brass</idno><idno type="laurel-id">L08141</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-b-bb-ca-c">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">As the team&#x27;s head-brass flashed out on the turn</l>
+        <l n="2" real="x+-x-+xxxx" met="-+-+-+-+-+">The lovers disappeared into the wood.</l>
+        <l n="3" real="xxxxxxxx+-x" met="-+-+-+-+-+-">I sat among the boughs of the fallen elm</l>
+        <l n="4" real="xxx+-xx+xx" met="-+-+-+-+-+">That strewed an angle of the fallow, and</l>
+        <l n="5" real="xxx+--x+-x" met="-+-+-+-+-+">Watched the plough narrowing a yellow square</l>
+        <l n="6" real="xxx+-xx+-x" met="-+-+-+-+-+">Of charlock. Every time the horses turned</l>
+        <l n="7" real="-+x+-xxxxxx" met="-+-+-+-+-+-">Instead of treading me down, the ploughman leaned</l>
+        <l n="8" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Upon the handles to say or ask a word,</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">About the weather, next about the war.</l>
+        <l n="10" real="+-xxxxxxxx" met="-+-+-+-+-+">Scraping the share he faced towards the wood,</l>
+        <l n="11" real="xx-+x+-xxxx" met="-+-+-+-+-+-">And screwed along the furrow till the brass flashed</l>
+        <l n="12" real="xx" met="-+">Once more.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-ab-ca----d----b-----dcc---">
+        <l n="13" real="x+-x-xxxx" met="+-+-+-+-+">The blizzard felled the elm whose crest</l>
+        <l n="14" real="xxxxx+x-xx" met="-+-+-+-+-+">I sat in, by a woodpecker&#x27;s round hole,</l>
+        <l n="15" real="xxxxxxxxx-+" met="-+-+-+-+-+-">The ploughman said. &quot;When will they take it away?&quot;</l>
+        <l n="16" real="xxxxxxxx-+" met="-+-+-+-+-+">&quot;When the war&#x27;s over.&quot; So the talk began--</l>
+        <l n="17" real="x+-xx+--xx" met="-+-+-+-+-+">One minute and an interval of ten,</l>
+        <l n="18" real="x+-xxxx+--" met="-+-+-+-+-+">A minute more and the same interval.</l>
+        <l n="19" real="xxxxxxxx" met="--+-+-+-">&quot;Have you been out?&quot; &quot;No.&quot; &quot;And don&#x27;t want</l>
+        <l n="20" real="x-+" met="-+-">to, perhaps?&quot;</l>
+        <l n="21" real="xxx+-xx-+xx" met="-+-+-+-+-+-">&quot;If I could only come back again, I should.</l>
+        <l n="22" real="xxxxxx+-xxx" met="-+-+-+-+-+-">I could spare an arm. I shouldn&#x27;t want to lose</l>
+        <l n="23" real="xxxxxxxxxx" met="-+-+-+-+-+">A leg. If I should lose my head, why, so,</l>
+        <l n="24" real="xxx+-xx+-x" met="-+-+-+-+-+">I should want nothing more. . . . Have many gone</l>
+        <l n="25" real="xxx+-xx" met="-+-+-+-">From here?&quot; &quot;Yes.&quot; &quot;Many lost?&quot; &quot;Yes:</l>
+        <l n="26" real="xx" met="-+">good few.</l>
+        <l n="27" real="+-xxxxxxxx" met="-+-+-+-+-+">Only two teams work on the farm this year.</l>
+        <l n="28" real="xxxxxxx+-x" met="-+-+-+-+-+">One of my mates is dead. The second day</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">In France they killed him. It was back in March,</l>
+        <l n="30" real="x+-xxx+-xxx" met="-+-+-+-+-+-">The very night of the blizzard, too. Now if</l>
+        <l n="31" real="xxxxxxxxxx" met="-+-+-+-+-+">He had stayed here we should have moved the tree.&quot;</l>
+        <l n="32" real="xxxxxxx+-x" met="-+-+-+-+-+">&quot;And I should not have sat here. Everything</l>
+        <l n="33" real="xxx+-xxxxx" met="-+-+-+-+-+">Would have been different. For it would have been</l>
+        <l n="34" real="-+-xxxx+-x" met="-+-+-+-+-+">Another world.&quot; &quot;Ay, and a better, though</l>
+        <l n="35" real="xxxxxxxxxx" met="-+-+-+-+-+">If we could see all all might seem good.&quot; Then</l>
+        <l n="36" real="x+-xxxxx-+" met="-+-+-+-+-+">The lovers came out of the wood again:</l>
+        <l n="37" real="x+-+-xxxxx" met="-+-+-+-+-+">The horses started and for the last time</l>
+        <l n="38" real="xxxx+-x+-x" met="-+-+-+-+-+">I watched the clods crumble and topple over</l>
+        <l n="39" real="xxx+-xx+-x" met="-+-+-+-+-+">After the ploughshare and the stumbling team.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="thaw" n="L08142">
+      <head>Thaw</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:thaw</idno><idno type="laurel-id">L08142</idno>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxx+-xxxx">OVER the land freckled with snow half-thawed</l>
+        <l n="2" real="x+-x-xxxxx">The speculating rooks at their nests cawed</l>
+        <l n="3" real="xxxxx+-x+xx">And saw from elm-tops, delicate as flower of grass,</l>
+        <l n="4" real="xxxxxxx+-x">What we below could not see, Winter pass.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="interval" n="L08143">
+      <head>Interval</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:interval</idno><idno type="laurel-id">L08143</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx" met="-+-+">GONE the wild day:</l>
+        <l n="2" real="x+-x" met="-+-+">A wilder night</l>
+        <l n="3" real="+-xx" met="-+-+">Coming makes way</l>
+        <l n="4" real="xx+x" met="-+-+">For brief twilight.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxx" met="-+-+-">Where the firm soaked road</l>
+        <l n="6" real="xxxx" met="-+-+">Mounts and is lost</l>
+        <l n="7" real="xxxxx" met="-+-+-">In the high beech-wood</l>
+        <l n="8" real="xx+x" met="-+-+">It shines almost.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxx" met="-+-+">The beeches keep</l>
+        <l n="10" real="x+-x" met="-+-+">A stormy rest,</l>
+        <l n="11" real="+-x" met="+-+">Breathing deep</l>
+        <l n="12" real="xxxxx" met="-+-+-">Of wind from the west.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxx" met="-+-+">The wood is black,</l>
+        <l n="14" real="xx+-x" met="-+-+-">With a misty steam.</l>
+        <l n="15" real="xxxxx" met="-+-+-">Above, the cloud pack</l>
+        <l n="16" real="xxxx" met="-+-+">Breaks for one gleam.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxx" met="-+-+-">But the woodman&#x27;s cot</l>
+        <l n="18" real="xxxx" met="-+-+">By the ivied trees</l>
+        <l n="19" real="-+-x" met="-+-+">Awakens not</l>
+        <l n="20" real="xxxx" met="-+-+">To light or breeze.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xx-+" met="-+-+">It smokes aloft</l>
+        <l n="22" real="-+--" met="-+-+">Unwavering:</l>
+        <l n="23" real="x+-x" met="-+-+">It hunches soft</l>
+        <l n="24" real="xxxx" met="-+-+">Under storm&#x27;s wing.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxx" met="-+-+">It has no care</l>
+        <l n="26" real="xxxx" met="-+-+">For gleam or gloom:</l>
+        <l n="27" real="xxx" met="+-+">It stays there</l>
+        <l n="28" real="xxxx" met="-+-+">While I shall roam,</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xx-+" met="-+-+">Die, and forget</l>
+        <l n="30" real="xxxx" met="-+-+">The hill of trees,</l>
+        <l n="31" real="xxxx" met="-+-+">The gleam, the wet,</l>
+        <l n="32" real="x+-x" met="-+-+">This roaring peace.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="like-the-touch-of-rain" n="L08144">
+      <head>Like the Touch of Rain</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:like-the-touch-of-rain</idno><idno type="laurel-id">L08144</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">LIKE the touch of rain she was</l>
+        <l n="2" real="xxxxxxxx" met="--+-+-+-">On a man&#x27;s flesh and hair and eyes</l>
+        <l n="3" real="xxxx+-x" met="-+-+-+-">When the joy of walking thus</l>
+        <l n="4" real="x+-xx-+" met="-+-+-+-">Has taken him by surprise:</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">With the love of the storm he burns,</l>
+        <l n="6" real="xxxxxxxx" met="--+-+-+-">He sings, he laughs, well I know how,</l>
+        <l n="7" real="x-+xx-+" met="-+-+-+-">But forgets when he returns</l>
+        <l n="8" real="xxxx-+xxx" met="-+-+-+-+-">As I shall not forget her &quot;Go now.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxx" met="-+-+-+">Those two words shut a door</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">Between me and the blessed rain</l>
+        <l n="11" real="xx+-xxx" met="-+-+-+-">That was never shut before</l>
+        <l n="12" real="xxx+--+" met="-+-+-+-">And will not open again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-path" n="L08145">
+      <head>The Path</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-path</idno><idno type="laurel-id">L08145</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a---b--bc---c------a-">
+        <l n="1" real="+--+xxx+-x" met="-+-+-+-+-+">RUNNING along a bank, a parapet</l>
+        <l n="2" real="xxxx-+-xxx" met="-+-+-+-+-+">That saves from the precipitous wood below</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">The level road, there is a path. It serves</l>
+        <l n="4" real="+-x+-xxxxx" met="-+-+-+-+-+">Children for looking down the long smooth steep,</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Between the legs of beech and yew, to where</l>
+        <l n="6" real="x+-xxxxxxx+-" met="--+-+-+-+-+-">A fallen tree checks the sight: while men and women</l>
+        <l n="7" real="-+-+xxxxxxx" met="-+-+-+-+-+-">Content themselves with the road and what they see</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">Over the bank, and what the children tell.</l>
+        <l n="9" real="xx+-x+-+-x" met="-+-+-+-+-+">The path, winding like silver, trickles on,</l>
+        <l n="10" real="+-x+-+-x+-x" met="-+-+-+-+-+-">Bordered and even invaded by thinnest moss</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">That tries to cover roots and crumbling chalk</l>
+        <l n="12" real="xx+-x+-xxx" met="-+-+-+-+-+">With gold, olive, and emerald, but in vain.</l>
+        <l n="13" real="x+-xxxx+-xx" met="-+-+-+-+-+-">The children wear it. They have flattened the bank</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">On top, and silvered it between the moss</l>
+        <l n="15" real="xx+-xxxxxxx" met="-+-+-+-+-+-">With the current of their feet, year after year.</l>
+        <l n="16" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">But the road is houseless, and leads not to school.</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">To see a child is rare there, and the eye</l>
+        <l n="18" real="xxxxxxx+-x" met="-+-+-+-+-+">Has but the road, the wood that overhangs</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">And underyawns it, and the path that looks</l>
+        <l n="20" real="xxxxxxx+-x-" met="-+-+-+-+-+-">As if it led on to some legendary</l>
+        <l n="21" real="x+-xxxxxxx" met="-+-+-+-+-+">Or fancied place where men have wished to go</l>
+        <l n="22" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And stay; till, sudden, it ends where the wood ends.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-combe" n="L08146">
+      <head>The Combe</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-combe</idno><idno type="laurel-id">L08146</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a--b---ba---">
+        <l n="1" real="xxx+-x+-xx" met="-+-+-+-+-+">THE Combe was ever dark, ancient and dark.</l>
+        <l n="2" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Its mouth is stopped with bramble, thorn, and briar;</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">And no one scrambles over the sliding chalk</l>
+        <l n="4" real="xxxxx+--+--" met="-+-+-+-+-+-">By beech and yew and perishing juniper</l>
+        <l n="5" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Down the half precipices of its sides, with roots</l>
+        <l n="6" real="x+-xxxxxx+-" met="-+-+-+-+-+-">And rabbit holes for steps. The sun of Winter,</l>
+        <l n="7" real="xxx+-xxx+-x" met="-+-+-+-+-+-">The moon of Summer, and all the singing birds</l>
+        <l n="8" real="xxx+-xxx+--" met="-+-+-+-+-+-">Except the missel-thrush that loves juniper,</l>
+        <l n="9" real="xxxxxxx+-xx" met="-+-+-+-+-+-">Are quite shut out. But far more ancient and dark</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">The Combe looks since they killed the badger there,</l>
+        <l n="11" real="xxxxxxxxx" met="+-+-+-+-+">Dug him out and gave him to the hounds,</l>
+        <l n="12" real="xx+-+-x+-x" met="-+-+-+-+-+">That most ancient Briton of English beasts.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="if-i-should-ever-by-chance" n="L08147">
+      <head>If I Should Ever by Chance</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:if-i-should-ever-by-chance</idno><idno type="laurel-id">L08147</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-abbcc-d-dabb">
+        <l n="1" real="xxx+-xxxx" met="-+-+-+-+-">IF I should ever by chance grow rich</l>
+        <l n="2" real="xxxxxxxxxxx" met="-+-+-+-+-+-">I&#x27;ll buy Codham, Cockridden, and Childerditch,</l>
+        <l n="3" real="+-xxxxxx" met="-+-+-+-+">Roses, Pyrgo, and Lapwater,</l>
+        <l n="4" real="xxxxxx+-+-" met="--+-+-+-+-">And let them all to my elder daughter.</l>
+        <l n="5" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The rent I shall ask of her will be only</l>
+        <l n="6" real="xxx+--xx+-" met="--+-+-+-+-">Each year&#x27;s first violets, white and lonely,</l>
+        <l n="7" real="xx+x-xxxx" met="-+-+-+-+-">The first primroses and orchises--</l>
+        <l n="8" real="xxxxxxxxxx" met="--+-+-+-+-">She must find them before I do, that is.</l>
+        <l n="9" real="xxxxx+-xx" met="-+-+-+-+-">But if she finds a blossom on furze</l>
+        <l n="10" real="xxxxxxx+xx" met="--+-+-+-+-">Without rent they shall all for ever be hers,</l>
+        <l n="11" real="xxxxxxxxx" met="-+-+-+-+-">Codham, Cockridden, and Childerditch,</l>
+        <l n="12" real="+-xxxxxx" met="-+-+-+-+">Roses, Pyrgo and Lapwater,--</l>
+        <l n="13" real="xxxxxxx+-+-" met="-+-+-+-+-+-">I shall give them all to my elder daughter.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="what-shall-i-give" n="L08148">
+      <head>What Shall I Give?</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:what-shall-i-give</idno><idno type="laurel-id">L08148</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcddceeffgghhiijj">
+        <l n="1" real="xxxxx+-x+-" met="--+-+-+-+-">WHAT shall I give my daughter the younger</l>
+        <l n="2" real="xxxxxxxx+-" met="--+-+-+-+-">More than will keep her from cold and hunger?</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">I shall not give her anything.</l>
+        <l n="4" real="xxx-xxxxxx" met="--+-+-+-+-">If she shared South Weald and Havering,</l>
+        <l n="5" real="x+-xxx+-xx" met="--+-+-+-+-">Their acres, the two brooks running between,</l>
+        <l n="6" real="xxxxx" met="-+-+-">Paine&#x27;s Brook and Weald Brook,</l>
+        <l n="7" real="xxx+x-xxx" met="-+-+-+-+-">With pewit, woodpecker, swan, and rook,</l>
+        <l n="8" real="xxxx+-xxx" met="-+-+-+-+-">She would be no richer than the queen</l>
+        <l n="9" real="xxxxxxxxxx+" met="-+-+-+-+-+-">Who once on a time sat in Havering Bower</l>
+        <l n="10" real="-+xx+x+-x+-" met="-+-+-+-+-+-">Alone, with the shadows, pleasure and power.</l>
+        <l n="11" real="xxxxxxxxx" met="-+-+-+-+-">She could do no more with Samarcand,</l>
+        <l n="12" real="xx+-xx+-x" met="-+-+-+-+-">Or the mountains of a mountain land</l>
+        <l n="13" real="xxxxxxx+--" met="--+-+-+-+-">And its far white house above cottages</l>
+        <l n="14" real="x+-xxx+-x" met="-+-+-+-+-">Like Venus above the Pleiades.</l>
+        <l n="15" real="xxxxxx+-" met="-+-+-+-+">Her small hands I would not cumber</l>
+        <l n="16" real="xx+-+-xx+-" met="--+-+-+-+-">With so many acres and their lumber,</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">But leave her Steep and her own world</l>
+        <l n="18" real="xxxx-xxxxx" met="--+-+-+-+-">And her spectacled self with hair uncurled,</l>
+        <l n="19" real="+-x+-+-x" met="-+-+-+-+">Wanting a thousand little things</l>
+        <l n="20" real="xxxx-+-x" met="-+-+-+-+">That time without contentment brings.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="if-i-were-to-own" n="L08149">
+      <head>If I Were to Own</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:if-i-were-to-own</idno><idno type="laurel-id">L08149</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeff--gghhiig-">
+        <l n="1" real="xxxxxx+-x" met="-+-+-+-+-">IF I were to own this countryside</l>
+        <l n="2" real="xxxxxxxxxx" met="--+-+-+-+-">As far as a man in a day could ride,</l>
+        <l n="3" real="xxxxxx+-x+-" met="-+-+-+-+-+-">And the Tyes were mine for giving or letting,--</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Wingle Tye and Margaretting</l>
+        <l n="5" real="xxxxxxxxx" met="-+-+-+-+-">Tye,--and Skreens, Gooshays, and Cockerells,</l>
+        <l n="6" real="xxxxxxxxxx" met="--+-+-+-+-">Shellow, Rochetts, Bandish, and Pickerells,</l>
+        <l n="7" real="+-xxxxxx" met="-+-+-+-+">Marlins, Lambkins, and Lillyputs,</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">Their copses, ponds, roads, and ruts,</l>
+        <l n="9" real="xxx+-xx+-" met="-+-+-+-+-">Fields where plough-horses steam and plovers</l>
+        <l n="10" real="xx+-+-x+-" met="-+-+-+-+-">Fling and whimper, hedges that lovers</l>
+        <l n="11" real="xx+-xxx" met="+-+-+-+">Love, and orchards, shrubberies, walls</l>
+        <l n="12" real="xxx-+-xxxx" met="--+-+-+-+-">Where the sun untroubled by north wind falls,</l>
+        <l n="13" real="x+-xxxxxx" met="-+-+-+-+-">And single trees where the thrush sings well</l>
+        <l n="14" real="x+-xxxxx" met="-+-+-+-+">His proverbs untranslatable,</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">I would give them all to my son</l>
+        <l n="16" real="xxxxx+-x" met="-+-+-+-+">If he would let me any one</l>
+        <l n="17" real="xxxx+-xxx" met="-+-+-+-+-">For a song, a blackbird&#x27;s song, at dawn.</l>
+        <l n="18" real="xxxxxxxxx" met="-+-+-+-+-">He should have no more, till on my lawn</l>
+        <l n="19" real="+-xxxxxxx" met="-+-+-+-+-">Never a one was left, because I</l>
+        <l n="20" real="xxxxxxxxxx" met="--+-+-+-+-">Had shot them to put them into a pie,--</l>
+        <l n="21" real="x+-+-+--x" met="-+-+-+-+-">His Essex blackbirds, every one,</l>
+        <l n="22" real="xxxxxx-+" met="-+-+-+-+">And I was left old and alone.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccdd">
+        <l n="23" real="xxxxxxxxxx" met="--+-+-+-+-">Then unless I could pay, for rent, a song</l>
+        <l n="24" real="xxxx+-xxx" met="-+-+-+-+-">As sweet as a blackbird&#x27;s, and as long--</l>
+        <l n="25" real="xxxxxxxxx" met="-+-+-+-+-">No more--he should have the house, not I:</l>
+        <l n="26" real="xxxxxxxx" met="-+-+-+-+">Margaretting or Wingle Tye,</l>
+        <l n="27" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Or it might be Skreens, Gooshays, or Cockerells,</l>
+        <l n="28" real="xxxxxxxxxx" met="--+-+-+-+-">Shellow, Rochetts, Bandish, or Pickerells,</l>
+        <l n="29" real="+-xxxxxx" met="-+-+-+-+">Martins, Lambkins, or Lillyputs,</l>
+        <l n="30" real="xxxxxxxxxx" met="--+-+-+-+-">Should be his till the cart tracks had no ruts.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="and-you-helen" n="L08150">
+      <head>And You, Helen</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:and-you-helen</idno><idno type="laurel-id">L08150</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjkk">
+        <l n="1" real="xx+-xxxxx" met="-+-+-+-+-">AND you, Helen, what should I give you?</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">So many things I would give you</l>
+        <l n="3" real="xxx+--xx" met="-+-+-+-+">Had I an infinite great store</l>
+        <l n="4" real="+--xxxxxx" met="-+-+-+-+-">Offered me and I stood before</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">To choose. I would give you youth,</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">All kinds of loveliness and truth,</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">A clear eye as good as mine,</l>
+        <l n="8" real="x+-+-x" met="--+-+-">Lands, waters, flowers, wine,</l>
+        <l n="9" real="x+-+-xxx" met="-+-+-+-+">As many children as your heart</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">Might wish for, a far better art</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Than mine can be, all you have lost</l>
+        <l n="12" real="xxx+--+-x-" met="--+-+-+-+-">Upon the travelling waters tossed,</l>
+        <l n="13" real="x+-xxxxxx" met="-+-+-+-+-">Or given to me. If I could choose</l>
+        <l n="14" real="+-xxx+-x" met="-+-+-+-+">Freely in that great treasure-house</l>
+        <l n="15" real="+-xx+-x" met="+-+-+-+">Anything from any shelf,</l>
+        <l n="16" real="xxxxx-+" met="+-+-+-+">I would give you back yourself,</l>
+        <l n="17" real="x+-x-+-x" met="-+-+-+-+">And power to discriminate</l>
+        <l n="18" real="xxxxxxxxx" met="-+-+-+-+-">What you want and want it not too late,</l>
+        <l n="19" real="+-xxxxx" met="+-+-+-+">Many fair days free from care</l>
+        <l n="20" real="xxx-+xxxx" met="-+-+-+-+-">And heart to enjoy both foul and fair,</l>
+        <l n="21" real="xx+xxxxx" met="-+-+-+-+">And myself, too, if I could find</l>
+        <l n="22" real="xxx+-xxx-x" met="--+-+-+-+-">Where it lay hidden and it proved kind.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="when-first" n="L08151">
+      <head>When First</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:when-first</idno><idno type="laurel-id">L08151</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">WHEN first I came here I had hope,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Hope for I knew not what. Fast beat</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">My heart at sight of the tall slope</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Or grass and yews, as if my feet</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="+-x+-xxxx" met="-+-+-+-+-">Only by scaling its steps of chalk</l>
+        <l n="6" real="xx+-x+-x" met="-+-+-+-+">Would see something no other hill</l>
+        <l n="7" real="+--+-xxxx" met="-+-+-+-+-">Ever disclosed. And now I walk</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">Down it the last time. Never will</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxx-+xx" met="-+-+-+-+">My heart beat so again at sight</l>
+        <l n="10" real="x+-xxxxx" met="-+-+-+-+">Of any hill although as fair</l>
+        <l n="11" real="x+--x+--" met="-+-+-+-+">And loftier. For infinite</l>
+        <l n="12" real="xxxxxx-xx" met="-+-+-+-+-">The change, late unperceived, this year,</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx+--xxx" met="-+-+-+-+">The twelfth, suddenly, shows me plain.</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Hope now,--not health, nor cheerfulness,</l>
+        <l n="15" real="xxxxxx-+" met="-+-+-+-+">Since they can come and go again,</l>
+        <l n="16" real="x+-xx+-+--" met="--+-+-+-+-">As often one brief hour witnesses,--</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxx+--+" met="-+-+-+-+-">Just hope has gone for ever. Perhaps</l>
+        <l n="18" real="xxx+-xxx" met="-+-+-+-+">I may love other hills yet more</l>
+        <l n="19" real="xxx+-xxx" met="-+-+-+-+">Than this: the future and the maps</l>
+        <l n="20" real="x+-xx+-x" met="-+-+-+-+">Hide something I was waiting for.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">One thing I know, that love with chance</l>
+        <l n="22" real="xxxxx-+--" met="-+-+-+-+-">And use and time and necessity</l>
+        <l n="23" real="xxx+-xxx" met="-+-+-+-+">Will grow, and louder the heart&#x27;s dance</l>
+        <l n="24" real="x+-xx+-x" met="-+-+-+-+">At parting than at meeting be.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="head-and-bottle" n="L08152">
+      <head>Head and Bottle</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:head-and-bottle</idno><idno type="laurel-id">L08152</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="--aabbcc--">
+        <l n="1" real="xxxxxxxxxx" met="--+-+-+-+-">THE downs will lose the sun, white alyssum</l>
+        <l n="2" real="xxxx" met="-+-+">Lose the bees&#x27; hum;</l>
+        <l n="3" real="xxx+-+-xxxx" met="-+-+-+-+-+-">But head and bottle tilted back in the cart</l>
+        <l n="4" real="x+-x" met="-+-+">Will never part</l>
+        <l n="5" real="xxxxx+xxxx+" met="-+-+-+-+-+-">Till I am cold as midnight and all my hours</l>
+        <l n="6" real="xxx+-" met="-+-+-">Are beeless flowers.</l>
+        <l n="7" real="x+-xxxxxxx" met="--+-+-+-+-">He neither sees, nor hears, nor smells, nor thinks,</l>
+        <l n="8" real="x+-x" met="-+-+">But only drinks,</l>
+        <l n="9" real="+xxxxxxxxx" met="--+-+-+-+-">Quiet in the yard where tree trunks do not lie</l>
+        <l n="10" real="x+--" met="-+-+">More quietly.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="after-you-speak" n="L08153">
+      <head>After You Speak</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:after-you-speak</idno><idno type="laurel-id">L08153</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="---a--ab-bcddceffghchigeci">
+        <l n="1" real="xxxx" met="-+-+">AFTER you speak</l>
+        <l n="2" real="xxxx" met="-+-+">And what you meant</l>
+        <l n="3" real="xx" met="-+">Is plain,</l>
+        <l n="4" real="xx" met="-+">My eyes</l>
+        <l n="5" real="xxxx" met="-+-+">Meet yours that mean--</l>
+        <l n="6" real="xxxxx" met="-+-+-">With your cheeks and hair--</l>
+        <l n="7" real="+-xx" met="-+-+">Something more wise,</l>
+        <l n="8" real="xx" met="-+">More dark,</l>
+        <l n="9" real="xx+--" met="-+-+-">And far different.</l>
+        <l n="10" real="+-xxx" met="-+-+-">Even so the lark</l>
+        <l n="11" real="xx" met="-+">Loves dust</l>
+        <l n="12" real="x+-xx" met="-+-+-">And nestles in it</l>
+        <l n="13" real="x+-" met="+-+">The minute</l>
+        <l n="14" real="xxxx" met="-+-+">Before he must</l>
+        <l n="15" real="xxxx" met="-+-+">Soar in lone flight</l>
+        <l n="16" real="xx" met="-+">So far,</l>
+        <l n="17" real="xxxx" met="-+-+">Like a black star</l>
+        <l n="18" real="xx" met="-+">He seems--</l>
+        <l n="19" real="xx" met="-+">A mote</l>
+        <l n="20" real="x+-x" met="-+-+">Of singing dust</l>
+        <l n="21" real="-+" met="-+">Afloat</l>
+        <l n="22" real="xx" met="-+">Above,</l>
+        <l n="23" real="xx" met="-+">That dreams</l>
+        <l n="24" real="xxxx" met="-+-+">And sheds no light.</l>
+        <l n="25" real="xxxx" met="-+-+">I know your lust</l>
+        <l n="26" real="xx" met="-+">Is love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sowing" n="L08154">
+      <head>Sowing</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:sowing</idno><idno type="laurel-id">L08154</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx-+x" met="--+-+-">IT was a perfect day</l>
+        <l n="2" real="x+-x" met="-+-+">For sowing; just</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">As sweet and dry was the ground</l>
+        <l n="4" real="x-+xx" met="-+-+-">As tobacco-dust.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xx+-" met="-+-+-+-">I tasted deep the hour</l>
+        <l n="6" real="xxxx" met="-+-+">Between the far</l>
+        <l n="7" real="x+-xxx" met="--+-+-">Owl&#x27;s chuckling first soft cry</l>
+        <l n="8" real="xxxx" met="-+-+">And the first star.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxx+-xx" met="-+-+-+-">A long stretched hour it was;</l>
+        <l n="10" real="+--+" met="-+-+">Nothing undone</l>
+        <l n="11" real="-+x+-x" met="--+-+-">Remained; the early seeds</l>
+        <l n="12" real="x+-x" met="-+-+">All safely sown.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxx" met="--+-+-">And now, hark at the rain,</l>
+        <l n="14" real="xxxx" met="-+-+">Windless and light,</l>
+        <l n="15" real="xxxxxx" met="--+-+-">Half a kiss, half a tear,</l>
+        <l n="16" real="+-xx" met="-+-+">Saying good-night.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="when-we-two-walked" n="L08155">
+      <head>When We Two Walked</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:when-we-two-walked</idno><idno type="laurel-id">L08155</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx" met="-+-+-+">WHEN we two walked in Lent</l>
+        <l n="2" real="x-+--x+--" met="-+-+-+-+-">We imagined that happiness</l>
+        <l n="3" real="x+-+--" met="-+-+-+">Was something different</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">And this was something less.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xxxx" met="-+-+-+-">But happy were we to hide</l>
+        <l n="6" real="+-+--xxxx" met="-+-+-+-+-">Our happiness, not as they were</l>
+        <l n="7" real="x+-xxx" met="-+-+-+">Who acted in their pride</l>
+        <l n="8" real="+-x+--" met="-+-+-+">Juno and Jupiter:</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxx+--" met="--+-+-+-">For the Gods in their jealousy</l>
+        <l n="10" real="+-xxxx" met="-+-+-+">Murdered that wife and man,</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">And we that were wise live free</l>
+        <l n="12" real="x+x+-+--x" met="-+-+-+-+-">To recall our happiness then.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+xxx+xxxx" met="--+-+-+-+-">THE flowers left thick at nightfall in the wood</l>
+        <l n="14" real="xxxxxxxxxx" met="--+-+-+-+-">This Eastertide call into mind the men,</l>
+        <l n="15" real="xxxxxxx+xx" met="--+-+-+-+-">Now far from home, who, with their sweethearts, should</l>
+        <l n="16" real="x+-xxxx+-+" met="--+-+-+-+-">Have gathered them and will do never again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fifty-faggots" n="L08156">
+      <head>Fifty Faggots</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:fifty-faggots</idno><idno type="laurel-id">L08156</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx+-xx" met="-+-+-+-+-+-">THERE they stand, on their ends, the fifty faggots</l>
+        <l n="2" real="xxx+-xx+-xx" met="-+-+-+-+-+-">That once were underwood of hazel and ash</l>
+        <l n="3" real="x+-xxxxxx" met="+-+-+-+-+">In Jenny Pinks&#x27;s Copse. Now, by the hedge</l>
+        <l n="4" real="xxxxx+-+--+" met="-+-+-+-+-+-">Close packed, they make a thicket fancy alone</l>
+        <l n="5" real="xxxxxxxxx" met="+-+-+-+-+">Can creep through with the mouse and wren. Next</l>
+        <l n="6" real="x" met="+">Spring</l>
+        <l n="7" real="x+-xx+-xxx" met="-+-+-+-+-+">A blackbird or a robin will nest there,</l>
+        <l n="8" real="-+-xx+-xx-+" met="-+-+-+-+-+-">Accustomed to them, thinking they will remain</l>
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">Whatever is for ever to a bird:</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">This Spring it is too late; the swift has come.</l>
+        <l n="11" real="xxxxx+--xx" met="-+-+-+-+-+">&#x27;Twas a hot day for carrying them up:</l>
+        <l n="12" real="+-xx+xxxxx" met="-+-+-+-+-+">Better they will never warm me, though they must</l>
+        <l n="13" real="x+-+-+xxxxx" met="-+-+-+-+-+-">Light several Winters&#x27; fires. Before they are done</l>
+        <l n="14" real="xxxx+-++-x" met="-+-+-+-+-+">The war will have ended, many other things</l>
+        <l n="15" real="x+-+-xxxxx" met="-+-+-+-+-+">Have ended, maybe, that I can no more</l>
+        <l n="16" real="-+xx-+x+-xx" met="-+-+-+-+-+-">Foresee or more control than robin and wren.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="women-he-liked" n="L08157">
+      <head>Women He Liked</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:women-he-liked</idno><idno type="laurel-id">L08157</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="+-xxx+-+-x" met="-+-+-+-+-+">WOMEN he liked, did shovel-bearded Bob,</l>
+        <l n="2" real="x+-+-xxxxx" met="-+-+-+-+-+">Old Farmer Hayward of the Heath, but he</l>
+        <l n="3" real="x+-x-+xxxx" met="-+-+-+-+-+">Loved horses. He himself was like a cob,</l>
+        <l n="4" real="x+-+-+-xxxx" met="-+-+-+-+-+-">And leather-coloured. Also he loved a tree.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx+-x" met="-+-+-+-+-+-">For the life in them he loved most living things,</l>
+        <l n="6" real="xxx+-x-+xx" met="-+-+-+-+-+">But a tree chiefly. All along the lane</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">He planted elms where now the stormcock sings</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">That travellers hear from the slow-climbing train.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Till then the track had never had a name</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">For all its thicket and the nightingales</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">That should have earned it. No one was to blame.</l>
+        <l n="12" real="xxxx-+x+xx" met="-+-+-+-+-+">To name a thing beloved man sometimes fails.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="+-xxx+-xxx" met="-+-+-+-+-+">Many years since, Bob Hayward died, and now</l>
+        <l n="14" real="x+-xxxxxxxx" met="-+-+-+-+-+-">None passes there because the mist and the rain</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Out of the elms have turned the lane to slough</l>
+        <l n="16" real="xxxx-+-+xx" met="-+-+-+-+-+">And gloom, the name alone survives, Bob&#x27;s Lane.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="early-one-morning" n="L08158">
+      <head>Early One Morning</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:early-one-morning</idno><idno type="laurel-id">L08158</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="+-x+-xxxxx" met="-+-+-+-+-+">EARLY one morning in May I set out,</l>
+        <l n="2" real="x+xxxxxxx" met="+-+-+-+-+">And nobody I knew was about.</l>
+        <l n="3" real="xx-+x+-" met="-+-+-+-">I&#x27;m bound away for ever,</l>
+        <l n="4" real="-++x-+x+-" met="+-+-+-+-+">Away somewhere, away for ever.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa">
+        <l n="5" real="xxxxx+-xxxx" met="-+-+-+-+-+-">There was no wind to trouble the weathercocks.</l>
+        <l n="6" real="xxxx+-xxxx" met="-+-+-+-+-+">I had burnt my letters and darned my socks.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa">
+        <l n="7" real="xxxxx+--+" met="+-+-+-+-+">No one knew I was going away,</l>
+        <l n="8" real="xxx+xxxxxx" met="-+-+-+-+-+">I thought myself I should come back some day.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">I heard the brook through the town gardens run.</l>
+        <l n="10" real="xxxxxxxxxxx" met="-+-+-+-+-+-">O sweet was the mud turned to dust by the sun.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa">
+        <l n="11" real="xxxxxxxxxxx" met="-+-+-+-+-+-">A gate banged in a fence and banged in my head.</l>
+        <l n="12" real="xx+-xx+-x" met="+-+-+-+-+">&quot;A fine morning, sir.&quot; a shepherd said.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="13" real="xxx-+xx+--" met="-+-+-+-+-+">I could not return from my liberty,</l>
+        <l n="14" real="xxxxxxxx+--" met="-+-+-+-+-+-">To my youth and my love and my misery.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabb">
+        <l n="15" real="xxxx+-xxxxx" met="-+-+-+-+-+-">The past is the only dead thing that smells sweet,</l>
+        <l n="16" real="x+-xxxxx+-x" met="-+-+-+-+-+-">The only sweet thing that is not also fleet.</l>
+        <l n="17" real="xx-+x+-" met="-+-+-+-">I&#x27;m bound away for ever,</l>
+        <l n="18" real="-++x-+x+-" met="+-+-+-+-+">Away somewhere, away for ever.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-cherry-trees" n="L08159">
+      <head>The Cherry Trees</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-cherry-trees</idno><idno type="laurel-id">L08159</idno>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxxxx+-">THE cherry trees bend over and are shedding</l>
+        <l n="2" real="xxxxxxxxxx">On the old road where all that passed are dead,</l>
+        <l n="3" real="x+-xxxxxxx+-">Their petals, strewing the grass as for a wedding</l>
+        <l n="4" real="x+-xxxxxxxx">This early May morn when there is none to wed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="it-rains" n="L08160">
+      <head>It Rains</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:it-rains</idno><idno type="laurel-id">L08160</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aa-bb">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">IT rains, and nothing stirs within the fence</l>
+        <l n="2" real="+-xxx+-xxxx" met="-+-+-+-+-+-">Anywhere through the orchard&#x27;s untrodden, dense</l>
+        <l n="3" real="+-x+-xx+-" met="+-+-+-+-+">Forest of parsley. The great diamonds</l>
+        <l n="4" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Of rain on the grassblades there is none to break,</l>
+        <l n="5" real="xx+-+-+-xxx" met="-+-+-+-+-+-">Or the fallen petals further down to shake.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-bb">
+        <l n="6" real="xxx+-x+-x+-" met="-+-+-+-+-+-">And I am nearly as happy as possible</l>
+        <l n="7" real="xxx+--xxxx" met="-+-+-+-+-+">To search the wilderness in vain though well,</l>
+        <l n="8" real="xxxx+-+-x" met="+-+-+-+-+">To think of two walking, kissing there,</l>
+        <l n="9" real="xx-+-x+-xxx" met="-+-+-+-+-+-">Drenched, yet forgetting the kisses of the rain:</l>
+        <l n="10" real="xxxxx++--+" met="-+-+-+-+-+">Sad, too, to think that never, never again,</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-bb">
+        <l n="11" real="xx-+x+-xxx" met="-+-+-+-+-+">Unless alone, so happy shall I walk</l>
+        <l n="12" real="xxxxxx-+xxxx" met="--+-+-+-+-+-">In the rain. When I turn away, on its fine stalk</l>
+        <l n="13" real="+xxxxxx+-+-" met="-+-+-+-+-+-">Twilight has fined to naught, the parsley flower</l>
+        <l n="14" real="+--+-xx+-x" met="-+-+-+-+-+">Figures, suspended still and ghostly white,</l>
+        <l n="15" real="xx+-xx-+-xx" met="-+-+-+-+-+-">The past hovering as it revisits the light.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-huxter" n="L08161">
+      <head>The Huxter</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-huxter</idno><idno type="laurel-id">L08161</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabb-">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">HE has a hump like an ape on his back;</l>
+        <l n="2" real="xxx+-x+--x" met="-+-+-+-+-+">He has of money a plentiful lack;</l>
+        <l n="3" real="xxxxxxx+-xx" met="-+-+-+-+-+-">And but for a gay coat of double his girth</l>
+        <l n="4" real="xxxx+-xxxx" met="-+-+-+-+-+">There is not a plainer thing on the earth</l>
+        <l n="5" real="xxx+-" met="-+-+-">This fine May morning.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb-">
+        <l n="6" real="xxxxxx+-xx" met="-+-+-+-+-+">But the huxter has a bottle of beer;</l>
+        <l n="7" real="xxxxxxxxx" met="+-+-+-+-+">He drives a cart and his wife sits near</l>
+        <l n="8" real="xxxxxxxxx" met="+-+-+-+-+">Who does not heed his lack or his hump;</l>
+        <l n="9" real="xxxxxxxxx" met="+-+-+-+-+">And they laugh as down the lane they bump</l>
+        <l n="10" real="xxx+-" met="-+-+-">This fine May morning.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-gentleman" n="L08162">
+      <head>A Gentleman</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:a-gentleman</idno><idno type="laurel-id">L08162</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--aabb-b---b-ccddee">
+        <l n="1" real="xxxxxxxx+--" met="-+-+-+-+-+-">&quot;HE has robbed two clubs. The judge at Salisbury</l>
+        <l n="2" real="xxxxxx-+--" met="-+-+-+-+-+">Can&#x27;t give him more than he undoubtedly</l>
+        <l n="3" real="-+x+-xxx+-x" met="-+-+-+-+-+-">Deserves. The scoundrel! Look at his photograph!</l>
+        <l n="4" real="x+-+-+-xxxx" met="-+-+-+-+-+-">A lady-killer! Hanging&#x27;s too good by half</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">For such as he.&quot; So said the stranger, one</l>
+        <l n="6" real="xxxx-+-x-+" met="-+-+-+-+-+">With crimes yet undiscovered or undone.</l>
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">But at the inn the Gipsy dame began:</l>
+        <l n="8" real="xxxxxxx+--" met="-+-+-+-+-+">&quot;Now he was what I call a gentleman.</l>
+        <l n="9" real="xx-+x+-xxx" met="-+-+-+-+-+">He went along with Carrie, and when she</l>
+        <l n="10" real="xx+-xxxx+--" met="-+-+-+-+-+-">Had a baby he paid up so readily</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">His half a crown. Just like him. A crown&#x27;d have</l>
+        <l n="12" real="x" met="+">been</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">More like him. For I never knew him mean.</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">Oh! but he was such a nice gentleman. Oh!</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Last time we met he said if me and Joe</l>
+        <l n="16" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Was anywhere near we must be sure and call.</l>
+        <l n="17" real="xxxxxx++-x" met="-+-+-+-+-+">He put his arms around our Amos all</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">As if he were his own son. I pray God</l>
+        <l n="19" real="xxx+-+x+-x" met="-+-+-+-+-+">Save him from justice! Nicer man never trod.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-bridge" n="L08163">
+      <head>The Bridge</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-bridge</idno><idno type="laurel-id">L08163</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-aa">
+        <l n="1" real="xxxxxxxx" met="--+-+-+-">I HAVE come a long way to-day:</l>
+        <l n="2" real="xxxx-+" met="-+-+-+">On a strange bridge alone,</l>
+        <l n="3" real="-+--xxx" met="-+-+-+-">Remembering friends, old friends,</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">I rest, without smile or moan,</l>
+        <l n="5" real="xx-+-xxxxxx" met="-+-+-+-+-+-">As they remember me without smile or moan.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="---a-a">
+        <l n="6" real="xxxxxx" met="-+-+-+">All are behind, the kind</l>
+        <l n="7" real="xx-+xxx" met="-+-+-+-">And the unkind too, no more</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">To-night than a dream. The stream</l>
+        <l n="9" real="x+-xxxx" met="-+-+-+-">Runs softly yet drowns the Past,</l>
+        <l n="10" real="xxxxxxx+-xx" met="-+-+-+-+-+-">The dark-lit stream has drowned the Future and the</l>
+        <l n="11" real="x" met="+">Past.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="---a-a">
+        <l n="12" real="x+--xxxx" met="--+-+-+-">No traveller has rest more blest</l>
+        <l n="13" real="xx+-xxx" met="-+-+-+-">Than this moment brief between</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">Two lives, when the Night&#x27;s first lights</l>
+        <l n="15" real="xxxxx+-x" met="--+-+-+-">And shades hide what has never been,</l>
+        <l n="16" real="xxxxxx+-xxxxx" met="-+-+-+-+-+-+-">Things goodlier, lovelier, dearer, than will be or have</l>
+        <l n="17" real="x" met="+">been.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lob" n="L08164">
+      <head>Lob</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:lob</idno><idno type="laurel-id">L08164</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeff">
+        <l n="1" real="x+xxx+x+--" met="-+-+-+-+-+">AT hawthorn-time in Wiltshire travelling</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">In search of something chance would never bring,</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">An old man&#x27;s face, by life and weather cut</l>
+        <l n="4" real="x+-xxxx+-x" met="-+-+-+-+-+">And coloured,--rough, brown, sweet as any nut,--</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">A land face, sea-blue-eyed,--hung in my mind</l>
+        <l n="6" real="xxxxx+xxxx" met="-+-+-+-+-+">When I had left him many a mile behind.</l>
+        <l n="7" real="xxxx+xxxxxx" met="-+-+-+-+-+-">All he said was: &quot;Nobody can&#x27;t stop &#x27;ee. It&#x27;s</l>
+        <l n="8" real="x+xx-+xxxx" met="-+-+-+-+-+">A footpath, right enough. You see those bits</l>
+        <l n="9" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Of mounds--that&#x27;s where they opened up the barrows</l>
+        <l n="10" real="+-xxxxx+-+-" met="-+-+-+-+-+-">Sixty years since, while I was scaring sparrows.</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">They thought as there was something to find there,</l>
+        <l n="12" real="x+-xxx+-+-x" met="-+-+-+-+-+-">But couldn&#x27;t find it, by digging, anywhere.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-abbbcccddeeffgghh">
+        <l n="13" real="xxxxxxxxxxx" met="-+-+-+-+-+-">To turn back then and seek him, where was the use?</l>
+        <l n="14" real="xxxxxxxxxxx" met="-+-+-+-+-+-">There were three Manningfords,--Abbots, Bohun, and</l>
+        <l n="15" real="x" met="+">Bruce:</l>
+        <l n="16" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And whether Alton, not Manningford, it was,</l>
+        <l n="17" real="x+--xx-+xx" met="-+-+-+-+-+">My memory could not decide, because</l>
+        <l n="18" real="xxx+-xx+-+-" met="-+-+-+-+-+-">There was both Alton Barnes and Alton Priors.</l>
+        <l n="19" real="xxx+-+xxxx" met="-+-+-+-+-+">All had their churches, graveyards, farms, and byres,</l>
+        <l n="20" real="+-xxxxxxxx" met="-+-+-+-+-+">Lurking to one side up the paths and lanes,</l>
+        <l n="21" real="+-xxxxxxxx" met="-+-+-+-+-+">Seldom well seen except by aeroplanes;</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">And when bells rang, or pigs squealed, or cocks crowed,</l>
+        <l n="23" real="x+-x+--+xx" met="-+-+-+-+-+">Then only heard. Ages ago the road</l>
+        <l n="24" real="-+x+-xxxxx" met="-+-+-+-+-+">Approached. The people stood and looked and turned,</l>
+        <l n="25" real="xxxxx+-xxx" met="-+-+-+-+-+">Nor asked it to come nearer, nor yet learned</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">To move out there and dwell in all men&#x27;s dust.</l>
+        <l n="27" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And yet withal they shot the weathercock, just</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Because &#x27;twas he crowed out of tune, they said:</l>
+        <l n="29" real="xxx+-xxxxx" met="-+-+-+-+-+">So now the copper weathercock is dead.</l>
+        <l n="30" real="xxxxx+-x-xx" met="-+-+-+-+-+-">If they had reaped their dandelions and sold</l>
+        <l n="31" real="x+-xxx-+-x" met="-+-+-+-+-+">Them fairly, they could have afforded gold.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddee--">
+        <l n="32" real="+-xxxxxx-+" met="-+-+-+-+-+">Many years passed, and I went back again</l>
+        <l n="33" real="xxx+--xxxx" met="-+-+-+-+-+">Among those villages, and looked for men</l>
+        <l n="34" real="xxxxx+-x-+" met="-+-+-+-+-+">Who might have known my ancient. He himself</l>
+        <l n="35" real="xxxxxxxxxx" met="-+-+-+-+-+">Had long been dead or laid upon the shelf,</l>
+        <l n="36" real="xxxxxxxxxx" met="-+-+-+-+-+">I thought. One man I asked about him roared</l>
+        <l n="37" real="xx-+-xxxxx" met="-+-+-+-+-+">At my description: &quot;&#x27;Tis old Bottlesford</l>
+        <l n="38" real="xxxx-+-xxx" met="-+-+-+-+-+">He means, Bill.&quot; But another said: &quot;Of course,</l>
+        <l n="39" real="xxx+-xxxxx" met="-+-+-+-+-+">It was Jack Button up at the White Horse.</l>
+        <l n="40" real="xxxxxxx+-x" met="-+-+-+-+-+">He&#x27;s dead, sir, these three years.&quot; This lasted till</l>
+        <l n="41" real="xx-++-x+-x" met="-+-+-+-+-+">A girl proposed Walker of Walker&#x27;s Hill,</l>
+        <l n="42" real="x+-+-+-xxx" met="-+-+-+-+-+">&quot;Old Adam Walker. Adam&#x27;s Point you&#x27;ll see</l>
+        <l n="43" real="xxxx" met="--+-">Marked on the maps.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-aabbccddee----ff--gghhiijj--kkllmmnn">
+        <l n="44" real="xxxxxx" met="--+-+-">&quot;That was her roguery,&quot;</l>
+        <l n="45" real="xxxxxxx+-x" met="-+-+-+-+-+">The next man said. He was a squire&#x27;s son</l>
+        <l n="46" real="xxxxxxxxxx" met="-+-+-+-+-+">Who loved wild bird and beast, and dog and gun</l>
+        <l n="47" real="x+-xxxxxxxx" met="-+-+-+-+-+-">For killing them. He had loved them from his birth,</l>
+        <l n="48" real="xx-+-xxxxx" met="-+-+-+-+-+">One with another, as he loved the earth.</l>
+        <l n="49" real="xxxxx+-x+-x" met="-+-+-+-+-+-">&quot;The man may be like Button, or Walker, or</l>
+        <l n="50" real="xxxxxxxxxx" met="-+-+-+-+-+">Like Bottlesford, that you want, but far more</l>
+        <l n="51" real="xxxxxxxxxxx" met="-+-+-+-+-+-">He sounds like one I saw when I was a child.</l>
+        <l n="52" real="xx+xxxxxxxx" met="-+-+-+-+-+-">I could almost swear to him. The man was wild</l>
+        <l n="53" real="x+-xxxxxxx" met="-+-+-+-+-+">And wandered. His home was where he was free.</l>
+        <l n="54" real="+-x-xxxxxxx" met="-+-+-+-+-+-">Everybody has met one such man as he.</l>
+        <l n="55" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Does he keep clear old paths that no one uses</l>
+        <l n="56" real="xxxxxxxxx+-" met="-+-+-+-+-+-">But once a life-time when he loves or muses?</l>
+        <l n="57" real="xx+-xxxx+xx" met="-+-+-+-+-+-">He is English as this gate, these flowers, this mire.</l>
+        <l n="58" real="xxxxxxxxxx+" met="-+-+-+-+-+-">And when at eight years old Lob-lie-by-the-fire</l>
+        <l n="59" real="xxxxxxxxxx" met="-+-+-+-+-+">Came in my books, this was the man I saw.</l>
+        <l n="60" real="xxxx+-xxxxxx" met="--+-+-+-+-+-">He has been in England as long as dove and daw,</l>
+        <l n="61" real="+-xx+-xx+-x" met="-+-+-+-+-+-">Calling the wild cherry tree the merry tree,</l>
+        <l n="62" real="xx+-+-xx+--" met="-+-+-+-+-+-">The rose campion Bridget-in-her-bravery;</l>
+        <l n="63" real="xxx+-xxxxx" met="-+-+-+-+-+">And in a tender mood he, as I guess,</l>
+        <l n="64" real="+-x+-xx+--" met="-+-+-+-+-+">Christened one flower Love-in-idleness,</l>
+        <l n="65" real="xxxxx+--xx" met="-+-+-+-+-+">And while he walked from Exeter to Leeds</l>
+        <l n="66" real="x+-xx+x+xx" met="-+-+-+-+-+">One April called all cuckoo-flowers Milkmaids.</l>
+        <l n="67" real="xxx+--+xxxx" met="-+-+-+-+-+-">From him old herbal Gerard learnt, as a boy,</l>
+        <l n="68" real="xxx+-x+--x" met="-+-+-+-+-+">To name wild clematis the Traveller&#x27;s-joy.</l>
+        <l n="69" real="++-xx+-xxx" met="-+-+-+-+-+">Our blackbirds sang no English till his ear</l>
+        <l n="70" real="xxxxxxx+-x" met="-+-+-+-+-+">Told him they called his Jan Toy &#x27;Pretty dear.&#x27;</l>
+        <l n="71" real="xxxxx+-x+-x" met="-+-+-+-+-+-">(She was Jan Toy the Lucky, who, having lost</l>
+        <l n="72" real="x+-xxx+-x-+" met="-+-+-+-+-+-">A shilling, and found a penny loaf, rejoiced.)</l>
+        <l n="73" real="x+-xxxxxxx" met="-+-+-+-+-+">For reasons of his own to him the wren</l>
+        <l n="74" real="x+-xxxxx+-x" met="-+-+-+-+-+-">Is Jenny Pooter. Before all other men</l>
+        <l n="75" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Twas he first called the Hog&#x27;s Back the Hog&#x27;s Back.</l>
+        <l n="76" real="x+-x+-xxx" met="+-+-+-+-+">That Mother Dunch&#x27;s Buttocks should not lack</l>
+        <l n="77" real="xxxxxxxx-+" met="-+-+-+-+-+">Their name was his care. He too could explain</l>
+        <l n="78" real="xxxxxxxx+-x" met="-+-+-+-+-+-">Totteridge and Totterdown and Juggler&#x27;s Lane:</l>
+        <l n="79" real="xxx+-xx+-x" met="-+-+-+-+-+">He knows, if anyone. Why Tumbling Bay,</l>
+        <l n="80" real="+xxxxxxxxx" met="-+-+-+-+-+">Inland in Kent, is called so, he might say.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyy-">
+        <l n="81" real="x+-xx-+xxxx" met="-+-+-+-+-+-">&quot;But little he says compared with what he does.</l>
+        <l n="82" real="x+xx+-xxxx" met="-+-+-+-+-+">If ever a sage troubles him he will buzz</l>
+        <l n="83" real="xx+xx-+x+-x" met="-+-+-+-+-+-">Like a beehive to conclude the tedious fray:</l>
+        <l n="84" real="xxxxxx+-x-+" met="-+-+-+-+-+-">And the sage, who knows all languages, runs away.</l>
+        <l n="85" real="xxx+++-xxxx" met="-+-+-+-+-+-">Yet Lob has thirteen hundred names for a fool,</l>
+        <l n="86" real="xxx+-xxxxx" met="-+-+-+-+-+">And though he never could spare time for school</l>
+        <l n="87" real="xxxxxxxx-+" met="-+-+-+-+-+">To unteach what the fox so well expressed,</l>
+        <l n="88" real="x+-xxxx+-xx" met="-+-+-+-+-+-">On biting the cock&#x27;s head off,--Quietness is best,--</l>
+        <l n="89" real="xxxxxxx+-x" met="-+-+-+-+-+">He can talk quite as well as anyone</l>
+        <l n="90" real="xxx+-x-+xx" met="-+-+-+-+-+">After his thinking is forgot and done.</l>
+        <l n="91" real="xxxxx+x+-x" met="-+-+-+-+-+">He first of all told someone else&#x27;s wife,</l>
+        <l n="92" real="xx+-xxxxxxxx" met="--+-+-+-+-+-">For a farthing she&#x27;d skin a flint and spoil a knife</l>
+        <l n="93" real="xxxxxxxxxx" met="-+-+-+-+-+">Worth sixpence skinning it. She heard him speak:</l>
+        <l n="94" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;She had a face as long as a wet week&#x27;</l>
+        <l n="95" real="xx+-xxxxxx" met="-+-+-+-+-+">Said he, telling the tale in after years.</l>
+        <l n="96" real="xxxxxxxxxx" met="-+-+-+-+-+">With blue smock and with gold rings in his ears,</l>
+        <l n="97" real="-+xxxxxxxx" met="-+-+-+-+-+">Sometimes he is a pedlar, not too poor</l>
+        <l n="98" real="xxxxxxxxxx" met="-+-+-+-+-+">To keep his wit. This is tall Tom that bore</l>
+        <l n="99" real="xxxxx+xxxx" met="-+-+-+-+-+">The logs in, and with Shakespeare in the hall</l>
+        <l n="100" real="xxx+--xxxx" met="-+-+-+-+-+">Once talked, when icicles hung by the wall.</l>
+        <l n="101" real="xxx+-xxxxx" met="-+-+-+-+-+">As Herne the Hunter he has known hard times.</l>
+        <l n="102" real="x+-xxxx+-x" met="-+-+-+-+-+">On sleepless nights he made up weather rhymes</l>
+        <l n="103" real="x+-xxx+xxx" met="-+-+-+-+-+">Which others spoilt. And, Hob being then his name,</l>
+        <l n="104" real="xxxxxxx+-x" met="-+-+-+-+-+">He kept the hog that thought the butcher came</l>
+        <l n="105" real="xxx+-xxxxx" met="-+-+-+-+-+">To bring his breakfast &#x27;You thought wrong,&#x27; said Hob.</l>
+        <l n="106" real="xxxxxxx+-x" met="-+-+-+-+-+">When there were kings in Kent this very Lob,</l>
+        <l n="107" real="xxxxxx-+x+-" met="-+-+-+-+-+-">Whose sheep grew fat and he himself grew merry,</l>
+        <l n="108" real="+-xx+-x+-x-" met="-+-+-+-+-+-">Wedded the king&#x27;s daughter of Canterbury;</l>
+        <l n="109" real="xx-+-+xxxx" met="-+-+-+-+-+">For he alone, unlike squire, lord, and king,</l>
+        <l n="110" real="xxxxxxx+--" met="-+-+-+-+-+">Watched a night by her without slumbering;</l>
+        <l n="111" real="xxx+-xxxxxx" met="-+-+-+-+-+-">He kept both waking. When he was but a lad</l>
+        <l n="112" real="xxxxx+-xxxx" met="-+-+-+-+-+-">He won a rich man&#x27;s heiress, deaf, dumb, and sad,</l>
+        <l n="113" real="x+-xxxxxx+-" met="-+-+-+-+-+-">By rousing her to laugh at him. He carried</l>
+        <l n="114" real="x+-xxxxxx+-" met="-+-+-+-+-+-">His donkey on his back. So they were married.</l>
+        <l n="115" real="xxxxx+-+-x" met="-+-+-+-+-+">And while he was a little cobbler&#x27;s boy</l>
+        <l n="116" real="xxx+-+-x-+" met="-+-+-+-+-+">He tricked the giant coming to destroy</l>
+        <l n="117" real="+x-xxxxxxxx" met="-+-+-+-+-+-">Shrewsbury by flood. &#x27;And how far is it yet?&#x27;</l>
+        <l n="118" real="x+-xx+-x-+" met="-+-+-+-+-+">The giant asked in passing. &#x27;I forget;</l>
+        <l n="119" real="xxxxxxxxxx" met="-+-+-+-+-+">But see these shoes I&#x27;ve worn out on the road</l>
+        <l n="120" real="xxxxxx+-xxx" met="-+-+-+-+-+-">And we&#x27;re not there yet.&#x27; He emptied out his load</l>
+        <l n="121" real="xxx+-x+-xxxxx" met="-+-+-+-+-+-+-">Of shoes for mending. The giant let fall from his spade</l>
+        <l n="122" real="xxx+-+-xxx" met="-+-+-+-+-+">The earth for damming Severn, and thus made</l>
+        <l n="123" real="xxxxx+-xxx" met="-+-+-+-+-+">The Wrekin hill; and little Ercall hill</l>
+        <l n="124" real="xxx+-xxxxx" met="-+-+-+-+-+">Rose where the giant scraped his boots. While still</l>
+        <l n="125" real="xx+xxxxxx+-" met="-+-+-+-+-+-">So young, our Jack was chief of Gotham&#x27;s sages.</l>
+        <l n="126" real="xxxxxxxxx+-" met="-+-+-+-+-+-">But long before he could have been wise, ages</l>
+        <l n="127" real="+-xxxxxxxx" met="-+-+-+-+-+">Earlier than this, while he grew thick and strong</l>
+        <l n="128" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And ate his bacon, or, at times, sang a song</l>
+        <l n="129" real="x+-xxxxx+-+-" met="--+-+-+-+-+-">And merely smelt it, as Jack the giant-killer</l>
+        <l n="130" real="xxxxxxxxx+-" met="-+-+-+-+-+-">He made a name. He too ground up the miller,</l>
+        <l n="131" real="xxxxxxxxxx+" met="-+-+-+-+-+-">The Yorkshireman who ground men&#x27;s bones for flour.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-aabbccddeeffgghhii--">
+        <l n="132" real="xx-+xxxxx+-" met="-+-+-+-+-+-">&quot;Do you believe Jack dead before his hour?</l>
+        <l n="133" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Or that his name is Walker, or Bottlesford,</l>
+        <l n="134" real="x+-xxxxxxx" met="-+-+-+-+-+">Or Button, a mere clown, or squire, or lord?</l>
+        <l n="135" real="xxxxxxxx+xx" met="-+-+-+-+-+-">The man you saw,--Lob-lie-by-the-fire, Jack Cade,</l>
+        <l n="136" real="xxxxxxx+-x" met="-+-+-+-+-+">Jack Smith, Jack Moon, poor Jack of every trade,</l>
+        <l n="137" real="xxxxxxxxxx" met="-+-+-+-+-+">Young Jack, or old Jack, or Jack What-d&#x27;ye-call,</l>
+        <l n="138" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Jack-in-the-hedge, or Robin-run-by-the-wall,</l>
+        <l n="139" real="+-x+-+-+-x" met="-+-+-+-+-+">Robin Hood, Ragged Robin, lazy Bob,</l>
+        <l n="140" real="xxxxxxxxxx" met="-+-+-+-+-+">One of the lords of No Man&#x27;s Land, good Lob,--</l>
+        <l n="141" real="xxxxx+-x+-x" met="-+-+-+-+-+-">Although he was seen dying at Waterloo,</l>
+        <l n="142" real="+-+-xxxxxx" met="-+-+-+-+-+">Hastings, Agincourt, and Sedgemoor too,--</l>
+        <l n="143" real="xxx+x-+xxx" met="-+-+-+-+-+">Lives yet. He never will admit he is dead</l>
+        <l n="144" real="x+-xxxxxxx" met="-+-+-+-+-+">Till millers cease to grind men&#x27;s bones for bread,</l>
+        <l n="145" real="xx+xxxxx-+" met="-+-+-+-+-+">Not till our weathercock crows once again</l>
+        <l n="146" real="xx-+xxxxxx" met="-+-+-+-+-+">And I remove my house out of the lane</l>
+        <l n="147" real="xxxxxxxx-+" met="-+-+-+-+-+">On to the road.&quot; With this he disappeared</l>
+        <l n="148" real="x+-xx+-xxxx" met="-+-+-+-+-+-">In hazel and thorn tangled with old-man&#x27;s-beard.</l>
+        <l n="149" real="xxxxxxxxxx" met="-+-+-+-+-+">But one glimpse of his back, as there he stood,</l>
+        <l n="150" real="+-xxxxxxxx" met="-+-+-+-+-+">Choosing his way, proved him of old Jack&#x27;s blood</l>
+        <l n="151" real="xx-+xxxxxxx" met="-+-+-+-+-+-">Young Jack perhaps, and now a Wiltshireman</l>
+        <l n="152" real="xxxxxxxx-+" met="-+-+-+-+-+">As he has oft been since his days began.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="bright-clouds" n="L08165">
+      <head>Bright Clouds</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:bright-clouds</idno><idno type="laurel-id">L08165</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abbacdecfdegghifih">
+        <l n="1" real="xxxx" met="-+-+">BRIGHT clouds of may</l>
+        <l n="2" real="xxxx" met="-+-+">Shade half the pond.</l>
+        <l n="3" real="xx" met="-+">Beyond,</l>
+        <l n="4" real="xxxx" met="-+-+">All but one bay</l>
+        <l n="5" real="x+-" met="+-+">Of emerald</l>
+        <l n="6" real="xx" met="-+">Tall reeds</l>
+        <l n="7" real="xxx+-x" met="--+-+-">Like criss-cross bayonets</l>
+        <l n="8" real="xxxxx" met="-+-+-">Where a bird once called,</l>
+        <l n="9" real="xxxxx" met="-+-+-">Lies bright as the sun.</l>
+        <l n="10" real="xxx" met="+-+">No one heeds.</l>
+        <l n="11" real="xxxx" met="-+-+">The light wind frets</l>
+        <l n="12" real="xxxx" met="-+-+">And drifts the scum</l>
+        <l n="13" real="xx+-" met="-+-+">Of may-blossom.</l>
+        <l n="14" real="xxxxx" met="-+-+-">Till the moorhen calls</l>
+        <l n="15" real="-+" met="-+">Again</l>
+        <l n="16" real="xxxx" met="-+-+">Naught&#x27;s to be done</l>
+        <l n="17" real="xxxx" met="-+-+">By birds or men.</l>
+        <l n="18" real="xxxx" met="-+-+">Still the may falls.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-clouds-that-are-so-light" n="L08166">
+      <head>The Clouds That Are So Light</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-clouds-that-are-so-light</idno><idno type="laurel-id">L08166</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxx" met="-+-+-+">THE clouds that are so light,</l>
+        <l n="2" real="+--xxx" met="-+-+-+">Beautiful, swift and bright,</l>
+        <l n="3" real="x+xxxxx" met="-+-+-+-">Cast shadows on field and park</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">Of the earth that is so dark,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="x+-xxxx" met="-+-+-+-">And even so now, light one!</l>
+        <l n="6" real="+--xxxx" met="-+-+-+-">Beautiful, swift and bright one!</l>
+        <l n="7" real="xxxxxxxxx" met="-+-+-+-+-">You let fall on a heart that was dark,</l>
+        <l n="8" real="xxxx-x+-x" met="-+-+-+-+-">Unillumined, a deeper mark.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">But clouds would have, without earth</l>
+        <l n="10" real="x+xxxx" met="-+-+-+">To shadow, far less worth:</l>
+        <l n="11" real="-+xx+xxx" met="--+-+-+-">Away from your shadow on me</l>
+        <l n="12" real="x+-xxx" met="-+-+-+">Your beauty less would be,</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxx+-" met="-+-+-+-">And if it still be treasured</l>
+        <l n="14" real="xxxxxx+--" met="-+-+-+-+-">An age hence, it shall be measured</l>
+        <l n="15" real="xxxxx" met="+-+-+">By this small dark spot</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Without which it were not.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="some-eyes-condemn" n="L08167">
+      <head>Some Eyes Condemn</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:some-eyes-condemn</idno><idno type="laurel-id">L08167</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-abcabca">
+        <l n="1" real="xx-+xxxxxx" met="-+-+-+-+-+">SOME eyes condemn the earth they gaze upon:</l>
+        <l n="2" real="xx+--xxxxx" met="-+-+-+-+-+">Some wait patiently till they know far more</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Than earth can tell them: some laugh at the whole</l>
+        <l n="4" real="x+-x-+-+-x" met="-+-+-+-+-+">As folly of another&#x27;s making: one</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">I knew that laughed because he saw, from core</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">To rind, not one thing worth the laugh his soul</l>
+        <l n="7" real="x+-x+-xxx-+" met="-+-+-+-+-+-">Had ready at waking: some eyes have begun</l>
+        <l n="8" real="x+-xx+-xxx" met="-+-+-+-+-+">With laughing; some stand startled at the door.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-bcabc">
+        <l n="9" real="+-xxxxx+-x" met="-+-+-+-+-+">Others, too, I have seen rest, question, roll,</l>
+        <l n="10" real="xxx+-xxx+-" met="-+-+-+-+-+">Dance, shoot. And many I have loved watching</l>
+        <l n="11" real="x" met="+">Some</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">I could not take my eyes from till they turned</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">And loving died. I had not found my goal.</l>
+        <l n="14" real="x+-xxxxx-+" met="-+-+-+-+-+">But thinking of your eyes, dear, I become</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Dumb: for they flamed, and it was me they burned.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="may-23" n="L08168">
+      <head>May 23</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:may-23</idno><idno type="laurel-id">L08168</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddee">
+        <l n="1" real="x+-xx+-x" met="-+-+-+-+">THERE never was a finer day,</l>
+        <l n="2" real="x+-xxxxxx" met="-+-+-+-+-">And never will be while May is May,--</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">The third, and not the last of its kind;</l>
+        <l n="4" real="xxxxxxxxx" met="-+-+-+-+-">But though fair and clear the two behind</l>
+        <l n="5" real="x--+xxxxxx" met="--+-+-+-+-">Seemed pursued by tempests overpast;</l>
+        <l n="6" real="xx+-xxxxxxx" met="-+-+-+-+-+-">And the morrow with fear that it could not last</l>
+        <l n="7" real="xx-xxxxxxx" met="--+-+-+-+-">Was spoiled. To-day ere the stones were warm</l>
+        <l n="8" real="x+-x+-x" met="+-+-+-+">Five minutes of thunderstorm</l>
+        <l n="9" real="x-xxxxxx-+" met="--+-+-+-+-">Dashed it with rain, as if to secure,</l>
+        <l n="10" real="xxxx+-xxx-+" met="-+-+-+-+-+-">By one tear, its beauty the luck to endure.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc-bdd--eeffgghhiijjkkll">
+        <l n="11" real="xxxx-+xx" met="-+-+-+-+">At mid-day then along the lane</l>
+        <l n="12" real="xxxx-+--+" met="-+-+-+-+-">Old Jack Noman appeared again,</l>
+        <l n="13" real="+-xx+--xx" met="-+-+-+-+-">Jaunty and old, crooked and tall,</l>
+        <l n="14" real="xxxxxxxxxx" met="--+-+-+-+-">And stopped and grinned at me over the wall,</l>
+        <l n="15" real="xx+-xxx+-x" met="--+-+-+-+-">With a cowslip bunch in his button-hole</l>
+        <l n="16" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And one in his cap. Who could say if his roll</l>
+        <l n="17" real="xxxxxxx+-xx" met="-+-+-+-+-+-">Came from flints in the road, the weather, or ale?</l>
+        <l n="18" real="xx+-xx+--" met="-+-+-+-+-">He was welcome as the nightingale.</l>
+        <l n="19" real="xx+xxxxx+-xx" met="--+-+-+-+-+-">Not an hour of the sun had been wasted on Jack</l>
+        <l n="20" real="xxx+---+-x" met="--+-+-+-+-">&quot;I&#x27;ve got my Indian complexion back&quot;</l>
+        <l n="21" real="xxxxxxx+--" met="--+-+-+-+-">Said he. He was tanned like a harvester,</l>
+        <l n="22" real="xxxxxxxxxx" met="--+-+-+-+-">Like his short clay pipe, like the leaf and bur</l>
+        <l n="23" real="xxxxxxxxx" met="-+-+-+-+-">That clung to his coat from last night&#x27;s bed,</l>
+        <l n="24" real="xxxx+--x" met="-+-+-+-+">Like the ploughland crumbling red.</l>
+        <l n="25" real="+-+-xxxxx" met="-+-+-+-+-">Fairer flowers were none on the earth</l>
+        <l n="26" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Than his cowslips wet with the dew of their birth,</l>
+        <l n="27" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Or fresher leaves than the cress in his basket.</l>
+        <l n="28" real="xxxxxxxxx" met="-+-+-+-+-">&quot;Where did they come from, Jack?&quot; &quot;Don&#x27;t ask it,</l>
+        <l n="29" real="xxxxxx+-x" met="-+-+-+-+-">And you&#x27;ll be told no lies.&quot; &quot;Very well:</l>
+        <l n="30" real="xxxxxxxxx" met="-+-+-+-+-">Then I can&#x27;t buy.&quot; &quot;I don&#x27;t want to sell.</l>
+        <l n="31" real="xxxx+-xx" met="-+-+-+-+">Take them and these flowers, too, free.</l>
+        <l n="32" real="-+xx+-xxx" met="-+-+-+-+-">Perhaps you have something to give me?</l>
+        <l n="33" real="xxxxx+-xx" met="-+-+-+-+-">Wait till next time. The better the day . . .</l>
+        <l n="34" real="xx+-xx+-xx" met="--+-+-+-+-">The Lord couldn&#x27;t make a better, I say;</l>
+        <l n="35" real="xxxx+-xx" met="-+-+-+-+">If he could, he never has done.&quot;</l>
+        <l n="36" real="xxxxxxxxx" met="-+-+-+-+-">So off went Jack with his roll-walk-run,</l>
+        <l n="37" real="+-x+-xxxx" met="-+-+-+-+-">Leaving his cresses from Oakshott rill</l>
+        <l n="38" real="xxxxxxxx" met="-+-+-+-+">And his cowslips from Wheatham hill.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbcc--">
+        <l n="39" real="xxxxxx+-x" met="-+-+-+-+-">&#x27;Twas the first day that the midges bit;</l>
+        <l n="40" real="xxxxxxxxxx" met="--+-+-+-+-">But though they bit me, I was glad of it:</l>
+        <l n="41" real="xxxxxxxxxx" met="--+-+-+-+-">Of the dust in my face, too, I was glad.</l>
+        <l n="42" real="xxx+-xxxx" met="-+-+-+-+-">Spring could do nothing to make me sad.</l>
+        <l n="43" real="+xxxxxxxx" met="-+-+-+-+-">Bluebells hid all the ruts in the copse.</l>
+        <l n="44" real="xxxxxxxxx" met="-+-+-+-+-">The elm seeds lay in the road like hops,</l>
+        <l n="45" real="xxxxx+-x" met="-+-+-+-+">That fine day, May the twenty-third,</l>
+        <l n="46" real="xxxxxx-+-" met="-+-+-+-+-">The day Jack Noman disappeared.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-glory" n="L08169">
+      <head>The Glory</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-glory</idno><idno type="laurel-id">L08169</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abccd-ea-bfdfeg-hgihjikkjibj">
+        <l n="1" real="x+-xx+-xx+-" met="-+-+-+-+-+-">THE glory of the beauty of the morning,--</l>
+        <l n="2" real="x+x+-xx-+x" met="-+-+-+-+-+">The cuckoo crying over the untouched dew;</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">The blackbird that has found it, and the dove</l>
+        <l n="4" real="xxxxx+-+-xx" met="-+-+-+-+-+-">That tempts me on to something sweeter than love;</l>
+        <l n="5" real="xxx+xxxxxx" met="-+-+-+-+-+">White clouds ranged even and fair as new-mown hay;</l>
+        <l n="6" real="xxxxx-++--" met="-+-+-+-+-+">The heat, the stir, the sublime vacancy</l>
+        <l n="7" real="xxx+xx+-xxxx" met="--+-+-+-+-+-">Of sky and meadow and forest and my own heart:--</l>
+        <l n="8" real="x+--+xxxxxxx" met="--+-+-+-+-+-">The glory invites me, yet it leaves me scorning</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">All I can ever do, all I can be,</l>
+        <l n="10" real="-+x+-x+-xxx" met="-+-+-+-+-+-">Beside the lovely of motion, shape, and hue,</l>
+        <l n="11" real="x+--x+-xxx" met="-+-+-+-+-+">The happiness I fancy fit to dwell</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">In beauty&#x27;s presence. Shall I now this day</l>
+        <l n="13" real="-+xxxxx+xx" met="-+-+-+-+-+">Begin to seek as far as heaven, as hell,</l>
+        <l n="14" real="+-xxxxx+-x" met="-+-+-+-+-+">Wisdom or strength to match this beauty, start</l>
+        <l n="15" real="xxxxx+-xxxx" met="-+-+-+-+-+-">And tread the pale dust pitted with small dark drops,</l>
+        <l n="16" real="xxxxx+-xxxx" met="-+-+-+-+-+-">In hope to find whatever it is I seek,</l>
+        <l n="17" real="xxxxxx+-+-x" met="-+-+-+-+-+-">Hearkening to short-lived happy-seeming things</l>
+        <l n="18" real="xxxxxxx+-x" met="-+-+-+-+-+">That we know naught of, in the hazel copse?</l>
+        <l n="19" real="xxxx-+x--+" met="-+-+-+-+-+">Or must I be content with discontent</l>
+        <l n="20" real="xxx+-x-+xx" met="-+-+-+-+-+">As larks and swallows are perhaps with wings?</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">And shall I ask at the day&#x27;s end once more</l>
+        <l n="22" real="x+-xxxxxxx" met="-+-+-+-+-+">What beauty is, and what I can have meant</l>
+        <l n="23" real="x+--xxxxxx" met="-+-+-+-+-+">By happiness? And shall I let all go,</l>
+        <l n="24" real="x+-xxxxx-+x" met="-+-+-+-+-+-">Glad, weary, or both? Or shall I perhaps know</l>
+        <l n="25" real="xxx+-xxxxx" met="-+-+-+-+-+">That I was happy oft and oft before,</l>
+        <l n="26" real="-+-+-xxxxx" met="-+-+-+-+-+">Awhile forgetting how I am fast pent,</l>
+        <l n="27" real="x+-xxxx+-x" met="-+-+-+-+-+">How dreary-swift, with naught to travel to,</l>
+        <l n="28" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Is Time? I cannot bite the day to the core.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="melancholy" n="L08170">
+      <head>Melancholy</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:melancholy</idno><idno type="laurel-id">L08170</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1" rhyme="--aabbcdc----d">
+        <l n="1" real="xxxxxxxxx+-" met="+-+-+-+-+-+">THE rain and wind, the rain and wind, raved endlessly.</l>
+        <l n="2" real="xxx+-xx+-x+-x-" met="--+-+-+-+-+-+-">On me the Summer storm, and fever, and melancholy</l>
+        <l n="3" real="x+-xxxxxx+-x" met="-+-+-+-+-+-+">Wrought magic, so that if I feared the solitude</l>
+        <l n="4" real="xxxxx+-xxxx" met="+-+-+-+-+-+">Far more I feared all company: too sharp, too rude,</l>
+        <l n="5" real="xxx+-xx+-+-x" met="-+-+-+-+-+-+">Had been the wisest or the dearest human voice.</l>
+        <l n="6" real="xx-+xxxxxxxx" met="-+-+-+-+-+-+">What I desired I knew not, but whate&#x27;er my choice</l>
+        <l n="7" real="xxxxxxxxxx-+" met="-+-+-+-+-+-+">Vain it must be, I knew. Yet naught did my despair</l>
+        <l n="8" real="x+-xx+-xxx" met="--+-+-+-+-">But sweeten the strange sweetness, while through the</l>
+        <l n="9" real="xx" met="-+">wild air</l>
+        <l n="10" real="xxxxxx+-+x+-" met="-+-+-+-+-+-+">All day long I heard a distant cuckoo calling</l>
+        <l n="11" real="xxxxxxxxx+-+-" met="-+-+-+-+-+-+-">And, soft as dulcimers, sounds of near water falling,</l>
+        <l n="12" real="x+-x-+xxx+-" met="+-+-+-+-+-+">And, softer, and remote as if in history,</l>
+        <l n="13" real="x-xxxxxxxx" met="--+-+-+-+-">Rumours of what had touched my friends, my foes,</l>
+        <l n="14" real="xx" met="-+">or me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="adlestrop" n="L08171">
+      <head>Adlestrop</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:adlestrop</idno><idno type="laurel-id">L08171</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx-+-xxx" met="-+-+-+-+">YES. I remember Adlestrop--</l>
+        <l n="2" real="xxxxxx-+" met="-+-+-+-+">The name, because one afternoon</l>
+        <l n="3" real="xxx-+xxxx" met="-+-+-+-+-">Of heat the express-train drew up there</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Unwontedly. It was late June.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx-+xx-xx" met="--+-+-+-+-">The steam hissed. Someone cleared his throat.</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">No one left and no one came</l>
+        <l n="7" real="xxx+xxxx" met="-+-+-+-+">On the bare platform. What I saw</l>
+        <l n="8" real="xxxx+-xx" met="-+-+-+-+">Was Adlestrop--only the name</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+x+xxxx" met="-+-+-+-+">And willows, willow-herb, and grass,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">And meadowsweet, and haycocks dry,</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">No whit less still and lonely fair</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">Than the high cloudlets in the sky.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="xxx-+x+-x" met="-+-+-+-+-">And for that minute a blackbird sang</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">Close by, and round him, mistier,</l>
+        <l n="15" real="+-x+-xxx" met="-+-+-+-+">Farther and farther, all the birds</l>
+        <l n="16" real="xxxxxxxxx" met="-+-+-+-+-">Of Oxfordshire and Gloucestershire.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-green-roads" n="L08172">
+      <head>The Green Roads</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-green-roads</idno><idno type="laurel-id">L08172</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx+-" met="+-+-+-+-+">THE green roads that end in the forest</l>
+        <l n="2" real="xxxxx+-xx" met="+-+-+-+-+">Are strewn with white goose feathers this June,</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">Like marks left behind by some one gone to the forest</l>
+        <l n="4" real="xxxxxxx+xx" met="-+-+-+-+-+">To show his track. But he has never come back.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="5" real="xxxxx+-xxx+-" met="--+-+-+-+-+-">Down each green road a cottage looks at the forest.</l>
+        <l n="6" real="xxx+-+xxxx+" met="-+-+-+-+-+-">Round one the nettle towers; two are bathed in flowers.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="7" real="xxx-+xxxxx+-" met="--+-+-+-+-+-">An old man along the green road to the forest</l>
+        <l n="8" real="xxxx-+-xx-+" met="-+-+-+-+-+-">Strays from one, from another a child alone.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="9" real="xx+-+--x+-" met="-+-+-+-+-+">In the thicket bordering the forest,</l>
+        <l n="10" real="xxxxxxxx" met="--+-+-+-">All day long a thrush twiddles his song.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="11" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">It is old, but the trees are young in the forest,</l>
+        <l n="12" real="xxxxx+-xxx+-x" met="-+-+-+-+-+-+-">All but one like a castle keep, in the middle deep.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aa">
+        <l n="13" real="xxxx+-xxx+-" met="-+-+-+-+-+-">That oak saw the ages pass in the forest:</l>
+        <l n="14" real="xxxxxx+-xx" met="-+-+-+-+-+">They were a host, but their memories are lost,</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="15" real="xxxxxxx-+x+-" met="--+-+-+-+-+-">For the tree is dead: all things forget the forest</l>
+        <l n="16" real="x+--+xxxxx" met="-+-+-+-+-+">Excepting perhaps me, when now I see</l>
+      </lg>
+      <lg type="stanza" n="9">
+        <l n="17" real="xxxxxxx+-xxx" met="--+-+-+-+-+-">The old man, the child, the goose feathers at the edge</l>
+        <l n="18" real="xx+-" met="--+-">of the forest,</l>
+        <l n="19" real="xxxxxxx-+xx" met="-+-+-+-+-+-">And hear all day long the thrush repeat his song.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-mill-pond" n="L08173">
+      <head>The Mill-Pond</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-mill-pond</idno><idno type="laurel-id">L08173</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx-xx+-x" met="-+-+-+-+-">THE sun blazed while the thunder yet</l>
+        <l n="2" real="+-xx" met="--+-">Added a boom:</l>
+        <l n="3" real="xxx+--xxx" met="-+-+-+-+-">A wagtail flickered bright over</l>
+        <l n="4" real="xxxx" met="--+-">The mill-pond&#x27;s gloom:</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xx+-" met="-+-+-+-+-">Less than the cooing in the alder</l>
+        <l n="6" real="xxxx" met="--+-">Isles of the pool</l>
+        <l n="7" real="+-x+-xxx" met="-+-+-+-+">Sounded the thunder through that plunge</l>
+        <l n="8" real="x+-x" met="--+-">Of waters cool.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x-xxxx+-x" met="-+-+-+-+-">Scared starlings on the aspen tip</l>
+        <l n="10" real="xxxx" met="--+-">Past the black mill</l>
+        <l n="11" real="xxx-xxxxxx" met="--+-+-+-+-">Outchattered the stream and the next roar</l>
+        <l n="12" real="xxxx" met="--+-">Far on the hill.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxx+--x-xx" met="--+-+-+-+-">As my feet dangling teased the foam</l>
+        <l n="14" real="xxxx" met="--+-">That slid below</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">A girl came out. &quot;Take care!&quot; she said--</l>
+        <l n="16" real="+--+" met="--+-">Ages ago.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="x+--x+-xx" met="-+-+-+-+-">She startled me, standing quite close</l>
+        <l n="18" real="xxxx" met="--+-">Dressed all in white:</l>
+        <l n="19" real="+--+xx+-x" met="-+-+-+-+-">Ages ago I was angry till</l>
+        <l n="20" real="xxxx" met="--+-">She passed from sight.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxxxxxxx-" met="-+-+-+-+-">Then the storm burst, and as I crouched</l>
+        <l n="22" real="x+-x" met="--+-">To shelter, how</l>
+        <l n="23" real="+--xxxxx-" met="-+-+-+-+-">Beautiful and kind, too, she seemed,</l>
+        <l n="24" real="xxxx" met="--+-">As she does now!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="it-was-upon" n="L08174">
+      <head>It Was upon</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:it-was-upon</idno><idno type="laurel-id">L08174</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd">
+        <l n="1" real="xxxxxx++-" met="+-+-+-+-+">IT was upon a July evening.</l>
+        <l n="2" real="xxxxx+--+xx" met="-+-+-+-+-+-">At a stile I stood, looking along a path</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">Over the country by a second Spring</l>
+        <l n="4" real="x+xx-+xxxx" met="-+-+-+-+-+">Drenched perfect green again. &quot;The lattermath</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">Will be a fine one.&quot; So the stranger said,</l>
+        <l n="6" real="x+-x-+-xxxx" met="-+-+-+-+-+-">A wandering man. Albeit I stood at rest,</l>
+        <l n="7" real="xx-+xxxxxx" met="-+-+-+-+-+">Flushed with desire I was. The earth outspread,</l>
+        <l n="8" real="x+xxx+-x-+" met="-+-+-+-+-+">Like meadows of the future, I possessed.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-abb">
+        <l n="9" real="xxxxxxx+--" met="-+-+-+-+-+">And as an unaccomplished prophecy</l>
+        <l n="10" real="x+-xxxx+--" met="-+-+-+-+-+">The stranger&#x27;s words, after the interval</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Of a score years, when those fields are by me</l>
+        <l n="12" real="+-xxxxxx+x" met="-+-+-+-+-+">Never to be recrossed, now I recall,</l>
+        <l n="13" real="xx+xx+-+--" met="-+-+-+-+-+">This July eve, and question, wondering,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">What of the lattermath to this hoar Spring?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tall-nettles" n="L08175">
+      <head>Tall Nettles</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:tall-nettles</idno><idno type="laurel-id">L08175</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-+-xxxxx" met="-+-+-+-+-+">TALL nettles cover up, as they have done</l>
+        <l n="2" real="x+xx+-+-xx" met="-+-+-+-+-+">These many springs, the rusty harrow, the plough</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Long worn out, and the roller made of stone:</l>
+        <l n="4" real="+-xxxxx+-x" met="-+-+-+-+-+">Only the elm butt tops the nettles now.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xx+xxxx" met="-+-+-+-+-+">This corner of the farmyard I like most:</l>
+        <l n="6" real="xxx+-xxxx+-" met="-+-+-+-+-+-">As well as any bloom upon a flower</l>
+        <l n="7" real="xxxxxx+-+x" met="-+-+-+-+-+">I like the dust on the nettles, never lost</l>
+        <l n="8" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Except to prove the sweetness of a shower.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="haymaking" n="L08176">
+      <head>Haymaking</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:haymaking</idno><idno type="laurel-id">L08176</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuu">
+        <l n="1" real="xxx+-x-+xx" met="-+-+-+-+-+">AFTER night&#x27;s thunder far away had rolled</l>
+        <l n="2" real="x+-xxx+-xxx" met="-+-+-+-+-+-">The fiery day had a kernel sweet of cold,</l>
+        <l n="3" real="xxx-+xxxxx" met="-+-+-+-+-+">And in the perfect blue the clouds uncurled,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Like the first gods before they made the world</l>
+        <l n="5" real="x+--+-xxxx" met="-+-+-+-+-+">And misery, swimming the stormless sea</l>
+        <l n="6" real="x+-xx-+xx" met="+-+-+-+-+">In beauty and in divine gaiety.</l>
+        <l n="7" real="xxx+-xx+-x" met="-+-+-+-+-+">The smooth white empty road was lightly strewn</l>
+        <l n="8" real="xxx+-+-xxx" met="-+-+-+-+-+">With leaves--the holly&#x27;s Autumn falls in June--</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">And fir cones standing stiff up in the heat.</l>
+        <l n="10" real="xxx+-+-xxx" met="-+-+-+-+-+">The mill-foot water tumbled white and lit</l>
+        <l n="11" real="x+-+-+-x+-x" met="-+-+-+-+-+-">With tossing crystals, happier than any crowd</l>
+        <l n="12" real="x+-+-xxx-+" met="-+-+-+-+-+">Of children pouring out of school aloud.</l>
+        <l n="13" real="xxx+-+-xx+-" met="-+-+-+-+-+-">And in the little thickets where a sleeper</l>
+        <l n="14" real="x+xxxx+-xx" met="-+-+-+-+-+">For ever might lie lost, the nettle-creeper</l>
+        <l n="15" real="x+-+-xxxxx" met="-+-+-+-+-+">And garden warbler sang unceasingly;</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">While over them shrill shrieked in his fierce glee</l>
+        <l n="17" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The swift with wings and tail as sharp and narrow</l>
+        <l n="18" real="xxxxxxxxx+-" met="-+-+-+-+-+-">As if the bow had flown off with the arrow.</l>
+        <l n="19" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Only the scent of woodbine and hay new-mown</l>
+        <l n="20" real="+-xxxxx+-x" met="-+-+-+-+-+">Travelled the road. In the field sloping down,</l>
+        <l n="21" real="xxxxx+xxxx" met="-+-+-+-+-+">Park-like, to where its willows showed the brook,</l>
+        <l n="22" real="+x-+-xxxx-+" met="-+-+-+-+-+-">Haymakers rested. The tosser lay forsook</l>
+        <l n="23" real="xxxxxxxxxx" met="-+-+-+-+-+">Out in the sun; and the long waggon stood</l>
+        <l n="24" real="xxxxxxx+-x" met="-+-+-+-+-+">Without its team, it seemed it never would</l>
+        <l n="25" real="xxx+xxx+-x" met="-+-+-+-+-+">Move from the shadow of that single yew.</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">The team, as still, until their task was due,</l>
+        <l n="27" real="-+xxxx-+xx" met="-+-+-+-+-+">Beside the labourers enjoyed the shade</l>
+        <l n="28" real="xxxxxx-+-x" met="-+-+-+-+-+">That three squat oaks mid-field together made</l>
+        <l n="29" real="xxx+-xxxxx+" met="-+-+-+-+-+-">Upon a circle of grass and weed uncut,</l>
+        <l n="30" real="xxx+-xxxxx" met="-+-+-+-+-+">And on the hollow, once a chalk-pit, but</l>
+        <l n="31" real="xxxxx+-+xx" met="-+-+-+-+-+">Now brimmed with nut and elder-flower so clean.</l>
+        <l n="32" real="xxxxxxxxx-+" met="-+-+-+-+-+-">The men leaned on their rakes, about to begin,</l>
+        <l n="33" real="xxxxx+-xxx" met="-+-+-+-+-+">But still. And all were silent. All was old,</l>
+        <l n="34" real="x+-xxxxx-+" met="-+-+-+-+-+">This morning time, with a great age untold,</l>
+        <l n="35" real="+-xxx+-+-xx" met="-+-+-+-+-+-">Older than Clare and Cobbett, Morland and Crome,</l>
+        <l n="36" real="xxxxxxx+-x" met="-+-+-+-+-+">Than, at the field&#x27;s far edge, the farmer&#x27;s home,</l>
+        <l n="37" real="xxxxxxxxxxx" met="-+-+-+-+-+-">A white house crouched at the foot of a great tree.</l>
+        <l n="38" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Under the heavens that know not what years be</l>
+        <l n="39" real="xxxxxxx+--" met="-+-+-+-+-+">The men, the beasts, the trees, the implements</l>
+        <l n="40" real="+-+xxxxxxx" met="-+-+-+-+-+">Uttered even what they will in times far hence--</l>
+        <l n="41" real="xxxxxxxxxx" met="-+-+-+-+-+">All of us gone out of the reach of change--</l>
+        <l n="42" real="-+-xx+-xxxx" met="-+-+-+-+-+-">Immortal in a picture of an old grange.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="how-at-once" n="L08177">
+      <head>How at Once</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:how-at-once</idno><idno type="laurel-id">L08177</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababccb">
+        <l n="1" real="xxxxxx" met="-+-+-+">How at once should I know,</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">When stretched in the harvest blue</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">I saw the swift&#x27;s black bow,</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">That I would not have that view</l>
+        <l n="5" real="-+-x" met="--+-">Another day</l>
+        <l n="6" real="xxxx" met="--+-">Until next May</l>
+        <l n="7" real="-+xxx" met="+-+-+">Again it is due?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a----">
+        <l n="8" real="xxxxxx" met="-+-+-+">The same year after year--</l>
+        <l n="9" real="xxxx-+" met="-+-+-+">But with the swift alone.</l>
+        <l n="10" real="x+-xxxx" met="-+-+-+-">With other things I but fear</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">That they will be over and done</l>
+        <l n="12" real="+--" met="-+-">Suddenly</l>
+        <l n="13" real="xx+-x" met="+-+-+">And I only see</l>
+        <l n="14" real="xxxxx" met="+-+-+">Them to know them gone.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="gone-gone-again" n="L08178">
+      <head>Gone, Gone Again</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:gone-gone-again</idno><idno type="laurel-id">L08178</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xx-+" met="--+-">GONE, gone again,</l>
+        <l n="2" real="x+-x" met="--+-">And August gone,</l>
+        <l n="3" real="-+xx" met="--+-">Again gone by,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="4" real="x+---" met="+-+-+">Not memorable</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Save that I saw them go,</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">As past the empty quays</l>
+        <l n="7" real="x+-x" met="--+-">The rivers flow.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="8" real="xx-+" met="--+-">And now again,</l>
+        <l n="9" real="xx+-x" met="+-+-+">In the harvest rain,</l>
+        <l n="10" real="x+x+--" met="-+-+-+">The Blenheim oranges</l>
+        <l n="11" real="x+-xxx" met="-+-+-+">Fall grubby from the trees,</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a--a">
+        <l n="12" real="xxxxx" met="+-+-+">As when I was young--</l>
+        <l n="13" real="xxxxxxx" met="-+-+-+-">And when the lost one was here--</l>
+        <l n="14" real="xxxx-+" met="-+-+-+">And when the war began</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">To turn young men to dung.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="16" real="xxxxx" met="+-+-+">Look at the old house,</l>
+        <l n="17" real="x+-+-x" met="-+-+-+">Outmoded, dignified,</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">Dark and untenanted,</l>
+        <l n="19" real="xx+--+" met="-+-+-+">With grass growing instead</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="20" real="xx+xxx" met="-+-+-+">Of the footsteps of life,</l>
+        <l n="21" real="x+--xx" met="-+-+-+">The friendliness, the strife;</l>
+        <l n="22" real="xxxxx" met="+-+-+">In its beds have lain</l>
+        <l n="23" real="xxxxx" met="+-+-+">Youth, love, age and pain:</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-aa-">
+        <l n="24" real="xx+-xx" met="-+-+-+">I am something like that;</l>
+        <l n="25" real="+-xxxx" met="-+-+-+">Only I am not dead,</l>
+        <l n="26" real="x+-x+--" met="-+-+-+-">Still breathing and interested</l>
+        <l n="27" real="xxxxxxx" met="-+-+-+-">In the house that is not dark:--</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="28" real="xx+-xx" met="-+-+-+">I am something like that:</l>
+        <l n="29" real="xxxx-+xx" met="--+-+-+-">Not one pane to reflect the sun,</l>
+        <l n="30" real="xx+xxxx" met="-+-+-+-">For the schoolboys to throw at--</l>
+        <l n="31" real="xx+-+--x" met="--+-+-+-">They have broken every one.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sun-used-to-shine" n="L08179">
+      <head>The Sun Used to Shine</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-sun-used-to-shine</idno><idno type="laurel-id">L08179</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxx-" met="--+-+-+-+-">THE sun used to shine while we two walked</l>
+        <l n="2" real="+--+-x-x+-" met="--+-+-+-+-">Slowly together, paused and started</l>
+        <l n="3" real="-+x+xx-+xx" met="--+-+-+-+-">Again, and sometimes mused, sometimes talked</l>
+        <l n="4" real="x+-xx+--+-" met="--+-+-+-+-">As either pleased, and cheerfully parted</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxx+---+" met="-+-+-+-+">Each night. We never disagreed</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Which gate to rest on. The to be</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">And the late past we gave small heed.</l>
+        <l n="8" real="xx-xxx+--" met="-+-+-+-+-">We turned from men or poetry</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xx-xxx-+" met="-+-+-+-+">To rumours of the war remote</l>
+        <l n="10" real="+-xxxx-+-" met="-+-+-+-+-">Only till both stood disinclined</l>
+        <l n="11" real="xxxx+-xxxx" met="--+-+-+-+-">For aught but the yellow flavorous coat</l>
+        <l n="12" real="xx+-xxx-+-" met="--+-+-+-+-">Of an apple wasps had undermined;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx+-xxxx" met="-+-+-+-+">Or a sentry of dark betonies,</l>
+        <l n="14" real="xxxxxx+-xx" met="--+-+-+-+-">The stateliest of small flowers on earth,</l>
+        <l n="15" real="xx+-xx+--" met="-+-+-+-+-">At the forest verge; or crocuses</l>
+        <l n="16" real="x+-xxxxxx" met="-+-+-+-+-">Pale purple as if they had their birth</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">In sunless Hades fields. The war</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">Came back to mind with the moonrise</l>
+        <l n="19" real="x+-xxx-+" met="-+-+-+-+">Which soldiers in the east afar</l>
+        <l n="20" real="xxxx--++-x" met="--+-+-+-+-">Beheld then. Nevertheless, our eyes</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxx-+-x-+" met="-+-+-+-+-">Could as well imagine the Crusades</l>
+        <l n="22" real="x+-+-+-x" met="-+-+-+-+">Or Caesar&#x27;s battles. Everything</l>
+        <l n="23" real="x+-xxx-x" met="-+-+-+-+">To faintness like those rumours fades--</l>
+        <l n="24" real="xxx+-+--" met="-+-+-+-+">Like the brook&#x27;s water glittering</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxx+xxxx" met="-+-+-+-+">Under the moonlight--like those walks</l>
+        <l n="26" real="xxxxxxxx" met="-+-+-+-+">Now--like us two that took them, and</l>
+        <l n="27" real="x+-+-xxx" met="-+-+-+-+">The fallen apples, all the talks</l>
+        <l n="28" real="x+--xxxxx" met="-+-+-+-+-">And silences--like memory&#x27;s sand</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxx+-xxxx" met="-+-+-+-+-">When the tide covers it late or soon,</l>
+        <l n="30" real="x+-xx+-+-" met="-+-+-+-+-">And other men through other flowers</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">In those fields under the same moon</l>
+        <l n="32" real="x+-xx+-+-" met="-+-+-+-+-">Go talking and have easy hours.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="october" n="L08180">
+      <head>October</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:october</idno><idno type="laurel-id">L08180</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abc-bc--a">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">THE green elm with the one great bough of gold</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Lets leaves into the grass slip, one by one,--</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">The short hill grass, the mushrooms small milk-white,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Harebell and scabious and tormentil,</l>
+        <l n="5" real="x+x-xxxxxx" met="-+-+-+-+-+">That blackberry and gorse, in dew and sun,</l>
+        <l n="6" real="xxxxxx+-xx" met="-+-+-+-+-+">Bow down to; and the wind travels too light</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">To shake the fallen birch leaves from the fern;</l>
+        <l n="8" real="xxxx+-xxxx" met="-+-+-+-+-+">The gossamers wander at their own will.</l>
+        <l n="9" real="x+-xxxx+-x" met="-+-+-+-+-+">At heavier steps than birds&#x27; the squirrels scold.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-b-cadcd--">
+        <l n="10" real="xxxxxx-+xx" met="-+-+-+-+-+">The rich scene has grown fresh again and new</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">As Spring and to the touch is not more cool</l>
+        <l n="12" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Than it is warm to the gaze; and now I might</l>
+        <l n="13" real="x+-xxxx+--" met="-+-+-+-+-+">As happy be as earth is beautiful,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Were I some other or with earth could turn</l>
+        <l n="15" real="x+-x-x+-xx" met="-+-+-+-+-+">In alternation of violet and rose,</l>
+        <l n="16" real="xxxxxxxx+-x" met="-+-+-+-+-+-">Harebell and snowdrop, at their season due,</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">And gorse that has no time not to be gay.</l>
+        <l n="18" real="xxxxx+--xx" met="-+-+-+-+-+">But if this be not happiness,--who knows?</l>
+        <l n="19" real="xxxxxxx+-x" met="-+-+-+-+-+">Some day I shall think this a happy day,</l>
+        <l n="20" real="xxxxxxx+-x-" met="-+-+-+-+-+-">And this mood by the name of melancholy</l>
+        <l n="21" real="xxx+--x-+x" met="-+-+-+-+-+">Shall no more blackened and obscured be.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-long-small-room" n="L08181">
+      <head>The Long Small Room</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-long-small-room</idno><idno type="laurel-id">L08181</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx+xxxx" met="-+-+-+-+-+-">THE long small room that showed willows in the west</l>
+        <l n="2" real="+-xxxxx+-xx" met="-+-+-+-+-+-">Narrowed up to the end the fireplace filled,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Although not wide. I liked it. No one guessed</l>
+        <l n="4" real="xxx+--xxxx" met="-+-+-+-+-+">What need or accident made them so build.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="+-xxxxxx+-x" met="-+-+-+-+-+-">Only the moon, the mouse and the sparrow peeped</l>
+        <l n="6" real="xxx+-xxxxxx" met="-+-+-+-+-+-">In from the ivy round the casement thick.</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Of all they saw and heard there they shall keep</l>
+        <l n="8" real="xxxxx+-x+-x" met="-+-+-+-+-+-">The tale for the old ivy and older brick.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxxx+-xx" met="--+-+-+-+-+-">When I look back I am like moon, sparrow and mouse</l>
+        <l n="10" real="x+-xxx+x-+" met="-+-+-+-+-+">That witnessed what they could never understand</l>
+        <l n="11" real="x+-x-+xxxx" met="-+-+-+-+-+">Or alter or prevent in the dark house.</l>
+        <l n="12" real="xx-+xxxxxx" met="-+-+-+-+-+">One thing remains the same--this my right hand</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="+-xxxxxxxx" met="-+-+-+-+-+">Crawling crab-like over the clean white page,</l>
+        <l n="14" real="+--+x+-xx+-" met="-+-+-+-+-+-">Resting awhile each morning on the pillow,</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">Then once more starting to crawl on towards age.</l>
+        <l n="16" real="x+-xxxxxx+x" met="-+-+-+-+-+-">The hundred last leaves stream upon the willow.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="liberty" n="L08182">
+      <head>Liberty</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:liberty</idno><idno type="laurel-id">L08182</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abcabcd--d-eefg-hhf-gi-ijj-">
+        <l n="1" real="xxxxxxxxxxx" met="-+-+-+-+-+-">THE last light has gone out of the world, except</l>
+        <l n="2" real="x+x+-xxxxx" met="-+-+-+-+-+">This moonlight lying on the grass like frost</l>
+        <l n="3" real="xxxxxxxx+x" met="-+-+-+-+-+">Beyond the brink of the tall elm&#x27;s shadow</l>
+        <l n="4" real="xxxx+-xxxx" met="-+-+-+-+-+">It is as if everything else had slept</l>
+        <l n="5" real="+-xxxxxxxx" met="-+-+-+-+-+">Many an age, unforgotten and lost</l>
+        <l n="6" real="xxxxxxxx-+" met="-+-+-+-+-+">The men that were, the things done, long ago,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">All I have thought; and but the moon and I</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">Live yet and here stand idle over the grave</l>
+        <l n="9" real="xxx+-xx+--" met="-+-+-+-+-+">Where all is buried. Both have liberty</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">To dream what we could do if we were free</l>
+        <l n="11" real="xxxxxx-+-x" met="-+-+-+-+-+">To do some thing we had desired long,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">The moon and I. There&#x27;s none less free than who</l>
+        <l n="13" real="x+-xx+-xxx" met="-+-+-+-+-+">Does nothing and has nothing else to do,</l>
+        <l n="14" real="+x+-xxxxxxx" met="-+-+-+-+-+-">Being free only for what is not to his mind,</l>
+        <l n="15" real="x+-xxxxx+-+" met="-+-+-+-+-+-">And nothing is to his mind. If every hour</l>
+        <l n="16" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Like this one passing that I have spent among</l>
+        <l n="17" real="x+-+-xxx-+" met="-+-+-+-+-+">The wiser others when I have forgot</l>
+        <l n="18" real="x+-xxxxxxx" met="-+-+-+-+-+">To wonder whether I was free or not,</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">Were piled before me, and not lost behind,</l>
+        <l n="20" real="xxxxx+-x-+" met="-+-+-+-+-+">And I could take and carry them away</l>
+        <l n="21" real="xxxxxxxxx+-" met="-+-+-+-+-+-">I should be rich; or if I had the power</l>
+        <l n="22" real="xxx+-xxx-+" met="-+-+-+-+-+">To wipe out every one and not again</l>
+        <l n="23" real="-+xxxxxxxx" met="-+-+-+-+-+">Regret, I should be rich to be so poor.</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">And yet I still am half in love with pain,</l>
+        <l n="25" real="xxx-+-xxxxx" met="-+-+-+-+-+-">With what is imperfect, with both tears and mirth,</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">With things that have an end, with life and earth,</l>
+        <l n="27" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And this moon that leaves me dark within the door.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="november" n="L08183">
+      <head>November</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:november</idno><idno type="laurel-id">L08183</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="----aaa-----bbcc">
+        <l n="1" real="-+-xx+-" met="+-+-+-+">NOVEMBER&#x27;S days are thirty:</l>
+        <l n="2" real="-+-xx+-" met="+-+-+-+">November&#x27;s earth is dirty,</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">Those thirty days, from first to last;</l>
+        <l n="4" real="xx+-xxxxxx" met="--+-+-+-+-">And the prettiest things on ground are the paths</l>
+        <l n="5" real="x+-x+-xxxx" met="--+-+-+-+-">With morning and evening hobnails dinted,</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">With foot and wing-tip overprinted</l>
+        <l n="7" real="x+---xxx-" met="-+-+-+-+-">Or separately charactered,</l>
+        <l n="8" real="x+-xx+-x" met="-+-+-+-+">Of little beast and little bird.</l>
+        <l n="9" real="xxxx-xxxx" met="-+-+-+-+-">The fields are mashed by sheep, the roads</l>
+        <l n="10" real="xxx+-xxxx" met="-+-+-+-+-">Make the worst going, the best the woods</l>
+        <l n="11" real="xxx+-x+-+-" met="--+-+-+-+-">Where dead leaves upward and downward scatter.</l>
+        <l n="12" real="xxxx+-xxx+-" met="-+-+-+-+-+-">Few care for the mixture of earth and water,</l>
+        <l n="13" real="xxxx" met="--+-">Twig, leaf, flint, thorn,</l>
+        <l n="14" real="x+-xxxx" met="+-+-+-+">Straw, feather, all that men scorn,</l>
+        <l n="15" real="+-xx+-xx" met="-+-+-+-+">Pounded up and sodden by flood,</l>
+        <l n="16" real="-+xx" met="--+-">Condemned as mud.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgghhiijj">
+        <l n="17" real="xxxxxxxx+-" met="--+-+-+-+-">But of all the months when earth is greener</l>
+        <l n="18" real="xxxxxxx+-" met="-+-+-+-+-">Not one has clean skies that are cleaner.</l>
+        <l n="19" real="xxxxxxx" met="+-+-+-+">Clean and clear and sweet and cold,</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">They shine above the earth so old,</l>
+        <l n="21" real="xxxx+-x" met="+-+-+-+">While the after-tempest cloud</l>
+        <l n="22" real="xxxx+-xxxx" met="--+-+-+-+-">Sails over in silence though winds are loud,</l>
+        <l n="23" real="xxxxxxx" met="+-+-+-+">Till the full moon in the east</l>
+        <l n="24" real="xxx+-xxx" met="-+-+-+-+">Looks at the planet in the west</l>
+        <l n="25" real="xxx+-xxxx" met="-+-+-+-+-">And earth is silent as it is black,</l>
+        <l n="26" real="xx-+-xxx" met="-+-+-+-+">Yet not unhappy for its lack.</l>
+        <l n="27" real="xxx+-xxx" met="-+-+-+-+">Up from the dirty earth men stare:</l>
+        <l n="28" real="x-+-x+-x" met="-+-+-+-+">One imagines a refuge there</l>
+        <l n="29" real="xxxxxxxx" met="-+-+-+-+">Above the mud, in the pure bright</l>
+        <l n="30" real="xx+-+--x" met="-+-+-+-+">Of the cloudless heavenly light:</l>
+        <l n="31" real="-+-xxx-+-x+-" met="--+-+-+-+-+-">Another loves earth and November more dearly</l>
+        <l n="32" real="xxxxxxx+-" met="-+-+-+-+-">Because without them, he sees clearly,</l>
+        <l n="33" real="xxxx+-xxxx" met="--+-+-+-+-">The sky would be nothing more to his eye</l>
+        <l n="34" real="xxx+-xxxxx" met="--+-+-+-+-">Than he, in any case, is to the sky;</l>
+        <l n="35" real="xx+-xxxx" met="-+-+-+-+">He loves even the mud whose dyes</l>
+        <l n="36" real="-+x+-xxx" met="-+-+-+-+">Renounce all brightness to the skies.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sheiling" n="L08184">
+      <head>The Sheiling</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-sheiling</idno><idno type="laurel-id">L08184</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa--a">
+        <l n="1" real="xx-+" met="--+-">IT stands alone</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Up in a land of stone</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">All worn like ancient stairs,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">A land of rocks and trees</l>
+        <l n="5" real="+-xxxx" met="-+-+-+">Nourished on wind and stone.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--a">
+        <l n="6" real="xxxx" met="--+-">And all within</l>
+        <l n="7" real="x+--xx" met="-+-+-+">Long delicate has been;</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">By arts and kindliness</l>
+        <l n="9" real="+-+-xx" met="-+-+-+">Coloured, sweetened, and warmed</l>
+        <l n="10" real="x+-xxx" met="-+-+-+">For many years has been.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa--a">
+        <l n="11" real="x+-x" met="--+-">Safe resting there</l>
+        <l n="12" real="xxxx+--x" met="--+-+-+-">Men hear in the travelling air</l>
+        <l n="13" real="x+-+-x" met="-+-+-+">But music, pictures see</l>
+        <l n="14" real="xxx+-x" met="-+-+-+">In the same daily land</l>
+        <l n="15" real="+-xxxx" met="-+-+-+">Painted by the wild air.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa--a">
+        <l n="16" real="x+-x" met="--+-">One maker&#x27;s mind</l>
+        <l n="17" real="xxxxxxx" met="-+-+-+-">Made both, and the house is kind</l>
+        <l n="18" real="xxxxxxx" met="-+-+-+-">To the land that gave it peace,</l>
+        <l n="19" real="xxxx+-xx" met="--+-+-+-">And the stone has taken the house</l>
+        <l n="20" real="xxxxxxx" met="-+-+-+-">To its cold heart and is kind.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-gallows" n="L08185">
+      <head>The Gallows</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-gallows</idno><idno type="laurel-id">L08185</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a-a-b-b-">
+        <l n="1" real="xxx+-x-xxx" met="--+-+-+-+-">THERE was a weasel lived in the sun</l>
+        <l n="2" real="xxx+--" met="-+-+-+">With all his family,</l>
+        <l n="3" real="xx+-xxxxx" met="-+-+-+-+-">Till a keeper shot him with his gun</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">And hung him up on a tree,</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">Where he swings in the wind and rain,</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">In the sun and in the snow,</l>
+        <l n="7" real="xx+-xxx" met="-+-+-+-">Without pleasure, without pain,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">On the dead oak tree bough.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a-b-b-">
+        <l n="9" real="xxxxxxx+-" met="-+-+-+-+-">There was a crow who was no sleeper,</l>
+        <l n="10" real="xxxxx+--" met="--+-+-+-">But a thief and a murderer</l>
+        <l n="11" real="xx+-x+-xx+-" met="-+-+-+-+-+-">Till a very late hour; and this keeper</l>
+        <l n="12" real="xxxxxxxx" met="--+-+-+-">Made him one of the things that were,</l>
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">To hang and flap in rain and wind,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">In the sun and in the snow.</l>
+        <l n="15" real="xxxxxxxx-" met="-+-+-+-+-">There are no more sins to be sinned</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">On the dead oak tree bough.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababc-c-">
+        <l n="17" real="xxx+xx" met="-+-+-+">There was a magpie, too,</l>
+        <l n="18" real="xxxxxxxx" met="--+-+-+-">Had a long tongue and a long tail;</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">He could both talk and do--</l>
+        <l n="20" real="xxxx-+" met="-+-+-+">But what did that avail?</l>
+        <l n="21" real="xxxxxxxx" met="--+-+-+-">He, too, flaps in the wind and rain</l>
+        <l n="22" real="-+++-xx" met="-+-+-+-">Alongside weasel and crow,</l>
+        <l n="23" real="xx+-xxx" met="-+-+-+-">Without pleasure, without pain,</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">On the dead oak tree bough.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababc-c-">
+        <l n="25" real="x+-+-x" met="-+-+-+">And many other beasts</l>
+        <l n="26" real="xxxxx+-" met="-+-+-+-">And birds, skin, bone and feather,</l>
+        <l n="27" real="xx+-xxx" met="-+-+-+-">Have been taken from their feasts</l>
+        <l n="28" real="xxxx-+-" met="-+-+-+-">And hung up there together,</l>
+        <l n="29" real="xxxx+-+-" met="--+-+-+-">To swing and have endless leisure</l>
+        <l n="30" real="xxxxxxx" met="-+-+-+-">In the sun and in the snow,</l>
+        <l n="31" real="xxxxx+-" met="-+-+-+-">Without pain, without pleasure,</l>
+        <l n="32" real="xxxxxx" met="-+-+-+">On the dead oak tree bough.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="birds-nests" n="L08186">
+      <head>Birds&#x27; Nests</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:birds-nests</idno><idno type="laurel-id">L08186</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-x-+-x+-x" met="-+-+-+-+-+-">THE summer nests uncovered by autumn wind.</l>
+        <l n="2" real="xx+--+-xx" met="+-+-+-+-+">Some torn, others dislodged, all dark.</l>
+        <l n="3" real="+-xxxxxxxx" met="-+-+-+-+-+">Everyone sees them: low or high in tree,</l>
+        <l n="4" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Or hedge, or single bush, they hang like a mark.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Since there&#x27;s no need of eyes to see them with</l>
+        <l n="6" real="x+-xx+-x" met="--+-+-+-">I cannot help a little shame</l>
+        <l n="7" real="xxxx+xx+-x" met="-+-+-+-+-+">That I missed most, even at eye&#x27;s level, till</l>
+        <l n="8" real="xxxxxxx+xx" met="-+-+-+-+-+">The leaves blew off and made the seeing no game.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Tis a light pang. I like to see the nests</l>
+        <l n="10" real="xxx+-xxx" met="--+-+-+-">Still in their places, now first known,</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">At home and by far roads. Boys knew them not,</l>
+        <l n="12" real="x+-xx+-xxx" met="-+-+-+-+-+">Whatever jays and squirrels may have done.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">And most I like the winter nests deep-hid</l>
+        <l n="14" real="xxx+-xxx" met="--+-+-+-">That leaves and berries fell into;</l>
+        <l n="15" real="xx+xxxx+-x" met="-+-+-+-+-+">Once a dormouse dined there on hazel-nuts,</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">And grass and goose-grass seeds found soil and grew.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="rain" n="L08187">
+      <head>Rain</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:rain</idno><idno type="laurel-id">L08187</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abb------a----a---">
+        <l n="1" real="x+xx+-xxxx" met="-+-+-+-+-+">RAIN, midnight rain, nothing but the wild rain</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">On this bleak hut, and solitude, and me</l>
+        <l n="3" real="-+---+xxxx" met="-+-+-+-+-+">Remembering again that I shall die</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">And neither hear the rain nor give it thanks</l>
+        <l n="5" real="x+-x+-xxxx" met="-+-+-+-+-+">For washing me cleaner than I have been</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Since I was born into this solitude.</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Blessed are the dead that the rain rains upon:</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">But here I pray that none whom once I loved</l>
+        <l n="9" real="x+-xxx+-x-+" met="-+-+-+-+-+-">Is dying to-night or lying still awake</l>
+        <l n="10" real="+-x-+--xxx" met="-+-+-+-+-+">Solitary, listening to the rain,</l>
+        <l n="11" real="+-xxxxx+--" met="-+-+-+-+-+">Either in pain or thus in sympathy</l>
+        <l n="12" real="+-xxx+-xxx" met="-+-+-+-+-+">Helpless among the living and the dead,</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">Like a cold water among broken reeds,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Myriads of broken reeds all still and stiff,</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Like me who have no love which this wild rain</l>
+        <l n="16" real="xx-+xxxxxx" met="-+-+-+-+-+">Has not dissolved except the love of death,</l>
+        <l n="17" real="xxxxxxx-+x" met="-+-+-+-+-+">If love it be towards what is perfect and</l>
+        <l n="18" real="-+x+-xxx-+" met="-+-+-+-+-+">Cannot, the tempest tells me, disappoint.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="home" n="L08188">
+      <head>&quot;Home&quot;</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:home</idno><idno type="laurel-id">L08188</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-x++-x" met="-+-+-+-+-+">FAIR was the morning, fair our tempers, and</l>
+        <l n="2" real="xxx+-+-xxx" met="-+-+-+-+-+">We had seen nothing fairer than that land,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Though strange, and the untrodden snow that made</l>
+        <l n="4" real="xxxx+-xxxx" met="-+-+-+-+-+">Wild of the tame, casting out all that was</l>
+        <l n="5" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Not wild and rustic and old; and we were glad.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a">
+        <l n="6" real="xxxx-+xxxx" met="-+-+-+-+-+">Fair, too, was afternoon, and first to pass</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Were we that league of snow, next the north wind</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="bbaccde-">
+        <l n="8" real="xx+-x-+xxxx" met="-+-+-+-+-+-">There was nothing to return for, except need,</l>
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">And yet we sang nor ever stopped for speed,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">As we did often with the start behind.</l>
+        <l n="11" real="+-xxxxxxxx" met="-+-+-+-+-+">Faster still strode we when we came in sight</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Of the cold roofs where we must spend the night.</l>
+        <l n="13" real="+-xxxxxxxx" met="-+-+-+-+-+">Happy we had not been there, nor could be.</l>
+        <l n="14" real="xxx+-xxxx+-x" met="--+-+-+-+-+-">Though we had tasted sleep and food and fellowship</l>
+        <l n="15" real="-+-x" met="--+-">Together long.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="e-">
+        <l n="16" real="xxx+xx" met="--+-+-">&quot;How quick&quot; to someone&#x27;s lip</l>
+        <l n="17" real="xxxxx+-xxx" met="-+-+-+-+-+">The words came, &quot;will the beaten horse run home.&quot;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="d-ff-ggh">
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">The word &quot;home&quot; raised a smile in us all three,</l>
+        <l n="19" real="xx-+-x+-xx" met="-+-+-+-+-+">And one repeated it, smiling just so</l>
+        <l n="20" real="xxxxxxxxxx" met="-+-+-+-+-+">That all knew what he meant and none would say.</l>
+        <l n="21" real="xxx+-x-+xx" met="-+-+-+-+-+">Between three counties far apart that lay</l>
+        <l n="22" real="xx-+-xx+-x" met="-+-+-+-+-+">We were divided and looked strangely each</l>
+        <l n="23" real="xx+-xxxxxxx" met="-+-+-+-+-+-">At the other, and we knew we were not friends</l>
+        <l n="24" real="x+-xx+-xx" met="+-+-+-+-+">But fellows in a union that ends</l>
+        <l n="25" real="xx-+-xxxxx" met="-+-+-+-+-+">With the necessity for it, as it ought.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="hiiii-">
+        <l n="26" real="+-xxx+-xxx" met="-+-+-+-+-+">Never a word was spoken, not a thought</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">Was thought, of what the look meant with the word</l>
+        <l n="28" real="xxxxxxx+xx" met="-+-+-+-+-+">&quot;Home&quot; as we walked and watched the sunset blurred.</l>
+        <l n="29" real="xxxxxx+-xx" met="-+-+-+-+-+">And then to me the word, only the word,</l>
+        <l n="30" real="+xxxx+---+" met="-+-+-+-+-+">&quot;Homesick,&quot; as it were playfully occurred:</l>
+        <l n="31" real="xx" met="-+">No more.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="jj--kk">
+        <l n="32" real="xxx+-x-+" met="--+-+-+-">If I should ever more admit</l>
+        <l n="33" real="xxxxxxx-+x" met="-+-+-+-+-+">Than the mere word I could not endure it</l>
+        <l n="34" real="xxx+-x-+--" met="-+-+-+-+-+">For a day longer: this captivity</l>
+        <l n="35" real="x+xxxxxxxxx" met="-+-+-+-+-+-">Must somehow come to an end, else I should be</l>
+        <l n="36" real="-+-xx+-xxx" met="-+-+-+-+-+">Another man, as often now I seem,</l>
+        <l n="37" real="xxxx+-x+-x" met="-+-+-+-+-+">Or this life be only an evil dream.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="there-s-nothing-like-the-sun" n="L08189">
+      <head>There&#x27;s Nothing Like the Sun</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:there-s-nothing-like-the-sun</idno><idno type="laurel-id">L08189</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdeec--dffgghiih">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">THERE&#x27;S nothing like the sun as the year dies,</l>
+        <l n="2" real="xxxxxxx+xx" met="-+-+-+-+-+">Kind as it can be, this world being made so,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">To stones and men and beasts and birds and flies,</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">To all things that it touches except snow,</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">Whether on mountain side or street of town.</l>
+        <l n="6" real="xxxxx-+-x-+" met="-+-+-+-+-+-">The south wall warms me: November has begun,</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">Yet never shone the sun as fair as now</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">While the sweet last-left damsons from the bough</l>
+        <l n="9" real="xxxx+-xxx" met="+-+-+-+-+">With spangles of the morning&#x27;s storm drop down</l>
+        <l n="10" real="xxx+-xx+-x" met="-+-+-+-+-+">Because the starling shakes it, whistling what</l>
+        <l n="11" real="x+-xxxxx-+" met="-+-+-+-+-+">Once swallows sang. But I have not forgot</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">That there is nothing, too, like March&#x27;s sun,</l>
+        <l n="13" real="x+-xx+xxxx" met="-+-+-+-+-+">Like April&#x27;s, or July&#x27;s, or June&#x27;s, or May&#x27;s,</l>
+        <l n="14" real="x+-x-x+-x-xx" met="--+-+-+-+-+-">Or January&#x27;s, or February&#x27;s, great days:</l>
+        <l n="15" real="x+--+--+-x-+-" met="-+-+-+-+-+-+-">And August, September, October, and December</l>
+        <l n="16" real="x+-xx+-x-+-" met="-+-+-+-+-+-">Have equal days, all different from November.</l>
+        <l n="17" real="xxx+-xxxxx" met="-+-+-+-+-+">No day of any month but I have said--</l>
+        <l n="18" real="xxxxxx-+xx" met="-+-+-+-+-+">Or, if I could live long enough, should say--</l>
+        <l n="19" real="x+-xxxxxxx" met="-+-+-+-+-+">&quot;There&#x27;s nothing like the sun that shines to-day&quot;</l>
+        <l n="20" real="x+-xxxxxxx" met="-+-+-+-+-+">There&#x27;s nothing like the sun till we are dead.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="when-he-should-laugh" n="L08190">
+      <head>When He Should Laugh</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:when-he-should-laugh</idno><idno type="laurel-id">L08190</idno>
+      <lg type="stanza" n="1" rhyme="aa--">
+        <l n="1" real="xxxxxxxxxx">WHEN he should laugh the wise man knows full well:</l>
+        <l n="2" real="xxxxx+-+--">For he knows what is truly laughable.</l>
+        <l n="3" real="x+-xxxxx+-">But wiser is the man who laughs also,</l>
+        <l n="4" real="xxx+-xx+-x">Or holds his laughter, when the foolish do.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="an-old-song" n="L08191">
+      <head>An Old Song</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:an-old-song</idno><idno type="laurel-id">L08191</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-aba-b">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">THE sun set, the wind fell, the sea</l>
+        <l n="2" real="xxx+-+-" met="+-+-+-+">Was like a mirror shaking:</l>
+        <l n="3" real="xxxxxx-xx" met="-+-+-+-+-">The one small wave that clapped the land</l>
+        <l n="4" real="xxxxxxx+-" met="-+-+-+-+-">A mile-long snake of foam was making</l>
+        <l n="5" real="xxxx-xxxx" met="-+-+-+-+-">Where tide had smoothed and wind had dried</l>
+        <l n="6" real="x+-x" met="--+-">The vacant sand.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--a--a">
+        <l n="7" real="xx-+-x+-x" met="-+-+-+-+-">A light divided the swollen clouds</l>
+        <l n="8" real="xxx+--" met="--+-+-">And lay most perfectly</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">Like a straight narrow footbridge bright</l>
+        <l n="10" real="xx-xxxxxx" met="-+-+-+-+-">That crossed over the sea to me;</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">And no one else in the whole world</l>
+        <l n="12" real="xxxx" met="--+-">Saw that same sight.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aba-b">
+        <l n="13" real="xx--+xx+-" met="-+-+-+-+-">I walked elate, my bridge always</l>
+        <l n="14" real="xxxxxx" met="--+-+-">Just one step from my feet:</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">A robin sang, a shade in shade:</l>
+        <l n="16" real="xxxxxx-+" met="-+-+-+-+">And all I did was to repeat:</l>
+        <l n="17" real="xxxxx+-" met="+-+-+-+">&quot;I&#x27;ll go no more a-roving</l>
+        <l n="18" real="xxxx" met="--+-">With you, fair maid.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbab-b">
+        <l n="19" real="x+-xx+-+-" met="-+-+-+-+-">The sailors&#x27; song of merry loving</l>
+        <l n="20" real="xxxxxxx" met="+-+-+-+">With dusk and sea-gull&#x27;s mewing</l>
+        <l n="21" real="x-xxxxx-+-" met="--+-+-+-+-">Mixed sweet, the lewdness far outweighed</l>
+        <l n="22" real="xxxxx+-x-" met="-+-+-+-+-">By the wild charm the chorus played:</l>
+        <l n="23" real="xxxxx+-" met="+-+-+-+">&quot;I&#x27;ll go no more a-roving</l>
+        <l n="24" real="xxxx" met="--+-">With you, fair maid:</l>
+        <l n="25" real="x+-x+-x+-xx+" met="--+-+-+-+-+-">A-roving, a-roving, since roving&#x27;s been my ruin,</l>
+        <l n="26" real="xxxxx+-xxxx" met="-+-+-+-+-+-">I&#x27;ll go no more a-roving with you, fair maid.&quot;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a-aa-a-a">
+        <l n="27" real="x+-xxxxx" met="-+-+-+-+">In Amsterdam there dwelt a maid--</l>
+        <l n="28" real="xxxxxx" met="--+-+-">Mark well what I do say--</l>
+        <l n="29" real="x+-xxxxx" met="-+-+-+-+">In Amsterdam there dwelt a maid</l>
+        <l n="30" real="xxxx+-xxx" met="-+-+-+-+-">And she was a mistress of her trade:</l>
+        <l n="31" real="xxxxx+-" met="+-+-+-+">I&#x27;ll go no more a-roving</l>
+        <l n="32" real="xxxx" met="--+-">With you, fair maid:</l>
+        <l n="33" real="x+-x+-x+-xx+" met="--+-+-+-+-+-">A-roving, a-roving, since roving&#x27;s been my ruin,</l>
+        <l n="34" real="xxxxx+-xxxx" met="-+-+-+-+-+-">I&#x27;ll go no more a-roving with you, fair maid.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-penny-whistle" n="L08192">
+      <head>The Penny Whistle</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:the-penny-whistle</idno><idno type="laurel-id">L08192</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx+--+-" met="-+-+-+-+-+-">THE new moon hangs like an ivory bugle</l>
+        <l n="2" real="xx+-+-x" met="-+-+-+-">In the naked frosty blue;</l>
+        <l n="3" real="xxxxx+--+-+-" met="--+-+-+-+-+-">And the ghylls of the forest, already blackened</l>
+        <l n="4" real="x+-x+---+" met="+-+-+-+-+">By Winter, are blackened anew.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxx-+x+-" met="-+-+-+-+-+-">The brooks that cut up and increase the forest,</l>
+        <l n="6" real="xxxx+-x" met="-+-+-+-">As if they had never known</l>
+        <l n="7" real="xxx+-xx+-+-" met="-+-+-+-+-+-">The sun, are roaring with black hollow voices</l>
+        <l n="8" real="-+xxxx" met="--+-+-">Betwixt rage and a moan.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxx+-xxxx+-" met="-+-+-+-+-+-">But still the caravan-hut by the hollies</l>
+        <l n="10" real="xx+x-xxx" met="--+-+-+-">Like a kingfisher gleams between:</l>
+        <l n="11" real="xxxxxxx+x+-" met="-+-+-+-+-+-">Round the mossed old hearths of the charcoal-burners</l>
+        <l n="12" real="x+x-xxxx" met="--+-+-+-">First primroses ask to be seen.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa-a">
+        <l n="13" real="x+x+-xxxx+-" met="-+-+-+-+-+-">The charcoal-burners are black, but their linen</l>
+        <l n="14" real="xxxxx" met="-+-+-">Blows white on the line;</l>
+        <l n="15" real="xxx+-xxx+-" met="-+-+-+-+-+">And white the letter the girl is reading</l>
+        <l n="16" real="xxx+-x" met="--+-+-">Under that crescent fine;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xx+-xx-+xx+-" met="--+-+-+-+-+-">And her brother who hides apart in a thicket,</l>
+        <l n="18" real="+-x+-+-" met="-+-+-+-">Slowly and surely playing</l>
+        <l n="19" real="xx+-x+-+-+-" met="-+-+-+-+-+-">On a whistle an olden nursery melody,</l>
+        <l n="20" real="xxxxxx+-" met="--+-+-+-">Says far more than I am saying.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lights-out" n="L08193">
+      <head>Lights Out</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:lights-out</idno><idno type="laurel-id">L08193</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabccb">
+        <l n="1" real="xxxxx+-xx" met="-+-+-+-+-">I HAVE come to the borders of sleep,</l>
+        <l n="2" real="x-+---x" met="-+-+-+-">The unfathomable deep</l>
+        <l n="3" real="+-xxxx" met="-+-+-+">Forest where all must lose</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">Their way, however straight,</l>
+        <l n="5" real="x+-xxx" met="-+-+-+">Or winding, soon or late;</l>
+        <l n="6" real="x+-x" met="--+-">They cannot choose.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="7" real="+-xxxx" met="-+-+-+">Many a road and track</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">That, since the dawn&#x27;s first crack,</l>
+        <l n="9" real="xxx+-x" met="-+-+-+">Up to the forest brink,</l>
+        <l n="10" real="-+x+--" met="-+-+-+">Deceived the travellers</l>
+        <l n="11" real="+--xx" met="+-+-+">Suddenly now blurs,</l>
+        <l n="12" real="xxxx" met="--+-">And in they sink.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa----">
+        <l n="13" real="xxx" met="-+-">Here love ends,</l>
+        <l n="14" real="-+-+-x" met="-+-+-+">Despair, ambition ends,</l>
+        <l n="15" real="x+-xx+-" met="-+-+-+-">All pleasure and all trouble,</l>
+        <l n="16" real="xxxxx+-" met="-+-+-+-">Although most sweet or bitter,</l>
+        <l n="17" real="xxxxxx+-" met="--+-+-+-">Here ends in sleep that is sweeter</l>
+        <l n="18" real="xxx+-" met="+-+-+">Than tasks most noble.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabccb">
+        <l n="19" real="xxx+-x" met="-+-+-+">There is not any book</l>
+        <l n="20" real="xxx+-x" met="-+-+-+">Or face of dearest look</l>
+        <l n="21" real="xxxxxxx" met="-+-+-+-">That I would not turn from now</l>
+        <l n="22" real="xxxxx-+" met="-+-+-+-">To go into the unknown</l>
+        <l n="23" real="xx+-xx-+" met="--+-+-+-">I must enter and leave alone</l>
+        <l n="24" real="xxxx" met="--+-">I know not how.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabccb">
+        <l n="25" real="xx+-+-" met="-+-+-+">The tall forest towers;</l>
+        <l n="26" real="x+-+-+-" met="-+-+-+-">Its cloudy foliage lowers</l>
+        <l n="27" real="-+xxxx" met="-+-+-+">Ahead, shelf above shelf;</l>
+        <l n="28" real="x+-xxx-+" met="--+-+-+-">Its silence I hear and obey</l>
+        <l n="29" real="xxxxxx" met="-+-+-+">That I may lose my way</l>
+        <l n="30" real="xx+" met="-+-">And myself.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="cock-crow" n="L08194">
+      <head>Cock-Crow</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:cock-crow</idno><idno type="laurel-id">L08194</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">OUT of the wood of thoughts that grows by night</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">To be cut down by the sharp axe of light,--</l>
+        <l n="3" real="xxxxxx-+-x" met="-+-+-+-+-+">Out of the night, two cocks together crow,</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">Cleaving the darkness with a silver blow:</l>
+        <l n="5" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And bright before my eyes twin trumpeters stand,</l>
+        <l n="6" real="+-x+-xx+-x" met="-+-+-+-+-+">Heralds of splendour, one at either hand,</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">Each facing each as in a coat of arms:</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">The milkers lace their boots up at the farms.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="words" n="L08195">
+      <head>Words</head>
+      <idno type="URN">urn:laurel:eng:thomas.thomas-edward-poems.pg22423:words</idno><idno type="laurel-id">L08195</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abcbcadd---">
+        <l n="1" real="xxxx" met="-+-+">OUT of us all</l>
+        <l n="2" real="xxx" met="+-+">That make rhymes,</l>
+        <l n="3" real="xxx" met="+-+">Will you choose</l>
+        <l n="4" real="-+" met="-+">Sometimes--</l>
+        <l n="5" real="xxxx" met="-+-+">As the winds use</l>
+        <l n="6" real="xxxxx" met="-+-+-">A crack in a wall</l>
+        <l n="7" real="xxx" met="+-+">Or a drain,</l>
+        <l n="8" real="xxxxx" met="-+-+-">Their joy or their pain</l>
+        <l n="9" real="x+-x" met="-+-+">To whistle through--</l>
+        <l n="10" real="xx" met="-+">Choose me,</l>
+        <l n="11" real="x+-x" met="-+-+">You English words?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcdec-fgh-ieh---igjjadakbkfll">
+        <l n="12" real="xxx" met="+-+">I know you:</l>
+        <l n="13" real="xxxxx" met="-+-+-">You are light as dreams,</l>
+        <l n="14" real="xxx" met="+-+">Tough as oak,</l>
+        <l n="15" real="+-xx" met="-+-+">Precious as gold,</l>
+        <l n="16" real="x+-xx" met="-+-+-">As poppies and corn,</l>
+        <l n="17" real="xxxx" met="-+-+">Or an old cloak:</l>
+        <l n="18" real="xx+-x" met="-+-+-">Sweet as our birds</l>
+        <l n="19" real="xxx" met="+-+">To the ear,</l>
+        <l n="20" real="xx+-x" met="-+-+-">As the burnet rose</l>
+        <l n="21" real="xxx" met="+-+">In the heat</l>
+        <l n="22" real="x++-" met="-+-+">Of Midsummer:</l>
+        <l n="23" real="xxx+-" met="-+-+-">Strange as the races</l>
+        <l n="24" real="xxx++" met="-+-+-">Of dead and unborn:</l>
+        <l n="25" real="xxx" met="+-+">Strange and sweet</l>
+        <l n="26" real="+--" met="+-+">Equally,</l>
+        <l n="27" real="x-+-" met="-+-+">And familiar,</l>
+        <l n="28" real="xxx" met="+-+">To the eye,</l>
+        <l n="29" real="xx+-+-" met="--+-+-">As the dearest faces</l>
+        <l n="30" real="xxxx" met="-+-+">That a man knows,</l>
+        <l n="31" real="xxxxx" met="-+-+-">And as lost homes are:</l>
+        <l n="32" real="xx+-x" met="-+-+-">But though older far</l>
+        <l n="33" real="x+-x" met="-+-+">Than oldest yew,--</l>
+        <l n="34" real="x+-xxx" met="--+-+-">As our hills are, old.--</l>
+        <l n="35" real="xx" met="-+">Worn new</l>
+        <l n="36" real="-+x-+" met="-+-+-">Again and again:</l>
+        <l n="37" real="xx+-x" met="-+-+-">Young as our streams</l>
+        <l n="38" real="xxx" met="+-+">After rain:</l>
+        <l n="39" real="xxx" met="+-+">And as dear</l>
+        <l n="40" real="xxxxxx" met="--+-+-">As the earth which you prove</l>
+        <l n="41" real="xxx" met="+-+">That we love.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a---ba--b-">
+        <l n="42" real="xx+-" met="-+-+">Make me content</l>
+        <l n="43" real="xx+-" met="-+-+">With some sweetness</l>
+        <l n="44" real="xx" met="-+">From Wales</l>
+        <l n="45" real="xxxx" met="-+-+">Whose nightingales</l>
+        <l n="46" real="xxx" met="+-+">Have no wings,--</l>
+        <l n="47" real="x+xxx" met="-+-+-">From Wiltshire and Kent</l>
+        <l n="48" real="xxxxx" met="-+-+-">And Herefordshire,</l>
+        <l n="49" real="xx+--x" met="--+-+-">And the villages there,--</l>
+        <l n="50" real="xxxxxx" met="--+-+-">From the names, and the things</l>
+        <l n="51" real="xx" met="-+">No less.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abca--cb">
+        <l n="52" real="xx-+x" met="-+-+-">Let me sometimes dance</l>
+        <l n="53" real="xx" met="-+">With you,</l>
+        <l n="54" real="xx" met="-+">Or climb</l>
+        <l n="55" real="xx-+" met="-+-+">Or stand perchance</l>
+        <l n="56" real="x+--" met="-+-+">In ecstasy,</l>
+        <l n="57" real="xxx" met="+-+">Fixed and free</l>
+        <l n="58" real="xxx" met="+-+">In a rhyme,</l>
+        <l n="59" real="x+-x" met="-+-+">As poets do.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

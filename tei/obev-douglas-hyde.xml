@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>My Grief on the Sea</title><author>Douglas Hyde</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="my-grief-on-the-sea" n="L16278">
+      <head>My Grief on the Sea</head>
+      <idno type="URN">urn:laurel:eng:hyde.obev-douglas-hyde.pg66619:my-grief-on-the-sea</idno><idno type="laurel-id">L16278</idno><note type="metre">anapaestic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xx+-" met="+--+">FROM THE IRISH</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="2" real="xxxxx" met="-+--+">My grief on the sea,</l>
+        <l n="3" real="xxxxxx" met="--+--+">How the waves of it roll!</l>
+        <l n="4" real="xxxxxx" met="--+--+">For they heave between me</l>
+        <l n="5" real="xxxxxx" met="--+--+">And the love of my soul!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="6" real="-+--+-" met="--+--+">Abandon’d, forsaken,</l>
+        <l n="7" real="xxxxx" met="-+--+">To grief and to care,</l>
+        <l n="8" real="xxx++-" met="--+--+">Will the sea ever waken</l>
+        <l n="9" real="-+x-+" met="-+--+">Relief from despair?</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="10" real="xxxx+-" met="--+--+">My grief and my trouble!</l>
+        <l n="11" real="xxxxx" met="-+--+">Would he and I were,</l>
+        <l n="12" real="xx+-xxx" met="--+--+-">In the province of Leinster,</l>
+        <l n="13" real="x+-xx" met="-+--+">Or County of Clare!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="14" real="xxxx+-" met="--+--+">Were I and my darling--</l>
+        <l n="15" real="xx+-x" met="-+--+">O heart-bitter wound!--</l>
+        <l n="16" real="xxxxx" met="-+--+">On board of the ship</l>
+        <l n="17" real="x-+-x" met="-+--+">For America bound.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="18" real="xxxxx+-" met="--+--+-">On a green bed of rushes</l>
+        <l n="19" real="xxxxx" met="-+--+">All last night I lay,</l>
+        <l n="20" real="xxxx-+" met="--+--+">And I flung it abroad</l>
+        <l n="21" real="xxxxxx" met="--+--+">With the heat of the day.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="22" real="xxxxxxx" met="--+--+-">And my Love came behind me,</l>
+        <l n="23" real="xxxxx" met="-+--+">He came from the South;</l>
+        <l n="24" real="xxxx+-" met="--+--+">His breast to my bosom,</l>
+        <l n="25" real="xxxxx" met="-+--+">His mouth to my mouth.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

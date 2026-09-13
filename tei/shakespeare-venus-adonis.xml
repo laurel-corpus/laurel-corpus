@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Venus and Adonis</title><author>William Shakespeare</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Venus and Adonis. Project Gutenberg ebook #1045. <ref target="https://www.gutenberg.org/ebooks/1045">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="venus-and-adonis" n="L13538">
+      <head>Venus and Adonis</head>
+      <idno type="URN">urn:laurel:eng:shakespeare.shakespeare-venus-adonis.pg1045:venus-and-adonis</idno><idno type="laurel-id">L13538</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="+xxxx+-+-x" met="-+-+-+-+-+">Even as the sun with purple-colour’d face</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Had ta’en his last leave of the weeping morn,</l>
+        <l n="3" real="xx-+-xxxxx" met="-+-+-+-+-+">Rose-cheek’d Adonis hied him to the chase;</l>
+        <l n="4" real="+-xxxxxxxx" met="-+-+-+-+-+">Hunting he lov’d, but love he laugh’d to scorn;</l>
+        <l n="5" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Sick-thoughted Venus makes amain unto him,</l>
+        <l n="6" real="xxxxx+-xxxx" met="-+-+-+-+-+-">And like a bold-fac’d suitor ’gins to woo him.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="x+-xx+xx-+" met="-+-+-+-+-+">“Thrice fairer than myself,” thus she began,</l>
+        <l n="8" real="xxx+-xxx-+" met="-+-+-+-+-+">“The field’s chief flower, sweet above compare,</l>
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Stain to all nymphs, more lovely than a man,</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">More white and red than doves or roses are:</l>
+        <l n="11" real="+-xxxx-+xx" met="-+-+-+-+-+">Nature that made thee, with herself at strife,</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">Saith that the world hath ending with thy life.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxx+-x-+xx" met="-+-+-+-+-+">“Vouchsafe, thou wonder, to alight thy steed,</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">And rein his proud head to the saddle-bow;</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">If thou wilt deign this favour, for thy meed</l>
+        <l n="16" real="x+-+-+-xxx" met="-+-+-+-+-+">A thousand honey secrets shalt thou know:</l>
+        <l n="17" real="xxxxx+-+-+-" met="-+-+-+-+-+-">Here come and sit, where never serpent hisses,</l>
+        <l n="18" real="x+-xx+-xx+-" met="-+-+-+-+-+-">And being set, I’ll smother thee with kisses.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc">
+        <l n="19" real="xxxxxxxxxxx" met="-+-+-+-+-+-">“And yet not cloy thy lips with loath’d satiety,</l>
+        <l n="20" real="x+-xxx-+x+-" met="-+-+-+-+-+-">But rather famish them amid their plenty,</l>
+        <l n="21" real="+-xxxxxx-+-" met="-+-+-+-+-+-">Making them red, and pale, with fresh variety:</l>
+        <l n="22" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Ten kisses short as one, one long as twenty:</l>
+        <l n="23" real="x+-xxxx+xx" met="-+-+-+-+-+">A summer’s day will seem an hour but short,</l>
+        <l n="24" real="++-xxx-+-x" met="-+-+-+-+-+">Being wasted in such time-beguiling sport.”</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="ababcc">
+        <l n="25" real="xxxxxxx+-x" met="-+-+-+-+-+">With this she seizeth on his sweating palm,</l>
+        <l n="26" real="x+--xxx+-x" met="-+-+-+-+-+">The precedent of pith and livelihood,</l>
+        <l n="27" real="x+-xx+-xxx" met="-+-+-+-+-+">And trembling in her passion, calls it balm,</l>
+        <l n="28" real="x+-xxxx+-x" met="-+-+-+-+-+">Earth’s sovereign salve to do a goddess good:</l>
+        <l n="29" real="+x-+-+xxxx" met="-+-+-+-+-+">Being so enrag’d, desire doth lend her force</l>
+        <l n="30" real="-+--xxxxxx" met="-+-+-+-+-+">Courageously to pluck him from his horse.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababcc">
+        <l n="31" real="xxxxx+-xxx" met="-+-+-+-+-+">Over one arm the lusty courser’s rein,</l>
+        <l n="32" real="xxx+-xx+-x" met="-+-+-+-+-+">Under her other was the tender boy,</l>
+        <l n="33" real="xxx+-xxx-+" met="-+-+-+-+-+">Who blush’d and pouted in a dull disdain,</l>
+        <l n="34" real="x+-+-xxxxx" met="-+-+-+-+-+">With leaden appetite, unapt to toy;</l>
+        <l n="35" real="xxxxxxx+-+-" met="-+-+-+-+-+-">She red and hot as coals of glowing fire,</l>
+        <l n="36" real="xxxxx+-x-+-" met="-+-+-+-+-+-">He red for shame, but frosty in desire.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="ababcc">
+        <l n="37" real="x+-+-xx+-x" met="-+-+-+-+-+">The studded bridle on a ragged bough</l>
+        <l n="38" real="+-xxxxxxxx" met="-+-+-+-+-+">Nimbly she fastens;—O! how quick is love!—</l>
+        <l n="39" real="xxxx-xx+-x" met="-+-+-+-+-+">The steed is stalled up, and even now</l>
+        <l n="40" real="xxx+-x-+xx" met="-+-+-+-+-+">To tie the rider she begins to prove:</l>
+        <l n="41" real="+-xxxxxxxx" met="-+-+-+-+-+">Backward she push’d him, as she would be thrust,</l>
+        <l n="42" real="x+-xxxxxxx" met="-+-+-+-+-+">And govern’d him in strength, though not in lust.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="ababaa">
+        <l n="43" real="xxxx-+xxxx" met="-+-+-+-+-+">So soon was she along, as he was down,</l>
+        <l n="44" real="x+-xx+xxxx" met="-+-+-+-+-+">Each leaning on their elbows and their hips:</l>
+        <l n="45" real="xxxxxxxxxx" met="-+-+-+-+-+">Now doth she stroke his cheek, now doth he frown,</l>
+        <l n="46" real="xxxxxxxxxx" met="-+-+-+-+-+">And ’gins to chide, but soon she stops his lips,</l>
+        <l n="47" real="x+-xx+-+-+-" met="-+-+-+-+-+-">And kissing speaks, with lustful language broken,</l>
+        <l n="48" real="xxxxxxx+-+-" met="-+-+-+-+-+-">“If thou wilt chide, thy lips shall never open.”</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="ababcc">
+        <l n="49" real="xxx+-xxxxx" met="-+-+-+-+-+">He burns with bashful shame, she with her tears</l>
+        <l n="50" real="xxx+-+-xxx" met="-+-+-+-+-+">Doth quench the maiden burning of his cheeks;</l>
+        <l n="51" real="xxx+-xx+-x" met="-+-+-+-+-+">Then with her windy sighs and golden hairs</l>
+        <l n="52" real="xxxxxx-+xx" met="-+-+-+-+-+">To fan and blow them dry again she seeks.</l>
+        <l n="53" real="xxxxxxxxxx" met="-+-+-+-+-+">He saith she is immodest, blames her miss;</l>
+        <l n="54" real="x+-xx+-xxx" met="-+-+-+-+-+">What follows more, she murders with a kiss.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="----aa">
+        <l n="55" real="+xx+-+-xxx" met="-+-+-+-+-+">Even as an empty eagle, sharp by fast,</l>
+        <l n="56" real="+xxxx+-xxx" met="-+-+-+-+-+">Tires with her beak on feathers, flesh and bone,</l>
+        <l n="57" real="+-xx-+-xxx" met="-+-+-+-+-+">Shaking her wings, devouring all in haste,</l>
+        <l n="58" real="x+-xxxxxxx" met="-+-+-+-+-+">Till either gorge be stuff’d or prey be gone:</l>
+        <l n="59" real="+xxxxxxxxx" met="-+-+-+-+-+">Even so she kiss’d his brow, his cheek, his chin,</l>
+        <l n="60" real="xxxxxx-+-+" met="-+-+-+-+-+">And where she ends she doth anew begin.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="ababcc">
+        <l n="61" real="xx-+x+-x-+" met="-+-+-+-+-+">Forc’d to content, but never to obey,</l>
+        <l n="62" real="+-xxxxxxxx" met="-+-+-+-+-+">Panting he lies, and breatheth in her face.</l>
+        <l n="63" real="xxxxxxxxxx" met="-+-+-+-+-+">She feedeth on the steam, as on a prey,</l>
+        <l n="64" real="xxx+-+-xxx" met="-+-+-+-+-+">And calls it heavenly moisture, air of grace,</l>
+        <l n="65" real="+-xxx+-xx+-" met="-+-+-+-+-+-">Wishing her cheeks were gardens full of flowers</l>
+        <l n="66" real="xxxxxx-+-+-" met="-+-+-+-+-+-">So they were dew’d with such distilling showers.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="ababcc">
+        <l n="67" real="xxxxx+-xxx" met="-+-+-+-+-+">Look how a bird lies tangled in a net,</l>
+        <l n="68" real="x+-xxx-+-x" met="-+-+-+-+-+">So fasten’d in her arms Adonis lies;</l>
+        <l n="69" real="xxxx-+-xxx" met="-+-+-+-+-+">Pure shame and aw’d resistance made him fret,</l>
+        <l n="70" real="xxx+-xx+-x" met="-+-+-+-+-+">Which bred more beauty in his angry eyes:</l>
+        <l n="71" real="x+-xx+-xxx" met="-+-+-+-+-+">Rain added to a river that is rank</l>
+        <l n="72" real="-+xxx+-xxx" met="-+-+-+-+-+">Perforce will force it overflow the bank.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="ababcc">
+        <l n="73" real="xxxxxxxxxx" met="-+-+-+-+-+">Still she entreats, and prettily entreats,</l>
+        <l n="74" real="xxx+-xxxxx" met="-+-+-+-+-+">For to a pretty ear she tunes her tale.</l>
+        <l n="75" real="xxx+-xxxxx" met="-+-+-+-+-+">Still is he sullen, still he lours and frets,</l>
+        <l n="76" real="x+-xx+-+-x" met="-+-+-+-+-+">’Twixt crimson shame and anger ashy pale;</l>
+        <l n="77" real="+xxxxxx+-x" met="-+-+-+-+-+">Being red she loves him best, and being white,</l>
+        <l n="78" real="xxx+-xxx-+" met="-+-+-+-+-+">Her best is better’d with a more delight.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="ababcc">
+        <l n="79" real="xxxxx+-xxx" met="-+-+-+-+-+">Look how he can, she cannot choose but love;</l>
+        <l n="80" real="xxxx-+-xxx" met="-+-+-+-+-+">And by her fair immortal hand she swears,</l>
+        <l n="81" real="xxx+-+-x-+" met="-+-+-+-+-+">From his soft bosom never to remove,</l>
+        <l n="82" real="xxxxxx-+-x" met="-+-+-+-+-+">Till he take truce with her contending tears,</l>
+        <l n="83" real="xxxx+-xxxx" met="-+-+-+-+-+">Which long have rain’d, making her cheeks all wet;</l>
+        <l n="84" real="xxxxxxx+-x" met="-+-+-+-+-+">And one sweet kiss shall pay this countless debt.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="ababcc">
+        <l n="85" real="xxx+-xxxxx" met="-+-+-+-+-+">Upon this promise did he raise his chin,</l>
+        <l n="86" real="xxx+-+-xxx" met="-+-+-+-+-+">Like a dive-dapper peering through a wave,</l>
+        <l n="87" real="x+-xxxx+-x" met="-+-+-+-+-+">Who, being look’d on, ducks as quickly in;</l>
+        <l n="88" real="x+-xxxxxxx" met="-+-+-+-+-+">So offers he to give what she did crave,</l>
+        <l n="89" real="xxxxx+-xxx" met="-+-+-+-+-+">But when her lips were ready for his pay,</l>
+        <l n="90" real="xxxxxx-+-x" met="-+-+-+-+-+">He winks, and turns his lips another way.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="ababcc">
+        <l n="91" real="+-x+--x+-x" met="-+-+-+-+-+">Never did passenger in summer’s heat</l>
+        <l n="92" real="xxxxxxxxxx" met="-+-+-+-+-+">More thirst for drink than she for this good turn.</l>
+        <l n="93" real="xxxxxxx+-x" met="-+-+-+-+-+">Her help she sees, but help she cannot get;</l>
+        <l n="94" real="xxx+-xx+xx" met="-+-+-+-+-+">She bathes in water, yet her fire must burn:</l>
+        <l n="95" real="x+-xxxx+-x" met="-+-+-+-+-+">“O! pity,” ’gan she cry, “flint-hearted boy,</l>
+        <l n="96" real="xxxxxxxxxx" met="-+-+-+-+-+">’Tis but a kiss I beg; why art thou coy?</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="ababcc">
+        <l n="97" real="xxxxxxxxxx" met="-+-+-+-+-+">“I have been woo’d as I entreat thee now,</l>
+        <l n="98" real="+xxxxxxxxxx" met="-+-+-+-+-+-">Even by the stern and direful god of war,</l>
+        <l n="99" real="x+-xx+-xxx" met="-+-+-+-+-+">Whose sinewy neck in battle ne’er did bow,</l>
+        <l n="100" real="x+-xxxx+-x" met="-+-+-+-+-+">Who conquers where he comes in every jar;</l>
+        <l n="101" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet hath he been my captive and my slave,</l>
+        <l n="102" real="xxxxxxxxxx" met="-+-+-+-+-+">And begg’d for that which thou unask’d shalt have.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="ababcc">
+        <l n="103" real="xxx+-xxxxx" met="-+-+-+-+-+">“Over my altars hath he hung his lance,</l>
+        <l n="104" real="x+-xxx-+-x" met="-+-+-+-+-+">His batter’d shield, his uncontrolled crest,</l>
+        <l n="105" real="xxxxxxxxxx" met="-+-+-+-+-+">And for my sake hath learn’d to sport and dance,</l>
+        <l n="106" real="xxx+-+-xxx" met="-+-+-+-+-+">To toy, to wanton, dally, smile, and jest;</l>
+        <l n="107" real="xxx+-xx+-x" met="-+-+-+-+-+">Scorning his churlish drum and ensign red</l>
+        <l n="108" real="+-xxxxxxxx" met="-+-+-+-+-+">Making my arms his field, his tent my bed.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="ababcc">
+        <l n="109" real="xxxx-+xxxx" met="-+-+-+-+-+">“Thus he that overrul’d I oversway’d,</l>
+        <l n="110" real="+-x+-xxxxx" met="-+-+-+-+-+">Leading him prisoner in a red rose chain:</l>
+        <l n="111" real="x+-xx+-x-+" met="-+-+-+-+-+">Strong-temper’d steel his stronger strength obey’d,</l>
+        <l n="112" real="xxx+-xxx-+" met="-+-+-+-+-+">Yet was he servile to my coy disdain.</l>
+        <l n="113" real="xxxxxxxxxx" met="-+-+-+-+-+">Oh be not proud, nor brag not of thy might,</l>
+        <l n="114" real="xxxxxxxxxx" met="-+-+-+-+-+">For mast’ring her that foil’d the god of fight.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="ababcc">
+        <l n="115" real="xxxxxxxxxx" met="-+-+-+-+-+">“Touch but my lips with those fair lips of thine,</l>
+        <l n="116" real="xxxxxxxxxx" met="-+-+-+-+-+">Though mine be not so fair, yet are they red,</l>
+        <l n="117" real="xxxxxxxxxx" met="-+-+-+-+-+">The kiss shall be thine own as well as mine:</l>
+        <l n="118" real="xxxxxxxxxx" met="-+-+-+-+-+">What see’st thou in the ground? hold up thy head,</l>
+        <l n="119" real="xxx+xxx+-x" met="-+-+-+-+-+">Look in mine eyeballs, there thy beauty lies;</l>
+        <l n="120" real="xxxxxxxxxx" met="-+-+-+-+-+">Then why not lips on lips, since eyes in eyes?</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="ababcc">
+        <l n="121" real="xx-+xxxx-+" met="-+-+-+-+-+">“Art thou asham’d to kiss? then wink again,</l>
+        <l n="122" real="xxxxxxxxxx" met="-+-+-+-+-+">And I will wink; so shall the day seem night.</l>
+        <l n="123" real="xxx+-xxxxx" met="-+-+-+-+-+">Love keeps his revels where there are but twain;</l>
+        <l n="124" real="xxxx+xxxxx" met="-+-+-+-+-+">Be bold to play, our sport is not in sight,</l>
+        <l n="125" real="xxx+--xxxx" met="-+-+-+-+-+">These blue-vein’d violets whereon we lean</l>
+        <l n="126" real="+-xxxxxxxx" met="-+-+-+-+-+">Never can blab, nor know not what we mean.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="ababcc">
+        <l n="127" real="x+-xxxx+-x" met="-+-+-+-+-+">“The tender spring upon thy tempting lip</l>
+        <l n="128" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Shows thee unripe; yet mayst thou well be tasted,</l>
+        <l n="129" real="xxxxxx-+-x" met="-+-+-+-+-+">Make use of time, let not advantage slip;</l>
+        <l n="130" real="+-xx-+xxx+-" met="-+-+-+-+-+-">Beauty within itself should not be wasted,</l>
+        <l n="131" real="x+xxx+-xxx" met="-+-+-+-+-+">Fair flowers that are not gather’d in their prime</l>
+        <l n="132" real="xx-+-+x+-x" met="-+-+-+-+-+">Rot, and consume themselves in little time.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="ababcc">
+        <l n="133" real="xxxxxxx+-x" met="-+-+-+-+-+">“Were I hard-favour’d, foul, or wrinkled old,</l>
+        <l n="134" real="x+-+-+-xxx" met="-+-+-+-+-+">Ill-nurtur’d, crooked, churlish, harsh in voice,</l>
+        <l n="135" real="xx-+--+-xx" met="-+-+-+-+-+">O’erworn, despised, rheumatic, and cold,</l>
+        <l n="136" real="x+-+-xx+-x" met="-+-+-+-+-+">Thick-sighted, barren, lean, and lacking juice,</l>
+        <l n="137" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Then mightst thou pause, for then I were not for thee;</l>
+        <l n="138" real="x+-x-+xx-+x" met="-+-+-+-+-+-">But having no defects, why dost abhor me?</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="-a-abb">
+        <l n="139" real="xxxxx+-xxx" met="-+-+-+-+-+">“Thou canst not see one wrinkle in my brow,</l>
+        <l n="140" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Mine eyes are grey and bright, and quick in turning;</l>
+        <l n="141" real="x+-xxxx+-x" met="-+-+-+-+-+">My beauty as the spring doth yearly grow,</l>
+        <l n="142" real="xxxxxxx+-+-" met="-+-+-+-+-+-">My flesh is soft and plump, my marrow burning,</l>
+        <l n="143" real="xxxxxxxxxx" met="-+-+-+-+-+">My smooth moist hand, were it with thy hand felt,</l>
+        <l n="144" real="xxxx-+xxxx" met="-+-+-+-+-+">Would in thy palm dissolve, or seem to melt.</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="ababcc">
+        <l n="145" real="xx+-xx-+xx" met="-+-+-+-+-+">“Bid me discourse, I will enchant thine ear,</l>
+        <l n="146" real="xxx+-xxxxx" met="-+-+-+-+-+">Or like a fairy, trip upon the green,</l>
+        <l n="147" real="xxxxxxxxxx" met="-+-+-+-+-+">Or like a nymph, with long dishevell’d hair,</l>
+        <l n="148" real="xxxxxxx+-x" met="-+-+-+-+-+">Dance on the sands, and yet no footing seen.</l>
+        <l n="149" real="xxx+-x-+x+-" met="-+-+-+-+-+-">Love is a spirit all compact of fire,</l>
+        <l n="150" real="xxxxxxxx-+" met="-+-+-+-+-+">Not gross to sink, but light, and will aspire.</l>
+      </lg>
+      <lg type="stanza" n="26" rhyme="ababbb">
+        <l n="151" real="+-x+xxxxxx" met="-+-+-+-+-+">“Witness this primrose bank whereon I lie:</l>
+        <l n="152" real="xxxx+x+-x-+x" met="--+-+-+-+-+-">These forceless flowers like sturdy trees support me;</l>
+        <l n="153" real="xxxxxxxxxx" met="-+-+-+-+-+">Two strengthless doves will draw me through the sky,</l>
+        <l n="154" real="xxxx+xxxxxx" met="-+-+-+-+-+-">From morn till night, even where I list to sport me.</l>
+        <l n="155" real="xxxxxxxxxx" met="-+-+-+-+-+">Is love so light, sweet boy, and may it be</l>
+        <l n="156" real="xxxxx+-xxx" met="-+-+-+-+-+">That thou shouldst think it heavy unto thee?</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="ababcc">
+        <l n="157" real="xxxxxxxx-+-" met="-+-+-+-+-+-">“Is thine own heart to thine own face affected?</l>
+        <l n="158" real="xxxxxxxxxx" met="-+-+-+-+-+">Can thy right hand seize love upon thy left?</l>
+        <l n="159" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Then woo thyself, be of thyself rejected,</l>
+        <l n="160" real="xxx+-x-+xx" met="-+-+-+-+-+">Steal thine own freedom, and complain on theft.</l>
+        <l n="161" real="-+-x-+-+-+" met="-+-+-+-+-+">Narcissus so himself himself forsook,</l>
+        <l n="162" real="xxxxx+xxxx" met="-+-+-+-+-+">And died to kiss his shadow in the brook.</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="ababcc">
+        <l n="163" real="+-xxxx+-xx" met="-+-+-+-+-+">“Torches are made to light, jewels to wear,</l>
+        <l n="164" real="xxxx+-xxx" met="+-+-+-+-+">Dainties to taste, fresh beauty for the use,</l>
+        <l n="165" real="xxxxxxxxxx" met="-+-+-+-+-+">Herbs for their smell, and sappy plants to bear;</l>
+        <l n="166" real="x+-x-+xx-+" met="-+-+-+-+-+">Things growing to themselves are growth’s abuse,</l>
+        <l n="167" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Seeds spring from seeds, and beauty breedeth beauty;</l>
+        <l n="168" real="xx-+xxxxx+-" met="-+-+-+-+-+-">Thou wast begot; to get it is thy duty.</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="ababcc">
+        <l n="169" real="xxxx-+xxxx" met="-+-+-+-+-+">“Upon the earth’s increase why shouldst thou feed,</l>
+        <l n="170" real="xxxxxx-+xx" met="-+-+-+-+-+">Unless the earth with thy increase be fed?</l>
+        <l n="171" real="xxx+-xxxxx" met="-+-+-+-+-+">By law of nature thou art bound to breed,</l>
+        <l n="172" real="xxxxxxxxxx" met="-+-+-+-+-+">That thine may live when thou thyself art dead;</l>
+        <l n="173" real="xxxxxxxx-+" met="-+-+-+-+-+">And so in spite of death thou dost survive,</l>
+        <l n="174" real="xxx+-xxx-+" met="-+-+-+-+-+">In that thy likeness still is left alive.”</l>
+      </lg>
+      <lg type="stanza" n="30" rhyme="ababcc">
+        <l n="175" real="xxxxxx-+xx" met="-+-+-+-+-+">By this the love-sick queen began to sweat,</l>
+        <l n="176" real="xxxxx+xx-+x" met="-+-+-+-+-+-">For where they lay the shadow had forsook them,</l>
+        <l n="177" real="x+-+-xx+xx" met="-+-+-+-+-+">And Titan, tired in the midday heat,</l>
+        <l n="178" real="x+-xx+-+-xx" met="-+-+-+-+-+-">With burning eye did hotly overlook them,</l>
+        <l n="179" real="+--+-xxxxx" met="-+-+-+-+-+">Wishing Adonis had his team to guide,</l>
+        <l n="180" real="xxxxxxx+-x" met="-+-+-+-+-+">So he were like him and by Venus’ side.</l>
+      </lg>
+      <lg type="stanza" n="31" rhyme="ababcc">
+        <l n="181" real="xx-+-xx+-x" met="-+-+-+-+-+">And now Adonis with a lazy spright,</l>
+        <l n="182" real="xxx+-x-+-x" met="-+-+-+-+-+">And with a heavy, dark, disliking eye,</l>
+        <l n="183" real="x+-xxxxxxx" met="-+-+-+-+-+">His louring brows o’erwhelming his fair sight,</l>
+        <l n="184" real="x+-+-xxxxx" met="-+-+-+-+-+">Like misty vapours when they blot the sky,</l>
+        <l n="185" real="+-xxxxxxxx" met="-+-+-+-+-+">Souring his cheeks, cries, “Fie, no more of love:</l>
+        <l n="186" real="xxxxxxxx-+" met="-+-+-+-+-+">The sun doth burn my face; I must remove.”</l>
+      </lg>
+      <lg type="stanza" n="32" rhyme="ababcc">
+        <l n="187" real="xxx+-xxx-+" met="-+-+-+-+-+">“Ay me,” quoth Venus, “young, and so unkind!</l>
+        <l n="188" real="xx-+-xxxxx" met="-+-+-+-+-+">What bare excuses mak’st thou to be gone!</l>
+        <l n="189" real="xx-+-xx+-x" met="-+-+-+-+-+">I’ll sigh celestial breath, whose gentle wind</l>
+        <l n="190" real="xxxxxx-+-x" met="-+-+-+-+-+">Shall cool the heat of this descending sun:</l>
+        <l n="191" real="xxx+xxxxxx" met="-+-+-+-+-+">I’ll make a shadow for thee of my hairs;</l>
+        <l n="192" real="xxxxxxxxxx" met="-+-+-+-+-+">If they burn too, I’ll quench them with my tears.</l>
+      </lg>
+      <lg type="stanza" n="33" rhyme="ababcc">
+        <l n="193" real="xxxxx+-xxx" met="-+-+-+-+-+">“The sun that shines from heaven shines but warm,</l>
+        <l n="194" real="xxxxxxxxxx" met="-+-+-+-+-+">And lo I lie between that sun and thee:</l>
+        <l n="195" real="xxxxxxx+-x" met="-+-+-+-+-+">The heat I have from thence doth little harm,</l>
+        <l n="196" real="xxxxx+xxxx" met="-+-+-+-+-+">Thine eye darts forth the fire that burneth me;</l>
+        <l n="197" real="xxxx-+-xxx" met="-+-+-+-+-+">And were I not immortal, life were done,</l>
+        <l n="198" real="xxx+--x+-x" met="-+-+-+-+-+">Between this heavenly and earthly sun.</l>
+      </lg>
+      <lg type="stanza" n="34" rhyme="ababcc">
+        <l n="199" real="xx+--+-xxx" met="-+-+-+-+-+">“Art thou obdurate, flinty, hard as steel?</l>
+        <l n="200" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Nay more than flint, for stone at rain relenteth:</l>
+        <l n="201" real="xxx+-xxxxx" met="-+-+-+-+-+">Art thou a woman’s son and canst not feel</l>
+        <l n="202" real="xxxxxxxxxxx" met="-+-+-+-+-+-">What ’tis to love, how want of love tormenteth?</l>
+        <l n="203" real="xxx+-xxxxx" met="-+-+-+-+-+">O had thy mother borne so hard a mind,</l>
+        <l n="204" real="xxxxxxxx-+" met="-+-+-+-+-+">She had not brought forth thee, but died unkind.</l>
+      </lg>
+      <lg type="stanza" n="35" rhyme="ababcc">
+        <l n="205" real="xxxxxxxxxx" met="-+-+-+-+-+">“What am I that thou shouldst contemn me this?</l>
+        <l n="206" real="xxx+-xxxxx" met="-+-+-+-+-+">Or what great danger dwells upon my suit?</l>
+        <l n="207" real="xxxxxxxxxx" met="-+-+-+-+-+">What were thy lips the worse for one poor kiss?</l>
+        <l n="208" real="xxxxxxxxxx" met="-+-+-+-+-+">Speak, fair; but speak fair words, or else be mute:</l>
+        <l n="209" real="xxxxxxxx-+" met="-+-+-+-+-+">Give me one kiss, I’ll give it thee again,</l>
+        <l n="210" real="xxxxxxxxxx" met="-+-+-+-+-+">And one for int’rest, if thou wilt have twain.</l>
+      </lg>
+      <lg type="stanza" n="36" rhyme="ababcc">
+        <l n="211" real="x+-+-xx+-x" met="-+-+-+-+-+">“Fie, lifeless picture, cold and senseless stone,</l>
+        <l n="212" real="x+-+-+-xxx" met="-+-+-+-+-+">Well-painted idol, image dull and dead,</l>
+        <l n="213" real="+xxxxxxx-+" met="-+-+-+-+-+">Statue contenting but the eye alone,</l>
+        <l n="214" real="xxxxxxx+-x" met="-+-+-+-+-+">Thing like a man, but of no woman bred:</l>
+        <l n="215" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Thou art no man, though of a man’s complexion,</l>
+        <l n="216" real="xxxx+xxx-+-" met="-+-+-+-+-+-">For men will kiss even by their own direction.”</l>
+      </lg>
+      <lg type="stanza" n="37" rhyme="-a-a--">
+        <l n="217" real="xx-+-xx+-x" met="-+-+-+-+-+">This said, impatience chokes her pleading tongue,</l>
+        <l n="218" real="x+-+-x-+xx" met="-+-+-+-+-+">And swelling passion doth provoke a pause;</l>
+        <l n="219" real="xxx+-xxxxx" met="-+-+-+-+-+">Red cheeks and fiery eyes blaze forth her wrong;</l>
+        <l n="220" real="+xxxx-+xxx" met="-+-+-+-+-+">Being judge in love, she cannot right her cause.</l>
+        <l n="221" real="xxxxxxxxxx" met="-+-+-+-+-+">And now she weeps, and now she fain would speak,</l>
+        <l n="222" real="xxxxxxxxxx" met="-+-+-+-+-+">And now her sobs do her intendments break.</l>
+      </lg>
+      <lg type="stanza" n="38" rhyme="ababcc">
+        <l n="223" real="-+xxxxxxxx" met="-+-+-+-+-+">Sometimes she shakes her head, and then his hand,</l>
+        <l n="224" real="xxxxxxxxxx" met="-+-+-+-+-+">Now gazeth she on him, now on the ground;</l>
+        <l n="225" real="-+xxxxxxxx" met="-+-+-+-+-+">Sometimes her arms infold him like a band:</l>
+        <l n="226" real="xxxxxxxxxx" met="-+-+-+-+-+">She would, he will not in her arms be bound;</l>
+        <l n="227" real="xxxxx+-xxx" met="-+-+-+-+-+">And when from thence he struggles to be gone,</l>
+        <l n="228" real="xxx+-+-xxx" met="-+-+-+-+-+">She locks her lily fingers one in one.</l>
+      </lg>
+      <lg type="stanza" n="39" rhyme="ababcc">
+        <l n="229" real="+-xxxxxxxx" met="-+-+-+-+-+">“Fondling,” she saith, “since I have hemm’d thee here</l>
+        <l n="230" real="xxx+-xx+-x" met="-+-+-+-+-+">Within the circuit of this ivory pale,</l>
+        <l n="231" real="xxxxxxxxxx" met="-+-+-+-+-+">I’ll be a park, and thou shalt be my deer;</l>
+        <l n="232" real="xxxxx+-xxx" met="-+-+-+-+-+">Feed where thou wilt, on mountain or in dale:</l>
+        <l n="233" real="xxxxxxxxxx" met="-+-+-+-+-+">Graze on my lips, and if those hills be dry,</l>
+        <l n="234" real="x+-xx+-+-x" met="-+-+-+-+-+">Stray lower, where the pleasant fountains lie.</l>
+      </lg>
+      <lg type="stanza" n="40" rhyme="ababcc">
+        <l n="235" real="xxx+-x-+-+" met="-+-+-+-+-+">“Within this limit is relief enough,</l>
+        <l n="236" real="x+-xxx-+-x" met="-+-+-+-+-+">Sweet bottom grass and high delightful plain,</l>
+        <l n="237" real="x+-xxx-+xx" met="-+-+-+-+-+">Round rising hillocks, brakes obscure and rough,</l>
+        <l n="238" real="x+-xx+-xxx" met="-+-+-+-+-+">To shelter thee from tempest and from rain:</l>
+        <l n="239" real="xxxxxxxxxx" met="-+-+-+-+-+">Then be my deer, since I am such a park,</l>
+        <l n="240" real="xxxxxxx+-x" met="-+-+-+-+-+">No dog shall rouse thee, though a thousand bark.”</l>
+      </lg>
+      <lg type="stanza" n="41" rhyme="ababcc">
+        <l n="241" real="xx-+-xxx-+" met="-+-+-+-+-+">At this Adonis smiles as in disdain,</l>
+        <l n="242" real="xxxx-+x+-+-" met="-+-+-+-+-+-">That in each cheek appears a pretty dimple;</l>
+        <l n="243" real="xxx+-x-+xx" met="-+-+-+-+-+">Love made those hollows, if himself were slain,</l>
+        <l n="244" real="xxx+-xxxx+-" met="-+-+-+-+-+-">He might be buried in a tomb so simple;</l>
+        <l n="245" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Foreknowing well, if there he came to lie,</l>
+        <l n="246" real="xxxxxxxxxx" met="-+-+-+-+-+">Why there love liv’d, and there he could not die.</l>
+      </lg>
+      <lg type="stanza" n="42" rhyme="ababcc">
+        <l n="247" real="x+-xxx-+-x" met="-+-+-+-+-+">These lovely caves, these round enchanting pits,</l>
+        <l n="248" real="+-xxx+-+-+-" met="-+-+-+-+-+-">Open’d their mouths to swallow Venus’ liking.</l>
+        <l n="249" real="+xxxxxxxxx" met="-+-+-+-+-+">Being mad before, how doth she now for wits?</l>
+        <l n="250" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Struck dead at first, what needs a second striking?</l>
+        <l n="251" real="xxxxxxxx-+" met="-+-+-+-+-+">Poor queen of love, in thine own law forlorn,</l>
+        <l n="252" real="xxxxxxxxxx" met="-+-+-+-+-+">To love a cheek that smiles at thee in scorn!</l>
+      </lg>
+      <lg type="stanza" n="43" rhyme="ababcc">
+        <l n="253" real="xxxxxxxxxx" met="-+-+-+-+-+">Now which way shall she turn? what shall she say?</l>
+        <l n="254" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Her words are done, her woes the more increasing;</l>
+        <l n="255" real="xxxxx+-x-+" met="-+-+-+-+-+">The time is spent, her object will away,</l>
+        <l n="256" real="xxx+-xxx-+-" met="-+-+-+-+-+-">And from her twining arms doth urge releasing:</l>
+        <l n="257" real="+-xxx+-x-+" met="-+-+-+-+-+">“Pity,” she cries; “some favour, some remorse!”</l>
+        <l n="258" real="-+xxxxxxxx" met="-+-+-+-+-+">Away he springs, and hasteth to his horse.</l>
+      </lg>
+      <lg type="stanza" n="44" rhyme="ab-baa">
+        <l n="259" real="xxxxxxx+-x" met="-+-+-+-+-+">But lo from forth a copse that neighbours by,</l>
+        <l n="260" real="x+-xx+-xxx" met="-+-+-+-+-+">A breeding jennet, lusty, young, and proud,</l>
+        <l n="261" real="-+-+-+-x+-" met="-+-+-+-+-+">Adonis’ tramping courser doth espy,</l>
+        <l n="262" real="xxx+-xxx-+" met="-+-+-+-+-+">And forth she rushes, snorts and neighs aloud:</l>
+        <l n="263" real="xxxx+xxxxx" met="-+-+-+-+-+">The strong-neck’d steed, being tied unto a tree,</l>
+        <l n="264" real="xxxxxxxxxx" met="-+-+-+-+-+">Breaketh his rein, and to her straight goes he.</l>
+      </lg>
+      <lg type="stanza" n="45" rhyme="-a-a--">
+        <l n="265" real="xxxxxxxxxx" met="-+-+-+-+-+">Imperiously he leaps, he neighs, he bounds,</l>
+        <l n="266" real="xxx+-xxx-+-" met="-+-+-+-+-+-">And now his woven girths he breaks asunder;</l>
+        <l n="267" real="x+-xxxxxxx" met="-+-+-+-+-+">The bearing earth with his hard hoof he wounds,</l>
+        <l n="268" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Whose hollow womb resounds like heaven’s thunder;</l>
+        <l n="269" real="x+-xxxxxxx" met="-+-+-+-+-+">The iron bit he crusheth ’tween his teeth,</l>
+        <l n="270" real="-+-xxx-+-x" met="-+-+-+-+-+">Controlling what he was controlled with.</l>
+      </lg>
+      <lg type="stanza" n="46" rhyme="ababcc">
+        <l n="271" real="xxxxx+-+-x" met="-+-+-+-+-+">His ears up-prick’d; his braided hanging mane</l>
+        <l n="272" real="xxxxxxxxxx" met="-+-+-+-+-+">Upon his compass’d crest now stand on end;</l>
+        <l n="273" real="x+-xxxxx-+" met="-+-+-+-+-+">His nostrils drink the air, and forth again,</l>
+        <l n="274" real="xxx+-+-xxx" met="-+-+-+-+-+">As from a furnace, vapours doth he send:</l>
+        <l n="275" real="xxxxxxxxx+-" met="-+-+-+-+-+-">His eye, which scornfully glisters like fire,</l>
+        <l n="276" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Shows his hot courage and his high desire.</l>
+      </lg>
+      <lg type="stanza" n="47" rhyme="ababcc">
+        <l n="277" real="+xxxxxxxxx" met="-+-+-+-+-+">Sometime he trots, as if he told the steps,</l>
+        <l n="278" real="x+-+--x+-x" met="-+-+-+-+-+">With gentle majesty and modest pride;</l>
+        <l n="279" real="xxxx-+xxxx" met="-+-+-+-+-+">Anon he rears upright, curvets and leaps,</l>
+        <l n="280" real="xxxxxxxxxx" met="-+-+-+-+-+">As who should say, “Lo thus my strength is tried;</l>
+        <l n="281" real="xxxxx+-xxx" met="-+-+-+-+-+">And this I do to captivate the eye</l>
+        <l n="282" real="xxx+-xx+-x" met="-+-+-+-+-+">Of the fair breeder that is standing by.”</l>
+      </lg>
+      <lg type="stanza" n="48" rhyme="ababcc">
+        <l n="283" real="xxxxx+-+-x" met="-+-+-+-+-+">What recketh he his rider’s angry stir,</l>
+        <l n="284" real="x+-xxxxxxx" met="-+-+-+-+-+">His flattering “Holla”, or his “Stand, I say”?</l>
+        <l n="285" real="xxxxxxxxxx" met="-+-+-+-+-+">What cares he now for curb or pricking spur?</l>
+        <l n="286" real="xxxxxxx+-x" met="-+-+-+-+-+">For rich caparisons or trappings gay?</l>
+        <l n="287" real="xxxxx+-xxx" met="-+-+-+-+-+">He sees his love, and nothing else he sees,</l>
+        <l n="288" real="x+-xxxxx-+" met="-+-+-+-+-+">For nothing else with his proud sight agrees.</l>
+      </lg>
+      <lg type="stanza" n="49" rhyme="ababcc">
+        <l n="289" real="xxx+-x-+xx" met="-+-+-+-+-+">Look when a painter would surpass the life,</l>
+        <l n="290" real="xxxxxx-+-x" met="-+-+-+-+-+">In limning out a well-proportion’d steed,</l>
+        <l n="291" real="xxx+-+-xxx" met="-+-+-+-+-+">His art with nature’s workmanship at strife,</l>
+        <l n="292" real="xxxxx+-x-+" met="-+-+-+-+-+">As if the dead the living should exceed:</l>
+        <l n="293" real="xxxx-+x+-x" met="-+-+-+-+-+">So did this horse excel a common one,</l>
+        <l n="294" real="xxx+-+-xxx" met="-+-+-+-+-+">In shape, in courage, colour, pace and bone.</l>
+      </lg>
+      <lg type="stanza" n="50" rhyme="ababcc">
+        <l n="295" real="xxx+-xxxxx" met="-+-+-+-+-+">Round-hoof’d, short-jointed, fetlocks shag and long,</l>
+        <l n="296" real="xxxxxxx+-x" met="-+-+-+-+-+">Broad breast, full eye, small head, and nostril wide,</l>
+        <l n="297" real="xxxxxxx+-x" met="-+-+-+-+-+">High crest, short ears, straight legs and passing strong,</l>
+        <l n="298" real="xxxxx+-+-x" met="-+-+-+-+-+">Thin mane, thick tail, broad buttock, tender hide:</l>
+        <l n="299" real="xxxxxxxxxx" met="-+-+-+-+-+">Look, what a horse should have he did not lack,</l>
+        <l n="300" real="xxx+-xxxxx" met="-+-+-+-+-+">Save a proud rider on so proud a back.</l>
+      </lg>
+      <lg type="stanza" n="51" rhyme="ababcc">
+        <l n="301" real="-+xxxxxxxx" met="-+-+-+-+-+">Sometimes he scuds far off, and there he stares;</l>
+        <l n="302" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Anon he starts at stirring of a feather:</l>
+        <l n="303" real="xxxxxxxx-+" met="-+-+-+-+-+">To bid the wind a base he now prepares,</l>
+        <l n="304" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And where he run or fly they know not whether;</l>
+        <l n="305" real="xxxxxxxxxx" met="-+-+-+-+-+">For through his mane and tail the high wind sings,</l>
+        <l n="306" real="+-xxxxx+-x" met="-+-+-+-+-+">Fanning the hairs, who wave like feather’d wings.</l>
+      </lg>
+      <lg type="stanza" n="52" rhyme="ababcc">
+        <l n="307" real="xxxxxxxxxxx" met="-+-+-+-+-+-">He looks upon his love, and neighs unto her;</l>
+        <l n="308" real="x+-xxxxxxx" met="-+-+-+-+-+">She answers him as if she knew his mind,</l>
+        <l n="309" real="+xx+xxxxxxx" met="-+-+-+-+-+-">Being proud, as females are, to see him woo her,</l>
+        <l n="310" real="xxx+-+-x-+" met="-+-+-+-+-+">She puts on outward strangeness, seems unkind,</l>
+        <l n="311" real="xxxxxxxxxx" met="-+-+-+-+-+">Spurns at his love and scorns the heat he feels,</l>
+        <l n="312" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Beating his kind embracements with her heels.</l>
+      </lg>
+      <lg type="stanza" n="53" rhyme="ababcc">
+        <l n="313" real="xxx+-x-x-+" met="-+-+-+-+-+">Then like a melancholy malcontent,</l>
+        <l n="314" real="xxxxxxx+-x" met="-+-+-+-+-+">He vails his tail that like a falling plume,</l>
+        <l n="315" real="x+xxx+-+-x" met="-+-+-+-+-+">Cool shadow to his melting buttock lent:</l>
+        <l n="316" real="xxxxxxxxxx" met="-+-+-+-+-+">He stamps, and bites the poor flies in his fume.</l>
+        <l n="317" real="xx-+-xxx-+" met="-+-+-+-+-+">His love, perceiving how he was enrag’d,</l>
+        <l n="318" real="x+-xx+-x-+" met="-+-+-+-+-+">Grew kinder, and his fury was assuag’d.</l>
+      </lg>
+      <lg type="stanza" n="54" rhyme="ababcc">
+        <l n="319" real="x+-+-xxxxxx" met="-+-+-+-+-+-">His testy master goeth about to take him,</l>
+        <l n="320" real="xxxxx+-xxx" met="-+-+-+-+-+">When lo the unback’d breeder, full of fear,</l>
+        <l n="321" real="+-x+-+-x-+x" met="-+-+-+-+-+-">Jealous of catching, swiftly doth forsake him,</l>
+        <l n="322" real="xxxxxx-+-x" met="-+-+-+-+-+">With her the horse, and left Adonis there:</l>
+        <l n="323" real="xxxxxxxxxxx" met="-+-+-+-+-+-">As they were mad, unto the wood they hie them,</l>
+        <l n="324" real="-+-xxxxx-+x" met="-+-+-+-+-+-">Outstripping crows that strive to overfly them.</l>
+      </lg>
+      <lg type="stanza" n="55" rhyme="a-a---">
+        <l n="325" real="xxx+-x-+-x" met="-+-+-+-+-+">All swoln with chafing, down Adonis sits,</l>
+        <l n="326" real="+-x+-x-+-x" met="-+-+-+-+-+">Banning his boisterous and unruly beast;</l>
+        <l n="327" real="xxx+-+-xxx" met="-+-+-+-+-+">And now the happy season once more fits</l>
+        <l n="328" real="xxxxx+-xxx" met="-+-+-+-+-+">That love-sick love by pleading may be blest;</l>
+        <l n="329" real="x+-xxxx+-x" met="-+-+-+-+-+">For lovers say, the heart hath treble wrong,</l>
+        <l n="330" real="xxxxxxxxxx" met="-+-+-+-+-+">When it is barr’d the aidance of the tongue.</l>
+      </lg>
+      <lg type="stanza" n="56" rhyme="ababcc">
+        <l n="331" real="x+-xxxx+-x" met="-+-+-+-+-+">An oven that is stopp’d, or river stay’d,</l>
+        <l n="332" real="xxx+-xxxxx" met="-+-+-+-+-+">Burneth more hotly, swelleth with more rage:</l>
+        <l n="333" real="xx-+-+-xxx" met="-+-+-+-+-+">So of concealed sorrow may be said,</l>
+        <l n="334" real="xxxxx+-x-+" met="-+-+-+-+-+">Free vent of words love’s fire doth assuage;</l>
+        <l n="335" real="xxxx-+-xxx" met="-+-+-+-+-+">But when the heart’s attorney once is mute,</l>
+        <l n="336" real="x+-xx+-xxx" met="-+-+-+-+-+">The client breaks, as desperate in his suit.</l>
+      </lg>
+      <lg type="stanza" n="57" rhyme="-a-abb">
+        <l n="337" real="xxx+-x-+xx" met="-+-+-+-+-+">He sees her coming, and begins to glow,</l>
+        <l n="338" real="+xx+-x-+xx" met="-+-+-+-+-+">Even as a dying coal revives with wind,</l>
+        <l n="339" real="xxx+-xx+-x" met="-+-+-+-+-+">And with his bonnet hides his angry brow,</l>
+        <l n="340" real="xxxxxx-+-x" met="-+-+-+-+-+">Looks on the dull earth with disturbed mind,</l>
+        <l n="341" real="+-x+-xxxxx" met="-+-+-+-+-+">Taking no notice that she is so nigh,</l>
+        <l n="342" real="xx-+xxxxxx" met="-+-+-+-+-+">For all askance he holds her in his eye.</l>
+      </lg>
+      <lg type="stanza" n="58" rhyme="ababcc">
+        <l n="343" real="xxxxxxxxxx" met="-+-+-+-+-+">O what a sight it was, wistly to view</l>
+        <l n="344" real="xxx+-xx+-x" met="-+-+-+-+-+">How she came stealing to the wayward boy,</l>
+        <l n="345" real="xxx+-+-xxx" met="-+-+-+-+-+">To note the fighting conflict of her hue,</l>
+        <l n="346" real="xxxxx+-x-+" met="-+-+-+-+-+">How white and red each other did destroy:</l>
+        <l n="347" real="xxxxxxxxxx" met="-+-+-+-+-+">But now her cheek was pale, and by and by</l>
+        <l n="348" real="xxx+x+-xxx" met="-+-+-+-+-+">It flash’d forth fire, as lightning from the sky.</l>
+      </lg>
+      <lg type="stanza" n="59" rhyme="ababcc">
+        <l n="349" real="xxxxxxxxxx" met="-+-+-+-+-+">Now was she just before him as he sat,</l>
+        <l n="350" real="xxx+-+-xxx" met="-+-+-+-+-+">And like a lowly lover down she kneels;</l>
+        <l n="351" real="xxxxxxxxxx" met="-+-+-+-+-+">With one fair hand she heaveth up his hat,</l>
+        <l n="352" real="x+-+-xxxxx" met="-+-+-+-+-+">Her other tender hand his fair cheek feels:</l>
+        <l n="353" real="xxxx-+xxxx" met="-+-+-+-+-+">His tend’rer cheek receives her soft hand’s print,</l>
+        <l n="354" real="xxxxxxx+-x" met="-+-+-+-+-+">As apt as new-fall’n snow takes any dint.</l>
+      </lg>
+      <lg type="stanza" n="60" rhyme="ababcc">
+        <l n="355" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Oh what a war of looks was then between them,</l>
+        <l n="356" real="xx-+--xxx+-" met="-+-+-+-+-+-">Her eyes petitioners to his eyes suing,</l>
+        <l n="357" real="xxxxxxxxxxx" met="-+-+-+-+-+-">His eyes saw her eyes, as they had not seen them,</l>
+        <l n="358" real="xxxxxx-+x+-" met="-+-+-+-+-+-">Her eyes woo’d still, his eyes disdain’d the wooing:</l>
+        <l n="359" real="xxxxxxxxxx" met="-+-+-+-+-+">And all this dumb play had his acts made plain</l>
+        <l n="360" real="xxx+-xxxxx" met="-+-+-+-+-+">With tears, which, chorus-like, her eyes did rain.</l>
+      </lg>
+      <lg type="stanza" n="61" rhyme="ababcc">
+        <l n="361" real="x+-xxxxxxx" met="-+-+-+-+-+">Full gently now she takes him by the hand,</l>
+        <l n="362" real="x+-+-xxxxx" met="-+-+-+-+-+">A lily prison’d in a gaol of snow,</l>
+        <l n="363" real="x+-xx+-x-x" met="-+-+-+-+-+">Or ivory in an alabaster band,</l>
+        <l n="364" real="xxxxxxxxxx" met="-+-+-+-+-+">So white a friend engirts so white a foe:</l>
+        <l n="365" real="xxx+-xxx-+-" met="-+-+-+-+-+-">This beauteous combat, wilful and unwilling,</l>
+        <l n="366" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Show’d like two silver doves that sit a-billing.</l>
+      </lg>
+      <lg type="stanza" n="62" rhyme="ababcc">
+        <l n="367" real="xxx+-xxx-+" met="-+-+-+-+-+">Once more the engine of her thoughts began:</l>
+        <l n="368" real="x+-+-xx+-x" met="-+-+-+-+-+">“O fairest mover on this mortal round,</l>
+        <l n="369" real="xxxxxxxxxx" met="-+-+-+-+-+">Would thou wert as I am, and I a man,</l>
+        <l n="370" real="xxxxxxxxxx" met="-+-+-+-+-+">My heart all whole as thine, thy heart my wound,</l>
+        <l n="371" real="xxxxxxxx-+x" met="-+-+-+-+-+-">For one sweet look thy help I would assure thee,</l>
+        <l n="372" real="x+-xx+-xxxx" met="-+-+-+-+-+-">Though nothing but my body’s bane would cure thee.”</l>
+      </lg>
+      <lg type="stanza" n="63" rhyme="aaaabb">
+        <l n="373" real="xxxxxxxxxxx" met="-+-+-+-+-+-">“Give me my hand,” saith he, “why dost thou feel it?”</l>
+        <l n="374" real="xxxxxxxxxxx" met="-+-+-+-+-+-">“Give me my heart,” saith she, “and thou shalt have it.</l>
+        <l n="375" real="xxxxxxxxxxx" met="-+-+-+-+-+-">O give it me lest thy hard heart do steel it,</l>
+        <l n="376" real="x+xxxx+-xx" met="-+-+-+-+-+">And being steel’d, soft sighs can never grave it.</l>
+        <l n="377" real="xxxxx+-x-+" met="-+-+-+-+-+">Then love’s deep groans I never shall regard,</l>
+        <l n="378" real="xx-+-xxxxx" met="-+-+-+-+-+">Because Adonis’ heart hath made mine hard.”</l>
+      </lg>
+      <lg type="stanza" n="64" rhyme="ababcc">
+        <l n="379" real="xxxxxxxxxx" met="-+-+-+-+-+">“For shame,” he cries, “let go, and let me go,</l>
+        <l n="380" real="xx-+xxxxxx" met="-+-+-+-+-+">My day’s delight is past, my horse is gone,</l>
+        <l n="381" real="xxxxxx-+xx" met="-+-+-+-+-+">And ’tis your fault I am bereft him so,</l>
+        <l n="382" real="xxxxxxxx-+" met="-+-+-+-+-+">I pray you hence, and leave me here alone,</l>
+        <l n="383" real="xxxxxxx+-x" met="-+-+-+-+-+">For all my mind, my thought, my busy care,</l>
+        <l n="384" real="xxxxx+-xxx" met="-+-+-+-+-+">Is how to get my palfrey from the mare.”</l>
+      </lg>
+      <lg type="stanza" n="65" rhyme="-a-a--">
+        <l n="385" real="xx-+x+-xxx" met="-+-+-+-+-+">Thus she replies: “Thy palfrey as he should,</l>
+        <l n="386" real="+-xx-+xx-+-" met="-+-+-+-+-+-">Welcomes the warm approach of sweet desire,</l>
+        <l n="387" real="-+-xxxxxxx" met="-+-+-+-+-+">Affection is a coal that must be cool’d;</l>
+        <l n="388" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Else, suffer’d, it will set the heart on fire,</l>
+        <l n="389" real="xxxxxx-+xx" met="-+-+-+-+-+">The sea hath bounds, but deep desire hath none;</l>
+        <l n="390" real="xxx+-xxxxx" met="-+-+-+-+-+">Therefore no marvel though thy horse be gone.</l>
+      </lg>
+      <lg type="stanza" n="66" rhyme="ababcc">
+        <l n="391" real="xxxxxxxxxx" met="-+-+-+-+-+">“How like a jade he stood tied to the tree,</l>
+        <l n="392" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Servilely master’d with a leathern rein!</l>
+        <l n="393" real="xxxxxxxxxx" met="-+-+-+-+-+">But when he saw his love, his youth’s fair fee,</l>
+        <l n="394" real="xxx+-+-x-+" met="-+-+-+-+-+">He held such petty bondage in disdain;</l>
+        <l n="395" real="+-xxxxx+-x" met="-+-+-+-+-+">Throwing the base thong from his bending crest,</l>
+        <l n="396" real="xxxxxxxxxx" met="-+-+-+-+-+">Enfranchising his mouth, his back, his breast.</l>
+      </lg>
+      <lg type="stanza" n="67" rhyme="ababcc">
+        <l n="397" real="xxxxxxx+-x" met="-+-+-+-+-+">“Who sees his true-love in her naked bed,</l>
+        <l n="398" real="+-xxx+-xxx" met="-+-+-+-+-+">Teaching the sheets a whiter hue than white,</l>
+        <l n="399" real="xxxxxxxxxx" met="-+-+-+-+-+">But when his glutton eye so full hath fed,</l>
+        <l n="400" real="x+-+-xxx-+" met="-+-+-+-+-+">His other agents aim at like delight?</l>
+        <l n="401" real="xxxxxxxxxx" met="-+-+-+-+-+">Who is so faint that dare not be so bold</l>
+        <l n="402" real="xxx+x+-+-x" met="-+-+-+-+-+">To touch the fire, the weather being cold?</l>
+      </lg>
+      <lg type="stanza" n="68" rhyme="ababcc">
+        <l n="403" real="xx-+x+-+-x" met="-+-+-+-+-+">“Let me excuse thy courser, gentle boy,</l>
+        <l n="404" real="xxxxx+--+x" met="-+-+-+-+-+">And learn of him, I heartily beseech thee,</l>
+        <l n="405" real="xx-+-x-+-x" met="-+-+-+-+-+">To take advantage on presented joy,</l>
+        <l n="406" real="xxxxxx-+-xx" met="-+-+-+-+-+-">Though I were dumb, yet his proceedings teach thee.</l>
+        <l n="407" real="xxxxx+-xxx" met="-+-+-+-+-+">O learn to love, the lesson is but plain,</l>
+        <l n="408" real="xxx+x+-x-+" met="-+-+-+-+-+">And once made perfect, never lost again.”</l>
+      </lg>
+      <lg type="stanza" n="69" rhyme="aaaabb">
+        <l n="409" real="xxxxxxxxxxx" met="-+-+-+-+-+-">“I know not love,” quoth he, “nor will not know it,</l>
+        <l n="410" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Unless it be a boar, and then I chase it;</l>
+        <l n="411" real="xxx+xxxxxxx" met="-+-+-+-+-+-">’Tis much to borrow, and I will not owe it;</l>
+        <l n="412" real="xxxxxxxx-+x" met="-+-+-+-+-+-">My love to love is love but to disgrace it;</l>
+        <l n="413" real="xxxxxxxxxx" met="-+-+-+-+-+">For I have heard, it is a life in death,</l>
+        <l n="414" real="xxxxxxxxxx" met="-+-+-+-+-+">That laughs and weeps, and all but with a breath.</l>
+      </lg>
+      <lg type="stanza" n="70" rhyme="a-a---">
+        <l n="415" real="xxx+-+-x-+-" met="-+-+-+-+-+-">“Who wears a garment shapeless and unfinish’d?</l>
+        <l n="416" real="xxxxxxxxxx" met="-+-+-+-+-+">Who plucks the bud before one leaf put forth?</l>
+        <l n="417" real="x+-xx+-x-+-" met="-+-+-+-+-+-">If springing things be any jot diminish’d,</l>
+        <l n="418" real="x+-xxxx+-x" met="-+-+-+-+-+">They wither in their prime, prove nothing worth;</l>
+        <l n="419" real="xxxxx+-+-x" met="-+-+-+-+-+">The colt that’s back’d and burden’d being young,</l>
+        <l n="420" real="xxxxx+-xxx" met="-+-+-+-+-+">Loseth his pride, and never waxeth strong.</l>
+      </lg>
+      <lg type="stanza" n="71" rhyme="ababcc">
+        <l n="421" real="xxxxx+-xxx" met="-+-+-+-+-+">“You hurt my hand with wringing. Let us part,</l>
+        <l n="422" real="xxx+-xxxxx" met="-+-+-+-+-+">And leave this idle theme, this bootless chat:</l>
+        <l n="423" real="-+xxxx-+-x" met="-+-+-+-+-+">Remove your siege from my unyielding heart,</l>
+        <l n="424" real="xx-+xxxxxx" met="-+-+-+-+-+">To love’s alarms it will not ope the gate:</l>
+        <l n="425" real="-+xxxxxxxx" met="-+-+-+-+-+">Dismiss your vows, your feigned tears, your flatt’ry;</l>
+        <l n="426" real="xxxxxxxxxxx" met="-+-+-+-+-+-">For where a heart is hard they make no batt’ry.”</l>
+      </lg>
+      <lg type="stanza" n="72" rhyme="aaaaaa">
+        <l n="427" real="xxxxxxxxxx" met="-+-+-+-+-+">“What! canst thou talk?” quoth she, “hast thou a tongue?</l>
+        <l n="428" real="xxxxxxxxx+-" met="-+-+-+-+-+-">O would thou hadst not, or I had no hearing;</l>
+        <l n="429" real="x+xxxxx+-x" met="-+-+-+-+-+">Thy mermaid’s voice hath done me double wrong;</l>
+        <l n="430" real="xxxxxxxxx+-" met="-+-+-+-+-+-">I had my load before, now press’d with bearing:</l>
+        <l n="431" real="-+-+-+-xx+-" met="-+-+-+-+-+-">Melodious discord, heavenly tune, harsh-sounding,</l>
+        <l n="432" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Ear’s deep sweet music, and heart’s deep sore wounding.</l>
+      </lg>
+      <lg type="stanza" n="73" rhyme="ababcc">
+        <l n="433" real="xxxxxxxxxx" met="-+-+-+-+-+">“Had I no eyes but ears, my ears would love</l>
+        <l n="434" real="x+-+-x-+--" met="-+-+-+-+-+">That inward beauty and invisible;</l>
+        <l n="435" real="xxxxx+-xxx" met="-+-+-+-+-+">Or were I deaf, thy outward parts would move</l>
+        <l n="436" real="xxxxxxx+--" met="-+-+-+-+-+">Each part in me that were but sensible:</l>
+        <l n="437" real="x+-xxxxxxx" met="-+-+-+-+-+">Though neither eyes nor ears, to hear nor see,</l>
+        <l n="438" real="xxxxxxx+-x" met="-+-+-+-+-+">Yet should I be in love by touching thee.</l>
+      </lg>
+      <lg type="stanza" n="74" rhyme="ababcc">
+        <l n="439" real="xxxxx+-x-+x" met="-+-+-+-+-+-">“Say that the sense of feeling were bereft me,</l>
+        <l n="440" real="xxxxxxxxxx" met="-+-+-+-+-+">And that I could not see, nor hear, nor touch,</l>
+        <l n="441" real="x+-xx+-xxxx" met="-+-+-+-+-+-">And nothing but the very smell were left me,</l>
+        <l n="442" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet would my love to thee be still as much;</l>
+        <l n="443" real="xxxxxxxxxx-+-" met="-+-+-+-+-+-+-">For from the stillitory of thy face excelling</l>
+        <l n="444" real="xx-+xxxxx+-" met="-+-+-+-+-+-">Comes breath perfum’d, that breedeth love by smelling.</l>
+      </lg>
+      <lg type="stanza" n="75" rhyme="-a-a--">
+        <l n="445" real="xxx+-xxxxx" met="-+-+-+-+-+">“But oh what banquet wert thou to the taste,</l>
+        <l n="446" real="+xx+-xx+-x" met="-+-+-+-+-+">Being nurse and feeder of the other four;</l>
+        <l n="447" real="xxxxxxx+-x" met="-+-+-+-+-+">Would they not wish the feast might ever last,</l>
+        <l n="448" real="xx-+-+-xxx" met="-+-+-+-+-+">And bid suspicion double-lock the door,</l>
+        <l n="449" real="x+--x+-+-x" met="-+-+-+-+-+">Lest jealousy, that sour unwelcome guest,</l>
+        <l n="450" real="xxx+-x-+xx" met="-+-+-+-+-+">Should by his stealing in disturb the feast?”</l>
+      </lg>
+      <lg type="stanza" n="76" rhyme="ababcc">
+        <l n="451" real="xxx+-+-+-+-" met="-+-+-+-+-+-">Once more the ruby-colour’d portal open’d,</l>
+        <l n="452" real="xxxxx+-+-x" met="-+-+-+-+-+">Which to his speech did honey passage yield,</l>
+        <l n="453" real="xxxxx+xxxx" met="-+-+-+-+-+">Like a red morn that ever yet betoken’d</l>
+        <l n="454" real="xxx+-+-xxx" met="-+-+-+-+-+">Wrack to the seaman, tempest to the field,</l>
+        <l n="455" real="+-x+-xxxxx" met="-+-+-+-+-+">Sorrow to shepherds, woe unto the birds,</l>
+        <l n="456" real="xxxxxxxxxx" met="-+-+-+-+-+">Gusts and foul flaws to herdmen and to herds.</l>
+      </lg>
+      <lg type="stanza" n="77" rhyme="ababcc">
+        <l n="457" real="xx+--+-xxx" met="-+-+-+-+-+">This ill presage advisedly she marketh:</l>
+        <l n="458" real="+xxxxxxxxxx" met="-+-+-+-+-+-">Even as the wind is hush’d before it raineth,</l>
+        <l n="459" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Or as the wolf doth grin before he barketh,</l>
+        <l n="460" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Or as the berry breaks before it staineth,</l>
+        <l n="461" real="xxx+-+-xxx" met="-+-+-+-+-+">Or like the deadly bullet of a gun,</l>
+        <l n="462" real="x+-xxxxx-+" met="-+-+-+-+-+">His meaning struck her ere his words begun.</l>
+      </lg>
+      <lg type="stanza" n="78" rhyme="ababcc">
+        <l n="463" real="xxxxx+-xxx" met="-+-+-+-+-+">And at his look she flatly falleth down</l>
+        <l n="464" real="xxxxxxxxxxx" met="-+-+-+-+-+-">For looks kill love, and love by looks reviveth;</l>
+        <l n="465" real="xxxxx+-xxx" met="-+-+-+-+-+">A smile recures the wounding of a frown;</l>
+        <l n="466" real="xxxxxxxxxx" met="-+-+-+-+-+">But blessed bankrout, that by love so thriveth!</l>
+        <l n="467" real="x+-x-+-xxx" met="-+-+-+-+-+">The silly boy, believing she is dead,</l>
+        <l n="468" real="xxxxx+-xxx" met="-+-+-+-+-+">Claps her pale cheek, till clapping makes it red.</l>
+      </lg>
+      <lg type="stanza" n="79" rhyme="ababcc">
+        <l n="469" real="xx-+xxxx-+" met="-+-+-+-+-+">And all amaz’d brake off his late intent,</l>
+        <l n="470" real="x+-xxxxxxxx" met="-+-+-+-+-+-">For sharply he did think to reprehend her,</l>
+        <l n="471" real="x+-xx+---+" met="-+-+-+-+-+">Which cunning love did wittily prevent:</l>
+        <l n="472" real="xxxxxxxx-+x" met="-+-+-+-+-+-">Fair fall the wit that can so well defend her!</l>
+        <l n="473" real="xxxxxxxxxx" met="-+-+-+-+-+">For on the grass she lies as she were slain,</l>
+        <l n="474" real="xxxxxxxx-+" met="-+-+-+-+-+">Till his breath breatheth life in her again.</l>
+      </lg>
+      <lg type="stanza" n="80" rhyme="ababcc">
+        <l n="475" real="xxxxxxxxxx" met="-+-+-+-+-+">He wrings her nose, he strikes her on the cheeks,</l>
+        <l n="476" real="xxx+-xx+-x" met="-+-+-+-+-+">He bends her fingers, holds her pulses hard,</l>
+        <l n="477" real="xxxxx+-xxx" met="-+-+-+-+-+">He chafes her lips; a thousand ways he seeks</l>
+        <l n="478" real="xxxxxxxxxx" met="-+-+-+-+-+">To mend the hurt that his unkindness marr’d:</l>
+        <l n="479" real="x+-xxxxxxx" met="-+-+-+-+-+">He kisses her; and she, by her good will,</l>
+        <l n="480" real="x+-xxxxxxx" met="-+-+-+-+-+">Will never rise, so he will kiss her still.</l>
+      </lg>
+      <lg type="stanza" n="81" rhyme="ababcc">
+        <l n="481" real="xxx+-xxxxx" met="-+-+-+-+-+">The night of sorrow now is turn’d to day:</l>
+        <l n="482" real="xxx+-+-xxxx" met="-+-+-+-+-+-">Her two blue windows faintly she up-heaveth,</l>
+        <l n="483" real="xxxxxxxx-+" met="-+-+-+-+-+">Like the fair sun when in his fresh array</l>
+        <l n="484" real="xxxxxxxxxxx" met="-+-+-+-+-+-">He cheers the morn, and all the world relieveth:</l>
+        <l n="485" real="xxxxx+-xxx" met="-+-+-+-+-+">And as the bright sun glorifies the sky,</l>
+        <l n="486" real="xxxx-+-xxx" met="-+-+-+-+-+">So is her face illumin’d with her eye.</l>
+      </lg>
+      <lg type="stanza" n="82" rhyme="ababcc">
+        <l n="487" real="xxxxx+-xxx" met="-+-+-+-+-+">Whose beams upon his hairless face are fix’d,</l>
+        <l n="488" real="xxxxx+xxxx" met="-+-+-+-+-+">As if from thence they borrow’d all their shine.</l>
+        <l n="489" real="x+-xxx-+-x" met="-+-+-+-+-+">Were never four such lamps together mix’d,</l>
+        <l n="490" real="xxx+-xxxxx" met="-+-+-+-+-+">Had not his clouded with his brow’s repine;</l>
+        <l n="491" real="xxxxx+-xxx" met="-+-+-+-+-+">But hers, which through the crystal tears gave light</l>
+        <l n="492" real="xxxxx+-xxx" met="-+-+-+-+-+">Shone like the moon in water seen by night.</l>
+      </lg>
+      <lg type="stanza" n="83" rhyme="ababcc">
+        <l n="493" real="xxxxxxxxx+-" met="-+-+-+-+-+-">“O where am I?” quoth she, “in earth or heaven?</l>
+        <l n="494" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Or in the ocean drench’d, or in the fire?</l>
+        <l n="495" real="x+xxxxx+-+-" met="-+-+-+-+-+-">What hour is this? or morn or weary even?</l>
+        <l n="496" real="xx-+xxxx-+-" met="-+-+-+-+-+-">Do I delight to die, or life desire?</l>
+        <l n="497" real="xxxxxxxx-+" met="-+-+-+-+-+">But now I liv’d, and life was death’s annoy;</l>
+        <l n="498" real="xxxxxxx+-x" met="-+-+-+-+-+">But now I died, and death was lively joy.</l>
+      </lg>
+      <lg type="stanza" n="84" rhyme="ababcc">
+        <l n="499" real="xxxxxxxx-+" met="-+-+-+-+-+">“O thou didst kill me; kill me once again:</l>
+        <l n="500" real="xxx+-xxxxx" met="-+-+-+-+-+">Thy eyes’ shrewd tutor, that hard heart of thine,</l>
+        <l n="501" real="xxx+-xxx-+" met="-+-+-+-+-+">Hath taught them scornful tricks, and such disdain,</l>
+        <l n="502" real="xxx+-xxxxx" met="-+-+-+-+-+">That they have murder’d this poor heart of mine;</l>
+        <l n="503" real="xxxxx+-xxx" met="-+-+-+-+-+">And these mine eyes, true leaders to their queen,</l>
+        <l n="504" real="xxxxxxxxxx" met="-+-+-+-+-+">But for thy piteous lips no more had seen.</l>
+      </lg>
+      <lg type="stanza" n="85" rhyme="ababcc">
+        <l n="505" real="xxxxx+-xxx" met="-+-+-+-+-+">“Long may they kiss each other for this cure!</l>
+        <l n="506" real="x+-xx+-xxx" met="-+-+-+-+-+">Oh never let their crimson liveries wear,</l>
+        <l n="507" real="xxxxxxxx-+" met="-+-+-+-+-+">And as they last, their verdure still endure,</l>
+        <l n="508" real="xx-+-xx+-x" met="-+-+-+-+-+">To drive infection from the dangerous year:</l>
+        <l n="509" real="xxxxx+-xxx" met="-+-+-+-+-+">That the star-gazers, having writ on death,</l>
+        <l n="510" real="xxxxx+-xxx" met="-+-+-+-+-+">May say, the plague is banish’d by thy breath.</l>
+      </lg>
+      <lg type="stanza" n="86" rhyme="ababcc">
+        <l n="511" real="xxxxxxxx-+-" met="-+-+-+-+-+-">“Pure lips, sweet seals in my soft lips imprinted,</l>
+        <l n="512" real="x+-xxxxxx+-" met="-+-+-+-+-+-">What bargains may I make, still to be sealing?</l>
+        <l n="513" real="xxx+xxxx-+-" met="-+-+-+-+-+-">To sell myself I can be well contented,</l>
+        <l n="514" real="xxxxxxxxx+-" met="-+-+-+-+-+-">So thou wilt buy, and pay, and use good dealing;</l>
+        <l n="515" real="x+-xxxxxxx" met="-+-+-+-+-+">Which purchase if thou make, for fear of slips,</l>
+        <l n="516" real="xxx+-xxxxx" met="-+-+-+-+-+">Set thy seal manual on my wax-red lips.</l>
+      </lg>
+      <lg type="stanza" n="87" rhyme="ababcc">
+        <l n="517" real="x+-+-xxxxx" met="-+-+-+-+-+">“A thousand kisses buys my heart from me;</l>
+        <l n="518" real="xxxxx+-xxx" met="-+-+-+-+-+">And pay them at thy leisure, one by one,</l>
+        <l n="519" real="xxx+-+-xxx" met="-+-+-+-+-+">What is ten hundred touches unto thee?</l>
+        <l n="520" real="xxx+-xx+-x" met="-+-+-+-+-+">Are they not quickly told and quickly gone?</l>
+        <l n="521" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Say, for non-payment that the debt should double,</l>
+        <l n="522" real="x+-+-+-xx+-" met="-+-+-+-+-+-">Is twenty hundred kisses such a trouble?”</l>
+      </lg>
+      <lg type="stanza" n="88" rhyme="ababcc">
+        <l n="523" real="xxxxx+-xxxx" met="-+-+-+-+-+-">“Fair queen,” quoth he, “if any love you owe me,</l>
+        <l n="524" real="+-x+-xxxxx" met="-+-+-+-+-+">Measure my strangeness with my unripe years:</l>
+        <l n="525" real="xxxxx+xxxxx" met="-+-+-+-+-+-">Before I know myself, seek not to know me;</l>
+        <l n="526" real="x+-xxxxxxx" met="-+-+-+-+-+">No fisher but the ungrown fry forbears:</l>
+        <l n="527" real="x+-xxxxxxx" met="-+-+-+-+-+">The mellow plum doth fall, the green sticks fast,</l>
+        <l n="528" real="x++-xx+-xx" met="-+-+-+-+-+">Or being early pluck’d, is sour to taste.</l>
+      </lg>
+      <lg type="stanza" n="89" rhyme="ababcc">
+        <l n="529" real="xxx+--x+-x" met="-+-+-+-+-+">“Look the world’s comforter, with weary gait</l>
+        <l n="530" real="xxxxx+-xxx" met="-+-+-+-+-+">His day’s hot task hath ended in the west;</l>
+        <l n="531" real="xxx+-xx+-x" met="-+-+-+-+-+">The owl, night’s herald, shrieks, ’tis very late;</l>
+        <l n="532" real="xxxxxxxxxx" met="-+-+-+-+-+">The sheep are gone to fold, birds to their nest,</l>
+        <l n="533" real="xxxxx+x+-x" met="-+-+-+-+-+">And coal-black clouds that shadow heaven’s light</l>
+        <l n="534" real="x+-xxxxxxx" met="-+-+-+-+-+">Do summon us to part, and bid good night.</l>
+      </lg>
+      <lg type="stanza" n="90" rhyme="ababcc">
+        <l n="535" real="xxxxxxxxxx" met="-+-+-+-+-+">“Now let me say good night, and so say you;</l>
+        <l n="536" real="xxxxxxxxxx" met="-+-+-+-+-+">If you will say so, you shall have a kiss.”</l>
+        <l n="537" real="xxxxxxxx-+" met="-+-+-+-+-+">“Good night,” quoth she; and ere he says adieu,</l>
+        <l n="538" real="x+-xx+-+-x" met="-+-+-+-+-+">The honey fee of parting tender’d is:</l>
+        <l n="539" real="xxxxxxxx-+" met="-+-+-+-+-+">Her arms do lend his neck a sweet embrace;</l>
+        <l n="540" real="-+-xxxxxxxx" met="-+-+-+-+-+-">Incorporate then they seem, face grows to face.</l>
+      </lg>
+      <lg type="stanza" n="91" rhyme="ababcc">
+        <l n="541" real="x+-xxxx+-x" met="-+-+-+-+-+">Till breathless he disjoin’d, and backward drew</l>
+        <l n="542" real="x+-+-xx+-x" met="-+-+-+-+-+">The heavenly moisture, that sweet coral mouth,</l>
+        <l n="543" real="x+-xx+-xxx" met="-+-+-+-+-+">Whose precious taste her thirsty lips well knew,</l>
+        <l n="544" real="xxx+-x-+xx" met="-+-+-+-+-+">Whereon they surfeit, yet complain on drouth,</l>
+        <l n="545" real="xxx+-xxxxx" met="-+-+-+-+-+">He with her plenty press’d, she faint with dearth,</l>
+        <l n="546" real="xx-+-xxxxx" met="-+-+-+-+-+">Their lips together glued, fall to the earth.</l>
+      </lg>
+      <lg type="stanza" n="92" rhyme="ababcc">
+        <l n="547" real="xx-+xxx+-x" met="-+-+-+-+-+">Now quick desire hath caught the yielding prey,</l>
+        <l n="548" real="xxxxxxx+xx" met="-+-+-+-+-+">And glutton-like she feeds, yet never filleth;</l>
+        <l n="549" real="xxx+--xx-+" met="-+-+-+-+-+">Her lips are conquerors, his lips obey,</l>
+        <l n="550" real="+-x+-xxxxxx" met="-+-+-+-+-+-">Paying what ransom the insulter willeth;</l>
+        <l n="551" real="x+-xxxxxxx" met="-+-+-+-+-+">Whose vulture thought doth pitch the price so high,</l>
+        <l n="552" real="xxxxxxx+-x" met="-+-+-+-+-+">That she will draw his lips’ rich treasure dry.</l>
+      </lg>
+      <lg type="stanza" n="93" rhyme="ababcc">
+        <l n="553" real="x+-xx+-xxx" met="-+-+-+-+-+">And having felt the sweetness of the spoil,</l>
+        <l n="554" real="x+x+-x-+x+-" met="-+-+-+-+-+-">With blindfold fury she begins to forage;</l>
+        <l n="555" real="xxxxxxxxxx" met="-+-+-+-+-+">Her face doth reek and smoke, her blood doth boil,</l>
+        <l n="556" real="x+-xxxx+-+-" met="-+-+-+-+-+-">And careless lust stirs up a desperate courage,</l>
+        <l n="557" real="+--+-+-+-x" met="-+-+-+-+-+">Planting oblivion, beating reason back,</l>
+        <l n="558" real="-+-xxxxxxx" met="-+-+-+-+-+">Forgetting shame’s pure blush and honour’s wrack.</l>
+      </lg>
+      <lg type="stanza" n="94" rhyme="ababcc">
+        <l n="559" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Hot, faint, and weary, with her hard embracing,</l>
+        <l n="560" real="xxxx+xxxx+-" met="-+-+-+-+-+-">Like a wild bird being tam’d with too much handling,</l>
+        <l n="561" real="xxxxxxx+x+-" met="-+-+-+-+-+-">Or as the fleet-foot roe that’s tir’d with chasing,</l>
+        <l n="562" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Or like the froward infant still’d with dandling:</l>
+        <l n="563" real="xx-+xxxxxxx" met="-+-+-+-+-+-">He now obeys, and now no more resisteth,</l>
+        <l n="564" real="xxxxxxxxxxx" met="-+-+-+-+-+-">While she takes all she can, not all she listeth.</l>
+      </lg>
+      <lg type="stanza" n="95" rhyme="ababcc">
+        <l n="565" real="xxx+-x-+xxx" met="-+-+-+-+-+-">What wax so frozen but dissolves with temp’ring,</l>
+        <l n="566" real="xxxxx+-x-+-" met="-+-+-+-+-+-">And yields at last to every light impression?</l>
+        <l n="567" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Things out of hope are compass’d oft with vent’ring,</l>
+        <l n="568" real="+-xxxx-+-+-" met="-+-+-+-+-+-">Chiefly in love, whose leave exceeds commission:</l>
+        <l n="569" real="-+-xxxxxx+-" met="-+-+-+-+-+-">Affection faints not like a pale-fac’d coward,</l>
+        <l n="570" real="xxxxxxxxxxx" met="-+-+-+-+-+-">But then woos best when most his choice is froward.</l>
+      </lg>
+      <lg type="stanza" n="96" rhyme="ababcc">
+        <l n="571" real="xxxxxxxxxx" met="-+-+-+-+-+">When he did frown, O had she then gave over,</l>
+        <l n="572" real="x+-xxxxxxx" met="-+-+-+-+-+">Such nectar from his lips she had not suck’d.</l>
+        <l n="573" real="xxxxxx-+x+-" met="-+-+-+-+-+-">Foul words and frowns must not repel a lover;</l>
+        <l n="574" real="xxxxxxxxx" met="+-+-+-+-+">What though the rose have prickles, yet ’tis pluck’d.</l>
+        <l n="575" real="x+-xx+-xxx" met="-+-+-+-+-+">Were beauty under twenty locks kept fast,</l>
+        <l n="576" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet love breaks through, and picks them all at last.</l>
+      </lg>
+      <lg type="stanza" n="97" rhyme="ababcc">
+        <l n="577" real="x+-xxxxx-+x" met="-+-+-+-+-+-">For pity now she can no more detain him;</l>
+        <l n="578" real="xxxxxxxx-+" met="-+-+-+-+-+">The poor fool prays her that he may depart:</l>
+        <l n="579" real="xx-+x+-x-+x" met="-+-+-+-+-+-">She is resolv’d no longer to restrain him,</l>
+        <l n="580" real="xxx+xxxxxx" met="-+-+-+-+-+">Bids him farewell, and look well to her heart,</l>
+        <l n="581" real="xxx+-xxx-+" met="-+-+-+-+-+">The which by Cupid’s bow she doth protest,</l>
+        <l n="582" real="x+-xxx-xxx" met="-+-+-+-+-+">He carries thence encaged in his breast.</l>
+      </lg>
+      <lg type="stanza" n="98" rhyme="----aa">
+        <l n="583" real="xxxxxxxxx+-" met="-+-+-+-+-+-">“Sweet boy,” she says, “this night I’ll waste in sorrow,</l>
+        <l n="584" real="xxxx-+xxxx" met="-+-+-+-+-+">For my sick heart commands mine eyes to watch.</l>
+        <l n="585" real="xxx+-xxx-+x" met="-+-+-+-+-+-">Tell me, love’s master, shall we meet tomorrow</l>
+        <l n="586" real="xxxxxxxxxx" met="-+-+-+-+-+">Say, shall we? shall we? wilt thou make the match?”</l>
+        <l n="587" real="xxxx-+xx-+" met="-+-+-+-+-+">He tells her no, tomorrow he intends</l>
+        <l n="588" real="xxxxx+-xxx" met="-+-+-+-+-+">To hunt the boar with certain of his friends.</l>
+      </lg>
+      <lg type="stanza" n="99" rhyme="ababcc">
+        <l n="589" real="xxxxxxx+-x" met="-+-+-+-+-+">“The boar!” quoth she; whereat a sudden pale,</l>
+        <l n="590" real="xx+xxxx+-x" met="-+-+-+-+-+">Like lawn being spread upon the blushing rose,</l>
+        <l n="591" real="x+xxxxxxx" met="+-+-+-+-+">Usurps her cheek, she trembles at his tale,</l>
+        <l n="592" real="xxxxxxxxxx" met="-+-+-+-+-+">And on his neck her yoking arms she throws.</l>
+        <l n="593" real="xxxxx+-xxx" met="-+-+-+-+-+">She sinketh down, still hanging by his neck,</l>
+        <l n="594" real="xxx+-xxxxx" met="-+-+-+-+-+">He on her belly falls, she on her back.</l>
+      </lg>
+      <lg type="stanza" n="100" rhyme="ababcc">
+        <l n="595" real="xxxxx+-xxx" met="-+-+-+-+-+">Now is she in the very lists of love,</l>
+        <l n="596" real="x+-+-xxx-+" met="-+-+-+-+-+">Her champion mounted for the hot encounter:</l>
+        <l n="597" real="xx-+-x-xxx" met="-+-+-+-+-+">All is imaginary she doth prove,</l>
+        <l n="598" real="xxx+-xxxxxx" met="-+-+-+-+-+-">He will not manage her, although he mount her;</l>
+        <l n="599" real="xxx+--xx-+" met="-+-+-+-+-+">That worse than Tantalus’ is her annoy,</l>
+        <l n="600" real="xx-+-xxxxx" met="-+-+-+-+-+">To clip Elysium and to lack her joy.</l>
+      </lg>
+      <lg type="stanza" n="101" rhyme="ababcc">
+        <l n="601" real="+xxx-+x+-x" met="-+-+-+-+-+">Even as poor birds, deceiv’d with painted grapes,</l>
+        <l n="602" real="x+-xxxxxxx" met="-+-+-+-+-+">Do surfeit by the eye and pine the maw:</l>
+        <l n="603" real="+xxxxxxx+x" met="-+-+-+-+-+">Even so she languisheth in her mishaps,</l>
+        <l n="604" real="xxxxx+-+-x" met="-+-+-+-+-+">As those poor birds that helpless berries saw.</l>
+        <l n="605" real="xx-+xxxxx+-" met="-+-+-+-+-+-">The warm effects which she in him finds missing,</l>
+        <l n="606" real="xxx+-x-+-+-" met="-+-+-+-+-+-">She seeks to kindle with continual kissing.</l>
+      </lg>
+      <lg type="stanza" n="102" rhyme="ababcc">
+        <l n="607" real="xxxxxxxxxx" met="-+-+-+-+-+">But all in vain, good queen, it will not be,</l>
+        <l n="608" real="xxxxxxxxxx" met="-+-+-+-+-+">She hath assay’d as much as may be prov’d;</l>
+        <l n="609" real="x+-x-+x+-x" met="-+-+-+-+-+">Her pleading hath deserv’d a greater fee;</l>
+        <l n="610" real="xxxxxxxxxx" met="-+-+-+-+-+">She’s love, she loves, and yet she is not lov’d.</l>
+        <l n="611" real="xxxxxxxxxx" met="-+-+-+-+-+">“Fie, fie,” he says, “you crush me; let me go;</l>
+        <l n="612" real="xxx+-x-+xx" met="-+-+-+-+-+">You have no reason to withhold me so.”</l>
+      </lg>
+      <lg type="stanza" n="103" rhyme="ababcc">
+        <l n="613" real="xxxxxxxxxx" met="-+-+-+-+-+">“Thou hadst been gone,” quoth she, “sweet boy, ere this,</l>
+        <l n="614" real="xxxxxxxxxx" met="-+-+-+-+-+">But that thou told’st me thou wouldst hunt the boar.</l>
+        <l n="615" real="xx-+xxxxxx" met="-+-+-+-+-+">Oh be advis’d; thou know’st not what it is,</l>
+        <l n="616" real="xxxxxx+-xxx" met="-+-+-+-+-+-">With javelin’s point a churlish swine to gore,</l>
+        <l n="617" real="x+-+-xxxxx" met="-+-+-+-+-+">Whose tushes never sheath’d he whetteth still,</l>
+        <l n="618" real="xxx+-+-xxx" met="-+-+-+-+-+">Like to a mortal butcher, bent to kill.</l>
+      </lg>
+      <lg type="stanza" n="104" rhyme="ababcc">
+        <l n="619" real="xxxxxxx+-x" met="-+-+-+-+-+">“On his bow-back he hath a battle set</l>
+        <l n="620" real="xxxxx+-xxx" met="-+-+-+-+-+">Of bristly pikes, that ever threat his foes;</l>
+        <l n="621" real="xxxxxxxxxx" met="-+-+-+-+-+">His eyes like glow-worms shine when he doth fret;</l>
+        <l n="622" real="xxxxxxxxx" met="+-+-+-+-+">His snout digs sepulchres where’er he goes;</l>
+        <l n="623" real="+xxxxxxxxx" met="-+-+-+-+-+">Being mov’d, he strikes whate’er is in his way,</l>
+        <l n="624" real="xxxxx+-+-x" met="-+-+-+-+-+">And whom he strikes his crooked tushes slay.</l>
+      </lg>
+      <lg type="stanza" n="105" rhyme="a-a---">
+        <l n="625" real="x+-xx+-+-x" met="-+-+-+-+-+">“His brawny sides, with hairy bristles armed,</l>
+        <l n="626" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Are better proof than thy spear’s point can enter;</l>
+        <l n="627" real="xxxx-+x+-x" met="-+-+-+-+-+">His short thick neck cannot be easily harmed;</l>
+        <l n="628" real="+xxxxx+xx+-" met="-+-+-+-+-+-">Being ireful, on the lion he will venture:</l>
+        <l n="629" real="x+-+-x-+-+-" met="-+-+-+-+-+-">The thorny brambles and embracing bushes,</l>
+        <l n="630" real="x+-xxxxxx+-" met="-+-+-+-+-+-">As fearful of him, part, through whom he rushes.</l>
+      </lg>
+      <lg type="stanza" n="106" rhyme="-a-a--">
+        <l n="631" real="-+xxxxxxxx" met="-+-+-+-+-+">“Alas! he naught esteems that face of thine,</l>
+        <l n="632" real="xxxxx+-x-+-" met="-+-+-+-+-+-">To which love’s eyes pay tributary gazes;</l>
+        <l n="633" real="xxxxxxx+-x" met="-+-+-+-+-+">Nor thy soft hands, sweet lips, and crystal eyne,</l>
+        <l n="634" real="xx-+-xxx-+-" met="-+-+-+-+-+-">Whose full perfection all the world amazes;</l>
+        <l n="635" real="x+-xx+-+-x" met="-+-+-+-+-+">But having thee at vantage, wondrous dread!</l>
+        <l n="636" real="xxx+-xxxxx" met="-+-+-+-+-+">Would root these beauties as he roots the mead.</l>
+      </lg>
+      <lg type="stanza" n="107" rhyme="ababcc">
+        <l n="637" real="xxxxx+-+-x" met="-+-+-+-+-+">“Oh let him keep his loathsome cabin still,</l>
+        <l n="638" real="+-xxxxxxxx" met="-+-+-+-+-+">Beauty hath naught to do with such foul fiends:</l>
+        <l n="639" real="xxxxx+-xxx" met="-+-+-+-+-+">Come not within his danger by thy will;</l>
+        <l n="640" real="xxxxx+-xxx" met="-+-+-+-+-+">They that thrive well, take counsel of their friends.</l>
+        <l n="641" real="xxxxxxxx-+-" met="-+-+-+-+-+-">When thou didst name the boar, not to dissemble,</l>
+        <l n="642" real="xxx+-xxxx+-" met="-+-+-+-+-+-">I fear’d thy fortune, and my joints did tremble.</l>
+      </lg>
+      <lg type="stanza" n="108" rhyme="ababcc">
+        <l n="643" real="xxxxxxxxxx" met="-+-+-+-+-+">“Didst thou not mark my face, was it not white?</l>
+        <l n="644" real="xxxxxxxxxx" met="-+-+-+-+-+">Saw’st thou not signs of fear lurk in mine eye?</l>
+        <l n="645" real="xxxxxxxx+x" met="-+-+-+-+-+">Grew I not faint, and fell I not downright?</l>
+        <l n="646" real="xxx+-xxxxx" met="-+-+-+-+-+">Within my bosom, whereon thou dost lie,</l>
+        <l n="647" real="xxxxxxxxxx" met="-+-+-+-+-+">My boding heart pants, beats, and takes no rest,</l>
+        <l n="648" real="xxx+xxxxxx" met="-+-+-+-+-+">But like an earthquake, shakes thee on my breast.</l>
+      </lg>
+      <lg type="stanza" n="109" rhyme="ababcc">
+        <l n="649" real="xxxx-+-+--" met="-+-+-+-+-+">“For where love reigns, disturbing jealousy</l>
+        <l n="650" real="xx-+-+-+--" met="-+-+-+-+-+">Doth call himself affection’s sentinel;</l>
+        <l n="651" real="xx-+xxx+--" met="-+-+-+-+-+">Gives false alarms, suggesteth mutiny,</l>
+        <l n="652" real="xxx+-+xxxx" met="-+-+-+-+-+">And in a peaceful hour doth cry “Kill, kill!”</l>
+        <l n="653" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Distemp’ring gentle love in his desire,</l>
+        <l n="654" real="xxx+-x-+x+-" met="-+-+-+-+-+-">As air and water do abate the fire.</l>
+      </lg>
+      <lg type="stanza" n="110" rhyme="-a-abb">
+        <l n="655" real="x+-+-xx+-x" met="-+-+-+-+-+">“This sour informer, this bate-breeding spy,</l>
+        <l n="656" real="x+-xxxx+-x" met="-+-+-+-+-+">This canker that eats up love’s tender spring,</l>
+        <l n="657" real="x+-xxxx+--" met="-+-+-+-+-+">This carry-tale, dissentious jealousy,</l>
+        <l n="658" real="x+xxx+xxxx" met="-+-+-+-+-+">That sometime true news, sometime false doth bring,</l>
+        <l n="659" real="xxxxx+-xxx" met="-+-+-+-+-+">Knocks at my heart, and whispers in mine ear,</l>
+        <l n="660" real="xxxxxxxxxx" met="-+-+-+-+-+">That if I love thee, I thy death should fear.</l>
+      </lg>
+      <lg type="stanza" n="111" rhyme="ababcc">
+        <l n="661" real="xxxxxxxxxx" met="-+-+-+-+-+">“And more than so, presenteth to mine eye</l>
+        <l n="662" real="x+-xx+-+-x" met="-+-+-+-+-+">The picture of an angry chafing boar,</l>
+        <l n="663" real="xxxxxxxxxx" met="-+-+-+-+-+">Under whose sharp fangs on his back doth lie</l>
+        <l n="664" real="x+-xxxxxxx" met="-+-+-+-+-+">An image like thyself, all stain’d with gore;</l>
+        <l n="665" real="xxxxxx++-x" met="-+-+-+-+-+">Whose blood upon the fresh flowers being shed,</l>
+        <l n="666" real="xxxxxxxxxx" met="-+-+-+-+-+">Doth make them droop with grief and hang the head.</l>
+      </lg>
+      <lg type="stanza" n="112" rhyme="ababcc">
+        <l n="667" real="xxxx+-xx-+" met="-+-+-+-+-+">“What should I do, seeing thee so indeed,</l>
+        <l n="668" real="x+-xxxxxx" met="+-+-+-+-+">That tremble at th’imagination?</l>
+        <l n="669" real="xxxxxxxxxx" met="-+-+-+-+-+">The thought of it doth make my faint heart bleed,</l>
+        <l n="670" real="xxxxxx-+-" met="+-+-+-+-+">And fear doth teach it divination:</l>
+        <l n="671" real="xxxxxxx+-+-" met="-+-+-+-+-+-">I prophesy thy death, my living sorrow,</l>
+        <l n="672" real="xx-+xxx-+x" met="-+-+-+-+-+">If thou encounter with the boar tomorrow.</l>
+      </lg>
+      <lg type="stanza" n="113" rhyme="-a-a--">
+        <l n="673" real="xxxxxxxxxx" met="-+-+-+-+-+">“But if thou needs wilt hunt, be rul’d by me;</l>
+        <l n="674" real="-+-xx+-+-x" met="-+-+-+-+-+">Uncouple at the timorous flying hare,</l>
+        <l n="675" real="xxxxxxxxxx" met="-+-+-+-+-+">Or at the fox which lives by subtilty,</l>
+        <l n="676" real="xxxxxx-+-x" met="-+-+-+-+-+">Or at the roe which no encounter dare:</l>
+        <l n="677" real="-+x+-+-xxx" met="-+-+-+-+-+">Pursue these fearful creatures o’er the downs,</l>
+        <l n="678" real="xxxxxxxxxx" met="-+-+-+-+-+">And on thy well-breath’d horse keep with thy hounds.</l>
+      </lg>
+      <lg type="stanza" n="114" rhyme="ababcc">
+        <l n="679" real="xxxxxxxxxx" met="-+-+-+-+-+">“And when thou hast on foot the purblind hare,</l>
+        <l n="680" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Mark the poor wretch, to overshoot his troubles</l>
+        <l n="681" real="xx-+xxxxxx" met="-+-+-+-+-+">How he outruns the wind, and with what care</l>
+        <l n="682" real="xxx+-xx+-+-" met="-+-+-+-+-+-">He cranks and crosses with a thousand doubles:</l>
+        <l n="683" real="x+-xxxxxxx" met="-+-+-+-+-+">The many musits through the which he goes</l>
+        <l n="684" real="xxx+-xx-+xx" met="-+-+-+-+-+-">Are like a labyrinth to amaze his foes.</l>
+      </lg>
+      <lg type="stanza" n="115" rhyme="ababcc">
+        <l n="685" real="+xxxxxxxxx" met="-+-+-+-+-+">“Sometime he runs among a flock of sheep,</l>
+        <l n="686" real="xxx+-x-+xx" met="-+-+-+-+-+">To make the cunning hounds mistake their smell,</l>
+        <l n="687" real="x+xxx+-xx" met="+-+-+-+-+">And sometime where earth-delving conies keep,</l>
+        <l n="688" real="xxxx-+-xxx" met="-+-+-+-+-+">To stop the loud pursuers in their yell,</l>
+        <l n="689" real="x+xxxxxxxx" met="-+-+-+-+-+">And sometime sorteth with a herd of deer;</l>
+        <l n="690" real="+-xxxxxxxx" met="-+-+-+-+-+">Danger deviseth shifts, wit waits on fear.</l>
+      </lg>
+      <lg type="stanza" n="116" rhyme="ababcc">
+        <l n="691" real="xxxxx+-+-+-" met="-+-+-+-+-+-">“For there his smell with others being mingled,</l>
+        <l n="692" real="xxx+-xx+xx" met="-+-+-+-+-+">The hot scent-snuffing hounds are driven to doubt,</l>
+        <l n="693" real="+-xxxxxxxx+-" met="--+-+-+-+-+-">Ceasing their clamorous cry, till they have singled</l>
+        <l n="694" real="xx-+xxx+-x" met="-+-+-+-+-+">With much ado the cold fault cleanly out;</l>
+        <l n="695" real="xxxxxx+--+" met="-+-+-+-+-+">Then do they spend their mouths: echo replies,</l>
+        <l n="696" real="xx-+-xxxxx" met="-+-+-+-+-+">As if another chase were in the skies.</l>
+      </lg>
+      <lg type="stanza" n="117" rhyme="ababcc">
+        <l n="697" real="xxxxxxxxxx" met="-+-+-+-+-+">“By this, poor Wat, far off upon a hill,</l>
+        <l n="698" real="xxx+-xxxxx" met="-+-+-+-+-+">Stands on his hinder legs with list’ning ear,</l>
+        <l n="699" real="xxxxxx-+xx" met="-+-+-+-+-+">To hearken if his foes pursue him still.</l>
+        <l n="700" real="xxxxxxxxxx" met="-+-+-+-+-+">Anon their loud alarums he doth hear;</l>
+        <l n="701" real="xxxxxx-+-x" met="-+-+-+-+-+">And now his grief may be compared well</l>
+        <l n="702" real="xxxxxxx+-x" met="-+-+-+-+-+">To one sore sick that hears the passing bell.</l>
+      </lg>
+      <lg type="stanza" n="118" rhyme="ababcc">
+        <l n="703" real="xxxxxxxx-x" met="-+-+-+-+-+">“Then shalt thou see the dew-bedabbled wretch</l>
+        <l n="704" real="xx-+xxxxxx" met="-+-+-+-+-+">Turn, and return, indenting with the way,</l>
+        <l n="705" real="x+-+x+-xxx" met="-+-+-+-+-+">Each envious briar his weary legs do scratch,</l>
+        <l n="706" real="x+xxxxx+-x" met="-+-+-+-+-+">Each shadow makes him stop, each murmur stay:</l>
+        <l n="707" real="x+--x+-xx+-" met="-+-+-+-+-+-">For misery is trodden on by many,</l>
+        <l n="708" real="x+-x+--+x+-" met="-+-+-+-+-+-">And being low never reliev’d by any.</l>
+      </lg>
+      <lg type="stanza" n="119" rhyme="ababcc">
+        <l n="709" real="x+--xxx+-x" met="-+-+-+-+-+">“Lie quietly, and hear a little more;</l>
+        <l n="710" real="xxx+-xxxxx" met="-+-+-+-+-+">Nay, do not struggle, for thou shalt not rise:</l>
+        <l n="711" real="xxxxx+-xxx" met="-+-+-+-+-+">To make thee hate the hunting of the boar,</l>
+        <l n="712" real="-+x+xxx+-x" met="-+-+-+-+-+">Unlike myself thou hear’st me moralize,</l>
+        <l n="713" real="-+-xxxxxxx" met="-+-+-+-+-+">Applying this to that, and so to so,</l>
+        <l n="714" real="xxx+-xx+-x" met="-+-+-+-+-+">For love can comment upon every woe.</l>
+      </lg>
+      <lg type="stanza" n="120" rhyme="ababcc">
+        <l n="715" real="xxxxx+-xxx" met="-+-+-+-+-+">“Where did I leave?” “No matter where,” quoth he</l>
+        <l n="716" real="xxxxx+-+-x" met="-+-+-+-+-+">“Leave me, and then the story aptly ends:</l>
+        <l n="717" real="xxxxxxxxxx" met="-+-+-+-+-+">The night is spent.” “Why, what of that?” quoth she.</l>
+        <l n="718" real="xxxx-+-xxx" met="-+-+-+-+-+">“I am,” quoth he, “expected of my friends;</l>
+        <l n="719" real="xxxxx+-xxx" met="-+-+-+-+-+">And now ’tis dark, and going I shall fall.”</l>
+        <l n="720" real="xxxx-+xxxx" met="-+-+-+-+-+">“In night,” quoth she, “desire sees best of all.</l>
+      </lg>
+      <lg type="stanza" n="121" rhyme="ababcc">
+        <l n="721" real="xxxxxx-+-x" met="-+-+-+-+-+">But if thou fall, oh then imagine this,</l>
+        <l n="722" real="xxxxxxx+-x" met="-+-+-+-+-+">The earth, in love with thee, thy footing trips,</l>
+        <l n="723" real="xxxxxxxxxx" met="-+-+-+-+-+">And all is but to rob thee of a kiss.</l>
+        <l n="724" real="xxxxxxxxxx" met="-+-+-+-+-+">Rich preys make true men thieves; so do thy lips</l>
+        <l n="725" real="x+-+-+-x-+" met="-+-+-+-+-+">Make modest Dian cloudy and forlorn,</l>
+        <l n="726" real="xxxxxxxxx+" met="-+-+-+-+-+">Lest she should steal a kiss and die forsworn.&quot;</l>
+      </lg>
+      <lg type="stanza" n="122" rhyme="ababcc">
+        <l n="727" real="xxxxxx-+x+-" met="-+-+-+-+-+-">“Now of this dark night I perceive the reason:</l>
+        <l n="728" real="+-xx-+x+-x" met="-+-+-+-+-+">Cynthia for shame obscures her silver shine</l>
+        <l n="729" real="x+-+-x-+x+-" met="-+-+-+-+-+-">Till forging nature be condemn’d of treason,</l>
+        <l n="730" real="x+-xx+xx-+" met="-+-+-+-+-+">For stealing moulds from heaven, that were divine;</l>
+        <l n="731" real="xxxxxxx+--+" met="-+-+-+-+-+-">Wherein she fram’d thee, in high heaven’s despite,</l>
+        <l n="732" real="xxxxxxxxxx" met="-+-+-+-+-+">To shame the sun by day and her by night.</l>
+      </lg>
+      <lg type="stanza" n="123">
+        <l n="733" real="xxxxxxx+--" met="-+-+-+-+-+">“And therefore hath she brib’d the destinies,</l>
+        <l n="734" real="xxx+-+-xx+-" met="-+-+-+-+-+-">To cross the curious workmanship of nature,</l>
+        <l n="735" real="x+-+-x-+--" met="-+-+-+-+-+">To mingle beauty with infirmities,</l>
+        <l n="736" real="xx-+-x-+xxx" met="-+-+-+-+-+-">And pure perfection with impure defeature,</l>
+        <l n="737" real="+-x-+xx+--" met="-+-+-+-+-+">Making it subject to the tyranny</l>
+        <l n="738" real="xxxxxxx+--" met="-+-+-+-+-+">Of mad mischances and much misery.</l>
+      </lg>
+      <lg type="stanza" n="124" rhyme="ababcc">
+        <l n="739" real="x+-+-xxxx" met="+-+-+-+-+">“As burning fevers, agues pale and faint,</l>
+        <l n="740" real="x+-+--x+-x" met="-+-+-+-+-+">Life-poisoning pestilence and frenzies wood,</l>
+        <l n="741" real="x+-+-+-xxx" met="-+-+-+-+-+">The marrow-eating sickness, whose attaint</l>
+        <l n="742" real="-+-xx+-xxx" met="-+-+-+-+-+">Disorder breeds by heating of the blood;</l>
+        <l n="743" real="xxxxxxxx-+" met="-+-+-+-+-+">Surfeits, imposthumes, grief, and damn’d despair,</l>
+        <l n="744" real="x+-xx+-xxx" met="-+-+-+-+-+">Swear nature’s death, for framing thee so fair.</l>
+      </lg>
+      <lg type="stanza" n="125" rhyme="ababcc">
+        <l n="745" real="xxxxxxx+--" met="-+-+-+-+-+">“And not the least of all these maladies</l>
+        <l n="746" real="xxx+-xx+-xx" met="-+-+-+-+-+-">But in one minute’s fight brings beauty under:</l>
+        <l n="747" real="x+-+-xx+--" met="-+-+-+-+-+">Both favour, savour, hue and qualities,</l>
+        <l n="748" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Whereat th’impartial gazer late did wonder,</l>
+        <l n="749" real="xxx+-+-xxx" met="-+-+-+-+-+">Are on the sudden wasted, thaw’d and done,</l>
+        <l n="750" real="x+-xxxx+xx" met="-+-+-+-+-+">As mountain snow melts with the midday sun.</l>
+      </lg>
+      <lg type="stanza" n="126" rhyme="ababcc">
+        <l n="751" real="xx-+x+-+--" met="-+-+-+-+-+">“Therefore despite of fruitless chastity,</l>
+        <l n="752" real="x+-xxxx+-x" met="-+-+-+-+-+">Love-lacking vestals and self-loving nuns,</l>
+        <l n="753" real="xxxxxxx+--" met="-+-+-+-+-+">That on the earth would breed a scarcity</l>
+        <l n="754" real="x+-xx+-xxx" met="-+-+-+-+-+">And barren dearth of daughters and of sons,</l>
+        <l n="755" real="x+--xxxxxx" met="-+-+-+-+-+">Be prodigal: the lamp that burns by night</l>
+        <l n="756" real="xxxxxxxxxx" met="-+-+-+-+-+">Dries up his oil to lend the world his light.</l>
+      </lg>
+      <lg type="stanza" n="127" rhyme="ababcc">
+        <l n="757" real="xxx+-xx+-x" met="-+-+-+-+-+">“What is thy body but a swallowing grave,</l>
+        <l n="758" real="+-x+-x-+--" met="-+-+-+-+-+">Seeming to bury that posterity,</l>
+        <l n="759" real="xxxxxxxxxx" met="-+-+-+-+-+">Which by the rights of time thou needs must have,</l>
+        <l n="760" real="xx-+xxxx-+-" met="-+-+-+-+-+-">If thou destroy them not in dark obscurity?</l>
+        <l n="761" real="xxxxxxxx-+" met="-+-+-+-+-+">If so, the world will hold thee in disdain,</l>
+        <l n="762" real="xxxxxxxxxx" met="-+-+-+-+-+">Sith in thy pride so fair a hope is slain.</l>
+      </lg>
+      <lg type="stanza" n="128" rhyme="ababcc">
+        <l n="763" real="xxxxxxxx-+" met="-+-+-+-+-+">“So in thyself thyself art made away;</l>
+        <l n="764" real="x+-xx+-xxx" met="-+-+-+-+-+">A mischief worse than civil home-bred strife,</l>
+        <l n="765" real="xxx+-x-+xx" met="-+-+-+-+-+">Or theirs whose desperate hands themselves do slay,</l>
+        <l n="766" real="x+-+xxxxxx" met="-+-+-+-+-+">Or butcher sire that reeves his son of life.</l>
+        <l n="767" real="xxxxx+-+-x" met="-+-+-+-+-+">Foul cank’ring rust the hidden treasure frets,</l>
+        <l n="768" real="xxxxxxxx-+" met="-+-+-+-+-+">But gold that’s put to use more gold begets.”</l>
+      </lg>
+      <lg type="stanza" n="129" rhyme="ababcc">
+        <l n="769" real="xxx-+xxx-+" met="-+-+-+-+-+">“Nay then,” quoth Adon, “you will fall again</l>
+        <l n="770" real="xxx+-xx+-x" met="-+-+-+-+-+">Into your idle over-handled theme;</l>
+        <l n="771" real="xxxxxx-+xx" met="-+-+-+-+-+">The kiss I gave you is bestow’d in vain,</l>
+        <l n="772" real="xxxxxxxxxx" met="-+-+-+-+-+">And all in vain you strive against the stream;</l>
+        <l n="773" real="xxxxxx-+xx" met="-+-+-+-+-+">For by this black-fac’d night, desire’s foul nurse,</l>
+        <l n="774" real="x+-xxxxxxx" met="-+-+-+-+-+">Your treatise makes me like you worse and worse.</l>
+      </lg>
+      <lg type="stanza" n="130" rhyme="ababcc">
+        <l n="775" real="xxxxx+-+-x" met="-+-+-+-+-+">“If love have lent you twenty thousand tongues,</l>
+        <l n="776" real="x+-xx+-xxx" met="-+-+-+-+-+">And every tongue more moving than your own,</l>
+        <l n="777" real="xxxxx+-+xx" met="-+-+-+-+-+">Bewitching like the wanton mermaid’s songs,</l>
+        <l n="778" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet from mine ear the tempting tune is blown;</l>
+        <l n="779" real="xxxxxx-xxx" met="-+-+-+-+-+">For know, my heart stands armed in mine ear,</l>
+        <l n="780" real="xxxxxxx+-x" met="-+-+-+-+-+">And will not let a false sound enter there.</l>
+      </lg>
+      <lg type="stanza" n="131" rhyme="ababcc">
+        <l n="781" real="xx-+-+--xx" met="-+-+-+-+-+">“Lest the deceiving harmony should run</l>
+        <l n="782" real="xxx+-+-xxx" met="-+-+-+-+-+">Into the quiet closure of my breast,</l>
+        <l n="783" real="xxx+-xxx-+" met="-+-+-+-+-+">And then my little heart were quite undone,</l>
+        <l n="784" real="xx+x-xxxxx" met="-+-+-+-+-+">In his bedchamber to be barr’d of rest.</l>
+        <l n="785" real="x+-xxxxxxx" met="-+-+-+-+-+">No, lady, no; my heart longs not to groan,</l>
+        <l n="786" real="x+-xxxxx-+" met="-+-+-+-+-+">But soundly sleeps, while now it sleeps alone.</l>
+      </lg>
+      <lg type="stanza" n="132" rhyme="ababcc">
+        <l n="787" real="xxxxxx+-xx" met="-+-+-+-+-+">“What have you urg’d that I cannot reprove?</l>
+        <l n="788" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The path is smooth that leadeth on to danger;</l>
+        <l n="789" real="xxxxxx-+xx" met="-+-+-+-+-+">I hate not love, but your device in love</l>
+        <l n="790" real="xxxxxxxx+-+-" met="--+-+-+-+-+-">That lends embracements unto every stranger.</l>
+        <l n="791" real="xxxx-+xx-+" met="-+-+-+-+-+">You do it for increase: O strange excuse!</l>
+        <l n="792" real="x+-xxxxx-+" met="-+-+-+-+-+">When reason is the bawd to lust’s abuse.</l>
+      </lg>
+      <lg type="stanza" n="133" rhyme="ababcc">
+        <l n="793" real="xxxxxxx+xx" met="-+-+-+-+-+">“Call it not love, for love to heaven is fled,</l>
+        <l n="794" real="x+-xxxx+xx" met="-+-+-+-+-+">Since sweating lust on earth usurp’d his name;</l>
+        <l n="795" real="xxx+-+-xxx" met="-+-+-+-+-+">Under whose simple semblance he hath fed</l>
+        <l n="796" real="xxx+-+-xxx" met="-+-+-+-+-+">Upon fresh beauty, blotting it with blame;</l>
+        <l n="797" real="xxx+-xxxxx" met="-+-+-+-+-+">Which the hot tyrant stains and soon bereaves,</l>
+        <l n="798" real="x+-x-xx+-x" met="-+-+-+-+-+">As caterpillars do the tender leaves.</l>
+      </lg>
+      <lg type="stanza" n="134" rhyme="ababcc">
+        <l n="799" real="xxxxx+xxxx" met="-+-+-+-+-+">“Love comforteth like sunshine after rain,</l>
+        <l n="800" real="xx-+x+-xxx" met="-+-+-+-+-+">But lust’s effect is tempest after sun;</l>
+        <l n="801" real="x+-xx+xx-+" met="-+-+-+-+-+">Love’s gentle spring doth always fresh remain,</l>
+        <l n="802" real="x+-xx+-xxx" met="-+-+-+-+-+">Lust’s winter comes ere summer half be done.</l>
+        <l n="803" real="xxxxxxxxxx" met="-+-+-+-+-+">Love surfeits not, lust like a glutton dies;</l>
+        <l n="804" real="xxxxxxxx-x" met="-+-+-+-+-+">Love is all truth, lust full of forged lies.</l>
+      </lg>
+      <lg type="stanza" n="135" rhyme="ababcc">
+        <l n="805" real="xxxxxxxxxx" met="-+-+-+-+-+">“More I could tell, but more I dare not say;</l>
+        <l n="806" real="xxxxx+--xx" met="-+-+-+-+-+">The text is old, the orator too green.</l>
+        <l n="807" real="xxx+-xxx-+" met="-+-+-+-+-+">Therefore, in sadness, now I will away;</l>
+        <l n="808" real="xxxxxxxxxx" met="-+-+-+-+-+">My face is full of shame, my heart of teen,</l>
+        <l n="809" real="xxxxx+-x-+-" met="-+-+-+-+-+-">Mine ears, that to your wanton talk attended</l>
+        <l n="810" real="xx-+x+-x-+-" met="-+-+-+-+-+-">Do burn themselves for having so offended.”</l>
+      </lg>
+      <lg type="stanza" n="136" rhyme="ababcc">
+        <l n="811" real="xxxxxxxx-+" met="-+-+-+-+-+">With this he breaketh from the sweet embrace</l>
+        <l n="812" real="xxxxxxxxxx" met="-+-+-+-+-+">Of those fair arms which bound him to her breast,</l>
+        <l n="813" real="x+-xxxxx-+" met="-+-+-+-+-+">And homeward through the dark laund runs apace;</l>
+        <l n="814" real="xxxxxx+--+" met="-+-+-+-+-+">Leaves love upon her back deeply distress’d.</l>
+        <l n="815" real="xxxxxxxxxx" met="-+-+-+-+-+">Look how a bright star shooteth from the sky,</l>
+        <l n="816" real="xxxxxxx+-x" met="-+-+-+-+-+">So glides he in the night from Venus’ eye.</l>
+      </lg>
+      <lg type="stanza" n="137" rhyme="ababcc">
+        <l n="817" real="xxxxxxxxxx" met="-+-+-+-+-+">Which after him she darts, as one on shore</l>
+        <l n="818" real="+-xxxx-+-x" met="-+-+-+-+-+">Gazing upon a late embarked friend,</l>
+        <l n="819" real="xxxxxxxxxx" met="-+-+-+-+-+">Till the wild waves will have him seen no more,</l>
+        <l n="820" real="x+-xx+-x-+" met="-+-+-+-+-+">Whose ridges with the meeting clouds contend:</l>
+        <l n="821" real="xxx+--xxxx" met="-+-+-+-+-+">So did the merciless and pitchy night</l>
+        <l n="822" real="xxx+-xxxxx" met="-+-+-+-+-+">Fold in the object that did feed her sight.</l>
+      </lg>
+      <lg type="stanza" n="138" rhyme="ababcc">
+        <l n="823" real="xx-+xxxx-+" met="-+-+-+-+-+">Whereat amaz’d, as one that unaware</l>
+        <l n="824" real="xxx+-+-xxx" met="-+-+-+-+-+">Hath dropp’d a precious jewel in the flood,</l>
+        <l n="825" real="xxxxx+-+-x" met="-+-+-+-+-+">Or ’stonish’d as night-wanderers often are,</l>
+        <l n="826" real="xxxxxx-+-x" met="-+-+-+-+-+">Their light blown out in some mistrustful wood;</l>
+        <l n="827" real="+x-+-xxxxx" met="-+-+-+-+-+">Even so confounded in the dark she lay,</l>
+        <l n="828" real="+-xxx-+-xxx" met="-+-+-+-+-+-">Having lost the fair discovery of her way.</l>
+      </lg>
+      <lg type="stanza" n="139" rhyme="ababcc">
+        <l n="829" real="xxxxxxxxxx" met="-+-+-+-+-+">And now she beats her heart, whereat it groans,</l>
+        <l n="830" real="xxx+-xx+-+-" met="-+-+-+-+-+-">That all the neighbour caves, as seeming troubled,</l>
+        <l n="831" real="x+-x-+-xxx" met="-+-+-+-+-+">Make verbal repetition of her moans;</l>
+        <l n="832" real="+-x+-+-x-+-" met="-+-+-+-+-+-">Passion on passion deeply is redoubled:</l>
+        <l n="833" real="xxxxx+-xxx" met="-+-+-+-+-+">“Ay me!” she cries, and twenty times, “Woe, woe!”</l>
+        <l n="834" real="x+-+-+-xxx" met="-+-+-+-+-+">And twenty echoes twenty times cry so.</l>
+      </lg>
+      <lg type="stanza" n="140" rhyme="ababcc">
+        <l n="835" real="x+-x-+x+-x" met="-+-+-+-+-+">She marking them, begins a wailing note,</l>
+        <l n="836" real="xxxxxxxx+-+-" met="--+-+-+-+-+-">And sings extemporally a woeful ditty;</l>
+        <l n="837" real="xxxxxxxxxx" met="-+-+-+-+-+">How love makes young men thrall, and old men dote,</l>
+        <l n="838" real="xxxxx+-+-+-" met="-+-+-+-+-+-">How love is wise in folly foolish witty:</l>
+        <l n="839" real="x+-+-x-+xx" met="-+-+-+-+-+">Her heavy anthem still concludes in woe,</l>
+        <l n="840" real="xxx+x+-+-x" met="-+-+-+-+-+">And still the choir of echoes answer so.</l>
+      </lg>
+      <lg type="stanza" n="141" rhyme="ababcc">
+        <l n="841" real="xxx+-xxxxx" met="-+-+-+-+-+">Her song was tedious, and outwore the night,</l>
+        <l n="842" real="x+-+xxx+-x" met="-+-+-+-+-+">For lovers’ hours are long, though seeming short,</l>
+        <l n="843" real="xx-++-xx-+" met="-+-+-+-+-+">If pleas’d themselves, others they think, delight</l>
+        <l n="844" real="xxx+-xxxxx" met="-+-+-+-+-+">In such like circumstance, with such like sport:</l>
+        <l n="845" real="x+-+-+-x-+" met="-+-+-+-+-+">Their copious stories oftentimes begun,</l>
+        <l n="846" real="xxx+--xx+x" met="-+-+-+-+-+">End without audience, and are never done.</l>
+      </lg>
+      <lg type="stanza" n="142" rhyme="ababcc">
+        <l n="847" real="xxxxxxxxxx" met="-+-+-+-+-+">For who hath she to spend the night withal,</l>
+        <l n="848" real="x+-x-+-+-x" met="-+-+-+-+-+">But idle sounds resembling parasites;</l>
+        <l n="849" real="xxxxx+-+-x" met="-+-+-+-+-+">Like shrill-tongu’d tapsters answering every call,</l>
+        <l n="850" real="+-x+-x-+-x" met="-+-+-+-+-+">Soothing the humour of fantastic wits?</l>
+        <l n="851" real="xxxxx+-xxx" met="-+-+-+-+-+">She says, “’Tis so:” they answer all, “’Tis so;”</l>
+        <l n="852" real="xxxxxxxxxx" met="-+-+-+-+-+">And would say after her, if she said “No.”</l>
+      </lg>
+      <lg type="stanza" n="143" rhyme="a-a-bb">
+        <l n="853" real="xxx+-x+-xx" met="-+-+-+-+-+">Lo here the gentle lark, weary of rest,</l>
+        <l n="854" real="xxx+--xxxx" met="-+-+-+-+-+">From his moist cabinet mounts up on high,</l>
+        <l n="855" real="xxx+-xx+-x" met="-+-+-+-+-+">And wakes the morning, from whose silver breast</l>
+        <l n="856" real="xxxxxxx+--" met="-+-+-+-+-+">The sun ariseth in his majesty;</l>
+        <l n="857" real="xxxxx+---+" met="-+-+-+-+-+">Who doth the world so gloriously behold,</l>
+        <l n="858" real="x+-xxxx+-x" met="-+-+-+-+-+">That cedar tops and hills seem burnish’d gold.</l>
+      </lg>
+      <lg type="stanza" n="144" rhyme="ababcc">
+        <l n="859" real="+--+xxxxx+-" met="-+-+-+-+-+-">Venus salutes him with this fair good morrow:</l>
+        <l n="860" real="xxxxx+-xxx" met="-+-+-+-+-+">“Oh thou clear god, and patron of all light,</l>
+        <l n="861" real="xxxxx+-xx+x" met="-+-+-+-+-+-">From whom each lamp and shining star doth borrow</l>
+        <l n="862" real="xxx+--xxxx" met="-+-+-+-+-+">The beauteous influence that makes him bright,</l>
+        <l n="863" real="xxxxxxx+-+-" met="-+-+-+-+-+-">There lives a son that suck’d an earthly mother,</l>
+        <l n="864" real="xxxxxxxxx+-" met="-+-+-+-+-+-">May lend thee light, as thou dost lend to other.”</l>
+      </lg>
+      <lg type="stanza" n="145" rhyme="-a-a--">
+        <l n="865" real="xxxxxxx+-x" met="-+-+-+-+-+">This said, she hasteth to a myrtle grove,</l>
+        <l n="866" real="+-x+-xxxxx" met="-+-+-+-+-+">Musing the morning is so much o’erworn,</l>
+        <l n="867" real="xxxxx+-xxx" met="-+-+-+-+-+">And yet she hears no tidings of her love;</l>
+        <l n="868" real="x+-xxxxxxx" met="-+-+-+-+-+">She hearkens for his hounds and for his horn.</l>
+        <l n="869" real="xxxxxxxxxx" met="-+-+-+-+-+">Anon she hears them chant it lustily,</l>
+        <l n="870" real="xxxxxxxxxx" met="-+-+-+-+-+">And all in haste she coasteth to the cry.</l>
+      </lg>
+      <lg type="stanza" n="146" rhyme="ababcc">
+        <l n="871" real="xxxxx+-xxx" met="-+-+-+-+-+">And as she runs, the bushes in the way</l>
+        <l n="872" real="xxxxxxxxxx" met="-+-+-+-+-+">Some catch her by the neck, some kiss her face,</l>
+        <l n="873" real="xxxxxxxxxx" met="-+-+-+-+-+">Some twine about her thigh to make her stay:</l>
+        <l n="874" real="x+-xxxxx-+" met="-+-+-+-+-+">She wildly breaketh from their strict embrace,</l>
+        <l n="875" real="xxxxx+-xxx" met="-+-+-+-+-+">Like a milch doe, whose swelling dugs do ache,</l>
+        <l n="876" real="+-xxxxxxxx" met="-+-+-+-+-+">Hasting to feed her fawn hid in some brake.</l>
+      </lg>
+      <lg type="stanza" n="147" rhyme="ababcc">
+        <l n="877" real="xxxxxxxxxx" met="-+-+-+-+-+">By this she hears the hounds are at a bay,</l>
+        <l n="878" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Whereat she starts like one that spies an adder</l>
+        <l n="879" real="xxx+-xxxxx" met="-+-+-+-+-+">Wreath’d up in fatal folds just in his way,</l>
+        <l n="880" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The fear whereof doth make him shake and shudder;</l>
+        <l n="881" real="+xx+-+-xxx" met="-+-+-+-+-+">Even so the timorous yelping of the hounds</l>
+        <l n="882" real="xxx+-xx+-+" met="-+-+-+-+-+">Appals her senses, and her spirit confounds.</l>
+      </lg>
+      <lg type="stanza" n="148" rhyme="ababcc">
+        <l n="883" real="xxxxxxx+-x" met="-+-+-+-+-+">For now she knows it is no gentle chase,</l>
+        <l n="884" real="xxxxxxx+-x" met="-+-+-+-+-+">But the blunt boar, rough bear, or lion proud,</l>
+        <l n="885" real="xxxxxxxxxx" met="-+-+-+-+-+">Because the cry remaineth in one place,</l>
+        <l n="886" real="xxxxxx-+-+" met="-+-+-+-+-+">Where fearfully the dogs exclaim aloud,</l>
+        <l n="887" real="+-x+--xxxx" met="-+-+-+-+-+">Finding their enemy to be so curst,</l>
+        <l n="888" real="xxxxxxxxxx" met="-+-+-+-+-+">They all strain court’sy who shall cope him first.</l>
+      </lg>
+      <lg type="stanza" n="149" rhyme="ababcc">
+        <l n="889" real="x+-xx+-xxx" met="-+-+-+-+-+">This dismal cry rings sadly in her ear,</l>
+        <l n="890" real="xxx+-x-+xx" met="-+-+-+-+-+">Through which it enters to surprise her heart;</l>
+        <l n="891" real="x+-xxxx+-x" met="-+-+-+-+-+">Who overcome by doubt and bloodless fear,</l>
+        <l n="892" real="xxx+-xx+-x" met="-+-+-+-+-+">With cold-pale weakness numbs each feeling part;</l>
+        <l n="893" real="x+-xx+-xxx" met="-+-+-+-+-+">Like soldiers when their captain once doth yield,</l>
+        <l n="894" real="xxxxxxxxxxx" met="-+-+-+-+-+-">They basely fly and dare not stay the field.</l>
+      </lg>
+      <lg type="stanza" n="150" rhyme="ababcc">
+        <l n="895" real="xxxxx+--+--" met="-+-+-+-+-+-">Thus stands she in a trembling ecstasy,</l>
+        <l n="896" real="x+-xx+-x-+" met="-+-+-+-+-+">Till cheering up her senses sore dismay’d,</l>
+        <l n="897" real="xxxxxxxx+--" met="-+-+-+-+-+-">She tells them ’tis a causeless fantasy,</l>
+        <l n="898" real="x+-+-xxx-+" met="-+-+-+-+-+">And childish error, that they are afraid;</l>
+        <l n="899" real="xxx+-xxxxx" met="-+-+-+-+-+">Bids them leave quaking, bids them fear no more:</l>
+        <l n="900" real="xxxxxxx+-x" met="-+-+-+-+-+">And with that word, she spied the hunted boar.</l>
+      </lg>
+      <lg type="stanza" n="151" rhyme="ababcc">
+        <l n="901" real="x+-xxxxxxx" met="-+-+-+-+-+">Whose frothy mouth bepainted all with red,</l>
+        <l n="902" real="xxxx++-x-+-" met="-+-+-+-+-+-">Like milk and blood being mingled both together,</l>
+        <l n="903" real="x+-xxxxxxx" met="-+-+-+-+-+">A second fear through all her sinews spread,</l>
+        <l n="904" real="x+-+-xxxx+-" met="-+-+-+-+-+-">Which madly hurries her she knows not whither:</l>
+        <l n="905" real="xxxxxxxxx+-" met="-+-+-+-+-+-">This way she runs, and now she will no further,</l>
+        <l n="906" real="xx-+xxxxxxx" met="-+-+-+-+-+-">But back retires, to rate the boar for murther.</l>
+      </lg>
+      <lg type="stanza" n="152" rhyme="ababcc">
+        <l n="907" real="x+-xxxx+-x" met="-+-+-+-+-+">A thousand spleens bear her a thousand ways,</l>
+        <l n="908" real="xxxxxxxx-+" met="-+-+-+-+-+">She treads the path that she untreads again;</l>
+        <l n="909" real="xxxxx+-x-+" met="-+-+-+-+-+">Her more than haste is mated with delays,</l>
+        <l n="910" real="xx-+-xx+-x" met="-+-+-+-+-+">Like the proceedings of a drunken brain,</l>
+        <l n="911" real="xx-+xxxx-+-" met="-+-+-+-+-+-">Full of respects, yet naught at all respecting,</l>
+        <l n="912" real="xxxxxxxx-+-" met="-+-+-+-+-+-">In hand with all things, naught at all effecting.</l>
+      </lg>
+      <lg type="stanza" n="153" rhyme="ababcc">
+        <l n="913" real="xxxxxxxxxx" met="-+-+-+-+-+">Here kennel’d in a brake she finds a hound,</l>
+        <l n="914" real="xxx+-xxxx+-" met="-+-+-+-+-+-">And asks the weary caitiff for his master,</l>
+        <l n="915" real="xx-+-+-xxx" met="-+-+-+-+-+">And there another licking of his wound,</l>
+        <l n="916" real="xxxxx+-+-+-" met="-+-+-+-+-+-">’Gainst venom’d sores the only sovereign plaster.</l>
+        <l n="917" real="xxxx-+-+-+-" met="-+-+-+-+-+-">And here she meets another sadly scowling,</l>
+        <l n="918" real="xxxxxx-+x+-" met="-+-+-+-+-+-">To whom she speaks, and he replies with howling.</l>
+      </lg>
+      <lg type="stanza" n="154" rhyme="ababcc">
+        <l n="919" real="xxxxxx-+-x" met="-+-+-+-+-+">When he hath ceas’d his ill-resounding noise,</l>
+        <l n="920" real="-+-xx+-xxx" met="-+-+-+-+-+">Another flap-mouth’d mourner, black and grim,</l>
+        <l n="921" real="xxxxx+-xxx" met="-+-+-+-+-+">Against the welkin volleys out his voice;</l>
+        <l n="922" real="-+-x-+-+-x" met="-+-+-+-+-+">Another and another answer him,</l>
+        <l n="923" real="+-xxxxxxxx" met="-+-+-+-+-+">Clapping their proud tails to the ground below,</l>
+        <l n="924" real="+-xxx+-xxx" met="-+-+-+-+-+">Shaking their scratch’d ears, bleeding as they go.</l>
+      </lg>
+      <lg type="stanza" n="155" rhyme="ababcc">
+        <l n="925" real="xxxxx+-x-+" met="-+-+-+-+-+">Look how the world’s poor people are amazed</l>
+        <l n="926" real="xx-+-xx+--" met="-+-+-+-+-+">At apparitions, signs, and prodigies,</l>
+        <l n="927" real="xxx+-xxxxx" met="-+-+-+-+-+">Whereon with fearful eyes they long have gazed,</l>
+        <l n="928" real="-+-xx+-+--" met="-+-+-+-+-+">Infusing them with dreadful prophecies;</l>
+        <l n="929" real="xxxxxxxxxx" met="-+-+-+-+-+">So she at these sad signs draws up her breath,</l>
+        <l n="930" real="x+-x-+-+xx" met="-+-+-+-+-+">And sighing it again, exclaims on death.</l>
+      </lg>
+      <lg type="stanza" n="156" rhyme="ababcc">
+        <l n="931" real="xxx+-+-+-x" met="-+-+-+-+-+">“Hard-favour’d tyrant, ugly, meagre, lean,</l>
+        <l n="932" real="+--+xxxxxx" met="-+-+-+-+-+">Hateful divorce of love,” thus chides she death,</l>
+        <l n="933" real="x+-xxxxxxx" met="-+-+-+-+-+">“Grim-grinning ghost, earth’s worm, what dost thou mean?</l>
+        <l n="934" real="x+-+-xxxxx" met="-+-+-+-+-+">To stifle beauty and to steal his breath,</l>
+        <l n="935" real="xxxxxxx+-x" met="-+-+-+-+-+">Who when he liv’d, his breath and beauty set</l>
+        <l n="936" real="xxxxxxx+--" met="-+-+-+-+-+">Gloss on the rose, smell to the violet.</l>
+      </lg>
+      <lg type="stanza" n="157" rhyme="ababcc">
+        <l n="937" real="xxxxxxx+-x" met="-+-+-+-+-+">“If he be dead, O no, it cannot be,</l>
+        <l n="938" real="+-x+-xxxxx" met="-+-+-+-+-+">Seeing his beauty, thou shouldst strike at it,</l>
+        <l n="939" real="xxxxxxxxxx" met="-+-+-+-+-+">O yes, it may, thou hast no eyes to see,</l>
+        <l n="940" real="xxxxxx+-xxx" met="-+-+-+-+-+-">But hatefully at random dost thou hit.</l>
+        <l n="941" real="xxx+-xxxxx" met="-+-+-+-+-+">Thy mark is feeble age, but thy false dart</l>
+        <l n="942" real="-+xxxxx+-x" met="-+-+-+-+-+">Mistakes that aim, and cleaves an infant’s heart.</l>
+      </lg>
+      <lg type="stanza" n="158" rhyme="ababcc">
+        <l n="943" real="xxxx-+xxxx" met="-+-+-+-+-+">“Hadst thou but bid beware, then he had spoke,</l>
+        <l n="944" real="x+-xx+xxx+-" met="-+-+-+-+-+-">And hearing him, thy power had lost his power.</l>
+        <l n="945" real="x+--xxxxxx" met="-+-+-+-+-+">The destinies will curse thee for this stroke;</l>
+        <l n="946" real="xxxxxxxxx+-" met="-+-+-+-+-+-">They bid thee crop a weed, thou pluck’st a flower.</l>
+        <l n="947" real="x+-+-xxxxx" met="-+-+-+-+-+">Love’s golden arrow at him should have fled,</l>
+        <l n="948" real="xxxxxxxxxx" met="-+-+-+-+-+">And not death’s ebon dart to strike him dead.</l>
+      </lg>
+      <lg type="stanza" n="159" rhyme="ababcc">
+        <l n="949" real="xxxxxxxxx+-" met="-+-+-+-+-+-">“Dost thou drink tears, that thou provok’st such weeping?</l>
+        <l n="950" real="xxx+-x-+-x" met="-+-+-+-+-+">What may a heavy groan advantage thee?</l>
+        <l n="951" real="xxxxxx-+-+-" met="-+-+-+-+-+-">Why hast thou cast into eternal sleeping</l>
+        <l n="952" real="xxxxx+-xxx" met="-+-+-+-+-+">Those eyes that taught all other eyes to see?</l>
+        <l n="953" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Now nature cares not for thy mortal vigour,</l>
+        <l n="954" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Since her best work is ruin’d with thy rigour.”</l>
+      </lg>
+      <lg type="stanza" n="160" rhyme="ababcc">
+        <l n="955" real="x+-xxxxx-+" met="-+-+-+-+-+">Here overcome, as one full of despair,</l>
+        <l n="956" real="xxx+xxxxxx" met="-+-+-+-+-+">She vail’d her eyelids, who like sluices stopp’d</l>
+        <l n="957" real="x+-xxxxxxx" met="-+-+-+-+-+">The crystal tide that from her two cheeks fair</l>
+        <l n="958" real="xxx+-xx+-x" met="-+-+-+-+-+">In the sweet channel of her bosom dropp’d</l>
+        <l n="959" real="xxxxxxx+-x" met="-+-+-+-+-+">But through the flood-gates breaks the silver rain,</l>
+        <l n="960" real="xxxxx+-x-+" met="-+-+-+-+-+">And with his strong course opens them again.</l>
+      </lg>
+      <lg type="stanza" n="161" rhyme="ababcc">
+        <l n="961" real="xxxxxxxxx+x" met="-+-+-+-+-+-">O how her eyes and tears did lend and borrow;</l>
+        <l n="962" real="xxxxxxxxxx" met="-+-+-+-+-+">Her eyes seen in the tears, tears in her eye;</l>
+        <l n="963" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Both crystals, where they view’d each other’s sorrow,</l>
+        <l n="964" real="+-x+-xxxxx" met="-+-+-+-+-+">Sorrow that friendly sighs sought still to dry;</l>
+        <l n="965" real="xxx+-xxxxx" met="-+-+-+-+-+">But like a stormy day, now wind, now rain,</l>
+        <l n="966" real="xxxxxxxx-+" met="-+-+-+-+-+">Sighs dry her cheeks, tears make them wet again.</l>
+      </lg>
+      <lg type="stanza" n="162" rhyme="ababcc">
+        <l n="967" real="+--+-xx+-x" met="-+-+-+-+-+">Variable passions throng her constant woe,</l>
+        <l n="968" real="x+-xxx-+xx" met="-+-+-+-+-+">As striving who should best become her grief;</l>
+        <l n="969" real="xx-+x+-+-x" met="-+-+-+-+-+">All entertain’d, each passion labours so,</l>
+        <l n="970" real="x+-+-+-xxx" met="-+-+-+-+-+">That every present sorrow seemeth chief,</l>
+        <l n="971" real="xxxxxxxx-+-" met="-+-+-+-+-+-">But none is best, then join they all together,</l>
+        <l n="972" real="x+-x-+-xx+-" met="-+-+-+-+-+-">Like many clouds consulting for foul weather.</l>
+      </lg>
+      <lg type="stanza" n="163" rhyme="ababcc">
+        <l n="973" real="xxxxxxx+-xx" met="-+-+-+-+-+-">By this, far off she hears some huntsman holla;</l>
+        <l n="974" real="x+-xxxxxxx" met="-+-+-+-+-+">A nurse’s song ne’er pleas’d her babe so well:</l>
+        <l n="975" real="xx-x-+-xx+-" met="-+-+-+-+-+-">The dire imagination she did follow</l>
+        <l n="976" real="xxxxx+xx-+" met="-+-+-+-+-+">This sound of hope doth labour to expel;</l>
+        <l n="977" real="xx-+-xxx-+" met="-+-+-+-+-+">For now reviving joy bids her rejoice,</l>
+        <l n="978" real="xxxxxx-+-x" met="-+-+-+-+-+">And flatters her it is Adonis’ voice.</l>
+      </lg>
+      <lg type="stanza" n="164" rhyme="ababcc">
+        <l n="979" real="xxxx-+xxxx" met="-+-+-+-+-+">Whereat her tears began to turn their tide,</l>
+        <l n="980" real="++-xxxxxxx" met="-+-+-+-+-+">Being prison’d in her eye, like pearls in glass;</l>
+        <l n="981" real="x-+xx+-xx-+" met="-+-+-+-+-+-">Yet sometimes falls an orient drop beside,</l>
+        <l n="982" real="xxxxxxxxxx" met="-+-+-+-+-+">Which her cheek melts, as scorning it should pass</l>
+        <l n="983" real="xxxxxxxxxx" met="-+-+-+-+-+">To wash the foul face of the sluttish ground,</l>
+        <l n="984" real="xxx+-xxxxx" met="-+-+-+-+-+">Who is but drunken when she seemeth drown’d.</l>
+      </lg>
+      <lg type="stanza" n="165" rhyme="a-a---">
+        <l n="985" real="xx-+-xxxxx" met="-+-+-+-+-+">O hard-believing love, how strange it seems</l>
+        <l n="986" real="xx-+xxx+--" met="-+-+-+-+-+">Not to believe, and yet too credulous;</l>
+        <l n="987" real="xxxxxxxx-+" met="-+-+-+-+-+">Thy weal and woe are both of them extremes;</l>
+        <l n="988" real="-+xxxx-+--" met="-+-+-+-+-+">Despair and hope make thee ridiculous,</l>
+        <l n="989" real="xxx+-xxx-+-" met="-+-+-+-+-+-">The one doth flatter thee in thoughts unlikely,</l>
+        <l n="990" real="x+-xx+-xx+-" met="-+-+-+-+-+-">In likely thoughts the other kills thee quickly.</l>
+      </lg>
+      <lg type="stanza" n="166" rhyme="ababcc">
+        <l n="991" real="xxxxxxxxxx" met="-+-+-+-+-+">Now she unweaves the web that she hath wrought,</l>
+        <l n="992" real="-+-xxxxxxx" met="-+-+-+-+-+">Adonis lives, and death is not to blame;</l>
+        <l n="993" real="xxxxxxxxxx" met="-+-+-+-+-+">It was not she that call’d him all to naught;</l>
+        <l n="994" real="xxx+-xx+-x" met="-+-+-+-+-+">Now she adds honours to his hateful name.</l>
+        <l n="995" real="xxxxxxxxxx" met="-+-+-+-+-+">She clepes him king of graves, and grave for kings,</l>
+        <l n="996" real="-+--+xx+-x" met="-+-+-+-+-+">Imperious supreme of all mortal things.</l>
+      </lg>
+      <lg type="stanza" n="167" rhyme="-a-a--">
+        <l n="997" real="xxxxxxxxxx" met="-+-+-+-+-+">“No, no,” quoth she, “sweet death, I did but jest;</l>
+        <l n="998" real="x+-xxxxxxx" met="-+-+-+-+-+">Yet pardon me, I felt a kind of fear</l>
+        <l n="999" real="xxxxxxx+-x" met="-+-+-+-+-+">Whenas I met the boar, that bloody beast,</l>
+        <l n="1000" real="xxx+-xxx-+" met="-+-+-+-+-+">Which knows no pity, but is still severe;</l>
+        <l n="1001" real="x+-+xxxx-+" met="-+-+-+-+-+">Then, gentle shadow,—truth I must confess—</l>
+        <l n="1002" real="xxxx+-xx-+" met="-+-+-+-+-+">I rail’d on thee, fearing my love’s decease.</l>
+      </lg>
+      <lg type="stanza" n="168" rhyme="-a-a--">
+        <l n="1003" real="xxxxxx-+xx" met="-+-+-+-+-+">“’Tis not my fault, the boar provok’d my tongue;</l>
+        <l n="1004" real="xxxx-+---+-" met="-+-+-+-+-+-">Be wreak’d on him, invisible commander;</l>
+        <l n="1005" real="xxx+-xxxxx" met="-+-+-+-+-+">’Tis he, foul creature, that hath done thee wrong;</l>
+        <l n="1006" real="xxxxx+-xx+-" met="-+-+-+-+-+-">I did but act, he’s author of my slander.</l>
+        <l n="1007" real="xxxxx+-+-x" met="-+-+-+-+-+">Grief hath two tongues, and never woman yet,</l>
+        <l n="1008" real="xxxxxxx+-x" met="-+-+-+-+-+">Could rule them both, without ten women’s wit.”</l>
+      </lg>
+      <lg type="stanza" n="169" rhyme="ababcc">
+        <l n="1009" real="x+-x-+-x-+" met="-+-+-+-+-+">Thus hoping that Adonis is alive,</l>
+        <l n="1010" real="xx-+xx-+-x" met="-+-+-+-+-+">Her rash suspect she doth extenuate;</l>
+        <l n="1011" real="xxx+-xx+-x" met="-+-+-+-+-+">And that his beauty may the better thrive,</l>
+        <l n="1012" real="xxx+-x-+--" met="-+-+-+-+-+">With death she humbly doth insinuate;</l>
+        <l n="1013" real="xxx+-+xxx+-" met="-+-+-+-+-+-">Tells him of trophies, statues, tombs and stories</l>
+        <l n="1014" real="x+--x+-xx+-" met="-+-+-+-+-+-">His victories, his triumphs and his glories.</l>
+      </lg>
+      <lg type="stanza" n="170" rhyme="ababcc">
+        <l n="1015" real="xxxxxxxxxx" met="-+-+-+-+-+">“O love!” quoth she, “how much a fool was I,</l>
+        <l n="1016" real="xxxxxxx+-x" met="-+-+-+-+-+">To be of such a weak and silly mind,</l>
+        <l n="1017" real="xxxxxxxxxx" met="-+-+-+-+-+">To wail his death who lives, and must not die</l>
+        <l n="1018" real="x+-+-xx+-x" met="-+-+-+-+-+">Till mutual overthrow of mortal kind;</l>
+        <l n="1019" real="xx+xxxx+-x" met="-+-+-+-+-+">For he being dead, with him is beauty slain,</l>
+        <l n="1020" real="x+-xx+-x-+" met="-+-+-+-+-+">And beauty dead, black Chaos comes again.</l>
+      </lg>
+      <lg type="stanza" n="171" rhyme="ababcc">
+        <l n="1021" real="xxxxxxxxxx" met="-+-+-+-+-+">“Fie, fie, fond love, thou art as full of fear</l>
+        <l n="1022" real="xxx+-+-xxx" met="-+-+-+-+-+">As one with treasure laden, hemm’d with thieves,</l>
+        <l n="1023" real="+-xxx-xxxx" met="-+-+-+-+-+">Trifles unwitnessed with eye or ear,</l>
+        <l n="1024" real="x+-xxxxxxx" met="-+-+-+-+-+">Thy coward heart with false bethinking grieves.”</l>
+        <l n="1025" real="+xxxxxx+-x" met="-+-+-+-+-+">Even at this word she hears a merry horn,</l>
+        <l n="1026" real="xxxxxxxx-+" met="-+-+-+-+-+">Whereat she leaps that was but late forlorn.</l>
+      </lg>
+      <lg type="stanza" n="172" rhyme="ababcc">
+        <l n="1027" real="x+-xxx-+xx" met="-+-+-+-+-+">As falcon to the lure, away she flies;</l>
+        <l n="1028" real="xxxxxxxxxx" met="-+-+-+-+-+">The grass stoops not, she treads on it so light,</l>
+        <l n="1029" real="xxxx-+---x" met="-+-+-+-+-+">And in her haste unfortunately spies</l>
+        <l n="1030" real="xxx+-xxx-+" met="-+-+-+-+-+">The foul boar’s conquest on her fair delight;</l>
+        <l n="1031" real="xxxxx+-xxx" met="-+-+-+-+-+">Which seen, her eyes, as murder’d with the view,</l>
+        <l n="1032" real="xx-+xx-+-+" met="-+-+-+-+-+">Like stars asham’d of day, themselves withdrew.</l>
+      </lg>
+      <lg type="stanza" n="173" rhyme="ababcc">
+        <l n="1033" real="xxxxx+-x+x" met="-+-+-+-+-+">Or as the snail, whose tender horns being hit,</l>
+        <l n="1034" real="x+-xx+-xxx" met="-+-+-+-+-+">Shrinks backwards in his shelly cave with pain,</l>
+        <l n="1035" real="xxx+-xxxxx" met="-+-+-+-+-+">And there all smother’d up, in shade doth sit,</l>
+        <l n="1036" real="xxx+-xxx-+" met="-+-+-+-+-+">Long after fearing to creep forth again:</l>
+        <l n="1037" real="xxx+-xxxxx" met="-+-+-+-+-+">So at his bloody view her eyes are fled</l>
+        <l n="1038" real="xxxxx+-xxx" met="-+-+-+-+-+">Into the deep dark cabins of her head.</l>
+      </lg>
+      <lg type="stanza" n="174" rhyme="ababcc">
+        <l n="1039" real="xx-+x+-xxx" met="-+-+-+-+-+">Where they resign their office and their light</l>
+        <l n="1040" real="xx-+-xx+-x" met="-+-+-+-+-+">To the disposing of her troubled brain,</l>
+        <l n="1041" real="xxxx-+x+-x" met="-+-+-+-+-+">Who bids them still consort with ugly night,</l>
+        <l n="1042" real="x+-xxxxx-+" met="-+-+-+-+-+">And never wound the heart with looks again;</l>
+        <l n="1043" real="xxxx-+-xxx" met="-+-+-+-+-+">Who like a king perplexed in his throne,</l>
+        <l n="1044" real="xx-+-xx+-x" met="-+-+-+-+-+">By their suggestion gives a deadly groan.</l>
+      </lg>
+      <lg type="stanza" n="175" rhyme="ababcc">
+        <l n="1045" real="xxx+-x-+-x" met="-+-+-+-+-+">Whereat each tributary subject quakes,</l>
+        <l n="1046" real="xxxx-+-xxx" met="-+-+-+-+-+">As when the wind imprison’d in the ground,</l>
+        <l n="1047" real="+-x+-x-+-x" met="-+-+-+-+-+">Struggling for passage, earth’s foundation shakes,</l>
+        <l n="1048" real="xxx+-xxx-+" met="-+-+-+-+-+">Which with cold terror doth men’s minds confound.</l>
+        <l n="1049" real="x+--xxxx-+" met="-+-+-+-+-+">This mutiny each part doth so surprise</l>
+        <l n="1050" real="xxxxxxxxxx" met="-+-+-+-+-+">That from their dark beds once more leap her eyes.</l>
+      </lg>
+      <lg type="stanza" n="176" rhyme="ababcc">
+        <l n="1051" real="x+-+-x-+-x" met="-+-+-+-+-+">And being open’d, threw unwilling light</l>
+        <l n="1052" real="xxxxxxxxxx" met="-+-+-+-+-+">Upon the wide wound that the boar had trench’d</l>
+        <l n="1053" real="xxxxxxx+-x" met="-+-+-+-+-+">In his soft flank, whose wonted lily white</l>
+        <l n="1054" real="x+-xxxxxxx" met="-+-+-+-+-+">With purple tears that his wound wept, was drench’d.</l>
+        <l n="1055" real="x+xxxxxxxx" met="-+-+-+-+-+">No flower was nigh, no grass, herb, leaf or weed,</l>
+        <l n="1056" real="xxxxxxxxxx" met="-+-+-+-+-+">But stole his blood and seem’d with him to bleed.</l>
+      </lg>
+      <lg type="stanza" n="177" rhyme="ababcc">
+        <l n="1057" real="x+-+-x+-xx" met="-+-+-+-+-+">This solemn sympathy poor Venus noteth,</l>
+        <l n="1058" real="xxx+-xxxxx" met="-+-+-+-+-+">Over one shoulder doth she hang her head,</l>
+        <l n="1059" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Dumbly she passions, franticly she doteth;</l>
+        <l n="1060" real="xxxxxxxxxx" met="-+-+-+-+-+">She thinks he could not die, he is not dead:</l>
+        <l n="1061" real="xxxxxx-+xx" met="-+-+-+-+-+">Her voice is stopp’d, her joints forget to bow,</l>
+        <l n="1062" real="xxxxxxxxxx" met="-+-+-+-+-+">Her eyes are mad, that they have wept till now.</l>
+      </lg>
+      <lg type="stanza" n="178" rhyme="-aaabb">
+        <l n="1063" real="xxxxxxx+x-" met="-+-+-+-+-+">Upon his hurt she looks so steadfastly,</l>
+        <l n="1064" real="xxx+-xxxxx" met="-+-+-+-+-+">That her sight dazzling makes the wound seem three;</l>
+        <l n="1065" real="xxxxxxx+-x" met="-+-+-+-+-+">And then she reprehends her mangling eye,</l>
+        <l n="1066" real="xxx+-xxxxx" met="-+-+-+-+-+">That makes more gashes, where no breach should be:</l>
+        <l n="1067" real="xxxxx+-xx+-" met="-+-+-+-+-+-">His face seems twain, each several limb is doubled,</l>
+        <l n="1068" real="xxxx-+xx++-" met="-+-+-+-+-+-">For oft the eye mistakes, the brain being troubled.</l>
+      </lg>
+      <lg type="stanza" n="179" rhyme="ababcc">
+        <l n="1069" real="xx-+-+xxxx" met="-+-+-+-+-+">“My tongue cannot express my grief for one,</l>
+        <l n="1070" real="xxxx-+xxxx" met="-+-+-+-+-+">And yet,” quoth she, “behold two Adons dead!</l>
+        <l n="1071" real="xxxx-+xxxx" met="-+-+-+-+-+">My sighs are blown away, my salt tears gone,</l>
+        <l n="1072" real="xxxxx+xxxx" met="-+-+-+-+-+">Mine eyes are turn’d to fire, my heart to lead:</l>
+        <l n="1073" real="+-xxxxxxx+-" met="-+-+-+-+-+-">Heavy heart’s lead, melt at mine eyes’ red fire!</l>
+        <l n="1074" real="xxxxxxxx-+-" met="-+-+-+-+-+-">So shall I die by drops of hot desire.</l>
+      </lg>
+      <lg type="stanza" n="180" rhyme="----aa">
+        <l n="1075" real="-+xxx+-xxx" met="-+-+-+-+-+">“Alas poor world, what treasure hast thou lost!</l>
+        <l n="1076" real="xx-+-+xxx+-" met="-+-+-+-+-+-">What face remains alive that’s worth the viewing?</l>
+        <l n="1077" real="xxx+-xxxxx" met="-+-+-+-+-+">Whose tongue is music now? what canst thou boast</l>
+        <l n="1078" real="xxxxx+-x+--" met="-+-+-+-+-+-">Of things long since, or anything ensuing?</l>
+        <l n="1079" real="x+xxx+-xxx" met="-+-+-+-+-+">The flowers are sweet, their colours fresh and trim,</l>
+        <l n="1080" real="xxx+-xxxxx" met="-+-+-+-+-+">But true sweet beauty liv’d and died with him.</l>
+      </lg>
+      <lg type="stanza" n="181" rhyme="ababaa">
+        <l n="1081" real="+-xx++x+-x" met="-+-+-+-+-+">“Bonnet nor veil henceforth no creature wear!</l>
+        <l n="1082" real="xxxxx+xxxx" met="-+-+-+-+-+">Nor sun nor wind will ever strive to kiss you:</l>
+        <l n="1083" real="+-xxxxxxxx" met="-+-+-+-+-+">Having no fair to lose, you need not fear;</l>
+        <l n="1084" real="xxxxxxxxxxx" met="-+-+-+-+-+-">The sun doth scorn you, and the wind doth hiss you.</l>
+        <l n="1085" real="xx-+-xxxxx" met="-+-+-+-+-+">But when Adonis liv’d, sun and sharp air</l>
+        <l n="1086" real="xxxxxxxxxx" met="-+-+-+-+-+">Lurk’d like two thieves, to rob him of his fair.</l>
+      </lg>
+      <lg type="stanza" n="182" rhyme="ababcc">
+        <l n="1087" real="xxxxxxx+-x" met="-+-+-+-+-+">“And therefore would he put his bonnet on,</l>
+        <l n="1088" real="xxxxx+-xxx" met="-+-+-+-+-+">Under whose brim the gaudy sun would peep;</l>
+        <l n="1089" real="xxxxxxx+-x" met="-+-+-+-+-+">The wind would blow it off, and being gone,</l>
+        <l n="1090" real="xxxxxx-+-x" met="-+-+-+-+-+">Play with his locks; then would Adonis weep;</l>
+        <l n="1091" real="xxx+-xx+-x" met="-+-+-+-+-+">And straight, in pity of his tender years,</l>
+        <l n="1092" real="xxxxxxxxxx" met="-+-+-+-+-+">They both would strive who first should dry his tears.</l>
+      </lg>
+      <lg type="stanza" n="183" rhyme="ababcc">
+        <l n="1093" real="xxxxx+-x-+" met="-+-+-+-+-+">“To see his face the lion walk’d along</l>
+        <l n="1094" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Behind some hedge, because he would not fear him;</l>
+        <l n="1095" real="x+-x-+xxxx" met="-+-+-+-+-+">To recreate himself when he hath sung,</l>
+        <l n="1096" real="x+xxxx+-xx" met="-+-+-+-+-+">The tiger would be tame and gently hear him.</l>
+        <l n="1097" real="xxxxxxxxxx" met="-+-+-+-+-+">If he had spoke, the wolf would leave his prey,</l>
+        <l n="1098" real="x+-xx+-xxx" met="-+-+-+-+-+">And never fright the silly lamb that day.</l>
+      </lg>
+      <lg type="stanza" n="184" rhyme="ababcc">
+        <l n="1099" real="xxxxx+xxxx" met="-+-+-+-+-+">“When he beheld his shadow in the brook,</l>
+        <l n="1100" real="x+-xxxx+-x" met="-+-+-+-+-+">The fishes spread on it their golden gills;</l>
+        <l n="1101" real="xxxxxxx+-x" met="-+-+-+-+-+">When he was by, the birds such pleasure took,</l>
+        <l n="1102" real="xxxxx+-xxx" met="-+-+-+-+-+">That some would sing, some other in their bills</l>
+        <l n="1103" real="xxxxxxxx+-" met="-+-+-+-+-+">Would bring him mulberries and ripe-red cherries,</l>
+        <l n="1104" real="xxxxxxxxx+-" met="-+-+-+-+-+-">He fed them with his sight, they him with berries.</l>
+      </lg>
+      <lg type="stanza" n="185" rhyme="ababcc">
+        <l n="1105" real="xxxxx+-xxx" met="-+-+-+-+-+">“But this foul, grim, and urchin-snouted boar,</l>
+        <l n="1106" real="x+-xxxxxxx" met="-+-+-+-+-+">Whose downward eye still looketh for a grave,</l>
+        <l n="1107" real="xxxxx+-xxx" met="-+-+-+-+-+">Ne’er saw the beauteous livery that he wore;</l>
+        <l n="1108" real="+-xx-+-xxx" met="-+-+-+-+-+">Witness the entertainment that he gave.</l>
+        <l n="1109" real="xxxxxxxxxx" met="-+-+-+-+-+">If he did see his face, why then I know</l>
+        <l n="1110" real="xxxxxxxxxx" met="-+-+-+-+-+">He thought to kiss him, and hath kill’d him so.</l>
+      </lg>
+      <lg type="stanza" n="186" rhyme="ababcc">
+        <l n="1111" real="xxxxxx-+-x" met="-+-+-+-+-+">“’Tis true, ’tis true; thus was Adonis slain:</l>
+        <l n="1112" real="xxxxxxxxxx" met="-+-+-+-+-+">He ran upon the boar with his sharp spear,</l>
+        <l n="1113" real="xxxxxxxx-+" met="-+-+-+-+-+">Who did not whet his teeth at him again,</l>
+        <l n="1114" real="xxxxxx-+xx" met="-+-+-+-+-+">But by a kiss thought to persuade him there;</l>
+        <l n="1115" real="xxxxxxx+-x" met="-+-+-+-+-+">And nuzzling in his flank, the loving swine</l>
+        <l n="1116" real="xx-+xxxxxx" met="-+-+-+-+-+">Sheath’d unaware the tusk in his soft groin.</l>
+      </lg>
+      <lg type="stanza" n="187" rhyme="ababcc">
+        <l n="1117" real="xxxxxxxx-+" met="-+-+-+-+-+">“Had I been tooth’d like him, I must confess,</l>
+        <l n="1118" real="x+-xxxxxxx" met="-+-+-+-+-+">With kissing him I should have kill’d him first;</l>
+        <l n="1119" real="xxxxx+-xxx" met="-+-+-+-+-+">But he is dead, and never did he bless</l>
+        <l n="1120" real="xxxxxxxxxx" met="-+-+-+-+-+">My youth with his; the more am I accurst.”</l>
+        <l n="1121" real="xxxxxxxxxx" met="-+-+-+-+-+">With this she falleth in the place she stood,</l>
+        <l n="1122" real="xxxxxx-+-x" met="-+-+-+-+-+">And stains her face with his congealed blood.</l>
+      </lg>
+      <lg type="stanza" n="188" rhyme="ababcc">
+        <l n="1123" real="xxxxxxxxxx" met="-+-+-+-+-+">She looks upon his lips, and they are pale;</l>
+        <l n="1124" real="xxxxxxxxxx" met="-+-+-+-+-+">She takes him by the hand, and that is cold,</l>
+        <l n="1125" real="x+-xxxx+-x" met="-+-+-+-+-+">She whispers in his ears a heavy tale,</l>
+        <l n="1126" real="xxxxx+-xxx" met="-+-+-+-+-+">As if they heard the woeful words she told;</l>
+        <l n="1127" real="xxx+-xxxxx" met="-+-+-+-+-+">She lifts the coffer-lids that close his eyes,</l>
+        <l n="1128" real="xxxxxxx+-x" met="-+-+-+-+-+">Where lo, two lamps burnt out in darkness lies.</l>
+      </lg>
+      <lg type="stanza" n="189" rhyme="ababcc">
+        <l n="1129" real="x+-x-+-+xx" met="-+-+-+-+-+">Two glasses where herself herself beheld</l>
+        <l n="1130" real="x+-xxxxx-+" met="-+-+-+-+-+">A thousand times, and now no more reflect;</l>
+        <l n="1131" real="x+-xxxxx-+" met="-+-+-+-+-+">Their virtue lost, wherein they late excell’d,</l>
+        <l n="1132" real="x+-+-xxx-+" met="-+-+-+-+-+">And every beauty robb’d of his effect.</l>
+        <l n="1133" real="+-xxxxxxxx" met="-+-+-+-+-+">“Wonder of time,” quoth she, “this is my spite,</l>
+        <l n="1134" real="xx+xxxxxxx" met="-+-+-+-+-+">That thou being dead, the day should yet be light.</l>
+      </lg>
+      <lg type="stanza" n="190" rhyme="ababcc">
+        <l n="1135" real="xxxxxxxxxx" met="-+-+-+-+-+">“Since thou art dead, lo here I prophesy,</l>
+        <l n="1136" real="+-xx-+-x-+" met="-+-+-+-+-+">Sorrow on love hereafter shall attend:</l>
+        <l n="1137" real="xxx+-xx+--" met="-+-+-+-+-+">It shall be waited on with jealousy,</l>
+        <l n="1138" real="xx-+-xxxxxx" met="-+-+-+-+-+-">Find sweet beginning, but unsavoury end;</l>
+        <l n="1139" real="x+-+--xxxx" met="-+-+-+-+-+">Ne’er settled equally, but high or low,</l>
+        <l n="1140" real="xxx+-xxxxx" met="-+-+-+-+-+">That all love’s pleasure shall not match his woe.</l>
+      </lg>
+      <lg type="stanza" n="191" rhyme="ababcc">
+        <l n="1141" real="xxx+-xxxxx" met="-+-+-+-+-+">“It shall be fickle, false and full of fraud,</l>
+        <l n="1142" real="xxx+-xx+-x" met="-+-+-+-+-+">Bud, and be blasted in a breathing while;</l>
+        <l n="1143" real="x+-+-xxxxx" met="-+-+-+-+-+">The bottom poison, and the top o’erstraw’d</l>
+        <l n="1144" real="xxxxx+-x-+" met="-+-+-+-+-+">With sweets that shall the truest sight beguile.</l>
+        <l n="1145" real="x+-+-xxxxx" met="-+-+-+-+-+">The strongest body shall it make most weak,</l>
+        <l n="1146" real="xxxxxxxxxx" met="-+-+-+-+-+">Strike the wise dumb, and teach the fool to speak.</l>
+      </lg>
+      <lg type="stanza" n="192" rhyme="ababcc">
+        <l n="1147" real="xxx+-xxxx+-" met="-+-+-+-+-+-">“It shall be sparing, and too full of riot,</l>
+        <l n="1148" real="+--+-xxxx+-" met="-+-+-+-+-+-">Teaching decrepit age to tread the measures;</l>
+        <l n="1149" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The staring ruffian shall it keep in quiet,</l>
+        <l n="1150" real="xxxx-+xxx+-" met="-+-+-+-+-+-">Pluck down the rich, enrich the poor with treasures;</l>
+        <l n="1151" real="xxx+-xx+-x" met="-+-+-+-+-+">It shall be raging mad, and silly mild,</l>
+        <l n="1152" real="xxxxxx-+xx" met="-+-+-+-+-+">Make the young old, the old become a child.</l>
+      </lg>
+      <lg type="stanza" n="193" rhyme="ababcc">
+        <l n="1153" real="xx-+xxxxxx" met="-+-+-+-+-+">“It shall suspect where is no cause of fear,</l>
+        <l n="1154" real="xxxxxxxx-+" met="-+-+-+-+-+">It shall not fear where it should most mistrust;</l>
+        <l n="1155" real="xxx+--xx-+" met="-+-+-+-+-+">It shall be merciful, and too severe,</l>
+        <l n="1156" real="xx-+-xxxxx" met="-+-+-+-+-+">And most deceiving when it seems most just;</l>
+        <l n="1157" real="-+xxxxxxxxx" met="-+-+-+-+-+-">Perverse it shall be, where it shows most toward,</l>
+        <l n="1158" real="xxx+-+-xx+-" met="-+-+-+-+-+-">Put fear to valour, courage to the coward.</l>
+      </lg>
+      <lg type="stanza" n="194" rhyme="ababcc">
+        <l n="1159" real="xxxxxxxx-+" met="-+-+-+-+-+">“It shall be cause of war and dire events,</l>
+        <l n="1160" real="xx-+-xxxx+-" met="-+-+-+-+-+-">And set dissension ’twixt the son and sire;</l>
+        <l n="1161" real="-+x+-xxx-+" met="-+-+-+-+-+">Subject and servile to all discontents,</l>
+        <l n="1162" real="xxxxx+-xx+-" met="-+-+-+-+-+-">As dry combustious matter is to fire,</l>
+        <l n="1163" real="xxxxxxxx-+" met="-+-+-+-+-+">Sith in his prime death doth my love destroy,</l>
+        <l n="1164" real="xxxxxxxx-+" met="-+-+-+-+-+">They that love best their love shall not enjoy.”</l>
+      </lg>
+      <lg type="stanza" n="195" rhyme="ababcc">
+        <l n="1165" real="xxxxxxxxxx" met="-+-+-+-+-+">By this the boy that by her side lay kill’d</l>
+        <l n="1166" real="x+-xx+-xxx" met="-+-+-+-+-+">Was melted like a vapour from her sight,</l>
+        <l n="1167" real="xxxxxxxxxx" met="-+-+-+-+-+">And in his blood that on the ground lay spill’d,</l>
+        <l n="1168" real="x+-+xxxxxx" met="-+-+-+-+-+">A purple flower sprung up, chequer’d with white,</l>
+        <l n="1169" real="-+-xxxxxxx" met="-+-+-+-+-+">Resembling well his pale cheeks, and the blood</l>
+        <l n="1170" real="xxxxxxx+-x" met="-+-+-+-+-+">Which in round drops upon their whiteness stood.</l>
+      </lg>
+      <lg type="stanza" n="196" rhyme="ababcc">
+        <l n="1171" real="xxxxxxx+xx" met="-+-+-+-+-+">She bows her head, the new-sprung flower to smell,</l>
+        <l n="1172" real="-+-xxx-+-x" met="-+-+-+-+-+">Comparing it to her Adonis’ breath;</l>
+        <l n="1173" real="xxxxx+-xxx" met="-+-+-+-+-+">And says within her bosom it shall dwell,</l>
+        <l n="1174" real="xx-+xxxxxx" met="-+-+-+-+-+">Since he himself is reft from her by death;</l>
+        <l n="1175" real="xxxxxxxx-+" met="-+-+-+-+-+">She crops the stalk, and in the breach appears</l>
+        <l n="1176" real="x+-xxx-+xx" met="-+-+-+-+-+">Green-dropping sap, which she compares to tears.</l>
+      </lg>
+      <lg type="stanza" n="197" rhyme="ababcc">
+        <l n="1177" real="x+xxxxx+-x" met="-+-+-+-+-+">“Poor flower,” quoth she, “this was thy father’s guise,</l>
+        <l n="1178" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Sweet issue of a more sweet-smelling sire,</l>
+        <l n="1179" real="x+-+-xxxxx" met="-+-+-+-+-+">For every little grief to wet his eyes,</l>
+        <l n="1180" real="xxxx-+xx-+-" met="-+-+-+-+-+-">To grow unto himself was his desire,</l>
+        <l n="1181" real="xxxxxxxxxx" met="-+-+-+-+-+">And so ’tis thine; but know, it is as good</l>
+        <l n="1182" real="x+-xxxxxxx" met="-+-+-+-+-+">To wither in my breast as in his blood.</l>
+      </lg>
+      <lg type="stanza" n="198" rhyme="ababcc">
+        <l n="1183" real="xxx+-xxxxx" met="-+-+-+-+-+">“Here was thy father’s bed, here in my breast;</l>
+        <l n="1184" real="xxxxxxxxxx" met="-+-+-+-+-+">Thou art the next of blood, and ’tis thy right:</l>
+        <l n="1185" real="xxx+-+-xxx" met="-+-+-+-+-+">Lo in this hollow cradle take thy rest,</l>
+        <l n="1186" real="x+-xxxxxxx" met="-+-+-+-+-+">My throbbing heart shall rock thee day and night:</l>
+        <l n="1187" real="xxxxx+-xx+-" met="-+-+-+-+-+-">There shall not be one minute in an hour</l>
+        <l n="1188" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Wherein I will not kiss my sweet love’s flower.”</l>
+      </lg>
+      <lg type="stanza" n="199" rhyme="ababcc">
+        <l n="1189" real="x+-xxx-+xx" met="-+-+-+-+-+">Thus weary of the world, away she hies,</l>
+        <l n="1190" real="xxx+-xxxxx" met="-+-+-+-+-+">And yokes her silver doves; by whose swift aid</l>
+        <l n="1191" real="x+-+-xx+-x" met="-+-+-+-+-+">Their mistress mounted through the empty skies,</l>
+        <l n="1192" real="xxx+-+-x-+" met="-+-+-+-+-+">In her light chariot quickly is convey’d;</l>
+        <l n="1193" real="+-xxxxxxxx" met="-+-+-+-+-+">Holding their course to Paphos, where their queen</l>
+        <l n="1194" real="xxxx-+xxxx" met="-+-+-+-+-+">Means to immure herself and not be seen.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

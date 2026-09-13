@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Last Rose, and other poems</title><author>John Davidson</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16274">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:davidson.obev-john-davidson.pg66619:song</idno><idno type="laurel-id">L16274</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+-x+-x-+" met="-+-+-+-+-+-">The boat is chafing at our long delay,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">And we must leave too soon</l>
+        <l n="3" real="x+-xxxxxxx" met="--+-+-+-+-">The spicy sea-pinks and the inborne spray,</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">The tawny sands, the moon.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxx+-x+-+-x" met="-+-+-+-+-+-">Keep us, O Thetis, in our western flight!</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">Watch from thy pearly throne</l>
+        <l n="7" real="+-+-+-+-xxx" met="-+-+-+-+-+-">Our vessel, plunging deeper into night</l>
+        <l n="8" real="xxxx-+" met="-+-+-+">To reach a land unknown.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-last-rose" n="L16275">
+      <head>The Last Rose</head>
+      <idno type="URN">urn:laurel:eng:davidson.obev-john-davidson.pg66619:the-last-rose</idno><idno type="laurel-id">L16275</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abbacc">
+        <l n="1" real="xxxxxx" met="--+-+-">‘O which is the last rose?’</l>
+        <l n="2" real="x+-xxx" met="--+-+-">A blossom of no name.</l>
+        <l n="3" real="x+xxxx" met="--+-+-">At midnight the snow came;</l>
+        <l n="4" real="x+xxxx" met="--+-+-">At daybreak a vast rose,</l>
+        <l n="5" real="x+--+" met="-+-+-">In darkness unfurl’d,</l>
+        <l n="6" real="xxxxx" met="-+-+-">O’er-petall’d the world.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-abcbc">
+        <l n="7" real="xxxxxx" met="--+-+-">Its odourless pallor</l>
+        <l n="8" real="+--+" met="-+-+">Blossom’d forlorn,</l>
+        <l n="9" real="x+--+-" met="--+-+-">Till radiant valour</l>
+        <l n="10" real="-+--xx" met="--+-+-">Established the morn--</l>
+        <l n="11" real="xxx" met="+-+">Till the night</l>
+        <l n="12" real="x-+" met="+-+">Was undone</l>
+        <l n="13" real="xxx" met="+-+">In her fight</l>
+        <l n="14" real="xxx" met="+-+">With the sun.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abcbac">
+        <l n="15" real="xxxxxx" met="--+-+-">The brave orb in state rose,</l>
+        <l n="16" real="x+-xxx" met="--+-+-">And crimson he shone first;</l>
+        <l n="17" real="xxxxx" met="-+-+-">While from the high vine</l>
+        <l n="18" real="x+-xxx" met="--+-+-">Of heaven the dawn burst,</l>
+        <l n="19" real="+-xxx" met="-+-+-">Staining the great rose</l>
+        <l n="20" real="xxxxxx" met="--+-+-">From sky-line to sky-line.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab-ccc-">
+        <l n="21" real="xxxxx" met="-+-+-">The red rose of morn</l>
+        <l n="22" real="xxxxxx" met="--+-+-">A white rose at noon turn’d;</l>
+        <l n="23" real="xx+x++" met="--+-+-">But at sunset reborn</l>
+        <l n="24" real="xx-+xx" met="--+-+-">All red again soon burn’d.</l>
+        <l n="25" real="xxxxxxx" met="-+-+-+-">Then the pale rose of noonday</l>
+        <l n="26" real="xxxxx" met="-+-+-">Rebloom’d in the night,</l>
+        <l n="27" real="xxxxx" met="-+-+-">And spectrally white</l>
+        <l n="28" real="xxx" met="+-+">In the light</l>
+        <l n="29" real="xxxx" met="-+-+">Of the moon lay.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abcabcadcd">
+        <l n="30" real="xxxx" met="-+-+">But the vast rose</l>
+        <l n="31" real="xxx" met="+-+">Was scentless,</l>
+        <l n="32" real="xxxx+-" met="--+-+-">And this is the reason:</l>
+        <l n="33" real="xxxx" met="-+-+">When the blast rose</l>
+        <l n="34" real="-+-" met="+-+">Relentless,</l>
+        <l n="35" real="xxxx+-" met="--+-+-">And brought in due season</l>
+        <l n="36" real="xxxxxx" met="--+-+-">The snow rose, the last rose</l>
+        <l n="37" real="-+xxx" met="-+-+-">Congeal’d in its breath,</l>
+        <l n="38" real="xxxx+-" met="--+-+-">Then came with it treason;</l>
+        <l n="39" real="x+-xx" met="-+-+-">The traitor was Death.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababccdedefgghfh">
+        <l n="40" real="xx+-+-" met="--+-+-">In lee-valleys crowded,</l>
+        <l n="41" real="xxxxx" met="-+-+-">The sheep and the birds</l>
+        <l n="42" real="x+-x+-" met="--+-+-">Were frozen and shrouded</l>
+        <l n="43" real="xxxxx" met="-+-+-">In flights and in herds.</l>
+        <l n="44" real="x+x" met="+-+">In highways</l>
+        <l n="45" real="x+x" met="+-+">And byways</l>
+        <l n="46" real="xxxxx" met="-+-+-">The young and the old</l>
+        <l n="47" real="x+-xxx" met="--+-+-">Were tortured and madden’d</l>
+        <l n="48" real="xxxxx" met="-+-+-">And kill’d by the cold.</l>
+        <l n="49" real="x+-xxx" met="--+-+-">But many were gladden’d</l>
+        <l n="50" real="xx+-xx" met="--+-+-">By the beautiful last rose,</l>
+        <l n="51" real="x+-xxx" met="--+-+-">The blossom of no name</l>
+        <l n="52" real="xxxxxx" met="--+-+-">That came when the snow came,</l>
+        <l n="53" real="x+--+" met="-+-+-">In darkness unfurl’d--</l>
+        <l n="54" real="x+--xx" met="--+-+-">The wonderful vast rose</l>
+        <l n="55" real="xxxxx" met="-+-+-">That fill’d all the world.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

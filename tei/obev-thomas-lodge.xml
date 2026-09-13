@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Rosalind’s Madrigal, and other poems</title><author>Thomas Lodge</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="rosalinds-madrigal" n="L15974">
+      <head>Rosalind’s Madrigal</head>
+      <idno type="URN">urn:laurel:eng:lodge.obev-thomas-lodge.pg66619:rosalinds-madrigal</idno><idno type="laurel-id">L15974</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc-ca">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">Love in my bosom like a bee</l>
+        <l n="2" real="xxxx" met="--+-">Doth suck his sweet:</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Now with his wings he plays with me,</l>
+        <l n="4" real="xxxx" met="--+-">Now with his feet.</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Within mine eyes he makes his nest,</l>
+        <l n="6" real="xx-+x+-x" met="-+-+-+-+">His bed amidst my tender breast;</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">My kisses are his daily feast,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">And yet he robs me of my rest:</l>
+        <l n="9" real="x+-xx" met="-+-+-">Ah! wanton, will ye?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcccca">
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">And if I sleep, then percheth he</l>
+        <l n="11" real="x+-x" met="--+-">With pretty flight,</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">And makes his pillow of my knee</l>
+        <l n="13" real="xxxxx" met="-+-+-">The livelong night.</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Strike I my lute, he tunes the string;</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">He music plays if so I sing;</l>
+        <l n="16" real="xxx+-+-x" met="-+-+-+-+">He lends me every lovely thing,</l>
+        <l n="17" real="x+-xxxxx" met="-+-+-+-+">Yet cruel he my heart doth sting:</l>
+        <l n="18" real="x+-xx" met="-+-+-">Whist, wanton, still ye!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcccc-">
+        <l n="19" real="xxx+-+-x" met="-+-+-+-+">Else I with roses every day</l>
+        <l n="20" real="xxxx" met="--+-">Will whip you hence,</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">And bind you, when you long to play,</l>
+        <l n="22" real="xxxx" met="--+-">For your offence.</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">I’ll shut mine eyes to keep you in;</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">I’ll make you fast it for your sin;</l>
+        <l n="25" real="xxx+xxxx" met="-+-+-+-+">I’ll count your power not worth a pin.</l>
+        <l n="26" real="-+x-+xxx" met="-+-+-+-+">--Alas! what hereby shall I win</l>
+        <l n="27" real="xx+xx" met="-+-+-">If he gainsay me?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababccccc">
+        <l n="28" real="xxxxx+-x" met="-+-+-+-+">What if I beat the wanton boy</l>
+        <l n="29" real="x+-xx" met="-+-+-">With many a rod?</l>
+        <l n="30" real="xx-+xx-+" met="-+-+-+-+">He will repay me with annoy,</l>
+        <l n="31" real="xxxx" met="--+-">Because a god.</l>
+        <l n="32" real="xxx+-xxx" met="-+-+-+-+">Then sit thou safely on my knee;</l>
+        <l n="33" real="xxx+x+-x" met="-+-+-+-+">Then let thy bower my bosom be;</l>
+        <l n="34" real="xxxxxxxx" met="-+-+-+-+">Lurk in mine eyes, I like of thee;</l>
+        <l n="35" real="x+-xx+-x" met="-+-+-+-+">O Cupid, so thou pity me,</l>
+        <l n="36" real="xxxxx" met="-+-+-">Spare not, but play thee!</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="37" real="+-x" met="-+-">_98._ _Phillis_ I</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-----a-a-bbb">
+        <l n="38" real="x+-xx+-x" met="-+-+-+-+">My Phillis hath the morning sun</l>
+        <l n="39" real="xxxxxxx" met="+-+-+-+">At first to look upon her;</l>
+        <l n="40" real="x+-xx+-x" met="-+-+-+-+">And Phillis hath morn-waking birds</l>
+        <l n="41" real="xxxxx+-" met="+-+-+-+">Her risings still to honour.</l>
+        <l n="42" real="x+-xx+-+-" met="-+-+-+-+-">My Phillis hath prime-feather’d flowers,</l>
+        <l n="43" real="xxxxxxx" met="+-+-+-+">That smile when she treads on them;</l>
+        <l n="44" real="x+-xx+-x" met="-+-+-+-+">And Phillis hath a gallant flock,</l>
+        <l n="45" real="xxxxxxx" met="+-+-+-+">That leaps since she doth own them.</l>
+        <l n="46" real="x+-xxxxx" met="-+-+-+-+">But Phillis hath too hard a heart,</l>
+        <l n="47" real="-+xxxxx" met="+-+-+-+">Alas that she should have it!</l>
+        <l n="48" real="xxx+-x-+" met="-+-+-+-+">It yields no mercy to desert,</l>
+        <l n="49" real="xxxxxxx" met="+-+-+-+">Nor grace to those that crave it.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="50" real="+-" met="-+">_99._ _Phillis_ 2</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="51" real="xxx+-xxx" met="-+-+-+-+">Love guards the roses of thy lips</l>
+        <l n="52" real="xxxxxxxx" met="-+-+-+-+">And flies about them like a bee;</l>
+        <l n="53" real="xx-+x+-x" met="-+-+-+-+">If I approach he forward skips,</l>
+        <l n="54" real="xxxxxxxx" met="-+-+-+-+">And if I kiss he stingeth me.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="55" real="xxxxxxx+-" met="-+-+-+-+-">Love in thine eyes doth build his bower,</l>
+        <l n="56" real="xxxxx+-x" met="-+-+-+-+">And sleeps within their pretty shine;</l>
+        <l n="57" real="xxxxxxx+-" met="-+-+-+-+-">And if I look the boy will lower,</l>
+        <l n="58" real="xxxxxx-+" met="-+-+-+-+">And from their orbs shoot shafts divine.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="59" real="xxxxxxx+-" met="-+-+-+-+-">Love works thy heart within his fire,</l>
+        <l n="60" real="xxxxxxxx" met="-+-+-+-+">And in my tears doth firm the same;</l>
+        <l n="61" real="xxxxxx-+" met="-+-+-+-+">And if I tempt it will retire,</l>
+        <l n="62" real="xxxxxxxx" met="-+-+-+-+">And of my plaints doth make a game.</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="63" real="xxxxx+-+-" met="-+-+-+-+-">Love, let me cull her choicest flowers;</l>
+        <l n="64" real="x+-xxxxx" met="-+-+-+-+">And pity me, and calm her eye;</l>
+        <l n="65" real="xxxx-+x+-" met="-+-+-+-+-">Make soft her heart, dissolve her lowers</l>
+        <l n="66" real="xxxxx+--" met="-+-+-+-+">Then will I praise thy deity.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aa">
+        <l n="67" real="xxxxxxx+-xx" met="-+-+-+-+-+-">But if thou do not, Love, I’ll truly serve her</l>
+        <l n="68" real="xxxxxxxx-+x" met="-+-+-+-+-+-">In spite of thee, and by firm faith deserve her.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="rosaline" n="L15975">
+      <head>Rosaline</head>
+      <idno type="URN">urn:laurel:eng:lodge.obev-thomas-lodge.pg66619:rosaline</idno><idno type="laurel-id">L15975</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab-cdcd-">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Like to the clear in highest sphere</l>
+        <l n="2" real="xx-+-+-x" met="-+-+-+-+">Where all imperial glory shines,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">Of selfsame colour is her hair</l>
+        <l n="4" real="xx-+-xxx" met="-+-+-+-+">Whether unfolded or in twines:</l>
+        <l n="5" real="xxxxxx" met="--+-+-">Heigh ho, fair Rosaline!</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Her eyes are sapphires set in snow,</l>
+        <l n="7" real="-+-+x+-x" met="-+-+-+-+">Resembling heaven by every wink;</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">The gods do fear whenas they glow,</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">And I do tremble when I think</l>
+        <l n="10" real="xxxxxx" met="--+-+-">Heigh ho, would she were mine!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-c-c--">
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">Her cheeks are like the blushing cloud</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">That beautifies Aurora’s face,</l>
+        <l n="13" real="xxx+-+-x" met="-+-+-+-+">Or like the silver crimson shroud</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">That Phœbus’ smiling looks doth grace.</l>
+        <l n="15" real="xxxxxx" met="--+-+-">Heigh ho, fair Rosaline!</l>
+        <l n="16" real="xxxxxxx+-" met="-+-+-+-+-">Her lips are like two budded roses</l>
+        <l n="17" real="xxx+-+-x" met="-+-+-+-+">Whom ranks of lilies neighbour nigh,</l>
+        <l n="18" real="xxxxxxxxx" met="-+-+-+-+-">Within whose bounds she balm encloses</l>
+        <l n="19" real="xx-+x+--" met="-+-+-+-+">Apt to entice a deity:</l>
+        <l n="20" real="xxxxxx" met="--+-+-">Heigh ho, would she were mine!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab-cdcd-">
+        <l n="21" real="xxxxx+-+-" met="-+-+-+-+-">Her neck like to a stately tower</l>
+        <l n="22" real="xx-+-+-x" met="-+-+-+-+">Where Love himself imprison’d lies,</l>
+        <l n="23" real="xxx+-+-+-" met="-+-+-+-+-">To watch for glances every hour</l>
+        <l n="24" real="xx-+x+-x" met="-+-+-+-+">From her divine and sacred eyes:</l>
+        <l n="25" real="xxxxxx" met="--+-+-">Heigh ho, fair Rosaline!</l>
+        <l n="26" real="xxx+-x-+" met="-+-+-+-+">Her paps are centres of delight,</l>
+        <l n="27" real="xxxxx+-x" met="-+-+-+-+">Her breasts are orbs of heavenly frame,</l>
+        <l n="28" real="x+-xxxxx" met="-+-+-+-+">Where Nature moulds the dew of light</l>
+        <l n="29" real="xx-+-xxx" met="-+-+-+-+">To feed perfection with the same:</l>
+        <l n="30" real="xxxxxx" met="--+-+-">Heigh ho, would she were mine!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab-cdcd-">
+        <l n="31" real="x+-xxx+-x" met="-+-+-+-+-">With orient pearl, with ruby red,</l>
+        <l n="32" real="x+-xx+-x" met="-+-+-+-+">With marble white, with sapphire blue,</l>
+        <l n="33" real="x+-+-xxx" met="-+-+-+-+">Her body every way is fed,</l>
+        <l n="34" real="xxxxxxxx" met="-+-+-+-+">Yet soft to touch and sweet in view:</l>
+        <l n="35" real="xxxxxx" met="--+-+-">Heigh ho, fair Rosaline!</l>
+        <l n="36" real="+--+xx-+" met="-+-+-+-+">Nature herself her shape admires;</l>
+        <l n="37" real="xxx+-xxx" met="-+-+-+-+">The gods are wounded in her sight;</l>
+        <l n="38" real="xxxxx+-+" met="-+-+-+-+">And Love forsakes his heavenly fires</l>
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">And at her eyes his brand doth light:</l>
+        <l n="40" real="xxxxxx" met="--+-+-">Heigh ho, would she were mine!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-bab">
+        <l n="41" real="xxxxxx-+" met="-+-+-+-+">Then muse not, Nymphs, though I bemoan</l>
+        <l n="42" real="x+-xxxxx" met="-+-+-+-+">The absence of fair Rosaline,</l>
+        <l n="43" real="xxxxx+-x" met="-+-+-+-+">Since for a fair there’s fairer none,</l>
+        <l n="44" real="xxx+-x-+" met="-+-+-+-+">Nor for her virtues so divine:</l>
+        <l n="45" real="xxxxxx" met="--+-+-">Heigh ho, fair Rosaline!</l>
+        <l n="46" real="xxxxxxxxxx" met="--+-+-+-+-">Heigh ho, my heart! would God that she were mine!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

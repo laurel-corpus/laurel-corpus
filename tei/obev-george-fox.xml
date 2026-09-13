@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The County of Mayo</title><author>George Fox</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-county-of-mayo" n="L16224">
+      <head>The County of Mayo</head>
+      <idno type="URN">urn:laurel:eng:fox.obev-george-fox.pg66619:the-county-of-mayo</idno><idno type="laurel-id">L16224</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xx+-x+--+" met="-+-+-+-+-">FROM THE IRISH OF THOMAS LAVELLE</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--">
+        <l n="2" real="xxxx+-+-xxxxxxx" met="-+-+-+-+-+-+-+-">On the deck of Patrick Lynch’s boat I sat in woful plight,</l>
+        <l n="3" real="xx+-xx+-xx+-xxx" met="-+-+-+-+-+-+-+-">Through my sighing all the weary day and weeping all the night;</l>
+        <l n="4" real="xxxxxx+-xx+-xxx" met="-+-+-+-+-+-+-+-">Were it not that full of sorrow from my people forth I go,</l>
+        <l n="5" real="xxxxx+--xxxx+-" met="-+-+-+-+-+-+-+">By the blessèd sun! ’tis royally I’d sing thy praise, Mayo!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa--">
+        <l n="6" real="xxxxxx+-xxxxx-+" met="-+-+-+-+-+-+-+-">When I dwelt at home in plenty, and my gold did much abound,</l>
+        <l n="7" real="xx+--xxxxx+-xxx" met="-+-+-+-+-+-+-+-">In the company of fair young maids the Spanish ale went round--</l>
+        <l n="8" real="xx+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+-">’Tis a bitter change from those gay days that now I’m forced to go</l>
+        <l n="9" real="xxxxxx+-xxxxx+-" met="-+-+-+-+-+-+-+-">And must leave my bones in Santa Cruz, far from my own Mayo.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa--">
+        <l n="10" real="xx+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+-">They are alter’d girls in Irrul now; ’tis proud they’re grown and high,</l>
+        <l n="11" real="xxxxxxxxxxxx+-x" met="-+-+-+-+-+-+-+-">With their hair-bags and their top-knots, for I pass their buckles by--</l>
+        <l n="12" real="xx+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+-">But it’s little now I heed their airs, for God will have it so,</l>
+        <l n="13" real="xxx-+x+-xxxxx+-" met="-+-+-+-+-+-+-+-">That I must depart for foreign lands and leave my sweet Mayo.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa--">
+        <l n="14" real="xxxx+-+-xxxxxxx" met="-+-+-+-+-+-+-+-">’Tis my grief that Patrick Loughlin is not Earl of Irrul still,</l>
+        <l n="15" real="xx+-xx+-xxxxxxx" met="-+-+-+-+-+-+-+-">And that Brian Duff no longer rules as Lord upon the hill:</l>
+        <l n="16" real="xx+-x-+-xx+-xxx" met="-+-+-+-+-+-+-+-">And that Colonel Hugh McGrady should be lying dead and low,</l>
+        <l n="17" real="xx+-+-+-xx+-x+-" met="-+-+-+-+-+-+-+-">And I sailing, sailing swiftly from the county of Mayo.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

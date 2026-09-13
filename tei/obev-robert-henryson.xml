@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Robin and Makyne, and other poems</title><author>Robert Henryson</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="robin-and-makyne" n="L15949">
+      <head>Robin and Makyne</head>
+      <idno type="URN">urn:laurel:eng:henryson.obev-robert-henryson.pg66619:robin-and-makyne</idno><idno type="laurel-id">L15949</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababa-ab">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Robin sat on gude green hill,</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Kepand a flock of fe:</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Mirry Makyne said him till</l>
+        <l n="4" real="+-xxxx" met="--+-+-">‘Robin, thou rew on me:</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">I haif thee luvit, loud and still,</l>
+        <l n="6" real="xxxxxx" met="--+-+-">Thir yeiris twa or thre;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">My dule in dern bot gif thou dill,</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Doutless but dreid I de.’</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aba-abab">
+        <l n="9" real="+-xxxxxx" met="-+-+-+-+">Robin answerit ‘By the Rude</l>
+        <l n="10" real="xxxxxx" met="--+-+-">Na thing of luve I knaw,</l>
+        <l n="11" real="xxxxxxxxx" met="-+-+-+-+-">But keipis my scheip undir yon wud:</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">Lo, quhair they raik on raw.</l>
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">Quhat has marrit thee in thy mude,</l>
+        <l n="14" real="xxxxxx" met="--+-+-">Makyne, to me thou shaw;</l>
+        <l n="15" real="xxxxxxxxx" met="-+-+-+-+-">Or quhat is luve, or to be lude?</l>
+        <l n="16" real="xxxxxx" met="--+-+-">Fain wad I leir that law.’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababa-a-">
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">‘At luvis lair gif thou will leir</l>
+        <l n="18" real="xxxxxx" met="--+-+-">Tak thair ane A B C;</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">Be heynd, courtass, and fair of feir,</l>
+        <l n="20" real="x+-xx" met="-+-+-">Wyse, hardy, and free:</l>
+        <l n="21" real="xxx+-xxx" met="-+-+-+-+">So that no danger do thee deir</l>
+        <l n="22" real="xxxxxxx" met="+-+-+-+">Quhat dule in dern thou dre;</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">Preiss thee with pain at all poweir</l>
+        <l n="24" real="x+-xxx" met="--+-+-">Be patient and previe.’</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababacac">
+        <l n="25" real="+-xxxxxx" met="-+-+-+-+">Robin answerit hir agane,</l>
+        <l n="26" real="xxxxxxx" met="+-+-+-+">‘I wat nocht quhat is lufe;</l>
+        <l n="27" real="xxxxxxxx" met="-+-+-+-+">But I haif mervel in certaine</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">Quhat makis thee this wanrufe:</l>
+        <l n="29" real="xxxxxxxxx" met="-+-+-+-+-">The weddir is fair, and I am fain;</l>
+        <l n="30" real="xxxxxx" met="--+-+-">My scheip gois haill aboif;</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">And we wald pley us in this plane,</l>
+        <l n="32" real="xxxxxx" met="--+-+-">They wald us baith reproif.’</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abababab">
+        <l n="33" real="+-xxxxxx" met="-+-+-+-+">‘Robin, tak tent unto my tale,</l>
+        <l n="34" real="xxxxxx" met="--+-+-">And wirk all as I reid,</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">And thou sall haif my heart all haill,</l>
+        <l n="36" real="xxx+-x" met="--+-+-">Eik and my maiden-heid:</l>
+        <l n="37" real="xxxxxxx" met="+-+-+-+">Sen God sendis bute for baill,</l>
+        <l n="38" real="xxxxxx" met="--+-+-">And for murnyng remeid,</l>
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">In dern with thee bot gif I daill</l>
+        <l n="40" real="xxxxx" met="-+-+-">Dowtles I am bot deid.’</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abacacab">
+        <l n="41" real="xxxxx+-x" met="-+-+-+-+">‘Makyne, to-morn this ilka tyde</l>
+        <l n="42" real="xxxxxx" met="--+-+-">And ye will meit me heir,</l>
+        <l n="43" real="xxxxxxxxxx" met="--+-+-+-+-">Peraventure my scheip may gang besyde,</l>
+        <l n="44" real="xxxxxxxxx" met="-+-+-+-+-">Quhyle we haif liggit full neir;</l>
+        <l n="45" real="xxxxxxx" met="+-+-+-+">But mawgre haif I, and I byde,</l>
+        <l n="46" real="xx-+xx" met="--+-+-">Fra they begin to steir;</l>
+        <l n="47" real="xxxxxxxxx" met="-+-+-+-+-">Quhat lyis on heart I will nocht hyd;</l>
+        <l n="48" real="xxxxxx" met="--+-+-">Makyn, then mak gude cheir.’</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="49" real="+-xxxxxxx" met="-+-+-+-+-">‘Robin, thou reivis me roiff and rest;</l>
+        <l n="50" real="xxxxxx" met="--+-+-">I luve bot thee allane.’</l>
+        <l n="51" real="xx-+xxxx" met="-+-+-+-+">‘Makyne, adieu! the sone gois west,</l>
+        <l n="52" real="xxxxxx" met="--+-+-">The day is neir-hand gane.’</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="53" real="+-xxxxxx" met="-+-+-+-+">‘Robin, in dule I am so drest</l>
+        <l n="54" real="xxxxxx" met="--+-+-">That luve will be my bane.’</l>
+        <l n="55" real="xxxxxxxxxx" met="--+-+-+-+-">‘Ga luve, Makyne, quhair-evir thow list,</l>
+        <l n="56" real="xxxxxx" met="--+-+-">For lemman I luve nane.’</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abcbabcb">
+        <l n="57" real="+-xxxxxx" met="-+-+-+-+">‘Robin, I stand in sic a styll,</l>
+        <l n="58" real="xxxxxx" met="--+-+-">I sicht and that full sair.’</l>
+        <l n="59" real="xxxxxxxxxx" met="--+-+-+-+-">‘Makyne, I haif been here this quhyle;</l>
+        <l n="60" real="xxxxxx" met="--+-+-">At hame God gif I wair.’</l>
+        <l n="61" real="xxx+-xxxx" met="-+-+-+-+-">‘My huny, Robin, talk ane quhyll,</l>
+        <l n="62" real="xxxxxx" met="--+-+-">Gif thow will do na mair.’</l>
+        <l n="63" real="xxxxxxxxx" met="-+-+-+-+-">‘Makyn, sum uthir man begyle,</l>
+        <l n="64" real="xxxxxxx" met="+-+-+-+">For hamewart I will fair.’</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="ababa-a-">
+        <l n="65" real="+-xxxx" met="--+-+-">Robin on his wayis went</l>
+        <l n="66" real="xxxxxx" met="--+-+-">As light as leif of tre;</l>
+        <l n="67" real="xxxxxx-+" met="-+-+-+-+">Makyne murnit in hir intent,</l>
+        <l n="68" real="xxxxxxx+" met="-+-+-+-+">And trowd him nevir to se.</l>
+        <l n="69" real="+-xxxxx" met="+-+-+-+">Robin brayd attour the bent:</l>
+        <l n="70" real="xxxxxx" met="--+-+-">Then Makyne cryit on hie,</l>
+        <l n="71" real="xxxxxxxx" met="-+-+-+-+">‘Now may thow sing, for I am schent!</l>
+        <l n="72" real="xxxxxxx" met="+-+-+-+">Quhat alis lufe at me?’</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abababab">
+        <l n="73" real="xxxxxxxx" met="-+-+-+-+">Makyne went hame withowttin fail,</l>
+        <l n="74" real="x+-xxxx" met="+-+-+-+">Full wery eftir cowth weip;</l>
+        <l n="75" real="x+-xxxxx" met="-+-+-+-+">Then Robin in a ful fair daill</l>
+        <l n="76" real="xxxxxx" met="--+-+-">Assemblit all his scheip.</l>
+        <l n="77" real="xxxxxxxxx" met="-+-+-+-+-">Be that sum part of Makynis aill</l>
+        <l n="78" real="xxxxxx" met="--+-+-">Out-throw his hairt cowd creip;</l>
+        <l n="79" real="xxxxxxxx-+" met="--+-+-+-+-">He fallowit hir fast thair till assaill,</l>
+        <l n="80" real="xxxxxx" met="--+-+-">And till her tuke gude keip.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abababab">
+        <l n="81" real="xxxxxxxx" met="-+-+-+-+">‘Abyd, abyd, thow fair Makyne,</l>
+        <l n="82" real="xxxxxx" met="--+-+-">A word for ony thing;</l>
+        <l n="83" real="xxxxxxxx" met="-+-+-+-+">For all my luve, it sall be thyne,</l>
+        <l n="84" real="xxx-+-" met="--+-+-">Withowttin departing.</l>
+        <l n="85" real="xxxxxxxx" met="-+-+-+-+">All haill thy hairt for till haif myne</l>
+        <l n="86" real="xxxxxx" met="--+-+-">Is all my cuvating;</l>
+        <l n="87" real="xxxxxxxxxx" met="--+-+-+-+-">My scheip to-morn, quhyle houris nyne,</l>
+        <l n="88" real="xxxxxx" met="--+-+-">Will neid of no keping.’</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="ababacac">
+        <l n="89" real="+-xxxxxx" met="-+-+-+-+">‘Robin, thow hes hard soung and say,</l>
+        <l n="90" real="xxxxxxx" met="+-+-+-+">In gestis and storeis auld,</l>
+        <l n="91" real="xxxxxxxxx" met="-+-+-+-+-">The man that will nocht quhen he may</l>
+        <l n="92" real="xxxxxxx" met="+-+-+-+">Sall haif nocht quhen he wald.</l>
+        <l n="93" real="xxxxx+--x" met="-+-+-+-+-">I pray to Jesu every day,</l>
+        <l n="94" real="xxxxxx" met="--+-+-">Mot eik thair cairis cauld</l>
+        <l n="95" real="xxxxxxxx" met="-+-+-+-+">That first preissis with thee to play</l>
+        <l n="96" real="xx+-xx" met="--+-+-">Be firth, forrest, or fauld.’</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab-bab">
+        <l n="97" real="xxxxxxxx" met="-+-+-+-+">‘Makyne, the nicht is soft and dry,</l>
+        <l n="98" real="xxxxxxx" met="+-+-+-+">The weddir is warme and fair,</l>
+        <l n="99" real="xxxxxxxx" met="-+-+-+-+">And the grene woid rycht neir us by</l>
+        <l n="100" real="xxxxxxx" met="+-+-+-+">To walk attour all quhair:</l>
+        <l n="101" real="xxxxxx+-" met="-+-+-+-+">Thair ma na janglour us espy,</l>
+        <l n="102" real="xxxxxx" met="--+-+-">That is to lufe contrair;</l>
+        <l n="103" real="xxxxxxxx" met="-+-+-+-+">Thairin, Makyne, baith ye and I,</l>
+        <l n="104" real="xxxx-+" met="--+-+-">Unsene we ma repair.’</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abab">
+        <l n="105" real="+-xxxx-+" met="-+-+-+-+">‘Robin, that warld is all away,</l>
+        <l n="106" real="xxxxxx" met="--+-+-">And quyt brocht till ane end:</l>
+        <l n="107" real="xxxxxxxxxx" met="--+-+-+-+-">And nevir agane thereto, perfay,</l>
+        <l n="108" real="xxxxxx" met="--+-+-">Sall it be as thow wend;</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="109" real="xxxxxxxx" met="-+-+-+-+">For of my pane thow maid it play;</l>
+        <l n="110" real="xxxxxx" met="--+-+-">And all in vane I spend:</l>
+        <l n="111" real="xxxxxxxx" met="-+-+-+-+">As thow hes done, sa sall I say,</l>
+        <l n="112" real="xxxxxx" met="--+-+-">“Murne on, I think to mend.”’</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abababab">
+        <l n="113" real="xxxxxxxx" met="-+-+-+-+">‘Makyne, the howp of all my heill,</l>
+        <l n="114" real="xxxxxx" met="--+-+-">My hairt on thee is sett;</l>
+        <l n="115" real="xxxxxxxx" met="-+-+-+-+">And evirmair to thee be leill</l>
+        <l n="116" real="xxxxxxx" met="+-+-+-+">Quhill I may leif but lett;</l>
+        <l n="117" real="+-xxxxxxx" met="-+-+-+-+-">Never to faill as utheris feill,</l>
+        <l n="118" real="xxxxxxxx" met="-+-+-+-+">Quhat grace that evir I gett.’</l>
+        <l n="119" real="+-xxxxxx" met="-+-+-+-+">‘Robin, with thee I will nocht deill;</l>
+        <l n="120" real="-+xxxx" met="--+-+-">Adieu! for thus we mett.’</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abababab">
+        <l n="121" real="xxxxxxx" met="+-+-+-+">Makyne went hame blyth anneuche</l>
+        <l n="122" real="xxxxxx" met="--+-+-">Attour the holttis hair;</l>
+        <l n="123" real="+-xxxxxx" met="-+-+-+-+">Robin murnit, and Makyne leuche;</l>
+        <l n="124" real="xxxxxx" met="--+-+-">Scho sang, he sichit sair:</l>
+        <l n="125" real="xxxxxxxx" met="-+-+-+-+">And so left him baith wo and wreuch,</l>
+        <l n="126" real="xxxxxx" met="--+-+-">In dolour and in cair,</l>
+        <l n="127" real="xxxxxxxx" met="-+-+-+-+">Kepand his hird under a huche</l>
+        <l n="128" real="xxxxxxx" met="+-+-+-+">Amangis the holttis hair.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-bludy-serk" n="L15950">
+      <head>The Bludy Serk</head>
+      <idno type="URN">urn:laurel:eng:henryson.obev-robert-henryson.pg66619:the-bludy-serk</idno><idno type="laurel-id">L15950</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">This hinder yeir I hard be tald</l>
+        <l n="2" real="xxx+-x" met="--+-+-">Thair was a worthy King;</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">Dukis, Erlis, and Barronis bald,</l>
+        <l n="4" real="xxxx+-" met="--+-+-">He had at his bidding.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxx" met="+-+-+-+">The Lord was ancean and ald,</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">And sexty yeiris cowth ring;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">He had a dochter fair to fald,</l>
+        <l n="8" real="x+-+-x" met="--+-+-">A lusty Lady ying.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abcbabcb">
+        <l n="9" real="xxxxxxx+-" met="-+-+-+-+-">Off all fairheid scho bur the flour,</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">And eik hir faderis air;</l>
+        <l n="11" real="x+-xxxx+-" met="-+-+-+-+-">Off lusty laitis and he honour,</l>
+        <l n="12" real="xxxx-+" met="--+-+-">Meik bot and debonair:</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Scho wynnit in a bigly bour,</l>
+        <l n="14" real="xxxxxx" met="--+-+-">On fold wes nane so fair,</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Princis luvit hir paramour</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">In cuntreis our allquhair.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abababab">
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Thair dwelt a lyt besyde the King</l>
+        <l n="18" real="xxxxx" met="-+-+-">A foull Gyand of ane;</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">Stollin he has the Lady ying,</l>
+        <l n="20" real="-+xxxx" met="--+-+-">Away with hir is gane,</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">And kest her in his dungering</l>
+        <l n="22" real="xxxxxx+x" met="-+-+-+-+">Quhair licht scho micht se nane;</l>
+        <l n="23" real="xxxxxx+-" met="-+-+-+-+">Hungir and cauld and grit thristing</l>
+        <l n="24" real="xxxxxx" met="--+-+-">Scho fand into hir waine.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">He wes the laithliest on to luk</l>
+        <l n="26" real="xxxxxx" met="--+-+-">That on the grund mycht gang:</l>
+        <l n="27" real="xxxxxxxxx" met="-+-+-+-+-">His nailis wes lyk ane hellis cruk,</l>
+        <l n="28" real="xxxxxxx" met="+-+-+-+">Thairwith fyve quarteris lang;</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="29" real="xxxxxxx" met="+-+-+-+">Thair wes nane that he ourtuk,</l>
+        <l n="30" real="xxxxxx" met="--+-+-">In rycht or yit in wrang,</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">Bot all in schondir he thame schuk,</l>
+        <l n="32" real="xxxxx" met="-+-+-">The Gyand wes so strang.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abababab">
+        <l n="33" real="xxx+-xxx" met="-+-+-+-+">He held the Lady day and nycht</l>
+        <l n="34" real="xxxxxx" met="--+-+-">Within his deip dungeoun,</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">He wald nocht gif of hir a sicht</l>
+        <l n="36" real="xxxxxx" met="--+-+-">For gold nor yit ransoun--</l>
+        <l n="37" real="xxxxxxxx" met="-+-+-+-+">Bot gif the King mycht get a knycht,</l>
+        <l n="38" real="xxxxxx" met="--+-+-">To fecht with his persoun,</l>
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">To fecht with him beth day and nycht,</l>
+        <l n="40" real="xxxxxxx" met="+-+-+-+">Quhill ane wer dungin doun.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abababab">
+        <l n="41" real="xxxxxxxx" met="-+-+-+-+">The King gart seik baith fer and neir,</l>
+        <l n="42" real="xxx+xx" met="--+-+-">Beth be se and land,</l>
+        <l n="43" real="xxxxxxxx" met="-+-+-+-+">Off ony knycht gif he mycht heir</l>
+        <l n="44" real="xxxxx" met="-+-+-">Wald fecht with that Gyand:</l>
+        <l n="45" real="x+-xxxxx" met="-+-+-+-+">A worthy Prince, that had no peir,</l>
+        <l n="46" real="xxxxxx" met="--+-+-">Hes tane the deid on hand</l>
+        <l n="47" real="xxxxx+-x" met="-+-+-+-+">For the luve of the Lady cleir,</l>
+        <l n="48" real="xxxxxx" met="--+-+-">And held full trew cunnand.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abababab">
+        <l n="49" real="xxxxxxxx" met="-+-+-+-+">That Prince come prowdly to the toun</l>
+        <l n="50" real="xxxxx" met="-+-+-">Of that Gyand to heir,</l>
+        <l n="51" real="xxxxxxxxx" met="-+-+-+-+-">And fawcht with him, his awin persoun,</l>
+        <l n="52" real="xxxxxx" met="--+-+-">And tuke him presoneir,</l>
+        <l n="53" real="xxxxxxxxx" met="-+-+-+-+-">And kest him in his awin dungeoun</l>
+        <l n="54" real="xxxxxx" met="--+-+-">Allane withouten feir,</l>
+        <l n="55" real="xxxxxxxx" met="-+-+-+-+">With hungir, cauld, and confusioun,</l>
+        <l n="56" real="xxx+-x" met="--+-+-">As full weill worthy weir.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="a--ba-ab">
+        <l n="57" real="xxxxxxxx" met="-+-+-+-+">Syne brak the bour, had hame the bricht</l>
+        <l n="58" real="xxxxxx" met="--+-+-">Unto her fadir fre.</l>
+        <l n="59" real="x+-xxxxx" met="-+-+-+-+">Sa evill wondit wes the Knycht</l>
+        <l n="60" real="xxxxxxx" met="+-+-+-+">That he behuvit to de;</l>
+        <l n="61" real="xxxxxxxx" met="-+-+-+-+">Unlusum was his likame dicht,</l>
+        <l n="62" real="xxxxxx" met="--+-+-">His sark was all bludy;</l>
+        <l n="63" real="xxxxxxxx" met="-+-+-+-+">In all the world was thair a wicht</l>
+        <l n="64" real="xxxxxx+" met="+-+-+-+">So peteouss for to se?</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abacacab">
+        <l n="65" real="x+-xxxxxx" met="-+-+-+-+-">The Lady murnyt and maid grit mane,</l>
+        <l n="66" real="xxxxxx" met="--+-+-">With all her mekill mycht--</l>
+        <l n="67" real="xxxxxxxx" met="-+-+-+-+">‘I luvit nevir lufe bot ane,</l>
+        <l n="68" real="xxxxxxx" met="+-+-+-+">That dulfully now is dicht;</l>
+        <l n="69" real="xxxxxxxx" met="-+-+-+-+">God sen my lyfe were fra me tane</l>
+        <l n="70" real="xxxxxx" met="--+-+-">Or I had seen yone sicht,</l>
+        <l n="71" real="x+-x+-xxxx" met="--+-+-+-+-">Or ellis in begging evir to gane</l>
+        <l n="72" real="xxxxxx" met="--+-+-">Furth with yone curtass knycht.’</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="a--bab-b">
+        <l n="73" real="xxx+-xxx" met="-+-+-+-+">He said ‘Fair lady, now mone I</l>
+        <l n="74" real="xxxxxx" met="--+-+-">De, trestly ye me trow;</l>
+        <l n="75" real="xxxxxxxx" met="-+-+-+-+">Take ye my serk that is bludy,</l>
+        <l n="76" real="xxxxxx" met="--+-+-">And hing it forrow yow;</l>
+        <l n="77" real="xxxxxxxx" met="-+-+-+-+">First think on it, and syne on me,</l>
+        <l n="78" real="xxxxxxxx" met="-+-+-+-+">Quhen men cumis yow to wow.’</l>
+        <l n="79" real="x+-xx+-x" met="-+-+-+-+">The Lady said ‘Be Mary fre,</l>
+        <l n="80" real="xxxxxx" met="--+-+-">Thairto I mak a vow.’</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="81" real="xxxxxxxxx" met="-+-+-+-+-">Quhen that scho lukit to the sark</l>
+        <l n="82" real="xxxxxx" met="--+-+-">Scho thocht on the persoun,</l>
+        <l n="83" real="xxxxxxxx" met="-+-+-+-+">And prayit for him with all hir hart</l>
+        <l n="84" real="xxxxxxx" met="+-+-+-+">That lowsit hir of bandoun,</l>
+      </lg>
+      <lg type="stanza" n="14">
+        <l n="85" real="xxxxx" met="-+-+-">loosed her from thraldom.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abab">
+        <l n="86" real="xxxxxxxxx" met="-+-+-+-+-">Quhair scho was wont to sit full merk</l>
+        <l n="87" real="xxxxxx" met="--+-+-">Into that deip dungeoun;</l>
+        <l n="88" real="xxxxxxxxx" met="-+-+-+-+-">And evir quhill scho wes in quert,</l>
+        <l n="89" real="xxxxxx" met="--+-+-">That was hir a lessoun.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abcbcbab">
+        <l n="90" real="xxx+-xxxx" met="-+-+-+-+-">Sa weill the Lady luvit the Knycht</l>
+        <l n="91" real="xxxxxx" met="--+-+-">That no man wald scho tak:</l>
+        <l n="92" real="xxxx+-xxx" met="-+-+-+-+-">Sa suld we do our God of micht</l>
+        <l n="93" real="xxxxxx" met="--+-+-">That did all for us mak;</l>
+        <l n="94" real="xxxxxxxxx" met="-+-+-+-+-">Quhilk fullily to deid was dicht,</l>
+        <l n="95" real="x+-+-x" met="--+-+-">For sinfull manis sak,</l>
+        <l n="96" real="xxxxxxxx" met="-+-+-+-+">Sa suld we do beth day and nycht,</l>
+        <l n="97" real="xxxxxx" met="--+-+-">With prayaris to him mak.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="-a-a-a-a">
+        <l n="98" real="xxxxxxxx" met="-+-+-+-+">This King is lyk the Trinitie,</l>
+        <l n="99" real="xxxxxx" met="--+-+-">Baith in hevin and heir;</l>
+        <l n="100" real="x+-xxxx+-" met="-+-+-+-+-">The manis saule to the Lady,</l>
+        <l n="101" real="xxxxxx" met="--+-+-">The Gyand to Lucefeir,</l>
+        <l n="102" real="xxxxxxxx" met="-+-+-+-+">The Knycht to Chryst, that deit on tre</l>
+        <l n="103" real="xx+-xxx" met="+-+-+-+">And coft our synnis deir;</l>
+        <l n="104" real="xxxxxxxxx" met="-+-+-+-+-">The pit to Hele with panis fell,</l>
+        <l n="105" real="xxxxxx" met="--+-+-">The Syn to the woweir.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abababab">
+        <l n="106" real="x+-xxxxxx" met="-+-+-+-+-">The Lady was wowd, but scho said nay</l>
+        <l n="107" real="xxxxxx" met="--+-+-">With men that wald hir wed;</l>
+        <l n="108" real="xxxxxx-+" met="-+-+-+-+">Sa suld we wryth all sin away</l>
+        <l n="109" real="xx+-xxx" met="+-+-+-+">That in our breist is bred.</l>
+        <l n="110" real="xxxxxxxx" met="-+-+-+-+">I pray to Jesu Chryst verray,</l>
+        <l n="111" real="x+--+xxxx" met="-+-+-+-+-">For ws his blud that bled,</l>
+        <l n="112" real="xx+-xxxxx" met="-+-+-+-+-">To be our help on domisday</l>
+        <l n="113" real="xxxxxxxx" met="-+-+-+-+">Quhair lawis ar straitly led.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="abababab">
+        <l n="114" real="xxxxxxxxx" met="-+-+-+-+-">The saule is Godis dochtir deir,</l>
+        <l n="115" real="xxxxxx" met="--+-+-">And eik his handewerk,</l>
+        <l n="116" real="xxxxxxxx" met="-+-+-+-+">That was betrayit with Lucefeir,</l>
+        <l n="117" real="xxxxxxxx" met="-+-+-+-+">Quha sittis in hell full merk:</l>
+        <l n="118" real="xxxxxx+-x" met="-+-+-+-+-">Borrowit with Chrystis angell cleir,</l>
+        <l n="119" real="xxxxxx" met="--+-+-">Hend men, will ye nocht herk?</l>
+        <l n="120" real="xxxxxxxx" met="-+-+-+-+">And for his lufe that bocht us deir</l>
+        <l n="121" real="xxxxxx" met="--+-+-">Think on the BLUDY SERK!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

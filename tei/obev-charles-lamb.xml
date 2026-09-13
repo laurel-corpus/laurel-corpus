@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>On an Infant dying as soon as born, and other poems</title><author>Charles Lamb</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-old-familiar-faces" n="L16176">
+      <head>The Old Familiar Faces</head>
+      <idno type="URN">urn:laurel:eng:lamb.obev-charles-lamb.pg66619:the-old-familiar-faces</idno><idno type="laurel-id">L16176</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aa">
+        <l n="1" real="xxx+xxxx-+-" met="-+-+-+-+-+-">I have had playmates, I have had companions,</l>
+        <l n="2" real="xxxx+xxx+-xx" met="--+-+-+-+-+-">In my days of childhood, in my joyful school-days--</l>
+        <l n="3" real="xxxxxx-+-+-" met="-+-+-+-+-+-">All, all are gone, the old familiar faces.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="4" real="xxx+-xxx-+-" met="-+-+-+-+-+-">I have been laughing, I have been carousing,</l>
+        <l n="5" real="+-x+-xxx+-+-" met="--+-+-+-+-+-">Drinking late, sitting late, with my bosom cronies--</l>
+        <l n="6" real="xxxxxx-+-+-" met="-+-+-+-+-+-">All, all are gone, the old familiar faces.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="7" real="xxxxx+-xx+-" met="-+-+-+-+-+-">I loved a Love once, fairest among women:</l>
+        <l n="8" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Closed are her doors on me, I must not see her--</l>
+        <l n="9" real="xxxxxx-+-+-" met="-+-+-+-+-+-">All, all are gone, the old familiar faces.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="10" real="xxxxx+-xxxx" met="-+-+-+-+-+-">I have a friend, a kinder friend has no man:</l>
+        <l n="11" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Like an ingrate, I left my friend abruptly;</l>
+        <l n="12" real="xxxxxxx-+-+-" met="--+-+-+-+-+-">Left him, to muse on the old familiar faces.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="13" real="xxxxxxxxx+x" met="-+-+-+-+-+-">Ghost-like I paced round the haunts of my childhood,</l>
+        <l n="14" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Earth seem’d a desert I was bound to traverse,</l>
+        <l n="15" real="+-xxxx-+-+-" met="-+-+-+-+-+-">Seeking to find the old familiar faces.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="16" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Friend of my bosom, thou more than a brother,</l>
+        <l n="17" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Why wert not thou born in my father’s dwelling?</l>
+        <l n="18" real="xxxxxxx-+-+-" met="--+-+-+-+-+-">So might we talk of the old familiar faces--</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="19" real="xxxxxxxxxxx" met="-+-+-+-+-+-">How some they have died, and some they have left me,</l>
+        <l n="20" real="xxx+-xxxx-+-" met="--+-+-+-+-+-">And some are taken from me; all are departed--</l>
+        <l n="21" real="xxxxxx-+-+-" met="-+-+-+-+-+-">All, all are gone, the old familiar faces.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hester" n="L16177">
+      <head>Hester</head>
+      <idno type="URN">urn:laurel:eng:lamb.obev-charles-lamb.pg66619:hester</idno><idno type="laurel-id">L16177</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aaa-">
+        <l n="1" real="x+-xx+-x" met="-+-+-+-+">When maidens such as Hester die</l>
+        <l n="2" real="xxxxxx-+" met="-+-+-+-+">Their place ye may not well supply,</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">Though ye among a thousand try</l>
+        <l n="4" real="xx-+-" met="-+-+-">With vain endeavour.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa-">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">A month or more hath she been dead,</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">Yet cannot I by force be led</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">To think upon the wormy bed</l>
+        <l n="8" real="xx-+-" met="-+-+-">And her together.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaaa">
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">A springy motion in her gait,</l>
+        <l n="10" real="x+-xx+-x" met="-+-+-+-+">A rising step, did indicate</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">Of pride and joy no common rate,</l>
+        <l n="12" real="xxx+-" met="-+-+-">That flush’d her spirit:</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaa-">
+        <l n="13" real="xxxxxx-+" met="-+-+-+-+">I know not by what name beside</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">I shall it call: if ’twas not pride,</l>
+        <l n="15" real="xxxxxx-+" met="-+-+-+-+">It was a joy to that allied,</l>
+        <l n="16" real="xx-+-" met="-+-+-">She did inherit.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaa-">
+        <l n="17" real="x+-xx+-x" met="-+-+-+-+">Her parents held the Quaker rule,</l>
+        <l n="18" real="xxx+-+-x" met="-+-+-+-+">Which doth the human feeling cool;</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">But she was train’d in Nature’s school;</l>
+        <l n="20" real="+-xxx" met="-+-+-">Nature had blest her.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aaa-">
+        <l n="21" real="x+-xx+-x" met="-+-+-+-+">A waking eye, a prying mind;</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">A heart that stirs, is hard to bind;</l>
+        <l n="23" real="xxxxx+-x" met="-+-+-+-+">A hawk’s keen sight ye cannot blind;</l>
+        <l n="24" real="xxx+-" met="-+-+-">Ye could not Hester.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaa-">
+        <l n="25" real="x+-+-xxx" met="-+-+-+-+">My sprightly neighbour! gone before</l>
+        <l n="26" real="xx-+x+-x" met="-+-+-+-+">To that unknown and silent shore,</l>
+        <l n="27" real="xxxxxx-+" met="-+-+-+-+">Shall we not meet, as heretofore,</l>
+        <l n="28" real="x+-+-" met="-+-+-">Some summer morning--</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaa-">
+        <l n="29" real="xxx+-xxx" met="-+-+-+-+">When from thy cheerful eyes a ray</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Hath struck a bliss upon the day,</l>
+        <l n="31" real="xxxxxx-+" met="-+-+-+-+">A bliss that would not go away,</l>
+        <l n="32" real="xx-+-" met="-+-+-">A sweet forewarning?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-an-infant-dying-as-soon-as-born" n="L16178">
+      <head>On an Infant dying as soon as born</head>
+      <idno type="URN">urn:laurel:eng:lamb.obev-charles-lamb.pg66619:on-an-infant-dying-as-soon-as-born</idno><idno type="laurel-id">L16178</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd----eeeff--gghhiiij-jjjkk--llmmnnooppqq--rrss--tttuuvv-">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">I saw where in the shroud did lurk</l>
+        <l n="2" real="x+-xx+-x" met="-+-+-+-+">A curious frame of Nature’s work;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">A floweret crush’d in the bud,</l>
+        <l n="4" real="x+-xx+-x" met="-+-+-+-+">A nameless piece of Babyhood,</l>
+        <l n="5" real="xxx+-+-+-" met="-+-+-+-+-">Was in her cradle-coffin lying;</l>
+        <l n="6" real="-+xxxxx+-" met="-+-+-+-+-">Extinct, with scarce the sense of dying:</l>
+        <l n="7" real="xxx-+x-+-x" met="--+-+-+-+-">So soon to exchange the imprisoning womb</l>
+        <l n="8" real="x+-+-xxx" met="-+-+-+-+">For darker closets of the tomb!</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">She did but ope an eye, and put</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">A clear beam forth, then straight up shut</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">For the long dark: ne’er more to see</l>
+        <l n="12" real="x+-x-+--" met="-+-+-+-+">Through glasses of mortality.</l>
+        <l n="13" real="+-x+-xxx" met="-+-+-+-+">Riddle of destiny, who can show</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">What thy short visit meant, or know</l>
+        <l n="15" real="xx+-xxx" met="+-+-+-+">What thy errand here below?</l>
+        <l n="16" real="xxxx+-x" met="+-+-+-+">Shall we say that Nature blind</l>
+        <l n="17" real="xxxxx-xx" met="-+-+-+-+">Check’d her hand, and changed her mind,</l>
+        <l n="18" real="xxxx-+-x" met="-+-+-+-+">Just when she had exactly wrought</l>
+        <l n="19" real="x+-+-xxx" met="-+-+-+-+">A finish’d pattern without fault?</l>
+        <l n="20" real="xxxxxx+-" met="-+-+-+-+">Could she flag, or could she tire,</l>
+        <l n="21" real="xxxxxxx+-" met="-+-+-+-+-">Or lack’d she the Promethean fire</l>
+        <l n="22" real="xxxxx+-+-" met="-+-+-+-+-">(With her nine moons’ long workings sicken’d)</l>
+        <l n="23" real="xxx+-xx+-" met="-+-+-+-+-">That should thy little limbs have quicken’d?</l>
+        <l n="24" real="xxxxxx-+" met="-+-+-+-+">Limbs so firm, they seem’d to assure</l>
+        <l n="25" real="xxxxx-+" met="+-+-+-+">Life of health, and days mature:</l>
+        <l n="26" real="+-xx+--x" met="-+-+-+-+">Woman’s self in miniature!</l>
+        <l n="27" real="xxxxx-+" met="+-+-+-+">Limbs so fair, they might supply</l>
+        <l n="28" real="-+xxx+--" met="-+-+-+-+">(Themselves now but cold imagery)</l>
+        <l n="29" real="x+-xx+-x" met="-+-+-+-+">The sculptor to make Beauty by.</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Or did the stern-eyed Fate descry</l>
+        <l n="31" real="xxx+-xxx" met="-+-+-+-+">That babe or mother, one must die;</l>
+        <l n="32" real="xx+-xxx" met="+-+-+-+">So in mercy left the stock</l>
+        <l n="33" real="xxxxxxxx" met="-+-+-+-+">And cut the branch; to save the shock</l>
+        <l n="34" real="xxx+-xxx" met="-+-+-+-+">Of young years widow’d, and the pain</l>
+        <l n="35" real="x+-xxx-+" met="-+-+-+-+">When single state comes back again</l>
+        <l n="36" real="xxxxxxxx" met="-+-+-+-+">To the lone man who, reft of wife,</l>
+        <l n="37" real="xxxxxxxx" met="-+-+-+-+">Thenceforward drags a maimèd life?</l>
+        <l n="38" real="x-+-x+xx" met="-+-+-+-+">The economy of Heaven is dark,</l>
+        <l n="39" real="x+-xxxxx" met="-+-+-+-+">And wisest clerks have miss’d the mark,</l>
+        <l n="40" real="x+-xxxxx" met="-+-+-+-+">Why human buds, like this, should fall,</l>
+        <l n="41" real="xxxx-+--" met="-+-+-+-+">More brief than fly ephemeral</l>
+        <l n="42" real="xxxxxxxx" met="-+-+-+-+">That has his day; while shrivell’d crones</l>
+        <l n="43" real="+-xxxxxx" met="-+-+-+-+">Stiffen with age to stocks and stones;</l>
+        <l n="44" real="xxxx+-x" met="+-+-+-+">And crabbèd use the conscience sears</l>
+        <l n="45" real="x+-xx+-x" met="-+-+-+-+">In sinners of an hundred years.</l>
+        <l n="46" real="+-+-+-x" met="+-+-+-+">Mother’s prattle, mother’s kiss,</l>
+        <l n="47" real="+-xxxxx" met="+-+-+-+">Baby fond, thou ne’er wilt miss:</l>
+        <l n="48" real="xx+-x-+" met="+-+-+-+">Rites, which custom does impose,</l>
+        <l n="49" real="+-xx+-x" met="+-+-+-+">Silver bells, and baby clothes;</l>
+        <l n="50" real="+-+-xxx" met="+-+-+-+">Coral redder than those lips</l>
+        <l n="51" real="xxxxx-+" met="+-+-+-+">Which pale death did late eclipse;</l>
+        <l n="52" real="+-x-x+-x" met="-+-+-+-+">Music framed for infants’ glee,</l>
+        <l n="53" real="+-+-x-xx" met="-+-+-+-+">Whistle never tuned for thee;</l>
+        <l n="54" real="xxxxxxxx" met="-+-+-+-+">Though thou want’st not, thou shalt have them,</l>
+        <l n="55" real="+-xxxxxx" met="-+-+-+-+">Loving hearts were they which gave them.</l>
+        <l n="56" real="xxxx+-x" met="+-+-+-+">Let not one be missing; nurse,</l>
+        <l n="57" real="xxxxxxx" met="+-+-+-+">See them laid upon the hearse</l>
+        <l n="58" real="x+-xxx-+" met="-+-+-+-+">Of infant slain by doom perverse.</l>
+        <l n="59" real="xxxx+-x" met="+-+-+-+">Why should kings and nobles have</l>
+        <l n="60" real="+--+-xxx" met="-+-+-+-+">Pictured trophies to their grave,</l>
+        <l n="61" real="xxxxx-+" met="+-+-+-+">And we, churls, to thee deny</l>
+        <l n="62" real="x+-xxxxx" met="-+-+-+-+">Thy pretty toys with thee to lie--</l>
+        <l n="63" real="xx+-+--" met="+-+-+-+">A more harmless vanity?</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

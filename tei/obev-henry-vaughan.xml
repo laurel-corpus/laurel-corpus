@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Retreat, and other poems</title><author>Henry Vaughan</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-retreat" n="L16110">
+      <head>The Retreat</head>
+      <idno type="URN">urn:laurel:eng:vaughan.obev-henry-vaughan.pg66619:the-retreat</idno><idno type="laurel-id">L16110</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a-bbccddbb--a-eeffgg">
+        <l n="1" real="+-x+-xxx" met="-+-+-+-+">Happy those early days, when I</l>
+        <l n="2" real="xxx+-+--" met="-+-+-+-+">Shin’d in my Angel-infancy!</l>
+        <l n="3" real="xxxx-+xx" met="-+-+-+-+">Before I understood this place</l>
+        <l n="4" real="-+-xx+-x" met="-+-+-+-+">Appointed for my second race,</l>
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">Or taught my soul to fancy aught</l>
+        <l n="6" real="xxx-+-x" met="+-+-+-+">But a white celestial thought:</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">When yet I had not walk’d above</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">A mile or two from my first Love,</l>
+        <l n="9" real="x+-xxxxx" met="-+-+-+-+">And looking back--at that short space--</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Could see a glimpse of His bright face:</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">When on some gilded cloud, or flow’r,</l>
+        <l n="12" real="x+-xxxx+-" met="-+-+-+-+-">My gazing soul would dwell an hour,</l>
+        <l n="13" real="xxx+-+-x" met="-+-+-+-+">And in those weaker glories spy</l>
+        <l n="14" real="x+xx-+--" met="-+-+-+-+">Some shadows of eternity:</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Before I taught my tongue to wound</l>
+        <l n="16" real="x+-xx+-x" met="-+-+-+-+">My Conscience with a sinful sound,</l>
+        <l n="17" real="xxxxxx-+" met="-+-+-+-+">Or had the black art to dispense</l>
+        <l n="18" real="x+-xxxxx" met="-+-+-+-+">A several sin to ev’ry sense,</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">But felt through all this fleshly dress</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">Bright shoots of everlastingness.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeff">
+        <l n="21" real="xxxxx+-x" met="-+-+-+-+">O how I long to travel back,</l>
+        <l n="22" real="xx-+x+-x" met="-+-+-+-+">And tread again that ancient track!</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">That I might once more reach that plain</l>
+        <l n="24" real="xxxxx+-x" met="-+-+-+-+">Where first I left my glorious train;</l>
+        <l n="25" real="xxxx-+-x" met="-+-+-+-+">From whence th’ enlightned spirit sees</l>
+        <l n="26" real="x+-+-xxx" met="-+-+-+-+">That shady City of Palm-trees.</l>
+        <l n="27" real="xxxxxxxx" met="-+-+-+-+">But ah! my soul with too much stay</l>
+        <l n="28" real="xxx+-xxx" met="-+-+-+-+">Is drunk, and staggers in the way!</l>
+        <l n="29" real="xxx+-+-x" met="-+-+-+-+">Some men a forward motion love,</l>
+        <l n="30" real="xxx+-xxx" met="-+-+-+-+">But I by backward steps would move;</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">And when this dust falls to the urn,</l>
+        <l n="32" real="xxxxx-+" met="+-+-+-+">In that state I came, return.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="peace" n="L16111">
+      <head>Peace</head>
+      <idno type="URN">urn:laurel:eng:vaughan.obev-henry-vaughan.pg66619:peace</idno><idno type="laurel-id">L16111</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="----ababcdcde-effgfg">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">My soul, there is a country</l>
+        <l n="2" real="xxxxx" met="+-+-+">Far beyond the stars,</l>
+        <l n="3" real="xxxx+-" met="-+-+-+">Where stands a wingèd sentry</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">All skilful in the wars:</l>
+        <l n="5" real="xxxxx+-" met="-+-+-+-">There, above noise and danger,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Sweet Peace sits crown’d with smiles,</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">And One born in a manger</l>
+        <l n="8" real="-+xxxx" met="-+-+-+">Commands the beauteous files.</l>
+        <l n="9" real="xxx+-x" met="-+-+-+">He is thy gracious Friend,</l>
+        <l n="10" real="xxxx-+" met="-+-+-+">And--O my soul, awake!--</l>
+        <l n="11" real="xxxx-+" met="-+-+-+">Did in pure love descend</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">To die here for thy sake.</l>
+        <l n="13" real="xxxxxxx" met="-+-+-+-">If thou canst get but thither,</l>
+        <l n="14" real="xxx+xx" met="-+-+-+">There grows the flower of Peace,</l>
+        <l n="15" real="xxx+-+-" met="-+-+-+-">The Rose that cannot wither,</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">Thy fortress, and thy ease.</l>
+        <l n="17" real="xxx+-+-" met="-+-+-+-">Leave then thy foolish ranges;</l>
+        <l n="18" real="xxxx-+" met="-+-+-+">For none can thee secure</l>
+        <l n="19" real="xxx+-+-" met="-+-+-+-">But One who never changes--</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Thy God, thy life, thy cure.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-timber" n="L16112">
+      <head>The Timber</head>
+      <idno type="URN">urn:laurel:eng:vaughan.obev-henry-vaughan.pg66619:the-timber</idno><idno type="laurel-id">L16112</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">Sure thou didst flourish once! and many springs,</l>
+        <l n="2" real="+-x+-xx+-+-" met="-+-+-+-+-+-">Many bright mornings, much dew, many showers,</l>
+        <l n="3" real="xxxx+-xxxx" met="-+-+-+-+-+">Pass’d o’er thy head; many light hearts and wings,</l>
+        <l n="4" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Which now are dead, lodg’d in thy living bowers.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxx-+-xxx" met="-+-+-+-+-+">And still a new succession sings and flies;</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Fresh groves grow up, and their green branches shoot</l>
+        <l n="7" real="xxxxxx-+-x" met="-+-+-+-+-+">Towards the old and still enduring skies,</l>
+        <l n="8" real="xxx+--xxxx" met="-+-+-+-+-+">While the low violet thrives at their root.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">But thou beneath the sad and heavy line</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Of death, doth waste all senseless, cold, and dark;</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Where not so much as dreams of light may shine,</l>
+        <l n="12" real="x+-xx+-xxx" met="-+-+-+-+-+">Nor any thought of greenness, leaf, or bark.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxxxxx-+" met="-+-+-+-+-+">And yet--as if some deep hate and dissent,</l>
+        <l n="14" real="xxxx-+xxxx" met="-+-+-+-+-+">Bred in thy growth betwixt high winds and thee,</l>
+        <l n="15" real="xx-+xxxx-+" met="-+-+-+-+-+">Were still alive--thou dost great storms resent</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">Before they come, and know’st how near they be.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">Else all at rest thou liest, and the fierce breath</l>
+        <l n="18" real="xxxxxx-+xx" met="-+-+-+-+-+">Of tempests can no more disturb thy ease;</l>
+        <l n="19" real="xxxx-+-xxx" met="-+-+-+-+-+">But this thy strange resentment after death</l>
+        <l n="20" real="x+-xxxxxxx" met="-+-+-+-+-+">Means only those who broke--in life--thy peace.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="friends-departed" n="L16113">
+      <head>Friends Departed</head>
+      <idno type="URN">urn:laurel:eng:vaughan.obev-henry-vaughan.pg66619:friends-departed</idno><idno type="laurel-id">L16113</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">They are all gone into the world of light!</l>
+        <l n="2" real="xx-+xxxx" met="--+-+-+-">And I alone sit ling’ring here;</l>
+        <l n="3" real="x+-+--xxxx" met="-+-+-+-+-+">Their very memory is fair and bright,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">And my sad thoughts doth clear.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">It glows and glitters in my cloudy breast,</l>
+        <l n="6" real="xxxxx+-x" met="--+-+-+-">Like stars upon some gloomy grove,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Or those faint beams in which this hill is drest</l>
+        <l n="8" real="xxxx-+" met="--+-+-">After the sun’s remove.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-xxxx+-" met="-+-+-+-+-+-">I see them walking in an air of glory,</l>
+        <l n="10" real="xxx+-xxx" met="--+-+-+-">Whose light doth trample on my days:</l>
+        <l n="11" real="xxxxxxxxx+-" met="-+-+-+-+-+-">My days, which are at best but dull and hoary,</l>
+        <l n="12" real="x+--x-+" met="-+-+-+-">Mere glimmering and decays.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+-xxx-+--" met="-+-+-+-+-+">O holy Hope! and high Humility,</l>
+        <l n="14" real="xxx+-xx" met="-+-+-+-">High as the heavens above!</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">These are your walks, and you have show’d them me,</l>
+        <l n="16" real="x+-xxx" met="--+-+-">To kindle my cold love.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxx+-xxx" met="-+-+-+-+-+">Dear, beauteous Death! the jewel of the Just,</l>
+        <l n="18" real="+-+xxxxx" met="--+-+-+-">Shining nowhere, but in the dark;</l>
+        <l n="19" real="x+--xxxxxx" met="-+-+-+-+-+">What mysteries do lie beyond thy dust,</l>
+        <l n="20" real="xx+xxx" met="--+-+-">Could man outlook that mark!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">He that hath found some fledg’d bird’s nest may know,</l>
+        <l n="22" real="xxxxxxxx" met="--+-+-+-">At first sight, if the bird be flown;</l>
+        <l n="23" real="xxxxxxxxxx" met="-+-+-+-+-+">But what fair well or grove he sings in now,</l>
+        <l n="24" real="xxxx-+" met="--+-+-">That is to him unknown.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxx+-xx+-x" met="-+-+-+-+-+">And yet as Angels in some brighter dreams</l>
+        <l n="26" real="xxxxxxxx" met="--+-+-+-">Call to the soul, when man doth sleep:</l>
+        <l n="27" real="xxxx-++-xxx" met="-+-+-+-+-+-">So some strange thoughts transcend our wonted themes,</l>
+        <l n="28" real="xxx+-x" met="--+-+-">And into glory peep.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxx-+xxxx" met="-+-+-+-+-+">If a star were confin’d into a tomb,</l>
+        <l n="30" real="x+-xxxxx" met="--+-+-+-">Her captive flames must needs burn there;</l>
+        <l n="31" real="xxxxxxxxxx" met="-+-+-+-+-+">But when the hand that lock’d her up gives room,</l>
+        <l n="32" real="xxxxxx" met="--+-+-">She’ll shine through all the sphere.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="x+-x-+-xxx" met="-+-+-+-+-+">O Father of eternal life, and all</l>
+        <l n="34" real="-+-+-xxx" met="--+-+-+-">Created glories under Thee!</l>
+        <l n="35" real="-+x+-xxxxx" met="-+-+-+-+-+">Resume Thy spirit from this world of thrall</l>
+        <l n="36" real="xxx+--" met="--+-+-">Into true liberty.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="+--+xxxxxx" met="-+-+-+-+-+">Either disperse these mists, which blot and fill</l>
+        <l n="38" real="x-+-xxxx" met="--+-+-+-">My perspective still as they pass:</l>
+        <l n="39" real="xx-+xxxxxx" met="-+-+-+-+-+">Or else remove me hence unto that hill,</l>
+        <l n="40" real="xxxxxx" met="--+-+-">Where I shall need no glass.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Bells of Shandon</title><author>Francis Mahony</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-bells-of-shandon" n="L16211">
+      <head>The Bells of Shandon</head>
+      <idno type="URN">urn:laurel:eng:mahony.obev-francis-mahony.pg66619:the-bells-of-shandon</idno><idno type="laurel-id">L16211</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-bcc-bddde---e">
+        <l n="1" real="xx-+-" met="-+-+-">With deep affection,</l>
+        <l n="2" real="xx-+-" met="-+-+-">And recollection,</l>
+        <l n="3" real="x+-xx" met="-+-+-">I often think of</l>
+        <l n="4" real="xxxx" met="-+-+">Those Shandon bells,</l>
+        <l n="5" real="xxxxx" met="-+-+-">Whose sounds so wild would,</l>
+        <l n="6" real="xxxx+x" met="--+-+-">In the days of childhood,</l>
+        <l n="7" real="xxxx+-" met="--+-+-">Fling around my cradle</l>
+        <l n="8" real="x+-x" met="-+-+">Their magic spells.</l>
+        <l n="9" real="xxx+-" met="-+-+-">On this I ponder</l>
+        <l n="10" real="xxx+-" met="-+-+-">Where’er I wander,</l>
+        <l n="11" real="xxx+-" met="-+-+-">And thus grow fonder,</l>
+        <l n="12" real="xxxx" met="-+-+">Sweet Cork, of thee;</l>
+        <l n="13" real="xxxxxx" met="--+-+-">With thy bells of Shandon,</l>
+        <l n="14" real="xxxxx" met="-+-+-">That sound so grand on</l>
+        <l n="15" real="x+-+-" met="-+-+-">The pleasant waters</l>
+        <l n="16" real="xx+-x" met="-+-+-">Of the River Lee.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aabcc-bddde---e">
+        <l n="17" real="xxxxx" met="-+-+-">I’ve heard bells chiming</l>
+        <l n="18" real="x+xxx" met="-+-+-">Full many a clime in,</l>
+        <l n="19" real="+--+x" met="-+-+-">Tolling sublime in</l>
+        <l n="20" real="-+-x" met="-+-+">Cathedral shrine,</l>
+        <l n="21" real="xxxxx" met="-+-+-">While at a glib rate</l>
+        <l n="22" real="xxx+-" met="-+-+-">Brass tongues would vibrate--</l>
+        <l n="23" real="xxx+-" met="-+-+-">But all their music</l>
+        <l n="24" real="xxxx" met="-+-+">Spoke naught like thine;</l>
+        <l n="25" real="x+--+-" met="--+-+-">For memory, dwelling</l>
+        <l n="26" real="xxx+-" met="-+-+-">On each proud swelling</l>
+        <l n="27" real="xx+-xx" met="--+-+-">Of the belfry knelling</l>
+        <l n="28" real="xxxx" met="-+-+">Its bold notes free,</l>
+        <l n="29" real="xxxxxx" met="--+-+-">Made the bells of Shandon</l>
+        <l n="30" real="xxxxx" met="-+-+-">Sound far more grand on</l>
+        <l n="31" real="x+-+-" met="-+-+-">The pleasant waters</l>
+        <l n="32" real="xx+-x" met="-+-+-">Of the River Lee.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-bb--cc------">
+        <l n="33" real="xxx+-" met="-+-+-">I’ve heard bells tolling</l>
+        <l n="34" real="xxxxx" met="-+-+-">Old Adrian’s Mole in,</l>
+        <l n="35" real="x+-+-" met="-+-+-">Their thunder rolling</l>
+        <l n="36" real="xx+--" met="-+-+-">From the Vatican,</l>
+        <l n="37" real="x+-+--" met="--+-+-">And cymbals glorious</l>
+        <l n="38" real="+-xxx" met="-+-+-">Swinging uproarious</l>
+        <l n="39" real="xx+-+-" met="--+-+-">In the gorgeous turrets</l>
+        <l n="40" real="x+-x" met="-+-+">Of Notre Dame;</l>
+        <l n="41" real="xxxx+-" met="--+-+-">But thy sounds were sweeter</l>
+        <l n="42" real="xxxx+-" met="--+-+-">Than the dome of Peter</l>
+        <l n="43" real="xxx+-" met="-+-+-">Flings o’er the Tiber,</l>
+        <l n="44" real="xx+--" met="-+-+-">Pealing solemnly--</l>
+        <l n="45" real="xxxxxx" met="--+-+-">O, the bells of Shandon</l>
+        <l n="46" real="xxxxx" met="-+-+-">Sound far more grand on</l>
+        <l n="47" real="x+-+-" met="-+-+-">The pleasant waters</l>
+        <l n="48" real="xx+-x" met="-+-+-">Of the River Lee.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa-bccbbddde---e">
+        <l n="49" real="xxxx+x" met="--+-+-">There’s a bell in Moscow,</l>
+        <l n="50" real="xx+x+xx" met="-+-+-+-">While on tower and kiosk O!</l>
+        <l n="51" real="xx-+-" met="-+-+-">In Saint Sophia</l>
+        <l n="52" real="xxxx" met="-+-+">The Turkman gets,</l>
+        <l n="53" real="xxxx" met="-+-+">And loud in air</l>
+        <l n="54" real="xxxx" met="-+-+">Calls men to prayer</l>
+        <l n="55" real="xx+-+-" met="--+-+-">From the tapering summits</l>
+        <l n="56" real="xxx-+" met="-+-+-">Of tall minarets.</l>
+        <l n="57" real="x+-+-" met="-+-+-">Such empty phantom</l>
+        <l n="58" real="x+-xx" met="-+-+-">I freely grant them;</l>
+        <l n="59" real="xxx+-" met="-+-+-">But there’s an anthem</l>
+        <l n="60" real="xxxx" met="-+-+">More dear to me,--</l>
+        <l n="61" real="xxxxxx" met="--+-+-">’Tis the bells of Shandon,</l>
+        <l n="62" real="xxxxx" met="-+-+-">That sound so grand on</l>
+        <l n="63" real="x+-+-" met="-+-+-">The pleasant waters</l>
+        <l n="64" real="xx+-x" met="-+-+-">Of the River Lee.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

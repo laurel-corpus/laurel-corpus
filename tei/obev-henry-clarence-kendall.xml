@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Mooni</title><author>Henry Clarence Kendall</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="mooni" n="L16267">
+      <head>Mooni</head>
+      <idno type="URN">urn:laurel:eng:kendall.obev-henry-clarence-kendall.pg66619:mooni</idno><idno type="laurel-id">L16267</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abbbaccca">
+        <l n="1" real="xxxxxxxx" met="+-+-+-+-">He that is by Mooni now</l>
+        <l n="2" real="xx+-xx+-" met="+-+-+-+-">Sees the water-sapphires gleaming</l>
+        <l n="3" real="xx+-+-+-" met="+-+-+-+-">Where the River Spirit, dreaming,</l>
+        <l n="4" real="xxxx+-+-" met="+-+-+-+-">Sleeps by fall and fountain streaming</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Under lute of leaf and bough!--</l>
+        <l n="6" real="xxxxxxxx" met="+-+-+-+-">Hears what stamp of Storm with stress is,</l>
+        <l n="7" real="xx-+xxxx" met="+-+-+-+-">Psalms from unseen wildernesses</l>
+        <l n="8" real="xxxxx+--" met="+-+-+-+-">Deep amongst far hill-recesses--</l>
+        <l n="9" real="xxxxxxxx" met="+-+-+-+-">He that is by Mooni now.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbbaccca">
+        <l n="10" real="xxxxxxx" met="+-+-+-+">Yea, for him by Mooni’s marge</l>
+        <l n="11" real="xx+-x-+-" met="+-+-+-+-">Sings the yellow-hair’d September,</l>
+        <l n="12" real="xxxxx-+-" met="+-+-+-+-">With the face the gods remember,</l>
+        <l n="13" real="xxxxxx+-" met="+-+-+-+-">When the ridge is burnt to ember,</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">And the dumb sea chains the barge!</l>
+        <l n="15" real="xxxx+-xx" met="+-+-+-+-">Where the mount like molten brass is,</l>
+        <l n="16" real="xxxx+-+-" met="+-+-+-+-">Down beneath fern-feather’d passes</l>
+        <l n="17" real="xxxxxx+-" met="+-+-+-+-">Noonday dew in cool green grasses</l>
+        <l n="18" real="xxxxxxx" met="+-+-+-+">Gleams on him by Mooni’s marge.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbbaccca">
+        <l n="19" real="xxxxxxxx" met="+-+-+-+-">Who that dwells by Mooni yet,</l>
+        <l n="20" real="xxxxx+-+-" met="+-+-+-+--">Feels in flowerful forest arches</l>
+        <l n="21" real="xxxxxxxx" met="+-+-+-+-">Smiting wings and breath that parches</l>
+        <l n="22" real="xx+-xxxx" met="+-+-+-+-">Where strong Summer’s path of march is,</l>
+        <l n="23" real="xxxx+-x" met="+-+-+-+">And the suns in thunder set!</l>
+        <l n="24" real="xxxx+-xx" met="+-+-+-+-">Housed beneath the gracious kirtle</l>
+        <l n="25" real="xx+--+-+-" met="+-+-+-+--">Of the shadowy water-myrtle--</l>
+        <l n="26" real="xxxxxx+-" met="+-+-+-+-">Winds may kiss with heat and hurtle,</l>
+        <l n="27" real="xxxxxxxx" met="+-+-+-+-">He is safe by Mooni yet!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbbaccca">
+        <l n="28" real="xxxxxxx" met="+-+-+-+">Days there were when he who sings</l>
+        <l n="29" real="xxxx+-+-" met="+-+-+-+-">(Dumb so long through passion’s losses)</l>
+        <l n="30" real="xxxx+-+-" met="+-+-+-+-">Stood where Mooni’s water crosses</l>
+        <l n="31" real="+-xxxx+-" met="+-+-+-+-">Shining tracks of green-hair’d mosses,</l>
+        <l n="32" real="xxxx+--x" met="+-+-+-+-">Like a soul with radiant wings:</l>
+        <l n="33" real="xxxxx-+-" met="+-+-+-+-">Then the psalm the wind rehearses--</l>
+        <l n="34" real="xxxxxxxx" met="+-+-+-+-">Then the song the stream disperses--</l>
+        <l n="35" real="xx+-xx+-" met="+-+-+-+-">Lent a beauty to his verses,</l>
+        <l n="36" real="xxxxxxxx" met="+-+-+-+-">Who to-night of Mooni sings.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abbbaccca">
+        <l n="37" real="xxxxxxx" met="+-+-+-+">Ah, the theme--the sad, gray theme!</l>
+        <l n="38" real="+-xxxxxx" met="+-+-+-+-">Certain days are not above me,</l>
+        <l n="39" real="+-xxxxxx" met="+-+-+-+-">Certain hearts have ceased to love me,</l>
+        <l n="40" real="+-+-xxxx" met="+-+-+-+-">Certain fancies fail to move me,</l>
+        <l n="41" real="xx+--+-x" met="+-+-+-+-">Like the effluent morning dream.</l>
+        <l n="42" real="xxxxxx+-" met="+-+-+-+-">Head whereon the white is stealing,</l>
+        <l n="43" real="xxxxxx+-" met="+-+-+-+-">Heart whose hurts are past all healing,</l>
+        <l n="44" real="xxxxxx+-" met="+-+-+-+-">Where is now the first, pure feeling?</l>
+        <l n="45" real="xxxxxxx" met="+-+-+-+">Ah, the theme--the sad, gray theme!</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="46">*       *       *       *       *</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="a---abbba">
+        <l n="47" real="xxxxxxxx" met="+-+-+-+-">Still to be by Mooni cool--</l>
+        <l n="48" real="xx+-+-xx" met="+-+-+-+-">Where the water-blossoms glister,</l>
+        <l n="49" real="xx+-xx+-" met="+-+-+-+-">And by gleaming vale and vista</l>
+        <l n="50" real="xx+-+-+-" met="+-+-+-+-">Sits the English April’s sister,</l>
+        <l n="51" real="xxxx+--" met="+-+-+-+">Soft and sweet and wonderful!</l>
+        <l n="52" real="xxxxxx+-" met="+-+-+-+-">Just to rest beneath the burning</l>
+        <l n="53" real="+-xxxx+-" met="+-+-+-+-">Outer world--its sneers and spurning--</l>
+        <l n="54" real="xxxxxx+-" met="+-+-+-+-">Ah, my heart--my heart is yearning</l>
+        <l n="55" real="xxxxxxxx" met="+-+-+-+-">Still to be by Mooni cool!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Cards and Kisses, and other poems</title><author>John Lyly</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="cards-and-kisses" n="L15971">
+      <head>Cards and Kisses</head>
+      <idno type="URN">urn:laurel:eng:lyly.obev-john-lyly.pg66619:cards-and-kisses</idno><idno type="laurel-id">L15971</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgg">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Cupid and my Campaspe play’d</l>
+        <l n="2" real="xxx+-+-x" met="-+-+-+-+">At cards for kisses--Cupid paid:</l>
+        <l n="3" real="xxx+-xx+-" met="-+-+-+-+-">He stakes his quiver, bow, and arrows,</l>
+        <l n="4" real="x+-xxxx+-" met="-+-+-+-+-">His mother’s doves, and team of sparrows;</l>
+        <l n="5" real="+-xxxxxx" met="-+-+-+-+">Loses them too; then down he throws</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">The coral of his lips, the rose</l>
+        <l n="7" real="+-xxxxxx" met="-+-+-+-+">Growing on’s cheek (but none knows how);</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">With these, the crystal of his brow,</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">And then the dimple of his chin:</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">All these did my Campaspe win.</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">At last he set her both his eyes--</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">She won, and Cupid blind did rise.</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">O Love! has she done this for thee?</l>
+        <l n="14" real="xx-+-+xx" met="-+-+-+-+">What shall, alas! become of me?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="springs-welcome" n="L15972">
+      <head>Spring’s Welcome</head>
+      <idno type="URN">urn:laurel:eng:lyly.obev-john-lyly.pg66619:springs-welcome</idno><idno type="laurel-id">L15972</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeefff">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">WHAT bird so sings, yet so does wail?</l>
+        <l n="2" real="xxxxx+--" met="-+-+-+-+">O ’tis the ravish’d nightingale.</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">_Jug, jug, jug, jug, tereu!_ she cries,</l>
+        <l n="4" real="xxxxx+xx" met="-+-+-+-+">And still her woes at midnight rise.</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Brave prick-song! Who is’t now we hear?</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">None but the lark so shrill and clear;</l>
+        <l n="7" real="xx+-xxxxx" met="-+-+-+-+-">Now at heaven’s gate she claps her wings,</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">The morn not waking till she sings.</l>
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">Hark, hark, with what a pretty throat</l>
+        <l n="10" real="x+-xxxxx" met="-+-+-+-+">Poor robin redbreast tunes his note!</l>
+        <l n="11" real="xxx+-+-x" met="-+-+-+-+">Hark how the jolly cuckoos sing</l>
+        <l n="12" real="+xx+-xxx" met="-+-+-+-+">_Cuckoo!_ to welcome in the spring!</l>
+        <l n="13" real="+xx+-xxx" met="-+-+-+-+">_Cuckoo!_ to welcome in the spring!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

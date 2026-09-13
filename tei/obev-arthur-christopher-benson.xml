@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Phœnix</title><author>Arthur Christopher Benson</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-phnix" n="L16279">
+      <head>The Phœnix</head>
+      <idno type="URN">urn:laurel:eng:benson.obev-arthur-christopher-benson.pg66619:the-phnix</idno><idno type="laurel-id">L16279</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-x-+xx" met="-+-+-+-+">BY feathers green, across Casbeen</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">The pilgrims track the Phœnix flown,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">By gems he strew’d in waste and wood,</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">And jewell’d plumes at random thrown.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">Till wandering far, by moon and star,</l>
+        <l n="6" real="xx-+x+-+-" met="-+-+-+-+-">They stand beside the fruitful pyre,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">Where breaking bright with sanguine light</l>
+        <l n="8" real="x-+-x-+x+" met="-+-+-+-+-">The impulsive bird forgets his sire.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-xx+-x" met="-+-+-+-+">Those ashes shine like ruby wine,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Like bag of Tyrian murex spilt,</l>
+        <l n="11" real="xxxxxx+-x" met="-+-+-+-+-">The claw, the jowl of the flying fowl</l>
+        <l n="12" real="xxx+-+-x" met="-+-+-+-+">Are with the glorious anguish gilt.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">So rare the light, so rich the sight,</l>
+        <l n="14" real="x+-xx+-x" met="-+-+-+-+">Those pilgrim men, on profit bent,</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">Drop hands and eyes and merchandise,</l>
+        <l n="16" real="xxx+-x-+" met="-+-+-+-+">And are with gazing most content.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

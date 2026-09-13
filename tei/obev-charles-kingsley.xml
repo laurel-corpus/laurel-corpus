@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Sands of Dee, and other poems</title><author>Charles Kingsley</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="airly-beacon" n="L16225">
+      <head>Airly Beacon</head>
+      <idno type="URN">urn:laurel:eng:kingsley.obev-charles-kingsley.pg66619:airly-beacon</idno><idno type="laurel-id">L16225</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xx+-xx+-" met="+-+-+-+-">Airly Beacon, Airly Beacon;</l>
+        <l n="2" real="xx+-xxx" met="+-+-+-+">O the pleasant sight to see</l>
+        <l n="3" real="xxxxxx+-" met="+-+-+-+-">Shires and towns from Airly Beacon,</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">While my love climb’d up to me!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+-xx+-" met="+-+-+-+-">Airly Beacon, Airly Beacon;</l>
+        <l n="6" real="xx+-+-xx" met="+-+-+-+-">O the happy hours we lay</l>
+        <l n="7" real="xxxxxx+-" met="+-+-+-+-">Deep in fern on Airly Beacon,</l>
+        <l n="8" real="+-xx+-x" met="+-+-+-+">Courting through the summer’s day!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xx+-xx+-" met="+-+-+-+-">Airly Beacon, Airly Beacon;</l>
+        <l n="10" real="xx+-xxx" met="+-+-+-+">O the weary haunt for me,</l>
+        <l n="11" real="x-+xxx+-" met="+-+-+-+-">All alone on Airly Beacon,</l>
+        <l n="12" real="xx+-xxx" met="+-+-+-+">With his baby on my knee!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sands-of-dee" n="L16226">
+      <head>The Sands of Dee</head>
+      <idno type="URN">urn:laurel:eng:kingsley.obev-charles-kingsley.pg66619:the-sands-of-dee</idno><idno type="laurel-id">L16226</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aaabab">
+        <l n="1" real="x+-xxxx+-x" met="--+-+-+-+-">‘O Mary, go and call the cattle home,</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">And call the cattle home,</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">And call the cattle home,</l>
+        <l n="4" real="-+xxxx" met="-+-+-+">Across the sands of Dee.’</l>
+        <l n="5" real="x+-xxxxxxx" met="--+-+-+-+-">The western wind was wild and dark with foam,</l>
+        <l n="6" real="xx-+xx" met="-+-+-+">And all alone went she.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaabab">
+        <l n="7" real="x+-xxx-+xx" met="--+-+-+-+-">The western tide crept up along the sand,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">And o’er and o’er the sand,</l>
+        <l n="9" real="xxxxxx" met="-+-+-+">And round and round the sand,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">As far as eye could see.</l>
+        <l n="11" real="x+-xxxxxxx" met="--+-+-+-+-">The rolling mist came down and hid the land:</l>
+        <l n="12" real="x+-xxx" met="-+-+-+">And never home came she.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaabab">
+        <l n="13" real="xxxxxxx+-x" met="--+-+-+-+-">‘O is it weed, or fish, or floating hair--</l>
+        <l n="14" real="xxx+-x" met="-+-+-+">A tress of golden hair,</l>
+        <l n="15" real="xx+-x" met="+-+-+">A drownèd maiden’s hair,</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Above the nets at sea?’</l>
+        <l n="17" real="x++-xxxxx" met="-+-+-+-+-">Was never salmon yet that shone so fair</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">Among the stakes of Dee.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaabab">
+        <l n="19" real="xxxx-+x+-x" met="--+-+-+-+-">They row’d her in across the rolling foam,</l>
+        <l n="20" real="x+-+-x" met="-+-+-+">The cruel crawling foam,</l>
+        <l n="21" real="x+-+-x" met="-+-+-+">The cruel hungry foam,</l>
+        <l n="22" real="xxx-+xx" met="-+-+-+-">To her grave beside the sea.</l>
+        <l n="23" real="xxxxxxxxx+-x" met="--+-+-+-+-+-">But still the boatmen hear her call the cattle home,</l>
+        <l n="24" real="-+xxxx" met="-+-+-+">Across the sands of Dee.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Serenade, and other poems</title><author>Aubrey de Vere</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="serenade" n="L16222">
+      <head>Serenade</head>
+      <idno type="URN">urn:laurel:eng:vere.obev-aubrey-de-vere.pg66619:serenade</idno><idno type="laurel-id">L16222</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabccbddbeebffghhgccgiig">
+        <l n="1" real="+-x+x+-" met="-+-+-+-">Softly, O midnight Hours!</l>
+        <l n="2" real="x+-xx+-" met="-+-+-+-">Move softly o’er the bowers</l>
+        <l n="3" real="xxx+-xxxxx" met="--+-+-+-+-">Where lies in happy sleep a girl so fair!</l>
+        <l n="4" real="xxx+-xx" met="-+-+-+-">For ye have power, men say,</l>
+        <l n="5" real="+-xxxxx" met="-+-+-+-">Our hearts in sleep to sway,</l>
+        <l n="6" real="xxx+-xx+xx" met="--+-+-+-+-">And cage cold fancies in a moonlight snare.</l>
+        <l n="7" real="x+--xxx" met="-+-+-+-">Round ivory neck and arm</l>
+        <l n="8" real="xxx+-xx" met="-+-+-+-">Enclasp a separate charm;</l>
+        <l n="9" real="xxxxxxxxxx" met="--+-+-+-+-">Hang o’er her poised, but breathe nor sigh nor prayer</l>
+        <l n="10" real="+--xxx" met="-+-+-+">Silently ye may smile,</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">But hold your breath the while,</l>
+        <l n="12" real="xxxxxxx+-x" met="--+-+-+-+-">And let the wind sweep back your cloudy hair!</l>
+        <l n="13" real="xxx+--x" met="-+-+-+-">Bend down your glittering urns,</l>
+        <l n="14" real="xxxx-+" met="-+-+-+">Ere yet the dawn returns,</l>
+        <l n="15" real="xxxxxxxxxx" met="--+-+-+-+-">And star with dew the lawn her feet shall tread;</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Upon the air rain balm,</l>
+        <l n="17" real="xxxxxx" met="-+-+-+">Bid all the woods be calm,</l>
+        <l n="18" real="-+-xx+-xxx" met="--+-+-+-+-">Ambrosial dreams with healthful slumbers wed;</l>
+        <l n="19" real="xxx+-x" met="-+-+-+">That so the Maiden may</l>
+        <l n="20" real="xxxx-+" met="-+-+-+">With smiles your care repay,</l>
+        <l n="21" real="xxxxxxx+-x" met="--+-+-+-+-">When from her couch she lifts her golden head;</l>
+        <l n="22" real="+-x+--x" met="-+-+-+-">Waking with earliest birds,</l>
+        <l n="23" real="xxx+-x" met="-+-+-+">Ere yet the misty herds</l>
+        <l n="24" real="xxxxxxxxxx" met="--+-+-+-+-">Leave warm ’mid the gray grass their dusky bed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sorrow" n="L16223">
+      <head>Sorrow</head>
+      <idno type="URN">urn:laurel:eng:vere.obev-aubrey-de-vere.pg66619:sorrow</idno><idno type="laurel-id">L16223</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabbacdcdee">
+        <l n="1" real="xx-+-xxxxx" met="-+-+-+-+-+">Count each affliction, whether light or grave,</l>
+        <l n="2" real="x+--xxxxxx" met="-+-+-+-+-+">God’s messenger sent down to thee; do thou</l>
+        <l n="3" real="x+---+xxxx" met="-+-+-+-+-+">With courtesy receive him; rise and bow;</l>
+        <l n="4" real="xxx+xxx+xx" met="-+-+-+-+-+">And, ere his shadow pass thy threshold, crave</l>
+        <l n="5" real="-+-xx+-xxx" met="-+-+-+-+-+">Permission first his heavenly feet to lave;</l>
+        <l n="6" real="xxxxxxxx-+" met="-+-+-+-+-+">Then lay before him all thou hast; allow</l>
+        <l n="7" real="xxx+-xx+xx" met="-+-+-+-+-+">No cloud of passion to usurp thy brow,</l>
+        <l n="8" real="xxxx-+--xx" met="-+-+-+-+-+">Or mar thy hospitality; no wave</l>
+        <l n="9" real="x+-+-x-+-x" met="-+-+-+-+-+">Of mortal tumult to obliterate</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">The soul’s marmoreal calmness: Grief should be,</l>
+        <l n="11" real="xx-+-+---+" met="-+-+-+-+-+">Like joy, majestic, equable, sedate;</l>
+        <l n="12" real="-+-+-+-+-x" met="-+-+-+-+-+">Confirming, cleansing, raising, making free;</l>
+        <l n="13" real="xx-+x+-x-+" met="-+-+-+-+-+">Strong to consume small troubles; to commend</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">Great thoughts, grave thoughts, thoughts lasting to the end.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

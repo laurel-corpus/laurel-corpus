@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Prayer for Indifference</title><author>Fanny Greville</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="prayer-for-indifference" n="L16168">
+      <head>Prayer for Indifference</head>
+      <idno type="URN">urn:laurel:eng:greville.obev-fanny-greville.pg66619:prayer-for-indifference</idno><idno type="laurel-id">L16168</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx-+xx" met="-+-+-+-+">I ask no kind return of love,</l>
+        <l n="2" real="x+-xxx" met="--+-+-">No tempting charm to please;</l>
+        <l n="3" real="xxxxxx-+" met="-+-+-+-+">Far from the heart those gifts remove,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">That sighs for peace and ease.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Nor peace nor ease the heart can know,</l>
+        <l n="6" real="xxx+-x" met="--+-+-">That, like the needle true,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Turns at the touch of joy or woe,</l>
+        <l n="8" real="x+-xx" met="-+-+-">But, turning, trembles too.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xx-+xxxx" met="-+-+-+-+">Far as distress the soul can wound,</l>
+        <l n="10" real="xxxx-+" met="--+-+-">’Tis pain in each degree:</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">’Tis bliss but to a certain bound,</l>
+        <l n="12" real="xxx+--" met="--+-+-">Beyond is agony.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

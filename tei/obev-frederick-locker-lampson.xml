@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>At Her Window</title><author>Frederick Locker-lampson</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="at-her-window" n="L16228">
+      <head>At Her Window</head>
+      <idno type="URN">urn:laurel:eng:locker-lampson.obev-frederick-locker-lampson.pg66619:at-her-window</idno><idno type="laurel-id">L16228</idno><note type="metre">trochaic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="+-xxx-+" met="+-+-+--">Beating Heart! we come again</l>
+        <l n="2" real="xxxxxx" met="+-+-+-">Where my Love reposes:</l>
+        <l n="3" real="xxxx+-x" met="+-+-+--">This is Mabel’s window-pane;</l>
+        <l n="4" real="xxxx+-" met="+-+-+-">These are Mabel’s roses.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+-xxx" met="+-+-+--">Is she nested? Does she kneel</l>
+        <l n="6" real="xx+xxx" met="+-+-+-">In the twilight stilly,</l>
+        <l n="7" real="+-xxxxx" met="+-+-+--">Lily clad from throat to heel,</l>
+        <l n="8" real="xx+-+-" met="+-+-+-">She, my virgin Lily?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxx+-x" met="+-+-+--">Soon the wan, the wistful stars,</l>
+        <l n="10" real="+-x-+x" met="+-+-+-">Fading, will forsake her;</l>
+        <l n="11" real="xxxxxxx" met="+-+-+--">Elves of light, on beamy bars,</l>
+        <l n="12" real="+-xxxx" met="+-+-+-">Whisper then, and wake her.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx+-+-x" met="+-+-+--">Let this friendly pebble plead</l>
+        <l n="14" real="xx+--+-" met="+-+-+--">At her flowery grating;</l>
+        <l n="15" real="xxxxxxx" met="+-+-+--">If she hear me will she heed?</l>
+        <l n="16" real="+-xx+-" met="+-+-+-">_Mabel, I am waiting._</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="+-xxxxx" met="+-+-+--">Mabel will be deck’d anon,</l>
+        <l n="18" real="x-xx-+-" met="+-+-+--">Zoned in bride’s apparel;</l>
+        <l n="19" real="+-xxxxx" met="+-+-+--">Happy zone! O hark to yon</l>
+        <l n="20" real="+-+-+-" met="+-+-+-">Passion-shaken carol!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxxx" met="+-+-+-">Sing thy song, thou trancèd thrush,</l>
+        <l n="22" real="xxxx+-" met="+-+-+-">Pipe thy best, thy clearest;--</l>
+        <l n="23" real="xx+-xxx" met="+-+-+--">Hush, her lattice moves, O hush--</l>
+        <l n="24" real="+-+-+-" met="+-+-+-">_Dearest Mabel!--dearest ..._</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

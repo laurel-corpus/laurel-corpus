@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Odyssey</title><author>Andrew Lang</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-odyssey" n="L16271">
+      <head>The Odyssey</head>
+      <idno type="URN">urn:laurel:eng:lang.obev-andrew-lang.pg66619:the-odyssey</idno><idno type="laurel-id">L16271</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabbac-ddc-">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">As one that for a weary space has lain</l>
+        <l n="2" real="xxxxxxxxx" met="+-+-+-+-+">Lull’d by the song of Circe and her wine</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">In gardens near the pale of Proserpine,</l>
+        <l n="4" real="xxxx-+xx" met="--+-+-+-">Where that Ææan isle forgets the main,</l>
+        <l n="5" real="x+-xxxxx-+" met="-+-+-+-+-+">And only the low lutes of love complain,</l>
+        <l n="6" real="x+-+xxx+-x" met="-+-+-+-+-+">And only shadows of wan lovers pine--</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">As such an one were glad to know the brine</l>
+        <l n="8" real="xxxxxxxx-+" met="-+-+-+-+-+">Salt on his lips, and the large air again--</l>
+        <l n="9" real="x+-xxxx+-x" met="-+-+-+-+-+">So gladly from the songs of modern speech</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Men turn, and see the stars, and feel the free</l>
+        <l n="11" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Shrill wind beyond the close of heavy flowers,</l>
+        <l n="12" real="xxx+-xx+-+-" met="-+-+-+-+-+-">And through the music of the languid hours</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">They hear like Ocean on a western beach</l>
+        <l n="14" real="xxx+-xx+--" met="-+-+-+-+-+">The surge and thunder of the Odyssey.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

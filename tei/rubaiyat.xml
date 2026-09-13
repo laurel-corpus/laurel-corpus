@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Rubaiyat of Omar Khayyam</title><author>Omar Khayyam</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Rubaiyat of Omar Khayyam. Project Gutenberg ebook #246. <ref target="https://www.gutenberg.org/ebooks/246">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="omar-khayyam-the-astronomer-poet-of-persia" n="L15813">
+      <head>Omar Khayyam, the Astronomer-Poet of Persia</head>
+      <idno type="URN">urn:laurel:eng:khayyam.rubaiyat.pg246:omar-khayyam-the-astronomer-poet-of-persia</idno><idno type="laurel-id">L15813</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aba-b-">
+        <l n="1" real="xxxxxxxx+-xx+-xx" met="--+-+-+-+-+-+-+-">&quot;At Naishapur thus lived and died Omar Khayyam, &#x27;busied,&#x27; adds the</l>
+        <l n="2" real="xxx+-+-x+-xx-+-x" met="--+-+-+-+-+-+-+-">Vizier, &#x27;in winning knowledge of every kind, and especially in</l>
+        <l n="3" real="-+-xxx-+xx+-xx+-xxx">Astronomy, wherein he attained to a very high pre-eminence.  Under the</l>
+        <l n="4" real="+-x+-xxxxxx-+xx" met="-+-+-+-+-+-+-+-">Sultanate of Malik Shah, he came to Merv, and obtained great praise</l>
+        <l n="5" real="xx-+-x+-xx+-++-xx" met="-+-+-+-+-+-+-+-+-">for his proficiency in science, and the Sultan showered favors upon</l>
+        <l n="6" real="x" met="+">him.&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaba">
+        <l n="7" real="xxxx-xxx+-" met="-+-+-+-+-+">&quot;&#x27;Khayyam, who stitched the tents of science,</l>
+        <l n="8" real="x+-xx+-xx+-x" met="--+-+-+-+-+-">Has fallen in grief&#x27;s furnace and been suddenly burned;</l>
+        <l n="9" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">The shears of Fate have cut the tent ropes of his life,</l>
+        <l n="10" real="xx+-xxxxxx+-" met="--+-+-+-+-+-">And the broker of Hope has sold him for nothing!&#x27;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaba">
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;O Thou who burn&#x27;st in Heart for those who burn</l>
+        <l n="12" real="xxx+xxxxxx" met="-+-+-+-+-+">In Hell, whose fires thyself shall feed in turn,</l>
+        <l n="13" real="xxx+-+-xxx" met="-+-+-+-+-+">How long be crying, &#x27;Mercy on them, God!&#x27;</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Why, who art Thou to teach, and He to learn?&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaba">
+        <l n="15" real="xxx+xxx+-x" met="-+-+-+-+-+">&quot;If I myself upon a looser Creed</l>
+        <l n="16" real="x+-xx+-xxx" met="-+-+-+-+-+">Have loosely strung the Jewel of Good deed,</l>
+        <l n="17" real="xxxxxx-+-x" met="-+-+-+-+-+">Let this one thing for my Atonement plead:</l>
+        <l n="18" real="xxxxx+-x-+" met="-+-+-+-+-+">That One for Two I never did misread.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="first-edition-1859" n="L15814">
+      <head>First Edition (1859)</head>
+      <idno type="URN">urn:laurel:eng:khayyam.rubaiyat.pg246:first-edition-1859</idno><idno type="laurel-id">L15814</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aaba">
+        <l n="1" real="-+x+-xxxxx" met="-+-+-+-+-+">Awake! for Morning in the Bowl of Night</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Has flung the Stone that puts the Stars to Flight:</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">And Lo! the Hunter of the East has caught</l>
+        <l n="4" real="x+-+-xxxxx" met="-+-+-+-+-+">The Sultan&#x27;s Turret in a Noose of Light.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaba">
+        <l n="5" real="+-xxxxxxxx" met="-+-+-+-+-+">Dreaming when Dawn&#x27;s Left Hand was in the Sky</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">I heard a Voice within the Tavern cry,</l>
+        <l n="7" real="-+x+-xxxxx" met="-+-+-+-+-+">&quot;Awake, my Little ones, and fill the Cup</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">Before Life&#x27;s Liquor in its Cup be dry.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And, as the Cock crew, those who stood before</l>
+        <l n="10" real="x+-+-+-xxx" met="-+-+-+-+-+">The Tavern shouted--&quot;Open then the Door.</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">You know how little while we have to stay,</l>
+        <l n="12" real="xx-+-x-+xx" met="-+-+-+-+-+">And, once departed, may return no more.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaba">
+        <l n="13" real="xxxx-+-x-+-" met="-+-+-+-+-+-">Now the New Year reviving old Desires,</l>
+        <l n="14" real="x+-xx+-x-+" met="-+-+-+-+-+">The thoughtful Soul to Solitude retires,</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">Where the WHITE HAND OF MOSES on the Bough</l>
+        <l n="16" real="xxx+-xxxxx" met="-+-+-+-+-+">Puts out, and Jesus from the Ground suspires.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaba">
+        <l n="17" real="xx-+xxxxxx" met="-+-+-+-+-+">Iram indeed is gone with all its Rose,</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">And Jamshyd&#x27;s Sev&#x27;n-ring&#x27;d Cup where no one knows;</l>
+        <l n="19" real="xxxxx+-+-x" met="-+-+-+-+-+">But still the Vine her ancient Ruby yields,</l>
+        <l n="20" real="xxx+-xx+-x" met="-+-+-+-+-+">And still a Garden by the Water blows.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aaba">
+        <l n="21" real="x+-xxxxx-+" met="-+-+-+-+-+">And David&#x27;s Lips are lock&#x27;t; but in divine</l>
+        <l n="22" real="x+-xxxxxxx" met="-+-+-+-+-+">High piping Pelevi, with &quot;Wine!  Wine!  Wine!</l>
+        <l n="23" real="xxx+--xxxx" met="-+-+-+-+-+">Red Wine!&quot;--the Nightingale cries to the Rose</l>
+        <l n="24" real="x+-xxxxxxx" met="-+-+-+-+-+">That yellow Cheek of hers to&#x27;incarnadine.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaba">
+        <l n="25" real="xxxxxxx+xx" met="-+-+-+-+-+">Come, fill the Cup, and in the Fire of Spring</l>
+        <l n="26" real="x+-+-x-+-x" met="-+-+-+-+-+">The Winter Garment of Repentance fling:</l>
+        <l n="27" real="xxxxxxx+-x" met="-+-+-+-+-+">The Bird of Time has but a little way</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">To fly--and Lo! the Bird is on the Wing.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaba">
+        <l n="29" real="xxx+-+-xxx" met="-+-+-+-+-+">And look--a thousand Blossoms with the Day</l>
+        <l n="30" real="xxx+-+-xxx" met="-+-+-+-+-+">Woke--and a thousand scatter&#x27;d into Clay:</l>
+        <l n="31" real="xxx+-xxxxx" met="-+-+-+-+-+">And this first Summer Month that brings the Rose</l>
+        <l n="32" real="xxxxxxxx-+" met="-+-+-+-+-+">Shall take Jamshyd and Kaikobad away.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aaba">
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">But come with old Khayyam, and leave the Lot</l>
+        <l n="34" real="xxxxxxxx-+" met="-+-+-+-+-+">Of Kaikobad and Kaikhosru forgot:</l>
+        <l n="35" real="xxxxxxxxxx" met="-+-+-+-+-+">Let Rustum lay about him as he will,</l>
+        <l n="36" real="xxxxx+-xxx" met="-+-+-+-+-+">Or Hatim Tai cry Supper--heed them not.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aaba">
+        <l n="37" real="xx-+xxxxxx" met="-+-+-+-+-+">With me along some Strip of Herbage strown</l>
+        <l n="38" real="xx-+x+-xxx" met="-+-+-+-+-+">That just divides the desert from the sown,</l>
+        <l n="39" real="xxxxx+-xxx" met="-+-+-+-+-+">Where name of Slave and Sultan scarce is known,</l>
+        <l n="40" real="x+-+-+-xxx" met="-+-+-+-+-+">And pity Sultan Mahmud on his Throne.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aaba">
+        <l n="41" real="xxxxxxxxxx" met="-+-+-+-+-+">Here with a Loaf of Bread beneath the Bough,</l>
+        <l n="42" real="xxxxxxxxxx" met="-+-+-+-+-+">A Flask of Wine, a Book of Verse--and Thou</l>
+        <l n="43" real="-+x+-xx+--" met="-+-+-+-+-+">Beside me singing in the Wilderness--</l>
+        <l n="44" real="x+--x+-xxx" met="-+-+-+-+-+">And Wilderness is Paradise enow.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aaba">
+        <l n="45" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;How sweet is mortal Sovranty!&quot;--think some:</l>
+        <l n="46" real="+-xxx+-xxx" met="-+-+-+-+-+">Others--&quot;How blest the Paradise to come!&quot;</l>
+        <l n="47" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah, take the Cash in hand and waive the Rest;</l>
+        <l n="48" real="xxx+-xx+-x" met="-+-+-+-+-+">Oh, the brave Music of a distant Drum!</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aaba">
+        <l n="49" real="xxxxxxxxxx" met="-+-+-+-+-+">Look to the Rose that blows about us--&quot;Lo,</l>
+        <l n="50" real="+-xxxxxxxx" met="-+-+-+-+-+">Laughing,&quot; she says, &quot;into the World I blow:</l>
+        <l n="51" real="xxx+-+-xxx" met="-+-+-+-+-+">At once the silken Tassel of my Purse</l>
+        <l n="52" real="xxx+-xx+-x" met="-+-+-+-+-+">Tear, and its Treasure on the Garden throw.&quot;</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aaba">
+        <l n="53" real="x+-xxxxxxx" met="-+-+-+-+-+">The Worldly Hope men set their Hearts upon</l>
+        <l n="54" real="x+-xx+-xxx" met="-+-+-+-+-+">Turns Ashes--or it prospers; and anon,</l>
+        <l n="55" real="xxxxx+-+-x" met="-+-+-+-+-+">Like Snow upon the Desert&#x27;s dusty Face</l>
+        <l n="56" real="+-x+-+xxxx" met="-+-+-+-+-+">Lighting a little Hour or two--is gone.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="aaba">
+        <l n="57" real="xxxxxxx+-x" met="-+-+-+-+-+">And those who husbanded the Golden Grain,</l>
+        <l n="58" real="xxxxxxxxxx" met="-+-+-+-+-+">And those who flung it to the Winds like Rain,</l>
+        <l n="59" real="-+xxxxxxxx" met="-+-+-+-+-+">Alike to no such aureate Earth are turn&#x27;d</l>
+        <l n="60" real="x+-xxxxx-+" met="-+-+-+-+-+">As, buried once, Men want dug up again.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="aaba">
+        <l n="61" real="xxx+-xxxxx" met="-+-+-+-+-+">Think, in this batter&#x27;d Caravanserai</l>
+        <l n="62" real="x+xx+-xxxx" met="-+-+-+-+-+">Whose Doorways are alternate Night and Day,</l>
+        <l n="63" real="x+-xx+-xxx" met="-+-+-+-+-+">How Sultan after Sultan with his Pomp</l>
+        <l n="64" real="-+x+xxxxxx" met="-+-+-+-+-+">Abode his Hour or two, and went his way.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aaba">
+        <l n="65" real="xxx+-xx+-x" met="-+-+-+-+-+">They say the Lion and the Lizard keep</l>
+        <l n="66" real="xxxxxxxxx" met="+-+-+-+-+">The Courts where Jamshyd gloried and drank deep:</l>
+        <l n="67" real="xxxxx+-xxx" met="-+-+-+-+-+">And Bahram, that great Hunter--the Wild Ass</l>
+        <l n="68" real="xxxxxxxx-+" met="-+-+-+-+-+">Stamps o&#x27;er his Head, and he lies fast asleep.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="aaba">
+        <l n="69" real="x+xxx+-xxx" met="-+-+-+-+-+">I sometimes think that never blows so red</l>
+        <l n="70" real="xxxxx+-+-x" met="-+-+-+-+-+">The Rose as where some buried Caesar bled;</l>
+        <l n="71" real="x+-+-xx+-x" met="-+-+-+-+-+">That every Hyacinth the Garden wears</l>
+        <l n="72" real="xxxxxxx+-x" met="-+-+-+-+-+">Dropt in its Lap from some once lovely Head.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="aaba">
+        <l n="73" real="xx-+-xx+-x" met="-+-+-+-+-+">And this delightful Herb whose tender Green</l>
+        <l n="74" real="xxx+-xxxxx" met="-+-+-+-+-+">Fledges the River&#x27;s Lip on which we lean--</l>
+        <l n="75" real="xxxxx+-xxx" met="-+-+-+-+-+">Ah, lean upon it lightly! for who knows</l>
+        <l n="76" real="xxx+-xxx-+" met="-+-+-+-+-+">From what once lovely Lip it springs unseen!</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="aaba">
+        <l n="77" real="xx-+-xxxxx" met="-+-+-+-+-+">Ah! my Beloved, fill the Cup that clears</l>
+        <l n="78" real="xxxx-+x+-x" met="-+-+-+-+-+">TO-DAY of past Regrets and future Fears-</l>
+        <l n="79" real="x+-xx+-xxx" met="-+-+-+-+-+">To-morrow?--Why, To-morrow I may be</l>
+        <l n="80" real="x+x+-xx+-x" met="-+-+-+-+-+">Myself with Yesterday&#x27;s Sev&#x27;n Thousand Years.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="aaba">
+        <l n="81" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Lo! some we loved, the loveliest and the best</l>
+        <l n="82" real="xxxxxxx+-x" met="-+-+-+-+-+">That Time and Fate of all their Vintage prest,</l>
+        <l n="83" real="xxxxxxxxxx" met="-+-+-+-+-+">Have drunk their Cup a Round or two before,</l>
+        <l n="84" real="xxxxx+--xx" met="-+-+-+-+-+">And one by one crept silently to Rest.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="aaba">
+        <l n="85" real="xxxxx+-xxx" met="-+-+-+-+-+">And we, that now make merry in the Room</l>
+        <l n="86" real="xxx+-+-xxx" met="-+-+-+-+-+">They left, and Summer dresses in new Bloom,</l>
+        <l n="87" real="-+xxxxxxxx" met="-+-+-+-+-+">Ourselves must we beneath the Couch of Earth</l>
+        <l n="88" real="-+-+xxxxxx" met="-+-+-+-+-+">Descend, ourselves to make a Couch--for whom?</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="aaba">
+        <l n="89" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah, make the most of what we yet may spend,</l>
+        <l n="90" real="xxxxxxxx-+" met="-+-+-+-+-+">Before we too into the Dust Descend;</l>
+        <l n="91" real="xxxxxxxxxx" met="-+-+-+-+-+">Dust into Dust, and under Dust, to lie,</l>
+        <l n="92" real="xxxxx+-xxx" met="-+-+-+-+-+">Sans Wine, sans Song, sans Singer and--sans End!</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="aaba">
+        <l n="93" real="-+xxxxxx-+" met="-+-+-+-+-+">Alike for those who for TO-DAY prepare,</l>
+        <l n="94" real="xxxxxxx+-x" met="-+-+-+-+-+">And those that after a TO-MORROW stare,</l>
+        <l n="95" real="xxxxx+x+-x" met="-+-+-+-+-+">A Muezzin from the Tower of Darkness cries</l>
+        <l n="96" real="xx-+x+-xxx" met="-+-+-+-+-+">&quot;Fools! your Reward is neither Here nor There.&quot;</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="aaba">
+        <l n="97" real="xxxxx+-x-+" met="-+-+-+-+-+">Why, all the Saints and Sages who discuss&#x27;d</l>
+        <l n="98" real="xxxxxxxxxx" met="-+-+-+-+-+">Of the Two Worlds so learnedly, are thrust</l>
+        <l n="99" real="x+-+-xxxxx" met="-+-+-+-+-+">Like foolish Prophets forth; their Words to Scorn</l>
+        <l n="100" real="x+-xxxxxxx" met="-+-+-+-+-+">Are scatter&#x27;d, and their Mouths are stopt with Dust.</l>
+      </lg>
+      <lg type="stanza" n="26" rhyme="aaba">
+        <l n="101" real="xxxxxxxxxx" met="-+-+-+-+-+">Oh, come with old Khayyam, and leave the Wise</l>
+        <l n="102" real="xxxxx+-xxx" met="-+-+-+-+-+">To talk; one thing is certain, that Life flies;</l>
+        <l n="103" real="xxx+-xxxxx" met="-+-+-+-+-+">One thing is certain, and the Rest is Lies;</l>
+        <l n="104" real="x+xxxxx+-x" met="-+-+-+-+-+">The Flower that once has blown for ever dies.</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="aaba">
+        <l n="105" real="x+xxx+--+x" met="-+-+-+-+-+">Myself when young did eagerly frequent</l>
+        <l n="106" real="+-xxxxx+--" met="-+-+-+-+-+">Doctor and Saint, and heard great Argument</l>
+        <l n="107" real="xxxxxxx+-x" met="-+-+-+-+-+">About it and about: but evermore</l>
+        <l n="108" real="xxxxxxxxxx" met="-+-+-+-+-+">Came out by the same Door as in I went.</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="aaba">
+        <l n="109" real="xxxxx+-xxx" met="-+-+-+-+-+">With them the Seed of Wisdom did I sow,</l>
+        <l n="110" real="xxxxxxxxxx" met="-+-+-+-+-+">And with my own hand labour&#x27;d it to grow:</l>
+        <l n="111" real="xxxxx+-xxx" met="-+-+-+-+-+">And this was all the Harvest that I reap&#x27;d--</l>
+        <l n="112" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;I came like Water, and like Wind I go.&quot;</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="aaba">
+        <l n="113" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Into this Universe, and why not knowing,</l>
+        <l n="114" real="xxx+-+-+-+-" met="-+-+-+-+-+-">Nor whence, like Water willy-nilly flowing:</l>
+        <l n="115" real="xxxxxx-+xx" met="-+-+-+-+-+">And out of it, as Wind along the Waste,</l>
+        <l n="116" real="xxx+-+-+-+-" met="-+-+-+-+-+-">I know not whither, willy-nilly blowing.</l>
+      </lg>
+      <lg type="stanza" n="30" rhyme="aaba">
+        <l n="117" real="xxx+-+-+-x" met="-+-+-+-+-+">What, without asking, hither hurried whence?</l>
+        <l n="118" real="xxx+-+-+-x" met="-+-+-+-+-+">And, without asking, whither hurried hence!</l>
+        <l n="119" real="-+-x-+-xxx" met="-+-+-+-+-+">Another and another Cup to drown</l>
+        <l n="120" real="x+--xxxxxx" met="-+-+-+-+-+">The Memory of this Impertinence!</l>
+      </lg>
+      <lg type="stanza" n="31" rhyme="aaba">
+        <l n="121" real="xxx+-xx+-x" met="-+-+-+-+-+">Up from Earth&#x27;s Centre through the seventh Gate</l>
+        <l n="122" real="xxxxxxx+-x" met="-+-+-+-+-+">I rose, and on the Throne of Saturn sate,</l>
+        <l n="123" real="x+-x-+-xxx" met="-+-+-+-+-+">And many Knots unravel&#x27;d by the Road;</l>
+        <l n="124" real="xxxxx+-xxx" met="-+-+-+-+-+">But not the Knot of Human Death and Fate.</l>
+      </lg>
+      <lg type="stanza" n="32" rhyme="aaba">
+        <l n="125" real="xxxxxxxxxx" met="-+-+-+-+-+">There was a Door to which I found no Key:</l>
+        <l n="126" real="xxxxxxxxxx" met="-+-+-+-+-+">There was a Veil past which I could not see:</l>
+        <l n="127" real="x+-x-+xxxx" met="-+-+-+-+-+">Some little Talk awhile of ME and THEE</l>
+        <l n="128" real="xxxxxxxxxx" met="-+-+-+-+-+">There seemed--and then no more of THEE and ME.</l>
+      </lg>
+      <lg type="stanza" n="33" rhyme="aaba">
+        <l n="129" real="xxx+-x-+xx" met="-+-+-+-+-+">Then to the rolling Heav&#x27;n itself I cried,</l>
+        <l n="130" real="+-xxx+--xx" met="-+-+-+-+-+">Asking, &quot;What Lamp had Destiny to guide</l>
+        <l n="131" real="x+-+-+-xxx" met="-+-+-+-+-+">Her little Children stumbling in the Dark?&quot;</l>
+        <l n="132" real="xxxx-+-x-+" met="-+-+-+-+-+">And--&quot;A blind understanding!&quot; Heav&#x27;n replied.</l>
+      </lg>
+      <lg type="stanza" n="34" rhyme="aaba">
+        <l n="133" real="xxx+-xxx-+" met="-+-+-+-+-+">Then to this earthen Bowl did I adjourn</l>
+        <l n="134" real="xxx+-xxxxx" met="-+-+-+-+-+">My Lip the secret Well of Life to learn:</l>
+        <l n="135" real="xxxxx+-xxx" met="-+-+-+-+-+">And Lip to Lip it murmur&#x27;d--&quot;While you live,</l>
+        <l n="136" real="xxxxx+-x-+" met="-+-+-+-+-+">Drink!--for once dead you never shall return.&quot;</l>
+      </lg>
+      <lg type="stanza" n="35" rhyme="aaba">
+        <l n="137" real="xxx+-xx+--" met="-+-+-+-+-+">I think the Vessel, that with fugitive</l>
+        <l n="138" real="x--+-+-xxx" met="-+-+-+-+-+">Articulation answer&#x27;d, once did live,</l>
+        <l n="139" real="x+-xxxxxxx" met="-+-+-+-+-+">And merry-make; and the cold Lip I kiss&#x27;d</l>
+        <l n="140" real="x+-+-xxxxx" met="-+-+-+-+-+">How many Kisses might it take--and give.</l>
+      </lg>
+      <lg type="stanza" n="36" rhyme="aaba">
+        <l n="141" real="xxx+-xxxxx" met="-+-+-+-+-+">For in the Market-place, one Dusk of Day,</l>
+        <l n="142" real="xxx+-+-xxx" met="-+-+-+-+-+">I watch&#x27;d the Potter thumping his wet Clay:</l>
+        <l n="143" real="xxxx-+-x-x" met="-+-+-+-+-+">And with its all obliterated Tongue</l>
+        <l n="144" real="x+-+-+-+-x" met="-+-+-+-+-+">It murmur&#x27;d--&quot;Gently, Brother, gently, pray!&quot;</l>
+      </lg>
+      <lg type="stanza" n="37" rhyme="aaba">
+        <l n="145" real="xxxxxxxx-+" met="-+-+-+-+-+">Ah, fill the Cup:--what boots it to repeat</l>
+        <l n="146" real="xxx+-x-++x" met="-+-+-+-+-+">How Time is slipping underneath our Feet:</l>
+        <l n="147" real="++x+-xx+-x" met="-+-+-+-+-+">Unborn TO-MORROW and dead YESTERDAY,</l>
+        <l n="148" real="xxxxxxxxxx" met="-+-+-+-+-+">Why fret about them if TO-DAY be sweet!</l>
+      </lg>
+      <lg type="stanza" n="38" rhyme="aaba">
+        <l n="149" real="x+-xxxxxxx" met="-+-+-+-+-+">One Moment in Annihilation&#x27;s Waste,</l>
+        <l n="150" real="x+-xxxxxxx" met="-+-+-+-+-+">One moment, of the Well of Life to taste--</l>
+        <l n="151" real="xxx+-xx+-x" met="-+-+-+-+-+">The Stars are setting, and the Caravan</l>
+        <l n="152" real="xxxxx+-xxx" met="-+-+-+-+-+">Starts for the dawn of Nothing--Oh, make haste!</l>
+      </lg>
+      <lg type="stanza" n="39" rhyme="aaba">
+        <l n="153" real="xxxxx+---+" met="-+-+-+-+-+">How long, how long, in infinite Pursuit</l>
+        <l n="154" real="xxxx-+-x-+" met="-+-+-+-+-+">Of This and That endeavour and dispute?</l>
+        <l n="155" real="+-x+-xx+-x" met="-+-+-+-+-+">Better be merry with the fruitful Grape</l>
+        <l n="156" real="x+-xxxx+-x" met="-+-+-+-+-+">Than sadden after none, or bitter, Fruit.</l>
+      </lg>
+      <lg type="stanza" n="40" rhyme="aaba">
+        <l n="157" real="xxxxxxxxxx" met="-+-+-+-+-+">You know, my Friends, how long since in my House</l>
+        <l n="158" real="xxx+-xxx-+" met="-+-+-+-+-+">For a new Marriage I did make Carouse:</l>
+        <l n="159" real="-+x+-+-xxx" met="-+-+-+-+-+">Divorced old barren Reason from my Bed,</l>
+        <l n="160" real="xxx+-xxxxx" met="-+-+-+-+-+">And took the Daughter of the Vine to Spouse.</l>
+      </lg>
+      <lg type="stanza" n="41" rhyme="aaba">
+        <l n="161" real="xxxxxxxxxx" met="-+-+-+-+-+">For &quot;IS&quot; and &quot;IS-NOT&quot; though with Rule and Line,</l>
+        <l n="162" real="xxxxxxxx-+" met="-+-+-+-+-+">And, &quot;UP-AND-DOWN&quot; without, I could define,</l>
+        <l n="163" real="xxxxx+-xxx" met="-+-+-+-+-+">I yet in all I only cared to know,</l>
+        <l n="164" real="x+-xx+-xxx" met="-+-+-+-+-+">Was never deep in anything but--Wine.</l>
+      </lg>
+      <lg type="stanza" n="42" rhyme="aaba">
+        <l n="165" real="x+-xx+-x-+" met="-+-+-+-+-+">And lately, by the Tavern Door agape,</l>
+        <l n="166" real="x+-xxxx+-x" met="-+-+-+-+-+">Came stealing through the Dusk an Angel Shape,</l>
+        <l n="167" real="+-x+-xx+-x" met="-+-+-+-+-+">Bearing a vessel on his Shoulder; and</l>
+        <l n="168" real="xxxxxxxxxx" met="-+-+-+-+-+">He bid me taste of it; and &#x27;twas--the Grape!</l>
+      </lg>
+      <lg type="stanza" n="43" rhyme="aaba">
+        <l n="169" real="xxxxx+-+-x" met="-+-+-+-+-+">The Grape that can with Logic absolute</l>
+        <l n="170" real="xxx+-+-xxx" met="-+-+-+-+-+">The Two-and-Seventy jarring Sects confute:</l>
+        <l n="171" real="x+-+--xxxx" met="-+-+-+-+-+">The subtle Alchemist that in a Trice</l>
+        <l n="172" real="x+-+-xxxxx" met="-+-+-+-+-+">Life&#x27;s leaden Metal into Gold transmute.</l>
+      </lg>
+      <lg type="stanza" n="44" rhyme="aaba">
+        <l n="173" real="x+-+-x-+-x" met="-+-+-+-+-+">The mighty Mahmud, the victorious Lord,</l>
+        <l n="174" real="xxxxxxxxxx" met="-+-+-+-+-+">That all the misbelieving and black Horde</l>
+        <l n="175" real="xxx+-x-+xx" met="-+-+-+-+-+">Of Fears and Sorrows that infest the Soul</l>
+        <l n="176" real="xxxxxx-+-x" met="-+-+-+-+-+">Scatters and slays with his enchanted Sword.</l>
+      </lg>
+      <lg type="stanza" n="45" rhyme="aaba">
+        <l n="177" real="xxxxx+-xxx" met="-+-+-+-+-+">But leave the Wise to wrangle, and with me</l>
+        <l n="178" real="x+-xx+-xxx" met="-+-+-+-+-+">The Quarrel of the Universe let be:</l>
+        <l n="179" real="xxx+-xx+-x" met="-+-+-+-+-+">And, in some corner of the Hubbub coucht,</l>
+        <l n="180" real="xxxxxxxxxx" met="-+-+-+-+-+">Make Game of that which makes as much of Thee.</l>
+      </lg>
+      <lg type="stanza" n="46" rhyme="aaba">
+        <l n="181" real="xxxxxxxxxx" met="-+-+-+-+-+">For in and out, above, about, below,</l>
+        <l n="182" real="x+-xx+-+xx" met="-+-+-+-+-+">&#x27;Tis nothing but a Magic Shadow-show,</l>
+        <l n="183" real="xxxxx+-xxx" met="-+-+-+-+-+">Play&#x27;d in a Box whose Candle is the Sun,</l>
+        <l n="184" real="xxx+-+-xxx" met="-+-+-+-+-+">Round which we Phantom Figures come and go.</l>
+      </lg>
+      <lg type="stanza" n="47" rhyme="aaba">
+        <l n="185" real="xxxxxxxxxx" met="-+-+-+-+-+">And if the Wine you drink, the Lip you press,</l>
+        <l n="186" real="xxx+-xxxxx" met="-+-+-+-+-+">End in the Nothing all Things end in--Yes-</l>
+        <l n="187" real="x+-xxxxxxx" met="-+-+-+-+-+">Then fancy while Thou art, Thou art but what</l>
+        <l n="188" real="xxx+-xxxxx" met="-+-+-+-+-+">Thou shalt be--Nothing--Thou shalt not be less.</l>
+      </lg>
+      <lg type="stanza" n="48" rhyme="aaba">
+        <l n="189" real="xxxx-+x+-x" met="-+-+-+-+-+">While the Rose blows along the River Brink,</l>
+        <l n="190" real="xxxxx+-+-x" met="-+-+-+-+-+">With old Khayyam the Ruby Vintage drink:</l>
+        <l n="191" real="xxx+-xx+-x" met="-+-+-+-+-+">And when the Angel with his darker Draught</l>
+        <l n="192" real="xxxxxxxxxx" met="-+-+-+-+-+">Draws up to thee--take that, and do not shrink.</l>
+      </lg>
+      <lg type="stanza" n="49" rhyme="aaba">
+        <l n="193" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Tis all a Chequer-board of Nights and Days</l>
+        <l n="194" real="x+--xxx+-x" met="-+-+-+-+-+">Where Destiny with Men for Pieces plays:</l>
+        <l n="195" real="+-xxxxxxxx" met="-+-+-+-+-+">Hither and thither moves, and mates, and slays,</l>
+        <l n="196" real="xxxxxxx+-x" met="-+-+-+-+-+">And one by one back in the Closet lays.</l>
+      </lg>
+      <lg type="stanza" n="50" rhyme="aaba">
+        <l n="197" real="xxx+-xxxxx" met="-+-+-+-+-+">The Ball no Question makes of Ayes and Noes,</l>
+        <l n="198" real="xxxxxxx+-x" met="-+-+-+-+-+">But Right or Left as strikes the Player goes;</l>
+        <l n="199" real="xxxxxxxxxx" met="-+-+-+-+-+">And He that toss&#x27;d Thee down into the Field,</l>
+        <l n="200" real="xxxxxxxxxx" met="-+-+-+-+-+">He knows about it all--HE knows--HE knows!</l>
+      </lg>
+      <lg type="stanza" n="51" rhyme="aaba">
+        <l n="201" real="x+-+-xx+-x" met="-+-+-+-+-+">The Moving Finger writes; and, having writ,</l>
+        <l n="202" real="xxxxx+--xx" met="-+-+-+-+-+">Moves on: nor all thy Piety nor Wit</l>
+        <l n="203" real="xxxxx+-xxx" met="-+-+-+-+-+">Shall lure it back to cancel half a Line,</l>
+        <l n="204" real="xxxxxxxxxx" met="-+-+-+-+-+">Nor all thy Tears wash out a Word of it.</l>
+      </lg>
+      <lg type="stanza" n="52" rhyme="aaba">
+        <l n="205" real="xx-+-xxxxx" met="-+-+-+-+-+">And that inverted Bowl we call The Sky,</l>
+        <l n="206" real="xxx+-xxxxx" met="-+-+-+-+-+">Whereunder crawling coop&#x27;t we live and die,</l>
+        <l n="207" real="xxxxxxxxxx" met="-+-+-+-+-+">Lift not thy hands to IT for help--for It</l>
+        <l n="208" real="xxxxxxxxxx" met="-+-+-+-+-+">Rolls impotently on as Thou or I.</l>
+      </lg>
+      <lg type="stanza" n="53" rhyme="aaba">
+        <l n="209" real="xxxxxxxxxx" met="-+-+-+-+-+">With Earth&#x27;s first Clay They did the Last Man&#x27;s knead,</l>
+        <l n="210" real="xxxxx+-xxx" met="-+-+-+-+-+">And then of the Last Harvest sow&#x27;d the Seed:</l>
+        <l n="211" real="xxx+-x-+-x" met="-+-+-+-+-+">Yea, the first Morning of Creation wrote</l>
+        <l n="212" real="xxxxx+--xx" met="-+-+-+-+-+">What the Last Dawn of Reckoning shall read.</l>
+      </lg>
+      <lg type="stanza" n="54" rhyme="aaba">
+        <l n="213" real="xxxxx+-xxx" met="-+-+-+-+-+">I tell Thee this--When, starting from the Goal,</l>
+        <l n="214" real="xxx+-xx+-x" met="-+-+-+-+-+">Over the shoulders of the flaming Foal</l>
+        <l n="215" real="xxxxxxxxxx" met="-+-+-+-+-+">Of Heav&#x27;n Parwin and Mushtari they flung,</l>
+        <l n="216" real="xxx+-xxxxx" met="-+-+-+-+-+">In my predestin&#x27;d Plot of Dust and Soul</l>
+      </lg>
+      <lg type="stanza" n="55" rhyme="aaba">
+        <l n="217" real="xxxxx+-xxx" met="-+-+-+-+-+">The Vine had struck a Fibre; which about</l>
+        <l n="218" real="xxx+-xxxxx" met="-+-+-+-+-+">If clings my Being--let the Sufi flout;</l>
+        <l n="219" real="xxx+-xxxxx" met="-+-+-+-+-+">Of my Base Metal may be filed a Key,</l>
+        <l n="220" real="xx-+xxxxxx" met="-+-+-+-+-+">That shall unlock the Door he howls without.</l>
+      </lg>
+      <lg type="stanza" n="56" rhyme="aaba">
+        <l n="221" real="xxxxxxxxxx" met="-+-+-+-+-+">And this I know: whether the one True Light,</l>
+        <l n="222" real="+-xxxx-+xx" met="-+-+-+-+-+">Kindle to Love, or Wrath consume me quite,</l>
+        <l n="223" real="xxxxxxx+-x" met="-+-+-+-+-+">One Glimpse of It within the Tavern caught</l>
+        <l n="224" real="+-xxx+-x++" met="-+-+-+-+-+">Better than in the Temple lost outright.</l>
+      </lg>
+      <lg type="stanza" n="57" rhyme="aaba">
+        <l n="225" real="xxxxx+xxxx" met="-+-+-+-+-+">Oh Thou who didst with Pitfall and with Gin</l>
+        <l n="226" real="-+xxxxx+-x" met="-+-+-+-+-+">Beset the Road I was to wander in,</l>
+        <l n="227" real="xxxxxx-+-x" met="-+-+-+-+-+">Thou wilt not with Predestination round</l>
+        <l n="228" real="-+xx-+xxxx" met="-+-+-+-+-+">Enmesh me, and impute my Fall to Sin?</l>
+      </lg>
+      <lg type="stanza" n="58" rhyme="aaba">
+        <l n="229" real="xxxxx+-xxx" met="-+-+-+-+-+">Oh Thou, who Man of baser Earth didst make,</l>
+        <l n="230" real="xxx+-x-+xx" met="-+-+-+-+-+">And who with Eden didst devise the Snake;</l>
+        <l n="231" real="xxxxxxxxxxx" met="-+-+-+-+-+-">For all the Sin wherewith the Face of Man</l>
+        <l n="232" real="x+-x-+-xxx" met="-+-+-+-+-+">Is blacken&#x27;d, Man&#x27;s Forgiveness give--and take!</l>
+      </lg>
+      <lg type="stanza" n="59" rhyme="aaba">
+        <l n="233" real="+--+x+-xxx" met="-+-+-+-+-+">Listen again.  One Evening at the Close</l>
+        <l n="234" real="xxxxxx+-x-+" met="-+-+-+-+-+-">Of Ramazan, ere the better Moon arose,</l>
+        <l n="235" real="xxx+-xxx-+" met="-+-+-+-+-+">In that old Potter&#x27;s Shop I stood alone</l>
+        <l n="236" real="xxxx-+-xxx" met="-+-+-+-+-+">With the clay Population round in Rows.</l>
+      </lg>
+      <lg type="stanza" n="60" rhyme="aaba">
+        <l n="237" real="xxxxxxx+-x" met="-+-+-+-+-+">And strange to tell, among that Earthen Lot</l>
+        <l n="238" real="xx-+-xx+-x" met="-+-+-+-+-+">Some could articulate, while others not:</l>
+        <l n="239" real="x+--xx-+-x" met="-+-+-+-+-+">And suddenly one more impatient cried--</l>
+        <l n="240" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;Who is the Potter, pray, and who the Pot?&quot;</l>
+      </lg>
+      <lg type="stanza" n="61" rhyme="aaba">
+        <l n="241" real="xx-+-+-xxx" met="-+-+-+-+-+">Then said another--&quot;Surely not in vain</l>
+        <l n="242" real="x+-xx+-xxx" met="-+-+-+-+-+">My substance from the common Earth was ta&#x27;en,</l>
+        <l n="243" real="xxx+-xxxxx" met="-+-+-+-+-+">That He who subtly wrought me into Shape</l>
+        <l n="244" real="xxxxx+-x-+" met="-+-+-+-+-+">Should stamp me back to common Earth again.&quot;</l>
+      </lg>
+      <lg type="stanza" n="62" rhyme="aaba">
+        <l n="245" real="-+-xxxx+-x" met="-+-+-+-+-+">Another said--&quot;Why, ne&#x27;er a peevish Boy</l>
+        <l n="246" real="xxxxxxxxxx" met="-+-+-+-+-+">Would break the Bowl from which he drank in Joy;</l>
+        <l n="247" real="xxxxx+-xxx" met="-+-+-+-+-+">Shall He that made the Vessel in pure Love</l>
+        <l n="248" real="xxxxxxxx-+" met="-+-+-+-+-+">And Fansy, in an after Rage destroy!&quot;</l>
+      </lg>
+      <lg type="stanza" n="63" rhyme="aaba">
+        <l n="249" real="x+-xxxx+-x" met="-+-+-+-+-+">None answer&#x27;d this; but after Silence spake</l>
+        <l n="250" real="x+-xxx-+-x" met="-+-+-+-+-+">A Vessel of a more ungainly Make:</l>
+        <l n="251" real="xxxxx+-x-+" met="-+-+-+-+-+">&quot;They sneer at me for leaning all awry;</l>
+        <l n="252" real="xxxxxxx+-x" met="-+-+-+-+-+">What? did the Hand then of the Potter shake?&quot;</l>
+      </lg>
+      <lg type="stanza" n="64" rhyme="aaba">
+        <l n="253" real="xxxxx+-xxx" met="-+-+-+-+-+">Said one--&quot;Folks of a surly Tapster tell,</l>
+        <l n="254" real="xxx+-xxxxx" met="-+-+-+-+-+">And daub his Visage with the Smoke of Hell;</l>
+        <l n="255" real="xxxxx+-xxx" met="-+-+-+-+-+">They talk of some strict Testing of us--Pish!</l>
+        <l n="256" real="xxx+-xxxxx" met="-+-+-+-+-+">He&#x27;s a Good Fellow, and &#x27;twill all be well.&quot;</l>
+      </lg>
+      <lg type="stanza" n="65" rhyme="aaba">
+        <l n="257" real="xx-+-xxxxx" met="-+-+-+-+-+">Then said another with a long-drawn Sigh,</l>
+        <l n="258" real="xxxx-+-xxx" met="-+-+-+-+-+">&quot;My Clay with long oblivion is gone dry:</l>
+        <l n="259" real="xxxxxx-+-x" met="-+-+-+-+-+">But, fill me with the old familiar Juice,</l>
+        <l n="260" real="xxxx-+-xxx" met="-+-+-+-+-+">Methinks I might recover by-and-bye!&quot;</l>
+      </lg>
+      <lg type="stanza" n="66" rhyme="aaba">
+        <l n="261" real="xxx+-xxxx+-" met="-+-+-+-+-+-">So, while the Vessels one by one were speaking,</l>
+        <l n="262" real="xxx+-+-xx+-" met="-+-+-+-+-+-">One spied the little Crescent all were seeking:</l>
+        <l n="263" real="xxxxx+-+-+-" met="-+-+-+-+-+-">And then they jogg&#x27;d each other, &quot;Brother! Brother!</l>
+        <l n="264" real="xxx+-+-xx+-" met="-+-+-+-+-+-">Hark to the Porter&#x27;s Shoulder-knot a-creaking!&quot;</l>
+      </lg>
+      <lg type="stanza" n="67" rhyme="aaba">
+        <l n="265" real="xxxxx+-x-+" met="-+-+-+-+-+">Ah, with the Grape my fading Life provide,</l>
+        <l n="266" real="xxx+-xxxxx" met="-+-+-+-+-+">And wash my Body whence the life has died,</l>
+        <l n="267" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And in a Windingsheet of Vineleaf wrapt,</l>
+        <l n="268" real="x+-xxxxxxx" met="-+-+-+-+-+">So bury me by some sweet Gardenside.</l>
+      </lg>
+      <lg type="stanza" n="68" rhyme="aaba">
+        <l n="269" real="xxx+-+-xxx" met="-+-+-+-+-+">That ev&#x27;n my buried Ashes such a Snare</l>
+        <l n="270" real="x-+xxxxxxx" met="-+-+-+-+-+">Of Perfume shall fling up into the Air,</l>
+        <l n="271" real="xxxx-+-+-x" met="-+-+-+-+-+">As not a True Believer passing by</l>
+        <l n="272" real="xxx+-x-x-+" met="-+-+-+-+-+">But shall be overtaken unaware.</l>
+      </lg>
+      <lg type="stanza" n="69" rhyme="aaba">
+        <l n="273" real="-+x+-xxxxx" met="-+-+-+-+-+">Indeed, the Idols I have loved so long</l>
+        <l n="274" real="xxx+-xxxxx" met="-+-+-+-+-+">Have done my Credit in Men&#x27;s Eye much wrong:</l>
+        <l n="275" real="xxx+-xx+-x" met="-+-+-+-+-+">Have drown&#x27;d my Honour in a shallow Cup,</l>
+        <l n="276" real="xxxx-+-xxx" met="-+-+-+-+-+">And sold my Reputation for a Song.</l>
+      </lg>
+      <lg type="stanza" n="70" rhyme="aaba">
+        <l n="277" real="-+-+-+-xxx" met="-+-+-+-+-+">Indeed, indeed, Repentance oft before</l>
+        <l n="278" real="xxxxx+-xxx" met="-+-+-+-+-+">I swore--but was I sober when I swore?</l>
+        <l n="279" real="xxxxxxxxxx" met="-+-+-+-+-+">And then and then came Spring, and Rose-in-hand</l>
+        <l n="280" real="xxxxxxx+-x" met="-+-+-+-+-+">My thread-bare Penitence a-pieces tore.</l>
+      </lg>
+      <lg type="stanza" n="71" rhyme="aaba">
+        <l n="281" real="xxxxxxx+-x" met="-+-+-+-+-+">And much as Wine has play&#x27;d the Infidel,</l>
+        <l n="282" real="xxxxxxx+-x" met="-+-+-+-+-+">And robb&#x27;d me of my Robe of Honour--well,</l>
+        <l n="283" real="x+-+-xx+-x" met="-+-+-+-+-+">I often wonder what the Vintners buy</l>
+        <l n="284" real="xxx+-xxxxx" met="-+-+-+-+-+">One half so precious as the Goods they sell.</l>
+      </lg>
+      <lg type="stanza" n="72" rhyme="aaba">
+        <l n="285" real="-+xxx+-xxx" met="-+-+-+-+-+">Alas, that Spring should vanish with the Rose!</l>
+        <l n="286" real="xxx+-+-xxx" met="-+-+-+-+-+">That Youth&#x27;s sweet-scented Manuscript should close!</l>
+        <l n="287" real="x+--xxx+-x" met="-+-+-+-+-+">The Nightingale that in the Branches sang,</l>
+        <l n="288" real="xxx+-x-+xx" met="-+-+-+-+-+">Ah, whence, and whither flown again, who knows!</l>
+      </lg>
+      <lg type="stanza" n="73" rhyme="aaba">
+        <l n="289" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Ah, Love! could thou and I with Fate conspire</l>
+        <l n="290" real="xxx+-xxx-+-" met="-+-+-+-+-+-">To grasp this sorry Scheme of Things entire,</l>
+        <l n="291" real="xxx+-xxxxx" met="-+-+-+-+-+">Would not we shatter it to bits--and then</l>
+        <l n="292" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Re-mould it nearer to the Heart&#x27;s Desire!</l>
+      </lg>
+      <lg type="stanza" n="74" rhyme="aaba">
+        <l n="293" real="xxxx-+xxxx" met="-+-+-+-+-+">Ah, Moon of my Delight who know&#x27;st no wane,</l>
+        <l n="294" real="xxxxx+-x-+" met="-+-+-+-+-+">The Moon of Heav&#x27;n is rising once again:</l>
+        <l n="295" real="xx-+-+-xxx" met="-+-+-+-+-+">How oft hereafter rising shall she look</l>
+        <l n="296" real="xxx+-xxxxx" met="-+-+-+-+-+">Through this same Garden after me--in vain!</l>
+      </lg>
+      <lg type="stanza" n="75" rhyme="aaba">
+        <l n="297" real="xxxxx+-xxx" met="-+-+-+-+-+">And when Thyself with shining Foot shall pass</l>
+        <l n="298" real="xxxxx+-xxx" met="-+-+-+-+-+">Among the Guests Star-scatter&#x27;d on The Grass,</l>
+        <l n="299" real="xxx+-+-xxx" met="-+-+-+-+-+">And in Thy joyous Errand reach the Spot</l>
+        <l n="300" real="xxxxxxx+-x" met="-+-+-+-+-+">Where I made one--turn down an empty Glass!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fifth-edition-1889" n="L15815">
+      <head>Fifth Edition (1889)</head>
+      <idno type="URN">urn:laurel:eng:khayyam.rubaiyat.pg246:fifth-edition-1889</idno><idno type="laurel-id">L15815</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aaba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">WAKE! For the Sun, who scatter&#x27;d into flight</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">The Stars before him from the Field of Night,</l>
+        <l n="3" real="xx-+xxxxxx" met="-+-+-+-+-+">Drives Night along with them from Heav&#x27;n, and strikes</l>
+        <l n="4" real="x+-+-xxxxx" met="-+-+-+-+-+">The Sultan&#x27;s Turret with a Shaft of Light.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaba">
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">Before the phantom of False morning died,</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Methought a Voice within the Tavern cried,</l>
+        <l n="7" real="xxx+-x-+xx" met="-+-+-+-+-+">&quot;When all the Temple is prepared within,</l>
+        <l n="8" real="xxx+-+--++" met="-+-+-+-+-+">&quot;Why nods the drowsy Worshiper outside?&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And, as the Cock crew, those who stood before</l>
+        <l n="10" real="x+-+-+-xxx" met="-+-+-+-+-+">The Tavern shouted--&quot;Open then the Door!</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;You know how little while we have to stay,</l>
+        <l n="12" real="xx-+-x-+xx" met="-+-+-+-+-+">And, once departed, may return no more.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaba">
+        <l n="13" real="xxxx-+-x-+-" met="-+-+-+-+-+-">Now the New Year reviving old Desires,</l>
+        <l n="14" real="x+-xx+-x-+" met="-+-+-+-+-+">The thoughtful Soul to Solitude retires,</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">Where the WHITE HAND OF MOSES on the Bough</l>
+        <l n="16" real="xxx+-xxxxx" met="-+-+-+-+-+">Puts out, and Jesus from the Ground suspires.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaba">
+        <l n="17" real="xx-+xxxxxx" met="-+-+-+-+-+">Iram indeed is gone with all his Rose,</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">And Jamshyd&#x27;s Sev&#x27;n-ring&#x27;d Cup where no one knows;</l>
+        <l n="19" real="xxx+-xxxx" met="+-+-+-+-+">But still a Ruby kindles in the Vine,</l>
+        <l n="20" real="x+x+-xx+-x" met="-+-+-+-+-+">And many a Garden by the Water blows.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aaba">
+        <l n="21" real="x+-xxxxx-+" met="-+-+-+-+-+">And David&#x27;s lips are lockt; but in divine</l>
+        <l n="22" real="x+-xxxxxxx" met="-+-+-+-+-+">High-piping Pehlevi, with &quot;Wine! Wine! Wine!</l>
+        <l n="23" real="xxx+--xxxx" met="-+-+-+-+-+">&quot;Red Wine!&quot;--the Nightingale cries to the Rose</l>
+        <l n="24" real="xxxxxxxxxxx" met="-+-+-+-+-+-">That sallow cheek of hers to&#x27; incarnadine.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaba">
+        <l n="25" real="xxxxxxx+xx" met="-+-+-+-+-+">Come, fill the Cup, and in the fire of Spring</l>
+        <l n="26" real="x+-+-x-+-x" met="-+-+-+-+-+">Your Winter garment of Repentance fling:</l>
+        <l n="27" real="xxxxxxx+-x" met="-+-+-+-+-+">The Bird of Time has but a little way</l>
+        <l n="28" real="x+-xxxxxxx" met="-+-+-+-+-+">To flutter--and the Bird is on the Wing.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaba">
+        <l n="29" real="xxxxxxx+-x" met="-+-+-+-+-+">Whether at Naishapur or Babylon,</l>
+        <l n="30" real="xxxxxxx+-x" met="-+-+-+-+-+">Whether the Cup with sweet or bitter run,</l>
+        <l n="31" real="xxxxx+-xxx" met="-+-+-+-+-+">The Wine of Life keeps oozing drop by drop,</l>
+        <l n="32" real="xxxxx+-xxx" met="-+-+-+-+-+">The Leaves of Life keep falling one by one.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aaba">
+        <l n="33" real="xxx+-+-xxx" met="-+-+-+-+-+">Each Morn a thousand Roses brings, you say:</l>
+        <l n="34" real="xxxxxxx+-x" met="-+-+-+-+-+">Yes, but where leaves the Rose of Yesterday?</l>
+        <l n="35" real="xxx+-xxxxx" met="-+-+-+-+-+">And this first Summer month that brings the Rose</l>
+        <l n="36" real="xxxxxxxx-+" met="-+-+-+-+-+">Shall take Jamshyd and Kaikobad away.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aaba">
+        <l n="37" real="xxxxxxxxxx" met="-+-+-+-+-+">Well, let it take them!  What have we to do</l>
+        <l n="38" real="xxxxxxxxxx" met="-+-+-+-+-+">With Kaikobad the Great, or Kaikhosru?</l>
+        <l n="39" real="xxxxx+-xxx" met="-+-+-+-+-+">Let Zal and Rustum bluster as they will,</l>
+        <l n="40" real="xxxxx+-xxx" met="-+-+-+-+-+">Or Hatim call to Supper--heed not you.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aaba">
+        <l n="41" real="xx-+xxxxxx" met="-+-+-+-+-+">With me along the strip of Herbage strown</l>
+        <l n="42" real="xx-+x+-xxx" met="-+-+-+-+-+">That just divides the desert from the sown,</l>
+        <l n="43" real="xxxxx+-x-+" met="-+-+-+-+-+">Where name of Slave and Sultan is forgot--</l>
+        <l n="44" real="xxx+-xx+-x" met="-+-+-+-+-+">And Peace to Mahmud on his golden Throne!</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aaba">
+        <l n="45" real="xxx+-x-+xx" met="-+-+-+-+-+">A Book of Verses underneath the Bough,</l>
+        <l n="46" real="xxxxxxxxxx" met="-+-+-+-+-+">A Jug of Wine, a Loaf of Bread--and Thou</l>
+        <l n="47" real="-+x+-xx+--" met="-+-+-+-+-+">Beside me singing in the Wilderness--</l>
+        <l n="48" real="x+--x+-xxx" met="-+-+-+-+-+">Oh, Wilderness were Paradise enow!</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aaba">
+        <l n="49" real="xxx+-xxxxx" met="-+-+-+-+-+">Some for the Glories of This World; and some</l>
+        <l n="50" real="xxx+-+-xxx" met="-+-+-+-+-+">Sigh for the Prophet&#x27;s Paradise to come;</l>
+        <l n="51" real="xxxxxxx+-x" met="-+-+-+-+-+">Ah, take the Cash, and let the Credit go,</l>
+        <l n="52" real="xxx+-xx+-x" met="-+-+-+-+-+">Nor heed the rumble of a distant Drum!</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aaba">
+        <l n="53" real="xxx+-xxxxx" met="-+-+-+-+-+">Look to the blowing Rose about us--&quot;Lo,</l>
+        <l n="54" real="+-xxxxxxxx" met="-+-+-+-+-+">Laughing,&quot; she says, &quot;into the world I blow,</l>
+        <l n="55" real="xxx+-+-xxx" met="-+-+-+-+-+">At once the silken tassel of my Purse</l>
+        <l n="56" real="xxx+-xx+-x" met="-+-+-+-+-+">Tear, and its Treasure on the Garden throw.&quot;</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="aaba">
+        <l n="57" real="xxxxxxx+-x" met="-+-+-+-+-+">And those who husbanded the Golden grain,</l>
+        <l n="58" real="xxxxxxxxxx" met="-+-+-+-+-+">And those who flung it to the winds like Rain,</l>
+        <l n="59" real="-+xxxxxxxx" met="-+-+-+-+-+">Alike to no such aureate Earth are turn&#x27;d</l>
+        <l n="60" real="x+-xxxxx-+" met="-+-+-+-+-+">As, buried once, Men want dug up again.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="aaba">
+        <l n="61" real="x+-xxxxxxx" met="-+-+-+-+-+">The Worldly Hope men set their Hearts upon</l>
+        <l n="62" real="x+-xx+-xxx" met="-+-+-+-+-+">Turns Ashes--or it prospers; and anon,</l>
+        <l n="63" real="xxxxx+-+-x" met="-+-+-+-+-+">Like Snow upon the Desert&#x27;s dusty Face,</l>
+        <l n="64" real="+-x+-+xxxx" met="-+-+-+-+-+">Lighting a little hour or two--is gone.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aaba">
+        <l n="65" real="xxx+-xxxxx" met="-+-+-+-+-+">Think, in this batter&#x27;d Caravanserai</l>
+        <l n="66" real="x+-x+--xxx" met="-+-+-+-+-+">Whose Portals are alternate Night and Day,</l>
+        <l n="67" real="x+-xx+-xxx" met="-+-+-+-+-+">How Sultan after Sultan with his Pomp</l>
+        <l n="68" real="-+x+-+xxxx" met="-+-+-+-+-+">Abode his destined Hour, and went his way.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="aaba">
+        <l n="69" real="xxx+-xx+-x" met="-+-+-+-+-+">They say the Lion and the Lizard keep</l>
+        <l n="70" real="xxxxxxxxx" met="+-+-+-+-+">The courts where Jamshyd gloried and drank deep:</l>
+        <l n="71" real="xxxxx+-xxx" met="-+-+-+-+-+">And Bahram, that great Hunter--the Wild Ass</l>
+        <l n="72" real="xxxxx+-xxx" met="-+-+-+-+-+">Stamps o&#x27;er his Head, but cannot break his Sleep.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="aaba">
+        <l n="73" real="x+xxx+-xxx" met="-+-+-+-+-+">I sometimes think that never blows so red</l>
+        <l n="74" real="xxxxx+-+-x" met="-+-+-+-+-+">The Rose as where some buried Caesar bled;</l>
+        <l n="75" real="x+-+-xx+-x" met="-+-+-+-+-+">That every Hyacinth the Garden wears</l>
+        <l n="76" real="xxxxxxx+-x" met="-+-+-+-+-+">Dropt in her Lap from some once lovely Head.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="aaba">
+        <l n="77" real="xx-+-xx+-x" met="-+-+-+-+-+">And this reviving Herb whose tender Green</l>
+        <l n="78" real="xxx+-xxxxx" met="-+-+-+-+-+">Fledges the River-Lip on which we lean--</l>
+        <l n="79" real="xxxxx+-xxx" met="-+-+-+-+-+">Ah, lean upon it lightly! for who knows</l>
+        <l n="80" real="xxx+-xxx-+" met="-+-+-+-+-+">From what once lovely Lip it springs unseen!</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="aaba">
+        <l n="81" real="xx-+-xxxxx" met="-+-+-+-+-+">Ah, my Beloved, fill the Cup that clears</l>
+        <l n="82" real="xxxx-+x+-x" met="-+-+-+-+-+">TO-DAY of past Regrets and future Fears:</l>
+        <l n="83" real="x+-xx+-xxx" met="-+-+-+-+-+">To-morrow--Why, To-morrow I may be</l>
+        <l n="84" real="x+x+-xx+-x" met="-+-+-+-+-+">Myself with Yesterday&#x27;s Sev&#x27;n thousand Years.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="aaba">
+        <l n="85" real="xxxxxxxxxxx" met="-+-+-+-+-+-">For some we loved, the loveliest and the best</l>
+        <l n="86" real="xxx+-+-xxx" met="-+-+-+-+-+">That from his Vintage rolling Time hath prest,</l>
+        <l n="87" real="xxxxxxxxxx" met="-+-+-+-+-+">Have drunk their Cup a Round or two before,</l>
+        <l n="88" real="xxxxx+--xx" met="-+-+-+-+-+">And one by one crept silently to rest.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="aaba">
+        <l n="89" real="xxxxx+-xxx" met="-+-+-+-+-+">And we, that now make merry in the Room</l>
+        <l n="90" real="xxx+-+-xxx" met="-+-+-+-+-+">They left, and Summer dresses in new bloom,</l>
+        <l n="91" real="-+xxxxxxxx" met="-+-+-+-+-+">Ourselves must we beneath the Couch of Earth</l>
+        <l n="92" real="-+-+xxxxxx" met="-+-+-+-+-+">Descend--ourselves to make a Couch--for whom?</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="aaba">
+        <l n="93" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah, make the most of what we yet may spend,</l>
+        <l n="94" real="xxxxxxxx-+" met="-+-+-+-+-+">Before we too into the Dust descend;</l>
+        <l n="95" real="xxxxxxxxxx" met="-+-+-+-+-+">Dust into Dust, and under Dust to lie,</l>
+        <l n="96" real="xxxxx+-xxx" met="-+-+-+-+-+">Sans Wine, sans Song, sans Singer, and--sans End!</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="aaba">
+        <l n="97" real="-+xxxxxx-+" met="-+-+-+-+-+">Alike for those who for TO-DAY prepare,</l>
+        <l n="98" real="xxxxxxx+-x" met="-+-+-+-+-+">And those that after some TO-MORROW stare,</l>
+        <l n="99" real="xxxxx+x+-x" met="-+-+-+-+-+">A Muezzin from the Tower of Darkness cries,</l>
+        <l n="100" real="xx-+x+-xxx" met="-+-+-+-+-+">&quot;Fools! your Reward is neither Here nor There.&quot;</l>
+      </lg>
+      <lg type="stanza" n="26" rhyme="aaba">
+        <l n="101" real="xxxxx+-x-+" met="-+-+-+-+-+">Why, all the Saints and Sages who discuss&#x27;d</l>
+        <l n="102" real="xxxxx+-xxx" met="-+-+-+-+-+">Of the Two Worlds so wisely--they are thrust</l>
+        <l n="103" real="x+-+-xxxxx" met="-+-+-+-+-+">Like foolish Prophets forth; their Words to Scorn</l>
+        <l n="104" real="x+-xxxxxxx" met="-+-+-+-+-+">Are scatter&#x27;d, and their Mouths are stopt with Dust.</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="aaba">
+        <l n="105" real="x+xxx+--+x" met="-+-+-+-+-+">Myself when young did eagerly frequent</l>
+        <l n="106" real="+-xxxxx+--" met="-+-+-+-+-+">Doctor and Saint, and heard great argument</l>
+        <l n="107" real="xxxxxxx+-x" met="-+-+-+-+-+">About it and about: but evermore</l>
+        <l n="108" real="xxxxxxxxxx" met="-+-+-+-+-+">Came out by the same door where in I went.</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="aaba">
+        <l n="109" real="xxxxx+-xxx" met="-+-+-+-+-+">With them the seed of Wisdom did I sow,</l>
+        <l n="110" real="xxxxxxxxxx" met="-+-+-+-+-+">And with mine own hand wrought to make it grow;</l>
+        <l n="111" real="xxxxx+-xxx" met="-+-+-+-+-+">And this was all the Harvest that I reap&#x27;d--</l>
+        <l n="112" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;I came like Water, and like Wind I go.&quot;</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="aaba">
+        <l n="113" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Into this Universe, and Why not knowing</l>
+        <l n="114" real="xxx+-+-+-+-" met="-+-+-+-+-+-">Nor Whence, like Water willy-nilly flowing;</l>
+        <l n="115" real="xxxxxx-+xx" met="-+-+-+-+-+">And out of it, as Wind along the Waste,</l>
+        <l n="116" real="xxx+-+-+-+-" met="-+-+-+-+-+-">I know not Whither, willy-nilly blowing.</l>
+      </lg>
+      <lg type="stanza" n="30" rhyme="aaba">
+        <l n="117" real="xxx+-+-+-x" met="-+-+-+-+-+">What, without asking, hither hurried Whence?</l>
+        <l n="118" real="xxx+-+-+-x" met="-+-+-+-+-+">And, without asking, Whither hurried hence!</l>
+        <l n="119" real="x+xxxx-+-x" met="-+-+-+-+-+">Oh, many a Cup of this forbidden Wine</l>
+        <l n="120" real="xxx+--xx+--" met="-+-+-+-+-+-">Must drown the memory of that insolence!</l>
+      </lg>
+      <lg type="stanza" n="31" rhyme="aaba">
+        <l n="121" real="xxx+-xx+-x" met="-+-+-+-+-+">Up from Earth&#x27;s Center through the Seventh Gate</l>
+        <l n="122" real="xxxxxxx+-x" met="-+-+-+-+-+">I rose, and on the Throne of Saturn sate,</l>
+        <l n="123" real="x+xx-+-xxx" met="-+-+-+-+-+">And many a Knot unravel&#x27;d by the Road;</l>
+        <l n="124" real="xxx+-xx+-x" met="-+-+-+-+-+">But not the Master-knot of Human Fate.</l>
+      </lg>
+      <lg type="stanza" n="32" rhyme="aaba">
+        <l n="125" real="xxxxxxxxxx" met="-+-+-+-+-+">There was the Door to which I found no Key;</l>
+        <l n="126" real="xxxxxxxxxx" met="-+-+-+-+-+">There was the Veil through which I might not see:</l>
+        <l n="127" real="x+-x-+xxxx" met="-+-+-+-+-+">Some little talk awhile of ME and THEE</l>
+        <l n="128" real="xxxxxxxxxx" met="-+-+-+-+-+">There was--and then no more of THEE and ME.</l>
+      </lg>
+      <lg type="stanza" n="33" rhyme="aaba">
+        <l n="129" real="xxx+-xxxxx" met="-+-+-+-+-+">Earth could not answer; nor the Seas that mourn</l>
+        <l n="130" real="x+-+-xxx-+" met="-+-+-+-+-+">In flowing Purple, of their Lord Forlorn;</l>
+        <l n="131" real="x+-+xxxx-+" met="-+-+-+-+-+">Nor rolling Heaven, with all his Signs reveal&#x27;d</l>
+        <l n="132" real="x+-xxxxxxx" met="-+-+-+-+-+">And hidden by the sleeve of Night and Morn.</l>
+      </lg>
+      <lg type="stanza" n="34" rhyme="aaba">
+        <l n="133" real="xxxxxxxxxx" met="-+-+-+-+-+">Then of the THEE IN ME who works behind</l>
+        <l n="134" real="xxx+-xxxxx" met="-+-+-+-+-+">The Veil, I lifted up my hands to find</l>
+        <l n="135" real="xx-+x+-xxx" met="-+-+-+-+-+">A lamp amid the Darkness; and I heard,</l>
+        <l n="136" real="xxxxxxxxxx" met="-+-+-+-+-+">As from Without--&quot;THE ME WITHIN THEE BLIND!&quot;</l>
+      </lg>
+      <lg type="stanza" n="35" rhyme="aaba">
+        <l n="137" real="xxxxxxx+-x" met="-+-+-+-+-+">Then to the Lip of this poor earthen Urn</l>
+        <l n="138" real="xxx+-xxxxx" met="-+-+-+-+-+">I lean&#x27;d, the Secret of my Life to learn:</l>
+        <l n="139" real="xxxxx+-xxx" met="-+-+-+-+-+">And Lip to Lip it murmur&#x27;d--&quot;While you live,</l>
+        <l n="140" real="xxxxx+-x-+" met="-+-+-+-+-+">&quot;Drink!--for, once dead, you never shall return.&quot;</l>
+      </lg>
+      <lg type="stanza" n="36" rhyme="aaba">
+        <l n="141" real="xxx+-xx+--" met="-+-+-+-+-+">I think the Vessel, that with fugitive</l>
+        <l n="142" real="x--+-+-xxx" met="-+-+-+-+-+">Articulation answer&#x27;d, once did live,</l>
+        <l n="143" real="xxxxx+-xxx" met="-+-+-+-+-+">And drink; and Ah! the passive Lip I kiss&#x27;d,</l>
+        <l n="144" real="x+-+-xxxxx" met="-+-+-+-+-+">How many Kisses might it take--and give!</l>
+      </lg>
+      <lg type="stanza" n="37" rhyme="aaba">
+        <l n="145" real="xx-+-+-xxx" met="-+-+-+-+-+">For I remember stopping by the way</l>
+        <l n="146" real="xxx+-+-xxx" met="-+-+-+-+-+">To watch a Potter thumping his wet Clay:</l>
+        <l n="147" real="xxxx-+-x-x" met="-+-+-+-+-+">And with its all-obliterated Tongue</l>
+        <l n="148" real="x+-+-+-+-x" met="-+-+-+-+-+">It murmur&#x27;d--&quot;Gently, Brother, gently, pray!&quot;</l>
+      </lg>
+      <lg type="stanza" n="38" rhyme="aaba">
+        <l n="149" real="xxxxx+-xxx" met="-+-+-+-+-+">And has not such a Story from of Old</l>
+        <l n="150" real="xx-+-x-+-x" met="-+-+-+-+-+">Down Man&#x27;s successive generations roll&#x27;d</l>
+        <l n="151" real="xxxxx+-x-x" met="-+-+-+-+-+">Of such a clod of saturated Earth</l>
+        <l n="152" real="xxx+-xx+-x" met="-+-+-+-+-+">Cast by the Maker into Human mold?</l>
+      </lg>
+      <lg type="stanza" n="39" rhyme="aaba">
+        <l n="153" real="xxxxxx+xxx" met="-+-+-+-+-+">And not a drop that from our Cups we throw</l>
+        <l n="154" real="xxxxxxxxxx" met="-+-+-+-+-+">For Earth to drink of, but may steal below</l>
+        <l n="155" real="xxx+x+-xxx" met="-+-+-+-+-+">To quench the fire of Anguish in some Eye</l>
+        <l n="156" real="x+-xxxxx-+" met="-+-+-+-+-+">There hidden--far beneath, and long ago.</l>
+      </lg>
+      <lg type="stanza" n="40" rhyme="aaba">
+        <l n="157" real="xxx+-xx+-x" met="-+-+-+-+-+">As then the Tulip for her morning sup</l>
+        <l n="158" real="xxx+-xxxxx" met="-+-+-+-+-+">Of Heav&#x27;nly Vintage from the soil looks up,</l>
+        <l n="159" real="xx-+-xxxxx" met="-+-+-+-+-+">Do you devoutly do the like, till Heav&#x27;n</l>
+        <l n="160" real="xx-+xxx+-x" met="-+-+-+-+-+">To Earth invert you--like an empty Cup.</l>
+      </lg>
+      <lg type="stanza" n="41" rhyme="aaba">
+        <l n="161" real="xxxxx+-x-+" met="-+-+-+-+-+">Perplext no more with Human or Divine,</l>
+        <l n="162" real="xxx+-xxx-+" met="-+-+-+-+-+">To-morrow&#x27;s tangle to the winds resign,</l>
+        <l n="163" real="xxx+-xx+-x" met="-+-+-+-+-+">And lose your fingers in the tresses of</l>
+        <l n="164" real="x+-+-+--xx" met="-+-+-+-+-+">The Cypress-slender Minister of Wine.</l>
+      </lg>
+      <lg type="stanza" n="42" rhyme="aaba">
+        <l n="165" real="xxxxxxxxxx" met="-+-+-+-+-+">And if the Wine you drink, the Lip you press,</l>
+        <l n="166" real="xxxx-+xxxx" met="-+-+-+-+-+">End in what All begins and ends in--Yes;</l>
+        <l n="167" real="xxxxxxx+-x" met="-+-+-+-+-+">Think then you are TO-DAY what YESTERDAY</l>
+        <l n="168" real="xxx+-xxxxx" met="-+-+-+-+-+">You were--TO-MORROW you shall not be less.</l>
+      </lg>
+      <lg type="stanza" n="43" rhyme="aaba">
+        <l n="169" real="xxx+-xx+-x" met="-+-+-+-+-+">So when that Angel of the darker Drink</l>
+        <l n="170" real="xxxxxxx+-x" met="-+-+-+-+-+">At last shall find you by the river-brink,</l>
+        <l n="171" real="x+--xx-+xx" met="-+-+-+-+-+">And, offering his Cup, invite your Soul</l>
+        <l n="172" real="xxxxxxxxxx" met="-+-+-+-+-+">Forth to your Lips to quaff--you shall not shrink.</l>
+      </lg>
+      <lg type="stanza" n="44" rhyme="aaba">
+        <l n="173" real="xxxxxxxx-+" met="-+-+-+-+-+">Why, if the Soul can fling the Dust aside,</l>
+        <l n="174" real="x+-xxxx+-x" met="-+-+-+-+-+">And naked on the Air of Heaven ride,</l>
+        <l n="175" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Were&#x27;t not a Shame--were&#x27;t not a Shame for him</l>
+        <l n="176" real="xxx+-+-x-+" met="-+-+-+-+-+">In this clay carcass crippled to abide?</l>
+      </lg>
+      <lg type="stanza" n="45" rhyme="aaba">
+        <l n="177" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Tis but a Tent where takes his one day&#x27;s rest</l>
+        <l n="178" real="x+-xxxxxxx" met="-+-+-+-+-+">A Sultan to the realm of Death addrest;</l>
+        <l n="179" real="x+-+-xxxxx" met="-+-+-+-+-+">The Sultan rises, and the dark Ferrash</l>
+        <l n="180" real="xx-+xx-+-x" met="-+-+-+-+-+">Strikes, and prepares it for another Guest.</l>
+      </lg>
+      <lg type="stanza" n="46" rhyme="aaba">
+        <l n="181" real="xxxx-+-+-x" met="-+-+-+-+-+">And fear not lest Existence closing your</l>
+        <l n="182" real="-+xxxxxxxx" met="-+-+-+-+-+">Account, and mine, should know the like no more;</l>
+        <l n="183" real="x-+-+-xxxxx" met="-+-+-+-+-+-">The Eternal Saki from that Bowl has pour&#x27;d</l>
+        <l n="184" real="+-x+-xxxxx" met="-+-+-+-+-+">Millions of Bubbles like us, and will pour.</l>
+      </lg>
+      <lg type="stanza" n="47" rhyme="aaba">
+        <l n="185" real="xxxxxxxxxx" met="-+-+-+-+-+">When You and I behind the Veil are past,</l>
+        <l n="186" real="xxxxxxxxxx" met="-+-+-+-+-+">Oh, but the long, long while the World shall last,</l>
+        <l n="187" real="xx++-x-+-x" met="-+-+-+-+-+">Which of our Coming and Departure heeds</l>
+        <l n="188" real="xxxxxxx+-x" met="-+-+-+-+-+">As the Sea&#x27;s self should heed a pebble-cast.</l>
+      </lg>
+      <lg type="stanza" n="48" rhyme="aaba">
+        <l n="189" real="x+-xx+-x-x" met="-+-+-+-+-+">A Moment&#x27;s Halt--a momentary taste</l>
+        <l n="190" real="x+-xxx-+xx" met="-+-+-+-+-+">Of BEING from the Well amid the Waste--</l>
+        <l n="191" real="xxx+-+-xxx" met="-+-+-+-+-+">And Lo!--the phantom Caravan has reach&#x27;d</l>
+        <l n="192" real="x+-xxxxxxx" met="-+-+-+-+-+">The NOTHING it set out from--Oh, make haste!</l>
+      </lg>
+      <lg type="stanza" n="49" rhyme="aaba">
+        <l n="193" real="xxx+-x-+-x" met="-+-+-+-+-+">Would you that spangle of Existence spend</l>
+        <l n="194" real="xxx+-xxxxx" met="-+-+-+-+-+">About THE SECRET--quick about it, Friend!</l>
+        <l n="195" real="xx-+-+xxxx" met="-+-+-+-+-+">A Hair perhaps divides the False from True--</l>
+        <l n="196" real="xxxxxxxx-+" met="-+-+-+-+-+">And upon what, prithee, may life depend?</l>
+      </lg>
+      <lg type="stanza" n="50" rhyme="aaba">
+        <l n="197" real="xx-+-+xxxx" met="-+-+-+-+-+">A Hair perhaps divides the False and True;</l>
+        <l n="198" real="xxx+-xxxxx" met="-+-+-+-+-+">Yes; and a single Alif were the clue--</l>
+        <l n="199" real="xxxxxxx+-x" met="-+-+-+-+-+">Could you but find it--to the Treasure-house,</l>
+        <l n="200" real="xxxxxxx+-x" met="-+-+-+-+-+">And peradventure to THE MASTER too;</l>
+      </lg>
+      <lg type="stanza" n="51" rhyme="aaba">
+        <l n="201" real="x+-+-x-+-x" met="-+-+-+-+-+">Whose secret Presence through Creation&#x27;s veins</l>
+        <l n="202" real="+-++-x-+xx" met="-+-+-+-+-+">Running Quicksilver-like eludes your pains;</l>
+        <l n="203" real="+-xxxxxxxx" met="-+-+-+-+-+">Taking all shapes from Mah to Mahi and</l>
+        <l n="204" real="xxx+-xxx-+" met="-+-+-+-+-+">They change and perish all--but He remains;</l>
+      </lg>
+      <lg type="stanza" n="52" rhyme="aaba">
+        <l n="205" real="x+-xxxxxxx" met="-+-+-+-+-+">A moment guessed--then back behind the Fold</l>
+        <l n="206" real="xxx+-xx+-x" met="-+-+-+-+-+">Immerst of Darkness round the Drama roll&#x27;d</l>
+        <l n="207" real="xxx+xx-+--" met="-+-+-+-+-+">Which, for the Pastime of Eternity,</l>
+        <l n="208" real="xx-+-+-+-+" met="-+-+-+-+-+">He doth Himself contrive, enact, behold.</l>
+      </lg>
+      <lg type="stanza" n="53" rhyme="aaba">
+        <l n="209" real="xxxxxxx+-x" met="-+-+-+-+-+">But if in vain, down on the stubborn floor</l>
+        <l n="210" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Of Earth, and up to Heav&#x27;n&#x27;s unopening Door,</l>
+        <l n="211" real="xxxxxxxxxx" met="-+-+-+-+-+">You gaze TO-DAY, while You are You--how then</l>
+        <l n="212" real="x+-xxxxxxx" met="-+-+-+-+-+">TO-MORROW, when You shall be You no more?</l>
+      </lg>
+      <lg type="stanza" n="54" rhyme="aaba">
+        <l n="213" real="xxx+xxxx-+" met="-+-+-+-+-+">Waste not your Hour, nor in the vain pursuit</l>
+        <l n="214" real="xxxx-+-x-+" met="-+-+-+-+-+">Of This and That endeavor and dispute;</l>
+        <l n="215" real="+-xxxxx+-x" met="-+-+-+-+-+">Better be jocund with the fruitful Grape</l>
+        <l n="216" real="x+-xxxx+-x" met="-+-+-+-+-+">Than sadden after none, or bitter, Fruit.</l>
+      </lg>
+      <lg type="stanza" n="55" rhyme="aaba">
+        <l n="217" real="xxxxxxxx-+" met="-+-+-+-+-+">You know, my Friends, with what a brave Carouse</l>
+        <l n="218" real="xxx+-+-xxx" met="-+-+-+-+-+">I made a Second Marriage in my house;</l>
+        <l n="219" real="-+x+-+-xxx" met="-+-+-+-+-+">Divorced old barren Reason from my Bed,</l>
+        <l n="220" real="xxx+-xxxxx" met="-+-+-+-+-+">And took the Daughter of the Vine to Spouse.</l>
+      </lg>
+      <lg type="stanza" n="56" rhyme="aaba">
+        <l n="221" real="xxxxxxxxxx" met="-+-+-+-+-+">For &quot;Is&quot; and &quot;Is-not&quot; though with Rule and Line</l>
+        <l n="222" real="xxxxx+-x-+" met="-+-+-+-+-+">And &quot;UP-AND-DOWN&quot; by Logic I define,</l>
+        <l n="223" real="xxxxxxx+-x" met="-+-+-+-+-+">Of all that one should care to fathom, I</l>
+        <l n="224" real="x+-xx+-xxx" met="-+-+-+-+-+">was never deep in anything but--Wine.</l>
+      </lg>
+      <lg type="stanza" n="57" rhyme="aaba">
+        <l n="225" real="xxxx-+-+-x" met="-+-+-+-+-+">Ah, by my Computations, People say,</l>
+        <l n="226" real="-+xxx+-+-x" met="-+-+-+-+-+">Reduce the Year to better reckoning?--Nay,</l>
+        <l n="227" real="x+-+-xx+--" met="-+-+-+-+-+">&#x27;Twas only striking from the Calendar</l>
+        <l n="228" real="++x+-xx+-x" met="-+-+-+-+-+">Unborn To-morrow and dead Yesterday.</l>
+      </lg>
+      <lg type="stanza" n="58" rhyme="aaba">
+        <l n="229" real="x+-xx+-x-+" met="-+-+-+-+-+">And lately, by the Tavern Door agape,</l>
+        <l n="230" real="x+-xxxx+-x" met="-+-+-+-+-+">Came shining through the Dusk an Angel Shape</l>
+        <l n="231" real="+-x+-xx+-x" met="-+-+-+-+-+">Bearing a Vessel on his Shoulder; and</l>
+        <l n="232" real="xxxxxxxxxx" met="-+-+-+-+-+">He bid me taste of it; and &#x27;twas--the Grape!</l>
+      </lg>
+      <lg type="stanza" n="59" rhyme="aaba">
+        <l n="233" real="xxxxx+-+-x" met="-+-+-+-+-+">The Grape that can with Logic absolute</l>
+        <l n="234" real="xxx+-+-xxx" met="-+-+-+-+-+">The Two-and-Seventy jarring Sects confute:</l>
+        <l n="235" real="x+-+--xxxx" met="-+-+-+-+-+">The sovereign Alchemist that in a trice</l>
+        <l n="236" real="x+-+-xxxxx" met="-+-+-+-+-+">Life&#x27;s leaden metal into Gold transmute;</l>
+      </lg>
+      <lg type="stanza" n="60" rhyme="aaba">
+        <l n="237" real="x+-+-+-+-x" met="-+-+-+-+-+">The mighty Mahmud, Allah-breathing Lord,</l>
+        <l n="238" real="xxxxxxxxxx" met="-+-+-+-+-+">That all the misbelieving and black Horde</l>
+        <l n="239" real="xxx+-x-+xx" met="-+-+-+-+-+">Of Fears and Sorrows that infest the Soul</l>
+        <l n="240" real="xxxxxxx+xx" met="-+-+-+-+-+">Scatters before him with his whirlwind Sword.</l>
+      </lg>
+      <lg type="stanza" n="61" rhyme="aaba">
+        <l n="241" real="xxxxxxxxxx" met="-+-+-+-+-+">Why, be this Juice the growth of God, who dare</l>
+        <l n="242" real="xxx+-xxxxx" met="-+-+-+-+-+">Blaspheme the twisted tendril as a Snare?</l>
+        <l n="243" real="x+-xxxxxxx" met="-+-+-+-+-+">A Blessing, we should use it, should we not?</l>
+        <l n="244" real="xxxxxxxxxx" met="-+-+-+-+-+">And if a Curse--why, then, Who set it there?</l>
+      </lg>
+      <lg type="stanza" n="62" rhyme="aaba">
+        <l n="245" real="xxxxxxxxxx" met="-+-+-+-+-+">I must abjure the Balm of Life, I must,</l>
+        <l n="246" real="xxxxx+-xxx" met="-+-+-+-+-+">Scared by some After-reckoning ta&#x27;en on trust,</l>
+        <l n="247" real="xxxxxxxxxx" met="-+-+-+-+-+">Or lured with Hope of some Diviner Drink,</l>
+        <l n="248" real="xxxxx+-xxx" met="-+-+-+-+-+">To fill the Cup--when crumbled into Dust!</l>
+      </lg>
+      <lg type="stanza" n="63" rhyme="aaba">
+        <l n="249" real="xxxxxxx+-x" met="-+-+-+-+-+">Of threats of Hell and Hopes of Paradise!</l>
+        <l n="250" real="xxxxx+-xxx" met="-+-+-+-+-+">One thing at least is certain--This Life flies;</l>
+        <l n="251" real="xxx+-xxxxx" met="-+-+-+-+-+">One thing is certain and the rest is Lies;</l>
+        <l n="252" real="x+xxxxx+-x" met="-+-+-+-+-+">The Flower that once has blown for ever dies.</l>
+      </lg>
+      <lg type="stanza" n="64" rhyme="aaba">
+        <l n="253" real="xxxxxxxxxx" met="-+-+-+-+-+">Strange, is it not? that of the myriads who</l>
+        <l n="254" real="xxxxxxx+-x" met="-+-+-+-+-+">Before us pass&#x27;d the door of Darkness through,</l>
+        <l n="255" real="xx-+xxxxxx" met="-+-+-+-+-+">Not one returns to tell us of the Road,</l>
+        <l n="256" real="xx-+-xx+-x" met="-+-+-+-+-+">Which to discover we must travel too.</l>
+      </lg>
+      <lg type="stanza" n="65" rhyme="aaba">
+        <l n="257" real="xx-+-x-+xx" met="-+-+-+-+-+">The Revelations of Devout and Learn&#x27;d</l>
+        <l n="258" real="xxxxxxx+-x" met="-+-+-+-+-+">Who rose before us, and as Prophets burn&#x27;d,</l>
+        <l n="259" real="xxx+-x-+xx" met="-+-+-+-+-+">Are all but Stories, which, awoke from Sleep</l>
+        <l n="260" real="xxx+xxxx-+" met="-+-+-+-+-+">They told their comrades, and to Sleep return&#x27;d.</l>
+      </lg>
+      <lg type="stanza" n="66" rhyme="aaba">
+        <l n="261" real="xxxxxx-+--" met="-+-+-+-+-+">I sent my Soul through the Invisible,</l>
+        <l n="262" real="x+-xxxxxxx" met="-+-+-+-+-+">Some letter of that After-life to spell:</l>
+        <l n="263" real="xxxxxx-+xx" met="-+-+-+-+-+">And by and by my Soul return&#x27;d to me,</l>
+        <l n="264" real="x+-xx+xxxx" met="-+-+-+-+-+">And answer&#x27;d &quot;I Myself am Heav&#x27;n and Hell:&quot;</l>
+      </lg>
+      <lg type="stanza" n="67" rhyme="aaba">
+        <l n="265" real="xxx+-x-+-+-" met="-+-+-+-+-+-">Heav&#x27;n but the Vision of fulfill&#x27;d Desire,</l>
+        <l n="266" real="xxx+xxxxx+-" met="-+-+-+-+-+-">And Hell the Shadow from a Soul on fire,</l>
+        <l n="267" real="xxx+-xxx-+" met="-+-+-+-+-+">Cast on the Darkness into which Ourselves,</l>
+        <l n="268" real="xx-+xxxx-+" met="-+-+-+-+-+">So late emerged from, shall so soon expire.</l>
+      </lg>
+      <lg type="stanza" n="68" rhyme="aaba">
+        <l n="269" real="xxx+-xx+-x" met="-+-+-+-+-+">We are no other than a moving row</l>
+        <l n="270" real="x+-+xxxxxx" met="-+-+-+-+-+">Of Magic Shadow-shapes that come and go</l>
+        <l n="271" real="xxxx-+-+-x" met="-+-+-+-+-+">Round with the Sun-illumined Lantern held</l>
+        <l n="272" real="x+xxx+-xxx" met="-+-+-+-+-+">In Midnight by the Master of the Show;</l>
+      </lg>
+      <lg type="stanza" n="69" rhyme="aaba">
+        <l n="273" real="x+-+-xxxxx" met="-+-+-+-+-+">But helpless Pieces of the Game He plays</l>
+        <l n="274" real="xxxxxxxxxx" met="-+-+-+-+-+">Upon this Chequer-board of Nights and Days;</l>
+        <l n="275" real="+-xxxxxxxx" met="-+-+-+-+-+">Hither and thither moves, and checks, and slays,</l>
+        <l n="276" real="xxxxxxx+-x" met="-+-+-+-+-+">And one by one back in the Closet lays.</l>
+      </lg>
+      <lg type="stanza" n="70" rhyme="aaba">
+        <l n="277" real="xxx+-xxxxx" met="-+-+-+-+-+">The Ball no question makes of Ayes and Noes,</l>
+        <l n="278" real="xxxxxxx+-x" met="-+-+-+-+-+">But Here or There as strikes the Player goes;</l>
+        <l n="279" real="xxxxxxxxxx" met="-+-+-+-+-+">And He that toss&#x27;d you down into the Field,</l>
+        <l n="280" real="xxxxxxxxxx" met="-+-+-+-+-+">He knows about it all--HE knows--HE knows!</l>
+      </lg>
+      <lg type="stanza" n="71" rhyme="aaba">
+        <l n="281" real="x+-+-xx+-x" met="-+-+-+-+-+">The Moving Finger writes; and, having writ,</l>
+        <l n="282" real="xxxxx+--xx" met="-+-+-+-+-+">Moves on: nor all your Piety nor Wit</l>
+        <l n="283" real="xxxxx+-xxx" met="-+-+-+-+-+">Shall lure it back to cancel half a Line,</l>
+        <l n="284" real="xxxxxxxxxx" met="-+-+-+-+-+">Nor all your Tears wash out a Word of it.</l>
+      </lg>
+      <lg type="stanza" n="72" rhyme="aaba">
+        <l n="285" real="xx-+-xxxxx" met="-+-+-+-+-+">And that inverted Bowl they call the Sky,</l>
+        <l n="286" real="xxx+-xxxxx" met="-+-+-+-+-+">Whereunder crawling coop&#x27;d we live and die,</l>
+        <l n="287" real="xxxxxxxxxx" met="-+-+-+-+-+">Lift not your hands to It for help--for It</l>
+        <l n="288" real="xxxxxxxxxx" met="-+-+-+-+-+">As impotently moves as you or I.</l>
+      </lg>
+      <lg type="stanza" n="73" rhyme="aaba">
+        <l n="289" real="xxxxxxxxxx" met="-+-+-+-+-+">With Earth&#x27;s first Clay They did the Last Man knead,</l>
+        <l n="290" real="xxxxx+-xxx" met="-+-+-+-+-+">And there of the Last Harvest sow&#x27;d the Seed:</l>
+        <l n="291" real="xxx+-x-+-x" met="-+-+-+-+-+">And the first Morning of Creation wrote</l>
+        <l n="292" real="xxxxx+--xx" met="-+-+-+-+-+">What the Last Dawn of Reckoning shall read.</l>
+      </lg>
+      <lg type="stanza" n="74" rhyme="aaba">
+        <l n="293" real="+--xx+-x-+" met="-+-+-+-+-+">YESTERDAY This Day&#x27;s Madness did prepare;</l>
+        <l n="294" real="xxx+-+-x-+" met="-+-+-+-+-+">TO-MORROW&#x27;s Silence, Triumph, or Despair:</l>
+        <l n="295" real="xxxxxxxxxx" met="-+-+-+-+-+">Drink! for you not know whence you came, nor why:</l>
+        <l n="296" real="xxxxxxxxxx" met="-+-+-+-+-+">Drink! for you know not why you go, nor where.</l>
+      </lg>
+      <lg type="stanza" n="75" rhyme="aaba">
+        <l n="297" real="xxxxx+-xxx" met="-+-+-+-+-+">I tell you this--When, started from the Goal,</l>
+        <l n="298" real="xxx+-+-xxx" met="-+-+-+-+-+">Over the flaming shoulders of the Foal</l>
+        <l n="299" real="xxxxxxxxxx" met="-+-+-+-+-+">Of Heav&#x27;n Parwin and Mushtari they flung,</l>
+        <l n="300" real="xxx+-xxxxx" met="-+-+-+-+-+">In my predestined Plot of Dust and Soul.</l>
+      </lg>
+      <lg type="stanza" n="76" rhyme="aaba">
+        <l n="301" real="xxxxx+-xxx" met="-+-+-+-+-+">The Vine had struck a fiber: which about</l>
+        <l n="302" real="xxx+-xx+-x" met="-+-+-+-+-+">If clings my Being--let the Dervish flout;</l>
+        <l n="303" real="xxx+-xxxxx" met="-+-+-+-+-+">Of my Base metal may be filed a Key</l>
+        <l n="304" real="xx-+xxxxxx" met="-+-+-+-+-+">That shall unlock the Door he howls without.</l>
+      </lg>
+      <lg type="stanza" n="77" rhyme="aaba">
+        <l n="305" real="xxxxxxxxxx" met="-+-+-+-+-+">And this I know: whether the one True Light</l>
+        <l n="306" real="+-xxxx-+xx" met="-+-+-+-+-+">Kindle to Love, or Wrath consume me quite,</l>
+        <l n="307" real="xxxxxxx+-x" met="-+-+-+-+-+">One Flash of It within the Tavern caught</l>
+        <l n="308" real="+-xxx+-x++" met="-+-+-+-+-+">Better than in the Temple lost outright.</l>
+      </lg>
+      <lg type="stanza" n="78" rhyme="aaba">
+        <l n="309" real="xxx+-+-x-+" met="-+-+-+-+-+">What! out of senseless Nothing to provoke</l>
+        <l n="310" real="x+-+-x-+xx" met="-+-+-+-+-+">A conscious Something to resent the yoke</l>
+        <l n="311" real="xxxxx+-xxx" met="-+-+-+-+-+">Of unpermitted Pleasure, under pain</l>
+        <l n="312" real="xx-+-+--xx" met="-+-+-+-+-+">Of Everlasting Penalties, if broke!</l>
+      </lg>
+      <lg type="stanza" n="79" rhyme="aaba">
+        <l n="313" real="xxx+-+-x-+" met="-+-+-+-+-+">What! from his helpless Creature be repaid</l>
+        <l n="314" real="xxxxxxxx-+" met="-+-+-+-+-+">Pure Gold for what he lent him dross-allay&#x27;d--</l>
+        <l n="315" real="xxxxx+-x-+" met="-+-+-+-+-+">Sue for a Debt he never did contract,</l>
+        <l n="316" real="x+-+-xx+-x" met="-+-+-+-+-+">And cannot answer--Oh the sorry trade!</l>
+      </lg>
+      <lg type="stanza" n="80" rhyme="aaba">
+        <l n="317" real="xxxxx+xxxx" met="-+-+-+-+-+">Oh Thou, who didst with pitfall and with gin</l>
+        <l n="318" real="-+xxxxx+-x" met="-+-+-+-+-+">Beset the Road I was to wander in,</l>
+        <l n="319" real="xxxxx+-+-x" met="-+-+-+-+-+">Thou wilt not with Predestined Evil round</l>
+        <l n="320" real="-+xx-+xxxx" met="-+-+-+-+-+">Enmesh, and then impute my Fall to Sin!</l>
+      </lg>
+      <lg type="stanza" n="81" rhyme="aaba">
+        <l n="321" real="xxxxx+-xxx" met="-+-+-+-+-+">Oh Thou, who Man of baser Earth didst make,</l>
+        <l n="322" real="xxx+-x-+xx" met="-+-+-+-+-+">And ev&#x27;n with Paradise devise the Snake:</l>
+        <l n="323" real="xxxxxxxxxxx" met="-+-+-+-+-+-">For all the Sin wherewith the Face of Man</l>
+        <l n="324" real="x+-x-+-xxx" met="-+-+-+-+-+">Is blacken&#x27;d--Man&#x27;s forgiveness give--and take!</l>
+      </lg>
+      <lg type="stanza" n="82" rhyme="aaba">
+        <l n="325" real="xxx+-x-+-x" met="-+-+-+-+-+">As under cover of departing Day</l>
+        <l n="326" real="x+-+-xxx-+" met="-+-+-+-+-+">Slunk hunger-stricken Ramazan away,</l>
+        <l n="327" real="xxxxx+-x-+" met="-+-+-+-+-+">Once more within the Potter&#x27;s house alone</l>
+        <l n="328" real="xx-+-xxxxx" met="-+-+-+-+-+">I stood, surrounded by the Shapes of Clay.</l>
+      </lg>
+      <lg type="stanza" n="83" rhyme="aaba">
+        <l n="329" real="xxxxx+-xxx" met="-+-+-+-+-+">Shapes of all Sorts and Sizes, great and small,</l>
+        <l n="330" real="xx-+xxxxxx" met="-+-+-+-+-+">That stood along the floor and by the wall;</l>
+        <l n="331" real="xx-+-+-xxx" met="-+-+-+-+-+">And some loquacious Vessels were; and some</l>
+        <l n="332" real="+--+x+-xxx" met="-+-+-+-+-+">Listen&#x27;d perhaps, but never talk&#x27;d at all.</l>
+      </lg>
+      <lg type="stanza" n="84" rhyme="aaba">
+        <l n="333" real="xxxxx+-xxx" met="-+-+-+-+-+">Said one among them--&quot;Surely not in vain</l>
+        <l n="334" real="x+-xx+-xxx" met="-+-+-+-+-+">My substance of the common Earth was ta&#x27;en</l>
+        <l n="335" real="xxx+-+-xxx" met="-+-+-+-+-+">And to this Figure molded, to be broke,</l>
+        <l n="336" real="x+-xx+-x-+" met="-+-+-+-+-+">Or trampled back to shapeless Earth again.&quot;</l>
+      </lg>
+      <lg type="stanza" n="85" rhyme="aaba">
+        <l n="337" real="xxx+-xx+-x" met="-+-+-+-+-+">Then said a Second--&quot;Ne&#x27;er a peevish Boy</l>
+        <l n="338" real="xxxxxxxxxx" met="-+-+-+-+-+">Would break the Bowl from which he drank in joy;</l>
+        <l n="339" real="xxxxxxx+-x" met="-+-+-+-+-+">And He that with his hand the Vessel made</l>
+        <l n="340" real="x+-xxxxx-+" met="-+-+-+-+-+">Will surely not in after Wrath destroy.&quot;</l>
+      </lg>
+      <lg type="stanza" n="86" rhyme="aaba">
+        <l n="341" real="xxx+-x-+-x" met="-+-+-+-+-+">After a momentary silence spake</l>
+        <l n="342" real="x+-xxx-+-x" met="-+-+-+-+-+">Some Vessel of a more ungainly Make;</l>
+        <l n="343" real="xxxxx+-x-+" met="-+-+-+-+-+">&quot;They sneer at me for leaning all awry:</l>
+        <l n="344" real="xxxxxxx+-x" met="-+-+-+-+-+">What! did the Hand then of the Potter shake?&quot;</l>
+      </lg>
+      <lg type="stanza" n="87" rhyme="aaba">
+        <l n="345" real="xxxxxx-+-x" met="-+-+-+-+-+">Whereat some one of the loquacious Lot--</l>
+        <l n="346" real="xxxxx+-+-x" met="-+-+-+-+-+">I think a Sufi pipkin--waxing hot--</l>
+        <l n="347" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;All this of Pot and Potter--Tell me then,</l>
+        <l n="348" real="xxx+-xxxxx" met="-+-+-+-+-+">Who is the Potter, pray, and who the Pot?&quot;</l>
+      </lg>
+      <lg type="stanza" n="88" rhyme="aaba">
+        <l n="349" real="xx-+-xxxxx" met="-+-+-+-+-+">&quot;Why,&quot; said another, &quot;Some there are who tell</l>
+        <l n="350" real="xxx+-xxxxx" met="-+-+-+-+-+">Of one who threatens he will toss to Hell</l>
+        <l n="351" real="x+-xxxx+-x" met="-+-+-+-+-+">The luckless Pots he marr&#x27;d in making--Pish!</l>
+        <l n="352" real="xxx+-xxxxx" met="-+-+-+-+-+">He&#x27;s a Good Fellow, and &#x27;twill all be well.&quot;</l>
+      </lg>
+      <lg type="stanza" n="89" rhyme="aaba">
+        <l n="353" real="x+-xxxxxxx" met="-+-+-+-+-+">&quot;Well,&quot; murmured one, &quot;Let whoso make or buy,</l>
+        <l n="354" real="xxxx-+-xxx" met="-+-+-+-+-+">My Clay with long Oblivion is gone dry:</l>
+        <l n="355" real="xxxxxx-+-x" met="-+-+-+-+-+">But fill me with the old familiar Juice,</l>
+        <l n="356" real="xxxx-+-xxx" met="-+-+-+-+-+">Methinks I might recover by and by.&quot;</l>
+      </lg>
+      <lg type="stanza" n="90" rhyme="aaba">
+        <l n="357" real="xxx+-xxxx+-" met="-+-+-+-+-+-">So while the Vessels one by one were speaking,</l>
+        <l n="358" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The little Moon look&#x27;d in that all were seeking:</l>
+        <l n="359" real="xxxxx+-+-+-" met="-+-+-+-+-+-">And then they jogg&#x27;d each other, &quot;Brother! Brother!</l>
+        <l n="360" real="xxx+-+-xx+-" met="-+-+-+-+-+-">Now for the Porter&#x27;s shoulders&#x27; knot a-creaking!&quot;</l>
+      </lg>
+      <lg type="stanza" n="91" rhyme="aaba">
+        <l n="361" real="xxxxx+-x-+" met="-+-+-+-+-+">Ah, with the Grape my fading life provide,</l>
+        <l n="362" real="xxx+-xxxxx" met="-+-+-+-+-+">And wash the Body whence the Life has died,</l>
+        <l n="363" real="xxx+-xx+-x" met="-+-+-+-+-+">And lay me, shrouded in the living Leaf,</l>
+        <l n="364" real="xxxxxxx+-x" met="-+-+-+-+-+">By some not unfrequented Garden-side.</l>
+      </lg>
+      <lg type="stanza" n="92" rhyme="aaba">
+        <l n="365" real="xx+-+-xxx" met="+-+-+-+-+">That ev&#x27;n buried Ashes such a snare</l>
+        <l n="366" real="x+-xxxxxxx" met="-+-+-+-+-+">Of Vintage shall fling up into the Air</l>
+        <l n="367" real="xxxx-+-+-x" met="-+-+-+-+-+">As not a True-believer passing by</l>
+        <l n="368" real="xxx+-x-x-+" met="-+-+-+-+-+">But shall be overtaken unaware.</l>
+      </lg>
+      <lg type="stanza" n="93" rhyme="aaba">
+        <l n="369" real="-+x+-xxxxx" met="-+-+-+-+-+">Indeed the Idols I have loved so long</l>
+        <l n="370" real="xxx+-xxxxx" met="-+-+-+-+-+">Have done my credit in this World much wrong:</l>
+        <l n="371" real="xxx+-xx+-x" met="-+-+-+-+-+">Have drown&#x27;d my Glory in a shallow Cup,</l>
+        <l n="372" real="xxxx-+-xxx" met="-+-+-+-+-+">And sold my reputation for a Song.</l>
+      </lg>
+      <lg type="stanza" n="94" rhyme="aaba">
+        <l n="373" real="-+-+-+-xxx" met="-+-+-+-+-+">Indeed, indeed, Repentance oft before</l>
+        <l n="374" real="xxxxx+-xxx" met="-+-+-+-+-+">I swore--but was I sober when I swore?</l>
+        <l n="375" real="xxxxxxxxxx" met="-+-+-+-+-+">And then and then came Spring, and Rose-in-hand</l>
+        <l n="376" real="xxxxxxxxxx" met="-+-+-+-+-+">My thread-bare Penitence apieces tore.</l>
+      </lg>
+      <lg type="stanza" n="95" rhyme="aaba">
+        <l n="377" real="xxxxxxx+-x" met="-+-+-+-+-+">And much as Wine has play&#x27;d the Infidel,</l>
+        <l n="378" real="xxxxxxx+-x" met="-+-+-+-+-+">And robb&#x27;d me of my Robe of Honor--Well,</l>
+        <l n="379" real="x+-+-xx+-x" met="-+-+-+-+-+">I wonder often what the Vintners buy</l>
+        <l n="380" real="xxx+-xxxxx" met="-+-+-+-+-+">One half so precious as the stuff they sell.</l>
+      </lg>
+      <lg type="stanza" n="96" rhyme="aaba">
+        <l n="381" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet Ah, that Spring should vanish with the Rose!</l>
+        <l n="382" real="xxx+-+-xxx" met="-+-+-+-+-+">That Youth&#x27;s sweet-scented manuscript should close!</l>
+        <l n="383" real="x+--xxx+-x" met="-+-+-+-+-+">The Nightingale that in the branches sang,</l>
+        <l n="384" real="xxx+-x-+xx" met="-+-+-+-+-+">Ah whence, and whither flown again, who knows!</l>
+      </lg>
+      <lg type="stanza" n="97" rhyme="aaba">
+        <l n="385" real="xxx+-xx+-x" met="-+-+-+-+-+">Would but the Desert of the Fountain yield</l>
+        <l n="386" real="xxx+-x-+-+" met="-+-+-+-+-+">One glimpse--if dimly, yet indeed, reveal&#x27;d,</l>
+        <l n="387" real="xxx+-+--xx" met="-+-+-+-+-+">To which the fainting Traveler might spring,</l>
+        <l n="388" real="xxx+-xxxxx" met="-+-+-+-+-+">As springs the trampled herbage of the field!</l>
+      </lg>
+      <lg type="stanza" n="98" rhyme="aaba">
+        <l n="389" real="xxxx-+-xxx" met="-+-+-+-+-+">Would but some winged Angel ere too late</l>
+        <l n="390" real="-+xx-+-xxx" met="-+-+-+-+-+">Arrest the yet unfolded Roll of Fate,</l>
+        <l n="391" real="xxxx-+-+-x" met="-+-+-+-+-+">And make the stern Recorder otherwise</l>
+        <l n="392" real="xxxxxx-+-x" met="-+-+-+-+-+">Enregister, or quite obliterate!</l>
+      </lg>
+      <lg type="stanza" n="99" rhyme="aaba">
+        <l n="393" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Ah Love! could you and I with Him conspire</l>
+        <l n="394" real="xxx+-xxx-+-" met="-+-+-+-+-+-">To grasp this sorry Scheme of Things entire,</l>
+        <l n="395" real="xxx+-xxxxx" met="-+-+-+-+-+">Would not we shatter it to bits--and then</l>
+        <l n="396" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Re-mold it nearer to the Heart&#x27;s Desire!</l>
+      </lg>
+      <lg type="stanza" n="100" rhyme="aaba">
+        <l n="397" real="x+-xxxxx-+" met="-+-+-+-+-+">Yon rising Moon that looks for us again--</l>
+        <l n="398" real="xx-+-xxxxx" met="-+-+-+-+-+">How oft hereafter will she wax and wane;</l>
+        <l n="399" real="xx-+-+-xxx" met="-+-+-+-+-+">How oft hereafter rising look for us</l>
+        <l n="400" real="xxx+-xxxxx" met="-+-+-+-+-+">Through this same Garden--and for one in vain!</l>
+      </lg>
+      <lg type="stanza" n="101" rhyme="aaba">
+        <l n="401" real="xxxxx+-xxx" met="-+-+-+-+-+">And when like her, oh Saki, you shall pass</l>
+        <l n="402" real="xxxxx+-xxx" met="-+-+-+-+-+">Among the Guests Star-scatter&#x27;d on the Grass,</l>
+        <l n="403" real="xxx+-+-xxx" met="-+-+-+-+-+">And in your joyous errand reach the spot</l>
+        <l n="404" real="xxxxxxx+-x" met="-+-+-+-+-+">Where I made One--turn down an empty Glass!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

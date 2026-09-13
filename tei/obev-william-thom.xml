@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Blind Boy’s Pranks</title><author>William Thom</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-blind-boys-pranks" n="L16199">
+      <head>The Blind Boy’s Pranks</head>
+      <idno type="URN">urn:laurel:eng:thom.obev-william-thom.pg66619:the-blind-boys-pranks</idno><idno type="laurel-id">L16199</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-abba">
+        <l n="1" real="xxxxxx-+" met="--+-+-+-">Men grew sae cauld, maids sae unkind,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Love kentna whaur to stay:</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">Wi’ fient an arrow, bow, or string--</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">Wi’ droopin’ heart an’ drizzled wing,</l>
+        <l n="5" real="xxx+-x" met="-+-+-+">He faught his lonely way.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a--a">
+        <l n="6" real="xxxxxxxx" met="--+-+-+-">‘Is there nae mair in Garioch fair</l>
+        <l n="7" real="x+-xxx" met="-+-+-+">Ae spotless hame for me?</l>
+        <l n="8" real="x+-xxxxx" met="--+-+-+-">Hae politics an’ corn an’ kye</l>
+        <l n="9" real="x+-xxxxx" met="--+-+-+-">Ilk bosom stappit? Fie, O fie!</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">I’ll swithe me o’er the sea.’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="--aa-">
+        <l n="11" real="xxxxx+--" met="--+-+-+-">He launch’d a leaf o’ jessamine,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">On whilk he daur’d to swim,</l>
+        <l n="13" real="xxxxxxxx+-" met="--+-+-+-+-">An’ pillow’d his head on a wee rosebud,</l>
+        <l n="14" real="xxxxxxxxx" met="-+-+-+-+-">Syne laithfu’, lanely, Love ’gan scud</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">Down Ury’s waefu’ stream.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-abba">
+        <l n="16" real="xxx+-xxxx" met="-+-+-+-+-">The birds sang bonnie as Love drew near,</l>
+        <l n="17" real="x+-xxxx" met="-+-+-+-">But dowie when he gaed by;</l>
+        <l n="18" real="xxxxxxxxxx" met="--+-+-+-+-">Till lull’d wi’ the sough o’ monie a sang,</l>
+        <l n="19" real="xxxxxxxxx" met="-+-+-+-+-">He sleepit fu’ soun’ and sail’d alang</l>
+        <l n="20" real="x+-xxx" met="-+-+-+">’Neath Heaven’s gowden sky.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-bba">
+        <l n="21" real="xxx+-+-x" met="--+-+-+-">’Twas just whaur creeping Ury greets</l>
+        <l n="22" real="x+-+-x" met="-+-+-+">Its mountain cousin Don,</l>
+        <l n="23" real="x+-xxxxx" met="--+-+-+-">There wander’d forth a weelfaur’d dame,</l>
+        <l n="24" real="x+-xxx+-x" met="-+-+-+-+-">Wha listless gazed on the bonnie stream,</l>
+        <l n="25" real="xx+-xxxx+-x" met="-+-+-+-+-+-">As it flirted an’ play’d with a sunny beam</l>
+        <l n="26" real="x+-x+-xx" met="--+-+-+-">That flicker’d its bosom upon.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-abba">
+        <l n="27" real="xxxxxxxxx" met="-+-+-+-+-">Love happit his head, I trow, that time</l>
+        <l n="28" real="x+--xxx" met="-+-+-+-">The jessamine bark drew nigh,</l>
+        <l n="29" real="x+-xxx+-" met="--+-+-+-">The lassie espied the wee rosebud,</l>
+        <l n="30" real="xxxxxxxx" met="--+-+-+-">An’ aye her heart gae thud for thud,</l>
+        <l n="31" real="x+-xxxx" met="-+-+-+-">An’ quiet it wadna lie.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-abba">
+        <l n="32" real="xxxxxxxxx+-" met="-+-+-+-+-+-">‘O gin I but had yon wearie wee flower</l>
+        <l n="33" real="xxxx+-xx" met="--+-+-+-">That floats on the Ury sae fair!’--</l>
+        <l n="34" real="xxxxxxx+-xx" met="-+-+-+-+-+-">She lootit her hand for the silly rose-leaf,</l>
+        <l n="35" real="x+-xxxxxxx" met="--+-+-+-+-">But little wist she o’ the pawkie thief</l>
+        <l n="36" real="xxxxxxxx" met="--+-+-+-">That was lurkin’ an’ laughin’ there!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abaab">
+        <l n="37" real="x+-xxxx+-xx" met="-+-+-+-+-+-">Love glower’d when he saw her bonnie dark e’e,</l>
+        <l n="38" real="xxx+-x" met="-+-+-+">An’ swore by Heaven’s grace</l>
+        <l n="39" real="xxxxxxxx" met="--+-+-+-">He ne’er had seen nor thought to see,</l>
+        <l n="40" real="xxxxxxxx" met="--+-+-+-">Since e’er he left the Paphian lea,</l>
+        <l n="41" real="x+-xxxx" met="-+-+-+-">Sae lovely a dwallin’-place.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abaab">
+        <l n="42" real="xxxxxxxxxx" met="--+-+-+-+-">Syne first of a’ in her blythesome breast</l>
+        <l n="43" real="xxx+-xx" met="-+-+-+-">He built a bower, I ween;</l>
+        <l n="44" real="xxxxxxxxxx" met="--+-+-+-+-">An’ what did the waefu’ devilick neist?</l>
+        <l n="45" real="x+-xxxx+-x" met="--+-+-+-+-">But kindled a gleam like the rosy east,</l>
+        <l n="46" real="x+-xxxx" met="-+-+-+-">That sparkled frae baith her e’en.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a--a">
+        <l n="47" real="xxxxxxxx" met="--+-+-+-">An’ then beneath ilk high e’e-bree</l>
+        <l n="48" real="xxx+-x" met="-+-+-+">He placed a quiver there;</l>
+        <l n="49" real="xxxxxxxx" met="--+-+-+-">His bow? What but her shinin’ brow?</l>
+        <l n="50" real="xxx+-xxx" met="--+-+-+-">An’ O sic deadly strings he drew</l>
+        <l n="51" real="xxx+-x" met="-+-+-+">Frae out her silken hair!</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abaab">
+        <l n="52" real="xx+-xxxxx" met="-+-+-+-+-">Guid be our guard! Sic deeds waur deen</l>
+        <l n="53" real="xx+-xxx" met="-+-+-+-">Roun’ a’ our countrie then;</l>
+        <l n="54" real="xxxx+-xxx" met="-+-+-+-+-">An’ monie a hangin’ lug was seen</l>
+        <l n="55" real="x+-xx+-x" met="--+-+-+-">’Mang farmers fat, an’ lawyers lean,</l>
+        <l n="56" real="xxx+-x" met="-+-+-+">An’ herds o’ common men!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Peacock Pie</title><author>Walter de la Mare</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Peacock Pie, a Book of Rhymes. Project Gutenberg ebook #3753. <ref target="https://www.gutenberg.org/ebooks/3753">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-horseman" n="L12558">
+      <head>The Horseman</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-horseman</idno><idno type="laurel-id">L12558</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a----">
+        <l n="1" real="xxx+-" met="-+-+-">I heard a horseman</l>
+        <l n="2" real="xxxxx" met="-+-+-">Ride over the hill;</l>
+        <l n="3" real="xxxx" met="-+-+">The moon shone clear,</l>
+        <l n="4" real="xxxx" met="-+-+">The night was still;</l>
+        <l n="5" real="xxx+-" met="-+-+-">His helm was silver,</l>
+        <l n="6" real="xxxx" met="-+-+">And pale was he;</l>
+        <l n="7" real="xxxxx" met="-+-+-">And the horse he rode</l>
+        <l n="8" real="xx+--" met="-+-+-">Was of ivory.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="up-and-down" n="L12559">
+      <head>Up and Down</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:up-and-down</idno><idno type="laurel-id">L12559</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ab-b-bab">
+        <l n="1" real="xxxxxx" met="-+-+-+">Down the Hill of Ludgate,</l>
+        <l n="2" real="xxxxx" met="+-+-+">Up the Hill of Fleet,</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">To and fro and East and West</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">With people flows the street;</l>
+        <l n="5" real="+-xxx+-" met="-+-+-+-">Even the King of England</l>
+        <l n="6" real="x+-xxx" met="-+-+-+">On Temple Bar must beat</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">For leave to ride to Ludgate</l>
+        <l n="8" real="xxxxx" met="+-+-+">Down the Hill of Fleet.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aba-b-b-c-c">
+        <l n="9" real="+-xx+-x" met="-+-+-+-">Mrs. Earth makes silver black,</l>
+        <l n="10" real="+-xx+x" met="-+-+-+">Mrs. Earth makes iron red</l>
+        <l n="11" real="x+-xxxxx" met="--+-+-+-">But Mrs. Earth can not stain gold,</l>
+        <l n="12" real="x+-x" met="--+-">Nor ruby red.</l>
+        <l n="13" real="+-xxxxxx" met="--+-+-+-">Mrs. earth the slenderest bone</l>
+        <l n="14" real="xxxx+-x" met="-+-+-+-">Whitens in her bosom cold,</l>
+        <l n="15" real="x+-xxxxx" met="--+-+-+-">But Mrs. Earth can change my dreams</l>
+        <l n="16" real="xxx+-xx" met="-+-+-+-">No more than ruby or gold.</l>
+        <l n="17" real="+-xx+-x" met="-+-+-+-">Mrs. Earth and Mr. Sun</l>
+        <l n="18" real="xxxxx+xx" met="--+-+-+-">Can tan my skin, and tire my toes,</l>
+        <l n="19" real="xxxx+-x+xx" met="--+-+-+-+-">But all that I&#x27;m thinking of, ever shall think,</l>
+        <l n="20" real="x+-x" met="--+-">Why, either knows.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="alas-alack" n="L12560">
+      <head>Alas, Alack!</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:alas-alack</idno><idno type="laurel-id">L12560</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-a-b-b-c-c">
+        <l n="1" real="xx" met="-+">Ann, Ann!</l>
+        <l n="2" real="xxxxx" met="-+-+-">Come! Quick as you can!</l>
+        <l n="3" real="xxxxx" met="-+-+-">There&#x27;s a fish that talks</l>
+        <l n="4" real="xx+-x" met="-+-+-">In the frying-pan.</l>
+        <l n="5" real="xxxx" met="-+-+">Out of the fat,</l>
+        <l n="6" real="xxxx" met="-+-+">As clear as glass,</l>
+        <l n="7" real="xxxxx" met="-+-+-">He put up his mouth</l>
+        <l n="8" real="xx--+" met="-+-+-">And moaned &#x27;Alas!&#x27;</l>
+        <l n="9" real="xx+-" met="-+-+">Oh, most mournful,</l>
+        <l n="10" real="-+xx" met="-+-+">&#x27;Alas, alack!&#x27;</l>
+        <l n="11" real="xxxx+--" met="-+-+-+-">Then turned to his sizzling,</l>
+        <l n="12" real="xxxx" met="-+-+">And sank him back.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tired-tim" n="L12561">
+      <head>Tired Tim</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:tired-tim</idno><idno type="laurel-id">L12561</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abbccdda">
+        <l n="1" real="x+xxxxx" met="--+--+-">Poor Tired Tim!  It&#x27;s sad for him.</l>
+        <l n="2" real="xxxxx+-x" met="-+--+--+">He lags the long bright morning through,</l>
+        <l n="3" real="+x+x+-xx" met="-+--+--+">Ever so tired of nothing to do;</l>
+        <l n="4" real="xxxxxxxxx" met="+-+--+--+">He moons and mopes the livelong day,</l>
+        <l n="5" real="+-xxxx+-xx" met="+--+--+--+">Nothing to think about, nothing to say;</l>
+        <l n="6" real="xxxxx+-xx" met="+-+--+--+">Up to bed with his candle to creep,</l>
+        <l n="7" real="x+xxx+xx" met="-+--+--+">Too tired to yawn, too tired to sleep:</l>
+        <l n="8" real="x+xxxxx" met="--+--+-">Poor Tired Tim!  It&#x27;s sad for him.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mima" n="L12562">
+      <head>Mima</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:mima</idno><idno type="laurel-id">L12562</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="-+-xxx" met="-+-+-+">Jemima is my name,</l>
+        <l n="2" real="xxxx-+-" met="-+-+-+-">But oh, I have another;</l>
+        <l n="3" real="x+-+xxxx" met="--+-+-+-">My father always calls me Meg,</l>
+        <l n="4" real="xxxxx+-" met="-+-+-+-">And so do Bob and mother;</l>
+        <l n="5" real="+-x+-+-x" met="--+-+-+-">Only my sister, jealous of</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">The strands of my bright hair,</l>
+        <l n="7" real="-+-xxxx" met="-+-+-+-">&#x27;Jemima - Mima - Mima!&#x27;</l>
+        <l n="8" real="x+-xxx" met="-+-+-+">Calls, mocking, up the stair.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-huntsmen" n="L12563">
+      <head>The Huntsmen</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-huntsmen</idno><idno type="laurel-id">L12563</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-+--" met="--+-+-">Three jolly gentlemen,</l>
+        <l n="2" real="xxxx" met="-+-+">In coats of red,</l>
+        <l n="3" real="xx+-" met="-+-+">Rode their horses</l>
+        <l n="4" real="xxx" met="+-+">Up to bed.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-+--" met="--+-+-">Three jolly gentlemen</l>
+        <l n="6" real="xxx" met="+-+">Snored till morn,</l>
+        <l n="7" real="x+-xx" met="-+-+-">Their horses champing</l>
+        <l n="8" real="x+-x" met="-+-+">The golden corn.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-+--" met="--+-+-">Three jolly gentlemen,</l>
+        <l n="10" real="xxxx" met="-+-+">At break of day,</l>
+        <l n="11" real="xxx+-xxx" met="--+-+-+-">Came clitter-clatter down the stairs</l>
+        <l n="12" real="x+---+" met="--+-+-">And galloped away.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-bandog" n="L12564">
+      <head>The Bandog</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-bandog</idno><idno type="laurel-id">L12564</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ab-b-cac">
+        <l n="1" real="x+-xxxx" met="-+-+-+-">Has anybody seen my Mopser? --</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">A comely dog is he,</l>
+        <l n="3" real="xxxx+-xxxxx" met="-+-+-+-+-+-">With hair of the colour of a Charles the Fifth,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">And teeth like ships at sea,</l>
+        <l n="5" real="xxxxx+-" met="-+-+-+-">His tail it curls straight upwards,</l>
+        <l n="6" real="xxxx-+" met="-+-+-+">His ears stand two abreast,</l>
+        <l n="7" real="xx+-xx+-xxxx" met="--+-+-+-+-+-">And he answers to the simple name of Mopser</l>
+        <l n="8" real="x+---+" met="-+-+-+">When civilly addressed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="i-can-t-abear" n="L12565">
+      <head>I Can&#x27;t Abear</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:i-can-t-abear</idno><idno type="laurel-id">L12565</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="xxxxx+-" met="+-+-+-+">I can&#x27;t abear a Butcher,</l>
+        <l n="2" real="xx-+xx" met="--+-+-">I can&#x27;t abide his meat,</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">The ugliest shop of all is his,</l>
+        <l n="4" real="x+-xxx" met="--+-+-">The ugliest in the street;</l>
+        <l n="5" real="+-xx+-x" met="+-+-+-+">Bakers&#x27; are warm, cobblers&#x27; dark,</l>
+        <l n="6" real="+-x+-x" met="--+-+-">Chemists&#x27; burn watery lights;</l>
+        <l n="7" real="xxx+x+-x" met="-+-+-+-+">But oh, the sawdust butcher&#x27;s shop,</l>
+        <l n="8" real="x+--xx" met="--+-+-">That ugliest of sights!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-dunce" n="L12566">
+      <head>The Dunce</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-dunce</idno><idno type="laurel-id">L12566</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">Why does he still keep ticking?</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Why does his round white face</l>
+        <l n="3" real="xxxxxxxx" met="--+-+-+-">Stare at me over the books and ink,</l>
+        <l n="4" real="xxxx-+" met="-+-+-+">And mock at my disgrace?</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">Why does that thrush call, &#x27;Dunce, dunce, dunce!&#x27;?</l>
+        <l n="6" real="xxx+x-x" met="-+-+-+-">Why does that bluebottle buzz?</l>
+        <l n="7" real="xxxxx+-x" met="--+-+-+-">Why does the sun so silent shine? --</l>
+        <l n="8" real="xxxxxxxx" met="--+-+-+-">And what do I care if it does?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="chicken" n="L12567">
+      <head>Chicken</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:chicken</idno><idno type="laurel-id">L12567</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="+-x+-xxx" met="--+-+-+-">Clapping her platter stood plump Bess,</l>
+        <l n="2" real="xx-+xx" met="-+-+-+">And all across the green</l>
+        <l n="3" real="x+-xxxxx" met="--+-+-+-">Came scampering in, on wing and claw,</l>
+        <l n="4" real="+-xxx" met="+-+-+">Chicken fat and lean:</l>
+        <l n="5" real="xx+-+-+-" met="--+-+-+-">Dorking, Spaniard, Cochin China,</l>
+        <l n="6" real="+-xxx" met="+-+-+">Bantams sleek and small,</l>
+        <l n="7" real="x+-xxxxx" met="--+-+-+-">Like feathers blown in a great wind,</l>
+        <l n="8" real="xxxxx" met="+-+-+">They came at Bessie&#x27;s call.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="some-one" n="L12568">
+      <head>Some One</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:some-one</idno><idno type="laurel-id">L12568</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-a--b-bcc-c-cac">
+        <l n="1" real="xxx+-" met="-+-+-">Some one came knocking</l>
+        <l n="2" real="xxxxx" met="-+-+-">At my wee, small door;</l>
+        <l n="3" real="xxx+-" met="-+-+-">Some one came knocking,</l>
+        <l n="4" real="xxxx" met="-+-+">I&#x27;m sure - sure - sure;</l>
+        <l n="5" real="x+-x+-" met="--+-+-">I listened, I opened,</l>
+        <l n="6" real="xxxxxx" met="--+-+-">I looked to left and right,</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">But naught there was a-stirring</l>
+        <l n="8" real="xxxxx" met="-+-+-">In the still dark night;</l>
+        <l n="9" real="+-x+-+-" met="-+-+-+-">Only the busy beetle</l>
+        <l n="10" real="x+-xxx" met="--+-+-">Tap-tapping in the wall,</l>
+        <l n="11" real="+-xx+-" met="--+-+-">Only from the forest</l>
+        <l n="12" real="xxxx" met="-+-+">The screech-owl&#x27;s call,</l>
+        <l n="13" real="+-x+-+-" met="-+-+-+-">Only the cricket whistling</l>
+        <l n="14" real="xxxxx" met="-+-+-">While the dewdrops fall,</l>
+        <l n="15" real="xxxxxx+-" met="--+-+-+-">So I know not who came knocking,</l>
+        <l n="16" real="xxxxxx" met="--+-+-">At all, at all, at all.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="bread-and-cherries" n="L12569">
+      <head>Bread and Cherries</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:bread-and-cherries</idno><idno type="laurel-id">L12569</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="ab-b-cac">
+        <l n="1" real="+-x+-" met="-+-+-">&#x27;Cherries, ripe cherries!&#x27;</l>
+        <l n="2" real="xx+-x" met="-+-+-">The old woman cried,</l>
+        <l n="3" real="xx+-x+-" met="-+-+-+-">In her snowy white apron,</l>
+        <l n="4" real="x+-x+" met="-+-+-">And basket beside;</l>
+        <l n="5" real="xx+-xx" met="--+-+-">And the little boys came,</l>
+        <l n="6" real="x+-xx" met="-+-+-">Eyes shining, cheeks red,</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">To buy a bag of cherries,</l>
+        <l n="8" real="xxxxx" met="-+-+-">To eat with their bread.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="old-shellover" n="L12570">
+      <head>Old Shellover</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:old-shellover</idno><idno type="laurel-id">L12570</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abb----bab">
+        <l n="1" real="xxxxxx" met="--+-+-">&#x27;Come!&#x27; said Old Shellover.</l>
+        <l n="2" real="xxx" met="+-+">&#x27;What?&#x27; says Creep.</l>
+        <l n="3" real="x+-x+-x-+" met="-+-+-+-+-">&#x27;The horny old Gardener&#x27;s fast asleep;</l>
+        <l n="4" real="xxxx" met="-+-+">The fat cock Thrush</l>
+        <l n="5" real="xxxxx" met="-+-+-">To his nest has gone;</l>
+        <l n="6" real="xxxxx" met="-+-+-">And the dew shines bright</l>
+        <l n="7" real="xx+-x" met="-+-+-">In the rising Moon;</l>
+        <l n="8" real="x+-xxxxxx" met="-+-+-+-+-">Old Sallie Worm from her hole doth peep:</l>
+        <l n="9" real="xxxxxx" met="--+-+-">Come!&#x27; said Old Shellover.</l>
+        <l n="10" real="xxx" met="+-+">&#x27;Aye!&#x27; said Creep.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hapless" n="L12571">
+      <head>Hapless</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:hapless</idno><idno type="laurel-id">L12571</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa--bb--cc">
+        <l n="1" real="+-+-xxx" met="+-+-+-+">Hapless, hapless, I must be</l>
+        <l n="2" real="xx+xxxx" met="+-+-+-+">All the hours of life I see,</l>
+        <l n="3" real="xx+-xxx" met="+-+-+-+">Since my foolish nurse did once</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">Bed me on her leggen bones;</l>
+        <l n="5" real="xx+-xxx" met="+-+-+-+">Since my mother did not weel</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">To snip my nails with blades of steel.</l>
+        <l n="7" real="xxxxxx+-" met="-+-+-+-+">Had they laid me on a pillow</l>
+        <l n="8" real="xxxx+-+x" met="-+-+-+-+">In a cot of water willow,</l>
+        <l n="9" real="xx+-+-xx" met="-+-+-+-+">Had they bitten finger and thumb,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Not to such ill hap I had come.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-bird" n="L12572">
+      <head>The Little Bird</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-little-bird</idno><idno type="laurel-id">L12572</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-c-c">
+        <l n="1" real="xxxxxx+-" met="+-+-+-+-">My dear Daddie bought a mansion</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">For to bring my Mammie to,</l>
+        <l n="3" real="xxxxxx+-" met="+-+-+-+-">In a hat with a long feather,</l>
+        <l n="4" real="xx+-xxx" met="+-+-+-+">And a trailing gown of blue;</l>
+        <l n="5" real="xx+-x+-" met="+-+-+-+">And a company of fiddlers</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">And a rout of maids and men</l>
+        <l n="7" real="xxxxxx+-" met="+-+-+-+-">Danced the clock round to the morning,</l>
+        <l n="8" real="xxxx+-x" met="+-+-+-+">In a gay house-warming then.</l>
+        <l n="9" real="xxxxxxxx" met="+-+-+-+-">And when all the guests were gone, and</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">All was still as still can be,</l>
+        <l n="11" real="xxxx+-xx" met="+-+-+-+-">In from the dark ivy hopped a</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">Wee small bird: and that was Me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="cake-and-sack" n="L12573">
+      <head>Cake and Sack</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:cake-and-sack</idno><idno type="laurel-id">L12573</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abcb-d-dde-e-f-f-aca">
+        <l n="1" real="xx+-x" met="-+-+-">Old King Caraway</l>
+        <l n="2" real="xxx" met="+-+">Supped on cake,</l>
+        <l n="3" real="xxxxx" met="-+-+-">And a cup of sack</l>
+        <l n="4" real="xxxx" met="-+-+">His thirst to slake;</l>
+        <l n="5" real="xxxx" met="-+-+">Bird in arras</l>
+        <l n="6" real="xxxx" met="-+-+">And hound in hall</l>
+        <l n="7" real="x-+-+-" met="--+-+-">Watched very softly</l>
+        <l n="8" real="xxxx" met="-+-+">Or not at all;</l>
+        <l n="9" real="+-xx+-" met="--+-+-">Fire in the middle,</l>
+        <l n="10" real="xxx" met="+-+">Stone all round</l>
+        <l n="11" real="x-x+-x" met="--+-+-">Changed not, heeded not,</l>
+        <l n="12" real="xxx" met="+-+">Made no sound;</l>
+        <l n="13" real="xx-+" met="-+-+">All by himself</l>
+        <l n="14" real="xx+-x" met="-+-+-">At the Table High</l>
+        <l n="15" real="x+-xx" met="-+-+-">He&#x27;d nibble and sip</l>
+        <l n="16" real="xxxx-x" met="--+-+-">While his dreams slipped by;</l>
+        <l n="17" real="xxxx+-" met="--+-+-">And when he had finished,</l>
+        <l n="18" real="xxxx" met="-+-+">He&#x27;d nod and say,</l>
+        <l n="19" real="xxx" met="+-+">&#x27;Cake and sack</l>
+        <l n="20" real="xx+-x" met="-+-+-">For King Caraway!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-ship-of-rio" n="L12574">
+      <head>The Ship of Rio</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-ship-of-rio</idno><idno type="laurel-id">L12574</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-c-cde-edf-fdg-g">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">There was a ship of Rio</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Sailed out into the blue,</l>
+        <l n="3" real="xxx+-+-" met="-+-+-+-">And nine and ninety monkeys</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">Were all her jovial crew.</l>
+        <l n="5" real="xxxxx+-x" met="--+-+-+-">From bo&#x27;sun to the cabin boy,</l>
+        <l n="6" real="x+-x-+" met="-+-+-+">From quarter to caboose,</l>
+        <l n="7" real="x+-xxx+-x" met="-+-+-+-+-">There weren&#x27;t a stitch of calico</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">To breech &#x27;em - tight or loose;</l>
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">From spar to deck, from deck to keel,</l>
+        <l n="10" real="x+--xx" met="-+-+-+">From barnacle to shroud,</l>
+        <l n="11" real="x+-xxxxxx" met="-+-+-+-+-">There weren&#x27;t one pair of reach-me-downs</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">To all that jabbering crowd.</l>
+        <l n="13" real="x+-xxxxx" met="--+-+-+-">But wasn&#x27;t it a gladsome sight,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">When roared the deep sea gales,</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">To see them reef her fore and aft</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">A-swinging by their tails!</l>
+        <l n="17" real="x+-xxxxx" met="--+-+-+-">Oh, wasn&#x27;t it a gladsome sight,</l>
+        <l n="18" real="x+-xxx" met="-+-+-+">When glassy calm did come,</l>
+        <l n="19" real="xxx+-+-x" met="--+-+-+-">To see them squatting tailor-wise</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Around a keg of rum!</l>
+        <l n="21" real="x+-xxxxx" met="--+-+-+-">Oh, wasn&#x27;t it a gladsome sight,</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">When in she sailed to land,</l>
+        <l n="23" real="xxxxx+-x" met="--+-+-+-">To see them all a-scampering skip</l>
+        <l n="24" real="xx-+xx" met="-+-+-+">For nuts across the sand!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tillie" n="L12575">
+      <head>Tillie</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:tillie</idno><idno type="laurel-id">L12575</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-aa-b-b-cdc-ede-f-f">
+        <l n="1" real="x+-xxx" met="--+-+-">Old Tillie Turveycombe</l>
+        <l n="2" real="xxx" met="+-+">Sat to sew,</l>
+        <l n="3" real="xxxxxxxx" met="--+-+-+-">Just where a patch of fern did grow;</l>
+        <l n="4" real="xxxx-" met="-+-+-">There, as she yawned,</l>
+        <l n="5" real="xxxxx" met="-+-+-">And yawn wide did she,</l>
+        <l n="6" real="+-xx" met="-+-+">Floated some seed</l>
+        <l n="7" real="xxxxx" met="-+-+-">Down her gull-e-t;</l>
+        <l n="8" real="xxxx" met="-+-+">And look you once,</l>
+        <l n="9" real="xxxx" met="-+-+">And look you twice,</l>
+        <l n="10" real="xx+-" met="-+-+">Poor old Tillie</l>
+        <l n="11" real="xxxxx" met="-+-+-">Was gone in a trice.</l>
+        <l n="12" real="xxxxx" met="-+-+-">But oh, when the wind</l>
+        <l n="13" real="xx+-x" met="-+-+-">Do a-moaning come,</l>
+        <l n="14" real="xxx+-" met="-+-+-">&#x27;Tis poor old Tillie</l>
+        <l n="15" real="xxx" met="+-+">Sick for home;</l>
+        <l n="16" real="xxxxx" met="-+-+-">And oh, when a voice</l>
+        <l n="17" real="xxxxx" met="-+-+-">In the mist do sigh,</l>
+        <l n="18" real="x+-xxx" met="--+-+-">Old Tillie Turveycombe&#x27;s</l>
+        <l n="19" real="+-x" met="+-+">Floating by.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="jim-jay" n="L12576">
+      <head>Jim Jay</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:jim-jay</idno><idno type="laurel-id">L12576</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-c-c---------d---d-d-e-e">
+        <l n="1" real="xxxxx" met="-+-+-">Do diddle di do,</l>
+        <l n="2" real="xxx" met="+-+">Poor Jim Jay</l>
+        <l n="3" real="xxx" met="+-+">Got stuck fast</l>
+        <l n="4" real="x+-x" met="-+-+">In Yesterday.</l>
+        <l n="5" real="+-xx" met="-+-+">Squinting he was,</l>
+        <l n="6" real="xxxx" met="-+-+">On Cross-legs bent,</l>
+        <l n="7" real="+-+-" met="-+-+">Never heeding</l>
+        <l n="8" real="xxxx" met="-+-+">The wind was spent.</l>
+        <l n="9" real="xxxxxx" met="--+-+-">Round veered the weathercock,</l>
+        <l n="10" real="xxxx" met="-+-+">The sun drew in -</l>
+        <l n="11" real="xxxx" met="-+-+">And stuck was Jim</l>
+        <l n="12" real="xx+-x" met="-+-+-">Like a rusty pin...</l>
+        <l n="13" real="xx-xxx" met="--+-+-">We pulled and we pulled</l>
+        <l n="14" real="x+-xx" met="-+-+-">From seven till twelve,</l>
+        <l n="15" real="xx+--" met="-+-+-">Jim, too frightened</l>
+        <l n="16" real="xx-+" met="-+-+">To help himself.</l>
+        <l n="17" real="xxxx" met="-+-+">But all in vain.</l>
+        <l n="18" real="xxxx" met="-+-+">The clock struck one,</l>
+        <l n="19" real="xxxx" met="-+-+">And there was Jim</l>
+        <l n="20" real="x+-xx" met="-+-+-">A little bit gone.</l>
+        <l n="21" real="xxxx" met="-+-+">At half-past five</l>
+        <l n="22" real="xxxx" met="-+-+">You scarce could see</l>
+        <l n="23" real="xxxx+-" met="--+-+-">A glimpse of his flapping</l>
+        <l n="24" real="xxx" met="+-+">Handkerchee.</l>
+        <l n="25" real="xxxx" met="-+-+">And when came noon,</l>
+        <l n="26" real="xxx-xx" met="--+-+-">And we climbed sky-high,</l>
+        <l n="27" real="xxxx" met="-+-+">Jim was a speck</l>
+        <l n="28" real="x+-x" met="-+-+">Slip - slipping by.</l>
+        <l n="29" real="xx+-" met="-+-+">Come to-morrow,</l>
+        <l n="30" real="x+-x" met="-+-+">The neighbours say,</l>
+        <l n="31" real="xxx+-x" met="--+-+-">He&#x27;ll be past crying for;</l>
+        <l n="32" real="xxx" met="+-+">Poor Jim Jay.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="miss-t" n="L12577">
+      <head>Miss T</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:miss-t</idno><idno type="laurel-id">L12577</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-aba-c-c-d-d-aba">
+        <l n="1" real="xx+-xx" met="-+-+-+">It&#x27;s a very odd thing -----</l>
+        <l n="2" real="xxxxx" met="+-+-+">As odd as can be ---</l>
+        <l n="3" real="xx+-xxx" met="-+-+-+-">That whatever Miss T. eats</l>
+        <l n="4" real="xxxxx" met="+-+-+">Turns into Miss T.;</l>
+        <l n="5" real="+-x+-" met="+-+-+">Porridge and apples,</l>
+        <l n="6" real="x+-x+-" met="-+-+-+">Mince, muffins and mutton,</l>
+        <l n="7" real="x+-x" met="--+-">Jam, junket, jumbles ----</l>
+        <l n="8" real="xxxxx+-" met="-+-+-+-">Not a rap, not a button</l>
+        <l n="9" real="x+-x+-" met="-+-+-+">It matters; the moment</l>
+        <l n="10" real="xxxxx" met="+-+-+">They&#x27;re out of her plate,</l>
+        <l n="11" real="xxxx+-" met="-+-+-+">Though shared by Miss Butcher</l>
+        <l n="12" real="x+-+-x" met="-+-+-+">And sour Mr. Bate;</l>
+        <l n="13" real="+-x+-" met="+-+-+">Tiny and cheerful,</l>
+        <l n="14" real="xxxxx" met="+-+-+">And neat as can be,</l>
+        <l n="15" real="x+-xxx" met="-+-+-+">Whatever Miss T. eats</l>
+        <l n="16" real="xxxxx" met="+-+-+">Turns into Miss T.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-cupboard" n="L12578">
+      <head>The Cupboard</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-cupboard</idno><idno type="laurel-id">L12578</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-+-" met="+-+-+-+">I know a little cupboard,</l>
+        <l n="2" real="xx+-+-x" met="+-+-+-+">With a teeny tiny key,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And there&#x27;s a jar of Lollypops</l>
+        <l n="4" real="xxxx" met="--+-">For me, me, me.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">It has a little shelf, my dear,</l>
+        <l n="6" real="xxxxxx" met="--+-+-">As dark as dark can be,</l>
+        <l n="7" real="xxxxx+x-x" met="-+-+-+-+-">And there&#x27;s a dish of Banbury Cakes</l>
+        <l n="8" real="xxxx" met="--+-">For me, me, me.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">I have a small fat grandmamma,</l>
+        <l n="10" real="xx+-+-x" met="+-+-+-+">With a very slippery knee,</l>
+        <l n="11" real="xxx+-xx+-" met="-+-+-+-+-">And she&#x27;s the Keeper of the Cupboard</l>
+        <l n="12" real="xxxxx" met="-+-+-">With the key, key, key.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xx+-xxx" met="+-+-+-+">And I&#x27;m very good, my dear,</l>
+        <l n="14" real="xxxxxx" met="--+-+-">As good as good can be,</l>
+        <l n="15" real="xxxxxxxxx" met="-+-+-+-+-">There&#x27;s Branbury Cakes, and Lollypops</l>
+        <l n="16" real="xxxx" met="--+-">For me, me, me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-barber-s" n="L12579">
+      <head>The Barber&#x27;s</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-barber-s</idno><idno type="laurel-id">L12579</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-c-c-d-d">
+        <l n="1" real="xxxxx" met="+-+-+">Gold locks, and black locks,</l>
+        <l n="2" real="xxxx" met="--+-">Red locks and brown,</l>
+        <l n="3" real="+xxxx" met="+-+-+">Topknot to love-curl</l>
+        <l n="4" real="xxxx" met="--+-">The hair wisps down;</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Straight above the clear eyes,</l>
+        <l n="6" real="+-xxx" met="+-+-+">Rounded round the ears,</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">Snip-snap and snick-a-snick,</l>
+        <l n="8" real="xx+-x" met="+-+-+">Clash the Barber&#x27;s shears;</l>
+        <l n="9" real="xxx+-x" met="-+-+-+">Us, in the looking-glass,</l>
+        <l n="10" real="+xxxx" met="+-+-+">Footsteps in the street,</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">Over, under, to and fro,</l>
+        <l n="12" real="xxxx" met="--+-">The lean blades meet;</l>
+        <l n="13" real="xxxxx" met="+-+-+">Bay Rum or Bear&#x27;s Grease,</l>
+        <l n="14" real="x+-xxx" met="-+-+-+">A silver groat to pay -</l>
+        <l n="15" real="xxxxx+-" met="-+-+-+-">Then out a-shin-shan-shining</l>
+        <l n="16" real="xxxxx" met="+-+-+">In the bright, blue day.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hide-and-seek" n="L12580">
+      <head>Hide and Seek</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:hide-and-seek</idno><idno type="laurel-id">L12580</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-----a-a----">
+        <l n="1" real="xxxxxx" met="-+-+-+">Hide and seek, says the Wind,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">In the shade of the woods;</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">Hide and seek, says the Moon,</l>
+        <l n="4" real="xx+-x" met="+-+-+">To the hazel buds;</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Hide and seek, says the Cloud,</l>
+        <l n="6" real="xxxx" met="--+-">Star on to star;</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">Hide and seek, says the Wave,</l>
+        <l n="8" real="xx+-x" met="+-+-+">At the harbour bar;</l>
+        <l n="9" real="xxxxx" met="+-+-+">Hide and seek, say I,</l>
+        <l n="10" real="xx+xx" met="+-+-+">To myself, and step</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">Out of the dream of Wake</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Into the dream of Sleep.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="then" n="L12581">
+      <head>Then</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:then</idno><idno type="laurel-id">L12581</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-c-c">
+        <l n="1" real="+-+-+-+-" met="--+-+-+-">Twenty, forty, sixty, eighty</l>
+        <l n="2" real="x+-x-+" met="-+-+-+">A hundred years ago,</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">All through the night with lantern bright</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">The Watch trudged to and fro,</l>
+        <l n="5" real="x+-xxx-+" met="--+-+-+-">And little boys tucked snug abed</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Would wake from dreams to hear -</l>
+        <l n="7" real="xxx+-xxx" met="--+-+-+-">&#x27;Two o&#x27; the morning by the clock,</l>
+        <l n="8" real="xxxx+-x" met="-+-+-+-">And the stars a-shining clear!&#x27;</l>
+        <l n="9" real="xx-+x+-x" met="--+-+-+-">Or, when across the chimney-tops</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Screamed shrill a North-East gale,</l>
+        <l n="11" real="xxx+-xxx" met="--+-+-+-">A faint and shaken voice would shout,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">&#x27;Three! And a storm of hail!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-window" n="L12582">
+      <head>The Window</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-window</idno><idno type="laurel-id">L12582</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-aaa">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Behind the blinds I sit and watch</l>
+        <l n="2" real="x+-+-+-x" met="-+-+-+-+">The people passing - passing by;</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">And not a single one can see</l>
+        <l n="4" real="x+-+-x" met="--+-+-">My tiny watching eye.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">They cannot see my little room,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">All yellowed with the shaded sun;</l>
+        <l n="7" real="xxx+xxx" met="+-+-+-+">They do not even know I&#x27;m here;</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Nor&#x27;ll guess when I am gone.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poor-henry" n="L12583">
+      <head>Poor Henry</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:poor-henry</idno><idno type="laurel-id">L12583</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="xxxx" met="-+-+">Thick in its glass</l>
+        <l n="2" real="xxxx" met="-+-+">The physic stands,</l>
+        <l n="3" real="x+-x" met="-+-+">Poor Henry lifts</l>
+        <l n="4" real="-+-x" met="-+-+">Distracted hands;</l>
+        <l n="5" real="xxxx" met="-+-+">His round cheek wans</l>
+        <l n="6" real="xx+-x" met="-+-+-">In the candlelight,</l>
+        <l n="7" real="xxxx" met="-+-+">To smell that smell!</l>
+        <l n="8" real="xxxx" met="-+-+">To see that sight!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="+-xx" met="-+-+">Finger and thumb</l>
+        <l n="10" real="xxxx" met="-+-+">Clinch his small nose,</l>
+        <l n="11" real="x+-xx" met="-+-+-">A gurgle, a gasp,</l>
+        <l n="12" real="xxxx" met="-+-+">And down it goes;</l>
+        <l n="13" real="x+-x" met="-+-+">Scowls Henry now;</l>
+        <l n="14" real="xxxx" met="-+-+">But mark that cheek,</l>
+        <l n="15" real="xxxx" met="-+-+">Sleek with the bloom</l>
+        <l n="16" real="xxxx" met="-+-+">Of health next week!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="full-moon" n="L12584">
+      <head>Full Moon</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:full-moon</idno><idno type="laurel-id">L12584</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab-c-c----">
+        <l n="1" real="xxxxxx-+" met="--+-+-+-">One night as Dick lay half asleep,</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">Into his drowsy eyes</l>
+        <l n="3" real="xxxx-+xx" met="--+-+-+-">A great still light begins to creep</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">From out the silent skies.</l>
+        <l n="5" real="xx+-xxx" met="-+-+-+-">It was lovely moon&#x27;s, for when</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">He raised his dreamy head,</l>
+        <l n="7" real="xxx+-xxx" met="--+-+-+-">Her surge of silver filled the pane</l>
+        <l n="8" real="xx-+xx" met="-+-+-+">And streamed across his bed.</l>
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">So, for a while, each gazed at each -</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">Dick and the solemn moon -</l>
+        <l n="11" real="x+-+-xxx" met="--+-+-+-">Till, climbing slowly on her way,</l>
+        <l n="12" real="x+-xxx" met="-+-+-+">She vanished, and was gone.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-bookworm" n="L12585">
+      <head>The Bookworm</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-bookworm</idno><idno type="laurel-id">L12585</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ab-b-----c-c-a-a">
+        <l n="1" real="x+x+xxxx" met="-+-+-+-+">&#x27;I&#x27;m tired - Oh, tired of books,&#x27; said Jack,</l>
+        <l n="2" real="xxx+xx" met="--+-+-">&#x27;I long for meadows green,</l>
+        <l n="3" real="xxx+-+-" met="+-+-+-+">And woods, where shadowy violets</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Nod their cool leaves between;</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">I long to see the ploughman stride</l>
+        <l n="6" real="x+-+-x" met="--+-+-">His darkening acres o&#x27;er,</l>
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">To hear the hoarse sea-waters drive</l>
+        <l n="8" real="x+-xxx" met="--+-+-">Their billows &#x27;gainst the shore;</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">I long to watch the sea-mew wheel</l>
+        <l n="10" real="xxxxxx" met="--+-+-">Back to her rock-perched mate;</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">Or, where the breathing cows are housed,</l>
+        <l n="12" real="x+-xxx" met="--+-+-">Lean dreaming o&#x27;er the gate.</l>
+        <l n="13" real="+-xxxxxx" met="-+-+-+-+">Something has gone, and ink and print</l>
+        <l n="14" real="x+-xxx" met="--+-+-">Will never bring it back;</l>
+        <l n="15" real="xxxxxx-+" met="-+-+-+-+">I long for the green fields again,</l>
+        <l n="16" real="x+xxxx" met="--+-+-">I&#x27;m tired of books,&#x27; said Jack.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-quartette" n="L12586">
+      <head>The Quartette</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-quartette</idno><idno type="laurel-id">L12586</idno>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxxxxxxxxxxx">Tom sang for joy and Ned sang for joy and old Sam sang for joy;</l>
+        <l n="2" real="xxxxxxxxxxx">All we four boys piped up loud, just like one boy;</l>
+        <l n="3" real="xx+-xxxxxxxxxx">And the ladies that sate with the Squire - their cheeks were all wet,</l>
+        <l n="4" real="xxxxxxxxxxxx+-+">For the noise of the voice of us boys, when we sang our Quartette.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxxxxxxxxxxxx">Tom he piped low and Ned he piped low and old Sam he piped low;</l>
+        <l n="6" real="xxx+-xx++-x">Into a sorrowful fall did our music flow;</l>
+        <l n="7" real="xx+-xxxxxxx+-+">And the ladies that sate with the Squire vowed they&#x27;d never forget</l>
+        <l n="8" real="xxxxxxx-+xxx+-+">How the eyes of them cried for delight, when we sang our Quartette.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mistletoe" n="L12587">
+      <head>Mistletoe</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:mistletoe</idno><idno type="laurel-id">L12587</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aaabbcc">
+        <l n="1" real="+-xxx+-x" met="-+-+-+-+">Sitting under the mistletoe</l>
+        <l n="2" real="xx+-+-x" met="+-+-+-+">(Pale-green, fairy mistletoe),</l>
+        <l n="3" real="xx+-+-x" met="+-+-+-+">One last candle burning low,</l>
+        <l n="4" real="xx+-+-x" met="+-+-+-+">All the sleepy dancers gone,</l>
+        <l n="5" real="xx+-+-x" met="+-+-+-+">Just one candle burning on,</l>
+        <l n="6" real="+x+-+-x" met="+-+-+-+">Shadows lurking everywhere:</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Some one came, and kissed me there.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaabbcc">
+        <l n="8" real="+xxxxxx" met="+-+-+-+">Tired I was; my head would go</l>
+        <l n="9" real="+-xxx+-x" met="-+-+-+-+">Nodding under the mistletoe</l>
+        <l n="10" real="xx+-+-x" met="+-+-+-+">(Pale-green, fairy mistletoe),</l>
+        <l n="11" real="x+xxxxx+-" met="-+-+-+-+-">No footsteps came, no voice, but only,</l>
+        <l n="12" real="xxxxx+-+-" met="-+-+-+-+-">Just as I sat there, sleepy, lonely,</l>
+        <l n="13" real="xxxxx+-x" met="-+-+-+-+">Stooped in the still and shadowy air</l>
+        <l n="14" real="x-+xxxx" met="+-+-+-+">Lips unseen - and kissed me there.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lost-shoe" n="L12588">
+      <head>The Lost Shoe</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-lost-shoe</idno><idno type="laurel-id">L12588</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b--b--c-c---d--deef-f-g-g-h-h-i-i-i-i">
+        <l n="1" real="x+-+-" met="-+-+-">Poor little Lucy</l>
+        <l n="2" real="xxxx" met="-+-+">By some mischance,</l>
+        <l n="3" real="xxx" met="+-+">Lost her shoe</l>
+        <l n="4" real="xxxx" met="-+-+">As she did dance -</l>
+        <l n="5" real="xxxxx" met="-+-+-">&#x27;Twas not on the stairs,</l>
+        <l n="6" real="xxxx" met="-+-+">Not in the hall;</l>
+        <l n="7" real="xxxx" met="-+-+">Not where they sat</l>
+        <l n="8" real="x+-xx" met="-+-+-">At supper at all.</l>
+        <l n="9" real="xxxx+-" met="--+-+-">She looked in the garden,</l>
+        <l n="10" real="xxxxx" met="-+-+-">But there it was not;</l>
+        <l n="11" real="+xx+-" met="-+-+-">Henhouse, or kennel,</l>
+        <l n="12" real="xxxxx" met="-+-+-">Or high dovecote.</l>
+        <l n="13" real="+-x+x" met="-+-+-">Dairy and meadow,</l>
+        <l n="14" real="xxxx" met="-+-+">And wild woods through</l>
+        <l n="15" real="x-xxx" met="-+-+-">Showed not a trace</l>
+        <l n="16" real="xxxx" met="-+-+">Of Lucy&#x27;s shoe.</l>
+        <l n="17" real="xx+-" met="-+-+">Bird nor bunny</l>
+        <l n="18" real="x+--x" met="-+-+-">Nor glimmering moon</l>
+        <l n="19" real="x-x+-" met="-+-+-">Breathed a whisper</l>
+        <l n="20" real="xxxx" met="-+-+">Of where &#x27;twas gone.</l>
+        <l n="21" real="xxxxx" met="-+-+-">It was cried and cried,</l>
+        <l n="22" real="xxx" met="+-+">Oyez and Oyez!</l>
+        <l n="23" real="xxx+-" met="-+-+-">In French, Dutch, Latin,</l>
+        <l n="24" real="x+-x" met="-+-+">And Portuguese.</l>
+        <l n="25" real="xxxx" met="-+-+">Ships the dark seas</l>
+        <l n="26" real="x+-x" met="-+-+">Went plunging through,</l>
+        <l n="27" real="xxxx" met="-+-+">But none brought news</l>
+        <l n="28" real="xxxx" met="-+-+">Of Lucy&#x27;s shoe;</l>
+        <l n="29" real="xxxxx" met="-+-+-">And still she patters</l>
+        <l n="30" real="xxx+-" met="-+-+-">In silk and leather,</l>
+        <l n="31" real="xxx+-" met="-+-+-">O&#x27;er snow, sand, shingle,</l>
+        <l n="32" real="x+--+-" met="--+-+-">In every weather;</l>
+        <l n="33" real="xx+--" met="-+-+-">Spain, and Africa,</l>
+        <l n="34" real="+-x" met="+-+">Hindustan,</l>
+        <l n="35" real="+-+-" met="-+-+">Java, China,</l>
+        <l n="36" real="xx--+" met="-+-+-">And lamped Japan;</l>
+        <l n="37" real="xx+-" met="-+-+">Plain and desert,</l>
+        <l n="38" real="xxxx" met="-+-+">She hops-hops through,</l>
+        <l n="39" real="xxxx" met="-+-+">Pernambuco</l>
+        <l n="40" real="xx-+" met="-+-+">To gold Peru;</l>
+        <l n="41" real="+-x+-" met="-+-+-">Mountain and forest,</l>
+        <l n="42" real="x+-x" met="-+-+">And river too,</l>
+        <l n="43" real="xxxxx" met="-+-+-">All the world over</l>
+        <l n="44" real="xxxx" met="-+-+">For her lost shoe.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-truants" n="L12589">
+      <head>The Truants</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-truants</idno><idno type="laurel-id">L12589</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-x+-" met="--+--+--+-">Ere my heart beats too coldly and faintly</l>
+        <l n="2" real="x-+-xxxxx" met="--+--+--+">To remember sad things, yet be gay,</l>
+        <l n="3" real="xxxxxxxxx+-+-" met="--+--+--+--+-">I would sing a brief song of the world&#x27;s little children</l>
+        <l n="4" real="+-x+--+" met="+--+--+">Magic hath stolen away.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+x-+-x+-" met="--+--+--+">The primroses scattered by April,</l>
+        <l n="6" real="xxxxx+-x" met="-+--+--+">The stars of the wide Milky Way,</l>
+        <l n="7" real="-+-+-xxxx+-" met="-+--+--+--+">Cannot outnumber the hosts of the children</l>
+        <l n="8" real="+-x+--+" met="+--+--+">Magic hath stolen away.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-xxxx+x" met="--+--+--+">The buttercup green of the meadows,</l>
+        <l n="10" real="xxxx+-x" met="+--+--+">The snow of the blossoming may,</l>
+        <l n="11" real="xxxxxxx+-x+-" met="--+--+--+--+">Lovelier are not than the legions of children</l>
+        <l n="12" real="+-x+--+" met="+--+--+">Magic hath stolen away.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xx+-xxx+x" met="--+--+--+">The waves tossing surf in the moonbeam,</l>
+        <l n="14" real="x+-xxxxx" met="-+--+--+">The albatross lone on the spray,</l>
+        <l n="15" real="-+xxxxxxxx+-" met="--+--+--+--+">Alone know the tears wept in vain for the children</l>
+        <l n="16" real="+-x+--+" met="+--+--+">Magic hath stolen away.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxxxx+-" met="--+--+--+">In vain: for at hush of the evening,</l>
+        <l n="18" real="xxx+-xxxx" met="--+--+--+">When the stars twinkle into the grey,</l>
+        <l n="19" real="xx+-xx-++-x+-" met="--+--+--+--+-">Seems to echo the far-away calling of children</l>
+        <l n="20" real="+-x+--+" met="+--+--+">Magic hath stolen away.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="berries" n="L12590">
+      <head>Berries</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:berries</idno><idno type="laurel-id">L12590</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-abac-dece-ed-b--fbfcc-c-g-g">
+        <l n="1" real="xxxx+-" met="--+-+-">There was an old woman</l>
+        <l n="2" real="x+x-+-" met="--+-+-">Went blackberry picking</l>
+        <l n="3" real="-+x+-" met="-+-+-">Along the hedges</l>
+        <l n="4" real="xxxxx" met="-+-+-">From Weep to Wicking. -</l>
+        <l n="5" real="xx+-" met="-+-+">Half a pottle-</l>
+        <l n="6" real="xxxxx" met="-+-+-">No more she had got,</l>
+        <l n="7" real="xxxx+-" met="--+-+-">When out steps a Fairy</l>
+        <l n="8" real="xxxx" met="-+-+">From her green grot;</l>
+        <l n="9" real="xxxx" met="-+-+">And says, &#x27;Well, Jill,</l>
+        <l n="10" real="xxxxx" met="-+-+-">Would &#x27;ee pick ee mo?&#x27;</l>
+        <l n="11" real="xxxxx" met="-+-+-">And Jill, she curtseys,</l>
+        <l n="12" real="xxxx" met="-+-+">And looks just so.</l>
+        <l n="13" real="xxxx+-" met="--+-+-">Be off,&#x27; says the Fairy,</l>
+        <l n="14" real="xxxxx" met="-+-+-">&#x27;As quick as you can,</l>
+        <l n="15" real="xxx+x" met="-+-+-">Over the meadows</l>
+        <l n="16" real="xx+-xx" met="--+-+-">To the little green lane</l>
+        <l n="17" real="xxxx+x" met="--+-+-">That dips to the hayfields</l>
+        <l n="18" real="x+-x" met="-+-+">Of Farmer Grimes:</l>
+        <l n="19" real="xxx+-" met="-+-+-">I&#x27;ve berried those hedges</l>
+        <l n="20" real="xxxx" met="-+-+">A score of times;</l>
+        <l n="21" real="+-x+-" met="-+-+-">Bushel on bushel</l>
+        <l n="22" real="xxxxx" met="-+-+-">I&#x27;ll promise&#x27;ee, Jill,</l>
+        <l n="23" real="xxx+-" met="-+-+-">This side of supper</l>
+        <l n="24" real="xxxxxx" met="--+-+-">If&#x27;ee pick with a will.&#x27;</l>
+        <l n="25" real="xx+-x" met="-+-+-">She glints very bright,</l>
+        <l n="26" real="xxxx" met="-+-+">And speaks her fair;</l>
+        <l n="27" real="xxx-+" met="-+-+-">Then lo, and behold!</l>
+        <l n="28" real="xx+-xx" met="--+-+-">She had faded in air.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcb-dcd-e-eaf-f">
+        <l n="29" real="xxx+-" met="-+-+-">Be sure Old Goodie</l>
+        <l n="30" real="xxxx" met="-+-+">She trots betimes</l>
+        <l n="31" real="xxx+x" met="-+-+-">Over the meadows</l>
+        <l n="32" real="x+-x" met="-+-+">To Farmer Grimes.</l>
+        <l n="33" real="x+-xx" met="-+-+-">And never was queen</l>
+        <l n="34" real="x+--x" met="-+-+-">With jewelry rich</l>
+        <l n="35" real="xxx+-" met="-+-+-">As those same hedges</l>
+        <l n="36" real="xxxx" met="-+-+">From twig to ditch;</l>
+        <l n="37" real="xxx+-" met="-+-+-">Like Dutchmen&#x27;s coffers,</l>
+        <l n="38" real="xxx+-" met="-+-+-">Fruit, thorn, and flower -</l>
+        <l n="39" real="xxx+-" met="-+-+-">They shone like William</l>
+        <l n="40" real="x+-+-" met="-+-+-">And Mary&#x27;s bower.</l>
+        <l n="41" real="xxxx+-" met="--+-+-">And be sure Old Goodie</l>
+        <l n="42" real="xxxx" met="-+-+">Went back to Weep,</l>
+        <l n="43" real="x+-xx+-" met="-+-+-+-">So tired with her basket</l>
+        <l n="44" real="xxxx" met="-+-+">She scarce could creep.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a-b-b-c-c--------">
+        <l n="45" real="xxxxxx" met="--+-+-">When she comes in the dusk</l>
+        <l n="46" real="xx+-x" met="-+-+-">To her cottage door,</l>
+        <l n="47" real="xxx+-" met="-+-+-">There&#x27;s Towser wagging</l>
+        <l n="48" real="x+-xx" met="-+-+-">As never before,</l>
+        <l n="49" real="xxx+-" met="-+-+-">To see his Missus</l>
+        <l n="50" real="xxxx" met="-+-+">So glad to be</l>
+        <l n="51" real="xxxx+-" met="--+-+-">Come from her fruit-picking</l>
+        <l n="52" real="xxx" met="+-+">Back to he.</l>
+        <l n="53" real="xxxx+-" met="--+-+-">As soon as next morning</l>
+        <l n="54" real="xxx" met="+-+">Dawn was grey,</l>
+        <l n="55" real="xxxxx" met="-+-+-">The pot on the hob</l>
+        <l n="56" real="x+---+" met="--+-+-">Was simmering away;</l>
+        <l n="57" real="xxxxx" met="-+-+-">And all in a stew</l>
+        <l n="58" real="xx+-+-" met="--+-+-">And a hugger-mugger</l>
+        <l n="59" real="xxxx" met="-+-+">Towser and Jill</l>
+        <l n="60" real="x+-x+-" met="--+-+-">A-boiling of sugar,</l>
+        <l n="61" real="xxxxx" met="-+-+-">And the dark clear fruit</l>
+        <l n="62" real="xxxxx" met="-+-+-">That from Faerie came,</l>
+        <l n="63" real="x+-x+-" met="--+-+-">For syrup and jelly</l>
+        <l n="64" real="x+x-x" met="-+-+-">And blackberry jam.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-ababc-c">
+        <l n="65" real="x+-xxx" met="--+-+-">Twelve jolly gallipots</l>
+        <l n="66" real="xxx" met="+-+">Jill put by;</l>
+        <l n="67" real="xx+-+-x" met="-+-+-+-">And one little teeny one,</l>
+        <l n="68" real="xxx" met="+-+">One inch high;</l>
+        <l n="69" real="xxx+-" met="-+-+-">And that she&#x27;s hidden</l>
+        <l n="70" real="xxxx" met="-+-+">A good thumb deep,</l>
+        <l n="71" real="xxxx" met="-+-+">Half way over</l>
+        <l n="72" real="xxxxx" met="-+-+-">From Wicking to Weep.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="off-the-ground" n="L12591">
+      <head>Off the Ground</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:off-the-ground</idno><idno type="laurel-id">L12591</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-c-c-c-c-ded-fef-g-g-----h-h-i-i-----j-j-k-k-l-l-mnm-n-n-o-o-p-p-q-q-r-r-s-s-tut-vu--v-v-w-w-w-x-x-y-y-z-z">
+        <l n="1" real="x+-+-" met="-+-+-">Three jolly Farmers</l>
+        <l n="2" real="xxxx" met="-+-+">Once bet a pound</l>
+        <l n="3" real="xxx+-x" met="--+-+-">Each dance the others would</l>
+        <l n="4" real="xxx" met="+-+">Off the ground.</l>
+        <l n="5" real="xxxx" met="-+-+">Out of their coats</l>
+        <l n="6" real="xx-xx" met="-+-+-">They slipped right soon,</l>
+        <l n="7" real="xxxxxx" met="--+-+-">And neat and nicesome,</l>
+        <l n="8" real="xxxx" met="-+-+">Put each his shoon.</l>
+        <l n="9" real="xxx" met="+-+">One - Two - Three! -</l>
+        <l n="10" real="x-+xx" met="-+-+-">And away they go,</l>
+        <l n="11" real="xxx" met="+-+">Not too fast,</l>
+        <l n="12" real="xxxx" met="-+-+">And not too slow;</l>
+        <l n="13" real="xxxxx" met="-+-+-">Out from the elm-tree&#x27;s</l>
+        <l n="14" real="xx+x" met="-+-+">Noonday shadow,</l>
+        <l n="15" real="xxxx" met="-+-+">Into the sun</l>
+        <l n="16" real="x-+x+x" met="--+-+-">And across the meadow.</l>
+        <l n="17" real="xx+x" met="-+-+">Past the schoolroom,</l>
+        <l n="18" real="xxxx" met="-+-+">With knees well bent</l>
+        <l n="19" real="+-x+-" met="-+-+-">Fingers a-flicking,</l>
+        <l n="20" real="x+-x" met="-+-+">They dancing went.</l>
+        <l n="21" real="xxxxx" met="-+-+-">Up sides and over,</l>
+        <l n="22" real="xxxx" met="-+-+">And round and round,</l>
+        <l n="23" real="xx-xxx" met="--+-+-">They crossed click-clacking,</l>
+        <l n="24" real="x+-x" met="-+-+">The Parish bound,</l>
+        <l n="25" real="xxx+x" met="-+-+-">By Tupman&#x27;s meadow</l>
+        <l n="26" real="xxxx" met="-+-+">They did their mile,</l>
+        <l n="27" real="xxx" met="+-+">Tee-t-tum</l>
+        <l n="28" real="xxxx-x" met="--+-+-">On a three-barred stile.</l>
+        <l n="29" real="xxxxx" met="-+-+-">Then straight through Whipham,</l>
+        <l n="30" real="++xx" met="-+-+">Downhill to Week,</l>
+        <l n="31" real="+-xxx" met="-+-+-">Footing it lightsome,</l>
+        <l n="32" real="xxxx" met="-+-+">But not too quick,</l>
+        <l n="33" real="xxxxx" met="-+-+-">Up fields to Watchet,</l>
+        <l n="34" real="xxxx" met="-+-+">And on through Wye,</l>
+        <l n="35" real="x+-x+-" met="--+-+-">Till seven fine churches</l>
+        <l n="36" real="xxxx" met="-+-+">They&#x27;d seen skip by -</l>
+        <l n="37" real="+-x+-" met="-+-+-">Seven fine churches,</l>
+        <l n="38" real="xxxx" met="-+-+">And five old mills,</l>
+        <l n="39" real="xxx+-" met="-+-+-">Farms in the valley,</l>
+        <l n="40" real="xxxxx" met="-+-+-">And sheep on the hills;</l>
+        <l n="41" real="xx+-" met="-+-+">Old Man&#x27;s Acre</l>
+        <l n="42" real="xxxx" met="-+-+">And Dead Man&#x27;s Pool</l>
+        <l n="43" real="xxxx" met="-+-+">All left behind,</l>
+        <l n="44" real="xxx-xx" met="--+-+-">As they danced through Wool.</l>
+        <l n="45" real="xxxx" met="-+-+">And Wool gone by,</l>
+        <l n="46" real="xxxx" met="-+-+">Like tops that seem</l>
+        <l n="47" real="xxxx" met="-+-+">To spin in sleep</l>
+        <l n="48" real="xx-xx" met="-+-+-">They danced in dream;</l>
+        <l n="49" real="xxxxx" met="-+-+-">Withy - Wellover -</l>
+        <l n="50" real="xxx" met="+-+">Wassop-Wo-</l>
+        <l n="51" real="xxxx" met="-+-+">Like an old clock</l>
+        <l n="52" real="xxxx" met="-+-+">Their heels did go.</l>
+        <l n="53" real="xxxxx" met="-+-+-">A league and a league</l>
+        <l n="54" real="xxxxx" met="-+-+-">And a league they went,</l>
+        <l n="55" real="xxx+-" met="-+-+-">And not one weary,</l>
+        <l n="56" real="xxxx" met="-+-+">And not one spent.</l>
+        <l n="57" real="x+-x-+" met="--+-+-">And Io, and behold!</l>
+        <l n="58" real="x+xxx" met="-+-+-">Past Willow-cum-Leigh</l>
+        <l n="59" real="x-xx+-" met="--+-+-">Stretched with its waters</l>
+        <l n="60" real="xxxx" met="-+-+">The great green sea.</l>
+        <l n="61" real="x+-x" met="-+-+">Says Farmer Bates,</l>
+        <l n="62" real="xxxxx" met="-+-+-">I puffs and I blows,</l>
+        <l n="63" real="xxxx+-" met="--+-+-">What&#x27;s under the water,</l>
+        <l n="64" real="xxxx" met="-+-+">Why, no man knows!&#x27;</l>
+        <l n="65" real="x+-x" met="-+-+">Says Farmer Giles,</l>
+        <l n="66" real="xxxx" met="-+-+">&#x27;My wind comes weak,</l>
+        <l n="67" real="xxxxxx" met="--+-+-">And a good man drownded</l>
+        <l n="68" real="xxxx" met="-+-+">Is far to seek.&#x27;</l>
+        <l n="69" real="x+--+" met="-+-+-">But Farmer Turvey,</l>
+        <l n="70" real="x+-x" met="-+-+">On twirling toes</l>
+        <l n="71" real="xxxxx" met="-+-+-">Up&#x27;s with his gaiters,</l>
+        <l n="72" real="xxxx" met="-+-+">And in he goes:</l>
+        <l n="73" real="xxx+x" met="-+-+-">Down where the mermaids</l>
+        <l n="74" real="xxx" met="+-+">Pluck and play</l>
+        <l n="75" real="xxxxx" met="-+-+-">On their twangling harps</l>
+        <l n="76" real="xxxxx" met="-+-+-">In a sea-green day;</l>
+        <l n="77" real="xxx+x" met="-+-+-">Down where the mermaids,</l>
+        <l n="78" real="xxx" met="+-+">Finned and fair,</l>
+        <l n="79" real="xxxx" met="-+-+">Sleek with their combs</l>
+        <l n="80" real="x+-x" met="-+-+">Their yellow hair....</l>
+        <l n="81" real="xxx" met="+-+">Bates and Giles-</l>
+        <l n="82" real="xx+-x" met="-+-+-">On the shingle sat,</l>
+        <l n="83" real="+-xxx" met="-+-+-">Gazing at Turvey&#x27;s</l>
+        <l n="84" real="+-x" met="+-+">Floating hat.</l>
+        <l n="85" real="x+-x+-" met="--+-+-">But never a ripple</l>
+        <l n="86" real="x+-x" met="-+-+">Nor bubble told</l>
+        <l n="87" real="xxxxx" met="-+-+-">Where he was supping</l>
+        <l n="88" real="xxxx" met="-+-+">Off plates of gold.</l>
+        <l n="89" real="+-x+-" met="-+-+-">Never an echo</l>
+        <l n="90" real="x-xxx" met="-+-+-">Rilled through the sea</l>
+        <l n="91" real="xx+-x+-" met="-+-+-+-">Of the feasting and dancing</l>
+        <l n="92" real="xxxx" met="-+-+">And minstrelsy.</l>
+        <l n="93" real="xx-x-x" met="--+-+-">They called-called-called:</l>
+        <l n="94" real="xx-+" met="-+-+">Came no reply:</l>
+        <l n="95" real="xxx+-" met="-+-+-">Nought but the ripples&#x27;</l>
+        <l n="96" real="+-x" met="+-+">Sandy sigh.</l>
+        <l n="97" real="xxx+-" met="-+-+-">Then glum and silent</l>
+        <l n="98" real="xx-+" met="-+-+">They sat instead,</l>
+        <l n="99" real="xxx+-" met="-+-+-">Vacantly brooding</l>
+        <l n="100" real="xxxx" met="-+-+">On home and bed,</l>
+        <l n="101" real="xx-+-" met="-+-+-">Till both together</l>
+        <l n="102" real="xxxx" met="-+-+">Stood up and said.-</l>
+        <l n="103" real="xxxxx" met="-+-+-">&#x27;Us knows not, dreams not,</l>
+        <l n="104" real="xxx" met="+-+">Where you be,</l>
+        <l n="105" real="-+xx" met="-+-+">Turvey, unless</l>
+        <l n="106" real="xxxxx" met="-+-+-">In the deep blue sea;</l>
+        <l n="107" real="xxxx+-" met="--+-+-">But axcusing silver-</l>
+        <l n="108" real="xxxx+-" met="--+-+-">And it comes most willing -</l>
+        <l n="109" real="xxx+-" met="-+-+-">Here&#x27;s us two paying</l>
+        <l n="110" real="+-+-+-" met="--+-+-">Our forty shilling;</l>
+        <l n="111" real="xx+-x-+" met="-+-+-+-">For it&#x27;s sartin sure, Turvey,</l>
+        <l n="112" real="xxx" met="+-+">Safe and sound,</l>
+        <l n="113" real="xxxx-+" met="--+-+-">You danced us square, Turvey,</l>
+        <l n="114" real="xxx" met="+-+">Off the ground!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-thief-at-robin-s-castle" n="L12592">
+      <head>The Thief at Robin&#x27;s Castle</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-thief-at-robin-s-castle</idno><idno type="laurel-id">L12592</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx+-+-" met="-+-+-+-+-+-">There came a Thief one night to Robin&#x27;s Castle,</l>
+        <l n="2" real="xxxxxxx" met="-+-+-+-">He climbed up into a Tree;</l>
+        <l n="3" real="x+-xxxxxx+-" met="-+-+-+-+-+-">And sitting with his head among the branches,</l>
+        <l n="4" real="x+-xxx" met="--+-+-">A wondrous Sight did see.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xxxx+-" met="-+-+-+-+-+-">For there was Robin supping at his table,</l>
+        <l n="6" real="x+-xxx" met="--+-+-">With Candles of pure Wax,</l>
+        <l n="7" real="xxxxxxx+-+-" met="-+-+-+-+-+-">His Dame and his two beauteous little Children,</l>
+        <l n="8" real="x+-xxx" met="--+-+-">With Velvet on their backs.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="+-xxxxx+-" met="+-+-+-+-+">Platters for each there were shin-shining,</l>
+        <l n="10" real="x+-+xx" met="--+-+-">Of Silver many a pound,</l>
+        <l n="11" real="xxx+-xx+-xx" met="-+-+-+-+-+-">And all of beaten Gold, three brimming Goblets,</l>
+        <l n="12" real="+-x+-x" met="--+-+-">Standing the table round.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxx+-xxxx" met="-+-+-+-+-+-">The smell that rose up richly from the Baked Meats</l>
+        <l n="14" real="x+--+xx" met="-+-+-+-">Came thinning amid the boughs,</l>
+        <l n="15" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And much that greedy Thief who snuffed the night air-</l>
+        <l n="16" real="x+-x-+" met="--+-+-">His Hunger did arouse.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-aaa">
+        <l n="17" real="xxx+-+-+-+-" met="-+-+-+-+-+-">He watched them eating, drinking, laughing, talking,</l>
+        <l n="18" real="+-x+-xx" met="-+-+-+-">Busy with finger and spoon,</l>
+        <l n="19" real="xxx+-+-xx+-" met="-+-+-+-+-+-">While three most cunning Fiddlers, clad in crimson,</l>
+        <l n="20" real="xxx+-x" met="--+-+-">Played them a supper-tune.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xx+-xxxxxx+-" met="--+-+-+-+-+-">And he waited in the tree-top like a Starling,</l>
+        <l n="22" real="xxxx+-x" met="-+-+-+-">Till the Moon was gotten low;</l>
+        <l n="23" real="xxx+-xxxx+-" met="-+-+-+-+-+-">When all the windows in the walls were darkened,</l>
+        <l n="24" real="x+-xxx" met="--+-+-">He softly in did go.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="x+-xxxxxx+-" met="-+-+-+-+-+-">There Robin and his Dame in bed were sleeping,</l>
+        <l n="26" real="xx+-xxx" met="-+-+-+-">And his Children young and fair;</l>
+        <l n="27" real="+-+-xxxx+-" met="-+-+-+-+-+">Only Robin&#x27;s Hounds from their warm kennels</l>
+        <l n="28" real="xxxxxx" met="--+-+-">Yelped as he climbed the stair.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a">
+        <l n="29" real="xxx+-xx+-" met="+-+-+-+-+">All, all were sleeping, page and fiddler,</l>
+        <l n="30" real="x+-xxx" met="--+-+-">Cook, scullion, free from care;</l>
+        <l n="31" real="+-+-+-xx+-" met="-+-+-+-+-+">Only Robin&#x27;s Stallions from their stables</l>
+        <l n="32" real="xxxxxx" met="--+-+-">Neighed as he climbed the stair.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xxxxxxxxx" met="+-+-+-+-+">A wee wan light the Moon did shed him,</l>
+        <l n="34" real="+-xxxx" met="--+-+-">Hanging above the sea,</l>
+        <l n="35" real="xx+-xxxxx+-+-" met="-+-+-+-+-+-+-">And he counted into his bag (of beaten Silver)</l>
+        <l n="36" real="+-+-x" met="-+-+-">Platters thirty-three.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="xxxxx+-+-xx" met="-+-+-+-+-+-">Of Spoons three score; of jolly golden Goblets</l>
+        <l n="38" real="xxxxxx" met="--+-+-">He stowed in four save one,</l>
+        <l n="39" real="xxxxx+-+-x" met="-+-+-+-+-+">And six fine three-branched Cupid Candlesticks,</l>
+        <l n="40" real="xxxxxx" met="--+-+-">Before his work was done.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a">
+        <l n="41" real="x+-xx+-xx+-" met="-+-+-+-+-+-">Nine bulging bags of Money in a cupboard,</l>
+        <l n="42" real="xxxxxx" met="--+-+-">Two Snuffers, and a Dish</l>
+        <l n="43" real="xxxxx+-xxxx" met="-+-+-+-+-+-">He found, the last all studded with great Garnets</l>
+        <l n="44" real="xxxxxx" met="--+-+-">And shapen like a Fish.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="45" real="x+xxxxxxx+-" met="-+-+-+-+-+-">Then tiptoe up he stole into a Chamber,</l>
+        <l n="46" real="xxxx+-x" met="-+-+-+-">Where on Tasselled Pillows lay</l>
+        <l n="47" real="+-xxxxx+-xx" met="-+-+-+-+-+-">Robin and his Daule in dreaming slumbers</l>
+        <l n="48" real="+xx+-x" met="--+-+-">Tired with the summer&#x27;s day.</l>
+      </lg>
+      <lg type="stanza" n="13">
+        <l n="49" real="xxxxxxxx+-" met="-+-+-+-+-+">That Thief he mimbled round him in the gloaming,</l>
+        <l n="50" real="x+-xxx" met="--+-+-">Their treasure for to spy,</l>
+        <l n="51" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Combs, Brooches, Chains, and, Rings, and Pins and Buckles</l>
+        <l n="52" real="xxxxxxx" met="-+-+-+-">All higgledy, Piggle-dy.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="-a-a">
+        <l n="53" real="xxxxxxxxx+-" met="-+-+-+-+-+-">A Watch shaped in the shape of a flat Apple</l>
+        <l n="54" real="x+-+-x" met="--+-+-">In purest crystal set</l>
+        <l n="55" real="x+-xxxxxx+-" met="-+-+-+-+-+-">He lifted from the hook where it was ticking</l>
+        <l n="56" real="xxxxxx" met="--+-+-">And crammed in his Pochette.</l>
+      </lg>
+      <lg type="stanza" n="15">
+        <l n="57" real="xxx+-+-xx+-" met="-+-+-+-+-+-">He heaped the pretty Baubles on the table,</l>
+        <l n="58" real="xxxxxxx" met="-+-+-+-">Trinketsi Knick-knackerie,</l>
+        <l n="59" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Pearls, Diamonds, Sapphires, Topazes, and Opals-</l>
+        <l n="60" real="xxxxxx" met="--+-+-">All in his bag put he.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="-a-a">
+        <l n="61" real="xxxxxxx+-+-" met="-+-+-+-+-+-">And there in night&#x27;s pale Gloom was Robin dreaming</l>
+        <l n="62" real="xx+-x+-x" met="--+-+-+-">He was hunting the mountain Bear,</l>
+        <l n="63" real="xxxx+-+-xxx+-" met="-+-+-+-+-+-+-">While his Dame in peaceful slumber in no wise heeded</l>
+        <l n="64" real="x+-xxx" met="--+-+-">A greedy Thief was there.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="-a-a">
+        <l n="65" real="xx+-xxxx++" met="-+-+-+-+-+">And that ravenous Thief he climbed up even higher,</l>
+        <l n="66" real="xxxx+-x" met="-+-+-+-">Till into a chamber small</l>
+        <l n="67" real="xxxxx+-xx+-" met="-+-+-+-+-+-">He crept where lay poor Robin&#x27;s beauteous Children,</l>
+        <l n="68" real="xxxxxxx" met="-+-+-+-">Lovelier in sleep withal.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="-aaa">
+        <l n="69" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Oh, fairer was their Hair than Gold of Goblet,</l>
+        <l n="70" real="x+-xxxx" met="-+-+-+-">&#x27;Yond Silver their Cheeks did shine,</l>
+        <l n="71" real="xx+-xxxxxx+-" met="--+-+-+-+-+-">And their little hands that lay upon the linen</l>
+        <l n="72" real="xxxxxxx" met="-+-+-+-">Made that Thief&#x27;s hard heart to pine.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a">
+        <l n="73" real="xxx+-xxxx+-" met="-+-+-+-+-+-">But though a moment there his hard heart faltered,</l>
+        <l n="74" real="xxxxxx" met="--+-+-">Eftsoones be took them twain,</l>
+        <l n="75" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">And slipped them into his Bag with all his Plunder,</l>
+        <l n="76" real="xxxx-+" met="--+-+-">And soft stole down again.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="-a-a">
+        <l n="77" real="x+-+-xx+-+-" met="-+-+-+-+-+-">Spoon, Platter, Goblet, Ducats, Dishes, Trinkets,</l>
+        <l n="78" real="xxx+-x" met="--+-+-">And those two Children dear,</l>
+        <l n="79" real="x+-xxxxxx+-" met="-+-+-+-+-+-">A-quaking in the clinking and the clanking,</l>
+        <l n="80" real="xx-+xx" met="--+-+-">And half bemused with fear,</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="-a-a">
+        <l n="81" real="x+-xxxxxx+x" met="-+-+-+-+-+-">He carried down the stairs into the Courtyard,</l>
+        <l n="82" real="xxxxxx" met="--+-+-">But there he made no stay,</l>
+        <l n="83" real="xxxxx+-xxxx" met="-+-+-+-+-+-">He just tied up his Garters, took a deep breath,</l>
+        <l n="84" real="xxxxx-+" met="-+-+-+-">And ran like the wind away.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="-a-a">
+        <l n="85" real="x+-+-+-+-+-" met="-+-+-+-+-+-">Past Forest, River, Mountain, River, Forest-</l>
+        <l n="86" real="xxxxxx" met="--+-+-">He coursed the whole night through,</l>
+        <l n="87" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Till morning found him come into a Country,</l>
+        <l n="88" real="xxxxxx" met="--+-+-">Where none his bad face knew.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="aa-a">
+        <l n="89" real="x+-+-+-+-+-" met="-+-+-+-+-+-">Past Mountain, River, Forest, River, Mountain-</l>
+        <l n="90" real="xxxxxx" met="--+-+-">That Thief&#x27;s lean shanks sped on,</l>
+        <l n="91" real="x+-xx+-xxxx" met="-+-+-+-+-+-">Till Evening found him knocking at a Dark House,</l>
+        <l n="92" real="xxxxxx" met="--+-+-">His breath now well-nigh gone.</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="-a-a">
+        <l n="93" real="xxx+-xxxx+-" met="-+-+-+-+-+-">There came a little maid and asked his Business;</l>
+        <l n="94" real="x+-xxx" met="--+-+-">A Cobbler dwelt within;</l>
+        <l n="95" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And though she much misliked the Bag he carried,</l>
+        <l n="96" real="xxxxxx" met="--+-+-">She led the Bad Man in.</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="-a-a">
+        <l n="97" real="x+-xx+-xx+-" met="-+-+-+-+-+-">He bargained with the Cobbler for a lodging</l>
+        <l n="98" real="xxxxxx" met="--+-+-">And soft laid down his Sack-</l>
+        <l n="99" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">In the Dead of Night, with none to spy or listen-</l>
+        <l n="100" real="xxx+-x" met="--+-+-">From off his weary back.</l>
+      </lg>
+      <lg type="stanza" n="26" rhyme="-a-a">
+        <l n="101" real="xxxx+-xxxx+-" met="--+-+-+-+-+-">And he taught the little Chicks to call him Father,</l>
+        <l n="102" real="xxxx+-x" met="-+-+-+-">And he sold his stolen Pelf,</l>
+        <l n="103" real="xxx+-+-xx+x" met="-+-+-+-+-+-">And bought a Palace, Horses, Slaves, and Peacocks</l>
+        <l n="104" real="xxx+-x" met="--+-+-">To ease his wicked self.</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="-a-a">
+        <l n="105" real="xxx+-++-xx" met="-+-+-+-+-+">And though the Children never really loved him,</l>
+        <l n="106" real="xxxxx-+" met="-+-+-+-">He was rich past all belief;</l>
+        <l n="107" real="x+-xxxxxx+-" met="-+-+-+-+-+-">While Robin and his Dame o&#x27;er Delf and Pewter</l>
+        <l n="108" real="xxxxxx" met="--+-+-">Spent all their Days in Grief.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-widow-s-weeds" n="L12593">
+      <head>A Widow&#x27;s Weeds</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:a-widow-s-weeds</idno><idno type="laurel-id">L12593</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhii">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">A poor old Widow in her weeds</l>
+        <l n="2" real="xx+-xx+x" met="-+-+-+-+">Sowed her garden with wild-flower seeds;</l>
+        <l n="3" real="xx+-xxxx" met="-+-+-+-+">Not too shallow, and not too deep,</l>
+        <l n="4" real="xxx+-xxx" met="-+-+-+-+">And down came April -- drip -- drip -- drip.</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Up shone May, like gold, and soon</l>
+        <l n="6" real="xxx+-x+-x" met="-+-+-+-+-">Green as an arbour grew leafy June.</l>
+        <l n="7" real="xxx+-xxxx" met="-+-+-+-+-">And now all summer she sits and sews</l>
+        <l n="8" real="x+xx+-xxx" met="-+-+-+-+-">Where willow herb, comfrey, bugloss blows,</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">Teasle and pansy, meadowsweet,</l>
+        <l n="10" real="+-xxxxxx" met="-+-+-+-+">Campion, toadflax, and rough hawksbit;</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Brown bee orchis, and Peals of Bells;</l>
+        <l n="12" real="+-+-xxxx" met="-+-+-+-+">Clover, burnet, and thyme she smells;</l>
+        <l n="13" real="xxxx+xx+-x" met="--+-+-+-+-">Like Oberon&#x27;s meadows her garden is</l>
+        <l n="14" real="+-xxxxxx" met="-+-+-+-+">Drowsy from dawn to dusk with bees.</l>
+        <l n="15" real="xx+x+xx" met="+-+-+-+">Weeps she never, but sometimes sighs,</l>
+        <l n="16" real="xxxx+-xxxx" met="--+-+-+-+-">And peeps at her garden with bright brown eyes;</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">And all she has is all she needs --</l>
+        <l n="18" real="xxx+-xxx" met="-+-+-+-+">A poor Old Widow in her weeds.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sooeep" n="L12594">
+      <head>&#x27;Sooeep!&#x27;</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:sooeep</idno><idno type="laurel-id">L12594</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-xxx" met="--+-+-+-">Black as a chimney is his face,</l>
+        <l n="2" real="x+-xxx" met="--+-+-">And ivory white his teeth,</l>
+        <l n="3" real="xxxxxxxx" met="--+-+-+-">And in his brass-bound cart he rides,</l>
+        <l n="4" real="x+xxxx" met="--+-+-">The chestnut blooms beneath.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-x" met="--+-+-+-">&#x27;Sooeep, Sooeep!&#x27; he cries, and brightly peers</l>
+        <l n="6" real="xxxxxx" met="--+-+-">This way and that, to see</l>
+        <l n="7" real="xxxxx+-x" met="--+-+-+-">With his two light-blue shining eyes</l>
+        <l n="8" real="x+-xxx" met="--+-+-">What custom there may be.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx-+xxxx" met="--+-+-+-">And once inside the house, he&#x27;ll squat,</l>
+        <l n="10" real="xxxxxx" met="--+-+-">And drive his rods on high,</l>
+        <l n="11" real="xxx+-+-x" met="--+-+-+-">Till twirls his sudden sooty brush</l>
+        <l n="12" real="xxx+-x" met="--+-+-">Against the morning sky.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxx+-xxx" met="--+-+-+-">Then, &#x27;mid his bulging bags of soot,</l>
+        <l n="14" real="xxxx-+" met="--+-+-">With half the world asleep,</l>
+        <l n="15" real="xxxxxx-+" met="--+-+-+-">His small cart wheels him off again,</l>
+        <l n="16" real="xxxxxxx" met="-+-+-+-">Still hoarsely bawling, &#x27;Sooeep!&#x27;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxxx" met="--+-+-">With glass like a bull&#x27;s-eye,</l>
+        <l n="18" real="x+-xx" met="-+-+-">And shutters of green,</l>
+        <l n="19" real="xxxx" met="-+-+">Down on the cobbles</l>
+        <l n="20" real="x+--+" met="-+-+-">Lives Mrs. MacQueen,</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxx+-" met="-+-+-">At six she rises;</l>
+        <l n="22" real="xxxx" met="-+-+">At nine you see</l>
+        <l n="23" real="x+-xx" met="-+-+-">Her candle shine out</l>
+        <l n="24" real="xx+-x" met="-+-+-">In the linden tree:</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="xxxxx" met="-+-+-">And at half-past nine</l>
+        <l n="26" real="xxxxx" met="-+-+-">Not a sound is nigh</l>
+        <l n="27" real="xxxx+-" met="--+-+-">But the bright moon&#x27;s creeping</l>
+        <l n="28" real="-+xx" met="-+-+">Across the sky;</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a">
+        <l n="29" real="xxxx+-" met="--+-+-">Or a far dog baying;</l>
+        <l n="30" real="xxxxxx" met="--+-+-">Or a twittering bird</l>
+        <l n="31" real="xx+-x" met="-+-+-">In its drowsy nest,</l>
+        <l n="32" real="xx+-x-" met="--+-+-">In the darkness stirred;</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xxxx" met="-+-+">Or like the roar</l>
+        <l n="34" real="xx+-x" met="-+-+-">Of a distant sea</l>
+        <l n="35" real="xxxxx++" met="-+-+-+-">A long-drawn S-s-sh</l>
+        <l n="36" real="xx+-x" met="-+-+-">In the linden tree.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-green-orchard" n="L12595">
+      <head>The Little Green Orchard</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-little-green-orchard</idno><idno type="laurel-id">L12595</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abccddab">
+        <l n="1" real="xxx+x+-x" met="--+-+-+-">Some one is always sitting there,</l>
+        <l n="2" real="xx+-x+-" met="-+-+-+-">In the little green orchard;</l>
+        <l n="3" real="+xxxxx" met="-+-+-+">Even when the sun is high</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">In noon&#x27;s unclouded sky,</l>
+        <l n="5" real="x+-+-x" met="-+-+-+">And faintly droning goes</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">The bee from rose to rose,</l>
+        <l n="7" real="xxx+xx+-x" met="-+-+-+-+-">Some one in shadow is sitting there</l>
+        <l n="8" real="xx+-x+-" met="-+-+-+-">In the little green orchard.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abccddab">
+        <l n="9" real="xxxxx+-+-" met="-+-+-+-+-">Yes, when the twilight&#x27;s falling softly</l>
+        <l n="10" real="xx+-x+-" met="-+-+-+-">In the little green orchard;</l>
+        <l n="11" real="xxxx-+" met="-+-+-+">When the grey dew distills</l>
+        <l n="12" real="x+-+xx" met="-+-+-+">And every flower-cup fills;</l>
+        <l n="13" real="xxx+-x" met="-+-+-+">When the last blackbird says,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">&#x27;What - what!&#x27; and goes her way - ssh!</l>
+        <l n="15" real="xxx+-+-+-" met="-+-+-+-+-">I have heard voices calling softly</l>
+        <l n="16" real="xx+-x+-" met="-+-+-+-">In the little green orchard</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abccddab">
+        <l n="17" real="xxxx-+x+x" met="-+-+-+-+-">Not that I am afraid of being there,</l>
+        <l n="18" real="xx+-x+-" met="-+-+-+-">In the little green orchard;</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">Why, when the moon&#x27;s been bright,</l>
+        <l n="20" real="+-x+-x" met="-+-+-+">Shedding her lonesome light,</l>
+        <l n="21" real="xxxxx" met="+-+-+">And moths like ghosties come,</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">And the horned snail leaves home:</l>
+        <l n="23" real="xxx+-x+-x" met="-+-+-+-+-">I&#x27;ve sat there, whispering and listening there,</l>
+        <l n="24" real="xx+-x+-" met="-+-+-+-">In the little green orchard.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abccddab">
+        <l n="25" real="+-xxxx+-x" met="-+-+-+-+-">Only it&#x27;s strange to be feeling there,</l>
+        <l n="26" real="xx+-x+-" met="-+-+-+-">In the little green orchard;</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">Whether you paint or draw,</l>
+        <l n="28" real="x+-xxx" met="-+-+-+">Dig, hammer, chop or saw;</l>
+        <l n="29" real="xxxx-+" met="-+-+-+">When you are most alone,</l>
+        <l n="30" real="xxx+-x" met="-+-+-+">All but the silence gone...</l>
+        <l n="31" real="xxx+-x+-x" met="-+-+-+-+-">Some one is watching and waiting there,</l>
+        <l n="32" real="xx+-x+-" met="-+-+-+-">In the little green orchard.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poor-miss-7" n="L12596">
+      <head>Poor &#x27;Miss 7&#x27;</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:poor-miss-7</idno><idno type="laurel-id">L12596</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ab--aaab">
+        <l n="1" real="xx-+xx" met="-+-+-+">Lone and alone she lies,</l>
+        <l n="2" real="xx" met="-+">Poor Miss 7,</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">Five steep flights from the earth,</l>
+        <l n="4" real="xxx+-" met="+-+-+">And one from heaven;</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Dark hair and dark brown eyes, -</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Not to be sad she tries,</l>
+        <l n="7" real="xxx+-x" met="-+-+-+">Still - still it&#x27;s lonely lies</l>
+        <l n="8" real="xx" met="-+">Poor Miss 7.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab--a-ab">
+        <l n="9" real="xxxxxx" met="-+-+-+">One day-long watch hath she,</l>
+        <l n="10" real="xx" met="-+">Poor Miss 7,</l>
+        <l n="11" real="xxx+-x" met="-+-+-+">Not in some orchard sweet</l>
+        <l n="12" real="x+-+-" met="+-+-+">In April Devon -</l>
+        <l n="13" real="xxxxxx" met="-+-+-+">Just four blank walls to see,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">And dark come shadowily,</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">No moon, no stars, ah me!</l>
+        <l n="16" real="xx" met="-+">Poor Miss 7.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ab-aaaab">
+        <l n="17" real="xxxx-+" met="-+-+-+">And then to wake again,</l>
+        <l n="18" real="xx" met="-+">Poor Miss 7,</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">To the cold night, to have</l>
+        <l n="20" real="+-xx+-" met="-+-+-+">Sour physic given;</l>
+        <l n="21" real="xxxxxx" met="-+-+-+">Out of some dream of pain,</l>
+        <l n="22" real="xxx+xx" met="-+-+-+">Then strive long hours in vain</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">Deep dreamless sleep to gain:</l>
+        <l n="24" real="xx" met="-+">Poor Miss 7.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ab--aaab">
+        <l n="25" real="x+-+-x" met="-+-+-+">Yet memory softly sings</l>
+        <l n="26" real="xx" met="-+">Poor Miss 7</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">Songs full of love and peace</l>
+        <l n="28" real="xxx+-" met="+-+-+">And gladness even;</l>
+        <l n="29" real="x+x+-x" met="-+-+-+">Clear flowers and tiny wings,</l>
+        <l n="30" real="x+-+-x" met="-+-+-+">All tender, lovely things,</l>
+        <l n="31" real="xxx+-x" met="-+-+-+">Hope to her bosom brings -</l>
+        <l n="32" real="+-x" met="-+-">Happy Miss 7.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sam" n="L12597">
+      <head>Sam</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:sam</idno><idno type="laurel-id">L12597</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-----a-a-b-b-c-c-d-d-e-e-f-f-g-g">
+        <l n="1" real="xxxxx+-" met="+-+-+-+">When Sam goes back in memory,</l>
+        <l n="2" real="xxxxxx" met="--+-+-">It is to where the sea</l>
+        <l n="3" real="xxx+-+-x" met="-+-+-+-+">Breaks on the shingle, emerald-green,</l>
+        <l n="4" real="xxx+--" met="--+-+-">In white foam, endlessly;</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">He says - with small brown eye on mine-</l>
+        <l n="6" real="xxxx-+" met="--+-+-">&#x27;I used to keep awake,</l>
+        <l n="7" real="xxxx+-xxx" met="-+-+-+-+-">And lean from my window in the moon,</l>
+        <l n="8" real="+-x+-x" met="--+-+-">Watching those billows break.</l>
+        <l n="9" real="xxx+-+-x" met="-+-+-+-+">And half a million tiny hands,</l>
+        <l n="10" real="xxxxxx" met="--+-+-">And eyes, like sparks of frost,</l>
+        <l n="11" real="xxxx+-xxxx" met="--+-+-+-+-">Would dance and come tumbling into the moon,</l>
+        <l n="12" real="x+-+-x" met="--+-+-">On every breaker tossed.</l>
+        <l n="13" real="xx-+xxxx" met="-+-+-+-+">And all across from star to star,</l>
+        <l n="14" real="xxx+-x" met="--+-+-">I&#x27;ve seen the watery sea,</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">With not a single ship in sight,</l>
+        <l n="16" real="x+-xxx" met="--+-+-">Just ocean there, and me;</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">And heard my father snore. And once,</l>
+        <l n="18" real="xxxx-+" met="--+-+-">As sure as I&#x27;m alive,</l>
+        <l n="19" real="xxx+-xxx" met="-+-+-+-+">Out of those wallowing, moon-flecked waves</l>
+        <l n="20" real="xxx+xx" met="--+-+-">I saw a mermaid dive;</l>
+        <l n="21" real="xx+-xxxx" met="-+-+-+-+">Head and shoulders above the wave,</l>
+        <l n="22" real="xxxxxx" met="--+-+-">Plain as I now see you,</l>
+        <l n="23" real="+-xxxxxx" met="-+-+-+-+">Combing her hair, now back, now front,</l>
+        <l n="24" real="xxx+-x" met="--+-+-">Her two eyes peeping through;</l>
+        <l n="25" real="+-xxxxx" met="+-+-+-+">Calling me, &#x27;Sam!&#x27; -quietlike- &#x27;Sam!&#x27;...</l>
+        <l n="26" real="xxx+-x" met="--+-+-">But me .... I never went,</l>
+        <l n="27" real="+--+xxxx" met="-+-+-+-+">Making believe I kind of thought</l>
+        <l n="28" real="xxxxxx" met="--+-+-">&#x27;Twas some one else she meant....</l>
+        <l n="29" real="+-+-xxx" met="+-+-+-+">Wonderful lovely there she sat,</l>
+        <l n="30" real="+-xx-+" met="--+-+-">Singing the night away,</l>
+        <l n="31" real="xxxxxxxxx" met="-+-+-+-+-">All in the solitudinous sea</l>
+        <l n="32" real="xxx+-x" met="--+-+-">Of that there lonely bay.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="33" real="xxxxx+-x" met="-+-+-+-+">P&#x27;raps,&#x27; and he&#x27;d smooth his hairless mouth,</l>
+        <l n="34" real="xxxxxx" met="--+-+-">&#x27;P&#x27;raps, if &#x27;twere now, my son,</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">Praps, if I heard a voice say, &#x27;Sam!&#x27;...</l>
+        <l n="36" real="+-xxxx" met="--+-+-">Morning would find we gone.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="andy-battle" n="L12598">
+      <head>Andy Battle</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:andy-battle</idno><idno type="laurel-id">L12598</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababab">
+        <l n="1" real="xxxxxx+-+-x" met="-+-+-+-+-+-">Once and there was a young sailor, yeo ho!</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">And he sailed out over the say</l>
+        <l n="3" real="xxxxx+-xx+-x" met="--+-+-+-+-+-">For the isles where pink coral and palm branches blow,</l>
+        <l n="4" real="xx+xxxxxx" met="-+-+-+-+-">And the fire-flies turn night into day,</l>
+        <l n="5" real="+-x" met="-+-">Yeo ho!</l>
+        <l n="6" real="xx+xxxxxx" met="-+-+-+-+-">And the fire-flies turn night into day.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababab">
+        <l n="7" real="xx+-xxxx+-+-x" met="-+-+-+-+-+-+-">But the Dolphin went down in a tempest, yeo ho!</l>
+        <l n="8" real="xxx-++--+" met="-+-+-+-+-">And with three forsook sailors ashore,</l>
+        <l n="9" real="xxxxxxx+-xx" met="-+-+-+-+-+-">The portingales took him wh&#x27;ere sugar-canes grow,</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">Their slave for to be evermore,</l>
+        <l n="11" real="+-x" met="-+-">Yeo ho!</l>
+        <l n="12" real="xxxxx+-x" met="-+-+-+-+">Their slave for to be evermore.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababab">
+        <l n="13" real="xx+-x+-x+-+-x" met="-+-+-+-+-+-+-">With his musket for mother and brother, yeo ho!</l>
+        <l n="14" real="xxxx+-x" met="+-+-+-+">He warred with the Cannibals drear,</l>
+        <l n="15" real="x+-x+-xxxxx" met="-+-+-+-+-+-">in forests where panthers pad soft to and fro,</l>
+        <l n="16" real="xxxxxxxxx" met="-+-+-+-+-">And the Pongo shakes noonday with fear,</l>
+        <l n="17" real="+-x" met="-+-">Yeo ho!</l>
+        <l n="18" real="xxxxxxxxx" met="-+-+-+-+-">And the Pongo shakes noonday with fear.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababab">
+        <l n="19" real="xxxx-+x+-xx" met="-+-+-+-+-+-">Now lean with long travail, all wasted with woe,</l>
+        <l n="20" real="xx+-xxxxx" met="-+-+-+-+-">With a monkey for messmate and friend,</l>
+        <l n="21" real="xxxxxxxxxxx" met="-+-+-+-+-+-">He sits &#x27;neath the Cross in the cankering snow,</l>
+        <l n="22" real="xxxx+-x" met="+-+-+-+">And waites for his sorrowful end,</l>
+        <l n="23" real="+-x" met="-+-">Yeo ho!</l>
+        <l n="24" real="xxxx+-x" met="+-+-+-+">And waits for his sorrowful end.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-old-soldier" n="L12599">
+      <head>The Old Soldier</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-old-soldier</idno><idno type="laurel-id">L12599</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb-">
+        <l n="1" real="xxxx+-xxx" met="-+-+-+-+-">There came an Old Soldier to my door,</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Asked a crust, and asked no more;</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">The wars had thinned him very bare,</l>
+        <l n="4" real="+-x+-+-x" met="-+-+-+-+">Fighting and marching everywhere,</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">With a Fol rol dol rol di do.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb-">
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">With nose stuck out, and cheek sunk in,</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">A bristling beard upon his chin -</l>
+        <l n="8" real="+x+-xxxx" met="-+-+-+-+">Powder and bullets and wounds and drums</l>
+        <l n="9" real="xxxx+-xxxx" met="--+-+-+-+-">Had come to that Soldier as suchlike comes -</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">With a Fol rol dol rol di do.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb-">
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">&#x27;Twas sweet and fresh with buds of May,</l>
+        <l n="12" real="++-x+-x" met="+-+-+-+">Flowers springing from every spray;</l>
+        <l n="13" real="xxxxxxx+-x" met="--+-+-+-+-">And when he had supped the Old Soldier trolled</l>
+        <l n="14" real="xxxxx+xx" met="-+-+-+-+">The song of youth that never grows old,</l>
+        <l n="15" real="xxxxxxx" met="+-+-+-+">Called Fol rol dol rol di do.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb-">
+        <l n="16" real="xxxxxxxxx" met="-+-+-+-+-">Most of him rags, and all of him lean,</l>
+        <l n="17" real="xxxxx+-xxxx" met="-+-+-+-+-+-">And the belt round his belly drawn tightsome in</l>
+        <l n="18" real="x+-xxx+-x" met="-+-+-+-+-">He lifted his peaked old grizzled head,</l>
+        <l n="19" real="xxxx+-xxxx" met="--+-+-+-+-">And these were the very same words he said-</l>
+        <l n="20" real="xxxxxxx" met="+-+-+-+">A Fol-rol-dol-rol-di-do.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-picture" n="L12600">
+      <head>The Picture</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-picture</idno><idno type="laurel-id">L12600</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-+-" met="-+--+--+">Here is a sea-legged sailor,</l>
+        <l n="2" real="xxx+-x" met="+-+--+">Come to this tottering Inn,</l>
+        <l n="3" real="xxxxxxxxx+-" met="-+--+--+--+">Just when the bronze on its signboard is fading,</l>
+        <l n="4" real="xxxxx+--+" met="--+--+--+">And the black shades of evening begin.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxxxx" met="--+--+--+-">With his head on thick paws sleeps a sheep-dog,</l>
+        <l n="6" real="xxx+-xx" met="+--+--+">There stoops the Shepherd, and see,</l>
+        <l n="7" real="x+-x+-xx+-+-" met="--+--+--+--+">All follow-my-leader the ducks waddle homeward,</l>
+        <l n="8" real="xxx+-xx" met="+--+--+">Under the sycamore tree.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aaa">
+        <l n="9" real="+-xxxxxx+-" met="--+--+--+-">Very brown is the face of the Sailor,</l>
+        <l n="10" real="x+-x+-xx" met="-+--+--+">His bundle is crimson, and green</l>
+        <l n="11" real="xxx+-xxxxxx+-" met="--+--+--+--+-">Are the thick leafy boughs that hang dense o&#x27;er the Tavern,</l>
+        <l n="12" real="xxxx+xxx" met="-+--+--+">And blue the far meadows between.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxx+-" met="--+--+--+-">But the Crust, Ale and Cheese of the Sailor,</l>
+        <l n="14" real="xxxx+-xx" met="-+--+--+">His Mug and his platter of Delf,</l>
+        <l n="15" real="xx+-xxxx+-xxx" met="--+--+--+--+-">And the crescent to light home the Shepherd and Sheep-dog</l>
+        <l n="16" real="x+-xxx-+" met="-+--+--+">The painter has kept to himself.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-old-cupid" n="L12601">
+      <head>The Little Old Cupid</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-little-old-cupid</idno><idno type="laurel-id">L12601</idno><note type="metre">anapaestic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-a-b-b">
+        <l n="1" real="xx+-x+-" met="--+--+-">&#x27;Twas a very small garden;</l>
+        <l n="2" real="xxxxx" met="-+--+">The paths were of stone,</l>
+        <l n="3" real="+--xx" met="-+--+">Scattered with leaves,</l>
+        <l n="4" real="xxx-+" met="-+--+">With moss overgrown;</l>
+        <l n="5" real="xx+-x+-" met="--+--+-">And a little old Cupid</l>
+        <l n="6" real="xxxxx" met="-+--+">Stood under a tree,</l>
+        <l n="7" real="xxx+-x" met="--+--+">With a small broken bow</l>
+        <l n="8" real="xx+-xx" met="--+--+">He stood aiming at me.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="---aab-b">
+        <l n="9" real="xxxxx" met="-+--+">The dog-rose in briars</l>
+        <l n="10" real="xxxxx" met="-+--+">Hung over the weeds,</l>
+        <l n="11" real="xxxxx" met="-+--+">The air was aflock</l>
+        <l n="12" real="xx+-xx" met="--+--+">With the floating of seed,</l>
+        <l n="13" real="xx+-x+-" met="--+--+-">And a little old Cupid</l>
+        <l n="14" real="xxxxx" met="-+--+">Stood under a tree,</l>
+        <l n="15" real="xxx+-x" met="--+--+">With a small broken bow</l>
+        <l n="16" real="xx+-xx" met="--+--+">He stood aiming at me.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a-b-b">
+        <l n="17" real="xxxxx+-" met="--+--+-">The dovecote was tumbling,</l>
+        <l n="18" real="x+-x" met="+--+">The fountain dry,</l>
+        <l n="19" real="xxxx+-" met="--+--+">A wind in the orchard</l>
+        <l n="20" real="x+--x" met="-+--+">Went whispering by;</l>
+        <l n="21" real="xx+-x+-" met="--+--+-">And a little old Cupid</l>
+        <l n="22" real="xxxxx" met="-+--+">Stood under a tree,</l>
+        <l n="23" real="xxx+-x" met="--+--+">With a small broken bow</l>
+        <l n="24" real="xx+-xx" met="--+--+">He stood aiming at me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="king-david" n="L12602">
+      <head>King David</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:king-david</idno><idno type="laurel-id">L12602</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-xx+-x" met="--+-+-+-">King David was a sorrowful man:</l>
+        <l n="2" real="xxxx+-xx" met="--+-+-+-">No cause for his sorrow had he;</l>
+        <l n="3" real="xxxxx+-xx+-x" met="--+-+-+-+-+-">And he called for the music of a hundred harps,</l>
+        <l n="4" real="xxx+-x-" met="-+-+-+-">To ease his melancholy.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxx+-" met="--+-+-+-">They played till they all fell silent:</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Played-and play sweet did they;</l>
+        <l n="7" real="xx+-x+-xxxx+-" met="-+-+-+-+-+-+-">But the sorrow that haunted the heart of King David</l>
+        <l n="8" real="xxxx-+" met="-+-+-+">They could not charm away.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-a">
+        <l n="9" real="xxxxx+-" met="-+-+-+-">He rose; and in his garden</l>
+        <l n="10" real="xxxx-+" met="-+-+-+">Walked by the moon alone,</l>
+        <l n="11" real="x+-+-xx+-x" met="--+-+-+-+-">A nightingale hidden in a cypress-tree</l>
+        <l n="12" real="xx-xxx" met="-+-+-+">Jargoned on and on.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="x+-+-xxx" met="--+-+-+-">King David lifted his sad eyes</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">Into the dark-boughed tree-</l>
+        <l n="15" real="xxx+-xxxx" met="-+-+-+-+-">&#x27;&#x27;Tell me, thou little bird that singest,</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Who taught my grief to thee?&#x27;</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="17" real="xxxxxx+-" met="--+-+-+-">But the bird in no wise heeded</l>
+        <l n="18" real="xxxxxxxxx" met="-+-+-+-+-">And the king in the cool of the moon</l>
+        <l n="19" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Hearkened to the nightingale&#x27;s sorrowfulness,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Till all his own was gone.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-old-house" n="L12603">
+      <head>The Old House</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-old-house</idno><idno type="laurel-id">L12603</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeaa">
+        <l n="1" real="x+-+-xxxx" met="-+-+-+-+-">A very, very old house I know-</l>
+        <l n="2" real="x+x++-x" met="+-+-+-+">And ever so many people go,</l>
+        <l n="3" real="xxxx-+xx" met="-+-+-+-+">Past the small lodge, forlorn and still,</l>
+        <l n="4" real="xxx+-+-x" met="-+-+-+-+">Under the heavy branches, till</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Comes the blank wall, and there&#x27;s the door.</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Go in they do; come out no more.</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">No voice says aught; no spark of light</l>
+        <l n="8" real="-+x+xxxx" met="-+-+-+-+">Across that threshold cheers the sight;</l>
+        <l n="9" real="+-x+-xxx" met="-+-+-+-+">Only the evening star on high</l>
+        <l n="10" real="x+-xx+-x" met="-+-+-+-+">Less lonely makes a lonely sky,</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">As, one by one, the people go</l>
+        <l n="12" real="xxx+-xxxx" met="-+-+-+-+-">Into that very old house I know.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="unstooping" n="L12604">
+      <head>Unstooping</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:unstooping</idno><idno type="laurel-id">L12604</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-bcbcd-d">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">Low on his fours the Lion</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">Treads with the surly Bear&#x27;,</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">But Men straight upward from the dust</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Walk with their heads in air;</l>
+        <l n="5" real="xxxxx+-" met="-+-+-+-">The free sweet winds of heaven,</l>
+        <l n="6" real="x+xxxx" met="-+-+-+">The sunlight from on high</l>
+        <l n="7" real="xxxxxxxx" met="--+-+-+-">Beat on their clear bright cheeks and brows</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">As they go striding by;</l>
+        <l n="9" real="xxxxx+-" met="-+-+-+-">The doors of all their houses</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">They arch so they may go,</l>
+        <l n="11" real="+-xxxxx" met="-+-+-+-">Uplifted o&#x27;er the four-foot beasts,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Unstooping, to and fro.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="all-but-blind" n="L12605">
+      <head>All but Blind</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:all-but-blind</idno><idno type="laurel-id">L12605</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx" met="+-+">All but blind</l>
+        <l n="2" real="xxxx-x" met="--+-+-">In his cambered hole</l>
+        <l n="3" real="xxx" met="+-+">Gropes for worms</l>
+        <l n="4" real="xxx-x" met="-+-+-">The four-clawed Mole.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx" met="+-+">All but blind</l>
+        <l n="6" real="xx+-x" met="-+-+-">In the evening sky</l>
+        <l n="7" real="x+-x" met="-+-+">The hooded Bat</l>
+        <l n="8" real="x+-x" met="-+-+">Twirls softly by.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxx" met="+-+">All but blind</l>
+        <l n="10" real="xx+-x" met="-+-+-">In the burning day</l>
+        <l n="11" real="xxx+-" met="-+-+-">The Barn-Owl blunders</l>
+        <l n="12" real="xxx" met="+-+">On her way.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxx" met="-+-+">And blind as are</l>
+        <l n="14" real="xxxx" met="-+-+">These three to me,</l>
+        <l n="15" real="xxx+x" met="-+-+-">So blind to someone</l>
+        <l n="16" real="xxx" met="+-+">I must be.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nicholas-nye" n="L12606">
+      <head>Nicholas Nye</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:nicholas-nye</idno><idno type="laurel-id">L12606</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ab-b-cac">
+        <l n="1" real="+-x-+xxxx" met="-+-+-+-+-">Thistle and darnell and dock grew there,</l>
+        <l n="2" real="xxxxx+-xx" met="-+-+-+-+-">And a bush, in the corner, of may,</l>
+        <l n="3" real="xx+-xxxxx" met="-+-+-+-+-">On the orchard wall I used to sprawl</l>
+        <l n="4" real="xx+-xxxx" met="-+-+-+-+">In the blazing heat of the day;</l>
+        <l n="5" real="x-+xx-+" met="+-+-+-+">Half asleep and half awake,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">While the birds went twittering by,</l>
+        <l n="7" real="x+xxxxxxx" met="-+-+-+-+-">And nobody there my lone to share</l>
+        <l n="8" real="x+--x" met="-+-+-">But Nicholas Nye.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----a-a">
+        <l n="9" real="+-xxxxx" met="+-+-+-+">Nicholas Nye was lean and gray,</l>
+        <l n="10" real="xxxxx" met="-+-+-">Lame of leg and old,</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">More than a score of donkey&#x27;s years</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">He had been since he was foaled;</l>
+        <l n="13" real="xxx+-+-xx" met="-+-+-+-+-">He munched the thistles, purple and spiked,</l>
+        <l n="14" real="x-+xxx" met="--+-+-">Would sometimes stoop and sigh,</l>
+        <l n="15" real="xxxxxxxxx" met="-+-+-+-+-">And turn to his head, as if he said,</l>
+        <l n="16" real="x+--x" met="-+-+-">&quot;Poor Nicholas Nye!&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a-b-b">
+        <l n="17" real="-+xx+xxxxx+x" met="--+-+-+-+-+-">Alone with his shadow he&#x27;d drowse in the meadow,</l>
+        <l n="18" real="+-+-xx" met="--+-+-">Lazily swinging his tail,</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">At break of day he used to bray,--</l>
+        <l n="20" real="xxx+-xx" met="+-+-+-+">Not much too hearty and hale;</l>
+        <l n="21" real="xx+-+-xxxxx" met="-+-+-+-+-+-">But a wonderful gumption was under his skin,</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">And a clean calm light in his eye,</l>
+        <l n="23" real="xxxxxxx" met="+-+-+-+">And once in a while; he&#x27;d smile:--</l>
+        <l n="24" real="x+--x" met="-+-+-">Would Nicholas Nye.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a-bbb">
+        <l n="25" real="xxx+-xxxx" met="-+-+-+-+-">Seem to be smiling at me, he would,</l>
+        <l n="26" real="xxxxx+-xx" met="-+-+-+-+-">From his bush in the corner, of may,--</l>
+        <l n="27" real="+-xxxx+-xx" met="--+-+-+-+-">Bony and ownerless, widowed and worn,</l>
+        <l n="28" real="xxx+-xx" met="+-+-+-+">Knobble-kneed, lonely and gray;</l>
+        <l n="29" real="xxxxxxxx" met="-+-+-+-+">And over the grass would seem to pass</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">&#x27;Neath the deep dark blue of the sky,</l>
+        <l n="31" real="+-x+-xxxxx" met="--+-+-+-+-">Something much better than words between me</l>
+        <l n="32" real="x+--x" met="-+-+-">And Nicholas Nye.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a-b-b">
+        <l n="33" real="xxxxxx+-x" met="-+-+-+-+-">But dusk would come in the apple boughs,</l>
+        <l n="34" real="xxxxxxx" met="+-+-+-+">The green of the glow-worm shine,</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">The birds in nest would crouch to rest,</l>
+        <l n="36" real="xxxxxx" met="--+-+-">And home I&#x27;d trudge to mine;</l>
+        <l n="37" real="xxxx+xxxx" met="-+-+-+-+-">And there, in the moonlight, dark with dew,</l>
+        <l n="38" real="+-xxxxxx" met="-+-+-+-+">Asking not wherefore nor why,</l>
+        <l n="39" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Would brood like a ghost, and as still as a post,</l>
+        <l n="40" real="x+--x" met="-+-+-">Old Nicholas Nye.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-pigs-and-the-charcoal-burner" n="L12607">
+      <head>The Pigs and the Charcoal - Burner</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-pigs-and-the-charcoal-burner</idno><idno type="laurel-id">L12607</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx+-x" met="-+-+-+-+-">The old Pig said to the little pigs,</l>
+        <l n="2" real="xx+-x+-xx" met="-+-+-+-+-">&#x27;In the forest is truffles and mast,</l>
+        <l n="3" real="+-xxxx+-x" met="-+-+-+-+-">Follow me then, all ye little pigs,</l>
+        <l n="4" real="+-xx" met="--+-">Follow me fast!&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+x+-xxxx" met="-+-+-+-+-">The Charcoal-burner sat in the shade</l>
+        <l n="6" real="xxxxxx" met="--+-+-">With his chin on his thumb,</l>
+        <l n="7" real="xxxxxxx+-x" met="--+-+-+-+-">And saw the big Pig and the little pigs,</l>
+        <l n="8" real="xxx" met="-+-">Chuffling come.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxx+-x" met="-+-+-+-+-">He watched &#x27;neath a green and giant bough,</l>
+        <l n="10" real="xxxxxx" met="--+-+-">And the pigs in the ground</l>
+        <l n="11" real="xx+-xxxxx" met="-+-+-+-+-">Made a wonderful grizzling and gruzzling</l>
+        <l n="12" real="xx+-x" met="-+-+-">And a greedy sound.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">And when, full-fed they were gone, and Night</l>
+        <l n="14" real="x-x+-x" met="--+-+-">Walked her starry ways,</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">He stared with his cheeks in his hands</l>
+        <l n="16" real="xx+-x" met="-+-+-">At his sullen blaze.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="five-eyes" n="L12608">
+      <head>Five Eyes</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:five-eyes</idno><idno type="laurel-id">L12608</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcccddeef-f">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">In Hans&#x27; old Mill his three black cats</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">Watch the bins for the thieving rats.</l>
+        <l n="3" real="+-xxxxxxx" met="-+-+-+-+-">Whisker and claw, they crouch in the night,</l>
+        <l n="4" real="xxxxxxxxx" met="-+-+-+-+-">Their five eyes smouldering green and bright:</l>
+        <l n="5" real="xxx+xxxx" met="-+-+-+-+">Squeaks from the flour sacks, squeaks from where</l>
+        <l n="6" real="xxxxxx+-x" met="-+-+-+-+-">The cold wind stirs on the empty stair,</l>
+        <l n="7" real="+-x+-+-x" met="-+-+-+-+">Squeaking and scampering, everywhere.</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">Then down they pounce, now in, now out,</l>
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">At whisking tail, and sniffing snout;</l>
+        <l n="10" real="xxxxxx-+" met="-+-+-+-+">While lean old Hans he snores away</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Till peep of light at break of day;</l>
+        <l n="12" real="xxxxxx+-x" met="-+-+-+-+-">Then up he climbs to his creaking mill,</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Out come his cats all grey with meal --</l>
+        <l n="14" real="xxx+xxxxx" met="-+-+-+-+-">Jekkel, and Jessup, and one-eyed Jill.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="grim" n="L12609">
+      <head>Grim</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:grim</idno><idno type="laurel-id">L12609</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-aba-b-b-c-c">
+        <l n="1" real="-+xxx+-+" met="-+-+-+-+">Beside the blaze of forty fires</l>
+        <l n="2" real="+-xxx" met="-+-+-">Giant Grim doth sit,</l>
+        <l n="3" real="+-xxx+-x" met="-+-+-+-+">Roasting a thick-woolled mountain sheep</l>
+        <l n="4" real="xxx+-x" met="--+-+-">Upon an iron spit.</l>
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">Above him wheels the winter sky,</l>
+        <l n="6" real="xxx+-x" met="--+-+-">Beneath him, fathoms deep,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">Lies hidden in the valley mists</l>
+        <l n="8" real="x+-x-+" met="--+-+-">A village fast asleep ---</l>
+        <l n="9" real="xxx+-+-x" met="-+-+-+-+">Save for one restive hungry dog</l>
+        <l n="10" real="x+-xxx" met="--+-+-">That, snuffing towards the height,</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">Smells Grim&#x27;s broiled supper-meat, and spies</l>
+        <l n="12" real="xx++-x" met="--+-+-">His watch-fire twinkling bright.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tit-for-tat" n="L12610">
+      <head>Tit for Tat</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:tit-for-tat</idno><idno type="laurel-id">L12610</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a--a">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">Have you been catching of fish, Tom Noddy?</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">Have you snared a weeping hare?</l>
+        <l n="3" real="xx+-xxxxxxx" met="-+-+-+-+-+-">Have you whistled, &#x27;No Nunny,&#x27;and gunned a poor</l>
+        <l n="4" real="+-" met="-+">bunny,</l>
+        <l n="5" real="xx+-xxxx" met="--+-+-+-">Or a blinded bird of the air?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--a--a">
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Have you trod like a murderer through the green</l>
+        <l n="7" real="x" met="+">woods,</l>
+        <l n="8" real="xx+-xxxx" met="--+-+-+-">Through the dewy deep dingles and glooms,</l>
+        <l n="9" real="x+-x+-xxxx" met="-+-+-+-+-+">While every small creature screamed shrill to Dame</l>
+        <l n="10" real="+-" met="-+">Nature,</l>
+        <l n="11" real="xxxxx" met="-+-+-">&#x27;He comes --and he comes!&#x27;?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="12" real="+-x+-xxxxx" met="-+-+-+-+-+">Wonder I very much do, Tom Noddy,</l>
+        <l n="13" real="x+xxxxx" met="-+-+-+-">If ever, when you are a-roam,</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">An Ogre from space will stoop a lean face</l>
+        <l n="15" real="xxxx" met="--+-">And lug you home:</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="16" real="xxxxxxxxx" met="+-+-+-+-+">Lug you home over his fence, Tom Noddy,</l>
+        <l n="17" real="xxxxxx" met="--+-+-">Of thorn-sticks nine yards high,</l>
+        <l n="18" real="xxxxxxxx+x" met="-+-+-+-+-+">With your bent knees strung round his old iron gun</l>
+        <l n="19" real="xxxx+-x" met="-+-+-+-">And your head dan-dangling by:</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="20" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And hang you up stiff on a hook, Tom Noddy,</l>
+        <l n="21" real="xxxx+-x" met="-+-+-+-">From a stone-cold pantry shelf,</l>
+        <l n="22" real="xxxxxxx+-x" met="-+-+-+-+-+">Whence your eyes will glare in an empty stare,</l>
+        <l n="23" real="xxx-+-" met="--+-+-">Till you&#x27;re cooked yourself!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="summer-evening" n="L12611">
+      <head>Summer Evening</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:summer-evening</idno><idno type="laurel-id">L12611</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="x+-xxx+-x" met="-+-+-+-+-">The sandy cat by the Farmer&#x27;s chair</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">Mews at his knee for dainty fare;</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">Old Rover in his moss-greened house</l>
+        <l n="4" real="+-xxxxxxx" met="-+-+-+-+-">Mumbles a bone, and barks at a mouse</l>
+        <l n="5" real="xx+-xx+-x" met="-+-+-+-+-">In the dewy fields the cattle lie</l>
+        <l n="6" real="+-xxxx+-x" met="-+-+-+-+-">Chewing the cud &#x27;neath a fading sky</l>
+        <l n="7" real="+-x+-xxx" met="-+-+-+-+">Dobbin at manger pulls his hay:</l>
+        <l n="8" real="xx-+-+-x" met="-+-+-+-+">Gone is another summer&#x27;s day.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="earth-folk" n="L12612">
+      <head>Earth Folk</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:earth-folk</idno><idno type="laurel-id">L12612</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">The cat she walks on padded claws,</l>
+        <l n="2" real="xxxxxx+-x" met="-+-+-+-+-">The wolf on the hills lays stealthy paws,</l>
+        <l n="3" real="+-xxxxxx" met="-+-+-+-+">Feathered birds in the rain-sweet sky</l>
+        <l n="4" real="xxxxxxxxxx" met="--+-+-+-+-">At their ease in the air, flit low, flit high.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">The oak&#x27;s blind, tender roots pierce deep,</l>
+        <l n="6" real="xxx+xxx" met="+-+-+-+">His green crest towers, dimmed in sleep,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Under the stars whose thrones are set</l>
+        <l n="8" real="x+xx+-x" met="+-+-+-+">Where never prince hath journeyed yet.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="at-the-keyhole" n="L12613">
+      <head>At the Keyhole</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:at-the-keyhole</idno><idno type="laurel-id">L12613</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="xxxxxx+-" met="--+-+-+-">&#x27;Grill me some bones,&#x27; said the Cobbler,</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">&#x27;Some bones, my pretty Sue;</l>
+        <l n="3" real="x+xx+-xxxx" met="--+-+-+-+-">I&#x27;m tired of my lonesome with heels and soles,</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">Springsides and uppers too;</l>
+        <l n="5" real="xxxxxxx+-" met="-+-+-+-+-">A mouse in the wainscot is nibbling;</l>
+        <l n="6" real="xxxx+xx" met="-+-+-+-">A wind in the keyhole drones;</l>
+        <l n="7" real="xxxxxx+-+-" met="--+-+-+-+-">And a sheet webbed over my candle, Susie, ---</l>
+        <l n="8" real="xxxx" met="--+-">Grill me some bones!&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----a-a">
+        <l n="9" real="xxxxxx+-" met="--+-+-+-">&#x27;Grill me some bones,&#x27; said the Cobbler,</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">I sat at my tic-tac-to;</l>
+        <l n="11" real="xx+xxxxxxx" met="--+-+-+-+-">And a footstep came to my door and stopped,</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">And a hand groped to and fro;</l>
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">And I peered up over my boot and last;</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">And my feet went cold as stones:</l>
+        <l n="15" real="xxxxxx+x+-" met="--+-+-+-+-">I saw an eye at the keyhole, Susie! ---</l>
+        <l n="16" real="xxxx" met="--+-">Grill me some bones!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-old-stone-house" n="L12614">
+      <head>The Old Stone House</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-old-stone-house</idno><idno type="laurel-id">L12614</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccd-d">
+        <l n="1" real="+-xxxx+-xxx" met="+-+-+-+-+-+">Nothing on the grey roof, nothing on the brown,</l>
+        <l n="2" real="+-x+-+-xxxxx" met="-+-+-+-+-+-+">Only a little greening where the rain drips down;</l>
+        <l n="3" real="+xxxx+-+xxxxx" met="-+-+-+-+-+-+-">Nobody at the window, nobody at the door,</l>
+        <l n="4" real="+-x+-+-xxxxx" met="-+-+-+-+-+-+">Only a little hollow which a foot once wore;</l>
+        <l n="5" real="xxxxx+xx+xxxx" met="-+-+-+-+-+-+-">But still I tread on tiptoe, still tiptoe on I go,</l>
+        <l n="6" real="x+-xx+-xxxxx" met="-+-+-+-+-+-+">Past nettles, porch, and weedy well, for oh, I know</l>
+        <l n="7" real="xxxxx+-xxxxx" met="-+-+-+-+-+-+">A friendless face is peering, and a still clear eye</l>
+        <l n="8" real="x+-xxxxx" met="--+-+-+-">Peeps closely through the casement</l>
+        <l n="9" real="xxxxx" met="-+-+-">as my step goes by.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-ruin" n="L12615">
+      <head>The Ruin</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-ruin</idno><idno type="laurel-id">L12615</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddee">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">When the last colours of the day</l>
+        <l n="2" real="xxx+-+--+" met="-+-+-+-+-">Have from their burning ebbed away,</l>
+        <l n="3" real="xxx+xxx" met="+-+-+-+">About that ruin, cold and lone,</l>
+        <l n="4" real="x+-xxxxx" met="-+-+-+-+">The cricket shrills from stone to stone;</l>
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">And scattering o&#x27;er its darkened green,</l>
+        <l n="6" real="xxx+-xxx" met="-+-+-+-+">Bands of the fairies may be seen,</l>
+        <l n="7" real="+-x+x-xx" met="-+-+-+-+">Chattering like grasshoppers, their feet</l>
+        <l n="8" real="+-xxxxxxx" met="-+-+-+-+-">Dancing a thistledown dance round it:</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">While the great gold of the mild moon</l>
+        <l n="10" real="xxx+-+-x" met="-+-+-+-+">Tinges their tiny acorn shoon.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-ride-by-nights" n="L12616">
+      <head>The Ride-By-Nights</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-ride-by-nights</idno><idno type="laurel-id">L12616</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgg">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Up on their brooms the Witches stream,</l>
+        <l n="2" real="+-xxxx+-x" met="-+-+-+-+-">Crooked and black in the crescent&#x27;s gleam;</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">One foot high, and one foot low,</l>
+        <l n="4" real="+-xxxxx" met="+-+-+-+">Bearded, cloaked, and cowled, they go,</l>
+        <l n="5" real="x+-xxxxxx" met="-+-+-+-+-">&#x27;Neath Charlie&#x27;s Wain they twitter and tweet,</l>
+        <l n="6" real="x-+xxxx+-x" met="--+-+-+-+-">And away they swarm &#x27;neath the Dragon&#x27;s feet,</l>
+        <l n="7" real="xxxxx+-xxxx" met="-+-+-+-+-+-">With a whoop and a flutter they swing and sway,</l>
+        <l n="8" real="xxxxxx+-x" met="-+-+-+-+-">And surge pell-mell down the Milky Way.</l>
+        <l n="9" real="-+xxxx+-x" met="-+-+-+-+-">Betwixt the legs of the glittering Chair</l>
+        <l n="10" real="x+-xxxx+-x" met="--+-+-+-+-">They hover and squeak in the empty air.</l>
+        <l n="11" real="xxxxxx+-+" met="-+-+-+-+-">Then round they swoop past the glimmering Lion</l>
+        <l n="12" real="xxxxxxxx-+-" met="-+-+-+-+-+-">To where Sirius barks behind huge Orion;</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Up, then, and over to wheel amain,</l>
+        <l n="14" real="xxx+-xx-+" met="-+-+-+-+-">Under the silver, and home again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="peak-and-puke" n="L12617">
+      <head>Peak and Puke</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:peak-and-puke</idno><idno type="laurel-id">L12617</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-abbccddee--c-">
+        <l n="1" real="xx+-xxxxx" met="-+-+-+-+-">From his cradle in the glamourie</l>
+        <l n="2" real="xx+-xx+-" met="--+-+-+-">They have stolen my wee brother,</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">Housed a changeling in his swaddlings</l>
+        <l n="4" real="xxxxxx+-" met="--+-+-+-">For to fret my own poor mother.</l>
+        <l n="5" real="xxxx+-x" met="-+-+-+-">Pules it in the candle light</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">Wi&#x27; a cheek so lean and white,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">Chinkling up its eyne so wee</l>
+        <l n="8" real="+-xxxxx" met="-+-+-+-">Wailing shrill at her an&#x27; me.</l>
+        <l n="9" real="xx+-xxx" met="-+-+-+-">It we&#x27;ll neither rock nor tend</l>
+        <l n="10" real="xx+-+-x" met="-+-+-+-">Till the Silent Silent send,</l>
+        <l n="11" real="+-xx+-x" met="-+-+-+-">Lapping in their awesome arms</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">Him they stole with spells and charms,</l>
+        <l n="13" real="xxxxxxx+-" met="-+-+-+-+-">Till they take this changeling creature</l>
+        <l n="14" real="xxxx+-+-" met="--+-+-+-">Back to its own fairy nature --</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">Cry! Cry! As long as may be,</l>
+        <l n="16" real="xxxx+-+-" met="--+-+-+-">Ye shall ne&#x27;er be woman&#x27;s baby!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-changeling" n="L12618">
+      <head>The Changeling</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-changeling</idno><idno type="laurel-id">L12618</idno><note type="metre">anapaestic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="-+x-+" met="-+--+">&#x27;Ahoy, and ahoy!&#x27;</l>
+        <l n="2" real="x+-x+-" met="--+--+">&#x27;Twixt mocking and merry --</l>
+        <l n="3" real="-+x-+x" met="--+--+">&#x27;Ahoy and ahoy, there,</l>
+        <l n="4" real="xxxx+-" met="--+--+">Young man of the ferry!&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----a-a-b-b">
+        <l n="5" real="xxxxx" met="-+--+">She stood on the steps</l>
+        <l n="6" real="xx+--x" met="--+--+">In the watery gloom ---</l>
+        <l n="7" real="xxxx-+x" met="--+--+-">That Changeling --&#x27;Ahoy, there!&#x27;</l>
+        <l n="8" real="xx-xxx" met="--+--+">She called him to come.</l>
+        <l n="9" real="xxxxxx" met="--+--+">He came on the green wave,</l>
+        <l n="10" real="xxxxx" met="-+--+">He came on the grey,</l>
+        <l n="11" real="xxxx+-" met="--+--+">Where stooped that sweet lady</l>
+        <l n="12" real="xx+-x" met="-+--+">That still summer&#x27;s day.</l>
+        <l n="13" real="xxxxx" met="-+--+">He fell in a dream</l>
+        <l n="14" real="xx+--x" met="--+--+">Of her beautiful face,</l>
+        <l n="15" real="xxxxxx" met="--+--+">As she sat on the thwart</l>
+        <l n="16" real="xx-xxx" met="--+--+">And smiled in her place.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a-b-b">
+        <l n="17" real="x+-xxx" met="--+--+">No echo his oar woke,</l>
+        <l n="18" real="x+-xx" met="-+--+">Float silent did they,</l>
+        <l n="19" real="xx+-+-" met="--+--+">Past low-grazing cattle</l>
+        <l n="20" real="xxxxxx" met="--+--+">In the sweet of the hay.</l>
+        <l n="21" real="xxxxx" met="-+--+">And still in a dream</l>
+        <l n="22" real="xx+-xx" met="--+--+">At her beauty sat he,</l>
+        <l n="23" real="+-x+x" met="-+--+">Drifting stern foremost</l>
+        <l n="24" real="xxxxx" met="-+--+">Down -- down to the sea.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a-b-b-b">
+        <l n="25" real="xxxx" met="+--+">Come you, then: call,</l>
+        <l n="26" real="xx+x-+" met="--+--+">When the twilight apace</l>
+        <l n="27" real="x+xxx" met="-+--+">Brings shadow to brood</l>
+        <l n="28" real="xxxxxx" met="--+--+">On the loveliest face;</l>
+        <l n="29" real="xxxxx+-" met="--+--+-">You shall hear o&#x27;er the water</l>
+        <l n="30" real="xxxxx" met="-+--+">Ring faint in the grey ---</l>
+        <l n="31" real="-+x-+x" met="--+--+">&#x27;Ahoy, and ahoy, there!&#x27;</l>
+        <l n="32" real="x+--+" met="-+--+">And tremble away;</l>
+        <l n="33" real="-+x-+" met="-+--+">&#x27;Ahoy, and ahoy!...&#x27;</l>
+        <l n="34" real="x+--+" met="-+--+">And tremble away.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-mocking-fairy" n="L12619">
+      <head>The Mocking Fairy</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-mocking-fairy</idno><idno type="laurel-id">L12619</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababaaab">
+        <l n="1" real="xxxxxx+-+-x" met="-+-+-+-+-+-">&#x27;Won&#x27;t you look out of your window, Mrs. Gill?&#x27;</l>
+        <l n="2" real="xx+-xx+-xx+-" met="--+-+-+-+-+-">Quoth the Fairy, niddling, nodding in the garden;</l>
+        <l n="3" real="xxxxxx+-+-x" met="-+-+-+-+-+-">&#x27;Can&#x27;t you look out of your window, Mrs. Gill?&#x27;</l>
+        <l n="4" real="xx+-+-+-xx+-" met="--+-+-+-+-+-">Quoth the Fairy, laughing softly in the garden;</l>
+        <l n="5" real="xxxxxx+-xxx" met="-+-+-+-+-+-">But the air was still, the cherry boughs were still,</l>
+        <l n="6" real="xx+-xxx+-x" met="-+-+-+-+-+">And the ivy-tod &#x27;neath the empty sill,</l>
+        <l n="7" real="x+xx+-xx+-x" met="-+-+-+-+-+-">And never from her window looked out Mrs. Gill</l>
+        <l n="8" real="xx+-xx+-xx+-" met="--+-+-+-+-+-">On the Fairy shrilly mocking in the garden.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="9" real="xxxxxxxx+-x" met="-+-+-+-+-+-">&#x27;What have they done with you, you poor Mrs. Gill?&#x27;</l>
+        <l n="10" real="xx+-+-+-xx+-" met="--+-+-+-+-+-">Quoth the Fairy brightly glancing in the garden;</l>
+        <l n="11" real="xxx+-xxxx+-x" met="--+-+-+-+-+-">&#x27;Where have they hidden you, you poor old Mrs. Gill?&#x27;</l>
+        <l n="12" real="xx+-+-+-xx+-" met="--+-+-+-+-+-">Quoth the Fairy dancing lightly in the garden;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaa-">
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">But night&#x27;s faint veil now wrapped the hill,</l>
+        <l n="14" real="xxxxxxxxx" met="+-+-+-+-+">Stark &#x27;neath the stars stood the dead-still Mill,</l>
+        <l n="15" real="xxxxx+-++-+-x" met="-+-+-+-+-+-+-">And out of her cold cottage never answered Mrs. Gill</l>
+        <l n="16" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The Fairy mimbling, mambling in the garden.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="bewitched" n="L12620">
+      <head>Bewitched</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:bewitched</idno><idno type="laurel-id">L12620</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-xx" met="--+-+-+-">I have heard a lady this night,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Lissom and jimp and slim,</l>
+        <l n="3" real="+-x+-xxx+-" met="--+-+-+-+-">Calling me -- calling me over the heather,</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">&#x27;Neath the beech boughs dusk and dim.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xx+-x+-xx" met="-+-+-+-+-">I have followed a lady this night,</l>
+        <l n="6" real="+-xxxx" met="-+-+-+">Followed her far and lone,</l>
+        <l n="7" real="xx+-x+-x" met="--+-+-+-">Fox and adder and weasel know</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">The ways that we have gone.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxx+-x+-+-" met="-+-+-+-+-+-">I sit at my supper &#x27;mid honest faces,</l>
+        <l n="10" real="x+-xxxx" met="-+-+-+-">And crumble my crust and say</l>
+        <l n="11" real="xxxxxxxx+-" met="--+-+-+-+-">Naught in the long-drawn drawl of the voices</l>
+        <l n="12" real="+-x+-+" met="-+-+-+">Talking the hours away.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxx+-xxx+-" met="-+-+-+-+-+-">I&#x27;ll go to my chamber under the gable,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">And the moon will lift her light</l>
+        <l n="15" real="xxx+-xxx+x" met="--+-+-+-+-">In at my lattice from over the moorland</l>
+        <l n="16" real="+-xxxx" met="-+-+-+">Hollow and still and bright.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxxxxx+-x+x" met="-+-+-+-+-+-+-">And I know she will shine on a lady of witchcraft,</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">Gladness and grief to see,</l>
+        <l n="19" real="xx+-xxxx+-+-" met="--+-+-+-+-+-">Who has taken my heart with her nimble fingers,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Calls in my dreams to me;</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Who has led me a dance by dell and dingle</l>
+        <l n="22" real="x+-xxx" met="-+-+-+">My human soul to win,</l>
+        <l n="23" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">Made me a changeling to my own, own mother,</l>
+        <l n="24" real="x+-xxx" met="-+-+-+">A stranger to my kin.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-honey-robbers" n="L12621">
+      <head>The Honey Robbers</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-honey-robbers</idno><idno type="laurel-id">L12621</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxx+-xxxx" met="-+-+-+-+-">There were two Fairies, Gimmul and Mel,</l>
+        <l n="2" real="xxx+-+-x" met="-+-+-+-+">Loved Earth Man&#x27;s honey passing well;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Oft at the hives of his tame bees</l>
+        <l n="4" real="xxx+-x-+" met="-+-+-+-+">They would their sugary thirst appease.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc--">
+        <l n="5" real="xx-+x+-xx" met="-+-+-+-+-">When dusk began to darken to night,</l>
+        <l n="6" real="xxx-+xx+-x" met="--+-+-+-+-">They would hie along in the fading light,</l>
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">With elf-locked hair and scarlet lips,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">And small stone knives to slit the skeps,</l>
+        <l n="9" real="x+-xxx-+" met="-+-+-+-+">So softly not a bee inside</l>
+        <l n="10" real="xxx+-x-+" met="-+-+-+-+">Should hear the woven straw divide:</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">And then with sly and greedy thumbs</l>
+        <l n="12" real="x+-xxxxx" met="-+-+-+-+">Would rifle the sweet honeycombs.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddeeff">
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">And drowsily drone to drone would say,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">&#x27;A cold, cold wind blows in this way&#x27;;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">And the great Queen would turn her head</l>
+        <l n="16" real="xxxx-+-" met="+-+-+-+">From face to face, astonished,</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">And, though her maids with comb and brush</l>
+        <l n="18" real="xxxxx+-x" met="-+-+-+-+">Would comb and soothe and whisper, &#x27;Hush!&#x27;</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">About the hive would shrilly go</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">A keening -- keening, to and fro;</l>
+        <l n="21" real="xxx+-xxx" met="-+-+-+-+">At which those robbers &#x27;neath the trees</l>
+        <l n="22" real="xxxxx+-x" met="-+-+-+-+">Would taunt and mock the honey-bees,</l>
+        <l n="23" real="xxx+-xxx" met="-+-+-+-+">And through their sticky teeth would buzz</l>
+        <l n="24" real="xxx+-+-x" met="-+-+-+-+">Just as an angry hornet does.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="--aabb">
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">And when this Gimmul and this Mel</l>
+        <l n="26" real="xxxxxxxx" met="-+-+-+-+">Had munched and sucked and swilled their fill,</l>
+        <l n="27" real="x+xxxxx" met="+-+-+-+">Or ever Man&#x27;s first cock could crow</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">Back to their Faerie Mounds they&#x27;d go;</l>
+        <l n="29" real="+--+x+xx" met="-+-+-+-+">Edging across the twilight air,</l>
+        <l n="30" real="xxxx-+-x" met="-+-+-+-+">Thieves of a guise remotely fair.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="longlegs" n="L12622">
+      <head>Longlegs</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:longlegs</idno><idno type="laurel-id">L12622</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a----b-b-cac-a-a">
+        <l n="1" real="+xxxxx" met="-+-+-+">Longlegs -- he yelled &#x27;Coo-ee!&#x27;</l>
+        <l n="2" real="xx-+xx" met="-+-+-+">And all across the combe</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">Shrill and shrill it rang -- rang through</l>
+        <l n="4" real="xxxx" met="--+-">The clear green gloom.</l>
+        <l n="5" real="+-xxx+-" met="-+-+-+-">Fairies there were a-spinning,</l>
+        <l n="6" real="xxxxx" met="+-+-+">And a white tree-maid</l>
+        <l n="7" real="+-xxx+-" met="-+-+-+-">Lifted her eyes, and listened</l>
+        <l n="8" real="xxxxx" met="+-+-+">In her rain-sweet glade.</l>
+        <l n="9" real="+-x+-xxx" met="--+-+-+-">Bunnie to bunnie stamped; old Wat</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">Chin-deep in bracken sate;</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">A throstle piped, &#x27;I&#x27;m by, I&#x27;m by!&#x27;</l>
+        <l n="12" real="xxx+-x" met="-+-+-+">Clear to his timid mate.</l>
+        <l n="13" real="xxx+x+-" met="-+-+-+-">And there was Longlegs, straddling,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">And hearkening was he,</l>
+        <l n="15" real="x+-+-+-x" met="--+-+-+-">To distant Echo thrilling back</l>
+        <l n="16" real="xxxx" met="--+-">A thin &#x27;Coo-ee!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="melmillo" n="L12623">
+      <head>Melmillo</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:melmillo</idno><idno type="laurel-id">L12623</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb-cddcc">
+        <l n="1" real="xx+-xxx" met="+-+-+-+">Three and thirty birds there stood</l>
+        <l n="2" real="xx+-xxx" met="+-+-+-+">In an elder in a wood;</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Called Melmillo -- flew off three,</l>
+        <l n="4" real="+-+-xxx" met="+-+-+-+">Leaving thirty in the tree;</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Called Melmillo -- nine now gone,</l>
+        <l n="6" real="xxxx+-x" met="+-+-+-+">And the boughs held twenty-one;</l>
+        <l n="7" real="xxxxx-+" met="+-+-+-+">Called Melmillo -- and eighteen</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">Left but three to nod and preen;</l>
+        <l n="9" real="xxxxxxx" met="+-+-+-+">Called Melmillo -- three -- two -- one</l>
+        <l n="10" real="xxxx+-x" met="+-+-+-+">Now of birds were feathers none.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb--cc--">
+        <l n="11" real="xxxxxx" met="--+-+-">Then stole Melmillo in</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">To that wood all dusk and green,</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">And with lean long palms outspread</l>
+        <l n="14" real="+-xxxxx" met="+-+-+-+">Softly a strange dance did tread;</l>
+        <l n="15" real="xxxx+-x" met="+-+-+-+">Not a note of music she</l>
+        <l n="16" real="xx+-+--" met="+-+-+-+">Had for echoing company;</l>
+        <l n="17" real="xxxxxxx" met="+-+-+-+">All the birds were flown to rest</l>
+        <l n="18" real="xx+-xxx" met="+-+-+-+">In the hollow of her breast;</l>
+        <l n="19" real="xxxx+-+x" met="-+-+-+-+">In the wood -- thorn, elder, willow --</l>
+        <l n="20" real="x-+xxxxx" met="-+-+-+-+">Danced alone -- lone danced Melmillo.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="trees" n="L12624">
+      <head>Trees</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:trees</idno><idno type="laurel-id">L12624</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">Of all the trees in England,</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">Her sweet three corners in,</l>
+        <l n="3" real="+-xxx+-x" met="--+-+-+-">Only the Ash, the bonnie Ash</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Burns fierce while it is green.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-" met="-+-+-+-">Of all the trees in England,</l>
+        <l n="6" real="xxxx-+" met="-+-+-+">From sea to sea again,</l>
+        <l n="7" real="x+xxxxxxx" met="-+-+-+-+-">The Willow loveliest stoops her boughs</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">Beneath the driving rain.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxx+-" met="-+-+-+-">Of all the trees in England,</l>
+        <l n="10" real="x+-xxx" met="-+-+-+">Past frankincense and myrrh,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">There&#x27;s none for smell, of bloom and smoke,</l>
+        <l n="12" real="xxx+--" met="-+-+-+">Like Lime and Juniper.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxx+-" met="-+-+-+-">Of all the trees in England,</l>
+        <l n="14" real="x+-xxx" met="-+-+-+">Oak, Elder, Elm and Thorn,</l>
+        <l n="15" real="xx-+xxxx" met="--+-+-+-">The Yew alone burns lamps of peace</l>
+        <l n="16" real="xxxx-+" met="-+-+-+">For them that lie forlorn.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="silver" n="L12625">
+      <head>Silver</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:silver</idno><idno type="laurel-id">L12625</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgg">
+        <l n="1" real="+-+-xxx" met="+-+-+-+">Slowly, silently, now the moon</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">Walks the night in her silver shoon:</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">This way, and that, she peers and sees</l>
+        <l n="4" real="+-xxx+-x" met="-+-+-+-+">Silver fruit upon silver trees;</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">One by one the casements catch</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">Her beams beneath the silvery thatch;</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">Couched in his kennel, like a log,</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">With paws of silver sleeps the dog</l>
+        <l n="9" real="xx+-xxxxx" met="-+-+-+-+-">From their shadowy cote the white breasts peep</l>
+        <l n="10" real="xxxx+-+-x" met="-+-+-+-+-">Of doves in a silver-feathered sleep;</l>
+        <l n="11" real="x+-xx+-x" met="-+-+-+-+">A harvest mouse goes scampering by,</l>
+        <l n="12" real="x+-xx+-x" met="-+-+-+-+">With silver claws and silver eye;</l>
+        <l n="13" real="xxxxxxx+-x" met="--+-+-+-+-">And moveless fish in the water gleam</l>
+        <l n="14" real="x+-xxx+-x" met="-+-+-+-+-">By silver reeds in a silver stream.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nobody-knows" n="L12626">
+      <head>Nobody Knows</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:nobody-knows</idno><idno type="laurel-id">L12626</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Often I&#x27;ve heard the Wind sigh</l>
+        <l n="2" real="xxx+-x" met="--+-+-">By the ivied orchard wall,</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Over the leaves in the dark night,</l>
+        <l n="4" real="xx+-x" met="-+-+-">Breathe a sighing call,</l>
+        <l n="5" real="xx-+xx+-" met="-+-+-+-+">And faint away in the silence</l>
+        <l n="6" real="xxxxx" met="-+-+-">While I, in my bed,</l>
+        <l n="7" real="+-x+-x+-" met="-+-+-+-+">Wondered, &#x27;twixt dreaming and waking,</l>
+        <l n="8" real="xxx" met="-+-">What it said.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="+xxxxxxx" met="-+-+-+-+">Nobody knows what the Wind is,</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">Under the height of the sky,</l>
+        <l n="11" real="xxxxxxxx-+x" met="-+-+-+-+-+-">Where the hosts of the stars keep far away house</l>
+        <l n="12" real="xxxxx" met="-+-+-">And its wave sweeps by --</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">Just a great wave of the air,</l>
+        <l n="14" real="+-xxxxx" met="+-+-+-+">Tossing the leaves in its sea,</l>
+        <l n="15" real="x+-xxxxxxx" met="--+-+-+-+-">And foaming under the eaves of the roof</l>
+        <l n="16" real="x+-x" met="--+-">That covers me.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a-b-b">
+        <l n="17" real="xxxxxxx+-" met="-+-+-+-+-">And so we live under deep water,</l>
+        <l n="18" real="xxxxxx" met="--+-+-">All of us, beasts and men,</l>
+        <l n="19" real="x++-x+-xxxxx" met="--+-+-+-+-+-">And our bodies are buried down under the sand,</l>
+        <l n="20" real="xxx-+" met="-+-+-">When we go again;</l>
+        <l n="21" real="xxxx+-+x" met="-+-+-+-+">And leave, like the fishes, our shells,</l>
+        <l n="22" real="xxxxxx-+" met="-+-+-+-+">And float on the Wind and away,</l>
+        <l n="23" real="xxxxxxxxxxx" met="-+-+-+-+-+-">To where, o&#x27;er the marvellous tides of the air,</l>
+        <l n="24" real="xx" met="-+">Burns day.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="wanderers" n="L12627">
+      <head>Wanderers</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:wanderers</idno><idno type="laurel-id">L12627</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="xxx+xxx" met="-+-+-+-">Wide are the meadows of night,</l>
+        <l n="2" real="x+-x+-x" met="-+-+-+-">And daisies are shining there,</l>
+        <l n="3" real="+-x+-x" met="--+-+-">Tossing their lovely dews,</l>
+        <l n="4" real="+-xx" met="-+-+">Lustrous and fair;</l>
+        <l n="5" real="xxxxxx" met="--+-+-">And through these sweet fields go,</l>
+        <l n="6" real="+--+xx" met="--+-+-">Wanderers amid the stars --</l>
+        <l n="7" real="+-+-+-+-" met="--+-+-+-">Venus, Mercury, Uranus, Neptune,</l>
+        <l n="8" real="+-+--x" met="--+-+-">Saturn, Jupiter, Mars.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="9" real="+xx+-xx" met="-+-+-+-">&#x27;Tired in their silver, they move,</l>
+        <l n="10" real="x+-+-xx" met="-+-+-+-">And circling, whisper and say,</l>
+        <l n="11" real="xxx+-xx-+" met="-+-+-+-+-">Fair are the blossoming meads of delight</l>
+        <l n="12" real="xxxx" met="-+-+">Through which we stray.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-----a-a">
+        <l n="13" real="x+-x" met="-+-+">A little sound ---</l>
+        <l n="14" real="+-x+-x+-" met="--+-+-+-">Only a little, a little ---</l>
+        <l n="15" real="xxxxx" met="-+-+-">The breath in a reed,</l>
+        <l n="16" real="x+--+-" met="--+-+-">A trembling fiddle;</l>
+        <l n="17" real="x+-x" met="-+-+">A trumpet&#x27;s ring,</l>
+        <l n="18" real="x+--x" met="-+-+-">The shuddering drum;</l>
+        <l n="19" real="xxx+-+-x" met="--+-+-+-">So all the glory, bravery, hush</l>
+        <l n="20" real="x+-x" met="-+-+">Of music come.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a----">
+        <l n="21" real="x+-x" met="-+-+">A little sound ---</l>
+        <l n="22" real="+-xxxxx" met="-+-+-+-">Only a stir and a sigh</l>
+        <l n="23" real="xxxx" met="-+-+">Of each green leaf</l>
+        <l n="24" real="x+-+-x" met="--+-+-">Its fluttering neighbor by;</l>
+        <l n="25" real="xxxx" met="-+-+">Oak on to oak,</l>
+        <l n="26" real="xxx+-x" met="--+-+-">The wide dark forest through ---</l>
+        <l n="27" real="xxx+-+-x" met="--+-+-+-">So o&#x27;er the watery wheeling world</l>
+        <l n="28" real="xxxx" met="-+-+">The night winds go.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-----a-a">
+        <l n="29" real="x+-x" met="-+-+">A little sound,</l>
+        <l n="30" real="+-x+-x+-" met="--+-+-+-">Only a little, a little ---</l>
+        <l n="31" real="xxxx" met="-+-+">The thin high drone</l>
+        <l n="32" real="xx+--+-" met="-+-+-+-">Of the simmering kettle,</l>
+        <l n="33" real="x+--x" met="-+-+-">The gathering frost,</l>
+        <l n="34" real="xxx+-xx" met="-+-+-+-">The click of needle and thread;</l>
+        <l n="35" real="+-x+-xxx" met="--+-+-+-">Mother, the fading wall, the dream,</l>
+        <l n="36" real="x+-x" met="-+-+">The drowsy bed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="will-ever" n="L12628">
+      <head>Will Ever?</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:will-ever</idno><idno type="laurel-id">L12628</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-----a-a">
+        <l n="1" real="xx+x+-x+-" met="--+--+--+">Will he ever be weary of wandering,</l>
+        <l n="2" real="x+-x" met="--+-">The flaming sun?</l>
+        <l n="3" real="++-x+-xxxx" met="--+--+--+-">Ever weary of waning in lovelight,</l>
+        <l n="4" real="xxxx" met="--+-">The white still moon?</l>
+        <l n="5" real="x+x+-x" met="+-+--+">Will ever a shepherd come</l>
+        <l n="6" real="xxxx+-x" met="+--+--+">With a crook of simple gold,</l>
+        <l n="7" real="xxxx+-x" met="+--+--+">And lead all the little stars</l>
+        <l n="8" real="xxxxx" met="-+--+">Like lambs to the fold?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="x+x+-x" met="+-+--+">Will ever the Wanderer sail</l>
+        <l n="10" real="xxxxx" met="-+--+">From over the sea,</l>
+        <l n="11" real="xx+-x+-" met="+--+--+">Up the river of water,</l>
+        <l n="12" real="xxxxx" met="-+--+">To the stones to me?</l>
+        <l n="13" real="xxxxxxxxx" met="--+--+--+">Will he take us all into his ship,</l>
+        <l n="14" real="+-xxxx" met="+-+--+">Dreaming, and waft us far,</l>
+        <l n="15" real="xxxxxxxx" met="-+--+--+">To where in the clouds of the West</l>
+        <l n="16" real="x+-x" met="--+-">The Islands are?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-of-the-secret" n="L12629">
+      <head>The Song of the Secret</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-song-of-the-secret</idno><idno type="laurel-id">L12629</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-ab-b-cac">
+        <l n="1" real="xx+-" met="-+-+">Where is beauty?</l>
+        <l n="2" real="xx" met="-+">Gone, gone:</l>
+        <l n="3" real="xxxx+-x" met="-+-+-+-">The cold winds have taken it</l>
+        <l n="4" real="xxxx" met="-+-+">With their faint moan;</l>
+        <l n="5" real="xxxx+-x" met="-+-+-+-">The white stars have shaken it,</l>
+        <l n="6" real="+--x" met="-+-+">Trembling down,</l>
+        <l n="7" real="xxxxxxxxx" met="-+-+-+-+-">Into the pathless deeps of the sea.</l>
+        <l n="8" real="xx" met="-+">Gone, gone</l>
+        <l n="9" real="x+-xx" met="-+-+-">Is beauty from me.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="10" real="xx+-+-" met="--+-+-">The clear naked flower</l>
+        <l n="11" real="x+-xx" met="-+-+-">Is faded and dead;</l>
+        <l n="12" real="xxx-+x" met="--+-+-">The green-leafed willow,</l>
+        <l n="13" real="+-xx" met="-+-+">Drooping her head,</l>
+        <l n="14" real="+-xxxx" met="--+-+-">Whispers low to the shade</l>
+        <l n="15" real="xxxxxx" met="--+-+-">Of her boughs in the stream,</l>
+        <l n="16" real="+-x+-" met="-+-+-">Sighing a beauty,</l>
+        <l n="17" real="+-xx" met="-+-+">Secret as dream.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-of-the-soldiers" n="L12630">
+      <head>The Song of the Soldiers</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-song-of-the-soldiers</idno><idno type="laurel-id">L12630</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aab-b">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">As I sat musing by the frozen dyke,</l>
+        <l n="2" real="xxxx+-xxxxx" met="-+-+-+-+-+-">There was a man marching with a bright steel pike,</l>
+        <l n="3" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Marching in the dayshine like a ghost came he,</l>
+        <l n="4" real="xxxxxx+-xx+-" met="--+-+-+-+-+-">And behind me was the moaning and the murmur</l>
+        <l n="5" real="xxx" met="-+-">Of the sea.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aab-b">
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">As I sat musing, &#x27;twas not one but ten ---</l>
+        <l n="7" real="xxxx+-+-+-xxx" met="-+-+-+-+-+-+-">Rank on rank of ghostly soldiers marching o&#x27;er the fen,</l>
+        <l n="8" real="+-xx+-xxxxxxx" met="-+-+-+-+-+-+-">Marching in the misty air they showed in dreams to me,</l>
+        <l n="9" real="xxxxxx+-xx+-" met="--+-+-+-+-+-">And behind me was the shouting and the shattering</l>
+        <l n="10" real="xxx" met="-+-">of the sea.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-ab-b">
+        <l n="11" real="xxx+-xxxxx-+" met="--+-+-+-+-+-">As I sat musing, &#x27;twas a host in dark array,</l>
+        <l n="12" real="xx+-xx+-+-+-" met="--+-+-+-+-+-">With their horses and their cannon wheeling onward</l>
+        <l n="13" real="xxx" met="-+-">to the fray,</l>
+        <l n="14" real="+-xx+xxxxxxxx" met="-+-+-+-+-+-+-">Moving like a shadow to the fate the brave must dree,</l>
+        <l n="15" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And behind me roared the drums, rang the trumpets</l>
+        <l n="16" real="xxx" met="-+-">of the sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-bees-song" n="L12631">
+      <head>The Bees&#x27; Song</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-bees-song</idno><idno type="laurel-id">L12631</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-abba">
+        <l n="1" real="xxxxxx" met="--+-+-">Thousandz of thornz there be</l>
+        <l n="2" real="xxxxxxx" met="-+-+-+-">On the Rozez where gozez</l>
+        <l n="3" real="x+-xx" met="-+-+-">The Zebra of Zee:</l>
+        <l n="4" real="xx-x+-" met="--+-+-">Sleek, striped, and hairy,</l>
+        <l n="5" real="xxxx+-" met="--+-+-">The steed of the Fairy</l>
+        <l n="6" real="+-xx" met="-+-+">Princess of Zee.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a--a">
+        <l n="7" real="+-xxxx" met="--+-+-">Heavy with blossomz be</l>
+        <l n="8" real="xxxxxx" met="--+-+-">The Rozez that growzez</l>
+        <l n="9" real="xx+-xx" met="--+-+-">In the thickets of Zee.</l>
+        <l n="10" real="xxxx+-" met="--+-+-">Where grazez the Zebra,</l>
+        <l n="11" real="xxxxxx" met="--+-+-">Marked Abracadeeebra,</l>
+        <l n="12" real="xx+-xx" met="--+-+-">Of the Princess of Zee.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-abccab--b">
+        <l n="13" real="xxxxxxx" met="-+-+-+-">And he nozez that poziez</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">Of the Rozez that grozez</l>
+        <l n="15" real="xxxxx" met="-+-+-">So luvez&#x27;m and free,</l>
+        <l n="16" real="xxxxx+-" met="-+-+-+-">With an eye, dark and wary,</l>
+        <l n="17" real="xxxx+-" met="--+-+-">In search of a Fairy,</l>
+        <l n="18" real="xxxxxx" met="--+-+-">Whose Rozez he knowzez</l>
+        <l n="19" real="xxx-xx" met="--+-+-">Were not honeyed for he,</l>
+        <l n="20" real="xxxxx-+" met="-+-+-+-">But to breathe a sweet incense</l>
+        <l n="21" real="x+-x+-" met="--+-+-">To solace the Princess</l>
+        <l n="22" real="xx-+x" met="-+-+-">Of far-away Zee.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song-of-enchantment" n="L12632">
+      <head>Song of Enchantment</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:song-of-enchantment</idno><idno type="laurel-id">L12632</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxx-+-xxxx" met="--+-+-+-+-">A Song of Enchantment I sang me there,</l>
+        <l n="2" real="xxxxxx+-x" met="-+-+-+-+-">In a green --green wood, by waters fair,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Just as the words came up to me</l>
+        <l n="4" real="xxxxxx+xx" met="-+-+-+-+-">I sang it under the wildwood tree.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxx+-xx" met="-+-+-+-+-">Widdershins turned I, singing it low,</l>
+        <l n="6" real="+-xxxxxx" met="-+-+-+-+">Watching the wild birds come and go;</l>
+        <l n="7" real="xxxxxxxxxx" met="--+-+-+-+-">No cloud in the deep dark blue to be seen</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">Under the thick-thatched branches green.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="+xx+-x" met="--+-+-">Twilight came; silence came;</l>
+        <l n="10" real="x+-x+-+-x" met="-+-+-+-+-">The planet of Evening&#x27;s silver flame;</l>
+        <l n="11" real="x+-xx+-x" met="-+-+-+-+">By darkening paths I wandered through</l>
+        <l n="12" real="+-+-xxxx" met="-+-+-+-+">Thickets trembling with drops of dew.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xx+-xxxxxxx" met="-+-+-+-+-+-">But the music is lost and the words are gone</l>
+        <l n="14" real="xxxxxxxx-+" met="--+-+-+-+-">Of the song I sang as I sat alone,</l>
+        <l n="15" real="+-x+-x+-xx" met="--+-+-+-+-">Ages and ages have fallen on me--</l>
+        <l n="16" real="xxxxxxxx+-x" met="-+-+-+-+-+-">On the wood and the pool and the elder tree.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="dream-song" n="L12633">
+      <head>Dream Song</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:dream-song</idno><idno type="laurel-id">L12633</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabccb">
+        <l n="1" real="+x+x" met="-+-+">Sunlight, moonlight,</l>
+        <l n="2" real="+x+x" met="-+-+">Twilight, starlight-</l>
+        <l n="3" real="+-xxxxx" met="-+-+-+-">Gloaming at the close of day,</l>
+        <l n="4" real="xxx+-" met="-+-+-">And an owl calling,</l>
+        <l n="5" real="xx+-" met="-+-+">Cool dews falling</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">In a wood of oak and may.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="7" real="+-x+-x" met="--+-+-">Lantern-light, taper-light,</l>
+        <l n="8" real="xxxx" met="-+-+">Torchlight, no-light:</l>
+        <l n="9" real="+-xxxxx" met="-+-+-+-">Darkness at the shut of day,</l>
+        <l n="10" real="x+-+-" met="-+-+-">And lions roaring,</l>
+        <l n="11" real="xx+-" met="-+-+">Their wrath pouring</l>
+        <l n="12" real="xxx+-x-+" met="--+-+-+-">In wild waste places far away.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabccb">
+        <l n="13" real="xxxx" met="-+-+">Elf-light, bat-light,</l>
+        <l n="14" real="xxxxxx" met="--+-+-">Touchwood-light and toad-light,</l>
+        <l n="15" real="xxxx+-xxx" met="-+-+-+-+-">And the sea a shimmering gloom of grey,</l>
+        <l n="16" real="xxxx+-" met="--+-+-">And a small face smiling</l>
+        <l n="17" real="xxx-+-" met="--+-+-">In a dream&#x27;s beguiling</l>
+        <l n="18" real="xxxx+-x-+" met="-+-+-+-+-">In a world of wonders far away.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-of-shadows" n="L12634">
+      <head>The Song of Shadows</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-song-of-shadows</idno><idno type="laurel-id">L12634</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab-c-c">
+        <l n="1" real="xxxx-+-" met="-+-+-+-">Sweep thy faint Strings, Musician,</l>
+        <l n="2" real="xxxxx" met="+-+-+">With thy long lean hand;</l>
+        <l n="3" real="+x+-+-x" met="-+-+-+-">Downward the starry tapers burn,</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">Sinks soft the waning sand;</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">The old hound whimpers couched in sleep,</l>
+        <l n="6" real="x+-xxx" met="-+-+-+">The embers smoulder low;</l>
+        <l n="7" real="-+xxx+x" met="-+-+-+-">Across the walls the shadows</l>
+        <l n="8" real="xxx" met="-+-">Come, and go.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="x+-xx-+-" met="--+-+-+-">Sweep softly thy strings, Musician,</l>
+        <l n="10" real="x+-xx+-" met="-+-+-+-">The minutes mount to hours;</l>
+        <l n="11" real="xxxxxxxxx" met="-+-+-+-+-">Frost on the windless casement weaves</l>
+        <l n="12" real="x+-xx+-" met="-+-+-+-">A labyrinth of flowers;</l>
+        <l n="13" real="x+-xx+-x" met="--+-+-+-">Ghosts linger in the darkening air,</l>
+        <l n="14" real="xxxx+-x" met="-+-+-+-">Hearken at the open door;</l>
+        <l n="15" real="+-xxx+-" met="-+-+-+-">Music hath called them, dreaming,</l>
+        <l n="16" real="xxx" met="-+-">Home once more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-of-the-mad-prince" n="L12635">
+      <head>The Song of the Mad Prince</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-song-of-the-mad-prince</idno><idno type="laurel-id">L12635</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-----a-a">
+        <l n="1" real="xx+xx" met="+-+-+">Who said, &#x27;Peacock Pie?&#x27;</l>
+        <l n="2" real="xxxxx+-" met="-+-+-+-">The old King to the sparrow:</l>
+        <l n="3" real="xxxxx" met="+-+-+">Who said, &#x27;Crops are ripe?&#x27;</l>
+        <l n="4" real="xxx+-" met="+-+-+">Rust to the harrow:</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">Who said, &#x27;Where sleeps she now?&#x27;</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Where rests she now her head,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">Bathed in eve&#x27;s loveliness&#x27;? ---</l>
+        <l n="8" real="xxxx" met="--+-">That&#x27;s what I said.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="9" real="xxxxxx" met="-+-+-+">Who said, &#x27;Ay, mum&#x27;s the word&#x27;?</l>
+        <l n="10" real="+-x+x" met="+-+-+">Sexton to willow:</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">Who said, &#x27;Green duck for dreams,</l>
+        <l n="12" real="xxx+-" met="+-+-+">Moss for a pillow&#x27;?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="13" real="xxxx-+" met="-+-+-+">Who said, &#x27;All Time&#x27;s delight</l>
+        <l n="14" real="xxx+-x" met="-+-+-+">Hath she for narrow bed;</l>
+        <l n="15" real="x+-+-+-" met="-+-+-+-">Life&#x27;s troubled bubble broken&#x27;? ---</l>
+        <l n="16" real="xxxx" met="--+-">That&#x27;s what I said.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-of-finis" n="L12636">
+      <head>The Song of Finis</head>
+      <idno type="URN">urn:laurel:eng:de-la-mare.de-la-mare-peacock-pie.pg3753:the-song-of-finis</idno><idno type="laurel-id">L12636</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b">
+        <l n="1" real="xxxxxx+-" met="--+-+-+-">AT the edge of All the Ages</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">A Knight sate on his steed,</l>
+        <l n="3" real="x+-xxxxx" met="--+-+-+-">His armor red and thin with rust</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">His soul from sorrow freed;</l>
+        <l n="5" real="xx+-xx+" met="-+-+-+-">And he lifted up his visor</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">From a face of skin and bone,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">And his horse turned head and whinnied</l>
+        <l n="8" real="xxxxx-+" met="-+-+-+-">As the twain stood there alone.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">No bird above that steep of time</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">Sang of a livelong quest;</l>
+        <l n="11" real="xxx" met="-+-">No wind breathed,</l>
+        <l n="12" real="x" met="+">Rest:</l>
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">&quot;Lone for an end!&quot; cried Knight to steed,</l>
+        <l n="14" real="x-x+-x" met="-+-+-+">Loosed an eager rein--</l>
+        <l n="15" real="xxx+-xxx" met="--+-+-+-">Charged with his challenge into space:</l>
+        <l n="16" real="x+x+-+" met="-+-+-+">And quiet did quiet remain.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

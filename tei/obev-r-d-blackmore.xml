@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Dominus Illuminatio Mea</title><author>R. D. Blackmore</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="dominus-illuminatio-mea" n="L16292">
+      <head>Dominus Illuminatio Mea</head>
+      <idno type="URN">urn:laurel:eng:blackmore.obev-r-d-blackmore.pg66619:dominus-illuminatio-mea</idno><idno type="laurel-id">L16292</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aaaa">
+        <l n="1" real="xx+xxxxxxx" met="-+-+-+-+-+">In the hour of death, after this life’s whim,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">When the heart beats low, and the eyes grow dim,</l>
+        <l n="3" real="xxx-+-+--x" met="-+-+-+-+-+">And pain has exhausted every limb--</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">The lover of the Lord shall trust in Him.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaaa">
+        <l n="5" real="xxxx-+-x++x" met="-+-+-+-+-+-">When the will has forgotten the lifelong aim,</l>
+        <l n="6" real="xxxx+--+xx" met="-+-+-+-+-+">And the mind can only disgrace its fame,</l>
+        <l n="7" real="xxxx-+-xxxx" met="-+-+-+-+-+-">And a man is uncertain of his own name--</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">The power of the Lord shall fill this frame.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaaa">
+        <l n="9" real="xxxxxxxxxxx" met="-+-+-+-+-+-">When the last sigh is heaved, and the last tear shed,</l>
+        <l n="10" real="xx+-x+--+xx" met="-+-+-+-+-+-">And the coffin is waiting beside the bed,</l>
+        <l n="11" real="xx+-xx-+xx" met="-+-+-+-+-+">And the widow and child forsake the dead--</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">The angel of the Lord shall lift this head.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaaa">
+        <l n="13" real="x+-x+--+xx" met="-+-+-+-+-+">For even the purest delight may pall,</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">And power must fail, and the pride must fall,</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">And the love of the dearest friends grow small--</l>
+        <l n="16" real="xx+-xxxxxxx" met="-+-+-+-+-+-">But the glory of the Lord is all in all.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="17" real="x-+-" met="--+-">[Illustration]</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>To a Mistress Dying, and other poems</title><author>Sir William Davenant</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="aubade" n="L16083">
+      <head>Aubade</head>
+      <idno type="URN">urn:laurel:eng:davenant.obev-sir-william-davenant.pg66619:aubade</idno><idno type="laurel-id">L16083</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxxxx+-x" met="--+-+-+-">The lark now leaves his wat’ry nest,</l>
+        <l n="2" real="x+-xx+-x" met="--+-+-+-">And climbing shakes his dewy wings.</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">He takes this window for the East,</l>
+        <l n="4" real="xx-+xxxx" met="--+-+-+-">And to implore your light he sings--</l>
+        <l n="5" real="-+-+xxx+-x" met="-+-+-+-+-+">Awake, awake! the morn will never rise</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Till she can dress her beauty at your eyes.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="x+-xxxx+-x" met="-+-+-+-+-+">The merchant bows unto the seaman’s star,</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">The ploughman from the sun his season takes;</l>
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">But still the lover wonders what they are</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">Who look for day before his mistress wakes.</l>
+        <l n="11" real="-+-+xxxxxx" met="-+-+-+-+-+">Awake, awake! break thro’ your veils of lawn!</l>
+        <l n="12" real="xxx+-x-+xx" met="-+-+-+-+-+">Then draw your curtains, and begin the dawn!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-a-mistress-dying" n="L16084">
+      <head>To a Mistress Dying</head>
+      <idno type="URN">urn:laurel:eng:davenant.obev-sir-william-davenant.pg66619:to-a-mistress-dying</idno><idno type="laurel-id">L16084</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="+-x+-xxxxx" met="--+-+-+-+-">_Lover._ Your beauty, ripe and calm and fresh</l>
+        <l n="2" real="x+-+-x" met="--+-+-">As eastern summers are,</l>
+        <l n="3" real="xx-+-xxx" met="-+-+-+-+">Must now, forsaking time and flesh,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Add light to some small star.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="-+--xxxxxx-+" met="--+-+-+-+-+-">_Philosopher._ Whilst she yet lives, were stars decay’d,</l>
+        <l n="6" real="xxxx-+xx" met="-+-+-+-+">Their light by hers relief might find;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">But Death will lead her to a shade</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">Where Love is cold and Beauty blind.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="+-+-xxx+-x" met="--+-+-+-+-">_Lover._ Lovers, whose priests all poets are,</l>
+        <l n="10" real="x+--+-xxx" met="-+-+-+-+-">Think every mistress, when she dies,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Is changed at least into a star:</l>
+        <l n="12" real="xxxxx+-x" met="-+-+-+-+">And who dares doubt the poets wise?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="-+--xxx+-xxx" met="--+-+-+-+-+-">_Philosopher._ But ask not bodies doom’d to die</l>
+        <l n="14" real="xx-+xx" met="--+-+-">To what abode they go;</l>
+        <l n="15" real="x+-xx+-x" met="-+-+-+-+">Since Knowledge is but Sorrow’s spy,</l>
+        <l n="16" real="xxxxxx" met="--+-+-">It is not safe to know.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="praise-and-prayer" n="L16085">
+      <head>Praise and Prayer</head>
+      <idno type="URN">urn:laurel:eng:davenant.obev-sir-william-davenant.pg66619:praise-and-prayer</idno><idno type="laurel-id">L16085</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a-a-">
+        <l n="1" real="xx-+-xx+-x" met="-+-+-+-+-+">Praise is devotion fit for mighty minds,</l>
+        <l n="2" real="xxxx-+-+-x" met="-+-+-+-+-+">The diff’ring world’s agreeing sacrifice;</l>
+        <l n="3" real="x+--+-x-+-x" met="-+-+-+-+-+-">Where Heaven divided faiths united finds:</l>
+        <l n="4" real="xxx+--+-+-x" met="-+-+-+-+-+-">But Prayer in various discord upward flies.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxx+-xxxxxx" met="-+-+-+-+-+-">For Prayer the ocean is where diversely</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Men steer their course, each to a sev’ral coast;</l>
+        <l n="7" real="xx+-+-x-+-x" met="-+-+-+-+-+-">Where all our interests so discordant be</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">That half beg winds by which the rest are lost.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-">
+        <l n="9" real="xxxxxx--+-+" met="-+-+-+-+-+-">By Penitence when we ourselves forsake,</l>
+        <l n="10" real="xxxx-+xxx+-" met="-+-+-+-+-+-">’Tis but in wise design on piteous Heaven;</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">In Praise we nobly give what God may take,</l>
+        <l n="12" real="xxxxx+-x-+-" met="-+-+-+-+-+-">And are, without a beggar’s blush, forgiven.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

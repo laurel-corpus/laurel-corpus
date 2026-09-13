@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Message, and other poems</title><author>Thomas Heywood</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="matin-song" n="L16018">
+      <head>Matin Song</head>
+      <idno type="URN">urn:laurel:eng:heywood.obev-thomas-heywood.pg66619:matin-song</idno><idno type="laurel-id">L16018</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-aab">
+        <l n="1" real="xx-+x+-x" met="--+-+-+-">Pack, clouds, away! and welcome, day!</l>
+        <l n="2" real="xxx+-+-" met="-+-+-+-">With night we banish sorrow.</l>
+        <l n="3" real="xxxxxx-+" met="--+-+-+-">Sweet air, blow soft; mount, lark, aloft</l>
+        <l n="4" real="xxxxx+-" met="-+-+-+-">To give my Love good-morrow!</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">Wings from the wind to please her mind,</l>
+        <l n="6" real="xxxxx+x" met="-+-+-+-">Notes from the lark I’ll borrow:</l>
+        <l n="7" real="xxxx+-x" met="-+-+-+-">Bird, prune thy wing! nightingale, sing!</l>
+        <l n="8" real="xxxxx+-" met="-+-+-+-">To give my Love good-morrow!</l>
+        <l n="9" real="xxxxx+-" met="-+-+-+-">To give my Love good-morrow</l>
+        <l n="10" real="xxxxx+x" met="-+-+-+-">Notes from them all I’ll borrow.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-b---bba">
+        <l n="11" real="xxxx+-xx" met="--+-+-+-">Wake from thy nest, robin red-breast!</l>
+        <l n="12" real="xxx+--+-" met="--+-+-+-">Sing, birds, in every furrow!</l>
+        <l n="13" real="xxxxx+-x" met="--+-+-+-">And from each bill let music shrill</l>
+        <l n="14" real="xxxxx+-" met="-+-+-+-">Give my fair Love good-morrow!</l>
+        <l n="15" real="+-xxx+-x" met="--+-+-+-">Blackbird and thrush in every bush,</l>
+        <l n="16" real="x+-xxxx" met="-+-+-+-">Stare, linnet, and cocksparrow,</l>
+        <l n="17" real="x+-xxx-+" met="--+-+-+-">You pretty elves, among yourselves</l>
+        <l n="18" real="xxxxx+-" met="-+-+-+-">Sing my fair Love good-morrow!</l>
+        <l n="19" real="xxxxx+-" met="-+-+-+-">To give my Love good-morrow!</l>
+        <l n="20" real="xxx+--+-" met="--+-+-+-">Sing, birds, in every furrow!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-message" n="L16019">
+      <head>The Message</head>
+      <idno type="URN">urn:laurel:eng:heywood.obev-thomas-heywood.pg66619:the-message</idno><idno type="laurel-id">L16019</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a----">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">Ye little birds that sit and sing</l>
+        <l n="2" real="-+x+-+-" met="+-+-+-+">Amidst the shady valleys,</l>
+        <l n="3" real="xxx+-+-x" met="-+-+-+-+">And see how Phillis sweetly walks</l>
+        <l n="4" real="xxx+-+-" met="+-+-+-+">Within her garden-alleys;</l>
+        <l n="5" real="x+-xxxx+-" met="-+-+-+-+-">Go, pretty birds, about her bower;</l>
+        <l n="6" real="x+-xxxx+-" met="-+-+-+-+-">Sing, pretty birds, she may not lower;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Ah me! methinks I see her frown!</l>
+        <l n="8" real="x+-xx+-" met="+-+-+-+">Ye pretty wantons, warble.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="---abba-">
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">Go tell her through your chirping bills,</l>
+        <l n="10" real="xxxxx+-" met="+-+-+-+">As you by me are bidden,</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">To her is only known my love,</l>
+        <l n="12" real="xxxxx+-" met="+-+-+-+">Which from the world is hidden.</l>
+        <l n="13" real="x+-xxxxx" met="-+-+-+-+">Go, pretty birds, and tell her so,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">See that your notes strain not too low.</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">For still methinks I see her frown;</l>
+        <l n="16" real="x+-xx+-" met="+-+-+-+">Ye pretty wantons, warble.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="----aa--">
+        <l n="17" real="xxx+-+--" met="-+-+-+-+">Go tune your voices’ harmony</l>
+        <l n="18" real="xxxxx+-" met="+-+-+-+">And sing, I am her lover;</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">Strain loud and sweet, that every note</l>
+        <l n="20" real="xx+-xxx" met="+-+-+-+">With sweet content may move her:</l>
+        <l n="21" real="xxxxx+-x" met="-+-+-+-+">And she that hath the sweetest voice,</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">Tell her I will not change my choice:</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">--Yet still methinks I see her frown!</l>
+        <l n="24" real="x+-xx+-" met="+-+-+-+">Ye pretty wantons, warble.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="----aa--">
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">O fly! make haste! see, see, she falls</l>
+        <l n="26" real="xxx+-+-" met="+-+-+-+">Into a pretty slumber!</l>
+        <l n="27" real="xxxxx+-x" met="-+-+-+-+">Sing round about her rosy bed</l>
+        <l n="28" real="x+-xx+-" met="+-+-+-+">That waking she may wonder:</l>
+        <l n="29" real="xxxxx+-x" met="-+-+-+-+">Say to her, ’tis her lover true</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">That sendeth love to you, to you!</l>
+        <l n="31" real="xxxxxx-+" met="-+-+-+-+">And when you hear her kind reply,</l>
+        <l n="32" real="-+x+-xx" met="+-+-+-+">Return with pleasant warblings.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

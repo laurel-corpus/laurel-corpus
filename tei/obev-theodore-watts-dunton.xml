@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Wassail Chorus at the Mermaid Tavern</title><author>Theodore Watts-dunton</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="wassail-chorus-at-the-mermaid-tavern" n="L16251">
+      <head>Wassail Chorus at the Mermaid Tavern</head>
+      <idno type="URN">urn:laurel:eng:watts-dunton.obev-theodore-watts-dunton.pg66619:wassail-chorus-at-the-mermaid-tavern</idno><idno type="laurel-id">L16251</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabab">
+        <l n="1" real="+-xx+-+-x" met="-+-+-+-+-">Christmas knows a merry, merry place,</l>
+        <l n="2" real="xxxx+-x" met="+-+-+-+">Where he goes with fondest face,</l>
+        <l n="3" real="+-x+-x" met="--+-+-">Brightest eye, brightest hair:</l>
+        <l n="4" real="xx+xxxxxx" met="-+-+-+-+-">Tell the Mermaid where is that one place,</l>
+        <l n="5" real="x" met="+">Where?</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="+-" met="-+">_Raleigh._</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcccb">
+        <l n="7" real="xxxx+--x" met="-+-+-+-+">’Tis by Devon’s glorious halls,</l>
+        <l n="8" real="xxxxx-+" met="+-+-+-+">Whence, dear Ben, I come again:</l>
+        <l n="9" real="xx+-xxx" met="+-+-+-+">Bright of golden roofs and walls--</l>
+        <l n="10" real="xxxxx-+" met="+-+-+-+">El Dorado’s rare domain--</l>
+        <l n="11" real="xxxx+x+-" met="-+-+-+-+">Seem those halls when sunlight launches</l>
+        <l n="12" real="xxxx+-+-" met="-+-+-+-+">Shafts of gold thro’ leafless branches,</l>
+        <l n="13" real="xx+-+--+-xx" met="-+-+-+-+-+-">Where the winter’s feathery mantle blanches</l>
+        <l n="14" real="xxxxx" met="-+-+-">Field and farm and lane.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="15" real="+-+-xx+-+-xx" met="--+-+-+-+-+-">CHORUS. Christmas knows a merry, merry place, &amp;c.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="16" real="+-" met="-+">_Drayton._</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababcccb">
+        <l n="17" real="xx+-xxx" met="+-+-+-+">’Tis where Avon’s wood-sprites weave</l>
+        <l n="18" real="xxxxxxx" met="+-+-+-+">Through the boughs a lace of rime,</l>
+        <l n="19" real="xxxx+-x" met="+-+-+-+">While the bells of Christmas Eve</l>
+        <l n="20" real="xxxx+-x" met="+-+-+-+">Fling for Will the Stratford-chime</l>
+        <l n="21" real="xx+-x-+" met="+-+-+-+">O’er the river-flags emboss’d</l>
+        <l n="22" real="xx+--xxx" met="-+-+-+-+">Rich with flowery runes of frost--</l>
+        <l n="23" real="xxxx+-xxx" met="-+-+-+-+-">O’er the meads where snowy tufts are toss’d--</l>
+        <l n="24" real="xx+-x" met="-+-+-">Strains of olden time.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="25" real="+-+-xx+-+-xx" met="--+-+-+-+-+-">CHORUS. Christmas knows a merry, merry place, &amp;c.</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="26" real="+xx" met="-+-">_Shakespeare’s Friend._</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="ababcccb">
+        <l n="27" real="xxxx+-x" met="+-+-+-+">’Tis, methinks, on any ground</l>
+        <l n="28" real="x+-+xxxx" met="-+-+-+-+">Where our Shakespeare’s feet are set.</l>
+        <l n="29" real="xx+-+-x" met="+-+-+-+">There smiles Christmas, holly-crown’d</l>
+        <l n="30" real="xxxx+-+" met="+-+-+-+">With his blithest coronet:</l>
+        <l n="31" real="+-xxxxx" met="+-+-+-+">Friendship’s face he loveth well:</l>
+        <l n="32" real="xx+--xx" met="+-+-+-+">’Tis a countenance whose spell</l>
+        <l n="33" real="xxxx+--xxx" met="--+-+-+-+-">Sheds a balm o’er every mead and dell</l>
+        <l n="34" real="xxxxx" met="-+-+-">Where we used to fret.</l>
+      </lg>
+      <lg type="stanza" n="10">
+        <l n="35" real="+-+-xx+-+-xx" met="--+-+-+-+-+-">CHORUS. Christmas knows a merry, merry place, &amp;c.</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="36" real="+x" met="-+">_Heywood._</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="ababcccb">
+        <l n="37" real="xxxx+-x" met="+-+-+-+">More than all the pictures, Ben,</l>
+        <l n="38" real="+-xxxxx" met="+-+-+-+">Winter weaves by wood or stream,</l>
+        <l n="39" real="+-x+-+-x" met="-+-+-+-+">Christmas loves our London, when</l>
+        <l n="40" real="xxxxxxx" met="+-+-+-+">Rise thy clouds of wassail-steam--</l>
+        <l n="41" real="xxxx+-x" met="+-+-+-+">Clouds like these, that, curling, take</l>
+        <l n="42" real="xx+-xxx" met="+-+-+-+">Forms of faces gone, and wake</l>
+        <l n="43" real="+-xxxxxxxx" met="--+-+-+-+-">Many a lay from lips we loved, and make</l>
+        <l n="44" real="+-xxx" met="-+-+-">London like a dream.</l>
+      </lg>
+      <lg type="stanza" n="13">
+        <l n="45" real="+-+-xx+-+-xx" met="--+-+-+-+-+-">CHORUS. Christmas knows a merry, merry place, &amp;c.</l>
+      </lg>
+      <lg type="stanza" n="14">
+        <l n="46" real="x+-" met="-+-">_Ben Jonson._</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="ababcccb">
+        <l n="47" real="xxxx+-x" met="+-+-+-+">Love’s old songs shall never die,</l>
+        <l n="48" real="xxxx+-x" met="+-+-+-+">Yet the new shall suffer proof:</l>
+        <l n="49" real="xxxxxxx" met="+-+-+-+">Love’s old drink of Yule brew I</l>
+        <l n="50" real="xxxxxxx" met="+-+-+-+">Wassail for new love’s behoof.</l>
+        <l n="51" real="xxxxxxx" met="+-+-+-+">Drink the drink I brew, and sing</l>
+        <l n="52" real="xxx+-x" met="--+-+-">Till the berried branches swing,</l>
+        <l n="53" real="x+-xxxx+xx" met="--+-+-+-+-">Till our song make all the Mermaid ring--</l>
+        <l n="54" real="xxxxx" met="-+-+-">Yea, from rush to roof.</l>
+      </lg>
+      <lg type="stanza" n="16">
+        <l n="55" real="-+-" met="-+-">FINALE.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aabab">
+        <l n="56" real="+-xx+-+-x" met="-+-+-+-+-">Christmas loves this merry, merry place;</l>
+        <l n="57" real="+-xx+-x" met="+-+-+-+">Christmas saith with fondest face,</l>
+        <l n="58" real="+-x+-x" met="--+-+-">Brightest eye, brightest hair:</l>
+        <l n="59" real="xxxxxxxxx" met="-+-+-+-+-">‘Ben, the drink tastes rare of sack and mace;</l>
+        <l n="60" real="x" met="+">Rare!’</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

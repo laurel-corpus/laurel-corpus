@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Love Songs</title><author>Sara Teasdale</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Love Songs. Project Gutenberg ebook #442. <ref target="https://www.gutenberg.org/ebooks/442">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="to-e" n="L08029">
+      <head>To E</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:to-e</idno><idno type="laurel-id">L08029</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a--ab--b">
+        <l n="1" real="xx-+-+-xxx" met="-+-+-+-+-+">I have remembered beauty in the night,</l>
+        <l n="2" real="xxx+-xxxx" met="+-+-+-+-+">Against black silences I waked to see</l>
+        <l n="3" real="x+x+xx+--" met="+-+-+-+-+">A shower of sunlight over Italy</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">And green Ravello dreaming on her height;</l>
+        <l n="5" real="xx-+-+-xxx" met="-+-+-+-+-+">I have remembered music in the dark,</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">The clean swift brightness of a fugue of Bach&#x27;s,</l>
+        <l n="7" real="x+-+-+-xxx" met="-+-+-+-+-+">And running water singing on the rocks</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">When once in English woods I heard a lark.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbcac">
+        <l n="9" real="xx-+-+-xxx" met="-+-+-+-+-+">But all remembered beauty is no more</l>
+        <l n="10" real="xxx+xxxxxx" met="-+-+-+-+-+">Than a vague prelude to the thought of you--</l>
+        <l n="11" real="xxx+-xx+x" met="+-+-+-+-+">You are the rarest soul I ever knew,</l>
+        <l n="12" real="+-x+-xxxx" met="+-+-+-+-+">Lover of beauty, knightliest and best;</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">My thoughts seek you as waves that seek the shore,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">And when I think of you, I am at rest.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem" n="L08030">
+      <head>Poem</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:poem</idno><idno type="laurel-id">L08030</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a--ab-b-----------c-c-------------">
+        <l n="1" real="+-" met="-+">Barter</l>
+        <l n="2" real="+x" met="-+">Twilight</l>
+        <l n="3" real="xxxxxx" met="--+-+-">Night Song at Amalfi</l>
+        <l n="4" real="xx" met="-+">The Look</l>
+        <l n="5" real="x+-x" met="-+-+">A Winter Night</l>
+        <l n="6" real="xx" met="-+">A Cry</l>
+        <l n="7" real="x" met="+">Gifts</l>
+        <l n="8" real="xxxx" met="-+-+">But Not to Me</l>
+        <l n="9" real="xx+-" met="-+-+">Song at Capri</l>
+        <l n="10" real="xx" met="-+">Child, Child</l>
+        <l n="11" real="xx" met="-+">Love Me</l>
+        <l n="12" real="xx" met="-+">Pierrot</l>
+        <l n="13" real="x+-" met="+-+">Wild Asters</l>
+        <l n="14" real="xxx+-" met="-+-+-">The Song for Colin</l>
+        <l n="15" real="xx" met="-+">Four Winds</l>
+        <l n="16" real="x" met="+">Debt</l>
+        <l n="17" real="x" met="+">Faults</l>
+        <l n="18" real="+-x" met="+-+">Buried Love</l>
+        <l n="19" real="x+-" met="+-+">The Fountain</l>
+        <l n="20" real="xxxx" met="-+-+">I Shall Not Care</l>
+        <l n="21" real="xx+-" met="-+-+">After Parting</l>
+        <l n="22" real="xx" met="-+">A Prayer</l>
+        <l n="23" real="xx" met="-+">Spring Night</l>
+        <l n="24" real="xx" met="-+">May Wind</l>
+        <l n="25" real="x" met="+">Tides</l>
+        <l n="26" real="xxx" met="+-+">After Love</l>
+        <l n="27" real="xxxx" met="-+-+">New Love and Old</l>
+        <l n="28" real="xx" met="-+">The Kiss</l>
+        <l n="29" real="x" met="+">Swans</l>
+        <l n="30" real="x+-" met="+-+">The River</l>
+        <l n="31" real="-+-" met="+-+">November</l>
+        <l n="32" real="xx" met="-+">Spring Rain</l>
+        <l n="33" real="xx" met="-+">The Ghost</l>
+        <l n="34" real="+-x+-x" met="--+-+-">Summer Night, Riverside</l>
+        <l n="35" real="+-" met="-+">Jewels</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="36" real="x+-x" met="-+-+">I.  Spirit&#x27;s House</l>
+        <l n="37" real="x+--" met="-+-+">II.  Mastery</l>
+        <l n="38" real="x+-" met="+-+">III.  Lessons</l>
+        <l n="39" real="x+-" met="+-+">IV.  Wisdom</l>
+        <l n="40" real="xxx+--x" met="-+-+-+-">V.  In a Burying Ground</l>
+        <l n="41" real="xxx" met="+-+">VI.  Wood Song</l>
+        <l n="42" real="x+-" met="+-+">VII.  Refuge</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a---b-b-c---------c-------">
+        <l n="43" real="xx" met="-+">The Flight</l>
+        <l n="44" real="x" met="+">Dew</l>
+        <l n="45" real="xx" met="-+">To-night</l>
+        <l n="46" real="xx" met="-+">Ebb Tide</l>
+        <l n="47" real="xxxxxx" met="--+-+-">I Would Live in Your Love</l>
+        <l n="48" real="xx" met="-+">Because</l>
+        <l n="49" real="xxxx" met="-+-+">The Tree of Song</l>
+        <l n="50" real="x+-" met="+-+">The Giver</l>
+        <l n="51" real="+-x" met="+-+">April Song</l>
+        <l n="52" real="x+--" met="-+-+">The Wanderer</l>
+        <l n="53" real="xx" met="-+">The Years</l>
+        <l n="54" real="-+" met="-+">Enough</l>
+        <l n="55" real="x" met="+">Come</l>
+        <l n="56" real="x" met="+">Joy</l>
+        <l n="57" real="+-" met="-+">Riches</l>
+        <l n="58" real="xxxx" met="-+-+">Dusk in War Time</l>
+        <l n="59" real="x" met="+">Peace</l>
+        <l n="60" real="x" met="+">Moods</l>
+        <l n="61" real="+-xx" met="-+-+">Houses of Dreams</l>
+        <l n="62" real="x" met="+">Lights</l>
+        <l n="63" real="xxxx" met="-+-+">&quot;I Am Not Yours&quot;</l>
+        <l n="64" real="x" met="+">Doubt</l>
+        <l n="65" real="xx" met="-+">The Wind</l>
+        <l n="66" real="+-" met="-+">Morning</l>
+        <l n="67" real="+-x" met="+-+">Other Men</l>
+        <l n="68" real="+-" met="-+">Embers</l>
+        <l n="69" real="+-" met="-+">Message</l>
+        <l n="70" real="xx" met="-+">The Lamp</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="barter" n="L08031">
+      <head>Barter</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:barter</idno><idno type="laurel-id">L08031</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-abb">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Life has loveliness to sell,</l>
+        <l n="2" real="x+--x+-x" met="-+-+-+-+">All beautiful and splendid things,</l>
+        <l n="3" real="xxxx-xxx" met="-+-+-+-+">Blue waves whitened on a cliff,</l>
+        <l n="4" real="+-+-xxxx" met="-+-+-+-+">Soaring fire that sways and sings,</l>
+        <l n="5" real="x+-+-+-x" met="-+-+-+-+">And children&#x27;s faces looking up</l>
+        <l n="6" real="+-+-xxx" met="+-+-+-+">Holding wonder like a cup.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-abb">
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Life has loveliness to sell,</l>
+        <l n="8" real="+-xxxxx" met="+-+-+-+">Music like a curve of gold,</l>
+        <l n="9" real="xxxxxxx" met="+-+-+-+">Scent of pine trees in the rain,</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">Eyes that love you, arms that hold,</l>
+        <l n="11" real="xxx+-x-+" met="-+-+-+-+">And for your spirit&#x27;s still delight,</l>
+        <l n="12" real="+-xxxxx" met="+-+-+-+">Holy thoughts that star the night.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a--">
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">Spend all you have for loveliness,</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">Buy it and never count the cost;</l>
+        <l n="15" real="xxx+-+xx" met="-+-+-+-+">For one white singing hour of peace</l>
+        <l n="16" real="x+xxxxxx" met="-+-+-+-+">Count many a year of strife well lost,</l>
+        <l n="17" real="xxxxx+--" met="-+-+-+-+">And for a breath of ecstasy</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">Give all you have been, or could be.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="twilight" n="L08032">
+      <head>Twilight</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:twilight</idno><idno type="laurel-id">L08032</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">Dreamily over the roofs</l>
+        <l n="2" real="xxxxx+-" met="-+-+-+-">The cold spring rain is falling;</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">Out in the lonely tree</l>
+        <l n="4" real="xxx+-+-" met="-+-+-+-">A bird is calling, calling.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="+-xxxx" met="-+-+-+">Slowly over the earth</l>
+        <l n="6" real="xxxxx+-" met="-+-+-+-">The wings of night are falling;</l>
+        <l n="7" real="xxxxxxxx" met="--+-+-+-">My heart like the bird in the tree</l>
+        <l n="8" real="x+-+-+-" met="-+-+-+-">Is calling, calling, calling.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="night-song-at-amalfi" n="L08033">
+      <head>Night Song at Amalfi</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:night-song-at-amalfi</idno><idno type="laurel-id">L08033</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx-x+-xx" met="--+-+-+-">I asked the heaven of stars</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">What I should give my love--</l>
+        <l n="3" real="x+--xx+-" met="--+-+-+-">It answered me with silence,</l>
+        <l n="4" real="+-xx" met="--+-">Silence above.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xx-x+--x" met="--+-+-+-">I asked the darkened sea</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">Down where the fishers go--</l>
+        <l n="7" real="x+--xx+-" met="--+-+-+-">It answered me with silence,</l>
+        <l n="8" real="+-xx" met="--+-">Silence below.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-a">
+        <l n="9" real="xxxxx+-" met="-+-+-+-">Oh, I could give him weeping,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Or I could give him song--</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">But how can I give silence,</l>
+        <l n="12" real="xxxx" met="--+-">My whole life long?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-look" n="L08034">
+      <head>The Look</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-look</idno><idno type="laurel-id">L08034</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx-xxxx" met="--+-+-+-">Strephon kissed me in the spring,</l>
+        <l n="2" real="+-xxx" met="+-+-+">Robin in the fall,</l>
+        <l n="3" real="x+-+-xxx" met="--+-+-+-">But Colin only looked at me</l>
+        <l n="4" real="x+-x-xx" met="-+-+-+-">And never kissed at all.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx" met="-+-+-+-">Strephon&#x27;s kiss was lost in jest,</l>
+        <l n="6" real="+-xxx" met="+-+-+">Robin&#x27;s lost in play,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">But the kiss in Colin&#x27;s eyes</l>
+        <l n="8" real="xxxxx" met="+-+-+">Haunts me night and day.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-winter-night" n="L08035">
+      <head>A Winter Night</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:a-winter-night</idno><idno type="laurel-id">L08035</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">My window-pane is starred with frost,</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">The world is bitter cold to-night,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">The moon is cruel, and the wind</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Is like a two-edged sword to smite.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">God pity all the homeless ones,</l>
+        <l n="6" real="x+-+-xxx" met="-+-+-+-+">The beggars pacing to and fro,</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">God pity all the poor to-night</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">Who walk the lamp-lit streets of snow.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">My room is like a bit of June,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Warm and close-curtained fold on fold,</l>
+        <l n="11" real="x+xxx+-x" met="-+-+-+-+">But somewhere, like a homeless child,</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">My heart is crying in the cold.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-cry" n="L08036">
+      <head>A Cry</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:a-cry</idno><idno type="laurel-id">L08036</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Oh, there are eyes that he can see,</l>
+        <l n="2" real="xxxxxx-+" met="-+-+-+-+">And hands to make his hands rejoice,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">But to my lover I must be</l>
+        <l n="4" real="+-xx" met="--+-">Only a voice.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Oh, there are breasts to bear his head,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And lips whereon his lips can lie,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">But I must be till I am dead</l>
+        <l n="8" real="+-xx" met="--+-">Only a cry.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="gifts" n="L08037">
+      <head>Gifts</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:gifts</idno><idno type="laurel-id">L08037</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">I gave my first love laughter,</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">I gave my second tears,</l>
+        <l n="3" real="xxxxx+-" met="-+-+-+-">I gave my third love silence</l>
+        <l n="4" real="xxxx" met="--+-">Through all the years.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-" met="-+-+-+-">My first love gave me singing,</l>
+        <l n="6" real="x+-xxx" met="-+-+-+">My second eyes to see,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">But oh, it was my third love</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Who gave my soul to me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="but-not-to-me" n="L08038">
+      <head>But Not to Me</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:but-not-to-me</idno><idno type="laurel-id">L08038</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">The April night is still and sweet</l>
+        <l n="2" real="x+-x+--x" met="-+-+-+-+">With flowers on every tree;</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">Peace comes to them on quiet feet,</l>
+        <l n="4" real="xxxx" met="--+-">But not to me.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">My peace is hidden in his breast</l>
+        <l n="6" real="xxx+-x" met="--+-+-">Where I shall never be;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Love comes to-night to all the rest,</l>
+        <l n="8" real="xxxx" met="--+-">But not to me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song-at-capri" n="L08039">
+      <head>Song at Capri</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:song-at-capri</idno><idno type="laurel-id">L08039</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">When beauty grows too great to bear</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">How shall I ease me of its ache,</l>
+        <l n="3" real="x+-xx+--" met="-+-+-+-+">For beauty more than bitterness</l>
+        <l n="4" real="xxxx" met="--+-">Makes the heart break.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">Now while I watch the dreaming sea</l>
+        <l n="6" real="xxx+xxxx" met="-+-+-+-+">With isles like flowers against her breast,</l>
+        <l n="7" real="+-xxxxxx" met="-+-+-+-+">Only one voice in all the world</l>
+        <l n="8" real="xxxx" met="--+-">Could give me rest.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="child-child" n="L08040">
+      <head>Child, Child</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:child-child</idno><idno type="laurel-id">L08040</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc">
+        <l n="1" real="xxxxxx" met="--+-+-">Child, child, love while you can</l>
+        <l n="2" real="xxxxxxxxxxx" met="-+-+-+-+-+-">The voice and the eyes and the soul of a man;</l>
+        <l n="3" real="+-xxxxxx" met="-+-+-+-+">Never fear though it break your heart--</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Out of the wound new joy will start;</l>
+        <l n="5" real="+-x+-x+-xx" met="--+-+-+-+-">Only love proudly and gladly and well,</l>
+        <l n="6" real="xxx+xxxx" met="-+-+-+-+">Though love be heaven or love be hell.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc">
+        <l n="7" real="xxxxxx" met="--+-+-">Child, child, love while you may,</l>
+        <l n="8" real="xxxxxx+-x" met="-+-+-+-+-">For life is short as a happy day;</l>
+        <l n="9" real="+-xxxxx" met="+-+-+-+">Never fear the thing you feel--</l>
+        <l n="10" real="+-xxxxxx" met="-+-+-+-+">Only by love is life made real;</l>
+        <l n="11" real="xxx+-xx+-" met="-+-+-+-+-">Love, for the deadly sins are seven,</l>
+        <l n="12" real="+-xxxx+-+" met="-+-+-+-+-">Only through love will you enter heaven.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-me" n="L08041">
+      <head>Love Me</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:love-me</idno><idno type="laurel-id">L08041</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xx+-xxx" met="+-+-+-+">Brown-thrush singing all day long</l>
+        <l n="2" real="xxxxxx" met="--+-+-">In the leaves above me,</l>
+        <l n="3" real="xxxx+-x" met="+-+-+-+">Take my love this April song,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">&quot;Love me, love me, love me!&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxx" met="+-+-+-+">When he harkens what you say,</l>
+        <l n="6" real="xxxxxx" met="--+-+-">Bid him, lest he miss me,</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Leave his work or leave his play,</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">And kiss me, kiss me, kiss me!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="pierrot" n="L08042">
+      <head>Pierrot</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:pierrot</idno><idno type="laurel-id">L08042</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-a">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">Pierrot stands in the garden</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">Beneath a waning moon,</l>
+        <l n="3" real="xxxxx+-" met="-+-+-+-">And on his lute he fashions</l>
+        <l n="4" real="x+-+-x" met="-+-+-+">A fragile silver tune.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-" met="-+-+-+-">Pierrot plays in the garden,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">He thinks he plays for me,</l>
+        <l n="7" real="xxxx-+-" met="-+-+-+-">But I am quite forgotten</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">Under the cherry tree.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxx+-" met="-+-+-+-">Pierrot plays in the garden,</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">And all the roses know</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">That Pierrot loves his music,--</l>
+        <l n="12" real="xxxxx" met="+-+-+">But I love Pierrot.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="wild-asters" n="L08043">
+      <head>Wild Asters</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:wild-asters</idno><idno type="laurel-id">L08043</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx+-" met="--+-+-+-">In the spring I asked the daisies</l>
+        <l n="2" real="xxxxx" met="+-+-+">If his words were true,</l>
+        <l n="3" real="xx+-xx+-" met="--+-+-+-">And the clever, clear-eyed daisies</l>
+        <l n="4" real="+xx" met="-+-">Always knew.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aaa">
+        <l n="5" real="xxxxxx+-" met="--+-+-+-">Now the fields are brown and barren,</l>
+        <l n="6" real="+-+-x" met="+-+-+">Bitter autumn blows,</l>
+        <l n="7" real="xxxx+-+-" met="--+-+-+-">And of all the stupid asters</l>
+        <l n="8" real="xxx" met="-+-">Not one knows.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-for-colin" n="L08044">
+      <head>The Song for Colin</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-song-for-colin</idno><idno type="laurel-id">L08044</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">I sang a song at dusking time</l>
+        <l n="2" real="xxx+-x" met="--+-+-">Beneath the evening star,</l>
+        <l n="3" real="x+-xx+-x" met="-+-+-+-+">And Terence left his latest rhyme</l>
+        <l n="4" real="x+-x-+" met="--+-+-">To answer from afar.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Pierrot laid down his lute to weep,</l>
+        <l n="6" real="xx-xxxx" met="+-+-+-+">And sighed, &quot;She sings for me.&quot;</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">But Colin slept a careless sleep</l>
+        <l n="8" real="xxx+-x" met="--+-+-">Beneath an apple tree.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="four-winds" n="L08045">
+      <head>Four Winds</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:four-winds</idno><idno type="laurel-id">L08045</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgg">
+        <l n="1" real="xx+-xxx" met="-+-+-+-">&quot;Four winds blowing through the sky,</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">You have seen poor maidens die,</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">Tell me then what I shall do</l>
+        <l n="4" real="xx+-xxx" met="-+-+-+-">That my lover may be true.&quot;</l>
+        <l n="5" real="xxxxxxx" met="-+-+-+-">Said the wind from out the south,</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">&quot;Lay no kiss upon his mouth,&quot;</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">And the wind from out the west,</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">&quot;Wound the heart within his breast,&quot;</l>
+        <l n="9" real="xxxxxxx" met="-+-+-+-">And the wind from out the east,</l>
+        <l n="10" real="xx+-xxx" met="-+-+-+-">&quot;Send him empty from the feast,&quot;</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">And the wind from out the north,</l>
+        <l n="12" real="xx+-xxx" met="-+-+-+-">&quot;In the tempest thrust him forth;</l>
+        <l n="13" real="xxxx+-xx" met="--+-+-+-">When thou art more cruel than he,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">Then will Love be kind to thee.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="debt" n="L08046">
+      <head>Debt</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:debt</idno><idno type="laurel-id">L08046</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx" met="-+-+-+">What do I owe to you</l>
+        <l n="2" real="xx-xxxx" met="-+-+-+-">Who loved me deep and long?</l>
+        <l n="3" real="x+-xx+-x" met="--+-+-+-">You never gave my spirit wings</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Or gave my heart a song.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxx-" met="-+-+-+-">But oh, to him I loved,</l>
+        <l n="6" real="xx-xxxx" met="-+-+-+-">Who loved me not at all,</l>
+        <l n="7" real="xxx+-x" met="-+-+-+">I owe the open gate</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">That led through heaven&#x27;s wall.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="faults" n="L08047">
+      <head>Faults</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:faults</idno><idno type="laurel-id">L08047</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abbcac">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">They came to tell your faults to me,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">They named them over one by one;</l>
+        <l n="3" real="xx-+xxxx" met="-+-+-+-+">I laughed aloud when they were done,</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">I knew them all so well before,--</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Oh, they were blind, too blind to see</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Your faults had made me love you more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="buried-love" n="L08048">
+      <head>Buried Love</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:buried-love</idno><idno type="laurel-id">L08048</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-x" met="-+-+-+-">I have come to bury Love</l>
+        <l n="2" real="xxxx" met="-+-+">Beneath a tree,</l>
+        <l n="3" real="xx+-xxx" met="-+-+-+-">In the forest tall and black</l>
+        <l n="4" real="xxxx" met="-+-+">Where none can see.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx+xxx" met="--+-+-+-">I shall put no flowers at his head,</l>
+        <l n="6" real="xxxxx" met="-+-+-">Nor stone at his feet,</l>
+        <l n="7" real="xxxxx-xx" met="--+-+-+-">For the mouth I loved so much</l>
+        <l n="8" real="x+-x" met="-+-+">Was bittersweet.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">I shall go no more to his grave,</l>
+        <l n="10" real="xxxxx" met="-+-+-">For the woods are cold.</l>
+        <l n="11" real="xx+-xxxx" met="--+-+-+-">I shall gather as much of joy</l>
+        <l n="12" real="xxxxx" met="-+-+-">As my hands can hold.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">I shall stay all day in the sun</l>
+        <l n="14" real="xxxxx" met="-+-+-">Where the wide winds blow,--</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">But oh, I shall cry at night</l>
+        <l n="16" real="xxxx" met="-+-+">When none will know.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-fountain" n="L08049">
+      <head>The Fountain</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-fountain</idno><idno type="laurel-id">L08049</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx" met="-+-+-+">All through the deep blue night</l>
+        <l n="2" real="x+-x-+" met="-+-+-+">The fountain sang alone;</l>
+        <l n="3" real="xxxx+-x" met="-+-+-+-">It sang to the drowsy heart</l>
+        <l n="4" real="xxxxx-xx" met="--+-+-+-">Of the satyr carved in stone.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxx" met="-+-+-+">The fountain sang and sang,</l>
+        <l n="6" real="xxxx+-x-" met="--+-+-+-">But the satyr never stirred--</l>
+        <l n="7" real="+-xxxx" met="-+-+-+">Only the great white moon</l>
+        <l n="8" real="xx+-+-x" met="-+-+-+-">In the empty heaven heard.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-xxx" met="-+-+-+">The fountain sang and sang</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">While on the marble rim</l>
+        <l n="11" real="xxx+xx" met="-+-+-+">The milk-white peacocks slept,</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">And their dreams were strange and dim.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxx" met="-+-+-+">Bright dew was on the grass,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">And on the ilex, dew,</l>
+        <l n="15" real="x+-xxx" met="-+-+-+">The dreamy milk-white birds</l>
+        <l n="16" real="xxx+-x" met="-+-+-+">Were all a-glisten, too.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="x+-xxx" met="-+-+-+">The fountain sang and sang</l>
+        <l n="18" real="xxx+-x" met="-+-+-+">The things one cannot tell;</l>
+        <l n="19" real="x+-+xx-" met="-+-+-+-">The dreaming peacocks stirred</l>
+        <l n="20" real="xx+-xxx" met="-+-+-+-">And the gleaming dew-drops fell.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="i-shall-not-care" n="L08050">
+      <head>I Shall Not Care</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:i-shall-not-care</idno><idno type="laurel-id">L08050</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxx+-" met="-+-+-+-+-+">When I am dead and over me bright April</l>
+        <l n="2" real="xxxxx-x" met="-+-+-+-">Shakes out her rain-drenched hair,</l>
+        <l n="3" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Though you should lean above me broken-hearted,</l>
+        <l n="4" real="xxxx" met="--+-">I shall not care.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-xx+-" met="-+-+-+-+-+-">I shall have peace, as leafy trees are peaceful</l>
+        <l n="6" real="xxxxxx" met="--+-+-">When rain bends down the bough,</l>
+        <l n="7" real="xxxxx+-xx+-" met="-+-+-+-+-+-">And I shall be more silent and cold-hearted</l>
+        <l n="8" real="xxxx" met="--+-">Than you are now.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="after-parting" n="L08051">
+      <head>After Parting</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:after-parting</idno><idno type="laurel-id">L08051</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Oh, I have sown my love so wide</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">That he will find it everywhere;</l>
+        <l n="3" real="xx-+xxxx" met="-+-+-+-+">It will awake him in the night,</l>
+        <l n="4" real="xx-+xxxx" met="-+-+-+-+">It will enfold him in the air.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+xxxx" met="-+-+-+-+">I set my shadow in his sight</l>
+        <l n="6" real="xxxxxx-+-" met="-+-+-+-+-">And I have winged it with desire,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">That it may be a cloud by day,</l>
+        <l n="8" real="xxxxxxx+-" met="-+-+-+-+-">And in the night a shaft of fire.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-prayer" n="L08052">
+      <head>A Prayer</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:a-prayer</idno><idno type="laurel-id">L08052</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Until I lose my soul and lie</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">Blind to the beauty of the earth,</l>
+        <l n="3" real="xx+-xxx" met="+-+-+-+">Deaf though shouting wind goes by,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Dumb in a storm of mirth;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Until my heart is quenched at length</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And I have left the land of men,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Oh, let me love with all my strength</l>
+        <l n="8" real="+-xxxx-+" met="-+-+-+-+">Careless if I am loved again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="spring-night" n="L08053">
+      <head>Spring Night</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:spring-night</idno><idno type="laurel-id">L08053</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">The park is filled with night and fog,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">The veils are drawn about the world,</l>
+        <l n="3" real="x+-x-+xx" met="-+-+-+-+">The drowsy lights along the paths</l>
+        <l n="4" real="xxxx" met="--+-">Are dim and pearled.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xx+-x+-x" met="-+-+-+-+">Gold and gleaming the empty streets,</l>
+        <l n="6" real="xx+-x+-x" met="-+-+-+-+">Gold and gleaming the misty lake,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">The mirrored lights like sunken swords,</l>
+        <l n="8" real="+-xx" met="--+-">Glimmer and shake.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb--cc">
+        <l n="9" real="xxxx-+xx" met="-+-+-+-+">Oh, is it not enough to be</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">Here with this beauty over me?</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">My throat should ache with praise, and I</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">Should kneel in joy beneath the sky.</l>
+        <l n="13" real="x+-xxx-+" met="-+-+-+-+">O, beauty, are you not enough?</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">Why am I crying after love,</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">With youth, a singing voice, and eyes</l>
+        <l n="16" real="xxx+-x-+" met="-+-+-+-+">To take earth&#x27;s wonder with surprise?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbcc--">
+        <l n="17" real="xxxxxxx" met="+-+-+-+">Why have I put off my pride,</l>
+        <l n="18" real="xxx-+-x" met="+-+-+-+">Why am I unsatisfied,--</l>
+        <l n="19" real="xxxx+-x" met="+-+-+-+">I, for whom the pensive night</l>
+        <l n="20" real="xx+-xxx" met="+-+-+-+">Binds her cloudy hair with light,--</l>
+        <l n="21" real="xxxx+-x" met="+-+-+-+">I, for whom all beauty burns</l>
+        <l n="22" real="x+xxx+-x" met="-+-+-+-+">Like incense in a million urns?</l>
+        <l n="23" real="x+-xxx-+" met="-+-+-+-+">O beauty, are you not enough?</l>
+        <l n="24" real="xxx+-xxx" met="-+-+-+-+">Why am I crying after love?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="may-wind" n="L08054">
+      <head>May Wind</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:may-wind</idno><idno type="laurel-id">L08054</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">I said, &quot;I have shut my heart</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">As one shuts an open door,</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">That Love may starve therein</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">And trouble me no more.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx" met="-+-+-+-">But over the roofs there came</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">The wet new wind of May,</l>
+        <l n="7" real="xxxxxxxx" met="--+-+-+-">And a tune blew up from the curb</l>
+        <l n="8" real="xxx-+-x" met="-+-+-+-">Where the street-pianos play.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">My room was white with the sun</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">And Love cried out in me,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">&quot;I am strong, I will break your heart</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Unless you set me free.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tides" n="L08055">
+      <head>Tides</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:tides</idno><idno type="laurel-id">L08055</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx+" met="-+-+-+-+-">Love in my heart was a fresh tide flowing</l>
+        <l n="2" real="xx+xxxx" met="-+-+-+-">Where the starlike sea gulls soar;</l>
+        <l n="3" real="xxxxxxxx+-" met="--+-+-+-+-">The sun was keen and the foam was blowing</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">High on the rocky shore.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx+-" met="--+-+-+-+-">But now in the dusk the tide is turning,</l>
+        <l n="6" real="+-xxxx" met="-+-+-+">Lower the sea gulls soar,</l>
+        <l n="7" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And the waves that rose in resistless yearning</l>
+        <l n="8" real="x+-xxxx" met="-+-+-+-">Are broken forevermore.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="after-love" n="L08056">
+      <head>After Love</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:after-love</idno><idno type="laurel-id">L08056</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-+-x" met="-+-+-+-+">There is no magic any more,</l>
+        <l n="2" real="xxx+-+-x" met="-+-+-+-+">We meet as other people do,</l>
+        <l n="3" real="xxx+--xx" met="-+-+-+-+">You work no miracle for me</l>
+        <l n="4" real="xxxx" met="--+-">Nor I for you.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">You were the wind and I the sea--</l>
+        <l n="6" real="xxx+-+-x" met="-+-+-+-+">There is no splendor any more,</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">I have grown listless as the pool</l>
+        <l n="8" real="-+xx" met="--+-">Beside the shore.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">But though the pool is safe from storm</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">And from the tide has found surcease,</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">It grows more bitter than the sea,</l>
+        <l n="12" real="xxxx" met="--+-">For all its peace.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="new-love-and-old" n="L08057">
+      <head>New Love and Old</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:new-love-and-old</idno><idno type="laurel-id">L08057</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx" met="--+-+-">In my heart the old love</l>
+        <l n="2" real="+-xxx" met="-+-+-">Struggled with the new;</l>
+        <l n="3" real="xx+-+-" met="--+-+-">It was ghostly waking</l>
+        <l n="4" real="xxx" met="+-+">All night through.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx" met="-+-+">Dear things, kind things,</l>
+        <l n="6" real="xxxxx" met="-+-+-">That my old love said,</l>
+        <l n="7" real="x--+xxxx" met="--+-+-+-">Ranged themselves reproachfully</l>
+        <l n="8" real="xxx" met="+-+">Round my bed.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxx" met="--+-+-">But I could not heed them,</l>
+        <l n="10" real="xxxxx" met="-+-+-">For I seemed to see</l>
+        <l n="11" real="xxxxxx" met="--+-+-">The eyes of my new love</l>
+        <l n="12" real="xxx" met="+-+">Fixed on me.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxx" met="-+-+">Old love, old love,</l>
+        <l n="14" real="xxxxx" met="-+-+-">How can I be true?</l>
+        <l n="15" real="xxxxxxx+" met="--+-+-+-">Shall I be faithless to myself</l>
+        <l n="16" real="xxx" met="+-+">Or to you?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-kiss" n="L08058">
+      <head>The Kiss</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-kiss</idno><idno type="laurel-id">L08058</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx-xxxxx" met="--+-+-+-">I hoped that he would love me,</l>
+        <l n="2" real="xxxx-xx" met="-+-+-+-">And he has kissed my mouth,</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">But I am like a stricken bird</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">That cannot reach the south.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx" met="-+-+-+-">For though I know he loves me,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">To-night my heart is sad;</l>
+        <l n="7" real="xxxxx+--" met="--+-+-+-">His kiss was not so wonderful</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">As all the dreams I had.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="swans" n="L08059">
+      <head>Swans</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:swans</idno><idno type="laurel-id">L08059</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Night is over the park, and a few brave stars</l>
+        <l n="2" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Look on the lights that link it with chains of gold,</l>
+        <l n="3" real="xxxxx-+-x+-x" met="--+-+-+-+-+-">The lake bears up their reflection in broken bars</l>
+        <l n="4" real="xxx+-x+-+-xx" met="--+-+-+-+-+-">That seem too heavy for tremulous water to hold.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx+-x" met="-+-+-+-+-+-">We watch the swans that sleep in a shadowy place,</l>
+        <l n="6" real="xxx-+xxxxxxx" met="--+-+-+-+-+-">And now and again one wakes and uplifts its head;</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">How still you are--your gaze is on my face--</l>
+        <l n="8" real="xxxxx+xxxx" met="-+-+-+-+-+">We watch the swans and never a word is said.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-river" n="L08060">
+      <head>The River</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-river</idno><idno type="laurel-id">L08060</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-+-" met="--+-+-+-">I came from the sunny valleys</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">And sought for the open sea,</l>
+        <l n="3" real="xxxxxx-+-" met="-+-+-+-+-">For I thought in its gray expanses</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">My peace would come to me.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxx+-" met="--+-+-+-">I came at last to the ocean</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">And found it wild and black,</l>
+        <l n="7" real="xxxxxxx+-" met="-+-+-+-+-">And I cried to the windless valleys,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">&quot;Be kind and take me back!&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx+-xx+x" met="--+-+-+-">But the thirsty tide ran inland,</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">And the salt waves drank of me,</l>
+        <l n="11" real="xxxxxxx+x" met="-+-+-+-+-">And I who was fresh as the rainfall</l>
+        <l n="12" real="x+-xxx" met="-+-+-+">Am bitter as the sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="november" n="L08061">
+      <head>November</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:november</idno><idno type="laurel-id">L08061</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+xxxx" met="-+-+-+-+">The world is tired, the year is old,</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">The fading leaves are glad to die,</l>
+        <l n="3" real="xxx+--xx" met="-+-+-+-+">The wind goes shivering with cold</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Where the brown reeds are dry.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="+xx+-xxx" met="-+-+-+-+">Our love is dying like the grass,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">And we who kissed grow coldly kind,</l>
+        <l n="7" real="xxxx+xxx" met="-+-+-+-+">Half glad to see our old love pass</l>
+        <l n="8" real="xx-+xx" met="--+-+-">Like leaves along the wind.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="spring-rain" n="L08062">
+      <head>Spring Rain</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:spring-rain</idno><idno type="laurel-id">L08062</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-a">
+        <l n="1" real="xxxx-+-" met="-+-+-+-">I thought I had forgotten,</l>
+        <l n="2" real="xxxxx-+" met="-+-+-+-">But it all came back again</l>
+        <l n="3" real="xxxxxx+-" met="--+-+-+-">To-night with the first spring thunder</l>
+        <l n="4" real="xxxxx" met="+-+-+">In a rush of rain.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x-+-x+-+x" met="-+-+-+-+-">I remembered a darkened doorway</l>
+        <l n="6" real="xxxxxxxx" met="--+-+-+-">Where we stood while the storm swept by,</l>
+        <l n="7" real="+-+-xx" met="-+-+-+">Thunder gripping the earth</l>
+        <l n="8" real="x+-x-xxx" met="--+-+-+-">And lightning scrawled on the sky.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-+-+-x" met="--+-+-+-">The passing motor busses swayed,</l>
+        <l n="10" real="xxxxx+-xx" met="-+-+-+-+-">For the street was a river of rain,</l>
+        <l n="11" real="xxx+-+-x" met="--+-+-+-">Lashed into little golden waves</l>
+        <l n="12" real="xxxxx" met="+-+-+">In the lamp light&#x27;s stain.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxx+-" met="--+-+-+-">With the wild spring rain and thunder</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">My heart was wild and gay;</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">Your eyes said more to me that night</l>
+        <l n="16" real="xxxx+-x" met="-+-+-+-">Than your lips would ever say. . . .</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa-a">
+        <l n="17" real="xxxx-+-" met="-+-+-+-">I thought I had forgotten,</l>
+        <l n="18" real="xxxxx-+" met="-+-+-+-">But it all came back again</l>
+        <l n="19" real="xxxxxx+-" met="--+-+-+-">To-night with the first spring thunder</l>
+        <l n="20" real="xxxxx" met="+-+-+">In a rush of rain.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-ghost" n="L08063">
+      <head>The Ghost</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-ghost</idno><idno type="laurel-id">L08063</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-+-" met="-+-+-+-+-">I went back to the clanging city,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">I went back where my old loves stayed,</l>
+        <l n="3" real="xxxxxxxxx+-" met="-+-+-+-+-+-">But my heart was full of my new love&#x27;s glory,</l>
+        <l n="4" real="xxx+-xx-+" met="-+-+-+-+-">My eyes were laughing and unafraid.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx+-" met="-+-+-+-+-">I met one who had loved me madly</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And told his love for all to hear--</l>
+        <l n="7" real="xxxxx+-x-+-" met="-+-+-+-+-+-">But we talked of a thousand things together,</l>
+        <l n="8" real="xxx+-xxxx" met="-+-+-+-+-">The past was buried too deep to fear.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxx+-xxx+" met="-+-+-+-+-">I met the other, whose love was given</l>
+        <l n="10" real="x+xxx+-xx" met="-+-+-+-+-">With never a kiss and scarcely a word--</l>
+        <l n="11" real="xxxxx+-xx" met="-+-+-+-+-">Oh, it was then the terror took me</l>
+        <l n="12" real="xxxxxxxxx" met="-+-+-+-+-">Of words unuttered that breathed and stirred.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxx+-" met="-+-+-+-+-">Oh, love that lives its life with laughter</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Or love that lives its life with tears</l>
+        <l n="15" real="xxxxxx++-" met="-+-+-+-+-">Can die--but love that is never spoken</l>
+        <l n="16" real="xxxxxx+-x" met="-+-+-+-+-">Goes like a ghost through the winding years. . . .</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxx+-+-" met="-+-+-+-+-">I went back to the clanging city,</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">I went back where my old loves stayed,</l>
+        <l n="19" real="xxxxxxxx+-" met="--+-+-+-+-">My heart was full of my new love&#x27;s glory,--</l>
+        <l n="20" real="xxxx+--+" met="-+-+-+-+">But my eyes were suddenly afraid.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="summer-night-riverside" n="L08064">
+      <head>Summer Night, Riverside</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:summer-night-riverside</idno><idno type="laurel-id">L08064</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxx+-+-" met="--+-+-+-">In the wild, soft summer darkness</l>
+        <l n="2" real="x+x+xxxx-+-" met="-+-+-+-+-+-">How many and many a night we two together</l>
+        <l n="3" real="xxxxxxx+-" met="-+-+-+-+-">Sat in the park and watched the Hudson</l>
+        <l n="4" real="+-xxx+-x" met="--+-+-+-">Wearing her lights like golden spangles</l>
+        <l n="5" real="+-xx+-" met="--+-+-">Glinting on black satin.</l>
+        <l n="6" real="xx-+x+-+x" met="-+-+-+-+-">The rail along the curving pathway</l>
+        <l n="7" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Was low in a happy place to let us cross,</l>
+        <l n="8" real="xxxxxxxxxx" met="--+-+-+-+-">And down the hill a tree that dripped with bloom</l>
+        <l n="9" real="+-x" met="+-+">Sheltered us,</l>
+        <l n="10" real="xx+-xx+-" met="--+-+-+-">While your kisses and the flowers,</l>
+        <l n="11" real="+-+-" met="-+-+">Falling, falling,</l>
+        <l n="12" real="+-xx" met="-+-+">Tangled my hair. . . .</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="13" real="xxxx" met="-+-+">And now, far off</l>
+        <l n="14" real="xx+-+-" met="--+-+-">In the fragrant darkness</l>
+        <l n="15" real="xxx+--+xx" met="-+-+-+-+-">The tree is tremulous again with bloom,</l>
+        <l n="16" real="xxxx" met="-+-+">For June comes back.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="17" real="xxxx" met="-+-+">To-night what girl</l>
+        <l n="18" real="xxxxxx+-xxxx" met="--+-+-+-+-+-">Dreamily before her mirror shakes from her hair</l>
+        <l n="19" real="xx+-+-xxx" met="-+-+-+-+-">This year&#x27;s blossoms, clinging in its coils?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="jewels" n="L08065">
+      <head>Jewels</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:jewels</idno><idno type="laurel-id">L08065</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx-+" met="-+-+-+-+">If I should see your eyes again,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">I know how far their look would go--</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">Back to a morning in the park</l>
+        <l n="4" real="x+-+xxxx" met="-+-+-+-+">With sapphire shadows on the snow.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Or back to oak trees in the spring</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">When you unloosed my hair and kissed</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">The head that lay against your knees</l>
+        <l n="8" real="xxx+x+--" met="-+-+-+-+">In the leaf shadow&#x27;s amethyst.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx-+-+-x" met="-+-+-+-+">And still another shining place</l>
+        <l n="10" real="xx-+-xxx" met="-+-+-+-+">We would remember--how the dun</l>
+        <l n="11" real="x+-xxxxx" met="-+-+-+-+">Wild mountain held us on its crest</l>
+        <l n="12" real="x+-+-xxx" met="-+-+-+-+">One diamond morning white with sun.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">But I will turn my eyes from you</l>
+        <l n="14" real="x+-xxx-+" met="-+-+-+-+">As women turn to put away</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">The jewels they have worn at night</l>
+        <l n="16" real="x+-xx+-x" met="-+-+-+-+">And cannot wear in sober day.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="spirit-s-house" n="L08066">
+      <head>Spirit&#x27;s House</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:spirit-s-house</idno><idno type="laurel-id">L08066</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-abbccddaee">
+        <l n="1" real="x+-xx+--" met="-+-+-+-+">From naked stones of agony</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">I will build a house for me;</l>
+        <l n="3" real="xx+-x-+" met="+-+-+-+">As a mason all alone</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">I will raise it, stone by stone,</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">And every stone where I have bled</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Will show a sign of dusky red.</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">I have not gone the way in vain,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">For I have good of all my pain;</l>
+        <l n="9" real="x+-+-xxx" met="-+-+-+-+">My spirit&#x27;s quiet house will be</l>
+        <l n="10" real="xx+--xxx" met="-+-+-+-+">Built of naked stones I trod</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">On roads where I lost sight of God.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mastery" n="L08067">
+      <head>Mastery</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:mastery</idno><idno type="laurel-id">L08067</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabccbdbdee--">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">I would not have a god come in</l>
+        <l n="2" real="xxx+--xx" met="-+-+-+-+">To shield me suddenly from sin,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And set my house of life to rights;</l>
+        <l n="4" real="x+-xx+-x" met="-+-+-+-+">Nor angels with bright burning wings</l>
+        <l n="5" real="+-x+-xxx" met="-+-+-+-+">Ordering my earthly thoughts and things;</l>
+        <l n="6" real="+-xxx+-x" met="-+-+-+-+">Rather my own frail guttering lights</l>
+        <l n="7" real="xxx+-+-x" met="-+-+-+-+">Wind blown and nearly beaten out;</l>
+        <l n="8" real="+-x+-xxx" met="-+-+-+-+">Rather the terror of the nights</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">And long, sick groping after doubt;</l>
+        <l n="10" real="+-xxxxxx" met="-+-+-+-+">Rather be lost than let my soul</l>
+        <l n="11" real="x+-xxx-+" met="-+-+-+-+">Slip vaguely from my own control--</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Of my own spirit let me be</l>
+        <l n="13" real="xxx+-+--" met="-+-+-+-+">In sole though feeble mastery.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lessons" n="L08068">
+      <head>Lessons</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:lessons</idno><idno type="laurel-id">L08068</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-bcc">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Unless I learn to ask no help</l>
+        <l n="2" real="x+-+-xxx" met="-+-+-+-+">From any other soul but mine,</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">To seek no strength in waving reeds</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Nor shade beneath a straggling pine;</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Unless I learn to look at Grief</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Unshrinking from her tear-blind eyes,</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">And take from Pleasure fearlessly</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">Whatever gifts will make me wise--</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Unless I learn these things on earth,</l>
+        <l n="10" real="xxx+-+-x" met="-+-+-+-+">Why was I ever given birth?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="wisdom" n="L08069">
+      <head>Wisdom</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:wisdom</idno><idno type="laurel-id">L08069</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">When I have ceased to break my wings</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Against the faultiness of things,</l>
+        <l n="3" real="xxx+-x-x" met="-+-+-+-+">And learned that compromises wait</l>
+        <l n="4" real="xxx+-+-x" met="-+-+-+-+">Behind each hardly opened gate,</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">When I can look Life in the eyes,</l>
+        <l n="6" real="xxx+-+-x" met="-+-+-+-+">Grown calm and very coldly wise,</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">Life will have given me the Truth,</l>
+        <l n="8" real="x+-x-+xx" met="-+-+-+-+">And taken in exchange--my youth.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="in-a-burying-ground" n="L08070">
+      <head>In a Burying Ground</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:in-a-burying-ground</idno><idno type="laurel-id">L08070</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa-a">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">This is the spot where I will lie</l>
+        <l n="2" real="xxxx-+xx" met="-+-+-+-+">When life has had enough of me,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">These are the grasses that will blow</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">Above me like a living sea.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">These gay old lilies will not shrink</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">To draw their life from death of mine,</l>
+        <l n="7" real="xxxxx+-+-" met="-+-+-+-+-">And I will give my body&#x27;s fire</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">To make blue flowers on this vine.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">&quot;O Soul,&quot; I said, &quot;have you no tears?</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">Was not the body dear to you?&quot;</l>
+        <l n="11" real="xxxxx+--" met="-+-+-+-+">I heard my soul say carelessly,</l>
+        <l n="12" real="x+-+xxxx" met="-+-+-+-+">&quot;The myrtle flowers will grow more blue.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="wood-song" n="L08071">
+      <head>Wood Song</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:wood-song</idno><idno type="laurel-id">L08071</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">I heard a wood thrush in the dusk</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Twirl three notes and make a star--</l>
+        <l n="3" real="xxxxx+--" met="-+-+-+-+">My heart that walked with bitterness</l>
+        <l n="4" real="xxx+-x" met="--+-+-">Came back from very far.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">Three shining notes were all he had,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">And yet they made a starry call--</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">I caught life back against my breast</l>
+        <l n="8" real="xx-xxxx" met="+-+-+-+">And kissed it, scars and all.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="refuge" n="L08072">
+      <head>Refuge</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:refuge</idno><idno type="laurel-id">L08072</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb--">
+        <l n="1" real="xx+-x-+" met="+-+-+-+">From my spirit&#x27;s gray defeat,</l>
+        <l n="2" real="xx+-+-x" met="+-+-+-+">From my pulse&#x27;s flagging beat,</l>
+        <l n="3" real="xxxxx-xx" met="-+-+-+-+">From my hopes that turned to sand</l>
+        <l n="4" real="+-xxxx-x" met="-+-+-+-+">Sifting through my close-clenched hand,</l>
+        <l n="5" real="xxxx+--" met="+-+-+-+">From my own fault&#x27;s slavery,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">If I can sing, I still am free.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--">
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">For with my singing I can make</l>
+        <l n="8" real="x+-xx+-x" met="-+-+-+-+">A refuge for my spirit&#x27;s sake,</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">A house of shining words, to be</l>
+        <l n="10" real="x+-x-+--" met="-+-+-+-+">My fragile immortality.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-flight" n="L08073">
+      <head>The Flight</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-flight</idno><idno type="laurel-id">L08073</idno><note type="metre">alexandrines</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxx+-xxxxxx+-" met="-+-+-+-+-+-+-">Look back with longing eyes and know that I will follow,</l>
+        <l n="2" real="xxxxxxxxxxxx+-" met="--+-+-+-+-+-+-">Lift me up in your love as a light wind lifts a swallow,</l>
+        <l n="3" real="x+xxxxxx+-x" met="+-+-+-+-+-+">Let our flight be far in sun or blowing rain--</l>
+        <l n="4" real="xxxxxxxx+-x-+" met="-+-+-+-+-+-+-">But what if I heard my first love calling me again?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Hold me on your heart as the brave sea holds the foam,</l>
+        <l n="6" real="xxx-+xxxxxxx" met="-+-+-+-+-+-+">Take me far away to the hills that hide your home;</l>
+        <l n="7" real="xxxxxxxxxxx" met="+-+-+-+-+-+">Peace shall thatch the roof and love shall latch the door--</l>
+        <l n="8" real="xxxxxxxx+-xxx" met="-+-+-+-+-+-+-">But what if I heard my first love calling me once more?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="dew" n="L08074">
+      <head>Dew</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:dew</idno><idno type="laurel-id">L08074</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-abc-c-d-dbebe">
+        <l n="1" real="xxxx+x+-" met="--+-+-+-">As dew leaves the cobweb lightly</l>
+        <l n="2" real="+-xx" met="-+-+">Threaded with stars,</l>
+        <l n="3" real="+--+-xxx" met="--+-+-+-">Scattering jewels on the fence</l>
+        <l n="4" real="xx+-x" met="-+-+-">And the pasture bars;</l>
+        <l n="5" real="xxxxxxx" met="-+-+-+-">As dawn leaves the dry grass bright</l>
+        <l n="6" real="xx+-x" met="-+-+-">And the tangled weeds</l>
+        <l n="7" real="+-x+xx" met="--+-+-">Bearing a rainbow gem</l>
+        <l n="8" real="xxxxx" met="-+-+-">On each of their seeds;</l>
+        <l n="9" real="xxxxx+-" met="-+-+-+-">So has your love, my lover,</l>
+        <l n="10" real="xxxx" met="-+-+">Fresh as the dawn,</l>
+        <l n="11" real="xxx+-x" met="--+-+-">Made me a shining road</l>
+        <l n="12" real="x+-x" met="-+-+">To travel on,</l>
+        <l n="13" real="x+--+-x" met="-+-+-+-">Set every common sight</l>
+        <l n="14" real="xxxx" met="-+-+">Of tree or stone</l>
+        <l n="15" real="+----+" met="--+-+-">Delicately alight</l>
+        <l n="16" real="xx-+" met="-+-+">For me alone.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-night" n="L08075">
+      <head>To-night</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:to-night</idno><idno type="laurel-id">L08075</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx+-+xx" met="-+-+-+-+-">The moon is a curving flower of gold,</l>
+        <l n="2" real="xxxxxx" met="--+-+-">The sky is still and blue;</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">The moon was made for the sky to hold,</l>
+        <l n="4" real="xxxx" met="--+-">And I for you.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxx+xxxx" met="-+-+-+-+-">The moon is a flower without a stem,</l>
+        <l n="6" real="xxx+--" met="--+-+-">The sky is luminous;</l>
+        <l n="7" real="-+--xxxx" met="-+-+-+-+">Eternity was made for them,</l>
+        <l n="8" real="xxxx" met="--+-">To-night for us.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ebb-tide" n="L08076">
+      <head>Ebb Tide</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:ebb-tide</idno><idno type="laurel-id">L08076</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx" met="-+-+-+">When the long day goes by</l>
+        <l n="2" real="xxxxxxx" met="-+-+-+-">And I do not see your face,</l>
+        <l n="3" real="xxx+-+-" met="-+-+-+-">The old wild, restless sorrow</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">Steals from its hiding place.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-x+-" met="--+-+-+-">My day is barren and broken,</l>
+        <l n="6" real="-+xxxx" met="-+-+-+">Bereft of light and song,</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">A sea beach bleak and windy</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">That moans the whole day long.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx+-xxxx" met="--+-+-+-">To the empty beach at ebb tide,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Bare with its rocks and scars,</l>
+        <l n="11" real="xxxxxx+-" met="--+-+-+-">Come back like the sea with singing,</l>
+        <l n="12" real="xxxx+-x" met="-+-+-+-">And light of a million stars.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="i-would-live-in-your-love" n="L08077">
+      <head>I Would Live in Your Love</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:i-would-live-in-your-love</idno><idno type="laurel-id">L08077</idno>
+      <lg type="stanza" n="1" rhyme="aba-b">
+        <l n="1" real="xxxxxxxxx+-xxxx">I would live in your love as the sea-grasses live in the sea,</l>
+        <l n="2" real="xxxxxxx+-xxxxxx-+">Borne up by each wave as it passes, drawn down by each wave that recedes;</l>
+        <l n="3" real="xx+-xxxxxxx+-xx">I would empty my soul of the dreams that have gathered in me,</l>
+        <l n="4" real="xxxxxxxxxxx+-xx">I would beat with your heart as it beats, I would follow your soul</l>
+        <l n="5" real="xxx">as it leads.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="because" n="L08078">
+      <head>Because</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:because</idno><idno type="laurel-id">L08078</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="xxxx+-x" met="+-+-+-+">Oh, because you never tried</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">To bow my will or break my pride,</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">And nothing of the cave-man made</l>
+        <l n="4" real="xxxxxx-+" met="-+-+-+-+">You want to keep me half afraid,</l>
+        <l n="5" real="x+xx+--x" met="-+-+-+-+">Nor ever with a conquering air</l>
+        <l n="6" real="xxxxxx-+" met="-+-+-+-+">You thought to draw me unaware--</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Take me, for I love you more</l>
+        <l n="8" real="xx+-x-xx" met="-+-+-+-+">Than I ever loved before.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccbb">
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">And since the body&#x27;s maidenhood</l>
+        <l n="10" real="-+x+-xxx" met="-+-+-+-+">Alone were neither rare nor good</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Unless with it I gave to you</l>
+        <l n="12" real="x+-x-+-x" met="-+-+-+-+">A spirit still untrammeled, too,</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">Take my dreams and take my mind</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">That were masterless as wind;</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">And &quot;Master!&quot; I shall say to you</l>
+        <l n="16" real="xx+-x-xx" met="-+-+-+-+">Since you never asked me to.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-tree-of-song" n="L08079">
+      <head>The Tree of Song</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-tree-of-song</idno><idno type="laurel-id">L08079</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">I sang my songs for the rest,</l>
+        <l n="2" real="xxxxx" met="+-+-+">For you I am still;</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">The tree of my song is bare</l>
+        <l n="4" real="xx+-x" met="+-+-+">On its shining hill.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">For you came like a lordly wind,</l>
+        <l n="6" real="xxxxx" met="+-+-+">And the leaves were whirled</l>
+        <l n="7" real="xx-+-x" met="-+-+-+">Far as forgotten things</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Past the rim of the world.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">The tree of my song stands bare</l>
+        <l n="10" real="xxxx" met="--+-">Against the blue--</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">I gave my songs to the rest,</l>
+        <l n="12" real="x+xx" met="--+-">Myself to you.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-giver" n="L08080">
+      <head>The Giver</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-giver</idno><idno type="laurel-id">L08080</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">You bound strong sandals on my feet,</l>
+        <l n="2" real="xxxxxx" met="--+-+-">You gave me bread and wine,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And sent me under sun and stars,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">For all the world was mine.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">Oh, take the sandals off my feet,</l>
+        <l n="6" real="xxxxxx" met="--+-+-">You know not what you do;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">For all my world is in your arms,</l>
+        <l n="8" real="xxxxxx" met="--+-+-">My sun and stars are you.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="april-song" n="L08081">
+      <head>April Song</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:april-song</idno><idno type="laurel-id">L08081</idno><note type="metre">trochaic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="+xxx+-x" met="+-+-+--">Willow, in your April gown</l>
+        <l n="2" real="+--x+-" met="+-+-+-">Delicate and gleaming,</l>
+        <l n="3" real="xxxxxxx" met="+-+-+--">Do you mind in years gone by</l>
+        <l n="4" real="xx+-" met="+---">All my dreaming?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx" met="+-+-+--">Spring was like a call to me</l>
+        <l n="6" real="xxxx+-" met="+-+-+-">That I could not answer,</l>
+        <l n="7" real="xxx-x+--" met="+--+-+--">I was chained to loneliness,</l>
+        <l n="8" real="xx+-" met="+---">I, the dancer.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="+x+--xxx" met="+--+-+--">Willow, twinkling in the sun,</l>
+        <l n="10" real="xxxxxx" met="+-+-+-">Still your leaves and hear me,</l>
+        <l n="11" real="xx+-xxx" met="+-+-+--">I can answer spring at last,</l>
+        <l n="12" real="xxxx" met="+---">Love is near me!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-wanderer" n="L08082">
+      <head>The Wanderer</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-wanderer</idno><idno type="laurel-id">L08082</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xxx+x+-x" met="-+-+-+-+">I saw the sunset-colored sands,</l>
+        <l n="2" real="xxx++-xx" met="-+-+-+-+">The Nile like flowing fire between,</l>
+        <l n="3" real="x+-xxx-+" met="-+-+-+-+">Where Rameses stares forth serene,</l>
+        <l n="4" real="x+-+-+-x" met="-+-+-+-+">And Ammon&#x27;s heavy temple stands.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="xxxxxx-+" met="-+-+-+-+">I saw the rocks where long ago,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Above the sea that cries and breaks,</l>
+        <l n="7" real="x+-x-+-x" met="-+-+-+-+">Swift Perseus with Medusa&#x27;s snakes</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">Set free the maiden white like snow.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abba">
+        <l n="9" real="x+-xx+-x" met="-+-+-+-+">And many skies have covered me,</l>
+        <l n="10" real="x+-xxxxx" met="-+-+-+-+">And many winds have blown me forth,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">And I have loved the green, bright north,</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">And I have loved the cold, sweet sea.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abba">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">But what to me are north and south,</l>
+        <l n="14" real="xxxxx+-x" met="-+-+-+-+">And what the lure of many lands,</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Since you have leaned to catch my hands</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">And lay a kiss upon my mouth.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-years" n="L08083">
+      <head>The Years</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-years</idno><idno type="laurel-id">L08083</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">To-night I close my eyes and see</l>
+        <l n="2" real="xx-+-+-x" met="-+-+-+-+">A strange procession passing me--</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">The years before I saw your face</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">Go by me with a wistful grace;</l>
+        <l n="5" real="xxx+--xx" met="-+-+-+-+">They pass, the sensitive, shy years,</l>
+        <l n="6" real="xxxxxxxxxx" met="--+-+-+-+-">As one who strives to dance, half blind with tears.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc">
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">The years went by and never knew</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">That each one brought me nearer you;</l>
+        <l n="9" real="xxx+-x-+" met="-+-+-+-+">Their path was narrow and apart</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">And yet it led me to your heart--</l>
+        <l n="11" real="x+-xxx+-x" met="-+-+-+-+-">Oh, sensitive, shy years, oh, lonely years,</l>
+        <l n="12" real="xxxxx+-xxx" met="--+-+-+-+-">That strove to sing with voices drowned in tears.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="enough" n="L08084">
+      <head>Enough</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:enough</idno><idno type="laurel-id">L08084</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx-+xxxx" met="-+-+-+-+">It is enough for me by day</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">To walk the same bright earth with him;</l>
+        <l n="3" real="-+xxxxxx" met="-+-+-+-+">Enough that over us by night</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">The same great roof of stars is dim.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">I do not hope to bind the wind</l>
+        <l n="6" real="xxx+-xxx" met="-+-+-+-+">Or set a fetter on the sea--</l>
+        <l n="7" real="xx-+xxxx" met="-+-+-+-+">It is enough to feel his love</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">Blow by like music over me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="come" n="L08085">
+      <head>Come</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:come</idno><idno type="laurel-id">L08085</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx+-" met="-+-+-+-+-">Come, when the pale moon like a petal</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">Floats in the pearly dusk of spring,</l>
+        <l n="3" real="xxx-+xxx" met="-+-+-+-+">Come with arms outstretched to take me,</l>
+        <l n="4" real="xxxx-xxx" met="-+-+-+-+">Come with lips pursed up to cling.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx+-" met="-+-+-+-+-">Come, for life is a frail moth flying,</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">Caught in the web of the years that pass,</l>
+        <l n="7" real="xxxxxxx+-" met="-+-+-+-+-">And soon we two, so warm and eager,</l>
+        <l n="8" real="xxxxxxxxx" met="-+-+-+-+-">Will be as the gray stones in the grass.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="joy" n="L08086">
+      <head>Joy</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:joy</idno><idno type="laurel-id">L08086</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxxx" met="--+--+--+">I am wild, I will sing to the trees,</l>
+        <l n="2" real="xxxxxxxxx" met="--+--+--+">I will sing to the stars in the sky,</l>
+        <l n="3" real="xxxxxxxx" met="-+--+--+">I love, I am loved, he is mine,</l>
+        <l n="4" real="xxxxxx" met="+-+--+">Now at last I can die!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxxx" met="--+--+--+">I am sandaled with wind and with flame,</l>
+        <l n="6" real="xxx+x+-xx" met="--+--+--+">I have heart-fire and singing to give,</l>
+        <l n="7" real="xxxxxxxxx" met="--+--+--+">I can tread on the grass or the stars,</l>
+        <l n="8" real="xxxxxx" met="+-+--+">Now at last I can live!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="riches" n="L08087">
+      <head>Riches</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:riches</idno><idno type="laurel-id">L08087</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">I have no riches but my thoughts,</l>
+        <l n="2" real="xxxx-+xx" met="-+-+-+-+">Yet these are wealth enough for me;</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">My thoughts of you are golden coins</l>
+        <l n="4" real="xxxxx+--" met="-+-+-+-+">Stamped in the mint of memory;</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">And I must spend them all in song,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">For thoughts, as well as gold, must be</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">Left on the hither side of death</l>
+        <l n="8" real="xxxx-+--" met="-+-+-+-+">To gain their immortality.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="dusk-in-war-time" n="L08088">
+      <head>Dusk in War Time</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:dusk-in-war-time</idno><idno type="laurel-id">L08088</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx+xxxxx" met="-+--+--+">A half-hour more and you will lean</l>
+        <l n="2" real="x+-xxxxxxx" met="+--+--+--+">To gather me close in the old sweet way--</l>
+        <l n="3" real="xxxx+-xxx" met="+-+--+--+">But oh, to the woman over the sea</l>
+        <l n="4" real="xxxxxxxx" met="-+--+--+">Who will come at the close of day?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xx+xxxxx" met="-+--+--+">A half-hour more and I will hear</l>
+        <l n="6" real="xxxxxxxxxx" met="+--+--+--+">The key in the latch and the strong, quick tread--</l>
+        <l n="7" real="xxx+-xxx" met="-+--+--+">But oh, the woman over the sea</l>
+        <l n="8" real="+-xxxxxxx" met="+-+--+--+">Waiting at dusk for one who is dead!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="peace" n="L08089">
+      <head>Peace</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:peace</idno><idno type="laurel-id">L08089</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xxxxx" met="+-+-+">Peace flows into me</l>
+        <l n="2" real="xxxxxxxxx" met="-+-+-+-+-">As the tide to the pool by the shore;</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">It is mine forevermore,</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">It will not ebb like the sea.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="xxxxxx" met="-+-+-+">I am the pool of blue</l>
+        <l n="6" real="x+-x+-x" met="-+-+-+-">That worships the vivid sky;</l>
+        <l n="7" real="xxx+-x" met="-+-+-+">My hopes were heaven-high,</l>
+        <l n="8" real="xxx-+-xx" met="--+-+-+-">They are all fulfilled in you.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abba">
+        <l n="9" real="xxxxxx" met="-+-+-+">I am the pool of gold</l>
+        <l n="10" real="x+xxxx" met="-+-+-+">When sunset burns and dies--</l>
+        <l n="11" real="xxx+--x" met="-+-+-+-">You are my deepening skies;</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Give me your stars to hold.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="moods" n="L08090">
+      <head>Moods</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:moods</idno><idno type="laurel-id">L08090</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">I am the still rain falling,</l>
+        <l n="2" real="x+--x+-x" met="--+-+-+-">Too tired for singing mirth--</l>
+        <l n="3" real="xxxxx+-" met="-+-+-+-">Oh, be the green fields calling,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Oh, be for me the earth!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxx+-" met="-+-+-+-">I am the brown bird pining</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">To leave the nest and fly--</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">Oh, be the fresh cloud shining,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Oh, be for me the sky!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="houses-of-dreams" n="L08091">
+      <head>Houses of Dreams</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:houses-of-dreams</idno><idno type="laurel-id">L08091</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-x" met="-+-+-+">You took my empty dreams</l>
+        <l n="2" real="xx-x+--x" met="--+-+-+-">And filled them every one</l>
+        <l n="3" real="x+--xxxx" met="--+-+-+-">With tenderness and nobleness,</l>
+        <l n="4" real="+-xxx" met="+-+-+">April and the sun.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xx+-x" met="+-+-+">The old empty dreams</l>
+        <l n="6" real="xxxxx" met="+-+-+">Where my thoughts would throng</l>
+        <l n="7" real="xxxxx+--" met="--+-+-+-">Are far too full of happiness</l>
+        <l n="8" real="x+-xxx" met="-+-+-+">To even hold a song.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx+-xxx" met="-+-+-+-">Oh, the empty dreams were dim</l>
+        <l n="10" real="xx+-xxx" met="-+-+-+-">And the empty dreams were wide,</l>
+        <l n="11" real="xxxx+--+-" met="-+-+-+-+-">They were sweet and shadowy houses</l>
+        <l n="12" real="xxxxx" met="+-+-+">Where my thoughts could hide.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxx-+" met="-+-+-+-">But you took my dreams away</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">And you made them all come true--</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">My thoughts have no place now to play,</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">And nothing now to do.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lights" n="L08092">
+      <head>Lights</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:lights</idno><idno type="laurel-id">L08092</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">When we come home at night and close the door,</l>
+        <l n="2" real="+--+-xx+-x" met="-+-+-+-+-+">Standing together in the shadowy room,</l>
+        <l n="3" real="xx+xxxx+-x" met="-+-+-+-+-+">Safe in our own love and the gentle gloom,</l>
+        <l n="4" real="xx-+-xxxxx" met="-+-+-+-+-+">Glad of familiar wall and chair and floor,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Glad to leave far below the clanging city;</l>
+        <l n="6" real="+-x+xx+-x" met="+-+-+-+-+">Looking far downward to the glaring street</l>
+        <l n="7" real="+-xxx+x+x" met="+-+-+-+-+">Gaudy with light, yet tired with many feet,</l>
+        <l n="8" real="xxxxxxx+-+-" met="-+-+-+-+-+-">In both of us wells up a wordless pity;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-bab-">
+        <l n="9" real="xxxxxx-+xx" met="-+-+-+-+-+">Men have tried hard to put away the dark;</l>
+        <l n="10" real="x+-+-+-+-" met="+-+-+-+-+">A million lighted windows brilliantly</l>
+        <l n="11" real="+xxxxxx+-x" met="-+-+-+-+-+">Inlay with squares of gold the winter night,</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">But to us standing here there comes the stark</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">Sense of the lives behind each yellow light,</l>
+        <l n="14" real="xxx+-+-xxx" met="-+-+-+-+-+">And not one wholly joyous, proud, or free.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">I am not yours, not lost in you,</l>
+        <l n="16" real="xxxxxxxx" met="--+-+-+-">Not lost, although I long to be</l>
+        <l n="17" real="xxx+-xxx" met="--+-+-+-">Lost as a candle lit at noon,</l>
+        <l n="18" real="xxx+xxxx" met="--+-+-+-">Lost as a snowflake in the sea.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="19" real="xxxxxxxx" met="--+-+-+-">You love me, and I find you still</l>
+        <l n="20" real="x+-+--xx" met="--+-+-+-">A spirit beautiful and bright,</l>
+        <l n="21" real="xxxxxxxx" met="--+-+-+-">Yet I am I, who long to be</l>
+        <l n="22" real="xxxxxxxx" met="--+-+-+-">Lost as a light is lost in light.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="23" real="xxxxxxxx" met="--+-+-+-">Oh plunge me deep in love--put out</l>
+        <l n="24" real="x+-xxxxx" met="--+-+-+-">My senses, leave me deaf and blind,</l>
+        <l n="25" real="xxx+-xxx" met="--+-+-+-">Swept by the tempest of your love,</l>
+        <l n="26" real="x+-xx+-x" met="--+-+-+-">A taper in a rushing wind.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="doubt" n="L08093">
+      <head>Doubt</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:doubt</idno><idno type="laurel-id">L08093</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="----abab">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">My soul lives in my body&#x27;s house,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">And you have both the house and her--</l>
+        <l n="3" real="x-+xxxxx" met="-+-+-+-+">But sometimes she is less your own</l>
+        <l n="4" real="xxxx-+--" met="-+-+-+-+">Than a wild, gay adventurer;</l>
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">A restless and an eager wraith,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">How can I tell what she will do--</l>
+        <l n="7" real="xxxxxx+-x" met="-+-+-+-+-">Oh, I am sure of my body&#x27;s faith,</l>
+        <l n="8" real="xxxxxxxxx" met="-+-+-+-+-">But what if my soul broke faith with you?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-wind" n="L08094">
+      <head>The Wind</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-wind</idno><idno type="laurel-id">L08094</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">A wind is blowing over my soul,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">I hear it cry the whole night through--</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Is there no peace for me on earth</l>
+        <l n="4" real="xxxx" met="--+-">Except with you?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="-+xxxxxx" met="-+-+-+-+">Alas, the wind has made me wise,</l>
+        <l n="6" real="xxx+-xxx" met="-+-+-+-+">Over my naked soul it blew,--</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">There is no peace for me on earth</l>
+        <l n="8" real="+-xx" met="--+-">Even with you.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="morning" n="L08095">
+      <head>Morning</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:morning</idno><idno type="laurel-id">L08095</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-+-" met="-+-+-+-+-">I went out on an April morning</l>
+        <l n="2" real="x-+xxxxx" met="-+-+-+-+">All alone, for my heart was high,</l>
+        <l n="3" real="xxxxxx+-+x" met="--+-+-+-+-">I was a child of the shining meadow,</l>
+        <l n="4" real="xxx+-xxx" met="-+-+-+-+">I was a sister of the sky.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xx+-" met="-+-+-+-+-">There in the windy flood of morning</l>
+        <l n="6" real="+-+-xxxx" met="-+-+-+-+">Longing lifted its weight from me,</l>
+        <l n="7" real="xxxxxxxx+-" met="--+-+-+-+-">Lost as a sob in the midst of cheering,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">Swept as a sea-bird out to sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="other-men" n="L08096">
+      <head>Other Men</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:other-men</idno><idno type="laurel-id">L08096</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-x" met="-+-+-+-">When I talk with other men</l>
+        <l n="2" real="x+xxxx" met="-+-+-+">I always think of you--</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">Your words are keener than their words,</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">And they are gentler, too.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx+-x" met="-+-+-+-">When I look at other men,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">I wish your face were there,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">With its gray eyes and dark skin</l>
+        <l n="8" real="xxxx" met="--+-">And tossed black hair.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxx+-x" met="-+-+-+-">When I think of other men,</l>
+        <l n="10" real="+--+xx" met="-+-+-+">Dreaming alone by day,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">The thought of you like a strong wind</l>
+        <l n="12" real="xxx-+" met="+-+-+">Blows the dreams away.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="embers" n="L08097">
+      <head>Embers</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:embers</idno><idno type="laurel-id">L08097</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx" met="-+-+-+">I said, &quot;My youth is gone</l>
+        <l n="2" real="xx++-xxxx" met="-+-+-+-+-">Like a fire beaten out by the rain,</l>
+        <l n="3" real="xx+-xxx" met="-+-+-+-">That will never sway and sing</l>
+        <l n="4" real="xxxxx-+" met="-+-+-+-">Or play with the wind again.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxxx+-" met="--+-+-+-">I said, &quot;It is no great sorrow</l>
+        <l n="6" real="xx-xxxx" met="-+-+-+-">That quenched my youth in me,</l>
+        <l n="7" real="x+-+-+-" met="-+-+-+-">But only little sorrows</l>
+        <l n="8" real="+-+--" met="+-+-+">Beating ceaselessly.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxx" met="-+-+-+">I thought my youth was gone,</l>
+        <l n="10" real="xx-+" met="--+-">But you returned--</l>
+        <l n="11" real="xxxxxxxxx" met="-+-+-+-+-">Like a flame at the call of the wind</l>
+        <l n="12" real="xxxx" met="--+-">It leaped and burned;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxx+-x" met="-+-+-+">Threw off its ashen cloak,</l>
+        <l n="14" real="xx-+" met="--+-">And gowned anew</l>
+        <l n="15" real="x-+xxx" met="-+-+-+">Gave itself like a bride</l>
+        <l n="16" real="xxxx" met="--+-">Once more to you.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="message" n="L08098">
+      <head>Message</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:message</idno><idno type="laurel-id">L08098</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">I heard a cry in the night,</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">A thousand miles it came,</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">Sharp as a flash of light,</l>
+        <l n="4" real="xxxx" met="--+-">My name, my name!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxx" met="-+-+-+">It was your voice I heard,</l>
+        <l n="6" real="xx-xx-xx" met="--+-+-+-">You waked and loved me so--</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">I send you back this word,</l>
+        <l n="8" real="xxxx" met="--+-">I know, I know!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lamp" n="L08099">
+      <head>The Lamp</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:the-lamp</idno><idno type="laurel-id">L08099</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">If I can bear your love like a lamp before me,</l>
+        <l n="2" real="xxxxxxxxx+-" met="-+-+-+-+-+-">When I go down the long steep Road of Darkness,</l>
+        <l n="3" real="xxxxxx-+-+x" met="-+-+-+-+-+-">I shall not fear the everlasting shadows,</l>
+        <l n="4" real="xxx+-" met="-+-+-">Nor cry in terror.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxxxxxxxx" met="-+-+-+-+-+-">If I can find out God, then I shall find Him,</l>
+        <l n="6" real="xxxxxxxxx+-" met="-+-+-+-+-+-">If none can find Him, then I shall sleep soundly,</l>
+        <l n="7" real="+xxxxxx-+x" met="-+-+-+-+-+">Knowing how well on earth your love sufficed me,</l>
+        <l n="8" real="xxx+-" met="-+-+-">A lamp in darkness.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-november-night" n="L08100">
+      <head>A November Night</head>
+      <idno type="URN">urn:laurel:eng:teasdale.teasdale-love-songs.pg442:a-november-night</idno><idno type="laurel-id">L08100</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--a-a-ab-b-------------------c--c-d-e-d-e---f-f------g--g">
+        <l n="1" real="xxxxxx" met="--+-+-">There!  See the line of lights,</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">A chain of stars down either side the street--</l>
+        <l n="3" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Why can&#x27;t you lift the chain and give it to me,</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">A necklace for my throat?  I&#x27;d twist it round</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">And you could play with it.  You smile at me</l>
+        <l n="6" real="xxxxx+-+-x" met="-+-+-+-+-+">As though I were a little dreamy child</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">Behind whose eyes the fairies live. . . .  And see,</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">The people on the street look up at us</l>
+        <l n="9" real="x+-xxxxxx" met="+-+-+-+-+">All envious.  We are a king and queen,</l>
+        <l n="10" real="++-+-xx+-x" met="-+-+-+-+-+">Our royal carriage is a motor bus,</l>
+        <l n="11" real="xx++-xx+-x" met="-+-+-+-+-+">We watch our subjects with a haughty joy. . . .</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">How still you are!  Have you been hard at work</l>
+        <l n="13" real="xxx+xxxxxx" met="-+-+-+-+-+">And are you tired to-night?  It is so long</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Since I have seen you--four whole days, I think.</l>
+        <l n="15" real="xxx+-xx+-x" met="-+-+-+-+-+">My heart is crowded full of foolish thoughts</l>
+        <l n="16" real="x+-+xx+-+x" met="-+-+-+-+-+">Like early flowers in an April meadow,</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">And I must give them to you, all of them,</l>
+        <l n="18" real="xxxxx+-xxx" met="-+-+-+-+-+">Before they fade.  The people I have met,</l>
+        <l n="19" real="xxxxx+-+-x" met="-+-+-+-+-+">The play I saw, the trivial, shifting things</l>
+        <l n="20" real="xxxxxxx+-+x" met="-+-+-+-+-+-">That loom too big or shrink too little, shadows</l>
+        <l n="21" real="x+-+--+xx" met="+-+-+-+-+">That hurry, gesturing along a wall,</l>
+        <l n="22" real="+-xxxxxxxx" met="-+-+-+-+-+">Haunting or gay--and yet they all grow real</l>
+        <l n="23" real="xxx+-xxxxx" met="-+-+-+-+-+">And take their proper size here in my heart</l>
+        <l n="24" real="xxxxxxx+-x" met="-+-+-+-+-+">When you have seen them. . . .  There&#x27;s the Plaza now,</l>
+        <l n="25" real="xxxxxxx+xx" met="-+-+-+-+-+">A lake of light!  To-night it almost seems</l>
+        <l n="26" real="xxxxx+-xxx" met="-+-+-+-+-+">That all the lights are gathered in your eyes,</l>
+        <l n="27" real="x+xxxxxx+-x" met="-+-+-+-+-+-">Drawn somehow toward you.  See the open park</l>
+        <l n="28" real="+-xxxxx+-x" met="-+-+-+-+-+">Lying below us with a million lamps</l>
+        <l n="29" real="+-xx-+-xxx" met="-+-+-+-+-+">Scattered in wise disorder like the stars.</l>
+        <l n="30" real="xxxxxxxxxx" met="-+-+-+-+-+">We look down on them as God must look down</l>
+        <l n="31" real="xx-+-+-xxx" met="-+-+-+-+-+">On constellations floating under Him</l>
+        <l n="32" real="+-xxxxxxxx" met="-+-+-+-+-+">Tangled in clouds. . . .  Come, then, and let us walk</l>
+        <l n="33" real="xxxxxxxx++-" met="-+-+-+-+-+-">Since we have reached the park.  It is our garden,</l>
+        <l n="34" real="xxxxxxx+-x" met="-+-+-+-+-+">All black and blossomless this winter night,</l>
+        <l n="35" real="xxx+-xxxxx" met="-+-+-+-+-+">But we bring April with us, you and I;</l>
+        <l n="36" real="xxxxxxxxxx" met="-+-+-+-+-+">We set the whole world on the trail of spring.</l>
+        <l n="37" real="xxx+-xx+x" met="+-+-+-+-+">I think that every path we ever took</l>
+        <l n="38" real="xx++xx-+-+" met="-+-+-+-+-+">Has marked our footprints in mysterious fire,</l>
+        <l n="39" real="+-xx+-+-x" met="+-+-+-+-+">Delicate gold that only fairies see.</l>
+        <l n="40" real="xxxxxxx+-xx" met="-+-+-+-+-+-">When they wake up at dawn in hollow tree-trunks</l>
+        <l n="41" real="xxxxx+-xxx" met="-+-+-+-+-+">And come out on the drowsy park, they look</l>
+        <l n="42" real="-+x+-xxxxx" met="-+-+-+-+-+">Along the empty paths and say, &quot;Oh, here</l>
+        <l n="43" real="xxxxxxxxxx" met="-+-+-+-+-+">They went, and here, and here, and here!  Come, see,</l>
+        <l n="44" real="xxxxxxxxxx" met="-+-+-+-+-+">Here is their bench, take hands and let us dance</l>
+        <l n="45" real="xxxxx+-xxx" met="-+-+-+-+-+">About it in a windy ring and make</l>
+        <l n="46" real="x+-xx+-xxx" met="-+-+-+-+-+">A circle round it only they can cross</l>
+        <l n="47" real="xxxx-+xxxx" met="-+-+-+-+-+">When they come back again!&quot; . . .  Look at the lake--</l>
+        <l n="48" real="xx-+-xxxxx" met="-+-+-+-+-+">Do you remember how we watched the swans</l>
+        <l n="49" real="xxxx-+-xxx" met="-+-+-+-+-+">That night in late October while they slept?</l>
+        <l n="50" real="xxx+-xxxxx" met="-+-+-+-+-+">Swans must have stately dreams, I think.  But now</l>
+        <l n="51" real="xxx+-x-+-x" met="-+-+-+-+-+">The lake bears only thin reflected lights</l>
+        <l n="52" real="xxx+-xxxxx" met="-+-+-+-+-+">That shake a little.  How I long to take</l>
+        <l n="53" real="xxxxx+-xxx" met="-+-+-+-+-+">One from the cold black water--new-made gold</l>
+        <l n="54" real="xxxxxxxxxx" met="-+-+-+-+-+">To give you in your hand!  And see, and see,</l>
+        <l n="55" real="xxxxxxxxxx" met="-+-+-+-+-+">There is a star, deep in the lake, a star!</l>
+        <l n="56" real="x+-xxxxxxx" met="-+-+-+-+-+">Oh, dimmer than a pearl--if you stoop down</l>
+        <l n="57" real="xxx+xxxxxx" met="-+-+-+-+-+">Your hand could almost reach it up to me. . . .</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="58" real="xxxxx+-xxx" met="-+-+-+-+-+">There was a new frail yellow moon to-night--</l>
+        <l n="59" real="xxxxxxxxxx" met="-+-+-+-+-+">I wish you could have had it for a cup</l>
+        <l n="60" real="xxxxxxxxxx" met="-+-+-+-+-+">With stars like dew to fill it to the brim. . . .</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-ab--ba-------ac----c">
+        <l n="61" real="xxxx+xxxx" met="+-+-+-+-+">How cold it is!  Even the lights are cold;</l>
+        <l n="62" real="xxxxxxxxxx" met="-+-+-+-+-+">They have put shawls of fog around them, see!</l>
+        <l n="63" real="xxxxxxx+-x" met="-+-+-+-+-+">What if the air should grow so dimly white</l>
+        <l n="64" real="xxxx+x-+xx" met="-+-+-+-+-+">That we would lose our way along the paths</l>
+        <l n="65" real="xxxxx+-x-+-" met="-+-+-+-+-+-">Made new by walls of moving mist receding</l>
+        <l n="66" real="xxx+-xx+-x" met="-+-+-+-+-+">The more we follow. . . .  What a silver night!</l>
+        <l n="67" real="xx+xxxxxxx" met="-+-+-+-+-+">That was our bench the time you said to me</l>
+        <l n="68" real="xxx+xx+-x" met="+-+-+-+-+">The long new poem--but how different now,</l>
+        <l n="69" real="x+-xx+-xxx" met="-+-+-+-+-+">How eerie with the curtain of the fog</l>
+        <l n="70" real="+-xxxxx+-x" met="-+-+-+-+-+">Making it strange to all the friendly trees!</l>
+        <l n="71" real="xxxxxxx+-x" met="-+-+-+-+-+">There is no wind, and yet great curving scrolls</l>
+        <l n="72" real="x-+++-xxx" met="+-+-+-+-+">Carve themselves, ever changing, in the mist.</l>
+        <l n="73" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Walk on a little, let me stand here watching</l>
+        <l n="74" real="xxxxxxxxxx" met="-+-+-+-+-+">To see you, too, grown strange to me and far. . . .</l>
+        <l n="75" real="xxx+-xxxxx" met="-+-+-+-+-+">I used to wonder how the park would be</l>
+        <l n="76" real="xxxxxxxx-+" met="-+-+-+-+-+">If one night we could have it all alone--</l>
+        <l n="77" real="x+-xxx-+-x" met="-+-+-+-+-+">No lovers with close arm-encircled waists</l>
+        <l n="78" real="x+-xxxxx+x" met="-+-+-+-+-+">To whisper and break in upon our dreams.</l>
+        <l n="79" real="xxxxx+-xxx" met="-+-+-+-+-+">And now we have it!  Every wish comes true!</l>
+        <l n="80" real="xx-+xxx+-x" met="-+-+-+-+-+">We are alone now in a fleecy world;</l>
+        <l n="81" real="+xxxxxx-+" met="+-+-+-+-+">Even the stars have gone.  We two alone!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

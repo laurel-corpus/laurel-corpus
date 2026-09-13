@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Mountain Interval</title><author>Robert Frost</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Mountain Interval. Project Gutenberg ebook #29345. <ref target="https://www.gutenberg.org/ebooks/29345">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-road-not-taken" n="L02638">
+      <head>The Road Not Taken</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-road-not-taken</idno><idno type="laurel-id">L02638</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abaab">
+        <l n="1" real="xx-+-xx+-x" met="--+-+-+-+-">Two roads diverged in a yellow wood,</l>
+        <l n="2" real="x+-xxx+-x" met="-+-+-+-+-">And sorry I could not travel both</l>
+        <l n="3" real="xxx+--xxx" met="-+-+-+-+-">And be one traveler, long I stood</l>
+        <l n="4" real="xx-xxxxxxx" met="--+-+-+-+-">And looked down one as far as I could</l>
+        <l n="5" real="xxxxxx+-x" met="-+-+-+-+-">To where it bent in the undergrowth;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abaab">
+        <l n="6" real="xxx+-xxxx" met="-+-+-+-+-">Then took the other, as just as fair,</l>
+        <l n="7" real="x+--+x+-x" met="-+-+-+-+-">And having perhaps the better claim,</l>
+        <l n="8" real="xxxx+-x+-x" met="--+-+-+-+-">Because it was grassy and wanted wear;</l>
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">Though as for that the passing there</l>
+        <l n="10" real="xxx+-xxxx" met="-+-+-+-+-">Had worn them really about the same,</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abaab">
+        <l n="11" real="xxx+-+--x" met="-+-+-+-+-">And both that morning equally lay</l>
+        <l n="12" real="xxxxx+-x" met="-+-+-+-+">In leaves no step had trodden black.</l>
+        <l n="13" real="xxxxxx-+-x" met="--+-+-+-+-">Oh, I kept the first for another day!</l>
+        <l n="14" real="x+-xxxxxx" met="-+-+-+-+-">Yet knowing how way leads on to way,</l>
+        <l n="15" real="x+-xxx+-xx" met="--+-+-+-+-">I doubted if I should ever come back.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abaab">
+        <l n="16" real="xxx+-xxxx" met="-+-+-+-+-">I shall be telling this with a sigh</l>
+        <l n="17" real="+x+-x+-x" met="-+-+-+-+">Somewhere ages and ages hence:</l>
+        <l n="18" real="xx-+-xxxxx" met="--+-+-+-+-">Two roads diverged in a wood, and I--</l>
+        <l n="19" real="xxxxx+--x" met="-+-+-+-+-">I took the one less traveled by,</l>
+        <l n="20" real="xxxxxx+--" met="-+-+-+-+-">And that has made all the difference.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="christmas-trees" n="L02639">
+      <head>Christmas Trees</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:christmas-trees</idno><idno type="laurel-id">L02639</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="----------a-a------------------">
+        <l n="1" real="x+-x-+xx-+" met="-+-+-+-+-+">The city had withdrawn into itself</l>
+        <l n="2" real="xxxxx+-xx+-" met="-+-+-+-+-+-">And left at last the country to the country;</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">When between whirls of snow not come to lie</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">And whirls of foliage not yet laid, there drove</l>
+        <l n="5" real="x+-x+xxxx+-" met="-+-+-+-+-+-">A stranger to our yard, who looked the city,</l>
+        <l n="6" real="xxx+-+-xxx" met="-+-+-+-+-+">Yet did in country fashion in that there</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">He sat and waited till he drew us out</l>
+        <l n="8" real="xxxxxxxxxxx" met="-+-+-+-+-+-">A-buttoning coats to ask him who he was.</l>
+        <l n="9" real="xxxxx+-x-+" met="-+-+-+-+-+">He proved to be the city come again</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">To look for something it had left behind</l>
+        <l n="11" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And could not do without and keep its Christmas.</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">He asked if I would sell my Christmas trees;</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">My woods--the young fir balsams like a place</l>
+        <l n="14" real="x+-xx+-xxx" met="-+-+-+-+-+">Where houses all are churches and have spires.</l>
+        <l n="15" real="x+-xxxx+-x" met="-+-+-+-+-+">I hadn&#x27;t thought of them as Christmas Trees.</l>
+        <l n="16" real="xxxxx+-xx+-" met="-+-+-+-+-+-">I doubt if I was tempted for a moment</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">To sell them off their feet to go in cars</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">And leave the slope behind the house all bare,</l>
+        <l n="19" real="xxxxxx+-xxx" met="-+-+-+-+-+-">Where the sun shines now no warmer than the moon.</l>
+        <l n="20" real="xxxxxxxxxx" met="-+-+-+-+-+">I&#x27;d hate to have them know it if I was.</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet more I&#x27;d hate to hold my trees except</l>
+        <l n="22" real="x+-xxx-+xx" met="-+-+-+-+-+">As others hold theirs or refuse for them,</l>
+        <l n="23" real="xxxxx+---x" met="-+-+-+-+-+">Beyond the time of profitable growth,</l>
+        <l n="24" real="x+-x+-+-xxxx" met="--+-+-+-+-+-">The trial by market everything must come to.</l>
+        <l n="25" real="x+-xxxxxx+-" met="-+-+-+-+-+-">I dallied so much with the thought of selling.</l>
+        <l n="26" real="xxxx-+-+--" met="-+-+-+-+-+">Then whether from mistaken courtesy</l>
+        <l n="27" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And fear of seeming short of speech, or whether</l>
+        <l n="28" real="xxx+-xxxxx" met="-+-+-+-+-+">From hope of hearing good of what was mine,</l>
+        <l n="29" real="xxx+--+xxxx" met="-+-+-+-+-+-">I said, &quot;There aren&#x27;t enough to be worth while.&quot;</l>
+        <l n="30" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;I could soon tell how many they would cut,</l>
+        <l n="31" real="xxxxxxx" met="-+-+-+-">You let me look them over.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="---a-a-a---">
+        <l n="32" real="xxx" met="-+-">&quot;You could look.</l>
+        <l n="33" real="xx-+x+xxxxx" met="-+-+-+-+-+-">But don&#x27;t expect I&#x27;m going to let you have them.&quot;</l>
+        <l n="34" real="+-xxxxxxxx" met="-+-+-+-+-+">Pasture they spring in, some in clumps too close</l>
+        <l n="35" real="xxx+-xxxxxx" met="-+-+-+-+-+-">That lop each other of boughs, but not a few</l>
+        <l n="36" real="x+-x-x+-+-x" met="-+-+-+-+-+-">Quite solitary and having equal boughs</l>
+        <l n="37" real="xxxxx+-x+-xx" met="--+-+-+-+-+-">All round and round. The latter he nodded &quot;Yes&quot; to,</l>
+        <l n="38" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Or paused to say beneath some lovelier one,</l>
+        <l n="39" real="xx+x-+-xxx" met="-+-+-+-+-+">With a buyer&#x27;s moderation, &quot;That would do.&quot;</l>
+        <l n="40" real="xxxxx+-xxxx" met="-+-+-+-+-+-">I thought so too, but wasn&#x27;t there to say so.</l>
+        <l n="41" real="xxx+-xxxxx" met="-+-+-+-+-+">We climbed the pasture on the south, crossed over,</l>
+        <l n="42" real="xxxxxx" met="--+-+-">And came down on the north.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="43" real="xxxxx+-xxx" met="-+-+-+-+-+">He felt some need of softening that to me:</l>
+        <l n="44" real="x+-xxxx+-+-" met="-+-+-+-+-+-">&quot;A thousand trees would come to thirty dollars.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="------------a-a-">
+        <l n="45" real="xxx+-xx+-x" met="-+-+-+-+-+">Then I was certain I had never meant</l>
+        <l n="46" real="xxxxx+-x-+" met="-+-+-+-+-+">To let him have them. Never show surprise!</l>
+        <l n="47" real="x+-+-xxx-+" met="-+-+-+-+-+">But thirty dollars seemed so small beside</l>
+        <l n="48" real="x-+x+-xxxxx" met="-+-+-+-+-+-">The extent of pasture I should strip, three cents</l>
+        <l n="49" real="xxxxx+-x-+" met="-+-+-+-+-+">(For that was all they figured out apiece),</l>
+        <l n="50" real="xxxx-+x+-x" met="-+-+-+-+-+">Three cents so small beside the dollar friends</l>
+        <l n="51" real="xxx+-xxxx+-" met="-+-+-+-+-+-">I should be writing to within the hour</l>
+        <l n="52" real="xxx+-xxxxx" met="-+-+-+-+-+">Would pay in cities for good trees like those,</l>
+        <l n="53" real="+--xxxx+xx" met="-+-+-+-+-+">Regular vestry-trees whole Sunday Schools</l>
+        <l n="54" real="xx-+xxxx-+" met="-+-+-+-+-+">Could hang enough on to pick off enough.</l>
+        <l n="55" real="x+-+-xx+-xxx" met="--+-+-+-+-+-">A thousand Christmas trees I didn&#x27;t know I had!</l>
+        <l n="56" real="xxxxxx-+xx" met="-+-+-+-+-+">Worth three cents more to give away than sell,</l>
+        <l n="57" real="xxxxxx+-x-+-" met="--+-+-+-+-+-">As may be shown by a simple calculation.</l>
+        <l n="58" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Too bad I couldn&#x27;t lay one in a letter.</l>
+        <l n="59" real="xxx+-xxxxx" met="-+-+-+-+-+">I can&#x27;t help wishing I could send you one,</l>
+        <l n="60" real="x+-x++x+-+-" met="-+-+-+-+-+-">In wishing you herewith a Merry Christmas.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="an-old-man-s-winter-night" n="L02640">
+      <head>An Old Man&#x27;s Winter Night</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:an-old-man-s-winter-night</idno><idno type="laurel-id">L02640</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a----b--a-c----ddb---------c">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">All out of doors looked darkly in at him</l>
+        <l n="2" real="xxxx+xx+-xx" met="-+-+-+-+-+-">Through the thin frost, almost in separate stars,</l>
+        <l n="3" real="x+-xxxx+-x" met="-+-+-+-+-+">That gathers on the pane in empty rooms.</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">What kept his eyes from giving back the gaze</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">Was the lamp tilted near them in his hand.</l>
+        <l n="6" real="xxxx-+-xxx" met="-+-+-+-+-+">What kept him from remembering what it was</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">That brought him to that creaking room was age.</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">He stood with barrels round him--at a loss.</l>
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">And having scared the cellar under him</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">In clomping there, he scared it once again</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">In clomping off;--and scared the outer night,</l>
+        <l n="12" real="xxxx-+-xxx" met="-+-+-+-+-+">Which has its sounds, familiar, like the roar</l>
+        <l n="13" real="xxxxx+-+-x" met="-+-+-+-+-+">Of trees and crack of branches, common things,</l>
+        <l n="14" real="x+-xx+-xxx" met="-+-+-+-+-+">But nothing so like beating on a box.</l>
+        <l n="15" real="xxxxxxxx-+" met="-+-+-+-+-+">A light he was to no one but himself</l>
+        <l n="16" real="xxxx-+xxxx" met="-+-+-+-+-+">Where now he sat, concerned with he knew what,</l>
+        <l n="17" real="x+-xxxx+-x" met="-+-+-+-+-+">A quiet light, and then not even that.</l>
+        <l n="18" real="x-+xxxxxxx" met="-+-+-+-+-+">He consigned to the moon, such as she was,</l>
+        <l n="19" real="xx-+-xx+-x" met="-+-+-+-+-+">So late-arising, to the broken moon</l>
+        <l n="20" real="x+-xxxx+-x" met="-+-+-+-+-+">As better than the sun in any case</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">For such a charge, his snow upon the roof,</l>
+        <l n="22" real="x+---+xxxx" met="-+-+-+-+-+">His icicles along the wall to keep;</l>
+        <l n="23" real="xxxxx+-xxx" met="-+-+-+-+-+">And slept. The log that shifted with a jolt</l>
+        <l n="24" real="xxxx-+xxx+-" met="-+-+-+-+-+-">Once in the stove, disturbed him and he shifted,</l>
+        <l n="25" real="xxx+-+-xxx" met="-+-+-+-+-+">And eased his heavy breathing, but still slept.</l>
+        <l n="26" real="xxxxxxxxx" met="+-+-+-+-+">One aged man--one man--can&#x27;t fill a house,</l>
+        <l n="27" real="xxx+-xxxxx" met="-+-+-+-+-+">A farm, a countryside, or if he can,</l>
+        <l n="28" real="xxxxxxx+-x" met="-+-+-+-+-+">It&#x27;s thus he does it of a winter night.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-patch-of-old-snow" n="L02641">
+      <head>A Patch of Old Snow</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:a-patch-of-old-snow</idno><idno type="laurel-id">L02641</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxx+-" met="--+--+--+-">There&#x27;s a patch of old snow in a corner</l>
+        <l n="2" real="xxxxx" met="-+--+">That I should have guessed</l>
+        <l n="3" real="xxx-++-xx" met="--+--+--+">Was a blow-away paper the rain</l>
+        <l n="4" real="xxxx" met="--+-">Had brought to rest.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xx+--xxxx" met="--+--+--+">It is speckled with grime as if</l>
+        <l n="6" real="xxxxxx" met="+-+--+">Small print overspread it,</l>
+        <l n="7" real="xxxxxx-+-" met="--+--+--+">The news of a day I&#x27;ve forgotten--</l>
+        <l n="8" real="xx+-xx" met="+-+--+">If I ever read it.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="in-the-home-stretch" n="L02642">
+      <head>In the Home Stretch</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:in-the-home-stretch</idno><idno type="laurel-id">L02642</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--a-ba-b----">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">She stood against the kitchen sink, and looked</l>
+        <l n="2" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Over the sink out through a dusty window</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">At weeds the water from the sink made tall.</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">She wore her cape; her hat was in her hand.</l>
+        <l n="5" real="xxxx-+-xxx" met="-+-+-+-+-+">Behind her was confusion in the room,</l>
+        <l n="6" real="xxx++xxxx+-" met="-+-+-+-+-+-">Of chairs turned upside down to sit like people</l>
+        <l n="7" real="x+-xx+-xxx" met="-+-+-+-+-+">In other chairs, and something, come to look,</l>
+        <l n="8" real="x+-xxxx+-xx" met="-+-+-+-+-+-">For every room a house has--parlor, bed-room,</l>
+        <l n="9" real="x+-xxxxxx+-" met="-+-+-+-+-+-">And dining-room--thrown pell-mell in the kitchen.</l>
+        <l n="10" real="xxxxxx-+-x" met="-+-+-+-+-+">And now and then a smudged, infernal face</l>
+        <l n="11" real="xxxxxxxx-+" met="-+-+-+-+-+">Looked in a door behind her and addressed</l>
+        <l n="12" real="xxx+x+-xx+-" met="-+-+-+-+-+-">Her back. She always answered without turning.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a------a">
+        <l n="13" real="xxxxx+x+-+-" met="-+-+-+-+-+-">&quot;Where will I put this walnut bureau, lady?&quot;</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;Put it on top of something that&#x27;s on top</l>
+        <l n="15" real="x+-xxxxxxx" met="-+-+-+-+-+">Of something else,&quot; she laughed. &quot;Oh, put it where</l>
+        <l n="16" real="xxxxxxx+xx" met="-+-+-+-+-+">You can to-night, and go. It&#x27;s almost dark;</l>
+        <l n="17" real="xxx+-+-xxx" met="-+-+-+-+-+">You must be getting started back to town.&quot;</l>
+        <l n="18" real="-+-+-xxxxx" met="-+-+-+-+-+">Another blackened face thrust in and looked</l>
+        <l n="19" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And smiled, and when she did not turn, spoke gently,</l>
+        <l n="20" real="xxx+-xx+-+-" met="-+-+-+-+-+-">&quot;What are you seeing out the window, lady?&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aa-">
+        <l n="21" real="+-xxxxxxx" met="+-+-+-+-+">&quot;Never was I beladied so before.</l>
+        <l n="22" real="x+--x+-xx+-" met="-+-+-+-+-+-">Would evidence of having been called lady</l>
+        <l n="23" real="xxx+-xxxx+-" met="-+-+-+-+-+-">More than so many times make me a lady</l>
+        <l n="24" real="x+-xx+-" met="-+-+-+-">In common law, I wonder.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="25" real="xxx" met="-+-">&quot;But I ask,</l>
+        <l n="26" real="xxx+-xx+-+-" met="-+-+-+-+-+-">What are you seeing out the window, lady?&quot;</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="27" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;What I&#x27;ll be seeing more of in the years</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">To come as here I stand and go the round</l>
+        <l n="29" real="x+-xx+-+-x" met="-+-+-+-+-+">Of many plates with towels many times.&quot;</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="--a--a">
+        <l n="30" real="xxxxx+-xxxx" met="-+-+-+-+-+-">&quot;Rank weeds that love the water from the dish-pan</l>
+        <l n="31" real="xxx+-xxxxx" met="-+-+-+-+-+">More than some women like the dish-pan, Joe;</l>
+        <l n="32" real="x+-xx+-xxx" met="-+-+-+-+-+">A little stretch of mowing-field for you;</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">Not much of that until I come to woods</l>
+        <l n="34" real="xxxxxx-+xx" met="-+-+-+-+-+">That end all. And it&#x27;s scarce enough to call</l>
+        <l n="35" real="xx" met="-+">A view.&quot;</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="36" real="xxxx-+xxxx" met="-+-+-+-+-+">&quot;That&#x27;s what you&#x27;re so concerned to know! You hope</l>
+        <l n="37" real="xxxxx+-x-+" met="-+-+-+-+-+">I like it. Bang goes something big away</l>
+        <l n="38" real="xx-+x+-xxx" met="-+-+-+-+-+">Off there upstairs. The very tread of men</l>
+        <l n="39" real="xxxxx+-xxx" met="-+-+-+-+-+">As great as those is shattering to the frame</l>
+        <l n="40" real="xxx+-xxx-+" met="-+-+-+-+-+">Of such a little house. Once left alone,</l>
+        <l n="41" real="xxxxxxx+-x" met="-+-+-+-+-+">You and I, dear, will go with softer steps</l>
+        <l n="42" real="xxxxxxxxxx" met="-+-+-+-+-+">Up and down stairs and through the rooms, and none</l>
+        <l n="43" real="x+-xxxxx+x" met="-+-+-+-+-+">But sudden winds that snatch them from our hands</l>
+        <l n="44" real="x+-xxx" met="--+-+-">Will ever slam the doors.&quot;</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="45" real="xxxx" met="--+-">&quot;I think you see</l>
+        <l n="46" real="xxxxxxxxx+-" met="-+-+-+-+-+-">More than you like to own to out that window.&quot;</l>
+      </lg>
+      <lg type="stanza" n="9">
+        <l n="47" real="xx-+xxxxxx" met="-+-+-+-+-+">&quot;No; for besides the things I tell you of,</l>
+        <l n="48" real="x+-xxxxxxx" met="-+-+-+-+-+">I only see the years. They come and go</l>
+        <l n="49" real="x+-x-xxxxx" met="-+-+-+-+-+">In alternation with the weeds, the field,</l>
+        <l n="50" real="xx" met="-+">The wood.&quot;</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aaab--b-------">
+        <l n="51" real="xxxx" met="--+-">&quot;What kind of years?&quot;</l>
+        <l n="52" real="x+-x" met="--+-">&quot;Why, latter years--</l>
+        <l n="53" real="+--x+-x" met="-+-+-+-">Different from early years.&quot;</l>
+        <l n="54" real="xxxx" met="--+-">&quot;I see them, too.</l>
+        <l n="55" real="x+-xx" met="-+-+-">You didn&#x27;t count them?&quot;</l>
+        <l n="56" real="xx+-x" met="-+-+-">&quot;No, the further off</l>
+        <l n="57" real="xx-+-xx+-xx" met="-+-+-+-+-+-">So ran together that I didn&#x27;t try to.</l>
+        <l n="58" real="xxxxxxxxx+-" met="-+-+-+-+-+-">It can scarce be that they would be in number</l>
+        <l n="59" real="xxxxxxxxxx" met="-+-+-+-+-+">We&#x27;d care to know, for we are not young now.</l>
+        <l n="60" real="xxx+-x-+xx" met="-+-+-+-+-+">And bang goes something else away off there.</l>
+        <l n="61" real="xxxxxxxxxx" met="-+-+-+-+-+">It sounds as if it were the men went down,</l>
+        <l n="62" real="x+-xxxxx-+" met="-+-+-+-+-+">And every crash meant one less to return</l>
+        <l n="63" real="x+-+-xxxxx" met="-+-+-+-+-+">To lighted city streets we, too, have known,</l>
+        <l n="64" real="xxx+-xx+-+-" met="-+-+-+-+-+-">But now are giving up for country darkness.&quot;</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="65" real="xxx+-xxxxxxx" met="--+-+-+-+-+-">&quot;Come from that window where you see too much for me,</l>
+        <l n="66" real="xxx+-xxxxx" met="-+-+-+-+-+">And take a livelier view of things from here.</l>
+        <l n="67" real="x+-xx+-+-x" met="-+-+-+-+-+">They&#x27;re going. Watch this husky swarming up</l>
+        <l n="68" real="xxxxxxxxxx" met="-+-+-+-+-+">Over the wheel into the sky-high seat,</l>
+        <l n="69" real="+-xxx+-xxx" met="-+-+-+-+-+">Lighting his pipe now, squinting down his nose</l>
+        <l n="70" real="xxx+-+xxxx" met="-+-+-+-+-+">At the flame burning downward as he sucks it.&quot;</l>
+      </lg>
+      <lg type="stanza" n="12">
+        <l n="71" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;See how it makes his nose-side bright, a proof</l>
+        <l n="72" real="xxx+-xxxxx" met="-+-+-+-+-+">How dark it&#x27;s getting. Can you tell what time</l>
+        <l n="73" real="xxxxxxxxxxx" met="-+-+-+-+-+-">It is by that? Or by the moon? The new moon!</l>
+        <l n="74" real="x+-xxxxxx+-" met="-+-+-+-+-+-">What shoulder did I see her over? Neither.</l>
+        <l n="75" real="x+xxx+-xxxx" met="-+-+-+-+-+-">A wire she is of silver, as new as we</l>
+        <l n="76" real="x+-xxxxxxx" met="-+-+-+-+-+">To everything. Her light won&#x27;t last us long.</l>
+        <l n="77" real="x+-xxxx+xxx" met="-+-+-+-+-+-">It&#x27;s something, though, to know we&#x27;re going to have her</l>
+        <l n="78" real="xxxxx+-+-x" met="-+-+-+-+-+">Night after night and stronger every night</l>
+        <l n="79" real="xxxx+xxxxx" met="-+-+-+-+-+">To see us through our first two weeks. But, Joe,</l>
+        <l n="80" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The stove! Before they go! Knock on the window;</l>
+        <l n="81" real="xxxxxxxxxx" met="-+-+-+-+-+">Ask them to help you get it on its feet.</l>
+        <l n="82" real="xxx+-+-xxx" met="-+-+-+-+-+">We stand here dreaming. Hurry! Call them back!&quot;</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="----a---a-------------------------b---b---">
+        <l n="83" real="xxxxxx" met="--+-+-">&quot;We&#x27;ve got to have the stove,</l>
+        <l n="84" real="x+-xxxxxxx" met="-+-+-+-+-+">Whatever else we want for. And a light.</l>
+        <l n="85" real="xxxxx+-xxx" met="-+-+-+-+-+">Have we a piece of candle if the lamp</l>
+        <l n="86" real="xxx+-xxx" met="--+-+-+-">And oil are buried out of reach?&quot;</l>
+        <l n="87" real="-+" met="-+">Again</l>
+        <l n="88" real="xxxxx+-xxx" met="-+-+-+-+-+">The house was full of tramping, and the dark,</l>
+        <l n="89" real="x+-xxxxxxx" met="-+-+-+-+-+">Door-filling men burst in and seized the stove.</l>
+        <l n="90" real="x+-xxxxxxx" met="-+-+-+-+-+">A cannon-mouth-like hole was in the wall,</l>
+        <l n="91" real="xxxxxxxxxx" met="-+-+-+-+-+">To which they set it true by eye; and then</l>
+        <l n="92" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Came up the jointed stovepipe in their hands,</l>
+        <l n="93" real="xxxxx+-xxx" met="-+-+-+-+-+">So much too light and airy for their strength</l>
+        <l n="94" real="x+xxxx-+-x" met="-+-+-+-+-+">It almost seemed to come ballooning up,</l>
+        <l n="95" real="+-x+-+-xxx+-" met="--+-+-+-+-+-">Slipping from clumsy clutches toward the ceiling.</l>
+        <l n="96" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">&quot;A fit!&quot; said one, and banged a stovepipe shoulder.</l>
+        <l n="97" real="xxxxxxxx-+" met="-+-+-+-+-+">&quot;It&#x27;s good luck when you move in to begin</l>
+        <l n="98" real="xxxxxxxx+x" met="-+-+-+-+-+">With good luck with your stovepipe. Never mind,</l>
+        <l n="99" real="xxxxxx+-+-x" met="-+-+-+-+-+-">It&#x27;s not so bad in the country, settled down,</l>
+        <l n="100" real="xxx+-xxxxxx" met="-+-+-+-+-+-">When people&#x27;re getting on in life. You&#x27;ll like it.&quot;</l>
+        <l n="101" real="xxxxxxxxxx" met="-+-+-+-+-+">Joe said: &quot;You big boys ought to find a farm,</l>
+        <l n="102" real="xxx+-xx+-+-" met="-+-+-+-+-+-">And make good farmers, and leave other fellows</l>
+        <l n="103" real="x+-xxxxx-+" met="-+-+-+-+-+">The city work to do. There&#x27;s not enough</l>
+        <l n="104" real="x+-x-xxxxx" met="-+-+-+-+-+">For everybody as it is in there.&quot;</l>
+        <l n="105" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;God!&quot; one said wildly, and, when no one spoke:</l>
+        <l n="106" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;Say that to Jimmy here. He needs a farm.&quot;</l>
+        <l n="107" real="x+-+-xxx-+" met="-+-+-+-+-+">But Jimmy only made his jaw recede</l>
+        <l n="108" real="xxxxxxxxxx" met="-+-+-+-+-+">Fool-like, and rolled his eyes as if to say</l>
+        <l n="109" real="xx-+x+-xxxxxx" met="-+-+-+-+-+-+-">He saw himself a farmer. Then there was a French boy</l>
+        <l n="110" real="xxx+--xxxx" met="-+-+-+-+-+">Who said with seriousness that made them laugh,</l>
+        <l n="111" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Ma friend, you ain&#x27;t know what it is you&#x27;re ask.&quot;</l>
+        <l n="112" real="xxxxxxxxxx" met="-+-+-+-+-+">He doffed his cap and held it with both hands</l>
+        <l n="113" real="-+xxxxxxxx" met="-+-+-+-+-+">Across his chest to make as &#x27;twere a bow:</l>
+        <l n="114" real="x+-x++-xxx" met="-+-+-+-+-+">&quot;We&#x27;re giving you our chances on de farm.&quot;</l>
+        <l n="115" real="xxxxxxx+-x" met="-+-+-+-+-+">And then they all turned to with deafening boots</l>
+        <l n="116" real="xxx+-+-xxxx" met="-+-+-+-+-+-">And put each other bodily out of the house.</l>
+        <l n="117" real="+xxxx+-xxx" met="-+-+-+-+-+">&quot;Goodby to them! We puzzle them. They think--</l>
+        <l n="118" real="xxxxxxxxxx" met="-+-+-+-+-+">I don&#x27;t know what they think we see in what</l>
+        <l n="119" real="xxxxx+-xxx" met="-+-+-+-+-+">They leave us to: that pasture slope that seems</l>
+        <l n="120" real="xxxx+-xxxx" met="-+-+-+-+-+">The back some farm presents us; and your woods</l>
+        <l n="121" real="x+-xx+-xxx" met="-+-+-+-+-+">To northward from your window at the sink,</l>
+        <l n="122" real="+-xxxxxx-+-" met="-+-+-+-+-+-">Waiting to steal a step on us whenever</l>
+        <l n="123" real="xx+xxxx+-x" met="-+-+-+-+-+">We drop our eyes or turn to other things,</l>
+        <l n="124" real="xxxxxxx+-x" met="-+-+-+-+-+">As in the game &#x27;Ten-step&#x27; the children play.&quot;</l>
+      </lg>
+      <lg type="stanza" n="14">
+        <l n="125" real="xxxxxxxxx+-" met="-+-+-+-+-+-">&quot;Good boys they seemed, and let them love the city.</l>
+        <l n="126" real="xxxxxxxx-+" met="-+-+-+-+-+">All they could say was &#x27;God!&#x27; when you proposed</l>
+        <l n="127" real="x+-xx+-+-+-" met="-+-+-+-+-+-">Their coming out and making useful farmers.&quot;</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="aa---">
+        <l n="128" real="xxx+-+-xxx" met="-+-+-+-+-+">&quot;Did they make something lonesome go through you?</l>
+        <l n="129" real="xxxxxxx+-x" met="-+-+-+-+-+">It would take more than them to sicken you--</l>
+        <l n="130" real="xx++-xxxxx" met="-+-+-+-+-+">Us of our bargain. But they left us so</l>
+        <l n="131" real="xx+xxxx+-x" met="-+-+-+-+-+">As to our fate, like fools past reasoning with.</l>
+        <l n="132" real="x+xxx" met="-+-+-">They almost shook me.&quot;</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="-a-----------a----">
+        <l n="133" real="xxxx" met="--+-">&quot;It&#x27;s all so much</l>
+        <l n="134" real="xxx+x+-x-+" met="-+-+-+-+-+">What we have always wanted, I confess</l>
+        <l n="135" real="x+-xxx+-xxx" met="-+-+-+-+-+-">It&#x27;s seeming bad for a moment makes it seem</l>
+        <l n="136" real="+-xxxxxxxx" met="-+-+-+-+-+">Even worse still, and so on down, down, down.</l>
+        <l n="137" real="x+-xx+-xxx" met="-+-+-+-+-+">It&#x27;s nothing; it&#x27;s their leaving us at dusk.</l>
+        <l n="138" real="x+-xxxx+-x" met="-+-+-+-+-+">I never bore it well when people went.</l>
+        <l n="139" real="xxxxxxxxxx" met="-+-+-+-+-+">The first night after guests have gone, the house</l>
+        <l n="140" real="x+-x-+x+xx" met="-+-+-+-+-+">Seems haunted or exposed. I always take</l>
+        <l n="141" real="x+-+-xx+-x" met="-+-+-+-+-+">A personal interest in the locking up</l>
+        <l n="142" real="x+xxx+-xxx" met="-+-+-+-+-+">At bedtime; but the strangeness soon wears off.&quot;</l>
+        <l n="143" real="xxx+-+-xxx" met="-+-+-+-+-+">He fetched a dingy lantern from behind</l>
+        <l n="144" real="xxxxx+-xxx" met="-+-+-+-+-+">A door. &quot;There&#x27;s that we didn&#x27;t lose! And these!&quot;--</l>
+        <l n="145" real="x+-xxxxxxx" met="-+-+-+-+-+">Some matches he unpocketed. &quot;For food--</l>
+        <l n="146" real="xxxxxxxxxx" met="-+-+-+-+-+">The meals we&#x27;ve had no one can take from us.</l>
+        <l n="147" real="xxx+-xxxxx" met="-+-+-+-+-+">I wish that everything on earth were just</l>
+        <l n="148" real="x+-xxxxxxx" met="-+-+-+-+-+">As certain as the meals we&#x27;ve had. I wish</l>
+        <l n="149" real="xxx+-xx+-x" met="-+-+-+-+-+">The meals we haven&#x27;t had were, anyway.</l>
+        <l n="150" real="xxxxxxxxxxx" met="-+-+-+-+-+-">What have you you know where to lay your hands on?&quot;</l>
+      </lg>
+      <lg type="stanza" n="17">
+        <l n="151" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;The bread we bought in passing at the store.</l>
+        <l n="152" real="x+-+xx" met="--+-+-">There&#x27;s butter somewhere, too.&quot;</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="---a--a------">
+        <l n="153" real="xxxx" met="--+-">&quot;Let&#x27;s rend the bread.</l>
+        <l n="154" real="xxx+x+--xx" met="-+-+-+-+-+">I&#x27;ll light the fire for company for you;</l>
+        <l n="155" real="xxx+-+-+--" met="-+-+-+-+-+">You&#x27;ll not have any other company</l>
+        <l n="156" real="xx-+xxxxx+x" met="-+-+-+-+-+-">Till Ed begins to get out on a Sunday</l>
+        <l n="157" real="xxxxxxxx-+-" met="-+-+-+-+-+-">To look us over and give us his idea</l>
+        <l n="158" real="xxx+-xx+-x" met="-+-+-+-+-+">Of what wants pruning, shingling, breaking up.</l>
+        <l n="159" real="xxxxxxxxxx" met="-+-+-+-+-+">He&#x27;ll know what he would do if he were we,</l>
+        <l n="160" real="xxxxxxxxxx" met="-+-+-+-+-+">And all at once. He&#x27;ll plan for us and plan</l>
+        <l n="161" real="xxxxxxxxx+-" met="-+-+-+-+-+-">To help us, but he&#x27;ll take it out in planning.</l>
+        <l n="162" real="xxxxx+-xxx" met="-+-+-+-+-+">Well, you can set the table with the loaf.</l>
+        <l n="163" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Let&#x27;s see you find your loaf. I&#x27;ll light the fire.</l>
+        <l n="164" real="xxx+-x-+-x" met="-+-+-+-+-+">I like chairs occupying other chairs</l>
+        <l n="165" real="x+--x+-" met="-+-+-+-">Not offering a lady--&quot;</l>
+      </lg>
+      <lg type="stanza" n="19">
+        <l n="166" real="x-+x" met="--+-">&quot;There again, Joe!</l>
+        <l n="167" real="x+-" met="-+-">You&#x27;re tired.&quot;</l>
+      </lg>
+      <lg type="stanza" n="20">
+        <l n="168" real="xx-+--+--x" met="-+-+-+-+-+">&quot;I&#x27;m drunk-nonsensical tired out;</l>
+        <l n="169" real="xxxxxxxxxx" met="-+-+-+-+-+">Don&#x27;t mind a word I say. It&#x27;s a day&#x27;s work</l>
+        <l n="170" real="x+-xxxx+xx" met="-+-+-+-+-+">To empty one house of all household goods</l>
+        <l n="171" real="xx-+-xx++x-+" met="--+-+-+-+-+-">And fill another with &#x27;em fifteen miles away,</l>
+        <l n="172" real="xxxxxxxxxx" met="-+-+-+-+-+">Although you do no more than dump them down.&quot;</l>
+      </lg>
+      <lg type="stanza" n="21">
+        <l n="173" real="xxxxxxx+x+-" met="-+-+-+-+-+-">&quot;It&#x27;s all so much what I have always wanted,</l>
+        <l n="174" real="xx-+xxx+-x" met="-+-+-+-+-+">I can&#x27;t believe it&#x27;s what you wanted, too.&quot;</l>
+      </lg>
+      <lg type="stanza" n="22">
+        <l n="175" real="xxxx" met="--+-">&quot;I&#x27;d like to know</l>
+        <l n="176" real="xxxxx+-xxx" met="-+-+-+-+-+">If it is what you wanted, then how much</l>
+        <l n="177" real="x+-xxx" met="--+-+-">You wanted it for me.&quot;</l>
+      </lg>
+      <lg type="stanza" n="23">
+        <l n="178" real="x+-+-" met="-+-+-">&quot;A troubled conscience!</l>
+        <l n="179" real="xxxxxxxxxx" met="-+-+-+-+-+">You don&#x27;t want me to tell if I don&#x27;t know.&quot;</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="--aa-">
+        <l n="180" real="xx" met="-+">&quot;My dear,</l>
+        <l n="181" real="xxxxxxx+-x" met="-+-+-+-+-+">It&#x27;s who first thought the thought. You&#x27;re searching, Joe,</l>
+        <l n="182" real="xxxx-+xx-+-" met="-+-+-+-+-+-">For things that don&#x27;t exist; I mean beginnings.</l>
+        <l n="183" real="xx-+-xxxxx" met="-+-+-+-+-+">Ends and beginnings--there are no such things.</l>
+        <l n="184" real="xx+-x" met="-+-+-">There are only middles.&quot;</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="----a-a">
+        <l n="185" real="xxx" met="-+-">&quot;What is this?&quot;</l>
+        <l n="186" real="xx" met="-+">&quot;This life?</l>
+        <l n="187" real="++-xx+-x-+-" met="-+-+-+-+-+-">Our sitting here by lantern-light together</l>
+        <l n="188" real="-+x+-xx+-x" met="-+-+-+-+-+">Amid the wreckage of a former home?</l>
+        <l n="189" real="xx-+x+-+-x" met="-+-+-+-+-+">You won&#x27;t deny the lantern isn&#x27;t new.</l>
+        <l n="190" real="xxxxxxxxxx" met="-+-+-+-+-+">The stove is not, and you are not to me,</l>
+        <l n="191" real="xxxx" met="--+-">Nor I to you.&quot;</l>
+      </lg>
+      <lg type="stanza" n="26">
+        <l n="192" real="xxxx-+-x-+" met="-+-+-+-+-+">&quot;It would take me forever to recite</l>
+        <l n="193" real="xxxxxxxx-+" met="-+-+-+-+-+">All that&#x27;s not new in where we find ourselves.</l>
+        <l n="194" real="xxxxxxxxxx" met="-+-+-+-+-+">New is a word for fools in towns who think</l>
+        <l n="195" real="xxxxxxxxxx" met="-+-+-+-+-+">Style upon style in dress and thought at last</l>
+        <l n="196" real="xx+xxxxxxx" met="-+-+-+-+-+">Must get somewhere. I&#x27;ve heard you say as much.</l>
+        <l n="197" real="xxxx-+-" met="-+-+-+-">No, this is no beginning.&quot;</l>
+      </lg>
+      <lg type="stanza" n="27">
+        <l n="198" real="xxx" met="-+-">&quot;Then an end?&quot;</l>
+        <l n="199" real="xxx+-x" met="--+-+-">&quot;End is a gloomy word.&quot;</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="---a-----a--">
+        <l n="200" real="xxxx" met="--+-">&quot;Is it too late</l>
+        <l n="201" real="xxxxxxxxxx" met="-+-+-+-+-+">To drag you out for just a good-night call</l>
+        <l n="202" real="xxxxxxxxxx" met="-+-+-+-+-+">On the old peach trees on the knoll to grope</l>
+        <l n="203" real="x+xxxxxxxx" met="-+-+-+-+-+">By starlight in the grass for a last peach</l>
+        <l n="204" real="x+-xxx+-xxx" met="-+-+-+-+-+-">The neighbors may not have taken as their right</l>
+        <l n="205" real="xxx+-xxxx+-" met="-+-+-+-+-+-">When the house wasn&#x27;t lived in? I&#x27;ve been looking:</l>
+        <l n="206" real="xxxxxxx+-x" met="-+-+-+-+-+">I doubt if they have left us many grapes.</l>
+        <l n="207" real="xxxx-+xxxx" met="-+-+-+-+-+">Before we set ourselves to right the house,</l>
+        <l n="208" real="xxxxx+-xxx" met="-+-+-+-+-+">The first thing in the morning, out we go</l>
+        <l n="209" real="xxxxx+-+-x" met="-+-+-+-+-+">To go the round of apple, cherry, peach,</l>
+        <l n="210" real="x+-+-+-xxx" met="-+-+-+-+-+">Pine, alder, pasture, mowing, well, and brook.</l>
+        <l n="211" real="xxxxxx" met="--+-+-">All of a farm it is.&quot;</l>
+      </lg>
+      <lg type="stanza" n="29">
+        <l n="212" real="xxxx" met="--+-">&quot;I know this much:</l>
+        <l n="213" real="x+xxxxxxxx" met="-+-+-+-+-+">I&#x27;m going to put you in your bed, if first</l>
+        <l n="214" real="xxxxxxxxxx" met="-+-+-+-+-+">I have to make you build it. Come, the light.&quot;</l>
+      </lg>
+      <lg type="stanza" n="30">
+        <l n="215" real="xxxxx+-xx+-" met="-+-+-+-+-+-">When there was no more lantern in the kitchen,</l>
+        <l n="216" real="x+xxx+-xxx" met="-+-+-+-+-+">The fire got out through crannies in the stove</l>
+        <l n="217" real="xxx+-xxxx+-" met="-+-+-+-+-+-">And danced in yellow wrigglers on the ceiling,</l>
+        <l n="218" real="xxxxxxx+xxx" met="-+-+-+-+-+-">As much at home as if they&#x27;d always danced there.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-telephone" n="L02643">
+      <head>The Telephone</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-telephone</idno><idno type="laurel-id">L02643</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abcdcabd-">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;When I was just as far as I could walk</l>
+        <l n="2" real="xxxx" met="--+-">From here to-day,</l>
+        <l n="3" real="xxx+-" met="-+-+-">There was an hour</l>
+        <l n="4" real="xx" met="-+">All still</l>
+        <l n="5" real="x+-xxxxxx+-" met="-+-+-+-+-+-">When leaning with my head against a flower</l>
+        <l n="6" real="xxxx" met="--+-">I heard you talk.</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">Don&#x27;t say I didn&#x27;t, for I heard you say--</l>
+        <l n="8" real="xxxx+xx+-x" met="-+-+-+-+-+">You spoke from that flower on the window sill--</l>
+        <l n="9" real="xx-+-xxxxx" met="-+-+-+-+-+">Do you remember what it was you said?&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a----a-">
+        <l n="10" real="+-xx+x+xx-+" met="-+-+-+-+-+-">&quot;Having found the flower and driven a bee away,</l>
+        <l n="11" real="xxxx" met="--+-">I leaned my head,</l>
+        <l n="12" real="x+-xxx" met="--+-+-">And holding by the stalk,</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">I listened and I thought I caught the word--</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">What was it? Did you call me by my name?</l>
+        <l n="15" real="xxxx" met="--+-">Or did you say--</l>
+        <l n="16" real="+xxxxxxxxx" met="-+-+-+-+-+">Someone said &#x27;Come&#x27;--I heard it as I bowed.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="meeting-and-passing" n="L02644">
+      <head>Meeting and Passing</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:meeting-and-passing</idno><idno type="laurel-id">L02644</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="xxxxxx-+xx" met="-+-+-+-+-+">As I went down the hill along the wall</l>
+        <l n="2" real="xxxxxxxxxxx" met="-+-+-+-+-+-">There was a gate I had leaned at for the view</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">And had just turned from when I first saw you</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">As you came up the hill. We met. But all</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">We did that day was mingle great and small</l>
+        <l n="6" real="+xx+-xxxxx" met="-+-+-+-+-+">Footprints in summer dust as if we drew</l>
+        <l n="7" real="x+-x++-xxx" met="-+-+-+-+-+">The figure of our being less than two</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">But more than one as yet. Your parasol</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="+-x+-xxxxx" met="-+-+-+-+-+">Pointed the decimal off with one deep thrust.</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">And all the time we talked you seemed to see</l>
+        <l n="11" real="+-xxxxxxxx" met="-+-+-+-+-+">Something down there to smile at in the dust.</l>
+        <l n="12" real="xxxxx+--xx" met="-+-+-+-+-+">(Oh, it was without prejudice to me!)</l>
+        <l n="13" real="+--xxxxxxx" met="-+-+-+-+-+">Afterward I went past what you had passed</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Before we met and you what I had passed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hyla-brook" n="L02645">
+      <head>Hyla Brook</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:hyla-brook</idno><idno type="laurel-id">L02645</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaccaddeefgfg">
+        <l n="1" real="xx+xxxxxxx" met="-+-+-+-+-+">By June our brook&#x27;s run out of song and speed.</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Sought for much after that, it will be found</l>
+        <l n="3" real="+-xxx+-+-x" met="-+-+-+-+-+">Either to have gone groping underground</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">(And taken with it all the Hyla breed</l>
+        <l n="5" real="x+-xxxxx-+" met="-+-+-+-+-+">That shouted in the mist a month ago,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Like ghost of sleigh-bells in a ghost of snow)--</l>
+        <l n="7" real="x+-xxxx+-x" met="-+-+-+-+-+">Or flourished and come up in jewel-weed,</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">Weak foliage that is blown upon and bent</l>
+        <l n="9" real="+-xxxxx+-x" met="-+-+-+-+-+">Even against the way its waters went.</l>
+        <l n="10" real="xxxxx+-+-x" met="-+-+-+-+-+">Its bed is left a faded paper sheet</l>
+        <l n="11" real="xxxx-+-xxx" met="-+-+-+-+-+">Of dead leaves stuck together by the heat--</l>
+        <l n="12" real="xxxxxx-+-x" met="-+-+-+-+-+">A brook to none but who remember long.</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">This as it will be seen is other far</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Than with brooks taken otherwhere in song.</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">We love the things we love for what they are.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-oven-bird" n="L02646">
+      <head>The Oven Bird</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-oven-bird</idno><idno type="laurel-id">L02646</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabcbdcdeefgfg">
+        <l n="1" real="xxx+-+-xxx" met="-+-+-+-+-+">There is a singer everyone has heard,</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">Loud, a mid-summer and a mid-wood bird,</l>
+        <l n="3" real="xxx+-xxx-+" met="-+-+-+-+-+">Who makes the solid tree trunks sound again.</l>
+        <l n="4" real="xxxxxxxxx+-" met="-+-+-+-+-+-">He says that leaves are old and that for flowers</l>
+        <l n="5" real="x+-xxxxxxx" met="-+-+-+-+-+">Mid-summer is to spring as one to ten.</l>
+        <l n="6" real="xxx+-+-xxx" met="-+-+-+-+-+">He says the early petal-fall is past</l>
+        <l n="7" real="xxx+-xxxx+-" met="-+-+-+-+-+-">When pear and cherry bloom went down in showers</l>
+        <l n="8" real="x+-xx+-+-x" met="-+-+-+-+-+">On sunny days a moment overcast;</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">And comes that other fall we name the fall.</l>
+        <l n="10" real="xxx+xxxxxx" met="-+-+-+-+-+">He says the highway dust is over all.</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">The bird would cease and be as other birds</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">But that he knows in singing not to sing.</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">The question that he frames in all but words</l>
+        <l n="14" real="xxxxxx-+-x" met="-+-+-+-+-+">Is what to make of a diminished thing.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="bond-and-free" n="L02647">
+      <head>Bond and Free</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:bond-and-free</idno><idno type="laurel-id">L02647</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">Love has earth to which she clings</l>
+        <l n="2" real="xxx+--xxx" met="-+-+-+-+-">With hills and circling arms about--</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Wall within wall to shut fear out.</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">But Thought has need of no such things,</l>
+        <l n="5" real="xxxxxxxxx" met="-+-+-+-+-">For Thought has a pair of dauntless wings.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaa">
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">On snow and sand and turf, I see</l>
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">Where Love has left a printed trace</l>
+        <l n="8" real="x+-xxx-+" met="-+-+-+-+">With straining in the world&#x27;s embrace.</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">And such is Love and glad to be.</l>
+        <l n="10" real="xxx+-x+-x" met="-+-+-+-+-">But Thought has shaken his ankles free.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbaa">
+        <l n="11" real="xxxx-+-x" met="-+-+-+-+">Thought cleaves the interstellar gloom</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">And sits in Sirius&#x27; disc all night,</l>
+        <l n="13" real="xxxx-+xx" met="-+-+-+-+">Till day makes him retrace his flight,</l>
+        <l n="14" real="xxx+-x+--x" met="--+-+-+-+-">With smell of burning on every plume,</l>
+        <l n="15" real="xxxxxx+-x" met="-+-+-+-+-">Back past the sun to an earthly room.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbaa">
+        <l n="16" real="xxx+-xxxx" met="-+-+-+-+-">His gains in heaven are what they are.</l>
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">Yet some say Love by being thrall</l>
+        <l n="18" real="x+-+--+-x" met="-+-+-+-+-">And simply staying possesses all</l>
+        <l n="19" real="x+-+-xxxx" met="-+-+-+-+-">In several beauty that Thought fares far</l>
+        <l n="20" real="xxx-x-+-x" met="-+-+-+-+-">To find fused in another star.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="birches" n="L02648">
+      <head>Birches</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:birches</idno><idno type="laurel-id">L02648</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-------------------aa-----------------------------b---b-----">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">When I see birches bend to left and right</l>
+        <l n="2" real="-+xxx+-+-x" met="-+-+-+-+-+">Across the lines of straighter darker trees,</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">I like to think some boy&#x27;s been swinging them.</l>
+        <l n="4" real="x+-+-xxxxx" met="-+-+-+-+-+">But swinging doesn&#x27;t bend them down to stay.</l>
+        <l n="5" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Ice-storms do that. Often you must have seen them</l>
+        <l n="6" real="+-xxx+-+-+-" met="-+-+-+-+-+-">Loaded with ice a sunny winter morning</l>
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">After a rain. They click upon themselves</l>
+        <l n="8" real="xxx+-xx+-+-" met="-+-+-+-+-+-">As the breeze rises, and turn many-colored</l>
+        <l n="9" real="xxxxxxxx-+-" met="-+-+-+-+-+-">As the stir cracks and crazes their enamel.</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">Soon the sun&#x27;s warmth makes them shed crystal shells</l>
+        <l n="11" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Shattering and avalanching on the snow-crust--</l>
+        <l n="12" real="xxx+-xxx-+" met="-+-+-+-+-+">Such heaps of broken glass to sweep away</l>
+        <l n="13" real="xxx+-xx+x+-" met="-+-+-+-+-+-">You&#x27;d think the inner dome of heaven had fallen.</l>
+        <l n="14" real="xxxxx+-+-xxx" met="--+-+-+-+-+-">They are dragged to the withered bracken by the load,</l>
+        <l n="15" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And they seem not to break; though once they are bowed</l>
+        <l n="16" real="xxxxx+-x-+" met="-+-+-+-+-+">So low for long, they never right themselves:</l>
+        <l n="17" real="xxxxx+-xxx" met="-+-+-+-+-+">You may see their trunks arching in the woods</l>
+        <l n="18" real="x+-+-xxxxx" met="-+-+-+-+-+">Years afterwards, trailing their leaves on the ground</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">Like girls on hands and knees that throw their hair</l>
+        <l n="20" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Before them over their heads to dry in the sun.</l>
+        <l n="21" real="xxx+xxxxxx" met="-+-+-+-+-+">But I was going to say when Truth broke in</l>
+        <l n="22" real="xxx+-xxxxxxx" met="--+-+-+-+-+-">With all her matter-of-fact about the ice-storm</l>
+        <l n="23" real="xxxxxxxxx" met="+-+-+-+-+">(Now am I free to be poetical?)</l>
+        <l n="24" real="xx-+xxxxxx" met="-+-+-+-+-+">I should prefer to have some boy bend them</l>
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">As he went out and in to fetch the cows--</l>
+        <l n="26" real="xxxxxxxx++" met="-+-+-+-+-+">Some boy too far from town to learn baseball,</l>
+        <l n="27" real="x+-xxxxx-+" met="-+-+-+-+-+">Whose only play was what he found himself,</l>
+        <l n="28" real="+-x+-xxx-+" met="-+-+-+-+-+">Summer or winter, and could play alone.</l>
+        <l n="29" real="xxxx-+x+-x" met="-+-+-+-+-+">One by one he subdued his father&#x27;s trees</l>
+        <l n="30" real="x+-xxxxx-+" met="-+-+-+-+-+">By riding them down over and over again</l>
+        <l n="31" real="xxxxx+-xxx" met="-+-+-+-+-+">Until he took the stiffness out of them,</l>
+        <l n="32" real="xxxxxxxxxx" met="-+-+-+-+-+">And not one but hung limp, not one was left</l>
+        <l n="33" real="xxx+-xxxxx" met="-+-+-+-+-+">For him to conquer. He learned all there was</l>
+        <l n="34" real="xxxxx+-xxx" met="-+-+-+-+-+">To learn about not launching out too soon</l>
+        <l n="35" real="xxx+--xx-+" met="-+-+-+-+-+">And so not carrying the tree away</l>
+        <l n="36" real="xxxxx+xxxx" met="-+-+-+-+-+">Clear to the ground. He always kept his poise</l>
+        <l n="37" real="xxx+-+-+--" met="-+-+-+-+-+">To the top branches, climbing carefully</l>
+        <l n="38" real="xxxxxxxxxx" met="-+-+-+-+-+">With the same pains you use to fill a cup</l>
+        <l n="39" real="xxxxx+xxxx" met="-+-+-+-+-+">Up to the brim, and even above the brim.</l>
+        <l n="40" real="xxx+-xxxxx" met="-+-+-+-+-+">Then he flung outward, feet first, with a swish,</l>
+        <l n="41" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Kicking his way down through the air to the ground.</l>
+        <l n="42" real="xxxxx+x+-xxx" met="--+-+-+-+-+-">So was I once myself a swinger of birches.</l>
+        <l n="43" real="xxxxx+-xxx" met="-+-+-+-+-+">And so I dream of going back to be.</l>
+        <l n="44" real="xxx+-x-x-+-" met="-+-+-+-+-+-">It&#x27;s when I&#x27;m weary of considerations,</l>
+        <l n="45" real="xxxxxxxxxx" met="-+-+-+-+-+">And life is too much like a pathless wood</l>
+        <l n="46" real="xxxxx+-xx+x" met="-+-+-+-+-+-">Where your face burns and tickles with the cobwebs</l>
+        <l n="47" real="+--+xxxxx+-" met="-+-+-+-+-+-">Broken across it, and one eye is weeping</l>
+        <l n="48" real="xxx+-x-+x+-" met="-+-+-+-+-+-">From a twig&#x27;s having lashed across it open.</l>
+        <l n="49" real="xxxx-+xx-+" met="-+-+-+-+-+">I&#x27;d like to get away from earth awhile</l>
+        <l n="50" real="xxxxxxx-+x" met="-+-+-+-+-+">And then come back to it and begin over.</l>
+        <l n="51" real="xxx+-x--+x" met="-+-+-+-+-+">May no fate willfully misunderstand me</l>
+        <l n="52" real="xxxxxxxxx-+" met="-+-+-+-+-+-">And half grant what I wish and snatch me away</l>
+        <l n="53" real="xx-+xxxxxx" met="-+-+-+-+-+">Not to return. Earth&#x27;s the right place for love:</l>
+        <l n="54" real="xxxxx+-xx+-" met="-+-+-+-+-+-">I don&#x27;t know where it&#x27;s likely to go better.</l>
+        <l n="55" real="xxxxx+-xxx" met="-+-+-+-+-+">I&#x27;d like to go by climbing a birch tree,</l>
+        <l n="56" real="xxx+-xxxxx" met="-+-+-+-+-+">And climb black branches up a snow-white trunk</l>
+        <l n="57" real="xx+xxxxxxx" met="-+-+-+-+-+">Toward heaven, till the tree could bear no more,</l>
+        <l n="58" real="xxxxxxxx-+" met="-+-+-+-+-+">But dipped its top and set me down again.</l>
+        <l n="59" real="xxxxx+x+-x" met="-+-+-+-+-+">That would be good both going and coming back.</l>
+        <l n="60" real="xxxxxxx+-xxx" met="--+-+-+-+-+-">One could do worse than be a swinger of birches.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="pea-brush" n="L02649">
+      <head>Pea Brush</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:pea-brush</idno><idno type="laurel-id">L02649</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx-++xxxx" met="--+-+-+-+-">I walked down alone Sunday after church</l>
+        <l n="2" real="xxxxxxx+-x" met="--+-+-+-+-">To the place where John has been cutting trees</l>
+        <l n="3" real="xxxx+xxxx" met="-+-+-+-+-">To see for myself about the birch</l>
+        <l n="4" real="xxxxxxxxx" met="-+-+-+-+-">He said I could have to bush my peas.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxx+-x" met="-+-+-+-+-">The sun in the new-cut narrow gap</l>
+        <l n="6" real="xx-+xxxxx" met="-+-+-+-+-">Was hot enough for the first of May,</l>
+        <l n="7" real="x+-xxx+-xx" met="--+-+-+-+-">And stifling hot with the odor of sap</l>
+        <l n="8" real="xxx+-xx-+" met="-+-+-+-+-">From stumps still bleeding their life away.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxx+-x+-x" met="--+-+-+-+-">The frogs that were peeping a thousand shrill</l>
+        <l n="10" real="-+-xxxxxx" met="-+-+-+-+-">Wherever the ground was low and wet,</l>
+        <l n="11" real="x+-xxxxxx" met="-+-+-+-+-">The minute they heard my step went still</l>
+        <l n="12" real="xxxxxxxxxx" met="--+-+-+-+-">To watch me and see what I came to get.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx-+x-+-x" met="-+-+-+-+-">Birch boughs enough piled everywhere!--</l>
+        <l n="14" real="xxxxxx+-x" met="-+-+-+-+-">All fresh and sound from the recent axe.</l>
+        <l n="15" real="x+xxxxxx" met="-+-+-+-+">Time someone came with cart and pair</l>
+        <l n="16" real="xxxxxx+-x" met="-+-+-+-+-">And got them off the wild flower&#x27;s backs.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">They might be good for garden things</l>
+        <l n="18" real="xxx+-+-x" met="-+-+-+-+">To curl a little finger round,</l>
+        <l n="19" real="xxxxxx+-x" met="-+-+-+-+-">The same as you seize cat&#x27;s-cradle strings,</l>
+        <l n="20" real="xx-+xxxx" met="-+-+-+-+">And lift themselves up off the ground.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxx+-x+-x" met="-+-+-+-+-">Small good to anything growing wild,</l>
+        <l n="22" real="xxxx+-xxx" met="-+-+-+-+-">They were crooking many a trillium</l>
+        <l n="23" real="xxxxxxxxxx" met="--+-+-+-+-">That had budded before the boughs were piled</l>
+        <l n="24" real="xxxx+-xxxx" met="--+-+-+-+-">And since it was coming up had to come.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="putting-in-the-seed" n="L02650">
+      <head>Putting in the Seed</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:putting-in-the-seed</idno><idno type="laurel-id">L02650</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababababcdcd">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">You come to fetch me from my work to-night</l>
+        <l n="2" real="x+-xx+-xxx" met="-+-+-+-+-+">When supper&#x27;s on the table, and we&#x27;ll see</l>
+        <l n="3" real="xxxxx+--xx" met="-+-+-+-+-+">If I can leave off burying the white</l>
+        <l n="4" real="x+-+-xx+-x" met="-+-+-+-+-+">Soft petals fallen from the apple tree.</l>
+        <l n="5" real="x+-xxxx+-x" met="-+-+-+-+-+">(Soft petals, yes, but not so barren quite,</l>
+        <l n="6" real="+-xxxxx+-x" met="-+-+-+-+-+">Mingled with these, smooth bean and wrinkled pea;)</l>
+        <l n="7" real="xx-+xxxxxx" met="-+-+-+-+-+">And go along with you ere you lose sight</l>
+        <l n="8" real="xxxxxx-+xx" met="-+-+-+-+-+">Of what you came for and become like me,</l>
+        <l n="9" real="xxx+x+-xxx" met="-+-+-+-+-+">Slave to a springtime passion for the earth.</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">How Love burns through the Putting in the Seed</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">On through the watching for that early birth</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">When, just as the soil tarnishes with weed,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa">
+        <l n="13" real="x+-+-xx+-x" met="-+-+-+-+-+">The sturdy seedling with arched body comes</l>
+        <l n="14" real="+-xxx+-xxx" met="-+-+-+-+-+">Shouldering its way and shedding the earth crumbs.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-time-to-talk" n="L02651">
+      <head>A Time to Talk</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:a-time-to-talk</idno><idno type="laurel-id">L02651</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-ab--abcc-">
+        <l n="1" real="xxxxxxxxx" met="-+-+-+-+-">When a friend calls to me from the road</l>
+        <l n="2" real="xxxxxx+-x" met="-+-+-+-+-">And slows his horse to a meaning walk,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">I don&#x27;t stand still and look around</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">On all the hills I haven&#x27;t hoed,</l>
+        <l n="5" real="xxxxxxxxx" met="-+-+-+-+-">And shout from where I am, What is it?</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">No, not as there is a time to talk.</l>
+        <l n="7" real="xxxxxx+-x" met="-+-+-+-+-">I thrust my hoe in the mellow ground,</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">Blade-end up and five feet tall,</l>
+        <l n="9" real="xxxxxxxxx" met="-+-+-+-+-">And plod: I go up to the stone wall</l>
+        <l n="10" real="xx+-+-" met="--+-+-">For a friendly visit.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-cow-in-apple-time" n="L02652">
+      <head>The Cow in Apple Time</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-cow-in-apple-time</idno><idno type="laurel-id">L02652</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeee">
+        <l n="1" real="+--+x+-xxx" met="-+-+-+-+-+">Something inspires the only cow of late</l>
+        <l n="2" real="xxxxxxxxx+-x" met="--+-+-+-+-+-">To make no more of a wall than an open gate,</l>
+        <l n="3" real="xxxxxx+-xx" met="-+-+-+-+-+">And think no more of wall-builders than fools.</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Her face is flecked with pomace and she drools</l>
+        <l n="5" real="x+-+-+-+-x" met="-+-+-+-+-+">A cider syrup. Having tasted fruit,</l>
+        <l n="6" real="xxx+-+-xxx" met="-+-+-+-+-+">She scorns a pasture withering to the root.</l>
+        <l n="7" real="xxxxxxxxx+-" met="-+-+-+-+-+-">She runs from tree to tree where lie and sweeten</l>
+        <l n="8" real="x+xxx+-xx+-" met="-+-+-+-+-+-">The windfalls spiked with stubble and worm-eaten.</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">She leaves them bitten when she has to fly.</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">She bellows on a knoll against the sky.</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Her udder shrivels and the milk goes dry.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="an-encounter" n="L02653">
+      <head>An Encounter</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:an-encounter</idno><idno type="laurel-id">L02653</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbcadcedecfgcfhhgijkkij">
+        <l n="1" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Once on the kind of day called &quot;weather breeder,&quot;</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">When the heat slowly hazes and the sun</l>
+        <l n="3" real="xxx+-xxx-+" met="-+-+-+-+-+">By its own power seems to be undone,</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">I was half boring through, half climbing through</l>
+        <l n="5" real="xxx+-xxxx+-" met="-+-+-+-+-+-">A swamp of cedar. Choked with oil of cedar</l>
+        <l n="6" real="xxxxx+-xx+-" met="-+-+-+-+-+-">And scurf of plants, and weary and over-heated,</l>
+        <l n="7" real="x+-x+xxxxx" met="-+-+-+-+-+">And sorry I ever left the road I knew,</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">I paused and rested on a sort of hook</l>
+        <l n="9" real="xxxxxxxxx+-" met="-+-+-+-+-+-">That had me by the coat as good as seated,</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">And since there was no other way to look,</l>
+        <l n="11" real="xxxx+xxxxxx" met="-+-+-+-+-+-">Looked up toward heaven, and there against the blue,</l>
+        <l n="12" real="xxxxxx-+-x" met="-+-+-+-+-+">Stood over me a resurrected tree,</l>
+        <l n="13" real="xxxxxxxx-+" met="-+-+-+-+-+">A tree that had been down and raised again--</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">A barkless spectre. He had halted too,</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">As if for fear of treading upon me.</l>
+        <l n="16" real="xxxx-+-xxx" met="-+-+-+-+-+">I saw the strange position of his hands--</l>
+        <l n="17" real="xxx+-+-+-x" met="-+-+-+-+-+">Up at his shoulders, dragging yellow strands</l>
+        <l n="18" real="x+x+-xxxxxx" met="-+-+-+-+-+-">Of wire with something in it from men to men.</l>
+        <l n="19" real="xxxxx+-x+-x" met="-+-+-+-+-+-">&quot;You here?&quot; I said. &quot;Where aren&#x27;t you nowadays</l>
+        <l n="20" real="xxxxx+-xxx" met="-+-+-+-+-+">And what&#x27;s the news you carry--if you know?</l>
+        <l n="21" real="xxxxxxxx-+" met="-+-+-+-+-+">And tell me where you&#x27;re off for--Montreal?</l>
+        <l n="22" real="xxxxx+-xxx" met="-+-+-+-+-+">Me? I&#x27;m not off for anywhere at all.</l>
+        <l n="23" real="-+x+-xx+-x" met="-+-+-+-+-+">Sometimes I wander out of beaten ways</l>
+        <l n="24" real="x+-xx+--+x" met="-+-+-+-+-+">Half looking for the orchid Calypso.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="range-finding" n="L02654">
+      <head>Range-Finding</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:range-finding</idno><idno type="laurel-id">L02654</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xx+x+-x" met="-+-+-+-+-+">The battle rent a cobweb diamond-strung</l>
+        <l n="2" real="xxx+-+xxxx" met="-+-+-+-+-+">And cut a flower beside a ground bird&#x27;s nest</l>
+        <l n="3" real="xxxxx+-+-x" met="-+-+-+-+-+">Before it stained a single human breast.</l>
+        <l n="4" real="x+-+x+-xxx" met="-+-+-+-+-+">The stricken flower bent double and so hung.</l>
+        <l n="5" real="xxxx-+--xx" met="-+-+-+-+-+">And still the bird revisited her young.</l>
+        <l n="6" real="x+-xxxxx-+" met="-+-+-+-+-+">A butterfly its fall had dispossessed</l>
+        <l n="7" real="x+-xxxx+xx" met="-+-+-+-+-+">A moment sought in air his flower of rest,</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">Then lightly stooped to it and fluttering clung.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">On the bare upland pasture there had spread</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">O&#x27;ernight &#x27;twixt mullein stalks a wheel of thread</l>
+        <l n="11" real="x+-+-xx+-x" met="-+-+-+-+-+">And straining cables wet with silver dew.</l>
+        <l n="12" real="x+-+-+-xxx" met="-+-+-+-+-+">A sudden passing bullet shook it dry.</l>
+        <l n="13" real="xxxx+xxxxx" met="-+-+-+-+-+">The indwelling spider ran to greet the fly,</l>
+        <l n="14" real="x+-+-xxx-+" met="-+-+-+-+-+">But finding nothing, sullenly withdrew.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="loneliness" n="L02655">
+      <head>Loneliness</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:loneliness</idno><idno type="laurel-id">L02655</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">One ought not to have to care</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">So much as you and I</l>
+        <l n="3" real="xxxxxxxx" met="--+-+-+-">Care when the birds come round the house</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">To seem to say good-bye;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">Or care so much when they come back</l>
+        <l n="6" real="xx+-xxxx" met="--+-+-+-">With whatever it is they sing;</l>
+        <l n="7" real="xx+-xxxx" met="--+-+-+-">The truth being we are as much</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Too glad for the one thing</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxx+-x" met="--+-+-+-+-">As we are too sad for the other here--</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">With birds that fill their breasts</l>
+        <l n="11" real="xxx+-x-+" met="--+-+-+-">But with each other and themselves</l>
+        <l n="12" real="xxxx+-x" met="-+-+-+-">And their built or driven nests.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="house-fear" n="L02656">
+      <head>House Fear</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:house-fear</idno><idno type="laurel-id">L02656</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddee">
+        <l n="1" real="+-xxxxxx-" met="-+-+-+-+-">Always--I tell you this they learned--</l>
+        <l n="2" real="+xxxxx-+-" met="-+-+-+-+-">Always at night when they returned</l>
+        <l n="3" real="xx+-xxx-+" met="-+-+-+-+-">To the lonely house from far away</l>
+        <l n="4" real="xxxxxx+-xx" met="--+-+-+-+-">To lamps unlighted and fire gone gray,</l>
+        <l n="5" real="xx-x+-xxxx" met="--+-+-+-+-">They learned to rattle the lock and key</l>
+        <l n="6" real="xxx+-xxxx" met="-+-+-+-+-">To give whatever might chance to be</l>
+        <l n="7" real="+-xxxxxxx" met="-+-+-+-+-">Warning and time to be off in flight:</l>
+        <l n="8" real="x-+-xxxxxxx" met="-+-+-+-+-+-">And preferring the out- to the in-door night,</l>
+        <l n="9" real="xx-xxxxxx" met="-+-+-+-+-">They learned to leave the house-door wide</l>
+        <l n="10" real="xxxxxxx-+" met="-+-+-+-+-">Until they had lit the lamp inside.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-smile" n="L02657">
+      <head>The Smile</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-smile</idno><idno type="laurel-id">L02657</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabcbcdcdcee">
+        <l n="1" real="x+-xxxxx-+" met="-+-+-+-+-+">I didn&#x27;t like the way he went away.</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">That smile! It never came of being gay.</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Still he smiled--did you see him?--I was sure!</l>
+        <l n="4" real="-+xxxxx+-x" met="-+-+-+-+-+">Perhaps because we gave him only bread</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">And the wretch knew from that that we were poor.</l>
+        <l n="6" real="-+xxxxxx-+" met="-+-+-+-+-+">Perhaps because he let us give instead</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">Of seizing from us as he might have seized.</l>
+        <l n="8" real="-+xxxxx+-x" met="-+-+-+-+-+">Perhaps he mocked at us for being wed,</l>
+        <l n="9" real="x+-+-xxxxx" met="-+-+-+-+-+">Or being very young (and he was pleased</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">To have a vision of us old and dead).</l>
+        <l n="11" real="x+-xxxxxxx" met="-+-+-+-+-+">I wonder how far down the road he&#x27;s got.</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">He&#x27;s watching from the woods as like as not.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-oft-repeated-dream" n="L02658">
+      <head>The Oft-Repeated Dream</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-oft-repeated-dream</idno><idno type="laurel-id">L02658</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-x-+" met="--+-+-+-">She had no saying dark enough</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">For the dark pine that kept</l>
+        <l n="3" real="-+-+-x+-x" met="-+-+-+-+-">Forever trying the window-latch</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Of the room where they slept.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xx-+--x" met="--+-+-+-+-">The tireless but ineffectual hands</l>
+        <l n="6" real="xx+--+-x" met="--+-+-+-">That with every futile pass</l>
+        <l n="7" real="xxxxxxx+-x" met="--+-+-+-+-">Made the great tree seem as a little bird</l>
+        <l n="8" real="xxx+--xx" met="--+-+-+-">Before the mystery of glass!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-xx+xxx" met="-+-+-+-+-">It never had been inside the room,</l>
+        <l n="10" real="x+-xxxx" met="-+-+-+-">And only one of the two</l>
+        <l n="11" real="x-+xxx-+-x" met="--+-+-+-+-">Was afraid in an oft-repeated dream</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Of what the tree might do.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-impulse" n="L02659">
+      <head>The Impulse</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-impulse</idno><idno type="laurel-id">L02659</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">It was too lonely for her there,</l>
+        <l n="2" real="xxx" met="-+-">And too wild,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And since there were but two of them,</l>
+        <l n="4" real="xxx" met="-+-">And no child,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">And work was little in the house,</l>
+        <l n="6" real="xxx" met="-+-">She was free,</l>
+        <l n="7" real="x+--xx+--x" met="--+-+-+-+-">And followed where he furrowed field,</l>
+        <l n="8" real="xxx" met="-+-">Or felled tree.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-xxxxx-" met="-+-+-+-+-">She rested on a log and tossed</l>
+        <l n="10" real="xxx" met="-+-">The fresh chips,</l>
+        <l n="11" real="xxx+-x-+" met="-+-+-+-+">With a song only to herself</l>
+        <l n="12" real="xxx" met="-+-">On her lips.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">And once she went to break a bough</l>
+        <l n="14" real="xx+-" met="--+-">Of black alder.</l>
+        <l n="15" real="xx-xxx+-x" met="-+-+-+-+-">She strayed so far she scarcely heard</l>
+        <l n="16" real="xxxx" met="--+-">When he called her--</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="x+-+-+-x" met="-+-+-+-+">And didn&#x27;t answer--didn&#x27;t speak--</l>
+        <l n="18" real="x-+" met="-+-">Or return.</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">She stood, and then she ran and hid</l>
+        <l n="20" real="xxx" met="-+-">In the fern.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="x+-xxxxx-" met="-+-+-+-+-">He never found her, though he looked</l>
+        <l n="22" real="+-x" met="-+-">Everywhere,</l>
+        <l n="23" real="xxx-xx+-x" met="-+-+-+-+-">And he asked at her mother&#x27;s house</l>
+        <l n="24" real="xxx" met="-+-">Was she there.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="+-xxxxxx" met="-+-+-+-+">Sudden and swift and light as that</l>
+        <l n="26" real="xxx" met="-+-">The ties gave,</l>
+        <l n="27" real="xxxxxxx" met="+-+-+-+">And he learned of finalities</l>
+        <l n="28" real="-+xx" met="--+-">Besides the grave.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-bonfire" n="L02660">
+      <head>The Bonfire</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-bonfire</idno><idno type="laurel-id">L02660</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-----a--a-------">
+        <l n="1" real="xxxxxxxx-+" met="-+-+-+-+-+">&quot;Oh, let&#x27;s go up the hill and scare ourselves,</l>
+        <l n="2" real="x+-xxxxxxx" met="-+-+-+-+-+">As reckless as the best of them to-night,</l>
+        <l n="3" real="x+-+xxxxxx" met="-+-+-+-+-+">By setting fire to all the brush we piled</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">With pitchy hands to wait for rain or snow.</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Oh, let&#x27;s not wait for rain to make it safe.</l>
+        <l n="6" real="xxx+xxxxxx" met="-+-+-+-+-+">The pile is ours: we dragged it bough on bough</l>
+        <l n="7" real="xx-+-xxxxx" met="-+-+-+-+-+">Down dark converging paths between the pines.</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Let&#x27;s not care what we do with it to-night.</l>
+        <l n="9" real="-+xxxxxxxx" met="-+-+-+-+-+">Divide it? No! But burn it as one pile</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">The way we piled it. And let&#x27;s be the talk</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">Of people brought to windows by a light</l>
+        <l n="12" real="xx+xxxxx+-" met="-+-+-+-+-+">Thrown from somewhere against their wall-paper.</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Rouse them all, both the free and not so free</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">With saying what they&#x27;d like to do to us</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">For what they&#x27;d better wait till we have done.</l>
+        <l n="16" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Let&#x27;s all but bring to life this old volcano,</l>
+        <l n="17" real="xxxxx+-+-x" met="-+-+-+-+-+">If that is what the mountain ever was--</l>
+        <l n="18" real="xx-+xx+xxx" met="-+-+-+-+-+">And scare ourselves. Let wild fire loose we will....&quot;</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="19" real="x+-xxxxxx+-" met="-+-+-+-+-+-">&quot;Why wouldn&#x27;t it scare me to have a fire</l>
+        <l n="20" real="-+xxxxxxxx" met="-+-+-+-+-+">Begin in smudge with ropy smoke and know</l>
+        <l n="21" real="xxxx-+xx-+x" met="-+-+-+-+-+-">That still, if I repent, I may recall it,</l>
+        <l n="22" real="xxx+-xx+-x" met="-+-+-+-+-+">But in a moment not: a little spurt</l>
+        <l n="23" real="x+-xxxx+-x" met="-+-+-+-+-+">Of burning fatness, and then nothing but</l>
+        <l n="24" real="x+-+xxxxxx" met="-+-+-+-+-+">The fire itself can put it out, and that</l>
+        <l n="25" real="x+-xxxxxxx" met="-+-+-+-+-+">By burning out, and before it burns out</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">It will have roared first and mixed sparks with stars,</l>
+        <l n="27" real="x+-xxxx+-x" met="-+-+-+-+-+">And sweeping round it with a flaming sword,</l>
+        <l n="28" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Made the dim trees stand back in wider circle--</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">Done so much and I know not how much more</l>
+        <l n="30" real="xxxxxxxxxxx" met="-+-+-+-+-+-">I mean it shall not do if I can bind it.</l>
+        <l n="31" real="xxx+-xxxxx" met="-+-+-+-+-+">Well if it doesn&#x27;t with its draft bring on</l>
+        <l n="32" real="xxxxx+-xx+-" met="-+-+-+-+-+-">A wind to blow in earnest from some quarter,</l>
+        <l n="33" real="xxxxxxxxx+-" met="-+-+-+-+-+-">As once it did with me upon an April.</l>
+        <l n="34" real="x+-xxxx+-+-" met="-+-+-+-+-+-">The breezes were so spent with winter blowing</l>
+        <l n="35" real="xxxxx+xxxx" met="-+-+-+-+-+">They seemed to fail the bluebirds under them</l>
+        <l n="36" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Short of the perch their languid flight was toward;</l>
+        <l n="37" real="xxxxx+--x+-" met="-+-+-+-+-+-">And my flame made a pinnacle to heaven</l>
+        <l n="38" real="xxxxxxx-+-" met="-+-+-+-+-+">As I walked once round it in possession.</l>
+        <l n="39" real="xxxxxxxxx+-" met="-+-+-+-+-+-">But the wind out of doors--you know the saying.</l>
+        <l n="40" real="xxxxxxxxxx" met="-+-+-+-+-+">There came a gust. You used to think the trees</l>
+        <l n="41" real="xxx+-xx+-x" met="-+-+-+-+-+">Made wind by fanning since you never knew</l>
+        <l n="42" real="xxxxxxxxx+-" met="-+-+-+-+-+-">It blow but that you saw the trees in motion.</l>
+        <l n="43" real="+-x+x+-xxx" met="-+-+-+-+-+">Something or someone watching made that gust.</l>
+        <l n="44" real="xxxxxxxxxx" met="-+-+-+-+-+">It put the flame tip-down and dabbed the grass</l>
+        <l n="45" real="xxx+-xxxxx" met="-+-+-+-+-+">Of over-winter with the least tip-touch</l>
+        <l n="46" real="xxxxx+-xxx" met="-+-+-+-+-+">Your tongue gives salt or sugar in your hand.</l>
+        <l n="47" real="xxxxx+-+--" met="-+-+-+-+-+">The place it reached to blackened instantly.</l>
+        <l n="48" real="xxxxxxxxx" met="+-+-+-+-+">The black was all there was by day-light,</l>
+        <l n="49" real="xxx+-xxx-+x" met="-+-+-+-+-+-">That and the merest curl of cigarette smoke--</l>
+        <l n="50" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And a flame slender as the hepaticas,</l>
+        <l n="51" real="xxx+-xxxxx" met="-+-+-+-+-+">Blood-root, and violets so soon to be now.</l>
+        <l n="52" real="xxxxxxxxxx" met="-+-+-+-+-+">But the black spread like black death on the ground,</l>
+        <l n="53" real="xxxxx+-xxx" met="-+-+-+-+-+">And I think the sky darkened with a cloud</l>
+        <l n="54" real="x+-x+-+-x-+-" met="--+-+-+-+-+-">Like winter and evening coming on together.</l>
+        <l n="55" real="xx-+xxxxxx" met="-+-+-+-+-+">There were enough things to be thought of then.</l>
+        <l n="56" real="xxx+-xxxx" met="+-+-+-+-+">Where the field stretches toward the north</l>
+        <l n="57" real="x+-xxxxxxxx" met="-+-+-+-+-+-">And setting sun to Hyla brook, I gave it</l>
+        <l n="58" real="xxxxx+-xx+-" met="-+-+-+-+-+-">To flames without twice thinking, where it verges</l>
+        <l n="59" real="xxxxxxxxxx" met="-+-+-+-+-+">Upon the road, to flames too, though in fear</l>
+        <l n="60" real="xxx+-xx+-x" met="-+-+-+-+-+">They might find fuel there, in withered brake,</l>
+        <l n="61" real="xxxxx+-+-x" met="-+-+-+-+-+">Grass its full length, old silver golden-rod,</l>
+        <l n="62" real="x+-xxx-+--" met="-+-+-+-+-+">And alder and grape vine entanglement,</l>
+        <l n="63" real="xxx+-+xxxx" met="-+-+-+-+-+">To leap the dusty deadline. For my own</l>
+        <l n="64" real="xxxxxx-+xx" met="-+-+-+-+-+">I took what front there was beside. I knelt</l>
+        <l n="65" real="xxxxxxxx-+" met="-+-+-+-+-+">And thrust hands in and held my face away.</l>
+        <l n="66" real="xxx+x+-xx+-" met="-+-+-+-+-+-">Fight such a fire by rubbing not by beating.</l>
+        <l n="67" real="xxxxx+-xxxx" met="-+-+-+-+-+-">A board is the best weapon if you have it.</l>
+        <l n="68" real="xxxxxxxxxx" met="-+-+-+-+-+">I had my coat. And oh, I knew, I knew,</l>
+        <l n="69" real="xxxxx+-xx+-" met="-+-+-+-+-+-">And said out loud, I couldn&#x27;t bide the smother</l>
+        <l n="70" real="xxxxxxxxxx" met="-+-+-+-+-+">And heat so close in; but the thought of all</l>
+        <l n="71" real="xxxxx+xxxx" met="-+-+-+-+-+">The woods and town on fire by me, and all</l>
+        <l n="72" real="xxxxxxxxxxx" met="-+-+-+-+-+-">The town turned out to fight for me--that held me.</l>
+        <l n="73" real="x+-xx+--xx" met="-+-+-+-+-+">I trusted the brook barrier, but feared</l>
+        <l n="74" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The road would fail; and on that side the fire</l>
+        <l n="75" real="xxxxxxx+-x" met="-+-+-+-+-+">Died not without a noise of crackling wood--</l>
+        <l n="76" real="x+-xx+-xxx" met="-+-+-+-+-+">Of something more than tinder-grass and weed--</l>
+        <l n="77" real="xxxxxxxxxx" met="-+-+-+-+-+">That brought me to my feet to hold it back</l>
+        <l n="78" real="x+-xx+xxxx" met="-+-+-+-+-+">By leaning back myself, as if the reins</l>
+        <l n="79" real="xxxxxxxxxx" met="-+-+-+-+-+">Were round my neck and I was at the plough.</l>
+        <l n="80" real="xxxxxxx+-x" met="-+-+-+-+-+">I won! But I&#x27;m sure no one ever spread</l>
+        <l n="81" real="-+-+-xxxxx" met="-+-+-+-+-+">Another color over a tenth the space</l>
+        <l n="82" real="xxxxxxxxxx" met="-+-+-+-+-+">That I spread coal-black over in the time</l>
+        <l n="83" real="xxx+-+-xxx" met="-+-+-+-+-+">It took me. Neighbors coming home from town</l>
+        <l n="84" real="+--+xxxxxxx" met="-+-+-+-+-+-">Couldn&#x27;t believe that so much black had come there</l>
+        <l n="85" real="xxxxxxx+-xx" met="-+-+-+-+-+-">While they had backs turned, that it hadn&#x27;t been there</l>
+        <l n="86" real="xxxxx+xxxx" met="-+-+-+-+-+">When they had passed an hour or so before</l>
+        <l n="87" real="+x+-xxxxxx" met="-+-+-+-+-+">Going the other way and they not seen it.</l>
+        <l n="88" real="xxxxx+xxxxx" met="-+-+-+-+-+-">They looked about for someone to have done it.</l>
+        <l n="89" real="xxxxxxx+x+-" met="-+-+-+-+-+-">But there was no one. I was somewhere wondering</l>
+        <l n="90" real="xxx+--xxxx" met="-+-+-+-+-+">Where all my weariness had gone and why</l>
+        <l n="91" real="xxxxxxx+-x" met="-+-+-+-+-+">I walked so light on air in heavy shoes</l>
+        <l n="92" real="xxxxxxxx++-" met="-+-+-+-+-+-">In spite of a scorched Fourth-of-July feeling.</l>
+        <l n="93" real="x+-xxx-+-x" met="-+-+-+-+-+">Why wouldn&#x27;t I be scared remembering that?&quot;</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="94" real="xxxxxxx+-x" met="-+-+-+-+-+">&quot;Scare you. But if you shrink from being scared,</l>
+        <l n="95" real="xxxxxxxxxx" met="-+-+-+-+-+">What would you say to war if it should come?</l>
+        <l n="96" real="xxx+-xxxxx" met="-+-+-+-+-+">That&#x27;s what for reasons I should like to know--</l>
+        <l n="97" real="xxx+-xx+-+-" met="-+-+-+-+-+-">If you can comfort me by any answer.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="--------aa----">
+        <l n="98" real="xxx+-+xxx+-" met="-+-+-+-+-+-">&quot;Now we are digging almost down to China.</l>
+        <l n="99" real="xxxxxxxxxxx" met="-+-+-+-+-+-">My dears, my dears, you thought that--we all thought it.</l>
+        <l n="100" real="xx-+x++-xxx" met="-+-+-+-+-+-">So your mistake was ours. Haven&#x27;t you heard, though,</l>
+        <l n="101" real="xxxxxxxxxx" met="-+-+-+-+-+">About the ships where war has found them out</l>
+        <l n="102" real="xxxxxxxxxx" met="-+-+-+-+-+">At sea, about the towns where war has come</l>
+        <l n="103" real="x+-xxxx+-x" met="-+-+-+-+-+">Through opening clouds at night with droning speed</l>
+        <l n="104" real="+-xxxxxxx+-" met="-+-+-+-+-+-">Further o&#x27;erhead than all but stars and angels,--</l>
+        <l n="105" real="x+-xxxxxxx" met="-+-+-+-+-+">And children in the ships and in the towns?</l>
+        <l n="106" real="+-xxxxxxxx" met="-+-+-+-+-+">Haven&#x27;t you heard what we have lived to learn?</l>
+        <l n="107" real="+-xx+-xx-+-" met="-+-+-+-+-+-">Nothing so new--something we had forgotten:</l>
+        <l n="108" real="xxx+-xx+-x" met="-+-+-+-+-+">War is for everyone, for children too.</l>
+        <l n="109" real="x+-+xxxxx+-" met="-+-+-+-+-+-">I wasn&#x27;t going to tell you and I mustn&#x27;t.</l>
+        <l n="110" real="xxxxxxxxxx" met="-+-+-+-+-+">The best way is to come up hill with me</l>
+        <l n="111" real="xx++xxxx-+" met="-+-+-+-+-+">And have our fire and laugh and be afraid.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-girl-s-garden" n="L02661">
+      <head>A Girl&#x27;s Garden</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:a-girl-s-garden</idno><idno type="laurel-id">L02661</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-xxxx+-" met="-+-+-+-+-">A neighbor of mine in the village</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Likes to tell how one spring</l>
+        <l n="3" real="xxxxxxxxxx" met="--+-+-+-+-">When she was a girl on the farm, she did</l>
+        <l n="4" real="x+xx" met="--+-">A childlike thing.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-" met="-+-+-+-">One day she asked her father</l>
+        <l n="6" real="xxxx+-x" met="-+-+-+-">To give her a garden plot</l>
+        <l n="7" real="xxxxxx-+" met="--+-+-+-">To plant and tend and reap herself,</l>
+        <l n="8" real="xxxxx" met="+-+-+">And he said, &quot;Why not?&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-xxxx+-" met="-+-+-+-+-">In casting about for a corner</l>
+        <l n="10" real="xxxx+-x" met="-+-+-+-">He thought of an idle bit</l>
+        <l n="11" real="xx-xxxxxxx" met="--+-+-+-+-">Of walled-off ground where a shop had stood,</l>
+        <l n="12" real="xxxxx" met="+-+-+">And he said, &quot;Just it.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">And he said, &quot;That ought to make you</l>
+        <l n="14" real="x-+xxx" met="-+-+-+">An ideal one-girl farm,</l>
+        <l n="15" real="xxxxxxxxx" met="-+-+-+-+-">And give you a chance to put some strength</l>
+        <l n="16" real="xxxxx" met="+-+-+">On your slim-jim arm.&quot;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxx-+xx+-" met="-+-+-+-+-">It was not enough of a garden,</l>
+        <l n="18" real="x+-xxx" met="-+-+-+">Her father said, to plough;</l>
+        <l n="19" real="xxxxxxxxx" met="-+-+-+-+-">So she had to work it all by hand,</l>
+        <l n="20" real="xxxxx" met="+-+-+">But she don&#x27;t mind now.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xx-xxxx+x-" met="--+-+-+-+-">She wheeled the dung in the wheelbarrow</l>
+        <l n="22" real="-+xxxx" met="-+-+-+">Along a stretch of road;</l>
+        <l n="23" real="xx+xx-+xx" met="-+-+-+-+-">But she always ran away and left</l>
+        <l n="24" real="xxxx" met="--+-">Her not-nice load.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="xxx+--+-" met="--+-+-+-">And hid from anyone passing.</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">And then she begged the seed.</l>
+        <l n="27" real="xxxxx+-x" met="--+-+-+-">She says she thinks she planted one</l>
+        <l n="28" real="xxxxx" met="+-+-+">Of all things but weed.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aa-a">
+        <l n="29" real="xxxx-+-" met="-+-+-+-">A hill each of potatoes,</l>
+        <l n="30" real="+--+-x" met="-+-+-+">Radishes, lettuce, peas,</l>
+        <l n="31" real="-+-xx+-x" met="--+-+-+-">Tomatoes, beets, beans, pumpkins, corn,</l>
+        <l n="32" real="x+-xx" met="+-+-+">And even fruit trees.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xxxxx-+-" met="--+-+-+-">And yes, she has long mistrusted</l>
+        <l n="34" real="xx+-+-x" met="-+-+-+-">That a cider apple tree</l>
+        <l n="35" real="x+-xxxxx" met="--+-+-+-">In bearing there to-day is hers,</l>
+        <l n="36" real="xxxxx" met="+-+-+">Or at least may be.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="xxxx+-x-" met="--+-+-+-">Her crop was a miscellany</l>
+        <l n="38" real="xxxxxx" met="-+-+-+">When all was said and done,</l>
+        <l n="39" real="x+-xx+-x" met="--+-+-+-">A little bit of everything,</l>
+        <l n="40" real="xxxxx" met="+-+-+">A great deal of none.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a">
+        <l n="41" real="xxxxxx+-" met="--+-+-+-">Now when she sees in the village</l>
+        <l n="42" real="x+-xx" met="+-+-+">How village things go,</l>
+        <l n="43" real="xxxxxxxx" met="--+-+-+-">Just when it seems to come in right,</l>
+        <l n="44" real="xxxx" met="--+-">She says, &quot;I know!</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="45" real="xxxxxx+-" met="--+-+-+-">It&#x27;s as when I was a farmer----&quot;</l>
+        <l n="46" real="x+-xxx-+" met="--+-+-+-">Oh, never by way of advice!</l>
+        <l n="47" real="xx+-xx+-xx" met="--+-+-+-+-">And she never sins by telling the tale</l>
+        <l n="48" real="xxx+-x" met="-+-+-+">To the same person twice.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-exposed-nest" n="L02662">
+      <head>The Exposed Nest</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-exposed-nest</idno><idno type="laurel-id">L02662</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abacabc-adde-e-fff-gggh--hii--jkljlk">
+        <l n="1" real="xx-+-+-xxx" met="-+-+-+-+-+">You were forever finding some new play.</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">So when I saw you down on hands and knees</l>
+        <l n="3" real="xx+x+-xxxxx" met="-+-+-+-+-+-">In the meadow, busy with the new-cut hay,</l>
+        <l n="4" real="+-xxxxxxxx" met="-+-+-+-+-+">Trying, I thought, to set it up on end,</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">I went to show you how to make it stay,</l>
+        <l n="6" real="xxxx-+xxxx" met="-+-+-+-+-+">If that was your idea, against the breeze,</l>
+        <l n="7" real="xxxxx+-x-+" met="-+-+-+-+-+">And, if you asked me, even help pretend</l>
+        <l n="8" real="xxxx-+xx-+" met="-+-+-+-+-+">To make it root again and grow afresh.</l>
+        <l n="9" real="xxxx-+xxxx" met="-+-+-+-+-+">But &#x27;twas no make-believe with you to-day,</l>
+        <l n="10" real="xxxx-+xx-+" met="-+-+-+-+-+">Nor was the grass itself your real concern,</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Though I found your hand full of wilted fern,</l>
+        <l n="12" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Steel-bright June-grass, and blackening heads of clover.</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Twas a nest full of young birds on the ground</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">The cutter-bar had just gone champing over</l>
+        <l n="15" real="-+---xx+-x" met="-+-+-+-+-+">(Miraculously without tasting flesh)</l>
+        <l n="16" real="xx-+-xxxxx" met="-+-+-+-+-+">And left defenseless to the heat and light.</l>
+        <l n="17" real="x+-x-+xxxx" met="-+-+-+-+-+">You wanted to restore them to their right</l>
+        <l n="18" real="x+-xxxxxxx" met="-+-+-+-+-+">Of something interposed between their sight</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">And too much world at once--could means be found.</l>
+        <l n="20" real="xxxxx+-xxx" met="-+-+-+-+-+">The way the nest-full every time we stirred</l>
+        <l n="21" real="xxxxxxx+-x" met="-+-+-+-+-+">Stood up to us as to a mother-bird</l>
+        <l n="22" real="x+-xxxxx-+" met="-+-+-+-+-+">Whose coming home has been too long deferred,</l>
+        <l n="23" real="xxxxx+-x-+" met="-+-+-+-+-+">Made me ask would the mother-bird return</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">And care for them in such a change of scene</l>
+        <l n="25" real="xx++-xxx-+" met="-+-+-+-+-+">And might our meddling make her more afraid.</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">That was a thing we could not wait to learn.</l>
+        <l n="27" real="xxxxxxx+-x" met="-+-+-+-+-+">We saw the risk we took in doing good,</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">But dared not spare to do the best we could</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">Though harm should come of it; so built the screen</l>
+        <l n="30" real="xx-+xxxxxx" met="-+-+-+-+-+">You had begun, and gave them back their shade.</l>
+        <l n="31" real="xxxxxxxxxx" met="-+-+-+-+-+">All this to prove we cared. Why is there then</l>
+        <l n="32" real="xxxxxxx+-x" met="-+-+-+-+-+">No more to tell? We turned to other things.</l>
+        <l n="33" real="x+-+-+--xx" met="-+-+-+-+-+">I haven&#x27;t any memory--have you?--</l>
+        <l n="34" real="x+-+-xxx-+" met="-+-+-+-+-+">Of ever coming to the place again</l>
+        <l n="35" real="xxxxxxxxxx" met="-+-+-+-+-+">To see if the birds lived the first night through,</l>
+        <l n="36" real="xxxxxxxxxx" met="-+-+-+-+-+">And so at last to learn to use their wings.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="out-out" n="L02663">
+      <head>&quot;Out, Out—&quot;</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:out-out</idno><idno type="laurel-id">L02663</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--------a---a---------------------">
+        <l n="1" real="xxx+-x+-xxx" met="-+-+-+-+-+-">The buzz-saw snarled and rattled in the yard</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">And made dust and dropped stove-length sticks of wood,</l>
+        <l n="3" real="x+-xxxxx-+x" met="-+-+-+-+-+-">Sweet-scented stuff when the breeze drew across it.</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">And from there those that lifted eyes could count</l>
+        <l n="5" real="x+-+-xxxx+-" met="-+-+-+-+-+-">Five mountain ranges one behind the other</l>
+        <l n="6" real="xxx+xxxx-+" met="-+-+-+-+-+">Under the sunset far into Vermont.</l>
+        <l n="7" real="xxx+-x+-+-x+-" met="-+-+-+-+-+-+-">And the saw snarled and rattled, snarled and rattled,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">As it ran light, or had to bear a load.</l>
+        <l n="9" real="x+-+-xxxxx" met="-+-+-+-+-+">And nothing happened: day was all but done.</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Call it a day, I wish they might have said</l>
+        <l n="11" real="xxxxx+-xxx+" met="-+-+-+-+-+-">To please the boy by giving him the half hour</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">That a boy counts so much when saved from work.</l>
+        <l n="13" real="x+-x-+xxx+-" met="-+-+-+-+-+-">His sister stood beside them in her apron</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">To tell them &quot;Supper.&quot; At the word, the saw,</l>
+        <l n="15" real="xxxxxxx+-x" met="-+-+-+-+-+">As if to prove saws knew what supper meant,</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">Leaped out at the boy&#x27;s hand, or seemed to leap--</l>
+        <l n="17" real="xxx+xxx+-xx" met="-+-+-+-+-+-">He must have given the hand. However it was,</l>
+        <l n="18" real="+--+x+-xxx" met="-+-+-+-+-+">Neither refused the meeting. But the hand!</l>
+        <l n="19" real="xxx+xxx+-x" met="-+-+-+-+-+">The boy&#x27;s first outcry was a rueful laugh,</l>
+        <l n="20" real="xxxxxx+-xxx" met="-+-+-+-+-+-">As he swung toward them holding up the hand</l>
+        <l n="21" real="xx-+xxxxxx" met="-+-+-+-+-+">Half in appeal, but half as if to keep</l>
+        <l n="22" real="xxx+-xxxxx" met="-+-+-+-+-+">The life from spilling. Then the boy saw all--</l>
+        <l n="23" real="xxxx-+xxxx" met="-+-+-+-+-+">Since he was old enough to know, big boy</l>
+        <l n="24" real="+-xxxxxxxx" met="-+-+-+-+-+">Doing a man&#x27;s work, though a child at heart--</l>
+        <l n="25" real="xxxxxxxxxxx" met="-+-+-+-+-+-">He saw all spoiled. &quot;Don&#x27;t let him cut my hand off--</l>
+        <l n="26" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The doctor, when he comes. Don&#x27;t let him, sister!&quot;</l>
+        <l n="27" real="xxxxxx-+-" met="+-+-+-+-+">So. But the hand was gone already.</l>
+        <l n="28" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The doctor put him in the dark of ether.</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">He lay and puffed his lips out with his breath.</l>
+        <l n="30" real="xxx+-xxxxx" met="-+-+-+-+-+">And then--the watcher at his pulse took fright.</l>
+        <l n="31" real="xx-+x+-xxx" met="-+-+-+-+-+">No one believed. They listened at his heart.</l>
+        <l n="32" real="+-x+-xx+-x" met="-+-+-+-+-+">Little--less--nothing!--and that ended it.</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">No more to build on there. And they, since they</l>
+        <l n="34" real="xxxxxxxx-+" met="-+-+-+-+-+">Were not the one dead, turned to their affairs.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-willy-nilly-slide" n="L02664">
+      <head>The Willy-Nilly Slide</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-willy-nilly-slide</idno><idno type="laurel-id">L02664</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx-xxx+-x" met="-+-+-+-+-">Brown lived at such a lofty farm</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">That everyone for miles could see</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">His lantern when he did his chores</l>
+        <l n="4" real="x+-xxxxx" met="-+-+-+-+">In winter after half-past three.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">And many must have seen him make</l>
+        <l n="6" real="xx-+xxxx" met="-+-+-+-+">His wild descent from there one night,</l>
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">&#x27;Cross lots, &#x27;cross walls, &#x27;cross everything,</l>
+        <l n="8" real="-+-xx+-x" met="-+-+-+-+">Describing rings of lantern light.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Between the house and barn the gale</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">Got him by something he had on</l>
+        <l n="11" real="xxxxxx+-x" met="-+-+-+-+-">And blew him out on the icy crust</l>
+        <l n="12" real="xx-xxxxxx" met="-+-+-+-+-">That cased the world, and he was gone!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">Walls were all buried, trees were few:</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">He saw no stay unless he stove</l>
+        <l n="15" real="xxx+xxxx" met="-+-+-+-+">A hole in somewhere with his heel.</l>
+        <l n="16" real="xx-+--xx" met="-+-+-+-+">But though repeatedly he strove</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xx-xxxx-+" met="-+-+-+-+-">And stamped and said things to himself,</l>
+        <l n="18" real="x+x+-x-xx" met="-+-+-+-+-">And sometimes something seemed to yield,</l>
+        <l n="19" real="xx-x+xx-+-" met="--+-+-+-+-">He gained no foothold, but pursued</l>
+        <l n="20" real="x+-xxxxx" met="-+-+-+-+">His journey down from field to field.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="-+xxxxxx" met="-+-+-+-+">Sometimes he came with arms outspread</l>
+        <l n="22" real="xx-+-xxx" met="-+-+-+-+">Like wings, revolving in the scene</l>
+        <l n="23" real="xxx+-+-x" met="-+-+-+-+">Upon his longer axis, and</l>
+        <l n="24" real="xxx+--xx" met="-+-+-+-+">With no small dignity of mien.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="+-x+-xxx-" met="-+-+-+-+-">Faster or slower as he chanced,</l>
+        <l n="26" real="+-x+-xxx" met="-+-+-+-+">Sitting or standing as he chose,</l>
+        <l n="27" real="-+-xxx-xx" met="-+-+-+-+-">According as he feared to risk</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">His neck, or thought to spare his clothes,</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a">
+        <l n="29" real="x+-xx+-x" met="-+-+-+-+">He never let the lantern drop.</l>
+        <l n="30" real="xx-+-xx-+" met="-+-+-+-+-">And some exclaimed who saw afar</l>
+        <l n="31" real="x+-x-+-xx" met="-+-+-+-+-">The figures he described with it,</l>
+        <l n="32" real="x+-xx+-x" met="-+-+-+-+">&quot;I wonder what those signals are</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xxxxx+-xx" met="-+-+-+-+-">Brown makes at such an hour of night!</l>
+        <l n="34" real="x+-x-+-x" met="-+-+-+-+">He&#x27;s celebrating something strange.</l>
+        <l n="35" real="x+-xxxxx" met="-+-+-+-+">I wonder if he&#x27;s sold his farm,</l>
+        <l n="36" real="xxx+-xxx" met="-+-+-+-+">Or been made Master of the Grange.&quot;</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="xx-xx-xxxx" met="--+-+-+-+-">He reeled, he lurched, he bobbed, he checked;</l>
+        <l n="38" real="xxxxx+-+-" met="-+-+-+-+-">He fell and made the lantern rattle</l>
+        <l n="39" real="xx-xxx+-x" met="-+-+-+-+-">(But saved the light from going out.)</l>
+        <l n="40" real="xxxxxxx+-" met="-+-+-+-+-">So half-way down he fought the battle</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a">
+        <l n="41" real="-+--xxxxx" met="-+-+-+-+-">Incredulous of his own bad luck.</l>
+        <l n="42" real="xx-+-+-x-" met="-+-+-+-+-">And then becoming reconciled</l>
+        <l n="43" real="x+-xxxxx" met="-+-+-+-+">To everything, he gave it up</l>
+        <l n="44" real="xxxxx+-x" met="-+-+-+-+">And came down like a coasting child.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="45" real="xxxxxxxx" met="-+-+-+-+">&quot;Well--I--be--&quot; that was all he said,</l>
+        <l n="46" real="x+-xx+-x" met="-+-+-+-+">As standing in the river road,</l>
+        <l n="47" real="xx-xxx+--x" met="--+-+-+-+-">He looked back up the slippery slope</l>
+        <l n="48" real="xxxxxx-+" met="-+-+-+-+">(Two miles it was) to his abode.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="49" real="-+xx-+--" met="-+-+-+-+">Sometimes as an authority</l>
+        <l n="50" real="x+-xxx-xx" met="-+-+-+-+-">On motor-cars, I&#x27;m asked if I</l>
+        <l n="51" real="xx+-xx+--x" met="--+-+-+-+-">Should say our stock was petered out,</l>
+        <l n="52" real="xxxx-+-+" met="-+-+-+-+">And this is my sincere reply:</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="-a-a">
+        <l n="53" real="+-xxx+xx" met="-+-+-+-+">Yankees are what they always were.</l>
+        <l n="54" real="xxx+-xxx" met="-+-+-+-+">Don&#x27;t think Brown ever gave up hope</l>
+        <l n="55" real="x+-x-+xx" met="-+-+-+-+">Of getting home again because</l>
+        <l n="56" real="x+-xx+--x" met="-+-+-+-+-">He couldn&#x27;t climb that slippery slope;</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a">
+        <l n="57" real="x+-xx+-x" met="-+-+-+-+">Or even thought of standing there</l>
+        <l n="58" real="xxx+-x-x" met="-+-+-+-+">Until the January thaw</l>
+        <l n="59" real="xxx+-xxx" met="-+-+-+-+">Should take the polish off the crust.</l>
+        <l n="60" real="xx-xxx+--x" met="--+-+-+-+-">He bowed with grace to natural law,</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="-a-a">
+        <l n="61" real="xxxxxxxx" met="-+-+-+-+">And then went round it on his feet,</l>
+        <l n="62" real="xxx+-x+-x" met="-+-+-+-+-">After the manner of our stock;</l>
+        <l n="63" real="xx-+-xxxx" met="-+-+-+-+-">Not much concerned for those to whom,</l>
+        <l n="64" real="xxx+--x-+" met="-+-+-+-+-">At that particular time o&#x27;clock,</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="-a-a">
+        <l n="65" real="xxxx-xxxx" met="-+-+-+-+-">It must have looked as if the course</l>
+        <l n="66" real="xx-x+-x-+" met="-+-+-+-+-">He steered was really straight away</l>
+        <l n="67" real="xxxxx+-x" met="-+-+-+-+">From that which he was headed for--</l>
+        <l n="68" real="xx-+-xxxx" met="-+-+-+-+-">Not much concerned for them, I say;</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="-a-a">
+        <l n="69" real="xxxx-+xx" met="-+-+-+-+">No more so than became a man--</l>
+        <l n="70" real="xx-+-xx+-" met="-+-+-+-+-">And politician at odd seasons.</l>
+        <l n="71" real="xxx+-xxx" met="-+-+-+-+">I&#x27;ve kept Brown standing in the cold</l>
+        <l n="72" real="xx-+-xx+-" met="-+-+-+-+-">While I invested him with reasons;</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a">
+        <l n="73" real="xxxx-xxxx" met="-+-+-+-+-">But now he snapped his eyes three times;</l>
+        <l n="74" real="xxx+-+-x" met="-+-+-+-+">Then shook his lantern, saying, &quot;Ile&#x27;s</l>
+        <l n="75" real="xxxxxxxx" met="-+-+-+-+">&#x27;Bout out!&quot; and took the long way home</l>
+        <l n="76" real="xxx+-x+-x" met="-+-+-+-+-">By road, a matter of several miles.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-gum-gatherer" n="L02665">
+      <head>The Gum-Gatherer</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-gum-gatherer</idno><idno type="laurel-id">L02665</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-ababcdadc--efefeghhgihi-jj--kk--">
+        <l n="1" real="xx-+xxxxx" met="-+-+-+-+-">There overtook me and drew me in</l>
+        <l n="2" real="xxxx+-+-x" met="-+-+-+-+-">To his down-hill, early-morning stride,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And set me five miles on my road</l>
+        <l n="4" real="+-xxxxxxx" met="-+-+-+-+-">Better than if he had had me ride,</l>
+        <l n="5" real="xxxx+-xxx" met="-+-+-+-+-">A man with a swinging bag for load</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And half the bag wound round his hand.</l>
+        <l n="7" real="xx-x+-xxxx" met="--+-+-+-+-">We talked like barking above the din</l>
+        <l n="8" real="x+-xx--+-+" met="--+-+-+-+-">Of water we walked along beside.</l>
+        <l n="9" real="xxx+-xxxx" met="-+-+-+-+-">And for my telling him where I&#x27;d been</l>
+        <l n="10" real="xxxx-x+-x" met="-+-+-+-+-">And where I lived in mountain land</l>
+        <l n="11" real="xx+-xxxxx" met="-+-+-+-+-">To be coming home the way I was,</l>
+        <l n="12" real="xxxx+-xx-+" met="--+-+-+-+-">He told me a little about himself.</l>
+        <l n="13" real="xxx+-xxxx" met="-+-+-+-+-">He came from higher up in the pass</l>
+        <l n="14" real="xxxxxx-+-x" met="--+-+-+-+-">Where the grist of the new-beginning brooks</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">Is blocks split off the mountain mass--</l>
+        <l n="16" real="x+-x-+xx" met="-+-+-+-+">And hopeless grist enough it looks</l>
+        <l n="17" real="+-xxxxxx" met="-+-+-+-+">Ever to grind to soil for grass.</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">(The way it is will do for moss.)</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">There he had built his stolen shack.</l>
+        <l n="20" real="xxxxx+-x" met="-+-+-+-+">It had to be a stolen shack</l>
+        <l n="21" real="xxxxxx+-xx" met="--+-+-+-+-">Because of the fears of fire and loss</l>
+        <l n="22" real="x+-xxx+-x" met="-+-+-+-+-">That trouble the sleep of lumber folk:</l>
+        <l n="23" real="+-xxxxx-x" met="-+-+-+-+-">Visions of half the world burned black</l>
+        <l n="24" real="xxx+-+-xx" met="-+-+-+-+-">And the sun shrunken yellow in smoke.</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">We know who when they come to town</l>
+        <l n="26" real="x+-xxx+-x" met="-+-+-+-+-">Bring berries under the wagon seat,</l>
+        <l n="27" real="xx+-xxxxxx" met="--+-+-+-+-">Or a basket of eggs between their feet;</l>
+        <l n="28" real="xxxxxx+-x" met="-+-+-+-+-">What this man brought in a cotton sack</l>
+        <l n="29" real="xxxxxx+-x" met="-+-+-+-+-">Was gum, the gum of the mountain spruce.</l>
+        <l n="30" real="xx-xxxx+-x" met="--+-+-+-+-">He showed me lumps of the scented stuff</l>
+        <l n="31" real="xx++-xxx" met="-+-+-+-+">Like uncut jewels, dull and rough.</l>
+        <l n="32" real="xxx+-+-x" met="-+-+-+-+">It comes to market golden brown;</l>
+        <l n="33" real="xxxxxxxx" met="-+-+-+-+">But turns to pink between the teeth.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-a-b">
+        <l n="34" real="xxxxxx+-x" met="-+-+-+-+-">I told him this is a pleasant life</l>
+        <l n="35" real="xxxxxxxxx" met="-+-+-+-+-">To set your breast to the bark of trees</l>
+        <l n="36" real="xxxxxxxx" met="-+-+-+-+">That all your days are dim beneath,</l>
+        <l n="37" real="x+-xxx+-x" met="-+-+-+-+-">And reaching up with a little knife,</l>
+        <l n="38" real="xxx+-xxxx" met="-+-+-+-+-">To loose the resin and take it down</l>
+        <l n="39" real="xxxx+-xxx" met="-+-+-+-+-">And bring it to market when you please.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-line-gang" n="L02666">
+      <head>The Line-Gang</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-line-gang</idno><idno type="laurel-id">L02666</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abccabdedefdf">
+        <l n="1" real="xxxxxx-+-x" met="-+-+-+-+-+">Here come the line-gang pioneering by.</l>
+        <l n="2" real="xxx+-xxxx+-" met="-+-+-+-+-+-">They throw a forest down less cut than broken.</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">They plant dead trees for living, and the dead</l>
+        <l n="4" real="xx-+-xx+-x" met="-+-+-+-+-+">They string together with a living thread.</l>
+        <l n="5" real="xxx+--xxxx" met="-+-+-+-+-+">They string an instrument against the sky</l>
+        <l n="6" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Wherein words whether beaten out or spoken</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Will run as hushed as when they were a thought.</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">But in no hush they string it: they go past</l>
+        <l n="9" real="xx-+xxx+-x" met="-+-+-+-+-+">With shouts afar to pull the cable taut,</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">To hold it hard until they make it fast,</l>
+        <l n="11" real="xx-+xxxxxx" met="-+-+-+-+-+">To ease away--they have it. With a laugh,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">An oath of towns that set the wild at naught</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">They bring the telephone and telegraph.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-vanishing-red" n="L02667">
+      <head>The Vanishing Red</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-vanishing-red</idno><idno type="laurel-id">L02667</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--------a-a--">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">He is said to have been the last Red Man</l>
+        <l n="2" real="x+-xx+-xxxxx" met="--+-+-+-+-+-">In Acton. And the Miller is said to have laughed--</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">If you like to call such a sound a laugh.</l>
+        <l n="4" real="xxxxxxxxx+-" met="-+-+-+-+-+-">But he gave no one else a laugher&#x27;s license.</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">For he turned suddenly grave as if to say,</l>
+        <l n="6" real="x+-xxxxxx+" met="-+-+-+-+-+">&quot;Whose business,--if I take it on myself,</l>
+        <l n="7" real="x+-xxxxxx" met="+-+-+-+-+">Whose business--but why talk round the barn?--</l>
+        <l n="8" real="xxxxxxx+-xxxx" met="-+-+-+-+-+-+-">When it&#x27;s just that I hold with getting a thing done with.&quot;</l>
+        <l n="9" real="xxxxxxxxxxx" met="-+-+-+-+-+-">You can&#x27;t get back and see it as he saw it.</l>
+        <l n="10" real="xxxx+-xxxxx" met="-+-+-+-+-+-">It&#x27;s too long a story to go into now.</l>
+        <l n="11" real="xxxxxxxx-x" met="-+-+-+-+-+">You&#x27;d have to have been there and lived it.</l>
+        <l n="12" real="xx+-xxxxxxx+-" met="-+-+-+-+-+-+-">Then you wouldn&#x27;t have looked on it as just a matter</l>
+        <l n="13" real="xx-+xxxxx+-" met="-+-+-+-+-+-">Of who began it between the two races.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="14" real="x+-x-+-x-+" met="-+-+-+-+-+">Some guttural exclamation of surprise</l>
+        <l n="15" real="xxxxx+-xxxx" met="-+-+-+-+-+-">The Red Man gave in poking about the mill</l>
+        <l n="16" real="xxxx+-+-xx" met="-+-+-+-+-+">Over the great big thumping shuffling mill-stone</l>
+        <l n="17" real="-+-x+-+-x+-" met="-+-+-+-+-+-">Disgusted the Miller physically as coming</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">From one who had no right to be heard from.</l>
+        <l n="19" real="xxxxxxxxxxx" met="-+-+-+-+-+-">&quot;Come, John,&quot; he said, &quot;you want to see the wheel pit?&quot;</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="20" real="xxxxxxx+-+-" met="-+-+-+-+-+-">He took him down below a cramping rafter,</l>
+        <l n="21" real="xxxxx+xxxx" met="-+-+-+-+-+">And showed him, through a manhole in the floor,</l>
+        <l n="22" real="x+-x+-xx+-x" met="-+-+-+-+-+-">The water in desperate straits like frantic fish,</l>
+        <l n="23" real="+-x+-+-xxx" met="-+-+-+-+-+">Salmon and sturgeon, lashing with their tails.</l>
+        <l n="24" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Then he shut down the trap door with a ring in it</l>
+        <l n="25" real="x+-+xxx+-x" met="-+-+-+-+-+">That jangled even above the general noise,</l>
+        <l n="26" real="xxxx-+xxxx" met="-+-+-+-+-+">And came up stairs alone--and gave that laugh,</l>
+        <l n="27" real="xx+-xxxxxxx" met="-+-+-+-+-+-">And said something to a man with a meal-sack</l>
+        <l n="28" real="xxxxxxx+-xx" met="-+-+-+-+-+-">That the man with the meal-sack didn&#x27;t catch--then.</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">Oh, yes, he showed John the wheel pit all right.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="snow" n="L02668">
+      <head>Snow</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:snow</idno><idno type="laurel-id">L02668</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-xxx+x" met="-+-+-+-+-+">The three stood listening to a fresh access</l>
+        <l n="2" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Of wind that caught against the house a moment,</l>
+        <l n="3" real="xxxxxx-+xx" met="-+-+-+-+-+">Gulped snow, and then blew free again--the Coles</l>
+        <l n="4" real="xxxxxxx+xx" met="-+-+-+-+-+">Dressed, but dishevelled from some hours of sleep,</l>
+        <l n="5" real="+--+-xxxxxxx" met="--+-+-+-+-+-">Meserve belittled in the great skin coat he wore.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----ab----ccd-d-------b---a">
+        <l n="6" real="+-xxxxx+-+-" met="-+-+-+-+-+-">Meserve was first to speak. He pointed backward</l>
+        <l n="7" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Over his shoulder with his pipe-stem, saying,</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;You can just see it glancing off the roof</l>
+        <l n="9" real="+-xxx+-xxxx" met="-+-+-+-+-+-">Making a great scroll upward toward the sky,</l>
+        <l n="10" real="x-+x-+-x+xx" met="-+-+-+-+-+-">Long enough for recording all our names on.--</l>
+        <l n="11" real="xxxxxxxxxxx" met="-+-+-+-+-+-">I think I&#x27;ll just call up my wife and tell her</l>
+        <l n="12" real="xxxxx+-x-+" met="-+-+-+-+-+">I&#x27;m here--so far--and starting on again.</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">I&#x27;ll call her softly so that if she&#x27;s wise</l>
+        <l n="14" real="xxxxx+-xx+-" met="-+-+-+-+-+-">And gone to sleep, she needn&#x27;t wake to answer.&quot;</l>
+        <l n="15" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Three times he barely stirred the bell, then listened.</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Why, Lett, still up? Lett, I&#x27;m at Cole&#x27;s. I&#x27;m late.</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">I called you up to say Good-night from here</l>
+        <l n="18" real="xxxxxxx+-x" met="-+-+-+-+-+">Before I went to say Good-morning there.--</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">I thought I would.--I know, but, Lett--I know--</l>
+        <l n="20" real="xxxxxxxxxx" met="-+-+-+-+-+">I could, but what&#x27;s the sense? The rest won&#x27;t be</l>
+        <l n="21" real="xxxxx+xxxx" met="-+-+-+-+-+">So bad.--Give me an hour for it.--Ho, ho,</l>
+        <l n="22" real="x+xxxxxxxx" met="-+-+-+-+-+">Three hours to here! But that was all up hill;</l>
+        <l n="23" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The rest is down.--Why no, no, not a wallow:</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">They kept their heads and took their time to it</l>
+        <l n="25" real="x+-xxxxxxx" met="-+-+-+-+-+">Like darlings, both of them. They&#x27;re in the barn.--</l>
+        <l n="26" real="xxx+-xxxx+-" met="-+-+-+-+-+-">My dear, I&#x27;m coming just the same. I didn&#x27;t</l>
+        <l n="27" real="xxxxxx-+xx" met="-+-+-+-+-+">Call you to ask you to invite me home.--&quot;</l>
+        <l n="28" real="x+-xxxx+-x" met="-+-+-+-+-+">He lingered for some word she wouldn&#x27;t say,</l>
+        <l n="29" real="xxxx-+xxxx" met="-+-+-+-+-+">Said it at last himself, &quot;Good-night,&quot; and then,</l>
+        <l n="30" real="+-x+-xx+-x" met="-+-+-+-+-+">Getting no answer, closed the telephone.</l>
+        <l n="31" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The three stood in the lamplight round the table</l>
+        <l n="32" real="x+-xx+-xxx" met="-+-+-+-+-+">With lowered eyes a moment till he said,</l>
+        <l n="33" real="xxxxx+-x" met="--+-+-+-">&quot;I&#x27;ll just see how the horses are.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="34" real="xx" met="-+">&quot;Yes, do,&quot;</l>
+        <l n="35" real="xxxx-+-+-x" met="-+-+-+-+-+">Both the Coles said together. Mrs. Cole</l>
+        <l n="36" real="+-xxx+-xx+-" met="-+-+-+-+-+-">Added: &quot;You can judge better after seeing.--</l>
+        <l n="37" real="xxxxxxxxxx" met="-+-+-+-+-+">I want you here with me, Fred. Leave him here,</l>
+        <l n="38" real="+-+-xxxxxx" met="-+-+-+-+-+">Brother Meserve. You know to find your way</l>
+        <l n="39" real="xxxx" met="--+-">Out through the shed.&quot;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a---a">
+        <l n="40" real="xxxxxx" met="--+-+-">&quot;I guess I know my way,</l>
+        <l n="41" real="xxxxxxxxxx" met="-+-+-+-+-+">I guess I know where I can find my name</l>
+        <l n="42" real="xxxxxxxxxx" met="-+-+-+-+-+">Carved in the shed to tell me who I am</l>
+        <l n="43" real="xxxxxxxxxx" met="-+-+-+-+-+">If it don&#x27;t tell me where I am. I used</l>
+        <l n="44" real="xx" met="-+">To play--&quot;</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="45" real="xxx+-xxx" met="--+-+-+-">&quot;You tend your horses and come back.</l>
+        <l n="46" real="xxx+-xxx" met="--+-+-+-">Fred Cole, you&#x27;re going to let him!&quot;</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="47" real="x+-x" met="--+-">&quot;Well, aren&#x27;t you?</l>
+        <l n="48" real="xxxx-+" met="--+-+-">How can you help yourself?&quot;</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="49" real="xxx+-" met="-+-+-">&quot;I called him Brother.</l>
+        <l n="50" real="xxxxxx" met="--+-+-">Why did I call him that?&quot;</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="51" real="xx-+" met="--+-">&quot;It&#x27;s right enough.</l>
+        <l n="52" real="xxx+-xxxxx" met="-+-+-+-+-+">That&#x27;s all you ever heard him called round here.</l>
+        <l n="53" real="xxxxxxx+-x" met="-+-+-+-+-+">He seems to have lost off his Christian name.&quot;</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="--aa----b-b----">
+        <l n="54" real="+--+xxxxx+" met="-+-+-+-+-+">&quot;Christian enough I should call that myself.</l>
+        <l n="55" real="xxx+-xxxxx" met="-+-+-+-+-+">He took no notice, did he? Well, at least</l>
+        <l n="56" real="x+-xxxxxxx" met="-+-+-+-+-+">I didn&#x27;t use it out of love of him,</l>
+        <l n="57" real="xxxx-+xxxx" met="-+-+-+-+-+">The dear knows. I detest the thought of him</l>
+        <l n="58" real="xxx+-xxxxx" met="-+-+-+-+-+">With his ten children under ten years old.</l>
+        <l n="59" real="xxx+-+-+-x" met="-+-+-+-+-+">I hate his wretched little Racker Sect,</l>
+        <l n="60" real="x+xxxxx+-x" met="-+-+-+-+-+">All&#x27;s ever I heard of it, which isn&#x27;t much.</l>
+        <l n="61" real="xxx+-xxxxx" met="-+-+-+-+-+">But that&#x27;s not saying--Look, Fred Cole, it&#x27;s twelve,</l>
+        <l n="62" real="--xxxxxxx+-" met="-+-+-+-+-+-">Isn&#x27;t it, now? He&#x27;s been here half an hour.</l>
+        <l n="63" real="xxxxx+-xxx" met="-+-+-+-+-+">He says he left the village store at nine.</l>
+        <l n="64" real="x+xxxxxxx+-" met="-+-+-+-+-+-">Three hours to do four miles--a mile an hour</l>
+        <l n="65" real="xxx+-xx+-x" met="-+-+-+-+-+">Or not much better. Why, it doesn&#x27;t seem</l>
+        <l n="66" real="xxxxxxxxxx" met="-+-+-+-+-+">As if a man could move that slow and move.</l>
+        <l n="67" real="xxxxxxxxxx" met="-+-+-+-+-+">Try to think what he did with all that time.</l>
+        <l n="68" real="xxxxxx" met="--+-+-">And three miles more to go!&quot;</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a---a">
+        <l n="69" real="xxxx" met="--+-">&quot;Don&#x27;t let him go.</l>
+        <l n="70" real="xxx+-xx+-x" met="-+-+-+-+-+">Stick to him, Helen. Make him answer you.</l>
+        <l n="71" real="xxxxxxxxxx" met="-+-+-+-+-+">That sort of man talks straight on all his life</l>
+        <l n="72" real="xxxxxx-+xx" met="-+-+-+-+-+">From the last thing he said himself, stone deaf</l>
+        <l n="73" real="x+-x+--xxx" met="-+-+-+-+-+">To anything anyone else may say.</l>
+        <l n="74" real="xxxxxxxxxxx" met="-+-+-+-+-+-">I should have thought, though, you could make him hear you.&quot;</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="75" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;What is he doing out a night like this?</l>
+        <l n="76" real="xxxxxx" met="--+-+-">Why can&#x27;t he stay at home?&quot;</l>
+      </lg>
+      <lg type="stanza" n="12">
+        <l n="77" real="xxxx" met="--+-">&quot;He may be small,</l>
+        <l n="78" real="xxxxxxxxxx" met="-+-+-+-+-+">He may be good, but one thing&#x27;s sure, he&#x27;s tough.&quot;</l>
+      </lg>
+      <lg type="stanza" n="13">
+        <l n="79" real="x+-xxx-+-x" met="-+-+-+-+-+">&quot;You only say so. Not another house</l>
+        <l n="80" real="x+-xxxxxxx" met="-+-+-+-+-+">Or shelter to put into from this place</l>
+        <l n="81" real="xxx+xxxx-+" met="-+-+-+-+-+">To theirs. I&#x27;m going to call his wife again.&quot;</l>
+      </lg>
+      <lg type="stanza" n="14">
+        <l n="82" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Wait and he may. Let&#x27;s see what he will do.</l>
+        <l n="83" real="xxxxxxxx-+" met="-+-+-+-+-+">Let&#x27;s see if he will think of her again.</l>
+        <l n="84" real="xxxxx+-x-+" met="-+-+-+-+-+">But then I doubt he&#x27;s thinking of himself</l>
+        <l n="85" real="x+-xxxx+-x" met="-+-+-+-+-+">He doesn&#x27;t look on it as anything.&quot;</l>
+      </lg>
+      <lg type="stanza" n="15">
+        <l n="86" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;You think so, do you? You don&#x27;t know the kind.</l>
+        <l n="87" real="x+-xx+--x+-" met="-+-+-+-+-+-">He&#x27;s getting up a miracle this minute.</l>
+        <l n="88" real="+--x-+xxx+-" met="-+-+-+-+-+-">Privately--to himself, right now, he&#x27;s thinking</l>
+        <l n="89" real="xxxxxxxx-+" met="-+-+-+-+-+">He&#x27;ll make a case of it if he succeeds,</l>
+        <l n="90" real="xxxxxx" met="--+-+-">But keep still if he fails.&quot;</l>
+      </lg>
+      <lg type="stanza" n="16">
+        <l n="91" real="xxxxx" met="-+-+-">&quot;Keep still all over.</l>
+        <l n="92" real="xxxxx+-" met="-+-+-+-">He&#x27;ll be dead--dead and buried.&quot;</l>
+      </lg>
+      <lg type="stanza" n="17">
+        <l n="93" real="xx+-" met="--+-">&quot;Such a trouble!</l>
+        <l n="94" real="xxx+-+-xxx" met="-+-+-+-+-+">Not but I&#x27;ve every reason not to care</l>
+        <l n="95" real="x+-xxxx+-x" met="-+-+-+-+-+">What happens to him if it only takes</l>
+        <l n="96" real="xxxx-+---+" met="-+-+-+-+-+">Some of the sanctimonious conceit</l>
+        <l n="97" real="xxxxx+-xxx" met="-+-+-+-+-+">Out of one of those pious scalawags.&quot;</l>
+      </lg>
+      <lg type="stanza" n="18">
+        <l n="98" real="x" met="+">&quot;Well,</l>
+        <l n="99" real="xxxxx+-xxx" met="-+-+-+-+-+">I don&#x27;t like what he&#x27;s doing, which is what</l>
+        <l n="100" real="xxxxxx" met="--+-+-">You like, and like him for.&quot;</l>
+      </lg>
+      <lg type="stanza" n="19">
+        <l n="101" real="xxxx" met="--+-">&quot;Oh, yes you do.</l>
+        <l n="102" real="xxxxxxx+-x" met="-+-+-+-+-+">You like your fun as well as anyone;</l>
+        <l n="103" real="+-x+-xxxxxx" met="-+-+-+-+-+-">Only you women have to put these airs on</l>
+        <l n="104" real="x+xxxxxx-+" met="-+-+-+-+-+">To impress men. You&#x27;ve got us so ashamed</l>
+        <l n="105" real="x+xxxxxxxx" met="-+-+-+-+-+">Of being men we can&#x27;t look at a good fight</l>
+        <l n="106" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Between two boys and not feel bound to stop it.</l>
+        <l n="107" real="xxxxxxxxxx" met="-+-+-+-+-+">Let the man freeze an ear or two, I say.--</l>
+        <l n="108" real="xxxxxxxxxx" met="-+-+-+-+-+">He&#x27;s here. I leave him all to you. Go in</l>
+        <l n="109" real="xxxxxxxx+-" met="-+-+-+-+-+">And save his life.--All right, come in, Meserve.</l>
+        <l n="110" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Sit down, sit down. How did you find the horses?&quot;</l>
+      </lg>
+      <lg type="stanza" n="20">
+        <l n="111" real="x+-xxxxxx" met="+-+-+-+-+">&quot;And ready for some more? My wife here</l>
+        <l n="112" real="xxxxxxxxxx" met="-+-+-+-+-+">Says it won&#x27;t do. You&#x27;ve got to give it up.&quot;</l>
+      </lg>
+      <lg type="stanza" n="21">
+        <l n="113" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Won&#x27;t you to please me? Please! If I say please?</l>
+        <l n="114" real="+-+-xxxxxx" met="-+-+-+-+-+">Mr. Meserve, I&#x27;ll leave it to your wife.</l>
+        <l n="115" real="xxxxxxx+-x" met="-+-+-+-+-+">What did your wife say on the telephone?&quot;</l>
+      </lg>
+      <lg type="stanza" n="22">
+        <l n="116" real="+-xxx+-xxx" met="-+-+-+-+-+">Meserve seemed to heed nothing but the lamp</l>
+        <l n="117" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Or something not far from it on the table.</l>
+        <l n="118" real="x+-xx+-x+x-" met="-+-+-+-+-+-">By straightening out and lifting a forefinger,</l>
+        <l n="119" real="x+-xxxxxxx" met="-+-+-+-+-+">He pointed with his hand from where it lay</l>
+        <l n="120" real="xxx+-+-xxx" met="-+-+-+-+-+">Like a white crumpled spider on his knee:</l>
+        <l n="121" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;That leaf there in your open book! It moved</l>
+        <l n="122" real="xxxxxx-+xx" met="-+-+-+-+-+">Just then, I thought. It&#x27;s stood erect like that,</l>
+        <l n="123" real="xxx+-+-xxx" met="-+-+-+-+-+">There on the table, ever since I came,</l>
+        <l n="124" real="+-xx-++-x+-" met="-+-+-+-+-+-">Trying to turn itself backward or forward,</l>
+        <l n="125" real="xxxxxxxxxx" met="-+-+-+-+-+">I&#x27;ve had my eye on it to make out which;</l>
+        <l n="126" real="x+-xxxxx-+-" met="-+-+-+-+-+-">If forward, then it&#x27;s with a friend&#x27;s impatience--</l>
+        <l n="127" real="xxxxxxxxxx" met="-+-+-+-+-+">You see I know--to get you on to things</l>
+        <l n="128" real="xxxxxxxxx+-" met="-+-+-+-+-+-">It wants to see how you will take, if backward</l>
+        <l n="129" real="xx-+x+-xxx" met="-+-+-+-+-+">It&#x27;s from regret for something you have passed</l>
+        <l n="130" real="xxxxxxx+-x" met="-+-+-+-+-+">And failed to see the good of. Never mind,</l>
+        <l n="131" real="xx-+xxxxxx" met="-+-+-+-+-+">Things must expect to come in front of us</l>
+        <l n="132" real="x+-xxxxxx+-" met="-+-+-+-+-+-">A many times--I don&#x27;t say just how many--</l>
+        <l n="133" real="x+-xxxxxxxx" met="-+-+-+-+-+-">That varies with the things--before we see them.</l>
+        <l n="134" real="xxxxxxxxx+-" met="-+-+-+-+-+-">One of the lies would make it out that nothing</l>
+        <l n="135" real="+-+--+xxxx" met="-+-+-+-+-+">Ever presents itself before us twice.</l>
+        <l n="136" real="xxxxxxxxxx" met="-+-+-+-+-+">Where would we be at last if that were so?</l>
+        <l n="137" real="++-x-+x+-x" met="-+-+-+-+-+">Our very life depends on everything&#x27;s</l>
+        <l n="138" real="-+-xx+-xxx" met="-+-+-+-+-+">Recurring till we answer from within.</l>
+        <l n="139" real="x+-xxxxxxx" met="-+-+-+-+-+">The thousandth time may prove the charm.--That leaf!</l>
+        <l n="140" real="xxx+-xxxxxx" met="-+-+-+-+-+-">It can&#x27;t turn either way. It needs the wind&#x27;s help.</l>
+        <l n="141" real="xxx+-xxxxx" met="-+-+-+-+-+">But the wind didn&#x27;t move it if it moved.</l>
+        <l n="142" real="xx-+xxxxxx" met="-+-+-+-+-+">It moved itself. The wind&#x27;s at naught in here.</l>
+        <l n="143" real="x+-xx+---x" met="-+-+-+-+-+">It couldn&#x27;t stir so sensitively poised</l>
+        <l n="144" real="xxxxx+-xxx" met="-+-+-+-+-+">A thing as that. It couldn&#x27;t reach the lamp</l>
+        <l n="145" real="xxxxxxxxxx" met="-+-+-+-+-+">To get a puff of black smoke from the flame,</l>
+        <l n="146" real="xxx+-xx+-x" met="-+-+-+-+-+">Or blow a rumple in the collie&#x27;s coat.</l>
+        <l n="147" real="xxx+-++xxx" met="-+-+-+-+-+">You make a little foursquare block of air,</l>
+        <l n="148" real="+-xxxxxxxx" met="-+-+-+-+-+">Quiet and light and warm, in spite of all</l>
+        <l n="149" real="xxxxxxxxxxx" met="-+-+-+-+-+-">The illimitable dark and cold and storm,</l>
+        <l n="150" real="xxx+-xxxxx" met="-+-+-+-+-+">And by so doing give these three, lamp, dog,</l>
+        <l n="151" real="xxxxxxxx-+" met="-+-+-+-+-+">And book-leaf, that keep near you, their repose;</l>
+        <l n="152" real="xxx+-xxx-+" met="-+-+-+-+-+">Though for all anyone can tell, repose</l>
+        <l n="153" real="xxxxx+-xxxx" met="-+-+-+-+-+-">May be the thing you haven&#x27;t, yet you give it.</l>
+        <l n="154" real="xxxxxxx+-xxx" met="--+-+-+-+-+-">So false it is that what we haven&#x27;t we can&#x27;t give;</l>
+        <l n="155" real="xxxxx+xxxx" met="-+-+-+-+-+">So false, that what we always say is true.</l>
+        <l n="156" real="xxxxxxxxxxx" met="-+-+-+-+-+-">I&#x27;ll have to turn the leaf if no one else will.</l>
+        <l n="157" real="xxxxxxxxxx" met="-+-+-+-+-+">It won&#x27;t lie down. Then let it stand. Who cares?&quot;</l>
+      </lg>
+      <lg type="stanza" n="23">
+        <l n="158" real="x+-xx+-x+-" met="-+-+-+-+-+">&quot;I shouldn&#x27;t want to hurry you, Meserve,</l>
+        <l n="159" real="xxx+-xxxxx" met="-+-+-+-+-+">But if you&#x27;re going--Say you&#x27;ll stay, you know?</l>
+        <l n="160" real="xxxxx+-xxx" met="-+-+-+-+-+">But let me raise this curtain on a scene,</l>
+        <l n="161" real="xxxxx+-xxxx" met="-+-+-+-+-+-">And show you how it&#x27;s piling up against you.</l>
+        <l n="162" real="xxxxxxxxxx" met="-+-+-+-+-+">You see the snow-white through the white of frost?</l>
+        <l n="163" real="x+-xxxxxxx" met="-+-+-+-+-+">Ask Helen how far up the sash it&#x27;s climbed</l>
+        <l n="164" real="xxxxxx" met="--+-+-">Since last we read the gage.&quot;</l>
+      </lg>
+      <lg type="stanza" n="24">
+        <l n="165" real="xxxx" met="--+-">&quot;It looks as if</l>
+        <l n="166" real="x+-xxxx+-x" met="-+-+-+-+-+">Some pallid thing had squashed its features flat</l>
+        <l n="167" real="xxxxxxxxxx" met="-+-+-+-+-+">And its eyes shut with overeagerness</l>
+        <l n="168" real="xxx+-xx+--" met="-+-+-+-+-+">To see what people found so interesting</l>
+        <l n="169" real="xx-+-xxxxx" met="-+-+-+-+-+">In one another, and had gone to sleep</l>
+        <l n="170" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Of its own stupid lack of understanding,</l>
+        <l n="171" real="x+-xxxx+-x" met="-+-+-+-+-+">Or broken its white neck of mushroom stuff</l>
+        <l n="172" real="xxxxxxx+-x" met="-+-+-+-+-+">Short off, and died against the window-pane.&quot;</l>
+      </lg>
+      <lg type="stanza" n="25">
+        <l n="173" real="+-+-xxxx+-" met="-+-+-+-+-+">&quot;Brother Meserve, take care, you&#x27;ll scare yourself</l>
+        <l n="174" real="xxxxxxx+xx" met="-+-+-+-+-+">More than you will us with such nightmare talk.</l>
+        <l n="175" real="xxx+-xxxxx" met="-+-+-+-+-+">It&#x27;s you it matters to, because it&#x27;s you</l>
+        <l n="176" real="xxxxxxxx-+" met="-+-+-+-+-+">Who have to go out into it alone.&quot;</l>
+      </lg>
+      <lg type="stanza" n="26">
+        <l n="177" real="xxxxx+-x-+-" met="-+-+-+-+-+-">&quot;Before you drop the curtain--I&#x27;m reminded:</l>
+        <l n="178" real="xx-+xxxxxx" met="-+-+-+-+-+">You recollect the boy who came out here</l>
+        <l n="179" real="xxxxx+-xxx" met="-+-+-+-+-+">To breathe the air one winter--had a room</l>
+        <l n="180" real="xxxxxxxx+-+-" met="--+-+-+-+-+-">Down at the Averys&#x27;? Well, one sunny morning</l>
+        <l n="181" real="xxx+-xxx+x" met="-+-+-+-+-+">After a downy storm, he passed our place</l>
+        <l n="182" real="xxx+-xxxxx" met="-+-+-+-+-+">And found me banking up the house with snow.</l>
+        <l n="183" real="xxx+--xxxx" met="-+-+-+-+-+">And I was burrowing in deep for warmth,</l>
+        <l n="184" real="+-xxxxx+-x" met="-+-+-+-+-+">Piling it well above the window-sills.</l>
+        <l n="185" real="xxxxx+-xxx" met="-+-+-+-+-+">The snow against the window caught his eye.</l>
+        <l n="186" real="xxx+-xxxxx" met="-+-+-+-+-+">&#x27;Hey, that&#x27;s a pretty thought&#x27;--those were his words.</l>
+        <l n="187" real="xxxxxxxx++" met="-+-+-+-+-+">&#x27;So you can think it&#x27;s six feet deep outside,</l>
+        <l n="188" real="xxxxxxx+-+-" met="-+-+-+-+-+-">While you sit warm and read up balanced rations.</l>
+        <l n="189" real="xxxxx+-xx+-" met="-+-+-+-+-+-">You can&#x27;t get too much winter in the winter.&#x27;</l>
+        <l n="190" real="xxxxxxxxxx" met="-+-+-+-+-+">Those were his words. And he went home and all</l>
+        <l n="191" real="xxx+xxx+-+-" met="-+-+-+-+-+-">But banked the daylight out of Avery&#x27;s windows.</l>
+        <l n="192" real="xxxxxxxxxx" met="-+-+-+-+-+">Now you and I would go to no such length.</l>
+        <l n="193" real="xxxxxx-+xx" met="-+-+-+-+-+">At the same time you can&#x27;t deny it makes</l>
+        <l n="194" real="xxxxx+-xxx" met="-+-+-+-+-+">It not a mite worse, sitting here, we three,</l>
+        <l n="195" real="+-++-xxxxxx" met="-+-+-+-+-+-">Playing our fancy, to have the snowline run</l>
+        <l n="196" real="xx-+xx++xx" met="-+-+-+-+-+">So high across the pane outside. There where</l>
+        <l n="197" real="xxxxx+-xxx" met="-+-+-+-+-+">There is a sort of tunnel in the frost</l>
+        <l n="198" real="xxx+-xxxxx" met="-+-+-+-+-+">More like a tunnel than a hole--way down</l>
+        <l n="199" real="xxxxxxxxxx" met="-+-+-+-+-+">At the far end of it you see a stir</l>
+        <l n="200" real="x+-xxxxxxx" met="-+-+-+-+-+">And quiver like the frayed edge of the drift</l>
+        <l n="201" real="xxxxxxxxxx" met="-+-+-+-+-+">Blown in the wind. I like that--I like that.</l>
+        <l n="202" real="xxxxx+-" met="-+-+-+-">Well, now I leave you, people.&quot;</l>
+      </lg>
+      <lg type="stanza" n="27">
+        <l n="203" real="x+-" met="-+-">&quot;Come, Meserve,</l>
+        <l n="204" real="xxxx-+-xxx" met="-+-+-+-+-+">We thought you were deciding not to go--</l>
+        <l n="205" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The ways you found to say the praise of comfort</l>
+        <l n="206" real="x+-xxxxxxx" met="-+-+-+-+-+">And being where you are. You want to stay.&quot;</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="---------aa-">
+        <l n="207" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;I&#x27;ll own it&#x27;s cold for such a fall of snow.</l>
+        <l n="208" real="xxx+-+-xxx" met="-+-+-+-+-+">This house is frozen brittle, all except</l>
+        <l n="209" real="xxxxxxxxxx" met="-+-+-+-+-+">This room you sit in. If you think the wind</l>
+        <l n="210" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Sounds further off, it&#x27;s not because it&#x27;s dying;</l>
+        <l n="211" real="x+-xxxxxxx" met="-+-+-+-+-+">You&#x27;re further under in the snow--that&#x27;s all--</l>
+        <l n="212" real="xxxxxxxxxx" met="-+-+-+-+-+">And feel it less. Hear the soft bombs of dust</l>
+        <l n="213" real="xxxxxxx+-x" met="-+-+-+-+-+">It bursts against us at the chimney mouth,</l>
+        <l n="214" real="xxxxxxxx-+" met="-+-+-+-+-+">And at the eaves. I like it from inside</l>
+        <l n="215" real="xxxxxxxxx+-" met="-+-+-+-+-+-">More than I shall out in it. But the horses</l>
+        <l n="216" real="x+-xxxxxxx" met="-+-+-+-+-+">Are rested and it&#x27;s time to say good-night,</l>
+        <l n="217" real="xxxxxx-+xx" met="-+-+-+-+-+">And let you get to bed again. Good-night,</l>
+        <l n="218" real="+-xxxxxxxx" met="-+-+-+-+-+">Sorry I had to break in on your sleep.&quot;</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="-aa------">
+        <l n="219" real="+-xxxx+-xx" met="-+-+-+-+-+">&quot;Lucky for you you did. Lucky for you</l>
+        <l n="220" real="xxxxxxx+-" met="+-+-+-+-+">You had us for a half-way station</l>
+        <l n="221" real="xxxxxxxxxx" met="-+-+-+-+-+">To stop at. If you were the kind of man</l>
+        <l n="222" real="xxx+-xxx-+" met="-+-+-+-+-+">Paid heed to women, you&#x27;d take my advice</l>
+        <l n="223" real="xxx+-xxxxx" met="-+-+-+-+-+">And for your family&#x27;s sake stay where you are.</l>
+        <l n="224" real="xxxxx+-xxxx" met="-+-+-+-+-+-">But what good is my saying it over and over?</l>
+        <l n="225" real="xxxxxxxxxx" met="-+-+-+-+-+">You&#x27;ve done more than you had a right to think</l>
+        <l n="226" real="xxxxxxxxxx" met="-+-+-+-+-+">You could do--now. You know the risk you take</l>
+        <l n="227" real="x+-x" met="--+-">In going on.&quot;</l>
+      </lg>
+      <lg type="stanza" n="30">
+        <l n="228" real="+-xxxxx" met="-+-+-+-">&quot;Our snow-storms as a rule</l>
+        <l n="229" real="+-xxxx+-xxx" met="-+-+-+-+-+-">Aren&#x27;t looked on as man-killers, and although</l>
+        <l n="230" real="x+-xxxxxxx" met="-+-+-+-+-+">I&#x27;d rather be the beast that sleeps the sleep</l>
+        <l n="231" real="xxxxxxxxxx" met="-+-+-+-+-+">Under it all, his door sealed up and lost,</l>
+        <l n="232" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Than the man fighting it to keep above it,</l>
+        <l n="233" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet think of the small birds at roost and not</l>
+        <l n="234" real="xxxxx+-xxxx" met="-+-+-+-+-+-">In nests. Shall I be counted less than they are?</l>
+        <l n="235" real="xxx+-xx+-x" met="-+-+-+-+-+">Their bulk in water would be frozen rock</l>
+        <l n="236" real="xxxxxxxxx+-" met="-+-+-+-+-+-">In no time out to-night. And yet to-morrow</l>
+        <l n="237" real="xxx+-xxxxx" met="-+-+-+-+-+">They will come budding boughs from tree to tree</l>
+        <l n="238" real="+-xxx+-xxx" met="-+-+-+-+-+">Flirting their wings and saying Chickadee,</l>
+        <l n="239" real="xxx+xxxxxxx" met="-+-+-+-+-+-">As if not knowing what you meant by the word storm.&quot;</l>
+      </lg>
+      <lg type="stanza" n="31">
+        <l n="240" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;But why when no one wants you to go on?</l>
+        <l n="241" real="xxx+-xxxxx" met="-+-+-+-+-+">Your wife--she doesn&#x27;t want you to. We don&#x27;t,</l>
+        <l n="242" real="xx-+xxxxxxx" met="-+-+-+-+-+-">And you yourself don&#x27;t want to. Who else is there?&quot;</l>
+      </lg>
+      <lg type="stanza" n="32" rhyme="aa--a--">
+        <l n="243" real="xxx+-+-xx+-" met="-+-+-+-+-+-">&quot;Save us from being cornered by a woman.</l>
+        <l n="244" real="xxxxx+--xx" met="-+-+-+-+-+">Well, there&#x27;s&quot;--She told Fred afterward that in</l>
+        <l n="245" real="xxxxxxx+-x" met="-+-+-+-+-+">The pause right there, she thought the dreaded word</l>
+        <l n="246" real="x+-xxxx+-x" met="-+-+-+-+-+">Was coming, &quot;God.&quot; But no, he only said</l>
+        <l n="247" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Well, there&#x27;s--the storm. That says I must go on.</l>
+        <l n="248" real="xxxxxxxxxx" met="-+-+-+-+-+">That wants me as a war might if it came.</l>
+        <l n="249" real="x+-x" met="--+-">Ask any man.&quot;</l>
+      </lg>
+      <lg type="stanza" n="33">
+        <l n="250" real="xxxxx+-" met="-+-+-+-">He threw her that as something</l>
+        <l n="251" real="xxxxxx++xx" met="-+-+-+-+-+">To last her till he got outside the door.</l>
+        <l n="252" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">He had Cole with him to the barn to see him off.</l>
+        <l n="253" real="xx-+xxxxx+-" met="-+-+-+-+-+-">When Cole returned he found his wife still standing</l>
+        <l n="254" real="-+x+-xx+-x" met="-+-+-+-+-+">Beside the table near the open book,</l>
+        <l n="255" real="x+-x" met="--+-">Not reading it.</l>
+      </lg>
+      <lg type="stanza" n="34">
+        <l n="256" real="xxxxxx" met="--+-+-">&quot;Well, what kind of a man</l>
+        <l n="257" real="xxxxxx" met="--+-+-">Do you call that?&quot; she said.</l>
+      </lg>
+      <lg type="stanza" n="35">
+        <l n="258" real="xxxx" met="--+-">&quot;He had the gift</l>
+        <l n="259" real="xxxxxxxxxx" met="-+-+-+-+-+">Of words, or is it tongues, I ought to say?&quot;</l>
+      </lg>
+      <lg type="stanza" n="36" rhyme="-a-------a">
+        <l n="260" real="xx-+-+-+-+-" met="-+-+-+-+-+-">&quot;Or disregarding people&#x27;s civil questions--</l>
+        <l n="261" real="xxxxxx+xxxx" met="-+-+-+-+-+-">What? We&#x27;ve found out in one hour more about him</l>
+        <l n="262" real="xxx+xxxxxx" met="-+-+-+-+-+">Than we had seeing him pass by in the road</l>
+        <l n="263" real="x+-xxxxxx+-" met="-+-+-+-+-+-">A thousand times. If that&#x27;s the way he preaches!</l>
+        <l n="264" real="x+-xxxxxxx" met="-+-+-+-+-+">You didn&#x27;t think you&#x27;d keep him after all.</l>
+        <l n="265" real="xxx+-xx+-xx" met="-+-+-+-+-+-">Oh, I&#x27;m not blaming you. He didn&#x27;t leave you</l>
+        <l n="266" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Much say in the matter, and I&#x27;m just as glad</l>
+        <l n="267" real="xxxxxxxxxx" met="-+-+-+-+-+">We&#x27;re not in for a night of him. No sleep</l>
+        <l n="268" real="xxxxxxxxx+-" met="-+-+-+-+-+-">If he had stayed. The least thing set him going.</l>
+        <l n="269" real="x+xx+-xxxx" met="-+-+-+-+-+">It&#x27;s quiet as an empty church without him.&quot;</l>
+      </lg>
+      <lg type="stanza" n="37">
+        <l n="270" real="xxx+-xxxxxx" met="-+-+-+-+-+-">&quot;But how much better off are we as it is?</l>
+        <l n="271" real="xxxxxxxxxx" met="-+-+-+-+-+">We&#x27;ll have to sit here till we know he&#x27;s safe.&quot;</l>
+      </lg>
+      <lg type="stanza" n="38">
+        <l n="272" real="xx-+xxxxx+-" met="-+-+-+-+-+-">&quot;Yes, I suppose you&#x27;ll want to, but I shouldn&#x27;t.</l>
+        <l n="273" real="xxxxxxxx+-x" met="-+-+-+-+-+-">He knows what he can do, or he wouldn&#x27;t try.</l>
+        <l n="274" real="xxxxxxxxxx" met="-+-+-+-+-+">Get into bed I say, and get some rest.</l>
+        <l n="275" real="xxxxxxx+-x" met="-+-+-+-+-+">He won&#x27;t come back, and if he telephones,</l>
+        <l n="276" real="xxxxx+-xx" met="+-+-+-+-+">It won&#x27;t be for an hour or two.&quot;</l>
+      </lg>
+      <lg type="stanza" n="39">
+        <l n="277" real="xx" met="-+">&quot;Well then.</l>
+        <l n="278" real="xxx+-xx+-x" met="-+-+-+-+-+">We can&#x27;t be any help by sitting here</l>
+        <l n="279" real="x+-xxxxxx-+" met="-+-+-+-+-+-">And living his fight through with him, I suppose.&quot;</l>
+      </lg>
+      <lg type="stanza" n="40">
+        <l n="280" real="xxx+-x-xxx" met="-+-+-+-+-+">Cole had been telephoning in the dark.</l>
+        <l n="281" real="+-xxxxx+-x" met="-+-+-+-+-+">Mrs. Cole&#x27;s voice came from an inner room:</l>
+        <l n="282" real="xxxxxxxx" met="--+-+-+-">&quot;Did she call you or you call her?&quot;</l>
+      </lg>
+      <lg type="stanza" n="41">
+        <l n="283" real="xx" met="-+">&quot;She me.</l>
+        <l n="284" real="x+-xxxxxxx" met="-+-+-+-+-+">You&#x27;d better dress: you won&#x27;t go back to bed.</l>
+        <l n="285" real="xxxx-+xxxxx" met="-+-+-+-+-+-">We must have been asleep: it&#x27;s three and after.&quot;</l>
+      </lg>
+      <lg type="stanza" n="42">
+        <l n="286" real="xxx+-xxxx+-" met="-+-+-+-+-+-">&quot;Had she been ringing long? I&#x27;ll get my wrapper.</l>
+        <l n="287" real="xxxxxx" met="--+-+-">I want to speak to her.&quot;</l>
+      </lg>
+      <lg type="stanza" n="43">
+        <l n="288" real="xxxx" met="--+-">&quot;All she said was,</l>
+        <l n="289" real="x+-xxxx+-+-" met="-+-+-+-+-+-">He hadn&#x27;t come and had he really started.&quot;</l>
+      </lg>
+      <lg type="stanza" n="44">
+        <l n="290" real="x-+xxxxxxx" met="-+-+-+-+-+">&quot;Don&#x27;t begin that. You did the best you could</l>
+        <l n="291" real="xxxx-+x+-x" met="-+-+-+-+-+">To keep him--though perhaps you didn&#x27;t quite</l>
+        <l n="292" real="-+xxxxxxxx" met="-+-+-+-+-+">Conceal a wish to see him show the spunk</l>
+        <l n="293" real="xx-+xxxxxxx" met="-+-+-+-+-+-">To disobey you. Much his wife&#x27;ll thank you.&quot;</l>
+      </lg>
+      <lg type="stanza" n="45">
+        <l n="294" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Fred, after all I said! You shan&#x27;t make out</l>
+        <l n="295" real="xxx+-xxxxx" met="-+-+-+-+-+">That it was any way but what it was.</l>
+        <l n="296" real="xxxxx+-xxx" met="-+-+-+-+-+">Did she let on by any word she said</l>
+        <l n="297" real="x+-xx" met="-+-+-">She didn&#x27;t thank me?&quot;</l>
+      </lg>
+      <lg type="stanza" n="46">
+        <l n="298" real="xxxxx" met="-+-+-">&quot;When I told her &#x27;Gone,&#x27;</l>
+        <l n="299" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Well then,&#x27; she said, and &#x27;Well then&#x27;--like a threat.</l>
+        <l n="300" real="xxxxx+-xxx" met="-+-+-+-+-+">And then her voice came scraping slow: &#x27;Oh, you,</l>
+        <l n="301" real="xxxxxx" met="--+-+-">Why did you let him go&#x27;?&quot;</l>
+      </lg>
+      <lg type="stanza" n="47" rhyme="aa-----">
+        <l n="302" real="xxxxx" met="-+-+-">&quot;Asked why we let him?</l>
+        <l n="303" real="xxxxxxxxxxx" met="-+-+-+-+-+-">You let me there. I&#x27;ll ask her why she let him.</l>
+        <l n="304" real="x+-xxxxxxx" met="-+-+-+-+-+">She didn&#x27;t dare to speak when he was here.</l>
+        <l n="305" real="x+-+-xxxxx" met="-+-+-+-+-+">Their number&#x27;s--twenty-one? The thing won&#x27;t work.</l>
+        <l n="306" real="+x-+-xx+-+-" met="-+-+-+-+-+-">Someone&#x27;s receiver&#x27;s down. The handle stumbles.</l>
+        <l n="307" real="x+-xxxxxxx" met="-+-+-+-+-+">The stubborn thing, the way it jars your arm!</l>
+        <l n="308" real="xxxxxxxxxx" met="-+-+-+-+-+">It&#x27;s theirs. She&#x27;s dropped it from her hand and gone.&quot;</l>
+      </lg>
+      <lg type="stanza" n="48">
+        <l n="309" real="xxx+-x" met="--+-+-">&quot;I hear an empty room--</l>
+        <l n="310" real="xxxxxxxxxx" met="-+-+-+-+-+">You know--it sounds that way. And yes, I hear--</l>
+        <l n="311" real="xxxxxxx+-+-" met="-+-+-+-+-+-">I think I hear a clock--and windows rattling.</l>
+        <l n="312" real="xxxxxxx+-x" met="-+-+-+-+-+">No step though. If she&#x27;s there she&#x27;s sitting down.&quot;</l>
+      </lg>
+      <lg type="stanza" n="49">
+        <l n="313" real="-+-+-+" met="--+-+-">&quot;Hello. Hello. Hello.</l>
+        <l n="314" real="xx-+x+-xxx" met="-+-+-+-+-+">You don&#x27;t suppose--? She wouldn&#x27;t go out doors?&quot;</l>
+      </lg>
+      <lg type="stanza" n="50">
+        <l n="315" real="xxx-+" met="-+-+-">&quot;Wait and call again.</l>
+        <l n="316" real="xxxxxxxxxx" met="-+-+-+-+-+">You can&#x27;t hear whether she has left the door</l>
+        <l n="317" real="x+-xxxxxxx" met="-+-+-+-+-+">Wide open and the wind&#x27;s blown out the lamp</l>
+        <l n="318" real="xx+xxxxxxx" met="-+-+-+-+-+">And the fire&#x27;s died and the room&#x27;s dark and cold?&quot;</l>
+      </lg>
+      <lg type="stanza" n="51">
+        <l n="319" real="xxxx+-xxxx" met="-+-+-+-+-+">&quot;One of two things, either she&#x27;s gone to bed</l>
+        <l n="320" real="xxxx" met="--+-">Or gone out doors.&quot;</l>
+      </lg>
+      <lg type="stanza" n="52">
+        <l n="321" real="xxxxxx" met="--+-+-">&quot;In which case both are lost.</l>
+        <l n="322" real="xxxxxxxx+xx" met="-+-+-+-+-+-">Do you know what she&#x27;s like? Have you ever met her?</l>
+        <l n="323" real="xxx+-xxxxx" met="-+-+-+-+-+">It&#x27;s strange she doesn&#x27;t want to speak to us.&quot;</l>
+      </lg>
+      <lg type="stanza" n="53">
+        <l n="324" real="x+-+-" met="-+-+-">&quot;A baby&#x27;s crying!</l>
+        <l n="325" real="+-xxx+-xxx" met="-+-+-+-+-+">Frantic it sounds, though muffled and far off.&quot;</l>
+      </lg>
+      <lg type="stanza" n="54">
+        <l n="326" real="x+-+-xxxxx" met="-+-+-+-+-+">&quot;Its mother wouldn&#x27;t let it cry like that,</l>
+        <l n="327" real="xxxx" met="--+-">Not if she&#x27;s there.&quot;</l>
+      </lg>
+      <lg type="stanza" n="55">
+        <l n="328" real="x+-xx+--xx" met="-+-+-+-+-+">&quot;There&#x27;s only one thing possible to make,</l>
+        <l n="329" real="xx-+-xxxxx" met="-+-+-+-+-+">That is, assuming--that she has gone out.</l>
+        <l n="330" real="xxx+-xxxxx" met="-+-+-+-+-+">Of course she hasn&#x27;t though.&quot; They both sat down</l>
+        <l n="331" real="+-x+-xxxx+-" met="-+-+-+-+-+-">Helpless. &quot;There&#x27;s nothing we can do till morning.&quot;</l>
+      </lg>
+      <lg type="stanza" n="56">
+        <l n="332" real="xxx+-x-+xx" met="-+-+-+-+-+">&quot;Hold on.&quot; The double bell began to chirp.</l>
+        <l n="333" real="x+-xxxx+-x" met="-+-+-+-+-+">They started up. Fred took the telephone.</l>
+        <l n="334" real="-++-xxxxxx" met="-+-+-+-+-+">&quot;Hello, Meserve. You&#x27;re there, then!--And your wife?</l>
+        <l n="335" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Good! Why I asked--she didn&#x27;t seem to answer.</l>
+        <l n="336" real="xxxxxxxxxx" met="-+-+-+-+-+">He says she went to let him in the barn.--</l>
+        <l n="337" real="xxxxxxxxxx" met="-+-+-+-+-+">We&#x27;re glad. Oh, say no more about it, man.</l>
+        <l n="338" real="xxxxxxx+-" met="+-+-+-+-+">Drop in and see us when you&#x27;re passing.&quot;</l>
+      </lg>
+      <lg type="stanza" n="57">
+        <l n="339" real="x" met="+">&quot;Well,</l>
+        <l n="340" real="xxxxxxxxxx" met="-+-+-+-+-+">She has him then, though what she wants him for</l>
+        <l n="341" real="xxx" met="-+-">I don&#x27;t see.&quot;</l>
+      </lg>
+      <lg type="stanza" n="58">
+        <l n="342" real="+--xx-+" met="-+-+-+-">&quot;Possibly not for herself.</l>
+        <l n="343" real="+-x+-xxxx+-" met="-+-+-+-+-+-">Maybe she only wants him for the children.&quot;</l>
+      </lg>
+      <lg type="stanza" n="59">
+        <l n="344" real="xxxxxxxxx+-" met="-+-+-+-+-+-">&quot;The whole to-do seems to have been for nothing.</l>
+        <l n="345" real="xx+xxxxxxx" met="-+-+-+-+-+">What spoiled our night was to him just his fun.</l>
+        <l n="346" real="xxxxxxxxx+-" met="-+-+-+-+-+-">What did he come in for?--To talk and visit?</l>
+        <l n="347" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Thought he&#x27;d just call to tell us it was snowing.</l>
+        <l n="348" real="xxxxx+xx+x" met="-+-+-+-+-+">If he thinks he is going to make our house</l>
+        <l n="349" real="x+++-xxxx+x" met="-+-+-+-+-+-">A halfway coffee house &#x27;twixt town and nowhere----&quot;</l>
+      </lg>
+      <lg type="stanza" n="60">
+        <l n="350" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;If you mean he was inconsiderate</l>
+        <l n="351" real="xxxxxxxxx+x" met="-+-+-+-+-+-">To rout us out to think for him at midnight</l>
+        <l n="352" real="xxx+-+xxx+-" met="-+-+-+-+-+-">And then take our advice no more than nothing,</l>
+        <l n="353" real="xx-+xxxx-+x" met="-+-+-+-+-+-">Why, I agree with you. But let&#x27;s forgive him.</l>
+        <l n="354" real="xxxxxxxxxx" met="-+-+-+-+-+">We&#x27;ve had a share in one night of his life.</l>
+        <l n="355" real="+-xxx+-x-+" met="-+-+-+-+-+">What&#x27;ll you bet he ever calls again?&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sound-of-the-trees" n="L02669">
+      <head>The Sound of the Trees</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:the-sound-of-the-trees</idno><idno type="laurel-id">L02669</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abacdedcbfefgehgehbiibjej">
+        <l n="1" real="x+-xxxx" met="-+-+-+-">I wonder about the trees.</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Why do we wish to bear</l>
+        <l n="3" real="-+-xxxx" met="-+-+-+-">Forever the noise of these</l>
+        <l n="4" real="xx-+-x" met="-+-+-+">More than another noise</l>
+        <l n="5" real="xxx+-+-x" met="--+-+-+-">So close to our dwelling place?</l>
+        <l n="6" real="x+-xxxx" met="-+-+-+-">We suffer them by the day</l>
+        <l n="7" real="xxxx+-xx" met="--+-+-+-">Till we lose all measure of pace,</l>
+        <l n="8" real="xxxxx+-x" met="--+-+-+-">And fixity in our joys,</l>
+        <l n="9" real="x-+-x+--x" met="-+-+-+-+-">And acquire a listening air.</l>
+        <l n="10" real="xxxxxx+-" met="--+-+-+-">They are that that talks of going</l>
+        <l n="11" real="x+-x-+" met="-+-+-+">But never gets away;</l>
+        <l n="12" real="xxxxxx+-" met="--+-+-+-">And that talks no less for knowing,</l>
+        <l n="13" real="xxx+-x+-" met="--+-+-+-">As it grows wiser and older,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">That now it means to stay.</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">My feet tug at the floor</l>
+        <l n="16" real="xxxxxx+-" met="--+-+-+-">And my head sways to my shoulder</l>
+        <l n="17" real="-+xxxxx" met="-+-+-+-">Sometimes when I watch trees sway,</l>
+        <l n="18" real="xx+-xxx" met="-+-+-+-">From the window or the door.</l>
+        <l n="19" real="xxxxx+x" met="-+-+-+-">I shall set forth for somewhere,</l>
+        <l n="20" real="xxxx+-x" met="-+-+-+-">I shall make the reckless choice</l>
+        <l n="21" real="xxxxxxx" met="-+-+-+-">Some day when they are in voice</l>
+        <l n="22" real="x+-xxxx" met="-+-+-+-">And tossing so as to scare</l>
+        <l n="23" real="xxxxxxx" met="-+-+-+-">The white clouds over them on.</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">I shall have less to say,</l>
+        <l n="25" real="xxxxx" met="+-+-+">But I shall be gone.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="grace-hazard-conkling-s-wilderness-songs" n="L02670">
+      <head>Grace Hazard Conkling&#x27;s Wilderness Songs</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:grace-hazard-conkling-s-wilderness-songs</idno><idno type="laurel-id">L02670</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-">
+        <l n="1" real="+-xxx" met="+-+-+">Walter De La Mare&#x27;s</l>
+        <l n="2" real="x+--x+-+-" met="-+-+-+-+-">The Listeners and Other Poems</l>
+        <l n="3" real="+xxxx+-x+--" met="-+-+-+-+-+-">Peacock Pie. Ill&#x27;d by W. H. Robinson</l>
+        <l n="4" real="+-x+-+-" met="-+-+-+-">Motley and Other Poems</l>
+        <l n="5" real="-+-+-x" met="-+-+-+">Collected Poems 1901-1918. 2 Vols.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="+-x" met="-+-">Robert Frost&#x27;s</l>
+        <l n="7" real="xx+-" met="--+-">North of Boston</l>
+        <l n="8" real="+-+-x-+-x+-" met="-+-+-+-+-+-">Mountain Interval. New Edition, with Portrait</l>
+        <l n="9" real="xxx" met="-+-">A Boy&#x27;s Will</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lew-sarrett-s-many-many-moons" n="L02671">
+      <head>Lew Sarrett&#x27;s Many Many Moons</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:lew-sarrett-s-many-many-moons</idno><idno type="laurel-id">L02671</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-xxx" met="+-+--">Louis Untermeyer&#x27;s</l>
+        <l n="2" real="xx" met="+-">These Times</l>
+        <l n="3" real="x+-+-" met="+-+--">---- and Other Poets</l>
+        <l n="4" real="+-x+-x-+-" met="+-+-+-+--">Poems of Heinrich Heine (Translated)</l>
+        <l n="5" real="xx+-x-+-+--" met="+-+-+-+-+--">The New Era in American Poetry</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="+--xxx" met="+--+--">Margaret Widdemer&#x27;s</l>
+        <l n="7" real="xxxx+-x" met="+-+-+-+">The Old Road to Paradise</l>
+        <l n="8" real="+--x+-+-" met="+-+-+-+-">Factories and Other Poems</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="transcriber-changes" n="L02672">
+      <head>Transcriber Changes</head>
+      <idno type="URN">urn:laurel:eng:frost.frost-mountain-interval.pg29345:transcriber-changes</idno><idno type="laurel-id">L02672</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-xxx+-xxx" met="-+-+-+-+-+-">Page 63: Single quote changed to double after =through=</l>
+        <l n="2" real="xxx" met="-+-">(&quot;He&#x27;ll pull =through.&quot;=)</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="x-++-+-xxx+-" met="--+-+-+-+-+-">Page 72: Removed extra stanza break after =stumbles=</l>
+        <l n="4" real="x+-+-x+-xxxx" met="--+-+-+-+-+-">(The handle =stumbles. The= stubborn thing, the way it</l>
+        <l n="5" real="xxx" met="-+-">jars your arm!)</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-">
+        <l n="6" real="x-++-+-xxxx" met="-+-+-+-+-+-">Page 74: Removed extra stanza break after =wife=</l>
+        <l n="7" real="-++-xxxxxx" met="-+-+-+-+-+">(&quot;Hello, Meserve. You&#x27;re there, then!--And your =wife?</l>
+        <l n="8" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Good!= Why I asked--she didn&#x27;t seem to answer.)</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>In Youth is Pleasure</title><author>Robert Wever</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="in-youth-is-pleasure" n="L15962">
+      <head>In Youth is Pleasure</head>
+      <idno type="URN">urn:laurel:eng:wever.obev-robert-wever.pg66619:in-youth-is-pleasure</idno><idno type="laurel-id">L15962</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aaa-">
+        <l n="1" real="xx+-xxx-+xx" met="-+-+-+-+-+-">In a harbour grene aslepe whereas I lay,</l>
+        <l n="2" real="xxxxxxxxxx" met="--+-+-+-+-">The byrdes sang swete in the middes of the day,</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">I dreamèd fast of mirth and play:</l>
+        <l n="4" real="xxx+-xxx+-" met="--+-+-+-+-">In youth is pleasure, in youth is pleasure.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa-">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Methought I walked still to and fro,</l>
+        <l n="6" real="xxx+--xxxx" met="--+-+-+-+-">And from her company I could not go--</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">But when I waked it was not so:</l>
+        <l n="8" real="xxx+-xxx+-" met="--+-+-+-+-">In youth is pleasure, in youth is pleasure.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaa-">
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">Therefore my hart is surely pyght</l>
+        <l n="10" real="xx-+xxxx" met="-+-+-+-+">Of her alone to have a sight</l>
+        <l n="11" real="xxxxxx-+" met="-+-+-+-+">Which is my joy and hartes delight:</l>
+        <l n="12" real="xxx+-xxx+-" met="--+-+-+-+-">In youth is pleasure, in youth is pleasure.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

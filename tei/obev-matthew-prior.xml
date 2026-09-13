@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Question to Lisetta, and other poems</title><author>Matthew Prior</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-question-to-lisetta" n="L16136">
+      <head>The Question to Lisetta</head>
+      <idno type="URN">urn:laurel:eng:prior.obev-matthew-prior.pg66619:the-question-to-lisetta</idno><idno type="laurel-id">L16136</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeeff">
+        <l n="1" real="xxxx-+xx" met="-+-+-+-+">What nymph should I admire or trust,</l>
+        <l n="2" real="x+-xx+-x" met="-+-+-+-+">But Chloe beauteous, Chloe just?</l>
+        <l n="3" real="xxxx-+xx" met="-+-+-+-+">What nymph should I desire to see,</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">But her who leaves the plain for me?</l>
+        <l n="5" real="xxxx-+xx" met="-+-+-+-+">To whom should I compose the lay,</l>
+        <l n="6" real="xxx+-xxx" met="-+-+-+-+">But her who listens when I play?</l>
+        <l n="7" real="xxxx-+xx" met="-+-+-+-+">To whom in song repeat my cares,</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">But her who in my sorrow shares?</l>
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">For whom should I the garland make,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">But her who joys the gift to take,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">And boasts she wears it for my sake?</l>
+        <l n="12" real="xxxxx+-x" met="-+-+-+-+">In love am I not fully blest?</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Lisetta, prithee tell the rest.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="14" real="xxx-+" met="-+-+-">LISETTA’S REPLY</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddeef-fgg">
+        <l n="15" real="x+-xx+-x" met="-+-+-+-+">Sure Chloe just, and Chloe fair,</l>
+        <l n="16" real="-+xxx+-x" met="-+-+-+-+">Deserves to be your only care;</l>
+        <l n="17" real="xxxxxxx" met="+-+-+-+">But, when you and she to-day</l>
+        <l n="18" real="xxxxxxx" met="+-+-+-+">Far into the wood did stray,</l>
+        <l n="19" real="xx+--xxx" met="-+-+-+-+">And I happened to pass by,</l>
+        <l n="20" real="xxxxxxx" met="+-+-+-+">Which way did you cast your eye?</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">But, when your cares to her you sing,</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">You dare not tell her whence they spring;</l>
+        <l n="23" real="xxxx-+xx" met="-+-+-+-+">Does it not more afflict your heart,</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">That in those cares she bears a part?</l>
+        <l n="25" real="xxx+x+-x" met="-+-+-+-+">When you the flowers for Chloe twine,</l>
+        <l n="26" real="xxxxx+-x" met="-+-+-+-+">Why do you to her garland join</l>
+        <l n="27" real="x+-xxxxx" met="-+-+-+-+">The meanest bud that falls from mine?</l>
+        <l n="28" real="+-xxxxxx" met="-+-+-+-+">Simplest of swains! the world may see</l>
+        <l n="29" real="x+-xxxxx" met="-+-+-+-+">Whom Chloe loves, and who loves me.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="30" real="xxxx+-xxxx+-x" met="-+-+-+-+-+-+-">_423._ _To a Child of Quality, Five Years Old, 1704. The Author then</l>
+        <l n="31" real="+-" met="-+">Forty_</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="32" real="xxx+x+-x" met="-+-+-+-+">Lords, knights, and squires, the numerous band</l>
+        <l n="33" real="xxxxx+-+-" met="-+-+-+-+-">That wear the fair Miss Mary’s fetters,</l>
+        <l n="34" real="x+-xxx-+" met="-+-+-+-+">Were summoned by her high command</l>
+        <l n="35" real="xxx+-xx+-" met="-+-+-+-+-">To show their passions by their letters.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="36" real="xxxxxxxx" met="-+-+-+-+">My pen amongst the rest I took,</l>
+        <l n="37" real="xxxxx+-x" met="-+-+-+-+">Lest those bright eyes, that cannot read,</l>
+        <l n="38" real="xxx+-+xx" met="-+-+-+-+">Should dart their kindling fire, and look</l>
+        <l n="39" real="x+xxxx-+" met="-+-+-+-+">The power they have to be obey’d.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="40" real="x+--xx-+-" met="-+-+-+-+-">Nor quality, nor reputation,</l>
+        <l n="41" real="-+xxxxxx" met="-+-+-+-+">Forbid me yet my flame to tell;</l>
+        <l n="42" real="xxxx-+x+-" met="-+-+-+-+-">Dear Five-years-old befriends my passion,</l>
+        <l n="43" real="xxxxxxxx" met="-+-+-+-+">And I may write till she can spell.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="44" real="xxxxx+xx" met="-+-+-+-+">For, while she makes her silkworms beds</l>
+        <l n="45" real="xxx+-xxx" met="-+-+-+-+">With all the tender things I swear;</l>
+        <l n="46" real="xxxxx+-x" met="-+-+-+-+">Whilst all the house my passion reads,</l>
+        <l n="47" real="x+-xx+-x" met="-+-+-+-+">In papers round her baby’s hair;</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="48" real="xx-+xxxx" met="-+-+-+-+">She may receive and own my flame;</l>
+        <l n="49" real="xxx+-xxxx" met="-+-+-+-+-">For, though the strictest prudes should know it,</l>
+        <l n="50" real="xxxxx+-x" met="-+-+-+-+">She’ll pass for a most virtuous dame,</l>
+        <l n="51" real="xxxx-+-+-" met="-+-+-+-+-">And I for an unhappy poet.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="52" real="xx-+xxxx" met="-+-+-+-+">Then too, alas! when she shall tear</l>
+        <l n="53" real="xxx+-+-x" met="-+-+-+-+">The rhymes some younger rival sends,</l>
+        <l n="54" real="xxxxxxxx" met="-+-+-+-+">She’ll give me leave to write, I fear,</l>
+        <l n="55" real="xxxx-+-x" met="-+-+-+-+">And we shall still continue friends.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="56" real="xx++-+-x" met="-+-+-+-+">For, as our different ages move,</l>
+        <l n="57" real="xx-+xxxxx" met="-+-+-+-+-">’Tis so ordain’d (would Fate but mend it!),</l>
+        <l n="58" real="xxxxx+-x" met="-+-+-+-+">That I shall be past making love</l>
+        <l n="59" real="xx-+xx-+x" met="-+-+-+-+-">When she begins to comprehend it.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song" n="L16137">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:prior.obev-matthew-prior.pg66619:song</idno><idno type="laurel-id">L16137</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-x-+x+-" met="-+-+-+-+-">The merchant, to secure his treasure,</l>
+        <l n="2" real="-+xxx+xx" met="-+-+-+-+">Conveys it in a borrow’d name:</l>
+        <l n="3" real="xxxxxxx+-" met="-+-+-+-+-">Euphelia serves to grace my measure;</l>
+        <l n="4" real="x+-xxxx" met="+-+-+-+">But Chloe is my real flame.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">My softest verse, my darling lyre,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">Upon Euphelia’s toilet lay;</l>
+        <l n="7" real="x+-+-x-+-" met="-+-+-+-+-">When Chloe noted her desire</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">That I should sing, that I should play.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">My lyre I tune, my voice I raise;</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">But with my numbers mix my sighs:</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">And while I sing Euphelia’s praise,</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">I fix my soul on Chloe’s eyes.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+-xxxxx" met="-+-+-+-+">Fair Chloe blush’d: Euphelia frown’d:</l>
+        <l n="14" real="xxxxxxx+-" met="-+-+-+-+-">I sung, and gazed: I play’d, and trembled:</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">And Venus to the Loves around</l>
+        <l n="16" real="-+xxxxxx" met="-+-+-+-+">Remark’d, how ill we all dissembled.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-my-birthday-july-21" n="L16138">
+      <head>On My Birthday, July 21</head>
+      <idno type="URN">urn:laurel:eng:prior.obev-matthew-prior.pg66619:on-my-birthday-july-21</idno><idno type="laurel-id">L16138</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddaa">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">I, my dear, was born to-day--</l>
+        <l n="2" real="xxx+-+xx" met="-+-+-+-+">So all my jolly comrades say:</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">They bring me music, wreaths, and mirth,</l>
+        <l n="4" real="xxx+-xxx" met="-+-+-+-+">And ask to celebrate my birth:</l>
+        <l n="5" real="+--+x+xx" met="-+-+-+-+">Little, alas! my comrades know</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">That I was born to pain and woe;</l>
+        <l n="7" real="xx-+-xxx" met="-+-+-+-+">To thy denial, to thy scorn,</l>
+        <l n="8" real="+-xxxxx" met="+-+-+-+">Better I had ne’er been born:</l>
+        <l n="9" real="xxxx+xxx" met="-+-+-+-+">I wish to die, even whilst I say--</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">‘I, my dear, was born to-day.’</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeff">
+        <l n="11" real="xxxxxxx" met="+-+-+-+">I, my dear, was born to-day:</l>
+        <l n="12" real="xx-+x+-x" met="-+-+-+-+">Shall I salute the rising ray,</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Well-spring of all my joy and woe?</l>
+        <l n="14" real="-+-x-+xx" met="-+-+-+-+">Clotilda, thou alone dost know.</l>
+        <l n="15" real="xxx-+xx" met="+-+-+-+">Shall the wreath surround my hair?</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">Or shall the music please my ear?</l>
+        <l n="17" real="xxx+xx-+" met="-+-+-+-+">Shall I my comrades’ mirth receive,</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">And bless my birth, and wish to live?</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">Then let me see great Venus chase</l>
+        <l n="20" real="-+-+-xxx" met="-+-+-+-+">Imperious anger from thy face;</l>
+        <l n="21" real="xxxxx+-x" met="-+-+-+-+">Then let me hear thee smiling say--</l>
+        <l n="22" real="xxxxxxx" met="+-+-+-+">‘Thou, my dear, wert born to-day.’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lady-who-offers-her-looking-glass-to-venus" n="L16139">
+      <head>The Lady who offers her Looking-Glass to Venus</head>
+      <idno type="URN">urn:laurel:eng:prior.obev-matthew-prior.pg66619:the-lady-who-offers-her-looking-glass-to-venus</idno><idno type="laurel-id">L16139</idno>
+      <lg type="stanza" n="1" rhyme="--aa">
+        <l n="1" real="+-xxxxx">Venus, take my votive glass:</l>
+        <l n="2" real="xxxxxxx">Since I am not what I was,</l>
+        <l n="3" real="xxxxxxx">What from this day I shall be,</l>
+        <l n="4" real="+-xx+-x">Venus, let me never see.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-letter" n="L16140">
+      <head>A Letter</head>
+      <idno type="URN">urn:laurel:eng:prior.obev-matthew-prior.pg66619:a-letter</idno><idno type="laurel-id">L16140</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a---a">
+        <l n="1" real="x+-+-+-+-" met="-+-+-+-+-">My noble, lovely, little Peggy,</l>
+        <l n="2" real="xxxx-+-xx" met="-+-+-+-+-">Let this my First Epistle beg ye,</l>
+        <l n="3" real="xxxxxxx+-" met="-+-+-+-+-">At dawn of morn, and close of even,</l>
+        <l n="4" real="xxxxxxx+-" met="-+-+-+-+-">To lift your heart and hands to Heaven.</l>
+        <l n="5" real="x+-+-xxx" met="-+-+-+-+">In double duty say your prayer:</l>
+        <l n="6" real="+-+-xx+-x" met="-+-+-+-+-">_Our Father_ first, then _Notre Père_.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--">
+        <l n="7" real="x+-x-+xx" met="-+-+-+-+">And, dearest child, along the day,</l>
+        <l n="8" real="x+--xxxxx" met="-+-+-+-+-">In every thing you do and say,</l>
+        <l n="9" real="-+xxxxx+-" met="-+-+-+-+-">Obey and please my lord and lady,</l>
+        <l n="10" real="xxxxx+-xx" met="-+-+-+-+-">So God shall love and angels aid ye.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaa">
+        <l n="11" real="xxx+xx-+" met="-+-+-+-+">If to these precepts you attend,</l>
+        <l n="12" real="x+-+-xxx" met="-+-+-+-+">No second letter need I send,</l>
+        <l n="13" real="xxxxx+-x" met="-+-+-+-+">And so I rest your constant friend.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="for-my-own-monument" n="L16141">
+      <head>For my own Monument</head>
+      <idno type="URN">urn:laurel:eng:prior.obev-matthew-prior.pg66619:for-my-own-monument</idno><idno type="laurel-id">L16141</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxxxx-+-" met="--+--+--+--+">As doctors give physic by way of prevention,</l>
+        <l n="2" real="x-+xxxxx+xxx" met="--+--+--+--+">Mat, alive and in health, of his tombstone took care;</l>
+        <l n="3" real="x-+x-+xx+-+-" met="--+--+--+--+">For delays are unsafe, and his pious intention</l>
+        <l n="4" real="xxxx+--+xxx" met="-+--+--+--+">May haply be never fulfill’d by his heir.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxx+-xx" met="-+--+--+--+">Then take Mat’s word for it, the sculptor is paid;</l>
+        <l n="6" real="xx+-xxx-+xxx" met="--+--+--+--+">That the figure is fine, pray believe your own eye;</l>
+        <l n="7" real="x+-x+-xxxxx" met="-+--+--+--+">Yet credit but lightly what more may be said,</l>
+        <l n="8" real="xx+--+xx+-xx" met="--+--+--+--+">For we flatter ourselves, and teach marble to lie.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="x+-xxxx+-xx" met="-+--+--+--+">Yet counting as far as to fifty his years,</l>
+        <l n="10" real="x+-x+-xx+-xx" met="--+--+--+--+">His virtues and vices were as other men’s are;</l>
+        <l n="11" real="xxx-+xx+-xx" met="-+--+--+--+">High hopes he conceived, and he smother’d great fears,</l>
+        <l n="12" real="xxx+-+-x+-xx" met="--+--+--+--+">In a life parti-colour’d, half pleasure, half care.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx+-xxxx+-xx" met="--+--+--+--+">Nor to business a drudge, nor to faction a slave,</l>
+        <l n="14" real="xxxx+-x+--+" met="-+--+--+--+">He strove to make interest and freedom agree;</l>
+        <l n="15" real="x+--+--+-xx" met="-+--+--+--+">In public employments industrious and grave,</l>
+        <l n="16" real="x-+xxxxx+-xx" met="--+--+--+--+">And alone with his friends, Lord! how merry was he!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxx+-x+-xx" met="--+--+--+--+">Now in equipage stately, now humbly on foot,</l>
+        <l n="18" real="x+-xxxx+-xx" met="-+--+--+--+">Both fortunes he tried, but to neither would trust;</l>
+        <l n="19" real="xxxxxxxxxxx" met="-+--+--+--+">And whirl’d in the round as the wheel turn’d about,</l>
+        <l n="20" real="xx+-xxxxxxxx" met="--+--+--+--+">He found riches had wings, and knew man was but dust.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xx+-+-x+--+" met="-+--+--+--+">This verse, little polish’d, tho’ mighty sincere,</l>
+        <l n="22" real="x+-x+-x+-xx" met="-+--+--+--+">Sets neither his titles nor merit to view;</l>
+        <l n="23" real="xxxx+--+-xx" met="-+--+--+--+">It says that his relics collected lie here,</l>
+        <l n="24" real="xx+-xxxxxxxx" met="--+--+--+--+">And no mortal yet knows too if this may be true.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="x+-xxx-+x+x" met="-+--+--+--+">Fierce robbers there are that infest the highway,</l>
+        <l n="26" real="xxxxxxxx+-x" met="-+--+--+--+">So Mat may be kill’d, and his bones never found;</l>
+        <l n="27" real="x+-xxxxxxxx" met="-+--+--+--+">False witness at court, and fierce tempests at sea,</l>
+        <l n="28" real="xxxxxxxxxxx" met="-+--+--+--+">So Mat may yet chance to be hang’d or be drown’d.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxxxxxxxxxx" met="--+--+--+--+">If his bones lie in earth, roll in sea, fly in air,</l>
+        <l n="30" real="xxxxxxxxxxx" met="-+--+--+--+">To Fate we must yield, and the thing is the same;</l>
+        <l n="31" real="xx+-xxxxxxxx" met="--+--+--+--+">And if passing thou giv’st him a smile or a tear,</l>
+        <l n="32" real="xxxxxxxxxxx" met="-+--+--+--+">He cares not--yet, prithee, be kind to his fame.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

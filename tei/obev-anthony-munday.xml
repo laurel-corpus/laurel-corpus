@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Beauty Bathing</title><author>Anthony Munday</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="beauty-bathing" n="L15973">
+      <head>Beauty Bathing</head>
+      <idno type="URN">urn:laurel:eng:munday.obev-anthony-munday.pg66619:beauty-bathing</idno><idno type="laurel-id">L15973</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab-c-c--">
+        <l n="1" real="+-x+-xxx" met="--+-+-+-">BEAUTY sat bathing by a spring,</l>
+        <l n="2" real="x+-xxxx" met="-+-+-+-">Where fairest shades did hide her;</l>
+        <l n="3" real="xxxxxxxx" met="--+-+-+-">The winds blew calm, the birds did sing,</l>
+        <l n="4" real="xxxx-+x" met="-+-+-+-">The cool streams ran beside her.</l>
+        <l n="5" real="x+-x-+xx" met="--+-+-+-">My wanton thoughts enticed mine eye</l>
+        <l n="6" real="xxxx-+-" met="-+-+-+-">To see what was forbidden:</l>
+        <l n="7" real="x+-+--xx" met="--+-+-+-">But better memory said Fie;</l>
+        <l n="8" real="xx-+-xxx" met="--+-+-+-">So vain desire was chidden--</l>
+        <l n="9" real="xxxxxx" met="-+-+-+">Hey nonny nonny O!</l>
+        <l n="10" real="xxxxx" met="+-+-+">Hey nonny nonny!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a-bcbc">
+        <l n="11" real="xxx+-xxx" met="--+-+-+-">Into a slumber then I fell,</l>
+        <l n="12" real="xx-x-+-" met="-+-+-+-">And fond imagination</l>
+        <l n="13" real="xxxxxxx" met="-+-+-+-">Seemèd to see, but could not tell,</l>
+        <l n="14" real="x+-xx+-" met="-+-+-+-">Her feature or her fashion:</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">But ev’n as babes in dreams do smile,</l>
+        <l n="16" real="x+xxx+-" met="-+-+-+-">And sometimes fall a-weeping,</l>
+        <l n="17" real="xxxxxxxx" met="--+-+-+-">So I awaked as wise that while</l>
+        <l n="18" real="xxxxx+-" met="-+-+-+-">As when I fell a-sleeping.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The True Knight, and other poems</title><author>Stephen Hawes</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-true-knight" n="L15951">
+      <head>The True Knight</head>
+      <idno type="URN">urn:laurel:eng:hawes.obev-stephen-hawes.pg66619:the-true-knight</idno><idno type="laurel-id">L15951</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab-cc">
+        <l n="1" real="x+xxxxxxxx" met="-+-+-+-+-+">For knighthood is not in the feats of warre,</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">As for to fight in quarrel right or wrong,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">But in a cause which truth can not defarre:</l>
+        <l n="4" real="xx-+xxxxxx" met="-+-+-+-+-+">He ought himself for to make sure and strong,</l>
+        <l n="5" real="+-xxxxxxx" met="+-+-+-+-+">Justice to keep mixt with mercý among:</l>
+        <l n="6" real="xx+-xxxxx" met="+-+-+-+-+">And no quarrell a knight ought to take</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">But for a truth, or for the common’s sake.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="an-epitaph" n="L15952">
+      <head>An Epitaph</head>
+      <idno type="URN">urn:laurel:eng:hawes.obev-stephen-hawes.pg66619:an-epitaph</idno><idno type="laurel-id">L15952</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-aabb">
+        <l n="1" real="x+-xxx-+xx" met="--+-+-+-+-">O mortal folk, you may behold and see</l>
+        <l n="2" real="xxxx+xx+-x" met="--+-+-+-+-">How I lie here, sometime a mighty knight;</l>
+        <l n="3" real="xxxxxxxxxx" met="--+-+-+-+-">The end of joy and all prosperitee</l>
+        <l n="4" real="xxxx+-xxxx" met="--+-+-+-+-">Is death at last, thorough his course and might:</l>
+        <l n="5" real="xxxxx+-xxx" met="--+-+-+-+-">After the day there cometh the dark night,</l>
+        <l n="6" real="xxxxx+-xx" met="-+-+-+-+-">For though the daye be never so long,</l>
+        <l n="7" real="xxxxxxxxxx" met="--+-+-+-+-">At last the bells ringeth to evensong.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

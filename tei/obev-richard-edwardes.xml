@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Amantium Iræ</title><author>Richard Edwardes</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="amantium-ir" n="L15963">
+      <head>Amantium Iræ</head>
+      <idno type="URN">urn:laurel:eng:edwardes.obev-richard-edwardes.pg66619:amantium-ir</idno><idno type="laurel-id">L15963</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="x+-xx+-xxxxxxx" met="-+-+-+-+-+-+-+">In going to my naked bed as one that would have slept,</l>
+        <l n="2" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">I heard a wife sing to her child, that long before had wept;</l>
+        <l n="3" real="xxxxxxxxxxxxx" met="+-+-+-+-+-+-+">She sighèd sore and sang full sweet, to bring the babe to rest,</l>
+        <l n="4" real="xxxxxxxx+-xxx" met="+-+-+-+-+-+-+">That would not cease but crièd still, in sucking at her breast.</l>
+        <l n="5" real="xxx+-xxxxxxxx" met="+-+-+-+-+-+-+">She was full weary of her watch, and grievèd with her child,</l>
+        <l n="6" real="xxxx+-xxxxxxx-" met="-+-+-+-+-+-+-+">She rockèd it and rated it, till that on her it smiled.</l>
+        <l n="7" real="xxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+">Then did she say, Now have I found this proverb true to prove,</l>
+        <l n="8" real="x+-xx+-x-+-xxx" met="-+-+-+-+-+-+-+">The falling out of faithful friends renewing is of love.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccdd">
+        <l n="9" real="xxx+-xxxx+-xxx" met="-+-+-+-+-+-+-+">Then took I paper, pen, and ink, this proverb for to write,</l>
+        <l n="10" real="x+--xx-+xxx+-x" met="-+-+-+-+-+-+-+">In register for to remain of such a worthy wight:</l>
+        <l n="11" real="xx-+-xxxxxx+-x" met="-+-+-+-+-+-+-+">As she proceeded thus in song unto her little brat,</l>
+        <l n="12" real="x+-+-xxxxx-+xx" met="-+-+-+-+-+-+-+">Much matter utter’d she of weight, in place whereas she sat:</l>
+        <l n="13" real="xxxxxxxx+-+-x" met="+-+-+-+-+-+-+">And provèd plain there was no beast, nor creature bearing life,</l>
+        <l n="14" real="xxxxxxxxxx+-xx" met="-+-+-+-+-+-+-+">Could well be known to live in love without discord and strife:</l>
+        <l n="15" real="xxxx+-xxxxxxx" met="+-+-+-+-+-+-+">Then kissèd she her little babe, and sware by God above,</l>
+        <l n="16" real="x+-xx+-x-+-xxx" met="-+-+-+-+-+-+-+">The falling out of faithful friends renewing is of love.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbcc--">
+        <l n="17" real="xxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+">She said that neither king nor prince nor lord could live aright,</l>
+        <l n="18" real="xxxxxxxxx+xxxx" met="-+-+-+-+-+-+-+">Until their puissance they did prove, their manhood and their might.</l>
+        <l n="19" real="x+xxxx-xxxxxxx" met="-+-+-+-+-+-+-+">When manhood shall be matched so that fear can take no place,</l>
+        <l n="20" real="x+-xx+--x+-x-+" met="-+-+-+-+-+-+-+">Then weary works make warriors each other to embrace,</l>
+        <l n="21" real="xxxxxxxxx-+xx" met="+-+-+-+-+-+-+">And left their force that failèd them, which did consume the rout,</l>
+        <l n="22" real="xxxxxxxxxxx+-x" met="-+-+-+-+-+-+-+">That might before have lived their time, their strength and nature out:</l>
+        <l n="23" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">Then did she sing as one that thought no man could her reprove,</l>
+        <l n="24" real="x+-xx+-x-+-xxx" met="-+-+-+-+-+-+-+">The falling out of faithful friends renewing is of love.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb--cc">
+        <l n="25" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">She said she saw no fish nor fowl, nor beast within her haunt,</l>
+        <l n="26" real="xxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+">That met a stranger in their kind, but could give it a taunt:</l>
+        <l n="27" real="xxxx-+xxxx-+" met="--+-+-+-+-+-">Since flesh might not endure, but rest must wrath succeed,</l>
+        <l n="28" real="xxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+">And force the fight to fall to play in pasture where they feed,</l>
+        <l n="29" real="x+-+-xxxxxxx-+" met="-+-+-+-+-+-+-+">So noble nature can well end the work she hath begun,</l>
+        <l n="30" real="x+-xxxxxx+--xx" met="-+-+-+-+-+-+-+">And bridle well that will not cease her tragedy in some:</l>
+        <l n="31" real="xxxxx-+-xxxxxx" met="-+-+-+-+-+-+-+">Thus in song she oft rehearsed, as did her well behove,</l>
+        <l n="32" real="x+-xx+-x-+-xxx" met="-+-+-+-+-+-+-+">The falling out of faithful friends renewing is of love.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabbaacc">
+        <l n="33" real="x+-x+-xxxx-+xx" met="-+-+-+-+-+-+-+">I marvel much pardy (quoth she) for to behold the rout,</l>
+        <l n="34" real="xxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+">To see man, woman, boy and beast, to toss the world about:</l>
+        <l n="35" real="xxxxxxxxxxx+-x" met="-+-+-+-+-+-+-+">Some kneel, some crouch, some beck, some check, and some can smoothly smile,</l>
+        <l n="36" real="xx-++-xxxxx+xx" met="-+-+-+-+-+-+-+">And some embrace others in arm, and there think many a wile,</l>
+        <l n="37" real="xx-+xxxxx+-xxx" met="-+-+-+-+-+-+-+">Some stand aloof at cap and knee, some humble and some stout,</l>
+        <l n="38" real="xxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+">Yet are they never friends in deed until they once fall out:</l>
+        <l n="39" real="x+-xxxxxxxxx-+" met="-+-+-+-+-+-+-+">Thus ended she her song and said, before she did remove,</l>
+        <l n="40" real="x+-xx+-x-+-xxx" met="-+-+-+-+-+-+-+">The falling out of faithful friends renewing is of love.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Songs of Innocence and of Experience</title><author>William Blake</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Songs of Innocence and of Experience. Project Gutenberg ebook #1934. <ref target="https://www.gutenberg.org/ebooks/1934">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="songs-of-innocence" n="L02867">
+      <head>Songs of Innocence</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:songs-of-innocence</idno><idno type="laurel-id">L02867</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-abcb---dd----dc--">
+        <l n="1" real="x-+-" met="-+-+">Introduction</l>
+        <l n="2" real="x+-" met="+-+">The Shepherd</l>
+        <l n="3" real="x+--x" met="-+-+-">The Echoing Green</l>
+        <l n="4" real="xx" met="-+">The Lamb</l>
+        <l n="5" real="x+-xx" met="-+-+-">The Little Black Boy</l>
+        <l n="6" real="x+-" met="+-+">The Blossom</l>
+        <l n="7" real="x+-+-" met="-+-+-">The Chimney-Sweeper</l>
+        <l n="8" real="x+-xx" met="-+-+-">The Little Boy Lost</l>
+        <l n="9" real="x+-xx" met="-+-+-">The Little Boy Found</l>
+        <l n="10" real="+-x" met="+-+">Laughing Song</l>
+        <l n="11" real="x+-x" met="-+-+">A Cradle Song</l>
+        <l n="12" real="x-++-" met="-+-+-">The Divine Image</l>
+        <l n="13" real="+-+x" met="-+-+">Holy Thursday</l>
+        <l n="14" real="x" met="+">Night</l>
+        <l n="15" real="x" met="+">Spring</l>
+        <l n="16" real="+-x" met="+-+">Nurse’s Song</l>
+        <l n="17" real="+-x" met="+-+">Infant Joy</l>
+        <l n="18" real="xx" met="-+">A Dream</l>
+        <l n="19" real="x-+-+-" met="--+-+-">On Another’s Sorrow</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="songs-of-experience" n="L02868">
+      <head>Songs of Experience</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:songs-of-experience</idno><idno type="laurel-id">L02868</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="----a--b-c--c-------caa-b---">
+        <l n="1" real="x-+-" met="-+-+">Introduction</l>
+        <l n="2" real="x+-" met="+-+">Earth’s Answer</l>
+        <l n="3" real="xxxx+-" met="--+-+-">The Clod and the Pebble</l>
+        <l n="4" real="+-+x" met="-+-+">Holy Thursday</l>
+        <l n="5" real="x+-xx" met="-+-+-">The Little Girl Lost</l>
+        <l n="6" real="x+-xx" met="-+-+-">The Little Girl Found</l>
+        <l n="7" real="x+-+-" met="-+-+-">The Chimney-Sweeper</l>
+        <l n="8" real="+-x" met="+-+">Nurse’s Song</l>
+        <l n="9" real="xxx" met="+-+">The Sick Rose</l>
+        <l n="10" real="xx" met="-+">The Fly</l>
+        <l n="11" real="x+-" met="+-+">The Angel</l>
+        <l n="12" real="x+-" met="+-+">The Tiger</l>
+        <l n="13" real="x+-xx" met="-+-+-">My Pretty Rose-Tree</l>
+        <l n="14" real="x+x-" met="-+-+">Ah, Sunflower</l>
+        <l n="15" real="x+-" met="+-+">The Lily</l>
+        <l n="16" real="x+-xx" met="-+-+-">The Garden of Love</l>
+        <l n="17" real="x+-+--" met="--+-+-">The Little Vagabond</l>
+        <l n="18" real="+-" met="-+">London</l>
+        <l n="19" real="x+--+" met="-+-+-">The Human Abstract</l>
+        <l n="20" real="+-+-" met="-+-+">Infant Sorrow</l>
+        <l n="21" real="x+-x" met="-+-+">A Poison Tree</l>
+        <l n="22" real="x+-xx" met="-+-+-">A Little Boy Lost</l>
+        <l n="23" real="x+-xx" met="-+-+-">A Little Girl Lost</l>
+        <l n="24" real="x-++-" met="-+-+-">A Divine Image</l>
+        <l n="25" real="x+-x" met="-+-+">A Cradle Song</l>
+        <l n="26" real="xxx" met="+-+">To Tirzah</l>
+        <l n="27" real="x+x" met="+-+">The Schoolboy</l>
+        <l n="28" real="xxxx+-x" met="-+-+-+-">The Voice of the Ancient Bard</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="introduction" n="L02869">
+      <head>Introduction</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:introduction</idno><idno type="laurel-id">L02869</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="+-xx+-x" met="-+-+-+-">Piping down the valleys wild,</l>
+        <l n="2" real="+-xx+-x" met="-+-+-+-">Piping songs of pleasant glee,</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">On a cloud I saw a child,</l>
+        <l n="4" real="xx+-xxx" met="-+-+-+-">And he laughing said to me:</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxx" met="-+-+-+-">‘Pipe a song about a Lamb!’</l>
+        <l n="6" real="xxxx+-x" met="-+-+-+-">So I piped with merry cheer.</l>
+        <l n="7" real="+-xxx-+" met="-+-+-+-">‘Piper, pipe that song again.’</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">So I piped: he wept to hear.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxx+-x" met="-+-+-+-">‘Drop thy pipe, thy happy pipe;</l>
+        <l n="10" real="xxxx+-x" met="-+-+-+-">Sing thy songs of happy cheer!’</l>
+        <l n="11" real="xxxxx-+" met="-+-+-+-">So I sung the same again,</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">While he wept with joy to hear.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="+-xxxxx" met="-+-+-+-">‘Piper, sit thee down and write</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">In a book, that all may read.’</l>
+        <l n="15" real="xx+-xxx" met="-+-+-+-">So he vanished from my sight;</l>
+        <l n="16" real="xxxx+-x" met="-+-+-+-">And I plucked a hollow reed,</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxx+-x" met="-+-+-+-">And I made a rural pen,</l>
+        <l n="18" real="xxxx+-x" met="-+-+-+-">And I stained the water clear,</l>
+        <l n="19" real="xxxx+-x" met="-+-+-+-">And I wrote my happy songs</l>
+        <l n="20" real="+-xxxxx" met="-+-+-+-">Every child may joy to hear.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-shepherd" n="L02870">
+      <head>The Shepherd</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-shepherd</idno><idno type="laurel-id">L02870</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-xx" met="-+--+--+">How sweet is the shepherd’s sweet lot!</l>
+        <l n="2" real="xxxxx+-xx" met="--+--+--+">From the morn to the evening he strays;</l>
+        <l n="3" real="xx+-xxxxx" met="--+--+--+">He shall follow his sheep all the day,</l>
+        <l n="4" real="xxxxxxxx" met="-+--+--+">And his tongue shall be fillèd with praise.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+--x" met="--+--+--+">For he hears the lambs’ innocent call,</l>
+        <l n="6" real="xxxxx+--+" met="--+--+--+">And he hears the ewes’ tender reply;</l>
+        <l n="7" real="xx+-xxxxx" met="--+--+--+">He is watchful while they are in peace,</l>
+        <l n="8" real="xxxxx+-xx" met="--+--+--+">For they know when their shepherd is nigh.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-echoing-green" n="L02871">
+      <head>The Echoing Green</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-echoing-green</idno><idno type="laurel-id">L02871</idno><note type="metre">anapaestic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddee">
+        <l n="1" real="xxx-+" met="-+--+">The sun does arise,</l>
+        <l n="2" real="xx+-xx" met="--+--+">And make happy the skies;</l>
+        <l n="3" real="x+-xx" met="-+--+">The merry bells ring</l>
+        <l n="4" real="x+-xx" met="-+--+">To welcome the Spring;</l>
+        <l n="5" real="x+xxx" met="-+--+">The skylark and thrush,</l>
+        <l n="6" real="xxxxx" met="-+--+">The birds of the bush,</l>
+        <l n="7" real="x+-xx" met="-+--+">Sing louder around</l>
+        <l n="8" real="xxx+-x" met="--+--+">To the bells’ cheerful sound;</l>
+        <l n="9" real="x+xxxx" met="--+--+">While our sports shall be seen</l>
+        <l n="10" real="xx+-x" met="-+--+">On the echoing green.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddee">
+        <l n="11" real="xxxxx" met="-+--+">Old John, with white hair,</l>
+        <l n="12" real="xx-+x" met="-+--+">Does laugh away care,</l>
+        <l n="13" real="+-xxxx" met="--+--+">Sitting under the oak,</l>
+        <l n="14" real="xxxxx" met="-+--+">Among the old folk.</l>
+        <l n="15" real="xxx+x" met="-+--+">They laugh at our play,</l>
+        <l n="16" real="xxxxx" met="-+--+">And soon they all say,</l>
+        <l n="17" real="xxxxx" met="-+--+">‘Such, such were the joys</l>
+        <l n="18" real="xxxxxx" met="--+--+">When we all—girls and boys—</l>
+        <l n="19" real="x+xxxx" met="--+--+">In our youth-time were seen</l>
+        <l n="20" real="xx+-x" met="-+--+">On the echoing green.’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddee">
+        <l n="21" real="xx+-x+-" met="--+--+-">Till the little ones, weary,</l>
+        <l n="22" real="xxxx+-" met="--+--+">No more can be merry:</l>
+        <l n="23" real="xxx-+" met="-+--+">The sun does descend,</l>
+        <l n="24" real="x+xxxx" met="--+--+">And our sports have an end.</l>
+        <l n="25" real="xxxxx+-" met="--+--+-">Round the laps of their mothers</l>
+        <l n="26" real="++-x+-" met="--+--+">Many sisters and brothers,</l>
+        <l n="27" real="xxxxx" met="-+--+">Like birds in their nest,</l>
+        <l n="28" real="x+-xx" met="-+--+">Are ready for rest,</l>
+        <l n="29" real="xxxxx" met="-+--+">And sport no more seen</l>
+        <l n="30" real="xx+-x" met="-+--+">On the darkening green.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lamb" n="L02872">
+      <head>The Lamb</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-lamb</idno><idno type="laurel-id">L02872</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddaa">
+        <l n="1" real="+-xxxx" met="+--+--">Little lamb, who made thee?</l>
+        <l n="2" real="xxxxxx" met="+--+--">Does thou know who made thee,</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Gave thee life, and bid thee feed</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">By the stream and o’er the mead;</l>
+        <l n="5" real="xx+-x-+" met="+-+-+-+">Gave thee clothing of delight,</l>
+        <l n="6" real="+-+-+-x" met="+-+-+-+">Softest clothing, woolly, bright;</l>
+        <l n="7" real="xxxx+-x" met="+-+-+-+">Gave thee such a tender voice,</l>
+        <l n="8" real="+-xxx-+" met="+-+-+-+">Making all the vales rejoice?</l>
+        <l n="9" real="+-xxxx" met="+--+--">Little lamb, who made thee?</l>
+        <l n="10" real="xxxxxx" met="+--+--">Does thou know who made thee?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabcddcbaa">
+        <l n="11" real="+-xxxx" met="+--+--">Little lamb, I’ll tell thee;</l>
+        <l n="12" real="+-xxxx" met="+--+--">Little lamb, I’ll tell thee:</l>
+        <l n="13" real="xxxxxx" met="+--+--">He is callèd by thy name,</l>
+        <l n="14" real="xxx-+xx" met="+-+-+-+">For He calls Himself a Lamb.</l>
+        <l n="15" real="xxxxxxx" met="+-+-+-+">He is meek, and He is mild,</l>
+        <l n="16" real="x-+x+-x" met="+-+-+-+">He became a little child.</l>
+        <l n="17" real="xxxxxxx" met="+-+-+-+">I a child, and thou a lamb,</l>
+        <l n="18" real="xxxxxx" met="+--+--">We are callèd by His name.</l>
+        <l n="19" real="+-xxxx" met="+--+--">Little lamb, God bless thee!</l>
+        <l n="20" real="+-xxxx" met="+--+--">Little lamb, God bless thee!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-black-boy" n="L02873">
+      <head>The Little Black Boy</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-little-black-boy</idno><idno type="laurel-id">L02873</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxx+-x" met="-+-+-+-+-+">My mother bore me in the southern wild,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">And I am black, but O my soul is white!</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">White as an angel is the English child,</l>
+        <l n="4" real="xxxxxx-+xx" met="-+-+-+-+-+">But I am black, as if bereaved of light.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xxx-+xx" met="-+-+-+-+-+">My mother taught me underneath a tree,</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">And, sitting down before the heat of day,</l>
+        <l n="7" real="xxxxxxxxx" met="+-+-+-+-+">She took me on her lap and kissèd me,</l>
+        <l n="8" real="x+-xxx-+xx" met="-+-+-+-+-+">And, pointing to the East, began to say:</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">‘Look on the rising sun: there God does live,</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">And gives His light, and gives His heat away,</l>
+        <l n="11" real="x+xxxxxx-+" met="-+-+-+-+-+">And flowers and trees and beasts and men receive</l>
+        <l n="12" real="+-x+-xxxxx" met="-+-+-+-+-+">Comfort in morning, joy in the noonday.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">‘And we are put on earth a little space,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">That we may learn to bear the beams of love;</l>
+        <l n="15" real="xxx+-xxxxx" met="-+-+-+-+-+">And these black bodies and this sunburnt face</l>
+        <l n="16" real="xxxxxxx+-x" met="-+-+-+-+-+">Are but a cloud, and like a shady grove.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xx+xxxxxxx" met="-+-+-+-+-+">‘For, when our souls have learned the heat to bear,</l>
+        <l n="18" real="xxx+-xxxxx" met="-+-+-+-+-+">The cloud will vanish, we shall hear His voice,</l>
+        <l n="19" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Saying, “Come out from the grove, my love and care,</l>
+        <l n="20" real="xxx+-xxx-+" met="-+-+-+-+-+">And round my golden tent like lambs rejoice.”’</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxx+-xxx-x" met="-+-+-+-+-+">Thus did my mother say, and kissed me,</l>
+        <l n="22" real="xxxxx+-+-x" met="-+-+-+-+-+">And thus I say to little English boy.</l>
+        <l n="23" real="xxxxxxxxxx" met="-+-+-+-+-+">When I from black, and he from white cloud free,</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">And round the tent of God like lambs we joy,</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">I’ll shade him from the heat till he can bear</l>
+        <l n="26" real="xxxxxx++-x" met="-+-+-+-+-+">To lean in joy upon our Father’s knee;</l>
+        <l n="27" real="xxxxxxx+-x" met="-+-+-+-+-+">And then I’ll stand and stroke his silver hair,</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">And be like him, and he will then love me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-blossom" n="L02874">
+      <head>The Blossom</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-blossom</idno><idno type="laurel-id">L02874</idno><note type="metre">trochaic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a--aa-">
+        <l n="1" real="+-+-+-" met="+-+-+-">Merry, merry sparrow!</l>
+        <l n="2" real="xxxxx" met="+-+-+">Under leaves so green</l>
+        <l n="3" real="x+-+-" met="+-+-+">A happy blossom</l>
+        <l n="4" real="xxxx+-" met="+-+-+-">Sees you, swift as arrow,</l>
+        <l n="5" real="xx+-+-" met="+-+-+-">Seek your cradle narrow,</l>
+        <l n="6" real="xx+-" met="+---">Near my bosom.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--a-">
+        <l n="7" real="+-+-+-" met="+-+-+-">Pretty, pretty robin!</l>
+        <l n="8" real="xxxxx" met="+-+-+">Under leaves so green</l>
+        <l n="9" real="x+-+-" met="+-+-+">A happy blossom</l>
+        <l n="10" real="xx+-+-" met="+-+-+-">Hears you sobbing, sobbing,</l>
+        <l n="11" real="+-+-+-" met="+-+-+-">Pretty, pretty robin,</l>
+        <l n="12" real="xx+-" met="+---">Near my bosom.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-chimney-sweeper" n="L02875">
+      <head>The Chimney-Sweeper</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-chimney-sweeper</idno><idno type="laurel-id">L02875</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xx+-xxx+-x" met="+--+--+--+">When my mother died I was very young,</l>
+        <l n="2" real="xx+-xxxxxx" met="+--+--+--+">And my father sold me while yet my tongue</l>
+        <l n="3" real="x+-xxxxx" met="-+--+--+">Could scarcely cry ‘Weep! weep! weep! weep!’</l>
+        <l n="4" real="xx+-xxxxxxx" met="-+--+--+--+">So your chimneys I sweep, and in soot I sleep.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="x+-xxxxxxx" met="+--+--+--+">There’s little Tom Dacre, who cried when his head,</l>
+        <l n="6" real="xxxxxxxxxxx" met="-+--+--+--+">That curled like a lamb’s back, was shaved; so I said,</l>
+        <l n="7" real="xx+-xxxxxxx" met="-+--+--+--+">‘Hush, Tom! never mind it, for, when your head’s bare,</l>
+        <l n="8" real="xxxxx+-xxxx" met="-+--+--+--+">You know that the soot cannot spoil your white hair.’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxx+-xx+-x" met="-+--+--+--+">And so he was quiet, and that very night,</l>
+        <l n="10" real="xxxx+-xxxxx" met="-+--+--+--+">As Tom was a-sleeping, he had such a sight!—</l>
+        <l n="11" real="x+-x+-xxxxx" met="-+--+--+--+">That thousands of sweepers, Dick, Joe, Ned, and Jack,</l>
+        <l n="12" real="xxxxxxx+-xx" met="-+--+--+--+">Were all of them locked up in coffins of black.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxx+-xxxxx" met="-+--+--+--+">And by came an angel, who had a bright key,</l>
+        <l n="14" real="xx+-x+-xxxxx" met="--+--+--+--+">And he opened the coffins, and set them all free;</l>
+        <l n="15" real="xxxxx+-+-xx" met="-+--+--+--+">Then down a green plain, leaping, laughing, they run</l>
+        <l n="16" real="xxxx+-xxxxx" met="-+--+--+--+">And wash in a river, and shine in the sun.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="x+-xxxxxxxx" met="-+--+--+--+">Then naked and white, all their bags left behind,</l>
+        <l n="18" real="xxxxxxxxxx" met="+--+--+--+">They rise upon clouds, and sport in the wind:</l>
+        <l n="19" real="xx+-xxxxxxxx" met="--+--+--+--+">And the angel told Tom, if he’d be a good boy,</l>
+        <l n="20" real="xxxxx+-x+xx" met="-+--+--+--+">He’d have God for his father, and never want joy.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="21" real="xxx-+xxxxxx" met="-+--+--+--+">And so Tom awoke, and we rose in the dark,</l>
+        <l n="22" real="xxx+xx++-xx" met="-+--+--+--+">And got with our bags and our brushes to work.</l>
+        <l n="23" real="xx+-xxxx+-xx" met="--+--+--+--+">Though the morning was cold, Tom was happy and warm:</l>
+        <l n="24" real="xxxxx+-xxxxx" met="--+--+--+--+">So, if all do their duty, they need not fear harm.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-boy-lost" n="L02876">
+      <head>The Little Boy Lost</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-little-boy-lost</idno><idno type="laurel-id">L02876</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-+-xxx+-" met="-+-+-+-+-">‘Father, father, where are you going?</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">O do not walk so fast!</l>
+        <l n="3" real="x+-xxx+-x" met="-+-+-+-+-">Speak, father, speak to your little boy,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Or else I shall be lost.’</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-xx" met="-+-+-+-+-">The night was dark, no father was there,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">The child was wet with dew;</l>
+        <l n="7" real="xxxxxxxxx" met="-+-+-+-+-">The mire was deep, and the child did weep,</l>
+        <l n="8" real="x-+x+-x" met="-+-+-+-">And away the vapour flew.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-boy-found" n="L02877">
+      <head>The Little Boy Found</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-little-boy-found</idno><idno type="laurel-id">L02877</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-xxxx+-x" met="--+-+-+-+-">The little boy lost in the lonely fen,</l>
+        <l n="2" real="xxx+--x" met="-+-+-+-">Led by the wandering light,</l>
+        <l n="3" real="-+xxxx+-x" met="-+-+-+-+-">Began to cry, but God, ever nigh,</l>
+        <l n="4" real="-+xx+-xx" met="--+-+-+-">Appeared like his father, in white.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxxx" met="-+-+-+-+-">He kissed the child, and by the hand led,</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">And to his mother brought,</l>
+        <l n="7" real="xx+-xxx+-x" met="--+-+-+-+-">Who in sorrow pale, through the lonely dale,</l>
+        <l n="8" real="x+-x+-x" met="-+-+-+-">Her little boy weeping sought.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="laughing-song" n="L02878">
+      <head>Laughing Song</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:laughing-song</idno><idno type="laurel-id">L02878</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--aa">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">When the green woods laugh with the voice of joy,</l>
+        <l n="2" real="xxxxxx+-x" met="+-+-+-+-+">And the dimpling stream runs laughing by;</l>
+        <l n="3" real="xxxxxx++-x" met="-+-+-+-+-+">When the air does laugh with our merry wit,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">And the green hill laughs with the noise of it;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--">
+        <l n="5" real="xx+xxx+-x" met="+-+-+-+-+">When the meadows laugh with lively green,</l>
+        <l n="6" real="xx+x-xxx+-x" met="-+-+-+-+-+-">And the grasshopper laughs in the merry scene;</l>
+        <l n="7" real="x+-x+-x+--" met="-+-+-+-+-+">When Mary and Susan and Emily</l>
+        <l n="8" real="xxxxxxxxx" met="+-+-+-+-+">With their sweet round mouths sing ‘Ha ha he!’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="--aa">
+        <l n="9" real="xx+-xxxxx" met="+-+-+-+-+">When the painted birds laugh in the shade,</l>
+        <l n="10" real="x++-x+-xxxx" met="-+-+-+-+-+-">Where our table with cherries and nuts is spread:</l>
+        <l n="11" real="xxxx+-xxxx" met="-+-+-+-+-+">Come live, and be merry, and join with me,</l>
+        <l n="12" real="xxxx+-xxxx" met="-+-+-+-+-+">To sing the sweet chorus of ‘Ha ha he!’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-cradle-song" n="L02879">
+      <head>A Cradle Song</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-cradle-song</idno><idno type="laurel-id">L02879</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxx" met="-+-+-">Sweet dreams, form a shade</l>
+        <l n="2" real="xx+-+-x" met="+-+-+-+">O’er my lovely infant’s head!</l>
+        <l n="3" real="xxx+-x" met="--+-+-">Sweet dreams of pleasant streams</l>
+        <l n="4" real="x+-+-xxx" met="-+-+-+-+">By happy, silent, moony beams!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxx" met="-+-+-">Sweet Sleep, with soft down</l>
+        <l n="6" real="xxxx+-x" met="+-+-+-+">Weave thy brows an infant crown!</l>
+        <l n="7" real="xx+-x" met="-+-+-">Sweet Sleep, angel mild,</l>
+        <l n="8" real="+-xx+-x" met="+-+-+-+">Hover o’er my happy child!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxxx" met="-+-+-">Sweet smiles, in the night</l>
+        <l n="10" real="+-xxx-+" met="+-+-+-+">Hover over my delight!</l>
+        <l n="11" real="xx+-x" met="-+-+-">Sweet smiles, mother’s smiles,</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">All the livelong night beguiles.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxxx" met="--+-+-">Sweet moans, dovelike sighs,</l>
+        <l n="14" real="xx+-xxx" met="+-+-+-+">Chase not slumber from thy eyes!</l>
+        <l n="15" real="xx+-x" met="-+-+-">Sweet moans, sweeter smiles,</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">All the dovelike moans beguiles.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xx+-x" met="-+-+-">Sleep, sleep, happy child!</l>
+        <l n="18" real="x-+-xxx" met="+-+-+-+">All creation slept and smiled.</l>
+        <l n="19" real="xx+-x" met="-+-+-">Sleep, sleep, happy sleep,</l>
+        <l n="20" real="xxxx+-x" met="+-+-+-+">While o’er thee thy mother weep.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="21" real="xxxxx" met="-+-+-">Sweet babe, in thy face</l>
+        <l n="22" real="+-+-xxx" met="+-+-+-+">Holy image I can trace;</l>
+        <l n="23" real="xxxxx" met="-+-+-">Sweet babe, once like thee</l>
+        <l n="24" real="x+-xxxxx" met="-+-+-+-+">Thy Maker lay, and wept for me:</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabb">
+        <l n="25" real="xxxxxxx" met="+-+-+-+">Wept for me, for thee, for all,</l>
+        <l n="26" real="xxxx+-x" met="+-+-+-+">When He was an infant small.</l>
+        <l n="27" real="xx+-+-x" met="+-+-+-+">Thou His image ever see,</l>
+        <l n="28" real="+-xxxxx" met="+-+-+-+">Heavenly face that smiles on thee!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabb">
+        <l n="29" real="xxxxxxx" met="+-+-+-+">Smiles on thee, on me, on all,</l>
+        <l n="30" real="x-+x+-x" met="+-+-+-+">Who became an infant small;</l>
+        <l n="31" real="+-xxxxx" met="+-+-+-+">Infant smiles are His own smiles;</l>
+        <l n="32" real="+xxxxxx" met="+-+-+-+">Heaven and earth to peace beguiles.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-divine-image" n="L02880">
+      <head>The Divine Image</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-divine-image</idno><idno type="laurel-id">L02880</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-+-xxx" met="-+-+-+-+">To Mercy, Pity, Peace, and Love,</l>
+        <l n="2" real="xxxx-+" met="--+-+-">All pray in their distress,</l>
+        <l n="3" real="xxx+-x-+" met="-+-+-+-+">And to these virtues of delight</l>
+        <l n="4" real="-+xxxx" met="--+-+-">Return their thankfulness.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-+-xxx" met="-+-+-+-+">For Mercy, Pity, Peace, and Love,</l>
+        <l n="6" real="xx+-+-x" met="+-+-+-+">Is God our Father dear;</l>
+        <l n="7" real="x+-+-xxx" met="-+-+-+-+">And Mercy, Pity, Peace, and Love,</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Is man, His child and care.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="x+-xx+-x" met="-+-+-+-+">For Mercy has a human heart;</l>
+        <l n="10" real="+-x+-x" met="--+-+-">Pity, a human face;</l>
+        <l n="11" real="xxx+-x-+" met="-+-+-+-+">And Love, the human form divine:</l>
+        <l n="12" real="xxx+-x" met="--+-+-">And Peace the human dress.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="x+--xx+--x" met="--+-+-+-+-">Then every man, of every clime,</l>
+        <l n="14" real="xxxx-+" met="--+-+-">That prays in his distress,</l>
+        <l n="15" real="xxx+-x-+" met="-+-+-+-+">Prays to the human form divine:</l>
+        <l n="16" real="x+-+-x" met="--+-+-">Love, Mercy, Pity, Peace.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">And all must love the human form,</l>
+        <l n="18" real="x+-xxx" met="--+-+-">In heathen, Turk, or Jew.</l>
+        <l n="19" real="x+-xx+-x" met="-+-+-+-+">Where Mercy, Love, and Pity dwell,</l>
+        <l n="20" real="xxx+-x" met="--+-+-">There God is dwelling too.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="holy-thursday" n="L02881">
+      <head>Holy Thursday</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:holy-thursday</idno><idno type="laurel-id">L02881</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxx+-+-x+--+-x" met="-+-+-+-+-+-+-+">’Twas on a holy Thursday, their innocent faces clean,</l>
+        <l n="2" real="x+-+-xxxxxxxxx" met="-+-+-+-+-+-+-+">The children walking two and two, in red, and blue, and green:</l>
+        <l n="3" real="x+-+-xxxxxxxxx" met="-+-+-+-+-+-+-+">Grey-headed beadles walked before, with wands as white as snow,</l>
+        <l n="4" real="xxxxxxxxxxx+-x" met="-+-+-+-+-+-+-+">Till into the high dome of Paul’s they like Thames waters flow.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxx+-xxxx+x+-x" met="-+-+-+-+-+-+-+">O what a multitude they seemed, these flowers of London town!</l>
+        <l n="6" real="+-x+-xxx+--xxx" met="-+-+-+-+-+-+-+">Seated in companies they sit, with radiance all their own.</l>
+        <l n="7" real="xxx+-xxxx+-xxx" met="-+-+-+-+-+-+-+">The hum of multitudes was there, but multitudes of lambs,</l>
+        <l n="8" real="+-x+-xxx+-x+-x" met="-+-+-+-+-+-+-+">Thousands of little boys and girls raising their innocent hands.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxx+-xxxx+xxxx" met="-+-+-+-+-+-+-+">Now like a mighty wind they raise to heaven the voice of song,</l>
+        <l n="10" real="xx-+-xxxxxx+xx" met="-+-+-+-+-+-+-+">Or like harmonious thunderings the seats of heaven among:</l>
+        <l n="11" real="xxxxxxxx+--xxx" met="-+-+-+-+-+-+-+">Beneath them sit the aged men, wise guardians of the poor.</l>
+        <l n="12" real="x+-+-xxxx+-xxx" met="-+-+-+-+-+-+-+">Then cherish pity, lest you drive an angel from your door.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="night" n="L02882">
+      <head>Night</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:night</idno><idno type="laurel-id">L02882</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababccdd">
+        <l n="1" real="xx-+-xxx" met="--+-+-+-">The sun descending in the West,</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">The evening star does shine;</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">The birds are silent in their nest,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">And I must seek for mine.</l>
+        <l n="5" real="xxxx+-" met="-+-+-+">The moon, like a flower</l>
+        <l n="6" real="x+-x+-" met="-+-+-+">In heaven’s high bower,</l>
+        <l n="7" real="x+--+" met="+-+-+">With silent delight,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Sits and smiles on the night.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a----">
+        <l n="9" real="x+xxx+-x" met="--+-+-+-">Farewell, green fields and happy groves,</l>
+        <l n="10" real="xxxx-+" met="-+-+-+">Where flocks have took delight,</l>
+        <l n="11" real="xxx+-+-x" met="--+-+-+-">Where lambs have nibbled, silent moves</l>
+        <l n="12" real="xxx+-x" met="-+-+-+">The feet of angels bright;</l>
+        <l n="13" real="-+xx+-" met="-+-+-+">Unseen, they pour blessing,</l>
+        <l n="14" real="xxxx+-" met="-+-+-+">And joy without ceasing,</l>
+        <l n="15" real="xxxx+-" met="-+-+-+">On each bud and blossom,</l>
+        <l n="16" real="xx+-+-" met="-+-+-+">And each sleeping bosom.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="----aabb">
+        <l n="17" real="xxx+-+-x" met="--+-+-+-">They look in every thoughtless nest</l>
+        <l n="18" real="xxx+-x" met="-+-+-+">Where birds are covered warm;</l>
+        <l n="19" real="x+-xx+-x" met="--+-+-+-">They visit caves of every beast,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">To keep them all from harm:</l>
+        <l n="21" real="xxx+-+-" met="-+-+-+-">If they see any weeping</l>
+        <l n="22" real="xxxx+-" met="-+-+-+">That should have been sleeping,</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">They pour sleep on their head,</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">And sit down by their bed.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab----">
+        <l n="25" real="xxx+xxx" met="-+-+-+-">When wolves and tigers howl for prey,</l>
+        <l n="26" real="x+-xxx" met="-+-+-+">They pitying stand and weep;</l>
+        <l n="27" real="+-xxxx-+" met="--+-+-+-">Seeking to drive their thirst away,</l>
+        <l n="28" real="xxxxxx" met="-+-+-+">And keep them from the sheep.</l>
+        <l n="29" real="xxxx+-" met="-+-+-+">But, if they rush dreadful,</l>
+        <l n="30" real="x+-xxx" met="-+-+-+">The angels, most heedful,</l>
+        <l n="31" real="-+xx+-" met="-+-+-+">Receive each mild spirit,</l>
+        <l n="32" real="xxx-+-" met="-+-+-+">New worlds to inherit.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="ababccdd">
+        <l n="33" real="xxx+-+-x" met="--+-+-+-">And there the lion’s ruddy eyes</l>
+        <l n="34" real="xxxxxx" met="-+-+-+">Shall flow with tears of gold:</l>
+        <l n="35" real="x+-x+-x" met="-+-+-+-">And pitying the tender cries,</l>
+        <l n="36" real="x+-xxx" met="-+-+-+">And walking round the fold:</l>
+        <l n="37" real="+-xxxxx" met="-+-+-+-">Saying: ‘Wrath by His meekness,</l>
+        <l n="38" real="xxxx+-" met="-+-+-+">And, by His health, sickness,</l>
+        <l n="39" real="x+--+" met="+-+-+">Is driven away</l>
+        <l n="40" real="x+-+-x" met="-+-+-+">From our immortal day.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a--bb">
+        <l n="41" real="xx-+xxxx" met="--+-+-+-">‘And now beside thee, bleating lamb,</l>
+        <l n="42" real="xxxxxx" met="-+-+-+">I can lie down and sleep,</l>
+        <l n="43" real="xxxxxxxx" met="--+-+-+-">Or think on Him who bore thy name,</l>
+        <l n="44" real="xxxxxx" met="-+-+-+">Graze after thee, and weep.</l>
+        <l n="45" real="xxxx+-" met="-+-+-+">For, washed in life’s river,</l>
+        <l n="46" real="xxxx+-" met="-+-+-+">My bright mane for ever</l>
+        <l n="47" real="xxxxx" met="+-+-+">Shall shine like the gold,</l>
+        <l n="48" real="xxxxxx" met="-+-+-+">As I guard o’er the fold.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="spring" n="L02883">
+      <head>Spring</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:spring</idno><idno type="laurel-id">L02883</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc---">
+        <l n="1" real="xxx" met="+-+">Sound the flute!</l>
+        <l n="2" real="xxx" met="+-+">Now it’s mute!</l>
+        <l n="3" real="x-+" met="+-+">Birds delight,</l>
+        <l n="4" real="xxx" met="+-+">Day and night,</l>
+        <l n="5" real="+--" met="+-+">Nightingale,</l>
+        <l n="6" real="xxx" met="+-+">In the dale,</l>
+        <l n="7" real="xxx" met="+-+">Lark in sky,—</l>
+        <l n="8" real="+--" met="+-+">Merrily,</l>
+        <l n="9" real="+--+--x+-xxx" met="--+-+-+-+-+-">Merrily, merrily to welcome in the year.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-------">
+        <l n="10" real="+-x" met="+-+">Little boy,</l>
+        <l n="11" real="xxx" met="+-+">Full of joy;</l>
+        <l n="12" real="+-x" met="+-+">Little girl,</l>
+        <l n="13" real="xxx" met="+-+">Sweet and small;</l>
+        <l n="14" real="xxx" met="+-+">Cock does crow,</l>
+        <l n="15" real="xxx" met="+-+">So do you;</l>
+        <l n="16" real="+-x" met="+-+">Merry voice,</l>
+        <l n="17" real="+-x" met="+-+">Infant noise;</l>
+        <l n="18" real="+--+--x+-xxx" met="--+-+-+-+-+-">Merrily, merrily to welcome in the year.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa--bb---">
+        <l n="19" real="+-x" met="+-+">Little lamb,</l>
+        <l n="20" real="xxx" met="+-+">Here I am;</l>
+        <l n="21" real="xxx" met="+-+">Come and lick</l>
+        <l n="22" real="xxx" met="+-+">My white neck;</l>
+        <l n="23" real="xxx" met="+-+">Let me pull</l>
+        <l n="24" real="xxx" met="+-+">Your soft wool;</l>
+        <l n="25" real="xxx" met="+-+">Let me kiss</l>
+        <l n="26" real="xxx" met="+-+">Your soft face;</l>
+        <l n="27" real="+--+--x+-xxx" met="--+-+-+-+-+-">Merrily, merrily we welcome in the year.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nurse-s-song" n="L02884">
+      <head>Nurse’s Song</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:nurse-s-song</idno><idno type="laurel-id">L02884</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-x+-xxxxx" met="-+--+--+--+">When voices of children are heard on the green,</l>
+        <l n="2" real="x+-xxxxx" met="-+--+--+">And laughing is heard on the hill,</l>
+        <l n="3" real="xxxxxxxxx" met="+-+--+--+">My heart is at rest within my breast,</l>
+        <l n="4" real="x+-xxxx" met="--+--+-">And everything else is still.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx+-xxxxx" met="-+--+--+--+">‘Then come home, my children, the sun is gone down,</l>
+        <l n="6" real="xxxxx-+" met="--+--+-">And the dews of night arise;</l>
+        <l n="7" real="xxxxxxxx-+" met="+--+--+--+">Come, come, leave off play, and let us away,</l>
+        <l n="8" real="xx+--+xxx" met="+-+--+--+">Till the morning appears in the skies.’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxxxx" met="+--+--+--+">‘No, no, let us play, for it is yet day,</l>
+        <l n="10" real="xx+-xxx" met="--+--+-">And we cannot go to sleep;</l>
+        <l n="11" real="-+xxxx+-xx" met="+--+--+--+">Besides, in the sky the little birds fly,</l>
+        <l n="12" real="xxxxx+-xx" met="+-+--+--+">And the hills are all covered with sheep.’</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="xxxxxxxxx-+" met="-+--+--+--+">‘Well, well, go and play till the light fades away,</l>
+        <l n="14" real="xxxxxx" met="--+--+">And then go home to bed.’</l>
+        <l n="15" real="x+-xxx+-xx" met="+--+--+--+">The little ones leaped, and shouted, and laughed,</l>
+        <l n="16" real="xxxxx" met="-+--+">And all the hills echoèd.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="infant-joy" n="L02885">
+      <head>Infant Joy</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:infant-joy</idno><idno type="laurel-id">L02885</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-b-ab">
+        <l n="1" real="xxxx" met="-+-+">‘I have no name;</l>
+        <l n="2" real="xxxxxx" met="--+-+-">I am but two days old.’</l>
+        <l n="3" real="xxxxx" met="-+-+-">What shall I call thee?</l>
+        <l n="4" real="x+-x" met="-+-+">‘I happy am,</l>
+        <l n="5" real="xxxx" met="-+-+">Joy is my name.’</l>
+        <l n="6" real="xx-+x" met="-+-+-">Sweet joy befall thee!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--abba">
+        <l n="7" real="+-x" met="+-+">Pretty joy!</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Sweet joy, but two days old.</l>
+        <l n="9" real="xxxxx" met="-+-+-">Sweet joy I call thee:</l>
+        <l n="10" real="xxx" met="+-+">Thou dost smile,</l>
+        <l n="11" real="xxxx" met="-+-+">I sing the while;</l>
+        <l n="12" real="xx-+x" met="-+-+-">Sweet joy befall thee!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-dream" n="L02886">
+      <head>A Dream</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-dream</idno><idno type="laurel-id">L02886</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">Once a dream did weave a shade</l>
+        <l n="2" real="xx+-+-x" met="-+-+-+-">O’er my angel-guarded bed,</l>
+        <l n="3" real="xx+-xxx" met="-+-+-+-">That an emmet lost its way</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">Where on grass methought I lay.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="+-xxx-+" met="-+-+-+-">Troubled, wildered, and forlorn,</l>
+        <l n="6" real="x-+-+-x" met="-+-+-+-">Dark, benighted, travel-worn,</l>
+        <l n="7" real="x+-x+-x" met="-+-+-+-">Over many a tangled spray,</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">All heart-broke, I heard her say:</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xx+-xxx" met="-+-+-+-">‘O my children! do they cry,</l>
+        <l n="10" real="xxxx+-x" met="-+-+-+-">Do they hear their father sigh?</l>
+        <l n="11" real="xxx-+xx" met="-+-+-+-">Now they look abroad to see,</l>
+        <l n="12" real="x-+xxxx" met="-+-+-+-">Now return and weep for me.’</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="+--xxxx" met="-+-+-+-">Pitying, I dropped a tear:</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">But I saw a glow-worm near,</l>
+        <l n="15" real="x-+x+-x" met="-+-+-+-">Who replied, ‘What wailing wight</l>
+        <l n="16" real="xx+-xxx" met="-+-+-+-">Calls the watchman of the night?’</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxxxxxx" met="-+-+-+-">‘I am set to light the ground,</l>
+        <l n="18" real="xx+-xxx" met="-+-+-+-">While the beetle goes his round:</l>
+        <l n="19" real="+-xx+-x" met="-+-+-+-">Follow now the beetle’s hum;</l>
+        <l n="20" real="+-+-xxx" met="-+-+-+-">Little wanderer, hie thee home!’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-another-s-sorrow" n="L02887">
+      <head>On Another’s Sorrow</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:on-another-s-sorrow</idno><idno type="laurel-id">L02887</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="--aa">
+        <l n="1" real="xxx-+-x" met="-+-+-+-">Can I see another’s woe,</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">And not be in sorrow too?</l>
+        <l n="3" real="xxx-+-x" met="-+-+-+-">Can I see another’s grief,</l>
+        <l n="4" real="xxxxx-+" met="-+-+-+-">And not seek for kind relief?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxx+-x" met="-+-+-+-">Can I see a falling tear,</l>
+        <l n="6" real="xxxx+-x" met="-+-+-+-">And not feel my sorrow’s share?</l>
+        <l n="7" real="xx+-xxx" met="-+-+-+-">Can a father see his child</l>
+        <l n="8" real="xxxx+-x" met="-+-+-+-">Weep, nor be with sorrow filled?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xx+-xxx" met="-+-+-+-">Can a mother sit and hear</l>
+        <l n="10" real="x+-xx+-x" met="--+-+-+-">An infant groan, an infant fear?</l>
+        <l n="11" real="xx+-xxx" met="-+-+-+-">No, no! never can it be!</l>
+        <l n="12" real="+-+-xxx" met="-+-+-+-">Never, never can it be!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxxxx" met="-+-+-+-">And can He who smiles on all</l>
+        <l n="14" real="xxxx+-x" met="-+-+-+-">Hear the wren with sorrows small,</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">Hear the small bird’s grief and care,</l>
+        <l n="16" real="xxxx+-x" met="-+-+-+-">Hear the woes that infants bear—</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxx-+xx" met="-+-+-+-">And not sit beside the nest,</l>
+        <l n="18" real="+-+-xxx" met="-+-+-+-">Pouring pity in their breast,</l>
+        <l n="19" real="xxxx+-x" met="-+-+-+-">And not sit the cradle near,</l>
+        <l n="20" real="+-xx+-x" met="-+-+-+-">Weeping tear on infant’s tear?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="21" real="xxxxxxx" met="-+-+-+-">And not sit both night and day,</l>
+        <l n="22" real="+-x+x-+" met="-+-+-+-">Wiping all our tears away?</l>
+        <l n="23" real="xx+-xxx" met="-+-+-+-">O no! never can it be!</l>
+        <l n="24" real="+-+-xxx" met="-+-+-+-">Never, never can it be!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aa--">
+        <l n="25" real="xxxxxxx" met="-+-+-+-">He doth give His joy to all:</l>
+        <l n="26" real="x-+x+-x" met="-+-+-+-">He becomes an infant small,</l>
+        <l n="27" real="x-+xxxx" met="-+-+-+-">He becomes a man of woe,</l>
+        <l n="28" real="xxxx+-x" met="-+-+-+-">He doth feel the sorrow too.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabb">
+        <l n="29" real="xxxxxxx" met="-+-+-+-">Think not thou canst sigh a sigh,</l>
+        <l n="30" real="xx+-xxx" met="-+-+-+-">And thy Maker is not by:</l>
+        <l n="31" real="xxxxxxx" met="-+-+-+-">Think not thou canst weep a tear,</l>
+        <l n="32" real="xx+-xxx" met="-+-+-+-">And thy Maker is not near.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aabb">
+        <l n="33" real="xxxxxxx" met="-+-+-+-">O He gives to us His joy,</l>
+        <l n="34" real="x+xxx-+" met="-+-+-+-">That our grief He may destroy:</l>
+        <l n="35" real="x+xxxxx" met="-+-+-+-">Till our grief is fled and gone</l>
+        <l n="36" real="xxxxxxx" met="-+-+-+-">He doth sit by us and moan.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="introduction-2" n="L02888">
+      <head>Introduction</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:introduction-2</idno><idno type="laurel-id">L02888</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abaab">
+        <l n="1" real="xxxxxx" met="--+-+-">Hear the voice of the Bard,</l>
+        <l n="2" real="x+-xx+-x" met="-+-+-+-+">Who present, past, and future, sees;</l>
+        <l n="3" real="xxxx" met="--+-">Whose ears have heard</l>
+        <l n="4" real="x+-x" met="--+-">The Holy Word</l>
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">That walked among the ancient trees;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abaab">
+        <l n="6" real="+-xxx" met="-+-+-">Calling the lapséd soul,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">And weeping in the evening dew;</l>
+        <l n="8" real="xx-+" met="--+-">That might control</l>
+        <l n="9" real="x+-x" met="--+-">The starry pole,</l>
+        <l n="10" real="x+-+-x-+" met="-+-+-+-+">And fallen, fallen light renew!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abaab">
+        <l n="11" real="xxxx-+" met="--+-+-">‘O Earth, O Earth, return!</l>
+        <l n="12" real="-+xxx+-x" met="-+-+-+-+">Arise from out the dewy grass!</l>
+        <l n="13" real="xxx" met="-+-">Night is worn,</l>
+        <l n="14" real="xxx" met="-+-">And the morn</l>
+        <l n="15" real="+-xxxxx" met="+-+-+-+">Rises from the slumbrous mass.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abaab">
+        <l n="16" real="x-+xx" met="-+-+-">‘Turn away no more;</l>
+        <l n="17" real="xxxx-+" met="--+-+-">Why wilt thou turn away?</l>
+        <l n="18" real="x+-x" met="--+-">The starry floor,</l>
+        <l n="19" real="x+--x" met="-+-+-">The watery shore,</l>
+        <l n="20" real="x+-xxxxxx" met="-+-+-+-+-">Is given thee till the break of day.’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="earth-s-answer" n="L02889">
+      <head>Earth’s Answer</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:earth-s-answer</idno><idno type="laurel-id">L02889</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-aa-">
+        <l n="1" real="xxxxx" met="-+-+-">Earth raised up her head</l>
+        <l n="2" real="xx+-xxx" met="-+-+-+-">From the darkness dread and drear,</l>
+        <l n="3" real="xxx" met="+-+">Her light fled,</l>
+        <l n="4" real="+-x" met="+-+">Stony, dread,</l>
+        <l n="5" real="xxx+-xx-+" met="-+-+-+-+-">And her locks covered with grey despair.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aba-b">
+        <l n="6" real="+-x+--x" met="-+-+-+-">‘Prisoned on watery shore,</l>
+        <l n="7" real="+-+--xxxx" met="-+-+-+-+-">Starry jealousy does keep my den</l>
+        <l n="8" real="xxx" met="+-+">Cold and hoar;</l>
+        <l n="9" real="+-x" met="+-+">Weeping o’er,</l>
+        <l n="10" real="xxx+-xx+-x" met="--+-+-+-+-">I hear the father of the ancient men.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-abba">
+        <l n="11" real="+-+-xx" met="--+-+-">‘Selfish father of men!</l>
+        <l n="12" real="+-+-+-x" met="-+-+-+-">Cruel, jealous, selfish fear!</l>
+        <l n="13" real="x-+" met="+-+">Can delight,</l>
+        <l n="14" real="xxx" met="+-+">Chained in night,</l>
+        <l n="15" real="x+-xxx+-x" met="-+-+-+-+-">The virgins of youth and morning bear.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a--a">
+        <l n="16" real="xxxxx" met="-+-+-">‘Does spring hide its joy,</l>
+        <l n="17" real="xxx+-x" met="--+-+-">When buds and blossoms grow?</l>
+        <l n="18" real="xx+-" met="-+-+">Does the sower</l>
+        <l n="19" real="xxx" met="+-+">Sow by night,</l>
+        <l n="20" real="xxxxx+-x" met="--+-+-+-">Or the ploughman in darkness plough?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abaab">
+        <l n="21" real="xx+-x" met="-+-+-">‘Break this heavy chain,</l>
+        <l n="22" real="xxxxxxx" met="-+-+-+-">That does freeze my bones around!</l>
+        <l n="23" real="+-x" met="+-+">Selfish, vain,</l>
+        <l n="24" real="-+-x" met="-+-+">Eternal bane,</l>
+        <l n="25" real="xxxx+-x" met="-+-+-+-">That free love with bondage bound.’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-clod-and-the-pebble" n="L02890">
+      <head>The Clod and the Pebble</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-clod-and-the-pebble</idno><idno type="laurel-id">L02890</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx-+xx" met="-+-+-+-+">‘Love seeketh not itself to please,</l>
+        <l n="2" real="xx-+x+-x" met="-+-+-+-+">Nor for itself hath any care,</l>
+        <l n="3" real="xx-+-xxx" met="-+-+-+-+">But for another gives its ease,</l>
+        <l n="4" real="xxx+xx-+" met="-+-+-+-+">And builds a heaven in hell’s despair.’</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">So sung a little clod of clay,</l>
+        <l n="6" real="+-xxxx" met="--+-+-">Trodden with the cattle’s feet,</l>
+        <l n="7" real="xx+-xxx" met="+-+-+-+">But a pebble of the brook</l>
+        <l n="8" real="+--xxxx" met="+-+-+-+">Warbled out these metres meet:</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">‘Love seeketh only Self to please,</l>
+        <l n="10" real="xx-+-xx-+" met="-+-+-+-+-">To bind another to its delight,</l>
+        <l n="11" real="xx-+-xxx" met="-+-+-+-+">Joys in another’s loss of ease,</l>
+        <l n="12" real="xxxxx+--+" met="-+-+-+-+-">And builds a hell in heaven’s despite.’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="holy-thursday-2" n="L02891">
+      <head>Holy Thursday</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:holy-thursday-2</idno><idno type="laurel-id">L02891</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxx+-xxx" met="--+-+-+-">Is this a holy thing to see</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">In a rich and fruitful land,—</l>
+        <l n="3" real="x-+x+--" met="-+-+-+-">Babes reduced to misery,</l>
+        <l n="4" real="xxxxxxxx" met="--+-+-+-">Fed with cold and usurous hand?</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xx+-xxx" met="-+-+-+-">Is that trembling cry a song?</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">Can it be a song of joy?</l>
+        <l n="7" real="xx+-+-x" met="-+-+-+-">And so many children poor?</l>
+        <l n="8" real="xxxxx+--" met="--+-+-+-">It is a land of poverty!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxx+-x" met="-+-+-+-">And their sun does never shine,</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">And their fields are bleak and bare,</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">And their ways are filled with thorns,</l>
+        <l n="12" real="xx-+-+-x" met="--+-+-+-">It is eternal winter there.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxxx" met="-+-+-+-">For where’er the sun does shine,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">And where’er the rain does fall,</l>
+        <l n="15" real="xx+-+-x" met="-+-+-+-">Babe can never hunger there,</l>
+        <l n="16" real="x+-xxxx" met="-+-+-+-">Nor poverty the mind appal.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-girl-lost" n="L02892">
+      <head>The Little Girl Lost</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-little-girl-lost</idno><idno type="laurel-id">L02892</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxx" met="-+-+-">In futurity</l>
+        <l n="2" real="xxxx" met="-+-+">I prophesy</l>
+        <l n="3" real="xxxxx" met="-+-+-">That the earth from sleep</l>
+        <l n="4" real="xx+-x" met="-+-+-">(Grave the sentence deep)</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="x-+xx" met="-+-+-">Shall arise, and seek</l>
+        <l n="6" real="xx+-x" met="-+-+-">For her Maker meek;</l>
+        <l n="7" real="xx+-x" met="-+-+-">And the desert wild</l>
+        <l n="8" real="-+x+-x" met="--+-+-">Become a garden mild.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xx+-x" met="-+-+-">In the southern clime,</l>
+        <l n="10" real="xx+-x" met="-+-+-">Where the summer’s prime</l>
+        <l n="11" real="+-x-+" met="-+-+-">Never fades away,</l>
+        <l n="12" real="+-xxx" met="-+-+-">Lovely Lyca lay.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="+-+-x" met="-+-+-">Seven summers old</l>
+        <l n="14" real="+-xxx" met="-+-+-">Lovely Lyca told.</l>
+        <l n="15" real="xx+-x" met="-+-+-">She had wandered long,</l>
+        <l n="16" real="+-xxx" met="-+-+-">Hearing wild birds’ song.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxxxx" met="-+-+-">‘Sweet sleep, come to me,</l>
+        <l n="18" real="x-+xx" met="-+-+-">Underneath this tree;</l>
+        <l n="19" real="x+-+-x" met="--+-+-">Do father, mother, weep?</l>
+        <l n="20" real="xxxxx" met="-+-+-">Where can Lyca sleep?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="21" real="xx+-x" met="-+-+-">‘Lost in desert wild</l>
+        <l n="22" real="xx+-x" met="-+-+-">Is your little child.</l>
+        <l n="23" real="xxxxx" met="-+-+-">How can Lyca sleep</l>
+        <l n="24" real="xx+-x" met="-+-+-">If her mother weep?</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabb">
+        <l n="25" real="xxxxx" met="-+-+-">‘If her heart does ache,</l>
+        <l n="26" real="xxxxx" met="-+-+-">Then let Lyca wake;</l>
+        <l n="27" real="xx+-x" met="-+-+-">If my mother sleep,</l>
+        <l n="28" real="xxxxx" met="-+-+-">Lyca shall not weep.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabb">
+        <l n="29" real="+-+-x" met="-+-+-">‘Frowning, frowning night,</l>
+        <l n="30" real="xx+-x" met="-+-+-">O’er this desert bright</l>
+        <l n="31" real="xxx-+" met="-+-+-">Let thy moon arise,</l>
+        <l n="32" real="xxxxx" met="-+-+-">While I close my eyes.’</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aabb">
+        <l n="33" real="+-xxx" met="-+-+-">Sleeping Lyca lay,</l>
+        <l n="34" real="xxxxx" met="-+-+-">While the beasts of prey,</l>
+        <l n="35" real="xx+-x" met="-+-+-">Come from caverns deep,</l>
+        <l n="36" real="xxx-+" met="-+-+-">Viewed the maid asleep.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aabb">
+        <l n="37" real="x+-+x" met="-+-+-">The kingly lion stood,</l>
+        <l n="38" real="xx+-x" met="-+-+-">And the virgin viewed:</l>
+        <l n="39" real="xxxxx" met="-+-+-">Then he gambolled round</l>
+        <l n="40" real="xx+-x" met="-+-+-">O’er the hallowed ground.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aabb">
+        <l n="41" real="+-+-x" met="-+-+-">Leopards, tigers, play</l>
+        <l n="42" real="xxxxx" met="-+-+-">Round her as she lay;</l>
+        <l n="43" real="xx+-x" met="-+-+-">While the lion old</l>
+        <l n="44" real="xxxxx" met="-+-+-">Bowed his mane of gold,</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aabb">
+        <l n="45" real="xx+-x" met="-+-+-">And her bosom lick,</l>
+        <l n="46" real="xxxxx" met="-+-+-">And upon her neck,</l>
+        <l n="47" real="xxxxx" met="-+-+-">From his eyes of flame,</l>
+        <l n="48" real="+-xxx" met="-+-+-">Ruby tears there came;</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aabb">
+        <l n="49" real="xxxx" met="-+-+">While the lioness</l>
+        <l n="50" real="xx+-x" met="-+-+-">Loosed her slender dress,</l>
+        <l n="51" real="x+-x-+" met="--+-+-">And naked they conveyed</l>
+        <l n="52" real="xxx+-x" met="--+-+-">To caves the sleeping maid.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-girl-found" n="L02893">
+      <head>The Little Girl Found</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-little-girl-found</idno><idno type="laurel-id">L02893</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxx" met="+-+-+">All the night in woe</l>
+        <l n="2" real="xx+-x" met="+-+-+">Lyca’s parents go</l>
+        <l n="3" real="xx+-x" met="+-+-+">Over valleys deep,</l>
+        <l n="4" real="xx+-x" met="+-+-+">While the deserts weep.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="+xxxx" met="+-+-+">Tired and woe-begone,</l>
+        <l n="6" real="xx+-x" met="+-+-+">Hoarse with making moan,</l>
+        <l n="7" real="xxx+x" met="+-+-+">Arm in arm, seven days</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">They traced the desert ways.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="+-xxx" met="+-+-+">Seven nights they sleep</l>
+        <l n="10" real="xx+xx" met="+-+-+">Among shadows deep,</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">And dream they see their child</l>
+        <l n="12" real="xx+-x" met="+-+-+">Starved in desert wild.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxx" met="+-+-+">Pale through pathless ways</l>
+        <l n="14" real="x+-+-x" met="-+-+-+">The fancied image strays,</l>
+        <l n="15" real="xx+-x" met="+-+-+">Famished, weeping, weak,</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">With hollow piteous shriek.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="+-x-+" met="+-+-+">Rising from unrest,</l>
+        <l n="18" real="x+-+-x" met="-+-+-+">The trembling woman pressed</l>
+        <l n="19" real="xxx+-x" met="-+-+-+">With feet of weary woe;</l>
+        <l n="20" real="xxx+-x" met="-+-+-+">She could no further go.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="21" real="xxxxx" met="+-+-+">In his arms he bore</l>
+        <l n="22" real="xxx+-x" met="-+-+-+">Her, armed with sorrow sore;</l>
+        <l n="23" real="xxxxx" met="+-+-+">Till before their way</l>
+        <l n="24" real="x+-+x" met="+-+-+">A couching lion lay.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabb">
+        <l n="25" real="+-xxx" met="+-+-+">Turning back was vain:</l>
+        <l n="26" real="xx+-x" met="+-+-+">Soon his heavy mane</l>
+        <l n="27" real="xxxxx" met="+-+-+">Bore them to the ground,</l>
+        <l n="28" real="xxxxx" met="+-+-+">Then he stalked around,</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabb">
+        <l n="29" real="+-xxx" met="+-+-+">Smelling to his prey;</l>
+        <l n="30" real="xxx-+" met="+-+-+">But their fears allay</l>
+        <l n="31" real="xxxxx" met="+-+-+">When he licks their hands,</l>
+        <l n="32" real="x+-xxx" met="-+-+-+">And silent by them stands.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aabb">
+        <l n="33" real="xxxxxx" met="-+-+-+">They look upon his eyes,</l>
+        <l n="34" real="xxx-+" met="+-+-+">Filled with deep surprise;</l>
+        <l n="35" real="x+--+" met="+-+-+">And wondering behold</l>
+        <l n="36" real="x+xxx" met="+-+-+">A spirit armed in gold.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aabb">
+        <l n="37" real="xxxxx" met="+-+-+">On his head a crown,</l>
+        <l n="38" real="xx+-x" met="+-+-+">On his shoulders down</l>
+        <l n="39" real="xx+-x" met="+-+-+">Flowed his golden hair.</l>
+        <l n="40" real="xxxxx" met="+-+-+">Gone was all their care.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aabb">
+        <l n="41" real="+-xxx" met="+-+-+">‘Follow me,’ he said;</l>
+        <l n="42" real="xxxxx" met="+-+-+">‘Weep not for the maid;</l>
+        <l n="43" real="xx+-x" met="+-+-+">In my palace deep,</l>
+        <l n="44" real="xxx-+" met="+-+-+">Lyca lies asleep.’</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aabb">
+        <l n="45" real="xxxx" met="--+-">Then they followèd</l>
+        <l n="46" real="xx+-x" met="+-+-+">Where the vision led,</l>
+        <l n="47" real="xxx+-x" met="-+-+-+">And saw their sleeping child</l>
+        <l n="48" real="xx+-x" met="+-+-+">Among tigers wild.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aabb">
+        <l n="49" real="xxxxx" met="+-+-+">To this day they dwell</l>
+        <l n="50" real="xx+-x" met="+-+-+">In a lonely dell,</l>
+        <l n="51" real="xxxxxx" met="-+-+-+">Nor fear the wolvish howl</l>
+        <l n="52" real="xx+-x" met="+-+-+">Nor the lion’s growl.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-chimney-sweeper-2" n="L02894">
+      <head>The Chimney-Sweeper</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-chimney-sweeper-2</idno><idno type="laurel-id">L02894</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="x+-xxxxxx" met="-+-+-+-+-">A little black thing among the snow,</l>
+        <l n="2" real="+-xxxxxx" met="-+-+-+-+">Crying! ‘weep! weep!’ in notes of woe!</l>
+        <l n="3" real="xxx+-x+-x" met="-+-+-+-+-">‘Where are thy father and mother? Say!’—</l>
+        <l n="4" real="xxxxxxxxxx" met="--+-+-+-+-">‘They are both gone up to the church to pray.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx+-xxxx" met="--+-+-+-+-">‘Because I was happy upon the heath,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">And smiled among the winter’s snow,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">They clothed me in the clothes of death,</l>
+        <l n="8" real="xxxxxxxxx" met="-+-+-+-+-">And taught me to sing the notes of woe.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-">
+        <l n="9" real="xxxxx+-xxxx" met="-+-+-+-+-+-">‘And because I am happy and dance and sing,</l>
+        <l n="10" real="xxxxxxx+--" met="--+-+-+-+-">They think they have done me no injury,</l>
+        <l n="11" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And are gone to praise God and His priest and king,</l>
+        <l n="12" real="xxxx+-x+-+--" met="--+-+-+-+-+-">Who made up a heaven of our misery.’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nurse-s-song-2" n="L02895">
+      <head>Nurse’s Song</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:nurse-s-song-2</idno><idno type="laurel-id">L02895</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx+-x+-xxxxx" met="--+--+--+--+">When the voices of children are heard on the green,</l>
+        <l n="2" real="xxxxxxxx" met="-+--+--+">And whisperings are in the dale,</l>
+        <l n="3" real="xxxxxxxxxx" met="+--+--+--+">The days of my youth rise fresh in my mind,</l>
+        <l n="4" real="xxxxxx" met="--+--+">My face turns green and pale.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx+-xxxxx" met="-+--+--+--+">Then come home, my children, the sun is gone down,</l>
+        <l n="6" real="xxxxx-+" met="--+--+-">And the dews of night arise;</l>
+        <l n="7" real="xxxxxx+-xx" met="+--+--+--+">Your spring and your day are wasted in play,</l>
+        <l n="8" real="xx+-xxx-+" met="+-+--+--+">And your winter and night in disguise.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sick-rose" n="L02896">
+      <head>The Sick Rose</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-sick-rose</idno><idno type="laurel-id">L02896</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxx" met="-+-+-">O rose, thou art sick!</l>
+        <l n="2" real="x-+-x" met="-+-+-">The invisible worm,</l>
+        <l n="3" real="xxxxx" met="-+-+-">That flies in the night,</l>
+        <l n="4" real="xx+-x" met="-+-+-">In the howling storm,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx" met="-+-+-">Has found out thy bed</l>
+        <l n="6" real="x+-x" met="-+-+">Of crimson joy,</l>
+        <l n="7" real="xxx+-x" met="--+-+-">And his dark secret love</l>
+        <l n="8" real="xxx-+" met="-+-+-">Does thy life destroy.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-fly" n="L02897">
+      <head>The Fly</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-fly</idno><idno type="laurel-id">L02897</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="+-x" met="+-+">Little Fly,</l>
+        <l n="2" real="x+-x" met="-+-+">Thy summer’s play</l>
+        <l n="3" real="x+-x" met="-+-+">My thoughtless hand</l>
+        <l n="4" real="xx-+" met="-+-+">Has brushed away.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-a">
+        <l n="5" real="xxx" met="+-+">Am not I</l>
+        <l n="6" real="xxxx" met="-+-+">A fly like thee?</l>
+        <l n="7" real="xxxx" met="-+-+">Or art not thou</l>
+        <l n="8" real="xxxx" met="-+-+">A man like me?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxx" met="+-+">For I dance,</l>
+        <l n="10" real="xxxx" met="-+-+">And drink, and sing,</l>
+        <l n="11" real="xxxx" met="-+-+">Till some blind hand</l>
+        <l n="12" real="xxxx" met="-+-+">Shall brush my wing.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxx" met="-+-+">If thought is life</l>
+        <l n="14" real="xxxx" met="-+-+">And strength and breath,</l>
+        <l n="15" real="xxx" met="+-+">And the want</l>
+        <l n="16" real="xxxx" met="-+-+">Of thought is death;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa-a">
+        <l n="17" real="xxx" met="+-+">Then am I</l>
+        <l n="18" real="x+-x" met="-+-+">A happy fly.</l>
+        <l n="19" real="xxx" met="+-+">If I live,</l>
+        <l n="20" real="xxxx" met="-+-+">Or if I die.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-angel" n="L02898">
+      <head>The Angel</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-angel</idno><idno type="laurel-id">L02898</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxxxx" met="--+-+-+-">I dreamt a dream!  What can it mean?</l>
+        <l n="2" real="xxxxx+-x" met="--+-+-+-">And that I was a maiden Queen</l>
+        <l n="3" real="+-xx+-x" met="-+-+-+-">Guarded by an Angel mild:</l>
+        <l n="4" real="+-xxx-+" met="-+-+-+-">Witless woe was ne’er beguiled!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxxxx" met="-+-+-+-">And I wept both night and day,</l>
+        <l n="6" real="xxxxx-+" met="-+-+-+-">And he wiped my tears away;</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">And I wept both day and night,</l>
+        <l n="8" real="xxxxxx-+" met="--+-+-+-">And hid from him my heart’s delight.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">So he took his wings, and fled;</l>
+        <l n="10" real="xxxx+-x" met="-+-+-+-">Then the morn blushed rosy red.</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">I dried my tears, and armed my fears</l>
+        <l n="12" real="xx+-xxx" met="-+-+-+-">With ten thousand shields and spears.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xx+-x-+" met="-+-+-+-">Soon my Angel came again;</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">I was armed, he came in vain;</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">For the time of youth was fled,</l>
+        <l n="16" real="xxxxxxx" met="-+-+-+-">And grey hairs were on my head.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-tiger" n="L02899">
+      <head>The Tiger</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-tiger</idno><idno type="laurel-id">L02899</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa--">
+        <l n="1" real="+-+-+-x" met="-+-+-+-">Tiger, tiger, burning bright</l>
+        <l n="2" real="xx+-xxx" met="-+-+-+-">In the forests of the night,</l>
+        <l n="3" real="x-+-xxx" met="-+-+-+-">What immortal hand or eye</l>
+        <l n="4" real="xxx+-+--" met="--+-+-+-">Could frame thy fearful symmetry?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xx+-xxx" met="-+-+-+-">In what distant deeps or skies</l>
+        <l n="6" real="xx+-xxx" met="-+-+-+-">Burnt the fire of thine eyes?</l>
+        <l n="7" real="xxxxx-+" met="-+-+-+-">On what wings dare he aspire?</l>
+        <l n="8" real="xxxxxx+-" met="--+-+-+-">What the hand dare seize the fire?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xx+-xxx" met="-+-+-+-">And what shoulder and what art</l>
+        <l n="10" real="xxxxxxxx" met="--+-+-+-">Could twist the sinews of thy heart?</l>
+        <l n="11" real="xxxx-+xx" met="--+-+-+-">And, when thy heart began to beat,</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">What dread hand and what dread feet?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xx+-xxx" met="-+-+-+-">What the hammer? what the chain?</l>
+        <l n="14" real="xx+-xxx" met="-+-+-+-">In what furnace was thy brain?</l>
+        <l n="15" real="xx+-xxx" met="-+-+-+-">What the anvil? what dread grasp</l>
+        <l n="16" real="xx+-+-x" met="-+-+-+-">Dare its deadly terrors clasp?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxxxxxx" met="-+-+-+-">When the stars threw down their spears,</l>
+        <l n="18" real="x+-+xxx" met="-+-+-+-">And watered heaven with their tears,</l>
+        <l n="19" real="xxxxxxx" met="-+-+-+-">Did He smile His work to see?</l>
+        <l n="20" real="xxxxxxxx" met="--+-+-+-">Did He who made the lamb make thee?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa--">
+        <l n="21" real="+-+-+-x" met="-+-+-+-">Tiger, tiger, burning bright</l>
+        <l n="22" real="xx+-xxx" met="-+-+-+-">In the forests of the night,</l>
+        <l n="23" real="x-+-xxx" met="-+-+-+-">What immortal hand or eye</l>
+        <l n="24" real="xxx+-+--" met="--+-+-+-">Dare frame thy fearful symmetry?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="my-pretty-rose-tree" n="L02900">
+      <head>My Pretty Rose Tree</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:my-pretty-rose-tree</idno><idno type="laurel-id">L02900</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a-a-">
+        <l n="1" real="x+-x+--xx" met="--+--+--+">A flower was offered to me,</l>
+        <l n="2" real="xx+-xx+-x" met="--+--+--+">Such a flower as May never bore;</l>
+        <l n="3" real="xxxxx+-xx" met="--+--+--+">But I said, ‘I’ve a pretty rose tree,’</l>
+        <l n="4" real="xxx-xx+-x" met="--+--+--+">And I passed the sweet flower o’er.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-xx" met="--+--+--+">Then I went to my pretty rose tree,</l>
+        <l n="6" real="xxxxxxxx" met="-+--+--+">To tend her by day and by night;</l>
+        <l n="7" real="xxxx-+x+--" met="--+--+--+-">But my rose turned away with jealousy,</l>
+        <l n="8" real="xxxxx+--+" met="--+--+--+">And her thorns were my only delight.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ah-sunflower" n="L02901">
+      <head>Ah, Sunflower</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:ah-sunflower</idno><idno type="laurel-id">L02901</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+x-+-xx" met="-+--+--+">Ah, sunflower, weary of time,</l>
+        <l n="2" real="xxxxxxxx" met="-+--+--+">Who countest the steps of the sun;</l>
+        <l n="3" real="+-xxxx+-x" met="--+--+--+">Seeking after that sweet golden clime</l>
+        <l n="4" real="xx+--+-xx" met="--+--+--+">Where the traveller’s journey is done;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx-+x-+-" met="--+--+--+-">Where the Youth pined away with desire,</l>
+        <l n="6" real="xxx+-+-xx" met="--+--+--+">And the pale virgin shrouded in snow,</l>
+        <l n="7" real="-+xxxx-+" met="-+--+--+">Arise from their graves, and aspire</l>
+        <l n="8" real="xx+x-+-xx" met="--+--+--+">Where my Sunflower wishes to go!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lily" n="L02902">
+      <head>The Lily</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-lily</idno><idno type="laurel-id">L02902</idno>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="x+-xxxxx">The modest Rose puts forth a thorn,</l>
+        <l n="2" real="x+-xxxxx">The humble sheep a threat’ning horn:</l>
+        <l n="3" real="xx+-xxxx-+">While the Lily white shall in love delight,</l>
+        <l n="4" real="xxxxxxxx+-x">Nor a thorn nor a threat stain her beauty bright.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-garden-of-love" n="L02903">
+      <head>The Garden of Love</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-garden-of-love</idno><idno type="laurel-id">L02903</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+-xx" met="-+--+--+">I went to the Garden of Love,</l>
+        <l n="2" real="xxxx+-xx" met="-+--+--+">And saw what I never had seen;</l>
+        <l n="3" real="x+-xxxxx" met="-+--+--+">A Chapel was built in the midst,</l>
+        <l n="4" real="xxxxxxxx" met="-+--+--+">Where I used to play on the green.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+-xx" met="--+--+--+">And the gates of this Chapel were shut,</l>
+        <l n="6" real="xxxxxxxx" met="-+--+--+">And ‘Thou shalt not’ writ over the door;</l>
+        <l n="7" real="xxxxx+-xx" met="--+--+--+">So I turned to the Garden of Love</l>
+        <l n="8" real="xx+-x+-x" met="-+--+--+">That so many sweet flowers bore.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxxxxx" met="-+--+--+">And I saw it was filled with graves,</l>
+        <l n="10" real="x+xx+-xx" met="-+--+--+">And tombstones where flowers should be;</l>
+        <l n="11" real="xxxxxx+-xx" met="--+--+--+-">And priests in black gowns were walking their rounds,</l>
+        <l n="12" real="x+-xxxxx-+" met="--+--+--+-">And binding with briars my joys and desires.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-little-vagabond" n="L02904">
+      <head>The Little Vagabond</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-little-vagabond</idno><idno type="laurel-id">L02904</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="--aa">
+        <l n="1" real="x+-x+-xxxx" met="+--+--+--+">Dear mother, dear mother, the Church is cold;</l>
+        <l n="2" real="xx+xx+-x+-xx" met="--+--+--+--+">But the Alehouse is healthy, and pleasant, and warm.</l>
+        <l n="3" real="-+xxxxxxxx" met="+--+--+--+">Besides, I can tell where I am used well;</l>
+        <l n="4" real="x+-x+-x+-xx" met="-+--+--+--+">Such usage in heaven will never do well.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxxxxxxxx" met="-+--+--+--+">But, if at the Church they would give us some ale,</l>
+        <l n="6" real="xx+-++xxxxx" met="-+--+--+--+">And a pleasant fire our souls to regale,</l>
+        <l n="7" real="xxxxxxxxxxx" met="-+--+--+--+">We’d sing and we’d pray all the livelong day,</l>
+        <l n="8" real="x+-xxxxxxx" met="+--+--+--+">Nor ever once wish from the Church to stray.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xx+-xxxxxx" met="+--+--+--+">Then the Parson might preach, and drink, and sing,</l>
+        <l n="10" real="xxxx+-xxxxx" met="-+--+--+--+">And we’d be as happy as birds in the spring;</l>
+        <l n="11" real="x+-xxxx+xxx" met="-+--+--+--+">And modest Dame Lurch, who is always at church,</l>
+        <l n="12" real="xxx+-+-x+-xx" met="--+--+--+--+">Would not have bandy children, nor fasting, nor birch.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxx+--+-xx" met="-+--+--+--+">And God, like a father, rejoicing to see</l>
+        <l n="14" real="x+-x+-x+-xx" met="-+--+--+--+">His children as pleasant and happy as He,</l>
+        <l n="15" real="xxxx+-xx+xx+-" met="--+--+--+--+-">Would have no more quarrel with the Devil or the barrel,</l>
+        <l n="16" real="xxxxxxxxx-+-" met="--+--+--+--+">But kiss him, and give him both drink and apparel.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="london" n="L02905">
+      <head>London</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:london</idno><idno type="laurel-id">L02905</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xx+-x" met="-+-+-+-+">I wander through each chartered street,</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">Near where the chartered Thames does flow,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">A mark in every face I meet,</l>
+        <l n="4" real="xx+-xxx" met="+-+-+-+">Marks of weakness, marks of woe.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">In every cry of every man,</l>
+        <l n="6" real="x+-+-xxx" met="-+-+-+-+">In every infant’s cry of fear,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">In every voice, in every ban,</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">The mind-forged manacles I hear:</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xx+-+-x" met="+-+-+-+">How the chimney-sweeper’s cry</l>
+        <l n="10" real="+-+-xxx" met="+-+-+-+">Every blackening church appals,</l>
+        <l n="11" real="xx+-+-x" met="+-+-+-+">And the hapless soldier’s sigh</l>
+        <l n="12" real="xxxx+-x" met="+-+-+-+">Runs in blood down palace-walls.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxx+xxxx" met="-+-+-+-+">But most, through midnight streets I hear</l>
+        <l n="14" real="xx+-xxx" met="+-+-+-+">How the youthful harlot’s curse</l>
+        <l n="15" real="xxxx+-x" met="+-+-+-+">Blasts the new-born infant’s tear,</l>
+        <l n="16" real="xxxxx+-x" met="-+-+-+-+">And blights with plagues the marriage hearse.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-human-abstract" n="L02906">
+      <head>The Human Abstract</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-human-abstract</idno><idno type="laurel-id">L02906</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="+-xxxx" met="-+-+-+">Pity would be no more</l>
+        <l n="2" real="xxxxx+x-x" met="-+-+-+-+-">If we did not make somebody poor,</l>
+        <l n="3" real="x+-xxxx" met="-+-+-+-">And Mercy no more could be</l>
+        <l n="4" real="xxxx+-xx" met="--+-+-+-">If all were as happy as we.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="x+--xxx" met="-+-+-+-">And mutual fear brings Peace,</l>
+        <l n="6" real="xx+-x-+" met="-+-+-+-">Till the selfish loves increase;</l>
+        <l n="7" real="x+-xxx" met="-+-+-+">Then Cruelty knits a snare,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">And spreads his baits with care.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxx+-x" met="-+-+-+-">He sits down with holy fears,</l>
+        <l n="10" real="x+-xxxx" met="-+-+-+-">And waters the ground with tears;</l>
+        <l n="11" real="x-+--xxx" met="--+-+-+-">Then Humility takes its root</l>
+        <l n="12" real="x-+xx" met="+-+-+">Underneath his foot.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="xxx+-x" met="-+-+-+">Soon spreads the dismal shade</l>
+        <l n="14" real="x+--xxxx" met="--+-+-+-">Of Mystery over his head,</l>
+        <l n="15" real="xx+-x-xx" met="--+-+-+-">And the caterpillar and fly</l>
+        <l n="16" real="xxx+--" met="-+-+-+">Feed on the Mystery.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxxxxx-+" met="--+-+-+-">And it bears the fruit of Deceit,</l>
+        <l n="18" real="+-xxxx" met="-+-+-+">Ruddy and sweet to eat,</l>
+        <l n="19" real="xx+-xxxx" met="--+-+-+-">And the raven his nest has made</l>
+        <l n="20" real="xx+-x" met="+-+-+">In its thickest shade.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="21" real="xxxxxxx" met="-+-+-+-">The gods of the earth and sea</l>
+        <l n="22" real="xx+-xxxx" met="--+-+-+-">Sought through nature to find this tree,</l>
+        <l n="23" real="xxxxxxx" met="-+-+-+-">But their search was all in vain:</l>
+        <l n="24" real="xxxxx+-x" met="--+-+-+-">There grows one in the human Brain.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="infant-sorrow" n="L02907">
+      <head>Infant Sorrow</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:infant-sorrow</idno><idno type="laurel-id">L02907</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="x+-xx+-x" met="-+-+-+-+">My mother groaned, my father wept:</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">Into the dangerous world I leapt,</l>
+        <l n="3" real="+-+--+-x" met="-+-+-+-+">Helpless, naked, piping loud,</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">Like a fiend hid in a cloud.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="+--xx+-x" met="-+-+-+-+">Struggling in my father’s hands,</l>
+        <l n="6" real="+-xxxxxx" met="-+-+-+-+">Striving against my swaddling bands,</l>
+        <l n="7" real="xx+-xxx" met="+-+-+-+">Bound and weary, I thought best</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">To sulk upon my mother’s breast.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-poison-tree" n="L02908">
+      <head>A Poison Tree</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-poison-tree</idno><idno type="laurel-id">L02908</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xx+-xxx" met="-+-+-+-">I was angry with my friend:</l>
+        <l n="2" real="xxxxxxxx" met="--+-+-+-">I told my wrath, my wrath did end.</l>
+        <l n="3" real="xx+-xxx" met="-+-+-+-">I was angry with my foe:</l>
+        <l n="4" real="xxxxxxxx" met="--+-+-+-">I told it not, my wrath did grow.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xx+-xxx" met="-+-+-+-">And I watered it in fears</l>
+        <l n="6" real="xx+-xxx" met="-+-+-+-">Night and morning with my tears,</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">And I sunnèd it with smiles</l>
+        <l n="8" real="xxx-+-x" met="-+-+-+-">And with soft deceitful wiles.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">And it grew both day and night,</l>
+        <l n="10" real="xxxx+-x" met="-+-+-+-">Till it bore an apple bright,</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">And my foe beheld it shine,</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">And he knew that it was mine,—</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxx+-x" met="-+-+-+-">And into my garden stole</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">When the night had veiled the pole;</l>
+        <l n="15" real="xx+-xxx" met="-+-+-+-">In the morning, glad, I see</l>
+        <l n="16" real="xx-+xxxx" met="--+-+-+-">My foe outstretched beneath the tree.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-little-boy-lost" n="L02909">
+      <head>A Little Boy Lost</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-little-boy-lost</idno><idno type="laurel-id">L02909</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xx-+-x-+" met="-+-+-+-+">‘Nought loves another as itself,</l>
+        <l n="2" real="x+-x-+-x" met="-+-+-+-+">Nor venerates another so,</l>
+        <l n="3" real="xxx+--xx" met="-+-+-+-+">Nor is it possible to thought</l>
+        <l n="4" real="x+-x-+xx" met="-+-+-+-+">A greater than itself to know.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">‘And, father, how can I love you</l>
+        <l n="6" real="x+-xx+-x" met="-+-+-+-+">Or any of my brothers more?</l>
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">I love you like the little bird</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">That picks up crumbs around the door.’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">The Priest sat by and heard the child;</l>
+        <l n="10" real="x+-xxxxx" met="-+-+-+-+">In trembling zeal he seized his hair,</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">He led him by his little coat,</l>
+        <l n="12" real="xx-+x+-x" met="-+-+-+-+">And all admired his priestly care.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa--">
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">And standing on the altar high,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">‘Lo, what a fiend is here!’ said he:</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">‘One who sets reason up for judge</l>
+        <l n="16" real="x+-x+-+--" met="-+-+-+-+-">Of our most holy mystery.’</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="x+-xxxxx" met="-+-+-+-+">The weeping child could not be heard,</l>
+        <l n="18" real="x+-+-xxx" met="-+-+-+-+">The weeping parents wept in vain:</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">They stripped him to his little shirt,</l>
+        <l n="20" real="xxxxx+-x" met="-+-+-+-+">And bound him in an iron chain,</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxxxx+-x" met="-+-+-+-+">And burned him in a holy place</l>
+        <l n="22" real="x+-xxxxx" met="-+-+-+-+">Where many had been burned before;</l>
+        <l n="23" real="x+-+-xxx" met="-+-+-+-+">The weeping parents wept in vain.</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">Are such things done on Albion’s shore?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-little-girl-lost" n="L02910">
+      <head>A Little Girl Lost</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-little-girl-lost</idno><idno type="laurel-id">L02910</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="+-xx+-x" met="-+-+-+-">Children of the future age,</l>
+        <l n="2" real="+-x-+-x" met="-+-+-+-">Reading this indignant page,</l>
+        <l n="3" real="xxxx+-x" met="-+-+-+-">Know that in a former time</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">Love, sweet love, was thought a crime.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbb">
+        <l n="5" real="xxxxx" met="+-+-+">In the age of gold,</l>
+        <l n="6" real="xx+-x" met="+-+-+">Free from winter’s cold,</l>
+        <l n="7" real="xx+-x" met="+-+-+">Youth and maiden bright,</l>
+        <l n="8" real="xx+-x" met="+-+-+">To the holy light,</l>
+        <l n="9" real="+-xx+-x-+" met="-+-+-+-+-">Naked in the sunny beams delight.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbb">
+        <l n="10" real="xx+-x" met="+-+-+">Once a youthful pair,</l>
+        <l n="11" real="xx+-x" met="+-+-+">Filled with softest care,</l>
+        <l n="12" real="xx+-x" met="+-+-+">Met in garden bright</l>
+        <l n="13" real="xx+-x" met="+-+-+">Where the holy light</l>
+        <l n="14" real="xx-+x+-xxx" met="--+-+-+-+-">Had just removed the curtains of the night.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbb">
+        <l n="15" real="xx+-x" met="+-+-+">There, in rising day,</l>
+        <l n="16" real="xxxxx" met="+-+-+">On the grass they play;</l>
+        <l n="17" real="+-x-+" met="+-+-+">Parents were afar,</l>
+        <l n="18" real="+-xxx" met="+-+-+">Strangers came not near,</l>
+        <l n="19" real="xx+-x-+xx" met="-+-+-+-+-">And the maiden soon forgot her fear.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabbb">
+        <l n="20" real="+x+-x" met="+-+-+">Tired with kisses sweet,</l>
+        <l n="21" real="x-+xx" met="+-+-+">They agree to meet</l>
+        <l n="22" real="xx+-x" met="+-+-+">When the silent sleep</l>
+        <l n="23" real="xx+-x" met="+-+-+">Waves o’er heaven’s deep,</l>
+        <l n="24" real="xx+-++-x" met="--+-+-+-">And the weary tired wanderers weep.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabbb">
+        <l n="25" real="xx+-x" met="+-+-+">To her father white</l>
+        <l n="26" real="xx+-x" met="+-+-+">Came the maiden bright;</l>
+        <l n="27" real="xx+-x" met="+-+-+">But his loving look,</l>
+        <l n="28" real="xx+-x" met="+-+-+">Like the holy book,</l>
+        <l n="29" real="xx+-xx+-x" met="-+-+-+-+-">All her tender limbs with terror shook.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabbb">
+        <l n="30" real="-+xxx" met="+-+-+">Ona, pale and weak,</l>
+        <l n="31" real="xx+-x" met="+-+-+">To thy father speak!</l>
+        <l n="32" real="xx+-x" met="+-+-+">O the trembling fear!</l>
+        <l n="33" real="xx+-x" met="+-+-+">O the dismal care</l>
+        <l n="34" real="xxx+-xx+-x" met="--+-+-+-+-">That shakes the blossoms of my hoary hair!’</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-divine-image" n="L02911">
+      <head>A Divine Image</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-divine-image</idno><idno type="laurel-id">L02911</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-xx+-x" met="+-+-+-+">Cruelty has a human heart,</l>
+        <l n="2" real="x+--x+-x" met="-+-+-+-+">And Jealousy a human face;</l>
+        <l n="3" real="+-x+-x-+" met="-+-+-+-+">Terror the human form divine,</l>
+        <l n="4" real="x+--x+-x" met="-+-+-+-+">And Secrecy the human dress.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxx+-" met="-+-+-+-+">The human dress is forgèd iron,</l>
+        <l n="6" real="x+-xx+-x" met="-+-+-+-+">The human form a fiery forge,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">The human face a furnace sealed,</l>
+        <l n="8" real="x+-xx+-x" met="-+-+-+-+">The human heart its hungry gorge.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-cradle-song-2" n="L02912">
+      <head>A Cradle Song</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:a-cradle-song-2</idno><idno type="laurel-id">L02912</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xx+-x" met="-+-+-">Sleep, sleep, beauty bright,</l>
+        <l n="2" real="+-xxxxx" met="+-+-+-+">Dreaming in the joys of night;</l>
+        <l n="3" real="xxxxx" met="-+-+-">Sleep, sleep; in thy sleep</l>
+        <l n="4" real="+-+-xxx" met="+-+-+-+">Little sorrows sit and weep.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxx" met="-+-+-">Sweet babe, in thy face</l>
+        <l n="6" real="x-+-xxx" met="+-+-+-+">Soft desires I can trace,</l>
+        <l n="7" real="+-xx+-x" met="+-+-+-+">Secret joys and secret smiles,</l>
+        <l n="8" real="+-+-+-x" met="+-+-+-+">Little pretty infant wiles.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xx+-xxx" met="+-+-+-+">As thy softest limbs I feel,</l>
+        <l n="10" real="xxxx+-x" met="+-+-+-+">Smiles as of the morning steal</l>
+        <l n="11" real="xxxxxxx" met="+-+-+-+">O’er thy cheek, and o’er thy breast</l>
+        <l n="12" real="xx+-xxx" met="+-+-+-+">Where thy little heart doth rest.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xx+-xxx" met="+-+-+-+">O the cunning wiles that creep</l>
+        <l n="14" real="xx+-x-+" met="+-+-+-+">In thy little heart asleep!</l>
+        <l n="15" real="xx+-xxx" met="+-+-+-+">When thy little heart doth wake,</l>
+        <l n="16" real="xx+-xxx" met="+-+-+-+">Then the dreadful light shall break.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-tirzah" n="L02913">
+      <head>To Tirzah</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:to-tirzah</idno><idno type="laurel-id">L02913</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Whate’er is born of mortal birth</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Must be consumèd with the earth,</l>
+        <l n="3" real="xxxx-+-x" met="-+-+-+-+">To rise from generation free:</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Then what have I to do with thee?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">The sexes sprung from shame and pride,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">Blowed in the morn, in evening died;</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">But mercy changed death into sleep;</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">The sexes rose to work and weep.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="x+-xx+-x" met="-+-+-+-+">Thou, mother of my mortal part,</l>
+        <l n="10" real="x+-xxxx" met="+-+-+-+">With cruelty didst mould my heart,</l>
+        <l n="11" real="xxxx-+-x" met="-+-+-+-+">And with false self-deceiving tears</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Didst blind my nostrils, eyes, and ears,</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxx+-x" met="-+-+-+-+">Didst close my tongue in senseless clay,</l>
+        <l n="14" real="xxx+-x-+" met="-+-+-+-+">And me to mortal life betray.</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">The death of Jesus set me free:</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Then what have I to do with thee?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-schoolboy" n="L02914">
+      <head>The Schoolboy</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-schoolboy</idno><idno type="laurel-id">L02914</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababb">
+        <l n="1" real="xxxxxx+-x" met="-+-+-+-+-">I love to rise in a summer morn,</l>
+        <l n="2" real="xxxxx+--x" met="-+-+-+-+-">When the birds sing on every tree;</l>
+        <l n="3" real="x+-+-xxx" met="-+-+-+-+">The distant huntsman winds his horn,</l>
+        <l n="4" real="xx+xxxx" met="+-+-+-+">And the skylark sings with me:</l>
+        <l n="5" real="xxx+--" met="--+-+-">O what sweet company!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababb">
+        <l n="6" real="xxxxxxx+-x" met="--+-+-+-+-">But to go to school in a summer morn,—</l>
+        <l n="7" real="xxxxx-+" met="+-+-+-+">O it drives all joy away!</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">Under a cruel eye outworn,</l>
+        <l n="9" real="x+-xxxx" met="+-+-+-+">The little ones spend the day</l>
+        <l n="10" real="x+-x-+" met="--+-+-">In sighing and dismay.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababb">
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">Ah then at times I drooping sit,</l>
+        <l n="12" real="xx+-x+-+-" met="-+-+-+-+-">And spend many an anxious hour;</l>
+        <l n="13" real="xxxxxxx-+" met="-+-+-+-+-">Nor in my book can I take delight,</l>
+        <l n="14" real="xxxxx+-" met="+-+-+-+">Nor sit in learning’s bower,</l>
+        <l n="15" real="xxxx+-+-" met="-+-+-+-+">Worn through with the dreary shower.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababb">
+        <l n="16" real="xxxxxxxxx" met="-+-+-+-+-">How can the bird that is born for joy</l>
+        <l n="17" real="xxxxxx" met="--+-+-">Sit in a cage and sing?</l>
+        <l n="18" real="xxxxxx-+" met="-+-+-+-+">How can a child, when fears annoy,</l>
+        <l n="19" real="xxx+-x" met="--+-+-">But droop his tender wing,</l>
+        <l n="20" real="x-+x+-x" met="+-+-+-+">And forget his youthful spring!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="ababb">
+        <l n="21" real="x+-x+-xxxx" met="--+-+-+-+-">O father and mother if buds are nipped,</l>
+        <l n="22" real="x+-x-+" met="--+-+-">And blossoms blown away;</l>
+        <l n="23" real="xxx+-xxx" met="-+-+-+-+">And if the tender plants are stripped</l>
+        <l n="24" real="xxxxx+-x" met="-+-+-+-+">Of their joy in the springing day,</l>
+        <l n="25" real="x+-xx-+" met="+-+-+-+">By sorrow and care’s dismay,—</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababb">
+        <l n="26" real="xxx+--+xx" met="-+-+-+-+-">How shall the summer arise in joy,</l>
+        <l n="27" real="xx+-x-+" met="+-+-+-+">Or the summer fruits appear?</l>
+        <l n="28" real="xxxx+-xx-+" met="--+-+-+-+-">Or how shall we gather what griefs destroy,</l>
+        <l n="29" real="xxx+--x" met="+-+-+-+">Or bless the mellowing year,</l>
+        <l n="30" real="xxxx+--+" met="-+-+-+-+">When the blasts of winter appear?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-voice-of-the-ancient-bard" n="L02915">
+      <head>The Voice of the Ancient Bard</head>
+      <idno type="URN">urn:laurel:eng:blake.blake-songs.pg1934:the-voice-of-the-ancient-bard</idno><idno type="laurel-id">L02915</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-aa--bbcdcd">
+        <l n="1" real="xx-+x+-" met="-+-+-+-">Youth of delight! come hither</l>
+        <l n="2" real="xxx+--x" met="-+-+-+-">And see the opening morn,</l>
+        <l n="3" real="+-xxxx" met="-+-+-+">Image of Truth new-born.</l>
+        <l n="4" real="xxxxxx+-" met="--+-+-+-">Doubt is fled, and clouds of reason,</l>
+        <l n="5" real="x-+x+-xx" met="--+-+-+-">Dark disputes and artful teazing.</l>
+        <l n="6" real="+-xx+-x" met="-+-+-+-">Folly is an endless maze;</l>
+        <l n="7" real="+-x-+xx" met="-+-+-+-">Tangled roots perplex her ways;</l>
+        <l n="8" real="x+-x+-x" met="-+-+-+-">How many have fallen there!</l>
+        <l n="9" real="x+-xxxxxxx" met="--+-+-+-+-">They stumble all night over bones of the dead;</l>
+        <l n="10" real="xxxxxxxx" met="--+-+-+-">And feel—they know not what but care;</l>
+        <l n="11" real="xxxx+-xxxxx" met="-+-+-+-+-+-">And wish to lead others, when they should be led.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

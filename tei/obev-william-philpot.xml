@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Maritæ Suæ</title><author>William Philpot</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="marit-su" n="L16231">
+      <head>Maritæ Suæ</head>
+      <idno type="URN">urn:laurel:eng:philpot.obev-william-philpot.pg66619:marit-su</idno><idno type="laurel-id">L16231</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x" met="+">I</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="2" real="xxx+-+-x" met="-+-+-+-+">Of all the flowers rising now,</l>
+        <l n="3" real="x+-xxx" met="--+-+-">Thou only saw’st the head</l>
+        <l n="4" real="xx-+-xxx" met="-+-+-+-+">Of that unopen’d drop of snow</l>
+        <l n="5" real="xx--+xx" met="+-+-+-+">I placed beside thy bed.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">In all the blooms that blow so fast,</l>
+        <l n="7" real="xxx+-x" met="--+-+-">Thou hast no further part,</l>
+        <l n="8" real="xxx+xxxx" met="-+-+-+-+">Save those the hour I saw thee last,</l>
+        <l n="9" real="xxxxxx" met="--+-+-">I laid above thy heart.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="10" real="xxxx+xxx" met="-+-+-+-+">Two snowdrops for our boy and girl,</l>
+        <l n="11" real="x+xxxx" met="--+-+-">A primrose blown for me,</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Wreathed with one often-play’d-with curl</l>
+        <l n="13" real="xxxxxx" met="--+-+-">From each bright head for thee.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">And so I graced thee for thy grave,</l>
+        <l n="15" real="xxx+-x" met="--+-+-">And made these tokens fast</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">With that old silver heart I gave,</l>
+        <l n="17" real="xxxxxx" met="--+-+-">My first gift--and my last.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="18" real="x" met="+">II</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabb">
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">I dream’d, her babe upon her breast,</l>
+        <l n="20" real="xxxxx+-x" met="-+-+-+-+">Here she might lie and calmly rest</l>
+        <l n="21" real="x+-xxxxx" met="-+-+-+-+">Her happy eyes on that far hill</l>
+        <l n="22" real="xxx+xxxx" met="-+-+-+-+">That backs the landscape fresh and still.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabb">
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">I hoped her thoughts would thrid the boughs</l>
+        <l n="24" real="x+-xxx-+" met="-+-+-+-+">Where careless birds on love carouse,</l>
+        <l n="25" real="xxx+-+-x" met="-+-+-+-+">And gaze those apple-blossoms through</l>
+        <l n="26" real="x+-xx+-x" met="-+-+-+-+">To revel in the boundless blue.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aabb">
+        <l n="27" real="xxx+--xx" met="-+-+-+-+">But now her faculty of sight</l>
+        <l n="28" real="x+-+-xxx" met="-+-+-+-+">Is elder sister to the light,</l>
+        <l n="29" real="x+-xxx-+" met="-+-+-+-+">And travels free and unconfined</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Through dense and rare, through form and mind.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aa--">
+        <l n="31" real="xxxxxx-+" met="-+-+-+-+">Or else her life to be complete</l>
+        <l n="32" real="xxx+-xxx" met="-+-+-+-+">Hath found new channels full and meet--</l>
+        <l n="33" real="xxxxx+-x" met="-+-+-+-+">Then, O, what eyes are leaning o’er,</l>
+        <l n="34" real="x+-xxxxx" met="-+-+-+-+">If fairer than they were before!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

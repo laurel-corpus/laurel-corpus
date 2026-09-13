@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Sonnets from the Crimea</title><author>Adam Mickiewicz</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Sonnets from the Crimea. Project Gutenberg ebook #27069. <ref target="https://www.gutenberg.org/ebooks/27069">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-ackerman-steppe" n="L15528">
+      <head>The Ackerman Steppe</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:the-ackerman-steppe</idno><idno type="laurel-id">L15528</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="-+x+xxxxxxx" met="-+-+-+-+-+-">Across sea-meadows measureless I go,</l>
+        <l n="2" real="x+-+-xxxxx" met="-+-+-+-+-+">My wagon sinking under grass so tall</l>
+        <l n="3" real="x+-+-xxxxx" met="-+-+-+-+-+">The flowery petals in foam on me fall,</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">And blossom-isles float by I do not know.</l>
+        <l n="5" real="x+xxx+-+xx" met="-+-+-+-+-+">No pathway can the deepening twilight show;</l>
+        <l n="6" real="xxx+-xx+-x" met="-+-+-+-+-+">I seek the beckoning stars which sailors call,</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">And watch the clouds. What lies there brightening all?</l>
+        <l n="8" real="xxxxx+-+-x" met="-+-+-+-+-+">The Dneister&#x27;s, the steppe-ocean&#x27;s evening glow!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">The silence! I can hear far flight of cranes--</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">So far the eyes of eagle could not reach--</l>
+        <l n="11" real="xxx+-+-xxx" met="-+-+-+-+-+">And bees and blossoms speaking each to each;</l>
+        <l n="12" real="x+-+-xx+-x" met="-+-+-+-+-+">The serpent slipping adown grassy lanes;</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">From my far home if word could come to me!--</l>
+        <l n="14" real="xxxxxxx+xx" met="-+-+-+-+-+">Yet none will come. On, o&#x27;er the meadow-sea!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="becalmed" n="L15529">
+      <head>Becalmed</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:becalmed</idno><idno type="laurel-id">L15529</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">The flag is listless, limp. It dances not.</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">As deep the sea breathes from a gentle breast</l>
+        <l n="3" real="x+-xxxxx-+" met="-+-+-+-+-+">As any bride who dreams at love&#x27;s behest,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">And wakes and sighs, then casts with dreams her lot.</l>
+        <l n="5" real="xxxxxx+--+" met="-+-+-+-+-+">Sails hang upon the masts--useless-forgot--</l>
+        <l n="6" real="x+-+-xx+-x" met="-+-+-+-+-+">Like folded standards which the warriors wrest</l>
+        <l n="7" real="xxx+-xx+-x" met="-+-+-+-+-+">And bring home broken from the battle&#x27;s crest.</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">The sailors rest them in some sheltered spot.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxx-+x-+" met="-+-+-+-+-+">O Sea! within your unknown deeps concealed,</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">When storms are wild, your monsters dream and sleep,</l>
+        <l n="11" real="xxx+-xx+xx" met="-+-+-+-+-+">And all their cruelty for the sunlight keep.</l>
+        <l n="12" real="xxxxxxxx-+" met="-+-+-+-+-+">Thus, Soul of Mine, in your sad deeps concealed</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">The monsters sleep--when wild are storms. They start</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">From out some blue sky&#x27;s peace to seize my heart.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mountains-from-the-keslov-steppe" n="L15530">
+      <head>Mountains from the Keslov Steppe</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:mountains-from-the-keslov-steppe</idno><idno type="laurel-id">L15530</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">What would Great Allah with the frozen sea?</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">Would he of icy clouds a throne carve bright,</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">Or would the demons of the deepest night</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">A bar build where the shining stars sweep free?</l>
+        <l n="5" real="xxx+-+-+xx" met="-+-+-+-+-+">It gleams like pagan cities fired, kings flee.</l>
+        <l n="6" real="xxxxxx-+xx" met="-+-+-+-+-+">When Day was anciently destroyed by Night</l>
+        <l n="7" real="x+--++-xxx" met="-+-+-+-+-+">Did Allah amid chaos fix this light</l>
+        <l n="8" real="xxxxxx-+--" met="-+-+-+-+-+">To guide the star-worlds of eternity?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-xx+-x" met="-+-+-+-+-+">Up there I&#x27;ve journeyed where the winter reigns,</l>
+        <l n="10" real="xxx+-+-xxx" met="-+-+-+-+-+">And seen the rivers bitten black like lines</l>
+        <l n="11" real="xxxxxxxx-+" met="-+-+-+-+-+">On Tschatir Dagh, where the white cloud reclines,</l>
+        <l n="12" real="xxx+-+-+xx" met="-+-+-+-+-+">Which not the wildest eagle&#x27;s shadow stains,</l>
+        <l n="13" real="xx-xxxx+-x" met="-+-+-+-+-+">Where cradled under me the thunders sleep</l>
+        <l n="14" real="x+-xxxx+-x" met="-+-+-+-+-+">And Allah and the stars their watches keep.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="baktschi-serai" n="L15531">
+      <head>Baktschi Serai</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:baktschi-serai</idno><idno type="laurel-id">L15531</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xx+-+-x" met="-+-+-+-+-+">In ruin are the spacious, splendid halls</l>
+        <l n="2" real="x+-+-xx+-x" met="-+-+-+-+-+">With frozen forest of white columns where</l>
+        <l n="3" real="x+-xx+-xxx" met="-+-+-+-+-+">The Tartar Khan his palace builded fair,</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">Where loneliest the shrilling cricket calls.</l>
+        <l n="5" real="x+-+-xx+-x" met="-+-+-+-+-+">The ivy blackens over shining walls</l>
+        <l n="6" real="xxxx-+-+-x" met="-+-+-+-+-+">Enscribing in gigantic letters there</l>
+        <l n="7" real="xxxxxx-+-+" met="-+-+-+-+-+">Some curse Belshazzar-like: Beware! Beware!--</l>
+        <l n="8" real="xxxxx+-+-x" met="-+-+-+-+-+">Then black as crepe from crested columns falls.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">Within the burnished banquet room there sings</l>
+        <l n="10" real="x+-xx+-xxx" met="-+-+-+-+-+">The fountain of the harem pure and clear,</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Just as of old it sang in twilights drear.</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">But whither love and fame speed--on what wings?</l>
+        <l n="13" real="xxxxx+-x-+" met="-+-+-+-+-+">When all things else must perish these endure!</l>
+        <l n="14" real="xxxxx+-+-x" met="-+-+-+-+-+">Yet both are gone! The fountain ripples pure.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="baktschi-serai-by-night" n="L15532">
+      <head>Baktschi Serai by Night</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:baktschi-serai-by-night</idno><idno type="laurel-id">L15532</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">From out the mosques the pious wend their way;</l>
+        <l n="2" real="xx+-+-xxx" met="+-+-+-+-+">Muezzin voices tremble through the night;</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Within the sky the pallid King of Light</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">Wraps silvered ermine round him while he may,</l>
+        <l n="5" real="x+-+-xxx-+" met="-+-+-+-+-+">And Heaven&#x27;s harem greets its star array.</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">One lone white cloud rests in the azure height--</l>
+        <l n="7" real="xxx+-xx+-x" met="-+-+-+-+-+">A veiled court lady in some sorrow&#x27;s plight--</l>
+        <l n="8" real="x+-xxxxx-+" met="-+-+-+-+-+">Whom cruel love and day have cast away.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">The mosques stand there; and here tall cypress trees;</l>
+        <l n="10" real="x+-+-xx+-x" met="-+-+-+-+-+">There--mountains, towering, black as demons frown,</l>
+        <l n="11" real="x+--xxxxxx" met="-+-+-+-+-+">Which Lucifer in rage from God cast down.</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">Like sword blades lightning flickers over these,</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">And on an Arab steed the wild Khan rides</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Who goes to Baktschi Serai which night hides.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-grave-of-countess-potocka" n="L15533">
+      <head>The Grave of Countess Potocka</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:the-grave-of-countess-potocka</idno><idno type="laurel-id">L15533</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">In Spring of love and life, My Polish Rose,</l>
+        <l n="2" real="x+-x-+xxxx" met="-+-+-+-+-+">You faded and forgot the joy of youth;</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">Bright butterfly, it brushed you, then left ruth</l>
+        <l n="4" real="x+-+--xxxx" met="-+-+-+-+-+">Of bitter memory that stings and glows.</l>
+        <l n="5" real="xxxxxxx+xx" met="-+-+-+-+-+">O Stars! that seek a path my northland knows,</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">How dare you now on Poland shine forsooth,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">When she who loved you and lent you her youth</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Sleeps where beneath the wind the long grass blows?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="-+x+-xxxxx" met="-+-+-+-+-+">Alone, My Polish Rose, I die, like you.</l>
+        <l n="10" real="-+xxxxxxxx" met="-+-+-+-+-+">Beside your grave a while pray let me rest</l>
+        <l n="11" real="x+-+-xxx-+" met="-+-+-+-+-+">With other wanderers at some grief&#x27;s behest.</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">The tongue of Poland by your grave rings true.</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">High-hearted, now a young boy past it goes,</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">Of you it is he sings, My Polish Rose.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-graves-of-the-harem" n="L15534">
+      <head>The Graves of the Harem</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:the-graves-of-the-harem</idno><idno type="laurel-id">L15534</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">They sleep well here whom Allah loved and kept</l>
+        <l n="2" real="x+-xx+-xxx" met="-+-+-+-+-+">And treasured in his vineyard fair and fine,</l>
+        <l n="3" real="x+-xx+-xxxx" met="-+-+-+-+-+-">Most lustrous of the Orient pearls that shine,</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">Which youth found where the waves of passion swept.</l>
+        <l n="5" real="xxxx-+-xxx" met="-+-+-+-+-+">Here, where in peace perpetual they have slept,</l>
+        <l n="6" real="x+-+-xx+-x" met="-+-+-+-+-+">A turban beckons where the roses twine,</l>
+        <l n="7" real="x+-+-xx+-x" met="-+-+-+-+-+">A banner flutters out in silken line,</l>
+        <l n="8" real="x-+xxxxxx" met="+-+-+-+-+">And sometimes here a Giaour&#x27;s name is kept.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">Oh! roses of this paradise of old,</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">The eyes that loved not Allah saw you not,</l>
+        <l n="11" real="xxxxx+-x-+" met="-+-+-+-+-+">Nor arms that prayed not eastward could enfold!</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">But now a Christian treads this hallowed spot;</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">Wise Allah, curse not him who bows his head</l>
+        <l n="14" real="-+x+-xxxxx" met="-+-+-+-+-+">Amid the marble shrines of Allah&#x27;s dead!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="baydary" n="L15535">
+      <head>Baydary</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:baydary</idno><idno type="laurel-id">L15535</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaab-a">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Give wings unto the storm, and spurs to steed,</l>
+        <l n="2" real="xxxxxx-+xx" met="-+-+-+-+-+">I&#x27;d move unchained as wind across the world,</l>
+        <l n="3" real="x+-xx+-+-x" met="-+-+-+-+-+">Sweep onward like a torrent mountain-hurled,</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">Nor sea, nor height, nor valley pause to heed.</l>
+        <l n="5" real="x+xxxxxx+x" met="-+-+-+-+-+">The twilight spreads a dimness o&#x27;er our speed,</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">And shows the diamond-stars from hoofs up-whirled,</l>
+        <l n="7" real="x+xxxxxxxx" met="-+-+-+-+-+">Since daylight now her curtained blue has juried,</l>
+        <l n="8" real="x+--x+-+xx" met="-+-+-+-+-+">And mystery and magic shadows breed.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">The earth sleeps, but not I--not I--not I--</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">Who hasten to the shore where waves are loud</l>
+        <l n="11" real="xxxxxx+-+-x" met="-+-+-+-+-+-">And toward me in the darkness whitely crowd.</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Beneath them I would still my soul&#x27;s deep cry--</l>
+        <l n="13" real="xxx+xxxxxx" met="-+-+-+-+-+">Like ships the whirlpools seize to drag to death--</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">I&#x27;d plunge within the silence, sans thought, breath.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="alushta-by-day" n="L15536">
+      <head>Alushta by Day</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:alushta-by-day</idno><idno type="laurel-id">L15536</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-+-xxxxx" met="-+-+-+-+-+">The mighty mountain flings its mist-veil down;</l>
+        <l n="2" real="x+-+x+-xxx" met="-+-+-+-+-+">With little flowers the gracious fields are bright,</l>
+        <l n="3" real="xxx+-+-xxx" met="-+-+-+-+-+">And from the forest colors flash to sight</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Like gems that drop from off a Calif&#x27;s crown.</l>
+        <l n="5" real="xxx+x+-+-x" met="-+-+-+-+-+">Upon the meadows settles shimmering down</l>
+        <l n="6" real="xxx+-xx+xx" met="-+-+-+-+-+">A band of butterflies in rainbow flight;</l>
+        <l n="7" real="-+-xxxxx-+" met="-+-+-+-+-+">Cicadas call and call in day&#x27;s delight,</l>
+        <l n="8" real="xxx+-xx+-x" met="-+-+-+-+-+">And bees are dreaming in a blossom&#x27;s crown.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">The waves beneath the cliff are thunder-pale,</l>
+        <l n="10" real="x+-+-xxxxx" met="-+-+-+-+-+">Now upward, upward in their rage they rise</l>
+        <l n="11" real="x+-xxxx+-x" met="-+-+-+-+-+">And tawny are their crests as tigers&#x27; eyes.</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">The sun is focused on one white, far sail</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">And on blue, shining deeps as smooth as glass</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">Wherein slim cranes are shadowed as they pass.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="alushta-by-night" n="L15537">
+      <head>Alushta by Night</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:alushta-by-night</idno><idno type="laurel-id">L15537</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-+-xxx-+" met="-+-+-+-+-+">The drooping, weary day night pushed aside;</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">On Tschatir Dagh the sullen sun and low</l>
+        <l n="3" real="x+-+-xx+-x" met="-+-+-+-+-+">Paints phantom purple upon ancient snow;</l>
+        <l n="4" real="x+-xxxx+-x" met="-+-+-+-+-+">While forest ways within, the wanderers hide.</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">Night veils the mountains and the valleys wide;</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">The thunderous brooks are dream-held, dulled, and slow;</l>
+        <l n="7" real="xxx+-+-+-x" met="-+-+-+-+-+">Beneath the blackness fragrant flowers blow</l>
+        <l n="8" real="xxx+-xx+-x" met="-+-+-+-+-+">And rich leaf-music clothes each valley side.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="+xx+-xxxxx" met="-+-+-+-+-+">Almost my waking eyes are dream-held too;</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">With gold a meteor marks the deep-domed sky</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">And fountain-like the fiery sparks float by.</l>
+        <l n="12" real="x+-xx+-xxx" met="-+-+-+-+-+">Oh! Beauty of the Eastern Night, you woo</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">My spirit like the odalisque, who held</l>
+        <l n="14" real="x+-xxxxx-+" met="-+-+-+-+-+">Men captive till her kiss the dream dispelled!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="tschatir-dagh" n="L15538">
+      <head>Tschatir Dagh</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:tschatir-dagh</idno><idno type="laurel-id">L15538</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">The reverent Mussulman bends low to greet</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">You, Tschatir Dagh, Crimea&#x27;s bright-masted ship!</l>
+        <l n="3" real="x+-x-+xxxx" met="-+-+-+-+-+">World-altar,--minaret--the place where dip</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">Down stairs from golden Heaven for the feet!</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">You guard the door of God in splendor meet,</l>
+        <l n="6" real="x+--x+-xxx" met="-+-+-+-+-+">Like Gabriel with holy sword on hip;</l>
+        <l n="7" real="xxxx-xxxxx" met="-+-+-+-+-+">In bright mist mantled from the toe to lip,</l>
+        <l n="8" real="x+-xx+-xxx" met="-+-+-+-+-+">Tour turban set with alien stars and sweet.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="x+-xxxx+-x" met="-+-+-+-+-+">If winter rule the world, or summer&#x27;s sun,</l>
+        <l n="10" real="xxxxxxxxx" met="+-+-+-+-+">If Giaour rage about, or winds are wild,</l>
+        <l n="11" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Above them, Tschatir Dagh, you, changeless one,</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">Are like to Allah, pure and undefiled;</l>
+        <l n="13" real="-+x+xxx+-x" met="-+-+-+-+-+">Aloft you tower from out the lowly sod</l>
+        <l n="14" real="xxxx-+xxxx" met="-+-+-+-+-+">To give to men again the will of God.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbaabba">
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Below me half a world I see outspread;</l>
+        <l n="16" real="xxx+-xxxxx" met="-+-+-+-+-+">Above, blue heaven; around, peaks of snow;</l>
+        <l n="17" real="xxx+-xxxxx" met="-+-+-+-+-+">And yet the happy pulse of life is slow,</l>
+        <l n="18" real="xxx+-+-+-x" met="-+-+-+-+-+">I dream of distant places, pleasures dead.</l>
+        <l n="19" real="xxxx-+-xxx" met="-+-+-+-+-+">The woods of Lithuania I would tread</l>
+        <l n="20" real="x+-+-xxxxx" met="-+-+-+-+-+">Where happy-throated birds sing songs I know;</l>
+        <l n="21" real="xxx+-+xxxx" met="-+-+-+-+-+">Above the trembling marshland I would go</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">Where chill-winged curlews dip and call o&#x27;er head.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbacc">
+        <l n="23" real="x+-+-+-xxx" met="-+-+-+-+-+">A tragic, lonely terror grips my heart,</l>
+        <l n="24" real="x+-xx+-+-x" met="-+-+-+-+-+">A longing for some peaceful, gentle place,</l>
+        <l n="25" real="x+--x+-xxx" met="-+-+-+-+-+">And memories of youthful love I trace.</l>
+        <l n="26" real="xxx+xxxxxx" met="-+-+-+-+-+">Unto my childhood home I long to start,</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">And yet if all the leaves my name could cry</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">She would not pause nor heed as she passed by.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-pass-across-the-abyss-in-the-tschufut-kale" n="L15539">
+      <head>The Pass Across the Abyss in the Tschufut-Kale</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:the-pass-across-the-abyss-in-the-tschufut-kale</idno><idno type="laurel-id">L15539</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Pray! Pray! Let loose the bridle. Look not down!</l>
+        <l n="2" real="x+-x-+x+-x" met="-+-+-+-+-+">The humble horse alone has wisdom here.</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">He knows where blackest the abysses leer</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">And where the path in safety leads us down.</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">Pray, and look upward to the mountain&#x27;s crown!</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">The deep below is endless where you peer;</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Stretch not the hand out as you pass, for fear</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">The added weight of that might plunge you down.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aa">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And check your thoughts&#x27; free flight, too, while you go;</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Let all of Fancy&#x27;s fluttering sails be furled</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Here where Death watches o&#x27;er the riven world.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aa">
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">I lived to cross the bridge of ancient snow!</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">But what I saw my tongue no more can tell,</l>
+        <l n="14" real="x+-+-x-+xx" met="-+-+-+-+-+">The angels only could rehearse that well.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbaabba">
+        <l n="15" real="-+x+-xxx-+" met="-+-+-+-+-+">Behold blue Heaven in that deep abyss!</l>
+        <l n="16" real="xxxx-+xxxx" met="-+-+-+-+-+">The sea is that! Behold the long waves shine!</l>
+        <l n="17" real="xxxxx+-x-+" met="-+-+-+-+-+">Watch how they rock that giant bird divine,</l>
+        <l n="18" real="x+-xxx-+-x" met="-+-+-+-+-+">Whose swinging white wings wide horizons kiss.</l>
+        <l n="19" real="xxx+-xxx-+" met="-+-+-+-+-+">Is that an iceberg in the blue abyss?</l>
+        <l n="20" real="xxxxxxx+-x" met="-+-+-+-+-+">No, no--a cloud! Watch how &#x27;tis veiling fine</l>
+        <l n="21" real="xxxxx+-+-x" met="-+-+-+-+-+">The sea, the land, out-blotting every line</l>
+        <l n="22" real="xxxxx+-xxx" met="-+-+-+-+-+">To drown it all in darkness soon I wis.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abbacc">
+        <l n="23" real="x+-xx+-xxx" met="-+-+-+-+-+">The lightning comes now! Frightful is its sweep.</l>
+        <l n="24" real="x+-+-xxxxx" met="-+-+-+-+-+">But softly--softly! Watch my spur--my whip!</l>
+        <l n="25" real="xx-+xxxxx" met="+-+-+-+-+">I&#x27;ll leap across unto that chasm&#x27;s lip.</l>
+        <l n="26" real="xxx+-+-xxx" met="-+-+-+-+-+">What still and chilling sternness great cliffs keep!</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">Down there light calls to me. Soon there I&#x27;ll be.</l>
+        <l n="28" real="-+-xx+--xx" met="-+-+-+-+-+">Uncanny is such loneliness to me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-ruins-of-balaclava" n="L15540">
+      <head>The Ruins of Balaclava</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:the-ruins-of-balaclava</idno><idno type="laurel-id">L15540</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+--+xx+-x" met="-+-+-+-+-+">Oh, thankless Crimean land! in ruin laid</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">Are now the castles that were once your pride!</l>
+        <l n="3" real="x+-xxxx+xx" met="-+-+-+-+-+">Here serpents and the owls from daylight hide,</l>
+        <l n="4" real="x+-xxxx+-x" met="-+-+-+-+-+">And robbers arm them for the nightly raid.</l>
+        <l n="5" real="xxx+-+-xxx" met="-+-+-+-+-+">Upon the lettered marble boasts are made,</l>
+        <l n="6" real="xxx+--xxxx" met="-+-+-+-+-+">Brave words on battered arms in gold descried,</l>
+        <l n="7" real="x+-+-xx+-x" met="-+-+-+-+-+">And broken splendor years have scattered wide,</l>
+        <l n="8" real="-+xxxxxx-+" met="-+-+-+-+-+">Beside the dead who made them are arrayed.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-+-+-x" met="-+-+-+-+-+">The Greek set shining, columned marble here.</l>
+        <l n="10" real="x+-xx+-xxx" met="-+-+-+-+-+">The Latin put the Mongol horde to flight,</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">And Mussulmans prayed eastward morn and night.</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">The owl and vulture of dark wing and drear</l>
+        <l n="13" real="x+-xx+-+-+" met="-+-+-+-+-+">Are fluttering like black banners overhead</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">In cities where the pest piles high the dead.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-juda-s-cliff" n="L15541">
+      <head>On Juda&#x27;s Cliff</head>
+      <idno type="URN">urn:laurel:eng:mickiewicz.mickiewicz-crimea.pg27069:on-juda-s-cliff</idno><idno type="laurel-id">L15541</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">On Juda&#x27;s Cliff I love to lean and look</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">On waves that battling beat and break with might,</l>
+        <l n="3" real="x+-+-xxx-+" met="-+-+-+-+-+">While farther seaward in a bland delight,</l>
+        <l n="4" real="xxx+-xx+xx" met="-+-+-+-+-+">I see them shining where a rainbow shook.</l>
+        <l n="5" real="x+-xxxxxxx" met="-+-+-+-+-+">On Juda&#x27;s Cliff I love to lean and look</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">On waves that like sea-armies swing to sight,</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">To send upon the shore their billows white,</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">And, ebbing, to leave pearls in every nook.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-ab">
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">And passions break upon the heart and brain,</l>
+        <l n="10" real="xxx+-x+-xx" met="-+-+-+-+-+">To leave their ruin there--shipwreck and waste--</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Pick up your lute! Upon it undefiled</l>
+        <l n="12" real="xxxxxxxx-+" met="-+-+-+-+-+">You&#x27;ll find song-pearls that your heart-deeps retain,</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">The crown the years have brought you, white and chaste.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

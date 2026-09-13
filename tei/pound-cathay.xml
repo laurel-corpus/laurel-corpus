@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Cathay</title><author>Ezra Pound</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Cathay. Project Gutenberg ebook #50155. <ref target="https://www.gutenberg.org/ebooks/50155">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song-of-the-bowmen-of-shu" n="L01231">
+      <head>Song of the Bowmen of Shu</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:song-of-the-bowmen-of-shu</idno><idno type="laurel-id">L01231</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1" rhyme="abc--a---de---ecb-----------d-">
+        <l n="1" real="xxx+-xxxx" met="-+-+-+-+-">Here we are, picking the first fern-shoots</l>
+        <l n="2" real="x+-xxxxxx+-+-" met="-+-+-+-+-+-+-">And saying: When shall we get back to our country?</l>
+        <l n="3" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">Here we are because we have the Ken-nin for our</l>
+        <l n="4" real="xx" met="-+">foemen,</l>
+        <l n="5" real="xxx+-xxxx+-" met="+-+-+-+-+-+">We have no comfort because of these Mongols.</l>
+        <l n="6" real="xxxxxx" met="--+-+-">We grub the soft fern-shoots,</l>
+        <l n="7" real="x+-xx-+x+-xxx" met="-+-+-+-+-+-+-">When anyone says &quot;Return,&quot; the others are full of</l>
+        <l n="8" real="+-" met="-+">sorrow.</l>
+        <l n="9" real="+--x+-xxxx+-" met="-+-+-+-+-+-+">Sorrowful minds, sorrow is strong, we are hungry</l>
+        <l n="10" real="x+-" met="-+-">and thirsty.</l>
+        <l n="11" real="+--+xxxxxxxxx" met="-+-+-+-+-+-+-">Our defence is not yet made sure, no one can let</l>
+        <l n="12" real="xx-+" met="--+-">his friend return.</l>
+        <l n="13" real="xxxxxx" met="--+-+-">We grub the old fern-stalks.</l>
+        <l n="14" real="xxxxxxxxxx-+-" met="-+-+-+-+-+-+-">We say: Will we be let to go back in October?</l>
+        <l n="15" real="xxxxx+--+xxx+-" met="--+-+-+-+-+-+-">There is no ease in royal affairs, we have no comfort.</l>
+        <l n="16" real="+-+-x+-xxxx-+x+-" met="--+-+-+-+-+-+-+-">Our sorrow is bitter, but we would not return to our</l>
+        <l n="17" real="+-" met="-+">country.</l>
+        <l n="18" real="x+-xxxx+-" met="-+-+-+-+-">What flower has come into blossom?</l>
+        <l n="19" real="x+--x+--" met="--+-+-+-">Whose chariot? The General&#x27;s.</l>
+        <l n="20" real="+-x+-+-x+-xxx" met="-+-+-+-+-+-+-">Horses, his horses even, are tired. They were strong.</l>
+        <l n="21" real="xxxxx+-xx" met="-+-+-+-+-">We have no rest, three battles a month.</l>
+        <l n="22" real="x+-x+-x+-" met="-+-+-+-+-">By heaven, his horses are tired.</l>
+        <l n="23" real="x+--xxxx+-xxx" met="-+-+-+-+-+-+-">The generals are on them, the soldiers are by them</l>
+        <l n="24" real="x+-xxxx+--x+--" met="--+-+-+-+-+-+-">The horses are well trained, the generals have ivory</l>
+        <l n="25" real="+-xxx+-x-xxx" met="-+-+-+-+-+-+">arrows and quivers ornamented with fish-skin.</l>
+        <l n="26" real="x+--xxxxx+-" met="+-+-+-+-+-+">The enemy is swift, we must be careful.</l>
+        <l n="27" real="xxxxx+xx+-xx" met="-+-+-+-+-+-+">When we set out, the willows were drooping with spring,</l>
+        <l n="28" real="xxxxxx" met="--+-+-">We come back in the snow,</l>
+        <l n="29" real="xx+-xx+-x+-" met="+-+-+-+-+-+">We go slowly, we are hungry and thirsty,</l>
+        <l n="30" real="+-xxxx+-xxxx+-x" met="-+-+-+-+-+-+-+-">Our mind is full of sorrow, who will know of our grief?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-beautiful-toilet" n="L01232">
+      <head>The Beautiful Toilet</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:the-beautiful-toilet</idno><idno type="laurel-id">L01232</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxx+-" met="+--+--+--+">Blue, blue is the grass about the river</l>
+        <l n="2" real="xx+xxxxxxx+-" met="--+--+--+--+">And the willows have overfilled the close garden.</l>
+        <l n="3" real="xxxx+-xxxxxxx" met="--+--+--+--+-">And within, the mistress, in the midmost of her youth,</l>
+        <l n="4" real="xxxx+-x+-xx" met="-+--+--+--+">White, white of face, hesitates, passing the door.</l>
+        <l n="5" real="+-xxxx+-x" met="+-+--+--+">Slender, she puts forth a slender hand,</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="xxxxxxxxxxx" met="-+--+--+--+">And she was a courtezan in the old days,</l>
+        <l n="7" real="xxx+-xx" met="--+--+-">And she has married a sot,</l>
+        <l n="8" real="xxxxxxx" met="--+--+-">Who now goes drunkenly out</l>
+        <l n="9" real="xxxxx-+" met="--+--+-">And leaves her too much alone.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="10" real="xxx" met="--+">By Mei Sheng.</l>
+        <l n="11" real="xx" met="-+">B.C. 140.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-river-song" n="L01233">
+      <head>The River Song</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:the-river-song</idno><idno type="laurel-id">L01233</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1" rhyme="---a---a--a">
+        <l n="1" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">This boat is of shato-wood, and its gunwales are cut</l>
+        <l n="2" real="-+-" met="-+-">magnolia,</l>
+        <l n="3" real="-+-xxxxxxxxx" met="-+-+-+-+-+-+">Musicians with jewelled flutes and with pipes of gold</l>
+        <l n="4" real="xxxxxxx+-x" met="--+-+-+-+-">Fill full the sides in rows, and our wine</l>
+        <l n="5" real="xxxx+-x" met="-+-+-+-">Is rich for a thousand cups.</l>
+        <l n="6" real="x+-+-xxxx+-+-" met="-+-+-+-+-+-+-">We carry singing girls, drift with the drifting water,</l>
+        <l n="7" real="xxxx" met="--+-">Yet Sennin needs</l>
+        <l n="8" real="x+-xxx+-xx+-+-" met="--+-+-+-+-+-+-">A yellow stork for a charger, and all our seamen</l>
+        <l n="9" real="x+-xxxxxx" met="-+-+-+-+-">Would follow the white gulls or ride them.</l>
+        <l n="10" real="xxxx" met="--+-">Kutsu&#x27;s prose song</l>
+        <l n="11" real="xxxxxx" met="--+-+-">Hangs with the sun and moon.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a----">
+        <l n="12" real="xx+-+-" met="--+-+-">King So&#x27;s terraced palace</l>
+        <l n="13" real="xxxx+-x" met="-+-+-+-">is now but a barren hill,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">But I draw pen on this barge</l>
+        <l n="15" real="+-xxxx+-" met="--+-+-+-">Causing the five peaks to tremble,</l>
+        <l n="16" real="xxxxxxx" met="-+-+-+-">And I have joy in these words</l>
+        <l n="17" real="xxxxx+-" met="-+-+-+-">like the joy of blue islands.</l>
+        <l n="18" real="x+-xx-+-" met="--+-+-+-">(If glory could last forever</l>
+        <l n="19" real="xx+-xxxx+-" met="--+-+-+-+-">Then the waters of Han would flow northward.)</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="20" real="xxxxxx+--+--+-" met="--+-+-+-+-+-+-">And I have moped in the Emperor&#x27;s garden, awaiting</l>
+        <l n="21" real="x+-xx" met="-+-+-">an order-to-write!</l>
+        <l n="22" real="xxxx+-xxx+x+-" met="-+-+-+-+-+-+-">I looked at the dragon-pond, with its willow-coloured</l>
+        <l n="23" real="+-" met="-+">water</l>
+        <l n="24" real="x-+-xxx" met="-+-+-+-">Just reflecting the sky&#x27;s tinge,</l>
+        <l n="25" real="xxxxxxxx+--+-" met="-+-+-+-+-+-+-">And heard the five-score nightingales aimlessly singing.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="---------------------aa-bb--">
+        <l n="26" real="x+-xxxx+-xxx+-" met="--+-+-+-+-+-+-">The eastern wind brings the green colour into the island</l>
+        <l n="27" real="+-xxx" met="-+-+-">grasses at Yei-shu,</l>
+        <l n="28" real="x+-xxx+-xxxx" met="-+-+-+-+-+-+">The purple house and the crimson are full of Spring</l>
+        <l n="29" real="+-" met="-+">softness.</l>
+        <l n="30" real="xxxxx+xxxxxx" met="-+-+-+-+-+-+">South of the pond the willow-tips are half-blue and</l>
+        <l n="31" real="+-" met="-+">bluer,</l>
+        <l n="32" real="xx+-xxxxx-+x" met="-+-+-+-+-+-+">Their cords tangle in mist, against the brocade-like</l>
+        <l n="33" real="+-" met="-+">palace.</l>
+        <l n="34" real="xxx+-xxxxxx" met="+-+-+-+-+-+">Vine-strings a hundred feet long hang down from carved</l>
+        <l n="35" real="+-" met="-+">railings,</l>
+        <l n="36" real="xxxxx+xxxxxxx" met="-+-+-+-+-+-+-">And high over the willows, the fine birds sing to each</l>
+        <l n="37" real="+-x+-" met="-+-+-">other, and listen,</l>
+        <l n="38" real="+-xxxx+-xxxx" met="-+-+-+-+-+-+">Crying--&quot;Kwan, Kuan,&quot; for the early wind, and the feel</l>
+        <l n="39" real="xx" met="-+">of it.</l>
+        <l n="40" real="xx+--+xxx+-xx+-x" met="--+-+-+-+-+-+-+-">The wind bundles itself into a bluish cloud and wanders off.</l>
+        <l n="41" real="xxx+-xxxx+-xxxx" met="-+-+-+-+-+-+-+-">Over a thousand gates, over a thousand doors are the sounds</l>
+        <l n="42" real="xx+-" met="--+-">of spring  singing,</l>
+        <l n="43" real="xx+--xxx" met="--+-+-+-">And the Emperor is at Ko.</l>
+        <l n="44" real="xxx-+xxx+-x" met="+-+-+-+-+-+">Five clouds hang aloft, bright on the purple sky,</l>
+        <l n="45" real="x-+--xxxxx+-xx" met="--+-+-+-+-+-+-">The imperial guards come forth from the golden house with</l>
+        <l n="46" real="x+-x+-" met="--+-+-">their armour a-gleaming.</l>
+        <l n="47" real="x+--xxxxxxxx-+x" met="-+-+-+-+-+-+-+-">The emperor in his jewelled car goes out to inspect his</l>
+        <l n="48" real="+-" met="-+">flowers,</l>
+        <l n="49" real="xxxx+-xxxxx+-x" met="--+-+-+-+-+-+-">He goes out to Hori, to look at the wing-flapping storks,</l>
+        <l n="50" real="x-+xxxxxxxxxxxx" met="-+-+-+-+-+-+-+-">He returns by way of Sei rock, to hear the new nightingales,</l>
+        <l n="51" real="xx+-xxxxxxxxxx" met="--+-+-+-+-+-+-">For the gardens at Jo-run are full of new nightingales,</l>
+        <l n="52" real="xxxxxxx" met="-+-+-+-">Their sound is mixed in this flute,</l>
+        <l n="53" real="xxxxxxxx" met="--+-+-+-">Their voice is in the twelve pipes here.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-river-merchant-s-wife-a-letter" n="L01234">
+      <head>The River-Merchant&#x27;s Wife: a Letter</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:the-river-merchant-s-wife-a-letter</idno><idno type="laurel-id">L01234</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx-+x+-" met="--+-+-+-+-+-">While my hair was still cut straight across my forehead</l>
+        <l n="2" real="xxxxxxx+-+-" met="-+-+-+-+-+-">I played about the front gate, pulling flowers.</l>
+        <l n="3" real="xxxx-+x+-x" met="-+-+-+-+-+">You came by on bamboo stilts, playing horse,</l>
+        <l n="4" real="xxxxxx+-xxx" met="-+-+-+-+-+-">You walked about my seat, playing with blue plums.</l>
+        <l n="5" real="xxxx+-xx+-xxx" met="-+-+-+-+-+-+-">And we went on living in the village of Chokan:</l>
+        <l n="6" real="xx+-xx-+x-+-" met="--+-+-+-+-+-">Two small people, without dislike or suspicion.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aa-">
+        <l n="7" real="x++x+-xxx" met="+-+-+-+-+">At fourteen I married My Lord you.</l>
+        <l n="8" real="x+-x+-+-" met="--+-+-+-">I never laughed, being bashful.</l>
+        <l n="9" real="+--xxxxxxx" met="-+-+-+-+-+">Lowering my head, I looked at the wall.</l>
+        <l n="10" real="xxx+-xx+-xx" met="-+-+-+-+-+-">Called to, a thousand times, I never looked back.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="11" real="x-+xx+-" met="-+-+-+-">At fifteen I stopped scowling,</l>
+        <l n="12" real="x-+-xxxx+-xx" met="--+-+-+-+-+-">I desired my dust to be mingled with yours</l>
+        <l n="13" real="-+-x-+-x-+-" met="-+-+-+-+-+-">Forever and forever, and forever.</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">Why should I climb the look out?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a--a------------">
+        <l n="15" real="x-+x-+-" met="-+-+-+-">At sixteen you departed,</l>
+        <l n="16" real="xxxxxxxxxx+-x+-+-" met="-+-+-+-+-+-+-+-+-">You went into far Ku-to-Yen, by the river of swirling eddies,</l>
+        <l n="17" real="xxxxxxx" met="-+-+-+-">And you have been gone five months.</l>
+        <l n="18" real="x+-x+--x+-+" met="-+-+-+-+-+-">The monkeys make sorrowful noise overhead.</l>
+        <l n="19" real="xxxxxxxx" met="--+-+-+-">You dragged your feet when you went out.</l>
+        <l n="20" real="xxxxxxxxx+--+-" met="--+-+-+-+-+-+-">By the gate now, the moss is grown, the different mosses,</l>
+        <l n="21" real="xxxxx-+" met="-+-+-+-">Too deep to clear them away!</l>
+        <l n="22" real="xxx+-x+-xx" met="-+-+-+-+-+">The leaves fall early this autumn, in wind.</l>
+        <l n="23" real="xx+-xx-+-+-x+-" met="--+-+-+-+-+-+-">The paired butterflies are already yellow with August</l>
+        <l n="24" real="xxxxxxx+-" met="+-+-+-+-+">Over the grass in the West garden,</l>
+        <l n="25" real="xxx" met="-+-">They hurt me,</l>
+        <l n="26" real="xx+-" met="--+-">I grow older,</l>
+        <l n="27" real="xxx+-xxx+-xx+-x" met="-+-+-+-+-+-+-+-">If you are coming down through the narrows of the river Kiang,</l>
+        <l n="28" real="xxxx-+x" met="-+-+-+-">Please let me know beforehand,</l>
+        <l n="29" real="xxxxxxxx" met="--+-+-+-">And I will come out to meet you,</l>
+        <l n="30" real="xxxxxx" met="--+-+-">As far as Cho-fu-Sa.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-jewel-stairs-grievance" n="L01235">
+      <head>The Jewel Stairs&#x27; Grievance</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:the-jewel-stairs-grievance</idno><idno type="laurel-id">L01235</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxx-+-xxxx">The jewelled steps are already quite white with dew,</l>
+        <l n="2" real="xxxxxxxxxx+-">It is so late that the dew soaks my gauze stockings,</l>
+        <l n="3" real="xxxxx+-+-">And I let down the crystal curtain</l>
+        <l n="4" real="xxxxxxx+-">And watch the moon through the clear autumn.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="by-rihaku" n="L01236">
+      <head>By Rihaku</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:by-rihaku</idno><idno type="laurel-id">L01236</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1" rhyme="--a-a---">
+        <l n="1" real="x+-xxxx+-+-" met="-+-+-+-+-+-">Note.--Jewel stairs, therefore a palace. Grievance,</l>
+        <l n="2" real="xxxx+-x-+xx" met="-+-+-+-+-+-">therefore there is something to complain, of. Gauze</l>
+        <l n="3" real="+-xxxx+-xx+-x" met="+-+-+-+-+-+-+">stockings, therefore a court lady, not a servant who</l>
+        <l n="4" real="-+x+-xxxxx-+x" met="+-+-+-+-+-+-+">complains. Clear autumn, therefore he has no excuse on</l>
+        <l n="5" real="-+x+-+-xxx+-xxx" met="-+-+-+-+-+-+-+-">account of weather. Also she has come early, for the dew</l>
+        <l n="6" real="xx+-xxxxxxxx" met="--+-+-+-+-+-">has not merely whitened the stairs, but has soaked her</l>
+        <l n="7" real="+-x+-x-+-xxxx+-" met="-+-+-+-+-+-+-+-">stockings. The poem is especially prized because she utters</l>
+        <l n="8" real="x-+-+" met="-+-+-">no direct reproach.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem-by-the-bridge-at-ten-shin" n="L01237">
+      <head>Poem by the Bridge at Ten-Shin</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:poem-by-the-bridge-at-ten-shin</idno><idno type="laurel-id">L01237</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="---a-aa-">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">March has come to the bridge head,</l>
+        <l n="2" real="xxx+-xxxxxx+-x" met="--+-+-+-+-+-+-">Peach boughs and apricot boughs hang over a thousand gates,</l>
+        <l n="3" real="x+-xx+-xxxx" met="-+-+-+-+-+-">At morning there are flowers to cut the heart,</l>
+        <l n="4" real="x+-xxxx+-+-+-" met="-+-+-+-+-+-+-">And evening drives them on the eastward-flowing waters.</l>
+        <l n="5" real="+-xxxx+-xxx+-" met="-+-+-+-+-+-+-">Petals are on the gone waters and on the going,</l>
+        <l n="6" real="xxxx+-+-" met="-+-+-+-+">And on the back-swirling eddies,</l>
+        <l n="7" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">But to-days men are not the men of the old days,</l>
+        <l n="8" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Though they hang in the same way over the bridge-rail.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----------------aa------">
+        <l n="9" real="xx+-xxxx" met="-+-+-+-+">The sea&#x27;s colour moves at the dawn</l>
+        <l n="10" real="xx+-xxxxxxxx" met="--+-+-+-+-+-">And the princes still stand in rows, about the throne,</l>
+        <l n="11" real="xxxxxxx+-xxxx" met="-+-+-+-+-+-+-">And the moon falls over the portals of Sei-go-yo,</l>
+        <l n="12" real="xxxxxxxxx" met="-+-+-+-+-">And clings to the walls and the gate-top.</l>
+        <l n="13" real="xxx+--xxxxxx" met="--+-+-+-+-+-">With head-gear glittering against the cloud and sun,</l>
+        <l n="14" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">The lords go forth from the court, and into far borders.</l>
+        <l n="15" real="xxxx+-x+-" met="-+-+-+-+-">They ride upon dragon-like horses,</l>
+        <l n="16" real="xx+-xx+-x+-+-" met="-+-+-+-+-+-+-">Upon horses with head-trappings of yellow-metal,</l>
+        <l n="17" real="xxxxxxx+-" met="-+-+-+-+-">And the streets make way for their passage.</l>
+        <l n="18" real="+-x+-" met="-+-+-">Haughty their passing,</l>
+        <l n="19" real="+-xxxxxxxx+-" met="--+-+-+-+-+-">Haughty their steps as they go into great banquets,</l>
+        <l n="20" real="xxxx+--x" met="-+-+-+-+">To high halls and curious food,</l>
+        <l n="21" real="xx-+xxx+-" met="-+-+-+-+-">To the perfumed air and girls dancing,</l>
+        <l n="22" real="xxxxx+-" met="+-+-+-+">To clear flutes and clear singing;</l>
+        <l n="23" real="xxxxx+--+-" met="--+-+-+-+-">To the dance of the seventy couples;</l>
+        <l n="24" real="xxxxxx+-" met="-+-+-+-+">To the mad chase through the gardens.</l>
+        <l n="25" real="xxxx+-xxx+-" met="-+-+-+-+-+-">Night and day are given over to pleasure</l>
+        <l n="26" real="xxxxxxx+-xx" met="-+-+-+-+-+-">And they think it will last a thousand autumns,</l>
+        <l n="27" real="xxxxx" met="-+-+-">Unwearying autumns.</l>
+        <l n="28" real="xxx+-xx+xxx" met="-+-+-+-+-+-">For them the yellow dogs howl portents in vain,</l>
+        <l n="29" real="xxxx-+xx+-xxx" met="-+-+-+-+-+-+-">And what are they compared to the lady Riokushu,</l>
+        <l n="30" real="xxxxx" met="-+-+-">That was cause of hate!</l>
+        <l n="31" real="xxxxxxxxxx" met="--+-+-+-+-">Who among them is a man like Han-rei</l>
+        <l n="32" real="x-+--+xx+-" met="--+-+-+-+-">Who departed alone with his mistress,</l>
+        <l n="33" real="xxx-+xxxxxx" met="-+-+-+-+-+-">With her hair unbound, and he his own skiffs-man!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lament-of-the-frontier-guard" n="L01238">
+      <head>Lament of the Frontier Guard</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:lament-of-the-frontier-guard</idno><idno type="laurel-id">L01238</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a-b-a---cc---b----------">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">By the North Gate, the wind blows full of sand,</l>
+        <l n="2" real="+-xx-+-xxxxx" met="--+-+-+-+-+-">Lonely from the beginning of time until now!</l>
+        <l n="3" real="xxxxx+-x+-" met="-+-+-+-+-+">Trees fall, the grass goes yellow with autumn.</l>
+        <l n="4" real="xxx+-x+-" met="--+-+-+-">I climb the towers and towers</l>
+        <l n="5" real="xxxx+--x" met="--+-+-+-">to watch out the barbarous land:</l>
+        <l n="6" real="+--+-xxxx+-" met="-+-+-+-+-+-">Desolate castle, the sky, the wide desert.</l>
+        <l n="7" real="xxxxxxx+-" met="+-+-+-+-+">There is no wall left to this village.</l>
+        <l n="8" real="xxxx+-x" met="-+-+-+-">Bones white with a thousand frosts,</l>
+        <l n="9" real="xx+-xxxx" met="--+-+-+-">High heaps, covered with trees and grass;</l>
+        <l n="10" real="xxxxx" met="-+-+-">Who brought this to pass?</l>
+        <l n="11" real="xxxx+--+--+-" met="--+-+-+-+-+-">Who has brought the flaming imperial anger?</l>
+        <l n="12" real="xxxx+-xxxx+-x" met="-+-+-+-+-+-+-">Who has brought the army with drums and with kettle-drums?</l>
+        <l n="13" real="+--x" met="--+-">Barbarous kings.</l>
+        <l n="14" real="x+-xxxx+--+-" met="--+-+-+-+-+-">A gracious spring, turned to blood-ravenous autumn,</l>
+        <l n="15" real="x+xxxxxxxx+-+-" met="--+-+-+-+-+-+-">A turmoil of wars-men, spread over the middle kingdom,</l>
+        <l n="16" real="x+-x+-+-" met="--+-+-+-">Three hundred and sixty thousand,</l>
+        <l n="17" real="x+-+-xx" met="-+-+-+-">And sorrow, sorrow like rain.</l>
+        <l n="18" real="+-xxx+-+--+-" met="--+-+-+-+-+-">Sorrow to go, and sorrow, sorrow returning,</l>
+        <l n="19" real="+--+--x" met="-+-+-+-">Desolate, desolate fields,</l>
+        <l n="20" real="xx+-x+xxxx" met="-+-+-+-+-+">And no children of warfare upon them,</l>
+        <l n="21" real="x+-xxxxxx-+" met="-+-+-+-+-+-">No longer the men for offence and defence.</l>
+        <l n="22" real="xxxxxx+-+-xxxx" met="--+-+-+-+-+-+-">Ah, how shall you know the dreary sorrow at the North Gate,</l>
+        <l n="23" real="xxxxx-+-" met="--+-+-+-">With Rihoku&#x27;s name forgotten,</l>
+        <l n="24" real="xx+-xxx+-" met="+-+-+-+-+">And we guardsmen fed to the tigers.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="exile-s-letter" n="L01239">
+      <head>Exile&#x27;s Letter</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:exile-s-letter</idno><idno type="laurel-id">L01239</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1" rhyme="-aa-------------">
+        <l n="1" real="xxxxxx+-x+--x+--" met="--+-+-+-+-+-+-+-">To So-Kin of Rakuyo, ancient friend, Chancellor of Gen.</l>
+        <l n="2" real="xx-+-xxxxx+-+-" met="--+-+-+-+-+-+-">Now I remember that you built me a special tavern</l>
+        <l n="3" real="xxxxxxxxxx" met="--+-+-+-+-">By the south side of the bridge at Ten-Shin.</l>
+        <l n="4" real="x+-xxx+-xxxx" met="-+-+-+-+-+-+">With yellow gold and white jewels, we paid for songs</l>
+        <l n="5" real="x+-" met="-+-">and laughter</l>
+        <l n="6" real="xxxxxxxx-+-x" met="-+-+-+-+-+-+">And we were drunk for month on month, forgetting the</l>
+        <l n="7" real="xx+-" met="--+-">kings and  princes.</l>
+        <l n="8" real="-+--xx+-xxxxxx" met="--+-+-+-+-+-+-">Intelligent men came drifting in from the sea and from</l>
+        <l n="9" real="xx+-" met="--+-">the west border,</l>
+        <l n="10" real="xxxxxx-+-" met="-+-+-+-+-">And with them, and with you especially</l>
+        <l n="11" real="xx+-xx+-" met="--+-+-+-">There was nothing at cross purpose,</l>
+        <l n="12" real="xxx+-xx+-xx+-" met="-+-+-+-+-+-+-">And they made nothing of sea-crossing or of mountain</l>
+        <l n="13" real="+-" met="-+">crossing,</l>
+        <l n="14" real="x+-xxxxx+-x" met="+-+-+-+-+-+">If only they could be of that fellowship,</l>
+        <l n="15" real="xxxxx+-xxxxxx" met="-+-+-+-+-+-+-">And we all spoke out our hearts and minds, and without</l>
+        <l n="16" real="-+" met="-+">regret.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="17" real="xxxxxxxxx" met="-+-+-+-+-">And then I was sent off to South Wei,</l>
+        <l n="18" real="+-x+-x" met="--+-+-">smothered in laurel groves,</l>
+        <l n="19" real="xxxxxxxxxx" met="--+-+-+-+-">And you to the north of Raku-hoku,</l>
+        <l n="20" real="xxx+-xxx+--x+-" met="--+-+-+-+-+-+-">Till we had nothing but thoughts and memories in common.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="--ab--a----------------b-">
+        <l n="21" real="xxxx-+-xxxxx" met="-+-+-+-+-+-+">And then, when separation had come to its worst,</l>
+        <l n="22" real="xxx+-xxxx" met="-+-+-+-+-">We met, and travelled into Sen-Go,</l>
+        <l n="23" real="xxx+-xxxx+-x" met="-+-+-+-+-+-+">Through all the thirty-six folds of the turning and</l>
+        <l n="24" real="+-+-" met="--+-">twisting waters,</l>
+        <l n="25" real="xxx+-xx+-x+-" met="-+-+-+-+-+-+">Into a valley of the thousand bright flowers,</l>
+        <l n="26" real="xxxx+-" met="--+-+-">That was the first valley;</l>
+        <l n="27" real="xxxx+-+-xx+-x" met="-+-+-+-+-+-+-">And into ten thousand valleys full of voices and</l>
+        <l n="28" real="xx" met="-+">pine-winds.</l>
+        <l n="29" real="xx+-+-xxxx" met="--+-+-+-+-">And with silver harness and reins of gold,</l>
+        <l n="30" real="xxxxxx+-xx+--" met="-+-+-+-+-+-+-">Out come the East of Kan foreman and his company.</l>
+        <l n="31" real="xxx+-xxxxxxxxx" met="--+-+-+-+-+-+-">And there came also the &quot;True man&quot; of Shi-yo to meet me,</l>
+        <l n="32" real="+-xxxxx+-" met="-+-+-+-+-">Playing on a jewelled mouth-organ.</l>
+        <l n="33" real="xx+-+-xxxxxxxxx" met="-+-+-+-+-+-+-+-">In the storied houses of San-Ko they gave us more Sennin</l>
+        <l n="34" real="+-" met="-+">music,</l>
+        <l n="35" real="+-+--xxxxx+-x" met="-+-+-+-+-+-+-">Many instruments, like the sound of young phoenix broods.</l>
+        <l n="36" real="x+-xxxxx" met="--+-+-+-">The foreman of Kan Chu, drunk, danced</l>
+        <l n="37" real="xxxxx+-xx" met="-+-+-+-+-">because his long sleeves wouldn&#x27;t keep still</l>
+        <l n="38" real="xx+-+-" met="--+-+-">With that music-playing.</l>
+        <l n="39" real="xxxx-+xxxxxxx" met="-+-+-+-+-+-+-">And I, wrapped in brocade, went to sleep with my head on</l>
+        <l n="40" real="xx" met="-+">his lap,</l>
+        <l n="41" real="xx+-xxxxxxxx+-" met="--+-+-+-+-+-+-">And my spirit so high it was all over the heavens,</l>
+        <l n="42" real="xxxxxxxxxx+-xx" met="--+-+-+-+-+-+-">And before the end of the day we were scattered like stars,</l>
+        <l n="43" real="xx" met="-+">or rain.</l>
+        <l n="44" real="xxxxxxxx-+xxx+-" met="-+-+-+-+-+-+-+-">I had to be off to So, far away over the waters,</l>
+        <l n="45" real="xxxx+-x" met="-+-+-+-">You back to your river-bridge.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-------------------------a-a--------bb------">
+        <l n="46" real="xx+-xxxxx+-" met="+-+-+-+-+-+">And your father, who was brave as a leopard,</l>
+        <l n="47" real="x+--xxxxxxx-+--+-" met="-+-+-+-+-+-+-+-+-">Was governor in Hei Shu, and put down the barbarian rabble.</l>
+        <l n="48" real="xxxxxxxxx" met="-+-+-+-+-">And one May he had you send for me,</l>
+        <l n="49" real="-+xx+-" met="--+-+-">despite the long distance.</l>
+        <l n="50" real="xxx+-xxxxxxxx+-" met="-+-+-+-+-+-+-+-">And what with broken wheels and so on, I won&#x27;t say it wasn&#x27;t</l>
+        <l n="51" real="x+-" met="-+-">hard going,</l>
+        <l n="52" real="xxx+-xxx" met="--+-+-+-">Over roads twisted like sheeps&#x27; guts.</l>
+        <l n="53" real="xxxx+-xxxx" met="--+-+-+-+-">And I was still going, late in the year,</l>
+        <l n="54" real="xx+-xxxx" met="--+-+-+-">in the cutting wind from the North,</l>
+        <l n="55" real="x+-x+-xxxxx" met="+-+-+-+-+-+">And thinking how little you cared for the cost,</l>
+        <l n="56" real="xx+--+xxx" met="-+-+-+-+-">and you caring enough to pay it.</l>
+        <l n="57" real="xxx-+-" met="--+-+-">And what a reception:</l>
+        <l n="58" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">Red jade cups, food well set on a blue jewelled table,</l>
+        <l n="59" real="xxxxxxxxx-+-" met="-+-+-+-+-+-+">And I was drunk, and had no thought of returning.</l>
+        <l n="60" real="xxxxxxxxx+-+-xx" met="-+-+-+-+-+-+-+-">And you would walk out with me to the western corner of the</l>
+        <l n="61" real="+-" met="-+">castle,</l>
+        <l n="62" real="xx-+-+-x+-xxxxxxx" met="-+-+-+-+-+-+-+-+-">To the dynastic temple, with water about it clear as blue jade,</l>
+        <l n="63" real="xx+-xxxxx+-xx" met="-+-+-+-+-+-+-">With boats floating, and the sound of mouth-organs and drums,</l>
+        <l n="64" real="x+-x+-x+-xxxx+-" met="-+-+-+-+-+-+-+-">With ripples like dragon-scales, going grass green on the water,</l>
+        <l n="65" real="+-+-xxxx+-x+-xx" met="-+-+-+-+-+-+-+-">Pleasure lasting, with courtezans, going and coming without</l>
+        <l n="66" real="+-" met="-+">hindrance,</l>
+        <l n="67" real="xx+xx+-xx" met="-+-+-+-+-">With the willow flakes falling like snow,</l>
+        <l n="68" real="xxxxxx+-xxx+x" met="-+-+-+-+-+-+-">And the vermilioned girls getting drunk about sunset,</l>
+        <l n="69" real="xx+-x+-xx-+-x+x" met="-+-+-+-+-+-+-+-">And the water a hundred feet deep reflecting green eyebrows</l>
+        <l n="70" real="+x+-xxxxxxx+x" met="-+-+-+-+-+-+-">--Eyebrows painted green are a fine sight in young moonlight,</l>
+        <l n="71" real="+--+-" met="-+-+-">Gracefully painted--</l>
+        <l n="72" real="xxx+-xxx+-" met="--+-+-+-+-">And the girls singing back at each other,</l>
+        <l n="73" real="+-x-+--+" met="--+-+-+-">Dancing in transparent brocade,</l>
+        <l n="74" real="xxx+-xxxx-+-x" met="-+-+-+-+-+-+-">And the wind lifting the song, and interrupting it,</l>
+        <l n="75" real="+-xxxxxx" met="--+-+-+-">Tossing it up under the clouds.</l>
+        <l n="76" real="xxxxxxx" met="-+-+-+-">And all this comes to an end.</l>
+        <l n="77" real="xxx-+xxxx" met="-+-+-+-+-">And is not again to be met with.</l>
+        <l n="78" real="xxxxxxx-x-+-" met="-+-+-+-+-+-+">I went up to the court for examination,</l>
+        <l n="79" real="xxx+-xxx" met="--+-+-+-">Tried Layu&#x27;s luck, offered the Choyo song,</l>
+        <l n="80" real="xxx-+-" met="--+-+-">And got no promotion,</l>
+        <l n="81" real="xxxxxx+-" met="--+-+-+-">and went back to the East Mountains</l>
+        <l n="82" real="x+-" met="-+-">white-headed.</l>
+        <l n="83" real="xx-++-xxxxxxx" met="-+-+-+-+-+-+-">And once again, later, we met at the South bridge-head.</l>
+        <l n="84" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">And then the crowd broke up, you went north to San palace,</l>
+        <l n="85" real="xxxxxx-+x+-" met="+-+-+-+-+-+">And if you ask how I regret that parting:</l>
+        <l n="86" real="xxxx+-+-xxx" met="+-+-+-+-+-+">It is like the flowers falling at Spring&#x27;s end</l>
+        <l n="87" real="-+xxx+-" met="-+-+-+-">Confused, whirled in a tangle.</l>
+        <l n="88" real="xxxxx+-xxxxxx+-" met="-+-+-+-+-+-+-+-">What is the use of talking, and there is no end of talking,</l>
+        <l n="89" real="xxxxxxxxx" met="-+-+-+-+-">There is no end of things in the heart.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="90" real="xxxxx" met="-+-+-">I call in the boy,</l>
+        <l n="91" real="xxxxxxx" met="-+-+-+-">Have him sit on his knees here</l>
+        <l n="92" real="xxx" met="-+-">To seal this,</l>
+        <l n="93" real="xxxx+-x+-" met="-+-+-+-+-">And send it a thousand miles, thinking.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-seafarer" n="L01240">
+      <head>The Seafarer</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:the-seafarer</idno><idno type="laurel-id">L01240</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="---a--aa-b---c---cb---d-d">
+        <l n="1" real="xxxxxxxx+-" met="--+-+-+-+-">May I for my own self song&#x27;s truth reckon,</l>
+        <l n="2" real="+-+-xxxxx" met="-+-+-+-+-">Journey&#x27;s jargon, how I in harsh days</l>
+        <l n="3" real="+--+x" met="-+-+-">Hardship endured oft.</l>
+        <l n="4" real="+-xxxx-+-" met="-+-+-+-+-">Bitter breast-cares have I abided,</l>
+        <l n="5" real="xxxx+-xxx" met="-+-+-+-+-">Known on my keel many a care&#x27;s hold,</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">And dire sea-surge, and there I oft spent</l>
+        <l n="7" real="+-xxxxxx" met="-+-+-+-+">Narrow nightwatch nigh the ship&#x27;s head</l>
+        <l n="8" real="xxxxxx+--+-" met="-+-+-+-+-+-">While she tossed close to cliffs. Coldly afflicted,</l>
+        <l n="9" real="xxxxxxx" met="+-+-+-+">My feet were by frost benumbed.</l>
+        <l n="10" real="xxxx+-x" met="+-+-+-+">Chill its chains are; chafing sighs</l>
+        <l n="11" real="xxxxx+--+" met="-+-+-+-+-">Hew my heart round and hunger begot</l>
+        <l n="12" real="x+-xxxxx" met="-+-+-+-+">Mere-weary mood. Lest man know not</l>
+        <l n="13" real="xxxxxxxxxx" met="--+-+-+-+-">That he on dry land loveliest liveth,</l>
+        <l n="14" real="xxxx+-xxxx" met="--+-+-+-+-">List how I, care-wretched, on ice-cold sea,</l>
+        <l n="15" real="+-x+-+-+x" met="-+-+-+-+-">Weathered the winter, wretched outcast</l>
+        <l n="16" real="-+xxxx" met="--+-+-">Deprived of my kinsmen;</l>
+        <l n="17" real="xxxxxxxxx" met="-+-+-+-+-">Hung with hard ice-flakes, where hail-scur flew,</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">There I heard naught save the harsh sea</l>
+        <l n="19" real="xxxxxxxxx" met="-+-+-+-+-">And ice-cold wave, at whiles the swan cries,</l>
+        <l n="20" real="xxxxxxx+-" met="-+-+-+-+-">Did for my games the gannet&#x27;s clamour,</l>
+        <l n="21" real="xxxxxxx+-" met="-+-+-+-+-">Sea-fowls&#x27; loudness was for me laughter,</l>
+        <l n="22" real="xx+-xxxx" met="-+-+-+-+">The mews&#x27; singing all my mead-drink.</l>
+        <l n="23" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Storms, on the stone-cliffs beaten, fell on the stern</l>
+        <l n="24" real="x+-+-xxx+-x" met="-+-+-+-+-+-">In icy feathers; full oft the eagle screamed</l>
+        <l n="25" real="xxxx+-" met="--+-+-">With spray on his pinion.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----------------a-a-----------------------------bb-------------c--c-c--c-----">
+        <l n="26" real="x+--+-" met="--+-+-">Not any protector</l>
+        <l n="27" real="xx+-x+-+-" met="-+-+-+-+-">May make merry man faring needy.</l>
+        <l n="28" real="xx+--+xxx+-x" met="--+-+-+-+-+-">This he little believes, who aye in winsome life</l>
+        <l n="29" real="-+xxxx+-+-" met="--+-+-+-+-">Abides &#x27;mid burghers some heavy business,</l>
+        <l n="30" real="+-xxxxx+-x" met="--+-+-+-+-">Wealthy and wine-flushed, how I weary oft</l>
+        <l n="31" real="xxxxx" met="-+-+-">Must bide above brine.</l>
+        <l n="32" real="xx+xxxxx" met="-+-+-+-+">Neareth nightshade, snoweth from north,</l>
+        <l n="33" real="xxxxxxxxx" met="-+-+-+-+-">Frost froze the land, hail fell on earth then</l>
+        <l n="34" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Corn of the coldest. Nathless there knocketh now</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">The heart&#x27;s thought that I on high streams</l>
+        <l n="36" real="xx+-+-+--+" met="--+-+-+-+-">The salt-wavy tumult traverse alone.</l>
+        <l n="37" real="xxxxxxx" met="+-+-+-+">Moaneth alway my mind&#x27;s lust</l>
+        <l n="38" real="xxxxxx-+x" met="-+-+-+-+-">That I fare forth, that I afar hence</l>
+        <l n="39" real="xxx+-+-" met="+-+-+-+">Seek out a foreign fastness.</l>
+        <l n="40" real="xxxxx+-xxxxx" met="--+-+-+-+-+-">For this there&#x27;s no mood-lofty man over earth&#x27;s midst,</l>
+        <l n="41" real="xxxx+-xxxxxxx" met="-+-+-+-+-+-+-">Not though he be given his good, but will have in his</l>
+        <l n="42" real="xx" met="-+">youth greed;</l>
+        <l n="43" real="xxxxx+-xxxxx+-" met="--+-+-+-+-+-+-">Nor his deed to the daring, nor his king to the faithful</l>
+        <l n="44" real="xxxx+-xxx" met="-+-+-+-+-">But shall have his sorrow for sea-fare</l>
+        <l n="45" real="x+-xxx" met="--+-+-">Whatever his lord will.</l>
+        <l n="46" real="xxxxx+-xxx+-" met="--+-+-+-+-+-">He hath not heart for harping, nor in ring-having</l>
+        <l n="47" real="xxxxxxxxx-+" met="-+-+-+-+-+-">Nor winsomeness to wife, nor world&#x27;s delight</l>
+        <l n="48" real="x+-xxxxxx" met="-+-+-+-+-">Nor any whit else save the wave&#x27;s slash,</l>
+        <l n="49" real="x+-xxxxxxxxx+-" met="--+-+-+-+-+-+-">Yet longing comes upon him to fare forth on the water.</l>
+        <l n="50" real="x+-+-+-+-x+-" met="--+-+-+-+-+-">Bosque taketh blossom, cometh beauty of berries,</l>
+        <l n="51" real="xx+-xx+-" met="-+-+-+-+">Fields to fairness, land fares brisker,</l>
+        <l n="52" real="xxxxxxx+-xx" met="-+-+-+-+-+-">All this admonisheth man eager of mood,</l>
+        <l n="53" real="xxxx+-xxxxx" met="-+-+-+-+-+-">The heart turns to travel so that he then thinks</l>
+        <l n="54" real="xxxxxx-+-" met="-+-+-+-+-">On flood-ways to be far departing.</l>
+        <l n="55" real="+xxxx+-+-" met="-+-+-+-+-">Cuckoo calleth with gloomy crying,</l>
+        <l n="56" real="xxxxxxxx+-" met="--+-+-+-+-">He singeth summerward, bodeth sorrow,</l>
+        <l n="57" real="x+-xx+-xx" met="-+-+-+-+-">The bitter heart&#x27;s blood. Burgher knows not--</l>
+        <l n="58" real="xx+--xxx-+" met="--+-+-+-+-">He the prosperous man--what some perform</l>
+        <l n="59" real="x+--x+-xx" met="-+-+-+-+-">Where wandering them widest draweth.</l>
+        <l n="60" real="xxxxxxxxxxx" met="-+-+-+-+-+-">So that but now my heart burst from my breast-lock,</l>
+        <l n="61" real="xxxxxx" met="--+-+-">My mood &#x27;mid the mere-flood,</l>
+        <l n="62" real="xxxx+-x+-x" met="--+-+-+-+-">Over the whale&#x27;s acre, would wander wide.</l>
+        <l n="63" real="xx+-+-xxx" met="-+-+-+-+-">On earth&#x27;s shelter cometh oft to me,</l>
+        <l n="64" real="+-x+-x+-x+-" met="-+-+-+-+-+-">Eager and ready, the crying lone-flyer,</l>
+        <l n="65" real="xxxxxxxx-+--" met="--+-+-+-+-+-">Whets for the whale-path the heart irresistibly,</l>
+        <l n="66" real="xxx+-+-x+-x" met="-+-+-+-+-+-">O&#x27;er tracks of ocean; seeing that anyhow</l>
+        <l n="67" real="xxxxxxxx" met="-+-+-+-+">My lord deems to me this dead life</l>
+        <l n="68" real="xxxxxx-+x" met="-+-+-+-+-">On loan and on land, I believe not</l>
+        <l n="69" real="x+-xx-+-xx" met="--+-+-+-+-">That any earth-weal eternal standeth</l>
+        <l n="70" real="xxx++-+--" met="-+-+-+-+-">Save there be somewhat calamitous</l>
+        <l n="71" real="xxxxxxxxxx" met="--+-+-+-+-">That, ere a man&#x27;s tide go, turn it to twain.</l>
+        <l n="72" real="-+xxxxxx" met="-+-+-+-+">Disease or oldness or sword-hate</l>
+        <l n="73" real="xxxxxxx+-" met="-+-+-+-+-">Beats out the breath from doom-gripped body.</l>
+        <l n="74" real="xxx+--xx+-xx+-xx" met="--+-+-+-+-+-+-+-">And for this, every earl whatever, for those speaking after--</l>
+        <l n="75" real="xxx+-xxxxx" met="--+-+-+-+-">Laud of the living, boasteth some last word,</l>
+        <l n="76" real="xxxxxxx+-" met="-+-+-+-+-">That he will work ere he pass onward,</l>
+        <l n="77" real="xxxxxxxx+-" met="--+-+-+-+-">Frame on the fair earth &#x27;gainst foes his malice,</l>
+        <l n="78" real="+--+" met="--+-">Daring ado,...</l>
+        <l n="79" real="xxxxx+-xxx" met="--+-+-+-+-">So that all men shall honour him after</l>
+        <l n="80" real="xxxxxx-+xx+-" met="--+-+-+-+-+-">And his laud beyond them remain &#x27;mid the English,</l>
+        <l n="81" real="xx+-x+-xx" met="-+-+-+-+-">Aye, for ever, a lasting life&#x27;s-blast,</l>
+        <l n="82" real="-+xx+-" met="--+-+-">Delight mid the doughty.</l>
+        <l n="83" real="x+-+--" met="--+-+-">Days little durable,</l>
+        <l n="84" real="xx+--x+-+-" met="--+-+-+-+-">And all arrogance of earthen riches,</l>
+        <l n="85" real="xxxxxx+-" met="-+-+-+-+">There come now no kings nor Caesars</l>
+        <l n="86" real="xx+-xxxx" met="-+-+-+-+">Nor gold-giving lords like those gone.</l>
+        <l n="87" real="xxxxx+-x" met="-+-+-+-+">Howe&#x27;er in mirth most magnified,</l>
+        <l n="88" real="xxxxxxx" met="+-+-+-+">Whoe&#x27;er lived in life most lordliest,</l>
+        <l n="89" real="xxx+---+xxxx" met="--+-+-+-+-+-">Drear all this excellence, delights undurable!</l>
+        <l n="90" real="xxxxxxxxx" met="-+-+-+-+-">Waneth the watch, but the world holdeth.</l>
+        <l n="91" real="xxx+-" met="-+-+-">Tomb hideth trouble.</l>
+        <l n="92" real="xxxxx" met="-+-+-">The blade is laid low.</l>
+        <l n="93" real="+-+-xxxxx" met="-+-+-+-+-">Earthly glory ageth and seareth.</l>
+        <l n="94" real="xxxx+-xxx" met="-+-+-+-+-">No man at all going the earth&#x27;s gait,</l>
+        <l n="95" real="xxxxxxxxxx" met="--+-+-+-+-">But age fares against him, his face paleth,</l>
+        <l n="96" real="xxxxxxx-+-" met="--+-+-+-+-">Grey-haired he groaneth, knows gone companions,</l>
+        <l n="97" real="xxxxxxxxx" met="-+-+-+-+-">Lordly men are to earth o&#x27;ergiven,</l>
+        <l n="98" real="xxxxxx+-xxxx" met="--+-+-+-+-+-">Nor may he then the flesh-cover, whose life ceaseth,</l>
+        <l n="99" real="xxxxxxx+-" met="-+-+-+-+-">Nor eat the sweet nor feel the sorry,</l>
+        <l n="100" real="xxxxxxxx" met="-+-+-+-+">Nor stir hand nor think in mid heart,</l>
+        <l n="101" real="xxxxxxxx" met="-+-+-+-+">And though he strew the grave with gold,</l>
+        <l n="102" real="xx+-x+-+-" met="-+-+-+-+-">His born brothers, their buried bodies</l>
+        <l n="103" real="xx-+-+-x" met="-+-+-+-+">Be an unlikely treasure hoard.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="four-poems-of-departure" n="L01241">
+      <head>Four Poems of Departure</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:four-poems-of-departure</idno><idno type="laurel-id">L01241</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx" met="+--+--+">Light rain is on the light dust.</l>
+        <l n="2" real="x+xxxxx" met="+--+--+">The willows of the inn-yard</l>
+        <l n="3" real="xx+-+-x+-" met="--+--+--+">Will be going greener and greener,</l>
+        <l n="4" real="xxxx+-xxxx-+-" met="--+--+--+--+-">But you, Sir, had better take wine ere your departure,</l>
+        <l n="5" real="xxxxxxxxx" met="--+--+--+">For you will have no friends about you</l>
+        <l n="6" real="xxxxxxxx" met="-+--+--+">When you come to the gates of Go.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="separation-on-the-river-kiang" n="L01242">
+      <head>Separation on the River Kiang</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:separation-on-the-river-kiang</idno><idno type="laurel-id">L01242</idno>
+      <lg type="stanza" n="1" rhyme="-a-a-">
+        <l n="1" real="xxxxxxxxx">Ko-jin goes west from Ko-kaku-ro,</l>
+        <l n="2" real="xx+-xxxxx+-">The smoke-flowers are blurred over the river.</l>
+        <l n="3" real="xxxxxxx">His lone sail blots the far sky.</l>
+        <l n="4" real="xxxx+-x+-">And now I see only the river,</l>
+        <l n="5" real="xxx+-+-">The long Kiang, reaching heaven.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="taking-leave-of-a-friend" n="L01243">
+      <head>Taking Leave of a Friend</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:taking-leave-of-a-friend</idno><idno type="laurel-id">L01243</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-xxxxxx" met="-+-+-+-+-">Blue mountains to the north of the walls,</l>
+        <l n="2" real="x+-+-xxx" met="--+-+-+-">White river winding about them;</l>
+        <l n="3" real="xxxxx-+-" met="--+-+-+-">Here we must make separation</l>
+        <l n="4" real="xxxxx+-xxxx" met="-+-+-+-+-+-">And go out through a thousand miles of dead grass.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxx+-xx" met="-+-+-+-">Mind like a floating wide cloud.</l>
+        <l n="6" real="+xxx+-xx-+--" met="--+-+-+-+-+-">Sunset like the parting of old acquaintances</l>
+        <l n="7" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Who bow over their clasped hands at a distance.</l>
+        <l n="8" real="+-+-xxx+-" met="-+-+-+-+-">Our horses neigh to each other</l>
+        <l n="9" real="xxx-+-" met="-+-+-+">as we are departing.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="---aa----">
+        <l n="10" real="xxxxx+-xx" met="-+-+-+-+-">They say the roads of Sanso are steep,</l>
+        <l n="11" real="xxx+-" met="+-+-+">Sheer as the mountains.</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">The walls rise in a man&#x27;s face,</l>
+        <l n="13" real="xxxxxx" met="-+-+-+">Clouds grow out of the hill</l>
+        <l n="14" real="xx+-+-" met="-+-+-+">at his horse&#x27;s bridle.</l>
+        <l n="15" real="xxxxxxxxxx" met="--+-+-+-+-">Sweet trees are on the paved way of the Shin,</l>
+        <l n="16" real="xxxxx+-" met="-+-+-+-">Their trunks burst through the paving,</l>
+        <l n="17" real="xxxx+-xx" met="--+-+-+-">And freshets are bursting their ice</l>
+        <l n="18" real="xxxxxxxx+-" met="--+-+-+-+-">in the midst of Shoku, a proud city.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="19" real="xxx-+-x" met="-+-+-+-">Men&#x27;s fates are already set,</l>
+        <l n="20" real="xxxxx+-xxx" met="--+-+-+-+-">There is no need of asking diviners.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-city-of-choan" n="L01244">
+      <head>The City of Choan</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:the-city-of-choan</idno><idno type="laurel-id">L01244</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a-a----">
+        <l n="1" real="x+-xxxxx+-" met="--+-+-+-+-">The phoenix are at play on their terrace.</l>
+        <l n="2" real="x+-xxx+-xx-+" met="--+-+-+-+-+-">The phoenix are gone, the river flows on alone.</l>
+        <l n="3" real="+-xx" met="--+-">Flowers and grass</l>
+        <l n="4" real="+-xxxxx" met="+-+-+-+">Cover over the dark path</l>
+        <l n="5" real="xxx-+-xxxx" met="--+-+-+-+-">where lay the dynastic house of the Go.</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">The bright cloths and bright caps of Shin</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Are now the base of old hills.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-a--">
+        <l n="8" real="xx+-xxxx+-" met="--+-+-+-+-">The Three Mountains fall through the far heaven,</l>
+        <l n="9" real="xxxx+-" met="--+-+-">The isle of White Heron</l>
+        <l n="10" real="xxxx-+" met="--+-+-">splits the two streams apart.</l>
+        <l n="11" real="xxxx+-xx" met="-+-+-+-+">Now the high clouds cover the sun</l>
+        <l n="12" real="xxxxxx-+" met="-+-+-+-+">And I can not see Choan afar</l>
+        <l n="13" real="xxxx" met="--+-">And I am sad.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="south-folk-in-cold-country" n="L01245">
+      <head>South-Folk in Cold Country</head>
+      <idno type="URN">urn:laurel:eng:pound.pound-cathay.pg50155:south-folk-in-cold-country</idno><idno type="laurel-id">L01245</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--aabbb---b---">
+        <l n="1" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">The Dai horse neighs against the bleak wind of Etsu,</l>
+        <l n="2" real="xxx+-xxxxxxxx" met="-+-+-+-+-+-+-">The birds of Etsu have no love for En, in the north,</l>
+        <l n="3" real="-+-xxxx+-" met="+-+-+-+-+">Emotion is born out of habit.</l>
+        <l n="4" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Yesterday we went out of the Wild-Goose gate,</l>
+        <l n="5" real="xxxx+-x" met="-+-+-+-">To-day from the Dragon-Pen.</l>
+        <l n="6" real="-++-+xxx" met="--+-+-+-">Surprised. Desert turmoil. Sea sun.</l>
+        <l n="7" real="+-x-+-x-+--+-" met="-+-+-+-+-+-+-">Flying snow bewilders the barbarian heaven.</l>
+        <l n="8" real="xxxxxx+--+--" met="--+-+-+-+-+-">Lice swarm like ants over our accoutrements.</l>
+        <l n="9" real="xx+-xxx+--+-" met="--+-+-+-+-+-">Mind and spirit drive on the feathery banners.</l>
+        <l n="10" real="xxxx-+" met="--+-+-">Hard fight gets no reward.</l>
+        <l n="11" real="+--xxx-+" met="--+-+-+-">Loyalty is hard to explain.</l>
+        <l n="12" real="xxx+-x+--xxx" met="--+-+-+-+-+-">Who will be sorry for General Rishogu,</l>
+        <l n="13" real="xx+-" met="--+-">the swift moving,</l>
+        <l n="14" real="xxxxxxx+-" met="+-+-+-+-+">Whose white head is lost for this province?</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="15" real="xxxxxxxxx" met="+-+-+-+-+">&quot;You know well where it was that I walked</l>
+        <l n="16" real="xxxxx" met="-+-+-">When you had left me.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="17" real="+-xxxx+-+--+x" met="-+-+-+-+-+-+-">&quot;Drawing sword, cut into water, water again flow:</l>
+        <l n="18" real="xxx+-+--++-" met="-+-+-+-+-+-">Raise cup, quench sorrow, sorrow again sorry.&quot;</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

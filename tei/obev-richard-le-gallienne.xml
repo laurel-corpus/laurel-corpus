@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Second Crucifixion, and other poems</title><author>Richard Le Gallienne</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16281">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:gallienne.obev-richard-le-gallienne.pg66619:song</idno><idno type="laurel-id">L16281</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+xxx+xx" met="-+-+-+-+">She’s somewhere in the sunlight strong,</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">Her tears are in the falling rain,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">She calls me in the wind’s soft song,</l>
+        <l n="4" real="xxx+xx-+" met="-+-+-+-+">And with the flowers she comes again.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxx+--" met="-+-+-+-+">Yon bird is but her messenger,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">The moon is but her silver car;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Yea! sun and moon are sent by her,</l>
+        <l n="8" real="x+-+-+-x" met="-+-+-+-+">And every wistful waiting star.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-second-crucifixion" n="L16282">
+      <head>The Second Crucifixion</head>
+      <idno type="URN">urn:laurel:eng:gallienne.obev-richard-le-gallienne.pg66619:the-second-crucifixion</idno><idno type="laurel-id">L16282</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Loud mockers in the roaring street</l>
+        <l n="2" real="xxx+-x-+" met="-+-+-+-+">Say Christ is crucified again:</l>
+        <l n="3" real="xxx+-+-x" met="-+-+-+-+">Twice pierced His gospel-bearing feet,</l>
+        <l n="4" real="x+-xxxxx" met="-+-+-+-+">Twice broken His great heart in vain.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa">
+        <l n="5" real="xxxxx+xx" met="-+-+-+-+">I hear, and to myself I smile,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">For Christ talks with me all the while.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">No angel now to roll the stone</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">From off His unawaking sleep,</l>
+        <l n="9" real="xxx+-x-+" met="-+-+-+-+">In vain shall Mary watch alone,</l>
+        <l n="10" real="xxx+-+-x" met="-+-+-+-+">In vain the soldiers vigil keep.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa">
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Yet while they deem my Lord is dead</l>
+        <l n="12" real="xxxxx+-x" met="-+-+-+-+">My eyes are on His shining head.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">Ah! never more shall Mary hear</l>
+        <l n="14" real="xx-+-xxx" met="-+-+-+-+">That voice exceeding sweet and low</l>
+        <l n="15" real="xxx+-+-x" met="-+-+-+-+">Within the garden calling clear:</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Her Lord is gone, and she must go.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa">
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Yet all the while my Lord I meet</l>
+        <l n="18" real="x+-+-xxx" met="-+-+-+-+">In every London lane and street.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="19" real="x+--xxxx" met="-+-+-+-+">Poor Lazarus shall wait in vain,</l>
+        <l n="20" real="xxxxxxx" met="+-+-+-+">And Bartimæus still go blind;</l>
+        <l n="21" real="x+-xxx-+" met="-+-+-+-+">The healing hem shall ne’er again</l>
+        <l n="22" real="xxx+-+-x" met="-+-+-+-+">Be touch’d by suffering humankind.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aa">
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">Yet all the while I see them rest,</l>
+        <l n="24" real="xxx+xxxx" met="-+-+-+-+">The poor and outcast, on His breast.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="25" real="xxxxx+-x" met="-+-+-+-+">No more unto the stubborn heart</l>
+        <l n="26" real="x+-+-xxx" met="-+-+-+-+">With gentle knocking shall He plead,</l>
+        <l n="27" real="xxx+-+-x" met="-+-+-+-+">No more the mystic pity start,</l>
+        <l n="28" real="xxxxxx-+" met="-+-+-+-+">For Christ twice dead is dead indeed.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aa">
+        <l n="29" real="xxxxxxxx" met="-+-+-+-+">So in the street I hear men say,</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Yet Christ is with me all the day.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

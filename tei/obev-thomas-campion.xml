@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Winter Nights, and other poems</title><author>Thomas Campion</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="cherry-ripe" n="L15990">
+      <head>Cherry-Ripe</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:cherry-ripe</idno><idno type="laurel-id">L15990</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">There is a garden in her face</l>
+        <l n="2" real="x+-xx+-x" met="-+-+-+-+">Where roses and white lilies blow;</l>
+        <l n="3" real="x+-+-xxxx" met="-+-+-+-+-">A heavenly paradise is that place,</l>
+        <l n="4" real="xxx+-xxx" met="-+-+-+-+">Wherein all pleasant fruits do flow:</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">There cherries grow which none may buy</l>
+        <l n="6" real="x+-x-+xx" met="-+-+-+-+">Till ‘Cherry-ripe’ themselves do cry.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="x+-+-x-+" met="-+-+-+-+">Those cherries fairly do enclose</l>
+        <l n="8" real="x+-xxx+-x" met="-+-+-+-+-">Of orient pearl a double row,</l>
+        <l n="9" real="xxx+-+-x" met="-+-+-+-+">Which when her lovely laughter shows,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">They look like rose-buds fill’d with snow;</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Yet them nor peer nor prince can buy</l>
+        <l n="12" real="x+-x-+xx" met="-+-+-+-+">Till ‘Cherry-ripe’ themselves do cry.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">Her eyes like angels watch them still;</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">Her brows like bended bows do stand,</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">Threat’ning with piercing frowns to kill</l>
+        <l n="16" real="xx-+xxxx" met="-+-+-+-+">All that attempt with eye or hand</l>
+        <l n="17" real="x+-+-xxx" met="-+-+-+-+">Those sacred cherries to come nigh,</l>
+        <l n="18" real="x+-x-+xx" met="-+-+-+-+">Till ‘Cherry-ripe’ themselves do cry.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="laura" n="L15991">
+      <head>Laura</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:laura</idno><idno type="laurel-id">L15991</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xx+-x" met="+-+--">Rose-cheek’d _Laura_, come;</l>
+        <l n="2" real="xx+-xxxx" met="+-+-+-+-">Sing thou smoothly with thy beauty’s</l>
+        <l n="3" real="+-+-+-+-" met="+-+-+-+-">Silent music, either other</l>
+        <l n="4" real="+-+-" met="+---">Sweetly gracing.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="+-xxx" met="+-+--">Lovely forms do flow</l>
+        <l n="6" real="xxx-+-x" met="+-+-+-+">From concent divinely framèd:</l>
+        <l n="7" real="+-x+-xxxx" met="+-+-+-+--">Heaven is music, and thy beauty’s</l>
+        <l n="8" real="xx+--" met="+-+--">Birth is heavenly.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-">
+        <l n="9" real="xxxxx" met="+-+--">These dull notes we sing</l>
+        <l n="10" real="xxxxxxxx" met="+-+-+-+-">Discords need for helps to grace them;</l>
+        <l n="11" real="+-+-+-+-" met="+-+-+-+-">Only beauty purely loving</l>
+        <l n="12" real="xx+-" met="+---">Knows no discord;</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="xxx-+" met="+-+--">But still moves delight,</l>
+        <l n="14" real="xxx-+x+-" met="+-+-+-+-">Like clear springs renew’d by flowing,</l>
+        <l n="15" real="+--++-xx" met="+-+-+-+-">Ever perfect, ever in them-</l>
+        <l n="16" real="x-+-" met="+---">selves eternal.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="17" real="-+-" met="+--">_Devotion_</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="i" n="L15992">
+      <head>i</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:i</idno><idno type="laurel-id">L15992</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="+-xxx-+-+x" met="-+-+-+-+-+">Follow thy fair sun, unhappy shadow!</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Though thou be black as night,</l>
+        <l n="3" real="xxxxxx" met="--+-+-">And she made all of light,</l>
+        <l n="4" real="x+-xxx-+-+x" met="-+-+-+-+-+-">Yet follow thy fair sun, unhappy shadow!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="+-xxxxxxxx" met="-+-+-+-+-+">Follow her, whose light thy light depriveth!</l>
+        <l n="6" real="xxxx-+" met="--+-+-">Though here thou liv’st disgraced,</l>
+        <l n="7" real="xxx+-xx" met="-+-+-+-">And she in heaven is placed,</l>
+        <l n="8" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Yet follow her whose light the world reviveth!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abba">
+        <l n="9" real="+-xxxx+-xx" met="-+-+-+-+-+">Follow those pure beams, whose beauty burneth!</l>
+        <l n="10" real="xxxxx" met="-+-+-">That so have scorchèd thee</l>
+        <l n="11" real="xxxxxx" met="--+-+-">As thou still black must be,</l>
+        <l n="12" real="xxxxxxx+-xx" met="-+-+-+-+-+-">Till her kind beams thy black to brightness turneth.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abba">
+        <l n="13" real="+-xxxx+-xx" met="-+-+-+-+-+">Follow her, while yet her glory shineth!</l>
+        <l n="14" real="xxx+-x" met="--+-+-">There comes a luckless night</l>
+        <l n="15" real="xxxxxx" met="--+-+-">That will dim all her light;</l>
+        <l n="16" real="xxxx-+-xxxx" met="-+-+-+-+-+-">And this the black unhappy shade divineth.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abba">
+        <l n="17" real="+-xxxxxxx" met="+-+-+-+-+">Follow still, since so thy fates ordainèd!</l>
+        <l n="18" real="xxxxxx" met="--+-+-">The sun must have his shade,</l>
+        <l n="19" real="xxxxxx" met="--+-+-">Till both at once do fade,--</l>
+        <l n="20" real="xxxxx+xxxx" met="-+-+-+-+-+">The sun still proud, the shadow still disdainèd.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ii" n="L15993">
+      <head>ii</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:ii</idno><idno type="laurel-id">L15993</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc">
+        <l n="1" real="+-xx+-x+-x" met="-+-+-+-+-+">Follow your saint, follow with accents sweet!</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Haste you, sad notes, fall at her flying feet!</l>
+        <l n="3" real="xxxxx+-+-x" met="-+-+-+-+-+">There, wrapt in cloud of sorrow, pity move,</l>
+        <l n="4" real="xxxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+-">And tell the ravisher of my soul I perish for her love:</l>
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">But if she scorns my never-ceasing pain,</l>
+        <l n="6" real="xxx+-xxxxx-+-+" met="--+-+-+-+-+-+-">Then burst with sighing in her sight, and ne’er return again!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--bb">
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">All that I sung still to her praise did tend;</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Still she was first, still she my songs did end;</l>
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet she my love and music both doth fly,</l>
+        <l n="10" real="x+-xx+-xxxx+-" met="-+-+-+-+-+-+-">The music that her echo is and beauty’s sympathy:</l>
+        <l n="11" real="xxxx-+x+-x" met="-+-+-+-+-+">Then let my notes pursue her scornful flight!</l>
+        <l n="12" real="xx-+xxxxxxxx-+" met="--+-+-+-+-+-+-">It shall suffice that they were breathed and died for her delight.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="vobiscum-est-iope" n="L15994">
+      <head>Vobiscum est Iope</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:vobiscum-est-iope</idno><idno type="laurel-id">L15994</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">When thou must home to shades of underground,</l>
+        <l n="2" real="xx-+-xxxxx" met="-+-+-+-+-+">And there arrived, a new admirèd guest,</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">The beauteous spirits do engirt thee round,</l>
+        <l n="4" real="xxx+-xxx" met="--+-+-+-">White Iope, blithe Helen, and the rest,</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">To hear the stories of thy finish’d love</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">From that smooth tongue whose music hell can move;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">Then wilt thou speak of banqueting delights,</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">Of masques and revels which sweet youth did make,</l>
+        <l n="9" real="x+-xx+--xx" met="-+-+-+-+-+">Of tourneys and great challenges of knights,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">And all these triumphs for thy beauty’s sake:</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">When thou hast told these honours done to thee,</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Then tell, O tell, how thou didst murder me!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hymn-in-praise-of-neptune" n="L15995">
+      <head>Hymn in Praise of Neptune</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:hymn-in-praise-of-neptune</idno><idno type="laurel-id">L15995</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abbaccdede">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">Of Neptune’s empire let us sing,</l>
+        <l n="2" real="xx-+xx-+" met="-+-+-+-+">At whose command the waves obey;</l>
+        <l n="3" real="xxx+-+-x" met="-+-+-+-+">To whom the rivers tribute pay,</l>
+        <l n="4" real="xxx+-+-" met="+-+-+-+">Down the high mountains sliding:</l>
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">To whom the scaly nation yields</l>
+        <l n="6" real="+-xx+-x" met="+-+-+-+">Homage for the crystal fields</l>
+        <l n="7" real="xxxx" met="--+-">Wherein they dwell:</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">And every sea-dog pays a gem</l>
+        <l n="9" real="+-xxx+-x" met="-+-+-+-+">Yearly out of his wat’ry cell</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">To deck great Neptune’s diadem.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaccdede">
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">The Tritons dancing in a ring</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Before his palace gates do make</l>
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">The water with their echoes quake,</l>
+        <l n="14" real="xxx+-+-" met="+-+-+-+">Like the great thunder sounding:</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">The sea-nymphs chant their accents shrill,</l>
+        <l n="16" real="xx+-xxx" met="+-+-+-+">And the sirens, taught to kill</l>
+        <l n="17" real="xxxx" met="--+-">With their sweet voice,</l>
+        <l n="18" real="xxx+-x-+" met="-+-+-+-+">Make ev’ry echoing rock reply</l>
+        <l n="19" real="xxx+-+-x" met="-+-+-+-+">Unto their gentle murmuring noise</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">The praise of Neptune’s empery.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="winter-nights" n="L15996">
+      <head>Winter Nights</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:winter-nights</idno><idno type="laurel-id">L15996</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefef">
+        <l n="1" real="x+-x-+" met="-+-+-+">Now winter nights enlarge</l>
+        <l n="2" real="x+-xx+-" met="-+-+-+-">The number of their hours,</l>
+        <l n="3" real="xxxx-+" met="-+-+-+">And clouds their storms discharge</l>
+        <l n="4" real="xxx+-+-" met="-+-+-+-">Upon the airy towers.</l>
+        <l n="5" real="xxx+-x" met="-+-+-+">Let now the chimneys blaze</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">And cups o’erflow with wine;</l>
+        <l n="7" real="xxxx-+" met="-+-+-+">Let well-tuned words amaze</l>
+        <l n="8" real="x+---+" met="-+-+-+">With harmony divine.</l>
+        <l n="9" real="x+-xxx" met="-+-+-+">Now yellow waxen lights</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">Shall wait on honey love,</l>
+        <l n="11" real="x+-+-xx+-x" met="--+-+-+-+-">While youthful revels, masques, and courtly sights</l>
+        <l n="12" real="x+-x-+" met="-+-+-+">Sleep’s leaden spells remove.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcdefef">
+        <l n="13" real="xxxx-+" met="-+-+-+">This time doth well dispense</l>
+        <l n="14" real="x+-x+-" met="-+-+-+">With lovers’ long discourse;</l>
+        <l n="15" real="xxxx-+" met="-+-+-+">Much speech hath some defence</l>
+        <l n="16" real="x+-x-+" met="-+-+-+">Though beauty no remorse.</l>
+        <l n="17" real="xxxxxx" met="-+-+-+">All do not all things well;</l>
+        <l n="18" real="x+-+-x" met="-+-+-+">Some measures comely tread,</l>
+        <l n="19" real="x+-+-x" met="-+-+-+">Some knotted riddles tell,</l>
+        <l n="20" real="x+-+-x" met="-+-+-+">Some poems smoothly read.</l>
+        <l n="21" real="x+-xxx" met="-+-+-+">The summer hath his joys,</l>
+        <l n="22" real="x+-x-+" met="-+-+-+">And winter his delights;</l>
+        <l n="23" real="xxxxx+-xxx" met="--+-+-+-+-">Though love and all his pleasures are but toys,</l>
+        <l n="24" real="x+-+-x" met="-+-+-+">They shorten tedious nights.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="integer-vitae" n="L15997">
+      <head>Integer Vitae</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:integer-vitae</idno><idno type="laurel-id">L15997</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxx-+" met="-+-+-+">The man of life upright,</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">Whose guiltless heart is free</l>
+        <l n="3" real="xx-+-x" met="-+-+-+">From all dishonest deeds,</l>
+        <l n="4" real="xxx+--" met="-+-+-+">Or thought of vanity;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+-x" met="-+-+-+">The man whose silent days</l>
+        <l n="6" real="x+-xxx" met="-+-+-+">In harmless joys are spent,</l>
+        <l n="7" real="xx-+-+" met="-+-+-+">Whom hopes cannot delude,</l>
+        <l n="8" real="x+---+" met="-+-+-+">Nor sorrow discontent;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxx+-+-" met="-+-+-+-">That man needs neither towers</l>
+        <l n="10" real="x+-x-+" met="-+-+-+">Nor armour for defence,</l>
+        <l n="11" real="x+-xxx" met="-+-+-+">Nor secret vaults to fly</l>
+        <l n="12" real="x+-+--" met="-+-+-+">From thunder’s violence:</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="x+-x-+" met="-+-+-+">He only can behold</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">With unaffrighted eyes</l>
+        <l n="15" real="x+-xxx" met="-+-+-+">The horrors of the deep</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">And terrors of the skies.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxxx" met="-+-+-+">Thus, scorning all the cares</l>
+        <l n="18" real="xxx+-x" met="-+-+-+">That fate or fortune brings,</l>
+        <l n="19" real="xxx+xx" met="-+-+-+">He makes the heaven his book,</l>
+        <l n="20" real="x+-+-x" met="-+-+-+">His wisdom heavenly things;</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxx+-x" met="-+-+-+">Good thoughts his only friends,</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">His wealth a well-spent age,</l>
+        <l n="23" real="xxx+-x" met="-+-+-+">The earth his sober inn</l>
+        <l n="24" real="x+-+--" met="-+-+-+">And quiet pilgrimage.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="o-come-quickly" n="L15998">
+      <head>O come quickly!</head>
+      <idno type="URN">urn:laurel:eng:campion.obev-thomas-campion.pg66619:o-come-quickly</idno><idno type="laurel-id">L15998</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="+-+-+-xx+-xxx" met="+-+-+-+-+-+-+">Never weather-beaten sail more willing bent to shore,</l>
+        <l n="2" real="+-x+-x-+-+-x" met="--+-+-+-+-+-">Never tirèd pilgrim’s limbs affected slumber more,</l>
+        <l n="3" real="xx+-xxxxxxxx+-x" met="-+-+-+-+-+-+-+-">Than my wearied sprite now longs to fly out of my troubled breast:</l>
+        <l n="4" real="xx+-+-xxxxxxx" met="+-+-+-+-+-+-+">O come quickly, sweetest Lord, and take my soul to rest!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="+-+-xxxx+-x+-x" met="-+-+-+-+-+-+-+">Ever blooming are the joys of heaven’s high Paradise,</l>
+        <l n="6" real="xxxxx+-xx+-x+-x" met="-+-+-+-+-+-+-+-">Cold age deafs not there our ears nor vapour dims our eyes:</l>
+        <l n="7" real="+-xxx+xxxxx+-x" met="-+-+-+-+-+-+-+">Glory there the sun outshines; whose beams the Blessèd only see:</l>
+        <l n="8" real="xx+-+--xxxxxxx" met="-+-+-+-+-+-+-+">O come quickly, glorious Lord, and raise my sprite to Thee!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Water-Nymph and the Boy, and other poems</title><author>Roden Berkeley Wriothesley Noel</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-water-nymph-and-the-boy" n="L16247">
+      <head>The Water-Nymph and the Boy</head>
+      <idno type="URN">urn:laurel:eng:noel.obev-roden-berkeley-wriothesley-noel.pg66619:the-water-nymph-and-the-boy</idno><idno type="laurel-id">L16247</idno><note type="metre">dactylic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxx" met="+--+-">I flung me round him,</l>
+        <l n="2" real="xxxxx" met="+--+-">I drew him under;</l>
+        <l n="3" real="xxxxx" met="+--+-">I clung, I drown’d him,</l>
+        <l n="4" real="xxx+-" met="+--+-">My own white wonder!...</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b-c-c">
+        <l n="5" real="+-x+-" met="+--+-">Father and mother,</l>
+        <l n="6" real="+-xx" met="+--+">Weeping and wild,</l>
+        <l n="7" real="xxx+-" met="+--+-">Came to the forest,</l>
+        <l n="8" real="+-xx" met="+--+">Calling the child,</l>
+        <l n="9" real="xxx+-" met="+--+-">Came from the palace,</l>
+        <l n="10" real="xxxx" met="+--+">Down to the pool,</l>
+        <l n="11" real="+-x+-" met="+--+-">Calling my darling,</l>
+        <l n="12" real="x+--" met="+--+">My beautiful!</l>
+        <l n="13" real="xxx+-" met="+--+-">Under the water,</l>
+        <l n="14" real="xxxx" met="+--+">Cold and so pale!</l>
+        <l n="15" real="xxxxx" met="+--+-">Could it be love made</l>
+        <l n="16" real="+-xx" met="+--+">Beauty to fail?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-abacd-ddedcd-dbe-e-e-e-f-f-f">
+        <l n="17" real="xxx+-" met="+--+-">Ah me for mortals!</l>
+        <l n="18" real="xxxx" met="+--+">In a few moons,</l>
+        <l n="19" real="xxxxx" met="+--+-">If I had left him,</l>
+        <l n="20" real="xxxx" met="+--+">After some Junes</l>
+        <l n="21" real="xxx+-" met="+--+-">He would have faded,</l>
+        <l n="22" real="+--+" met="+--+">Faded away,</l>
+        <l n="23" real="xxx+xx" met="+--+--">He, the young monarch, whom</l>
+        <l n="24" real="xx-+" met="+--+">All would obey,</l>
+        <l n="25" real="+-xx" met="+--+">Fairer than day;</l>
+        <l n="26" real="+-x+x" met="+--+-">Alien to springtime,</l>
+        <l n="27" real="xxxx" met="+--+">Joyless and gray,</l>
+        <l n="28" real="xxx+-" met="+--+-">He would have faded,</l>
+        <l n="29" real="+--+" met="+--+">Faded away,</l>
+        <l n="30" real="+-x+-" met="+--+-">Moving a mockery,</l>
+        <l n="31" real="xxxx" met="+--+">Scorn’d of the day!</l>
+        <l n="32" real="xxx+-x" met="+--+--">Now I have taken him</l>
+        <l n="33" real="xxxx" met="+--+">All in his prime,</l>
+        <l n="34" real="xxx+-" met="+--+-">Saved from slow poisoning</l>
+        <l n="35" real="+--x" met="+--+">Pitiless Time,</l>
+        <l n="36" real="xxx+-" met="+--+-">Fill’d with his happiness,</l>
+        <l n="37" real="xxxx" met="+--+">One with the prime,</l>
+        <l n="38" real="xxx+-" met="+--+-">Saved from the cruel</l>
+        <l n="39" real="-+-xx" met="+--+-">Dishonour of Time.</l>
+        <l n="40" real="xxx+-" met="+--+-">Laid him, my beautiful,</l>
+        <l n="41" real="xxxx" met="+--+">Laid him to rest,</l>
+        <l n="42" real="+--+-" met="+--+-">Loving, adorable,</l>
+        <l n="43" real="+-xx" met="+--+">Softly to rest,</l>
+        <l n="44" real="xxx+-x" met="+--+--">Here in my crystalline,</l>
+        <l n="45" real="xxxx" met="+--+">Here in my breast!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-old" n="L16248">
+      <head>The Old</head>
+      <idno type="URN">urn:laurel:eng:noel.obev-roden-berkeley-wriothesley-noel.pg66619:the-old</idno><idno type="laurel-id">L16248</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xx+-xxx" met="-+-+-+-">They are waiting on the shore</l>
+        <l n="2" real="xxxxxxx" met="-+-+-+-">For the bark to take them home:</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">They will toil and grieve no more;</l>
+        <l n="4" real="x+x-+xx" met="-+-+-+-">The hour for release hath come.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxx" met="-+-+-+-">All their long life lies behind</l>
+        <l n="6" real="xx+-+-x" met="-+-+-+-">Like a dimly blending dream:</l>
+        <l n="7" real="xx+-xxx" met="-+-+-+-">There is nothing left to bind</l>
+        <l n="8" real="xxxx+-x" met="-+-+-+-">To the realms that only seem.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="9" real="xx+-xxx" met="-+-+-+-">They are waiting for the boat;</l>
+        <l n="10" real="xx+-xxx" met="-+-+-+-">There is nothing left to do:</l>
+        <l n="11" real="xxxxx-+" met="-+-+-+-">What was near them grows remote,</l>
+        <l n="12" real="+-+-xxx" met="-+-+-+-">Happy silence falls like dew;</l>
+        <l n="13" real="xx+-xxx" met="-+-+-+-">Now the shadowy bark is come,</l>
+        <l n="14" real="xx+-xxx" met="-+-+-+-">And the weary may go home.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="15" real="xx+-xxx" met="-+-+-+-">By still water they would rest</l>
+        <l n="16" real="xx+xxxx" met="-+-+-+-">In the shadow of the tree:</l>
+        <l n="17" real="xx+-xxx" met="-+-+-+-">After battle sleep is best,</l>
+        <l n="18" real="xxxxxxx" met="-+-+-+-">After noise, tranquillity.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

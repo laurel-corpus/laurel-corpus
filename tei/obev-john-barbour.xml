@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Freedom</title><author>John Barbour</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="freedom" n="L15947">
+      <head>Freedom</head>
+      <idno type="URN">urn:laurel:eng:barbour.obev-john-barbour.pg66619:freedom</idno><idno type="laurel-id">L15947</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa--bb">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">A! Fredome is a noble thing!</l>
+        <l n="2" real="xxxxxx+-" met="-+-+-+-+">Fredome mays man to haiff liking;</l>
+        <l n="3" real="xxx+-xxxx" met="-+-+-+-+-">Fredome all solace to man giffis,</l>
+        <l n="4" real="xxxxxxxxxx" met="--+-+-+-+-">He levys at ese that frely levys!</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">A noble hart may haiff nane ese,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Na ellys nocht that may him plese,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--bb----cc">
+        <l n="7" real="xxxxxx+-" met="-+-+-+-+">Gyff fredome fail; for fre liking</l>
+        <l n="8" real="xxx+xxxx" met="-+-+-+-+">Is yarnyt our all othir thing.</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Na he that ay has levyt fre</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">May nocht knaw weill the propyrtè,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">The angyr, na the wretchyt dome</l>
+        <l n="12" real="xxxxxxxxx" met="-+-+-+-+-">That is couplyt to foule thyrldome.</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">Bot gyff he had assayit it,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Than all perquer he suld it wyt;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">And suld think fredome mar to prise</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Than all the gold in warld that is.</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Thus contrar thingis evirmar</l>
+        <l n="18" real="xxxxxxxxxx" met="--+-+-+-+-">Discoweryngis off the tothir ar.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

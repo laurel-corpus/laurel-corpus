@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Doubt of Martyrdom, and other poems</title><author>Sir John Suckling</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-doubt-of-martyrdom" n="L16086">
+      <head>A Doubt of Martyrdom</head>
+      <idno type="URN">urn:laurel:eng:suckling.obev-sir-john-suckling.pg66619:a-doubt-of-martyrdom</idno><idno type="laurel-id">L16086</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc-">
+        <l n="1" real="xxx+-+-x" met="--+-+-+-">O for some honest lover’s ghost,</l>
+        <l n="2" real="xxxxx" met="+-+-+">Some kind unbodied post</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">Sent from the shades below!</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">I strangely long to know</l>
+        <l n="5" real="xxx+-xxx" met="--+-+-+-">Whether the noble chaplets wear</l>
+        <l n="6" real="xxx+-xxx" met="--+-+-+-">Those that their mistress’ scorn did bear</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">Or those that were used kindly.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb---">
+        <l n="8" real="xxxxxxx" met="-+-+-+-">For whatsoe’er they tell us here</l>
+        <l n="9" real="xxx+--x" met="-+-+-+-">To make those sufferings dear,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">’Twill there, I fear, be found</l>
+        <l n="11" real="xxx+-x" met="-+-+-+">That to the being crown’d</l>
+        <l n="12" real="xxx-+xx-+" met="-+-+-+-+-">T’ have loved alone will not suffice,</l>
+        <l n="13" real="xxx+-xxx" met="--+-+-+-">Unless we also have been wise</l>
+        <l n="14" real="xx+-x-+" met="-+-+-+-">And have our loves enjoy’d.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaaabb-">
+        <l n="15" real="x+-xxxxx" met="--+-+-+-">What posture can we think him in</l>
+        <l n="16" real="xx-+-+" met="-+-+-+">That, here unloved, again</l>
+        <l n="17" real="-+xxxxx" met="-+-+-+-">Departs, and ’s thither gone</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">Where each sits by his own?</l>
+        <l n="19" real="xxxx-+--x" met="-+-+-+-+-">Or how can that Elysium be</l>
+        <l n="20" real="xxx+-xxx" met="--+-+-+-">Where I my mistress still must see</l>
+        <l n="21" real="+-x+-x" met="-+-+-+">Circled in other’s arms?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbcc-">
+        <l n="22" real="xxx+-xxx" met="--+-+-+-">For there the judges all are just,</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">And Sophonisba must</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">Be his whom she held dear,</l>
+        <l n="25" real="xxxxxx" met="-+-+-+">Not his who loved her here.</l>
+        <l n="26" real="xxxxxxxx" met="--+-+-+-">The sweet Philoclea, since she died,</l>
+        <l n="27" real="xxxxxxx" met="-+-+-+-">Lies by her Pirocles his side,</l>
+        <l n="28" real="xxxxx" met="+-+-+">Not by Amphialus.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa-bccb">
+        <l n="29" real="xx-+x+-x" met="--+-+-+-">Some bays, perchance, or myrtle bough</l>
+        <l n="30" real="x+--xxx" met="-+-+-+-">For difference crowns the brow</l>
+        <l n="31" real="xxxxxx" met="-+-+-+">Of those kind souls that were</l>
+        <l n="32" real="x+-+-x" met="-+-+-+">The noble martyrs here:</l>
+        <l n="33" real="xxxxx+-x" met="--+-+-+-">And if that be the only odds</l>
+        <l n="34" real="xxxxx+-x" met="--+-+-+-">(As who can tell?), ye kinder gods,</l>
+        <l n="35" real="xxx+-x" met="-+-+-+">Give me the woman here!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-constant-lover" n="L16087">
+      <head>The Constant Lover</head>
+      <idno type="URN">urn:laurel:eng:suckling.obev-sir-john-suckling.pg66619:the-constant-lover</idno><idno type="laurel-id">L16087</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">Out upon it, I have loved</l>
+        <l n="2" real="xxx-+-" met="-+-+-+">Three whole days together!</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">And am like to love three more,</l>
+        <l n="4" real="xxxx+-" met="-+-+-+">If it prove fair weather.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx-+xx" met="-+-+-+-">Time shall moult away his wings</l>
+        <l n="6" real="xxx-+-" met="-+-+-+">Ere he shall discover</l>
+        <l n="7" real="xxxxx-+" met="-+-+-+-">In the whole wide world again</l>
+        <l n="8" real="xx+-+-" met="-+-+-+">Such a constant lover.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">But the spite on ’t is, no praise</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Is due at all to me:</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">Love with me had made no stays,</l>
+        <l n="12" real="xx+-xxx" met="-+-+-+-">Had it any been but she.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xx+-xxx" met="-+-+-+-">Had it any been but she,</l>
+        <l n="14" real="xx+-x" met="+-+-+">And that very face,</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">There had been at least ere this</l>
+        <l n="16" real="x+-+-xxx" met="--+-+-+-">A dozen dozen in her place.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="why-so-pale-and-wan" n="L16088">
+      <head>Why so Pale and Wan?</head>
+      <idno type="URN">urn:laurel:eng:suckling.obev-sir-john-suckling.pg66619:why-so-pale-and-wan</idno><idno type="laurel-id">L16088</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-aa">
+        <l n="1" real="xxxxxx+-" met="--+-+-+-">Why so pale and wan, fond lover?</l>
+        <l n="2" real="xxxxx" met="+-+-+">Prithee, why so pale?</l>
+        <l n="3" real="xx+-xxxx" met="--+-+-+-">Will, when looking well can’t move her,</l>
+        <l n="4" real="+-x-+" met="+-+-+">Looking ill prevail?</l>
+        <l n="5" real="xxxxx" met="+-+-+">Prithee, why so pale?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a--a">
+        <l n="6" real="xxxxxx+-" met="--+-+-+-">Why so dull and mute, young sinner?</l>
+        <l n="7" real="xxxxx" met="+-+-+">Prithee, why so mute?</l>
+        <l n="8" real="xx+-xxxx" met="--+-+-+-">Will, when speaking well can’t win her,</l>
+        <l n="9" real="+-+-x" met="+-+-+">Saying nothing do’t?</l>
+        <l n="10" real="xxxxx" met="+-+-+">Prithee, why so mute?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababb">
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">Quit, quit for shame! This will not move;</l>
+        <l n="12" real="x+-xx" met="+-+-+">This cannot take her.</l>
+        <l n="13" real="xx-+xxxx" met="--+-+-+-">If of herself she will not love,</l>
+        <l n="14" real="+-xxx" met="+-+-+">Nothing can make her:</l>
+        <l n="15" real="x+-xx" met="+-+-+">The devil take her!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="when-dearest-i-but-think-of-thee" n="L16089">
+      <head>When, Dearest, I but think of Thee</head>
+      <idno type="URN">urn:laurel:eng:suckling.obev-sir-john-suckling.pg66619:when-dearest-i-but-think-of-thee</idno><idno type="laurel-id">L16089</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabccb">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">When, dearest, I but think of thee,</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">Methinks all things that lovely be</l>
+        <l n="3" real="x+-xxx-+-" met="-+-+-+-+-">Are present, and my soul delighted:</l>
+        <l n="4" real="x+-xxx-+" met="-+-+-+-+">For beauties that from worth arise</l>
+        <l n="5" real="xxxxx+--" met="-+-+-+-+">Are like the grace of deities,</l>
+        <l n="6" real="x+-xxxxxx" met="-+-+-+-+-">Still present with us, tho’ unsighted.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Thus while I sit and sigh the day</l>
+        <l n="8" real="xxx+xx-+" met="-+-+-+-+">With all his borrow’d lights away,</l>
+        <l n="9" real="xxxxx+-xx" met="-+-+-+-+-">Till night’s black wings do overtake me,</l>
+        <l n="10" real="+-xxx+-x" met="-+-+-+-+">Thinking on thee, thy beauties then,</l>
+        <l n="11" real="x+-xx+-x" met="-+-+-+-+">As sudden lights do sleepy men,</l>
+        <l n="12" real="xxxxxx-+x" met="-+-+-+-+-">So they by their bright rays awake me.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabccb">
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">Thus absence dies, and dying proves</l>
+        <l n="14" real="x+-x-+xx" met="-+-+-+-+">No absence can subsist with loves</l>
+        <l n="15" real="xx-+xx-+-" met="-+-+-+-+-">That do partake of fair perfection:</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">Since in the darkest night they may</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">By love’s quick motion find a way</l>
+        <l n="18" real="xxx+-x-+-" met="-+-+-+-+-">To see each other by reflection.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabccb">
+        <l n="19" real="x+-xxxxx" met="-+-+-+-+">The waving sea can with each flood</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">Bathe some high promont that hath stood</l>
+        <l n="21" real="xxxxxxx+-" met="-+-+-+-+-">Far from the main up in the river:</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">O think not then but love can do</l>
+        <l n="23" real="xxxxx+-x" met="-+-+-+-+">As much! for that’s an ocean too,</l>
+        <l n="24" real="xxx+-xx+-" met="-+-+-+-+-">Which flows not every day, but ever!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

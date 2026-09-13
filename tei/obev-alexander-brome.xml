@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Resolve</title><author>Alexander Brome</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-resolve" n="L16102">
+      <head>The Resolve</head>
+      <idno type="URN">urn:laurel:eng:brome.obev-alexander-brome.pg66619:the-resolve</idno><idno type="laurel-id">L16102</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefef">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Tell me not of a face that’s fair,</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Nor lip and cheek that’s red,</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">Nor of the tresses of her hair,</l>
+        <l n="4" real="xxx+-x" met="--+-+-">Nor curls in order laid,</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Nor of a rare seraphic voice</l>
+        <l n="6" real="xxx+-x" met="--+-+-">That like an angel sings;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Though if I were to take my choice</l>
+        <l n="8" real="xxxxxx" met="--+-+-">I would have all these things:</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">But if that thou wilt have me love,</l>
+        <l n="10" real="xxxxxx" met="--+-+-">And it must be a she,</l>
+        <l n="11" real="x+-+--xx" met="-+-+-+-+">The only argument can move</l>
+        <l n="12" real="xxxxxx" met="--+-+-">Is that she will love me.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcdefef">
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">The glories of your ladies be</l>
+        <l n="14" real="x+--xx" met="--+-+-">But metaphors of things,</l>
+        <l n="15" real="xx-+-xxx" met="-+-+-+-+">And but resemble what we see</l>
+        <l n="16" real="x+-+-x" met="--+-+-">Each common object brings.</l>
+        <l n="17" real="+-xxxxxx" met="-+-+-+-+">Roses out-red their lips and cheeks,</l>
+        <l n="18" real="+-x+-x" met="--+-+-">Lilies their whiteness stain;</l>
+        <l n="19" real="xxxxx+xx" met="-+-+-+-+">What fool is he that shadows seeks</l>
+        <l n="20" real="xxx+-x" met="--+-+-">And may the substance gain?</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">Then if thou’lt have me love a lass,</l>
+        <l n="22" real="xxxxxx" met="--+-+-">Let it be one that’s kind:</l>
+        <l n="23" real="xxx+-xxx" met="-+-+-+-+">Else I’m a servant to the glass</l>
+        <l n="24" real="xx-+-x" met="--+-+-">That’s with Canary lined.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

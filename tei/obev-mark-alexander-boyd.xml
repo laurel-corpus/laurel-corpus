@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Sonet</title><author>Mark Alexander Boyd</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="sonet" n="L15985">
+      <head>Sonet</head>
+      <idno type="URN">urn:laurel:eng:boyd.obev-mark-alexander-boyd.pg66619:sonet</idno><idno type="laurel-id">L15985</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--ab">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Fra bank to bank, fra wood to wood I rin,</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">Ourhailit with my feeble fantasie;</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Like til a leaf that fallis from a tree,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Or til a reed ourblawin with the win.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--ab">
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Twa gods guides me: the ane of tham is blin,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Yea and a bairn brocht up in vanitie;</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">The next a wife ingenrit of the sea,</l>
+        <l n="8" real="x+-xx+-xxx" met="-+-+-+-+-+">And lichter nor a dauphin with her fin.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="cc-dd-">
+        <l n="9" real="-+-xxxxxxx" met="-+-+-+-+-+">Unhappy is the man for evermair</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">That tills the sand and sawis in the air;</l>
+        <l n="11" real="xxxxxxxxx" met="+-+-+-+-+">But twice unhappier is he, I lairn,</l>
+        <l n="12" real="xxxxxxxx-+-" met="-+-+-+-+-+-">That feidis in his hairt a mad desire,</l>
+        <l n="13" real="x+-xx+-xx+-" met="-+-+-+-+-+-">And follows on a woman throw the fire,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Led by a blind and teachit by a bairn.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

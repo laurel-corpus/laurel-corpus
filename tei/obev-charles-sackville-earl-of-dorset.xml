@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Song</title><author>Charles Sackville, Earl of Dorset</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16127">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:dorset.obev-charles-sackville-earl-of-dorset.pg66619:song</idno><idno type="laurel-id">L16127</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcc-">
+        <l n="1" real="xxx+-xxx" met="--+-+-+-">To all you ladies now at land</l>
+        <l n="2" real="xxxx-+" met="-+-+-+">We men at sea indite;</l>
+        <l n="3" real="xxxxxx-+" met="--+-+-+-">But first would have you understand</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">How hard it is to write:</l>
+        <l n="5" real="x+-xx+-x" met="--+-+-+-">The Muses now, and Neptune too,</l>
+        <l n="6" real="xx-+xxxx" met="--+-+-+-">We must implore to write to you--</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc-">
+        <l n="8" real="xxx+-xxx" met="--+-+-+-">For though the Muses should prove kind,</l>
+        <l n="9" real="xx+-+-x" met="-+-+-+-">And fill our empty brain,</l>
+        <l n="10" real="xxx+-xxx" met="--+-+-+-">Yet if rough Neptune rouse the wind</l>
+        <l n="11" real="xxx+-x" met="-+-+-+">To wave the azure main,</l>
+        <l n="12" real="++-xxxxx" met="--+-+-+-">Our paper, pen, and ink, and we,</l>
+        <l n="13" real="xxxx+xxx" met="--+-+-+-">Roll up and down our ships at sea--</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-abb-">
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">Then if we write not by each post,</l>
+        <l n="16" real="xxxx-+" met="-+-+-+">Think not we are unkind;</l>
+        <l n="17" real="xx-++xxx" met="--+-+-+-">Nor yet conclude our ships are lost</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">By Dutchmen or by wind:</l>
+        <l n="19" real="+xxxx+-x" met="--+-+-+-">Our tears we’ll send a speedier way,</l>
+        <l n="20" real="xxxxxxxx" met="--+-+-+-">The tide shall bring them twice a day--</l>
+        <l n="21" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc-">
+        <l n="22" real="xxx+-x-+" met="--+-+-+-">The King with wonder and surprise</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">Will swear the seas grow bold,</l>
+        <l n="24" real="xxxxx+-x" met="--+-+-+-">Because the tides will higher rise</l>
+        <l n="25" real="xxxxxx" met="-+-+-+">Than e’er they did of old:</l>
+        <l n="26" real="xxxxxx+x" met="--+-+-+-">But let him know it is our tears</l>
+        <l n="27" real="xxxxx+xx" met="--+-+-+-">Bring floods of grief to Whitehall stairs--</l>
+        <l n="28" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a-a-bb-">
+        <l n="29" real="x+-xxxxx" met="--+-+-+-">Should foggy Opdam chance to know</l>
+        <l n="30" real="+-xx+-+-" met="--+-+-+-">Our sad and dismal story,</l>
+        <l n="31" real="xxxxxxxx" met="--+-+-+-">The Dutch would scorn so weak a foe,</l>
+        <l n="32" real="xxxxx++" met="-+-+-+-">And quit their fort at Goree:</l>
+        <l n="33" real="xx-+-xxx" met="--+-+-+-">For what resistance can they find</l>
+        <l n="34" real="xxxxxxxx" met="--+-+-+-">From men who’ve left their hearts behind?--</l>
+        <l n="35" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-abb-">
+        <l n="36" real="xxx+-xxx" met="--+-+-+-">Let wind and weather do its worst,</l>
+        <l n="37" real="xxxxxx" met="-+-+-+">Be you to us but kind;</l>
+        <l n="38" real="xxx+-+-x" met="--+-+-+-">Let Dutchmen vapour, Spaniards curse,</l>
+        <l n="39" real="x+-xxx" met="-+-+-+">No sorrow we shall find:</l>
+        <l n="40" real="xxx+-xxx" met="--+-+-+-">’Tis then no matter how things go,</l>
+        <l n="41" real="xx+xxx+x" met="--+-+-+-">Or who’s our friend, or who’s our foe--</l>
+        <l n="42" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="ababcc-">
+        <l n="43" real="xx++-+-+" met="--+-+-+-">To pass our tedious hours away</l>
+        <l n="44" real="xxx+-x" met="-+-+-+">We throw a merry main,</l>
+        <l n="45" real="xxx+--xx" met="--+-+-+-">Or else at serious ombre play;</l>
+        <l n="46" real="xxxxxx" met="-+-+-+">But why should we in vain</l>
+        <l n="47" real="x+-+-x-+" met="--+-+-+-">Each other’s ruin thus pursue?</l>
+        <l n="48" real="xx-+xxxx" met="--+-+-+-">We were undone when we left you--</l>
+        <l n="49" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="ababcc-">
+        <l n="50" real="xx+xx+-x" met="--+-+-+-">But now our fears tempestuous grow</l>
+        <l n="51" real="xx+-x-+" met="-+-+-+-">And cast our hopes away;</l>
+        <l n="52" real="xx-+-x+x" met="--+-+-+-">Whilst you, regardless of our woe,</l>
+        <l n="53" real="x+-xxx" met="-+-+-+">Sit careless at a play:</l>
+        <l n="54" real="-+-+x+-x" met="--+-+-+-">Perhaps permit some happier man</l>
+        <l n="55" real="xxxxxxxx" met="--+-+-+-">To kiss your hand, or flirt your fan--</l>
+        <l n="56" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="ababcc-">
+        <l n="57" real="x+-+-xxx" met="--+-+-+-">When any mournful tune you hear,</l>
+        <l n="58" real="xxx+--x" met="-+-+-+-">That dies in every note</l>
+        <l n="59" real="xxxxxxxx" met="--+-+-+-">As if it sigh’d with each man’s care</l>
+        <l n="60" real="x+-x-+" met="-+-+-+">For being so remote,</l>
+        <l n="61" real="xxx+-xxx" met="--+-+-+-">Think then how often love we’ve made</l>
+        <l n="62" real="xxxxxxxx" met="--+-+-+-">To you, when all those tunes were play’d--</l>
+        <l n="63" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="ababcc-">
+        <l n="64" real="x+-x-+-+" met="--+-+-+-">In justice you cannot refuse</l>
+        <l n="65" real="xxx+--+" met="-+-+-+-">To think of our distress,</l>
+        <l n="66" real="xxxxx+-x" met="--+-+-+-">When we for hopes of honour lose</l>
+        <l n="67" real="+-+-+--" met="-+-+-+-">Our certain happiness:</l>
+        <l n="68" real="xx-+xxxx" met="--+-+-+-">All those designs are but to prove</l>
+        <l n="69" real="-+x+-xxx" met="--+-+-+-">Ourselves more worthy of your love--</l>
+        <l n="70" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a---">
+        <l n="71" real="xxxxxx+x" met="--+-+-+-">And now we’ve told you all our loves,</l>
+        <l n="72" real="x+xx+-x" met="-+-+-+-">And likewise all our fears,</l>
+        <l n="73" real="xxxx-+-x" met="--+-+-+-">In hopes this declaration moves</l>
+        <l n="74" real="x+-x+-x" met="-+-+-+-">Some pity for our tears:</l>
+        <l n="75" real="xxxx-+--" met="--+-+-+-">Let’s hear of no inconstancy--</l>
+        <l n="76" real="xxxxxxxx" met="--+-+-+-">We have too much of that at sea--</l>
+        <l n="77" real="xxxxxxx" met="-+-+-+-">With a fa, la, la, la, la.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

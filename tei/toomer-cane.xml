@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Cane</title><author>Jean Toomer</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Cane. Project Gutenberg ebook #60093. <ref target="https://www.gutenberg.org/ebooks/60093">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="with-a-foreword-by-waldo-frank" n="L01555">
+      <head>With a Foreword, by, Waldo Frank</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:with-a-foreword-by-waldo-frank</idno><idno type="laurel-id">L01555</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxx">Oracular.</l>
+        <l n="2" real="+--x-+-+-">Redolent of fermenting syrup,</l>
+        <l n="3" real="+-xxx">Purple of the dusk,</l>
+        <l n="4" real="x+-x">Deep-rooted cane.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="foreword" n="L01556">
+      <head>Foreword</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:foreword</idno><idno type="laurel-id">L01556</idno>
+      <lg type="stanza" n="1" rhyme="-aa-">
+        <l n="1" real="xxxxxxx+-x">A feast of moon and men and barking hounds,</l>
+        <l n="2" real="x+-xx+-xxx">An orgy for some genius of the South</l>
+        <l n="3" real="xxxxxxx+-x">With bloodshot eyes and cane-lipped scented mouth</l>
+        <l n="4" real="-+x+-xx">Surprised in making folk-songs....</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="karintha" n="L01557">
+      <head>Karintha</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:karintha</idno><idno type="laurel-id">L01557</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-aa">
+        <l n="1" real="xxxxxxx+--+-" met="--+-+-+-+-+-">Her skin is like dusk on the eastern horizon,</l>
+        <l n="2" real="xxxxxxxxxx" met="--+-+-+-+-">O cant you see it, O cant you see it,</l>
+        <l n="3" real="xxxxxxx+--+-" met="--+-+-+-+-+-">Her skin is like dusk on the eastern horizon</l>
+        <l n="4" real="xxxxx" met="-+-+-">... When the sun goes down.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a-">
+        <l n="5" real="xxxxx" met="-+-+-">Her skin is like dusk,</l>
+        <l n="6" real="xxxxx" met="-+-+-">O cant you see it,</l>
+        <l n="7" real="xxxxx" met="-+-+-">Her skin is like dusk,</l>
+        <l n="8" real="xxxxx" met="-+-+-">When the sun goes down.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">Smoke is on the hills. Rise up.</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">Smoke is on the hills, O rise</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">And take my soul to Jesus.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a-aa">
+        <l n="12" real="xxxxxxx+--+-" met="--+-+-+-+-+-">Her skin is like dusk on the eastern horizon,</l>
+        <l n="13" real="xxxxxxxxxx" met="--+-+-+-+-">O cant you see it, O cant you see it,</l>
+        <l n="14" real="xxxxxxx+--+-" met="--+-+-+-+-+-">Her skin is like dusk on the eastern horizon</l>
+        <l n="15" real="xxxxx" met="-+-+-">... When the sun goes down.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="reapers" n="L01558">
+      <head>Reapers</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:reapers</idno><idno type="laurel-id">L01558</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Black reapers with the sound of steel on stones</l>
+        <l n="2" real="x+-xxxxxxx" met="-+-+-+-+-+">Are sharpening scythes. I see them place the hones</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">In their hip-pockets as a thing that’s done,</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">And start their silent swinging, one by one.</l>
+        <l n="5" real="x+-xx+-xxx" met="-+-+-+-+-+">Black horses drive a mower through the weeds,</l>
+        <l n="6" real="xxxxx+-+-x" met="-+-+-+-+-+">And there, a field rat, startled, squealing bleeds,</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">His belly close to ground. I see the blade,</l>
+        <l n="8" real="xx-+-+-xxx" met="-+-+-+-+-+">Blood-stained, continue cutting weeds and shade.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="november-cotton-flower" n="L01559">
+      <head>November Cotton Flower</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:november-cotton-flower</idno><idno type="laurel-id">L01559</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddee--ff">
+        <l n="1" real="x+-+-xx+-x" met="-+-+-+-+-+">Boll-weevil’s coming, and the winter’s cold,</l>
+        <l n="2" real="x+-xx+-+-x" met="-+-+-+-+-+">Made cotton-stalks look rusty, seasons old,</l>
+        <l n="3" real="x+-xx+-+-x" met="-+-+-+-+-+">And cotton, scarce as any southern snow,</l>
+        <l n="4" real="x+--xxxxxx" met="-+-+-+-+-+">Was vanishing; the branch, so pinched and slow,</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">Failed in its function as the autumn rake;</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">Drouth fighting soil had caused the soil to take</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">All water from the streams; dead birds were found</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">In wells a hundred feet below the ground—</l>
+        <l n="9" real="xxx+-xx+-x" met="-+-+-+-+-+">Such was the season when the flower bloomed.</l>
+        <l n="10" real="xxx+-xxx-+" met="-+-+-+-+-+">Old folks were startled, and it soon assumed</l>
+        <l n="11" real="-+--x-+-x" met="+-+-+-+-+">Significance. Superstition saw</l>
+        <l n="12" real="+-xx+-xxx" met="+-+-+-+-+">Something it had never seen before:</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Brown eyes that loved without a trace of fear,</l>
+        <l n="14" real="+-x+-xxxxx" met="-+-+-+-+-+">Beauty so sudden for that time of year.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="face" n="L01560">
+      <head>Face</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:face</idno><idno type="laurel-id">L01560</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x" met="+">Hair—</l>
+        <l n="2" real="+-x" met="+-+">silver-gray,</l>
+        <l n="3" real="xxxx" met="-+-+">like streams of stars,</l>
+        <l n="4" real="x" met="+">Brows—</l>
+        <l n="5" real="xx-+" met="-+-+">recurved canoes</l>
+        <l n="6" real="xx-xx+-xxx" met="--+-+-+-+-">quivered by the ripples blown by pain,</l>
+        <l n="7" real="xx" met="-+">Her eyes—</l>
+        <l n="8" real="xxx" met="+-+">mist of tears</l>
+        <l n="9" real="-+-xxxxx" met="--+-+-+-">condensing on the flesh below</l>
+        <l n="10" real="xx+-+-" met="--+-+-">And her channeled muscles</l>
+        <l n="11" real="x+-xx+-" met="-+-+-+-">are cluster grapes of sorrow</l>
+        <l n="12" real="+-xx+-x" met="-+-+-+-">purple in the evening sun</l>
+        <l n="13" real="+-xxx" met="-+-+-">nearly ripe for worms.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="cotton-song" n="L01561">
+      <head>Cotton Song</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:cotton-song</idno><idno type="laurel-id">L01561</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="x+-xxxx" met="+-+-+-+">Come, brother, come. Lets lift it;</l>
+        <l n="2" real="xxxxx-+" met="+-+-+-+">Come now, hewit! roll away!</l>
+        <l n="3" real="+-xxxx+-x" met="-+-+-+-+-">Shackles fall upon the Judgment Day</l>
+        <l n="4" real="xxxxxx" met="--+-+-">But lets not wait for it.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaaa">
+        <l n="5" real="x+-xxx" met="--+-+-">God’s body’s got a soul,</l>
+        <l n="6" real="+-xxxxx" met="+-+-+-+">Bodies like to roll the soul,</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Cant blame God if we dont roll,</l>
+        <l n="8" real="x+-xx" met="-+-+-">Come, brother, roll, roll!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abba">
+        <l n="9" real="+-xxx+-x" met="-+-+-+-+">Cotton bales are the fleecy way</l>
+        <l n="10" real="+-+-xxx" met="+-+-+-+">Weary sinner’s bare feet trod,</l>
+        <l n="11" real="+-+-xxxxx" met="-+-+-+-+-">Softly, softly to the throne of God,</l>
+        <l n="12" real="xxxxxxxx+-x" met="-+-+-+-+-+-">“We aint agwine t wait until th Judgment Day!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="--aa">
+        <l n="13" real="xxxx" met="--+-">Nassur; nassur,</l>
+        <l n="14" real="x" met="+">Hump.</l>
+        <l n="15" real="xxxxx-+" met="+-+-+-+">Eoho, eoho, roll away!</l>
+        <l n="16" real="xxxxxxxx+-x" met="-+-+-+-+-+-">We aint agwine t wait until th Judgment Day!”</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaaa">
+        <l n="17" real="x+-xxx" met="--+-+-">God’s body’s got a soul,</l>
+        <l n="18" real="+-xxxxx" met="+-+-+-+">Bodies like to roll the soul,</l>
+        <l n="19" real="xxxxxxx" met="+-+-+-+">Cant blame God if we dont roll,</l>
+        <l n="20" real="x+-xx" met="-+-+-">Come, brother, roll, roll!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="carma" n="L01562">
+      <head>Carma</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:carma</idno><idno type="laurel-id">L01562</idno>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xxxxxx-+">Wind is in the cane. Come along.</l>
+        <l n="2" real="xx+-+-xx">Cane leaves swaying, rusty with talk,</l>
+        <l n="3" real="+-+-xxx+-x">Scratching choruses above the guinea’s squawk,</l>
+        <l n="4" real="xxxxxx-+">Wind is in the cane. Come along.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="night" n="L01563">
+      <head>Night</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:night</idno><idno type="laurel-id">L01563</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xxxxxx-+" met="-+-+-+-+">Wind is in the corn. Come along.</l>
+        <l n="2" real="xx+-+-xx" met="-+-+-+-+">Corn leaves swaying, rusty with talk,</l>
+        <l n="3" real="+-+-xxx+-x" met="--+-+-+-+-">Scratching choruses above the guinea’s squawk,</l>
+        <l n="4" real="xxxxxx-+" met="-+-+-+-+">Wind is in the corn. Come along.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="xxxxxx-+" met="-+-+-+-+">Wind is in the cane. Come along.</l>
+        <l n="6" real="xx+-+-xx" met="-+-+-+-+">Cane leaves swaying, rusty with talk,</l>
+        <l n="7" real="+-+-xxx+-x" met="--+-+-+-+-">Scratching choruses above the guinea’s squawk,</l>
+        <l n="8" real="xxxxxx-+" met="-+-+-+-+">Wind is in the cane. Come along.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song-of-the-son" n="L01564">
+      <head>Song of the Son</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:song-of-the-son</idno><idno type="laurel-id">L01564</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa">
+        <l n="1" real="xxxx+-xxx" met="+-+-+-+-+">Pour O pour that parting soul in song,</l>
+        <l n="2" real="xxxxx+xxxx" met="-+-+-+-+-+">O pour it in the sawdust glow of night,</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">Into the velvet pine-smoke air to-night,</l>
+        <l n="4" real="xxx+-+-x-+" met="-+-+-+-+-+">And let the valley carry it along.</l>
+        <l n="5" real="xxx+-+-x-+" met="-+-+-+-+-+">And let the valley carry it along.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaa">
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">O land and soil, red soil and sweet-gum tree,</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">So scant of grass, so profligate of pines,</l>
+        <l n="8" real="xxxxx+-x-+" met="-+-+-+-+-+">Now just before an epoch’s sun declines</l>
+        <l n="9" real="xxxxxx-+xx" met="-+-+-+-+-+">Thy son, in time, I have returned to thee,</l>
+        <l n="10" real="xxxxxx-+xx" met="-+-+-+-+-+">Thy son, I have in time returned to thee.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbaa">
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">In time, for though the sun is setting on</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">A song-lit race of slaves, it has not set;</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Though late, O soil, it is not too late yet</l>
+        <l n="14" real="xxx+-x+-xx" met="-+-+-+-+-+">To catch thy plaintive soul, leaving, soon gone,</l>
+        <l n="15" real="+-xxx+-xxx" met="-+-+-+-+-+">Leaving, to catch thy plaintive soul soon gone.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abba">
+        <l n="16" real="x+-xx+-+-x" met="-+-+-+-+-+">O Negro slaves, dark purple ripened plums,</l>
+        <l n="17" real="x-x+-xxxxx" met="-+-+-+-+-+">Squeezed, and bursting in the pine-wood air,</l>
+        <l n="18" real="+-xxxxxxxx" met="-+-+-+-+-+">Passing, before they stripped the old tree bare</l>
+        <l n="19" real="xxxxxxxx-+" met="-+-+-+-+-+">One plum was saved for me, one seed becomes</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="20" real="xx-+-xx+-x" met="-+-+-+-+-+">An everlasting song, a singing tree,</l>
+        <l n="21" real="xxx+-xx+--" met="-+-+-+-+-+">Caroling softly souls of slavery,</l>
+        <l n="22" real="xxxxxxxxx" met="+-+-+-+-+">What they were, and what they are to me,</l>
+        <l n="23" real="xxx+-xx+--" met="-+-+-+-+-+">Caroling softly souls of slavery.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="georgia-dusk" n="L01565">
+      <head>Georgia Dusk</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:georgia-dusk</idno><idno type="laurel-id">L01565</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xx+--+-x-+" met="-+-+-+-+-+">The sky, lazily disdaining to pursue</l>
+        <l n="2" real="x+-xx+--xx" met="-+-+-+-+-+">The setting sun, too indolent to hold</l>
+        <l n="3" real="x+-+--x+-x" met="-+-+-+-+-+">A lengthened tournament for flashing gold,</l>
+        <l n="4" real="+--xxxx+-x" met="-+-+-+-+-+">Passively darkens for night’s barbecue,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">A feast of moon and men and barking hounds,</l>
+        <l n="6" real="x+-xx+-xxx" met="-+-+-+-+-+">An orgy for some genius of the South</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">With blood-hot eyes and cane-lipped scented mouth,</l>
+        <l n="8" real="-+x+-xxxxx" met="-+-+-+-+-+">Surprised in making folk-songs from soul sounds.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abba">
+        <l n="9" real="x+xxx+-xxx" met="-+-+-+-+-+">The sawmill blows its whistle, buzz-saws stop,</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">And silence breaks the bud of knoll and hill,</l>
+        <l n="11" real="x+-+-xxx-+" met="-+-+-+-+-+">Soft settling pollen where plowed lands fulfill</l>
+        <l n="12" real="x+-+-xx+-x" met="-+-+-+-+-+">Their early promise of a bumper crop.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abba">
+        <l n="13" real="xxx-+--+xx" met="-+-+-+-+-+">Smoke from the pyramidal sawdust pile</l>
+        <l n="14" real="xxxxxxxxx" met="+-+-+-+-+">Curls up, blue ghosts of trees, tarrying low</l>
+        <l n="15" real="x+-xxxxxxx" met="-+-+-+-+-+">Where only chips and stumps are left to show</l>
+        <l n="16" real="x+-xx+-xxxx" met="-+-+-+-+-+-">The solid proof of former domicile.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abba">
+        <l n="17" real="+xxxx+--xx" met="-+-+-+-+-+">Meanwhile, the men, with vestiges of pomp,</l>
+        <l n="18" real="x+--xxx+-x" met="-+-+-+-+-+">Race memories of king and caravan,</l>
+        <l n="19" real="xxx+-xx+-x" met="-+-+-+-+-+">High-priests, an ostrich, and a juju-man,</l>
+        <l n="20" real="x+-xxxxxxx" met="-+-+-+-+-+">Go singing through the footpaths of the swamp.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abba">
+        <l n="21" real="x+-xxxxx-+" met="-+-+-+-+-+">Their voices rise .. the pine trees are guitars,</l>
+        <l n="22" real="+-x+-xxxxx" met="-+-+-+-+-+">Strumming, pine-needles fall like sheets of rain ..</l>
+        <l n="23" real="x+-xx+-xxx" met="-+-+-+-+-+">Their voices rise .. the chorus of the cane</l>
+        <l n="24" real="xxxxx+-xxx" met="-+-+-+-+-+">Is caroling a vesper to the stars..</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abba">
+        <l n="25" real="x+-xxxxxxx" met="-+-+-+-+-+">O singers, resinous and soft your songs</l>
+        <l n="26" real="xxx+-+-xxx" met="-+-+-+-+-+">Above the sacred whisper of the pines,</l>
+        <l n="27" real="x+-xx+x+-x" met="-+-+-+-+-+">Give virgin lips to cornfield concubines,</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Bring dreams of Christ to dusky cane-lipped throngs.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nullo" n="L01566">
+      <head>Nullo</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:nullo</idno><idno type="laurel-id">L01566</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxx+-" met="--+-+-">A spray of pine-needles,</l>
+        <l n="2" real="x-x+--+-x" met="-+-+-+-+-">Dipped in western horizon gold,</l>
+        <l n="3" real="x+-xx" met="-+-+-">Fell onto a path.</l>
+        <l n="4" real="xxxxx" met="-+-+-">Dry moulds of cow-hoofs.</l>
+        <l n="5" real="xx+-" met="-+-+">In the forest.</l>
+        <l n="6" real="+-xxxx+-" met="--+-+-+-">Rabbits knew not of their falling,</l>
+        <l n="7" real="xxx+-x-+" met="--+-+-+-">Nor did the forest catch aflame.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="evening-song" n="L01567">
+      <head>Evening Song</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:evening-song</idno><idno type="laurel-id">L01567</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abba">
+        <l n="1" real="xx+-xx+-xxx" met="-+-+-+-+-+-">Full moon rising on the waters of my heart,</l>
+        <l n="2" real="xxxx+-" met="-+-+-+">Lakes and moon and fires,</l>
+        <l n="3" real="x+-" met="-+-">Cloine tires,</l>
+        <l n="4" real="+-xx-+" met="-+-+-+">Holding her lips apart.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba">
+        <l n="5" real="+-x+-+-xxxxx" met="--+-+-+-+-+-">Promises of slumber leaving shore to charm the moon,</l>
+        <l n="6" real="+--x+-x" met="-+-+-+-">Miracle made vesper-keeps,</l>
+        <l n="7" real="xx" met="-+">Cloine sleeps,</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">And I’ll be sleeping soon.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abba">
+        <l n="9" real="xxxx+-+-xxxxx" met="-+-+-+-+-+-+-">Cloine, curled like the sleepy waters where the moon-waves start,</l>
+        <l n="10" real="+--xxxxxx" met="-+-+-+-+-">Radiant, resplendently she gleams,</l>
+        <l n="11" real="xx" met="-+">Cloine dreams,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Lips pressed against my heart.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="conversion" n="L01568">
+      <head>Conversion</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:conversion</idno><idno type="laurel-id">L01568</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+--+--xx" met="+-+-+-+-">African Guardian of Souls,</l>
+        <l n="2" real="xxx" met="+--">Drunk with rum,</l>
+        <l n="3" real="+-xxxxxx" met="+-+-+-+-">Feasting on a strange cassava,</l>
+        <l n="4" real="+-xxxxxxxxx" met="+-+-+-+-+--">Yielding to new words and a weak palabra</l>
+        <l n="5" real="xxxx--+-x" met="+-+-+-+--">Of a white-faced sardonic god—</l>
+        <l n="6" real="xx" met="+-">Grins, cries</l>
+        <l n="7" real="-+" met="+-">Amen,</l>
+        <l n="8" real="xxxx" met="+---">Shouts hosanna.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="portrait-in-georgia" n="L01569">
+      <head>Portrait in Georgia</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:portrait-in-georgia</idno><idno type="laurel-id">L01569</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-+xxxxxxx">Hair—braided chestnut, coiled like a lyncher’s rope,</l>
+        <l n="2" real="xxx">Eyes—fagots,</l>
+        <l n="3" real="xxxxxxx+-">Lips—old scars, or the first red blisters,</l>
+        <l n="4" real="xxxxxxx">Breath—the last sweet scent of cane,</l>
+        <l n="5" real="xxx+-xxxxxxxxxx">And her slim body, white as the ash of black flesh after flame.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="blood-burning-moon" n="L01570">
+      <head>Blood-Burning Moon</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:blood-burning-moon</idno><idno type="laurel-id">L01570</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-">
+        <l n="1" real="x+-x+-" met="--+-+-">Red nigger moon. Sinner!</l>
+        <l n="2" real="x+-x+-" met="--+-+-">Blood-burning moon. Sinner!</l>
+        <l n="3" real="xxxxxx" met="--+-+-">Come out that fact’ry door.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="4" real="xxxxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-+-">“I said I would an there aint no mo to it. But that aint th talk f now.</l>
+        <l n="5" real="x+--+-xxxxxxxxxx+-x">Sing, honey Louisa, an while I’m listenin t y I’ll be makin love.”</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-">
+        <l n="6" real="x+-x+-" met="--+-+-">Red nigger moon. Sinner!</l>
+        <l n="7" real="x+-x+-" met="--+-+-">Blood-burning moon. Sinner!</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Come out that fact’ry door.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="9" real="-+xxxxxxxxxxx" met="-+-+-+-+-+-+-">Again he lunged. Tom side-stepped and flung him to the ground.</l>
+        <l n="10" real="+-x" met="+-+">Straddled him.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="11" real="xxxxx-++-xxxx+-xx" met="-+-+-+-+-+-+-+-+-">Tom yanked him up and began hammering at him. Each blow sounded as if</l>
+        <l n="12" real="xxxxx+--+-x+-xxx" met="--+-+-+-+-+-+-+-">it smashed into a precious, irreplaceable soft something. Beneath them,</l>
+        <l n="13" real="x+-xxxxx+-xxxxx" met="-+-+-+-+-+-+-+-">Bob staggered back. He reached in his pocket and whipped out a knife.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa-">
+        <l n="14" real="x+-x+-" met="--+-+-">Red nigger moon. Sinner!</l>
+        <l n="15" real="x+-x+-" met="--+-+-">Blood-burning moon. Sinner!</l>
+        <l n="16" real="xxxxxx" met="--+-+-">Come out that fact’ry door.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="seventh-street" n="L01571">
+      <head>Seventh Street</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:seventh-street</idno><idno type="laurel-id">L01571</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="+-xx+-+-x" met="+-+-+-+-+">Money burns the pocket, pocket hurts,</l>
+        <l n="2" real="+x-x+-x" met="-+-+-+-">Bootleggers in silken shirts,</l>
+        <l n="3" real="-++-+-x" met="-+-+-+-">Ballooned, zooming Cadillacs,</l>
+        <l n="4" real="+-+-xxxxx" met="+-+-+-+-+">Whizzing, whizzing down the street-car tracks.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="+-xx+-+-x" met="+-+-+-+-+">Money burns the pocket, pocket hurts,</l>
+        <l n="6" real="+x-x+-x" met="-+-+-+-">Bootleggers in silken shirts,</l>
+        <l n="7" real="-++-+-x" met="-+-+-+-">Ballooned, zooming Cadillacs,</l>
+        <l n="8" real="+-+-xxxxx" met="+-+-+-+-+">Whizzing, whizzing down the street-car tracks.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="rhobert" n="L01572">
+      <head>Rhobert</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:rhobert</idno><idno type="laurel-id">L01572</idno>
+      <lg type="stanza" n="1" rhyme="aa">
+        <l n="1" real="+-xx+-xx+xx">Brother, life is water that is being drawn off.</l>
+        <l n="2" real="+-xx+-xx+xx">Brother, life is water that is being drawn off.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-xxx+-">Brother, Rhobert is sinking.</l>
+        <l n="4" real="x+-+-x+-">Lets open our throats, brother,</l>
+        <l n="5" real="xxx+-xxxx">Lets sing Deep River when he goes down.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="beehive" n="L01573">
+      <head>Beehive</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:beehive</idno><idno type="laurel-id">L01573</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-abbb-a---ccb-">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">Within this black hive to-night</l>
+        <l n="2" real="xxx+-x" met="-+-+-+">There swarm a million bees;</l>
+        <l n="3" real="x+-xxxxx" met="--+-+-+-">Bees passing in and out the moon,</l>
+        <l n="4" real="x-+-xxx" met="-+-+-+-">Bees escaping out the moon,</l>
+        <l n="5" real="x-+-xxx" met="-+-+-+-">Bees returning through the moon,</l>
+        <l n="6" real="+-x-+-+-" met="--+-+-+-">Silver bees intently buzzing,</l>
+        <l n="7" real="+-+-+-xxxxx" met="-+-+-+-+-+-">Silver honey dripping from the swarm of bees</l>
+        <l n="8" real="xxxxxxxxxx" met="--+-+-+-+-">Earth is a waxen cell of the world comb,</l>
+        <l n="9" real="xxxx" met="--+-">And I, a drone,</l>
+        <l n="10" real="+-xxx" met="+-+-+">Lying on my back,</l>
+        <l n="11" real="xx+-" met="--+-">Lipping honey,</l>
+        <l n="12" real="+-xx+-+-" met="--+-+-+-">Getting drunk with silver honey,</l>
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">Wish that I might fly out past the moon</l>
+        <l n="14" real="xx-+-xxxx+x+" met="--+-+-+-+-+-">And curl forever in some far-off farmyard flower.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="storm-ending" n="L01574">
+      <head>Storm Ending</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:storm-ending</idno><idno type="laurel-id">L01574</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a--a----">
+        <l n="1" real="+-+-xxxxx+x" met="-+-+-+-+-+-">Thunder blossoms gorgeously above our heads,</l>
+        <l n="2" real="x+-xx+-" met="-+-+-+-">Great, hollow, bell-like flowers,</l>
+        <l n="3" real="+--xxx" met="-+-+-+">Rumbling in the wind,</l>
+        <l n="4" real="+-xxxx+-x" met="-+-+-+-+-">Stretching clappers to strike our ears ..</l>
+        <l n="5" real="xx+-" met="--+-">Full-lipped flowers</l>
+        <l n="6" real="+-xxx" met="+-+-+">Bitten by the sun</l>
+        <l n="7" real="+-x" met="-+-">Bleeding rain</l>
+        <l n="8" real="+-xx+-+-" met="--+-+-+-">Dripping rain like golden honey—</l>
+        <l n="9" real="xxxx+-xx+-" met="--+-+-+-+-">And the sweet earth flying from the thunder.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="theater" n="L01575">
+      <head>Theater</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:theater</idno><idno type="laurel-id">L01575</idno><note type="metre">trochaic heptameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxx-+-+-x+-xx" met="+-+-+-+-+-+-+--">Girls laugh and shout. Sing discordant snatches of other jazz songs.</l>
+        <l n="2" real="xxx+-xxxxx+-xx" met="+-+-+-+-+-+-+-">Whirl with loose passion into the arms of passing show-men.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-+-xxx+-xxxxxxxxx" met="+--+-+-+-+-+-+-+--">Dorris tosses her head and dances for him until she feels she has him.</l>
+        <l n="4" real="x-+-xxxxxxxx-+-" met="+-+-+-+-+-+-+--">Then, withdrawing disdainfully, she flirts with the director.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aa-">
+        <l n="5" real="xxxxxxx+-xx+-xx" met="+-+-+-+-+-+-+--">They are in a room. John knows nothing of it. Only, that the</l>
+        <l n="6" real="xxxx+-xxx+-xx" met="+-+-+-+-+-+-+">flesh and blood of Dorris are its walls. Singing walls. Lights,</l>
+        <l n="7" real="xxxxxxxx+-xx" met="+--+-+-+-+--">soft, as if they shine through clear pink fingers. Soft lights,</l>
+        <l n="8" real="xx" met="+-">and warm.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="box-seat" n="L01576">
+      <head>Box Seat</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:box-seat</idno><idno type="laurel-id">L01576</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxx+-x+-x+-+x-">Her eyes are weak. They are bluish and watery from reading newspapers.</l>
+        <l n="2" real="xxxxxxxxxxxx+-xx">The blue is steel. It gimlets Dan while her mouth flaps amiably to him.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="x+-xxxxx+-xxxxxxx">Dan: Nothing for you to see, old mussel-head. Dare I show you? If I</l>
+        <l n="4" real="x-+-x+-x+xxxxxxx">did, delirium would furnish you headlines for a month. Now look here.</l>
+        <l n="5" real="x-+xx+-xx+-xxxxx">Thats enough. Go long, woman. Say some nasty thing and I’ll kill you.</l>
+        <l n="6" real="x+-xxxxx+-xx">Huh. Better damned sight not. Ta-ta, Mrs. Pribby.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="7" real="xxxxxxxxx+-x+-+-">“Well, you havent told me, you havent answered my question, stranger.</l>
+        <l n="8" real="xxxx">What brought you here?”</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="9" real="+-xxxxxxx+-xxxxxx">“Muriel, I love you. I want you, whatever the world of Pribby says.</l>
+        <l n="10" real="xxxxxxxx-+xxxx-+x">Damn your Pribby. Who is she to dictate my love? I’ve stood enough of</l>
+        <l n="11" real="x-+xxxx">her. Enough of you. Come here.”</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a-a">
+        <l n="12" real="xxxx-+x+-x+-xxx">Dan fidgets, and disturbs his neighbors. His neighbors glare at him.</l>
+        <l n="13" real="xxxxx+xxxxxxxx">He glares back without seeing them. The man whose corns have been trod</l>
+        <l n="14" real="xxxxx">upon speaks to him.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="15" real="xxxxxxxxxxx+-+-x">“Dont tell me to shhh. Tell him. That man there. He started everything.</l>
+        <l n="16" real="xxx+-xxxxxxxxxx">If what he wanted was to start a fight, why didnt he say so?”</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="17" real="xx-+--xxx">Me, horizontally above her.</l>
+        <l n="18" real="+-+xx+--+">Action: perfect strokes downward oblique.</l>
+        <l n="19" real="xx+-xxxxx-+-">Hence, man dominates because of limitation.</l>
+        <l n="20" real="xxxxxxx+-xxx">Or, so it shall be until women learn their stuff.</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="21" real="xxxxxx-+xx">Do not shrink. Do not be afraid of me.</l>
+        <l n="22" real="+-">Jesus</l>
+        <l n="23" real="xxxxxxx">See how my eyes look at you.</l>
+        <l n="24" real="xxxx">the Son of God</l>
+        <l n="25" real="xxxxxx+-">I too was made in His image.</l>
+        <l n="26" real="xx">was once—</l>
+        <l n="27" real="xxxxx">I give you the rose.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="prayer" n="L01577">
+      <head>Prayer</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:prayer</idno><idno type="laurel-id">L01577</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a--abcb--cacc-c">
+        <l n="1" real="x+-x-+xxx" met="-+-+-+-+-">My body is opaque to the soul.</l>
+        <l n="2" real="+xx+xxxxx+-xxxx" met="-+-+-+-+-+-+-+-">Driven of the spirit, long have I sought to temper it unto the</l>
+        <l n="3" real="+-+-" met="--+-">spirit’s longing,</l>
+        <l n="4" real="xxxxx-+xxx" met="--+-+-+-+-">But my mind, too, is opaque to the soul.</l>
+        <l n="5" real="xx-xxxxxx" met="-+-+-+-+-">A closed lid is my soul’s flesh-eye.</l>
+        <l n="6" real="x+-xxxxxxx+-+-" met="--+-+-+-+-+-+-">O Spirits of whom my soul is but a little finger,</l>
+        <l n="7" real="-+xxxxxxxx" met="--+-+-+-+-">Direct it to the lid of its flesh-eye.</l>
+        <l n="8" real="xxxxx+-" met="+-+-+-+">I am weak with much giving.</l>
+        <l n="9" real="xxxxx-+xxx" met="--+-+-+-+-">I am weak with the desire to give more.</l>
+        <l n="10" real="xxxxxx+-+-" met="--+-+-+-+-">(How strong a thing is the little finger!)</l>
+        <l n="11" real="xxxxx-+x+-xxx" met="-+-+-+-+-+-+-">So weak that I have confused the body with the soul,</l>
+        <l n="12" real="xx+-xx+-+-" met="--+-+-+-+-">And the body with its little finger.</l>
+        <l n="13" real="xxxx+-+-" met="-+-+-+-+">(How frail is the little finger.)</l>
+        <l n="14" real="xxxx+-xxxxxxx" met="-+-+-+-+-+-+-">My voice could not carry to you did you dwell in stars,</l>
+        <l n="15" real="x+-xxxxxxx+-+-" met="--+-+-+-+-+-+-">O Spirits of whom my soul is but a little finger..</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="harvest-song" n="L01578">
+      <head>Harvest Song</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:harvest-song</idno><idno type="laurel-id">L01578</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-x+-xx+xxxxx" met="--+-+-+-+-+-+-+-">I am a reaper whose muscles set at sundown. All my oats are</l>
+        <l n="2" real="x" met="+">cradled.</l>
+        <l n="3" real="xxxxxxx-+xxx" met="-+-+-+-+-+-+">But I am too chilled, and too fatigued to bind them.</l>
+        <l n="4" real="xx+-" met="--+-">And I hunger.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">I crack a grain between my teeth. I do not taste it.</l>
+        <l n="6" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">I have been in the fields all day. My throat is dry.</l>
+        <l n="7" real="x+-" met="-+-">I hunger.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="8" real="xxxxxxxxxx+-x" met="-+-+-+-+-+-+-">My eyes are caked with dust of oatfields at harvest-time.</l>
+        <l n="9" real="xxxxxxx-+xx+-x" met="--+-+-+-+-+-+-">I am a blind man who stares across the hills, seeking stack’d</l>
+        <l n="10" real="xx+-+--" met="-+-+-+-">fields of other harvesters.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="11" real="xxxxxxxxxxx" met="+-+-+-+-+-+">(Dusk is a strange fear’d sheath their blades are dull’d in.)</l>
+        <l n="12" real="xxxxxxxxxxxxxx" met="--+-+-+-+-+-+-">My throat is dry. And should I call, a cracked grain like the oats</l>
+        <l n="13" real="xx" met="-+">... eoho—</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="14" real="xxxxxxxxxx+-xx" met="--+-+-+-+-+-+-">I fear to call. What should they hear me, and offer me their</l>
+        <l n="15" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">grain, oats, or wheat, or corn? I have been in the fields all</l>
+        <l n="16" real="xxxxxxxxxx+-xx" met="--+-+-+-+-+-+-">day. I fear I could not taste it. I fear knowledge of my</l>
+        <l n="17" real="+-" met="-+">hunger.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="18" real="xxxxxxxxxx+-x" met="-+-+-+-+-+-+-">My ears are caked with dust of oatfields at harvest-time.</l>
+        <l n="19" real="xxxxxxxxxxxx+-+-" met="--+-+-+-+-+-+-+-">I am a deaf man who strains to hear the calls of other harvesters</l>
+        <l n="20" real="xxx+-x" met="--+-+-">whose throats are also dry.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="a--a">
+        <l n="21" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">It would be good to hear their songs .. reapers of the</l>
+        <l n="22" real="xxx+-xxx+xx" met="+-+-+-+-+-+">sweet-stalk’d cane, cutters of the corn .. even though their</l>
+        <l n="23" real="xxxx+-xx+-xx" met="-+-+-+-+-+-+">throats cracked and the strangeness of their voices deafened</l>
+        <l n="24" real="x" met="+">me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="bona-and-paul" n="L01579">
+      <head>Bona and Paul</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:bona-and-paul</idno><idno type="laurel-id">L01579</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-x-+xxxxxxxx-+-+-">Columns thud away from her. Come to a halt in line formation. Rigid.</l>
+        <l n="2" real="x+-xxxx+--+-x">The period bell rings, and the teacher dismisses them.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-xxxxxxxxxxxxxx">“Helen, I want to play, and you must let me. This is the first time</l>
+        <l n="4" real="xxxxxxx">I’ve asked and I dont see why—”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="pure-food-restaurant" n="L01580">
+      <head>Pure Food Restaurant</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:pure-food-restaurant</idno><idno type="laurel-id">L01580</idno><note type="metre">iambic octameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx+-xxxxx+-" met="-+-+-+-+-+-+-+-+">“Come right in, wont you? The young ladies will be right down. Oh, Mr.</l>
+        <l n="2" real="+-xx+-xxxxx+-xx" met="+-+-+-+-+-+-+-+">Carlstrom, do play something for us while you are waiting. We just</l>
+        <l n="3" real="xx+-xx+-xxxx" met="--+-+-+-+-+-">love to listen to your music. You play so well.”</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="4" real="xxxx-+-x+-xxxxx+-x+">Art sat on the piano and simply tore it down. Jazz. The picture of Our</l>
+        <l n="5" real="+-x+---" met="-+-+-+-">Poets hung perilously.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="6" real="xxxxxxxxxxxxxxx+x" met="-+-+-+-+-+-+-+-+-">Paul: I’ve got to get the kid to play that stuff for me in the daytime.</l>
+        <l n="7" real="xx+-x-+x+-+-xx" met="--+-+-+-+-+-+-">Might be different. More himself. More nigger. Different? There is.</l>
+        <l n="8" real="+--x" met="--+-">Curious, though.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="9" real="+-+--+xxxxxxxxx" met="+-+-+-+-+-+-+-+">Crimson Gardens. Hurrah! So one feels. The drinks come. Four highballs.</l>
+        <l n="10" real="x+-x-+xxxxxxx+x+-" met="-+-+-+-+-+-+-+-+-">Art passes cigarettes. A girl dressed like a bare-back rider in flaming</l>
+        <l n="11" real="xxxxx+-xxxxxxx" met="--+-+-+-+-+-+-">pink, makes her way through tables to the dance floor. All lights are</l>
+        <l n="12" real="xxxxxx+-xx+-+xxx" met="-+-+-+-+-+-+-+-+">dimmed till they seem a lush afterglow of crimson. Spotlights the girl.</l>
+        <l n="13" real="xx+-+-+-x" met="-+-+-+-+-">She sings. “Liza, Little Liza Jane.”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="kabnis" n="L01581">
+      <head>Kabnis</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:kabnis</idno><idno type="laurel-id">L01581</idno>
+      <lg type="stanza" n="1" rhyme="-a-a--">
+        <l n="1" real="xxx">White-man’s land.</l>
+        <l n="2" real="+-x">Niggers, sing.</l>
+        <l n="3" real="xxx+-">Burn, bear black children</l>
+        <l n="4" real="xx+-x">Till poor rivers bring</l>
+        <l n="5" real="xxx+-">Rest, and sweet glory</l>
+        <l n="6" real="xxx">In Camp Ground.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="7" real="xxxxxxxx-+xxxxx">“Why in Christ’s hell cant you leave me alone? Damn it, I wish your</l>
+        <l n="8" real="+-xxxx+-+-xxxxx">cackle would choke you. Choke every mother’s son of them in this</l>
+        <l n="9" real="x-+-xx-+xxxxxxxxxx">God-forsaken hole. Go away. By God I’ll wring your neck for you if you</l>
+        <l n="10" real="xxxxxxxx+x+-x-+xx">dont. Hell of a mess I’ve got in: even the poultry is hostile. Go way.</l>
+        <l n="11" real="xxxxx">Go way. By God, I’ll...”</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="12" real="xxxx+-xxxxxxx-+x">Kabnis whirls the chicken by its neck, and throws the head away. Picks</l>
+        <l n="13" real="xx+-+-x+-xxxxxxx+-">up the hopping body, warm, sticky, and hides it in a clump of bushes.</l>
+        <l n="14" real="xxxxxx+-xxxx">He wipes blood from his hands onto the coarse scant grass.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-aa-----bbc--c">
+        <l n="15" real="xxxxxxxxx+-xxxx">“Well, I’m damned. This godam place is sure getting the best of me.</l>
+        <l n="16" real="xxxxx-+-+-xxx-+-">Come, Ralph, old man, pull yourself together. Nights cant last forever.</l>
+        <l n="17" real="xxxxx+x-+-xxxxxx+">Thank God for that. Its Sunday already. First time in my life I’ve ever</l>
+        <l n="18" real="+-+xxxxxxxxxxxxx">wanted Sunday to come. Hell of a day. And down here there’s no such</l>
+        <l n="19" real="xx+-xxxx+-x+-xxx">thing as ducking church. Well, I’ll see Halsey and Layman, and get a</l>
+        <l n="20" real="xxxx+-xxxxxx+-">good square meal. Thats something. And Halsey’s a damn good feller.</l>
+        <l n="21" real="xxxxxxxxxxxxxxx">Cant talk to him, though. Who in Christ’s world can I talk to? A hen.</l>
+        <l n="22" real="xx+x+xxxxxxxxx">God. Myself... I’m going bats, no doubt of that. Come now, Ralph, go</l>
+        <l n="23" real="xxx-+xxxxxxxxx">in and make yourself go to sleep. Come now .. in the door .. thats</l>
+        <l n="24" real="xxx+-xxxxxxxxx">right. Put the poker down. There. All right. Slip under the sheets.</l>
+        <l n="25" real="xxxx+-xxx+-+-">Close your eyes. Think nothing .. a long time .. nothing, nothing.</l>
+        <l n="26" real="x+x+-xx+xxxxx">Dont even think nothing. Blank. Not even blank. Count. No, mustnt count</l>
+        <l n="27" real="+-x+-xxxxxxx">Nothing .. blank .. nothing .. blank .. space without stars in it.</l>
+        <l n="28" real="x+-+-">No, nothing .. nothing..</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a--">
+        <l n="29" real="xxx">White-man’s land.</l>
+        <l n="30" real="+-x">Niggers, sing.</l>
+        <l n="31" real="xxx+-">Burn, bear black children</l>
+        <l n="32" real="xx+-x">Till poor rivers bring</l>
+        <l n="33" real="xxx+-">Rest, and sweet glory</l>
+        <l n="34" real="xxx">In Camp Ground.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="35" real="+-xxx+-+-xxxxxxxx">Layman: Sholy fine, Mr. Halsey, sholy fine. This town’s right good at</l>
+        <l n="36" real="xxxxxxxxx+x+-x">feedin folks, better’n most towns in th state, even for preachers, but</l>
+        <l n="37" real="xxxxxxxxxxxxx-+-">I ken say this beats um all. Yassur. Now aint that right, Professor</l>
+        <l n="38" real="xx">Kabnis?</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="39" real="+-xx+-xxxx+-+-xx">Halsey: Aint that, Layman. He aint like most northern niggers that way.</l>
+        <l n="40" real="xxxxxxxxxxxxxx+-xx">Aint a thing stuck up about him. He likes us, you an me, maybe all—its</l>
+        <l n="41" real="xxxx+-xxxxxxxxx">that red mud over yonder—gets stuck in it an cant get out. (Laughs.)</l>
+        <l n="42" real="xxxx+xxxxx+-+-x+">An then he loves th fire so, warm as its been. Coldest Yankee I’ve ever</l>
+        <l n="43" real="xxxxxxxxxxx+-xxx">seen. But I’m goin t get him out now in a jiffy, eh, Kabnis?</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="44" real="+-xxx-+-x-+xx+-+--+">Halsey (in a mock religious tone): Amen t that, brother Layman. Amen</l>
+        <l n="45" real="+-xxxx+-x+xxx+-x+-">(turning to Kabnis, half playful, yet somehow dead in earnest). An Mr.</l>
+        <l n="46" real="xx+--+-xxxx+-xxxx">Kabnis, kindly remember youre in th land of cotton—hell of a land.</l>
+        <l n="47" real="xxxx+-xxxxxx">Th white folks get th boll; th niggers get th stalk. An dont you dare</l>
+        <l n="48" real="xxx+xxxxxxxx">touch th boll, or even look at it. They’ll swing y sho. (Laughs.)</l>
+      </lg>
+      <lg type="stanza" n="9">
+        <l n="49" real="+-+xxxx+-x+-+-x+-">Layman: Ever hear tell of a single shot killin moren one rabbit,</l>
+        <l n="50" real="-+-">Professor?</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-aa-">
+        <l n="51" real="xxx+-xxxxxxx">Kabnis: Cant something be done? But of course not. This</l>
+        <l n="52" real="+-+-xxxxxxx+-x">preacher-ridden race. Pray and shout. Theyre in the preacher’s hands.</l>
+        <l n="53" real="xxxxxx+-xxxxxx">Thats what it is. And the preacher’s hands are in the white man’s</l>
+        <l n="54" real="+-">pockets.</l>
+      </lg>
+      <lg type="stanza" n="11">
+        <l n="55" real="+-xxxxxxxxxxxxx">Layman: Cant make heads or tails of him, an I’ve seen lots o queer</l>
+        <l n="56" real="+-xxx+-x-xxxxxxxxx">possums in my day. Everybody’s wonderin about him. White folks too.</l>
+        <l n="57" real="xxxxxxxx+--++-xx">He’ll have t leave here soon, thats sho. Always askin questions. An I</l>
+        <l n="58" real="xxxxxxxxxxxxxxx+-x">aint seed his lips move once. Pokin round an notin somethin. Noted what</l>
+        <l n="59" real="xx+-xxxxxxxxx">I said th other day, an that werent fer notin down.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="layman-na-mame-lamkins" n="L01582">
+      <head>Layman: Na. Mame Lamkins</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:layman-na-mame-lamkins</idno><idno type="laurel-id">L01582</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aaa-">
+        <l n="1" real="xxxx+-" met="--+-+-">My Lord, what a mourning,</l>
+        <l n="2" real="xxxx+-" met="--+-+-">My Lord, what a mourning,</l>
+        <l n="3" real="xxxx+-" met="--+-+-">My Lord, what a mourning,</l>
+        <l n="4" real="xxx-+xx" met="-+-+-+-">When the stars begin to fall.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="+-xxxxx+-x-xxxxx" met="--+-+-+-+-+-+-+-">Halsey: Care hell. Course y care. Everybody cares around these parts.</l>
+        <l n="6" real="+-xx+-x+-x-xxxxx" met="--+-+-+-+-+-+-+-">Preachers an school teachers an everybody. Here. Here, take it. Dont</l>
+        <l n="7" real="xxxxx" met="-+-+-">try that line on me.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="8" real="+-xxxxxxxxxxx-+-+-" met="--+-+-+-+-+-+-+-+-">Hanby: No, that is true. And I neednt wait for your resignation either,</l>
+        <l n="9" real="+-xx" met="-+-+">Mr. Kabnis.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="voice-lewis" n="L01583">
+      <head>Voice: Lewis</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:voice-lewis</idno><idno type="laurel-id">L01583</idno><note type="metre">trochaic heptameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-xxxxxxxxxxxxxx" met="+--+-+-+-+-+-+--">Lewis: I think I can give him that. That note was meant for me. Some</l>
+        <l n="2" real="+-xx-+-xx+x" met="+-+-+-+-+--">Negroes have grown uncomfortable at my being here—</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="xxxx+-+-x+-xxxx" met="+-+-+-+-+-+-+--">Kabnis: You mean, Mr. Lewis, some colored folks threw it? Christ</l>
+        <l n="4" real="xxx" met="+--">Amighty!</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="5" real="+-xxxxx-+xx+xxxxx" met="+-+-+-+-+-+-+-+--">Lewis: I’m on a sort of contract with myself. (Is about to leave.)</l>
+        <l n="6" real="xxx+-+--" met="+--+-+--">Well, glad its nothing serious—</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="halsey-ya" n="L01584">
+      <head>Halsey: Ya</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:halsey-ya</idno><idno type="laurel-id">L01584</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxx+-+-x+-x+-x">He stands by the hearth, rocking backward and forward. He stretches his</l>
+        <l n="2" real="xxxx+x+-xxxxxxxx">hands out to the fire. He washes them in the warm glow of the flames.</l>
+        <l n="3" real="x+-xxxxxx">They never get cold, but he warms them.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="4" real="+-xxxxxxxx+-xxxx-+">Halsey: An I’ve yet t hear about that basis. Been waitin long enough,</l>
+        <l n="5" real="xxxxxxxx+-x+-x+-x">God knows. Seems t me like youd take pity a feller if nothin more.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="6" real="+-+-x+-xxx+xxxx">Lewis: Something, yes. Layman here could have given me quite a deal,</l>
+        <l n="7" real="xx-+-xx+-+xxx+-x+-x">but the incentive to his keeping quiet is so much greater than anything</l>
+        <l n="8" real="xxx+-xx+-xxxxxxxx">I could have offered him to open up, that I crossed him off my mind.</l>
+        <l n="9" real="xx">And you—</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="10" real="+-xx-+-xxxxxx+-x+x">Lewis: Life has already told him more than he is capable of knowing. It</l>
+        <l n="11" real="x+xx-+xxxx-+xxx+-">has given him in excess of what he can receive. I have been offered.</l>
+        <l n="12" real="xxx+-xxxxxxx">Stuff in his stomach curdled, and he vomited me.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="13" real="+--+xx+-xxxxx+-xxx">Halsey directs Kabnis, showing him how to place the handle in the vise,</l>
+        <l n="14" real="xxxxxxxxxxxxxxx">and cut it down. The knife hangs. Kabnis thinks that it must be dull.</l>
+        <l n="15" real="xxxxxxxxxxxxx+-">He jerks it hard. The tool goes deep and shaves too much off. Mr.</l>
+        <l n="16" real="+-xxxxxx">Ramsay smiles brokenly at him.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="17" real="+-+xx+-xxxxxxxx+-">Mr. Ramsay (to Halsey): Still breakin in the new hand, eh, Halsey?</l>
+        <l n="18" real="xxx+--++-xxxxxx">Seems like a likely enough faller once he gets th hang of it.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="halsey-wheeee" n="L01585">
+      <head>Halsey: Wheeee!</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:halsey-wheeee</idno><idno type="laurel-id">L01585</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-x+-x-++-+-xxxx">Layman, lunch finished long ago, rises, heavily. He shakes hands with</l>
+        <l n="2" real="+-">Lewis.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-xxxx+xxxx+-x">Lewis: Thanks, yes. You have never felt her, have you, Halsey? Well,</l>
+        <l n="4" real="xxxxxx-+xxxxxxx">no, I guess not. I dont suppose you can. Nor can she... Old man?</l>
+        <l n="5" real="+-xxxxxx+xxxxx">Halsey, some one lives down there? I’ve never heard of him. Tell me—</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="6" real="+-+-+-xxxxxxxx+-x">Lewis passes Halsey at the door. Halsey’s cheeks form a vacant smile.</l>
+        <l n="7" real="xxxx-++-xx+-xxxx">His eyes are wide awake, watching for the wagon to turn from Broad</l>
+        <l n="8" real="xxxxx">Street into his road.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a--">
+        <l n="9" real="xxx">White-man’s land.</l>
+        <l n="10" real="+-x">Niggers, sing.</l>
+        <l n="11" real="xxx+-">Burn, bear black children</l>
+        <l n="12" real="xx+-x">Till poor rivers bring</l>
+        <l n="13" real="xxx+-">Rest, and sweet glory</l>
+        <l n="14" real="xxx">In Camp Ground.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="halsey-father" n="L01586">
+      <head>Halsey: Father</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:halsey-father</idno><idno type="laurel-id">L01586</idno><note type="metre">trochaic octameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="+-+-xxxxx+-xxx" met="+--+-+-+-+-+--">Halsey: Th nigger hates th sight of a black woman worse than death.</l>
+        <l n="2" real="+-xxxxxx+-xxxxx" met="+-+-+-+-+-+-+-+">Sorry t mix y up this way, Lewis. But y see how tis.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-xxx+-+-xxxxxxxxx" met="+--+-+-+-+-+-+-+--">Halsey: Youre a queer feller, Lewis, I swear y are. Told y so, didnt I,</l>
+        <l n="4" real="xxxx+-xxxxxxxxx+-" met="+-+-+-+-+-+-+-+--">girls? Just take him easy though, an he’ll be ridin just th same as any</l>
+        <l n="5" real="+-xx+-x" met="+-+-+--">Georgia mule, eh, Lewis? (Laughs.)</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="6" real="+-xxxxxxxxxxxxx" met="+-+-+-+-+-+-+-+">Halsey knows that he has trifled with her. At odd things he has been</l>
+        <l n="7" real="+-+-xxx+-xxxxxxxx" met="+-+-+-+-+-+-+-+--">inwardly penitent before her tasking him. But now he wants to hurt her.</l>
+        <l n="8" real="xxx+-" met="+-+--">He turns to Lewis.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="halsey-kabnis-stella-cora" n="L01587">
+      <head>Halsey: Kabnis! Stella! Cora!</head>
+      <idno type="URN">urn:laurel:eng:toomer.toomer-cane.pg60093:halsey-kabnis-stella-cora</idno><idno type="laurel-id">L01587</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxxxxxxxx">Kabnis: Thats what I said. Know what it means, dont y? All right, then.</l>
+        <l n="2" real="xxx-+-xxx+-xxxxx-+-">I said its preposterous t root an artist out o bed at this ungodly</l>
+        <l n="3" real="+xxxxxxxxxxxxxx">hour, when there aint no use t it. You can start your damned old work.</l>
+        <l n="4" real="+xxxxxxxxxxxxxxxxxx">Nobody’s stoppin y. But what we got t get up for? Fraid somebody’ll</l>
+        <l n="5" real="xxxxxxxxxxxxx">see th girls leavin? Some sport, you are. I hand it t y.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="6" real="+-xxxxxxxxxxxx+-">Carrie K.: I’m not a child, as I’ve more than once told you, brother</l>
+        <l n="7" real="xxxxxxx">Ralph, an as I’ll show you now.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="8" real="x-+xx+-x+-x++-">He repeats this word several times, always the downward nodding.</l>
+        <l n="9" real="-+-+-xx-+x+-xxx">Surprised, indignant, Kabnis forgets that Carrie is with him.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

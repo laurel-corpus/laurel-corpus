@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Mimnermus in Church, and other poems</title><author>William (johnson) Cory</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="mimnermus-in-church" n="L16232">
+      <head>Mimnermus in Church</head>
+      <idno type="URN">urn:laurel:eng:cory.obev-william-johnson-cory.pg66619:mimnermus-in-church</idno><idno type="laurel-id">L16232</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="x+-+-xxx" met="-+-+-+-+">You promise heavens free from strife,</l>
+        <l n="2" real="xxx-+xxx" met="-+-+-+-+">Pure truth, and perfect change of will;</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">But sweet, sweet is this human life,</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">So sweet, I fain would breathe it still;</l>
+        <l n="5" real="x+-xxx-+" met="-+-+-+-+">Your chilly stars I can forgo,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">This warm kind world is all I know.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">You say there is no substance here,</l>
+        <l n="8" real="xx-+--xx" met="-+-+-+-+">One great reality above:</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Back from that void I shrink in fear,</l>
+        <l n="10" real="xxxxx+xx" met="-+-+-+-+">And child-like hide myself in love:</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">Show me what angels feel. Till then</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">I cling, a mere weak man, to men.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxxxxx-+-" met="-+-+-+-+-">You bid me lift my mean desires</l>
+        <l n="14" real="x+-xx+-x" met="-+-+-+-+">From faltering lips and fitful veins</l>
+        <l n="15" real="x+-x-+x" met="+-+-+-+">To sexless souls, ideal quires,</l>
+        <l n="16" real="xx+-+-x" met="+-+-+-+">Unwearied voices, wordless strains:</l>
+        <l n="17" real="xxx+-+-x" met="-+-+-+-+">My mind with fonder welcome owns</l>
+        <l n="18" real="xxxx-+-x" met="-+-+-+-+">One dear dead friend’s remember’d tones.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc">
+        <l n="19" real="xxx+-xxx" met="-+-+-+-+">Forsooth the present we must give</l>
+        <l n="20" real="xxx+-x-+" met="-+-+-+-+">To that which cannot pass away;</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">All beauteous things for which we live</l>
+        <l n="22" real="xxxxxx-+" met="-+-+-+-+">By laws of time and space decay.</l>
+        <l n="23" real="xxx+-+-x" met="-+-+-+-+">But O, the very reason why</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">I clasp them, is because they die.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="heraclitus" n="L16233">
+      <head>Heraclitus</head>
+      <idno type="URN">urn:laurel:eng:cory.obev-william-johnson-cory.pg66619:heraclitus</idno><idno type="laurel-id">L16233</idno><note type="metre">alexandrines</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">They told me, Heraclitus, they told me you were dead,</l>
+        <l n="2" real="xxx+-xxxx+-xxx" met="--+-+-+-+-+-+-">They brought me bitter news to hear and bitter tears to shed.</l>
+        <l n="3" real="xxxx-+-x+-xxx" met="-+-+-+-+-+-+-">I wept as I remember’d how often you and I</l>
+        <l n="4" real="x+xxx+-xxxxxx" met="-+-+-+-+-+-+-">Had tired the sun with talking and sent him down the sky.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxx+-xxxxxx" met="-+-+-+-+-+-+-">And now that thou art lying, my dear old Carian guest,</l>
+        <l n="6" real="x+xxx+-xx-+xx" met="-+-+-+-+-+-+-">A handful of grey ashes, long, long ago at rest,</l>
+        <l n="7" real="xxx+-+-xxxx-+" met="-+-+-+-+-+-+-">Still are thy pleasant voices, thy nightingales, awake;</l>
+        <l n="8" real="xxx+-x-+xxx+-x" met="--+-+-+-+-+-+-">For Death, he taketh all away, but them he cannot take.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Sad Day</title><author>Thomas Flatman</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-sad-day" n="L16126">
+      <head>The Sad Day</head>
+      <idno type="URN">urn:laurel:eng:flatman.obev-thomas-flatman.pg66619:the-sad-day</idno><idno type="laurel-id">L16126</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aab-cc-b--ddaaee">
+        <l n="1" real="xxxx" met="--+-">O the sad day!</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">When friends shall shake their heads, and say</l>
+        <l n="3" real="x+---x" met="--+-+-">Of miserable me--</l>
+        <l n="4" real="xxxx" met="--+-">‘Hark, how he groans!</l>
+        <l n="5" real="xxxxxx" met="--+-+-">Look, how he pants for breath!</l>
+        <l n="6" real="xxx+-xxxxx" met="--+-+-+-+-">See how he struggles with the pangs of death!’</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">When they shall say of these dear eyes--</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">‘How hollow, O how dim they be!</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Mark how his breast doth rise and swell</l>
+        <l n="10" real="xxx+-+--" met="-+-+-+-+">Against his potent enemy!’</l>
+        <l n="11" real="xxxxxxxx+x" met="--+-+-+-+-">When some old friend shall step to my bedside,</l>
+        <l n="12" real="xxxxxxx+-x" met="--+-+-+-+-">Touch my chill face, and thence shall gently slide.</l>
+        <l n="13" real="xxxx-+-x" met="-+-+-+-+">But--when his next companions say</l>
+        <l n="14" real="xxxxxxxx-+" met="--+-+-+-+-">‘How does he do? What hopes?’--shall turn away,</l>
+        <l n="15" real="+--+-xxxxx" met="--+-+-+-+-">Answering only, with a lift-up hand--</l>
+        <l n="16" real="xxxx-+" met="--+-+-">‘Who can his fate withstand?’</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa">
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Then shall a gasp or two do more</l>
+        <l n="18" real="xxx+--xxx" met="-+-+-+-+-">Than e’er my rhetoric could before:</l>
+        <l n="19" real="-+xxx+-xxx" met="--+-+-+-+-">Persuade the world to trouble me no more!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

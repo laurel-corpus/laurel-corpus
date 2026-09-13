@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Dark Rosaleen, and other poems</title><author>James Clarence Mangan</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="dark-rosaleen" n="L16202">
+      <head>Dark Rosaleen</head>
+      <idno type="URN">urn:laurel:eng:mangan.obev-james-clarence-mangan.pg66619:dark-rosaleen</idno><idno type="laurel-id">L16202</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcacaacca">
+        <l n="1" real="xxxxxx" met="-+-+-+">O my Dark Rosaleen,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Do not sigh, do not weep!</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">The priests are on the ocean green,</l>
+        <l n="4" real="xx-+xx" met="-+-+-+">They march along the deep.</l>
+        <l n="5" real="xxxx+-x" met="-+-+-+-">There’s wine from the royal Pope,</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">Upon the ocean green;</l>
+        <l n="7" real="x+-xxxxx" met="--+-+-+-">And Spanish ale shall give you hope,</l>
+        <l n="8" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="9" real="xxxxx" met="+-+-+">My own Rosaleen!</l>
+        <l n="10" real="xxxxxxxx" met="--+-+-+-">Shall glad your heart, shall give you hope,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">Shall give you health, and help, and hope,</l>
+        <l n="12" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcddccd">
+        <l n="13" real="xxxxxx" met="-+-+-+">Over hills, and thro’ dales,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">Have I roam’d for your sake;</l>
+        <l n="15" real="x+-xxxxx" met="--+-+-+-">All yesterday I sail’d with sails</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">On river and on lake.</l>
+        <l n="17" real="xxxx+-x" met="-+-+-+-">The Erne, at its highest flood,</l>
+        <l n="18" real="xx-+-+" met="-+-+-+">I dash’d across unseen,</l>
+        <l n="19" real="xxx+-xxx" met="--+-+-+-">For there was lightning in my blood,</l>
+        <l n="20" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="21" real="xxxxx" met="+-+-+">My own Rosaleen!</l>
+        <l n="22" real="xxx+-xxx" met="--+-+-+-">O, there was lightning in my blood,</l>
+        <l n="23" real="x+-+-xxx" met="--+-+-+-">Red lightning lighten’d thro’ my blood.</l>
+        <l n="24" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcdcddccd">
+        <l n="25" real="xxxx-+" met="-+-+-+">All day long, in unrest,</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">To and fro, do I move.</l>
+        <l n="27" real="x+-xxxxx" met="--+-+-+-">The very soul within my breast</l>
+        <l n="28" real="x+-xxx" met="-+-+-+">Is wasted for you, love!</l>
+        <l n="29" real="xxxx+-x" met="-+-+-+-">The heart in my bosom faints</l>
+        <l n="30" real="xxxxxx" met="-+-+-+">To think of you, my Queen,</l>
+        <l n="31" real="xxxxxxxx" met="--+-+-+-">My life of life, my saint of saints,</l>
+        <l n="32" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="33" real="xxxxx" met="+-+-+">My own Rosaleen!</l>
+        <l n="34" real="xxxxxx-+" met="--+-+-+-">To hear your sweet and sad complaints,</l>
+        <l n="35" real="xxxxxxxx" met="--+-+-+-">My life, my love, my saint of saints,</l>
+        <l n="36" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcdcddccd">
+        <l n="37" real="xxxxxx" met="-+-+-+">Woe and pain, pain and woe,</l>
+        <l n="38" real="xxxxxx" met="-+-+-+">Are my lot, night and noon,</l>
+        <l n="39" real="xxxxx+-x" met="--+-+-+-">To see your bright face clouded so,</l>
+        <l n="40" real="xxx+-x" met="-+-+-+">Like to the mournful moon.</l>
+        <l n="41" real="xxxxxxx" met="-+-+-+-">But yet will I rear your throne</l>
+        <l n="42" real="-+x+-x" met="-+-+-+">Again in golden sheen;</l>
+        <l n="43" real="xxxxxx-+" met="--+-+-+-">’Tis you shall reign, shall reign alone,</l>
+        <l n="44" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="45" real="xxxxx" met="+-+-+">My own Rosaleen!</l>
+        <l n="46" real="xxxxx+-x" met="--+-+-+-">’Tis you shall have the golden throne,</l>
+        <l n="47" real="xxxxxx-+" met="--+-+-+-">’Tis you shall reign, and reign alone,</l>
+        <l n="48" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="ababcdcddccd">
+        <l n="49" real="xxxxxx" met="-+-+-+">Over dews, over sands,</l>
+        <l n="50" real="xxxxxx" met="-+-+-+">Will I fly, for your weal:</l>
+        <l n="51" real="x+-+--xx" met="--+-+-+-">Your holy delicate white hands</l>
+        <l n="52" real="x+-xxx" met="-+-+-+">Shall girdle me with steel.</l>
+        <l n="53" real="xxxx+-+-" met="--+-+-+-">At home, in your emerald bowers,</l>
+        <l n="54" real="x+-xxx" met="-+-+-+">From morning’s dawn till e’en,</l>
+        <l n="55" real="xxxxx+-x+-" met="--+-+-+-+-">You’ll pray for me, my flower of flowers,</l>
+        <l n="56" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="57" real="xxxxx" met="+-+-+">My fond Rosaleen!</l>
+        <l n="58" real="xxxxx+x+-" met="-+-+-+-+-">You’ll think of me through daylight hours,</l>
+        <l n="59" real="x+-+-x+-x+-" met="-+-+-+-+-+-">My virgin flower, my flower of flowers,</l>
+        <l n="60" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababcdcddccd">
+        <l n="61" real="xxxxxx" met="-+-+-+">I could scale the blue air,</l>
+        <l n="62" real="xxxxxx" met="-+-+-+">I could plough the high hills,</l>
+        <l n="63" real="xxxxxxxx" met="--+-+-+-">O, I could kneel all night in prayer,</l>
+        <l n="64" real="xxx+-x" met="-+-+-+">To heal your many ills!</l>
+        <l n="65" real="xxxxxxx" met="-+-+-+-">And one beamy smile from you</l>
+        <l n="66" real="xxxxxx" met="-+-+-+">Would float like light between</l>
+        <l n="67" real="xxxxxxxx" met="--+-+-+-">My toils and me, my own, my true,</l>
+        <l n="68" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="69" real="xxxxx" met="+-+-+">My fond Rosaleen!</l>
+        <l n="70" real="xxxxxx-+" met="--+-+-+-">Would give me life and soul anew,</l>
+        <l n="71" real="x+-xxx-+" met="--+-+-+-">A second life, a soul anew,</l>
+        <l n="72" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="ababcdcddccd">
+        <l n="73" real="xxxxxx" met="-+-+-+">O, the Erne shall run red,</l>
+        <l n="74" real="xxxxxx" met="-+-+-+">With redundance of blood,</l>
+        <l n="75" real="xxxxxx+-x" met="-+-+-+-+-">The earth shall rock beneath our tread,</l>
+        <l n="76" real="xxxxxx" met="-+-+-+">And flames wrap hill and wood,</l>
+        <l n="77" real="xxxx+-x" met="-+-+-+-">And gun-peal and slogan-cry</l>
+        <l n="78" real="x+-xx-+" met="-+-+-+-">Wake many a glen serene,</l>
+        <l n="79" real="xxxxxxxx" met="--+-+-+-">Ere you shall fade, ere you shall die,</l>
+        <l n="80" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+        <l n="81" real="xxxxx" met="+-+-+">My own Rosaleen!</l>
+        <l n="82" real="x+-+-xxxx" met="-+-+-+-+-">The Judgement Hour must first be nigh,</l>
+        <l n="83" real="xxxxxxxx" met="--+-+-+-">Ere you can fade, ere you can die,</l>
+        <l n="84" real="xxxxx" met="+-+-+">My Dark Rosaleen!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-nameless-one" n="L16203">
+      <head>The Nameless One</head>
+      <idno type="URN">urn:laurel:eng:mangan.obev-james-clarence-mangan.pg66619:the-nameless-one</idno><idno type="laurel-id">L16203</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx+-+-" met="--+-+-+-+-">Roll forth, my song, like the rushing river,</l>
+        <l n="2" real="xx-+xx+-x" met="-+-+-+-+-">That sweeps along to the mighty sea;</l>
+        <l n="3" real="xx-+xxx-+-" met="--+-+-+-+-">God will inspire me while I deliver</l>
+        <l n="4" real="xxxx" met="--+-">My soul of thee!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx+--" met="-+-+-+-+-+-">Tell thou the world, when my bones lie whitening</l>
+        <l n="6" real="-+xxxxxxx" met="-+-+-+-+-">Amid the last homes of youth and eld,</l>
+        <l n="7" real="xxxxxxxx+-" met="--+-+-+-+-">That once there was one whose veins ran lightning</l>
+        <l n="8" real="xxxx" met="--+-">No eye beheld.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+xxxxx+-" met="-+-+-+-+-+-">Tell how his boyhood was one drear night-hour,</l>
+        <l n="10" real="xxxxxxxxx" met="-+-+-+-+-">How shone for him, through his griefs and gloom,</l>
+        <l n="11" real="xxxx+-xxx+-" met="-+-+-+-+-+-">No star of all heaven sends to light our</l>
+        <l n="12" real="xxxx" met="--+-">Path to the tomb.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxxxxx+-" met="--+-+-+-+-">Roll on, my song, and to after ages</l>
+        <l n="14" real="xx-+-xxxx" met="-+-+-+-+-">Tell how, disdaining all earth can give,</l>
+        <l n="15" real="xxxxxxxx+-" met="--+-+-+-+-">He would have taught men, from wisdom’s pages,</l>
+        <l n="16" real="xxxx" met="--+-">The way to live.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxx+--+-+-" met="--+-+-+-+-">And tell how trampled, derided, hated,</l>
+        <l n="18" real="xxx+--+xx" met="-+-+-+-+-">And worn by weakness, disease, and wrong,</l>
+        <l n="19" real="xxx+-xxx+-" met="--+-+-+-+-">He fled for shelter to God, who mated</l>
+        <l n="20" real="xxxx" met="--+-">His soul with song.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxx-+x+-" met="--+-+-+-+-">--With song which alway, sublime or vapid,</l>
+        <l n="22" real="xxxxxx+-x" met="-+-+-+-+-">Flow’d like a rill in the morning beam,</l>
+        <l n="23" real="-+xxx-+x+-" met="--+-+-+-+-">Perchance not deep, but intense and rapid--</l>
+        <l n="24" real="x+-x" met="--+-">A mountain stream.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxx+--+xxx" met="--+-+-+-+-">Tell how this Nameless, condemn’d for years long</l>
+        <l n="26" real="xxx+-xxxx" met="-+-+-+-+-">To herd with demons from hell beneath,</l>
+        <l n="27" real="xxxxxxxxxx" met="--+-+-+-+-">Saw things that made him, with groans and tears, long</l>
+        <l n="28" real="x+-x" met="--+-">For even death.</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="29" real="xxxxxx+-+-" met="--+-+-+-+-">Go on to tell how, with genius wasted,</l>
+        <l n="30" real="-+x+-xxxx" met="-+-+-+-+-">Betray’d in friendship, befool’d in love,</l>
+        <l n="31" real="x+-xxxxx+-" met="--+-+-+-+-">With spirit shipwreck’d, and young hopes blasted,</l>
+        <l n="32" real="xxxx" met="--+-">He still, still strove;</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxxxxxx+-" met="-+-+-+-+-">Till, spent with toil, dreeing death for others</l>
+        <l n="34" real="xxxxxxxxx" met="-+-+-+-+-">(And some whose hands should have wrought for him,</l>
+        <l n="35" real="x+-xxxxx+-" met="--+-+-+-+-">If children live not for sires and mothers),</l>
+        <l n="36" real="xxxx" met="--+-">His mind grew dim;</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="xxxxxxx-+-" met="--+-+-+-+-">And he fell far through that pit abysmal,</l>
+        <l n="38" real="xxxxx+-xx" met="-+-+-+-+-">The gulf and grave of Maginn and Burns,</l>
+        <l n="39" real="xxxxxx+-+-" met="--+-+-+-+-">And pawn’d his soul for the devil’s dismal</l>
+        <l n="40" real="xx-+" met="--+-">Stock of returns.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xx-+xxxx+-" met="--+-+-+-+-">But yet redeemed it in days of darkness,</l>
+        <l n="42" real="xxxxxx+-x" met="-+-+-+-+-">And shapes and signs of the final wrath,</l>
+        <l n="43" real="xxx+--x+-+-" met="-+-+-+-+-+-">When death, in hideous and ghastly starkness,</l>
+        <l n="44" real="xxxx" met="--+-">Stood on his path.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xxxx-+xx+-" met="--+-+-+-+-">And tell how now, amid wreck and sorrow,</l>
+        <l n="46" real="xxx+-xxxxx" met="--+-+-+-+-">And want, and sickness, and houseless nights,</l>
+        <l n="47" real="xxx+-x+-+-" met="--+-+-+-+-">He bides in calmness the silent morrow,</l>
+        <l n="48" real="xxxx" met="--+-">That no ray lights.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxxxxxxx+-" met="--+-+-+-+-">And lives he still, then? Yes! Old and hoary</l>
+        <l n="50" real="x+xxx-+xx" met="-+-+-+-+-">At thirty-nine, from despair and woe,</l>
+        <l n="51" real="xx-+-x+-+-" met="--+-+-+-+-">He lives, enduring what future story</l>
+        <l n="52" real="x+-x" met="--+-">Will never know.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aaaa">
+        <l n="53" real="xxxxxx+--+-" met="-+-+-+-+-+-">Him grant a grave to, ye pitying noble,</l>
+        <l n="54" real="xxxxxxxxx" met="-+-+-+-+-">Deep in your bosoms: there let him dwell!</l>
+        <l n="55" real="xxxxxxxx+-" met="--+-+-+-+-">He too, had tears for all souls in trouble,</l>
+        <l n="56" real="xxxx" met="--+-">Here and in hell.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

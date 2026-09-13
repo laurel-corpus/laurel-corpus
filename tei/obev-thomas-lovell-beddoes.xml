@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Dream-Pedlary, and other poems</title><author>Thomas Lovell Beddoes</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="wolframs-dirge" n="L16204">
+      <head>Wolfram’s Dirge</head>
+      <idno type="URN">urn:laurel:eng:beddoes.obev-thomas-lovell-beddoes.pg66619:wolframs-dirge</idno><idno type="laurel-id">L16204</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabc-b-c-">
+        <l n="1" real="xxxxxx" met="--+-+-">If thou wilt ease thine heart</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Of love and all its smart,</l>
+        <l n="3" real="xxxx" met="-+-+">Then sleep, dear, sleep;</l>
+        <l n="4" real="xxx+-" met="-+-+-">And not a sorrow</l>
+        <l n="5" real="x+-xxx+x-" met="-+-+-+-+-">Hang any tear on your eyelashes;</l>
+        <l n="6" real="xxxx" met="-+-+">Lie still and deep,</l>
+        <l n="7" real="xxxxxxx+-" met="-+-+-+-+-">Sad soul, until the sea-wave washes</l>
+        <l n="8" real="xxxxxx+-" met="--+-+-+-">The rim of the sun to-morrow,</l>
+        <l n="9" real="x+-x" met="-+-+">In eastern sky.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aab-cbc-b">
+        <l n="10" real="xxxxxx" met="--+-+-">But wilt thou cure thine heart</l>
+        <l n="11" real="xxxxxx" met="--+-+-">Of love and all its smart,</l>
+        <l n="12" real="xxxx" met="-+-+">Then die, dear, die;</l>
+        <l n="13" real="x+-+-" met="-+-+-">’Tis deeper, sweeter,</l>
+        <l n="14" real="xxxxxxx+-" met="-+-+-+-+-">Than on a rose-bank to lie dreaming</l>
+        <l n="15" real="x+-x" met="-+-+">With folded eye;</l>
+        <l n="16" real="xx-+-+x+-" met="-+-+-+-+-">And there alone, amid the beaming</l>
+        <l n="17" real="xxxxxx" met="--+-+-">Of Love’s stars, thou’lt meet her</l>
+        <l n="18" real="x+-x" met="-+-+">In eastern sky.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="dream-pedlary" n="L16205">
+      <head>Dream-Pedlary</head>
+      <idno type="URN">urn:laurel:eng:beddoes.obev-thomas-lovell-beddoes.pg66619:dream-pedlary</idno><idno type="laurel-id">L16205</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababccaaab">
+        <l n="1" real="xxxxxx" met="-+-+-+">If there were dreams to sell,</l>
+        <l n="2" real="xxxx" met="--+-">What would you buy?</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">Some cost a passing bell;</l>
+        <l n="4" real="xxxx" met="--+-">Some a light sigh,</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">That shakes from Life’s fresh crown</l>
+        <l n="6" real="+-xxxx" met="-+-+-+">Only a rose-leaf down.</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">If there were dreams to sell,</l>
+        <l n="8" real="+-xxxx" met="-+-+-+">Merry and sad to tell,</l>
+        <l n="9" real="xx+xxx" met="-+-+-+">And the crier rang the bell,</l>
+        <l n="10" real="xxxx" met="--+-">What would you buy?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababccaab">
+        <l n="11" real="x+-xxx" met="-+-+-+">A cottage lone and still,</l>
+        <l n="12" real="x+-x" met="--+-">With bowers nigh,</l>
+        <l n="13" real="+-xxxx" met="-+-+-+">Shadowy, my woes to still,</l>
+        <l n="14" real="xxxx" met="--+-">Until I die.</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">Such pearl from Life’s fresh crown</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Fain would I shake me down.</l>
+        <l n="17" real="xxxxxx" met="-+-+-+">Were dreams to have at will,</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">This would best heal my ill,</l>
+        <l n="19" real="xxxx" met="--+-">This would I buy.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song" n="L16206">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:beddoes.obev-thomas-lovell-beddoes.pg66619:song</idno><idno type="laurel-id">L16206</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abaaaba">
+        <l n="1" real="x+-xxxxxx" met="-+-+-+-+-">How many times do I love thee, dear?</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">Tell me how many thoughts there be</l>
+        <l n="3" real="xx+-x" met="-+-+-">In the atmosphere</l>
+        <l n="4" real="xxxxx" met="-+-+-">Of a new-fall’n year,</l>
+        <l n="5" real="xxx+-+--+" met="-+-+-+-+-">Whose white and sable hours appear</l>
+        <l n="6" real="x+-xx-+--" met="-+-+-+-+-">The latest flake of Eternity:</l>
+        <l n="7" real="x+-xxxxxx" met="-+-+-+-+-">So many times do I love thee, dear.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abaaaba">
+        <l n="8" real="x+-xxxx-+" met="-+-+-+-+-">How many times do I love again?</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">Tell me how many beads there are</l>
+        <l n="10" real="xx+-x" met="-+-+-">In a silver chain</l>
+        <l n="11" real="x+-x" met="--+-">Of evening rain,</l>
+        <l n="12" real="xxxxx+--x" met="-+-+-+-+-">Unravell’d from the tumbling main,</l>
+        <l n="13" real="x+-xxxx+-x" met="--+-+-+-+-">And threading the eye of a yellow star:</l>
+        <l n="14" real="x+-xxxx-+" met="-+-+-+-+-">So many times do I love again.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

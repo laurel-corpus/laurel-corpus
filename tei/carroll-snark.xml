@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Hunting of the Snark</title><author>Lewis Carroll</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Hunting of the Snark: An Agony in Eight Fits. Project Gutenberg ebook #13. <ref target="https://www.gutenberg.org/ebooks/13">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-millennium-fulcrum-edition-1-2" n="L07237">
+      <head>The Millennium Fulcrum Edition 1.2</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:the-millennium-fulcrum-edition-1-2</idno><idno type="laurel-id">L07237</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">Girt with a boyish garb for boyish task,</l>
+        <l n="2" real="+-xxxxxxxx" met="-+-+-+-+-+">Eager she wields her spade: yet loves as well</l>
+        <l n="3" real="xxx+-x-+xx" met="-+-+-+-+-+">Rest on a friendly knee, intent to ask</l>
+        <l n="4" real="xxxxxx" met="--+-+-">The tale he loves to tell.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xx+-+-x" met="-+-+-+-+-+">Rude spirits of the seething outer strife,</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Unmeet to read her pure and simple spright,</l>
+        <l n="7" real="xxxxx+xxxx" met="-+-+-+-+-+">Deem, if you list, such hours a waste of life,</l>
+        <l n="8" real="+-xx-+" met="--+-+-">Empty of all delight!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxx+-x-+" met="-+-+-+-+-+">Chat on, sweet Maid, and rescue from annoy</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">Hearts that by wiser talk are unbeguiled.</l>
+        <l n="11" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Ah, happy he who owns that tenderest joy,</l>
+        <l n="12" real="xxxxxx" met="--+-+-">The heart-love of a child!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="-+xxxxxxxx" met="-+-+-+-+-+">Away, fond thoughts, and vex my soul no more!</l>
+        <l n="14" real="xxxxxxxx+-x" met="-+-+-+-+-+-">Work claims my wakeful nights, my busy days—</l>
+        <l n="15" real="-+-x+-xx+xx" met="-+-+-+-+-+-">Albeit bright memories of that sunlit shore</l>
+        <l n="16" real="xxx+-x" met="--+-+-">Yet haunt my dreaming gaze!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-i-the-landing" n="L07238">
+      <head>Fit I: The Landing</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:1</idno><idno type="laurel-id">L07238</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxx+-x" met="+--+--+--+">“Just the place for a Snark!” the Bellman cried,</l>
+        <l n="2" real="xx+-xxxx" met="-+--+--+">As he landed his crew with care;</l>
+        <l n="3" real="-+-xxxxxxxx" met="-+--+--+--+">Supporting each man on the top of the tide</l>
+        <l n="4" real="xx+--+xxx" met="+-+--+--+">By a finger entwined in his hair.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxxxxx" met="-+--+--+--+">“Just the place for a Snark! I have said it twice:</l>
+        <l n="6" real="x-+x-+-xx" met="+-+--+--+">That alone should encourage the crew.</l>
+        <l n="7" real="xxxxxxxxxxx" met="-+--+--+--+">Just the place for a Snark! I have said it thrice:</l>
+        <l n="8" real="xxxxxxxx" met="-+--+--+">What I tell you three times is true.”</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx-+x-+-xx" met="-+--+--+--+">The crew was complete: it included a Boots--</l>
+        <l n="10" real="x+-xxxxx" met="-+--+--+">A maker of Bonnets and Hoods--</l>
+        <l n="11" real="x+--xx-+x-+" met="-+--+--+--+">A Barrister, brought to arrange their disputes--</l>
+        <l n="12" real="xx+-x+-xx" met="+-+--+--+">And a Broker, to value their goods.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+-+-xxx-+" met="+--+--+--+">A Billiard-marker, whose skill was immense,</l>
+        <l n="14" real="x-+xxxxxx" met="+-+--+--+">Might perhaps have won more than his share--</l>
+        <l n="15" real="xx+--+x-+--+" met="--+--+--+--+">But a Banker, engaged at enormous expense,</l>
+        <l n="16" real="xxxxxxxxx" met="+-+--+--+">Had the whole of their cash in his care.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xx+-x+-xxxxx" met="--+--+--+--+">There was also a Beaver, that paced on the deck,</l>
+        <l n="18" real="xxx+-xxxx" met="+-+--+--+">Or would sit making lace in the bow:</l>
+        <l n="19" real="xx+-x+-xxxxx" met="--+--+--+--+">And had often (the Bellman said) saved them from wreck,</l>
+        <l n="20" real="xxxx+-xx" met="-+--+--+">Though none of the sailors knew how.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxxxxx+-xx" met="--+--+--+--+">There was one who was famed for the number of things</l>
+        <l n="22" real="x-+xx+-xx" met="+-+--+--+">He forgot when he entered the ship:</l>
+        <l n="23" real="x-+-xxxx+-xx" met="--+--+--+--+">His umbrella, his watch, all his jewels and rings,</l>
+        <l n="24" real="xxxxxxxxx" met="+-+--+--+">And the clothes he had bought for the trip.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xx+-x+-x+--x" met="--+--+--+--+">He had forty-two boxes, all carefully packed,</l>
+        <l n="26" real="xxx+-+-xx" met="+-+--+--+">With his name painted clearly on each:</l>
+        <l n="27" real="xxx-+-x+-xx" met="-+--+--+--+">But, since he omitted to mention the fact,</l>
+        <l n="28" real="xxxxxxxxx" met="+-+--+--+">They were all left behind on the beach.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxxx+-+-xx" met="-+--+--+--+">The loss of his clothes hardly mattered, because</l>
+        <l n="30" real="xx+-xxxxx" met="+-+--+--+">He had seven coats on when he came,</l>
+        <l n="31" real="xxxxxxxxxxx" met="-+--+--+--+">With three pairs of boots--but the worst of it was,</l>
+        <l n="32" real="xx+--+-xx" met="+-+--+--+">He had wholly forgotten his name.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xx+-xxxx+-xx" met="--+--+--+--+">He would answer to “Hi!” or to any loud cry,</l>
+        <l n="34" real="xxxxx+-xx" met="+-+--+--+">Such as “Fry me!” or “Fritter my wig!”</l>
+        <l n="35" real="xxxxxxxxxxx" met="-+--+--+--+">To “What-you-may-call-um!” or “What-was-his-name!”</l>
+        <l n="36" real="x-+-xxxx" met="-+--+--+">But especially “Thing-um-a-jig!”</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="xxxx-+xx+--x" met="--+--+--+--+">While, for those who preferred a more forcible word,</l>
+        <l n="38" real="xx+--xxx" met="-+--+--+">He had different names from these:</l>
+        <l n="39" real="x+--xxx+-x" met="+--+--+--+">His intimate friends called him “Candle-ends,”</l>
+        <l n="40" real="xx+--+-x" met="-+--+--+">And his enemies “Toasted-cheese.”</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxx-+-x+-xx" met="-+--+--+--+">“His form is ungainly--his intellect small--”</l>
+        <l n="42" real="xx+-x+--+" met="+-+--+--+">(So the Bellman would often remark)</l>
+        <l n="43" real="xx+-x-+xxxxx" met="--+--+--+--+">“But his courage is perfect! And that, after all,</l>
+        <l n="44" real="xxxxxxxxx" met="+-+--+--+">Is the thing that one needs with a Snark.”</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xxxx-+--+-xx" met="--+--+--+--+">He would joke with hyenas, returning their stare</l>
+        <l n="46" real="xxxxxxxxx" met="+-+--+--+">With an impudent wag of the head:</l>
+        <l n="47" real="xxxxxxxxxxxx" met="--+--+--+--+">And he once went a walk, paw-in-paw, with a bear,</l>
+        <l n="48" real="xxxxx+-xx" met="+-+--+--+">“Just to keep up its spirits,” he said.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxxx+-xxxxx" met="-+--+--+--+">He came as a Baker: but owned, when too late--</l>
+        <l n="50" real="xxxxx+-xx" met="+-+--+--+">And it drove the poor Bellman half-mad--</l>
+        <l n="51" real="xx+-xxxxxxxxx" met="--+--+--+--+-">He could only bake Bridecake--for which, I may state,</l>
+        <l n="52" real="x-+--xxxx" met="+-+--+--+">No materials were to be had.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="xxxxxx-+--+" met="-+--+--+--+">The last of the crew needs especial remark,</l>
+        <l n="54" real="xxxx-+--x" met="+-+--+--+">Though he looked an incredible dunce:</l>
+        <l n="55" real="xxxx-+-xxx+-x" met="--+--+--+--+-">He had just one idea--but, that one being “Snark,”</l>
+        <l n="56" real="xx+--+xxx" met="+-+--+--+">The good Bellman engaged him at once.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abab">
+        <l n="57" real="xxxx+-x+--+" met="-+--+--+--+">He came as a Butcher: but gravely declared,</l>
+        <l n="58" real="xxxxx+-xx" met="+-+--+--+">When the ship had been sailing a week,</l>
+        <l n="59" real="xx+-x+-x+-xx" met="--+--+--+--+">He could only kill Beavers. The Bellman looked scared,</l>
+        <l n="60" real="xx+xx+-xx" met="+-+--+--+">And was almost too frightened to speak:</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="61" real="xxxx-+xx+--x" met="--+--+--+--+">But at length he explained, in a tremulous tone,</l>
+        <l n="62" real="xx+-x+-xx" met="+-+--+--+">There was only one Beaver on board;</l>
+        <l n="63" real="xxxxxxxxxxx" met="-+--+--+--+">And that was a tame one he had of his own,</l>
+        <l n="64" real="xxxx+--+" met="-+--+--+">Whose death would be deeply deplored.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="x+-x+-xxx-+" met="-+--+--+--+">The Beaver, who happened to hear the remark,</l>
+        <l n="66" real="-+-xxxxx" met="-+--+--+">Protested, with tears in its eyes,</l>
+        <l n="67" real="xx+-x+-x+-xx" met="--+--+--+--+">That not even the rapture of hunting the Snark</l>
+        <l n="68" real="x-+xx+--+" met="+-+--+--+">Could atone for that dismal surprise!</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abab">
+        <l n="69" real="x+--+xx+-xx" met="-+--+--+--+">It strongly advised that the Butcher should be</l>
+        <l n="70" real="-+xx+-xx" met="-+--+--+">Conveyed in a separate ship:</l>
+        <l n="71" real="xx+--+xx+--+" met="--+--+--+--+">But the Bellman declared that would never agree</l>
+        <l n="72" real="xxxxxxxxx" met="+-+--+--+">With the plans he had made for the trip:</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="abab">
+        <l n="73" real="+-+-x+xx+--x" met="--+--+--+--+">Navigation was always a difficult art,</l>
+        <l n="74" real="xx+-xxxxx" met="+-+--+--+">Though with only one ship and one bell:</l>
+        <l n="75" real="xxxxx+--+xxx" met="--+--+--+--+">And he feared he must really decline, for his part,</l>
+        <l n="76" real="+-x--+-xx" met="+-+--+--+">Undertaking another as well.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="abab">
+        <l n="77" real="x+-xxxxxx-+" met="-+--+--+--+">The Beaver’s best course was, no doubt, to procure</l>
+        <l n="78" real="x+-x+-xx" met="-+--+--+">A second-hand dagger-proof coat--</l>
+        <l n="79" real="xx+--+xxxx-+" met="--+--+--+--+">So the Baker advised it--and next, to insure</l>
+        <l n="80" real="xxxx+-xx" met="-+--+--+">Its life in some Office of note:</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="abab">
+        <l n="81" real="xx+--+-x+-x+-" met="--+--+--+--+-">This the Banker suggested, and offered for hire</l>
+        <l n="82" real="x+--xxxx" met="-+--+--+">(On moderate terms), or for sale,</l>
+        <l n="83" real="x+--+--xxx+-" met="--+--+--+--+">Two excellent Policies, one Against Fire,</l>
+        <l n="84" real="xxxx+-xx" met="-+--+--+">And one Against Damage From Hail.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="abab">
+        <l n="85" real="xx+-xxx+--x" met="-+--+--+--+">Yet still, ever after that sorrowful day,</l>
+        <l n="86" real="-+-x+-xx" met="-+--+--+">Whenever the Butcher was by,</l>
+        <l n="87" real="x+-x+-x+--x" met="-+--+--+--+">The Beaver kept looking the opposite way,</l>
+        <l n="88" real="x-+x-+--x" met="+-+--+--+">And appeared unaccountably shy.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-ii-the-bellman-s-speech" n="L07239">
+      <head>Fit II: The Bellman’s Speech</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:2</idno><idno type="laurel-id">L07239</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+--+xxxxxx" met="-+--+--+--+">The Bellman himself they all praised to the skies--</l>
+        <l n="2" real="xx+-xxxxx" met="+-+--+--+">Such a carriage, such ease and such grace!</l>
+        <l n="3" real="x-+--xxxxxxx" met="--+--+--+--+">Such solemnity, too! One could see he was wise,</l>
+        <l n="4" real="x+-xxxxx" met="-+--+--+">The moment one looked in his face!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxx-+-xx" met="--+--+--+--+">He had bought a large map representing the sea,</l>
+        <l n="6" real="xxxx+-xx" met="-+--+--+">Without the least vestige of land:</l>
+        <l n="7" real="xxxxxxxxxxxx" met="--+--+--+--+">And the crew were much pleased when they found it to be</l>
+        <l n="8" real="xxxxxx-+" met="-+--+--+">A map they could all understand.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxxxx-+-" met="--+--+--+--+-">“What’s the good of Mercator’s North Poles and Equators,</l>
+        <l n="10" real="+-xx-+--x" met="+-+--+--+">Tropics, Zones, and Meridian Lines?”</l>
+        <l n="11" real="xx+-xxxxxx-+" met="--+--+--+--+">So the Bellman would cry: and the crew would reply</l>
+        <l n="12" real="xx+--+--x" met="+-+--+--+">“They are merely conventional signs!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="+-xxxxxx+-xx" met="--+--+--+--+">“Other maps are such shapes, with their islands and capes!</l>
+        <l n="14" real="xxx+-x+-xx" met="+--+--+--+">But we’ve got our brave Captain to thank:”</l>
+        <l n="15" real="xxxx+xxxxxxx" met="--+--+--+--+">(So the crew would protest) “that he’s bought us the best--</l>
+        <l n="16" real="x-+x+-xx" met="-+--+--+">A perfect and absolute blank!”</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xx+-xxxx+-xx" met="--+--+--+--+">This was charming, no doubt; but they shortly found out</l>
+        <l n="18" real="xx+-x+-xx" met="+-+--+--+">That the Captain they trusted so well</l>
+        <l n="19" real="x+-x+-x+-x+-" met="--+--+--+--+">Had only one notion for crossing the ocean,</l>
+        <l n="20" real="xxxx+-xx" met="-+--+--+">And that was to tingle his bell.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xx+-xxxx+-xx" met="--+--+--+--+">He was thoughtful and grave--but the orders he gave</l>
+        <l n="22" real="x-+x-+-xx" met="+-+--+--+">Were enough to bewilder a crew.</l>
+        <l n="23" real="xxxxx+-xxxxxx" met="--+--+--+--+-">When he cried “Steer to starboard, but keep her head larboard!”</l>
+        <l n="24" real="xxxxx+xxx" met="+-+--+--+">What on earth was the helmsman to do?</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxxxxxx+--+" met="--+--+--+--+">Then the bowsprit got mixed with the rudder sometimes:</l>
+        <l n="26" real="xxxx+--+" met="-+--+--+">A thing, as the Bellman remarked,</l>
+        <l n="27" real="x+--+-x+--x" met="-+--+--+--+">That frequently happens in tropical climes,</l>
+        <l n="28" real="xx+-xxxxx" met="+-+--+--+">When a vessel is, so to speak, “snarked.”</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a">
+        <l n="29" real="xx+--+--+xx+-" met="--+--+--+--+-">But the principal failing occurred in the sailing,</l>
+        <l n="30" real="xx+--+x-+" met="+-+--+--+">And the Bellman, perplexed and distressed,</l>
+        <l n="31" real="xxxxxxxxxxxx" met="--+--+--+--+">Said he had hoped, at least, when the wind blew due East,</l>
+        <l n="32" real="xxxxx+-xx" met="+-+--+--+">That the ship would not travel due West!</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xx+-xxxx+-xx" met="--+--+--+--+">But the danger was past--they had landed at last,</l>
+        <l n="34" real="xx+-xxxxx" met="+-+--+--+">With their boxes, portmanteaus, and bags:</l>
+        <l n="35" real="xxxxxxxxxxxx" met="--+--+--+--+">Yet at first sight the crew were not pleased with the view,</l>
+        <l n="36" real="x-+-xxxx" met="-+--+--+">Which consisted of chasms and crags.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="x+--+xx+-xx" met="-+--+--+--+">The Bellman perceived that their spirits were low,</l>
+        <l n="38" real="x-+-x+--x" met="+-+--+--+">And repeated in musical tone</l>
+        <l n="39" real="xxxxxxx+-xx" met="-+--+--+--+">Some jokes he had kept for a season of woe--</l>
+        <l n="40" real="xxxxx+-xx" met="+-+--+--+">But the crew would do nothing but groan.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxxxxxx+--x" met="-+--+--+--+">He served out some grog with a liberal hand,</l>
+        <l n="42" real="xxxxxxxx" met="-+--+--+">And bade them sit down on the beach:</l>
+        <l n="43" real="xxxxxxxx+-xx" met="--+--+--+--+">And they could not but own that their Captain looked grand,</l>
+        <l n="44" real="xxxx-+-xx" met="+-+--+--+">As he stood and delivered his speech.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="x+-x+--xxxx" met="-+--+--+--+">“Friends, Romans, and countrymen, lend me your ears!”</l>
+        <l n="46" real="xxxxxxx-+-" met="+--+--+--+">(They were all of them fond of quotations:</l>
+        <l n="47" real="xxxxxxxxxxxx" met="--+--+--+--+">So they drank to his health, and they gave him three cheers,</l>
+        <l n="48" real="xxxx-+--+-" met="+--+--+--+">While he served out additional rations).</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxx+-xxxx+-x" met="--+--+--+--+">“We have sailed many months, we have sailed many weeks,</l>
+        <l n="50" real="xxxxxxxx" met="-+--+--+">(Four weeks to the month you may mark),</l>
+        <l n="51" real="x+-xxxx+-xx" met="-+--+--+--+">But never as yet (’tis your Captain who speaks)</l>
+        <l n="52" real="xxxxxxxxx" met="+-+--+--+">Have we caught the least glimpse of a Snark!</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="xxx+-xxxx+-x" met="--+--+--+--+">“We have sailed many weeks, we have sailed many days,</l>
+        <l n="54" real="+-xxxxx-+" met="+-+--+--+">(Seven days to the week I allow),</l>
+        <l n="55" real="xxxxxxxx+--x" met="--+--+--+--+">But a Snark, on the which we might lovingly gaze,</l>
+        <l n="56" real="xx+-xxxx" met="-+--+--+">We have never beheld till now!</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a">
+        <l n="57" real="x+-xxxxxx-+" met="-+--+--+--+">“Come, listen, my men, while I tell you again</l>
+        <l n="58" real="xxx-+--x" met="-+--+--+">The five unmistakable marks</l>
+        <l n="59" real="xxxxxxxxxxx" met="-+--+--+--+">By which you may know, wheresoever you go,</l>
+        <l n="60" real="x+--+--x" met="-+--+--+">The warranted genuine Snarks.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="61" real="xxxxx+-xxxxx" met="--+--+--+--+">“Let us take them in order. The first is the taste,</l>
+        <l n="62" real="xx+-x+-xx" met="+-+--+--+">Which is meagre and hollow, but crisp:</l>
+        <l n="63" real="xxxxx+-xxxxx" met="--+--+--+--+">Like a coat that is rather too tight in the waist,</l>
+        <l n="64" real="xx+-xxxxx" met="+-+--+--+">With a flavour of Will-o’-the-wisp.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="x+-x+-xxx-+" met="-+--+--+--+">“Its habit of getting up late you’ll agree</l>
+        <l n="66" real="xx+-xxxxx" met="+-+--+--+">That it carries too far, when I say</l>
+        <l n="67" real="xx+--+-xx-+x" met="--+--+--+--+">That it frequently breakfasts at five-o’clock tea,</l>
+        <l n="68" real="xxxx+--x" met="-+--+--+">And dines on the following day.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abab">
+        <l n="69" real="xxxx+-x+-xx" met="-+--+--+--+">“The third is its slowness in taking a jest.</l>
+        <l n="70" real="xx+-x+-xx" met="+-+--+--+">Should you happen to venture on one,</l>
+        <l n="71" real="xxxxxxxx+--+" met="--+--+--+--+">It will sigh like a thing that is deeply distressed:</l>
+        <l n="72" real="xx+xxxxxx" met="+-+--+--+">And it always looks grave at a pun.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="abab">
+        <l n="73" real="xxxx+-x+--+" met="-+--+--+--+">“The fourth is its fondness for bathing-machines,</l>
+        <l n="74" real="xx+--+-xx" met="+-+--+--+">Which is constantly carries about,</l>
+        <l n="75" real="x-+xxxxx+-xx" met="--+--+--+--+">And believes that they add to the beauty of scenes--</l>
+        <l n="76" real="x+--+-xx" met="-+--+--+">A sentiment open to doubt.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="abab">
+        <l n="77" real="xxx-+-xxxxx" met="-+--+--+--+">“The fifth is ambition. It next will be right</l>
+        <l n="78" real="x-+x-+--x" met="+-+--+--+">To describe each particular batch:</l>
+        <l n="79" real="-+--xxx+-xx" met="-+--+--+--+">Distinguishing those that have feathers, and bite,</l>
+        <l n="80" real="xxxx+-xx" met="-+--+--+">And those that have whiskers, and scratch.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="abab">
+        <l n="81" real="xxx+-xxx+-xx" met="--+--+--+--+">“For, although common Snarks do no manner of harm,</l>
+        <l n="82" real="xxxxx+-xx" met="+-+--+--+">Yet, I feel it my duty to say,</l>
+        <l n="83" real="xxxxx+-xxx-+" met="--+--+--+--+">Some are Boojums--” The Bellman broke off in alarm,</l>
+        <l n="84" real="xx+-x+--+" met="+-+--+--+">For the Baker had fainted away.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-iii-the-baker-s-tale" n="L07240">
+      <head>Fit III: The Baker’s Tale</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:3</idno><idno type="laurel-id">L07240</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx+-xxxxx" met="-+--+--+--+">They roused him with muffins--they roused him with ice--</l>
+        <l n="2" real="xxxx+-xx" met="-+--+--+">They roused him with mustard and cress--</l>
+        <l n="3" real="xxxxxx-+--+" met="-+--+--+--+">They roused him with jam and judicious advice--</l>
+        <l n="4" real="xxxxxxxx" met="-+--+--+">They set him conundrums to guess.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx+-xx" met="--+--+--+--+">When at length he sat up and was able to speak,</l>
+        <l n="6" real="xx+-x+-xx" met="+-+--+--+">His sad story he offered to tell;</l>
+        <l n="7" real="xx+-x+-x+-xx" met="--+--+--+--+">And the Bellman cried “Silence! Not even a shriek!”</l>
+        <l n="8" real="x-+--xxx" met="-+--+--+">And excitedly tingled his bell.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx+--+xxxxxx" met="--+--+--+--+">There was silence supreme! Not a shriek, not a scream,</l>
+        <l n="10" real="+-+-xxxxx" met="+-+--+--+">Scarcely even a howl or a groan,</l>
+        <l n="11" real="xxxxxxxx+-xx" met="--+--+--+--+">As the man they called “Ho!” told his story of woe</l>
+        <l n="12" real="xxxxxxxx" met="-+--+--+">In an antediluvian tone.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+-x+-x+-xx" met="-+--+--+--+">“My father and mother were honest, though poor--”</l>
+        <l n="14" real="xxxxx+-xx" met="+-+--+--+">“Skip all that!” cried the Bellman in haste.</l>
+        <l n="15" real="xxx-+xxxxxxx" met="--+--+--+--+">“If it once becomes dark, there’s no chance of a Snark--</l>
+        <l n="16" real="xx+-x+-xx" met="+-+--+--+">We have hardly a minute to waste!”</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xx+-xxx+-xx" met="-+--+--+--+">“I skip forty years,” said the Baker, in tears,</l>
+        <l n="18" real="x-+xx+--+" met="+-+--+--+">“And proceed without further remark</l>
+        <l n="19" real="xxxxxxx-+xxx" met="--+--+--+--+">To the day when you took me aboard of your ship</l>
+        <l n="20" real="xxxx+-xx" met="-+--+--+">To help you in hunting the Snark.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xx+-xxxxxxxx" met="--+--+--+--+">“A dear uncle of mine (after whom I was named)</l>
+        <l n="22" real="-+xxxxx+" met="-+--+--+">Remarked, when I bade him farewell--”</l>
+        <l n="23" real="xxxx+-x+--+" met="-+--+--+--+">“Oh, skip your dear uncle!” the Bellman exclaimed,</l>
+        <l n="24" real="xx+--xxx" met="-+--+--+">As he angrily tingled his bell.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="x-+xxxxx+-xx" met="--+--+--+--+">“He remarked to me then,” said that mildest of men,</l>
+        <l n="26" real="xxxxxxxxx" met="+-+--+--+">“‘If your Snark be a Snark, that is right:</l>
+        <l n="27" real="xxxxxxxxxxxx" met="--+--+--+--+">Fetch it home by all means--you may serve it with greens,</l>
+        <l n="28" real="xx+-x+-xx" met="+-+--+--+">And it’s handy for striking a light.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxxxxxxxxx" met="-+--+--+--+">“‘You may seek it with thimbles--and seek it with care;</l>
+        <l n="30" real="xxxxxxxx" met="-+--+--+">You may hunt it with forks and hope;</l>
+        <l n="31" real="xx+-xxxx+xx" met="-+--+--+--+">You may threaten its life with a railway-share;</l>
+        <l n="32" real="xxxxxxxxx" met="+-+--+--+">You may charm it with smiles and soap--’”</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="x-+-x+-x+-x" met="-+--+--+--+">(“That’s exactly the method,” the Bellman bold</l>
+        <l n="34" real="xx+--+--x" met="+-+--+--+">In a hasty parenthesis cried,</l>
+        <l n="35" real="x-+-xxxx+xxx" met="--+--+--+--+">“That’s exactly the way I have always been told</l>
+        <l n="36" real="xx+-xxxxx" met="+-+--+--+">That the capture of Snarks should be tried!”)</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="xx+-+--+xxx" met="-+--+--+--+">“‘But oh, beamish nephew, beware of the day,</l>
+        <l n="38" real="xxxxxxxxx" met="+-+--+--+">If your Snark be a Boojum! For then</l>
+        <l n="39" real="xx+-x+--+--+" met="--+--+--+--+">You will softly and suddenly vanish away,</l>
+        <l n="40" real="x+-xxx-+" met="-+--+--+">And never be met with again!’</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxxxxxx-+-xx" met="--+--+--+--+">“It is this, it is this that oppresses my soul,</l>
+        <l n="42" real="xxxxx+-xx" met="+-+--+--+">When I think of my uncle’s last words:</l>
+        <l n="43" real="xxxxx+-xxxxx" met="--+--+--+--+">And my heart is like nothing so much as a bowl</l>
+        <l n="44" real="+-xxx+--x" met="+-+--+--+">Brimming over with quivering curds!</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xxxxxxxxxxxx" met="--+--+--+--+">“It is this, it is this--” “We have had that before!”</l>
+        <l n="46" real="x+--+--x" met="-+--+--+">The Bellman indignantly said.</l>
+        <l n="47" real="xx+--+xxxxxx" met="--+--+--+--+">And the Baker replied “Let me say it once more.</l>
+        <l n="48" real="xxxxxxxxx" met="+-+--+--+">It is this, it is this that I dread!</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="49" real="x-+xxx+--xxxx" met="--+--+--+--+-">“I engage with the Snark--every night after dark--</l>
+        <l n="50" real="xx+--+--x" met="+-+--+--+">In a dreamy delirious fight:</l>
+        <l n="51" real="xxxxxxx+--x" met="-+--+--+--+">I serve it with greens in those shadowy scenes,</l>
+        <l n="52" real="xxxxx+-xx" met="+-+--+--+">And I use it for striking a light:</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="xx+-xxxxxxxx" met="--+--+--+--+">“But if ever I meet with a Boojum, that day,</l>
+        <l n="54" real="xx+-xxxxx" met="+-+--+--+">In a moment (of this I am sure),</l>
+        <l n="55" real="xx+-x+--+--+" met="--+--+--+--+">I shall softly and suddenly vanish away--</l>
+        <l n="56" real="xx+-x+--+" met="+-+--+--+">And the notion I cannot endure!”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-iv-the-hunting" n="L07241">
+      <head>Fit IV: The Hunting</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:4</idno><idno type="laurel-id">L07241</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxx+-xx" met="-+--+--+--+">The Bellman looked uffish, and wrinkled his brow.</l>
+        <l n="2" real="x+-x+-xx" met="-+--+--+">“If only you’d spoken before!</l>
+        <l n="3" real="x-+--+-x+-xx" met="--+--+--+--+">It’s excessively awkward to mention it now,</l>
+        <l n="4" real="xxxxxxxxx" met="+-+--+--+">With the Snark, so to speak, at the door!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxxxx-+" met="--+--+--+--+">“We should all of us grieve, as you well may believe,</l>
+        <l n="6" real="xx+-xxx-+" met="+-+--+--+">If you never were met with again--</l>
+        <l n="7" real="x+-xxxx+--+" met="-+--+--+--+">But surely, my man, when the voyage began,</l>
+        <l n="8" real="xxx-+-xx" met="-+--+--+">You might have suggested it then?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x-+--+-x+-xx" met="--+--+--+--+">“It’s excessively awkward to mention it now--</l>
+        <l n="10" real="xxxx-+--+" met="+-+--+--+">As I think I’ve already remarked.”</l>
+        <l n="11" real="xxxxxx-+xxx" met="-+--+--+--+">And the man they called “Hi!” replied, with a sigh,</l>
+        <l n="12" real="x-+xxxx-+" met="+-+--+--+">“I informed you the day we embarked.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxx+-xxxx" met="-+--+--+--+">“You may charge me with murder--or want of sense--</l>
+        <l n="14" real="xxxxxxxx" met="-+--+--+">(We are all of us weak at times):</l>
+        <l n="15" real="xx+--+xxxxx" met="-+--+--+--+">But the slightest approach to a false pretence</l>
+        <l n="16" real="x+-xxxx" met="--+--+-">Was never among my crimes!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxx+-xxxxx" met="-+--+--+--+">“I said it in Hebrew--I said it in Dutch--</l>
+        <l n="18" real="xxxx+-xx" met="-+--+--+">I said it in German and Greek:</l>
+        <l n="19" real="xx+--+xxxxxx" met="--+--+--+--+">But I wholly forgot (and it vexes me much)</l>
+        <l n="20" real="x+-xxxx" met="--+--+-">That English is what you speak!”</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xx+--xxx+-xx" met="--+--+--+--+">“’Tis a pitiful tale,” said the Bellman, whose face</l>
+        <l n="22" real="xx+-x+--x" met="+-+--+--+">Had grown longer at every word:</l>
+        <l n="23" real="xxxx+-xxxxx" met="-+--+--+--+">“But, now that you’ve stated the whole of your case,</l>
+        <l n="24" real="x-+xx+--+" met="+-+--+--+">More debate would be simply absurd.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxxxx-+xxx" met="-+--+--+--+">“The rest of my speech” (he explained to his men)</l>
+        <l n="26" real="xxxxx+-xxx" met="+--+--+--+">“You shall hear when I’ve leisure to speak it.</l>
+        <l n="27" real="xxxxxxxxxx-+" met="--+--+--+--+">But the Snark is at hand, let me tell you again!</l>
+        <l n="28" real="xx+--+-xxx" met="+--+--+--+">’Tis your glorious duty to seek it!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxxxxxxxx" met="+--+--+--+">“To seek it with thimbles, to seek it with care;</l>
+        <l n="30" real="x-+xxxxx" met="-+--+--+">To pursue it with forks and hope;</l>
+        <l n="31" real="x+-xxxx+xx" met="+--+--+--+">To threaten its life with a railway-share;</l>
+        <l n="32" real="xxxxxxx" met="--+--+-">To charm it with smiles and soap!</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxxx-+-+-xx" met="-+--+--+--+">“For the Snark’s a peculiar creature, that won’t</l>
+        <l n="34" real="xxxx+-xx" met="-+--+--+">Be caught in a commonplace way.</l>
+        <l n="35" real="xxxxxxxxxxx" met="-+--+--+--+">Do all that you know, and try all that you don’t:</l>
+        <l n="36" real="xxxxx+-xx" met="+-+--+--+">Not a chance must be wasted to-day!</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="x+--+xxxx-+" met="-+--+--+--+">“For England expects--I forbear to proceed:</l>
+        <l n="38" real="xx+--+-xx" met="+-+--+--+">’Tis a maxim tremendous, but trite:</l>
+        <l n="39" real="xxxx-+-xxxxx" met="--+--+--+--+">And you’d best be unpacking the things that you need</l>
+        <l n="40" real="xx-+xxxx" met="-+--+--+">To rig yourselves out for the fight.”</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a">
+        <l n="41" real="xx+--+xxxxxx" met="--+--+--+--+">Then the Banker endorsed a blank cheque (which he crossed),</l>
+        <l n="42" real="xxxx+-xx" met="-+--+--+">And changed his loose silver for notes.</l>
+        <l n="43" real="x+-xxxx+-xx" met="-+--+--+--+">The Baker with care combed his whiskers and hair,</l>
+        <l n="44" real="xxxxxxxx" met="-+--+--+">And shook the dust out of his coats.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xxxx+-x+--xx" met="--+--+--+--+">The Boots and the Broker were sharpening a spade--</l>
+        <l n="46" real="x+-x+xxx" met="-+--+--+">Each working the grindstone in turn:</l>
+        <l n="47" real="xx+-xx+-xx-+" met="--+--+--+--+">But the Beaver went on making lace, and displayed</l>
+        <l n="48" real="x+-xx-+" met="--+--+-">No interest in the concern:</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="49" real="xx+--xx-+xxx" met="--+--+--+--+">Though the Barrister tried to appeal to its pride,</l>
+        <l n="50" real="x+--+-xx" met="-+--+--+">And vainly proceeded to cite</l>
+        <l n="51" real="x+-x+-xx+-+-" met="--+--+--+--+">A number of cases, in which making laces</l>
+        <l n="52" real="xxxx-+-xx" met="+-+--+--+">Had been proved an infringement of right.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="x+-xxx-+--x" met="-+--+--+--+">The maker of Bonnets ferociously planned</l>
+        <l n="54" real="x+--+-xx" met="-+--+--+">A novel arrangement of bows:</l>
+        <l n="55" real="xx+-+-x+--x" met="-+--+--+--+">While the Billiard-marker with quivering hand</l>
+        <l n="56" real="x+-xxxxx" met="-+--+--+">Was chalking the tip of his nose.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abab">
+        <l n="57" real="xx+-x+-xx-+x" met="--+--+--+--+">But the Butcher turned nervous, and dressed himself fine,</l>
+        <l n="58" real="x+-xxxxx" met="-+--+--+">With yellow kid gloves and a ruff--</l>
+        <l n="59" real="xxxx-+-x+-xx" met="--+--+--+--+">Said he felt it exactly like going to dine,</l>
+        <l n="60" real="xx+--+xxx" met="+-+--+--+">Which the Bellman declared was all “stuff.”</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="61" real="x-+xxxxx+-xx" met="--+--+--+--+">“Introduce me, now there’s a good fellow,” he said,</l>
+        <l n="62" real="xx+-xxx-+-" met="+--+--+--+">“If we happen to meet it together!”</l>
+        <l n="63" real="xx+-xxxx+-xx" met="--+--+--+--+">And the Bellman, sagaciously nodding his head,</l>
+        <l n="64" real="xxx-+xx+-" met="+-+--+--+">Said “That must depend on the weather.”</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="x+-x+-xxxxx" met="-+--+--+--+">The Beaver went simply galumphing about,</l>
+        <l n="66" real="x+-x+-xx" met="-+--+--+">At seeing the Butcher so shy:</l>
+        <l n="67" real="x+-x+-x+-xx" met="-+--+--+--+">And even the Baker, though stupid and stout,</l>
+        <l n="68" real="xx+-xxxxx" met="+-+--+--+">Made an effort to wink with one eye.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abab">
+        <l n="69" real="xxxxx+-xxxxx" met="--+--+--+--+">“Be a man!” said the Bellman in wrath, as he heard</l>
+        <l n="70" real="x+--+-xx" met="-+--+--+">The Butcher beginning to sob.</l>
+        <l n="71" real="xxxxxxxx+-x" met="-+--+--+--+">“Should we meet with a Jubjub, that desperate bird,</l>
+        <l n="72" real="xxxx+-xxxx" met="+--+--+--+">We shall need all our strength for the job!”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-v-the-beaver-s-lesson" n="L07242">
+      <head>Fit V: The Beaver’s Lesson</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:5</idno><idno type="laurel-id">L07242</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxx" met="+--+--+--+">They sought it with thimbles, they sought it with care;</l>
+        <l n="2" real="x-+xxxxx" met="-+--+--+">They pursued it with forks and hope;</l>
+        <l n="3" real="x+-xxxx+xx" met="+--+--+--+">They threatened its life with a railway-share;</l>
+        <l n="4" real="xxxxxxx" met="--+--+-">They charmed it with smiles and soap.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+--+x-+-x" met="-+--+--+--+">Then the Butcher contrived an ingenious plan</l>
+        <l n="6" real="x+-x+-x+-" met="+-+--+--+">For making a separate sally;</l>
+        <l n="7" real="xxxxxxxxxxxx" met="--+--+--+--+">And had fixed on a spot unfrequented by man,</l>
+        <l n="8" real="x+-x+--+-" met="+-+--+--+">A dismal and desolate valley.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xx+-xxxx+--+" met="--+--+--+--+">But the very same plan to the Beaver occurred:</l>
+        <l n="10" real="xx+-x+-xx" met="+-+--+--+">It had chosen the very same place:</l>
+        <l n="11" real="x+--+xxxxxx" met="-+--+--+--+">Yet neither betrayed, by a sign or a word,</l>
+        <l n="12" real="x-+x-+xxx" met="+-+--+--+">The disgust that appeared in his face.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxx+-x+-xx" met="-+--+--+--+">Each thought he was thinking of nothing but “Snark”</l>
+        <l n="14" real="xx+--xxxx" met="+-+--+--+">And the glorious work of the day;</l>
+        <l n="15" real="xxxx-+xxxx-+" met="--+--+--+--+">And each tried to pretend that he did not remark</l>
+        <l n="16" real="xx+-x+-xx" met="+-+--+--+">That the other was going that way.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xx+-x+-x+--x" met="--+--+--+--+">But the valley grew narrow and narrower still,</l>
+        <l n="18" real="xx+-x+-x+-" met="+--+--+--+">And the evening got darker and colder,</l>
+        <l n="19" real="x+-x+--xx++" met="-+--+--+--+">Till (merely from nervousness, not from goodwill)</l>
+        <l n="20" real="xx-++-x+-" met="+-+--+--+">They marched along shoulder to shoulder.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxxxxxxx+--x" met="--+--+--+--+">Then a scream, shrill and high, rent the shuddering sky,</l>
+        <l n="22" real="xxxxx+-xx" met="+-+--+--+">And they knew that some danger was near:</l>
+        <l n="23" real="x+-xxxxxxxx" met="-+--+--+--+">The Beaver turned pale to the tip of its tail,</l>
+        <l n="24" real="x+-x+-xx" met="-+--+--+">And even the Butcher felt queer.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxx+xxxxxx" met="-+--+--+--+">He thought of his childhood, left far far behind--</l>
+        <l n="26" real="x+-x+--x" met="-+--+--+">That blissful and innocent state--</l>
+        <l n="27" real="xxx-+--+xxx" met="-+--+--+--+">The sound so exactly recalled to his mind</l>
+        <l n="28" real="x+-xxxxx" met="-+--+--+">A pencil that squeaks on a slate!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxxxxxx+--x" met="--+--+--+--+">“’Tis the voice of the Jubjub!” he suddenly cried.</l>
+        <l n="30" real="xxxxxxxx" met="-+--+--+">(This man, that they used to call “Dunce.”)</l>
+        <l n="31" real="xx+-xxxx+-xx" met="--+--+--+--+">“As the Bellman would tell you,” he added with pride,</l>
+        <l n="32" real="xx+-x+--x" met="+-+--+--+">“I have uttered that sentiment once.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxxxxxxxxxxx" met="--+--+--+--+">“’Tis the note of the Jubjub! Keep count, I entreat;</l>
+        <l n="34" real="xxxxxxxxx" met="+-+--+--+">You will find I have told it you twice.</l>
+        <l n="35" real="xxxxxxxxxx-+" met="--+--+--+--+">’Tis the song of the Jubjub! The proof is complete,</l>
+        <l n="36" real="x+-x+-xx" met="-+--+--+">If only I’ve stated it thrice.”</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="x+-x+-x+--x" met="-+--+--+--+">The Beaver had counted with scrupulous care,</l>
+        <l n="38" real="-+-x+--x" met="-+--+--+">Attending to every word:</l>
+        <l n="39" real="xx+-xxxxxx-+" met="--+--+--+--+">But it fairly lost heart, and outgrabe in despair,</l>
+        <l n="40" real="xxxx-+--+" met="+-+--+--+">When the third repetition occurred.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxxxxxx+--x" met="-+--+--+--+">It felt that, in spite of all possible pains,</l>
+        <l n="42" real="xx+x-+xxx" met="+-+--+--+">It had somehow contrived to lose count,</l>
+        <l n="43" real="xx+-xxxxxxxx" met="--+--+--+--+">And the only thing now was to rack its poor brains</l>
+        <l n="44" real="x+--xx-+" met="-+--+--+">By reckoning up the amount.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="45" real="x+-xxxxxxxx" met="-+--+--+--+">“Two added to one--if that could but be done,”</l>
+        <l n="46" real="xxxx+-xx" met="-+--+--+">It said, “with one’s fingers and thumbs!”</l>
+        <l n="47" real="x-+-xxxx+--x" met="--+--+--+--+">Recollecting with tears how, in earlier years,</l>
+        <l n="48" real="xx+-xxxxx" met="+-+--+--+">It had taken no pains with its sums.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxxxxxx+-xx" met="-+--+--+--+">“The thing can be done,” said the Butcher, “I think.</l>
+        <l n="50" real="xxxxxxxx" met="-+--+--+">The thing must be done, I am sure.</l>
+        <l n="51" real="xxxxxxx+-xx" met="-+--+--+--+">The thing shall be done! Bring me paper and ink,</l>
+        <l n="52" real="xxxxxx-+" met="-+--+--+">The best there is time to procure.”</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="x+-x+--+-xx" met="-+--+--+--+">The Beaver brought paper, portfolio, pens,</l>
+        <l n="54" real="xxx-+--+" met="-+--+--+">And ink in unfailing supplies:</l>
+        <l n="55" real="xx+-+-xxxxx" met="-+--+--+--+">While strange creepy creatures came out of their dens,</l>
+        <l n="56" real="xxxx+--x" met="-+--+--+">And watched them with wondering eyes.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a">
+        <l n="57" real="x-+xx+-x+-xx" met="--+--+--+--+">So engrossed was the Butcher, he heeded them not,</l>
+        <l n="58" real="xxxxxxxxx" met="+-+--+--+">As he wrote with a pen in each hand,</l>
+        <l n="59" real="x-+xxxxx+--x" met="--+--+--+--+">And explained all the while in a popular style</l>
+        <l n="60" real="xx+-xxx-+" met="+-+--+--+">Which the Beaver could well understand.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="61" real="+-xxx-+x+-xx" met="--+--+--+--+">“Taking Three as the subject to reason about--</l>
+        <l n="62" real="x-+-+-xx" met="-+--+--+">A convenient number to state--</l>
+        <l n="63" real="xx+-xxxx+-xx" met="--+--+--+--+">We add Seven, and Ten, and then multiply out</l>
+        <l n="64" real="xx+--+-xx" met="+-+--+--+">By One Thousand diminished by Eight.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="x-+x-+x-+xxx" met="--+--+--+--+">“The result we proceed to divide, as you see,</l>
+        <l n="66" real="xx+-x+-x" met="-+--+--+">By Nine Hundred and Ninety Two:</l>
+        <l n="67" real="x-++-+xx+-xx" met="--+--+--+--+">Then subtract Seventeen, and the answer must be</l>
+        <l n="68" real="-+-x+--x" met="-+--+--+">Exactly and perfectly true.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abab">
+        <l n="69" real="x+--+xx+--+" met="-+--+--+--+">“The method employed I would gladly explain,</l>
+        <l n="70" real="xxxxxxxxx" met="+-+--+--+">While I have it so clear in my head,</l>
+        <l n="71" real="xxxxxxxxxxxx" met="--+--+--+--+">If I had but the time and you had but the brain--</l>
+        <l n="72" real="xxx-+xxx" met="-+--+--+">But much yet remains to be said.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a">
+        <l n="73" real="xx+-xxxx+x+x" met="--+--+--+--+">“In one moment I’ve seen what has hitherto been</l>
+        <l n="74" real="-+-x+-x+--" met="+--+--+--+">Enveloped in absolute mystery,</l>
+        <l n="75" real="xxx+-xxxxxxx" met="--+--+--+--+">And without extra charge I will give you at large</l>
+        <l n="76" real="x+-x+--+--" met="+--+--+--+">A Lesson in Natural History.”</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="-a-a">
+        <l n="77" real="xx+-xx-+-xx" met="-+--+--+--+">In his genial way he proceeded to say</l>
+        <l n="78" real="-+-xxx-+--" met="+--+--+--+">(Forgetting all laws of propriety,</l>
+        <l n="79" real="xx+--+-xxx-+-" met="--+--+--+--+-">And that giving instruction, without introduction,</l>
+        <l n="80" real="xxxxxxx-+--" met="-+--+--+--+">Would have caused quite a thrill in Society),</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="abab">
+        <l n="81" real="xx+-xxxx+-x" met="-+--+--+--+">“As to temper the Jubjub’s a desperate bird,</l>
+        <l n="82" real="xxxx-+--+-" met="+--+--+--+">Since it lives in perpetual passion:</l>
+        <l n="83" real="xxx-+x-+---+" met="--+--+--+--+">Its taste in costume is entirely absurd--</l>
+        <l n="84" real="xx+--+xx+-" met="+--+--+--+">It is ages ahead of the fashion:</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="abab">
+        <l n="85" real="xxx+-xxxxxxx" met="--+--+--+--+">“But it knows any friend it has met once before:</l>
+        <l n="86" real="x+-xxxxx" met="-+--+--+">It never will look at a bribe:</l>
+        <l n="87" real="xx+--+-xxxxx" met="--+--+--+--+">And in charity-meetings it stands at the door,</l>
+        <l n="88" real="x-+xxxx-+" met="+-+--+--+">And collects--though it does not subscribe.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="abab">
+        <l n="89" real="x+-xxxx+--x" met="-+--+--+--+">“Its’ flavour when cooked is more exquisite far</l>
+        <l n="90" real="x+-x+-xx" met="-+--+--+">Than mutton, or oysters, or eggs:</l>
+        <l n="91" real="xxxxxxx+--x" met="-+--+--+--+">(Some think it keeps best in an ivory jar,</l>
+        <l n="92" real="xxx-+--x" met="-+--+--+">And some, in mahogany kegs:)</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="abab">
+        <l n="93" real="xxxx+xxxxxx" met="-+--+--+--+">“You boil it in sawdust: you salt it in glue:</l>
+        <l n="94" real="x-+xx+-xx" met="+-+--+--+">You condense it with locusts and tape:</l>
+        <l n="95" real="x+-x+--+-xx" met="-+--+--+--+">Still keeping one principal object in view--</l>
+        <l n="96" real="x-+x-+--x" met="+-+--+--+">To preserve its symmetrical shape.”</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="abab">
+        <l n="97" real="x+-x+-xxxxx" met="-+--+--+--+">The Butcher would gladly have talked till next day,</l>
+        <l n="98" real="xxxxx+-xx" met="+-+--+--+">But he felt that the lesson must end,</l>
+        <l n="99" real="xxxx-+x-+-xx" met="--+--+--+--+">And he wept with delight in attempting to say</l>
+        <l n="100" real="x-+-x+-xx" met="+-+--+--+">He considered the Beaver his friend.</l>
+      </lg>
+      <lg type="stanza" n="26" rhyme="abab">
+        <l n="101" real="xx+--+x-+--x" met="--+--+--+--+">While the Beaver confessed, with affectionate looks</l>
+        <l n="102" real="x+--+-xx" met="-+--+--+">More eloquent even than tears,</l>
+        <l n="103" real="xxxxx+-xxxxx" met="--+--+--+--+">It had learned in ten minutes far more than all books</l>
+        <l n="104" real="xxxxx+--x" met="+-+--+--+">Would have taught it in seventy years.</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="-a-a">
+        <l n="105" real="x-+xxxxx+--+" met="--+--+--+--+">They returned hand-in-hand, and the Bellman, unmanned</l>
+        <l n="106" real="xx+-x+--+-" met="+--+--+--+">(For a moment) with noble emotion,</l>
+        <l n="107" real="xx+-x+xx+--x" met="--+--+--+--+">Said “This amply repays all the wearisome days</l>
+        <l n="108" real="xxxxxxxx+-" met="+--+--+--+">We have spent on the billowy ocean!”</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="abab">
+        <l n="109" real="xxxx+-x+--+" met="-+--+--+--+">Such friends, as the Beaver and Butcher became,</l>
+        <l n="110" real="x+-x+-xx" met="-+--+--+">Have seldom if ever been known;</l>
+        <l n="111" real="x+-x+-x+xxx" met="-+--+--+--+">In winter or summer, ’twas always the same--</l>
+        <l n="112" real="xx+-x+--+" met="+-+--+--+">You could never meet either alone.</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="abab">
+        <l n="113" real="xx+--+xx+--x" met="--+--+--+--+">And when quarrels arose--as one frequently finds</l>
+        <l n="114" real="+-xxx+---+-" met="-+--+--+--+">Quarrels will, spite of every endeavour--</l>
+        <l n="115" real="xxxxxx-+xxx" met="-+--+--+--+">The song of the Jubjub recurred to their minds,</l>
+        <l n="116" real="x-+-x+-x+-" met="+--+--+--+">And cemented their friendship for ever!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-vi-the-barrister-s-dream" n="L07243">
+      <head>Fit VI: The Barrister’s Dream</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:6</idno><idno type="laurel-id">L07243</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxx" met="+--+--+--+">They sought it with thimbles, they sought it with care;</l>
+        <l n="2" real="x-+xxxxx" met="-+--+--+">They pursued it with forks and hope;</l>
+        <l n="3" real="x+-xxxx+xx" met="+--+--+--+">They threatened its life with a railway-share;</l>
+        <l n="4" real="xxxxxxx" met="--+--+-">They charmed it with smiles and soap.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+--+-x+-xx" met="--+--+--+--+">But the Barrister, weary of proving in vain</l>
+        <l n="6" real="xx+-x+-xx" met="+-+--+--+">That the Beaver’s lace-making was wrong,</l>
+        <l n="7" real="x-+xxxxx+-xx" met="--+--+--+--+">Fell asleep, and in dreams saw the creature quite plain</l>
+        <l n="8" real="xx+-xxxxx" met="+-+--+--+">That his fancy had dwelt on so long.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxx+--x" met="-+--+--+--+">He dreamed that he stood in a shadowy Court,</l>
+        <l n="10" real="xxxxxxxxx" met="+-+--+--+">Where the Snark, with a glass in its eye,</l>
+        <l n="11" real="xxxxxxx-+-xx" met="--+--+--+--+">Dressed in gown, bands, and wig, was defending a pig</l>
+        <l n="12" real="xxxx+--xx" met="+-+--+--+">On the charge of deserting its sty.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+--xxx+-xx" met="-+--+--+--+">The Witnesses proved, without error or flaw,</l>
+        <l n="14" real="xxxx-+-xx" met="+-+--+--+">That the sty was deserted when found:</l>
+        <l n="15" real="xxxx-+-xxxxx" met="--+--+--+--+">And the Judge kept explaining the state of the law</l>
+        <l n="16" real="xxxxx+-xx" met="+-+--+--+">In a soft under-current of sound.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="x-+-x+-x+--+" met="--+--+--+--+">The indictment had never been clearly expressed,</l>
+        <l n="18" real="xxxxxxx-+" met="+-+--+--+">And it seemed that the Snark had begun,</l>
+        <l n="19" real="xx+-x+-xx+-xx" met="--+--+--+--+-">And had spoken three hours, before any one guessed</l>
+        <l n="20" real="xxxx-+xxx" met="+-+--+--+">What the pig was supposed to have done.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="x+-xxxx+--x" met="-+--+--+--+">The Jury had each formed a different view</l>
+        <l n="22" real="xxxx-+-xx" met="+-+--+--+">(Long before the indictment was read),</l>
+        <l n="23" real="xxxxxxxxxxxx" met="--+--+--+--+">And they all spoke at once, so that none of them knew</l>
+        <l n="24" real="xxxx+-xx" met="-+--+--+">One word that the others had said.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="xxxxxxxxx-+x" met="--+--+--+--+">“You must know--” said the Judge: but the Snark exclaimed “Fudge!”</l>
+        <l n="26" real="x+-x+-xx" met="-+--+--+">That statute is obsolete quite!</l>
+        <l n="27" real="xxxxxxxx+--+" met="--+--+--+--+">Let me tell you, my friends, the whole question depends</l>
+        <l n="28" real="xx+-xxxx" met="-+--+--+">On an ancient manorial right.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xx+-x+-xxx-+" met="--+--+--+--+">“In the matter of Treason the pig would appear</l>
+        <l n="30" real="xx+-x+--+-" met="+--+--+--+">To have aided, but scarcely abetted:</l>
+        <l n="31" real="xxxx-+--xxxx" met="--+--+--+--+">While the charge of Insolvency fails, it is clear,</l>
+        <l n="32" real="xxxxx+--+-" met="+--+--+--+">If you grant the plea ‘never indebted.’</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxx-+-xxx-+" met="-+--+--+--+">“The fact of Desertion I will not dispute;</l>
+        <l n="34" real="xxxxxxx-+" met="+-+--+--+">But its guilt, as I trust, is removed</l>
+        <l n="35" real="xxx-+-xxxxxx" met="--+--+--+--+">(So far as related to the costs of this suit)</l>
+        <l n="36" real="xx+-xxxxx" met="+-+--+--+">By the Alibi which has been proved.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="xx+-xx-+xxx" met="-+--+--+--+">“My poor client’s fate now depends on your votes.”</l>
+        <l n="38" real="xx+-xxxxx" met="+-+--+--+">Here the speaker sat down in his place,</l>
+        <l n="39" real="x-+-xxx-+xxx" met="--+--+--+--+">And directed the Judge to refer to his notes</l>
+        <l n="40" real="x+-xxxxx" met="-+--+--+">And briefly to sum up the case.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxxxx+-xxxxx" met="--+--+--+--+">But the Judge said he never had summed up before;</l>
+        <l n="42" real="xxxx-+x-+" met="+-+--+--+">So the Snark undertook it instead,</l>
+        <l n="43" real="xxxxxxxxxxx" met="-+--+--+--+">And summed it so well that it came to far more</l>
+        <l n="44" real="xx+--+-xx" met="+-+--+--+">Than the Witnesses ever had said!</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xx+-xxxx+--+" met="--+--+--+--+">When the verdict was called for, the Jury declined,</l>
+        <l n="46" real="xxxxx+--xx" met="+--+--+--+">As the word was so puzzling to spell;</l>
+        <l n="47" real="xx+-xxxxx+-x" met="--+--+--+--+">But they ventured to hope that the Snark wouldn’t mind</l>
+        <l n="48" real="+-x-x+-xx" met="+-+--+--+">Undertaking that duty as well.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxxxx+-xxxxx" met="--+--+--+--+">So the Snark found the verdict, although, as it owned,</l>
+        <l n="50" real="xxxxxxxxx" met="+-+--+--+">It was spent with the toils of the day:</l>
+        <l n="51" real="xxxxx+-x+-xx" met="--+--+--+--+">When it said the word “GUILTY!” the Jury all groaned,</l>
+        <l n="52" real="xxxx+--+" met="-+--+--+">And some of them fainted away.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="xxx-++-xx+-x" met="--+--+--+--+">Then the Snark pronounced sentence, the Judge being quite</l>
+        <l n="54" real="x+-x+-xx" met="-+--+--+">Too nervous to utter a word:</l>
+        <l n="55" real="xxxxxxxx+-xx" met="--+--+--+--+">When it rose to its feet, there was silence like night,</l>
+        <l n="56" real="xxxxxxxxx" met="+-+--+--+">And the fall of a pin might be heard.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a">
+        <l n="57" real="x-+-xxxx+-xx" met="--+--+--+--+">“Transportation for life” was the sentence it gave,</l>
+        <l n="58" real="xxxxx+-x" met="-+--+--+">“And then to be fined forty pound.”</l>
+        <l n="59" real="x+-xxxxxxxx" met="-+--+--+--+">The Jury all cheered, though the Judge said he feared</l>
+        <l n="60" real="xxxxx+--x" met="+-+--+--+">That the phrase was not legally sound.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="61" real="xxxxxxxx+--x" met="--+--+--+--+">But their wild exultation was suddenly checked</l>
+        <l n="62" real="xx+--+xxx" met="+-+--+--+">When the jailer informed them, with tears,</l>
+        <l n="63" real="xx+-xxxx+--+" met="--+--+--+--+">Such a sentence would have not the slightest effect,</l>
+        <l n="64" real="xxxxxxxxx" met="+-+--+--+">As the pig had been dead for some years.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="xxxxx+-+--+-" met="--+--+--+--+">The Judge left the Court, looking deeply disgusted:</l>
+        <l n="66" real="xxxxx+--+" met="+-+--+--+">But the Snark, though a little aghast,</l>
+        <l n="67" real="xx+-xxx-+x-+-" met="--+--+--+--+-">As the lawyer to whom the defense was entrusted,</l>
+        <l n="68" real="x+--xxxx" met="-+--+--+">Went bellowing on to the last.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="-a-a">
+        <l n="69" real="xx+--xxx+--x" met="--+--+--+--+">Thus the Barrister dreamed, while the bellowing seemed</l>
+        <l n="70" real="xx+--+-xx" met="+-+--+--+">To grow every moment more clear:</l>
+        <l n="71" real="xxxxxxxx+--x" met="--+--+--+--+">Till he woke to the knell of a furious bell,</l>
+        <l n="72" real="xx+-xxxxx" met="+-+--+--+">Which the Bellman rang close at his ear.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-vii-the-banker-s-fate" n="L07244">
+      <head>Fit VII: The Banker’s Fate</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:7</idno><idno type="laurel-id">L07244</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxx" met="--+--+--+-">They sought it with thimbles, they sought it with care;</l>
+        <l n="2" real="x-+xxxxx" met="-+--+--+">They pursued it with forks and hope;</l>
+        <l n="3" real="x+-xxxx+xx" met="--+--+--+-">They threatened its life with a railway-share;</l>
+        <l n="4" real="xxxxxxx" met="+--+--+">They charmed it with smiles and soap.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+--+-xx+-xx" met="--+--+--+--+-">And the Banker, inspired with a courage so new</l>
+        <l n="6" real="xx+-x+---+" met="--+--+--+-">It was matter for general remark,</l>
+        <l n="7" real="x+--+xxxxxx" met="-+--+--+--+">Rushed madly ahead and was lost to their view</l>
+        <l n="8" real="xxxx-+-xx" met="--+--+--+">In his zeal to discover the Snark</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxx+-xxxx" met="--+--+--+-">But while he was seeking with thimbles and care,</l>
+        <l n="10" real="xxxx+-xx" met="-+--+--+">A Bandersnatch swiftly drew nigh</l>
+        <l n="11" real="xxxx+-xxx-+" met="-+--+--+--+">And grabbed at the Banker, who shrieked in despair,</l>
+        <l n="12" real="xxxxx+-xx" met="--+--+--+">For he knew it was useless to fly.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x+-x-+x+-xx" met="-+--+--+--+">He offered large discount--he offered a cheque</l>
+        <l n="14" real="xx+-x+-xx" met="--+--+--+">(Drawn “to bearer”) for seven-pounds-ten:</l>
+        <l n="15" real="xxxxx+--+-xx" met="--+--+--+--+">But the Bandersnatch merely extended its neck</l>
+        <l n="16" real="xxxx+--+" met="-+--+--+">And grabbed at the Banker again.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxxxxxxxxx" met="--+--+--+-">Without rest or pause--while those frumious jaws</l>
+        <l n="18" real="x+--+-xx" met="-+--+--+">Went savagely snapping around--</l>
+        <l n="19" real="xxxxxxx+-xx" met="-+--+--+--+">He skipped and he hopped, and he floundered and flopped,</l>
+        <l n="20" real="x+-xxxxx" met="-+--+--+">Till fainting he fell to the ground.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxxxx+--+" met="-+--+--+--+">The Bandersnatch fled as the others appeared</l>
+        <l n="22" real="xxxxx+-x" met="-+--+--+">Led on by that fear-stricken yell:</l>
+        <l n="23" real="xx+--+xxxxxx" met="--+--+--+--+">And the Bellman remarked “It is just as I feared!”</l>
+        <l n="24" real="x+--xxxx" met="-+--+--+">And solemnly tolled on his bell.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="25" real="xxxxxxxx+-xx" met="--+--+--+--+">He was black in the face, and they scarcely could trace</l>
+        <l n="26" real="xx+-xxxxx" met="--+--+--+">The least likeness to what he had been:</l>
+        <l n="27" real="xxxxxxxxxxxx" met="--+--+--+--+">While so great was his fright that his waistcoat turned white--</l>
+        <l n="28" real="x+--xxxx" met="-+--+--+">A wonderful thing to be seen!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xx+-xxxx+-xx" met="--+--+--+--+">To the horror of all who were present that day.</l>
+        <l n="30" real="xxxxx+-x" met="-+--+--+">He uprose in full evening dress,</l>
+        <l n="31" real="xx+-+---+-xx" met="--+--+--+--+">And with senseless grimaces endeavoured to say</l>
+        <l n="32" real="xxxxx+--+" met="--+--+--+">What his tongue could no longer express.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="xxxxxxxxxxxx" met="--+--+--+--+">Down he sank in a chair--ran his hands through his hair--</l>
+        <l n="34" real="x+-xxxx" met="+--+--+">And chanted in mimsiest tones</l>
+        <l n="35" real="xx+-xxxxxx-+--" met="-+--+--+--+--+">Words whose utter inanity proved his insanity,</l>
+        <l n="36" real="xx+-x+-xx" met="--+--+--+">While he rattled a couple of bones.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="xxxxxxxx+-xx" met="--+--+--+--+">“Leave him here to his fate--it is getting so late!”</l>
+        <l n="38" real="x+--+xxx" met="-+--+--+">The Bellman exclaimed in a fright.</l>
+        <l n="39" real="xxxxxx+-+--+" met="--+--+--+--+">“We have lost half the day. Any further delay,</l>
+        <l n="40" real="xxxxxxxxx" met="--+--+--+">And we sha’n’t catch a Snark before night!”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fit-viii-the-vanishing" n="L07245">
+      <head>Fit VIII: The Vanishing</head>
+      <idno type="URN">urn:laurel:eng:carroll.carroll-snark.pg13:8</idno><idno type="laurel-id">L07245</idno><note type="metre">anapaestic common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxx" met="--+--+--+-">They sought it with thimbles, they sought it with care;</l>
+        <l n="2" real="x-+xxxxx" met="-+--+--+">They pursued it with forks and hope;</l>
+        <l n="3" real="x+-xxxx+xx" met="--+--+--+-">They threatened its life with a railway-share;</l>
+        <l n="4" real="xxxxxxx" met="+--+--+">They charmed it with smiles and soap.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xxxxxxx" met="--+--+--+-">They shuddered to think that the chase might fail,</l>
+        <l n="6" real="xx+--+-xx" met="--+--+--+">And the Beaver, excited at last,</l>
+        <l n="7" real="x+--+xxxxxx" met="-+--+--+--+">Went bounding along on the tip of its tail,</l>
+        <l n="8" real="xx+xx+-x" met="-+--+--+">For the daylight was nearly past.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxx+-x+-x" met="-+--+--+--+">“There is Thingumbob shouting!” the Bellman said,</l>
+        <l n="10" real="xx+-xx+-x" met="--+--+--+">“He is shouting like mad, only hark!</l>
+        <l n="11" real="xx+-xxxx+-xx" met="--+--+--+--+">He is waving his hands, he is wagging his head,</l>
+        <l n="12" real="xx+--xxx" met="-+--+--+">He has certainly found a Snark!”</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxx-+xx+--+" met="-+--+--+--+">They gazed in delight, while the Butcher exclaimed</l>
+        <l n="14" real="xx+xx+-x" met="-+--+--+">“He was always a desperate wag!”</l>
+        <l n="15" real="xxxxx+-x+--+" met="--+--+--+--+">They beheld him--their Baker--their hero unnamed--</l>
+        <l n="16" real="xxxxx+--x" met="--+--+--+">On the top of a neighboring crag.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="-+x-+xx+-xx" met="-+--+--+--+">Erect and sublime, for one moment of time.</l>
+        <l n="18" real="xxxxx+-xx" met="--+--+--+">In the next, that wild figure they saw</l>
+        <l n="19" real="xxxxx+-xxxx+-" met="--+--+--+--+-">(As if stung by a spasm) plunge into a chasm,</l>
+        <l n="20" real="xx+-x+-xx" met="--+--+--+">While they waited and listened in awe.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxxxxxxxxx" met="--+--+--+--+">“It’s a Snark!” was the sound that first came to their ears,</l>
+        <l n="22" real="xx+xxxxxx" met="--+--+--+">And seemed almost too good to be true.</l>
+        <l n="23" real="x+-x+-x+-xx" met="-+--+--+--+">Then followed a torrent of laughter and cheers:</l>
+        <l n="24" real="xx+--xxxx" met="--+--+--+">Then the ominous words “It’s a Boo-”</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="x+-x+-xxxxx" met="-+--+--+--+">Then, silence. Some fancied they heard in the air</l>
+        <l n="26" real="x+-x+--x" met="-+--+--+">A weary and wandering sigh</l>
+        <l n="27" real="x+-xxxx+--+" met="-+--+--+--+">Then sounded like “-jum!” but the others declare</l>
+        <l n="28" real="xx+-xxxxx" met="--+--+--+">It was only a breeze that went by.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="x+-x+-xxxxx" met="-+--+--+--+">They hunted till darkness came on, but they found</l>
+        <l n="30" real="xx+-x+-xx" met="--+--+--+">Not a button, or feather, or mark,</l>
+        <l n="31" real="xxxxxxxxxxx" met="-+--+--+--+">By which they could tell that they stood on the ground</l>
+        <l n="32" real="xx+-xxxxx" met="--+--+--+">Where the Baker had met with the Snark.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxxxxxxx+-xx" met="--+--+--+--+">In the midst of the word he was trying to say,</l>
+        <l n="34" real="xxxxx+-xx" met="--+--+--+">In the midst of his laughter and glee,</l>
+        <l n="35" real="xx+-x+--+--+" met="--+--+--+--+">He had softly and suddenly vanished away---</l>
+        <l n="36" real="xxxxxxxxx" met="--+--+--+">For the Snark was a Boojum, you see.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

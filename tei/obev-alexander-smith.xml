@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Barbara, and other poems</title><author>Alexander Smith</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="love" n="L16240">
+      <head>Love</head>
+      <idno type="URN">urn:laurel:eng:smith.obev-alexander-smith.pg66619:love</idno><idno type="laurel-id">L16240</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a-aa">
+        <l n="1" real="xx-+-xxxxx" met="-+-+-+-+-+">The fierce exulting worlds, the motes in rays,</l>
+        <l n="2" real="x+-+-+-x" met="--+-+-+-">The churlish thistles, scented briers,</l>
+        <l n="3" real="xxx+xxx+-x" met="-+-+-+-+-+">The wind-swept bluebells on the sunny braes,</l>
+        <l n="4" real="xxx+-+-" met="-+-+-+-">Down to the central fires,</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="-+-+xxxxxx" met="-+-+-+-+-+">Exist alike in Love. Love is a sea</l>
+        <l n="6" real="+-xxxxxx" met="--+-+-+-">Filling all the abysses dim</l>
+        <l n="7" real="xxxxxxx+--" met="-+-+-+-+-+">Of lornest space, in whose deeps regally</l>
+        <l n="8" real="xxxxxx" met="--+-+-">Suns and their bright broods swim.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="x+-xxxx+-x" met="-+-+-+-+-+">This mighty sea of Love, with wondrous tides,</l>
+        <l n="10" real="x+-xxxxx" met="--+-+-+-">Is sternly just to sun and grain;</l>
+        <l n="11" real="xxxxx+-+-x" met="-+-+-+-+-+">’Tis laving at this moment Saturn’s sides,</l>
+        <l n="12" real="xxxxxx" met="--+-+-">’Tis in my blood and brain.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">All things have something more than barren use;</l>
+        <l n="14" real="xxxxxxx+-" met="+-+-+-+-+">There is a scent upon the brier,</l>
+        <l n="15" real="x+--+-xx+-x" met="-+-+-+-+-+-">A tremulous splendour in the autumn dews,</l>
+        <l n="16" real="xxxxx+-" met="-+-+-+-">Cold morns are fringed with fire.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The clodded earth goes up in sweet-breath’d flowers;</l>
+        <l n="18" real="x+-xx+-x" met="--+-+-+-">In music dies poor human speech,</l>
+        <l n="19" real="xxx+-xxxx+-" met="-+-+-+-+-+-">And into beauty blow those hearts of ours</l>
+        <l n="20" real="xxxxxx" met="--+-+-">When Love is born in each.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="+-xxxxx+xx" met="-+-+-+-+-+">Daisies are white upon the churchyard sod,</l>
+        <l n="22" real="xxxxxxxx" met="--+-+-+-">Sweet tears the clouds lean down and give.</l>
+        <l n="23" real="xxx+-+-xxx" met="-+-+-+-+-+">The world is very lovely. O my God,</l>
+        <l n="24" real="xxxxxx" met="--+-+-">I thank Thee that I live!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="barbara" n="L16241">
+      <head>Barbara</head>
+      <idno type="URN">urn:laurel:eng:smith.obev-alexander-smith.pg66619:barbara</idno><idno type="laurel-id">L16241</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1" rhyme="aaabbb-">
+        <l n="1" real="xx+-x" met="-+-+-">On the Sabbath-day,</l>
+        <l n="2" real="xx+xxxx" met="-+-+-+-">Through the churchyard old and gray,</l>
+        <l n="3" real="xxxxx+-xxxx+-x" met="-+-+-+-+-+-+-+">Over the crisp and yellow leaves I held my rustling way;</l>
+        <l n="4" real="x-+xxx+-+-xxxxx" met="-+-+-+-+-+-+-+-">And amid the words of mercy, falling on my soul like balms,</l>
+        <l n="5" real="xx+-xx+-xx+-+-x" met="-+-+-+-+-+-+-+-">’Mid the gorgeous storms of music--in the mellow organ-calms,</l>
+        <l n="6" real="xx+-+-xxxxx+-x" met="-+-+-+-+-+-+-+">’Mid the upward-streaming prayers, and the rich and solemn psalms,</l>
+        <l n="7" real="xx+-+--" met="-+-+-+-">I stood careless, Barbara.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaabbb-">
+        <l n="8" real="xxxxxx" met="--+-+-">My heart was otherwhere,</l>
+        <l n="9" real="xx+-xxx" met="-+-+-+-">While the organ shook the air,</l>
+        <l n="10" real="xxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+">And the priest, with outspread hands, bless’d the people with a prayer;</l>
+        <l n="11" real="xx+-xx+-xxxxxxx" met="-+-+-+-+-+-+-+-">But when rising to go homeward, with a mild and saint-like shine</l>
+        <l n="12" real="xxxx+-+-xx+--xxx" met="--+-+-+-+-+-+-+-">Gleam’d a face of airy beauty with its heavenly eyes on mine--</l>
+        <l n="13" real="xx+-xx+-xxxx+-x" met="-+-+-+-+-+-+-+-">Gleam’d and vanish’d in a moment--O that face was surely thine</l>
+        <l n="14" real="xx+-+--" met="-+-+-+-">Out of heaven, Barbara!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaabbb-">
+        <l n="15" real="x+-+-x" met="--+-+-">O pallid, pallid face!</l>
+        <l n="16" real="x+-xxx" met="--+-+-">O earnest eyes of grace!</l>
+        <l n="17" real="xxxxx+-xxx-+-x" met="-+-+-+-+-+-+-+">When last I saw thee, dearest, it was in another place.</l>
+        <l n="18" real="xx+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+-">You came running forth to meet me with my love-gift on your wrist:</l>
+        <l n="19" real="x+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+">The flutter of a long white dress, then all was lost in mist--</l>
+        <l n="20" real="x+-xx+--xxxxxx" met="-+-+-+-+-+-+-+">A purple stain of agony was on the mouth I kiss’d,</l>
+        <l n="21" real="xx+-+--" met="-+-+-+-">That wild morning, Barbara.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaa-bb-">
+        <l n="22" real="xxxx-+" met="--+-+-">I searched, in my despair,</l>
+        <l n="23" real="+-xx+xx" met="-+-+-+-">Sunny noon and midnight air;</l>
+        <l n="24" real="xxxx-+xxxxx+--x" met="-+-+-+-+-+-+-+-">I could not drive away the thought that you were lingering there.</l>
+        <l n="25" real="x+-x+-x+-xxxxxxx" met="--+-+-+-+-+-+-+-">O many and many a winter night I sat when you were gone,</l>
+        <l n="26" real="xxx+-xxx-+x+--+" met="-+-+-+-+-+-+-+-">My worn face buried in my hands, beside the fire alone--</l>
+        <l n="27" real="xxx+-+xxxxxxxx" met="-+-+-+-+-+-+-+">Within the dripping churchyard, the rain plashing on your stone,</l>
+        <l n="28" real="xx+-+--" met="-+-+-+-">You were sleeping, Barbara.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaabbb-">
+        <l n="29" real="x+-xxx" met="--+-+-">’Mong angels, do you think</l>
+        <l n="30" real="xx+-+-x" met="-+-+-+-">Of the precious golden link</l>
+        <l n="31" real="xxxxx+-xx+-xxx" met="-+-+-+-+-+-+-+">I clasp’d around your happy arm while sitting by yon brink?</l>
+        <l n="32" real="xxxxx+-xx+-x-+" met="-+-+-+-+-+-+-+">Or when that night of gliding dance, of laughter and guitars,</l>
+        <l n="33" real="x+-xx+-xxxx+-x" met="-+-+-+-+-+-+-+">Was emptied of its music, and we watch’d, through lattice-bars,</l>
+        <l n="34" real="x+-+x+-+-xxxxx" met="-+-+-+-+-+-+-+">The silent midnight heaven creeping o’er us with its stars,</l>
+        <l n="35" real="xxxx+--" met="-+-+-+-">Till the day broke, Barbara?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa-bb--">
+        <l n="36" real="xxxxx" met="-+-+-">In the years I’ve changed;</l>
+        <l n="37" real="xxxxxxx" met="-+-+-+-">Wild and far my heart has ranged,</l>
+        <l n="38" real="x+-xx+-xxxxx-+" met="-+-+-+-+-+-+-+">And many sins and errors now have been on me avenged;</l>
+        <l n="39" real="xxxxxx+-x-+-xxx" met="-+-+-+-+-+-+-+-">But to you I have been faithful whatsoever good I lack’d:</l>
+        <l n="40" real="xxxxxxxxxxxx-+" met="-+-+-+-+-+-+-+">I loved you, and above my life still hangs that love intact--</l>
+        <l n="41" real="xxx+--+xxx+-+--" met="-+-+-+-+-+-+-+-">Your love the trembling rainbow, I the reckless cataract.</l>
+        <l n="42" real="xxxx+--" met="-+-+-+-">Still I love you, Barbara.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaabbb-">
+        <l n="43" real="xxxxxx" met="--+-+-">Yet, Love, I am unblest;</l>
+        <l n="44" real="x+-xxx" met="--+-+-">With many doubts opprest,</l>
+        <l n="45" real="x+-xx+-xxxxxxx" met="-+-+-+-+-+-+-+">I wander like the desert wind without a place of rest.</l>
+        <l n="46" real="xxxxxxx+-xxx+-x" met="-+-+-+-+-+-+-+-">Could I but win you for an hour from off that starry shore,</l>
+        <l n="47" real="x+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+">The hunger of my soul were still’d; for Death hath told you more</l>
+        <l n="48" real="xx+-x-xxxx+-xxx" met="-+-+-+-+-+-+-+-">Than the melancholy world doth know--things deeper than all lore</l>
+        <l n="49" real="xxxx+--" met="-+-+-+-">You could teach me, Barbara.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaabbb-">
+        <l n="50" real="xxxxxx" met="--+-+-">In vain, in vain, in vain!</l>
+        <l n="51" real="xx+-x-+" met="-+-+-+-">You will never come again.</l>
+        <l n="52" real="xxxxx+-xx+-xxx" met="-+-+-+-+-+-+-+">There droops upon the dreary hills a mournful fringe of rain;</l>
+        <l n="53" real="x+-+-+-xxxxxxx" met="-+-+-+-+-+-+-+">The gloaming closes slowly round, loud winds are in the tree,</l>
+        <l n="54" real="x+-xx+-xxxx+-x" met="-+-+-+-+-+-+-+">Round selfish shores for ever moans the hurt and wounded sea;</l>
+        <l n="55" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">There is no rest upon the earth, peace is with Death and thee--</l>
+        <l n="56" real="+--" met="-+-">Barbara!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

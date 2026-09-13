@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>In Time of Pestilence, and other poems</title><author>Thomas Nashe</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="spring" n="L15988">
+      <head>Spring</head>
+      <idno type="URN">urn:laurel:eng:nashe.obev-thomas-nashe.pg66619:spring</idno><idno type="laurel-id">L15988</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aaa-">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">Spring, the sweet Spring, is the year’s pleasant king;</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Then blooms each thing, then maids dance in a ring,</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Cold doth not sting, the pretty birds do sing--</l>
+        <l n="4" real="+xxxxxxxxx" met="-+-+-+-+-+">Cuckoo, jug-jug, pu-we, to-witta-woo!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa-">
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">The palm and may make country houses gay,</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Lambs frisk and play, the shepherds pipe all day,</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">And we hear aye birds tune this merry lay--</l>
+        <l n="8" real="+xxxxxxxxx" met="-+-+-+-+-+">Cuckoo, jug-jug, pu-we, to-witta-woo!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a--">
+        <l n="9" real="xxxxx+-x+x" met="-+-+-+-+-+">The fields breathe sweet, the daisies kiss our feet,</l>
+        <l n="10" real="x+-xxxx+-x" met="-+-+-+-+-+">Young lovers meet, old wives a-sunning sit,</l>
+        <l n="11" real="x+-xxx+xxx" met="-+-+-+-+-+">In every street these tunes our ears do greet--</l>
+        <l n="12" real="+xxxxxxxxx" met="-+-+-+-+-+">Cuckoo, jug-jug, pu-we, to-witta-woo!</l>
+        <l n="13" real="xxxx" met="--+-">Spring, the sweet Spring!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="in-time-of-pestilence" n="L15989">
+      <head>In Time of Pestilence</head>
+      <idno type="URN">urn:laurel:eng:nashe.obev-thomas-nashe.pg66619:in-time-of-pestilence</idno><idno type="laurel-id">L15989</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="--aabb-">
+        <l n="1" real="-+x+xx" met="-+-+-+">ADIEU, farewell earth’s bliss!</l>
+        <l n="2" real="xx-+-x" met="-+-+-+">This world uncertain is:</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">Fond are life’s lustful joys,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Death proves them all but toys.</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">None from his darts can fly;</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">I am sick, I must die--</l>
+        <l n="7" real="xx+-xx" met="-+-+-+">_Lord, have mercy on us!_</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc-">
+        <l n="8" real="xxxxxx" met="-+-+-+">Rich men, trust not in wealth,</l>
+        <l n="9" real="x+-xxx" met="-+-+-+">Gold cannot buy you health;</l>
+        <l n="10" real="xx-+xx" met="-+-+-+">Physic himself must fade;</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">All things to end are made;</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">The plague full swift goes by;</l>
+        <l n="13" real="xxxxxx" met="-+-+-+">I am sick, I must die--</l>
+        <l n="14" real="xx+-xx" met="-+-+-+">_Lord, have mercy on us!_</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbcc-">
+        <l n="15" real="+-xxx+-" met="-+-+-+-">Beauty is but a flower</l>
+        <l n="16" real="x+-x-+-" met="-+-+-+-">Which wrinkles will devour;</l>
+        <l n="17" real="+-xxxx" met="-+-+-+">Brightness falls from the air;</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">Queens have died young and fair;</l>
+        <l n="19" real="xxx+-x" met="-+-+-+">Dust hath closed Helen’s eye;</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">I am sick, I must die--</l>
+        <l n="21" real="xx+-xx" met="-+-+-+">_Lord, have mercy on us!_</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbcc-">
+        <l n="22" real="xxxxxx" met="-+-+-+">Strength stoops unto the grave,</l>
+        <l n="23" real="xxx+-x" met="-+-+-+">Worms feed on Hector brave;</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">Swords may not fight with fate;</l>
+        <l n="25" real="xxxxxx" met="-+-+-+">Earth still holds ope her gate;</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">_Come, come!_ the bells do cry;</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">I am sick, I must die--</l>
+        <l n="28" real="xx+-xx" met="-+-+-+">_Lord, have mercy on us!_</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa--bb-">
+        <l n="29" real="xxxxxx" met="-+-+-+">Wit with his wantonness</l>
+        <l n="30" real="xxx+--" met="-+-+-+">Tasteth death’s bitterness;</l>
+        <l n="31" real="xx-+--" met="-+-+-+">Hell’s executioner</l>
+        <l n="32" real="xxxxxx" met="-+-+-+">Hath no ears for to hear</l>
+        <l n="33" real="xxxx-+" met="-+-+-+">What vain art can reply;</l>
+        <l n="34" real="xxxxxx" met="-+-+-+">I am sick, I must die--</l>
+        <l n="35" real="xx+-xx" met="-+-+-+">_Lord, have mercy on us!_</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="a-bbaa-">
+        <l n="36" real="xxxx-+" met="-+-+-+">Haste therefore each degree</l>
+        <l n="37" real="x+-+--" met="-+-+-+">To welcome destiny;</l>
+        <l n="38" real="+x+-+--" met="-+-+-+-">Heaven is our heritage,</l>
+        <l n="39" real="xxx+-x" met="-+-+-+">Earth but a player’s stage.</l>
+        <l n="40" real="xxxxxx" met="-+-+-+">Mount we unto the sky;</l>
+        <l n="41" real="xxxxxx" met="-+-+-+">I am sick, I must die--</l>
+        <l n="42" real="xx+-xx" met="-+-+-+">_Lord, have mercy on us!_</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

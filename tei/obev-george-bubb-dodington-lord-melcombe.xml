@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Shorten Sail</title><author>George Bubb Dodington, Lord Melcombe</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="shorten-sail" n="L16151">
+      <head>Shorten Sail</head>
+      <idno type="URN">urn:laurel:eng:melcombe.obev-george-bubb-dodington-lord-melcombe.pg66619:shorten-sail</idno><idno type="laurel-id">L16151</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xx+-xxx" met="+-+-+-+">Love thy country, wish it well,</l>
+        <l n="2" real="xxx-+xx" met="+-+-+-+">Not with too intense a care;</l>
+        <l n="3" real="x-+xxxx" met="+-+-+-+">’Tis enough that, when it fell,</l>
+        <l n="4" real="xx+-xxx" met="+-+-+-+">Thou its ruin didst not share.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+-xxxx" met="-+-+-+-+">Envy’s censure, Flattery’s praise,</l>
+        <l n="6" real="x-+-+-x" met="+-+-+-+">With unmoved indifference view:</l>
+        <l n="7" real="xxxx+-x" met="+-+-+-+">Learn to tread Life’s dangerous maze</l>
+        <l n="8" real="xxxx+-x" met="+-+-+-+">With unerring Virtue’s clue.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx-+xx" met="+-+-+-+">Void of strong desire and fear,</l>
+        <l n="10" real="xx+-xxx" met="+-+-+-+">Life’s wide ocean trust no more;</l>
+        <l n="11" real="xx+-xxx" met="+-+-+-+">Strive thy little bark to steer</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">With the tide, but near the shore.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="x-+x+-x" met="+-+-+-+">Thus prepared, thy shorten’d sail</l>
+        <l n="14" real="xxxxx-+" met="+-+-+-+">Shall, whene’er the winds increase,</l>
+        <l n="15" real="+-x-+-x" met="+-+-+-+">Seizing each propitious gale,</l>
+        <l n="16" real="xxxxxxx" met="+-+-+-+">Waft thee to the port of Peace.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xx+-xxx" met="+-+-+-+">Keep thy conscience from offence</l>
+        <l n="18" real="xx+-+-x" met="+-+-+-+">And tempestuous passions free,</l>
+        <l n="19" real="xxxxxxx" met="+-+-+-+">So, when thou art call’d from hence,</l>
+        <l n="20" real="+-xx+-x" met="+-+-+-+">Easy shall thy passage be.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="+-xx+-x" met="+-+-+-+">--Easy shall thy passage be,</l>
+        <l n="22" real="+-x-+-x" met="+-+-+-+">Cheerful thy allotted stay,</l>
+        <l n="23" real="xx-+xxxx" met="-+-+-+-+">Short the account ’twixt God and thee,</l>
+        <l n="24" real="xxxxxxx" met="+-+-+-+">Hope shall meet thee on thy way.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

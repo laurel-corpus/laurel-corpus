@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Cradle Hymn, and other poems</title><author>Isaac Watts</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-day-of-judgement" n="L16146">
+      <head>The Day of Judgement</head>
+      <idno type="URN">urn:laurel:eng:watts.obev-isaac-watts.pg66619:the-day-of-judgement</idno><idno type="laurel-id">L16146</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxx+-+-" met="-+-+-+-+-+-">When the fierce North-wind with his airy forces</l>
+        <l n="2" real="xxx+-xx+-+-" met="-+-+-+-+-+-">Rears up the Baltic to a foaming fury;</l>
+        <l n="3" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And the red lightning with a storm of hail comes</l>
+        <l n="4" real="+-xxx" met="-+-+-">Rushing amain down;</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxx+-x-+x+-" met="-+-+-+-+-+-">How the poor sailors stand amazed and tremble,</l>
+        <l n="6" real="xxx+-xx+-+-" met="-+-+-+-+-+-">While the hoarse thunder, like a bloody trumpet,</l>
+        <l n="7" real="xxx+xxx+-+-" met="-+-+-+-+-+-">Roars a loud onset to the gaping waters</l>
+        <l n="8" real="xx-+-x" met="--+-+-">Quick to devour them.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="9" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Such shall the noise be, and the wild disorder</l>
+        <l n="10" real="xx-+-xxxx+-" met="-+-+-+-+-+-">(If things eternal may be like these earthly),</l>
+        <l n="11" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Such the dire terror when the great Archangel</l>
+        <l n="12" real="xx-+-" met="-+-+-">Shakes the creation;</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Tears the strong pillars of the vault of Heaven,</l>
+        <l n="14" real="xxx+-x-+x+-" met="-+-+-+-+-+-">Breaks up old marble, the repose of princes,</l>
+        <l n="15" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Sees the graves open, and the bones arising,</l>
+        <l n="16" real="xxxxx" met="-+-+-">Flames all around them.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="17" real="xxx+xxx+-xx" met="-+-+-+-+-+-">Hark, the shrill outcries of the guilty wretches!</l>
+        <l n="18" real="+-x+-x-+-+-" met="-+-+-+-+-+-">Lively bright horror and amazing anguish</l>
+        <l n="19" real="xxx+xxx+-xx" met="-+-+-+-+-+-">Stare thro’ their eyelids, while the living worm lies</l>
+        <l n="20" real="+-xxx" met="-+-+-">Gnawing within them.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="21" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Thoughts, like old vultures, prey upon their heart-strings,</l>
+        <l n="22" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And the smart twinges, when the eye beholds the</l>
+        <l n="23" real="+-x+-xxxx+-" met="-+-+-+-+-+-">Lofty Judge frowning, and a flood of vengeance</l>
+        <l n="24" real="+-xxx" met="-+-+-">Rolling afore him.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-aa-">
+        <l n="25" real="+--+-xxxx+-" met="-+-+-+-+-+-">Hopeless immortals! how they scream and shiver,</l>
+        <l n="26" real="x+-xxxxxx+-" met="-+-+-+-+-+-">While devils push them to the pit wide-yawning</l>
+        <l n="27" real="+-x+-x-+x+x" met="-+-+-+-+-+-">Hideous and gloomy, to receive them headlong</l>
+        <l n="28" real="xxx+-" met="-+-+-">Down to the centre!</l>
+      </lg>
+      <lg type="stanza" n="8">
+        <l n="29" real="xxx+-x-+x+-" met="-+-+-+-+-+-">Stop here, my fancy: (all away, ye horrid</l>
+        <l n="30" real="+--+-x-+x+-" met="-+-+-+-+-+-">Doleful ideas!) come, arise to Jesus,</l>
+        <l n="31" real="xxxxxxxxxxx" met="-+-+-+-+-+-">How He sits God-like! and the saints around Him</l>
+        <l n="32" real="xx-+-" met="-+-+-">Throned, yet adoring!</l>
+      </lg>
+      <lg type="stanza" n="9">
+        <l n="33" real="xxxxxxxx-+-" met="-+-+-+-+-+-">O may I sit there when He comes triumphant,</l>
+        <l n="34" real="+-x+-x-+x+-" met="-+-+-+-+-+-">Dooming the nations! then ascend to glory,</l>
+        <l n="35" real="x+-xxxx-+x+-" met="--+-+-+-+-+-">While our Hosannas all along the passage</l>
+        <l n="36" real="xxxxx" met="-+-+-">Shout the Redeemer.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-cradle-hymn" n="L16147">
+      <head>A Cradle Hymn</head>
+      <idno type="URN">urn:laurel:eng:watts.obev-isaac-watts.pg66619:a-cradle-hymn</idno><idno type="laurel-id">L16147</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxx+-" met="+-+-+-+-">Hush! my dear, lie still and slumber,</l>
+        <l n="2" real="+-+-xxx" met="+-+-+-+">Holy angels guard thy bed!</l>
+        <l n="3" real="+--+-xx+-" met="+-+-+-+--">Heavenly blessings without number</l>
+        <l n="4" real="+-+-xxx" met="+-+-+-+">Gently falling on thy head.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxx" met="+-+-+-+-">Sleep, my babe; thy food and raiment,</l>
+        <l n="6" real="xxxxx-+" met="+-+-+-+">House and home, thy friends provide;</l>
+        <l n="7" real="xxxxxx+-" met="+-+-+-+-">All without thy care or payment:</l>
+        <l n="8" real="xxxxx-+" met="+-+-+-+">All thy wants are well supplied.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xx+-x-+-" met="+-+-+-+-">How much better thou’rt attended</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">Than the Son of God could be,</l>
+        <l n="11" real="xx+-x-+-" met="+-+-+-+-">When from heaven He descended</l>
+        <l n="12" real="x-+xxxx" met="+-+-+-+">And became a child like thee!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx+-xx+-" met="+-+-+-+-">Soft and easy is thy cradle:</l>
+        <l n="14" real="xxxx+-x" met="+-+-+-+">Coarse and hard thy Saviour lay,</l>
+        <l n="15" real="xx+xxx+-" met="+-+-+-+-">When His birthplace was a stable</l>
+        <l n="16" real="xx+-xxx" met="+-+-+-+">And His softest bed was hay.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxx+--+-" met="+-+-+-+-">Blessèd babe! what glorious features--</l>
+        <l n="18" real="+-x-+-x" met="+-+-+-+">Spotless fair, divinely bright!</l>
+        <l n="19" real="xxxx+-+-" met="+-+-+-+-">Must He dwell with brutal creatures?</l>
+        <l n="20" real="xx+-xxx" met="+-+-+-+">How could angels bear the sight?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xx+-xx+-" met="+-+-+-+-">Was there nothing but a manger</l>
+        <l n="22" real="x+-x-+" met="+--+--">Cursèd sinners could afford</l>
+        <l n="23" real="x-+x+--+-" met="+-+-+-+--">To receive the heavenly stranger?</l>
+        <l n="24" real="xxx-+xx" met="+-+-+-+">Did they thus affront their Lord?</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxxxxxx" met="+-+-+-+-">Soft, my child: I did not chide thee,</l>
+        <l n="26" real="xxxxxxx" met="+-+-+-+">Though my song might sound too hard;</l>
+        <l n="27" real="xx+-x-+x" met="+-+-+-+-">’Tis thy mother sits beside thee,</l>
+        <l n="28" real="xxxxxxx" met="+-+-+-+">And her arms shall be thy guard.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxx+-+-" met="+-+-+-+-">Yet to read the shameful story</l>
+        <l n="30" real="xxx-+-xx" met="+-+-+-+-">How the Jews abused their King,</l>
+        <l n="31" real="xxxxxx+-" met="+-+-+-+-">How they served the Lord of Glory,</l>
+        <l n="32" real="xx+-xxx" met="+-+-+-+">Makes me angry while I sing.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xx+-+-xx" met="+-+-+-+-">See the kinder shepherds round Him,</l>
+        <l n="34" real="+-+-xxx" met="+-+-+-+">Telling wonders from the sky!</l>
+        <l n="35" real="xxxxxxxx" met="+-+-+-+-">Where they sought Him, there they found Him,</l>
+        <l n="36" real="xx+-+-x" met="+-+-+-+">With His Virgin mother by.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="xx+-xx+-" met="+-+-+-+-">See the lovely babe a-dressing;</l>
+        <l n="38" real="+-+-xxx-" met="+-+-+-+-">Lovely infant, how He smiled!</l>
+        <l n="39" real="xxxx+-+-" met="+-+-+-+-">When He wept, the mother’s blessing</l>
+        <l n="40" real="x-xxx+-x" met="+-+-+-+-">Soothed and hush’d the holy child.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxxxxx+-" met="+-+-+-+-">Lo, He slumbers in His manger,</l>
+        <l n="42" real="xxx+-x" met="+--+--">Where the hornèd oxen fed:</l>
+        <l n="43" real="xx+-xx+-" met="+-+-+-+-">Peace, my darling; here’s no danger,</l>
+        <l n="44" real="xxxxxxx" met="+-+-+-+">Here’s no ox anear thy bed.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xxxxxx+-" met="+-+-+-+-">’Twas to save thee, child, from dying,</l>
+        <l n="46" real="xxxx+-x" met="+-+-+-+">Save my dear from burning flame,</l>
+        <l n="47" real="+-xx+-+-" met="+-+-+-+-">Bitter groans and endless crying,</l>
+        <l n="48" real="xxxxxxx" met="+-+-+-+">That thy blest Redeemer came.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxxxxxxx" met="+-+-+-+-">May’st thou live to know and fear Him,</l>
+        <l n="50" real="xxxxxxx" met="+-+-+-+">Trust and love Him all thy days;</l>
+        <l n="51" real="xxxx+-xx" met="+-+-+-+-">Then go dwell for ever near Him,</l>
+        <l n="52" real="xxxxxxx" met="+-+-+-+">See His face, and sing His praise!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

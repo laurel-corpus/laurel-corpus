@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Burning Babe, and other poems</title><author>Robert Southwell</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="times-go-by-turns" n="L15982">
+      <head>Times go by Turns</head>
+      <idno type="URN">urn:laurel:eng:southwell.obev-robert-southwell.pg66619:times-go-by-turns</idno><idno type="laurel-id">L15982</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxxxxxx-+" met="+-+-+-+-+">The loppèd tree in time may grow again,</l>
+        <l n="2" real="x+-x-+xxx+-" met="-+-+-+-+-+-">Most naked plants renew both fruit and flower;</l>
+        <l n="3" real="xxxxxx-+xx" met="-+-+-+-+-+">The sorest wight may find release of pain,</l>
+        <l n="4" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The driest soil suck in some moist’ning shower;</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">Times go by turns and chances change by course,</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">From foul to fair, from better hap to worse.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxx+-xx+-x" met="-+-+-+-+-+">The sea of Fortune doth not ever flow,</l>
+        <l n="8" real="xxx+-xx+-x" met="-+-+-+-+-+">She draws her favours to the lowest ebb;</l>
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">Her tides hath equal times to come and go,</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Her loom doth weave the fine and coarsest web;</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">No joy so great but runneth to an end,</l>
+        <l n="12" real="xxxxxxxx-+" met="-+-+-+-+-+">No hap so hard but may in fine amend.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="x+xxxxx+-x" met="-+-+-+-+-+">Not always fall of leaf nor ever spring,</l>
+        <l n="14" real="x+-xxx-+-x" met="-+-+-+-+-+">No endless night yet not eternal day;</l>
+        <l n="15" real="x+-xx+-xxx" met="-+-+-+-+-+">The saddest birds a season find to sing,</l>
+        <l n="16" real="x+-xxxxx-+" met="-+-+-+-+-+">The roughest storm a calm may soon allay:</l>
+        <l n="17" real="xx-+-xxxxxx" met="-+-+-+-+-+-">Thus with succeeding turns God tempereth all,</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">That man may hope to rise, yet fear to fall.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc">
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">A chance may win that by mischance was lost;</l>
+        <l n="20" real="xxxxxxx+-x" met="-+-+-+-+-+">The net that holds no great, takes little fish;</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">In some things all, in all things none are crost,</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">Few all they need, but none have all they wish;</l>
+        <l n="23" real="xx-xxxxx-+" met="-+-+-+-+-+">Unmeddled joys here to no man befall:</l>
+        <l n="24" real="xxxxxxx+-x" met="-+-+-+-+-+">Who least, hath some; who most, hath never all.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-burning-babe" n="L15983">
+      <head>The Burning Babe</head>
+      <idno type="URN">urn:laurel:eng:southwell.obev-robert-southwell.pg66619:the-burning-babe</idno><idno type="laurel-id">L15983</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abcbdeaecf-f-d-d">
+        <l n="1" real="xxx+-+-x" met="--+-+-+-">As I in hoary winter’s night</l>
+        <l n="2" real="x+--xxx" met="-+-+-+-">Stood shivering in the snow,</l>
+        <l n="3" real="-+xxx+-x" met="--+-+-+-">Surprised I was with sudden heat</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Which made my heart to glow;</l>
+        <l n="5" real="x+-xx+-x" met="--+-+-+-">And lifting up a fearful eye</l>
+        <l n="6" real="xxx+-xx" met="-+-+-+-">To view what fire was near,</l>
+        <l n="7" real="x+-xx+-x" met="--+-+-+-">A pretty babe all burning bright</l>
+        <l n="8" real="xxxx-+" met="-+-+-+">Did in the air appear;</l>
+        <l n="9" real="xxx-+-x" met="-+-+-+-">Who, scorchèd with excessive heat,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Such floods of tears did shed,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">As though His floods should quench His flames,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Which with His tears were bred:</l>
+        <l n="13" real="-+xxx+-x" met="--+-+-+-">‘Alas!’ quoth He, ‘but newly born</l>
+        <l n="14" real="x+--xxx" met="-+-+-+-">In fiery heats I fry,</l>
+        <l n="15" real="xx-+xxxx" met="--+-+-+-">Yet none approach to warm their hearts</l>
+        <l n="16" real="xxx+-xx" met="-+-+-+-">Or feel my fire but I!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b-c-c-d-d">
+        <l n="17" real="xxxxx+-x" met="--+-+-+-">‘My faultless breast the furnace is;</l>
+        <l n="18" real="x+-+-x" met="-+-+-+">The fuel, wounding thorns;</l>
+        <l n="19" real="xxx+-xxxx" met="-+-+-+-+-">Love is the fire, and sighs the smoke;</l>
+        <l n="20" real="x+-xxx" met="-+-+-+">The ashes, shames and scorns;</l>
+        <l n="21" real="x+-+-xx" met="-+-+-+-">The fuel Justice layeth on,</l>
+        <l n="22" real="x+-xxx" met="-+-+-+">And Mercy blows the coals,</l>
+        <l n="23" real="x+-xx+-x" met="--+-+-+-">The metal in this furnace wrought</l>
+        <l n="24" real="xxxxx" met="+-+-+">Are men’s defilèd souls:</l>
+        <l n="25" real="xxxxx+-xx" met="-+-+-+-+-">For which, as now on fire I am</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">To work them to their good,</l>
+        <l n="27" real="xxxxxxxx" met="--+-+-+-">So will I melt into a bath,</l>
+        <l n="28" real="xxxxxx" met="-+-+-+">To wash them in my blood.’</l>
+        <l n="29" real="xxx+-xxx" met="--+-+-+-">With this He vanish’d out of sight</l>
+        <l n="30" real="x+-x-+" met="-+-+-+">And swiftly shrunk away,</l>
+        <l n="31" real="xxxxxxx" met="-+-+-+-">And straight I callèd unto mind</l>
+        <l n="32" real="xxx+-x" met="-+-+-+">That it was Christmas Day.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

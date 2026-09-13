@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Rosebud, and other poems</title><author>William Broome</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-rosebud" n="L16154">
+      <head>The Rosebud</head>
+      <idno type="URN">urn:laurel:eng:broome.obev-william-broome.pg66619:the-rosebud</idno><idno type="laurel-id">L16154</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgg">
+        <l n="1" real="xx+-+-x" met="+-+-+-+">Queen of fragrance, lovely Rose,</l>
+        <l n="2" real="x+-xxx-+" met="-+-+-+-+">The beauties of thy leaves disclose!</l>
+        <l n="3" real="xxxxxx-+" met="-+-+-+-+">--But thou, fair Nymph, thyself survey</l>
+        <l n="4" real="xxx+xxxx" met="-+-+-+-+">In this sweet offspring of a day.</l>
+        <l n="5" real="x+--xxxx" met="-+-+-+-+">That miracle of face must fail,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Thy charms are sweet, but charms are frail:</l>
+        <l n="7" real="xxxxx+xx" met="-+-+-+-+">Swift as the short-lived flower they fly,</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">At morn they bloom, at evening die:</l>
+        <l n="9" real="x+-xxxxx" met="-+-+-+-+">Though Sickness yet a while forbears,</l>
+        <l n="10" real="xx-+x+-x" met="-+-+-+-+">Yet Time destroys what Sickness spares:</l>
+        <l n="11" real="x+-x-+xx" met="-+-+-+-+">Now Helen lives alone in fame,</l>
+        <l n="12" real="xx-+-xxx" met="-+-+-+-+">And Cleopatra’s but a name:</l>
+        <l n="13" real="xx-+x+-x" met="-+-+-+-+">Time must indent that heavenly brow,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">And thou must be what they are now.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="belindas-recovery-from-sickness" n="L16155">
+      <head>Belinda’s Recovery from Sickness</head>
+      <idno type="URN">urn:laurel:eng:broome.obev-william-broome.pg66619:belindas-recovery-from-sickness</idno><idno type="laurel-id">L16155</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="--aabbcc">
+        <l n="1" real="xxx+-x-+" met="-+-+-+-+">Thus when the silent grave becomes</l>
+        <l n="2" real="+-xxx+-x" met="-+-+-+-+">Pregnant with life as fruitful wombs;</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">When the wide seas and spacious earth</l>
+        <l n="4" real="-+xx++-x" met="-+-+-+-+">Resign us to our second birth;</l>
+        <l n="5" real="+xxx-+-+" met="-+-+-+-+">Our moulder’d frame rebuilt assumes</l>
+        <l n="6" real="x+-xx+-x" met="-+-+-+-+">New beauty, and for ever blooms,</l>
+        <l n="7" real="xxxx-+-x" met="-+-+-+-+">And, crown’d with youth’s immortal pride,</l>
+        <l n="8" real="x+-xx+-x" met="-+-+-+-+">We angels rise, who mortals died.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

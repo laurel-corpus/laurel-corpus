@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Hero and Leander</title><author>Christopher Marlowe</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Hero and Leander. Project Gutenberg ebook #18781. <ref target="https://www.gutenberg.org/ebooks/18781">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="first-sestiad" n="L13536">
+      <head>First Sestiad</head>
+      <idno type="URN">urn:laurel:eng:marlowe.marlowe-hero-leander.pg18781:first-sestiad</idno><idno type="laurel-id">L13536</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyy">
+        <l n="1" real="xxxx+-xxxx" met="-+-+-+-+-+">On Hellespont, guilty of true-love’s blood,</l>
+        <l n="2" real="xxx+--x+-x" met="-+-+-+-+-+">In view and opposite two cities stood,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Sea-borderers, disjoined by Neptune’s might;</l>
+        <l n="4" real="xxxxxx+-xxx" met="-+-+-+-+-+-">The one Abydos, the other Sestos hight.</l>
+        <l n="5" real="xxx+-x+-xx" met="-+-+-+-+-+">At Sestos Hero dwelt; Hero the fair,</l>
+        <l n="6" real="xx-+-+-xxx" met="-+-+-+-+-+">Whom young Apollo courted for her hair,</l>
+        <l n="7" real="x+-xxxx+-x" met="-+-+-+-+-+">And offered as a dower his burning throne,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Where she should sit for men to gaze upon.</l>
+        <l n="9" real="x++xx+-xxx" met="-+-+-+-+-+">The outside of her garments were of lawn,</l>
+        <l n="10" real="x+-+-xxxxx" met="-+-+-+-+-+">The lining purple silk, with gilt stars drawn;</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">Her wide sleeves green, and bordered with a grove,</l>
+        <l n="12" real="x+-xx+-+-x" met="-+-+-+-+-+">Where Venus in her naked glory strove</l>
+        <l n="13" real="xxx+-x-+-x" met="-+-+-+-+-+">To please the careless and disdainful eyes</l>
+        <l n="14" real="xx-+-xxxxx" met="-+-+-+-+-+">Of proud Adonis, that before her lies.</l>
+        <l n="15" real="xxxxxxx+xx" met="-+-+-+-+-+">Her kirtle blue, whereon was many a stain,</l>
+        <l n="16" real="xxxxx+-+-x" met="-+-+-+-+-+">Made with the blood of wretched lovers slain.</l>
+        <l n="17" real="xxxxxxx+-x" met="-+-+-+-+-+">Upon her head she ware a myrtle wreath,</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">From whence her veil reached to the ground beneath.</l>
+        <l n="19" real="xxxx-+-+xx" met="-+-+-+-+-+">Her veil was artificial flowers and leaves</l>
+        <l n="20" real="x+-xxxxxxx" met="-+-+-+-+-+">Whose workmanship both man and beast deceives.</l>
+        <l n="21" real="+-xxxxxxxx" met="-+-+-+-+-+">Many would praise the sweet smell as she passed,</l>
+        <l n="22" real="xxx+-xxxxx" met="-+-+-+-+-+">When ’twas the odour which her breath forth cast;</l>
+        <l n="23" real="xxx+-xxxxx" met="-+-+-+-+-+">And there for honey bees have sought in vain,</l>
+        <l n="24" real="xxxxx+-x-+" met="-+-+-+-+-+">And, beat from thence, have lighted there again.</l>
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">About her neck hung chains of pebblestone,</l>
+        <l n="26" real="x+-xxxx+-x" met="-+-+-+-+-+">Which, lightened by her neck, like diamonds shone.</l>
+        <l n="27" real="xxxxx+-xxx" met="-+-+-+-+-+">She ware no gloves; for neither sun nor wind</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Would burn or parch her hands, but to her mind,</l>
+        <l n="29" real="xxxxxxxx-+" met="-+-+-+-+-+">Or warm or cool them, for they took delight</l>
+        <l n="30" real="xxxxxxxxxx" met="-+-+-+-+-+">To play upon those hands, they were so white.</l>
+        <l n="31" real="xxxxxxx-xx" met="-+-+-+-+-+">Buskins of shells, all silvered used she,</l>
+        <l n="32" real="xxx+-+-xxx" met="-+-+-+-+-+">And branched with blushing coral to the knee;</l>
+        <l n="33" real="x+-xx+-xxx" met="-+-+-+-+-+">Where sparrows perched of hollow pearl and gold,</l>
+        <l n="34" real="xxxxx+-x-+" met="-+-+-+-+-+">Such as the world would wonder to behold.</l>
+        <l n="35" real="xxx+-xxxxx" met="-+-+-+-+-+">Those with sweet water oft her handmaid fills,</l>
+        <l n="36" real="xxxxxxxxxx" met="-+-+-+-+-+">Which, as she went, would chirrup through the bills.</l>
+        <l n="37" real="xxxxx+-+-x" met="-+-+-+-+-+">Some say for her the fairest Cupid pined</l>
+        <l n="38" real="x+-xxxxxxx" met="-+-+-+-+-+">And looking in her face was strooken blind.</l>
+        <l n="39" real="xxxxxxxxx+-" met="-+-+-+-+-+-">But this is true: so like was one the other,</l>
+        <l n="40" real="xx-+-+-xx+-" met="-+-+-+-+-+-">As he imagined Hero was his mother.</l>
+        <l n="41" real="x+-xxxx+-x" met="-+-+-+-+-+">And oftentimes into her bosom flew,</l>
+        <l n="42" real="xxx+-xxxxx" met="-+-+-+-+-+">About her naked neck his bare arms threw,</l>
+        <l n="43" real="xxx+-xxxxx" met="-+-+-+-+-+">And laid his childish head upon her breast,</l>
+        <l n="44" real="xxx+-xxxxx" met="-+-+-+-+-+">And, with still panting rocked, there took his rest.</l>
+        <l n="45" real="x+-xx+-+-x" met="-+-+-+-+-+">So lovely fair was Hero, Venus’ nun,</l>
+        <l n="46" real="x+-x+-xx-+" met="-+-+-+-+-+">As Nature wept, thinking she was undone,</l>
+        <l n="47" real="xxxxxxxxxx" met="-+-+-+-+-+">Because she took more from her than she left,</l>
+        <l n="48" real="xxx+-+-x-+" met="-+-+-+-+-+">And of such wondrous beauty her bereft.</l>
+        <l n="49" real="xxxxx+-+-x" met="-+-+-+-+-+">Therefore, in sign her treasure suffered wrack,</l>
+        <l n="50" real="x+-xxxxxxx" met="-+-+-+-+-+">Since Hero’s time hath half the world been black.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--bbccdd------eeff----gg--hhiijj--kkll">
+        <l n="51" real="+--+-+--xx" met="-+-+-+-+-+">Amorous Leander, beautiful and young,</l>
+        <l n="52" real="x+---+xxx" met="+-+-+-+-+">(whose tragedy divine Musaeus sung,)</l>
+        <l n="53" real="xxxxxxxxxx" met="-+-+-+-+-+">Dwelt at Abydos; since him dwelt there none</l>
+        <l n="54" real="xx-+-xx+-x" met="-+-+-+-+-+">For whom succeeding times make greater moan.</l>
+        <l n="55" real="x+--+-xx+x" met="-+-+-+-+-+">His dangling tresses, that were never shorn,</l>
+        <l n="56" real="xxxxxxxxxx" met="-+-+-+-+-+">Had they been cut, and unto Colchos borne,</l>
+        <l n="57" real="xx-+xxxxxx" met="-+-+-+-+-+">Would have allured the vent’rous youth of Greece</l>
+        <l n="58" real="x+-xxxx+-x" met="-+-+-+-+-+">To hazard more than for the golden fleece.</l>
+        <l n="59" real="x+-xxxxxxx" met="-+-+-+-+-+">Fair Cynthia wished his arms might be her sphere;</l>
+        <l n="60" real="xxxxxxxxxx" met="-+-+-+-+-+">Grief makes her pale, because she moves not there.</l>
+        <l n="61" real="x+-xxxxxxx" met="-+-+-+-+-+">His body was as straight as Circe’s wand;</l>
+        <l n="62" real="xxxxx+-xxx" met="-+-+-+-+-+">Jove might have sipped out nectar from his hand.</l>
+        <l n="63" real="+x-+-xxxxx" met="-+-+-+-+-+">Even as delicious meat is to the taste,</l>
+        <l n="64" real="xxxxx+-x-+" met="-+-+-+-+-+">So was his neck in touching, and surpassed</l>
+        <l n="65" real="xxxxx+-xxxx" met="-+-+-+-+-+-">The white of Pelop’s shoulder. I could tell ye</l>
+        <l n="66" real="xxxxxxxxx+-" met="-+-+-+-+-+-">How smooth his breast was and how white his belly;</l>
+        <l n="67" real="xx-+-+-x-+" met="-+-+-+-+-+">And whose immortal fingers did imprint</l>
+        <l n="68" real="x+-xx+x+-x" met="-+-+-+-+-+">That heavenly path with many a curious dint</l>
+        <l n="69" real="xx-+xxxxxx" met="-+-+-+-+-+">That runs along his back, but my rude pen</l>
+        <l n="70" real="x+-xxxxxxx" met="-+-+-+-+-+">Can hardly blazon forth the loves of men,</l>
+        <l n="71" real="xxx+-xxx-+" met="-+-+-+-+-+">Much less of powerful gods. Let it suffice</l>
+        <l n="72" real="xxxxxxxxxx" met="-+-+-+-+-+">That my slack Muse sings of Leander’s eyes,</l>
+        <l n="73" real="x+-xxxx-+-x" met="-+-+-+-+-+-">Those orient cheeks and lips, exceeding his</l>
+        <l n="74" real="xxxxx+-xxx" met="-+-+-+-+-+">That leaped into the water for a kiss</l>
+        <l n="75" real="xxx+xx-+-+-" met="-+-+-+-+-+-">Of his own shadow and, despising many,</l>
+        <l n="76" real="xxxx-+xxx+-" met="-+-+-+-+-+-">Died ere he could enjoy the love of any.</l>
+        <l n="77" real="xx-+---+-x" met="-+-+-+-+-+">Had wild Hippolytus Leander seen</l>
+        <l n="78" real="-+-xx+-xxx" met="-+-+-+-+-+">Enamoured of his beauty had he been.</l>
+        <l n="79" real="x+-xx+-+-x" met="-+-+-+-+-+">His presence made the rudest peasant melt</l>
+        <l n="80" real="xxxxxxx+-x" met="-+-+-+-+-+">That in the vast uplandish country dwelt.</l>
+        <l n="81" real="x+-xx+-xxx" met="-+-+-+-+-+">The barbarous Thracian soldier, moved with nought,</l>
+        <l n="82" real="xxxxxxx+-x" met="-+-+-+-+-+">Was moved with him and for his favour sought.</l>
+        <l n="83" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Some swore he was a maid in man’s attire,</l>
+        <l n="84" real="xxxxxxxx-+-" met="-+-+-+-+-+-">For in his looks were all that men desire,</l>
+        <l n="85" real="x+-+-xx+-x" met="-+-+-+-+-+">A pleasant smiling cheek, a speaking eye,</l>
+        <l n="86" real="xxxxx+-+--" met="-+-+-+-+-+">A brow for love to banquet royally;</l>
+        <l n="87" real="xxxxxxxxxx" met="-+-+-+-+-+">And such as knew he was a man, would say,</l>
+        <l n="88" real="-+-xxxx+-x" met="-+-+-+-+-+">“Leander, thou art made for amorous play.</l>
+        <l n="89" real="xxxxxxxxxx" met="-+-+-+-+-+">Why art thou not in love, and loved of all?</l>
+        <l n="90" real="xxxxxxxxxx" met="-+-+-+-+-+">Though thou be fair, yet be not thine own thrall.”</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa--bbccddeeff-ghhg-iijjkk--llmmnnooppqqrr--">
+        <l n="91" real="xxx+-xx+-x" met="-+-+-+-+-+">The men of wealthy Sestos every year,</l>
+        <l n="92" real="xxxxx+-xxx" met="-+-+-+-+-+">(For his sake whom their goddess held so dear,</l>
+        <l n="93" real="xx-+-xx+-x" met="-+-+-+-+-+">Rose-cheeked Adonis) kept a solemn feast.</l>
+        <l n="94" real="xx-+-+x+-x" met="-+-+-+-+-+">Thither resorted many a wandering guest</l>
+        <l n="95" real="xxxxxxxxxx" met="-+-+-+-+-+">To meet their loves. Such as had none at all,</l>
+        <l n="96" real="x+-xxxx+--" met="-+-+-+-+-+">Came lovers home from this great festival.</l>
+        <l n="97" real="x+-xxxxxxx" met="-+-+-+-+-+">For every street like to a firmament</l>
+        <l n="98" real="xxx+-xxxxx" met="-+-+-+-+-+">Glistered with breathing stars who, where they went,</l>
+        <l n="99" real="xxx+-x-xxx" met="-+-+-+-+-+">Frighted the melancholy earth which deemed</l>
+        <l n="100" real="-+-+xxxxxx" met="-+-+-+-+-+">Eternal heaven to burn, for so it seemed,</l>
+        <l n="101" real="xx-+-xxxx" met="+-+-+-+-+">As if another Phaeton had got</l>
+        <l n="102" real="x+-xxxx+--" met="-+-+-+-+-+">The guidance of the sun’s rich chariot.</l>
+        <l n="103" real="xxxxxxxx+-x" met="-+-+-+-+-+-">But far above the loveliest Hero shined</l>
+        <l n="104" real="xx-+-+-xxx" met="-+-+-+-+-+">And stole away th’ enchanted gazer’s mind,</l>
+        <l n="105" real="xxxxxxx+--" met="-+-+-+-+-+">For like sea nymphs’ enveigling Harmony,</l>
+        <l n="106" real="xxx+-xxxxx" met="-+-+-+-+-+">So was her beauty to the standers by.</l>
+        <l n="107" real="xxx+-xx+-x" met="-+-+-+-+-+">Nor that night-wandering, pale, and wat’ry star</l>
+        <l n="108" real="x+-+-xxxxx" met="-+-+-+-+-+">(When yawning dragons draw her thirling car</l>
+        <l n="109" real="xxxxxxx+-x" met="-+-+-+-+-+">From Latmus’ mount up to the gloomy sky</l>
+        <l n="110" real="xxx+-xx+--" met="-+-+-+-+-+">Where, crowned with blazing light and majesty,</l>
+        <l n="111" real="x+-xx+-xxx" met="-+-+-+-+-+">She proudly sits) more overrules the flood</l>
+        <l n="112" real="xxxxxxxxxx" met="-+-+-+-+-+">Than she the hearts of those that near her stood.</l>
+        <l n="113" real="+xx+-x-+xx" met="-+-+-+-+-+">Even as, when gaudy nymphs pursue the chase,</l>
+        <l n="114" real="+-xx+-+-x" met="+-+-+-+-+">Wretched Ixion’s shaggy footed race,</l>
+        <l n="115" real="+xx+-x+-xx" met="-+-+-+-+-+">Incensed with savage heat, gallop amain</l>
+        <l n="116" real="xxx+-+-xxx" met="-+-+-+-+-+">From steep pine-bearing mountains to the plain.</l>
+        <l n="117" real="xxx+-xxxxxx" met="-+-+-+-+-+-">So ran the people forth to gaze upon her,</l>
+        <l n="118" real="xxxxxx-+-xx" met="-+-+-+-+-+-">And all that viewed her were enamoured on her.</l>
+        <l n="119" real="xxx+-xx+-x" met="-+-+-+-+-+">And as in fury of a dreadful fight,</l>
+        <l n="120" real="x+-+-xxxxx" met="-+-+-+-+-+">Their fellows being slain or put to flight,</l>
+        <l n="121" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Poor soldiers stand with fear of death dead strooken,</l>
+        <l n="122" real="xxx+-x-+xxx" met="-+-+-+-+-+-">So at her presence all surprised and tooken,</l>
+        <l n="123" real="-+x+-xx+-x" met="-+-+-+-+-+">Await the sentence of her scornful eyes.</l>
+        <l n="124" real="xxx+-xx+-x" met="-+-+-+-+-+">He whom she favours lives, the other dies.</l>
+        <l n="125" real="xxxxxx-+-x" met="-+-+-+-+-+">There might you see one sigh, another rage;</l>
+        <l n="126" real="xxx+-+-x-+" met="-+-+-+-+-+">And some, (their violent passions to assuage)</l>
+        <l n="127" real="-+x+-x-+xx" met="-+-+-+-+-+">Compile sharp satires, but alas too late,</l>
+        <l n="128" real="x+-xx+-xxx" met="-+-+-+-+-+">For faithful love will never turn to hate.</l>
+        <l n="129" real="x++-x+-x-+" met="-+-+-+-+-+">And many seeing great princes were denied</l>
+        <l n="130" real="xxxxx+-xxx" met="-+-+-+-+-+">Pin’d as they went, and thinking on her died.</l>
+        <l n="131" real="xxxxxxxx+-" met="-+-+-+-+-+">On this feast day, O cursed day and hour,</l>
+        <l n="132" real="x+-+-xxxx+-" met="-+-+-+-+-+-">Went Hero thorough Sestos from her tower</l>
+        <l n="133" real="x+-+-x-+--" met="-+-+-+-+-+">To Venus’ temple, where unhappily</l>
+        <l n="134" real="xxxxxxx+-x" met="-+-+-+-+-+">As after chanced, they did each other spy.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="--aabb--cc----ddeeffgghh--hhiijj">
+        <l n="135" real="xxxxxxx+-x" met="-+-+-+-+-+">So fair a church as this had Venus none.</l>
+        <l n="136" real="xxxx-+-+-x" met="-+-+-+-+-+">The walls were of discoloured jasper stone</l>
+        <l n="137" real="xxxxxx-xxx" met="-+-+-+-+-+">Wherein was Proteus carved, and o’erhead</l>
+        <l n="138" real="x+-xxxx+-x" met="-+-+-+-+-+">A lively vine of green sea agate spread,</l>
+        <l n="139" real="xxxxx+-+-x" met="-+-+-+-+-+">Where by one hand lightheaded Bacchus hung,</l>
+        <l n="140" real="xxx+-xxxxx" met="-+-+-+-+-+">And, with the other, wine from grapes out wrung.</l>
+        <l n="141" real="x+-+-xx+-x" met="-+-+-+-+-+">Of crystal shining fair the pavement was.</l>
+        <l n="142" real="xxxxxxx+-x" met="-+-+-+-+-+">The town of Sestos called it Venus’ glass.</l>
+        <l n="143" real="xxxxxxx+-x" met="-+-+-+-+-+">There might you see the gods in sundry shapes</l>
+        <l n="144" real="-+-+-+-+xx" met="-+-+-+-+-+">Committing heady riots, incest, rapes.</l>
+        <l n="145" real="xxxx-+x+-x" met="-+-+-+-+-+">For know, that underneath this radiant floor</l>
+        <l n="146" real="xx+xxx+-+-" met="-+-+-+-+-+">Was Danae’s statue in a brazen tower,</l>
+        <l n="147" real="x+-+-xx+-x" met="-+-+-+-+-+">Jove slyly stealing from his sister’s bed,</l>
+        <l n="148" real="x+-xxxx+-x" met="-+-+-+-+-+">To dally with Idalian Ganymede,</l>
+        <l n="149" real="xxxx-+-+-x" met="-+-+-+-+-+">And for his love Europa bellowing loud,</l>
+        <l n="150" real="x+-xx+xxxx" met="-+-+-+-+-+">And tumbling with the Rainbow in a cloud;</l>
+        <l n="151" real="xxxx+-x+-x" met="-+-+-+-+-+">Blood quaffing Mars heaving the iron net</l>
+        <l n="152" real="x+-+-xx+xx" met="-+-+-+-+-+">Which limping Vulcan and his Cyclops set;</l>
+        <l n="153" real="x+-+xxxxxx" met="-+-+-+-+-+">Love kindling fire to burn such towns as Troy;</l>
+        <l n="154" real="+--+-xx+-x" met="-+-+-+-+-+">Sylvanus weeping for the lovely boy</l>
+        <l n="155" real="xxxxxxx+-x" met="-+-+-+-+-+">That now is turned into a cypress tree,</l>
+        <l n="156" real="xxxxxxxxxx" met="-+-+-+-+-+">Under whose shade the wood gods love to be.</l>
+        <l n="157" real="xxxxx+-+-x" met="-+-+-+-+-+">And in the midst a silver altar stood.</l>
+        <l n="158" real="x+-+-x-+-x" met="-+-+-+-+-+">There Hero, sacrificing turtle’s blood,</l>
+        <l n="159" real="xxxxxxx+xx" met="-+-+-+-+-+">Vailed to the ground, vailing her eyelids close,</l>
+        <l n="160" real="x+--x+-xxx" met="-+-+-+-+-+">And modestly they opened as she rose.</l>
+        <l n="161" real="xxx+-xx+-x" met="-+-+-+-+-+">Thence flew Love’s arrow with the golden head,</l>
+        <l n="162" real="xx-+-x-+--" met="-+-+-+-+-+">And thus Leander was enamoured.</l>
+        <l n="163" real="xxxxx+-xxx" met="-+-+-+-+-+">Stone still he stood, and evermore he gazed</l>
+        <l n="164" real="xxx+xxx+-x" met="-+-+-+-+-+">Till with the fire that from his countenance blazed</l>
+        <l n="165" real="-+-+-+-xxx" met="-+-+-+-+-+">Relenting Hero’s gentle heart was strook.</l>
+        <l n="166" real="xxx+-xx+-x" met="-+-+-+-+-+">Such force and virtue hath an amorous look.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabbccddee">
+        <l n="167" real="xxxx++xxxx" met="-+-+-+-+-+">It lies not in our power to love or hate,</l>
+        <l n="168" real="xxxxxx-+xx" met="-+-+-+-+-+">For will in us is overruled by fate.</l>
+        <l n="169" real="xxxxxxxx-+" met="-+-+-+-+-+">When two are stripped, long ere the course begin</l>
+        <l n="170" real="xxxxxxx+-x" met="-+-+-+-+-+">We wish that one should lose, the other win.</l>
+        <l n="171" real="xx-+-xx-+" met="+-+-+-+-+">And one especially do we affect</l>
+        <l n="172" real="xxx+-xxx-+" met="-+-+-+-+-+">Of two gold ingots like in each respect.</l>
+        <l n="173" real="x+-xxxxx-+" met="-+-+-+-+-+">The reason no man knows; let it suffice</l>
+        <l n="174" real="xx-+x+-x+x" met="-+-+-+-+-+">What we behold is censured by our eyes.</l>
+        <l n="175" real="xx-+-xxxxx" met="-+-+-+-+-+">Where both deliberate, the love is slight:</l>
+        <l n="176" real="x+-xxxxxxx" met="-+-+-+-+-+">Who ever loved, that loved not at first sight?</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="----aabbccdd--ee--ff----gghh--iijjkkllmmnnoopp----qqrrsstt--uuvvwwxxyy--------zzaabb------cc--ddee--ff--gghhiijjkk-ll">
+        <l n="177" real="xxxxxx-+-x" met="-+-+-+-+-+">He kneeled, but unto her devoutly prayed.</l>
+        <l n="178" real="x+-x-+x+-x" met="-+-+-+-+-+">Chaste Hero to herself thus softly said,</l>
+        <l n="179" real="xxxxx+-xxxx" met="-+-+-+-+-+-">“Were I the saint he worships, I would hear him;”</l>
+        <l n="180" real="xxxxxxx++xx" met="-+-+-+-+-+-">And, as she spake those words, came somewhat near him.</l>
+        <l n="181" real="x+-xxxxx-+" met="-+-+-+-+-+">He started up, she blushed as one ashamed,</l>
+        <l n="182" real="xxx-+-xxx-+" met="-+-+-+-+-+-">Wherewith Leander much more was inflamed.</l>
+        <l n="183" real="xxxxx+-xx+-" met="-+-+-+-+-+-">He touched her hand; in touching it she trembled.</l>
+        <l n="184" real="x+-+-+-xxx" met="-+-+-+-+-+">Love deeply grounded, hardly is dissembled.</l>
+        <l n="185" real="x+-x-xxxxx" met="-+-+-+-+-+">These lovers parleyed by the touch of hands;</l>
+        <l n="186" real="xxxxxx-+-x" met="-+-+-+-+-+">True love is mute, and oft amazed stands.</l>
+        <l n="187" real="xxxxx+-x-+-" met="-+-+-+-+-+-">Thus while dumb signs their yielding hearts entangled,</l>
+        <l n="188" real="xxxxx+-+x+-" met="-+-+-+-+-+-">The air with sparks of living fire was spangled,</l>
+        <l n="189" real="xxxxx+-xxx" met="-+-+-+-+-+">And night, deep drenched in misty Acheron,</l>
+        <l n="190" real="xxxxxxxxxx" met="-+-+-+-+-+">Heaved up her head, and half the world upon</l>
+        <l n="191" real="x+-xxxx+-x" met="-+-+-+-+-+">Breathed darkness forth (dark night is Cupid’s day).</l>
+        <l n="192" real="xx-+-+-x-+" met="-+-+-+-+-+">And now begins Leander to display</l>
+        <l n="193" real="x+-+xxxxxx" met="-+-+-+-+-+">Love’s holy fire, with words, with sighs, and tears,</l>
+        <l n="194" real="xxx+-+-+-x" met="-+-+-+-+-+">Which like sweet music entered Hero’s ears,</l>
+        <l n="195" real="xxx+-xxx-+" met="-+-+-+-+-+">And yet at every word she turned aside,</l>
+        <l n="196" real="x+xxxxxx-+" met="-+-+-+-+-+">And always cut him off as he replied.</l>
+        <l n="197" real="xxxxxxxxxx" met="-+-+-+-+-+">At last, like to a bold sharp sophister,</l>
+        <l n="198" real="x+-xxx-+-x" met="-+-+-+-+-+">With cheerful hope thus he accosted her.</l>
+        <l n="199" real="x+-xxxxxxx" met="-+-+-+-+-+">“Fair creature, let me speak without offence.</l>
+        <l n="200" real="xxxxxxx+--" met="-+-+-+-+-+">I would my rude words had the influence</l>
+        <l n="201" real="xxxxxxxxxx" met="-+-+-+-+-+">To lead thy thoughts as thy fair looks do mine,</l>
+        <l n="202" real="xxxxx+-xxx" met="-+-+-+-+-+">Then shouldst thou be his prisoner, who is thine.</l>
+        <l n="203" real="xx-+xx-+-x" met="-+-+-+-+-+">Be not unkind and fair; misshapen stuff</l>
+        <l n="204" real="xx-+-+--xx" met="-+-+-+-+-+">Are of behaviour boisterous and rough.</l>
+        <l n="205" real="xxxxxxxxxx" met="-+-+-+-+-+">O shun me not, but hear me ere you go.</l>
+        <l n="206" real="xxx+-xxxxx" met="-+-+-+-+-+">God knows I cannot force love as you do.</l>
+        <l n="207" real="xxxxx+-xxx" met="-+-+-+-+-+">My words shall be as spotless as my youth,</l>
+        <l n="208" real="xx-+--x+-x" met="-+-+-+-+-+">Full of simplicity and naked truth.</l>
+        <l n="209" real="x+-xxx-+-+-" met="-+-+-+-+-+-">This sacrifice, (whose sweet perfume descending</l>
+        <l n="210" real="x+-+-xx+x+-" met="-+-+-+-+-+-">From Venus’ altar, to your footsteps bending)</l>
+        <l n="211" real="x+-xxx-+xx" met="-+-+-+-+-+">Doth testify that you exceed her far,</l>
+        <l n="212" real="xxx+-xxxxx" met="-+-+-+-+-+">To whom you offer, and whose nun you are.</l>
+        <l n="213" real="xxx+-xxx-+" met="-+-+-+-+-+">Why should you worship her? Her you surpass</l>
+        <l n="214" real="xxx+-+-+-x" met="-+-+-+-+-+">As much as sparkling diamonds flaring glass.</l>
+        <l n="215" real="x+-xxxxx-+" met="-+-+-+-+-+">A diamond set in lead his worth retains;</l>
+        <l n="216" real="x+-x-+x+-x" met="-+-+-+-+-+">A heavenly nymph, beloved of human swains,</l>
+        <l n="217" real="-+x+-xxxxx" met="-+-+-+-+-+">Receives no blemish, but ofttimes more grace;</l>
+        <l n="218" real="xxxxxxxxxx" met="-+-+-+-+-+">Which makes me hope, although I am but base:</l>
+        <l n="219" real="xx-+xx-+xx" met="-+-+-+-+-+">Base in respect of thee, divine and pure,</l>
+        <l n="220" real="+--+-xxx-+" met="-+-+-+-+-+">Dutiful service may thy love procure.</l>
+        <l n="221" real="xxx+-x-+x+-" met="-+-+-+-+-+-">And I in duty will excel all other,</l>
+        <l n="222" real="xxx+-x-+x+-" met="-+-+-+-+-+-">As thou in beauty dost exceed Love’s mother.</l>
+        <l n="223" real="x+xxxxxxxx" met="-+-+-+-+-+">Nor heaven, nor thou, were made to gaze upon,</l>
+        <l n="224" real="x+-+xxxxxx" met="-+-+-+-+-+">As heaven preserves all things, so save thou one.</l>
+        <l n="225" real="x+-xxxxxxx" met="-+-+-+-+-+">A stately builded ship, well rigged and tall,</l>
+        <l n="226" real="x+-xxxxxxx" met="-+-+-+-+-+">The ocean maketh more majestical.</l>
+        <l n="227" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Why vowest thou then to live in Sestos here</l>
+        <l n="228" real="xxxxx+-x-+" met="-+-+-+-+-+">Who on Love’s seas more glorious wouldst appear?</l>
+        <l n="229" real="xxx+-xx+-x" met="-+-+-+-+-+">Like untuned golden strings all women are,</l>
+        <l n="230" real="xxxx-+x+-x" met="-+-+-+-+-+">Which long time lie untouched, will harshly jar.</l>
+        <l n="231" real="+-xxx+-+-x" met="-+-+-+-+-+">Vessels of brass, oft handled, brightly shine.</l>
+        <l n="232" real="x+---+x+-x" met="-+-+-+-+-+">What difference betwixt the richest mine</l>
+        <l n="233" real="xxxxxxxxxx" met="-+-+-+-+-+">And basest mould, but use? For both, not used,</l>
+        <l n="234" real="xxxxx+-x-+" met="-+-+-+-+-+">Are of like worth. Then treasure is abused</l>
+        <l n="235" real="x+-xx+-xxx" met="-+-+-+-+-+">When misers keep it; being put to loan,</l>
+        <l n="236" real="xxxx-+xxxx" met="-+-+-+-+-+">In time it will return us two for one.</l>
+        <l n="237" real="xx-+x+-x-+" met="-+-+-+-+-+">Rich robes themselves and others do adorn;</l>
+        <l n="238" real="+--+x+-xxx" met="-+-+-+-+-+">Neither themselves nor others, if not worn.</l>
+        <l n="239" real="xxx+-xxxxx" met="-+-+-+-+-+">Who builds a palace and rams up the gate</l>
+        <l n="240" real="xxx+--x+-x" met="-+-+-+-+-+">Shall see it ruinous and desolate.</l>
+        <l n="241" real="x+-+-xxxx+-" met="-+-+-+-+-+-">Ah, simple Hero, learn thyself to cherish.</l>
+        <l n="242" real="x+-xx+-+-+-" met="-+-+-+-+-+-">Lone women like to empty houses perish.</l>
+        <l n="243" real="xxxxxxxx-+" met="-+-+-+-+-+">Less sins the poor rich man that starves himself</l>
+        <l n="244" real="x+-xxxxxxx" met="-+-+-+-+-+">In heaping up a mass of drossy pelf,</l>
+        <l n="245" real="xxxxx+-x-+" met="-+-+-+-+-+">Than such as you. His golden earth remains</l>
+        <l n="246" real="xxxx-+x+-x" met="-+-+-+-+-+">Which, after his decease, some other gains.</l>
+        <l n="247" real="xxxxxxxx-+" met="-+-+-+-+-+">But this fair gem, sweet in the loss alone,</l>
+        <l n="248" real="xxxxxx-+xx" met="-+-+-+-+-+">When you fleet hence, can be bequeathed to none.</l>
+        <l n="249" real="xxxxxxxxxx" met="-+-+-+-+-+">Or, if it could, down from th’enameled sky</l>
+        <l n="250" real="x+-xxxxx+--" met="-+-+-+-+-+-">All heaven would come to claim this legacy,</l>
+        <l n="251" real="xx-+-xxx-+" met="-+-+-+-+-+">And with intestine broils the world destroy,</l>
+        <l n="252" real="xx+x+-x+--" met="-+-+-+-+-+">And quite confound nature’s sweet harmony.</l>
+        <l n="253" real="xxxxxx-+xx" met="-+-+-+-+-+">Well therefore by the gods decreed it is</l>
+        <l n="254" real="x+-+-x-+xx" met="-+-+-+-+-+">We human creatures should enjoy that bliss.</l>
+        <l n="255" real="xxx+-xx+-x" met="-+-+-+-+-+">One is no number; maids are nothing then</l>
+        <l n="256" real="xxxx-+--xx" met="-+-+-+-+-+">Without the sweet society of men.</l>
+        <l n="257" real="xxx+-xxxxx" met="-+-+-+-+-+">Wilt thou live single still? One shalt thou be,</l>
+        <l n="258" real="x++--+-+-x" met="-+-+-+-+-+">Though never singling Hymen couple thee.</l>
+        <l n="259" real="x+--xxx+-x" met="-+-+-+-+-+">Wild savages, that drink of running springs,</l>
+        <l n="260" real="x+-x-+x+-x" met="-+-+-+-+-+">Think water far excels all earthly things,</l>
+        <l n="261" real="xxx+-xxx-+x" met="-+-+-+-+-+-">But they that daily taste neat wine despise it.</l>
+        <l n="262" real="-+--+-x+-xx" met="-+-+-+-+-+-">Virginity, albeit some highly prize it,</l>
+        <l n="263" real="-+x+-xxxxx" met="-+-+-+-+-+">Compared with marriage, had you tried them both,</l>
+        <l n="264" real="+-xxxxx+-x" met="-+-+-+-+-+">Differs as much as wine and water doth.</l>
+        <l n="265" real="x+-xxxxx-+" met="-+-+-+-+-+">Base bullion for the stamp’s sake we allow;</l>
+        <l n="266" real="+xxx-+-xxx" met="-+-+-+-+-+">Even so for men’s impression do we you,</l>
+        <l n="267" real="xx-+++-+-x" met="-+-+-+-+-+">By which alone, our reverend fathers say,</l>
+        <l n="268" real="+--+-+-+-x" met="-+-+-+-+-+">Women receive perfection every way.</l>
+        <l n="269" real="x+-xxx-+--" met="-+-+-+-+-+">This idol which you term virginity</l>
+        <l n="270" real="x+-+-+-xxx" met="-+-+-+-+-+">Is neither essence subject to the eye</l>
+        <l n="271" real="xxx+-x-+-x" met="-+-+-+-+-+">No, nor to any one exterior sense,</l>
+        <l n="272" real="xxx+-xx+--" met="-+-+-+-+-+">Nor hath it any place of residence,</l>
+        <l n="273" real="xxxxxx-+-" met="+-+-+-+-+">Nor is’t of earth or mould celestial,</l>
+        <l n="274" real="x+--x+-xxx" met="-+-+-+-+-+">Or capable of any form at all.</l>
+        <l n="275" real="xxxxx+-xxx" met="-+-+-+-+-+">Of that which hath no being do not boast;</l>
+        <l n="276" real="xxxxxxx+-x" met="-+-+-+-+-+">Things that are not at all are never lost.</l>
+        <l n="277" real="x+--xxx+--" met="-+-+-+-+-+">Men foolishly do call it virtuous;</l>
+        <l n="278" real="x+-xxxxxxx" met="-+-+-+-+-+">What virtue is it that is born with us?</l>
+        <l n="279" real="xxx+-x-+xxx" met="-+-+-+-+-+-">Much less can honour be ascribed thereto;</l>
+        <l n="280" real="+-x+-xxxxx" met="-+-+-+-+-+">Honour is purchased by the deeds we do.</l>
+        <l n="281" real="-+x+-+-xxx" met="-+-+-+-+-+">Believe me, Hero, honour is not won</l>
+        <l n="282" real="xxxxxxxxxx" met="-+-+-+-+-+">Until some honourable deed be done.</l>
+        <l n="283" real="xxx+---+-x" met="-+-+-+-+-+">Seek you for chastity, immortal fame,</l>
+        <l n="284" real="xxxxxx-+-x" met="-+-+-+-+-+">And know that some have wronged Diana’s name?</l>
+        <l n="285" real="xxxxxxxxxx" met="-+-+-+-+-+">Whose name is it, if she be false or not</l>
+        <l n="286" real="xxxxxxxxxx" met="-+-+-+-+-+">So she be fair, but some vile tongues will blot?</l>
+        <l n="287" real="xxxxxxx+-x" met="-+-+-+-+-+">But you are fair, (ay me) so wondrous fair,</l>
+        <l n="288" real="xxx+-xxx-+" met="-+-+-+-+-+">So young, so gentle, and so debonair,</l>
+        <l n="289" real="xxxxxxxx-+" met="-+-+-+-+-+">As Greece will think if thus you live alone</l>
+        <l n="290" real="xxx+-xxxxx" met="-+-+-+-+-+">Some one or other keeps you as his own.</l>
+        <l n="291" real="x+-+-+-+--" met="-+-+-+-+-+">To follow swiftly blasting infamy.</l>
+        <l n="292" real="-+x+-+-xxx" met="-+-+-+-+-+">Perhaps thy sacred priesthood makes thee loath.</l>
+        <l n="293" real="xxxxxxxxxx" met="-+-+-+-+-+">Tell me, to whom mad’st thou that heedless oath?”</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aabbcc--dd----ee">
+        <l n="294" real="x+-+-xxxxx" met="-+-+-+-+-+">“To Venus,” answered she and, as she spake,</l>
+        <l n="295" real="xxxxxxx+-x" met="-+-+-+-+-+">Forth from those two tralucent cisterns brake</l>
+        <l n="296" real="xxx+-xxxxx" met="-+-+-+-+-+">A stream of liquid pearl, which down her face</l>
+        <l n="297" real="xxxxxxxxxx" met="-+-+-+-+-+">Made milk-white paths, whereon the gods might trace</l>
+        <l n="298" real="xxxxxx-+xx" met="-+-+-+-+-+">To Jove’s high court. He thus replied: “The rites</l>
+        <l n="299" real="xxxxx+-x-+" met="-+-+-+-+-+">In which love’s beauteous empress most delights</l>
+        <l n="300" real="x+-+-+-+x+-" met="-+-+-+-+-+-">Are banquets, Doric music, midnight revel,</l>
+        <l n="301" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Plays, masks, and all that stern age counteth evil.</l>
+        <l n="302" real="xxx+-+-xxx" met="-+-+-+-+-+">Thee as a holy idiot doth she scorn</l>
+        <l n="303" real="xxx+-+--xx" met="-+-+-+-+-+">For thou in vowing chastity hast sworn</l>
+        <l n="304" real="xxxxx+-xxx" met="-+-+-+-+-+">To rob her name and honour, and thereby</l>
+        <l n="305" real="xxxxxxx+--" met="-+-+-+-+-+">Committ’st a sin far worse than perjury,</l>
+        <l n="306" real="+-+--xxx+--" met="-+-+-+-+-+-">Even sacrilege against her deity,</l>
+        <l n="307" real="x+--x+-+--" met="-+-+-+-+-+">Through regular and formal purity.</l>
+        <l n="308" real="x+-xxxxxxx" met="-+-+-+-+-+">To expiate which sin, kiss and shake hands.</l>
+        <l n="309" real="x+-xxx+--+" met="-+-+-+-+-+">Such sacrifice as this Venus demands.”</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabbcc--ddeefff--">
+        <l n="310" real="xxxxxx-+xx" met="-+-+-+-+-+">Thereat she smiled and did deny him so,</l>
+        <l n="311" real="xxxxxxxxxx" met="-+-+-+-+-+">As put thereby, yet might he hope for moe.</l>
+        <l n="312" real="xxx+-x-+xx" met="-+-+-+-+-+">Which makes him quickly re-enforce his speech,</l>
+        <l n="313" real="xxx+-+-x-+" met="-+-+-+-+-+">And her in humble manner thus beseech.</l>
+        <l n="314" real="x+-xxxxx-+" met="-+-+-+-+-+">“Though neither gods nor men may thee deserve,</l>
+        <l n="315" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet for her sake, whom you have vowed to serve,</l>
+        <l n="316" real="-+-+-x-+--" met="-+-+-+-+-+">Abandon fruitless cold virginity,</l>
+        <l n="317" real="x+-xxxx+--" met="-+-+-+-+-+">The gentle queen of love’s sole enemy.</l>
+        <l n="318" real="xxxx-+-+-x" met="-+-+-+-+-+">Then shall you most resemble Venus’ nun,</l>
+        <l n="319" real="x+-xxx-+xx" met="-+-+-+-+-+">When Venus’ sweet rites are performed and done.</l>
+        <l n="320" real="x+-xxxx+-x" met="-+-+-+-+-+">Flint-breasted Pallas joys in single life,</l>
+        <l n="321" real="xxxxx+-xxx" met="-+-+-+-+-+">But Pallas and your mistress are at strife.</l>
+        <l n="322" real="xxxxxxx+-x" met="-+-+-+-+-+">But heal the heart that thou hast wounded thus,</l>
+        <l n="323" real="xxx+-xx+--" met="-+-+-+-+-+">Nor stain thy youthful years with avarice.</l>
+        <l n="324" real="xx-+xx-+-x" met="-+-+-+-+-+">Fair fools delight to be accounted nice.</l>
+        <l n="325" real="x+-xxxxxxx" met="-+-+-+-+-+">The richest corn dies, if it be not reaped;</l>
+        <l n="326" real="+--+xxx+-x" met="-+-+-+-+-+">Beauty alone is lost, too warily kept.”</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aaa-bbcc--a-">
+        <l n="327" real="x+--xxx+-x" met="-+-+-+-+-+">These arguments he used, and many more,</l>
+        <l n="328" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Wherewith she yielded, that was won before.</l>
+        <l n="329" real="+-x+-xxxxx" met="-+-+-+-+-+">Hero’s looks yielded but her words made war.</l>
+        <l n="330" real="+-xxxx-+xx" met="-+-+-+-+-+">Women are won when they begin to jar.</l>
+        <l n="331" real="x+-+-+-+-x" met="-+-+-+-+-+">Thus, having swallowed Cupid’s golden hook,</l>
+        <l n="332" real="xxxxx+-xxx" met="-+-+-+-+-+">The more she strived, the deeper was she strook.</l>
+        <l n="333" real="xxxx+-+-xxx" met="-+-+-+-+-+-">Yet, evilly feigning anger, strove she still</l>
+        <l n="334" real="xxxxxxxxxx" met="-+-+-+-+-+">And would be thought to grant against her will.</l>
+        <l n="335" real="x+-xxxxxxx" met="-+-+-+-+-+">So having paused a while at last she said,</l>
+        <l n="336" real="xxx+-x-+xx" met="-+-+-+-+-+">“Who taught thee rhetoric to deceive a maid?</l>
+        <l n="337" real="xxxxxxxx-+" met="-+-+-+-+-+">Ay me, such words as these should I abhor</l>
+        <l n="338" real="xxxxxxx+--" met="-+-+-+-+-+">And yet I like them for the orator.”</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="--aabbcc--dd--eeffgghhiijj--kkll----mmnnoopp--qq----rrssttuuu-vvwwxxyyz-zzaabbccddeeff--gg--hh----iijjkk--llmmnnoo----ppqqrrssttuuvv--wwxxyyzzaa">
+        <l n="339" real="xx-+-xxx-+x" met="-+-+-+-+-+-">With that Leander stooped to have embraced her</l>
+        <l n="340" real="xxx+-x-+xxx" met="-+-+-+-+-+-">But from his spreading arms away she cast her,</l>
+        <l n="341" real="xxxxx+-xxx" met="-+-+-+-+-+">And thus bespake him: “Gentle youth, forbear</l>
+        <l n="342" real="xxx+-+-xxx" met="-+-+-+-+-+">To touch the sacred garments which I wear.</l>
+        <l n="343" real="xxxxxx-+xx" met="-+-+-+-+-+">Upon a rock and underneath a hill</l>
+        <l n="344" real="xxxxxxxxxx" met="-+-+-+-+-+">Far from the town (where all is whist and still,</l>
+        <l n="345" real="xxxx+-x+-x" met="-+-+-+-+-+">Save that the sea, playing on yellow sand,</l>
+        <l n="346" real="xxx+-+-xxx" met="-+-+-+-+-+">Sends forth a rattling murmur to the land,</l>
+        <l n="347" real="xxxxx+-xx" met="+-+-+-+-+">Whose sound allures the golden Morpheus</l>
+        <l n="348" real="x+-xxxx+-x" met="-+-+-+-+-+">In silence of the night to visit us)</l>
+        <l n="349" real="x+-xxxxxxx" met="-+-+-+-+-+">My turret stands and there, God knows, I play,</l>
+        <l n="350" real="x+-xx+-xxx" met="-+-+-+-+-+">With Venus’ swans and sparrows all the day.</l>
+        <l n="351" real="xxxxxxx+--" met="-+-+-+-+-+">A dwarfish beldam bears me company,</l>
+        <l n="352" real="xxxxx+-xxx" met="-+-+-+-+-+">That hops about the chamber where I lie,</l>
+        <l n="353" real="xxxxxxx+-x" met="-+-+-+-+-+">And spends the night (that might be better spent)</l>
+        <l n="354" real="xx+-xxxxxx" met="-+-+-+-+-+">In vain discourse and apish merriment.</l>
+        <l n="355" real="xxxxxxxxxx" met="-+-+-+-+-+">Come thither.” As she spake this, her tongue tripped,</l>
+        <l n="356" real="xx-+xxxxxx" met="-+-+-+-+-+">For unawares “come thither” from her slipped.</l>
+        <l n="357" real="x+--x+-+-x" met="-+-+-+-+-+">And suddenly her former colour changed,</l>
+        <l n="358" real="xxxxxxx+-x" met="-+-+-+-+-+">And here and there her eyes through anger ranged.</l>
+        <l n="359" real="xxx+-+-+-x" met="-+-+-+-+-+">And like a planet, moving several ways,</l>
+        <l n="360" real="xxx+-xxxxx" met="-+-+-+-+-+">At one self instant she, poor soul, assays,</l>
+        <l n="361" real="+-xxxxxx+-x" met="-+-+-+-+-+-">Loving, not to love at all, and every part</l>
+        <l n="362" real="xx-+x+-xxx" met="-+-+-+-+-+">Strove to resist the motions of her heart.</l>
+        <l n="363" real="xxxxx+--xx" met="-+-+-+-+-+">And hands so pure, so innocent, nay, such</l>
+        <l n="364" real="xxxx+xxxxx" met="-+-+-+-+-+">As might have made heaven stoop to have a touch,</l>
+        <l n="365" real="xx-+x+-x-+" met="-+-+-+-+-+">Did she uphold to Venus, and again</l>
+        <l n="366" real="x+-+--xxxx" met="-+-+-+-+-+">Vowed spotless chastity, but all in vain.</l>
+        <l n="367" real="+-xxxxxxx" met="+-+-+-+-+">Cupid beats down her prayers with his wings,</l>
+        <l n="368" real="xxxxx+-xxx" met="-+-+-+-+-+">Her vows above the empty air he flings,</l>
+        <l n="369" real="xx-+x+-xxx" met="-+-+-+-+-+">All deep enraged, his sinewy bow he bent,</l>
+        <l n="370" real="xxxxx+-xxx" met="-+-+-+-+-+">And shot a shaft that burning from him went,</l>
+        <l n="371" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Wherewith she strooken, looked so dolefully,</l>
+        <l n="372" real="xxxxxxx+--" met="-+-+-+-+-+">As made love sigh to see his tyranny.</l>
+        <l n="373" real="xxxxxxxxxx" met="-+-+-+-+-+">And as she wept her tears to pearl he turned,</l>
+        <l n="374" real="xxxxxxxxxx" met="-+-+-+-+-+">And wound them on his arm and for her mourned.</l>
+        <l n="375" real="xxxx+-xx+--" met="-+-+-+-+-+-">Then towards the palace of the destinies</l>
+        <l n="376" real="+-xxxxxxxx" met="-+-+-+-+-+">Laden with languishment and grief he flies,</l>
+        <l n="377" real="xxxxx+-x-+" met="-+-+-+-+-+">And to those stern nymphs humbly made request</l>
+        <l n="378" real="xx-+x+-xxx" met="-+-+-+-+-+">Both might enjoy each other, and be blest.</l>
+        <l n="379" real="xxx+-+-+--" met="-+-+-+-+-+">But with a ghastly dreadful countenance,</l>
+        <l n="380" real="+-x+-xx+-x" met="-+-+-+-+-+">Threatening a thousand deaths at every glance,</l>
+        <l n="381" real="x+-xxxxxxx" met="-+-+-+-+-+">They answered Love, nor would vouchsafe so much</l>
+        <l n="382" real="xxxxxxxxxx" met="-+-+-+-+-+">As one poor word, their hate to him was such.</l>
+        <l n="383" real="xxxxxxxxxx" met="-+-+-+-+-+">Hearken a while and I will tell you why.</l>
+        <l n="384" real="+-x+-xx+--" met="-+-+-+-+-+">Heaven’s winged herald, Jove-borne Mercury,</l>
+        <l n="385" real="xxxxxx-+xx" met="-+-+-+-+-+">The selfsame day that he asleep had laid</l>
+        <l n="386" real="-+-+-xx+-x" met="-+-+-+-+-+">Enchanted Argus, spied a country maid</l>
+        <l n="387" real="x+-x-+xxxxx" met="-+-+-+-+-+-">Whose careless hair instead of pearl t’adorn it</l>
+        <l n="388" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Glistered with dew, as one that seemed to scorn it;</l>
+        <l n="389" real="xxx+-xx+-x" met="-+-+-+-+-+">Her breath as fragrant as the morning rose,</l>
+        <l n="390" real="xxxxxxxxxx" met="-+-+-+-+-+">Her mind pure, and her tongue untaught to gloze.</l>
+        <l n="391" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet proud she was (for lofty pride that dwells</l>
+        <l n="392" real="x+-xxxx+-x" met="-+-+-+-+-+">In towered courts is oft in shepherds’ cells.)</l>
+        <l n="393" real="xxxxxx-+-x" met="-+-+-+-+-+">And too too well the fair vermilion knew,</l>
+        <l n="394" real="x+-+-xxxxx" met="-+-+-+-+-+">And silver tincture of her cheeks, that drew</l>
+        <l n="395" real="xxx+-xxxxx" met="-+-+-+-+-+">The love of every swain. On her this god</l>
+        <l n="396" real="-+-xxxxxxx" met="-+-+-+-+-+">Enamoured was, and with his snaky rod</l>
+        <l n="397" real="xxx+-xxxxx" met="-+-+-+-+-+">Did charm her nimble feet, and made her stay,</l>
+        <l n="398" real="xxxxx+-xxx" met="-+-+-+-+-+">The while upon a hillock down he lay</l>
+        <l n="399" real="x+-xxx-+xx" met="-+-+-+-+-+">And sweetly on his pipe began to play,</l>
+        <l n="400" real="xxxxx+-x+-" met="-+-+-+-+-+">And with smooth speech her fancy to assay,</l>
+        <l n="401" real="xxx+-xxxxx" met="-+-+-+-+-+">Till in his twining arms he locked her fast</l>
+        <l n="402" real="xxxxx+-xxx" met="-+-+-+-+-+">And then he wooed with kisses; and at last,</l>
+        <l n="403" real="x+-xxxxxxx" met="-+-+-+-+-+">As shepherds do, her on the ground he laid</l>
+        <l n="404" real="x+-xxxx+-x" met="-+-+-+-+-+">And, tumbling in the grass, he often strayed</l>
+        <l n="405" real="xxxxxxx+-x" met="-+-+-+-+-+">Beyond the bounds of shame, in being bold</l>
+        <l n="406" real="xxxxxxxx-+" met="-+-+-+-+-+">To eye those parts which no eye should behold.</l>
+        <l n="407" real="xxx+---+-+-" met="-+-+-+-+-+-">And, like an insolent commanding lover</l>
+        <l n="408" real="+-x+--xx-+-" met="-+-+-+-+-+-">Boasting his parentage, would needs discover</l>
+        <l n="409" real="xxxx-+--xx" met="-+-+-+-+-+">The way to new Elysium, but she,</l>
+        <l n="410" real="x+-xxx+--" met="+-+-+-+-+">Whose only dower was her chastity,</l>
+        <l n="411" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Having striv’n in vain was now about to cry</l>
+        <l n="412" real="xxxxx+-xxx" met="-+-+-+-+-+">And crave the help of shepherds that were nigh.</l>
+        <l n="413" real="++xxx+-x-+" met="-+-+-+-+-+">Herewith he stayed his fury, and began</l>
+        <l n="414" real="xxxxxx-+xx" met="-+-+-+-+-+">To give her leave to rise. Away she ran;</l>
+        <l n="415" real="xxx+--xxx+-" met="-+-+-+-+-+-">After went Mercury who used such cunning</l>
+        <l n="416" real="xxxxxxxxx+-" met="-+-+-+-+-+-">As she, to hear his tale, left off her running.</l>
+        <l n="417" real="xxxxx+-xxx" met="-+-+-+-+-+">Maids are not won by brutish force and might,</l>
+        <l n="418" real="x+-xx+-x-+" met="-+-+-+-+-+">But speeches full of pleasure, and delight.</l>
+        <l n="419" real="x+-+-+-xxx" met="-+-+-+-+-+">And, knowing Hermes courted her, was glad</l>
+        <l n="420" real="xxxxxxxx+-x" met="-+-+-+-+-+-">That she such loveliness and beauty had</l>
+        <l n="421" real="xx-+x+-xxx" met="-+-+-+-+-+">As could provoke his liking, yet was mute</l>
+        <l n="422" real="x+-x-+xxxx" met="-+-+-+-+-+">And neither would deny nor grant his suit.</l>
+        <l n="423" real="xxxxx+-x-+" met="-+-+-+-+-+">Still vowed he love. She, wanting no excuse</l>
+        <l n="424" real="xxxx-+x+-x" met="-+-+-+-+-+">To feed him with delays, as women use,</l>
+        <l n="425" real="xxxxxx-+--" met="-+-+-+-+-+">Or thirsting after immortality, -</l>
+        <l n="426" real="x+-x-+-+---" met="-+-+-+-+-+-">All women are ambitious naturally -</l>
+        <l n="427" real="-+xxx+-xxx" met="-+-+-+-+-+">Imposed upon her lover such a task</l>
+        <l n="428" real="xxxx-+xxxx" met="-+-+-+-+-+">As he ought not perform nor yet she ask.</l>
+        <l n="429" real="xxx+-+-x-+-" met="-+-+-+-+-+-">A draught of flowing nectar she requested,</l>
+        <l n="430" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">Wherewith the king of gods and men is feasted.</l>
+        <l n="431" real="x+-x-+-xxx" met="-+-+-+-+-+">He, ready to accomplish what she willed,</l>
+        <l n="432" real="xxxxxxxx-" met="+-+-+-+-+">Stole some from Hebe (Hebe Jove’s cup filled)</l>
+        <l n="433" real="xxxxx+-+-x" met="-+-+-+-+-+">And gave it to his simple rustic love.</l>
+        <l n="434" real="x+-xxxxxxx" met="-+-+-+-+-+">Which being known (as what is hid from Jove?)</l>
+        <l n="435" real="xxxxxxx+--" met="-+-+-+-+-+">He inly stormed and waxed more furious</l>
+        <l n="436" real="xxx+-xxxxx" met="-+-+-+-+-+">Than for the fire filched by Prometheus,</l>
+        <l n="437" real="xxxxx+x+-x" met="-+-+-+-+-+">And thrusts him down from heaven. He, wandering here,</l>
+        <l n="438" real="x+-xxxx+-x" met="-+-+-+-+-+">In mournful terms, with sad and heavy cheer,</l>
+        <l n="439" real="-+x+-+-xxx" met="-+-+-+-+-+">Complained to Cupid. Cupid for his sake,</l>
+        <l n="440" real="xxxxxxx+-x" met="-+-+-+-+-+">To be revenged on Jove did undertake.</l>
+        <l n="441" real="xxxx+xxx-+" met="-+-+-+-+-+">And those on whom heaven, earth, and hell relies,</l>
+        <l n="442" real="xxxxxxx+--" met="-+-+-+-+-+">I mean the adamantine Destinies,</l>
+        <l n="443" real="xxxxxxx+--" met="-+-+-+-+-+">He wounds with love, and forced them equally</l>
+        <l n="444" real="xxxx-+-+--" met="-+-+-+-+-+">To dote upon deceitful Mercury.</l>
+        <l n="445" real="x+-xx+-+-x" met="-+-+-+-+-+">They offered him the deadly fatal knife</l>
+        <l n="446" real="xxx+-xx+-x" met="-+-+-+-+-+">That shears the slender threads of human life.</l>
+        <l n="447" real="xxx+-xx+-x" met="-+-+-+-+-+">At his fair feathered feet the engines laid</l>
+        <l n="448" real="xxx+-+-xxx" met="-+-+-+-+-+">Which th’ earth from ugly Chaos’ den upweighed.</l>
+        <l n="449" real="xx-+-xxxxx" met="-+-+-+-+-+">These he regarded not but did entreat</l>
+        <l n="450" real="xxxxxxx+-x" met="-+-+-+-+-+">That Jove, usurper of his father’s seat,</l>
+        <l n="451" real="x+--x+-xxx" met="-+-+-+-+-+">Might presently be banished into hell,</l>
+        <l n="452" real="xx+-x-+-x" met="+-+-+-+-+">And aged Saturn in Olympus dwell.</l>
+        <l n="453" real="x+-xxxxx-+" met="-+-+-+-+-+">They granted what he craved, and once again</l>
+        <l n="454" real="+-xx-+x+-x" met="-+-+-+-+-+">Saturn and Ops began their golden reign.</l>
+        <l n="455" real="+-xxxx+--" met="+-+-+-+-+">Murder, rape, war, lust, and treachery,</l>
+        <l n="456" real="xxxxx+-xxx" met="-+-+-+-+-+">Were with Jove closed in Stygian empery.</l>
+        <l n="457" real="xxxx-x-+-x" met="-+-+-+-+-+">But long this blessed time continued not.</l>
+        <l n="458" real="xxxxxx-+-x" met="-+-+-+-+-+">As soon as he his wished purpose got</l>
+        <l n="459" real="x+-xx+-x-+" met="-+-+-+-+-+">He reckless of his promise did despise</l>
+        <l n="460" real="xxxx-+-+--" met="-+-+-+-+-+">The love of th’ everlasting Destinies.</l>
+        <l n="461" real="x+-xxxxx-+" met="-+-+-+-+-+">They seeing it both love and him abhorred</l>
+        <l n="462" real="x+--xxxx-+" met="-+-+-+-+-+">And Jupiter unto his place restored.</l>
+        <l n="463" real="xxx+-x-+xx" met="-+-+-+-+-+">And but that Learning in despite of Fate</l>
+        <l n="464" real="xx-+x+-+-x" met="-+-+-+-+-+">Will mount aloft and enter heaven gate</l>
+        <l n="465" real="xxxxxx-+-+" met="-+-+-+-+-+">And to the seat of Jove itself advance,</l>
+        <l n="466" real="+-xxxxx+--" met="-+-+-+-+-+">Hermes had slept in hell with Ignorance.</l>
+        <l n="467" real="xxx+--x+-x" met="-+-+-+-+-+">Yet as a punishment they added this,</l>
+        <l n="468" real="xxx+--x+-x" met="-+-+-+-+-+">That he and Poverty should always kiss.</l>
+        <l n="469" real="xxxxx+-+-x" met="-+-+-+-+-+">And to this day is every scholar poor;</l>
+        <l n="470" real="xxxxx+xxxx" met="-+-+-+-+-+">Gross gold from them runs headlong to the boor.</l>
+        <l n="471" real="+xx+-+-x-+-" met="-+-+-+-+-+-">Likewise the angry Sisters thus deluded,</l>
+        <l n="472" real="xx-+x+-x-+-" met="-+-+-+-+-+-">To venge themselves on Hermes, have concluded</l>
+        <l n="473" real="x+-xxxxxxx" met="-+-+-+-+-+">That Midas’ brood shall sit in honour’s chair,</l>
+        <l n="474" real="xxx+-xx+-x" met="-+-+-+-+-+">To which the Muses’ sons are only heir;</l>
+        <l n="475" real="x+-xxx-+-x" met="-+-+-+-+-+">And fruitful wits, that in aspiring are,</l>
+        <l n="476" real="x--+xxx+-x" met="-+-+-+-+-+">Shall discontent run into regions far;</l>
+        <l n="477" real="xxxxx+-xxx" met="-+-+-+-+-+">And few great lords in virtuous deeds shall joy</l>
+        <l n="478" real="xx-+x+-+-x" met="-+-+-+-+-+">But be surprised with every garish toy,</l>
+        <l n="479" real="xx-+x+-+-x" met="-+-+-+-+-+">And still enrich the lofty servile clown,</l>
+        <l n="480" real="xx-+-xx+-x" met="-+-+-+-+-+">Who with encroaching guile keeps learning down.</l>
+        <l n="481" real="xxx+-xx+-x" met="-+-+-+-+-+">Then Muse not Cupid’s suit no better sped,</l>
+        <l n="482" real="+-xxxxxx+-" met="-+-+-+-+-+">Seeing in their loves the Fates were injured.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="second-sestiad" n="L13537">
+      <head>Second Sestiad</head>
+      <idno type="URN">urn:laurel:eng:marlowe.marlowe-hero-leander.pg18781:second-sestiad</idno><idno type="laurel-id">L13537</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijj--kklllmnn-mooppqqrrss--tt--uuvvww--xxyy--zzaabbcc----ddeeffgg--hh">
+        <l n="1" real="xxx+-xxxxxx" met="-+-+-+-+-+-">By this, sad Hero, with love unacquainted,</l>
+        <l n="2" real="+-xxxxxxx+-" met="-+-+-+-+-+-">Viewing Leander’s face, fell down and fainted.</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">He kissed her and breathed life into her lips,</l>
+        <l n="4" real="xxxxx-+-+xx" met="-+-+-+-+-+-">Wherewith as one displeased away she trips.</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet, as she went, full often looked behind,</l>
+        <l n="6" real="x+-x-+-xxx" met="-+-+-+-+-+">And many poor excuses did she find</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">To linger by the way, and once she stayed,</l>
+        <l n="8" real="xxxx-+xx-+" met="-+-+-+-+-+">And would have turned again, but was afraid,</l>
+        <l n="9" real="x+-+-xx+-x" met="-+-+-+-+-+">In offering parley, to be counted light.</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">So on she goes and in her idle flight</l>
+        <l n="11" real="x+-xxx-xxx" met="-+-+-+-+-+">Her painted fan of curled plumes let fall,</l>
+        <l n="12" real="+-xx-+-xxxx" met="-+-+-+-+-+-">Thinking to train Leander therewithal.</l>
+        <l n="13" real="x+x+-xxxxx" met="-+-+-+-+-+">He, being a novice, knew not what she meant</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">But stayed, and after her a letter sent,</l>
+        <l n="15" real="x+-+-+-xxx" met="-+-+-+-+-+">Which joyful Hero answered in such sort,</l>
+        <l n="16" real="xxxxxxxxxx" met="-+-+-+-+-+">As he had hope to scale the beauteous fort</l>
+        <l n="17" real="xxx+-+-xxx" met="-+-+-+-+-+">Wherein the liberal Graces locked their wealth,</l>
+        <l n="18" real="xxxxx+xxxx" met="-+-+-+-+-+">And therefore to her tower he got by stealth.</l>
+        <l n="19" real="x+-xxxxxxx" met="-+-+-+-+-+">Wide open stood the door, he need not climb,</l>
+        <l n="20" real="xx-+xxx+-x" met="-+-+-+-+-+">And she herself before the pointed time</l>
+        <l n="21" real="xxxxx+-xxx" met="-+-+-+-+-+">Had spread the board, with roses strowed the room,</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">And oft looked out, and mused he did not come.</l>
+        <l n="23" real="xxxxxxxxx+-" met="-+-+-+-+-+-">At last he came. O who can tell the greeting</l>
+        <l n="24" real="x+-+-xxxx+-" met="-+-+-+-+-+-">These greedy lovers had at their first meeting.</l>
+        <l n="25" real="xxxxx+-x-+" met="-+-+-+-+-+">He asked, she gave, and nothing was denied.</l>
+        <l n="26" real="xxx+-+-xx" met="+-+-+-+-+">Both to each other quickly were affied.</l>
+        <l n="27" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Look how their hands, so were their hearts united,</l>
+        <l n="28" real="xxxxx+-xxx" met="-+-+-+-+-+">And what he did she willingly requited.</l>
+        <l n="29" real="xxx+-xxxxxx" met="-+-+-+-+-+-">(Sweet are the kisses, the embracements sweet,</l>
+        <l n="30" real="xx-+-x-+-x" met="-+-+-+-+-+">When like desires and affections meet,</l>
+        <l n="31" real="xxxxx+x+-x" met="-+-+-+-+-+">For from the earth to heaven is Cupid raised,</l>
+        <l n="32" real="x+-xx+-+-x" met="-+-+-+-+-+">Where fancy is in equal balance peised.)</l>
+        <l n="33" real="xxxxx+---+-" met="-+-+-+-+-+-">Yet she this rashness suddenly repented</l>
+        <l n="34" real="xx-+xx-+-+-" met="-+-+-+-+-+-">And turned aside, and to herself lamented</l>
+        <l n="35" real="xxxxx+-xxx" met="-+-+-+-+-+">As if her name and honour had been wronged</l>
+        <l n="36" real="x+-+xxxxxx" met="-+-+-+-+-+">By being possessed of him for whom she longed.</l>
+        <l n="37" real="xxxx-+-xxxx" met="-+-+-+-+-+-">Ay, and she wished, albeit not from her heart</l>
+        <l n="38" real="xxxxx+-x-+" met="-+-+-+-+-+">That he would leave her turret and depart.</l>
+        <l n="39" real="xxxxx+-+-x" met="-+-+-+-+-+">The mirthful god of amorous pleasure smiled</l>
+        <l n="40" real="xxxxx+-x-+" met="-+-+-+-+-+">To see how he this captive nymph beguiled.</l>
+        <l n="41" real="x+x+xxxxx+-" met="-+-+-+-+-+-">For hitherto he did but fan the fire,</l>
+        <l n="42" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And kept it down that it might mount the higher.</l>
+        <l n="43" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Now waxed she jealous lest his love abated,</l>
+        <l n="44" real="+-xxxxxxx+-" met="-+-+-+-+-+-">Fearing her own thoughts made her to be hated.</l>
+        <l n="45" real="xxxxx+--xx" met="-+-+-+-+-+">Therefore unto him hastily she goes</l>
+        <l n="46" real="xxxxxxx+-x" met="-+-+-+-+-+">And, like light Salmacis, her body throws</l>
+        <l n="47" real="xxx+-xx+-x" met="-+-+-+-+-+">Upon his bosom where with yielding eyes</l>
+        <l n="48" real="x+-x-+x+-x" met="-+-+-+-+-+">She offers up herself a sacrifice</l>
+        <l n="49" real="xxx+-xxx-+" met="-+-+-+-+-+">To slake his anger if he were displeased.</l>
+        <l n="50" real="xxxxxxxxx-+" met="-+-+-+-+-+-">O, what god would not therewith be appeased?</l>
+        <l n="51" real="x+xxx+-x-+" met="-+-+-+-+-+">Like Aesop’s cock this jewel he enjoyed</l>
+        <l n="52" real="xxx+-xx+-x" met="-+-+-+-+-+">And as a brother with his sister toyed</l>
+        <l n="53" real="-+-+-xxxxx" met="-+-+-+-+-+">Supposing nothing else was to be done,</l>
+        <l n="54" real="xxx+-xxxxx" met="-+-+-+-+-+">Now he her favour and good will had won.</l>
+        <l n="55" real="xxxxx+-+-x" met="-+-+-+-+-+">But know you not that creatures wanting sense</l>
+        <l n="56" real="x+-xx+-xxx" met="-+-+-+-+-+">By nature have a mutual appetence,</l>
+        <l n="57" real="x+-+-x-+xx" met="-+-+-+-+-+">And, wanting organs to advance a step,</l>
+        <l n="58" real="xxxxxxx+-x" met="-+-+-+-+-+">Moved by love’s force unto each other lep?</l>
+        <l n="59" real="xxx+-+-+-x" met="-+-+-+-+-+">Much more in subjects having intellect</l>
+        <l n="60" real="x+-+--xx-+" met="-+-+-+-+-+">Some hidden influence breeds like effect.</l>
+        <l n="61" real="-+--+-xxxxx" met="-+-+-+-+-+-">Albeit Leander rude in love and raw,</l>
+        <l n="62" real="xxxx+-+-x" met="+-+-+-+-+">Long dallying with Hero, nothing saw</l>
+        <l n="63" real="xx-+xxxx-+-" met="-+-+-+-+-+-">That might delight him more, yet he suspected</l>
+        <l n="64" real="x+-xx+-x-+-" met="-+-+-+-+-+-">Some amorous rites or other were neglected.</l>
+        <l n="65" real="xxxxx+-xxx" met="-+-+-+-+-+">Therefore unto his body hers he clung.</l>
+        <l n="66" real="x+-xx+-xxx" met="-+-+-+-+-+">She, fearing on the rushes to be flung,</l>
+        <l n="67" real="xx-+-xxxxx" met="-+-+-+-+-+">Strived with redoubled strength; the more she strived</l>
+        <l n="68" real="xxx+-+-x-+" met="-+-+-+-+-+">The more a gentle pleasing heat revived,</l>
+        <l n="69" real="xxxxx+-+-x" met="-+-+-+-+-+">Which taught him all that elder lovers know.</l>
+        <l n="70" real="xxxxxxxxxx" met="-+-+-+-+-+">And now the same gan so to scorch and glow</l>
+        <l n="71" real="xxxxxxxxxxx" met="-+-+-+-+-+-">As in plain terms (yet cunningly) he craved it.</l>
+        <l n="72" real="x+xxx+-xxx" met="-+-+-+-+-+">Love always makes those eloquent that have it.</l>
+        <l n="73" real="xxxxx+-xxxx" met="-+-+-+-+-+-">She, with a kind of granting, put him by it</l>
+        <l n="74" real="x+xxx-+xxx" met="-+-+-+-+-+">And ever, as he thought himself most nigh it,</l>
+        <l n="75" real="xxxxx+--xx" met="-+-+-+-+-+">Like to the tree of Tantalus, she fled</l>
+        <l n="76" real="x+-+-xxxxx" met="-+-+-+-+-+">And, seeming lavish, saved her maidenhead.</l>
+        <l n="77" real="xxxxxxx+-x" met="-+-+-+-+-+">Ne’er king more sought to keep his diadem,</l>
+        <l n="78" real="x+-xxxxxxx" met="-+-+-+-+-+">Than Hero this inestimable gem.</l>
+        <l n="79" real="xx+xxxx+xx" met="-+-+-+-+-+">Above our life we love a steadfast friend,</l>
+        <l n="80" real="xxx+-xxxxx" met="-+-+-+-+-+">Yet when a token of great worth we send,</l>
+        <l n="81" real="x+-xx+-x-+" met="-+-+-+-+-+">We often kiss it, often look thereon,</l>
+        <l n="82" real="xxx+--xxxx" met="-+-+-+-+-+">And stay the messenger that would be gone.</l>
+        <l n="83" real="x+-xx+-xxx" met="-+-+-+-+-+">No marvel then, though Hero would not yield</l>
+        <l n="84" real="xxxxxxx+-x" met="-+-+-+-+-+">So soon to part from that she dearly held.</l>
+        <l n="85" real="+-+xxx-+x+-" met="-+-+-+-+-+-">Jewels being lost are found again, this never;</l>
+        <l n="86" real="xxxxxxxx-+-" met="-+-+-+-+-+-">’Tis lost but once, and once lost, lost forever.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--bb--ccddeeffgghhiijjkkllmmnnoopp------qqrrss--ttuuvv--wwxxyyzzaabbccdd--ee------ffgggghhiijjkkllmmnnmmooppqqrrssttuuvvwwxxyyzzaa--bbccdd">
+        <l n="87" real="xxxxxx+-x" met="+-+-+-+-+">Now had the morn espied her lover’s steeds,</l>
+        <l n="88" real="xxxxxxx+-x" met="-+-+-+-+-+">Whereat she starts, puts on her purple weeds,</l>
+        <l n="89" real="xxx+-xxxxx" met="-+-+-+-+-+">And red for anger that he stayed so long</l>
+        <l n="90" real="x+xx-+xxxx" met="-+-+-+-+-+">All headlong throws herself the clouds among.</l>
+        <l n="91" real="xx-+-+-xxx" met="-+-+-+-+-+">And now Leander, fearing to be missed,</l>
+        <l n="92" real="-+x+--xxxx" met="-+-+-+-+-+">Embraced her suddenly, took leave, and kissed.</l>
+        <l n="93" real="xxx+-xxxxx" met="-+-+-+-+-+">Long was he taking leave, and loath to go,</l>
+        <l n="94" real="xx-+x+-xxx" met="-+-+-+-+-+">And kissed again as lovers use to do.</l>
+        <l n="95" real="x+-xxxxxxx" met="-+-+-+-+-+">Sad Hero wrung him by the hand and wept</l>
+        <l n="96" real="+-xxxx+-xx" met="-+-+-+-+-+">Saying, “Let your vows and promises be kept.”</l>
+        <l n="97" real="x+-xxxxxxx" met="-+-+-+-+-+">Then standing at the door she turned about</l>
+        <l n="98" real="xxxx-+-+-x" met="-+-+-+-+-+">As loath to see Leander going out.</l>
+        <l n="99" real="xxxxxx-+-x" met="-+-+-+-+-+">And now the sun that through th’ horizon peeps,</l>
+        <l n="100" real="x+--x+-+-x" met="-+-+-+-+-+">As pitying these lovers, downward creeps,</l>
+        <l n="101" real="xxx+-xx+-x" met="-+-+-+-+-+">So that in silence of the cloudy night,</l>
+        <l n="102" real="xxx+-xxxxx" met="-+-+-+-+-+">Though it was morning, did he take his flight.</l>
+        <l n="103" real="xxx+-+-x-+" met="-+-+-+-+-+">But what the secret trusty night concealed</l>
+        <l n="104" real="xxx+-+-x-+" met="-+-+-+-+-+">Leander’s amorous habit soon revealed.</l>
+        <l n="105" real="x+-+-xx+-x" met="-+-+-+-+-+">With Cupid’s myrtle was his bonnet crowned,</l>
+        <l n="106" real="xxxxx+-xxx" met="-+-+-+-+-+">About his arms the purple riband wound</l>
+        <l n="107" real="xxxxxx+-+-x" met="-+-+-+-+-+-">Wherewith she wreathed her largely spreading hair.</l>
+        <l n="108" real="xxxx-+xxxx" met="-+-+-+-+-+">Nor could the youth abstain, but he must wear</l>
+        <l n="109" real="x+-xxxxxx-+" met="-+-+-+-+-+-">The sacred ring wherewith she was endowed</l>
+        <l n="110" real="xx-+-+--xx" met="-+-+-+-+-+">When first religious chastity she vowed.</l>
+        <l n="111" real="xxxxxxxxxx" met="-+-+-+-+-+">Which made his love through Sestos to be known,</l>
+        <l n="112" real="xxxxxxx+-x" met="-+-+-+-+-+">And thence unto Abydos sooner blown</l>
+        <l n="113" real="xxxxxxxxxx" met="-+-+-+-+-+">Than he could sail; for incorporeal fame</l>
+        <l n="114" real="xx-+x+-xxx" met="-+-+-+-+-+">Whose weight consists in nothing but her name,</l>
+        <l n="115" real="x+-xxxx+-x" met="-+-+-+-+-+">Is swifter than the wind, whose tardy plumes</l>
+        <l n="116" real="x+-+-xx+-x" met="-+-+-+-+-+">Are reeking water and dull earthly fumes.</l>
+        <l n="117" real="xxxxxxxxxx" met="-+-+-+-+-+">Home when he came, he seemed not to be there,</l>
+        <l n="118" real="xx+x-xxxxx" met="-+-+-+-+-+">But, like exiled air thrust from his sphere,</l>
+        <l n="119" real="xxx+-xxxxx" met="-+-+-+-+-+">Set in a foreign place; and straight from thence,</l>
+        <l n="120" real="xxxx+-+--" met="+-+-+-+-+">Alcides like, by mighty violence</l>
+        <l n="121" real="xxxx-+x+-x" met="-+-+-+-+-+">He would have chased away the swelling main</l>
+        <l n="122" real="xxxx-+-x-+" met="-+-+-+-+-+">That him from her unjustly did detain.</l>
+        <l n="123" real="xxxxxx-+--" met="-+-+-+-+-+">Like as the sun in a diameter</l>
+        <l n="124" real="+-x-+-+-+x" met="-+-+-+-+-+">Fires and inflames objects removed far,</l>
+        <l n="125" real="xxx+-+-xxxx" met="-+-+-+-+-+-">And heateth kindly, shining laterally,</l>
+        <l n="126" real="x+-+-+-xxx" met="-+-+-+-+-+">So beauty sweetly quickens when ’tis nigh,</l>
+        <l n="127" real="x+-+-x-x-+" met="-+-+-+-+-+">But being separated and removed,</l>
+        <l n="128" real="xxx+-+-xxx" met="-+-+-+-+-+">Burns where it cherished, murders where it loved.</l>
+        <l n="129" real="xx+xx+-xxx" met="-+-+-+-+-+">Therefore even as an index to a book,</l>
+        <l n="130" real="xxxxxxxxxx" met="-+-+-+-+-+">So to his mind was young Leander’s look.</l>
+        <l n="131" real="xxxxx+xxxx" met="-+-+-+-+-+">O, none but gods have power their love to hide,</l>
+        <l n="132" real="-+-xx+--xx" met="-+-+-+-+-+">Affection by the countenance is descried.</l>
+        <l n="133" real="xxx+-+-+-+-" met="-+-+-+-+-+-">The light of hidden fire itself discovers,</l>
+        <l n="134" real="xxxx-+-+x+-" met="-+-+-+-+-+-">And love that is concealed betrays poor lovers,</l>
+        <l n="135" real="x+-x-+--xx" met="-+-+-+-+-+">His secret flame apparently was seen.</l>
+        <l n="136" real="xxx+-xxxxx" met="-+-+-+-+-+">Leander’s father knew where he had been</l>
+        <l n="137" real="xxxx+--+xx" met="-+-+-+-+-+">And for the same mildly rebuked his son,</l>
+        <l n="138" real="+-xxx+-x-+" met="-+-+-+-+-+">Thinking to quench the sparkles new begun.</l>
+        <l n="139" real="xx-+-xx+--" met="-+-+-+-+-+">But love resisted once grows passionate,</l>
+        <l n="140" real="x+-xx+-+-x" met="-+-+-+-+-+">And nothing more than counsel lovers hate.</l>
+        <l n="141" real="xxxxxx+--+" met="-+-+-+-+-+">For as a hot proud horse highly disdains</l>
+        <l n="142" real="xxxx-+xxxx" met="-+-+-+-+-+">To have his head controlled, but breaks the reins,</l>
+        <l n="143" real="xxxx-xxxxx" met="-+-+-+-+-+">Spits forth the ringled bit, and with his hooves</l>
+        <l n="144" real="xx-+-xxxxx" met="-+-+-+-+-+">Checks the submissive ground; so he that loves,</l>
+        <l n="145" real="xxxx-+xxxx" met="-+-+-+-+-+">The more he is restrained, the worse he fares.</l>
+        <l n="146" real="xxxxxx-+-x" met="-+-+-+-+-+">What is it now, but mad Leander dares?</l>
+        <l n="147" real="x+-+-xxxxx" met="-+-+-+-+-+">“O Hero, Hero!” thus he cried full oft;</l>
+        <l n="148" real="xxxxxxxx-+" met="-+-+-+-+-+">And then he got him to a rock aloft,</l>
+        <l n="149" real="x+-xx+xxxx" met="-+-+-+-+-+">Where having spied her tower, long stared he on’t,</l>
+        <l n="150" real="xxx+-+-xxx" met="-+-+-+-+-+">And prayed the narrow toiling Hellespont</l>
+        <l n="151" real="xxxxxxxxxx" met="-+-+-+-+-+">To part in twain, that he might come and go;</l>
+        <l n="152" real="xxx+-+-+-x" met="-+-+-+-+-+">But still the rising billows answered, “No.”</l>
+        <l n="153" real="xxxxxxx+-x" met="-+-+-+-+-+">With that he stripped him to the ivory skin</l>
+        <l n="154" real="x+-xxxx+-x" met="-+-+-+-+-+">And, crying “Love, I come,” leaped lively in.</l>
+        <l n="155" real="xxx+-xxxxx" met="-+-+-+-+-+">Whereat the sapphire visaged god grew proud,</l>
+        <l n="156" real="xxxxxx+-x-+" met="-+-+-+-+-+-">And made his capering Triton sound aloud,</l>
+        <l n="157" real="-+--x+-x-+" met="-+-+-+-+-+">Imagining that Ganymede, displeased,</l>
+        <l n="158" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Had left the heavens; therefore on him he seized.</l>
+        <l n="159" real="-+-xxxxxxx" met="-+-+-+-+-+">Leander strived; the waves about him wound,</l>
+        <l n="160" real="xxxxx+-xxx" met="-+-+-+-+-+">And pulled him to the bottom, where the ground</l>
+        <l n="161" real="xxxxxxx+-x" met="-+-+-+-+-+">Was strewed with pearl, and in low coral groves</l>
+        <l n="162" real="x+-+x+-xxx" met="-+-+-+-+-+">Sweet singing mermaids sported with their loves</l>
+        <l n="163" real="xxx+-xxxx+-" met="-+-+-+-+-+-">On heaps of heavy gold, and took great pleasure</l>
+        <l n="164" real="xxx+-xxxx+-" met="-+-+-+-+-+-">To spurn in careless sort the shipwrack treasure.</l>
+        <l n="165" real="xxx+-+-+-x" met="-+-+-+-+-+">For here the stately azure palace stood</l>
+        <l n="166" real="x+-+-xxx-+" met="-+-+-+-+-+">Where kingly Neptune and his train abode.</l>
+        <l n="167" real="x+-x-+xxxx" met="-+-+-+-+-+">The lusty god embraced him, called him “Love,”</l>
+        <l n="168" real="xxx+-x-+xx" met="-+-+-+-+-+">And swore he never should return to Jove.</l>
+        <l n="169" real="xxxxxxx+-x" met="-+-+-+-+-+">But when he knew it was not Ganymede,</l>
+        <l n="170" real="xxx+-xx+xx" met="-+-+-+-+-+">For under water he was almost dead,</l>
+        <l n="171" real="xxxxx+-xxx" met="-+-+-+-+-+">He heaved him up and, looking on his face,</l>
+        <l n="172" real="xxxxxxx+-x" met="-+-+-+-+-+">Beat down the bold waves with his triple mace,</l>
+        <l n="173" real="x+-x-+-xxxx" met="-+-+-+-+-+-">Which mounted up, intending to have kissed him,</l>
+        <l n="174" real="xxxxxxxxxxx" met="-+-+-+-+-+-">And fell in drops like tears because they missed him.</l>
+        <l n="175" real="-+-+-x-+xx" met="-+-+-+-+-+">Leander, being up, began to swim</l>
+        <l n="176" real="x+-xx+-+-x" met="-+-+-+-+-+">And, looking back, saw Neptune follow him,</l>
+        <l n="177" real="xx-+xxxxxx" met="-+-+-+-+-+">Whereat aghast, the poor soul ’gan to cry</l>
+        <l n="178" real="xxx+-+-xxx" met="-+-+-+-+-+">“O, let me visit Hero ere I die!”</l>
+        <l n="179" real="xxxx+-xxx" met="+-+-+-+-+">The god put Helle’s bracelet on his arm,</l>
+        <l n="180" real="xxxxx+-xxx" met="-+-+-+-+-+">And swore the sea should never do him harm.</l>
+        <l n="181" real="xxxxxxx+-x" met="-+-+-+-+-+">He clapped his plump cheeks, with his tresses played</l>
+        <l n="182" real="x+-+--xxx-" met="-+-+-+-+-+">And, smiling wantonly, his love bewrayed.</l>
+        <l n="183" real="xxxxxxx+-x" met="-+-+-+-+-+">He watched his arms and, as they opened wide</l>
+        <l n="184" real="x+-x-+xxxx" met="-+-+-+-+-+">At every stroke, betwixt them would he slide</l>
+        <l n="185" real="xxxxxxxxxx" met="-+-+-+-+-+">And steal a kiss, and then run out and dance,</l>
+        <l n="186" real="xxxxx+x+-x" met="-+-+-+-+-+">And, as he turned, cast many a lustful glance,</l>
+        <l n="187" real="xxx+-xxxxx" met="-+-+-+-+-+">And threw him gaudy toys to please his eye,</l>
+        <l n="188" real="xxxxx+-xxx" met="-+-+-+-+-+">And dive into the water, and there pry</l>
+        <l n="189" real="xxxxxxx+-x" met="-+-+-+-+-+">Upon his breast, his thighs, and every limb,</l>
+        <l n="190" real="xx-+xx-+xx" met="-+-+-+-+-+">And up again, and close beside him swim,</l>
+        <l n="191" real="xxxx-+-x-+" met="-+-+-+-+-+">And talk of love. Leander made reply,</l>
+        <l n="192" real="xx-+xxx+-x" met="-+-+-+-+-+">“You are deceived; I am no woman, I.”</l>
+        <l n="193" real="xxx+-xxxxx" met="-+-+-+-+-+">Thereat smiled Neptune, and then told a tale,</l>
+        <l n="194" real="xxx+-+-xxx" met="-+-+-+-+-+">How that a shepherd, sitting in a vale,</l>
+        <l n="195" real="x-xxxxxxx" met="+-+-+-+-+">Played with a boy so fair and kind,</l>
+        <l n="196" real="xxxxxxx+-x" met="-+-+-+-+-+">As for his love both earth and heaven pined;</l>
+        <l n="197" real="xxx+-+-xxx" met="-+-+-+-+-+">That of the cooling river durst not drink,</l>
+        <l n="198" real="x+-xxxxxxx" met="-+-+-+-+-+">Lest water nymphs should pull him from the brink.</l>
+        <l n="199" real="xxx+-xx+-x" met="-+-+-+-+-+">And when he sported in the fragrant lawns,</l>
+        <l n="200" real="x+-xxxxxxx" met="-+-+-+-+-+">Goat footed satyrs and upstaring fauns</l>
+        <l n="201" real="xxxxxxxxxx" met="-+-+-+-+-+">Would steal him thence. Ere half this tale was done,</l>
+        <l n="202" real="xx-+-x-+-x" met="-+-+-+-+-+">“Ay me,” Leander cried, “th’ enamoured sun</l>
+        <l n="203" real="xxxxx+-+-+-" met="-+-+-+-+-+-">That now should shine on Thetis’ glassy bower,</l>
+        <l n="204" real="-+xxx+-+-+-" met="-+-+-+-+-+-">Descends upon my radiant Hero’s tower.</l>
+        <l n="205" real="xxx+-xxxxx" met="-+-+-+-+-+">O, that these tardy arms of mine were wings!”</l>
+        <l n="206" real="xxxxxxxxxx" met="-+-+-+-+-+">And, as he spake, upon the waves he springs.</l>
+        <l n="207" real="+-x+-xxxxx" met="-+-+-+-+-+">Neptune was angry that he gave no ear,</l>
+        <l n="208" real="xxxxxxx+-x" met="-+-+-+-+-+">And in his heart revenging malice bare.</l>
+        <l n="209" real="xxxxxxxxxx" met="-+-+-+-+-+">He flung at him his mace but, as it went,</l>
+        <l n="210" real="xxxxxxxx-+" met="-+-+-+-+-+">He called it in, for love made him repent.</l>
+        <l n="211" real="xx-+-xxxxx" met="-+-+-+-+-+">The mace, returning back, his own hand hit</l>
+        <l n="212" real="x+-xxxx+-x" met="-+-+-+-+-+">As meaning to be venged for darting it.</l>
+        <l n="213" real="xxx+-x-+-x" met="-+-+-+-+-+">When this fresh bleeding wound Leander viewed,</l>
+        <l n="214" real="x+-xxxxxxx" met="-+-+-+-+-+">His colour went and came, as if he rued</l>
+        <l n="215" real="xxx+-xx+-x" met="-+-+-+-+-+">The grief which Neptune felt. In gentle breasts</l>
+        <l n="216" real="-+-x-+x+-x" met="-+-+-+-+-+">Relenting thoughts, remorse, and pity rests.</l>
+        <l n="217" real="xxxxxx+--x" met="-+-+-+-+-+">And who have hard hearts and obdurate minds,</l>
+        <l n="218" real="x+-+xx-+-x" met="-+-+-+-+-+">But vicious, harebrained, and illiterate hinds?</l>
+        <l n="219" real="xx+xx+-xxx" met="-+-+-+-+-+">The god, seeing him with pity to be moved,</l>
+        <l n="220" real="-+-+-xxx-+" met="-+-+-+-+-+">Thereon concluded that he was beloved.</l>
+        <l n="221" real="xxxxxxx+--" met="-+-+-+-+-+">(Love is too full of faith, too credulous,</l>
+        <l n="222" real="x+-xxx-+-x" met="-+-+-+-+-+">With folly and false hope deluding us.)</l>
+        <l n="223" real="xxxxxx+-x-+" met="-+-+-+-+-+-">Wherefore, Leander’s fancy to surprise,</l>
+        <l n="224" real="xxx+-xxxx" met="+-+-+-+-+">To the rich Ocean for gifts he flies.</l>
+        <l n="225" real="x+-xxxxx-+" met="-+-+-+-+-+">’Tis wisdom to give much; a gift prevails</l>
+        <l n="226" real="xx-+-+-x-x" met="-+-+-+-+-+">When deep persuading oratory fails.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzaabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzaabb">
+        <l n="227" real="xx-+-+-xxx" met="-+-+-+-+-+">By this Leander, being near the land,</l>
+        <l n="228" real="xxx+-xxxxx" met="-+-+-+-+-+">Cast down his weary feet and felt the sand.</l>
+        <l n="229" real="+--+-xxx+-x" met="-+-+-+-+-+-">Breathless albeit he were he rested not</l>
+        <l n="230" real="xxx+-x-+xx" met="-+-+-+-+-+">Till to the solitary tower he got,</l>
+        <l n="231" real="xxxxxx-+-x" met="-+-+-+-+-+">And knocked and called. At which celestial noise</l>
+        <l n="232" real="x+-xx+-xxx" met="-+-+-+-+-+">The longing heart of Hero much more joys</l>
+        <l n="233" real="xxx+-xxxxx" met="-+-+-+-+-+">Than nymphs and shepherds when the timbrel rings,</l>
+        <l n="234" real="x+-+-xx+-x" met="-+-+-+-+-+">Or crooked dolphin when the sailor sings.</l>
+        <l n="235" real="xxxxxxxx-+" met="-+-+-+-+-+">She stayed not for her robes but straight arose</l>
+        <l n="236" real="xxxxxxxxxx" met="-+-+-+-+-+">And, drunk with gladness, to the door she goes,</l>
+        <l n="237" real="x+x+-xxxxx" met="-+-+-+-+-+">Where seeing a naked man, she screeched for fear</l>
+        <l n="238" real="xxxxx+-xxx" met="-+-+-+-+-+">(Such sights as this to tender maids are rare)</l>
+        <l n="239" real="xxxxxx-+xx" met="-+-+-+-+-+">And ran into the dark herself to hide.</l>
+        <l n="240" real="x+-xxxx+-x" met="-+-+-+-+-+">(Rich jewels in the dark are soonest spied).</l>
+        <l n="241" real="xxxxxxx+-x" met="-+-+-+-+-+">Unto her was he led, or rather drawn</l>
+        <l n="242" real="xxxxx+-xxx" met="-+-+-+-+-+">By those white limbs which sparkled through the lawn.</l>
+        <l n="243" real="x+-xxxxxxx" met="-+-+-+-+-+">The nearer that he came, the more she fled,</l>
+        <l n="244" real="x+-+-xxxxx" met="-+-+-+-+-+">And, seeking refuge, slipped into her bed.</l>
+        <l n="245" real="xx-+-+-x-+" met="-+-+-+-+-+">Whereon Leander sitting thus began,</l>
+        <l n="246" real="x+-xx+-xxx" met="-+-+-+-+-+">Through numbing cold, all feeble, faint, and wan.</l>
+        <l n="247" real="xxxxxxx+-x" met="-+-+-+-+-+">“If not for love, yet, love, for pity sake,</l>
+        <l n="248" real="xxxxx+-+-x" met="-+-+-+-+-+">Me in thy bed and maiden bosom take.</l>
+        <l n="249" real="xxxxxxx+-x" met="-+-+-+-+-+">At least vouchsafe these arms some little room,</l>
+        <l n="250" real="x+-x-+xxxx" met="-+-+-+-+-+">Who, hoping to embrace thee, cheerly swum.</l>
+        <l n="251" real="xxxxx+x+-+-" met="-+-+-+-+-+-">This head was beat with many a churlish billow,</l>
+        <l n="252" real="xxxxxxxxx+-" met="-+-+-+-+-+-">And therefore let it rest upon thy pillow.”</l>
+        <l n="253" real="++xxx+-x-+" met="-+-+-+-+-+">Herewith affrighted, Hero shrunk away,</l>
+        <l n="254" real="xxx++x-+-x" met="-+-+-+-+-+">And in her lukewarm place Leander lay,</l>
+        <l n="255" real="x+-xx+x+-x" met="-+-+-+-+-+">Whose lively heat, like fire from heaven fet,</l>
+        <l n="256" real="x+-xxxx+-x" met="-+-+-+-+-+">Would animate gross clay and higher set</l>
+        <l n="257" real="x+-xxx-+-x" met="-+-+-+-+-+">The drooping thoughts of base declining souls</l>
+        <l n="258" real="x+-x-+-+-x" met="-+-+-+-+-+">Than dreary Mars carousing nectar bowls.</l>
+        <l n="259" real="xxxxxxxxxx" met="-+-+-+-+-+">His hands he cast upon her like a snare.</l>
+        <l n="260" real="x+-xxxxxxx" met="-+-+-+-+-+">She, overcome with shame and sallow fear,</l>
+        <l n="261" real="xx-+-xxxxx" met="-+-+-+-+-+">Like chaste Diana when Actaeon spied her,</l>
+        <l n="262" real="++--+xxxxx" met="-+-+-+-+-+">Being suddenly betrayed, dived down to hide her.</l>
+        <l n="263" real="xxx+-+-+-x" met="-+-+-+-+-+">And, as her silver body downward went,</l>
+        <l n="264" real="xxxxxxxxxx" met="-+-+-+-+-+">With both her hands she made the bed a tent,</l>
+        <l n="265" real="xxxxxx-+-+" met="-+-+-+-+-+">And in her own mind thought herself secure,</l>
+        <l n="266" real="xxxxxxxxxx" met="-+-+-+-+-+">O’ercast with dim and darksome coverture.</l>
+        <l n="267" real="xxxxx+-xxx" met="-+-+-+-+-+">And now she lets him whisper in her ear,</l>
+        <l n="268" real="+-xx+-+xxx" met="-+-+-+-+-+">Flatter, entreat, promise, protest and swear;</l>
+        <l n="269" real="x+-xx+--x-" met="-+-+-+-+-+">Yet ever, as he greedily assayed</l>
+        <l n="270" real="xxxxxxxxx-" met="-+-+-+-+-+">To touch those dainties, she the harpy played,</l>
+        <l n="271" real="x+-xxxx+-x" met="-+-+-+-+-+">And every limb did, as a soldier stout,</l>
+        <l n="272" real="-+xxxxxxxx" met="-+-+-+-+-+">Defend the fort, and keep the foeman out.</l>
+        <l n="273" real="xxx+-+-xxx" met="-+-+-+-+-+">For though the rising ivory mount he scaled,</l>
+        <l n="274" real="xxx+-+-xxx" met="-+-+-+-+-+">Which is with azure circling lines empaled,</l>
+        <l n="275" real="xxxxxxxxxx" met="-+-+-+-+-+">Much like a globe (a globe may I term this,</l>
+        <l n="276" real="xxxxx+-xxx" met="-+-+-+-+-+">By which love sails to regions full of bliss)</l>
+        <l n="277" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet there with Sisyphus he toiled in vain,</l>
+        <l n="278" real="x+-+-xxx-+" met="-+-+-+-+-+">Till gentle parley did the truce obtain.</l>
+        <l n="279" real="xx-+-xx+-x" met="-+-+-+-+-+">Wherein Leander on her quivering breast</l>
+        <l n="280" real="+-x+-xxxxx" met="-+-+-+-+-+">Breathless spoke something, and sighed out the rest;</l>
+        <l n="281" real="xx-+xxxx-+" met="-+-+-+-+-+">Which so prevailed, as he with small ado</l>
+        <l n="282" real="-+xxxxxxxx" met="-+-+-+-+-+">Enclosed her in his arms and kissed her too.</l>
+        <l n="283" real="x+-xxxxxxx" met="-+-+-+-+-+">And every kiss to her was as a charm,</l>
+        <l n="284" real="xx-+-xxx-+" met="-+-+-+-+-+">And to Leander as a fresh alarm,</l>
+        <l n="285" real="xxxxxxxx-+" met="-+-+-+-+-+">So that the truce was broke and she, alas,</l>
+        <l n="286" real="x+-+-xx+-x" met="-+-+-+-+-+">(Poor silly maiden) at his mercy was.</l>
+        <l n="287" real="xxxxx+-xxx" met="-+-+-+-+-+">Love is not full of pity (as men say)</l>
+        <l n="288" real="xxx+-xxxxx" met="-+-+-+-+-+">But deaf and cruel where he means to prey.</l>
+        <l n="289" real="+xxxxx+xxx" met="-+-+-+-+-+">Even as a bird, which in our hands we wring,</l>
+        <l n="290" real="xxxxx+-xxx" met="-+-+-+-+-+">Forth plungeth and oft flutters with her wing,</l>
+        <l n="291" real="x+-xxxxxxx" met="-+-+-+-+-+">She trembling strove. This strife of hers (like that</l>
+        <l n="292" real="xxxx-+-x-+" met="-+-+-+-+-+">Which made the world) another world begat</l>
+        <l n="293" real="x-+x+-xxxx" met="-+-+-+-+-+">Of unknown joy. Treason was in her thought,</l>
+        <l n="294" real="xxxxxx-+xx" met="-+-+-+-+-+">And cunningly to yield herself she sought.</l>
+        <l n="295" real="+-xxxxxxxx" met="-+-+-+-+-+">Seeming not won, yet won she was at length.</l>
+        <l n="296" real="xxx+-xxxxx" met="-+-+-+-+-+">In such wars women use but half their strength.</l>
+        <l n="297" real="-+-xxxx+-x" met="-+-+-+-+-+">Leander now, like Theban Hercules,</l>
+        <l n="298" real="+--x+-xxxx" met="-+-+-+-+-+">Entered the orchard of th’ Hesperides;</l>
+        <l n="299" real="xxx+-x-+xx" met="-+-+-+-+-+">Whose fruit none rightly can describe but he</l>
+        <l n="300" real="xxxxxxx+-x" met="-+-+-+-+-+">That pulls or shakes it from the golden tree.</l>
+        <l n="301" real="xxxxxxx+-x" met="-+-+-+-+-+">And now she wished this night were never done,</l>
+        <l n="302" real="xxxxxx-+-x" met="-+-+-+-+-+">And sighed to think upon th’ approaching sun;</l>
+        <l n="303" real="xxxxxxxx+x" met="-+-+-+-+-+">For much it grieved her that the bright daylight</l>
+        <l n="304" real="xxx+-xxx-x" met="-+-+-+-+-+">Should know the pleasure of this blessed night,</l>
+        <l n="305" real="xxxxxxxx-+" met="-+-+-+-+-+">And them, like Mars and Erycine, display</l>
+        <l n="306" real="xxx+-xxxxx" met="-+-+-+-+-+">Both in each other’s arms chained as they lay.</l>
+        <l n="307" real="-+xxxxxxxx" met="-+-+-+-+-+">Again, she knew not how to frame her look,</l>
+        <l n="308" real="xxxxxxx+-x" met="-+-+-+-+-+">Or speak to him, who in a moment took</l>
+        <l n="309" real="xxxxxxxxxx" met="-+-+-+-+-+">That which so long so charily she kept,</l>
+        <l n="310" real="xxxx-+xxxx" met="-+-+-+-+-+">And fain by stealth away she would have crept,</l>
+        <l n="311" real="xxx+-+--xx" met="-+-+-+-+-+">And to some corner secretly have gone,</l>
+        <l n="312" real="+--+-xxx-+" met="-+-+-+-+-+">Leaving Leander in the bed alone.</l>
+        <l n="313" real="xxx+-xx+-x" met="-+-+-+-+-+">But as her naked feet were whipping out,</l>
+        <l n="314" real="xxx+-xxxxx" met="-+-+-+-+-+">He on the sudden clinged her so about,</l>
+        <l n="315" real="x+xxxxxxxx" met="-+-+-+-+-+">That, mermaid-like, unto the floor she slid.</l>
+        <l n="316" real="xx-+x+-xxx" met="-+-+-+-+-+">One half appeared, the other half was hid.</l>
+        <l n="317" real="xxxxx+-x-+" met="-+-+-+-+-+">Thus near the bed she blushing stood upright,</l>
+        <l n="318" real="xxx+---+xx" met="-+-+-+-+-+">And from her countenance behold ye might</l>
+        <l n="319" real="xxx+xxxxxx" met="-+-+-+-+-+">A kind of twilight break, which through the hair,</l>
+        <l n="320" real="xxx+-xxxxxx" met="-+-+-+-+-+-">As from an orient cloud, glimpsed here and there,</l>
+        <l n="321" real="xxxxx+-xxx" met="-+-+-+-+-+">And round about the chamber this false morn</l>
+        <l n="322" real="xxxxxxxxxx" met="-+-+-+-+-+">Brought forth the day before the day was born.</l>
+        <l n="323" real="x+-+-x+--+" met="-+-+-+-+-+">So Hero’s ruddy cheek Hero betrayed,</l>
+        <l n="324" real="xxx+-xxx-+" met="-+-+-+-+-+">And her all naked to his sight displayed,</l>
+        <l n="325" real="xx-+-xx+-x" met="-+-+-+-+-+">Whence his admiring eyes more pleasure took</l>
+        <l n="326" real="xxxxxx+-xx" met="-+-+-+-+-+">Than Dis, on heaps of gold fixing his look.</l>
+        <l n="327" real="xx-+-+-x-+" met="-+-+-+-+-+">By this, Apollo’s golden harp began</l>
+        <l n="328" real="xxx+-xx+-" met="+-+-+-+-+">To sound forth music to the ocean,</l>
+        <l n="329" real="x+-xxxx+-x" met="-+-+-+-+-+">Which watchful Hesperus no sooner heard</l>
+        <l n="330" real="xxxxx+-x-+" met="-+-+-+-+-+">But he the bright day-bearing car prepared</l>
+        <l n="331" real="xxxxx+--xx" met="-+-+-+-+-+">And ran before, as harbinger of light,</l>
+        <l n="332" real="xxx+-xx+-x" met="-+-+-+-+-+">And with his flaring beams mocked ugly night,</l>
+        <l n="333" real="xxxxx+-xxx" met="-+-+-+-+-+">Till she, o’ercome with anguish, shame, and rage,</l>
+        <l n="334" real="x-xxxx+-+-" met="-+-+-+-+-+">Danged down to hell her loathsome carriage.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

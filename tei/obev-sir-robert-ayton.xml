@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>To an Inconstant One, and other poems</title><author>Sir Robert Ayton</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="to-his-forsaken-mistress" n="L16003">
+      <head>To His Forsaken Mistress</head>
+      <idno type="URN">urn:laurel:eng:ayton.obev-sir-robert-ayton.pg66619:to-his-forsaken-mistress</idno><idno type="laurel-id">L16003</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xx-+xxxx" met="-+-+-+-+">I do confess thou’rt smooth and fair,</l>
+        <l n="2" real="xxxxxxxxx" met="-+-+-+-+-">And I might have gone near to love thee,</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">Had I not found the slightest prayer</l>
+        <l n="4" real="xxxxx+xxx" met="-+-+-+-+-">That lips could move, had power to move thee;</l>
+        <l n="5" real="xxxxxx-+" met="-+-+-+-+">But I can let thee now alone</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">As worthy to be loved by none.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xx-+xxxx" met="-+-+-+-+">I do confess thou’rt sweet; yet find</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">Thee such an unthrift of thy sweets,</l>
+        <l n="9" real="x+-xxxxx" met="-+-+-+-+">Thy favours are but like the wind</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">That kisseth everything it meets:</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">And since thou canst with more than one,</l>
+        <l n="12" real="x+-xxxxx" met="-+-+-+-+">Thou’rt worthy to be kiss’d by none.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="x+-xx-+x" met="-+-+-+-+">The morning rose that untouch’d stands</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Arm’d with her briers, how sweet she smells!</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">But pluck’d and strain’d through ruder hands,</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">Her sweets no longer with her dwells:</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">But scent and beauty both are gone,</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">And leaves fall from her, one by one.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc">
+        <l n="19" real="xxxxxx-+" met="-+-+-+-+">Such fate ere long will thee betide</l>
+        <l n="20" real="xxx+-x-+" met="-+-+-+-+">When thou hast handled been awhile,</l>
+        <l n="21" real="xx+xxx-+" met="-+-+-+-+">With sere flowers to be thrown aside;</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">And I shall sigh, while some will smile,</l>
+        <l n="23" real="xxxxx+-x" met="-+-+-+-+">To see thy love to every one</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">Hath brought thee to be loved by none.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-an-inconstant-one" n="L16004">
+      <head>To an Inconstant One</head>
+      <idno type="URN">urn:laurel:eng:ayton.obev-sir-robert-ayton.pg66619:to-an-inconstant-one</idno><idno type="laurel-id">L16004</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababccdd">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">I loved thee once; I’ll love no more--</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Thine be the grief as is the blame;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Thou art not what thou wast before,</l>
+        <l n="4" real="x+-xxxxx" met="-+-+-+-+">What reason I should be the same?</l>
+        <l n="5" real="xxxx-+-+" met="-+-+-+-+">He that can love unloved again,</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">Hath better store of love than brain:</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">God send me love my debts to pay,</l>
+        <l n="8" real="xxxxxx-+" met="-+-+-+-+">While unthrifts fool their love away!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababccdd">
+        <l n="9" real="+-xxxxxx" met="-+-+-+-+">Nothing could have my love o’erthrown</l>
+        <l n="10" real="xxxx-+-x" met="-+-+-+-+">If thou hadst still continued mine;</l>
+        <l n="11" real="xxxx-+xx" met="-+-+-+-+">Yea, if thou hadst remain’d thy own,</l>
+        <l n="12" real="xx-+xxxx" met="-+-+-+-+">I might perchance have yet been thine.</l>
+        <l n="13" real="xxx+-x-+" met="-+-+-+-+">But thou thy freedom didst recall</l>
+        <l n="14" real="xxxx+x-+" met="-+-+-+-+">That it thou might elsewhere enthral:</l>
+        <l n="15" real="xxxxxx-+" met="-+-+-+-+">And then how could I but disdain</l>
+        <l n="16" real="x+-+-x-+" met="-+-+-+-+">A captive’s captive to remain?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababccdd">
+        <l n="17" real="xx-+x+-x" met="-+-+-+-+">When new desires had conquer’d thee</l>
+        <l n="18" real="xxx+-xxx" met="-+-+-+-+">And changed the object of thy will,</l>
+        <l n="19" real="xxx+--xx" met="-+-+-+-+">It had been lethargy in me,</l>
+        <l n="20" real="x+--xxxx" met="-+-+-+-+">Not constancy, to love thee still.</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">Yea, it had been a sin to go</l>
+        <l n="22" real="x+-x-+-x" met="-+-+-+-+">And prostitute affection so:</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">Since we are taught no prayers to say</l>
+        <l n="24" real="xxxxx+-x" met="-+-+-+-+">To such as must to others pray.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababccdd">
+        <l n="25" real="xxx+-xxx" met="-+-+-+-+">Yet do thou glory in thy choice--</l>
+        <l n="26" real="xxxxx+-x" met="-+-+-+-+">Thy choice of his good fortune boast;</l>
+        <l n="27" real="x+-xxx-+" met="-+-+-+-+">I’ll neither grieve nor yet rejoice</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">To see him gain what I have lost:</l>
+        <l n="29" real="xxxx-+xx" met="-+-+-+-+">The height of my disdain shall be</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">To laugh at him, to blush for thee;</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">To love thee still, but go no more</l>
+        <l n="32" real="x+-xx+-x" met="-+-+-+-+">A-begging at a beggar’s door.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

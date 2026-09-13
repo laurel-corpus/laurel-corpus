@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Discipline, and other poems</title><author>George Herbert</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="virtue" n="L16063">
+      <head>Virtue</head>
+      <idno type="URN">urn:laurel:eng:herbert.obev-george-herbert.pg66619:virtue</idno><idno type="laurel-id">L16063</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Sweet day, so cool, so calm, so bright!</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">The bridal of the earth and sky--</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">The dew shall weep thy fall to-night;</l>
+        <l n="4" real="xxxx" met="--+-">For thou must die.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxx+-xx" met="-+-+-+-+">Sweet rose, whose hue angry and brave</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Bids the rash gazer wipe his eye,</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">Thy root is ever in its grave,</l>
+        <l n="8" real="xxxx" met="--+-">And thou must die.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxx+-" met="-+-+-+-+-">Sweet spring, full of sweet days and roses,</l>
+        <l n="10" real="xxxx-+-x" met="-+-+-+-+">A box where sweets compacted lie,</l>
+        <l n="11" real="x+-xxxx+-" met="-+-+-+-+-">My music shows ye have your closes,</l>
+        <l n="12" real="xxxx" met="--+-">And all must die.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="+-xxx+-x" met="-+-+-+-+">Only a sweet and virtuous soul,</l>
+        <l n="14" real="x+-+-+-x" met="-+-+-+-+">Like season’d timber, never gives;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">But though the whole world turn to coal,</l>
+        <l n="16" real="x+-x" met="--+-">Then chiefly lives.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="easter" n="L16064">
+      <head>Easter</head>
+      <idno type="URN">urn:laurel:eng:herbert.obev-george-herbert.pg66619:easter</idno><idno type="laurel-id">L16064</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+xxxx" met="-+-+-+-+">I got me flowers to straw Thy way,</l>
+        <l n="2" real="xxxxx+xx" met="-+-+-+-+">I got me boughs off many a tree;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">But Thou wast up by break of day,</l>
+        <l n="4" real="xxxx-+xx" met="-+-+-+-+">And brought’st Thy sweets along with Thee.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxx+xxxx" met="-+-+-+-+">Yet though my flowers be lost, they say</l>
+        <l n="6" real="xxx+-xxx" met="-+-+-+-+">A heart can never come too late;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Teach it to sing Thy praise this day.</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">And then this day my life shall date.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="discipline" n="L16065">
+      <head>Discipline</head>
+      <idno type="URN">urn:laurel:eng:herbert.obev-george-herbert.pg66619:discipline</idno><idno type="laurel-id">L16065</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x-+xx" met="-+-+-">Throw away Thy rod,</l>
+        <l n="2" real="x-+xx" met="-+-+-">Throw away Thy wrath;</l>
+        <l n="3" real="xxx" met="+-+">O my God,</l>
+        <l n="4" real="xx+-x" met="-+-+-">Take the gentle path!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx-+-" met="--+-+-">For my heart’s desire</l>
+        <l n="6" real="xxxxx" met="-+-+-">Unto Thine is bent:</l>
+        <l n="7" real="x-+" met="+-+">I aspire</l>
+        <l n="8" real="xxx-+" met="-+-+-">To a full consent.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxx" met="-+-+-">Not a word or look</l>
+        <l n="10" real="x-+xx" met="-+-+-">I affect to own,</l>
+        <l n="11" real="xxx" met="+-+">But by book,</l>
+        <l n="12" real="xxx-+" met="-+-+-">And Thy Book alone.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxx" met="-+-+-">Though I fail, I weep;</l>
+        <l n="14" real="xxxxx" met="-+-+-">Though I halt in pace,</l>
+        <l n="15" real="xxx" met="+-+">Yet I creep</l>
+        <l n="16" real="xxxxx" met="-+-+-">To the throne of grace.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxx-+" met="-+-+-">Then let wrath remove;</l>
+        <l n="18" real="xxxxx" met="-+-+-">Love will do the deed:</l>
+        <l n="19" real="xxx" met="+-+">For with love</l>
+        <l n="20" real="+-xxx" met="-+-+-">Stony hearts will bleed.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="21" real="xxxxx" met="-+-+-">Love is swift of foot;</l>
+        <l n="22" real="xxxxx" met="-+-+-">Love’s a man of war,</l>
+        <l n="23" real="xxx" met="+-+">And can shoot,</l>
+        <l n="24" real="xxxxx" met="-+-+-">And can hit from far.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxxxx" met="-+-+-">Who can ’scape his bow?</l>
+        <l n="26" real="xxxxx" met="-+-+-">That which wrought on Thee,</l>
+        <l n="27" real="xxx" met="+-+">Brought Thee low,</l>
+        <l n="28" real="xxxxx" met="-+-+-">Needs must work on me.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="x-+xx" met="-+-+-">Throw away Thy rod;</l>
+        <l n="30" real="xx+-x" met="-+-+-">Though man frailties hath,</l>
+        <l n="31" real="xxx" met="+-+">Thou art God:</l>
+        <l n="32" real="x-+xx" met="-+-+-">Throw away Thy wrath!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-dialogue" n="L16066">
+      <head>A Dialogue</head>
+      <idno type="URN">urn:laurel:eng:herbert.obev-george-herbert.pg66619:a-dialogue</idno><idno type="laurel-id">L16066</idno><note type="metre">trochaic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcccc">
+        <l n="1" real="x+-+-xxx" met="+--+-+--">_Man._ Sweetest Saviour, if my soul</l>
+        <l n="2" real="xxxx+-" met="+-+-+-">Were but worth the having,</l>
+        <l n="3" real="+-xxx-+" met="+-+-+--">Quickly should I then control</l>
+        <l n="4" real="+-xx+-" met="+-+-+-">Any thought of waving.</l>
+        <l n="5" real="xxxxxxx" met="+-+-+--">But when all my care and pains</l>
+        <l n="6" real="+-xxxxx" met="+-+-+--">Cannot give the name of gains</l>
+        <l n="7" real="xxxxxxx" met="+-+-+--">To Thy wretch so full of stains,</l>
+        <l n="8" real="x-+xx-+" met="+-+-+--">What delight or hope remains?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcccc">
+        <l n="9" real="+-xxxx+-x" met="+-+-+-+--">_Saviour._ What, child, is the balance thine,</l>
+        <l n="10" real="xxxx+-" met="+-+-+-">Thine the poise and measure?</l>
+        <l n="11" real="xxxxxxx" met="+-+-+--">If I say, ‘Thou shalt be Mine,’</l>
+        <l n="12" real="+-xx+-" met="+-+-+-">Finger not My treasure.</l>
+        <l n="13" real="xxxx+-x" met="+-+-+--">What the gains in having thee</l>
+        <l n="14" real="x-+x+-x" met="+-+-+--">Do amount to, only He</l>
+        <l n="15" real="xxxxxxx" met="+-+-+--">Who for man was sold can see</l>
+        <l n="16" real="x-+-+xx" met="+-+-+--">That transferr’d th’ accounts to Me.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcccc">
+        <l n="17" real="xxxxxxx+-" met="+-+-+-+--">_Man._ But as I can see no merit</l>
+        <l n="18" real="+-xx+-" met="+-+-+-">Leading to this favour,</l>
+        <l n="19" real="xxxxxxxx" met="+--+-+--">So the way to fit me for it</l>
+        <l n="20" real="xxxx+-" met="+-+-+-">Is beyond my savour.</l>
+        <l n="21" real="xx+-xxx" met="+-+-+--">As the reason, then, is Thine,</l>
+        <l n="22" real="xxxxxxx" met="+-+-+--">So the way is none of mine;</l>
+        <l n="23" real="x-+xx-+" met="+-+-+--">I disclaim the whole design;</l>
+        <l n="24" real="x-+xx-+" met="+-+-+--">Sin disclaims and I resign.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="25" real="+-xxxxxxx" met="+-+-+-+--">_Saviour._ That is all: if that I could</l>
+        <l n="26" real="xxxxxx" met="+-+-+-">Get without repining;</l>
+        <l n="27" real="xxxx+-x" met="+-+-+--">And My clay, My creature, would</l>
+        <l n="28" real="+-x-+-" met="+-+-+-">Follow My resigning;</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a-a">
+        <l n="29" real="xxxx+-x" met="+-+-+--">That as I did freely part</l>
+        <l n="30" real="xx+-x-+" met="+-+-+--">With My glory and desert,</l>
+        <l n="31" real="xxxxxxx" met="+-+-+--">Left all joys to feel all smart----</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="32" real="xxxxxxxx" met="+--+-+--">_Man._ Ah, no more! Thou break’st my heart!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-pulley" n="L16067">
+      <head>The Pulley</head>
+      <idno type="URN">urn:laurel:eng:herbert.obev-george-herbert.pg66619:the-pulley</idno><idno type="laurel-id">L16067</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababa">
+        <l n="1" real="xxxxxx" met="--+-+-">When God at first made Man,</l>
+        <l n="2" real="+-xxx+-+-x" met="-+-+-+-+-+">Having a glass of blessings standing by--</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Let us (said He) pour on him all we can;</l>
+        <l n="4" real="xxx+-xxxx" met="+-+-+-+-+">Let the world’s riches, which dispersèd lie,</l>
+        <l n="5" real="+xxxxx" met="--+-+-">Contract into a span.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababa">
+        <l n="6" real="xxxxxx" met="--+-+-">So strength first made a way,</l>
+        <l n="7" real="x+-xx+-+-+-" met="-+-+-+-+-+-">Then beauty flow’d, then wisdom, honour, pleasure:</l>
+        <l n="8" real="x+xxxxxxxx" met="-+-+-+-+-+">When almost all was out, God made a stay,</l>
+        <l n="9" real="-+-x-+xxx+-" met="-+-+-+-+-+-">Perceiving that, alone of all His treasure,</l>
+        <l n="10" real="xxx+-x" met="--+-+-">Rest in the bottom lay.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababa">
+        <l n="11" real="xxxxxx" met="--+-+-">For if I should (said He)</l>
+        <l n="12" real="-+x+-+-xx+-" met="-+-+-+-+-+-">Bestow this jewel also on My creature,</l>
+        <l n="13" real="xx-+xx-+xx" met="-+-+-+-+-+">He would adore My gifts instead of Me,</l>
+        <l n="14" real="xxx+-xxxx+-" met="-+-+-+-+-+-">And rest in Nature, not the God of Nature;</l>
+        <l n="15" real="xxx+-x" met="--+-+-">So both should losers be.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a---a">
+        <l n="16" real="xxxxxx" met="--+-+-">Yet let him keep the rest,</l>
+        <l n="17" real="xxxxxxx+--" met="-+-+-+-+-+">But keep them with repining restlessness;</l>
+        <l n="18" real="xxxxx+-xxx" met="-+-+-+-+-+">Let him be rich and weary, that at least,</l>
+        <l n="19" real="x+-xxxx+--" met="-+-+-+-+-+">If goodness lead him not, yet weariness</l>
+        <l n="20" real="xxxxxx" met="--+-+-">May toss him to My breast.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love" n="L16068">
+      <head>Love</head>
+      <idno type="URN">urn:laurel:eng:herbert.obev-george-herbert.pg66619:love</idno><idno type="laurel-id">L16068</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxx+-xxxxx" met="--+-+-+-+-">Love bade me welcome; yet my soul drew back,</l>
+        <l n="2" real="+-xxxx" met="-+-+-+">Guilty of dust and sin.</l>
+        <l n="3" real="xxxx-+-xxx" met="--+-+-+-+-">But quick-eyed Love, observing me grow slack</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">From my first entrance in,</l>
+        <l n="5" real="x+-xx+-+--" met="--+-+-+-+-">Drew nearer to me, sweetly questioning</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">If I lack’d anything.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxx+-+-xxx" met="--+-+-+-+-">‘A guest,’ I answer’d, ‘worthy to be here:’</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Love said, ‘You shall be he.’</l>
+        <l n="9" real="xx-+-+-xxx" met="--+-+-+-+-">‘I, the unkind, ungrateful? Ah, my dear,</l>
+        <l n="10" real="x+-xxx" met="-+-+-+">I cannot look on Thee.’</l>
+        <l n="11" real="xxxxx+-x-+" met="--+-+-+-+-">Love took my hand and smiling did reply,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">‘Who made the eyes but I?’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxxxxxxxxx" met="--+-+-+-+-">‘Truth, Lord; but I have marr’d them: let my shame</l>
+        <l n="14" real="xxxx-+" met="-+-+-+">Go where it doth deserve.’</l>
+        <l n="15" real="xxxxxxxxxx" met="--+-+-+-+-">‘And know you not,’ says Love, ‘Who bore the blame?’</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">‘My dear, then I will serve.’</l>
+        <l n="17" real="xxxxxxxxxx" met="--+-+-+-+-">‘You must sit down,’ says Love, ‘and taste my meat.’</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">So I did sit and eat.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

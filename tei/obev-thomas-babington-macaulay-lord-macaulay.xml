@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Jacobite’s Epitaph</title><author>Thomas Babington Macaulay, Lord Macaulay</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-jacobites-epitaph" n="L16200">
+      <head>A Jacobite’s Epitaph</head>
+      <idno type="URN">urn:laurel:eng:macaulay.obev-thomas-babington-macaulay-lord-macaulay.pg66619:a-jacobites-epitaph</idno><idno type="laurel-id">L16200</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhii">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">To my true king I offer’d free from stain</l>
+        <l n="2" real="+-xxxxx+-x" met="-+-+-+-+-+">Courage and faith; vain faith, and courage vain.</l>
+        <l n="3" real="xxxxx+-x-+" met="-+-+-+-+-+">For him I threw lands, honours, wealth, away,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">And one dear hope, that was more prized than they.</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">For him I languished in a foreign clime,</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">Gray-hair’d with sorrow in my manhood’s prime;</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Heard on Lavernia Scargill’s whispering trees,</l>
+        <l n="8" real="xxx+-xxxxxx" met="-+-+-+-+-+-">And pined by Arno for my lovelier Tees;</l>
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">Beheld each night my home in fever’d sleep,</l>
+        <l n="10" real="x+-+-xxxxx" met="-+-+-+-+-+">Each morning started from the dream to weep;</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Till God, who saw me tried too sorely, gave</l>
+        <l n="12" real="x+-xxxx+-x" met="-+-+-+-+-+">The resting-place I ask’d, an early grave.</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">O thou, whom chance leads to this nameless stone,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">From that proud country which was once mine own,</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">By those white cliffs I never more must see,</l>
+        <l n="16" real="xxx+-xxxxx" met="-+-+-+-+-+">By that dear language which I spake like thee,</l>
+        <l n="17" real="-+xxxxx+-x" met="-+-+-+-+-+">Forget all feuds, and shed one English tear</l>
+        <l n="18" real="x+-xx+-xxx" met="-+-+-+-+-+">O’er English dust. A broken heart lies here.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Half-asleep</title><author>Thomas Wade</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-half-asleep" n="L16210">
+      <head>The Half-asleep</head>
+      <idno type="URN">urn:laurel:eng:wade.obev-thomas-wade.pg66619:the-half-asleep</idno><idno type="laurel-id">L16210</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa-bacdcdcd">
+        <l n="1" real="xxx+-xxxx-+" met="-+-+-+-+-+-">O for the mighty wakening that aroused</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">The old-time Prophets to their missions high;</l>
+        <l n="3" real="xxx+-+-xxx" met="-+-+-+-+-+">And to blind Homer’s inward sunlike eye</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">Show’d the heart’s universe where he caroused</l>
+        <l n="5" real="xxxx+-xxx-" met="-+-+-+-+-+">Radiantly; the Fishers poor unhoused,</l>
+        <l n="6" real="xxxxxx-+--" met="-+-+-+-+-+">And sent them forth to preach divinity;</l>
+        <l n="7" real="xx++-xxx-+" met="-+-+-+-+-+">And made our Milton his great dark defy,</l>
+        <l n="8" real="xxxxx-+-x-+" met="-+-+-+-+-+-">To the light of one immortal theme espoused!</l>
+        <l n="9" real="xx-+xxxx-+" met="-+-+-+-+-+">But half asleep are those now most awake;</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">And save calm-thoughted Wordsworth, we have none</l>
+        <l n="11" real="xx-+--xxxx" met="-+-+-+-+-+">Who for eternity put time at stake,</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">And hold a constant course as doth the sun:</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">We yield but drops that no deep thirstings slake;</l>
+        <l n="14" real="x+-xxxxx-+" met="-+-+-+-+-+">And feebly cease ere we have well begun.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

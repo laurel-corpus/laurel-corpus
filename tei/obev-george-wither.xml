@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Choice, and other poems</title><author>George Wither</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="i-loved-a-lass" n="L16047">
+      <head>I loved a Lass</head>
+      <idno type="URN">urn:laurel:eng:wither.obev-george-wither.pg66619:i-loved-a-lass</idno><idno type="laurel-id">L16047</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab-c-c">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">I loved a lass, a fair one,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">As fair as e’er was seen;</l>
+        <l n="3" real="xx-+xxx" met="-+-+-+-">She was indeed a rare one,</l>
+        <l n="4" real="-+-+-x" met="-+-+-+">Another Sheba Queen:</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">But, fool as then I was,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">I thought she loved me too:</l>
+        <l n="7" real="xx-+xxx" met="-+-+-+-">But now, alas! she’s left me,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">_Falero, lero, loo_!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="xxxxxxx" met="-+-+-+-">Her hair like gold did glister,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">Each eye was like a star,</l>
+        <l n="11" real="xx-+x+-" met="-+-+-+-">She did surpass her sister,</l>
+        <l n="12" real="xxx+-x" met="-+-+-+">Which pass’d all others far;</l>
+        <l n="13" real="xxx+-x" met="-+-+-+">She would me honey call,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">She’d--O she’d kiss me too!</l>
+        <l n="15" real="xx-+xxx" met="-+-+-+-">But now, alas! she’s left me,</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">_Falero, lero, loo_!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab-c-c">
+        <l n="17" real="+-x+-+-" met="-+-+-+-">Many a merry meeting</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">My love and I have had;</l>
+        <l n="19" real="xxx+-+-" met="-+-+-+-">She was my only sweeting,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">She made my heart full glad;</l>
+        <l n="21" real="xxxxxx" met="-+-+-+">The tears stood in her eyes</l>
+        <l n="22" real="xxx+-x" met="-+-+-+">Like to the morning dew:</l>
+        <l n="23" real="xx-+xxx" met="-+-+-+-">But now, alas! she’s left me,</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">_Falero, lero, loo_!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab-c-c">
+        <l n="25" real="xxxxx+-" met="-+-+-+-">Her cheeks were like the cherry,</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">Her skin was white as snow;</l>
+        <l n="27" real="xxxxx+-" met="-+-+-+-">When she was blithe and merry</l>
+        <l n="28" real="x+-xxx" met="-+-+-+">She angel-like did show;</l>
+        <l n="29" real="xx-+-x" met="-+-+-+">Her waist exceeding small,</l>
+        <l n="30" real="xxxxxx" met="-+-+-+">The fives did fit her shoe:</l>
+        <l n="31" real="xx-+xxx" met="-+-+-+-">But now, alas! she’s left me,</l>
+        <l n="32" real="xxxxxx" met="-+-+-+">_Falero, lero, loo_!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a-b-b">
+        <l n="33" real="x+-xx+-" met="-+-+-+-">In summer time or winter</l>
+        <l n="34" real="xxxx-+-" met="-+-+-+-">She had her heart’s desire;</l>
+        <l n="35" real="xxxxxxx" met="-+-+-+-">I still did scorn to stint her</l>
+        <l n="36" real="x+-xx+-" met="-+-+-+-">From sugar, sack, or fire;</l>
+        <l n="37" real="xxxxxx" met="-+-+-+">The world went round about,</l>
+        <l n="38" real="xxx+-x" met="-+-+-+">No cares we ever knew:</l>
+        <l n="39" real="xx-+xxx" met="-+-+-+-">But now, alas! she’s left me,</l>
+        <l n="40" real="xxxxxx" met="-+-+-+">_Falero, lero, loo_!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-----a-a">
+        <l n="41" real="x+-xx+-" met="-+-+-+-">To maidens’ vows and swearing</l>
+        <l n="42" real="++x+-x" met="-+-+-+">Henceforth no credit give;</l>
+        <l n="43" real="xxxxx+-" met="-+-+-+-">You may give them the hearing.</l>
+        <l n="44" real="x+-x-+" met="-+-+-+">But never them believe;</l>
+        <l n="45" real="xxxxxx" met="-+-+-+">They are as false as fair,</l>
+        <l n="46" real="xxxx-+" met="-+-+-+">Unconstant, frail, untrue:</l>
+        <l n="47" real="xx-+xxx" met="-+-+-+-">For mine, alas! hath left me,</l>
+        <l n="48" real="xxxxxx" met="-+-+-+">_Falero, lero, loo_!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lovers-resolution" n="L16048">
+      <head>The Lover’s Resolution</head>
+      <idno type="URN">urn:laurel:eng:wither.obev-george-wither.pg66619:the-lovers-resolution</idno><idno type="laurel-id">L16048</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aaa-bbcc">
+        <l n="1" real="xx+-x-+" met="-+-+-+-">Shall I, wasting in despair,</l>
+        <l n="2" real="xxxx+-x" met="-+-+-+-">Die because a woman’s fair?</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">Or make pale my cheeks with care</l>
+        <l n="4" real="x-+-+-x" met="-+-+-+-">’Cause another’s rosy are?</l>
+        <l n="5" real="xx+-xxx" met="-+-+-+-">Be she fairer than the day,</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">Or the flow’ry meads in May,</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">If she think not well of me,</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">What care I how fair she be?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccdd">
+        <l n="9" real="xx+-xxx" met="-+-+-+-">Shall my silly heart be pined</l>
+        <l n="10" real="xxxx+-x" met="-+-+-+-">’Cause I see a woman kind?</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">Or a well disposèd nature</l>
+        <l n="12" real="xxx+-+-" met="-+-+-+-">Joinèd with a lovely feature?</l>
+        <l n="13" real="xx+-+-x" met="-+-+-+-">Be she meeker, kinder, than</l>
+        <l n="14" real="+-xx+--" met="-+-+-+-">Turtle-dove or pelican,</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">If she be not so to me,</l>
+        <l n="16" real="xxxxxxx" met="-+-+-+-">What care I how kind she be?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccdd">
+        <l n="17" real="xx+-+-x" met="-+-+-+-">Shall a woman’s virtues move</l>
+        <l n="18" real="xx+-xxx" met="-+-+-+-">Me to perish for her love?</l>
+        <l n="19" real="xxxxxxx" met="-+-+-+-">Or her well-deservings known</l>
+        <l n="20" real="xxx-+xx" met="-+-+-+-">Make me quite forget my own?</l>
+        <l n="21" real="xxxx+-x" met="-+-+-+-">Be she with that goodness blest</l>
+        <l n="22" real="xx+-xxx" met="-+-+-+-">Which may merit name of Best,</l>
+        <l n="23" real="xxxxxxx" met="-+-+-+-">If she be not such to me,</l>
+        <l n="24" real="xxxxxxx" met="-+-+-+-">What care I how good she be?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbccdd">
+        <l n="25" real="xx+-xxx" met="-+-+-+-">’Cause her fortune seems too high,</l>
+        <l n="26" real="xxxxxxx" met="-+-+-+-">Shall I play the fool and die?</l>
+        <l n="27" real="xxxx+-x" met="-+-+-+-">She that bears a noble mind,</l>
+        <l n="28" real="xx+-xxx" met="-+-+-+-">If not outward helps she find,</l>
+        <l n="29" real="xxxxxxx" met="-+-+-+-">Thinks what with them he would do</l>
+        <l n="30" real="xxxxxxx" met="-+-+-+-">That without them dares her woo;</l>
+        <l n="31" real="xxxxxxx" met="-+-+-+-">And unless that mind I see,</l>
+        <l n="32" real="xxxxxxx" met="-+-+-+-">What care I how great she be?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb--cc">
+        <l n="33" real="xxxxxxx" met="-+-+-+-">Great, or good, or kind, or fair,</l>
+        <l n="34" real="xxxxx-+" met="-+-+-+-">I will ne’er the more despair;</l>
+        <l n="35" real="xxxxx-+" met="-+-+-+-">If she love me, this believe,</l>
+        <l n="36" real="xxxxxxx" met="-+-+-+-">I will die ere she shall grieve;</l>
+        <l n="37" real="xxxxxxx" met="-+-+-+-">If she slight me when I woo,</l>
+        <l n="38" real="xxxxxxx" met="-+-+-+-">I can scorn and let her go;</l>
+        <l n="39" real="xxxxxxx" met="-+-+-+-">For if she be not for me,</l>
+        <l n="40" real="xxxxxxx" met="-+-+-+-">What care I for whom she be?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-choice" n="L16049">
+      <head>The Choice</head>
+      <idno type="URN">urn:laurel:eng:wither.obev-george-wither.pg66619:the-choice</idno><idno type="laurel-id">L16049</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgg">
+        <l n="1" real="xxxx+-x" met="-+-+-+-">Me so oft my fancy drew</l>
+        <l n="2" real="xxxxxxx" met="-+-+-+-">Here and there, that I ne’er knew</l>
+        <l n="3" real="xxx-+xx" met="-+-+-+-">Where to place desire before</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">So that range it might no more;</l>
+        <l n="5" real="xxxxxxx" met="-+-+-+-">But as he that passeth by</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">Where, in all her jollity,</l>
+        <l n="7" real="xx+-xxx" met="-+-+-+-">Flora’s riches in a row</l>
+        <l n="8" real="xxxx+-x" met="-+-+-+-">Do in seemly order grow,</l>
+        <l n="9" real="xx+-+-x" met="-+-+-+-">And a thousand flowers stand</l>
+        <l n="10" real="+-xxxxx" met="-+-+-+-">Bending as to kiss his hand;</l>
+        <l n="11" real="xxx-+-x" met="-+-+-+-">Out of which delightful store</l>
+        <l n="12" real="xxxxxxx" met="-+-+-+-">One he may take and no more;</l>
+        <l n="13" real="xx+-xxxx" met="--+-+-+-">Long he pausing doubteth whether</l>
+        <l n="14" real="xxxxxx+-" met="--+-+-+-">Of those fair ones he should gather.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeff">
+        <l n="15" real="xx+xxxx" met="-+-+-+-">First the Primrose courts his eyes,</l>
+        <l n="16" real="xx+-xx" met="-+-+-+">Then the Cowslip he espies;</l>
+        <l n="17" real="xx+-xxxx" met="--+-+-+-">Next the Pansy seems to woo him,</l>
+        <l n="18" real="x-+-xxxx" met="--+-+-+-">Then Carnations bow unto him;</l>
+        <l n="19" real="xxxxxxx" met="-+-+-+-">Which whilst that enamour’d swain</l>
+        <l n="20" real="xxx-+xx" met="-+-+-+-">From the stalk intends to strain,</l>
+        <l n="21" real="xx+-xxx" met="-+-+-+-">(As half-fearing to be seen)</l>
+        <l n="22" real="xxxxxxx" met="-+-+-+-">Prettily her leaves between</l>
+        <l n="23" real="xx+-xxx" met="-+-+-+-">Peeps the Violet, pale to see</l>
+        <l n="24" real="xx+-+-x" met="-+-+-+-">That her virtues slighted be;</l>
+        <l n="25" real="xxxx+-x" met="-+-+-+-">Which so much his liking wins</l>
+        <l n="26" real="xxxxx-+" met="-+-+-+-">That to seize her he begins.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa--bbccddeeff">
+        <l n="27" real="xxxxxxx" met="-+-+-+-">Yet before he stoop’d so low</l>
+        <l n="28" real="xx+-xxx" met="-+-+-+-">He his wanton eye did throw</l>
+        <l n="29" real="xxxxxxx" met="-+-+-+-">On a stem that grew more high,</l>
+        <l n="30" real="xxxxx+-" met="-+-+-+-">And the Rose did there espy.</l>
+        <l n="31" real="x-+x+-x" met="-+-+-+-">Who, beside her previous scent,</l>
+        <l n="32" real="x-+xx-+" met="-+-+-+-">To procure his eyes content</l>
+        <l n="33" real="x-+x+-x" met="-+-+-+-">Did display her goodly breast,</l>
+        <l n="34" real="xxxxxxx" met="-+-+-+-">Where he found at full exprest</l>
+        <l n="35" real="xxxx+-+-" met="--+-+-+-">All the good that Nature showers</l>
+        <l n="36" real="xx+-+-+-" met="--+-+-+-">On a thousand other flowers;</l>
+        <l n="37" real="xxxx-+-xx" met="-+-+-+-+-">Wherewith he affected takes it,</l>
+        <l n="38" real="xxx+xxx" met="-+-+-+-">His belovèd flower he makes it,</l>
+        <l n="39" real="xxx-+xx" met="-+-+-+-">And without desire of more</l>
+        <l n="40" real="xxxxxxx" met="-+-+-+-">Walks through all he saw before.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabbccdd--eeffgg-ghhii">
+        <l n="41" real="xxxxxxxxx" met="-+-+-+-+-">So I wand’ring but erewhile</l>
+        <l n="42" real="xx+-xxx" met="-+-+-+-">Through the garden of this Isle,</l>
+        <l n="43" real="xx+-x-+" met="-+-+-+-">Saw rich beauties, I confess,</l>
+        <l n="44" real="xx+-xxx" met="-+-+-+-">And in number numberless.</l>
+        <l n="45" real="xx+-+-x" met="-+-+-+-">Yea, so differing lovely too,</l>
+        <l n="46" real="xxxxxxx" met="-+-+-+-">That I had a world to do</l>
+        <l n="47" real="xxxxxxx" met="-+-+-+-">Ere I could set up my rest,</l>
+        <l n="48" real="xxxxxxx" met="-+-+-+-">Where to choose and choose the best.</l>
+        <l n="49" real="xx+-xxx" met="-+-+-+-">Thus I fondly fear’d, till Fate</l>
+        <l n="50" real="xxx-+xx" met="-+-+-+-">(Which I must confess in that</l>
+        <l n="51" real="xx+-+-xx" met="--+-+-+-">Did a greater favour to me</l>
+        <l n="52" real="xxxx+-xx" met="--+-+-+-">Than the world can malice do me)</l>
+        <l n="53" real="xxxxxx+-" met="--+-+-+-">Show’d to me that matchless flower.</l>
+        <l n="54" real="+-xxxx+-" met="--+-+-+-">Subject for this song of our;</l>
+        <l n="55" real="x-+-+-x" met="-+-+-+-">Whose perfection having eyed,</l>
+        <l n="56" real="+-+--x" met="-+-+-+">Reason instantly espied</l>
+        <l n="57" real="x-+xx-+" met="-+-+-+-">That Desire, which ranged abroad,</l>
+        <l n="58" real="xxxx+--" met="-+-+-+-">There would find a period:</l>
+        <l n="59" real="xx+-xxx" met="-+-+-+-">And no marvel if it might,</l>
+        <l n="60" real="xxxxx-+" met="-+-+-+-">For it there hath all delight,</l>
+        <l n="61" real="xxxx+-x" met="-+-+-+-">And in her hath nature placed</l>
+        <l n="62" real="xx+-xxx" met="-+-+-+-">What each several fair one graced.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabbccddee">
+        <l n="63" real="xxxxx-+" met="-+-+-+-">Let who list, for me, advance</l>
+        <l n="64" real="xxx+-xx" met="-+-+-+-">The admirèd flowers of France,</l>
+        <l n="65" real="xxxxx-+" met="-+-+-+-">Let who will praise and behold</l>
+        <l n="66" real="xxx+-x" met="-+-+-+">The reservèd Marigold;</l>
+        <l n="67" real="xxxx+-x" met="-+-+-+-">Let the sweet-breath’d Violet now</l>
+        <l n="68" real="xxxxxxx" met="-+-+-+-">Unto whom she pleaseth bow;</l>
+        <l n="69" real="xx+-+-x" met="-+-+-+-">And the fairest Lily spread</l>
+        <l n="70" real="xxxx+-x" met="-+-+-+-">Where she will her golden head;</l>
+        <l n="71" real="xxxx+xx" met="-+-+-+-">I have such a flower to wear</l>
+        <l n="72" real="xxxxxxx" met="-+-+-+-">That for those I do not care.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa----bb----cc--">
+        <l n="73" real="xxxx+-x" met="-+-+-+-">Let the young and happy swains</l>
+        <l n="74" real="+-xx+-x" met="-+-+-+-">Playing on the Britain plains</l>
+        <l n="75" real="xxxxxxxx" met="--+-+-+-">Court unblamed their shepherdesses,</l>
+        <l n="76" real="xxxxx+-" met="-+-+-+-">And with their gold curlèd tresses</l>
+        <l n="77" real="xxxxxxx" met="-+-+-+-">Toy uncensured, until I</l>
+        <l n="78" real="xxx-+--" met="-+-+-+-">Grudge at their prosperity.</l>
+        <l n="79" real="xxxx+-x" met="-+-+-+-">Let all times, both present, past,</l>
+        <l n="80" real="xxxxxxx" met="-+-+-+-">And the age that shall be last,</l>
+        <l n="81" real="xx+-xxx" met="-+-+-+-">Vaunt the beauties they bring forth.</l>
+        <l n="82" real="xxxxxxx" met="-+-+-+-">I have found in one such worth,</l>
+        <l n="83" real="x-+x+-x" met="-+-+-+-">That content I neither care</l>
+        <l n="84" real="xxxxxxx" met="-+-+-+-">What the best before me were;</l>
+        <l n="85" real="x-+xxxx" met="-+-+-+-">Nor desire to live and see</l>
+        <l n="86" real="xxx-+-x" met="-+-+-+-">Who shall fair hereafter be;</l>
+        <l n="87" real="xxxxxx+-" met="--+-+-+-">For I know the hand of Nature</l>
+        <l n="88" real="xxxx+-+-" met="--+-+-+-">Will not make a fairer creature.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-widows-hymn" n="L16050">
+      <head>A Widow’s Hymn</head>
+      <idno type="URN">urn:laurel:eng:wither.obev-george-wither.pg66619:a-widows-hymn</idno><idno type="laurel-id">L16050</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab----">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">How near me came the hand of Death,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">When at my side he struck my dear,</l>
+        <l n="3" real="xx-+x+-x" met="-+-+-+-+">And took away the precious breath</l>
+        <l n="4" real="x+-xxxx" met="+-+-+-+">Which quicken’d my belovèd peer!</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">How helpless am I thereby made!</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">By day how grieved, by night how sad!</l>
+        <l n="7" real="xxxx-+xx" met="-+-+-+-+">And now my life’s delight is gone,</l>
+        <l n="8" real="-+xxxx-+" met="-+-+-+-+">--Alas! how am I left alone!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a----a">
+        <l n="9" real="xxxxxx-+" met="-+-+-+-+">The voice which I did more esteem</l>
+        <l n="10" real="x+-xx+-x" met="-+-+-+-+">Than music in her sweetest key,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Those eyes which unto me did seem</l>
+        <l n="12" real="x+---xxx" met="-+-+-+-+">More comfortable than the day;</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Those now by me, as they have been,</l>
+        <l n="14" real="x+-xxxxx" met="-+-+-+-+">Shall never more be heard or seen;</l>
+        <l n="15" real="xxxx-+xx" met="-+-+-+-+">But what I once enjoy’d in them</l>
+        <l n="16" real="xx-+-xxx" met="-+-+-+-+">Shall seem hereafter as a dream.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababccdd">
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">Lord! keep me faithful to the trust</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">Which my dear spouse reposed in me:</l>
+        <l n="19" real="xxxx-+xx" met="-+-+-+-+">To him now dead preserve me just</l>
+        <l n="20" real="xxxxxxx" met="+-+-+-+">In all that should performèd be!</l>
+        <l n="21" real="xx++-xxx" met="-+-+-+-+">For though our being man and wife</l>
+        <l n="22" real="xxx+-xxx" met="-+-+-+-+">Extendeth only to this life,</l>
+        <l n="23" real="x+-xxxxx" met="-+-+-+-+">Yet neither life nor death should end</l>
+        <l n="24" real="x+-xx+-x" met="-+-+-+-+">The being of a faithful friend.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

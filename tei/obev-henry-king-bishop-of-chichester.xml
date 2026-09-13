@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Exequy on his Wife, and other poems</title><author>Henry King, Bishop of Chichester</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-contemplation-upon-flowers" n="L16060">
+      <head>A Contemplation upon Flowers</head>
+      <idno type="URN">urn:laurel:eng:chichester.obev-henry-king-bishop-of-chichester.pg66619:a-contemplation-upon-flowers</idno><idno type="laurel-id">L16060</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-abb">
+        <l n="1" real="x+xxx+-xxx" met="-+-+-+-+-+">Brave flowers--that I could gallant it like you,</l>
+        <l n="2" real="xxx+-x" met="--+-+-">And be as little vain!</l>
+        <l n="3" real="xx-+xxx+-x" met="-+-+-+-+-+">You come abroad, and make a harmless show,</l>
+        <l n="4" real="xxxxxx-+" met="--+-+-+-">And to your beds of earth again.</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">You are not proud: you know your birth:</l>
+        <l n="6" real="xx-+-+-xxx" met="-+-+-+-+-+">For your embroider’d garments are from earth.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xx-+xxxxxx" met="-+-+-+-+-+">You do obey your months and times, but I</l>
+        <l n="8" real="xxx+-x" met="--+-+-">Would have it ever Spring:</l>
+        <l n="9" real="xxxxx+-+-x" met="-+-+-+-+-+">My fate would know no Winter, never die,</l>
+        <l n="10" real="xxxxxx" met="--+-+-">Nor think of such a thing.</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">O that I could my bed of earth but view</l>
+        <l n="12" real="xxxxx+--xx" met="-+-+-+-+-+">And smile, and look as cheerfully as you!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">O teach me to see Death and not to fear,</l>
+        <l n="14" real="x+-xxx" met="--+-+-">But rather to take truce!</l>
+        <l n="15" real="x+-xxxxxxx" met="-+-+-+-+-+">How often have I seen you at a bier,</l>
+        <l n="16" real="xxxxxx" met="--+-+-">And there look fresh and spruce!</l>
+        <l n="17" real="x+-+xxxxxx" met="-+-+-+-+-+">You fragrant flowers! then teach me, that my breath</l>
+        <l n="18" real="xxx+-x-+xx" met="-+-+-+-+-+">Like yours may sweeten and perfume my death.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-renunciation" n="L16061">
+      <head>A Renunciation</head>
+      <idno type="URN">urn:laurel:eng:chichester.obev-henry-king-bishop-of-chichester.pg66619:a-renunciation</idno><idno type="laurel-id">L16061</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhii">
+        <l n="1" real="xxx+-+-xxx" met="-+-+-+-+-+">We, that did nothing study but the way</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">To love each other, with which thoughts the day</l>
+        <l n="3" real="xx-+xxxxxx" met="-+-+-+-+-+">Rose with delight to us and with them set,</l>
+        <l n="4" real="xxx+-xxx-+" met="-+-+-+-+-+">Must learn the hateful art, how to forget.</l>
+        <l n="5" real="xxx+-xx+xx" met="-+-+-+-+-+">We, that did nothing wish that Heaven could give</l>
+        <l n="6" real="xx-+xx-+xx" met="-+-+-+-+-+">Beyond ourselves, nor did desire to live</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Beyond that wish, all these now cancel must,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">As if not writ in faith, but words and dust.</l>
+        <l n="9" real="x+-xxxx+-x" met="-+-+-+-+-+">Yet witness those clear vows which lovers make,</l>
+        <l n="10" real="+-xx-+x+-x" met="-+-+-+-+-+">Witness the chaste desires that never brake</l>
+        <l n="11" real="xx-+-x+-xx" met="-+-+-+-+-+">Into unruly heats; witness that breast</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">Which in thy bosom anchor’d his whole rest--</l>
+        <l n="13" real="xx-+xxxxxx" met="-+-+-+-+-+">’Tis no default in us: I dare acquite</l>
+        <l n="14" real="x+-xx+-xxx" met="-+-+-+-+-+">Thy maiden faith, thy purpose fair and white</l>
+        <l n="15" real="xxxxx+-xx" met="+-+-+-+-+">As thy pure self. Cross planets did envý</l>
+        <l n="16" real="xxx+-x+x-+" met="-+-+-+-+-+">Us to each other, and Heaven did untie</l>
+        <l n="17" real="+-xxxxxxxx" met="-+-+-+-+-+">Faster than vows could bind. Oh, that the stars,</l>
+        <l n="18" real="x+-xxx-+xx" met="-+-+-+-+-+">When lovers meet, should stand opposed in wars!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgg">
+        <l n="19" real="xxx+-+---+" met="-+-+-+-+-+">Since then some higher Destinies command,</l>
+        <l n="20" real="xxxxx+xx-+" met="-+-+-+-+-+">Let us not strive, nor labour to withstand</l>
+        <l n="21" real="xxxxx+-xxx" met="-+-+-+-+-+">What is past help. The longest date of grief</l>
+        <l n="22" real="x+xxxx+--+" met="-+-+-+-+-+">Can never yield a hope of our relief:</l>
+        <l n="23" real="xx+xxx++-x" met="-+-+-+-+-+">Fold back our arms; take home our fruitless loves,</l>
+        <l n="24" real="xxx+-xx+-x" met="-+-+-+-+-+">That must new fortunes try, like turtle-doves</l>
+        <l n="25" real="xxxxxxxxx" met="+-+-+-+-+">Dislodgèd from their haunts. We must in tears</l>
+        <l n="26" real="-+xxxxx+-x" met="-+-+-+-+-+">Unwind a love knit up in many years.</l>
+        <l n="27" real="xxxxxx-+-x" met="-+-+-+-+-+">In this last kiss I here surrender thee</l>
+        <l n="28" real="xxxxxx-+xx" met="-+-+-+-+-+">Back to thyself.--So, thou again art free:</l>
+        <l n="29" real="xx-+-xxxxx" met="-+-+-+-+-+">Thou in another, sad as that, resend</l>
+        <l n="30" real="x+-xx+-xxx" met="-+-+-+-+-+">The truest heart that lover e’er did lend.</l>
+        <l n="31" real="xxxxxx++-x" met="-+-+-+-+-+">Now turn from each: so fare our sever’d hearts</l>
+        <l n="32" real="xx-+xxx+-x" met="-+-+-+-+-+">As the divorced soul from her body parts.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="exequy-on-his-wife" n="L16062">
+      <head>Exequy on his Wife</head>
+      <idno type="URN">urn:laurel:eng:chichester.obev-henry-king-bishop-of-chichester.pg66619:exequy-on-his-wife</idno><idno type="laurel-id">L16062</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghh--iijjii--kkllmmnnoopp------qqrrssttuuvv--wwxx--yyzzaabbccddeeff-egghhiijj--kk">
+        <l n="1" real="-+xxxxxx" met="-+-+-+-+">Accept, thou shrine of my dead saint,</l>
+        <l n="2" real="-+xxxx-+" met="-+-+-+-+">Instead of dirges this complaint;</l>
+        <l n="3" real="xxx+xxxx" met="-+-+-+-+">And for sweet flowers to crown thy herse</l>
+        <l n="4" real="-+xxx+-x" met="-+-+-+-+">Receive a strew of weeping verse</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">From thy grieved friend, whom thou might’st see</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">Quite melted into tears for thee.</l>
+        <l n="7" real="xxxx-+-x" met="-+-+-+-+">Dear loss! since thy untimely fate,</l>
+        <l n="8" real="xxxxx+-x" met="-+-+-+-+">My task hath been to meditate</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">On thee, on thee! Thou art the book,</l>
+        <l n="10" real="x+x-xxxx" met="-+-+-+-+">The library whereon I look,</l>
+        <l n="11" real="x+xxxxxx" met="-+-+-+-+">Tho’ almost blind. For thee, loved clay,</l>
+        <l n="12" real="x+-xxxxx" met="-+-+-+-+">I languish out, not live, the day....</l>
+        <l n="13" real="xx-+-xxx" met="-+-+-+-+">Thou hast benighted me; thy set</l>
+        <l n="14" real="xxx+-x-+" met="-+-+-+-+">This eve of blackness did beget,</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">Who wast my day (tho’ overcast</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Before thou hadst thy noontide past):</l>
+        <l n="17" real="xx-+-xxx" met="-+-+-+-+">And I remember must in tears</l>
+        <l n="18" real="xxxxx+-x" met="-+-+-+-+">Thou scarce hadst seen so many years</l>
+        <l n="19" real="xxx+xxxx" met="-+-+-+-+">As day tells hours. By thy clear sun</l>
+        <l n="20" real="xxx+-xxx" met="-+-+-+-+">My love and fortune first did run;</l>
+        <l n="21" real="xxx+-x-+" met="-+-+-+-+">But thou wilt never more appear</l>
+        <l n="22" real="+-xxx+-x" met="-+-+-+-+">Folded within my hemisphere,</l>
+        <l n="23" real="xxxxx+-" met="+-+-+-+">Since both thy light and motion,</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">Like a fled star, is fall’n and gone,</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">And ’twixt me and my soul’s dear wish</l>
+        <l n="26" real="xxxxxxx" met="+-+-+-+">The earth now interposèd is....</l>
+        <l n="27" real="xx-+xxxx" met="-+-+-+-+">I could allow thee for a time</l>
+        <l n="28" real="x+-xxxxx" met="-+-+-+-+">To darken me and my sad clime;</l>
+        <l n="29" real="xxxxxxxx" met="-+-+-+-+">Were it a month, a year, or ten,</l>
+        <l n="30" real="xxx+xxxx" met="-+-+-+-+">I would thy exile live till then,</l>
+        <l n="31" real="xxxxxx-+" met="-+-+-+-+">And all that space my mirth adjourn--</l>
+        <l n="32" real="xxx+-x-+" met="-+-+-+-+">So thou wouldst promise to return,</l>
+        <l n="33" real="x+-xx+-x" met="-+-+-+-+">And putting off thy ashy shroud</l>
+        <l n="34" real="xx-+x+-x" met="-+-+-+-+">At length disperse this sorrow’s cloud.</l>
+        <l n="35" real="xxxxx+-x" met="-+-+-+-+">But woe is me! the longest date</l>
+        <l n="36" real="x+-xx+-x" met="-+-+-+-+">Too narrow is to calculate</l>
+        <l n="37" real="x+-x+-xx" met="-+-+-+-+">These empty hopes: never shall I</l>
+        <l n="38" real="xxxxxxxx" met="-+-+-+-+">Be so much blest as to descry</l>
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">A glimpse of thee, till that day come</l>
+        <l n="40" real="xxxxx+-x" met="-+-+-+-+">Which shall the earth to cinders doom,</l>
+        <l n="41" real="xxx+-xxx" met="-+-+-+-+">And a fierce fever must calcine</l>
+        <l n="42" real="x+-xxxxx" met="-+-+-+-+">The body of this world--like thine,</l>
+        <l n="43" real="x+-xxxx+-" met="-+-+-+-+-">My little world! That fit of fire</l>
+        <l n="44" real="xx++-x-+" met="-+-+-+-+">Once off, our bodies shall aspire</l>
+        <l n="45" real="x+xxxxxx" met="-+-+-+-+">To our souls’ bliss: then we shall rise</l>
+        <l n="46" real="xx-+x+-x" met="-+-+-+-+">And view ourselves with clearer eyes</l>
+        <l n="47" real="xxx+-xxx" met="-+-+-+-+">In that calm region where no night</l>
+        <l n="48" real="xxxxx+-x" met="-+-+-+-+">Can hide us from each other’s sight.</l>
+        <l n="49" real="+xxxxxxx" met="-+-+-+-+">Meantime thou hast her, earth: much good</l>
+        <l n="50" real="xxxxxxxx" met="-+-+-+-+">May my harm do thee! Since it stood</l>
+        <l n="51" real="x+-xxxxx" met="-+-+-+-+">With Heaven’s will I might not call</l>
+        <l n="52" real="x+-xxxxx" met="-+-+-+-+">Her longer mine, I give thee all</l>
+        <l n="53" real="xxx-xx+-" met="-+-+-+-+">My short-lived right and interest</l>
+        <l n="54" real="xxx+-xxx" met="-+-+-+-+">In her whom living I loved best.</l>
+        <l n="55" real="xxxxxxxx" met="-+-+-+-+">Be kind to her, and prithee look</l>
+        <l n="56" real="xxxxx+xx" met="-+-+-+-+">Thou write into thy Doomsday book</l>
+        <l n="57" real="x+-xx+--" met="-+-+-+-+">Each parcel of this rarity</l>
+        <l n="58" real="xxx+-xxx" met="-+-+-+-+">Which in thy casket shrined doth lie,</l>
+        <l n="59" real="xxx+-xxx" met="-+-+-+-+">As thou wilt answer Him that lent--</l>
+        <l n="60" real="xxxxx+--" met="-+-+-+-+">Not gave--thee my dear monument.</l>
+        <l n="61" real="xxxxxxxx" met="-+-+-+-+">So close the ground, and ’bout her shade</l>
+        <l n="62" real="x+-xxxxx" met="-+-+-+-+">Black curtains draw: my bride is laid.</l>
+        <l n="63" real="xxxxxxxx" met="-+-+-+-+">Sleep on, my Love, in thy cold bed</l>
+        <l n="64" real="+-xxxxx" met="+-+-+-+">Never to be disquieted!</l>
+        <l n="65" real="xxxxxxxx" met="-+-+-+-+">My last good-night! Thou wilt not wake</l>
+        <l n="66" real="xxxxx+-x" met="-+-+-+-+">Till I thy fate shall overtake:</l>
+        <l n="67" real="xxxxx+-x" met="-+-+-+-+">Till age, or grief, or sickness must</l>
+        <l n="68" real="+-x+-xxx" met="-+-+-+-+">Marry my body to that dust</l>
+        <l n="69" real="xxxxxxxx" met="-+-+-+-+">It so much loves; and fill the room</l>
+        <l n="70" real="xxx+-xxx" met="-+-+-+-+">My heart keeps empty in thy tomb.</l>
+        <l n="71" real="xxxxxxxx" met="-+-+-+-+">Stay for me there: I will not fail</l>
+        <l n="72" real="xxxxx+-x" met="-+-+-+-+">To meet thee in that hollow vale.</l>
+        <l n="73" real="xxxxxx-+" met="-+-+-+-+">And think not much of my delay:</l>
+        <l n="74" real="xx-+-xxx" met="-+-+-+-+">I am already on the way,</l>
+        <l n="75" real="x+-xxxxx" met="-+-+-+-+">And follow thee with all the speed</l>
+        <l n="76" real="-+xxx+-x" met="-+-+-+-+">Desire can make, or sorrows breed.</l>
+        <l n="77" real="x+-xxx-+" met="-+-+-+-+">Each minute is a short degree</l>
+        <l n="78" real="x+-+xxxx" met="-+-+-+-+">And every hour a step towards thee....</l>
+        <l n="79" real="xxxxxxxx" met="-+-+-+-+">’Tis true--with shame and grief I yield--</l>
+        <l n="80" real="xxxxxxxx" met="-+-+-+-+">Thou, like the van, first took’st the field;</l>
+        <l n="81" real="x+-xx+--" met="-+-+-+-+">And gotten hast the victory</l>
+        <l n="82" real="xxxxxxxx" met="-+-+-+-+">In thus adventuring to die</l>
+        <l n="83" real="xxxxxxxx" met="-+-+-+-+">Before me, whose more years might crave</l>
+        <l n="84" real="xx+--xxx" met="-+-+-+-+">A just precedence in the grave.</l>
+        <l n="85" real="xxxxxxxx" met="-+-+-+-+">But hark! my pulse, like a soft drum,</l>
+        <l n="86" real="xx-+xxxx" met="-+-+-+-+">Beats my approach, tells thee I come;</l>
+        <l n="87" real="xxxxx+-x" met="-+-+-+-+">And slow howe’er my marches be</l>
+        <l n="88" real="xxxxxxxx" met="-+-+-+-+">I shall at last sit down by thee.</l>
+        <l n="89" real="xxxxxxxx" met="-+-+-+-+">The thought of this bids me go on</l>
+        <l n="90" real="xxxx-+-" met="+-+-+-+">And wait my dissolution</l>
+        <l n="91" real="xxx+-x-+" met="-+-+-+-+">With hope and comfort. Dear--forgive</l>
+        <l n="92" real="xxxx+-xx" met="-+-+-+-+">The crime--I am content to live</l>
+        <l n="93" real="-+-xxxxx" met="-+-+-+-+">Divided, with but half a heart,</l>
+        <l n="94" real="xxxxx+-x" met="-+-+-+-+">Till we shall meet and never part.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

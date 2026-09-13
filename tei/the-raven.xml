@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Raven</title><author>Edgar Allan Poe</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Raven. Project Gutenberg ebook #1065. <ref target="https://www.gutenberg.org/ebooks/1065">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="poem" n="L00173">
+      <head>The Raven</head>
+      <idno type="URN">urn:laurel:eng:poe.the-raven.pg1065:poem</idno><idno type="laurel-id">L00173</idno><note type="metre">trochaic octameter</note>
+      <lg type="stanza" n="1" rhyme="abcbbb">
+        <l n="1" real="xxxx+x+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">Once upon a midnight dreary, while I pondered, weak and weary,</l>
+        <l n="2" real="x+-xxx+--+-x-+-x" met="+-+-+-+-+-+-+-+-">Over many a quaint and curious volume of forgotten lore—</l>
+        <l n="3" real="xx+-+-+-+--xxx+-" met="+-+-+-+-+-+-+-+-">While I nodded, nearly napping, suddenly there came a tapping,</l>
+        <l n="4" real="xxxx+-+-+-xx+-x" met="+-+-+-+-+-+-+-+">As of some one gently rapping, rapping at my chamber door.</l>
+        <l n="5" real="xxxxxx+--+-xx+-x" met="+-+-+-+-+-+-+-+-">“’Tis some visiter,” I muttered, “tapping at my chamber door—</l>
+        <l n="6" real="+-xx+-x" met="+-+-+--">Only this and nothing more.”</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcbbb">
+        <l n="7" real="x-+-x-+-xxxxx-+-" met="+-+-+-+-+-+-+-+-">Ah, distinctly I remember it was in the bleak December,</l>
+        <l n="8" real="xx+--+-+-xxxxxxx" met="+-+-+-+-+-+-+-+-">And each separate dying ember wrought its ghost upon the floor.</l>
+        <l n="9" real="+--xxx+-+-xxxx+x" met="+-+-+-+-+-+-+-+-">Eagerly I wished the morrow;—vainly I had sought to borrow</l>
+        <l n="10" real="xxxxxx+-+-xxxxx" met="+-+-+-+-+-+-+-+">From my books surcease of sorrow—sorrow for the lost Lenore—</l>
+        <l n="11" real="xxxx+--+-xx+-xxx" met="+-+-+-+-+-+-+-+-">For the rare and radiant maiden whom the angels name Lenore—</l>
+        <l n="12" real="+-xx+-x" met="+-+-+--">Nameless here for evermore.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abcbbb">
+        <l n="13" real="xx+-x-+-+-xx+-+-" met="+-+-+-+-+-+-+-+-">And the silken sad uncertain rustling of each purple curtain</l>
+        <l n="14" real="x-xxxx-+-+-+-xxx" met="+-+-+-+-+-+-+-+-">Thrilled me—filled me with fantastic terrors never felt before;</l>
+        <l n="15" real="xxxxxx+-xxxxx-+-" met="+-+-+-+-+-+-+-+-">So that now, to still the beating of my heart, I stood repeating</l>
+        <l n="16" real="xxxxxxxx+-xx+-x" met="+-+-+-+-+-+-+-+">“’Tis some visiter entreating entrance at my chamber door—</l>
+        <l n="17" real="xxxxxxxx+-xx+-x" met="+-+-+-+-+-+-+-+">Some late visiter entreating entrance at my chamber door;</l>
+        <l n="18" real="xxxx+-x" met="+-+-+--">This it is and nothing more.”</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abcbbb">
+        <l n="19" real="+--xxx+-+-x-xx+-" met="+-+-+-+-+-+-+-+-">Presently my soul grew stronger; hesitating then no longer,</l>
+        <l n="20" real="xxxx+-+-x-+-x-+" met="+-+-+-+-+-+-+-+">“Sir,” said I, “or Madam, truly your forgiveness I implore;</l>
+        <l n="21" real="xxxxxx+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">But the fact is I was napping, and so gently you came rapping,</l>
+        <l n="22" real="xx+-xx+-+-xx+-x" met="+-+-+-+-+-+-+-+">And so faintly you came tapping, tapping at my chamber door,</l>
+        <l n="23" real="xxxxxxxxxx+--xxx" met="+-+-+-+-+-+-+-+-">That I scarce was sure I heard you”—here I opened wide the door—</l>
+        <l n="24" real="+-xx+-x" met="+-+-+--">Darkness there and nothing more.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abcbbb">
+        <l n="25" real="xxxx+-+-xxxx+--+-" met="+-+-+-+-+-+-+-+--">Deep into that darkness peering, long I stood there wondering, fearing,</l>
+        <l n="26" real="+-+-xx+-+-x-xxxx" met="+-+-+-+-+-+-+-+-">Doubting, dreaming dreams no mortals ever dared to dream before;</l>
+        <l n="27" real="xx+-x-+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">But the silence was unbroken, and the stillness gave no token,</l>
+        <l n="28" real="xx+-xx+-xx+--xxx" met="+-+-+-+-+-+-+-+-">And the only word there spoken was the whispered word, “Lenore?”</l>
+        <l n="29" real="xx+--xx+-+-xxxxx" met="+-+-+-+-+-+-+-+-">This I whispered, and an echo murmured back the word, “Lenore!”—</l>
+        <l n="30" real="+-xx+-x" met="+-+-+--">Merely this and nothing more.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abcbbb">
+        <l n="31" real="xxxx+-+-xxxxxx+-" met="+-+-+-+-+-+-+-+-">Back into the chamber turning, all my soul within me burning,</l>
+        <l n="32" real="x-+xxx+-+-+-xxx" met="+-+-+-+-+-+-+-+">Soon again I heard a tapping something louder than before.</l>
+        <l n="33" real="+-xx+-xx+-xx+-+-" met="+-+-+-+-+-+-+-+-">“Surely,” said I, “surely that is something at my window lattice;</l>
+        <l n="34" real="xxxxxxxxxx+---+" met="+-+-+-+-+-+-+-+">Let me see, then, what thereat is and this mystery explore—</l>
+        <l n="35" real="xxxxxx+-xx+---+" met="+-+-+-+-+-+-+-+">Let my heart be still a moment and this mystery explore;—</l>
+        <l n="36" real="xxxx+-x" met="+-+-+--">’Tis the wind and nothing more.”</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abcbbb">
+        <l n="37" real="+-xxxx+-xx+-xxx+-" met="+-+-+-+-+-+-+-+--">Open here I flung the shutter, when, with many a flirt and flutter,</l>
+        <l n="38" real="xxx-x+-+-xx+-xxx" met="+-+-+-+-+-+-+-+-">In there stepped a stately Raven of the saintly days of yore.</l>
+        <l n="39" real="xxxxxxxxxx+-xxxx" met="+-+-+-+-+-+-+-+-">Not the least obeisance made he; not a minute stopped or stayed he,</l>
+        <l n="40" real="xxxxxx+-x-xxx+-x" met="+-+-+-+-+-+-+-+-">But, with mien of lord or lady, perched above my chamber door—</l>
+        <l n="41" real="x-xxxxxxxxxxx+-x" met="+-+-+-+-+-+-+-+-">Perched upon a bust of Pallas just above my chamber door—</l>
+        <l n="42" real="xxxx+-x" met="+-+-+--">Perched, and sat, and nothing more.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abcbbb">
+        <l n="43" real="xx+--x-+-xx+-xx+-" met="+-+-+-+-+-+-+-+--">Then the ebony bird beguiling my sad fancy into smiling,</l>
+        <l n="44" real="xxxxx-+-xx+--xx" met="+-+-+-+-+-+-+-+">By the grave and stern decorum of the countenance it wore,</l>
+        <l n="45" real="xxxxxx+-xxxxxx+-" met="+-+-+-+-+-+-+-+-">“Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,</l>
+        <l n="46" real="+-xx+-+-+--xx+-x" met="+-+-+-+-+-+-+-+-">Ghastly grim and ancient Raven wandering from the Nightly shore—</l>
+        <l n="47" real="xxxxxxxxxxx-+--x" met="+-+-+-+-+-+-+-+-">Tell me what thy lordly name is on the Night’s Plutonian shore!”</l>
+        <l n="48" real="xx+-+-x" met="+-+-+--">Quoth the Raven, “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abcbbb">
+        <l n="49" real="xxxxx-+-xxx+-x+-" met="+-+-+-+-+-+-+-+-">Much I marvelled this ungainly fowl to hear discourse so plainly,</l>
+        <l n="50" real="xx+-+-+-+-+---x" met="+-+-+-+-+-+-+-+">Though its answer little meaning—little relevancy bore;</l>
+        <l n="51" real="xx+-x-+-xx+-+-+-" met="+-+-+-+-+-+-+-+-">For we cannot help agreeing that no living human being</l>
+        <l n="52" real="+-xxx-x+-xxxx+-x" met="+-+-+-+-+-+-+-+-">Ever yet was blessed with seeing bird above his chamber door—</l>
+        <l n="53" real="xxxxxx+--xxxx+-x" met="+-+-+-+-+-+-+-+-">Bird or beast upon the sculptured bust above his chamber door,</l>
+        <l n="54" real="xxxx+-x" met="+-+-+--">With such name as “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abcbbb">
+        <l n="55" real="xx+-+-+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">But the Raven, sitting lonely on that placid bust, spoke only</l>
+        <l n="56" real="xxxxxxxxxxxxxx+" met="+-+-+-+-+-+-+-+">That one word, as if its soul in that one word he did outpour</l>
+        <l n="57" real="+-+-xx+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">Nothing farther then he uttered; not a feather then he fluttered—</l>
+        <l n="58" real="xx+-xx+--+-xxxxx" met="+-+-+-+-+-+-+-+-">Till I scarcely more than muttered: “Other friends have flown before—</l>
+        <l n="59" real="xx+-xxxxxxxxxxx" met="+-+-+-+-+-+-+-+">On the morrow he will leave me, as my Hopes have flown before.”</l>
+        <l n="60" real="xxxx+-x" met="+-+-+--">Then the bird said “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abcbbb">
+        <l n="61" real="+-xx+-+-x-+x+-+-" met="+-+-+-+-+-+-+-+-">Startled at the stillness broken by reply so aptly spoken,</l>
+        <l n="62" real="+-xxxx+-xx+-xxx" met="+-+-+-+-+-+-+-+">“Doubtless,” said I, “what it utters is its only stock and store,</l>
+        <l n="63" real="xxx-+-+-xxxxx-+-" met="+-+-+-+-+-+-+-+-">Caught from some unhappy master whom unmerciful Disaster</l>
+        <l n="64" real="+--xx+-+-xxxx+-x" met="+-+-+-+-+-+-+-+-">Followed fast and followed faster till his songs one burden bore—</l>
+        <l n="65" real="xxxxxxxx+-x-+-x" met="+-+-+-+-+-+-+-+">Till the dirges of his Hope that melancholy burden bore</l>
+        <l n="66" real="x+-+-x" met="+--+--">Of ‘Never—nevermore.’”</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abcbbb">
+        <l n="67" real="xx+-x-+-xxxxxx+-" met="+-+-+-+-+-+-+-+-">But the Raven still beguiling all my sad soul into smiling,</l>
+        <l n="68" real="xxx-x+-xxxxxxxxx" met="+-+-+-+-+-+-+-+-">Straight I wheeled a cushioned seat in front of bird and bust and door;</l>
+        <l n="69" real="xxxx+-+-xxxx+x+-" met="+-+-+-+-+-+-+-+-">Then, upon the velvet sinking, I betook myself to linking</l>
+        <l n="70" real="+-xx+-+-xx+--xxx" met="+-+-+-+-+-+-+-+-">Fancy unto fancy, thinking what this ominous bird of yore—</l>
+        <l n="71" real="xxx-+-+-xx+--xxx" met="+-+-+-+-+-+-+-+-">What this grim, ungainly, ghastly, gaunt, and ominous bird of yore</l>
+        <l n="72" real="xx+-+-x" met="+-+-+--">Meant in croaking “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abcbbb">
+        <l n="73" real="xxx-+x+-xx+---+-" met="+-+-+-+-+-+-+-+-">This I sat engaged in guessing, but no syllable expressing</l>
+        <l n="74" real="xxxx+--xxxxxxxxx" met="+-+-+-+-+-+-+-+-">To the fowl whose fiery eyes now burned into my bosom’s core;</l>
+        <l n="75" real="xxxxx-+-xxxxx-+-" met="+-+-+-+-+-+-+-+-">This and more I sat divining, with my head at ease reclining</l>
+        <l n="76" real="xx+-+-+-xxxx+-x" met="+-+-+-+-+-+-+-+">On the cushion’s velvet lining that the lamp-light gloated o’er,</l>
+        <l n="77" real="xx+-+--+-xxxx+-x" met="+-+-+-+-+-+-+-+-">But whose velvet violet lining with the lamp-light gloating o’er</l>
+        <l n="78" real="xxxx+-x" met="+-+-+--">She shall press, ah, nevermore!</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abcbbb">
+        <l n="79" real="xxxxxx+--+xx-++-" met="+-+-+-+-+-+-+-+-">Then, methought, the air grew denser, perfumed from an unseen censer</l>
+        <l n="80" real="xxxxxxxx+--xx+-x" met="+-+-+-+-+-+-+-+-">Swung by Seraphim whose foot-falls tinkled on the tufted floor.</l>
+        <l n="81" real="xxxxxxxxxx+-xxxx" met="+-+-+-+-+-+-+-+-">“Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee</l>
+        <l n="82" real="+-+-xxxxx+--xxx" met="+-+-+-+-+-+-+-+">Respite—respite and nepenthe from thy memories of Lenore!</l>
+        <l n="83" real="xxxxxxxx-+xxxx" met="+--+-+-+-+-+--">Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”</l>
+        <l n="84" real="xx+-+-x" met="+-+-+--">Quoth the Raven, “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abcbbb">
+        <l n="85" real="+-xxxx+-+-xxxx+-" met="+-+-+-+-+-+-+-+-">“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—</l>
+        <l n="86" real="xxxxxxxx+-x-xx-+" met="+-+-+-+-+-+-+-+-">Whether Tempter sent, or whether tempest tossed thee here ashore,</l>
+        <l n="87" real="+-xxx-+-xx+-x-+-" met="+-+-+-+-+-+-+-+-">Desolate, yet all undaunted, on this desert land enchanted—</l>
+        <l n="88" real="xxxx+-+-xx+-x-+" met="+-+-+-+-+-+-+-+">On this home by Horror haunted—tell me truly, I implore—</l>
+        <l n="89" real="xxxxxx-+xxxxx-+" met="+-+-+-+-+-+-+-+">Is there—is there balm in Gilead?—tell me—tell me, I implore!”</l>
+        <l n="90" real="xx+-+-x" met="+-+-+--">Quoth the Raven, “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abcbbb">
+        <l n="91" real="+-xxxx+-+-xxxx+-" met="+-+-+-+-+-+-+-+-">“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!</l>
+        <l n="92" real="xx+-xxxxxxxxxx-+" met="+-+-+-+-+-+-+-+-">By that Heaven that bends above us—by that God we both adore—</l>
+        <l n="93" real="xxxx+-+-xxxx+-xx" met="+-+-+-+-+-+-+-+-">Tell this soul with sorrow laden if, within the distant Aidenn,</l>
+        <l n="94" real="xxxx+-+-xx+-xxx" met="+-+-+-+-+-+-+-+">It shall clasp a sainted maiden whom the angels name Lenore—</l>
+        <l n="95" real="xxxx+--+-xx+-xxx" met="+-+-+-+-+-+-+-+-">Clasp a rare and radiant maiden whom the angels name Lenore.”</l>
+        <l n="96" real="xx+-+-x" met="+-+-+--">Quoth the Raven, “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abcbbb">
+        <l n="97" real="xx+-xx+-xxxxxxxx" met="+-+-+-+-+-+-+-+-">“Be that our sign of parting, bird or fiend!” I shrieked, upstarting—</l>
+        <l n="98" real="xxxxxx+-xxx-+--x" met="+-+-+-+-+-+-+-+-">“Get thee back into the tempest and the Night’s Plutonian shore!</l>
+        <l n="99" real="xxxxxx+-xxxxxx+-" met="+-+-+-+-+-+-+-+-">Leave no black plume as a token of that lie thy soul has spoken!</l>
+        <l n="100" real="xx+---+-xxxxxxx" met="+-+-+-+-+-+-+-+">Leave my loneliness unbroken!—quit the bust above my door!</l>
+        <l n="101" real="xxxxxxxxxxxxxxx" met="+-+-+-+-+-+-+-+">Take thy beak from out my heart, and take thy form from off my door!”</l>
+        <l n="102" real="xx+-+-x" met="+-+-+--">Quoth the Raven, “Nevermore.”</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abcbbb">
+        <l n="103" real="xx+-+-+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">And the Raven, never flitting, still is sitting, still is sitting</l>
+        <l n="104" real="xx+-xxxxxxxx+-x" met="+-+-+-+-+-+-+-+">On the pallid bust of Pallas just above my chamber door;</l>
+        <l n="105" real="xxxxxx+-xx+-xx+-" met="+-+-+-+-+-+-+-+-">And his eyes have all the seeming of a demon’s that is dreaming</l>
+        <l n="106" real="xxxxxx+-xx+xxxx" met="+-+-+-+-+-+-+-+">And the lamp-light o’er him streaming throws his shadows on the floor;</l>
+        <l n="107" real="xxxxxx+xxx+-xxx" met="+-+-+-+-+-+-+-+">And my soul from out that shadow that lies floating on the floor</l>
+        <l n="108" real="xx+-+-x" met="+-+-+--">Shall be lifted—nevermore!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

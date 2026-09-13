@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Meet We no Angels, Pansie?, and other poems</title><author>Thomas Ashe</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="meet-we-no-angels-pansie" n="L16249">
+      <head>Meet We no Angels, Pansie?</head>
+      <idno type="URN">urn:laurel:eng:ashe.obev-thomas-ashe.pg66619:meet-we-no-angels-pansie</idno><idno type="laurel-id">L16249</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a-a--">
+        <l n="1" real="xxx+-xxx" met="--+-+-+-">Came, on a Sabbath noon, my sweet,</l>
+        <l n="2" real="xxxxx+-" met="-+-+-+-">In white, to find her lover;</l>
+        <l n="3" real="xxxxxxxx" met="--+-+-+-">The grass grew proud beneath her feet,</l>
+        <l n="4" real="xxxxxxx" met="-+-+-+-">The green elm-leaves above her:--</l>
+        <l n="5" real="xxx+-xx" met="-+-+-+-">Meet we no angels, Pansie?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a--">
+        <l n="6" real="xxxxx+-x" met="--+-+-+-">She said, ‘We meet no angels now’;</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">And soft lights stream’d upon her;</l>
+        <l n="8" real="xxxxxxxx" met="--+-+-+-">And with white hand she touch’d a bough;</l>
+        <l n="9" real="xxxxx+-" met="-+-+-+-">She did it that great honour:--</l>
+        <l n="10" real="xxx+-xx" met="-+-+-+-">What! meet no angels, Pansie?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a--">
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">O sweet brown hat, brown hair, brown eyes,</l>
+        <l n="12" real="xxxxx+-" met="-+-+-+-">Down-dropp’d brown eyes, so tender!</l>
+        <l n="13" real="xxxx+--+" met="--+-+-+-">Then what said I? Gallant replies</l>
+        <l n="14" real="x+-x-+x" met="-+-+-+-">Seem flattery, and offend her:--</l>
+        <l n="15" real="xxx+-xx" met="-+-+-+-">But--meet no angels, Pansie?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-two-bereaved" n="L16250">
+      <head>To Two Bereaved</head>
+      <idno type="URN">urn:laurel:eng:ashe.obev-thomas-ashe.pg66619:to-two-bereaved</idno><idno type="laurel-id">L16250</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddee">
+        <l n="1" real="xxxxxxxxx+-" met="-+-+-+-+-+-">You must be sad; for though it is to Heaven,</l>
+        <l n="2" real="xxxxx+-xx+-" met="-+-+-+-+-+-">’Tis hard to yield a little girl of seven.</l>
+        <l n="3" real="-+xxxxxxxx" met="-+-+-+-+-+">Alas, for me ’tis hard my grief to rule,</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">Who only met her as she went to school;</l>
+        <l n="5" real="x+-xx+-xxx" met="-+-+-+-+-+">Who never heard the little lips so sweet</l>
+        <l n="6" real="x+x+-x+xxx" met="-+-+-+-+-+">Say even ‘Good-morning,’ though our eyes would meet</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">As whose would fain be friends! How must you sigh,</l>
+        <l n="8" real="xxxxx+xxxx" met="-+-+-+-+-+">Sick for your loss, when even so sad am I,</l>
+        <l n="9" real="x+-xxxx+-x" met="-+-+-+-+-+">Who never clasp’d the small hands any day!</l>
+        <l n="10" real="x+xxx+-xxx" met="-+-+-+-+-+">Fair flowers thrive round the little grave, I pray.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

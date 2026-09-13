@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Bride</title><author>Henry Alford</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-bride" n="L16218">
+      <head>The Bride</head>
+      <idno type="URN">urn:laurel:eng:alford.obev-henry-alford.pg66619:the-bride</idno><idno type="laurel-id">L16218</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aa-bccb-d-dee">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">‘Rise,’ said the Master, ‘come unto the feast.’</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">She heard the call and rose with willing feet;</l>
+        <l n="3" real="x+-xx+-xxx" met="-+-+-+-+-+">But thinking it not otherwise than meet</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">For such a bidding to put on her best,</l>
+        <l n="5" real="xxxxxxxxx+-" met="-+-+-+-+-+-">She is gone from us for a few short hours</l>
+        <l n="6" real="xxx+-+-xxx" met="-+-+-+-+-+">Into her bridal closet, there to wait</l>
+        <l n="7" real="xx-+-xx+-x" met="-+-+-+-+-+">For the unfolding of the palace gate</l>
+        <l n="8" real="xxx+-xx+-+-" met="-+-+-+-+-+-">That gives her entrance to the blissful bowers.</l>
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">We have not seen her yet, though we have been</l>
+        <l n="10" real="x+-xx+-xxx" met="-+-+-+-+-+">Full often to her chamber door, and oft</l>
+        <l n="11" real="x+-x-+xxxx" met="-+-+-+-+-+">Have listen’d underneath the postern green,</l>
+        <l n="12" real="xxx+x+-xxx" met="-+-+-+-+-+">And laid fresh flowers, and whisper’d short and soft.</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">But she hath made no answer, and the day</l>
+        <l n="14" real="xxxxx+-x-+" met="-+-+-+-+-+">From the clear west is fading fast away.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

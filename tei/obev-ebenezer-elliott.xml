@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Battle Song, and other poems</title><author>Ebenezer Elliott</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="battle-song" n="L16182">
+      <head>Battle Song</head>
+      <idno type="URN">urn:laurel:eng:elliott.obev-ebenezer-elliott.pg66619:battle-song</idno><idno type="laurel-id">L16182</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd-e-efgfghihij-j-klklmnmnopop">
+        <l n="1" real="xx+-xx+-x" met="-+-+-+-+-">Day, like our souls, is fiercely dark;</l>
+        <l n="2" real="xxxx" met="--+-">What then? ’Tis day!</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">We sleep no more; the cock crows--hark!</l>
+        <l n="4" real="xx-+" met="--+-">To arms! away!</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">They come! they come! the knell is rung</l>
+        <l n="6" real="xxxx" met="--+-">Of us or them;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Wide o’er their march the pomp is flung</l>
+        <l n="8" real="xxxx" met="--+-">Of gold and gem.</l>
+        <l n="9" real="x+-xx+-x" met="-+-+-+-+">What collar’d hound of lawless sway,</l>
+        <l n="10" real="x+-x" met="--+-">To famine dear--</l>
+        <l n="11" real="xxxxx-+-" met="-+-+-+-+">What pensioned slave of Attila,</l>
+        <l n="12" real="xxxx" met="--+-">Leads in the rear?</l>
+        <l n="13" real="xxx+--x-+" met="-+-+-+-+-">Come they from Scythian wilds afar,</l>
+        <l n="14" real="+-xxx" met="-+-+-">Our blood to spill?</l>
+        <l n="15" real="xxx+--xxx" met="-+-+-+-+-">Wear they the livery of the Czar?</l>
+        <l n="16" real="xxxx" met="--+-">They do his will.</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Nor tassell’d silk, nor epaulet,</l>
+        <l n="18" real="xxxx" met="--+-">Nor plume, nor torse--</l>
+        <l n="19" real="x+-xx+-x" met="-+-+-+-+">No splendour gilds, all sternly met,</l>
+        <l n="20" real="+-xxx" met="-+-+-">Our foot and horse.</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">But, dark and still, we inly glow,</l>
+        <l n="22" real="-+xx" met="--+-">Condensed in ire!</l>
+        <l n="23" real="x+-xxxxx" met="-+-+-+-+">Strike, tawdry slaves, and ye shall know</l>
+        <l n="24" real="+-xx+-" met="--+-+-">Our gloom is fire.</l>
+        <l n="25" real="xxxxx+-+-" met="-+-+-+-+-">In vain your pomp, ye evil powers,</l>
+        <l n="26" real="-+xx" met="--+-">Insults the land;</l>
+        <l n="27" real="x+-xxxx+-" met="-+-+-+-+-">Wrongs, vengeance, and the Cause are ours,</l>
+        <l n="28" real="xxxx" met="--+-">And God’s right hand!</l>
+        <l n="29" real="+-x+-xxx" met="-+-+-+-+">Madmen! they trample into snakes</l>
+        <l n="30" real="xxxx" met="--+-">The wormy clod!</l>
+        <l n="31" real="x+-xxxxxx" met="-+-+-+-+-">Like fire, beneath their feet awakes</l>
+        <l n="32" real="xxxx" met="--+-">The sword of God!</l>
+        <l n="33" real="xxxxxxxx" met="-+-+-+-+">Behind, before, above, below,</l>
+        <l n="34" real="xxxx" met="--+-">They rouse the brave;</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">Where’er they go, they make a foe,</l>
+        <l n="36" real="xxxx" met="--+-">Or find a grave.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="plaint" n="L16183">
+      <head>Plaint</head>
+      <idno type="URN">urn:laurel:eng:elliott.obev-ebenezer-elliott.pg66619:plaint</idno><idno type="laurel-id">L16183</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aaa">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Dark, deep, and cold the current flows</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Unto the sea where no wind blows,</l>
+        <l n="3" real="+-xxxxxx" met="-+-+-+-+">Seeking the land which no one knows.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa">
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">O’er its sad gloom still comes and goes</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">The mingled wail of friends and foes,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Borne to the land which no one knows.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaa">
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Why shrieks for help yon wretch, who goes</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">With millions, from a world of woes,</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Unto the land which no one knows?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaa">
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Though myriads go with him who goes,</l>
+        <l n="11" real="-+xxxxxx" met="-+-+-+-+">Alone he goes where no wind blows,</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">Unto the land which no one knows.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aaa">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">For all must go where no wind blows,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">And none can go for him who goes;</l>
+        <l n="15" real="xx-+xxxx" met="-+-+-+-+">None, none return whence no one knows.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aaa">
+        <l n="16" real="xxxxx+-x" met="-+-+-+-+">Yet why should he who shrieking goes</l>
+        <l n="17" real="x+-xxxxx" met="-+-+-+-+">With millions, from a world of woes,</l>
+        <l n="18" real="-+-xxxxx" met="-+-+-+-+">Reunion seek with it or those?</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aaa">
+        <l n="19" real="-+xxxxxx" met="-+-+-+-+">Alone with God, where no wind blows,</l>
+        <l n="20" real="xxx+xxxx" met="-+-+-+-+">And Death, his shadow--doom’d, he goes.</l>
+        <l n="21" real="xxxxx+xx" met="-+-+-+-+">That God is there the shadow shows.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aaa">
+        <l n="22" real="xxxxxxxxx" met="-+-+-+-+-">O shoreless Deep, where no wind blows!</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">And thou, O Land which no one knows!</l>
+        <l n="24" real="xxxxx+xx" met="-+-+-+-+">That God is All, His shadow shows.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

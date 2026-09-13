@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Coronemus nos Rosis antequam marcescant</title><author>Thomas Jordan</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="coronemus-nos-rosis-antequam-marcescant" n="L16096">
+      <head>Coronemus nos Rosis antequam marcescant</head>
+      <idno type="URN">urn:laurel:eng:jordan.obev-thomas-jordan.pg66619:coronemus-nos-rosis-antequam-marcescant</idno><idno type="laurel-id">L16096</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aab-bcc">
+        <l n="1" real="xxxxx+-xxx-+" met="--+--+--+--+">Let us drink and be merry, dance, joke, and rejoice,</l>
+        <l n="2" real="xxxx+-xxxx" met="+--+--+--+">With claret and sherry, theorbo and voice!</l>
+        <l n="3" real="x+--xx+-xx-+" met="--+--+--+--+">The changeable world to our joy is unjust,</l>
+        <l n="4" real="x+--+-" met="--+--+">All treasure’s uncertain,</l>
+        <l n="5" real="xxxxx" met="-+--+">Then down with your dust!</l>
+        <l n="6" real="xxx-+xx+-xx" met="-+--+--+--+">In frolics dispose your pounds, shillings, and pence,</l>
+        <l n="7" real="xxxx+-x+-xx" met="-+--+--+--+">For we shall be nothing a hundred years hence.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aab-bcc">
+        <l n="8" real="xxxxxxx+-x+-" met="--+--+--+--+">We’ll sport and be free with Moll, Betty, and Dolly,</l>
+        <l n="9" real="x+-x+-xx+-x-" met="--+--+--+--+">Have oysters and lobsters to cure melancholy:</l>
+        <l n="10" real="x+-xxxxxxxx" met="-+--+--+--+">Fish-dinners will make a man spring like a flea,</l>
+        <l n="11" real="x+-x+-" met="--+--+">Dame Venus, love’s lady,</l>
+        <l n="12" real="xxxxx" met="-+--+">Was born of the sea;</l>
+        <l n="13" real="xxxx+-x+-xx" met="-+--+--+--+">With her and with Bacchus we’ll tickle the sense,</l>
+        <l n="14" real="xxxxxxx+-xx" met="-+--+--+--+">For we shall be past it a hundred years hence.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa---bb">
+        <l n="15" real="xx+--xxxxxxx" met="--+--+--+--+">Your most beautiful bride who with garlands is crown’d</l>
+        <l n="16" real="xxxxxxxxxxx" met="-+--+--+--+">And kills with each glance as she treads on the ground,</l>
+        <l n="17" real="x+-x+-xxxx+-" met="--+--+--+--+">Whose lightness and brightness doth shine in such splendour</l>
+        <l n="18" real="xxxxx" met="-+--+">That none but the stars</l>
+        <l n="19" real="xxxx-+x" met="--+--+-">Are thought fit to attend her,</l>
+        <l n="20" real="xxxx+-xxxxx" met="-+--+--+--+">Though now she be pleasant and sweet to the sense,</l>
+        <l n="21" real="xxxxx+-x+-xx" met="--+--+--+--+">Will be damnable mouldy a hundred years hence.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa---bb">
+        <l n="22" real="xxxx+xxxxxx" met="-+--+--+--+">Then why should we turmoil in cares and in fears,</l>
+        <l n="23" real="xx+-xxxxxxxx" met="--+--+--+--+">Turn all our tranquill’ty to sighs and to tears?</l>
+        <l n="24" real="xxxxxxxxx-+x" met="--+--+--+--+">Let’s eat, drink, and play till the worms do corrupt us,</l>
+        <l n="25" real="x+-x+-" met="--+--+">’Tis certain, _Post mortem_</l>
+        <l n="26" real="xxxxx" met="-+--+">_Nulla voluptas_.</l>
+        <l n="27" real="xxxx+-x+-xx" met="-+--+--+--+">For health, wealth and beauty, wit, learning and sense,</l>
+        <l n="28" real="xxxx+-x+-xx" met="-+--+--+--+">Must all come to nothing a hundred years hence.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

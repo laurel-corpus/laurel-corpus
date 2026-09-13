@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Weary Blues</title><author>Langston Hughes</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The weary blues. Project Gutenberg ebook #74745. <ref target="https://www.gutenberg.org/ebooks/74745">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="introducing-langston-hughes-to-the-reader-ii" n="L01486">
+      <head>Introducing Langston Hughes to the Reader II</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:introducing-langston-hughes-to-the-reader-ii</idno><idno type="laurel-id">L01486</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa---bb">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">“We should have a land of sun,</l>
+        <l n="2" real="x+-x" met="-+-+">Of gorgeous sun,</l>
+        <l n="3" real="xxxx+-+-" met="--+-+-+-">And a land of fragrant water</l>
+        <l n="4" real="xx+x" met="-+-+">Where the twilight</l>
+        <l n="5" real="xxxxxx+--" met="-+-+-+-+-">Is a soft bandanna handkerchief</l>
+        <l n="6" real="xxxx" met="-+-+">Of rose and gold,</l>
+        <l n="7" real="xxxxxxxx" met="--+-+-+-">And not this land where life is cold,”</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="8" real="xxxxx" met="-+-+-">“To fling my arms wide</l>
+        <l n="9" real="xxxxxx" met="--+-+-">In the face of the sun,</l>
+        <l n="10" real="xxx" met="+-+">Dance! whirl! whirl!</l>
+        <l n="11" real="xxxxxx" met="--+-+-">Till the quick day is done.</l>
+        <l n="12" real="xxx+-" met="-+-+-">Rest at pale evening....</l>
+        <l n="13" real="xxxx" met="-+-+">A tall, slim tree....</l>
+        <l n="14" real="x+-+--" met="--+-+-">Night coming tenderly.</l>
+        <l n="15" real="xxx" met="+-+">Black like me.”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="proem" n="L01487">
+      <head>Proem</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:proem</idno><idno type="laurel-id">L01487</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-" met="-+-+-">I am a Negro:</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Black as the night is black,</l>
+        <l n="3" real="xxxxxx+--" met="-+-+-+-+-">Black like the depths of my Africa.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aa">
+        <l n="4" real="xxxx" met="-+-+">I’ve been a slave:</l>
+        <l n="5" real="+-xxxxxxxx" met="--+-+-+-+-">Caesar told me to keep his door-steps clean.</l>
+        <l n="6" real="xxxxx+--" met="--+-+-+-">I brushed the boots of Washington.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="7" real="xxx+-" met="-+-+-">I’ve been a worker:</l>
+        <l n="8" real="xxxxx+---+" met="--+-+-+-+-">Under my hand the pyramids arose.</l>
+        <l n="9" real="xx+-xx+x+-" met="--+-+-+-+-">I made mortar for the Woolworth Building.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="10" real="xxx+-" met="-+-+-">I’ve been a singer:</l>
+        <l n="11" real="xxxx+--x+-" met="--+-+-+-+-">All the way from Africa to Georgia</l>
+        <l n="12" real="x+-x+-x" met="-+-+-+-">I carried my sorrow songs.</l>
+        <l n="13" real="xx+x" met="-+-+">I made ragtime.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="14" real="xxx+-" met="-+-+-">I’ve been a victim:</l>
+        <l n="15" real="x+-xxxxxx+-" met="-+-+-+-+-+-">The Belgians cut off my hands in the Congo.</l>
+        <l n="16" real="xxxxx+-" met="-+-+-+-">They lynch me now in Texas.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="17" real="xxx+-" met="-+-+-">I am a Negro:</l>
+        <l n="18" real="xxxxxx" met="--+-+-">Black as the night is black,</l>
+        <l n="19" real="xxxxxx+--" met="-+-+-+-+-">Black like the depths of my Africa.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-weary-blues" n="L01488">
+      <head>The Weary Blues</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-weary-blues</idno><idno type="laurel-id">L01488</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aabccbb----dd---ee-f-fgg-h-h-hiijjj">
+        <l n="1" real="+-x+-+-x-x" met="--+-+-+-+-">Droning a drowsy syncopated tune,</l>
+        <l n="2" real="+-xxxxx+-x" met="--+-+-+-+-">Rocking back and forth to a mellow croon,</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">I heard a Negro play.</l>
+        <l n="4" real="xx+-+-xx+-x" met="-+-+-+-+-+-">Down on Lenox Avenue the other night</l>
+        <l n="5" real="xxxxxxxxxxx" met="-+-+-+-+-+-">By the pale dull pallor of an old gas light</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">He did a lazy sway....</l>
+        <l n="7" real="xxx+-x" met="-+-+-+">He did a lazy sway....</l>
+        <l n="8" real="xxxxx+-x" met="--+-+-+-">To the tune o’ those Weary Blues.</l>
+        <l n="9" real="xx+--xxx+--x" met="--+-+-+-+-+-">With his ebony hands on each ivory key</l>
+        <l n="10" real="xxxx-+-xx+--" met="--+-+-+-+-+-">He made that poor piano moan with melody.</l>
+        <l n="11" real="xx" met="-+">O Blues!</l>
+        <l n="12" real="+-xxxxx+--x" met="-+-+-+-+-+-">Swaying to and fro on his rickety stool</l>
+        <l n="13" real="xxxxxxxxx+--x" met="-+-+-+-+-+-+-">He played that sad raggy tune like a musical fool.</l>
+        <l n="14" real="xx" met="-+">Sweet Blues!</l>
+        <l n="15" real="+-xxxxx" met="-+-+-+-">Coming from a black man’s soul.</l>
+        <l n="16" real="xx" met="-+">O Blues!</l>
+        <l n="17" real="xxxxxxx+-x-x" met="--+-+-+-+-+-">In a deep song voice with a melancholy tone</l>
+        <l n="18" real="xxx+-xxx-+-x" met="--+-+-+-+-+-">I heard that Negro sing, that old piano moan—</l>
+        <l n="19" real="xx+xxxxxx" met="-+-+-+-+-">“Ain’t got nobody in all this world,</l>
+        <l n="20" real="xx+xxxxx" met="--+-+-+-">Ain’t got nobody but ma self.</l>
+        <l n="21" real="xxxxxxx" met="-+-+-+-">I’s gwine to quit ma frownin’</l>
+        <l n="22" real="xxx+-xxx" met="--+-+-+-">And put ma troubles on the shelf.”</l>
+        <l n="23" real="xxxxxxxxx" met="-+-+-+-+-">Thump, thump, thump, went his foot on the floor.</l>
+        <l n="24" real="xxxxxxxxxx" met="--+-+-+-+-">He played a few chords then he sang some more—</l>
+        <l n="25" real="xxx+-x" met="-+-+-+">“I got the Weary Blues</l>
+        <l n="26" real="xxxx+-x" met="-+-+-+-">And I can’t be satisfied.</l>
+        <l n="27" real="xx+-x" met="+-+-+">Got the Weary Blues</l>
+        <l n="28" real="xxx+-x" met="-+-+-+">And can’t be satisfied—</l>
+        <l n="29" real="xx+-xx" met="-+-+-+">I ain’t happy no mo’</l>
+        <l n="30" real="xxxxxxx" met="-+-+-+-">And I wish that I had died.”</l>
+        <l n="31" real="xxxxxxxxxx" met="--+-+-+-+-">And far into the night he crooned that tune.</l>
+        <l n="32" real="xxxxxxxxx" met="-+-+-+-+-">The stars went out and so did the moon.</l>
+        <l n="33" real="x+-x+-xxxx" met="--+-+-+-+-">The singer stopped playing and went to bed</l>
+        <l n="34" real="xx+-x+-xxx" met="--+-+-+-+-">While the Weary Blues echoed through his head.</l>
+        <l n="35" real="xxxxxxxxxx" met="--+-+-+-+-">He slept like a rock or a man that’s dead.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="jazzonia" n="L01489">
+      <head>Jazzonia</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:jazzonia</idno><idno type="laurel-id">L01489</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-x" met="--+-">Oh, silver tree!</l>
+        <l n="2" real="x+-+-xxx" met="-+-+-+-+">Oh, shining rivers of the soul!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="3" real="xx+-x-+" met="+-+-+-+">In a Harlem cabaret</l>
+        <l n="4" real="xx+-xxx" met="+-+-+-+">Six long-headed jazzers play.</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">A dancing girl whose eyes are bold</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">Lifts high a dress of silken gold.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="7" real="x+-x" met="--+-">Oh, singing tree!</l>
+        <l n="8" real="x+-+-xxx" met="-+-+-+-+">Oh, shining rivers of the soul!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="--a-a">
+        <l n="9" real="xxx" met="-+-">Were Eve’s eyes</l>
+        <l n="10" real="xxx+-" met="-+-+-">In the first garden</l>
+        <l n="11" real="xxxxx" met="-+-+-">Just a bit too bold?</l>
+        <l n="12" real="xx-+-+-" met="+-+-+-+">Was Cleopatra gorgeous</l>
+        <l n="13" real="xxxxx" met="-+-+-">In a gown of gold?</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="14" real="x+-x" met="--+-">Oh, shining tree!</l>
+        <l n="15" real="x+-+-xxx" met="-+-+-+-+">Oh, silver rivers of the soul!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa">
+        <l n="16" real="xx+-x-+" met="+-+-+-+">In a whirling cabaret</l>
+        <l n="17" real="xx+-xxx" met="+-+-+-+">Six long-headed jazzers play.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="negro-dancers" n="L01490">
+      <head>Negro Dancers</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:negro-dancers</idno><idno type="laurel-id">L01490</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabccb">
+        <l n="1" real="xxx+-" met="-+-+-">“Me an’ ma baby’s</l>
+        <l n="2" real="xxxx" met="-+-+">Got two mo’ ways,</l>
+        <l n="3" real="xxxxxxx" met="-+-+-+-">Two mo’ ways to do de buck!</l>
+        <l n="4" real="xx" met="-+">Da, da,</l>
+        <l n="5" real="xxx" met="+-+">Da, da, da!</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">Two mo’ ways to do de buck!”</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="7" real="xxxx+-" met="--+-+-">Soft light on the tables,</l>
+        <l n="8" real="+-x" met="+-+">Music gay,</l>
+        <l n="9" real="xx+-" met="-+-+">Brown-skin steppers</l>
+        <l n="10" real="xxx-+" met="-+-+-">In a cabaret.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="11" real="xxx" met="+-+">White folks, laugh!</l>
+        <l n="12" real="xxx" met="+-+">White folks, pray!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa-">
+        <l n="13" real="xxx+-" met="-+-+-">“Me an’ ma baby’s</l>
+        <l n="14" real="xxxx" met="-+-+">Got two mo’ ways,</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">Two mo’ ways to do de buck!”</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-cat-and-the-saxophone-2-a-m" n="L01491">
+      <head>The Cat and the Saxophone (2 A.M.)</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-cat-and-the-saxophone-2-a-m</idno><idno type="laurel-id">L01491</idno><note type="metre">trochaic dimeter</note>
+      <lg type="stanza" n="1" rhyme="--a---b---cbc-ba--">
+        <l n="1" real="xx" met="+-">Half-pint,—</l>
+        <l n="2" real="x" met="+">Gin?</l>
+        <l n="3" real="xxx" met="+-+">No, make it</l>
+        <l n="4" real="xxx" met="+-+">corn. You like</l>
+        <l n="5" real="+-" met="+-">liquor,</l>
+        <l n="6" real="xx+-" met="+-+-">don’t you, honey?</l>
+        <l n="7" real="xxx" met="+-+">Sure. Kiss me,</l>
+        <l n="8" real="+-" met="+-">daddy.</l>
+        <l n="9" real="x" met="+">Say!</l>
+        <l n="10" real="x" met="+">Yes?</l>
+        <l n="11" real="xx" met="+-">I’m your</l>
+        <l n="12" real="+-xx" met="+-+-">sweetie, ain’t I?</l>
+        <l n="13" real="x" met="+">Sure.</l>
+        <l n="14" real="xx" met="+-">Then let’s</l>
+        <l n="15" real="x" met="+">ME,</l>
+        <l n="16" real="xx" met="+-">do it!</l>
+        <l n="17" real="+-" met="+-">Charleston,</l>
+        <l n="18" real="+-" met="+-">mamma!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="young-singer" n="L01492">
+      <head>Young Singer</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:young-singer</idno><idno type="laurel-id">L01492</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="---a---a">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">One who sings “chansons vulgaires”</l>
+        <l n="2" real="xx+-+-" met="--+-+-">In a Harlem cellar</l>
+        <l n="3" real="xxxxx" met="-+-+-">Where the jazz-band plays</l>
+        <l n="4" real="xxxx" met="-+-+">From dark to dawn</l>
+        <l n="5" real="xxx-+" met="-+-+-">Would not understand</l>
+        <l n="6" real="xxxx" met="-+-+">Should you tell her</l>
+        <l n="7" real="xxxxxx" met="--+-+-">That she is like a nymph</l>
+        <l n="8" real="xxxx" met="-+-+">For some wild faun.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="cabaret" n="L01493">
+      <head>Cabaret</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:cabaret</idno><idno type="laurel-id">L01493</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ab-bab">
+        <l n="1" real="xxxx+-x" met="-+-+-+-">Does a jazz-band ever sob?</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">They say a jazz-band’s gay.</l>
+        <l n="3" real="xxx+-+-x" met="--+-+-+-">Yet as the vulgar dancers whirled</l>
+        <l n="4" real="xxxxx-+" met="-+-+-+-">And the wan night wore away,</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">One said she heard the jazz-band sob</l>
+        <l n="6" real="xx+-xxx" met="-+-+-+-">When the little dawn was grey.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-midnight-nan-at-leroy-s" n="L01494">
+      <head>To Midnight Nan at Leroy’s</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:to-midnight-nan-at-leroy-s</idno><idno type="laurel-id">L01494</idno><note type="metre">trochaic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-a">
+        <l n="1" real="xx+-" met="+-+-">Strut and wiggle,</l>
+        <l n="2" real="+-x" met="+-+">Shameless gal.</l>
+        <l n="3" real="+-xx+-" met="+--+--">Wouldn’t no good fellow</l>
+        <l n="4" real="xxx" met="+-+">Be your pal.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+-" met="+-+-">Hear dat music....</l>
+        <l n="6" real="+-x" met="+-+">Jungle night.</l>
+        <l n="7" real="xx+-" met="+-+-">Hear dat music....</l>
+        <l n="8" real="xxxxx" met="+-+--">And the moon was white.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxx" met="+-+-">Sing your Blues song,</l>
+        <l n="10" real="+-+-" met="+-+-">Pretty baby.</l>
+        <l n="11" real="xx+-" met="+-+-">You want lovin’</l>
+        <l n="12" real="xxxx+-" met="+--+--">And you don’t mean maybe.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="+-+-" met="+-+-">Jungle lover....</l>
+        <l n="14" real="xxx" met="+-+">Night black boy....</l>
+        <l n="15" real="xxxxx" met="+-+--">Two against the moon</l>
+        <l n="16" real="xxxxx" met="+-+--">And the moon was joy.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xx+-" met="+-+-">Strut and wiggle,</l>
+        <l n="18" real="+-x" met="+-+">Shameless Nan.</l>
+        <l n="19" real="+-xx+-" met="+--+--">Wouldn’t no good fellow</l>
+        <l n="20" real="xxx" met="+-+">Be your man.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-a-little-lover-lass-dead" n="L01495">
+      <head>To a Little Lover-Lass, Dead</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:to-a-little-lover-lass-dead</idno><idno type="laurel-id">L01495</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="---a--a">
+        <l n="1" real="x" met="+">She</l>
+        <l n="2" real="xxx+-" met="-+-+-">Who searched for lovers</l>
+        <l n="3" real="xxx" met="+-+">In the night</l>
+        <l n="4" real="xxx+-x" met="--+-+-">Has gone the quiet way</l>
+        <l n="5" real="xxxx" met="-+-+">Into the still,</l>
+        <l n="6" real="xxxx" met="-+-+">Dark land of death</l>
+        <l n="7" real="xxxxxx" met="--+-+-">Beyond the rim of day.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--a-a">
+        <l n="8" real="xxx+-+-x" met="--+-+-+-">Now like a little lonely waif</l>
+        <l n="9" real="xx" met="-+">She walks</l>
+        <l n="10" real="x+-x" met="-+-+">An endless street</l>
+        <l n="11" real="xxxxx+--" met="--+-+-+-">And gives her kiss to nothingness.</l>
+        <l n="12" real="xxxxxx" met="--+-+-">Would God his lips were sweet!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="harlem-night-club" n="L01496">
+      <head>Harlem Night Club</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:harlem-night-club</idno><idno type="laurel-id">L01496</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-a-a">
+        <l n="1" real="xxxxxx-+" met="--+-+-+-">Sleek black boys in a cabaret.</l>
+        <l n="2" real="xxxx" met="-+-+">Jazz-band, jazz-band,—</l>
+        <l n="3" real="xxx" met="+-+">Play, plAY, PLAY!</l>
+        <l n="4" real="-+xxx" met="-+-+-">Tomorrow....who knows?</l>
+        <l n="5" real="x-+" met="+-+">Dance today!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="6" real="xxx" met="+-+">White girls’ eyes</l>
+        <l n="7" real="xxxx" met="-+-+">Call gay black boys.</l>
+        <l n="8" real="xxx" met="+-+">Black boys’ lips</l>
+        <l n="9" real="x+-x" met="-+-+">Grin jungle joys.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="10" real="xxx" met="+-+">Dark brown girls</l>
+        <l n="11" real="xxxx" met="-+-+">In blond men’s arms.</l>
+        <l n="12" real="xxxx" met="-+-+">Jazz-band, jazz-band,—</l>
+        <l n="13" real="xxx" met="+-+">Sing Eve’s charms!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-aaa">
+        <l n="14" real="xxxx" met="-+-+">White ones, brown ones,</l>
+        <l n="15" real="xxxx" met="-+-+">What do you know</l>
+        <l n="16" real="xx-+x" met="-+-+-">About tomorrow</l>
+        <l n="17" real="xxxx" met="-+-+">Where all paths go?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="18" real="xxxx" met="-+-+">Jazz-boys, jazz-boys,—</l>
+        <l n="19" real="xxx" met="+-+">Play, plAY, PLAY!</l>
+        <l n="20" real="-+xx+-" met="--+-+-">Tomorrow....is darkness.</l>
+        <l n="21" real="x-+" met="+-+">Joy today!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nude-young-dancer" n="L01497">
+      <head>Nude Young Dancer</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:nude-young-dancer</idno><idno type="laurel-id">L01497</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="x+-xxxxxx" met="-+-+-+-+-">What jungle tree have you slept under,</l>
+        <l n="2" real="+x+-xx+-+-" met="--+-+-+-+-">Midnight dancer of the jazzy hour?</l>
+        <l n="3" real="xx+-xxx-+" met="-+-+-+-+-">What great forest has hung its perfume</l>
+        <l n="4" real="xxxxxxx+-" met="-+-+-+-+-">Like a sweet veil about your bower?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxxxxx" met="-+-+-+-+-">What jungle tree have you slept under,</l>
+        <l n="6" real="xxxxx+-x" met="-+-+-+-+">Night-dark girl of the swaying hips?</l>
+        <l n="7" real="xxxxxxx+-" met="-+-+-+-+-">What star-white moon has been your mother?</l>
+        <l n="8" real="xxxxxx+-xx" met="--+-+-+-+-">To what clean boy have you offered your lips?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="young-prostitute" n="L01498">
+      <head>Young Prostitute</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:young-prostitute</idno><idno type="laurel-id">L01498</idno>
+      <lg type="stanza" n="1" rhyme="--aa-">
+        <l n="1" real="xxxx">Her dark brown face</l>
+        <l n="2" real="xxx+-+-">Is like a withered flower</l>
+        <l n="3" real="xx+-x">On a broken stem.</l>
+        <l n="4" real="xxxxx+-">Those kind come cheap in Harlem</l>
+        <l n="5" real="xxx">So they say.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-a-black-dancer-in-the-little-savoy" n="L01499">
+      <head>To a Black Dancer in “The Little Savoy”</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:to-a-black-dancer-in-the-little-savoy</idno><idno type="laurel-id">L01499</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="---a-----a">
+        <l n="1" real="x+-" met="+-+">Wine-maiden</l>
+        <l n="2" real="xxxxx" met="-+-+-">Of the jazz-tuned night,</l>
+        <l n="3" real="x" met="+">Lips</l>
+        <l n="4" real="xx+-x" met="-+-+-">Sweet as purple dew,</l>
+        <l n="5" real="x" met="+">Breasts</l>
+        <l n="6" real="xx+-xxxx" met="--+-+-+-">Like the pillows of all sweet dreams,</l>
+        <l n="7" real="xx" met="-+">Who crushed</l>
+        <l n="8" real="xxxx" met="-+-+">The grapes of joy</l>
+        <l n="9" real="xxxx" met="-+-+">And dripped their juice</l>
+        <l n="10" real="xx" met="-+">On you?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song-for-a-banjo-dance" n="L01500">
+      <head>Song for a Banjo Dance</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:song-for-a-banjo-dance</idno><idno type="laurel-id">L01500</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aba-a----ab">
+        <l n="1" real="xxxx+-" met="--+-+-">Shake your brown feet, honey,</l>
+        <l n="2" real="xxxx+-" met="--+-+-">Shake your brown feet, chile,</l>
+        <l n="3" real="xxxx+-" met="--+-+-">Shake your brown feet, honey,</l>
+        <l n="4" real="xxxxx" met="-+-+-">Shake ’em swift and wil’—</l>
+        <l n="5" real="xxx+-" met="-+-+-">Get way back, honey,</l>
+        <l n="6" real="xxxxx" met="-+-+-">Do that low-down step.</l>
+        <l n="7" real="xxxx+-" met="--+-+-">Walk on over, darling,</l>
+        <l n="8" real="xxx" met="+-+">Now! Come out</l>
+        <l n="9" real="xxx" met="+-+">With your left.</l>
+        <l n="10" real="xxxx+-" met="--+-+-">Shake your brown feet, honey,</l>
+        <l n="11" real="xx+-+-" met="--+-+-">Shake ’em, honey chile.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-ababa">
+        <l n="12" real="x+-xx+-" met="-+-+-+-">Sun’s going down this evening—</l>
+        <l n="13" real="x+-xxx" met="--+-+-">Might never rise no mo’.</l>
+        <l n="14" real="xx+xx+-x" met="--+-+-+-">The sun’s going down this very night—</l>
+        <l n="15" real="x+-xxx" met="--+-+-">Might never rise no mo’—</l>
+        <l n="16" real="xxxxx+-" met="-+-+-+-">So dance with swift feet, honey,</l>
+        <l n="17" real="xxx+-x" met="--+-+-">(The banjo’s sobbing low)</l>
+        <l n="18" real="xxxx+-" met="--+-+-">Dance with swift feet, honey—</l>
+        <l n="19" real="x+-xxx" met="--+-+-">Might never dance no mo’.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-ab-b">
+        <l n="20" real="xxxx+-" met="--+-+-">Shake your brown feet, Liza,</l>
+        <l n="21" real="xx+-+-" met="--+-+-">Shake ’em, Liza, chile,</l>
+        <l n="22" real="xxxx+-" met="--+-+-">Shake your brown feet, Liza,</l>
+        <l n="23" real="x+-xxx" met="--+-+-">(The music’s soft and wil’)</l>
+        <l n="24" real="xxxx+-" met="--+-+-">Shake your brown feet, Liza,</l>
+        <l n="25" real="xxx+-x" met="--+-+-">(The banjo’s sobbing low)</l>
+        <l n="26" real="xx+xx+-x" met="--+-+-+-">The sun’s going down this very night—</l>
+        <l n="27" real="x+-xxx" met="--+-+-">Might never rise no mo’.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="blues-fantasy" n="L01501">
+      <head>Blues Fantasy</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:blues-fantasy</idno><idno type="laurel-id">L01501</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-a--a">
+        <l n="1" real="xx" met="-+">Hey! Hey!</l>
+        <l n="2" real="xxx" met="+-+">That’s what the</l>
+        <l n="3" real="x+-x" met="-+-+">Blues singers say.</l>
+        <l n="4" real="+-+-+--" met="-+-+-+-">Singing minor melodies</l>
+        <l n="5" real="xx" met="-+">They laugh,</l>
+        <l n="6" real="xx" met="-+">Hey! Hey!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-b">
+        <l n="7" real="xxxxx" met="-+-+-">My man’s done left me,</l>
+        <l n="8" real="+-xx-+" met="--+-+-">Chile, he’s gone away.</l>
+        <l n="9" real="xxxxx" met="-+-+-">My good man’s left me,</l>
+        <l n="10" real="xxx-+" met="-+-+-">Babe, he’s gone away.</l>
+        <l n="11" real="xxxx" met="-+-+">Now the cryin’ blues</l>
+        <l n="12" real="xxxxx" met="-+-+-">Haunts me night and day.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hey-hey" n="L01502">
+      <head>Hey!...Hey!</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:hey-hey</idno><idno type="laurel-id">L01502</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aab--b">
+        <l n="1" real="+-" met="-+">Weary,</l>
+        <l n="2" real="+-" met="-+">Weary,</l>
+        <l n="3" real="+-x" met="-+-">Trouble, pain.</l>
+        <l n="4" real="x+-x" met="--+-">Sun’s gonna shine</l>
+        <l n="5" real="+x" met="-+">Somewhere</l>
+        <l n="6" real="-+" met="-+">Again.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="7" real="xxx+x+-" met="-+-+-+-">I got a railroad ticket,</l>
+        <l n="8" real="xxxxx" met="+-+-+">Pack my trunk and ride.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx+x+-" met="-+-+-+">Got a railroad ticket,</l>
+        <l n="10" real="xxxxx" met="+-+-+">Pack my trunk and ride.</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">And when I get on the train</l>
+        <l n="12" real="xxxx-+" met="-+-+-+">I’ll cast my blues aside.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="13" real="+-" met="-+">Laughing,</l>
+        <l n="14" real="xx" met="-+">Hey!...Hey!</l>
+        <l n="15" real="xxx" met="-+-">Laugh a loud,</l>
+        <l n="16" real="xx" met="-+">Hey! Hey!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lenox-avenue-midnight" n="L01503">
+      <head>Lenox Avenue: Midnight</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:lenox-avenue-midnight</idno><idno type="laurel-id">L01503</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-xx" met="+-+-+">The rhythm of life</l>
+        <l n="2" real="xxx+-" met="+-+-+">Is a jazz rhythm,</l>
+        <l n="3" real="+-" met="-+">Honey.</l>
+        <l n="4" real="xxx+-xx" met="-+-+-+-">The gods are laughing at us.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-abb-a">
+        <l n="5" real="x+-xxx" met="-+-+-+">The broken heart of love,</l>
+        <l n="6" real="x+-+-xxx" met="--+-+-+-">The weary, weary heart of pain,—</l>
+        <l n="7" real="+-x" met="-+-">Overtones,</l>
+        <l n="8" real="+-x" met="-+-">Undertones,</l>
+        <l n="9" real="xx+-xxx" met="-+-+-+-">To the rumble of street cars,</l>
+        <l n="10" real="xxxxx" met="+-+-+">To the swish of rain.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="11" real="+-+-x" met="+-+-+">Lenox Avenue,</l>
+        <l n="12" real="+-" met="-+">Honey.</l>
+        <l n="13" real="+x" met="-+">Midnight,</l>
+        <l n="14" real="xxxx+-xx" met="--+-+-+-">And the gods are laughing at us.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="dream-variations" n="L01504">
+      <head>♦Dream Variations</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:dream-variations</idno><idno type="laurel-id">L01504</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-">
+        <l n="1" real="xxxxx" met="-+-+-">To fling my arms wide</l>
+        <l n="2" real="xxxxxx" met="--+-+-">In some place of the sun,</l>
+        <l n="3" real="xxxxx" met="-+-+-">To whirl and to dance</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Till the white day is done.</l>
+        <l n="5" real="xxxx+-" met="--+-+-">Then rest at cool evening</l>
+        <l n="6" real="xxxxx" met="-+-+-">Beneath a tall tree</l>
+        <l n="7" real="xxxx+-" met="--+-+-">While night comes on gently,</l>
+        <l n="8" real="xxx" met="+-+">Dark like me,—</l>
+        <l n="9" real="xxxx" met="-+-+">That is my dream!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="10" real="xxxxx" met="-+-+-">To fling my arms wide</l>
+        <l n="11" real="xxxxxx" met="--+-+-">In the face of the sun,</l>
+        <l n="12" real="xxx" met="+-+">Dance! whirl! whirl!</l>
+        <l n="13" real="xxxxxx" met="--+-+-">Till the quick day is done.</l>
+        <l n="14" real="xxx+-" met="-+-+-">Rest at pale evening....</l>
+        <l n="15" real="xxxx" met="-+-+">A tall, slim tree....</l>
+        <l n="16" real="x+-+--" met="--+-+-">Night coming tenderly</l>
+        <l n="17" real="xxx" met="+-+">Black like me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="po-me-d-automne" n="L01505">
+      <head>Poème D’Automne</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:po-me-d-automne</idno><idno type="laurel-id">L01505</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="--a-b-a-----b--">
+        <l n="1" real="x+-x" met="-+-+">The autumn leaves</l>
+        <l n="2" real="xx+-x+-" met="-+-+-+-">Are too heavy with color.</l>
+        <l n="3" real="x+-x" met="-+-+">The slender trees</l>
+        <l n="4" real="xx+-x" met="-+-+-">On the Vulcan Road</l>
+        <l n="5" real="xxx+-xx" met="-+-+-+-">Are dressed in scarlet and gold</l>
+        <l n="6" real="xxxxx" met="-+-+-">Like young courtesans</l>
+        <l n="7" real="+-xx+-" met="--+-+-">Waiting for their lovers.</l>
+        <l n="8" real="xx" met="-+">But soon</l>
+        <l n="9" real="x+-x" met="-+-+">The winter winds</l>
+        <l n="10" real="xxx+-x" met="--+-+-">Will strip their bodies bare</l>
+        <l n="11" real="xx" met="-+">And then</l>
+        <l n="12" real="xxxx" met="-+-+">The sharp, sleet-stung</l>
+        <l n="13" real="-+-xxx" met="--+-+-">Caresses of the cold</l>
+        <l n="14" real="xxx+-" met="-+-+-">Will be their only</l>
+        <l n="15" real="x" met="+">Love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="fantasy-in-purple" n="L01506">
+      <head>Fantasy in Purple</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:fantasy-in-purple</idno><idno type="laurel-id">L01506</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+--xx" met="+-+-+-+-+">Beat the drums of tragedy for me.</l>
+        <l n="2" real="xxxx+--xx" met="+-+-+-+-+">Beat the drums of tragedy and death.</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">And let the choir sing a stormy song</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">To drown the rattle of my dying breath.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-a-b">
+        <l n="5" real="xxxx+--xx" met="+-+-+-+-+">Beat the drums of tragedy for me,</l>
+        <l n="6" real="xxxx--+xxxx" met="-+-+-+-+-+-">And let the white violins whir thin and slow,</l>
+        <l n="7" real="xxx+-+-xxx" met="-+-+-+-+-+">But blow one blaring trumpet note of sun</l>
+        <l n="8" real="xxxx" met="--+-">To go with me</l>
+        <l n="9" real="xx+-" met="--+-">to the darkness</l>
+        <l n="10" real="xxx" met="-+-">where I go.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="march-moon" n="L01507">
+      <head>March Moon</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:march-moon</idno><idno type="laurel-id">L01507</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="ab-baa">
+        <l n="1" real="xxx+-" met="-+-+-">The moon is naked.</l>
+        <l n="2" real="xxx-+xx" met="-+-+-+-">The wind has undressed the moon.</l>
+        <l n="3" real="xxxxxxx+-" met="-+-+-+-+-">The wind has blown all the cloud-garments</l>
+        <l n="4" real="xx+-xxx" met="-+-+-+-">Off the body of the moon</l>
+        <l n="5" real="xxx+-" met="-+-+-">And now she’s naked,</l>
+        <l n="6" real="x+-" met="+-+">Stark naked.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="7" real="xxxxx" met="-+-+-">But why don’t you blush,</l>
+        <l n="8" real="x+-x" met="-+-+">O shameless moon?</l>
+        <l n="9" real="xxx" met="+-+">Don’t you know</l>
+        <l n="10" real="x+-xxx+-" met="--+-+-+-">It isn’t nice to be naked?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="joy" n="L01508">
+      <head>Joy</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:joy</idno><idno type="laurel-id">L01508</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aaaa--a-a">
+        <l n="1" real="xxxxxx" met="-+-+-+">I went to look for Joy,</l>
+        <l n="2" real="x+-x" met="--+-">Slim, dancing Joy,</l>
+        <l n="3" real="x+-x" met="--+-">Gay, laughing Joy,</l>
+        <l n="4" real="xxx" met="-+-">Bright-eyed Joy,—</l>
+        <l n="5" real="xxxx" met="--+-">And I found her</l>
+        <l n="6" real="+-x+-x" met="-+-+-+">Driving the butcher’s cart</l>
+        <l n="7" real="xxxxx+-x" met="--+-+-+-">In the arms of the butcher boy!</l>
+        <l n="8" real="x+--x+--" met="--+-+-+-">Such company, such company,</l>
+        <l n="9" real="xxxxxx" met="-+-+-+">As keeps this young nymph, Joy!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-negro-speaks-of-rivers" n="L01509">
+      <head>The Negro Speaks of Rivers</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-negro-speaks-of-rivers</idno><idno type="laurel-id">L01509</idno><note type="metre">iambic octameter</note>
+      <lg type="stanza" n="1" rhyme="---aa-">
+        <l n="1" real="xxxx-+-xxxx" met="-+-+-+-+-+-">I bathed in the Euphrates when dawns were young.</l>
+        <l n="2" real="xxxxxx+-xxxxxx" met="--+-+-+-+-+-+-">I built my hut near the Congo and it lulled me to sleep.</l>
+        <l n="3" real="xxxxxxxxx+--xxx" met="+-+-+-+-+-+-+-+">I looked upon the Nile and raised the pyramids above it.</l>
+        <l n="4" real="xxx+-xxx-+-xx+-xxx" met="--+-+-+-+-+-+-+-+-">I heard the singing of the Mississippi when Abe Lincoln went down to</l>
+        <l n="5" real="x+--xxxx+-+-xx+-xx" met="--+-+-+-+-+-+-+-+-">New Orleans, and I’ve seen its muddy bosom turn all golden in the</l>
+        <l n="6" real="+x" met="-+">sunset.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa">
+        <l n="7" real="xx+-" met="--+-">I’ve known rivers:</l>
+        <l n="8" real="+-xx+-" met="--+-+-">Ancient, dusky rivers.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="cross" n="L01510">
+      <head>Cross</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:cross</idno><idno type="laurel-id">L01510</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">My old man’s a white old man</l>
+        <l n="2" real="xxx+-x" met="--+-+-">And my old mother’s black.</l>
+        <l n="3" real="x+-xxxxxx" met="-+-+-+-+-">If ever I cursed my white old man</l>
+        <l n="4" real="xxx+-x" met="--+-+-">I take my curses back.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xxxxx+-" met="--+-+-+-+-">If ever I cursed my black old mother</l>
+        <l n="6" real="xxxxxx" met="--+-+-">And wished she were in hell,</l>
+        <l n="7" real="x+-xx+-x" met="-+-+-+-+">I’m sorry for that evil wish</l>
+        <l n="8" real="xxxxxx" met="--+-+-">And now I wish her well.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxxx" met="-+-+-+-+-">My old man died in a fine big house.</l>
+        <l n="10" real="xxxxxx" met="--+-+-">My ma died in a shack.</l>
+        <l n="11" real="x+-xx+-x" met="-+-+-+-+">I wonder where I’m gonna die,</l>
+        <l n="12" real="+-+-xxx" met="+-+-+-+">Being neither white nor black?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-jester" n="L01511">
+      <head>The Jester</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-jester</idno><idno type="laurel-id">L01511</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-----a-a--b--b--b-b">
+        <l n="1" real="xxx" met="+-+">In one hand</l>
+        <l n="2" real="xx+--" met="-+-+-">I hold tragedy</l>
+        <l n="3" real="xxx+-" met="-+-+-">And in the other</l>
+        <l n="4" real="+--" met="+-+">Comedy,—</l>
+        <l n="5" real="xxxx" met="-+-+">Masks for the soul.</l>
+        <l n="6" real="xxx" met="+-+">Laugh with me.</l>
+        <l n="7" real="xxx" met="+-+">You would laugh!</l>
+        <l n="8" real="xxx" met="+-+">Weep with me.</l>
+        <l n="9" real="xxx" met="+-+">You would weep!</l>
+        <l n="10" real="xxx+-" met="-+-+-">Tears are my laughter.</l>
+        <l n="11" real="+-xxx" met="-+-+-">Laughter is my pain.</l>
+        <l n="12" real="xxx+-x" met="--+-+-">Cry at my grinning mouth,</l>
+        <l n="13" real="xxx" met="+-+">If you will.</l>
+        <l n="14" real="xxx+-x" met="--+-+-">Laugh at my sorrow’s reign.</l>
+        <l n="15" real="xxxx+-" met="--+-+-">I am the Black Jester,</l>
+        <l n="16" real="xxxxxx" met="--+-+-">The dumb clown of the world,</l>
+        <l n="17" real="x+-+-xx+-x" met="--+-+-+-+-">The booted, booted fool of silly men.</l>
+        <l n="18" real="xxxx" met="-+-+">Once I was wise.</l>
+        <l n="19" real="xxxx-+" met="--+-+-">Shall I be wise again?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-south" n="L01512">
+      <head>The South</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-south</idno><idno type="laurel-id">L01512</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aaa--a--b--ab---a-----cc---a">
+        <l n="1" real="x+-+-x" met="--+-+-">The lazy, laughing South</l>
+        <l n="2" real="xxxxx" met="-+-+-">With blood on its mouth.</l>
+        <l n="3" real="x+-xx" met="-+-+-">The sunny-faced South,</l>
+        <l n="4" real="xx" met="-+">Beast-strong,</l>
+        <l n="5" real="+--x" met="-+-+">Idiot-brained.</l>
+        <l n="6" real="xx+-x" met="-+-+-">The child-minded South</l>
+        <l n="7" real="+-xxx+-+-" met="-+-+-+-+-">Scratching in the dead fire’s ashes</l>
+        <l n="8" real="xx+-x" met="-+-+-">For a Negro’s bones.</l>
+        <l n="9" real="+-xxx" met="-+-+-">Cotton and the moon,</l>
+        <l n="10" real="xxx" met="+-+">Warmth, earth, warmth,</l>
+        <l n="11" real="xxxxxx" met="--+-+-">The sky, the sun, the stars,</l>
+        <l n="12" real="x-+-+-x" met="-+-+-+-">The magnolia-scented South.</l>
+        <l n="13" real="+--xx+-" met="-+-+-+-">Beautiful, like a woman,</l>
+        <l n="14" real="-+-xxxxx" met="--+-+-+-">Seductive as a dark-eyed whore,</l>
+        <l n="15" real="+--+-" met="-+-+-">Passionate, cruel,</l>
+        <l n="16" real="+-xxxxx" met="-+-+-+-">Honey-lipped, syphilitic—</l>
+        <l n="17" real="xxxx" met="-+-+">That is the South.</l>
+        <l n="18" real="xxxxxxxx" met="--+-+-+-">And I, who am black, would love her</l>
+        <l n="19" real="xxxxxx" met="--+-+-">But she spits in my face.</l>
+        <l n="20" real="xxxxx" met="-+-+-">And I, who am black,</l>
+        <l n="21" real="xxx+-xx" met="-+-+-+-">Would give her many rare gifts</l>
+        <l n="22" real="xxxxxxxx" met="--+-+-+-">But she turns her back upon me.</l>
+        <l n="23" real="xxxxxx" met="--+-+-">So now I seek the North—</l>
+        <l n="24" real="xxxx" met="-+-+">The cold-faced North,</l>
+        <l n="25" real="xxxx" met="-+-+">For she, they say,</l>
+        <l n="26" real="xx+-+-" met="--+-+-">Is a kinder mistress,</l>
+        <l n="27" real="xxxxx+-" met="-+-+-+-">And in her house my children</l>
+        <l n="28" real="x-+xxxxx" met="--+-+-+-">May escape the spell of the South.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="as-i-grew-older" n="L01513">
+      <head>As I Grew Older</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:as-i-grew-older</idno><idno type="laurel-id">L01513</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a---a">
+        <l n="1" real="xxxxx-+" met="-+-+-+-">It was a long time ago.</l>
+        <l n="2" real="xx+x-+-xx" met="-+-+-+-+-">I have almost forgotten my dream.</l>
+        <l n="3" real="xxxxx" met="-+-+-">But it was there then,</l>
+        <l n="4" real="xxxx" met="-+-+">In front of me,</l>
+        <l n="5" real="xxxx" met="-+-+">Bright like a sun,—</l>
+        <l n="6" real="xx" met="-+">My dream.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aaba--b--">
+        <l n="7" real="xxxxx" met="-+-+-">And then the wall rose,</l>
+        <l n="8" real="x+-" met="+-+">Rose slowly,</l>
+        <l n="9" real="+-" met="-+">Slowly,</l>
+        <l n="10" real="xxxxxx" met="--+-+-">Between me and my dream.</l>
+        <l n="11" real="x+-+-" met="-+-+-">Rose slowly, slowly,</l>
+        <l n="12" real="+-" met="-+">Dimming,</l>
+        <l n="13" real="+-" met="-+">Hiding,</l>
+        <l n="14" real="xxxxx" met="-+-+-">The light of my dream.</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">Rose until it touched the sky,—</l>
+        <l n="16" real="xx" met="-+">The wall.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="17" real="+x" met="-+">Shadow.</l>
+        <l n="18" real="xxx" met="+-+">I am black.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abb-a">
+        <l n="19" real="xxxxx+x" met="-+-+-+-">I lie down in the shadow.</l>
+        <l n="20" real="x+-xxxxxxxx" met="-+-+-+-+-+-">No longer the light of my dream before me,</l>
+        <l n="21" real="xxx" met="+-+">Above me.</l>
+        <l n="22" real="+-xxx" met="-+-+-">Only the thick wall.</l>
+        <l n="23" real="+-x+x" met="-+-+-">Only the shadow.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa-----b-b">
+        <l n="24" real="xx" met="-+">My hands!</l>
+        <l n="25" real="xxx" met="+-+">My dark hands!</l>
+        <l n="26" real="xxxx" met="-+-+">Break through the wall!</l>
+        <l n="27" real="xxx" met="+-+">Find my dream!</l>
+        <l n="28" real="xxx+-x+-" met="--+-+-+-">Help me to shatter this darkness,</l>
+        <l n="29" real="xxxx" met="-+-+">To smash this night,</l>
+        <l n="30" real="xxx+x" met="-+-+-">To break this shadow</l>
+        <l n="31" real="xxx+-xxx" met="--+-+-+-">Into a thousand lights of sun,</l>
+        <l n="32" real="xxx+-+-x" met="--+-+-+-">Into a thousand whirling dreams</l>
+        <l n="33" real="xx" met="-+">Of sun!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="aunt-sue-s-stories" n="L01514">
+      <head>Aunt Sue’s Stories</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:aunt-sue-s-stories</idno><idno type="laurel-id">L01514</idno><note type="metre">trochaic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aa--a">
+        <l n="1" real="xxxxxxx+-" met="+-+-+-+--">Aunt Sue has a head full of stories.</l>
+        <l n="2" real="xxxxxxxx+-" met="+--+-+-+--">Aunt Sue has a whole heart full of stories.</l>
+        <l n="3" real="+-xxxxx" met="+-+-+--">Summer nights on the front porch</l>
+        <l n="4" real="xxxxxxxxx+-" met="+-+-+-+-+--">Aunt Sue cuddles a brown-faced child to her bosom</l>
+        <l n="5" real="xxx+-" met="+-+--">And tells him stories.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a-a-b-b--">
+        <l n="6" real="xx" met="+-">Black slaves</l>
+        <l n="7" real="+-xxxx" met="+--+--">Working in the hot sun,</l>
+        <l n="8" real="xxx" met="+-+">And black slaves</l>
+        <l n="9" real="+-xx+-x" met="+-+-+--">Walking in the dewy night,</l>
+        <l n="10" real="xxx" met="+-+">And black slaves</l>
+        <l n="11" real="+-+-xxxxxx+-+-" met="+--+-+-+-+-+--">Singing sorrow songs on the banks of a mighty river</l>
+        <l n="12" real="+--++-" met="+--+--">Mingle themselves softly</l>
+        <l n="13" real="xxxxxxxx" met="+--+-+--">In the flow of old Aunt Sue’s voice,</l>
+        <l n="14" real="+--++-" met="+--+--">Mingle themselves softly</l>
+        <l n="15" real="xxx+xxxx-+" met="+--+-+-+--">In the dark shadows that cross and recross</l>
+        <l n="16" real="xx+-" met="+-+-">Aunt Sue’s stories.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="17" real="xxxxx+--" met="+--+-+--">And the dark-faced child, listening,</l>
+        <l n="18" real="xxxx+-xx+-" met="+--+-+-+--">Knows that Aunt Sue’s stories are real stories.</l>
+        <l n="19" real="xxxxx" met="+-+--">He knows that Aunt Sue</l>
+        <l n="20" real="+-xx+-xx+-xxx" met="+-+-+-+-+-+--">Never got her stories out of any book at all,</l>
+        <l n="21" real="xxxx" met="+-+-">But that they came</l>
+        <l n="22" real="xxxxxx" met="+--+--">Right out of her own life.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa-">
+        <l n="23" real="xxxxxx+-" met="+--+-+--">And the dark-faced child is quiet</l>
+        <l n="24" real="xx+-x" met="+-+--">Of a summer night</l>
+        <l n="25" real="+--xxx+-" met="+--+-+--">Listening to Aunt Sue’s stories.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem" n="L01515">
+      <head>Poem</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:poem</idno><idno type="laurel-id">L01515</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+--" met="+--+--">The night is beautiful,</l>
+        <l n="2" real="xx+-xx+-" met="+-+-+-+-">So the faces of my people.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="xxx+--" met="+--+--">The stars are beautiful,</l>
+        <l n="4" real="xxxxx+-" met="+-+-+-+">So the eyes of my people.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="5" real="+--+-xxx" met="+-+-+-+-">Beautiful, also, is the sun.</l>
+        <l n="6" real="+--+-xxxxx+-" met="+--+-+-+-+--">Beautiful, also, are the souls of my people.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-black-pierrot" n="L01516">
+      <head>A Black Pierrot</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:a-black-pierrot</idno><idno type="laurel-id">L01516</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxx" met="-+-+-+">I am a black Pierrot:</l>
+        <l n="2" real="xxxxx" met="+-+-+">She did not love me,</l>
+        <l n="3" real="xxx-+xxxx" met="-+-+-+-+-">So I crept away into the night</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">And the night was black, too.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxxx" met="-+-+-+">I am a black Pierrot:</l>
+        <l n="6" real="xxxxx" met="+-+-+">She did not love me,</l>
+        <l n="7" real="xxxxxxxx" met="--+-+-+-">So I wept until the red dawn</l>
+        <l n="8" real="xxxxx+-x" met="--+-+-+-">Dripped blood over the eastern hills</l>
+        <l n="9" real="xxxx+-x" met="-+-+-+-">And my heart was bleeding, too.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="10" real="xxxxxx" met="-+-+-+">I am a black Pierrot:</l>
+        <l n="11" real="xxxxx" met="+-+-+">She did not love me,</l>
+        <l n="12" real="xxxxx+-x" met="--+-+-+-">So with my once gay-colored soul</l>
+        <l n="13" real="+-xx-+xxx" met="-+-+-+-+-">Shrunken like a balloon without air,</l>
+        <l n="14" real="xxxxx+-" met="-+-+-+-">I went forth in the morning</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">To seek a new brown love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="harlem-night-song" n="L01517">
+      <head>Harlem Night Song</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:harlem-night-song</idno><idno type="laurel-id">L01517</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x" met="+">Come,</l>
+        <l n="2" real="xxxxx-+-" met="--+-+-+-">Let us roam the night together</l>
+        <l n="3" real="+-" met="-+">Singing.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-bab--">
+        <l n="4" real="-+" met="-+">Across</l>
+        <l n="5" real="x+-xx" met="-+-+-">The Harlem roof-tops</l>
+        <l n="6" real="xx+-" met="-+-+">Moon is shining.</l>
+        <l n="7" real="xxxx" met="-+-+">Night sky is blue.</l>
+        <l n="8" real="xxxx" met="-+-+">Stars are great drops</l>
+        <l n="9" real="x+-x" met="-+-+">Of golden dew.</l>
+        <l n="10" real="xxx-+" met="-+-+-">In the cabaret</l>
+        <l n="11" real="xxx+-" met="-+-+-">The jazz-band’s playing.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="12" real="x" met="+">Come,</l>
+        <l n="13" real="xxxxx-+-" met="--+-+-+-">Let us roam the night together</l>
+        <l n="14" real="+-" met="-+">Singing.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="songs-to-the-dark-virgin" n="L01518">
+      <head>Songs to the Dark Virgin</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:songs-to-the-dark-virgin</idno><idno type="laurel-id">L01518</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-aa---">
+        <l n="1" real="x" met="+">Would</l>
+        <l n="2" real="xxxx+-" met="--+-+-">That I were a jewel,</l>
+        <l n="3" real="x+-+-" met="-+-+-">A shattered jewel,</l>
+        <l n="4" real="xxx+-xx" met="-+-+-+-">That all my shining brilliants</l>
+        <l n="5" real="xxxxx" met="-+-+-">Might fall at thy feet,</l>
+        <l n="6" real="xxx" met="+-+">Thou dark one.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aa-bbb-">
+        <l n="7" real="x" met="+">Would</l>
+        <l n="8" real="xxxx+-" met="--+-+-">That I were a garment,</l>
+        <l n="9" real="x+--+-+-" met="--+-+-+-">A shimmering, silken garment,</l>
+        <l n="10" real="xxxx" met="-+-+">That all my folds</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">Might wrap about thy body,</l>
+        <l n="12" real="-+x+-" met="-+-+-">Absorb thy body,</l>
+        <l n="13" real="xxxx+-" met="--+-+-">Hold and hide thy body,</l>
+        <l n="14" real="xxx" met="+-+">Thou dark one.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aa--">
+        <l n="15" real="x" met="+">Would</l>
+        <l n="16" real="xxxxx" met="-+-+-">That I were a flame,</l>
+        <l n="17" real="xxx+-x" met="--+-+-">But one sharp, leaping flame</l>
+        <l n="18" real="x-+-xx+-" met="--+-+-+-">To annihilate thy body,</l>
+        <l n="19" real="xxx" met="+-+">Thou dark one.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ardella" n="L01519">
+      <head>Ardella</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:ardella</idno><idno type="laurel-id">L01519</idno><note type="metre">anapaestic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a--a--">
+        <l n="1" real="xx+-x" met="-+--+">I would liken you</l>
+        <l n="2" real="xxxxxx" met="--+--+">To a night without stars</l>
+        <l n="3" real="xxxxxx" met="--+--+">Were it not for your eyes.</l>
+        <l n="4" real="xx+-x" met="-+--+">I would liken you</l>
+        <l n="5" real="xxxxxx" met="--+--+">To a sleep without dreams</l>
+        <l n="6" real="xxxxxx" met="--+--+">Were it not for your songs.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-the-black-beloved" n="L01520">
+      <head>To the Black Beloved</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:to-the-black-beloved</idno><idno type="laurel-id">L01520</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x" met="+">Ah,</l>
+        <l n="2" real="xxx" met="+-+">My black one,</l>
+        <l n="3" real="xxx+--" met="--+-+-">Thou art not beautiful</l>
+        <l n="4" real="xxx" met="+-+">Yet thou hast</l>
+        <l n="5" real="xxxxx" met="-+-+-">A loveliness</l>
+        <l n="6" real="-+-+-" met="-+-+-">Surpassing beauty.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="7" real="x" met="+">Oh,</l>
+        <l n="8" real="xxx" met="+-+">My black one,</l>
+        <l n="9" real="xxxx" met="-+-+">Thou art not good</l>
+        <l n="10" real="xxx" met="+-+">Yet thou hast</l>
+        <l n="11" real="x+--" met="-+-+">A purity</l>
+        <l n="12" real="-+-+-" met="-+-+-">Surpassing goodness.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="---aabcbc">
+        <l n="13" real="x" met="+">Ah,</l>
+        <l n="14" real="xxx" met="+-+">My black one,</l>
+        <l n="15" real="xxx+--" met="--+-+-">Thou art not luminous</l>
+        <l n="16" real="xx+-x+-" met="-+-+-+-">Yet an altar of jewels,</l>
+        <l n="17" real="x+-x+--+-" met="-+-+-+-+-">An altar of shimmering jewels,</l>
+        <l n="18" real="xxxxx" met="-+-+-">Would pale in the light</l>
+        <l n="19" real="xx+-" met="-+-+">Of thy darkness,</l>
+        <l n="20" real="xxxx" met="-+-+">Pale in the light</l>
+        <l n="21" real="xxxx" met="-+-+">Of thy nightness.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="when-sue-wears-red" n="L01521">
+      <head>When Sue Wears Red</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:when-sue-wears-red</idno><idno type="laurel-id">L01521</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x-+-xxx" met="-+-+-+-">When Susanna Jones wears red</l>
+        <l n="2" real="xxxxx+-+-x" met="-+-+-+-+-+">Her face is like an ancient cameo</l>
+        <l n="3" real="xxxx+-" met="--+-+-">Turned brown by the ages.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="4" real="xxxxx+-" met="-+-+-+-">Come with a blast of trumpets,</l>
+        <l n="5" real="+-" met="-+">Jesus!</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="6" real="x-+-xxx" met="-+-+-+-">When Susanna Jones wears red</l>
+        <l n="7" real="xxxxxx-+-x" met="-+-+-+-+-+">A queen from some time-dead Egyptian night</l>
+        <l n="8" real="xx-+" met="--+-">Walks once again.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="9" real="xx+-x-+-xxx" met="-+-+-+-+-+-">And the beauty of Susanna Jones in red</l>
+        <l n="10" real="xxxxxx+-xxx" met="-+-+-+-+-+-">Burns in my heart a love-fire sharp like pain.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="11" real="x+-+-" met="-+-+-">Sweet silver trumpets,</l>
+        <l n="12" real="+-" met="-+">Jesus!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="pierrot" n="L01522">
+      <head>Pierrot</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:pierrot</idno><idno type="laurel-id">L01522</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abcabc">
+        <l n="1" real="xxxx" met="--+-">I work all day,</l>
+        <l n="2" real="x+-x" met="--+-">Said Simple John,</l>
+        <l n="3" real="x+xxxx" met="-+-+-+">Myself a house to buy.</l>
+        <l n="4" real="xxxx" met="--+-">I work all day,</l>
+        <l n="5" real="x+-x" met="--+-">Said Simple John,</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">But Pierrot wondered why.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="7" real="xxxxxxxx" met="--+-+-+-">For Pierrot loved the long white road,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">And Pierrot loved the moon,</l>
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">And Pierrot loved a star-filled sky,</l>
+        <l n="10" real="xxxxxxxx" met="--+-+-+-">And the breath of a rose in June.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abcabc">
+        <l n="11" real="xxxx" met="--+-">I have one wife,</l>
+        <l n="12" real="x+-x" met="--+-">Said Simple John,</l>
+        <l n="13" real="xxxxxx" met="-+-+-+">And, faith, I love her yet.</l>
+        <l n="14" real="xxxx" met="--+-">I have one wife,</l>
+        <l n="15" real="x+-x" met="--+-">Said Simple John,</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">But Pierrot left Pierrette.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="17" real="xxxxxxxx" met="--+-+-+-">For Pierrot saw a world of girls,</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">And Pierrot loved each one,</l>
+        <l n="19" real="xxxxx+-x" met="--+-+-+-">And Pierrot thought all maidens fair</l>
+        <l n="20" real="x+-xxx" met="-+-+-+">As flowers in the sun.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abcabc">
+        <l n="21" real="xxxx" met="--+-">Oh, I am good,</l>
+        <l n="22" real="x+-x" met="--+-">Said Simple John,</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">The Lord will take me in.</l>
+        <l n="24" real="xxxx" met="--+-">Yes, I am good,</l>
+        <l n="25" real="x+-x" met="--+-">Said Simple John,</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">But Pierrot’s steeped in sin.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="27" real="xxxxxxx-+" met="-+-+-+-+-">For Pierrot played on a slim guitar,</l>
+        <l n="28" real="xxxxxx" met="-+-+-+">And Pierrot loved the moon,</l>
+        <l n="29" real="xxxxxxxxx" met="-+-+-+-+-">And Pierrot ran down the long white road</l>
+        <l n="30" real="xxxxxxx" met="-+-+-+-">With the burgher’s wife one June.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="water-front-streets" n="L01523">
+      <head>♦Water Front Streets</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:water-front-streets</idno><idno type="laurel-id">L01523</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxx+--x" met="-+-+-+-+-">The spring is not so beautiful there,—</l>
+        <l n="2" real="xxxx-+" met="--+-+-">But dream ships sail away</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">To where the spring is wondrous rare</l>
+        <l n="4" real="xxxx" met="--+-">And life is gay.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+--x" met="-+-+-+-+-">The spring is not so beautiful there,—</l>
+        <l n="6" real="xxxxxx" met="--+-+-">But lads put out to sea</l>
+        <l n="7" real="x+-+-xxx" met="-+-+-+-+">Who carry beauties in their hearts</l>
+        <l n="8" real="xxxx" met="--+-">And dreams, like me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-farewell" n="L01524">
+      <head>A Farewell</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:a-farewell</idno><idno type="laurel-id">L01524</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-----a">
+        <l n="1" real="x+-x+-" met="-+-+-+">With gypsies and sailors,</l>
+        <l n="2" real="+-xxxxx" met="-+-+-+-">Wanderers of the hills and seas,</l>
+        <l n="3" real="xxxxx+-" met="-+-+-+-">I go to seek my fortune.</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">With pious folk and fair</l>
+        <l n="5" real="xxxx+-" met="-+-+-+">I must have a parting.</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">But you will not miss me,—</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">You who live between the hills</l>
+        <l n="8" real="xx+xxx" met="-+-+-+">And have never seen the seas.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="long-trip" n="L01525">
+      <head>Long Trip</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:long-trip</idno><idno type="laurel-id">L01525</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="ab------ab">
+        <l n="1" real="xxxx+--xx" met="-+-+-+-+-">The sea is a wilderness of waves,</l>
+        <l n="2" real="x+-x+-" met="--+-+-">A desert of water.</l>
+        <l n="3" real="xxxx" met="-+-+">We dip and dive,</l>
+        <l n="4" real="xxx" met="+-+">Rise and roll,</l>
+        <l n="5" real="xxx+-" met="-+-+-">Hide and are hidden</l>
+        <l n="6" real="xxx" met="+-+">On the sea.</l>
+        <l n="7" real="xx" met="-+">Day, night,</l>
+        <l n="8" real="xx" met="-+">Night, day,</l>
+        <l n="9" real="xxxx+-xx" met="--+-+-+-">The sea is a desert of waves,</l>
+        <l n="10" real="x+--x+-" met="-+-+-+-">A wilderness of water.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="port-town" n="L01526">
+      <head>Port Town</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:port-town</idno><idno type="laurel-id">L01526</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="-++-x" met="-+-+-">Hello, sailor boy,</l>
+        <l n="2" real="xxxx" met="-+-+">In from the sea!</l>
+        <l n="3" real="-++-" met="-+-+">Hello, sailor,</l>
+        <l n="4" real="xxx" met="+-+">Come with me!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxx+x" met="-+-+-">Come on drink cognac.</l>
+        <l n="6" real="+-xx" met="-+-+">Rather have wine?</l>
+        <l n="7" real="xxxxx" met="-+-+-">Come here, I love you.</l>
+        <l n="8" real="xxxx" met="-+-+">Come and be mine.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="x+-x" met="-+-+">Lights, sailor boy,</l>
+        <l n="10" real="xxx" met="+-+">Warm, white lights.</l>
+        <l n="11" real="+-xx" met="-+-+">Solid land, kid.</l>
+        <l n="12" real="xxx" met="+-+">Wild, white nights.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xx+-" met="-+-+">Come on, sailor,</l>
+        <l n="14" real="xxxx" met="-+-+">Out o’ the sea.</l>
+        <l n="15" real="xx+-" met="-+-+">Let’s go, sweetie!</l>
+        <l n="16" real="xxx" met="+-+">Come with me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sea-calm" n="L01527">
+      <head>Sea Calm</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:sea-calm</idno><idno type="laurel-id">L01527</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aab--b">
+        <l n="1" real="xx" met="-+">How still,</l>
+        <l n="2" real="x+-x" met="--+-">How strangely still</l>
+        <l n="3" real="x+-x-+" met="-+-+-+">The water is today.</l>
+        <l n="4" real="xxxx" met="--+-">It is not good</l>
+        <l n="5" real="x+-" met="-+-">For water</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">To be so still that way.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="caribbean-sunset" n="L01528">
+      <head>Caribbean Sunset</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:caribbean-sunset</idno><idno type="laurel-id">L01528</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-x+--">God having a hemorrhage,</l>
+        <l n="2" real="xx-+xx">Blood coughed across the sky,</l>
+        <l n="3" real="+-xxxx">Staining the dark sea red,</l>
+        <l n="4" real="xx+xxx-+--">That is sunset in the Caribbean.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="young-sailor" n="L01529">
+      <head>Young Sailor</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:young-sailor</idno><idno type="laurel-id">L01529</idno><note type="metre">iambic monometer</note>
+      <lg type="stanza" n="1" rhyme="--a-a--">
+        <l n="1" real="x+-" met="-+-">He carries</l>
+        <l n="2" real="xxx" met="-+-">His own strength</l>
+        <l n="3" real="xxx+-" met="-+-+-">And his own laughter,</l>
+        <l n="4" real="xx-+" met="--+-">His own today</l>
+        <l n="5" real="xxx-+-" met="--+-+-">And his own hereafter,—</l>
+        <l n="6" real="xxx+-" met="-+-+-">This strong young sailor</l>
+        <l n="7" real="xxxx" met="--+-">Of the wide seas.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--a-a--b-b---cc">
+        <l n="8" real="xx+-x" met="-+-+-">What is money for?</l>
+        <l n="9" real="xxxx" met="--+-">To spend, he says.</l>
+        <l n="10" real="xx" met="-+">And wine?</l>
+        <l n="11" real="xx" met="-+">To drink.</l>
+        <l n="12" real="x+-" met="-+-">And women?</l>
+        <l n="13" real="xx" met="-+">To love.</l>
+        <l n="14" real="x-+" met="-+-">And today?</l>
+        <l n="15" real="xx" met="-+">For joy.</l>
+        <l n="16" real="x-+x" met="--+-">And tomorrow?</l>
+        <l n="17" real="xx" met="-+">For joy.</l>
+        <l n="18" real="xxxx" met="--+-">And the green sea</l>
+        <l n="19" real="xx" met="-+">For strength,</l>
+        <l n="20" real="xxxx" met="--+-">And the brown land</l>
+        <l n="21" real="x+-" met="-+-">For laughter.</l>
+        <l n="22" real="x+--+-" met="--+-+-">And nothing hereafter.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="seascape" n="L01530">
+      <head>Seascape</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:seascape</idno><idno type="laurel-id">L01530</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxx+--" met="-+-+-+-">Off the coast of Ireland</l>
+        <l n="2" real="x+-xxx" met="--+-+-">As our ship passed by</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">We saw a line of fishing ships</l>
+        <l n="4" real="xxxxx" met="-+-+-">Etched against the sky.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxx+-" met="--+-+-">Off the coast of England</l>
+        <l n="6" real="xxxxx" met="-+-+-">As we rode the foam</l>
+        <l n="7" real="xxx+--xxx" met="-+-+-+-+-">We saw an Indian merchantman</l>
+        <l n="8" real="+-x" met="+-+">Coming home.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="natcha" n="L01531">
+      <head>Natcha</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:natcha</idno><idno type="laurel-id">L01531</idno>
+      <lg type="stanza" n="1" rhyme="aa-b--b">
+        <l n="1" real="xx+--x">Natcha, offering love.</l>
+        <l n="2" real="xx+-+--x">For ten shillings offering love.</l>
+        <l n="3" real="+--xxxx+-">Offering: A night with me, honey.</l>
+        <l n="4" real="xxxxxx">A long, sweet night with me.</l>
+        <l n="5" real="xxxx">Come, drink palm wine.</l>
+        <l n="6" real="xx+-">Come, drink kisses.</l>
+        <l n="7" real="xxxxxx">A long, dream night with me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sea-charm" n="L01532">
+      <head>Sea Charm</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:sea-charm</idno><idno type="laurel-id">L01532</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="--ab-ab-c-c">
+        <l n="1" real="xx" met="-+">Sea charm</l>
+        <l n="2" real="xxx+-" met="-+-+-">The sea’s own children</l>
+        <l n="3" real="xxx-+" met="-+-+-">Do not understand.</l>
+        <l n="4" real="xx" met="-+">They know</l>
+        <l n="5" real="xxxxxx" met="--+-+-">But that the sea is strong</l>
+        <l n="6" real="xxx" met="+-+">Like God’s hand.</l>
+        <l n="7" real="xx" met="-+">They know</l>
+        <l n="8" real="xxxxxx" met="--+-+-">But that sea wind is sweet</l>
+        <l n="9" real="xxx" met="+-+">Like God’s breath,</l>
+        <l n="10" real="xxxxx" met="-+-+-">And that the sea holds</l>
+        <l n="11" real="xxxx" met="-+-+">A wide, deep death.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="death-of-an-old-seaman" n="L01533">
+      <head>Death of an Old Seaman</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:death-of-an-old-seaman</idno><idno type="laurel-id">L01533</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xxxx+-x" met="--+-+-+-+-">We buried him high on a windy hill,</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">But his soul went out to sea.</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">I know, for I heard, when all was still,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">His sea-soul say to me:</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc">
+        <l n="5" real="xx+xxxx" met="+-+-+-+">Put no tombstone at my head,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">For here I do not make my bed.</l>
+        <l n="7" real="xx+-xxx" met="+-+-+-+">Strew no flowers on my grave,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">I’ve gone back to the wind and wave.</l>
+        <l n="9" real="xxxxxxx" met="+-+-+-+">Do not, do not weep for me,</l>
+        <l n="10" real="xxx+-xxx" met="-+-+-+-+">For I am happy with my sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="beggar-boy" n="L01534">
+      <head>Beggar Boy</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:beggar-boy</idno><idno type="laurel-id">L01534</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxx+-x" met="+-+-+-+-+">What is there within this beggar lad</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">That I can neither hear nor feel nor see,</l>
+        <l n="3" real="xxx+-xxx-+" met="-+-+-+-+-+">That I can neither know nor understand</l>
+        <l n="4" real="xxxxxx" met="--+-+-">And still it calls to me?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxx+xxxx" met="-+-+-+-+-+">Is not he but a shadow in the sun—</l>
+        <l n="6" real="xxxxx+-+-x" met="-+-+-+-+-+">A bit of clay, brown, ugly, given life?</l>
+        <l n="7" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">And yet he plays upon his flute a wild free tune</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">As if Fate had not bled him with her knife!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="troubled-woman" n="L01535">
+      <head>Troubled Woman</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:troubled-woman</idno><idno type="laurel-id">L01535</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="--a-aaba-b-a">
+        <l n="1" real="xx" met="-+">She stands</l>
+        <l n="2" real="xx+-+-" met="--+-+-">In the quiet darkness,</l>
+        <l n="3" real="x+-+-" met="-+-+-">This troubled woman,</l>
+        <l n="4" real="xx" met="-+">Bowed by</l>
+        <l n="5" real="+--xx" met="-+-+-">Weariness and pain,</l>
+        <l n="6" real="xx" met="-+">Like an</l>
+        <l n="7" real="+-+-" met="-+-+">Autumn flower</l>
+        <l n="8" real="xx+-x" met="-+-+-">In the frozen rain.</l>
+        <l n="9" real="xx" met="-+">Like a</l>
+        <l n="10" real="xx+-+-" met="--+-+-">Wind-blown autumn flower</l>
+        <l n="11" real="x+-xxx" met="--+-+-">That never lifts its head</l>
+        <l n="12" real="-+" met="-+">Again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sick-room" n="L01536">
+      <head>Sick Room</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:sick-room</idno><idno type="laurel-id">L01536</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-" met="+-+">How quiet</l>
+        <l n="2" real="xxxxxx" met="--+-+-">It is in this sick room</l>
+        <l n="3" real="xxxx" met="-+-+">Where on the bed</l>
+        <l n="4" real="x+-+-xxxx+-" met="-+-+-+-+-+-">A silent woman lies between two lovers—</l>
+        <l n="5" real="xxx" met="+-+">Life and Death,</l>
+        <l n="6" real="xxx+-xxxxx" met="--+-+-+-+-">And all three covered with a sheet of pain.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-cuban-portrait" n="L01537">
+      <head>A Cuban Portrait</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:a-cuban-portrait</idno><idno type="laurel-id">L01537</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="--aabab--a">
+        <l n="1" real="x+x" met="-+-">The shadows</l>
+        <l n="2" real="xx+-xxx" met="-+-+-+-">Of too many nights of love</l>
+        <l n="3" real="x+-xxxx" met="-+-+-+-">Have fallen beneath your eyes.</l>
+        <l n="4" real="xx" met="-+">Your eyes,</l>
+        <l n="5" real="xxxxx+-" met="-+-+-+-">So full of pain and passion,</l>
+        <l n="6" real="xxxx" met="--+-">So full of lies.</l>
+        <l n="7" real="xxxxx+-" met="-+-+-+-">So full of pain and passion,</l>
+        <l n="8" real="+x" met="-+">Soledad,</l>
+        <l n="9" real="x+-x" met="--+-">So deeply scarred,</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">So still with silent cries.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-the-dark-mercedes-of-el-palacio-de-amor" n="L01538">
+      <head>To the Dark Mercedes of “El Palacio De Amor”</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:to-the-dark-mercedes-of-el-palacio-de-amor</idno><idno type="laurel-id">L01538</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="--a--a--">
+        <l n="1" real="-+-xx+-+-xxxx" met="-+-+-+-+-+-+-">Mercedes is a jungle-lily in a death house.</l>
+        <l n="2" real="-+-xxxx" met="+-+-+-+">Mercedes is a doomed star.</l>
+        <l n="3" real="-+-xxxxx" met="-+-+-+-+">Mercedes is a charnel rose.</l>
+        <l n="4" real="xxx" met="-+-">Go where gold</l>
+        <l n="5" real="xxxxxxx+-" met="-+-+-+-+-">Will fall at the feet of your beauty,</l>
+        <l n="6" real="-+-" met="-+-">Mercedes.</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Go where they will pay you well</l>
+        <l n="8" real="xxxxxx" met="--+-+-">For your loveliness.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mexican-market-woman" n="L01539">
+      <head>Mexican Market Woman</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:mexican-market-woman</idno><idno type="laurel-id">L01539</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a---">
+        <l n="1" real="x+-x" met="-+-+">This ancient hag</l>
+        <l n="2" real="xxxxxx" met="--+-+-">Who sits upon the ground</l>
+        <l n="3" real="+-x+-x" met="--+-+-">Selling her scanty wares</l>
+        <l n="4" real="xxxx" met="-+-+">Day in, day round,</l>
+        <l n="5" real="xxxxx+-" met="-+-+-+-">Has known high wind-swept mountains,</l>
+        <l n="6" real="xxxxx" met="-+-+-">And the sun has made</l>
+        <l n="7" real="xxxx" met="-+-+">Her skin so brown.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="after-many-springs" n="L01540">
+      <head>After Many Springs</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:after-many-springs</idno><idno type="laurel-id">L01540</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x" met="+">Now,</l>
+        <l n="2" real="xx" met="-+">In June,</l>
+        <l n="3" real="xxxxxx+-" met="--+-+-+-">When the night is a vast softness</l>
+        <l n="4" real="xxxx" met="--+-">Filled with blue stars,</l>
+        <l n="5" real="x+-xxx+-" met="--+-+-+-">And broken shafts of moon-glimmer</l>
+        <l n="6" real="xxxxx" met="+-+-+">Fall upon the earth,</l>
+        <l n="7" real="xxxxxxx+-x" met="--+-+-+-+-">Am I too old to see the fairies dance?</l>
+        <l n="8" real="x+-xx+-x" met="--+-+-+-">I cannot find them any more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="young-bride" n="L01541">
+      <head>Young Bride</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:young-bride</idno><idno type="laurel-id">L01541</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="--a-a--">
+        <l n="1" real="xxxx" met="--+-">They say she died,—</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Although I do not know,</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">They say she died of grief</l>
+        <l n="4" real="xxxxxxxx" met="--+-+-+-">And in the earth-dark arms of Death</l>
+        <l n="5" real="xx-+" met="--+-">Sought calm relief,</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">And rest from pain of love</l>
+        <l n="7" real="x+-x" met="--+-">In loveless sleep.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-dream-keeper" n="L01542">
+      <head>The Dream Keeper</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-dream-keeper</idno><idno type="laurel-id">L01542</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxx" met="-+-+-+">Bring me all of your dreams,</l>
+        <l n="2" real="x+-" met="-+-">You dreamers.</l>
+        <l n="3" real="xxxxx" met="+-+-+">Bring me all of your</l>
+        <l n="4" real="x+--" met="--+-">Heart melodies</l>
+        <l n="5" real="xxxxx" met="+-+-+">That I may wrap them</l>
+        <l n="6" real="xxxxx" met="+-+-+">In a blue cloud-cloth</l>
+        <l n="7" real="-+xxxx+-" met="--+-+-+-">Away from the too rough fingers</l>
+        <l n="8" real="xxx" met="-+-">Of the world.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem-2" n="L01543">
+      <head>Poem</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:poem-2</idno><idno type="laurel-id">L01543</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a----a">
+        <l n="1" real="xxxx" met="--+-">I loved my friend.</l>
+        <l n="2" real="xx-+xx" met="-+-+-+">He went away from me.</l>
+        <l n="3" real="x+-xxx" met="-+-+-+">There’s nothing more to say.</l>
+        <l n="4" real="x+-x" met="--+-">The poem ends,</l>
+        <l n="5" real="xxx-+" met="+-+-+">Soft as it began,—</l>
+        <l n="6" real="xxxx" met="--+-">I loved my friend.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem-for-a-decorative-panel" n="L01544">
+      <head>Poem for a Decorative Panel</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:poem-for-a-decorative-panel</idno><idno type="laurel-id">L01544</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa---bb">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">We should have a land of sun,</l>
+        <l n="2" real="x+-x" met="--+-">Of gorgeous sun,</l>
+        <l n="3" real="xxxx+-+-" met="-+-+-+-+">And a land of fragrant water</l>
+        <l n="4" real="xx+x" met="--+-">Where the twilight</l>
+        <l n="5" real="xxxxxx+--" met="-+-+-+-+-">Is a soft bandanna handkerchief</l>
+        <l n="6" real="xxxx" met="--+-">Of rose and gold,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">And not this land where life is cold.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-bb">
+        <l n="8" real="xxxxxxx" met="+-+-+-+">We should have a land of trees,</l>
+        <l n="9" real="xxxx" met="--+-">Of tall thick trees</l>
+        <l n="10" real="xxx+--+-" met="-+-+-+-+">Bowed down with chattering parrots</l>
+        <l n="11" real="+-xxx" met="-+-+-">Brilliant as the day,</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">And not this land where birds are grey.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-aa">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Ah, we should have a land of joy,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Of love and joy and wine and song,</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">And not this land where joy is wrong.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa">
+        <l n="16" real="xx-+" met="--+-">Oh, sweet, away!</l>
+        <l n="17" real="xx-+-x-+" met="-+-+-+-+">Ah, my beloved one, away!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lament-for-dark-peoples" n="L01545">
+      <head>Lament for Dark Peoples</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:lament-for-dark-peoples</idno><idno type="laurel-id">L01545</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxx" met="-+-+-+-">I was a red man one time,</l>
+        <l n="2" real="xxxxx" met="+-+-+">But the white men came.</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">I was a black man, too,</l>
+        <l n="4" real="xxxxx" met="+-+-+">But the white men came.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="5" real="xxxxxx+-" met="--+-+-+-">They drove me out of the forest.</l>
+        <l n="6" real="xxx-+xx+-" met="-+-+-+-+-">They took me away from the jungles.</l>
+        <l n="7" real="xxxx" met="--+-">I lost my trees.</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">I lost my silver moons.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxx" met="--+-">Now they’ve caged me</l>
+        <l n="10" real="xx+-xx--+-" met="--+-+-+-+-">In the circus of civilization.</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">Now I herd with the many—</l>
+        <l n="12" real="xxx+-xx--+-" met="-+-+-+-+-+-">Caged in the circus of civilization.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="afraid" n="L01546">
+      <head>Afraid</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:afraid</idno><idno type="laurel-id">L01546</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxx+x-" met="--+-+-+-">We cry among the skyscrapers</l>
+        <l n="2" real="x+-+x-" met="-+-+-+">As our ancestors</l>
+        <l n="3" real="xxxxxx+--" met="-+-+-+-+-">Cried among the palms in Africa</l>
+        <l n="4" real="xxxx-+" met="-+-+-+">Because we are alone,</l>
+        <l n="5" real="xxx" met="-+-">It is night,</l>
+        <l n="6" real="xx-+" met="--+-">And we’re afraid.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem-3" n="L01547">
+      <head>Poem</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:poem-3</idno><idno type="laurel-id">L01547</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxx+-xxxx">All the tom-toms of the jungles beat in my blood,</l>
+        <l n="2" real="xxxxxxxx+-xxxx">And all the wild hot moons of the jungles shine in my soul.</l>
+        <l n="3" real="xx-+xxx--+-">I am afraid of this civilization—</l>
+        <l n="4" real="xx">So hard,</l>
+        <l n="5" real="xx">So strong,</l>
+        <l n="6" real="xx">So cold.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="summer-night" n="L01548">
+      <head>Summer Night</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:summer-night</idno><idno type="laurel-id">L01548</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-------bba-------">
+        <l n="1" real="xx" met="-+">The sounds</l>
+        <l n="2" real="xx+-x" met="-+-+-">Of the Harlem night</l>
+        <l n="3" real="xxxxxx+-" met="--+-+-+-">Drop one by one into stillness.</l>
+        <l n="4" real="xx+--+-xx" met="-+-+-+-+-">The last player-piano is closed.</l>
+        <l n="5" real="xxxxx+-xx" met="-+-+-+-+-">The last victrola ceases with the</l>
+        <l n="6" real="xxx" met="+-+">“Jazz Boy Blues.”</l>
+        <l n="7" real="xx+-+-x" met="-+-+-+-">The last crying baby sleeps</l>
+        <l n="8" real="xxx-+" met="-+-+-">And the night becomes</l>
+        <l n="9" real="xxx+--+x" met="--+-+-+-">Still as a whispering heartbeat.</l>
+        <l n="10" real="xx" met="-+">I toss</l>
+        <l n="11" real="xxxxx+-" met="-+-+-+-">Without rest in the darkness,</l>
+        <l n="12" real="+-xx+-x" met="-+-+-+-">Weary as the tired night,</l>
+        <l n="13" real="xx" met="-+">My soul</l>
+        <l n="14" real="+-xx+-" met="--+-+-">Empty as the silence,</l>
+        <l n="15" real="+-xxx" met="-+-+-">Empty with a vague,</l>
+        <l n="16" real="+-+--" met="-+-+-">Aching emptiness,</l>
+        <l n="17" real="-+--" met="-+-+">Desiring,</l>
+        <l n="18" real="+-+x" met="-+-+">Needing someone,</l>
+        <l n="19" real="+-" met="-+">Something.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="20" real="xxxxx" met="-+-+-">I toss without rest</l>
+        <l n="21" real="xx+-" met="-+-+">In the darkness</l>
+        <l n="22" real="xxxxx" met="-+-+-">Until the new dawn,</l>
+        <l n="23" real="xxx" met="+-+">Wan and pale,</l>
+        <l n="24" real="-+xxxx" met="--+-+-">Descends like a white mist</l>
+        <l n="25" real="xxxxx" met="-+-+-">Into the court-yard.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="disillusion" n="L01549">
+      <head>Disillusion</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:disillusion</idno><idno type="laurel-id">L01549</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-ba---b-a----a">
+        <l n="1" real="xxx+--+" met="-+-+-+-">I would be simple again,</l>
+        <l n="2" real="+-xx" met="-+-+">Simple and clean</l>
+        <l n="3" real="xxx" met="+-+">Like the earth,</l>
+        <l n="4" real="xxx" met="+-+">Like the rain,</l>
+        <l n="5" real="x+-x" met="-+-+">Nor ever know,</l>
+        <l n="6" real="x+-" met="+-+">Dark Harlem,</l>
+        <l n="7" real="xx+-" met="-+-+">The wild laughter</l>
+        <l n="8" real="xxx" met="+-+">Of your mirth</l>
+        <l n="9" real="xxxx" met="-+-+">Nor the salt tears</l>
+        <l n="10" real="xxx" met="+-+">Of your pain.</l>
+        <l n="11" real="xxxx" met="-+-+">Be kind to me,</l>
+        <l n="12" real="xxx+-" met="-+-+-">Oh, great dark city.</l>
+        <l n="13" real="xx-+" met="-+-+">Let me forget.</l>
+        <l n="14" real="xxxx" met="-+-+">I will not come</l>
+        <l n="15" real="xx-+" met="-+-+">To you again.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="danse-africaine" n="L01550">
+      <head>Danse Africaine</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:danse-africaine</idno><idno type="laurel-id">L01550</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="aabbc------ddac">
+        <l n="1" real="xx+-xxxx" met="--+-+-+-">The low beating of the tom-toms,</l>
+        <l n="2" real="xx+-xxxx" met="--+-+-+-">The slow beating of the tom-toms.</l>
+        <l n="3" real="xx" met="-+">Low ... slow</l>
+        <l n="4" real="xx" met="-+">Slow ... low—</l>
+        <l n="5" real="xxx" met="+-+">Stirs your blood.</l>
+        <l n="6" real="x" met="+">Dance!</l>
+        <l n="7" real="xxxx" met="-+-+">A night-veiled girl</l>
+        <l n="8" real="x+-xxx" met="--+-+-">Whirls softly into a</l>
+        <l n="9" real="+-xx" met="-+-+">Circle of light.</l>
+        <l n="10" real="x+-+-" met="-+-+-">Whirls softly ... slowly,</l>
+        <l n="11" real="xxxxxxxx+-" met="--+-+-+-+-">Like a wisp of smoke around the fire—</l>
+        <l n="12" real="xxxxx" met="-+-+-">And the tom-toms beat,</l>
+        <l n="13" real="xxxxx" met="-+-+-">And the tom-toms beat,</l>
+        <l n="14" real="xxx+-xxxx" met="-+-+-+-+-">And the low beating of the tom-toms</l>
+        <l n="15" real="xxx" met="+-+">Stirs your blood.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-white-ones" n="L01551">
+      <head>The White Ones</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:the-white-ones</idno><idno type="laurel-id">L01551</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aaaab-b">
+        <l n="1" real="xxxxx" met="-+--+">I do not hate you,</l>
+        <l n="2" real="xx+-x+--x" met="--+--+--+">For your faces are beautiful, too.</l>
+        <l n="3" real="xxxxx" met="-+--+">I do not hate you,</l>
+        <l n="4" real="x+-x+-xxxxxxx+-x" met="--+--+--+--+--+-">Your faces are whirling lights of loveliness and splendor, too.</l>
+        <l n="5" real="xxxx+-x" met="+--+--+">Yet why do you torture me,</l>
+        <l n="6" real="xxxx" met="--+-">O, white strong ones,</l>
+        <l n="7" real="xxx+-x" met="+-+--+">Why do you torture me?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mother-to-son" n="L01552">
+      <head>Mother to Son</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:mother-to-son</idno><idno type="laurel-id">L01552</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a----a------------a">
+        <l n="1" real="xxxxx" met="-+-+-">Well, son, I’ll tell you:</l>
+        <l n="2" real="xxxxxx+-x" met="-+-+-+-+-">Life for me ain’t been no crystal stair.</l>
+        <l n="3" real="xxxxx" met="-+-+-">It’s had tacks in it,</l>
+        <l n="4" real="xxx" met="+-+">And splinters,</l>
+        <l n="5" real="xxxx" met="-+-+">And boards torn up,</l>
+        <l n="6" real="x+-xx+-xxx" met="--+-+-+-+-">And places with no carpet on the floor—</l>
+        <l n="7" real="x" met="+">Bare.</l>
+        <l n="8" real="xxxx" met="-+-+">But all the time</l>
+        <l n="9" real="xxxxxx" met="--+-+-">I’se been a-cimbin’ on,</l>
+        <l n="10" real="xxxxx" met="-+-+-">And reachin’ landin’s,</l>
+        <l n="11" real="xxx+-" met="-+-+-">And turnin’ corners,</l>
+        <l n="12" real="x-++-xxx" met="--+-+-+-">And sometimes goin’ in the dark</l>
+        <l n="13" real="xxxxxx" met="--+-+-">Where there ain’t been no light.</l>
+        <l n="14" real="xxxxxx" met="--+-+-">So boy, don’t you turn back.</l>
+        <l n="15" real="xxxxxxx" met="-+-+-+-">Don’t you set down on the steps</l>
+        <l n="16" real="xxxx+-x" met="-+-+-+-">’Cause you finds it’s kinder hard.</l>
+        <l n="17" real="xxxx" met="-+-+">Don’t you fall now—</l>
+        <l n="18" real="xxx+-+-" met="-+-+-+-">For I’se still goin’, honey,</l>
+        <l n="19" real="xxxx" met="-+-+">I’se still climbin’,</l>
+        <l n="20" real="xxxxxxx+-x" met="--+-+-+-+-">And life for me ain’t been no crystal stair.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="poem-4" n="L01553">
+      <head>Poem</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:poem-4</idno><idno type="laurel-id">L01553</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xx-+x" met="-+-+-">We have tomorrow</l>
+        <l n="2" real="xxxx" met="-+-+">Bright before us</l>
+        <l n="3" real="xxx" met="+-+">Like a flame.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="4" real="+-x" met="+-+">Yesterday</l>
+        <l n="5" real="xxxx" met="-+-+">A night-gone thing,</l>
+        <l n="6" real="xxxx" met="-+-+">A sun-down name.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="7" real="xx-+" met="-+-+">And dawn-today</l>
+        <l n="8" real="xxxxxxxx" met="--+-+-+-">Broad arch above the road we came.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="epilogue" n="L01554">
+      <head>Epilogue</head>
+      <idno type="URN">urn:laurel:eng:hughes.hughes-weary-blues.pg74745:epilogue</idno><idno type="laurel-id">L01554</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-+-" met="-+-+-+-">I am the darker brother.</l>
+        <l n="2" real="xxxxxxx+-" met="-+-+-+-+-">They send me to eat in the kitchen</l>
+        <l n="3" real="x+--x" met="-+-+-">When company comes,</l>
+        <l n="4" real="xxx" met="+-+">But I laugh,</l>
+        <l n="5" real="xxx" met="+-+">And eat well,</l>
+        <l n="6" real="xxx" met="+-+">And grow strong.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-----aa">
+        <l n="7" real="-+x" met="+-+">Tomorrow,</l>
+        <l n="8" real="xxxx+-" met="--+-+-">I’ll sit at the table</l>
+        <l n="9" real="x+--x" met="-+-+-">When company comes.</l>
+        <l n="10" real="xxxx" met="-+-+">Nobody’ll dare</l>
+        <l n="11" real="xxx" met="+-+">Say to me,</l>
+        <l n="12" real="xxx+-" met="-+-+-">“Eat in the kitchen,”</l>
+        <l n="13" real="x" met="+">Then.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="14" real="-+" met="-+">Besides,</l>
+        <l n="15" real="xxx+--xx" met="--+-+-+-">They’ll see how beautiful I am</l>
+        <l n="16" real="xx-+" met="-+-+">And be ashamed,—</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

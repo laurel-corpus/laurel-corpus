@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Libertine, and other poems</title><author>Aphra Behn</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16130">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:behn.obev-aphra-behn.pg66619:song</idno><idno type="laurel-id">L16130</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd">
+        <l n="1" real="xx-+-+-x" met="-+-+-+-+">Love in fantastic triumph sate</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">Whilst bleeding hearts around him flow’d,</l>
+        <l n="3" real="xxxxxx-+" met="-+-+-+-+">For whom fresh pains he did create</l>
+        <l n="4" real="xxxxx+xx" met="-+-+-+-+">And strange tyrannic power he show’d:</l>
+        <l n="5" real="xxxxxxx+-" met="-+-+-+-+-">From thy bright eyes he took his fires,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Which round about in sport he hurl’d;</l>
+        <l n="7" real="xxxxxx-+-" met="-+-+-+-+-">But ’twas from mine he took desires</l>
+        <l n="8" real="-+x-+x+-x" met="-+-+-+-+-">Enough t’ undo the amorous world.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-abc-cb">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">From me he took his sighs and tears,</l>
+        <l n="10" real="xxxxx+-" met="+-+-+-+">From thee his pride and cruelty;</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">From me his languishments and fears,</l>
+        <l n="12" real="x+-+-xxx" met="-+-+-+-+">And every killing dart from thee.</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Thus thou and I the god have arm’d</l>
+        <l n="14" real="xxxxx+--" met="-+-+-+-+">And set him up a deity;</l>
+        <l n="15" real="xxxx-+xx" met="-+-+-+-+">But my poor heart alone is harm’d,</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">Whilst thine the victor is, and free!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-libertine" n="L16131">
+      <head>The Libertine</head>
+      <idno type="URN">urn:laurel:eng:behn.obev-aphra-behn.pg66619:the-libertine</idno><idno type="laurel-id">L16131</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="x+-+-xxx" met="-+-+-+-+">A thousand martyrs I have made,</l>
+        <l n="2" real="x+-xxx-+-" met="-+-+-+-+-">All sacrificed to my desire,</l>
+        <l n="3" real="x+-+-x-+" met="-+-+-+-+">A thousand beauties have betray’d</l>
+        <l n="4" real="x+-xxxx+-" met="-+-+-+-+-">That languish in resistless fire:</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">The untamed heart to hand I brought,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And fix’d the wild and wand’ring thought.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">I never vow’d nor sigh’d in vain,</l>
+        <l n="8" real="xxxxxx-+" met="-+-+-+-+">But both, tho’ false, were well received;</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">The fair are pleased to give us pain,</l>
+        <l n="10" real="xxxxxx-+" met="-+-+-+-+">And what they wish is soon believed:</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">And tho’ I talk’d of wounds and smart,</l>
+        <l n="12" real="x+-+-xxx" met="-+-+-+-+">Love’s pleasures only touch’d my heart.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a---">
+        <l n="13" real="-+x+-xxx" met="-+-+-+-+">Alone the glory and the spoil</l>
+        <l n="14" real="x+x+-x-+" met="-+-+-+-+">I always laughing bore away;</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">The triumphs without pain or toil,</l>
+        <l n="16" real="xxxxx+xx" met="-+-+-+-+">Without the hell the heaven of joy;</l>
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">And while I thus at random rove</l>
+        <l n="18" real="-+xxxxxx" met="-+-+-+-+">Despise the fools that whine for love.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

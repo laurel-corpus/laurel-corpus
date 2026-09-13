@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>When the World is burning</title><author>Ebenezer Jones</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="when-the-world-is-burning" n="L16227">
+      <head>When the World is burning</head>
+      <idno type="URN">urn:laurel:eng:jones.obev-ebenezer-jones.pg66619:when-the-world-is-burning</idno><idno type="laurel-id">L16227</idno><note type="metre">trochaic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-bb-ccdeeed">
+        <l n="1" real="xxxx+-" met="+-+-+-">When the world is burning,</l>
+        <l n="2" real="+-xxx+-" met="+-+-+--">Fired within, yet turning</l>
+        <l n="3" real="xxx-+-" met="+-+-+-">Round with face unscathed;</l>
+        <l n="4" real="xxxxxx" met="+-+-+-">Ere fierce flames, uprushing,</l>
+        <l n="5" real="xxxx+-" met="+-+-+-">O’er all lands leap, crushing,</l>
+        <l n="6" real="xxx+-x" met="+-+-+-">Till earth fall, fire-swathed;</l>
+        <l n="7" real="x-+x+x" met="+-+-+-">Up amidst the meadows,</l>
+        <l n="8" real="+-xx+x" met="+-+-+-">Gently through the shadows,</l>
+        <l n="9" real="+-xxx" met="+-+-+">Gentle flames will glide,</l>
+        <l n="10" real="xxxx+-" met="+-+-+-">Small, and blue, and golden.</l>
+        <l n="11" real="xxx-+-" met="+-+-+-">Though by bard beholden,</l>
+        <l n="12" real="xxxx+-" met="+-+-+-">When in calm dreams folden,--</l>
+        <l n="13" real="xxxxx" met="+-+-+">Calm his dreams will bide.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabcccbddefffe">
+        <l n="14" real="xxxx+-" met="+-+-+-">Where the dance is sweeping,</l>
+        <l n="15" real="xxxx+-" met="+-+-+-">Through the greensward peeping,</l>
+        <l n="16" real="xxxxx" met="+-+-+">Shall the soft lights start;</l>
+        <l n="17" real="+-xxx" met="+-+-+">Laughing maids, unstaying,</l>
+        <l n="18" real="xxxx+-" met="+-+-+-">Deeming it trick-playing,</l>
+        <l n="19" real="xxxxx" met="+-+-+">High their robes upswaying,</l>
+        <l n="20" real="xxxxx" met="+-+-+">O’er the lights shall dart;</l>
+        <l n="21" real="xx+xxx" met="+-+-+-">And the woodland haunter</l>
+        <l n="22" real="xxxx+-" met="+-+-+-">Shall not cease to saunter</l>
+        <l n="23" real="xxxxx" met="+-+-+">When, far down some glade,</l>
+        <l n="24" real="xxxx+-" met="+-+-+-">Of the great world’s burning,</l>
+        <l n="25" real="xxxxxx" met="+-+-+-">One soft flame upturning</l>
+        <l n="26" real="xxx-+-" met="+-+-+-">Seems, to his discerning,</l>
+        <l n="27" real="+-xxx" met="+-+-+">Crocus in the shade.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

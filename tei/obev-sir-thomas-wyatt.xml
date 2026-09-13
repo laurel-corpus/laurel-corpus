@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>To His Lute, and other poems</title><author>Sir Thomas Wyatt</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="forget-not-yet" n="L15953">
+      <head>Forget not yet</head>
+      <idno type="URN">urn:laurel:eng:wyatt.obev-sir-thomas-wyatt.pg66619:forget-not-yet</idno><idno type="laurel-id">L15953</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aaa-">
+        <l n="1" real="-+xxxx-+" met="-+-+-+-+">Forget not yet the tried intent</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Of such a truth as I have meant;</l>
+        <l n="3" real="xx-+x+-x" met="-+-+-+-+">My great travail so gladly spent,</l>
+        <l n="4" real="-+xx" met="--+-">Forget not yet!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaa-">
+        <l n="5" real="-+xxxx-+" met="-+-+-+-+">Forget not yet when first began</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">The weary life ye know, since whan</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">The suit, the service, none tell can;</l>
+        <l n="8" real="-+xx" met="--+-">Forget not yet!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aaa-">
+        <l n="9" real="-+xxxxxx" met="-+-+-+-+">Forget not yet the great assays,</l>
+        <l n="10" real="x+-xx+-x" met="-+-+-+-+">The cruel wrong, the scornful ways,</l>
+        <l n="11" real="x+-+-x-+" met="-+-+-+-+">The painful patience in delays,</l>
+        <l n="12" real="-+xx" met="--+-">Forget not yet!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a-a-">
+        <l n="13" real="-+xx-+xx" met="-+-+-+-+">Forget not! O, forget not this!--</l>
+        <l n="14" real="xx-+xxxx" met="-+-+-+-+">How long ago hath been, and is,</l>
+        <l n="15" real="xxx+-x-+" met="-+-+-+-+">The mind that never meant amiss--</l>
+        <l n="16" real="-+xx" met="--+-">Forget not yet!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="a-a-">
+        <l n="17" real="-+xxxx-+" met="-+-+-+-+">Forget not then thine own approved,</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">The which so long hath thee so loved,</l>
+        <l n="19" real="x+xxx+-x" met="-+-+-+-+">Whose steadfast faith yet never moved:</l>
+        <l n="20" real="-+xx" met="--+-">Forget not this!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-appeal" n="L15954">
+      <head>The Appeal</head>
+      <idno type="URN">urn:laurel:eng:wyatt.obev-sir-thomas-wyatt.pg66619:the-appeal</idno><idno type="laurel-id">L15954</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abbba-">
+        <l n="1" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus!</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Say nay, say nay, for shame!</l>
+        <l n="3" real="xxxxxx" met="-+-+-+">--To save thee from the blame</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Of all my grief and grame.</l>
+        <l n="5" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus?</l>
+        <l n="6" real="xxxx" met="--+-">Say nay! say nay!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-ba-">
+        <l n="7" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">That hath loved thee so long</l>
+        <l n="9" real="xxxxxx" met="-+-+-+">In wealth and woe among:</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">And is thy heart so strong</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">As for to leave me thus?</l>
+        <l n="12" real="xxxx" met="--+-">Say nay! say nay!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbba-">
+        <l n="13" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus,</l>
+        <l n="14" real="xx+xxx" met="-+-+-+">That hath given thee my heart</l>
+        <l n="15" real="+-xx-+" met="-+-+-+">Never for to depart</l>
+        <l n="16" real="+-xxxx" met="-+-+-+">Neither for pain nor smart:</l>
+        <l n="17" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus?</l>
+        <l n="18" real="xxxx" met="--+-">Say nay! say nay!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="a---a-">
+        <l n="19" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">And have no more pitye</l>
+        <l n="21" real="xxxxxx" met="-+-+-+">Of him that loveth thee?</l>
+        <l n="22" real="-+x+-" met="+-+-+">Alas, thy cruelty!</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">And wilt thou leave me thus?</l>
+        <l n="24" real="xxxx" met="--+-">Say nay! say nay!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-revocation" n="L15955">
+      <head>A Revocation</head>
+      <idno type="URN">urn:laurel:eng:wyatt.obev-sir-thomas-wyatt.pg66619:a-revocation</idno><idno type="laurel-id">L15955</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="ababbcc">
+        <l n="1" real="xxxx" met="-+-+">What should I say?</l>
+        <l n="2" real="xxxx" met="-+-+">--Since Faith is dead.</l>
+        <l n="3" real="xx-+" met="-+-+">And Truth away</l>
+        <l n="4" real="xxxx" met="-+-+">From you is fled?</l>
+        <l n="5" real="xxxx" met="-+-+">Should I be led</l>
+        <l n="6" real="xxxx" met="-+-+">With doubleness?</l>
+        <l n="7" real="xx+-" met="-+-+">Nay! nay! mistress.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababbcc">
+        <l n="8" real="x+-x" met="-+-+">I promised you,</l>
+        <l n="9" real="xx+-x" met="-+-+-">And you promised me,</l>
+        <l n="10" real="xxxx" met="-+-+">To be as true</l>
+        <l n="11" real="xxxx" met="-+-+">As I would be.</l>
+        <l n="12" real="xxxx" met="-+-+">But since I see</l>
+        <l n="13" real="x+-x" met="-+-+">Your double heart,</l>
+        <l n="14" real="x+xx" met="-+-+">Farewell my part!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababbcc">
+        <l n="15" real="xxxx" met="-+-+">Thought for to take</l>
+        <l n="16" real="xxxx" met="-+-+">’Tis not my mind;</l>
+        <l n="17" real="xx-+" met="-+-+">But to forsake</l>
+        <l n="18" real="xx-+" met="-+-+">One so unkind;</l>
+        <l n="19" real="xxxx" met="-+-+">And as I find</l>
+        <l n="20" real="xxxx" met="-+-+">So will I trust.</l>
+        <l n="21" real="x+-+" met="-+-+">Farewell, unjust!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababbcc">
+        <l n="22" real="xxxx" met="-+-+">Can ye say nay</l>
+        <l n="23" real="xxxx" met="-+-+">But that you said</l>
+        <l n="24" real="xxxx" met="-+-+">That I alway</l>
+        <l n="25" real="xx-+" met="-+-+">Should be obeyed?</l>
+        <l n="26" real="xx-+" met="-+-+">And--thus betrayed</l>
+        <l n="27" real="xxxx" met="-+-+">Or that I wist!</l>
+        <l n="28" real="x+xx" met="-+-+">Farewell, unkist!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="vixi-puellis-nuper-idoneus" n="L15956">
+      <head>Vixi Puellis Nuper Idoneus ...</head>
+      <idno type="URN">urn:laurel:eng:wyatt.obev-sir-thomas-wyatt.pg66619:vixi-puellis-nuper-idoneus</idno><idno type="laurel-id">L15956</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababbcc">
+        <l n="1" real="xxxxx+xxxx" met="-+-+-+-+-+">They flee from me that sometime did me seek,</l>
+        <l n="2" real="x+-x+-xxx+-" met="-+-+-+-+-+-">With naked foot stalking within my chamber:</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Once have I seen them gentle, tame, and meek,</l>
+        <l n="4" real="xxxxxxxx-+-" met="-+-+-+-+-+-">That now are wild, and do not once remember</l>
+        <l n="5" real="x+xxxx-+x+-" met="-+-+-+-+-+-">That sometime they have put themselves in danger</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">To take bread at my hand; and now they range,</l>
+        <l n="7" real="+-+-x-+--x" met="-+-+-+-+-+">Busily seeking in continual change.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababbcc">
+        <l n="8" real="xx+-xxx+-x" met="-+-+-+-+-+">Thanked be fortune, it hath been otherwise</l>
+        <l n="9" real="+-x+-xx-+-" met="-+-+-+-+-+">Twenty times better; but once especial--</l>
+        <l n="10" real="xx-+xxx+-x" met="-+-+-+-+-+">In thin array: after a pleasant guise,</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">When her loose gown did from her shoulders fall,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">And she me caught in her arms long and small,</l>
+        <l n="13" real="xxxxxx+-xxx" met="-+-+-+-+-+-">And therewithal so sweetly did me kiss,</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">And softly said, ‘_Dear heart, how like you this?_’</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababbcc">
+        <l n="15" real="xxxxxxxxxxx" met="-+-+-+-+-+-">It was no dream; for I lay broad awaking:</l>
+        <l n="16" real="xxxxxxx+--" met="-+-+-+-+-+">But all is turn’d now, through my gentleness,</l>
+        <l n="17" real="xxx+-+-x-+-" met="-+-+-+-+-+-">Into a bitter fashion of forsaking;</l>
+        <l n="18" real="xxxxxxxx+-" met="-+-+-+-+-+">And I have leave to go of her goodness;</l>
+        <l n="19" real="xx+-xxxxxx" met="-+-+-+-+-+">And she also to use new-fangleness.</l>
+        <l n="20" real="xxxxxxxxxx" met="-+-+-+-+-+">But since that I unkindly so am servèd,</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">‘_How like you this?_’--what hath she now deservèd?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-his-lute" n="L15957">
+      <head>To His Lute</head>
+      <idno type="URN">urn:laurel:eng:wyatt.obev-sir-thomas-wyatt.pg66619:to-his-lute</idno><idno type="laurel-id">L15957</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a-bab">
+        <l n="1" real="xx-+-+xx" met="-+-+-+-+">My lute, awake! perform the last</l>
+        <l n="2" real="+xxxxxxx" met="-+-+-+-+">Labour that thou and I shall waste,</l>
+        <l n="3" real="xxxxxx-+" met="-+-+-+-+">And end that I have now begun;</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">For when this song is said and past,</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">My lute, be still, for I have done.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-ba">
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">As to be heard where ear is none,</l>
+        <l n="7" real="xxxxx+-x" met="-+-+-+-+">As lead to grave in marble stone,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">My song may pierce her heart as soon:</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Should we then sing, or sigh, or moan?</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">No, no, my lute! for I have done.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="11" real="xxxxx+-" met="+-+-+-+">The rocks do not so cruelly</l>
+        <l n="12" real="-+xx-+---" met="-+-+-+-+-">Repulse the waves continually,</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">As she my suit and affectiòn;</l>
+        <l n="14" real="xxxxx+--" met="-+-+-+-+">So that I am past remedy:</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Whereby my lute and I have done.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabab">
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Proud of the spoil that thou hast got</l>
+        <l n="17" real="x+-x+-xx" met="-+-+-+-+">Of simple hearts thorough Love’s shot,</l>
+        <l n="18" real="xx-+xxxx" met="-+-+-+-+">By whom, unkind, thou hast them won;</l>
+        <l n="19" real="xxxxxx-+" met="-+-+-+-+">Think not he hath his bow forgot,</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">Although my lute and I have done.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabab">
+        <l n="21" real="+-xxxx-+" met="-+-+-+-+">Vengeance shall fall on thy disdain,</l>
+        <l n="22" real="xxxxxx+-x" met="-+-+-+-+-">That makest but game of earnest pain:</l>
+        <l n="23" real="xx-+xxxx" met="-+-+-+-+">Trow not alone under the sun</l>
+        <l n="24" real="xxxxx+-x" met="-+-+-+-+">Unquit to cause thy lover’s plain,</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">Although my lute and I have done.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aa-a-">
+        <l n="26" real="xxxx+-xx" met="-+-+-+-+">May chance thee lie wither’d and old</l>
+        <l n="27" real="x+-xxxxx" met="-+-+-+-+">The winter nights that are so cold,</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">Plaining in vain unto the moon:</l>
+        <l n="29" real="x+-xxxxx" met="-+-+-+-+">Thy wishes then dare not be told:</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Care then who list! for I have done.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="aa-a-">
+        <l n="31" real="xxxxxx-+" met="-+-+-+-+">And then may chance thee to repent</l>
+        <l n="32" real="xxxxxxxx" met="-+-+-+-+">The time that thou has lost and spent</l>
+        <l n="33" real="xxx+-xxx" met="-+-+-+-+">To cause thy lover’s sigh and swoon:</l>
+        <l n="34" real="xxxx+-xx" met="-+-+-+-+">Then shalt thou know beauty but lent,</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">And wish and want as I have done.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="a-bab">
+        <l n="36" real="xxxxxxxx" met="-+-+-+-+">Now cease, my lute! this is the last</l>
+        <l n="37" real="+xxxxxxx" met="-+-+-+-+">Labour that thou and I shall waste,</l>
+        <l n="38" real="x+-xxx-+" met="-+-+-+-+">And ended is that we begun:</l>
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">Now is this song both sung and past--</l>
+        <l n="40" real="xxxxxxxx" met="-+-+-+-+">My lute, be still, for I have done.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

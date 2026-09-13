@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Divine Rapture, and other poems</title><author>Francis Quarles</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-divine-rapture" n="L16058">
+      <head>A Divine Rapture</head>
+      <idno type="URN">urn:laurel:eng:quarles.obev-francis-quarles.pg66619:a-divine-rapture</idno><idno type="laurel-id">L16058</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a-a---">
+        <l n="1" real="xxx+-x-+-x" met="-+-+-+-+-+">E’en like two little bank-dividing brooks,</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">That wash the pebbles with their wanton streams,</l>
+        <l n="3" real="x+-xxxx+-x" met="-+-+-+-+-+">And having ranged and search’d a thousand nooks,</l>
+        <l n="4" real="xxxxx+-+-x" met="-+-+-+-+-+">Meet both at length in silver-breasted Thames,</l>
+        <l n="5" real="xxx+-+-xx+" met="-+-+-+-+-+">Where in a greater current they conjoin:</l>
+        <l n="6" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">So I my Best-belovèd’s am; so He is mine.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">E’en so we met; and after long pursuit,</l>
+        <l n="8" real="xxxxxx-+-+-" met="-+-+-+-+-+-">E’en so we joined; we both became entire;</l>
+        <l n="9" real="xxx+-x-+xx" met="-+-+-+-+-+">No need for either to renew a suit,</l>
+        <l n="10" real="xxxxxxxxx+-" met="-+-+-+-+-+-">For I was flax, and He was flames of fire:</l>
+        <l n="11" real="+x-+-xxxxx" met="-+-+-+-+-+">Our firm-united souls did more than twine;</l>
+        <l n="12" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">So I my Best-belovèd’s am; so He is mine.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab--">
+        <l n="13" real="xxx+-+xx-+" met="-+-+-+-+-+">If all those glittering Monarchs, that command</l>
+        <l n="14" real="x+-+-xx+-x" met="-+-+-+-+-+">The servile quarters of this earthly ball,</l>
+        <l n="15" real="x+-x-+xxxx" met="-+-+-+-+-+">Should tender in exchange their shares of land,</l>
+        <l n="16" real="xxxxx+-xxx" met="-+-+-+-+-+">I would not change my fortunes for them all:</l>
+        <l n="17" real="xxxxx+-xxx" met="-+-+-+-+-+">Their wealth is but a counter to my coin:</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">The world’s but theirs; but my Belovèd’s mine.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="epigram" n="L16059">
+      <head>Epigram</head>
+      <idno type="URN">urn:laurel:eng:quarles.obev-francis-quarles.pg66619:epigram</idno><idno type="laurel-id">L16059</idno>
+      <lg type="stanza" n="1" rhyme="--aa">
+        <l n="1" real="xxxxx+-+-x">My soul, sit thou a patient looker-on;</l>
+        <l n="2" real="xxxxxxxxxx">Judge not the play before the play is done:</l>
+        <l n="3" real="xxx+-+-+--x">Her plot hath many changes; every day</l>
+        <l n="4" real="xxxxxxxxxx">Speaks a new scene; the last act crowns the play.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

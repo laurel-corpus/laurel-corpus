@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Shepherd Boy sings in the Valley of Humiliation</title><author>John Bunyan</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-shepherd-boy-sings-in-the-valley-of-humiliat" n="L16114">
+      <head>The Shepherd Boy sings in the Valley of Humiliation</head>
+      <idno type="URN">urn:laurel:eng:bunyan.obev-john-bunyan.pg66619:the-shepherd-boy-sings-in-the-valley-of-humiliat</idno><idno type="laurel-id">L16114</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxx" met="--+-+-+-">He that is down needs fear no fall,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">He that is low, no pride;</l>
+        <l n="3" real="xxx+-+-x" met="--+-+-+-">He that is humble ever shall</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Have God to be his guide.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+-xxxx" met="--+-+-+-">I am content with what I have,</l>
+        <l n="6" real="+-xxxx" met="-+-+-+">Little be it or much:</l>
+        <l n="7" real="xx-+-xxx" met="--+-+-+-">And, Lord, contentment still I crave,</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Because Thou savest such.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="+-xxx+-x" met="--+-+-+-">Fullness to such a burden is</l>
+        <l n="10" real="xxx+--" met="-+-+-+">That go on pilgrimage:</l>
+        <l n="11" real="x+-x-+-x" met="--+-+-+-">Here little, and hereafter bliss,</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Is best from age to age.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

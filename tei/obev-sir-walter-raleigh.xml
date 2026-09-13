@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Her Reply, and other poems</title><author>Sir Walter Raleigh</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="i" n="L15966">
+      <head>i</head>
+      <idno type="URN">urn:laurel:eng:raleigh.obev-sir-walter-raleigh.pg66619:i</idno><idno type="laurel-id">L15966</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="+-x+-xxxxx" met="-+-+-+-+-+">Passions are liken’d best to floods and streams:</l>
+        <l n="2" real="x+-+-xxxxx" met="-+-+-+-+-+">The shallow murmur, but the deep are dumb;</l>
+        <l n="3" real="xx-+-x+-xx" met="-+-+-+-+-+">So, when affection yields discourse, it seems</l>
+        <l n="4" real="x+-xx+-xxx" met="-+-+-+-+-+">The bottom is but shallow whence they come.</l>
+        <l n="5" real="xxxxxxxx-+-" met="-+-+-+-+-+-">They that are rich in words, in words discover</l>
+        <l n="6" real="xxxxxxxxx+-" met="-+-+-+-+-+-">That they are poor in that which makes a lover.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ii" n="L15967">
+      <head>ii</head>
+      <idno type="URN">urn:laurel:eng:raleigh.obev-sir-walter-raleigh.pg66619:ii</idno><idno type="laurel-id">L15967</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">Wrong not, sweet empress of my heart,</l>
+        <l n="2" real="x+-xx+-" met="+-+-+-+">The merit of true passion,</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">With thinking that he feels no smart,</l>
+        <l n="4" real="xxxx-+-" met="+-+-+-+">That sues for no compassion.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="+-xxxxxx" met="-+-+-+-+">Silence in love bewrays more woe</l>
+        <l n="6" real="xxxxx+-" met="+-+-+-+">Than words, though ne’er so witty:</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">A beggar that is dumb, you know,</l>
+        <l n="8" real="x+-+-+-" met="+-+-+-+">May challenge double pity.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">Then wrong not, dearest to my heart,</l>
+        <l n="10" real="xxx+-+-" met="+-+-+-+">My true, though secret passion;</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">He smarteth most that hides his smart,</l>
+        <l n="12" real="xxxx-+-" met="+-+-+-+">And sues for no compassion.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="his-pilgrimage" n="L15968">
+      <head>His Pilgrimage</head>
+      <idno type="URN">urn:laurel:eng:raleigh.obev-sir-walter-raleigh.pg66619:his-pilgrimage</idno><idno type="laurel-id">L15968</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxx+-xx+-" met="-+-+-+-+-">Give me my scallop-shell of quiet,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">My staff of faith to walk upon,</l>
+        <l n="3" real="xxxx-+-+-" met="-+-+-+-+-">My scrip of joy, immortal diet,</l>
+        <l n="4" real="x+-x-+-" met="+-+-+-+">My bottle of salvation,</l>
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">My gown of glory, hope’s true gage;</l>
+        <l n="6" real="xxxxx+--" met="-+-+-+-+">And thus I’ll take my pilgrimage.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-a-bbccddee">
+        <l n="7" real="xxxx+-+-" met="-+-+-+-+">Blood must be my body’s balmer;</l>
+        <l n="8" real="x+-xxxx+-" met="-+-+-+-+-">No other balm will there be given;</l>
+        <l n="9" real="xxxx+-+-" met="-+-+-+-+">Whilst my soul, like quiet palmer,</l>
+        <l n="10" real="xxxxxxx+-" met="-+-+-+-+-">Travelleth towards the land of heaven;</l>
+        <l n="11" real="xxx+-+-" met="+-+-+-+">Over the silver mountains,</l>
+        <l n="12" real="xxx+-+-" met="+-+-+-+">Where spring the nectar fountains;</l>
+        <l n="13" real="xxxx" met="--+-">There will I kiss</l>
+        <l n="14" real="xxxx" met="--+-">The bowl of bliss;</l>
+        <l n="15" real="xxxx-+-x" met="-+-+-+-+">And drink mine everlasting fill</l>
+        <l n="16" real="xx+--+-x" met="-+-+-+-+">Upon every milken hill.</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">My soul will be a-dry before;</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">But, after, it will thirst no more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-conclusion" n="L15969">
+      <head>The Conclusion</head>
+      <idno type="URN">urn:laurel:eng:raleigh.obev-sir-walter-raleigh.pg66619:the-conclusion</idno><idno type="laurel-id">L15969</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababccaa">
+        <l n="1" real="+xxxxxxx" met="-+-+-+-+">Even such is Time, that takes in trust</l>
+        <l n="2" real="+x+x+xxx" met="-+-+-+-+">Our youth, our joys, our all we have,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And pays us but with earth and dust;</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">Who in the dark and silent grave,</l>
+        <l n="5" real="xxx+-x+x" met="-+-+-+-+">When we have wander’d all our ways,</l>
+        <l n="6" real="xxx+-x+x" met="-+-+-+-+">Shuts up the story of our days;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">But from this earth, this grave, this dust,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">My God shall raise me up, I trust.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="her-reply" n="L15970">
+      <head>Her Reply</head>
+      <idno type="URN">urn:laurel:eng:raleigh.obev-sir-walter-raleigh.pg66619:her-reply</idno><idno type="laurel-id">L15970</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">If all the world and love were young,</l>
+        <l n="2" real="xxx+-+-x" met="-+-+-+-+">And truth in every shepherd’s tongue,</l>
+        <l n="3" real="x+-+-xxx" met="-+-+-+-+">These pretty pleasures might me move</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">To live with thee and be thy Love.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">But Time drives flocks from field to fold;</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">When rivers rage and rocks grow cold;</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">And Philomel becometh dumb;</l>
+        <l n="8" real="xx-+xxxx" met="-+-+-+-+">The rest complains of cares to come.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="x+xxx+-x" met="-+-+-+-+">The flowers do fade, and wanton fields</l>
+        <l n="10" real="x+-+-+-x" met="-+-+-+-+">To wayward Winter reckoning yields:</l>
+        <l n="11" real="x+-xxxxx" met="-+-+-+-+">A honey tongue, a heart of gall,</l>
+        <l n="12" real="xxxxx+-x" met="-+-+-+-+">Is fancy’s spring, but sorrow’s fall.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxxxx+-" met="-+-+-+-+-">Thy gowns, thy shoes, thy beds of roses,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Thy cap, thy kirtle, and thy posies,</l>
+        <l n="15" real="xxx+-x-+-" met="-+-+-+-+-">Soon break, soon wither--soon forgotten,</l>
+        <l n="16" real="x+-xx+-+-" met="-+-+-+-+-">In folly ripe, in reason rotten.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">Thy belt of straw and ivy-buds,</l>
+        <l n="18" real="x+-xx+-x" met="-+-+-+-+">Thy coral clasps and amber studs,--</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">All these in me no means can move</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">To come to thee and be thy Love.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabb">
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">But could youth last, and love still breed,</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">Had joys no date, nor age no need,</l>
+        <l n="23" real="xx-+xxxx" met="-+-+-+-+">Then these delights my mind might move</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">To live with thee and be thy Love.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

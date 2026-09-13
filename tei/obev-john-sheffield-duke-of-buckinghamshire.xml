@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>On One who died discovering her Kindness, and other poems</title><author>John Sheffield, Duke of Buckinghamshire</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-reconcilement" n="L16132">
+      <head>The Reconcilement</head>
+      <idno type="URN">urn:laurel:eng:buckinghamshire.obev-john-sheffield-duke-of-buckinghamshire.pg66619:the-reconcilement</idno><idno type="laurel-id">L16132</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx-+xx" met="-+-+-+-+">Come, let us now resolve at last</l>
+        <l n="2" real="xxxxx+-" met="+-+-+-+">To live and love in quiet;</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">We’ll tie the knot so very fast</l>
+        <l n="4" real="xxxx-+x" met="+-+-+-+">That Time shall ne’er untie it.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">The truest joys they seldom prove</l>
+        <l n="6" real="xxx+-x" met="--+-+-">Who free from quarrels live:</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">’Tis the most tender part of love</l>
+        <l n="8" real="x+-x-+" met="--+-+-">Each other to forgive.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxx-+xx" met="-+-+-+-+">When least I seem’d concern’d, I took</l>
+        <l n="10" real="x+-xxx" met="--+-+-">No pleasure nor no rest;</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">And when I feign’d an angry look,</l>
+        <l n="12" real="-+xx-xx" met="+-+-+-+">Alas! I loved you best.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Own but the same to me--you’ll find</l>
+        <l n="14" real="xxxx+-x" met="+-+-+-+">How blest will be our fate.</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">O to be happy--to be kind--</l>
+        <l n="16" real="x+-xxx" met="--+-+-">Sure never is too late!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-one-who-died-discovering-her-kindness" n="L16133">
+      <head>On One who died discovering her Kindness</head>
+      <idno type="URN">urn:laurel:eng:buckinghamshire.obev-john-sheffield-duke-of-buckinghamshire.pg66619:on-one-who-died-discovering-her-kindness</idno><idno type="laurel-id">L16133</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxx+-x" met="-+-+-+-+">Some vex their souls with jealous pain,</l>
+        <l n="2" real="x+-xxx-+" met="-+-+-+-+">While others sigh for cold disdain:</l>
+        <l n="3" real="x+-xx+-x" met="-+-+-+-+">Love’s various slaves we daily see--</l>
+        <l n="4" real="x+-x-+xx" met="-+-+-+-+">Yet happy all compared with me!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xx++xxxx" met="-+-+-+-+">Of all mankind I loved the best</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">A nymph so far above the rest</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">That we outshined the Blest above;</l>
+        <l n="8" real="x+-xxxxx" met="-+-+-+-+">In beauty she, as I in love.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa--">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">And therefore They, who could not bear</l>
+        <l n="10" real="xx++x+-x" met="-+-+-+-+">To be outdone by mortals here,</l>
+        <l n="11" real="xx-+xxxx" met="-+-+-+-+">Among themselves have placed her now,</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">And left me wretched here below.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb--">
+        <l n="13" real="x+-xxxxx" met="-+-+-+-+">All other fate I could have borne,</l>
+        <l n="14" real="x+-+x+-x" met="-+-+-+-+">And even endured her very scorn;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">But oh! thus all at once to find</l>
+        <l n="16" real="xx-+xxxx" met="-+-+-+-+">That dread account--both dead and kind!</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">What heart can hold? If yet I live,</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">’Tis but to show how much I grieve.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

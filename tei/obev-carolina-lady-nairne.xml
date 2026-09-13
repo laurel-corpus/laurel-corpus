@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Land o’ the Leal</title><author>Carolina, Lady Nairne</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-land-o-the-leal" n="L16173">
+      <head>The Land o’ the Leal</head>
+      <idno type="URN">urn:laurel:eng:nairne.obev-carolina-lady-nairne.pg66619:the-land-o-the-leal</idno><idno type="laurel-id">L16173</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="aa-baa-b">
+        <l n="1" real="xxxxxx" met="-+-+-+">I’m wearin’ awa’, John</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Like snaw-wreaths in thaw, John,</l>
+        <l n="3" real="xxxxx" met="+-+-+">I’m wearin’ awa’</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">To the land o’ the leal.</l>
+        <l n="5" real="xx+-xx" met="-+-+-+">There’s nae sorrow there, John,</l>
+        <l n="6" real="x+-xxxx" met="-+-+-+-">There’s neither cauld nor care, John,</l>
+        <l n="7" real="xxxxx" met="+-+-+">The day is aye fair</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">In the land o’ the leal.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-baa-b">
+        <l n="9" real="++-xxx" met="-+-+-+">Our bonnie bairn’s there, John,</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">She was baith gude and fair, John;</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">And O! we grudged her sair</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">To the land o’ the leal.</l>
+        <l n="13" real="x+-xxxx" met="-+-+-+-">But sorrow’s sel’ wears past, John,</l>
+        <l n="14" real="xxx+-xx" met="-+-+-+-">And joy’s a-coming fast, John,</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">The joy that’s aye to last</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">In the land o’ the leal.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-baa-b">
+        <l n="17" real="xxxxxxx" met="-+-+-+-">Sae dear’s the joy was bought, John,</l>
+        <l n="18" real="xxx+-xx" met="-+-+-+-">Sae free the battle fought, John,</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">That sinfu’ man e’er brought</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">To the land o’ the leal.</l>
+        <l n="21" real="xxx+-xx" met="-+-+-+-">O, dry your glistening e’e, John!</l>
+        <l n="22" real="xxxxxxx" met="-+-+-+-">My saul langs to be free, John,</l>
+        <l n="23" real="x+-+-x" met="-+-+-+">And angels beckon me</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">To the land o’ the leal.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa-baa-b">
+        <l n="25" real="xxxxxxx" met="-+-+-+-">O, haud ye leal and true, John!</l>
+        <l n="26" real="xxxxxxx" met="-+-+-+-">Your day it’s wearin’ through, John,</l>
+        <l n="27" real="xx+-x" met="+-+-+">And I’ll welcome you</l>
+        <l n="28" real="xxxxxx" met="-+-+-+">To the land o’ the leal.</l>
+        <l n="29" real="xxxxxxx" met="-+-+-+-">Now fare-ye-weel, my ain John,</l>
+        <l n="30" real="xxxxxx" met="-+-+-+">This warld’s cares are vain, John,</l>
+        <l n="31" real="xxxxxx" met="-+-+-+">We’ll meet, and we’ll be fain,</l>
+        <l n="32" real="xxxxxx" met="-+-+-+">In the land o’ the leal.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

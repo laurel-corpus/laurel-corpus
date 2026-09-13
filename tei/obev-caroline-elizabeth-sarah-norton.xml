@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>I do not love Thee</title><author>Caroline Elizabeth Sarah Norton</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="i-do-not-love-thee" n="L16213">
+      <head>I do not love Thee</head>
+      <idno type="URN">urn:laurel:eng:norton.obev-caroline-elizabeth-sarah-norton.pg66619:i-do-not-love-thee</idno><idno type="laurel-id">L16213</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxxxx" met="-+-+-+-+-+-">I do not love thee!--no! I do not love thee!</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">And yet when thou art absent I am sad;</l>
+        <l n="3" real="x+-+xxxxxxx" met="-+-+-+-+-+-">And envy even the bright blue sky above thee,</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">Whose quiet stars may see thee and be glad.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">I do not love thee!--yet, I know not why,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Whate’er thou dost seems still well done, to me:</l>
+        <l n="7" real="x+-xx+-xxx" met="-+-+-+-+-+">And often in my solitude I sigh</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">That those I do love are not more like thee!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">I do not love thee!--yet, when thou art gone,</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">I hate the sound (though those who speak be dear)</l>
+        <l n="11" real="xxx+-+-xxx" met="-+-+-+-+-+">Which breaks the lingering echo of the tone</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">Thy voice of music leaves upon my ear.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">I do not love thee!--yet thy speaking eyes,</l>
+        <l n="14" real="xxxxxx-+-x" met="-+-+-+-+-+">With their deep, bright, and most expressive blue,</l>
+        <l n="15" real="xxxxx+x+-+" met="-+-+-+-+-+">Between me and the midnight heaven arise,</l>
+        <l n="16" real="+--x+-xx+x" met="-+-+-+-+-+">Oftener than any eyes I ever knew.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxxxxxxx-+" met="-+-+-+-+-+">I know I do not love thee! yet, alas!</l>
+        <l n="18" real="+-x+-xx+-x" met="-+-+-+-+-+">Others will scarcely trust my candid heart;</l>
+        <l n="19" real="xxxxx+-xxx" met="-+-+-+-+-+">And oft I catch them smiling as they pass,</l>
+        <l n="20" real="xxxxx+-xxx" met="-+-+-+-+-+">Because they see me gazing where thou art.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

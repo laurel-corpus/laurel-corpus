@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Old Song, and other poems</title><author>Edward Fitzgerald</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="old-song" n="L16215">
+      <head>Old Song</head>
+      <idno type="URN">urn:laurel:eng:fitzgerald.obev-edward-fitzgerald.pg66619:old-song</idno><idno type="laurel-id">L16215</idno><note type="metre">iambic dimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-aa">
+        <l n="1" real="xxxx" met="-+-+">’Tis a dull sight</l>
+        <l n="2" real="xxxx+-" met="--+-+-">To see the year dying,</l>
+        <l n="3" real="x+-x" met="-+-+">When winter winds</l>
+        <l n="4" real="xx+-x+-" met="-+-+-+-">Set the yellow wood sighing:</l>
+        <l n="5" real="+-x+-" met="-+-+-">Sighing, O sighing!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-aa">
+        <l n="6" real="xxxx+-" met="--+-+-">When such a time cometh</l>
+        <l n="7" real="xx-+" met="-+-+">I do retire</l>
+        <l n="8" real="xxxxx" met="-+-+-">Into an old room</l>
+        <l n="9" real="-+xx+-" met="--+-+-">Beside a bright fire:</l>
+        <l n="10" real="xxxx+-" met="--+-+-">O, pile a bright fire!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-aa">
+        <l n="11" real="xxxx" met="-+-+">And there I sit</l>
+        <l n="12" real="+-xx" met="-+-+">Reading old things,</l>
+        <l n="13" real="xxxxxx" met="--+-+-">Of knights and lorn damsels,</l>
+        <l n="14" real="xxxx" met="-+-+">While the wind sings--</l>
+        <l n="15" real="xxxxx" met="-+-+-">O, drearily sings!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a-">
+        <l n="16" real="x+-xx" met="-+-+-">I never look out</l>
+        <l n="17" real="x-+xxx" met="--+-+-">Nor attend to the blast;</l>
+        <l n="18" real="xxxxx" met="-+-+-">For all to be seen</l>
+        <l n="19" real="xxx+-x" met="--+-+-">Is the leaves falling fast:</l>
+        <l n="20" real="+-+-" met="-+-+">Falling, falling!</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="---aa">
+        <l n="21" real="xxxxx" met="-+-+-">But close at the hearth,</l>
+        <l n="22" real="xx+-xx" met="--+-+-">Like a cricket, sit I,</l>
+        <l n="23" real="+-x+-" met="-+-+-">Reading of summer</l>
+        <l n="24" real="x+--" met="-+-+">And chivalry--</l>
+        <l n="25" real="+-+--" met="-+-+-">Gallant chivalry!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a-">
+        <l n="26" real="xxxxx" met="-+-+-">Then with an old friend</l>
+        <l n="27" real="xxx+-x" met="--+-+-">I talk of our youth--</l>
+        <l n="28" real="xxxxx+-" met="-+-+-+-">How ’twas gladsome, but often</l>
+        <l n="29" real="+-xx" met="-+-+">Foolish, forsooth:</l>
+        <l n="30" real="xxxxx" met="-+-+-">But gladsome, gladsome!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-aa">
+        <l n="31" real="xxx+-" met="-+-+-">Or, to get merry,</l>
+        <l n="32" real="xxxxx" met="-+-+-">We sing some old rhyme</l>
+        <l n="33" real="xxxxx-+" met="-+-+-+-">That made the wood ring again</l>
+        <l n="34" real="x+-x" met="-+-+">In summer time--</l>
+        <l n="35" real="x+-x" met="-+-+">Sweet summer time!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a-">
+        <l n="36" real="xxx+-" met="-+-+-">Then go we smoking,</l>
+        <l n="37" real="+-xx" met="-+-+">Silent and snug:</l>
+        <l n="38" real="x+-xxx" met="--+-+-">Naught passes between us,</l>
+        <l n="39" real="xxxx" met="-+-+">Save a brown jug--</l>
+        <l n="40" real="-+" met="-+">Sometimes!</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="---aa">
+        <l n="41" real="x-+xx" met="-+-+-">And sometimes a tear</l>
+        <l n="42" real="xxxxx" met="-+-+-">Will rise in each eye,</l>
+        <l n="43" real="+-xxxx" met="--+-+-">Seeing the two old friends</l>
+        <l n="44" real="x+--" met="-+-+">So merrily--</l>
+        <l n="45" real="x+--" met="-+-+">So merrily!</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a-">
+        <l n="46" real="xxxx" met="-+-+">And ere to bed</l>
+        <l n="47" real="xxxx" met="-+-+">Go we, go we,</l>
+        <l n="48" real="xxx+-" met="-+-+-">Down on the ashes</l>
+        <l n="49" real="xxxxx" met="-+-+-">We kneel on the knee,</l>
+        <l n="50" real="+--+-" met="-+-+-">Praying together!</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a-">
+        <l n="51" real="xxxx" met="-+-+">Thus, then, live I</l>
+        <l n="52" real="xxxxx" met="-+-+-">Till, ’mid all the gloom,</l>
+        <l n="53" real="x+-xxx" met="--+-+-">By Heaven! the bold sun</l>
+        <l n="54" real="xxxxxx" met="--+-+-">Is with me in the room</l>
+        <l n="55" real="+-+-" met="-+-+">Shining, shining!</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="56" real="xxxx" met="-+-+">Then the clouds part,</l>
+        <l n="57" real="+-+-xx" met="--+-+-">Swallows soaring between;</l>
+        <l n="58" real="xxx-+" met="-+-+-">The spring is alive,</l>
+        <l n="59" real="xx+xxx" met="--+-+-">And the meadows are green!</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="60" real="xxxxx" met="-+-+-">I jump up like mad,</l>
+        <l n="61" real="xxxxxx" met="--+-+-">Break the old pipe in twain,</l>
+        <l n="62" real="x-+xx+x" met="-+-+-+-">And away to the meadows,</l>
+        <l n="63" real="x+x-+" met="-+-+-">The meadows again!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="from-omar-khayyam" n="L16216">
+      <head>From Omar Khayyám</head>
+      <idno type="URN">urn:laurel:eng:fitzgerald.obev-edward-fitzgerald.pg66619:from-omar-khayyam</idno><idno type="laurel-id">L16216</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="x" met="+">I</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa--">
+        <l n="2" real="xxx+-x-+xx" met="-+-+-+-+-+">A Book of Verses underneath the Bough,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">A Jug of Wine, a Loaf of Bread--and Thou</l>
+        <l n="4" real="-+x+-xx+--" met="-+-+-+-+-+">Beside me singing in the Wilderness--</l>
+        <l n="5" real="x+--x+-xxx" met="-+-+-+-+-+">O. Wilderness were Paradise enow!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa-a">
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">Some for the Glories of This World; and some</l>
+        <l n="7" real="xxx+-+-xxx" met="-+-+-+-+-+">Sigh for the Prophet’s Paradise to come;</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">Ah, take the Cash, and let the Credit go,</l>
+        <l n="9" real="xxx+-xx+-x" met="-+-+-+-+-+">Nor heed the rumble of a distant Drum!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aa-a">
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">Look to the blowing Rose about us--‘Lo,</l>
+        <l n="11" real="+-xxxxxxxx" met="-+-+-+-+-+">Laughing,’ she says, ‘into the world I blow,</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">At once the silken tassel of my Purse</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">Tear, and its Treasure on the Garden throw.’</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aa-a">
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">And those who husbanded the Golden grain</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">And those who flung it to the winds like Rain</l>
+        <l n="16" real="-+xxxxxxxx" met="-+-+-+-+-+">Alike to no such aureate Earth are turn’d</l>
+        <l n="17" real="x+-xxxxx-+" met="-+-+-+-+-+">As, buried once, Men want dug up again.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="18" real="x" met="+">II</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="19" real="xxx+-xxxxx" met="-+-+-+-+-+">Think, in this batter’d Caravanserai</l>
+        <l n="20" real="x+-x+--xxx" met="-+-+-+-+-+">Whose Portals are alternate Night and Day,</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">How Sultán after Sultán with his Pomp</l>
+        <l n="22" real="-+x+-+xxxx" met="-+-+-+-+-+">Abode his destined Hour, and went his way.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aa-a">
+        <l n="23" real="xxx+-xx+-x" met="-+-+-+-+-+">They say the Lion and the Lizard keep</l>
+        <l n="24" real="xxxxxxxxx" met="+-+-+-+-+">The Courts where Jamshyd gloried and drank deep:</l>
+        <l n="25" real="xxxxx+-xxx" met="-+-+-+-+-+">And Bahrám, that great Hunter--the wild Ass</l>
+        <l n="26" real="xxxxx+-xxx" met="-+-+-+-+-+">Stamps o’er his Head, but cannot break his Sleep.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="aa-a">
+        <l n="27" real="x+xxx+-xxx" met="-+-+-+-+-+">I sometimes think that never blows so red</l>
+        <l n="28" real="xxxxx+-xx" met="+-+-+-+-+">The Rose as where some buried Cæsar bled;</l>
+        <l n="29" real="x+-+-xx+-x" met="-+-+-+-+-+">That every Hyacinth the Garden wears</l>
+        <l n="30" real="xxxxxxx+-x" met="-+-+-+-+-+">Dropt in her Lap from some once lovely Head.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aa-a">
+        <l n="31" real="xx-+-xx+-x" met="-+-+-+-+-+">And this reviving Herb whose tender Green</l>
+        <l n="32" real="xxx+-xxxxx" met="-+-+-+-+-+">Fledges the River-Lip on which we lean--</l>
+        <l n="33" real="xxxxx+-xxx" met="-+-+-+-+-+">Ah, lean upon it lightly! for who knows</l>
+        <l n="34" real="xxx+-xxx-+" met="-+-+-+-+-+">From what once lovely Lip it springs unseen!</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="aa-a">
+        <l n="35" real="xxxxxxxxx" met="+-+-+-+-+">Ah, my Belovèd, fill the Cup that clears</l>
+        <l n="36" real="xxxx-+x+-x" met="-+-+-+-+-+">TO-DAY of past Regrets and Future Fears:</l>
+        <l n="37" real="x+-xx+-xxx" met="-+-+-+-+-+">_To-morrow!_--Why, To-morrow I may be</l>
+        <l n="38" real="x+x+-xx+-x" met="-+-+-+-+-+">Myself with Yesterday’s Sev’n thousand Years.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aa-a">
+        <l n="39" real="xxxxxxxxxxx" met="-+-+-+-+-+-">For some we loved, the loveliest and the best</l>
+        <l n="40" real="xxx+-+-xxx" met="-+-+-+-+-+">That from his Vintage rolling Time hath prest,</l>
+        <l n="41" real="xxxxxxxxxx" met="-+-+-+-+-+">Have drunk their Cup a Round or two before,</l>
+        <l n="42" real="xxxxx+--xx" met="-+-+-+-+-+">And one by one crept silently to rest.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="aa-a">
+        <l n="43" real="xxxxx+-xxx" met="-+-+-+-+-+">And we, that now make merry in the Room</l>
+        <l n="44" real="xxx+-+-xxx" met="-+-+-+-+-+">They left, and Summer dresses in new bloom,</l>
+        <l n="45" real="-+xxxxxxxx" met="-+-+-+-+-+">Ourselves must we beneath the Couch of Earth</l>
+        <l n="46" real="-+-+xxxxxx" met="-+-+-+-+-+">Descend--ourselves to make a Couch--for whom?</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="aa-a">
+        <l n="47" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah, make the most of what we yet may spend,</l>
+        <l n="48" real="xxxxxxxx-+" met="-+-+-+-+-+">Before we too into the Dust descend;</l>
+        <l n="49" real="xxxxxxxxxx" met="-+-+-+-+-+">Dust unto Dust, and under Dust to lie,</l>
+        <l n="50" real="xxxxx+-xxx" met="-+-+-+-+-+">Sans Wine, sans Song, sans Singer, and--sans End!</l>
+      </lg>
+      <lg type="stanza" n="15">
+        <l n="51" real="x" met="+">III</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="aa-a">
+        <l n="52" real="xxxxx+-x-+" met="-+-+-+-+-+">Ah, with the Grape my fading Life provide,</l>
+        <l n="53" real="xxx+-xxxxx" met="-+-+-+-+-+">And wash my Body whence the Life has died,</l>
+        <l n="54" real="xxx+-xx+-x" met="-+-+-+-+-+">And lay me, shrouded in the living Leaf,</l>
+        <l n="55" real="xxxxxxx+-x" met="-+-+-+-+-+">By some not unfrequented Garden-side....</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="aa-a">
+        <l n="56" real="x+-xxxxx-+" met="-+-+-+-+-+">Yon rising Moon that looks for us again--</l>
+        <l n="57" real="xx-+-xxxxx" met="-+-+-+-+-+">How oft hereafter will she wax and wane;</l>
+        <l n="58" real="xx-+-+-xxx" met="-+-+-+-+-+">How oft hereafter rising look for us</l>
+        <l n="59" real="xxx+-xxxxx" met="-+-+-+-+-+">Through this same Garden--and for _one_ in vain!</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="aa-a">
+        <l n="60" real="xxxxxxxxx" met="+-+-+-+-+">And when like her, O Sákí, you shall pass</l>
+        <l n="61" real="xxxxx+-xxx" met="-+-+-+-+-+">Among the Guests star-scatter’d on the Grass,</l>
+        <l n="62" real="xxx+-+-xxx" met="-+-+-+-+-+">And in your joyous errand reach the spot</l>
+        <l n="63" real="xxxxxxx+-x" met="-+-+-+-+-+">Where I made One--turn down an empty Glass!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

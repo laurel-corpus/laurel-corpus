@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Nosegay</title><author>John Reynolds</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-nosegay" n="L15999">
+      <head>A Nosegay</head>
+      <idno type="URN">urn:laurel:eng:reynolds.obev-john-reynolds.pg66619:a-nosegay</idno><idno type="laurel-id">L15999</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abcbadcd">
+        <l n="1" real="x+-xx+-+-x" met="-+-+-+-+-+">Say, crimson Rose and dainty Daffodil,</l>
+        <l n="2" real="x+--x" met="-+-+-">With Violet blue;</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Since you have seen the beauty of my saint,</l>
+        <l n="4" real="xxxx" met="--+-">And eke her view;</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">Did not her sight (fair sight!) you lonely fill,</l>
+        <l n="6" real="xx-+" met="--+-">With sweet delight</l>
+        <l n="7" real="x+-xx+-+-x" met="-+-+-+-+-+">Of goddess’ grace and angels’ sacred teint</l>
+        <l n="8" real="xxxx" met="--+-">In fine, most bright?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="9" real="x+-+x+-+-x" met="-+-+-+-+-+">Say, golden Primrose, sanguine Cowslip fair,</l>
+        <l n="10" real="xxxx" met="--+-">With Pink most fine;</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">Since you beheld the visage of my dear,</l>
+        <l n="12" real="xx-+" met="--+-">And eyes divine;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="13" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Did not her globy front, and glistering hair,</l>
+        <l n="14" real="xxxx" met="--+-">With cheeks most sweet,</l>
+        <l n="15" real="x+---x+-+--+" met="--+-+-+-+-+-">So gloriously like damask flowers appear,</l>
+        <l n="16" real="xxxx" met="--+-">The gods to greet?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abcbadcd">
+        <l n="17" real="xxx+-+-xxxx" met="-+-+-+-+-+-">Say, snow-white Lily, speckled Gillyflower,</l>
+        <l n="18" real="x+-x" met="--+-">With Daisy gay;</l>
+        <l n="19" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Since you have viewed the Queen of my desire,</l>
+        <l n="20" real="xx-+" met="--+-">In her array;</l>
+        <l n="21" real="xxx+--xx+-+-" met="--+-+-+-+-+-">Did not her ivory paps, fair Venus’ bower,</l>
+        <l n="22" real="x+--x" met="-+-+-">With heavenly glee,</l>
+        <l n="23" real="x+-x+-xxx+-" met="-+-+-+-+-+-">A Juno’s grace, conjure you to require</l>
+        <l n="24" real="xxxx" met="--+-">Her face to see?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abcbadcd">
+        <l n="25" real="xxx+-xx+--x" met="-+-+-+-+-+-">Say Rose, say Daffodil, and Violet blue,</l>
+        <l n="26" real="x+xx" met="--+-">With Primrose fair,</l>
+        <l n="27" real="xxxxxxx+-x" met="-+-+-+-+-+">Since ye have seen my nymph’s sweet dainty face</l>
+        <l n="28" real="x+-x" met="--+-">And gesture rare,</l>
+        <l n="29" real="xxx+-+-xxx" met="-+-+-+-+-+">Did not (bright Cowslip, blooming Pink) her view</l>
+        <l n="30" real="x+-x" met="--+-">(White Lily) shine--</l>
+        <l n="31" real="xxxxxx+-xxx" met="-+-+-+-+-+-">(Ah, Gillyflower, ah Daisy!) with a grace</l>
+        <l n="32" real="xx-+" met="--+-">Like stars divine?</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

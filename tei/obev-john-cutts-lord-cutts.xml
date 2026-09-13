@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Song</title><author>John Cutts, Lord Cutts</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16135">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:cutts.obev-john-cutts-lord-cutts.pg66619:song</idno><idno type="laurel-id">L16135</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abaaba">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Only tell her that I love:</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Leave the rest to her and Fate:</l>
+        <l n="3" real="xx+-xxx" met="+-+-+-+">Some kind planet from above</l>
+        <l n="4" real="x-+x+-x" met="+-+-+-+">May perhaps her pity move:</l>
+        <l n="5" real="+-xxxxx" met="+-+-+-+">Lovers on their stars must wait.--</l>
+        <l n="6" real="+-xxxxx" met="+-+-+-+">Only tell her that I love!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abccba">
+        <l n="7" real="xxxxx-+" met="+-+-+-+">Why, O why should I despair!</l>
+        <l n="8" real="xx+-xxx" met="+-+-+-+">Mercy’s pictured in her eye:</l>
+        <l n="9" real="xxxxxxx" met="+-+-+-+">If she once vouchsafe to hear,</l>
+        <l n="10" real="+-xxx+x" met="+-+-+-+">Welcome Hope and farewell Fear!</l>
+        <l n="11" real="xxxxxxx" met="+-+-+-+">She’s too good to let me die.--</l>
+        <l n="12" real="xxxxx-+" met="+-+-+-+">Why, O why should I despair?</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

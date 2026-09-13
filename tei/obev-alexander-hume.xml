@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>A Summer Day</title><author>Alexander Hume</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="a-summer-day" n="L15980">
+      <head>A Summer Day</head>
+      <idno type="URN">urn:laurel:eng:hume.obev-alexander-hume.pg66619:a-summer-day</idno><idno type="laurel-id">L15980</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x-+xxx-+" met="--+-+-+-">O perfect Light, which shaid away</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">The darkness from the light,</l>
+        <l n="3" real="xxx+-xxx" met="--+-+-+-">And set a ruler o’er the day,</l>
+        <l n="4" real="-+-xxx" met="-+-+-+">Another o’er the night--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="x+-xxxxx" met="--+-+-+-">Thy glory, when the day forth flies,</l>
+        <l n="6" real="xxxxx-+" met="-+-+-+-">More vively doth appear</l>
+        <l n="7" real="xxxxxx+-x" met="-+-+-+-+-">Than at mid day unto our eyes</l>
+        <l n="8" real="x+-xxx" met="-+-+-+">The shining sun is clear.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="x+xxxxxx" met="--+-+-+-">The shadow of the earth anon</l>
+        <l n="10" real="-+xxxx" met="-+-+-+">Removes and drawis by,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">While in the East, when it is gone,</l>
+        <l n="12" real="-+x+-x" met="-+-+-+">Appears a clearer sky.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xx-+x+-x" met="--+-+-+-">Which soon perceive the little larks,</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">The lapwing and the snipe,</l>
+        <l n="15" real="xxxxx+-x" met="--+-+-+-">And tune their songs, like Nature’s clerks,</l>
+        <l n="16" real="x+xxxx" met="-+-+-+">O’er meadow, muir, and stripe.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="+-+-xxxxx" met="-+-+-+-+-">Our hemisphere is polisht clean,</l>
+        <l n="18" real="x+-xxx" met="-+-+-+">And lighten’d more and more,</l>
+        <l n="19" real="x+-xx+-x" met="--+-+-+-">While everything is clearly seen</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Which seemit dim before:</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abab">
+        <l n="21" real="xxxxxxxx" met="--+-+-+-">Except the glistering astres bright,</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">Which all the night were clear,</l>
+        <l n="23" real="xxxxx+-x" met="--+-+-+-">Offuskit with a greater light</l>
+        <l n="24" real="x+-x-+" met="-+-+-+">No longer do appear.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="x+-x-+--" met="--+-+-+-">The golden globe incontinent</l>
+        <l n="26" real="xxx+-x" met="-+-+-+">Sets up his shining head,</l>
+        <l n="27" real="xxxxxxxx" met="--+-+-+-">And o’er the earth and firmament</l>
+        <l n="28" real="-+xxxx" met="-+-+-+">Displays his beams abread.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="xxxxx+-x" met="--+-+-+-">For joy the birds with boulden throats</l>
+        <l n="30" real="xxx+-x" met="-+-+-+">Against his visage sheen</l>
+        <l n="31" real="xxx+-+-x" met="--+-+-+-">Take up their kindly musick notes</l>
+        <l n="32" real="xxx+-x" met="-+-+-+">In woods and gardens green.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxxxx+-x" met="--+-+-+-">The dew upon the tender crops,</l>
+        <l n="34" real="xxxxxx" met="-+-+-+">Like pearlis white and round,</l>
+        <l n="35" real="xxx+-+-x" met="--+-+-+-">Or like to melted silver drops,</l>
+        <l n="36" real="xxxxxx" met="-+-+-+">Refreshis all the ground.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="x+-xxxxx" met="--+-+-+-">The misty reek, the clouds of rain,</l>
+        <l n="38" real="xxx+-x" met="-+-+-+">From tops of mountains skails,</l>
+        <l n="39" real="xxx+-xxx" met="--+-+-+-">Clear are the highest hills and plain,</l>
+        <l n="40" real="x+-xxx" met="-+-+-+">The vapours take the vales.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="x+-+-xxxx" met="-+-+-+-+-">The ample heaven of fabrick sure</l>
+        <l n="42" real="x+-x-+" met="-+-+-+">In cleanness does surpass</l>
+        <l n="43" real="x+-xx+-x" met="--+-+-+-">The crystal and the silver pure,</l>
+        <l n="44" real="x+-xxx" met="-+-+-+">Or clearest polisht glass.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="abab">
+        <l n="45" real="xxx+-xxx" met="--+-+-+-">The time so tranquil is and still</l>
+        <l n="46" real="x+xxxx" met="-+-+-+">That nowhere shall ye find,</l>
+        <l n="47" real="xxxxx+-x" met="--+-+-+-">Save on a high and barren hill,</l>
+        <l n="48" real="xxx+-x" met="-+-+-+">An air of peeping wind.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="abab">
+        <l n="49" real="xxxxxxx" met="-+-+-+-">All trees and simples, great and small,</l>
+        <l n="50" real="x+-xxx" met="-+-+-+">That balmy leaf do bear,</l>
+        <l n="51" real="xxx+-xxx" met="--+-+-+-">Than they were painted on a wall</l>
+        <l n="52" real="xxxxxx" met="-+-+-+">No more they move or steir.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab">
+        <l n="53" real="xxxxx+-x" met="--+-+-+-">Calm is the deep and purple sea,</l>
+        <l n="54" real="x+-xxx" met="-+-+-+">Yea, smoother than the sand;</l>
+        <l n="55" real="xxxxxxxxx" met="-+-+-+-+-">The waves that weltering wont to be</l>
+        <l n="56" real="x+-xxx" met="-+-+-+">Are stable like the land.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="abab">
+        <l n="57" real="x+-xxxxxx" met="-+-+-+-+-">So silent is the cessile air</l>
+        <l n="58" real="x+--xxx" met="-+-+-+-">That every cry and call</l>
+        <l n="59" real="xxxxx+-x" met="--+-+-+-">The hills and dales and forest fair</l>
+        <l n="60" real="-+-+xx" met="-+-+-+">Again repeats them all.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="abab">
+        <l n="61" real="x+--x+-+-" met="-+-+-+-+-">The flourishes and fragrant flowers,</l>
+        <l n="62" real="x+-+--x" met="-+-+-+-">Through Phoebus’ fostering heat,</l>
+        <l n="63" real="xxxxx+-+-" met="-+-+-+-+-">Refresht with dew and silver showers</l>
+        <l n="64" real="xxx+-x" met="-+-+-+">Cast up an odour sweet.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="abab">
+        <l n="65" real="xxx+-+-x" met="--+-+-+-">The cloggit busy humming bees,</l>
+        <l n="66" real="x+-xxx" met="-+-+-+">That never think to drone,</l>
+        <l n="67" real="x+-x+--xx" met="-+-+-+-+-">On flowers and flourishes of trees</l>
+        <l n="68" real="-+x+-x" met="-+-+-+">Collect their liquor brown.</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="abab">
+        <l n="69" real="xxxxx+-x" met="--+-+-+-">The Sun, most like a speedy post</l>
+        <l n="70" real="x+-x-+" met="-+-+-+">With ardent course ascends;</l>
+        <l n="71" real="x+-xx+--x" met="-+-+-+-+-">The beauty of the heavenly host</l>
+        <l n="72" real="xx+-+-x" met="-+-+-+-">Up to our zenith tends.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="abab">
+        <l n="73" real="x+-xxxxx" met="--+-+-+-">The burning beams down from his face</l>
+        <l n="74" real="x+--xx" met="-+-+-+">So fervently can beat,</l>
+        <l n="75" real="xxxxxxxx" met="--+-+-+-">That man and beast now seek a place</l>
+        <l n="76" real="xxxxxx" met="-+-+-+">To save them from the heat.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="abab">
+        <l n="77" real="xxxxx+-x" met="--+-+-+-">The herds beneath some leafy tree</l>
+        <l n="78" real="-+x+-xx" met="-+-+-+-">Amidst the flowers they lie;</l>
+        <l n="79" real="x+-xxxxx" met="--+-+-+-">The stable ships upon the sea</l>
+        <l n="80" real="xxxxxx" met="-+-+-+">Tend up their sails to dry.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="abab">
+        <l n="81" real="x+-xx+-x" met="--+-+-+-">With gilded eyes and open wings</l>
+        <l n="82" real="xxx+-x" met="-+-+-+">The cock his courage shows;</l>
+        <l n="83" real="xxxxxxxx" met="--+-+-+-">With claps of joy his breast he dings,</l>
+        <l n="84" real="x+-xxx" met="-+-+-+">And twenty times he crows.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="abab">
+        <l n="85" real="xxx+-xxx" met="--+-+-+-">The dove with whistling wings so blue</l>
+        <l n="86" real="xxxx-+" met="-+-+-+">The winds can fast collect;</l>
+        <l n="87" real="x+-xx+-xx" met="-+-+-+-+-">Her purple pens turn many a hue</l>
+        <l n="88" real="xxxx-+" met="-+-+-+">Against the sun direct.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="abab">
+        <l n="89" real="xxxxxx+x" met="--+-+-+-">Now noon is went; gone is midday,</l>
+        <l n="90" real="xxxxxx" met="-+-+-+">The heat doth slake at last;</l>
+        <l n="91" real="xx-+xx-+" met="--+-+-+-">The sun descends down West away,</l>
+        <l n="92" real="xxxxxx" met="-+-+-+">For three of clock is past.</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="abab">
+        <l n="93" real="xxxxxxx" met="-+-+-+-">The rayons of the sun we see</l>
+        <l n="94" real="-+-xxx" met="-+-+-+">Diminish in their strength;</l>
+        <l n="95" real="xxx+--+-xx" met="--+-+-+-+-">The shade of every tower and tree</l>
+        <l n="96" real="xxxxxx" met="-+-+-+">Extendit is in length.</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="abab">
+        <l n="97" real="xxxxx+-x" met="--+-+-+-">Great is the calm, for everywhere</l>
+        <l n="98" real="xxx+-x" met="-+-+-+">The wind is setting down;</l>
+        <l n="99" real="xxxxxxxx" met="--+-+-+-">The reek throws right up in the air</l>
+        <l n="100" real="x+--+-xx" met="--+-+-+-">From every tower and town.</l>
+      </lg>
+      <lg type="stanza" n="26" rhyme="abab">
+        <l n="101" real="xxxxxxxx" met="--+-+-+-">The gloming comes; the day is spent;</l>
+        <l n="102" real="xxxxxx" met="-+-+-+">The sun goes out of sight;</l>
+        <l n="103" real="x+-xx+-x" met="--+-+-+-">And painted is the occident</l>
+        <l n="104" real="x+-+-x" met="-+-+-+">With purple sanguine bright.</l>
+      </lg>
+      <lg type="stanza" n="27" rhyme="abab">
+        <l n="105" real="+-x-+-+--" met="-+-+-+-+-">Our west horizon circular</l>
+        <l n="106" real="xxxxxx" met="-+-+-+">From time the sun be set</l>
+        <l n="107" real="xxx+-xxx" met="--+-+-+-">Is all with rubies, as it were,</l>
+        <l n="108" real="x+-xxx" met="-+-+-+">Or roses red o’erfret.</l>
+      </lg>
+      <lg type="stanza" n="28" rhyme="abab">
+        <l n="109" real="x+-xxxxx" met="--+-+-+-">What pleasure were to walk and see,</l>
+        <l n="110" real="xxx+-x" met="-+-+-+">Endlong a river clear,</l>
+        <l n="111" real="x-+xx+--x" met="-+-+-+-+-">The perfect form of every tree</l>
+        <l n="112" real="xxxx-+" met="-+-+-+">Within the deep appear.</l>
+      </lg>
+      <lg type="stanza" n="29" rhyme="abab">
+        <l n="113" real="xxxxxxxx" met="--+-+-+-">O then it were a seemly thing,</l>
+        <l n="114" real="xxxxxx" met="-+-+-+">While all is still and calm,</l>
+        <l n="115" real="xxxxxxxx" met="--+-+-+-">The praise of God to play and sing</l>
+        <l n="116" real="x-+xxx" met="-+-+-+">With cornet and with shalm!</l>
+      </lg>
+      <lg type="stanza" n="30" rhyme="abab">
+        <l n="117" real="xxxxxxx+-" met="-+-+-+-+-">All labourers draw home at even,</l>
+        <l n="118" real="xxx+-x" met="-+-+-+">And can to other say,</l>
+        <l n="119" real="xxx+-xx+-" met="-+-+-+-+-">Thanks to the gracious God of heaven,</l>
+        <l n="120" real="xxx+-x" met="-+-+-+">Which sent this summer day.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

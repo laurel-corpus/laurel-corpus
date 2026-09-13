@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Ingrateful Beauty threatened, and other poems</title><author>Thomas Carew</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="song" n="L16071">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:song</idno><idno type="laurel-id">L16071</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxxxx-+" met="-+-+-+-+">Ask me no more where Jove bestows,</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">When June is past, the fading rose;</l>
+        <l n="3" real="xxxxx+-xx" met="-+-+-+-+-">For in your beauty’s orient deep</l>
+        <l n="4" real="x+xxx+-x" met="-+-+-+-+">These flowers, as in their causes, sleep.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxx+-xx" met="-+-+-+-+">Ask me no more whither do stray</l>
+        <l n="6" real="x+-+-xxx" met="-+-+-+-+">The golden atoms of the day;</l>
+        <l n="7" real="xxxx+x-+" met="-+-+-+-+">For in pure love heaven did prepare</l>
+        <l n="8" real="x+-x-+xx" met="-+-+-+-+">Those powders to enrich your hair.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxxx+-xx" met="-+-+-+-+">Ask me no more whither doth haste</l>
+        <l n="10" real="x+--xxxx" met="-+-+-+-+">The nightingale when May is past;</l>
+        <l n="11" real="xxxx-+-x" met="-+-+-+-+">For in your sweet dividing throat</l>
+        <l n="12" real="x+-xxxxx" met="-+-+-+-+">She winters and keeps warm her note.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Ask me no more where those stars ’light</l>
+        <l n="14" real="x+-xxxxx" met="-+-+-+-+">That downwards fall in dead of night</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">For in your eyes they sit, and there</l>
+        <l n="16" real="x-+xxxx" met="+-+-+-+">Fixèd become as in their sphere.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Ask me no more if east or west</l>
+        <l n="18" real="xxxxx+-x" met="-+-+-+-+">The Phœnix builds her spicy nest;</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">For unto you at last she flies,</l>
+        <l n="20" real="xxx+-+-x" met="-+-+-+-+">And in your fragrant bosom dies.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="persuasions-to-joy-a-song" n="L16072">
+      <head>Persuasions to Joy: a Song</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:persuasions-to-joy-a-song</idno><idno type="laurel-id">L16072</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc">
+        <l n="1" real="xxx+-xxx" met="-+-+-+-+">If the quick spirits in your eye</l>
+        <l n="2" real="x+-xxxxx" met="-+-+-+-+">Now languish and anon must die;</l>
+        <l n="3" real="x+-xx+-x" met="-+-+-+-+">If every sweet and every grace</l>
+        <l n="4" real="xxxx-+-x" met="-+-+-+-+">Must fly from that forsaken face;</l>
+        <l n="5" real="x+-xxx+x" met="-+-+-+-+">Then, Celia, let us reap our joys</l>
+        <l n="6" real="xxx+-x-+" met="-+-+-+-+">Ere Time such goodly fruit destroys.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbaa">
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">Or if that golden fleece must grow.</l>
+        <l n="8" real="x+-xxxx" met="+-+-+-+">For ever free from agèd snow;</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">If those bright suns must know no shade,</l>
+        <l n="10" real="xxx+-+-x" met="-+-+-+-+">Nor your fresh beauties ever fade;</l>
+        <l n="11" real="xxx+-x-+" met="-+-+-+-+">Then fear not, Celia, to bestow</l>
+        <l n="12" real="xx++-xxx" met="-+-+-+-+">What, still being gather’d, still must grow.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aa">
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">Thus either Time his sickle brings</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">In vain, or else in vain his wings.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-his-inconstant-mistress" n="L16073">
+      <head>To His Inconstant Mistress</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:to-his-inconstant-mistress</idno><idno type="laurel-id">L16073</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab-">
+        <l n="1" real="xxxx-+-x" met="-+-+-+-+">When thou, poor Excommunicate</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">From all the joys of Love, shalt see</l>
+        <l n="3" real="xx-+x+-x" met="-+-+-+-+">The full reward and glorious fate</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">Which my strong faith shall purchase me,</l>
+        <l n="5" real="xxxx-+--" met="-+-+-+-+">Then curse thine own inconstancy!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababb">
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">A fairer hand than thine shall cure</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">That heart which thy false oaths did wound;</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">And to my soul a soul more pure</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Than thine shall by Love’s hand be bound,</l>
+        <l n="10" real="xxx+-+-x" met="-+-+-+-+">And both with equal glory crown’d.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab-">
+        <l n="11" real="xxxxxx-+" met="-+-+-+-+">Then shalt thou weep, entreat, complain</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">To Love, as I did once to thee;</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">When all thy tears shall be as vain</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">As mine were then: for thou shalt be</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Damn’d for thy false apostasy.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-unfading-beauty" n="L16074">
+      <head>The Unfading Beauty</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:the-unfading-beauty</idno><idno type="laurel-id">L16074</idno><note type="metre">trochaic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxxx+-x" met="+-+-+-+">He that loves a rosy cheek,</l>
+        <l n="2" real="xx+-x-+" met="+-+-+-+">Or a coral lip admires,</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Or from star-like eyes doth seek</l>
+        <l n="4" real="+-x-+x+-" met="+-+-+-+-">Fuel to maintain his fires:</l>
+        <l n="5" real="xxxxx-+" met="+-+-+-+">As old Time makes these decay,</l>
+        <l n="6" real="xxxxx-+" met="+-+-+-+">So his flames must waste away.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxx+xx" met="+-+-+-+">But a smooth and steadfast mind,</l>
+        <l n="8" real="+-xxx-+-" met="+-+-+-+-">Gentle thoughts and calm desires,</l>
+        <l n="9" real="xx+-x-+" met="+-+-+-+">Hearts with equal love combined,</l>
+        <l n="10" real="+-+-+-+-" met="+-+-+-+-">Kindle never-dying fires.</l>
+        <l n="11" real="xxxxx-+" met="+-+-+-+">Where these are not, I despise</l>
+        <l n="12" real="+-xxxxx" met="+-+-+-+">Lovely cheeks or lips or eyes.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ingrateful-beauty-threatened" n="L16075">
+      <head>Ingrateful Beauty threatened</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:ingrateful-beauty-threatened</idno><idno type="laurel-id">L16075</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">Know, Celia, since thou art so proud,</l>
+        <l n="2" real="xxxxxx-+" met="-+-+-+-+">’Twas I that gave thee thy renown.</l>
+        <l n="3" real="xxxx-+-x" met="-+-+-+-+">Thou hadst in the forgotten crowd</l>
+        <l n="4" real="x+-+-x-+" met="-+-+-+-+">Of common beauties lived unknown,</l>
+        <l n="5" real="xxxx-+xx" met="-+-+-+-+">Had not my verse extoll’d thy name,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">And with it imp’d the wings of Fame.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="x+-+xxxx" met="-+-+-+-+">That killing power is none of thine;</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">I gave it to thy voice and eyes;</l>
+        <l n="9" real="xxx+-xxx" met="-+-+-+-+">Thy sweets, thy graces, all are mine;</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Thou art my star, shin’st in my skies;</l>
+        <l n="11" real="xxxxx+xx" met="-+-+-+-+">Then dart not from thy borrow’d sphere</l>
+        <l n="12" real="+-xxxxxx" met="-+-+-+-+">Lightning on him that fix’d thee there.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Tempt me with such affrights no more,</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">Lest what I made I uncreate;</l>
+        <l n="15" real="xxx+-x-+" met="-+-+-+-+">Let fools thy mystic form adore,</l>
+        <l n="16" real="xxxxx+-x" met="-+-+-+-+">I know thee in thy mortal state.</l>
+        <l n="17" real="x+-xxxxx" met="-+-+-+-+">Wise poets, that wrapt Truth in tales,</l>
+        <l n="18" real="xx-+xxxx" met="-+-+-+-+">Knew her themselves through all her veils.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="epitaph" n="L16076">
+      <head>Epitaph</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:epitaph</idno><idno type="laurel-id">L16076</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb--ccddee">
+        <l n="1" real="x+-+-+-x" met="-+-+-+-+">The Lady Mary Villiers lies</l>
+        <l n="2" real="xxxxx+-x" met="-+-+-+-+">Under this stone; with weeping eyes</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">The parents that first gave her birth,</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">And their sad friends, laid her in earth.</l>
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">If any of them, Reader, were</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">Known unto thee, shed a tear;</l>
+        <l n="7" real="xxxx-+xx" met="-+-+-+-+">Or if thyself possess a gem</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">As dear to thee, as this to them,</l>
+        <l n="9" real="xx+-xxx" met="+-+-+-+">Though a stranger to this place,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Bewail in theirs thine own hard case:</l>
+        <l n="11" real="xx-+xx-+" met="-+-+-+-+">For thou perhaps at thy return</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">May’st find thy Darling in an urn.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="another" n="L16077">
+      <head>Another</head>
+      <idno type="URN">urn:laurel:eng:carew.obev-thomas-carew.pg66619:another</idno><idno type="laurel-id">L16077</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghh">
+        <l n="1" real="x+-xx+-x" met="-+-+-+-+">This little vault, this narrow room,</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">Of Love and Beauty is the tomb;</l>
+        <l n="3" real="x+-xxxxx" met="-+-+-+-+">The dawning beam, that ’gan to clear</l>
+        <l n="4" real="++-xx+-x" met="-+-+-+-+">Our clouded sky, lies darkened here,</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">For ever set to us: by Death</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Sent to enflame the World Beneath,</l>
+        <l n="7" real="xxxxxx-+" met="-+-+-+-+">’Twas but a bud, yet did contain</l>
+        <l n="8" real="x+-xxx-+" met="-+-+-+-+">More sweetness than shall spring again;</l>
+        <l n="9" real="x+-xxxxx" met="-+-+-+-+">A budding Star, that might have grown</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Into a Sun when it had blown.</l>
+        <l n="11" real="x+-+-x-+" met="-+-+-+-+">This hopeful Beauty did create</l>
+        <l n="12" real="xxxx-+-x" met="-+-+-+-+">New life in Love’s declining state;</l>
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">But now his empire ends, and we</l>
+        <l n="14" real="x+x+-xxx" met="-+-+-+-+">From fire and wounding darts are free;</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">His brand, his bow, let no man fear:</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">The flames, the arrows, all lie here.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

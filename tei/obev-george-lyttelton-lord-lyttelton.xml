@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Tell me, my Heart if this be Love</title><author>George Lyttelton, Lord Lyttelton</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="tell-me-my-heart-if-this-be-love" n="L16161">
+      <head>Tell me, my Heart if this be Love</head>
+      <idno type="URN">urn:laurel:eng:lyttelton.obev-george-lyttelton-lord-lyttelton.pg66619:tell-me-my-heart-if-this-be-love</idno><idno type="laurel-id">L16161</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="x+-xxx-+" met="-+-+-+-+">When Delia on the plain appears,</l>
+        <l n="2" real="xxx+-+-x" met="-+-+-+-+">Awed by a thousand tender fears</l>
+        <l n="3" real="xx-+xxxx" met="-+-+-+-+">I would approach, but dare not move:</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Tell me, my heart, if this be love?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Whene’er she speaks, my ravish’d ear</l>
+        <l n="6" real="x+-xxxxx" met="-+-+-+-+">No other voice than hers can hear,</l>
+        <l n="7" real="x+-xxx-+" met="-+-+-+-+">No other wit but hers approve:</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">Tell me, my heart, if this be love?</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabb">
+        <l n="9" real="xxx+-x-+" met="-+-+-+-+">If she some other youth commend,</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">Though I was once his fondest friend,</l>
+        <l n="11" real="x+-+--xx" met="-+-+-+-+">His instant enemy I prove:</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">Tell me, my heart, if this be love?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb">
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">When she is absent, I no more</l>
+        <l n="14" real="-+xxxxxx" met="-+-+-+-+">Delight in all that pleased before--</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">The clearest spring, or shadiest grove:</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Tell me, my heart, if this be love?</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="aabb">
+        <l n="17" real="xxx+x+-x" met="-+-+-+-+">When fond of power, of beauty vain,</l>
+        <l n="18" real="xxxxx+-x" met="-+-+-+-+">Her nets she spread for every swain,</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">I strove to hate, but vainly strove:</l>
+        <l n="20" real="xxxxxxxx" met="-+-+-+-+">Tell me, my heart, if this be love?</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

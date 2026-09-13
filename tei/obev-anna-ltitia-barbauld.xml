@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Life</title><author>Anna Lætitia Barbauld</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="life" n="L16167">
+      <head>Life</head>
+      <idno type="URN">urn:laurel:eng:barbauld.obev-anna-ltitia-barbauld.pg66619:life</idno><idno type="laurel-id">L16167</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeffegghhiijjdd">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">Life! I know not what thou art,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">But know that thou and I must part;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">And when, or how, or where we met,</l>
+        <l n="4" real="xxxxx+-x" met="-+-+-+-+">I own to me’s a secret yet.</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">But this I know, when thou art fled,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Where’er they lay these limbs, this head,</l>
+        <l n="7" real="xxx+--xx" met="-+-+-+-+">No clod so valueless shall be</l>
+        <l n="8" real="xxxx-+xx" met="-+-+-+-+">As all that then remains of me.</l>
+        <l n="9" real="x+-+-xxx" met="-+-+-+-+">O whither, whither dost thou fly?</l>
+        <l n="10" real="xx-+xxxx" met="-+-+-+-+">Where bend unseen thy trackless course?</l>
+        <l n="11" real="xxxx-+" met="--+-+-">And in this strange divorce,</l>
+        <l n="12" real="xxxxxxx+-x" met="--+-+-+-+-">Ah, tell where I must seek this compound I?</l>
+        <l n="13" real="xxx+-xxxxx" met="--+-+-+-+-">To the vast ocean of empyreal flame</l>
+        <l n="14" real="xxx+-x" met="--+-+-">From whence thy essence came</l>
+        <l n="15" real="xxxx-+xx" met="-+-+-+-+">Dost thou thy flight pursue, when freed</l>
+        <l n="16" real="x+-xxxxxx" met="-+-+-+-+-">From matter’s base encumbering weed?</l>
+        <l n="17" real="xxxxxx" met="--+-+-">Or dost thou, hid from sight,</l>
+        <l n="18" real="xxxxxx" met="--+-+-">Wait, like some spell-bound knight,</l>
+        <l n="19" real="xx-+--x-+-+-" met="--+-+-+-+-+-">Through blank oblivious years th’ appointed hour</l>
+        <l n="20" real="xxxxx--+x+-" met="-+-+-+-+-+-">To break thy trance and reassume thy power?</l>
+        <l n="21" real="xxxxxxx+-x" met="--+-+-+-+-">Yet canst thou without thought or feeling be?</l>
+        <l n="22" real="xxxxxxxxxx" met="--+-+-+-+-">O say, what art thou, when no more thou’rt thee?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcddc">
+        <l n="23" real="xxxxx-+-" met="-+-+-+-+">Life! we have been long together,</l>
+        <l n="24" real="x+-xx+-+-" met="-+-+-+-+-">Through pleasant and through cloudy weather;</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">’Tis hard to part when friends are dear;</l>
+        <l n="26" real="-+xxxxxx" met="-+-+-+-+">Perhaps ’twill cost a sigh, a tear;--</l>
+        <l n="27" real="xx-+x+-+-" met="-+-+-+-+-">Then steal away, give little warning,</l>
+        <l n="28" real="xxxx" met="--+-">Choose thine own time;</l>
+        <l n="29" real="xxxxxxx+-x" met="--+-+-+-+-">Say not Good-night, but in some brighter clime</l>
+        <l n="30" real="xxx+-" met="-+-+-">Bid me Good-morning!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

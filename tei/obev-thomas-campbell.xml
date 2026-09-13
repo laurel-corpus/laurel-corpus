@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Battle of the Baltic, and other poems</title><author>Thomas Campbell</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="ye-mariners-of-england" n="L16179">
+      <head>Ye Mariners of England</head>
+      <idno type="URN">urn:laurel:eng:campbell.obev-thomas-campbell.pg66619:ye-mariners-of-england</idno><idno type="laurel-id">L16179</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a-b-b-b">
+        <l n="1" real="x+--x+-" met="-+-+-+-">Ye Mariners of England</l>
+        <l n="2" real="xx+-+-x" met="-+-+-+-">That guard our native seas!</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">Whose flag has braved a thousand years</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">The battle and the breeze!</l>
+        <l n="5" real="x+--+-x-+" met="-+-+-+-+-">Your glorious standard launch again</l>
+        <l n="6" real="xx-+-x" met="-+-+-+">To match another foe;</l>
+        <l n="7" real="xxxxx" met="+-+-+">And sweep through the deep,</l>
+        <l n="8" real="xx+-xxx" met="-+-+-+-">While the stormy winds do blow!</l>
+        <l n="9" real="xx+-+-xxx" met="-+-+-+-+-">While the battle rages loud and long</l>
+        <l n="10" real="xx+-xxx" met="-+-+-+-">And the stormy winds do blow.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b-b">
+        <l n="11" real="x+-xx+-" met="-+-+-+-">The spirits of your fathers</l>
+        <l n="12" real="xxx+--x" met="-+-+-+-">Shall start from every wave--</l>
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">For the deck it was their field of fame,</l>
+        <l n="14" real="x+-xxx" met="-+-+-+">And Ocean was their grave:</l>
+        <l n="15" real="xxx+-+-x" met="--+-+-+-">Where Blake and mighty Nelson fell</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">Your manly hearts shall glow,</l>
+        <l n="17" real="xxxxxx" met="-+-+-+">As ye sweep through the deep,</l>
+        <l n="18" real="xx+-xxx" met="-+-+-+-">While the stormy winds do blow!</l>
+        <l n="19" real="xx+-+-xxx" met="-+-+-+-+-">While the battle rages loud and long</l>
+        <l n="20" real="xx+-xxx" met="-+-+-+-">And the stormy winds do blow.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a-b-b-b">
+        <l n="21" real="-+--xxxx" met="--+-+-+-">Britannia needs no bulwarks,</l>
+        <l n="22" real="x+--+xx" met="-+-+-+-">No towers along the steep;</l>
+        <l n="23" real="xxxxx+-x" met="--+-+-+-">Her march is o’er the mountain-waves,</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">Her home is on the deep.</l>
+        <l n="25" real="x+-xx+-x" met="--+-+-+-">With thunders from her native oak</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">She quells the floods below,</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">As they roar on the shore,</l>
+        <l n="28" real="xx+-xxx" met="-+-+-+-">When the stormy winds do blow!</l>
+        <l n="29" real="xx+-+-xxx" met="-+-+-+-+-">When the battle rages loud and long,</l>
+        <l n="30" real="xx+-xxx" met="-+-+-+-">And the stormy winds do blow.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a-b-b-b">
+        <l n="31" real="x+--xx+-" met="--+-+-+-">The meteor flag of England</l>
+        <l n="32" real="xx-+-x" met="-+-+-+">Shall yet terrific burn;</l>
+        <l n="33" real="x+-+-x-+" met="--+-+-+-">Till danger’s troubled night depart</l>
+        <l n="34" real="xxxxx-+" met="-+-+-+-">And the star of peace return.</l>
+        <l n="35" real="xxx+-+--" met="--+-+-+-">Then, then, ye ocean-warriors!</l>
+        <l n="36" real="+-xxxxx" met="-+-+-+-">Our song and feast shall flow</l>
+        <l n="37" real="xxxxxx" met="-+-+-+">To the fame of your name,</l>
+        <l n="38" real="xxxxxxx" met="-+-+-+-">When the storm has ceased to blow!</l>
+        <l n="39" real="xx+--xxxxx" met="--+-+-+-+-">When the fiery fight is heard no more,</l>
+        <l n="40" real="xxxxxxx" met="-+-+-+-">And the storm has ceased to blow.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-battle-of-the-baltic" n="L16180">
+      <head>The Battle of the Baltic</head>
+      <idno type="URN">urn:laurel:eng:campbell.obev-thomas-campbell.pg66619:the-battle-of-the-baltic</idno><idno type="laurel-id">L16180</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcdddc">
+        <l n="1" real="x+-xxx" met="-+-+-+">Of Nelson and the North</l>
+        <l n="2" real="xx+-x-+" met="-+-+-+-">Sing the glorious day’s renown,</l>
+        <l n="3" real="xx+-xxx" met="-+-+-+-">When to battle fierce came forth</l>
+        <l n="4" real="xxxx+xx" met="-+-+-+-">All the might of Denmark&#x27;s crown,</l>
+        <l n="5" real="xxx-+xx+-x" met="--+-+-+-+-">And her arms along the deep proudly shone;</l>
+        <l n="6" real="xxxx+-x" met="-+-+-+-">By each gun the lighted brand</l>
+        <l n="7" real="xxx-+-x" met="-+-+-+-">In a bold determined hand,</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">And the Prince of all the land</l>
+        <l n="9" real="xxx" met="-+-">Led them on.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-ab-ccb">
+        <l n="10" real="xxxx-+" met="-+-+-+">Like leviathans afloat</l>
+        <l n="11" real="xxxxxxx" met="-+-+-+-">Lay their bulwarks on the brine,</l>
+        <l n="12" real="xxxx+-x" met="-+-+-+-">While the sign of battle flew</l>
+        <l n="13" real="xx+-+-x" met="-+-+-+-">On the lofty British line:</l>
+        <l n="14" real="xxxx+-xxxx" met="--+-+-+-+-">It was ten of April morn by the chime:</l>
+        <l n="15" real="xx+-xxx" met="-+-+-+-">As they drifted on their path</l>
+        <l n="16" real="xx+-xxx" met="-+-+-+-">There was silence deep as death,</l>
+        <l n="17" real="xx+-xxx" met="-+-+-+-">And the boldest held his breath</l>
+        <l n="18" real="xxx" met="-+-">For a time.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcdddc">
+        <l n="19" real="xxxx+-x" met="-+-+-+-">But the might of England flush&#x27;d</l>
+        <l n="20" real="x-+-xxx" met="-+-+-+-">To anticipate the scene;</l>
+        <l n="21" real="xxxxxxx" met="-+-+-+-">And her van the fleeter rush&#x27;d</l>
+        <l n="22" real="xx+-xxx" met="-+-+-+-">O’er the deadly space between:</l>
+        <l n="23" real="xxx++-xxxx" met="--+-+-+-+-">‘Hearts of oak!’ our captains cried, when each gun</l>
+        <l n="24" real="xxxxxxx" met="-+-+-+-">From its adamantine lips</l>
+        <l n="25" real="xxxxxxx" met="-+-+-+-">Spread a death-shade round the ships,</l>
+        <l n="26" real="xx+-x-+" met="-+-+-+-">Like the hurricane eclipse</l>
+        <l n="27" real="xxx" met="-+-">Of the sun.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcdddc">
+        <l n="28" real="-+-+-+" met="-+-+-+">Again! again! again!</l>
+        <l n="29" real="xx+-xxx" met="-+-+-+-">And the havoc did not slack,</l>
+        <l n="30" real="xx+-xxx" met="-+-+-+-">Till a feeble cheer the Dane</l>
+        <l n="31" real="x++-xxx" met="-+-+-+-">To our cheering sent us back;--</l>
+        <l n="32" real="xx-+xx+-x" met="-+-+-+-+-">Their shots along the deep slowly boom:--</l>
+        <l n="33" real="xx-xxxx" met="-+-+-+-">Then ceased--and all is wail,</l>
+        <l n="34" real="xxxx+-x" met="-+-+-+-">As they strike the shattered sail,</l>
+        <l n="35" real="xxx-+-x" met="-+-+-+-">Or in conflagration pale</l>
+        <l n="36" real="xxx" met="-+-">Light the gloom.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="37" real="xxx+-x" met="-+-+-+">Out spoke the victor then</l>
+        <l n="38" real="xxxxxxx" met="-+-+-+-">As he hail&#x27;d them o&#x27;er the wave:</l>
+        <l n="39" real="xx+-xxx" met="-+-+-+-">‘Ye are brothers! ye are men!</l>
+        <l n="40" real="xx+-xxx" met="-+-+-+-">And we conquer but to save:--</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abbba">
+        <l n="41" real="xx-+xxxxx" met="-+-+-+-+-">So peace instead of death let us bring</l>
+        <l n="42" real="xxxxxx" met="-+-+-+">But yield, proud foe, thy fleet,</l>
+        <l n="43" real="xxxx+-x" met="-+-+-+-">With the crews, at England’s feet,</l>
+        <l n="44" real="xx-+-x" met="-+-+-+">And make submission meet</l>
+        <l n="45" real="x+-x" met="--+-">To our King.’...</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="ababcdddc">
+        <l n="46" real="xxx+-x" met="-+-+-+">Now joy, old England, raise!</l>
+        <l n="47" real="xx+-xxx" met="-+-+-+-">For the tidings of thy might,</l>
+        <l n="48" real="xxxx+-x" met="-+-+-+-">By the festal cities’ blaze,</l>
+        <l n="49" real="xxxxxxx" met="-+-+-+-">Whilst the wine-cup shines in light!</l>
+        <l n="50" real="xx-+xxx+x" met="-+-+-+-+-">And yet amidst that joy and uproar,</l>
+        <l n="51" real="xxxxxxx" met="-+-+-+-">Let us think of them that sleep</l>
+        <l n="52" real="x+-x+-x" met="-+-+-+-">Full many a fathom deep,</l>
+        <l n="53" real="xxxx+-x" met="-+-+-+-">By thy wild and stormy steep,</l>
+        <l n="54" real="+-x" met="-+-">Elsinore!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

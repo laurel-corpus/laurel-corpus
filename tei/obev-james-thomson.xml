@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>In the Train, and other poems</title><author>James Thomson</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="on-the-death-of-a-particular-friend" n="L16156">
+      <head>On the Death of a particular Friend</head>
+      <idno type="URN">urn:laurel:eng:thomson.obev-james-thomson.pg66619:on-the-death-of-a-particular-friend</idno><idno type="laurel-id">L16156</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabb">
+        <l n="1" real="xxxx-+xxxx" met="-+-+-+-+-+">As those we love decay, we die in part,</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">String after string is sever’d from the heart;</l>
+        <l n="3" real="x+-xxxx+-x" met="-+-+-+-+-+">Till loosen’d life, at last but breathing clay,</l>
+        <l n="4" real="xxxxxxxx-+" met="-+-+-+-+-+">Without one pang is glad to fall away.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabb">
+        <l n="5" real="-+-xx+-xxx" met="-+-+-+-+-+">Unhappy he who latest feels the blow!</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Whose eyes have wept o’er every friend laid low,</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">Dragg’d ling’ring on from partial death to death,</l>
+        <l n="8" real="x+-xxx-+xx" met="-+-+-+-+-+">Till, dying, all he can resign is--breath.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="in-the-train" n="L16157">
+      <head>In the Train</head>
+      <idno type="URN">urn:laurel:eng:thomson.obev-james-thomson.pg66619:in-the-train</idno><idno type="laurel-id">L16157</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxxxxxx" met="--+--+--+">As we rush, as we rush in the Train,</l>
+        <l n="2" real="xxxx+-x+-x" met="--+--+--+-">The trees and the houses go wheeling back,</l>
+        <l n="3" real="xx+-+-xxxx" met="--+--+--+-">But the starry heavens above the plain</l>
+        <l n="4" real="x+-x+-x" met="+--+--+">Come flying on our track.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx+--xxxx" met="--+--+--+">All the beautiful stars of the sky,</l>
+        <l n="6" real="x+-xxx+-xx" met="--+--+--+-">The silver doves of the forest of Night,</l>
+        <l n="7" real="xxxxxxxx" met="-+--+--+">Over the dull earth swarm and fly,</l>
+        <l n="8" real="-+-x+-x" met="+--+--+">Companions of our flight.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-xxxx" met="--+--+--+">We will rush ever on without fear;</l>
+        <l n="10" real="xxxxxxxxx" met="--+--+--+">Let the goal be far, the flight be fleet!</l>
+        <l n="11" real="xx+-x+-xxx" met="--+--+--+-">For we carry the Heavens with us, dear,</l>
+        <l n="12" real="xxxxx+-x" met="-+--+--+">While the Earth slips from our feet!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sunday-up-the-river" n="L16158">
+      <head>Sunday up the River</head>
+      <idno type="URN">urn:laurel:eng:thomson.obev-james-thomson.pg66619:sunday-up-the-river</idno><idno type="laurel-id">L16158</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxx+-x+-" met="--+--+--+">My love o’er the water bends dreaming;</l>
+        <l n="2" real="xxxxxx-+" met="-+--+--+">It glideth and glideth away:</l>
+        <l n="3" real="xxxxx+-+-" met="--+--+--+">She sees there her own beauty, gleaming</l>
+        <l n="4" real="x+xx+-xx" met="-+--+--+">Through shadow and ripple and spray.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxx+--+-" met="--+--+--+">O tell her, thou murmuring river,</l>
+        <l n="6" real="xxxxxxxxx" met="--+--+--+">As past her your light wavelets roll,</l>
+        <l n="7" real="x+xx+-x+-" met="--+--+--+">How steadfast that image for ever</l>
+        <l n="8" real="xxxxxxxx" met="-+--+--+">Shines pure in pure depths of my soul.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="gifts" n="L16159">
+      <head>Gifts</head>
+      <idno type="URN">urn:laurel:eng:thomson.obev-james-thomson.pg66619:gifts</idno><idno type="laurel-id">L16159</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Give a man a horse he can ride,</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Give a man a boat he can sail;</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">And his rank and wealth, his strength and health,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">On sea nor shore shall fail.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">Give a man a pipe he can smoke,</l>
+        <l n="6" real="xxxxxxxx" met="-+-+-+-+">Give a man a book he can read:</l>
+        <l n="7" real="xxxxxxxx-+" met="--+-+-+-+-">And his home is bright with a calm delight,</l>
+        <l n="8" real="xxxxx-+" met="+-+-+-+">Though the room be poor indeed.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Give a man a girl he can love,</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">As I, O my love, love thee;</l>
+        <l n="11" real="xxxxxxxxxx" met="--+-+-+-+-">And his heart is great with the pulse of Fate,</l>
+        <l n="12" real="xxxxxx" met="--+-+-">At home, on land, on sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-vine" n="L16160">
+      <head>The Vine</head>
+      <idno type="URN">urn:laurel:eng:thomson.obev-james-thomson.pg66619:the-vine</idno><idno type="laurel-id">L16160</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="xxxxx+-" met="-+-+-+-">The wine of Love is music,</l>
+        <l n="2" real="xxxxxxx" met="-+-+-+-">And the feast of Love is song:</l>
+        <l n="3" real="xxxxxxx+-" met="-+-+-+-+-">And when Love sits down to the banquet,</l>
+        <l n="4" real="xxx" met="-+-">Love sits long:</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa-a">
+        <l n="5" real="xxx-+-+-" met="--+-+-+-">Sits long and arises drunken,</l>
+        <l n="6" real="xxxxxxxx" met="--+-+-+-">But not with the feast and the wine;</l>
+        <l n="7" real="xxxxxxx" met="-+-+-+-">He reeleth with his own heart,</l>
+        <l n="8" real="xxxx" met="--+-">That great, rich Vine.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

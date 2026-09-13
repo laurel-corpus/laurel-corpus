@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Time</title><author>Jasper Mayne</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="time" n="L16078">
+      <head>Time</head>
+      <idno type="URN">urn:laurel:eng:mayne.obev-jasper-mayne.pg66619:time</idno><idno type="laurel-id">L16078</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abbaccddeeff-----gg-hiihjjkk--llmm-nn---">
+        <l n="1" real="xxx+-x" met="-+-+-+">Time is the feather’d thing,</l>
+        <l n="2" real="xxxx" met="--+-">And, whilst I praise</l>
+        <l n="3" real="xxxxxxxxxx" met="--+-+-+-+-">The sparklings of thy looks and call them rays,</l>
+        <l n="4" real="xx" met="-+">Takes wing,</l>
+        <l n="5" real="+-xxxxxx" met="--+-+-+-">Leaving behind him as he flies</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">An unperceivèd dimness in thine eyes.</l>
+        <l n="7" real="x+-xxx" met="-+-+-+">His minutes, whilst they’re told,</l>
+        <l n="8" real="xxxx" met="--+-">Do make us old;</l>
+        <l n="9" real="x+--xxxxx" met="-+-+-+-+-">And every sand of his fleet glass,</l>
+        <l n="10" real="-+-xxxxx" met="--+-+-+-">Increasing age as it doth pass,</l>
+        <l n="11" real="xxxxx+-x" met="--+-+-+-">Insensibly sows wrinkles there</l>
+        <l n="12" real="x+-x+-x-+" met="-+-+-+-+-">Where flowers and roses do appear.</l>
+        <l n="13" real="xxxx+-+-" met="--+-+-+-">Whilst we do speak, our fire</l>
+        <l n="14" real="xxxx-+" met="-+-+-+">Doth into ice expire,</l>
+        <l n="15" real="xxxx" met="--+-">Flames turn to frost;</l>
+        <l n="16" real="xxxx" met="--+-">And ere we can</l>
+        <l n="17" real="xx+-xxx" met="-+-+-+-">Know how our crow turns swan,</l>
+        <l n="18" real="xxx+-x" met="-+-+-+">Or how a silver snow</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">Springs there where jet did grow,</l>
+        <l n="20" real="+-+-xxxx+-x" met="-+-+-+-+-+-">Our fading spring is in dull winter lost.</l>
+        <l n="21" real="xxxxxx" met="-+-+-+">Since then the Night hath hurl’d</l>
+        <l n="22" real="+-xx" met="--+-">Darkness, Love’s shade,</l>
+        <l n="23" real="xxx+--xxxx" met="--+-+-+-+-">Over its enemy the Day, and made</l>
+        <l n="24" real="xx" met="-+">The world</l>
+        <l n="25" real="xxxxx+-x" met="--+-+-+-">Just such a blind and shapeless thing</l>
+        <l n="26" real="xxxxxxx+-x" met="--+-+-+-+-">As ’twas before light did from darkness spring,</l>
+        <l n="27" real="xx-+x+-" met="-+-+-+-">Let us employ its treasure</l>
+        <l n="28" real="xxx+-" met="+-+-+">And make shade pleasure:</l>
+        <l n="29" real="x+-xx+-xxx" met="--+-+-+-+-">Let’s number out the hours by blisses,</l>
+        <l n="30" real="xxx+-x+-+-" met="--+-+-+-+-">And count the minutes by our kisses;</l>
+        <l n="31" real="xx+-x+-x" met="--+-+-+-">Let the heavens new motions feel</l>
+        <l n="32" real="xx+--+-x" met="--+-+-+-">And by our embraces wheel;</l>
+        <l n="33" real="xxxxxx" met="-+-+-+">And whilst we try the way</l>
+        <l n="34" real="xxxx-+" met="-+-+-+">By which Love doth convey</l>
+        <l n="35" real="xxxx" met="--+-">Soul unto soul,</l>
+        <l n="36" real="x+--x" met="+-+-+">And mingling so</l>
+        <l n="37" real="xxxxxx" met="-+-+-+">Makes them such raptures know</l>
+        <l n="38" real="xxxxxx" met="-+-+-+">As makes them entrancèd lie</l>
+        <l n="39" real="x+--+--" met="-+-+-+-">In mutual ecstasy,</l>
+        <l n="40" real="xx-+--xx+-x" met="-+-+-+-+-+-">Let the harmonious spheres in music roll!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

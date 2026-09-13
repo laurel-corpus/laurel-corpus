@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Lament of the Irish Emigrant</title><author>Helen Selina, Lady Dufferin</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="lament-of-the-irish-emigrant" n="L16212">
+      <head>Lament of the Irish Emigrant</head>
+      <idno type="URN">urn:laurel:eng:dufferin.obev-helen-selina-lady-dufferin.pg66619:lament-of-the-irish-emigrant</idno><idno type="laurel-id">L16212</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ab-b-cac">
+        <l n="1" real="x+-xxx+-" met="--+-+-+-">I’m sittin’ on the stile, Mary,</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Where we sat side by side</l>
+        <l n="3" real="xxxxxxx-+" met="-+-+-+-+-">On a bright May mornin’ long ago,</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">When first you were my bride;</l>
+        <l n="5" real="xxxxxxxx" met="--+-+-+-">The corn was springin’ fresh and green,</l>
+        <l n="6" real="xxxxxxx" met="-+-+-+-">And the lark sang loud and high--</l>
+        <l n="7" real="xxxxxxx+-" met="-+-+-+-+-">And the red was on your lip, Mary,</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">And the love-light in your eye.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-b-b">
+        <l n="9" real="xxx+-x+-" met="--+-+-+-">The place is little changed, Mary,</l>
+        <l n="10" real="xxxxxx" met="-+-+-+">The day is bright as then,</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">The lark’s loud song is in my ear,</l>
+        <l n="12" real="xxxxx-+" met="-+-+-+-">And the corn is green again;</l>
+        <l n="13" real="xxxxxxxxx" met="-+-+-+-+-">But I miss the soft clasp of your hand,</l>
+        <l n="14" real="xxxxxxx" met="-+-+-+-">And your breath warm on my cheek,</l>
+        <l n="15" real="xxxxxxxxx" met="-+-+-+-+-">And I still keep list’ning for the words</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">You never more will speak.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-ababc-c">
+        <l n="17" real="xxxxx+-x" met="--+-+-+-">’Tis but a step down yonder lane,</l>
+        <l n="18" real="xx+-xxx" met="-+-+-+-">And the little church stands near,</l>
+        <l n="19" real="xxxxxx+-" met="--+-+-+-">The church where we were wed, Mary,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">I see the spire from here.</l>
+        <l n="21" real="xx+xxxx+-" met="-+-+-+-+-">But the graveyard lies between, Mary,</l>
+        <l n="22" real="xxxxxxx" met="-+-+-+-">And my step might break your rest--</l>
+        <l n="23" real="xxxx+-xxx" met="-+-+-+-+-">For I’ve laid you, darling! down to sleep,</l>
+        <l n="24" real="xx+-xxx" met="-+-+-+-">With your baby on your breast.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ab-bac-c">
+        <l n="25" real="x+-+-x+-" met="--+-+-+-">I’m very lonely now, Mary,</l>
+        <l n="26" real="xxxxxxx" met="-+-+-+-">For the poor make no new friends,</l>
+        <l n="27" real="xxxxx+-x" met="--+-+-+-">But, O, they love the better still,</l>
+        <l n="28" real="xx+-+-x" met="-+-+-+-">The few our Father sends!</l>
+        <l n="29" real="xxxxxx+-" met="--+-+-+-">And you were all _I_ had, Mary,</l>
+        <l n="30" real="xxxxxx" met="-+-+-+">My blessin’ and my pride:</l>
+        <l n="31" real="x+-xxxxx" met="--+-+-+-">There’s nothin’ left to care for now,</l>
+        <l n="32" real="xxx+-x" met="-+-+-+">Since my poor Mary died.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a-b-b">
+        <l n="33" real="xxxxxx+-" met="--+-+-+-">Yours was the good, brave heart, Mary,</l>
+        <l n="34" real="xxx+-x" met="-+-+-+">That still kept hoping on,</l>
+        <l n="35" real="xxxxxxxxx" met="-+-+-+-+-">When the trust in God had left my soul,</l>
+        <l n="36" real="xxxxxxx" met="-+-+-+-">And my arm’s young strength was gone:</l>
+        <l n="37" real="xx+-+-xxx" met="-+-+-+-+-">There was comfort ever on your lip,</l>
+        <l n="38" real="xxxxxxx" met="-+-+-+-">And the kind look on your brow--</l>
+        <l n="39" real="xxx+-xxx" met="--+-+-+-">I bless you, Mary, for that same,</l>
+        <l n="40" real="xx+-xxx" met="-+-+-+-">Though you cannot hear me now.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a-b-b">
+        <l n="41" real="xxxxx+-x" met="--+-+-+-">I thank you for the patient smile</l>
+        <l n="42" real="xxxxxxx" met="-+-+-+-">When your heart was fit to break,</l>
+        <l n="43" real="xx+-xxxxx" met="-+-+-+-+-">When the hunger pain was gnawin’ there,</l>
+        <l n="44" real="xxxxxxx" met="-+-+-+-">And you hid it, for my sake!</l>
+        <l n="45" real="xxxxx+-x" met="--+-+-+-">I bless you for the pleasant word,</l>
+        <l n="46" real="xxxxxxx" met="-+-+-+-">When your heart was sad and sore--</l>
+        <l n="47" real="xx+-xxx+-" met="-+-+-+-+-">O, I’m thankful you are gone, Mary,</l>
+        <l n="48" real="xxxxxx" met="-+-+-+">Where grief can’t reach you more!</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a-b-b">
+        <l n="49" real="xxxxxxx+" met="--+-+-+-">I’m biddin’ you a long farewell,</l>
+        <l n="50" real="x+-xxx" met="-+-+-+">My Mary--kind and true!</l>
+        <l n="51" real="xxx-+x+-" met="--+-+-+-">But I’ll not forget you, darling!</l>
+        <l n="52" real="xxxx+-x" met="-+-+-+-">In the land I’m goin’ to;</l>
+        <l n="53" real="xxxxxxxx" met="--+-+-+-">They say there’s bread and work for all,</l>
+        <l n="54" real="xxxx+xx" met="-+-+-+-">And the sun shines always there--</l>
+        <l n="55" real="xxx-+x+--" met="-+-+-+-+-">But I’ll not forget old Ireland,</l>
+        <l n="56" real="xx+-xxx" met="-+-+-+-">Were it fifty times as fair!</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a-b-b">
+        <l n="57" real="x+-xxxxx" met="--+-+-+-">And often in those grand old woods</l>
+        <l n="58" real="xxxxxx" met="-+-+-+">I’ll sit, and shut my eyes,</l>
+        <l n="59" real="xxxx+-x-+" met="-+-+-+-+-">And my heart will travel back again</l>
+        <l n="60" real="xxxx+-x" met="-+-+-+-">To the place where Mary lies;</l>
+        <l n="61" real="xxxxxx+-x" met="-+-+-+-+-">And I’ll think I see the little stile</l>
+        <l n="62" real="xxxxxx" met="-+-+-+">Where we sat side by side:</l>
+        <l n="63" real="xxxxxxxxxx" met="--+-+-+-+-">And the springin’ corn, and the bright May morn,</l>
+        <l n="64" real="xxxxxx" met="-+-+-+">When first you were my bride.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

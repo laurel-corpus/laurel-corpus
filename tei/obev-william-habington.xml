@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>To Roses in the Bosom of Castara, and other poems</title><author>William Habington</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="to-roses-in-the-bosom-of-castara" n="L16079">
+      <head>To Roses in the Bosom of Castara</head>
+      <idno type="URN">urn:laurel:eng:habington.obev-william-habington.pg66619:to-roses-in-the-bosom-of-castara</idno><idno type="laurel-id">L16079</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-+-+-x" met="-+-+-+-+">Ye blushing virgins happy are</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">In the chaste nunnery of her breasts--</l>
+        <l n="3" real="xx-+xxxx" met="-+-+-+-+">For he’d profane so chaste a fair,</l>
+        <l n="4" real="xxxx+-x" met="+-+-+-+">Whoe’er should call them Cupid’s nests.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="-+-xxxxx" met="-+-+-+-+">Transplanted thus how bright ye grow!</l>
+        <l n="6" real="xxx-+xxx" met="-+-+-+-+">How rich a perfume do ye yield!</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">In some close garden cowslips so</l>
+        <l n="8" real="x+-xx+-x" met="-+-+-+-+">Are sweeter than i’ th’ open field.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-x-+" met="-+-+-+-+">In those white cloisters live secure</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">From the rude blasts of wanton breath!--</l>
+        <l n="11" real="x+x+--xx" met="-+-+-+-+">Each hour more innocent and pure,</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Till you shall wither into death.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxx+-xxx" met="-+-+-+-+">Then that which living gave you room,</l>
+        <l n="14" real="x+--xxxx" met="-+-+-+-+">Your glorious sepulchre shall be.</l>
+        <l n="15" real="xxx+-xxx" met="-+-+-+-+">There wants no marble for a tomb</l>
+        <l n="16" real="xxx+-xxx" met="-+-+-+-+">Whose breast hath marble been to me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nox-nocti-indicat-scientiam" n="L16080">
+      <head>Nox Nocti Indicat Scientiam</head>
+      <idno type="URN">urn:laurel:eng:habington.obev-william-habington.pg66619:nox-nocti-indicat-scientiam</idno><idno type="laurel-id">L16080</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xx-+xx" met="--+-+-">When I survey the bright</l>
+        <l n="2" real="-+-x" met="--+-">Celestial sphere;</l>
+        <l n="3" real="xxx+-xxx" met="-+-+-+-+">So rich with jewels hung, that Night</l>
+        <l n="4" real="xxxxxx-+" met="-+-+-+-+">Doth like an Ethiop bride appear:</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxxx" met="--+-+-">My soul her wings doth spread</l>
+        <l n="6" real="xxxxx" met="-+-+-">And heavenward flies,</l>
+        <l n="7" real="xxx+--xx" met="-+-+-+-+">Th’ Almighty’s mysteries to read</l>
+        <l n="8" real="xxx+-xxx" met="-+-+-+-+">In the large volumes of the skies.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxxxxx" met="--+-+-">For the bright firmament</l>
+        <l n="10" real="xxxx" met="--+-">Shoots forth no flame</l>
+        <l n="11" real="x+-xx+--" met="-+-+-+-+">So silent, but is eloquent</l>
+        <l n="12" real="x+-x-+-x" met="-+-+-+-+">In speaking the Creator’s name.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxx" met="--+-+-">No unregarded star</l>
+        <l n="14" real="+xxx" met="--+-">Contracts its light</l>
+        <l n="15" real="xxxxx+--" met="-+-+-+-+">Into so small a character,</l>
+        <l n="16" real="-+xx+-+-x" met="-+-+-+-+-">Removed far from our human sight,</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abab">
+        <l n="17" real="xxx+xx" met="--+-+-">But if we steadfast look</l>
+        <l n="18" real="xx-+" met="--+-">We shall discern</l>
+        <l n="19" real="xxxxx+-x" met="-+-+-+-+">In it, as in some holy book,</l>
+        <l n="20" real="xxx+--+-x" met="-+-+-+-+-">How man may heavenly knowledge learn.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="xxx+--" met="--+-+-">It tells the conqueror</l>
+        <l n="22" real="xxx+-" met="-+-+-">That far-stretch’d power,</l>
+        <l n="23" real="xxx+-+-x" met="-+-+-+-+">Which his proud dangers traffic for,</l>
+        <l n="24" real="xxx+-xx+-" met="-+-+-+-+-">Is but the triumph of an hour:</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abab">
+        <l n="25" real="xxx+-x" met="--+-+-">That from the farthest North,</l>
+        <l n="26" real="x+-x" met="--+-">Some nation may,</l>
+        <l n="27" real="xx-+-+-x" met="-+-+-+-+">Yet undiscover’d, issue forth,</l>
+        <l n="28" real="xxxxx+-x" met="-+-+-+-+">And o’er his new-got conquest sway:</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abab">
+        <l n="29" real="x+-xxx" met="--+-+-">Some nation yet shut in</l>
+        <l n="30" real="xxxx" met="--+-">With hills of ice</l>
+        <l n="31" real="xxxxxxxx" met="-+-+-+-+">May be let out to scourge his sin,</l>
+        <l n="32" real="xxx+-xxx" met="-+-+-+-+">Till they shall equal him in vice.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abab">
+        <l n="33" real="xxx+xx" met="--+-+-">And then they likewise shall</l>
+        <l n="34" real="x+-x" met="--+-">Their ruin have;</l>
+        <l n="35" real="xx-+x+--x" met="-+-+-+-+-">For as yourselves your empires fall,</l>
+        <l n="36" real="x+--+-xxx" met="-+-+-+-+-">And every kingdom hath a grave.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="abab">
+        <l n="37" real="xx-+-+-" met="+-+-+-+">Thus those celestial fires,</l>
+        <l n="38" real="x+-x" met="--+-">Though seeming mute,</l>
+        <l n="39" real="x+--x+--+-" met="--+-+-+-+-">The fallacy of our desires</l>
+        <l n="40" real="xxxxxxxx" met="-+-+-+-+">And all the pride of life confute:--</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="abab">
+        <l n="41" real="xxxxxx" met="--+-+-">For they have watch’d since first</l>
+        <l n="42" real="xxxx" met="--+-">The World had birth:</l>
+        <l n="43" real="xxxx-+xx" met="-+-+-+-+">And found sin in itself accurst,</l>
+        <l n="44" real="x+-+--xx" met="-+-+-+-+">And nothing permanent on Earth.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

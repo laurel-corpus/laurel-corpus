@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Hymn</title><author>Joseph Addison</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="hymn" n="L16145">
+      <head>Hymn</head>
+      <idno type="URN">urn:laurel:eng:addison.obev-joseph-addison.pg66619:hymn</idno><idno type="laurel-id">L16145</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccdd">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">The spacious firmament on high,</l>
+        <l n="2" real="xxxx-+-x" met="-+-+-+-+">With all the blue ethereal sky,</l>
+        <l n="3" real="x+-+-x+-x" met="-+-+-+-+-">And spangled heavens, a shining frame,</l>
+        <l n="4" real="xx-+---+" met="-+-+-+-+">Their great Original proclaim.</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Th’ unwearied Sun from day to day</l>
+        <l n="6" real="xx-+-+-+" met="-+-+-+-+">Does his Creator’s power display;</l>
+        <l n="7" real="x+--x+-x" met="-+-+-+-+">And publishes to every land</l>
+        <l n="8" real="xxxx-+-x" met="-+-+-+-+">The work of an Almighty hand.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccdd">
+        <l n="9" real="xxx+-x-+" met="-+-+-+-+">Soon as the evening shades prevail,</l>
+        <l n="10" real="xxxxx+-x" met="-+-+-+-+">The Moon takes up the wondrous tale;</l>
+        <l n="11" real="x+-xx+-x" met="-+-+-+-+">And nightly to the listening Earth</l>
+        <l n="12" real="-+x+-xxx" met="-+-+-+-+">Repeats the story of her birth:</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Whilst all the stars that round her burn,</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">And all the planets in their turn,</l>
+        <l n="15" real="-+x+-xxx" met="-+-+-+-+">Confirm the tidings as they roll,</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">And spread the truth from pole to pole.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbccdd">
+        <l n="17" real="xxx+-+-x" met="-+-+-+-+">What though in solemn silence all</l>
+        <l n="18" real="xxxx-+-x" met="-+-+-+-+">Move round the dark terrestrial ball;</l>
+        <l n="19" real="xxxxxxx" met="+-+-+-+">What though nor real voice nor sound</l>
+        <l n="20" real="-+x+-xxx" met="-+-+-+-+">Amidst their radiant orbs be found?</l>
+        <l n="21" real="x+-xxx-+" met="-+-+-+-+">In Reason’s ear they all rejoice,</l>
+        <l n="22" real="x+-xx+-x" met="-+-+-+-+">And utter forth a glorious voice;</l>
+        <l n="23" real="x+-+-xxx" met="-+-+-+-+">For ever singing as they shine,</l>
+        <l n="24" real="xxxxxx-+" met="-+-+-+-+">‘The Hand that made us is divine.’</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

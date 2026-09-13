@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>King Arthur’s Waes-hael, and other poems</title><author>Robert Stephen Hawker</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="king-arthurs-waes-hael" n="L16208">
+      <head>King Arthur’s Waes-hael</head>
+      <idno type="URN">urn:laurel:eng:hawker.obev-robert-stephen-hawker.pg66619:king-arthurs-waes-hael</idno><idno type="laurel-id">L16208</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxxxxx" met="-+-+-+">Waes-hael for knight and dame!</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">O merry be their dole!</l>
+        <l n="3" real="xxx+-x" met="-+-+-+">Drink-hael! in Jesu’s name</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">We fill the tawny bowl;</l>
+        <l n="5" real="x+-xx+-x" met="--+-+-+-">But cover down the curving crest,</l>
+        <l n="6" real="xxx+-x+-x" met="-+-+-+-+-">Mould of the Orient Lady’s breast.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxxx" met="-+-+-+">Waes-hael! yet lift no lid:</l>
+        <l n="8" real="xxxxxx" met="-+-+-+">Drain ye the reeds for wine.</l>
+        <l n="9" real="xxxxxx" met="-+-+-+">Drink-hael! the milk was hid</l>
+        <l n="10" real="xxxx-+" met="-+-+-+">That soothed that Babe divine;</l>
+        <l n="11" real="xxx+-+-x" met="--+-+-+-">Hush’d, as this hollow channel flows,</l>
+        <l n="12" real="xxx+-xxx" met="--+-+-+-">He drew the balsam from the rose.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcc">
+        <l n="13" real="xxxxxx" met="-+-+-+">Waes-hael! thus glow’d the breast</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">Where a God yearn’d to cling;</l>
+        <l n="15" real="xxxxxx" met="-+-+-+">Drink-hael! so Jesu press’d</l>
+        <l n="16" real="xxx+-x" met="-+-+-+">Life from its mystic spring;</l>
+        <l n="17" real="xxxxx+-x" met="--+-+-+-">Then hush and bend in reverent sign</l>
+        <l n="18" real="xxx+-xxx" met="--+-+-+-">And breathe the thrilling reeds for wine.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababcc">
+        <l n="19" real="xxx+-x" met="-+-+-+">Waes-hael! in shadowy scene</l>
+        <l n="20" real="x+-+-x" met="-+-+-+">Lo! Christmas children we:</l>
+        <l n="21" real="xx-+xx" met="-+-+-+">Drink-hael! behold we lean</l>
+        <l n="22" real="xxx+-x" met="-+-+-+">At a far Mother’s knee;</l>
+        <l n="23" real="xxxxx+-x" met="--+-+-+-">To dream that thus her bosom smiled,</l>
+        <l n="24" real="xxxxx+-xx" met="-+-+-+-+-">And learn the lip of Bethlehem’s Child.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="are-they-not-all-ministering-spirits" n="L16209">
+      <head>Are they not all Ministering Spirits?</head>
+      <idno type="URN">urn:laurel:eng:hawker.obev-robert-stephen-hawker.pg66619:are-they-not-all-ministering-spirits</idno><idno type="laurel-id">L16209</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="xxxxx+-x" met="--+-+-+-">We see them not--we cannot hear</l>
+        <l n="2" real="x+-xxx" met="-+-+-+">The music of their wing--</l>
+        <l n="3" real="xxxxx+-x" met="--+-+-+-">Yet know we that they sojourn near,</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">The Angels of the spring!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xx-+x+-x" met="--+-+-+-">They glide along this lovely ground</l>
+        <l n="6" real="xxx+--x" met="-+-+-+-">When the first violet grows;</l>
+        <l n="7" real="x+-xxx-+" met="--+-+-+-">Their graceful hands have just unbound</l>
+        <l n="8" real="xxx+-x" met="-+-+-+">The zone of yonder rose.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="x+-xxxxx" met="--+-+-+-">I gather it for thy dear breast,</l>
+        <l n="10" real="xxx+xx" met="-+-+-+">From stain and shadow free:</l>
+        <l n="11" real="xxx+-xxx" met="--+-+-+-">That which an Angel’s touch hath blest</l>
+        <l n="12" real="xxxxxx" met="-+-+-+">Is meet, my love, for thee!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

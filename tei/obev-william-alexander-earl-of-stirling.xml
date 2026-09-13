@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Aurora</title><author>William Alexander, Earl of Stirling</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="aurora" n="L16034">
+      <head>Aurora</head>
+      <idno type="URN">urn:laurel:eng:stirling.obev-william-alexander-earl-of-stirling.pg66619:aurora</idno><idno type="laurel-id">L16034</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a--abcccb">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">O happy Tithon! if thou know’st thy hap,</l>
+        <l n="2" real="xxxxxxxxx" met="+-+-+-+-+">And valuest thy wealth, as I my want,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Then need’st thou not--which ah! I grieve to grant--</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">Repine at Jove, lull’d in his leman’s lap:</l>
+        <l n="5" real="x+-+xxxx-+" met="-+-+-+-+-+">That golden shower in which he did repose--</l>
+        <l n="6" real="x+-xxx" met="--+-+-">One dewy drop it stains</l>
+        <l n="7" real="xxxxxx" met="--+-+-">Which thy Aurora rains</l>
+        <l n="8" real="xxx+-x" met="--+-+-">Upon the rural plains,</l>
+        <l n="9" real="xxxxx+---x" met="-+-+-+-+-+">When from thy bed she passionately goes.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--a--bb-">
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Then, waken’d with the music of the merles,</l>
+        <l n="11" real="xx-+-+xxxx" met="-+-+-+-+-+">She not remembers Memnon when she mourns:</l>
+        <l n="12" real="x+-xxxx+-x" met="-+-+-+-+-+">That faithful flame which in her bosom burns</l>
+        <l n="13" real="x+-+-xx+-x" met="-+-+-+-+-+">From crystal conduits throws those liquid pearls:</l>
+        <l n="14" real="xxxxxxxx-+" met="-+-+-+-+-+">Sad from thy sight so soon to be removed,</l>
+        <l n="15" real="xxxxxx" met="--+-+-">She so her grief delates.</l>
+        <l n="16" real="xxxxxx" met="--+-+-">--O favour’d by the fates</l>
+        <l n="17" real="xxx+--x" met="-+-+-+-">Above the happiest states,</l>
+        <l n="18" real="xxxxx+-x-+" met="-+-+-+-+-+">Who art of one so worthy well-beloved!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

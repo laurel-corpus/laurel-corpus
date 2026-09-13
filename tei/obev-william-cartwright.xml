@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Falsehood, and other poems</title><author>William Cartwright</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="to-chloe" n="L16091">
+      <head>To Chloe</head>
+      <idno type="URN">urn:laurel:eng:cartwright.obev-william-cartwright.pg66619:to-chloe</idno><idno type="laurel-id">L16091</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcc">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">There are two births; the one when light</l>
+        <l n="2" real="xxxx-+-x" met="-+-+-+-+">First strikes the new awaken’d sense;</l>
+        <l n="3" real="x+-xxx+x" met="-+-+-+-+">The other when two souls unite,</l>
+        <l n="4" real="xxxx+xxx" met="-+-+-+-+">And we must count our life from thence:</l>
+        <l n="5" real="xxxxxxxx" met="-+-+-+-+">When you loved me and I loved you</l>
+        <l n="6" real="xxxxxx-+" met="-+-+-+-+">Then both of us were born anew.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Love then to us new souls did give</l>
+        <l n="8" real="xxxxxxx+-" met="-+-+-+-+-">And in those souls did plant new powers;</l>
+        <l n="9" real="xx-+-xxx" met="-+-+-+-+">Since when another life we live,</l>
+        <l n="10" real="xxxxxxx+-" met="-+-+-+-+-">The breath we breathe is his, not ours:</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Love makes those young whom age doth chill,</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">And whom he finds young keeps young still.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="falsehood" n="L16092">
+      <head>Falsehood</head>
+      <idno type="URN">urn:laurel:eng:cartwright.obev-william-cartwright.pg66619:falsehood</idno><idno type="laurel-id">L16092</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcdd--c">
+        <l n="1" real="xxxx-+xx" met="-+-+-+-+">Still do the stars impart their light</l>
+        <l n="2" real="xxx+-xxx" met="-+-+-+-+">To those that travel in the night;</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Still time runs on, nor doth the hand</l>
+        <l n="4" real="x+xxx+-x" met="-+-+-+-+">Or shadow on the dial stand;</l>
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">The streams still glide and constant are:</l>
+        <l n="6" real="+-xx" met="--+-">Only thy mind</l>
+        <l n="7" real="-+xx" met="--+-">Untrue I find,</l>
+        <l n="8" real="x+--" met="--+-">Which carelessly</l>
+        <l n="9" real="-+xx" met="--+-">Neglects to be</l>
+        <l n="10" real="xxx+xxxx" met="-+-+-+-+">Like stream or shadow, hand or star.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcd-ddc">
+        <l n="11" real="xxxxxx+x" met="-+-+-+-+">Fool that I am! I do recall</l>
+        <l n="12" real="xxxxxxxx" met="-+-+-+-+">My words, and swear thou’rt like them all,</l>
+        <l n="13" real="xxxxx+-+-" met="-+-+-+-+-">Thou seem’st like stars to nourish fire,</l>
+        <l n="14" real="xxxxxx-+-" met="-+-+-+-+-">But O how cold is thy desire!</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">And like the hand upon the brass</l>
+        <l n="16" real="xxxx" met="--+-">Thou point’st at me</l>
+        <l n="17" real="x+--" met="--+-">In mockery;</l>
+        <l n="18" real="xxxx" met="--+-">If I come nigh</l>
+        <l n="19" real="xxxx" met="--+-">Shade-like thou’lt fly,</l>
+        <l n="20" real="xxxxx+-x" met="-+-+-+-+">And as the stream with murmur pass.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-the-queens-return-from-the-low-countries" n="L16093">
+      <head>On the Queen’s Return from the Low Countries</head>
+      <idno type="URN">urn:laurel:eng:cartwright.obev-william-cartwright.pg66619:on-the-queens-return-from-the-low-countries</idno><idno type="laurel-id">L16093</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbcc">
+        <l n="1" real="+-x+xxxx-+" met="-+-+-+-+-+">Hallow the threshold, crown the posts anew!</l>
+        <l n="2" real="xxxxxx" met="--+-+-">The day shall have its due.</l>
+        <l n="3" real="xx++-xxxxx" met="-+-+-+-+-+">Twist all our victories into one bright wreath,</l>
+        <l n="4" real="xxx+-x" met="--+-+-">On which let honour breathe;</l>
+        <l n="5" real="xxxxx+-x+x" met="-+-+-+-+-+">Then throw it round the temples of our Queen!</l>
+        <l n="6" real="xxxx-+x+-x" met="-+-+-+-+-+">’Tis she that must preserve those glories green.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcc">
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">When greater tempests than on sea before</l>
+        <l n="8" real="-+xxxx" met="--+-+-">Received her on the shore;</l>
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">When she was shot at ‘for the King’s own good’</l>
+        <l n="10" real="x+-+-xx" met="-+-+-+-">By legions hired to blood;</l>
+        <l n="11" real="x+-xxxx+-x" met="-+-+-+-+-+">How bravely did she do, how bravely bear!</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">And show’d, though they durst rage, she durst not fear.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="aabbcc">
+        <l n="13" real="+-xxxxxxxx" met="-+-+-+-+-+">Courage was cast about her like a dress</l>
+        <l n="14" real="x+-xxxx" met="-+-+-+-">Of solemn comeliness:</l>
+        <l n="15" real="x+-xxx-+-x" met="-+-+-+-+-+">A gathered mind and an untroubled face</l>
+        <l n="16" real="xxx+-x" met="--+-+-">Did give her dangers grace:</l>
+        <l n="17" real="xxx+---+xx" met="-+-+-+-+-+">Thus, arm’d with innocence, secure they move</l>
+        <l n="18" real="x+-+-xx+-x" met="-+-+-+-+-+">Whose highest ‘treason’ is but highest love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="on-a-virtuous-young-gentlewoman-that-died-sudden" n="L16094">
+      <head>On a Virtuous Young Gentlewoman that died suddenly</head>
+      <idno type="URN">urn:laurel:eng:cartwright.obev-william-cartwright.pg66619:on-a-virtuous-young-gentlewoman-that-died-sudden</idno><idno type="laurel-id">L16094</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aa------bbcc--">
+        <l n="1" real="xxx+x+-x-+" met="-+-+-+-+-+">She who to Heaven more Heaven doth annex,</l>
+        <l n="2" real="x+-xxxxx+x" met="-+-+-+-+-+">Whose lowest thought was above all our sex,</l>
+        <l n="3" real="-+-+-xxxxxx" met="-+-+-+-+-+-">Accounted nothing death but t’ be reprieved,</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">And died as free from sickness as she lived.</l>
+        <l n="5" real="+-xx-+xxx+-" met="-+-+-+-+-+-">Others are dragg’d away, or must be driven,</l>
+        <l n="6" real="x+-xxxxxx+-" met="-+-+-+-+-+-">She only saw her time and stept to Heaven;</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Where seraphims view all her glories o’er,</l>
+        <l n="8" real="xx-+xxxxxx" met="-+-+-+-+-+">As one return’d that had been there before.</l>
+        <l n="9" real="xxxxx+-x-+" met="-+-+-+-+-+">For while she did this lower world adorn,</l>
+        <l n="10" real="x+-x+--+xx" met="-+-+-+-+-+">Her body seem’d rather assumed than born;</l>
+        <l n="11" real="xxx-+-xxxx" met="-+-+-+-+-+">So rarified, advanced, so pure and whole,</l>
+        <l n="12" real="x+-xxx-+-x" met="-+-+-+-+-+">That body might have been another’s soul;</l>
+        <l n="13" real="x+--x+--xx" met="-+-+-+-+-+">And equally a miracle it were</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">That she could die, or that she could live here.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

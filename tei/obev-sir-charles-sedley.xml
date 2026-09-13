@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>To Chloris, and other poems</title><author>Sir Charles Sedley</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="to-chloris" n="L16128">
+      <head>To Chloris</head>
+      <idno type="URN">urn:laurel:eng:sedley.obev-sir-charles-sedley.pg66619:to-chloris</idno><idno type="laurel-id">L16128</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="----abab">
+        <l n="1" real="x+-xxxxx" met="--+-+-+-">Ah, Chloris! that I now could sit</l>
+        <l n="2" real="xx-+xx" met="-+-+-+">As unconcern’d as when</l>
+        <l n="3" real="x+-+-x-+" met="--+-+-+-">Your infant beauty could beget</l>
+        <l n="4" real="x+-xxx" met="-+-+-+">No pleasure, nor no pain!</l>
+        <l n="5" real="xxxxxx-+" met="--+-+-+-">When I the dawn used to admire,</l>
+        <l n="6" real="xxx+-x" met="-+-+-+">And praised the coming day,</l>
+        <l n="7" real="x+-xx+-+-" met="-+-+-+-+-">I little thought the growing fire</l>
+        <l n="8" real="xxxx-+" met="-+-+-+">Must take my rest away.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-c-c">
+        <l n="9" real="xxx+-+xx" met="--+-+-+-">Your charms in harmless childhood lay</l>
+        <l n="10" real="x+-xxx" met="-+-+-+">Like metals in the mine;</l>
+        <l n="11" real="xxxxxx-+" met="--+-+-+-">Age from no face took more away</l>
+        <l n="12" real="xx-+xx" met="-+-+-+">Than youth conceal’d in thine.</l>
+        <l n="13" real="xxxxxxxx" met="--+-+-+-">But as your charms insensibly</l>
+        <l n="14" real="xx-+-x" met="-+-+-+">To their perfection prest,</l>
+        <l n="15" real="xxxxxxxx" met="--+-+-+-">Fond love as unperceived did fly,</l>
+        <l n="16" real="xxx+-x" met="-+-+-+">And in my bosom rest.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababbcbc">
+        <l n="17" real="x+-xx+-x" met="--+-+-+-">My passion with your beauty grew,</l>
+        <l n="18" real="x+-xxx" met="-+-+-+">And Cupid at my heart,</l>
+        <l n="19" real="xxx+-xxx" met="--+-+-+-">Still as his mother favour’d you,</l>
+        <l n="20" real="xxx+-x" met="-+-+-+">Threw a new flaming dart:</l>
+        <l n="21" real="xxxx+-x" met="-+-+-+-">Each gloried in their wanton part;</l>
+        <l n="22" real="xxx+-x" met="-+-+-+">To make a lover, he</l>
+        <l n="23" real="-+x+xxxx" met="--+-+-+-">Employ’d the utmost of his art--</l>
+        <l n="24" real="xxx+-x" met="-+-+-+">To make a beauty, she.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-celia" n="L16129">
+      <head>To Celia</head>
+      <idno type="URN">urn:laurel:eng:sedley.obev-sir-charles-sedley.pg66619:to-celia</idno><idno type="laurel-id">L16129</idno><note type="metre">common measure</note>
+      <lg type="stanza" n="1" rhyme="abab">
+        <l n="1" real="x+-xx+-x" met="-+-+-+-+">Not, Celia, that I juster am</l>
+        <l n="2" real="x+-xxx" met="--+-+-">Or better than the rest!</l>
+        <l n="3" real="xxxxx+-xx" met="-+-+-+-+-">For I would change each hour, like them,</l>
+        <l n="4" real="xxxxxx" met="--+-+-">Were not my heart at rest.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab">
+        <l n="5" real="xxxxx+-x" met="-+-+-+-+">But I am tied to very thee</l>
+        <l n="6" real="x+--xxx" met="+-+-+-+">By every thought I have;</l>
+        <l n="7" real="xxx+-xxx" met="-+-+-+-+">Thy face I only care to see,</l>
+        <l n="8" real="xxx+-x" met="--+-+-">Thy heart I only crave.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab">
+        <l n="9" real="xxx+-x-+" met="-+-+-+-+">All that in woman is adored</l>
+        <l n="10" real="xxxxxx" met="--+-+-">In thy dear self I find--</l>
+        <l n="11" real="xxxxxx-+" met="-+-+-+-+">For the whole sex can but afford</l>
+        <l n="12" real="x+-xxx" met="--+-+-">The handsome and the kind.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab">
+        <l n="13" real="xxxxx+-x" met="-+-+-+-+">Why then should I seek further store,</l>
+        <l n="14" real="xxxx-+" met="--+-+-">And still make love anew?</l>
+        <l n="15" real="xx-+xxxx" met="-+-+-+-+">When change itself can give no more,</l>
+        <l n="16" real="x+-xxx" met="--+-+-">’Tis easy to be true!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

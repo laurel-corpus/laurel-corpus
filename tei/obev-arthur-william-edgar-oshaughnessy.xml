@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Fountain of Tears, and other poems</title><author>Arthur William Edgar O’shaughnessy</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Oxford Book of English Verse, 1250-1900. Project Gutenberg ebook #66619. <ref target="https://www.gutenberg.org/ebooks/66619">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="ode" n="L16268">
+      <head>Ode</head>
+      <idno type="URN">urn:laurel:eng:o-shaughnessy.obev-arthur-william-edgar-oshaughnessy.pg66619:ode</idno><idno type="laurel-id">L16268</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="abababab">
+        <l n="1" real="xxx+-+-" met="+-+-+-+">We are the music-makers,</l>
+        <l n="2" real="xxxx+-xx" met="-+-+-+-+">And we are the dreamers of dreams,</l>
+        <l n="3" real="+--xxx+-" met="-+-+-+-+">Wandering by lone sea-breakers,</l>
+        <l n="4" real="x+-x+--x" met="-+-+-+-+">And sitting by desolate streams;</l>
+        <l n="5" real="x+-xxxxx" met="-+-+-+-+">World-losers and world-forsakers,</l>
+        <l n="6" real="xxxxxx" met="--+-+-">On whom the pale moon gleams:</l>
+        <l n="7" real="xxxx+-x+-" met="-+-+-+-+-">Yet we are the movers and shakers</l>
+        <l n="8" real="xxxx+-xx" met="-+-+-+-+">Of the world for ever, it seems.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbcdcd">
+        <l n="9" real="x+--xx+-" met="-+-+-+-+">With wonderful deathless ditties</l>
+        <l n="10" real="xxxxxx+-" met="-+-+-+-+">We build up the world’s great cities,</l>
+        <l n="11" real="xxxx+--+-" met="-+-+-+-+-">And out of a fabulous story</l>
+        <l n="12" real="x+-x+--+-" met="-+-+-+-+-">We fashion an empire’s glory:</l>
+        <l n="13" real="xxxxxx+-" met="-+-+-+-+">One man with a dream, at pleasure,</l>
+        <l n="14" real="xxxx+-xx" met="-+-+-+-+">Shall go forth and conquer a crown;</l>
+        <l n="15" real="xxxxxx+-" met="-+-+-+-+">And three with a new song’s measure</l>
+        <l n="16" real="x+-x+--x" met="-+-+-+-+">Can trample an empire down.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abababab">
+        <l n="17" real="xxx+-+-" met="+-+-+-+">We, in the ages lying</l>
+        <l n="18" real="xx+-xxxx" met="-+-+-+-+">In the buried past of the earth,</l>
+        <l n="19" real="x+--x+-+-" met="-+-+-+-+-">Built Nineveh with our sighing,</l>
+        <l n="20" real="x+--+x+x" met="-+-+-+-+">And Babel itself with our mirth;</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">And o’erthrew them with prophesying</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">To the old of the new world’s worth;</l>
+        <l n="23" real="xxxxxxxx+-" met="--+-+-+-+-">For each age is a dream that is dying,</l>
+        <l n="24" real="xxxx+-xx" met="-+-+-+-+">Or one that is coming to birth.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="song" n="L16269">
+      <head>Song</head>
+      <idno type="URN">urn:laurel:eng:o-shaughnessy.obev-arthur-william-edgar-oshaughnessy.pg66619:song</idno><idno type="laurel-id">L16269</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcd">
+        <l n="1" real="xx-+-+-x" met="-+-+-+-+">I made another garden, yea,</l>
+        <l n="2" real="xxxx" met="--+-">For my new Love:</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">I left the dead rose where it lay</l>
+        <l n="4" real="xxxxxx" met="--+-+-">And set the new above.</l>
+        <l n="5" real="xxx+-x-+" met="-+-+-+-+">Why did my Summer not begin?</l>
+        <l n="6" real="xxxxxx" met="--+-+-">Why did my heart not haste?</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">My old Love came and walk’d therein,</l>
+        <l n="8" real="xxx+-x" met="--+-+-">And laid the garden waste.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcd">
+        <l n="9" real="x+-xx+-x" met="-+-+-+-+">She enter’d with her weary smile,</l>
+        <l n="10" real="xxxx" met="--+-">Just as of old;</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">She look’d around a little while</l>
+        <l n="12" real="x+-xxx" met="--+-+-">And shiver’d with the cold:</l>
+        <l n="13" real="x+-xxxxx" met="-+-+-+-+">Her passing touch was death to all,</l>
+        <l n="14" real="x+-xxx" met="--+-+-">Her passing look a blight;</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">She made the white rose-petals fall,</l>
+        <l n="16" real="xxxxxx" met="--+-+-">And turn’d the red rose white.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcdcd">
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">Her pale robe clinging to the grass</l>
+        <l n="18" real="xxxx" met="--+-">Seem’d like a snake</l>
+        <l n="19" real="xxxxxx-+" met="-+-+-+-+">That bit the grass and ground, alas!</l>
+        <l n="20" real="xxxxxx" met="--+-+-">And a sad trail did make.</l>
+        <l n="21" real="xxx+-xxx" met="-+-+-+-+">She went up slowly to the gate,</l>
+        <l n="22" real="xxxxxx" met="--+-+-">And then, just as of yore,</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">She turn’d back at the last to wait</l>
+        <l n="24" real="xxx+xx" met="--+-+-">And say farewell once more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-fountain-of-tears" n="L16270">
+      <head>The Fountain of Tears</head>
+      <idno type="URN">urn:laurel:eng:o-shaughnessy.obev-arthur-william-edgar-oshaughnessy.pg66619:the-fountain-of-tears</idno><idno type="laurel-id">L16270</idno><note type="metre">anapaestic trimeter</note>
+      <lg type="stanza" n="1" rhyme="abbcddac">
+        <l n="1" real="xxxxx-+x+-" met="--+--+--+-">If you go over desert and mountain,</l>
+        <l n="2" real="xxxx+-x+-" met="--+--+--+">Far into the country of Sorrow,</l>
+        <l n="3" real="xxxxxxx+-" met="--+--+--+">To-day and to-night and to-morrow,</l>
+        <l n="4" real="x+-xxxxx" met="-+--+--+">And maybe for months and for years;</l>
+        <l n="5" real="xxxxxxxx+-" met="--+--+--+-">You shall come with a heart that is bursting</l>
+        <l n="6" real="x+-x+-xxx" met="--+--+--+">For trouble and toiling and thirsting.</l>
+        <l n="7" real="xx+--xxx+-" met="--+--+--+-">You shall certainly come to the fountain</l>
+        <l n="8" real="xxxx+-xx" met="-+--+--+">At length,--to the Fountain of Tears.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbcddac">
+        <l n="9" real="+-+-xxxx+-" met="--+--+--+-">Very peaceful the place is, and solely</l>
+        <l n="10" real="xxx-+-x+-" met="--+--+--+">For piteous lamenting and sighing,</l>
+        <l n="11" real="xxxx+-x+-" met="--+--+--+">And those who come living or dying</l>
+        <l n="12" real="-+xxxxxx" met="-+--+--+">Alike from their hopes and their fears;</l>
+        <l n="13" real="xx+-x+xxxx" met="--+--+--+-">Full of cypress-like shadows the place is,</l>
+        <l n="14" real="x+xx+-x+-" met="--+--+--+">And statues that cover their faces:</l>
+        <l n="15" real="xxxxxxx+-" met="--+--+--+">But out of the gloom springs the holy</l>
+        <l n="16" real="x+--+-xx" met="-+--+--+">And beautiful Fountain of Tears.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbcddac">
+        <l n="17" real="xxxxxxxx+-" met="--+--+--+-">And it flows and it flows with a motion</l>
+        <l n="18" real="x+-x+-x+-" met="--+--+--+">So gentle and lovely and listless,</l>
+        <l n="19" real="x+-xxxxxx" met="--+--+--+">And murmurs a tune so resistless</l>
+        <l n="20" real="xxxx+-xx" met="-+--+--+">To him who hath suffer’d and hears--</l>
+        <l n="21" real="xx+-xxxx+-" met="--+--+--+-">You shall surely--without a word spoken,</l>
+        <l n="22" real="xxxxxxx+-" met="--+--+--+">Kneel down there and know your heart broken,</l>
+        <l n="23" real="xxxxxx-+-" met="--+--+--+">And yield to the long-curb’d emotion</l>
+        <l n="24" real="xxxx+-xx" met="-+--+--+">That day by the Fountain of Tears.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbcddac">
+        <l n="25" real="xxxxxxxx+-" met="--+--+--+-">For it grows and it grows, as though leaping</l>
+        <l n="26" real="x+-xxxx+-" met="--+--+--+">Up higher the more one is thinking;</l>
+        <l n="27" real="x+-xxxx+-" met="--+--+--+">And ever its tunes go on sinking</l>
+        <l n="28" real="x+--xxxx" met="-+--+--+">More poignantly into the ears:</l>
+        <l n="29" real="xxxxxxx+-" met="--+--+--+">Yea, so blessèd and good seems that fountain,</l>
+        <l n="30" real="xxxx-+x+-" met="--+--+--+">Reach’d after dry desert and mountain,</l>
+        <l n="31" real="xxxxxxxx+-" met="--+--+--+-">You shall fall down at length in your weeping</l>
+        <l n="32" real="xxxxxxxx" met="-+--+--+">And bathe your sad face in the tears.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="abbcddac">
+        <l n="33" real="x-+xxxxx+-" met="--+--+--+-">Then alas! while you lie there a season</l>
+        <l n="34" real="xxxx+-x+-" met="--+--+--+">And sob between living and dying,</l>
+        <l n="35" real="xxxxxxx+-" met="--+--+--+">And give up the land you were trying</l>
+        <l n="36" real="xxxxxxxx" met="-+--+--+">To find ’mid your hopes and your fears;</l>
+        <l n="37" real="xxxxxxxxxx" met="--+--+--+-">--O the world shall come up and pass o’er you,</l>
+        <l n="38" real="xxxxxxxxx" met="--+--+--+">Strong men shall not stay to care for you,</l>
+        <l n="39" real="x+--+xx+-" met="--+--+--+">Nor wonder indeed for what reason</l>
+        <l n="40" real="xxxx+-xx" met="-+--+--+">Your way should seem harder than theirs.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="abbcddac">
+        <l n="41" real="x-+xxx+-+-" met="--+--+--+-">But perhaps, while you lie, never lifting</l>
+        <l n="42" real="xxxxxxx+-" met="--+--+--+">Your cheek from the wet leaves it presses,</l>
+        <l n="43" real="x+-xxxx+-" met="--+--+--+">Nor caring to raise your wet tresses</l>
+        <l n="44" real="xxxxxx-+" met="-+--+--+">And look how the cold world appears--</l>
+        <l n="45" real="x-+xx+-xx" met="--+--+--+">O perhaps the mere silences round you--</l>
+        <l n="46" real="xxxxxxxxx" met="--+--+--+">All things in that place Grief hath found you--</l>
+        <l n="47" real="xxxxxxx+-" met="--+--+--+">Yea, e’en to the clouds o’er you drifting,</l>
+        <l n="48" real="xxx++xxx" met="-+--+--+">May soothe you somewhat through your tears.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="abbcddac">
+        <l n="49" real="xxxxx+-x+-" met="--+--+--+-">You may feel, when a falling leaf brushes</l>
+        <l n="50" real="xxxxxxxxx" met="--+--+--+">Your face, as though some one had kiss’d you;</l>
+        <l n="51" real="xxxxxxxxx" met="--+--+--+">Or think at least some one who miss’d you</l>
+        <l n="52" real="xxxxxxxx" met="-+--+--+">Had sent you a thought,--if that cheers;</l>
+        <l n="53" real="xxx+-xxx+-" met="--+--+--+-">Or a bird’s little song, faint and broken,</l>
+        <l n="54" real="xxxx+-x+-" met="--+--+--+">May pass for a tender word spoken:</l>
+        <l n="55" real="-+xxxxx+-" met="--+--+--+">--Enough, while around you there rushes</l>
+        <l n="56" real="xx+-+-xx" met="-+--+--+">That life-drowning torrent of tears.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="abbcddac">
+        <l n="57" real="xxxxx+-x+-" met="--+--+--+-">And the tears shall flow faster and faster,</l>
+        <l n="58" real="xxxx+--+-" met="--+--+--+">Brim over and baffle resistance,</l>
+        <l n="59" real="xxxxxxx+-" met="--+--+--+">And roll down blear’d roads to each distance</l>
+        <l n="60" real="xxx-+-xx" met="-+--+--+">Of past desolation and years;</l>
+        <l n="61" real="xx+-xxxx+-" met="--+--+--+-">Till they cover the place of each sorrow,</l>
+        <l n="62" real="xxxxxxx+-" met="--+--+--+">And leave you no past and no morrow:</l>
+        <l n="63" real="xxxx+-x+-" met="--+--+--+">For what man is able to master</l>
+        <l n="64" real="xxxx+-xx" met="-+--+--+">And stem the great Fountain of Tears?</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="abbcddac">
+        <l n="65" real="xxxxxxxx+-" met="--+--+--+-">But the floods and the tears meet and gather;</l>
+        <l n="66" real="xxxxxxx+-" met="--+--+--+">The sound of them all grows like thunder:</l>
+        <l n="67" real="xxxx+-x+-" met="--+--+--+">--O into what bosom, I wonder,</l>
+        <l n="68" real="xxxx+-xx" met="-+--+--+">Is pour’d the whole sorrow of years?</l>
+        <l n="69" real="x-+--+-x+-" met="--+--+--+-">For Eternity only seems keeping</l>
+        <l n="70" real="-+xxx+-+-" met="--+--+--+">Account of the great human weeping:</l>
+        <l n="71" real="xxxx+-x+-" met="--+--+--+">May God, then, the Maker and Father--</l>
+        <l n="72" real="xxxxxxxx" met="-+--+--+">May He find a place for the tears!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>
