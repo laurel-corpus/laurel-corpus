@@ -126,6 +126,6 @@ not say whether a poem is a hymn.
 
 ### What gets published
 
-A metre is published only above a confidence of **0.70**. **16,396 of 18,107 poems** get one, of which
+A metre is published only above a confidence of **0.70**. **16,395 of 18,105 poems** get one, of which
 **940 carry a named measure** rather than a foot-and-length. The rest are left blank, which is the
 correct answer when the verse will not settle.
