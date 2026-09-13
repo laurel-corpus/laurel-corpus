@@ -25,24 +25,17 @@ The site that reads this corpus is at [laurelpoetry.com](https://laurelpoetry.co
 
 ## Canonical references
 
-A citation has to name the edition, not only the work. "The Iliad, line 1" is not a reference, because
-texts differ. The scheme follows CTS, which settled this for classical literature, and uses the same
-four parts:
+A citation has to name the edition, not only the work. "The Iliad, line 1" is not a reference,
+because texts differ. The scheme follows CTS, which settled this for classical literature:
 
 ```
 urn:laurel:eng:shakespeare.shakespeare-sonnets.pg1041:18.1-18.4
                author      work                edition passage
 ```
 
-The passage is the reference a scholar would actually write. Sonnets, cantos and books are cited by
-number; a titled lyric by its own stable name. Ranges are written `18.1-18.4`.
-
 References resolve at `https://laurelpoetry.com/cite.html?urn=...`, and with `&format=json` or
-`&format=text` they return the passage itself, so something other than a browser can follow a citation.
-
-Each poem also has a permanent identifier (`L00036`), recorded in `data/stable.json` and carried in the
-TEI as `@n`. Identifiers are never reused. When a poem's address changes the old one is retired rather
-than dropped, and a reference written against it goes on resolving.
+`&format=text` they return the passage itself. Each poem also has a permanent identifier that
+survives being re-titled or re-parsed. See **[docs/references.md](docs/references.md)**.
 
 ## Scansion in the TEI
 
@@ -60,8 +53,9 @@ University of Virginia's hand-scansion corpus, so that the two interoperate.
 `@real` is what the words insist on. `@met` is what the poem's metre asks for. Where they differ is
 where the interest is, and no other corpus of English verse publishes both.
 
-Read `METHOD.md` before relying on the scansion. It states how the metre is determined and how
-accurate it has been measured to be, including where it has not been tested.
+Read **[docs/scansion.md](docs/scansion.md)** for how the metre is determined and
+**[docs/accuracy.md](docs/accuracy.md)** for how accurate it has been measured to be, including where it
+has not been tested.
 
 ## Texts
 
