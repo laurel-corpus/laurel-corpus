@@ -1,6 +1,6 @@
 # Editorial commentary
 
-*Part of the [Laurel corpus](../README.md). Method notes: [texts](texts.md) · [scansion](scansion.md) · [accuracy](accuracy.md) · [definitions](definitions.md) · [commentary](commentary.md) · [audio](audio.md) · [references](references.md) · [sources](sources.md)*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
 
 **76 works carry editorial notes: 18,220 in all.** They come from the public domain school and
 scholarly editions that printed them, and are shown against the stanza they belong to.
