@@ -1,5 +1,7 @@
 # Laurel
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22738547.svg)](https://doi.org/10.5281/zenodo.22738547)
+
 A free reading room for English poetry, at [laurelpoetry.com](https://laurelpoetry.com). Four hundred
 books set out the way a good edition sets them: the rhymes lettered, the stresses marked, the hard
 words explained. Nothing costs anything and nothing is behind a login.
@@ -77,4 +79,13 @@ derivatives as open. See `LICENCE`.
 
 ## Citing this corpus
 
-See `CITATION.cff`, or cite a single poem by its own canonical reference.
+    Dome, Garrett. Laurel corpus: English verse in TEI, with scansion and
+    canonical references. 2026. https://doi.org/10.5281/zenodo.22738547
+
+That DOI stands for the corpus as a whole and resolves to whatever the newest version is. Where a
+result depends on exactly these texts -- a count, a scansion, a line reference -- cite the version
+instead: **https://doi.org/10.5281/zenodo.22738548** is v1.0.1. `CITATION.cff` carries both, so GitHub's
+"Cite this repository" and any reference manager will pick them up.
+
+A single poem is cited by its own canonical reference, which names its edition. See
+**[docs/references.md](docs/references.md)**.

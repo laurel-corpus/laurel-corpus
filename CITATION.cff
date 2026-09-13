@@ -6,6 +6,18 @@ authors:
   - family-names: Dome
     given-names: Garrett
 repository-code: "https://github.com/laurel-corpus/laurel-corpus"
+# The concept DOI: it always resolves to the newest version of the corpus. The DOI for this release
+# alone is 10.5281/zenodo.22738548, which is what to cite when a result depends on exactly these texts.
+doi: "10.5281/zenodo.22738547"
+version: v1.0.1
+date-released: 2026-09-14
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22738547"
+    description: "All versions of the Laurel corpus"
+  - type: doi
+    value: "10.5281/zenodo.22738548"
+    description: "Version 1.0.1"
 url: "https://laurelpoetry.com"
 abstract: >-
   416 works of public domain English verse encoded in TEI P5: 18,105 poems and
