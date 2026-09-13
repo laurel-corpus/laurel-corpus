@@ -1,6 +1,6 @@
 # Definitions
 
-*Part of the [Laurel corpus](../README.md). Method notes: [texts](texts.md) · [scansion](scansion.md) · [accuracy](accuracy.md) · [definitions](definitions.md) · [commentary](commentary.md) · [audio](audio.md) · [references](references.md) · [sources](sources.md)*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
 
 ## Webster's 1913
 

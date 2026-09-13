@@ -1,6 +1,6 @@
 # Sources and tools
 
-*Part of the [Laurel corpus](../README.md). Method notes: [texts](texts.md) · [scansion](scansion.md) · [accuracy](accuracy.md) · [definitions](definitions.md) · [commentary](commentary.md) · [audio](audio.md) · [references](references.md) · [sources](sources.md)*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
 
 Everything this corpus is built from is public, and named here so that any claim in it can be checked
 against the thing it came from.
@@ -38,7 +38,7 @@ against the thing it came from.
 | | |
 |---|---|
 | [TEI P5](https://tei-c.org/guidelines/p5/) | the encoding of every work in `tei/` |
-| [CTS / the CITE Architecture](http://cite-architecture.org/) | the model for canonical references: author, work, **edition**, passage |
+| [CTS / the CITE Architecture](https://cite-architecture.github.io/) ([URN spec](https://cite-architecture.github.io/ctsurn_spec/)) | the model for canonical references: author, work, **edition**, passage |
 | [CFF](https://citation-file-format.github.io/) | `CITATION.cff`, so this corpus can be cited as a dataset |
 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | the licence on the apparatus; the texts themselves are public domain |
 

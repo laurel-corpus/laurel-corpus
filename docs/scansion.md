@@ -1,6 +1,6 @@
 # Syllables, stress and metre
 
-*Part of the [Laurel corpus](../README.md). Method notes: [texts](texts.md) · [scansion](scansion.md) · [accuracy](accuracy.md) · [definitions](definitions.md) · [commentary](commentary.md) · [audio](audio.md) · [references](references.md) · [sources](sources.md)*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
 
 Syllables are divided on the CMU Pronouncing Dictionary, with the elisions and expansions verse itself
 uses: *every* contracting to *ev'ry* where the line runs long, a spelled *-ed* opening into its own
