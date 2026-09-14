@@ -24,6 +24,12 @@ mkdir -p "$HERE/data/audio"
 for f in library.json cite.json metres.json stable.json; do cp "$SRC/site/data/$f" "$HERE/data/$f"; done
 cp "$SRC/site/data/audio/"*.json "$HERE/data/audio/"
 
+# Only the files named above are copied, so nothing else can wander in. This repository used to carry a
+# .gitignore listing node_modules and __pycache__, which is boilerplate from a code project and belongs
+# nowhere near a corpus; the one thing it really guarded against was a stray Finder file, and sweeping
+# them here is both smaller and harder to forget.
+find "$HERE/tei" "$HERE/data" -name '.DS_Store' -delete 2>/dev/null || true
+
 echo "== figures (check these against README.md and CITATION.cff)"
 python3 - "$SRC" "$HERE" <<'PY'
 import json, os, sys, glob

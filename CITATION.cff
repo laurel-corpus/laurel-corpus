@@ -1,15 +1,17 @@
 cff-version: 1.2.0
-title: "Laurel corpus: English verse in TEI, with scansion and canonical references"
+title: >-
+  Laurel: a scanned corpus of English verse, with per-line stress, identified
+  metre, rhyme, and canonical references
 message: "If you use this corpus, please cite it."
 type: dataset
 authors:
   - family-names: Dome
     given-names: Garrett
 repository-code: "https://github.com/laurel-corpus/laurel-corpus"
-# The concept DOI: it always resolves to the newest version of the corpus. The DOI for this release
-# alone is 10.5281/zenodo.22738548, which is what to cite when a result depends on exactly these texts.
+# The concept DOI always resolves to the newest version. Cite the version DOI below when a result
+# depends on exactly these texts.
 doi: "10.5281/zenodo.22738547"
-version: v1.0.1
+version: v1.0.2
 date-released: 2026-09-14
 identifiers:
   - type: doi
@@ -20,17 +22,79 @@ identifiers:
     description: "Version 1.0.1"
 url: "https://laurelpoetry.com"
 abstract: >-
-  416 works of public domain English verse encoded in TEI P5: 18,210 poems and
-  1,201,722 lines, each line carrying both the stress the words settle and the
-  stress its metre asks for. Every poem has a canonical reference naming its
-  edition, on the CTS model, and a permanent identifier that survives re-titling.
-  1,680 poems carry line-level timings against public domain recordings.
+  Laurel is a corpus of public domain English poetry in which every line carries a
+  scansion and most poems carry an identified metre. It runs from Homer in English
+  verse translation to the edge of the United States public domain in 1930, and it
+  grows: the figures for any given release are in the repository rather than here.
+
+
+  Every line is encoded twice over. One pattern records the stress the words
+  themselves settle, taken from a pronouncing dictionary together with the poem's
+  own syllabification; the other records the stress the poem's metre asks for.
+  Holding both is the point of the corpus. The difference between them is where a
+  poet departs from the measure, which is where most of the interest in metre lies,
+  and a corpus that stores only one of them cannot show it. Syllables the
+  dictionary does not settle are marked as such rather than guessed at. Stanzas
+  carry a rhyme scheme lettered from rhyme keys, so a sonnet's ABAB and a ballad's
+  ABCB are machine-readable.
+
+
+  The metre is not looked up. Every candidate is built as a template — the four
+  feet at every length, with the licences real verse takes and the substitutions
+  English verse actually makes, such as the inverted first foot — and every
+  syllable of the poem is tested against each. A poem whose verse will not settle
+  is left without a metre rather than given a guess.
+
+
+  The accuracy is measured rather than asserted, and reported in full: against
+  hand-annotated lines gathered from three gold corpora, on a half of that data
+  held out from every design decision, against works whose metre is documented in
+  published scholarship, and against forms such as the sonnet whose metre needs no
+  annotation because the form settles it. That last test exists because the others
+  cannot see a scanner that begins offering confident wrong answers to poems that
+  were never in doubt. The current figures, and the failures, are in the
+  documentation.
+
+
+  Every poem has a canonical reference on the CTS model that names its edition,
+  because a citation to a poem is not reproducible unless it says which text it
+  means, and a permanent identifier that survives re-titling and re-parsing. Many
+  poems carry line-level timings against public domain recordings, so a reading can
+  be followed line by line.
+
+
+  The corpus is the material underneath laurelpoetry.com, a free reading room
+  where the same data is set out for reading and teaching: rhyme lettered on the
+  page, stress marked against the poem's own metre, hard words glossed from a
+  period dictionary, editors' commentary, a short course in prosody, printable
+  worksheets, and exercises in scanning and naming forms. Nothing there costs
+  anything and nothing is behind a login.
+
+
+  Texts are public domain. The encoding, the scansion and the annotation are
+  CC BY-SA 4.0. The method is documented in METHOD.md, including the places where
+  it is weak: free verse is still given a metre it does not have, and editions are
+  chosen for being public domain rather than for being the best witness.
+
+
 keywords:
   - poetry
+  - English poetry
   - prosody
   - scansion
   - metre
+  - metrical analysis
+  - computational prosody
+  - stress annotation
+  - rhyme
+  - versification
   - TEI
+  - TEI P5
+  - CTS
+  - canonical citation
+  - corpus linguistics
   - digital humanities
+  - literary studies
   - public domain
+  - poetry teaching
 license: CC-BY-SA-4.0

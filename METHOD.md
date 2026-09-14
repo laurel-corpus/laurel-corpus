@@ -1,22 +1,63 @@
 # Method
 
-Everything here is measured rather than asserted. Where a number is flattering because the test was
-easy, that is said.
+This is how a poem gets from a plain text file to an annotated line, in the order it happens. Each step
+has a document of its own below, and each of those is written so the claim can be checked rather than
+taken on trust. Where a number looks good because the test was easy, the document says so.
+
+## How a poem is processed
+
+**1. The text.** A work is taken from Project Gutenberg. The Gutenberg header, footer and licence are
+removed and nothing else is altered. The file is split into poems, and the front matter — title pages,
+dedications, contents — is separated from the verse.
+
+**2. Syllables.** Every line is broken into syllables. Words are looked up in a pronouncing dictionary;
+a word it does not have is tried as an inflection of a word it does have (*expedients* as *expedient*),
+and only failing that is counted by letter rules.
+
+**3. What the words insist on.** Each syllable is given one of three verdicts: stressed, unstressed, or
+undetermined. A polysyllable takes the dictionary's stress. A one-syllable word is judged by what it
+does elsewhere in the corpus and by its part of speech, which is weaker evidence and is weighted as
+such. Nothing is guessed: a syllable with no evidence is recorded as undetermined, and the metre is
+then free to take it either way. This is the `@real` attribute.
+
+**4. The metre.** Candidate metres are built as templates rather than looked up. The four feet, at every
+length from one foot to eight, with the licences real verse takes — a line may open without its first
+slack, or close without its last, or add one past the final stress — and the substitutions English verse
+actually makes, such as the inverted first foot. Every line of the poem is tested against every
+template, each reading paying a cost for what it bends, so the plainest account of the poem wins. If no
+metre fits well enough, the poem is left without one rather than given a guess.
+
+**5. Reading the line against its metre.** Once the poem's metre is settled, each line is read again in
+it. That is the `@met` attribute — not what the line is, but what the measure asks of it. Comparing the
+two is how you find where a poet departs from the measure.
+
+**6. Rhyme.** End words are reduced to a rhyme key from their pronunciation rather than their spelling,
+so *love* and *prove* are recorded as the near-rhyme they now are. Each stanza is then lettered.
+
+**7. Identity.** Every poem is given a canonical reference naming the edition it came from, and a
+permanent identifier that survives re-titling and re-parsing, so a citation made today still resolves
+after the text is corrected.
+
+**8. Checking.** The whole library is audited on every build: broken references, retired addresses,
+glossary entries for words that do not occur, images nothing points at, and a precision test that asks
+whether the scanner still believes a sonnet is in iambic pentameter.
+
+## The documents
 
 | | |
 |---|---|
-| [Texts](docs/texts.md) | where they come from, and why the editions are the honest weakness |
-| [Syllables, stress and metre](docs/scansion.md) | how a poem's metre is determined, and what counts as evidence |
-| [Accuracy](docs/accuracy.md) | scored against hand-scansion, and three ways the score flatters itself |
-| [Rhyme](docs/rhyme.md) | rhyme keys, scheme lettering, and rhymes that have drifted since |
-| [Measures](docs/measures.md) | sound and lexicon figures, each against a baseline and with an interval |
-| [Definitions](docs/definitions.md) | Webster's 1913, and where it is the wrong dictionary |
-| [Commentary](docs/commentary.md) | editors' notes, including OCR placed on a translation |
-| [Original-language texts](docs/languages.md) | Latin and Greek quantity, and lining a translation up with its original |
-| [Audio timings](docs/audio.md) | how a recording is aligned to the lines |
-| [References](docs/references.md) | canonical URNs and the permanent identifier registry |
-| [The audit](docs/audit.md) | nineteen checks over the whole library, and what the last run found |
-| [Sources and tools](docs/sources.md) | every public text, dataset and standard this rests on |
+| [Texts](docs/texts.md) | which editions the poems come from, how they were cleaned, and why the choice of edition is this corpus's weakest point |
+| [Syllables, stress and metre](docs/scansion.md) | steps 2 to 5 above in full: how syllables are counted, what counts as evidence for a stress, how the templates are built, and how a metre is finally settled |
+| [Accuracy](docs/accuracy.md) | how well the scansion agrees with prosodists who did it by hand, on data held back from the design; and three ways that score flatters itself |
+| [Rhyme](docs/rhyme.md) | how end words are reduced to a rhyme key, how stanzas are lettered, and what happens to rhymes that have drifted apart since they were written |
+| [Measures](docs/measures.md) | the per-work figures — alliteration, vocabulary range, run-on lines — each given against a baseline so the number means something |
+| [Definitions](docs/definitions.md) | where the glossaries come from, and the poets for whom a 1913 dictionary is the wrong one |
+| [Commentary](docs/commentary.md) | the editors' notes carried from the source editions, and how they are attached to lines |
+| [Original-language texts](docs/languages.md) | the Latin and Greek beside their translations: how quantity is scanned, and how a translation is lined up with its original |
+| [Audio timings](docs/audio.md) | how a public domain recording is aligned to the lines of the poem it reads |
+| [References](docs/references.md) | the citation scheme, what a URN means, and how an address that moves is retired rather than broken |
+| [The audit](docs/audit.md) | the checks run over the whole library on every build, and what the last run found |
+| [Sources and tools](docs/sources.md) | every text, dataset, dictionary and standard this work rests on, with links |
 
 ## Known limits
 
