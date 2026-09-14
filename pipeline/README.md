@@ -38,15 +38,24 @@ trochaic octameter -- 4 lines agree 89%
   +-+-+-+-+-+-+-+-  Once upon a midnight dreary, while I pondered, weak and weary,
   xxxx+x+-xx+-xx+-
 
-  +-+-+-+-+-+-+-+--  Over many a quaint and curious volume of forgotten lore,
-  xx+-xxx+--+-x-+-x
-         ^^          the words fight the metre here
+  +-+-+-+-+-+-+-+  Over many a quaint and curious volume of forgotten lore,
+  xx+xxx+-+-x-+-x
+
+  +-+-+-+-+-+-+-+-  While I nodded, nearly napping, suddenly there came a tapping,
+  xx+-+-+-+--xxx+-
+            ^       the words fight the metre here
 ```
 
 The top row is the metre, the row under it is what the words themselves settle: `+` a stressed
 syllable, `-` an unstressed one, `x` a syllable the dictionary leaves open, which the metre is free to
 take either way. Most English monosyllables are `x`, and that is not a failure of the dictionary but a
 fact about the language: whether *where* carries a beat is decided by the line it is in.
+
+The second line above is sixteen syllables counted word by word and fifteen as the poem is read, and
+the reading is the one shown. Poe's stanza alternates a full eight-foot line with one that drops its
+last slack, so the line is asked which of those two lengths it reads as, and it answers fifteen by
+contracting *many a* to **man**-ya and *curious* to **cur**-ious. Nothing is ever stretched: the
+refrain, which really is short, stays short.
 
 A metre is a property of a poem and not of a line, so the scanner wants at least four lines and is much
 surer given twenty.

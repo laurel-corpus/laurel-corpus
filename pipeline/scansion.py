@@ -592,8 +592,24 @@ def _cli(argv):
     if not marked: return 0
 
     print()
+    full = len(FEET[foot]) * feet if foot in FEET else None
     for l in lines:
         ev = evidence(l)
+        # Read the line against the metre before marking it, which is what the poem is for. Counting
+        # every syllable the words can carry and stopping there gave 'Over many a quaint and curious
+        # volume of forgotten lore' seventeen syllables and an eight-and-a-half-foot template to match,
+        # when the line is read 'man-ya' and 'cur-ious' and comes out at fifteen. A poem in a settled
+        # metre offers two lengths, its own and that less the final slack, and the line is asked which
+        # of them it reads as. Nothing is ever lengthened: a refrain that is genuinely short stays short.
+        if full:
+            read = (best_line(ev, foot, prefer=feet)[0], ev)
+            for target in (full, full - 1):
+                if not 2 <= target < len(ev): continue
+                alt = refit(l, target)
+                if alt is None or len(alt) != target: continue
+                fit_a = best_line(alt, foot, prefer=feet)[0]
+                if fit_a > read[0]: read = (fit_a, alt)
+            ev = read[1]
         _, _, n = best_line(ev, foot, prefer=feet)
         # The plainest template of this length -- the pure foot repeated, cost 0 -- is the metre the
         # line is written in, as against the reading of it. This is the rule tei.py publishes as @met,
