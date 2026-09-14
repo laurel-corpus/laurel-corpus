@@ -9,7 +9,7 @@ words explained. Nothing costs anything and nothing is behind a login.
 **This repository is the corpus underneath it** — the texts, and everything Laurel works out about
 them, published so the working can be checked and built on.
 
-**416 works · 18,105 poems · 1,201,722 lines**
+**416 works · 18,210 poems · 1,201,722 lines**
 
 Every line carries two scansions: what the words themselves settle, and what the poem's metre asks for.
 Every poem carries a canonical reference that names its edition, and a permanent identifier that

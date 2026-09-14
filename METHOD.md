@@ -21,9 +21,18 @@ easy, that is said.
 ## Known limits
 
 * Editions are chosen for being public domain, not for being the best witness.
-* Trochaic and dactylic metres were untested until a second gold corpus was brought in; they now
-  score slightly above iambic. 8% of lines cannot be compared at all, because this syllabifier and
-  the annotators disagree about how many syllables they have.
+* Trochaic and dactylic metres were untested until a second gold corpus was brought in. They are now
+  measured and they are the weaker ones: iambic 84.4%, trochaic 82.3%, dactylic 84.5%. 8% of lines
+  cannot be compared at all, because this syllabifier and the annotators disagree about how many
+  syllables they have.
+* **Free verse is given a metre it does not have.** All twelve works these editions call free verse
+  come out with a confident one — *Leaves of Grass* reads as iambic pentameter. The signal that would
+  catch it is there (free verse matches its own settled line length half the time, against 93% for
+  sonnets) but a threshold that catches Whitman also strips a third of the ballads, which alternate four
+  feet with three for an honest reason. Unsolved, and stated here rather than hidden.
+* **Some pages that are not verse are scanned as verse.** Seven books open with a title or copyright
+  page that was ingested as a poem; Milton's cast list for *Comus* is labelled iambic pentameter; the
+  marginal performance directions in Lindsay's *The Congo* are counted as 79 lines of it.
 * Accuracy figures come from a corpus that shaped the scanner's design.
 * Glossaries are drawn from Webster's 1913, which is of the right century for most of this library and
   the wrong one for some of it.

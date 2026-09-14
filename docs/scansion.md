@@ -66,16 +66,42 @@ foot to eight, with the licences real verse takes:
 * **a feminine ending**: it may gain one slack past the final stress
 * **one foot swapped** for its neighbour of the other length, which is what *loose iambic* means
 
-**One licence to a line.** A line that wants two is simply in another foot. This rule matters more than
-it sounds. An iambic tetrameter that drops its first syllable *and* gains one at the end produces the
-trochaic template exactly — so without the rule, Hiawatha reads as iambic and no line in English is ever
-securely trochaic again.
+…and, within the foot, **the substitutions English verse actually makes**: a trochee for an iamb
+(the inverted first foot, the commonest event in the language), a spondee, a pyrrhic, and for the triple
+feet an inversion or an amphibrach. Up to two per line — a line needing three is not that metre with
+substitutions, it is another metre. This is what lets the scanner say *iambic pentameter with a trochaic
+inversion in foot 3* rather than reaching for whichever whole-line pattern is nearest, and it is where
+the falling metres were being lost: before it, trochaic lines were identified 16% of the time and
+dactylic 10%; after it, both 60%.
 
-Substitution is capped at one foot per line and costs **0.12** of a reading's agreement, and the cost is
-charged **only while deciding which foot the poem walks in**. A poem of iambs must not pass itself off
-as one of anapaests by bending a foot in every line. But once the foot is settled the question is only
-how many feet a line has, and charging there made Blake's four-beat nine-syllable lines come out as five
-feet, which is how a ballad stanza loses the four-and-three that makes it a ballad.
+Each reading pays for what it bends, so the plainest account of a line wins a tie. An inverted **first**
+foot costs less than half what an inversion elsewhere costs, because "**Bát**tered the hóuse" is
+utterly ordinary and an inversion in foot four is not. Iambic pentameter has 1,248 templates once this is
+allowed, against about thirty before.
+
+**One licence to a line.** A line may take acephaly *or* catalexis *or* a feminine ending — never two.
+This rule matters more than it sounds, and it is the difference between a scanner that works and one
+that quietly ruins itself.
+
+A trochaic hexameter that drops its first syllable **and** its last is `-+-+-+-+-+`. That is not merely
+*like* iambic pentameter; it **is** iambic pentameter, letter for letter. At ten syllables, 26 templates
+were reachable by both feet. A sonnet then scores identically in either, the tie falls to whichever way
+the line-openings happen to lean — and Shakespeare, who begins a great many lines on a stress, comes out
+trochaic. Forbidding the second licence closed it: 26 shared templates became 0, sonnets misread went
+from 14.5% to 0.5%, and no recall was lost anywhere.
+
+Substitution costs **0.20** of a reading's agreement, and the cost is charged **only while deciding which
+foot the poem walks in**. A poem of iambs must not pass itself off as one of anapaests by bending a foot
+in every line. But once the foot is settled the question is only how many feet a line has, and charging
+there made Blake's four-beat nine-syllable lines come out as five feet, which is how a ballad stanza
+loses the four-and-three that makes it a ballad.
+
+Twelve hundred templates per line is forty times the arithmetic, and a pass over the library went from
+minutes to most of a day. The scoring is rearranged rather than the template set cut: every syllable is
+counted whether a template agrees with it or not, so the denominator is the same for every template of a
+given length and is computed once; and the numerator starts from what a template scores by marking every
+syllable slack, then adds or subtracts each stress it does mark. Sixteen times faster, and checked
+against the plain statement of the same arithmetic across 96,792 scorings — zero disagreements.
 
 ### Three passes, because they are three different questions
 
@@ -126,6 +152,11 @@ not say whether a poem is a hymn.
 
 ### What gets published
 
-A metre is published only above a confidence of **0.70**. **16,395 of 18,105 poems** get one, of which
-**940 carry a named measure** rather than a foot-and-length. The rest are left blank, which is the
-correct answer when the verse will not settle.
+A metre is published only above a confidence of **0.70**. **16,181 of 18,210 poems** get one, of which
+**794 carry a named measure** — common measure, short measure, fourteeners — rather than a foot and a
+length. The rest are left blank, which is the correct answer when the verse will not settle.
+
+Across the library the feet come out iambic 77%, trochaic 13%, anapaestic 4%, dactylic 2%, with
+common measure a further 4%. That shape is worth stating because it is the check on the whole exercise:
+English verse is overwhelmingly iambic, and a scanner reporting anything else has gone wrong somewhere
+the benchmarks cannot see.
