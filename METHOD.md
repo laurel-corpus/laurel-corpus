@@ -21,7 +21,9 @@ easy, that is said.
 ## Known limits
 
 * Editions are chosen for being public domain, not for being the best witness.
-* Trochaic and dactylic metres are under-tested.
+* Trochaic and dactylic metres were untested until a second gold corpus was brought in; they now
+  score slightly above iambic. 8% of lines cannot be compared at all, because this syllabifier and
+  the annotators disagree about how many syllables they have.
 * Accuracy figures come from a corpus that shaped the scanner's design.
 * Glossaries are drawn from Webster's 1913, which is of the right century for most of this library and
   the wrong one for some of it.
