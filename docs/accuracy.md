@@ -60,10 +60,11 @@ The last two differ by twenty points for a reason worth stating: a single line o
 say which foot it is in. Once the poem has settled its metre the line falls into place, which is how a
 reader does it too, and why the figure the site shows is the higher one.
 
-Reproduce with `python3 bench.py --control`.
-
-Reproduce it with `python3 goldscore.py` in the pipeline. Nothing from that corpus is copied into this
-one; it is a ruler, like For Better For Verse.
+Reproduce it from this repository. In `pipeline/`, `python3 bench.py` scores the control half and
+`python3 bench.py --train` the development half; `python3 goldsplit.py` prints the two side by side, and
+`python3 goldscore.py` breaks the result down by metre. The gold data is fetched the first time you run
+any of them and cached under `pipeline/cache/`. Nothing from it is copied into this corpus; it is a
+ruler, like For Better For Verse.
 
 ## What a balanced corpus cannot tell you
 

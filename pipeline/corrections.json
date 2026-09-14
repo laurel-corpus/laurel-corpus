@@ -1,0 +1,88 @@
+[
+ {
+  "work": "poe-poems",
+  "from": "Pysche",
+  "to": "Psyche",
+  "note": "misprint; the other Gutenberg edition (#10031) and all printed texts read Psyche"
+ },
+ {
+  "work": "poe-poems",
+  "from": "Pysche",
+  "to": "Psyche",
+  "note": "second occurrence, Ulalume"
+ },
+ {
+  "work": "scott-lady-of-the-lake",
+  "from": "Malcohm",
+  "to": "Malcolm",
+  "note": "misprint; #28287 reads Malcolm"
+ },
+ {
+  "work": "scott-lady-of-the-lake",
+  "from": "love-lore swain",
+  "to": "love-lorn swain",
+  "note": "misprint; #28287 reads love-lorn"
+ },
+ {
+  "work": "scott-lady-of-the-lake",
+  "from": "love-lore wretch",
+  "to": "love-lorn wretch",
+  "note": "misprint; #28287 reads love-lorn"
+ },
+ {
+  "work": "scott-lady-of-the-lake",
+  "from": "their Iyres",
+  "to": "their lyres",
+  "note": "OCR: capital I for l; #28287 reads lyres"
+ },
+ {
+  "work": "rossetti-goblin-market",
+  "from": "langour",
+  "to": "languor",
+  "note": "misprint; #19188 reads languor"
+ },
+ {
+  "work": "lyrical-ballads",
+  "from": "howling blaft",
+  "to": "howling blast",
+  "note": "long-s misread; #8905 reads blast"
+ },
+ {
+  "work": "lyrical-ballads",
+  "from": "pauniered ass",
+  "to": "panniered ass",
+  "note": "misprint; #8905 reads panniered"
+ },
+ {
+  "work": "shakespeare-sonnets",
+  "from": "intermix’d’?",
+  "to": "intermix’d?",
+  "note": "stray apostrophe; #1105 reads intermixed?"
+ },
+ {
+  "work": "shakespeare-sonnets",
+  "section": "sonnet-27",
+  "from": "respose",
+  "to": "repose",
+  "note": "misprint in Project Gutenberg #1041; 'respose' is not a word. The 1609 Quarto and the Folger Shakespeare both read 'repose'. Found by diffing this text against Folger Digital Texts."
+ },
+ {
+  "work": "shakespeare-sonnets",
+  "section": "sonnet-28",
+  "from": "debarre’d",
+  "to": "debarr’d",
+  "note": "misprint in Project Gutenberg #1041, an extra e. The Folger Shakespeare reads 'debarred'. Found by diffing this text against Folger Digital Texts."
+ },
+ {
+  "work": "lowell-james-russell-poems",
+  "from": "Peg\u001asus",
+  "to": "Pegasus",
+  "note": "Project Gutenberg 38520 carries a control character (U+001A) where the letter 'a' belongs, here and in 'Pegasus' earlier in the same book. Both are ordinary words rather than Lowell's Yankee spelling, and the character is not permitted in XML, so the text could not be published as TEI until it was repaired."
+ },
+ {
+  "work": "lowell-james-russell-poems",
+  "from": "ch\u001amber",
+  "to": "chamber",
+  "note": "Project Gutenberg 38520 carries a control character (U+001A) where the letter 'a' belongs, here and in 'Pegasus' earlier in the same book. Both are ordinary words rather than Lowell's Yankee spelling, and the character is not permitted in XML, so the text could not be published as TEI until it was repaired."
+ }
+]

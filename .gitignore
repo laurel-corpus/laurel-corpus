@@ -1,0 +1,7 @@
+# The pipeline builds two things it must not commit: Python's bytecode, and the cache where the gold
+# corpora and Webster's dictionary land when a script fetches them. The gold data carries no licence
+# and is used here as a ruler, never as a source, so it stays out of the repository by design.
+__pycache__/
+pipeline/cache/
+pipeline/sources/
+.DS_Store

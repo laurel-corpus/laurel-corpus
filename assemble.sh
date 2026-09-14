@@ -24,6 +24,15 @@ mkdir -p "$HERE/data/audio"
 for f in library.json cite.json metres.json stable.json; do cp "$SRC/site/data/$f" "$HERE/data/$f"; done
 cp "$SRC/site/data/audio/"*.json "$HERE/data/audio/"
 
+# The method travels with the corpus it produced, so the scripts are copied too. They are named one by
+# one rather than globbed: the working pipeline also holds the deploy scripts, the dev server and a
+# config file with a live password, none of which belong in a public repository.
+for f in _paths.py teiread.py ingest.py catalog.py corrections.json analyze.py scansion.py tei.py \
+         mono-corpus.json mono-stress.json metres.py authorities.py alden-matched.json \
+         generic.py webster.py precision.py bench.py goldscore.py goldsplit.py; do
+  cp "$SRC/pipeline/$f" "$HERE/pipeline/$f"
+done
+
 # Only the files named above are copied, so nothing else can wander in. This repository used to carry a
 # .gitignore listing node_modules and __pycache__, which is boilerplate from a code project and belongs
 # nowhere near a corpus; the one thing it really guarded against was a stray Finder file, and sweeping
@@ -43,4 +52,5 @@ print('   poems      %s' % format(sum(len(w['sections']) for w in lib), ','))
 print('   lines      %s' % lines)
 print('   recordings %s across %d works' % (format(sum(len(v) for v in aud.values()), ','), len(aud)))
 print('   tei files  %d' % len(glob.glob(os.path.join(here, 'tei', '*.xml'))))
+print('   scripts    %d' % len(glob.glob(os.path.join(here, 'pipeline', '*.py'))))
 PY
