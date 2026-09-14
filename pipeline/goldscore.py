@@ -84,7 +84,13 @@ def words_of(line):
     for j in range(1, n + 1):
         for i in range(max(0, j - 5), j):
             if best[i] == INF: continue
-            cost = best[i] + (0 if known(i, j) else 1.6)
+            # Charge the miss per syllable, not per piece. Charging it once per piece made gluing
+            # cheaper than splitting whenever the dictionary knew neither half, so archaic and dialect
+            # words fused into each other: 'volley'd and thunder'd' arrived as one word, and so did
+            # 'our lady of pain'. 519 such lumps became 8, and the 8 left are real words the dictionary
+            # simply lacks. The scanner was being handed text that was not English and marked down for
+            # failing to scan it.
+            cost = best[i] + (0 if known(i, j) else 1.6 * (j - i))
             if i not in starts: cost += 0.35          # the column said this was not a word boundary
             cost += 0.01 * (j - i)                     # all else equal, prefer shorter words
             if cost < best[j]: best[j], back[j] = cost, i

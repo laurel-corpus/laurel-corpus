@@ -29,7 +29,7 @@ cp "$SRC/site/data/audio/"*.json "$HERE/data/audio/"
 # config file with a live password, none of which belong in a public repository.
 for f in _paths.py teiread.py ingest.py catalog.py corrections.json analyze.py scansion.py tei.py \
          mono-corpus.json mono-stress.json metres.py authorities.py alden-matched.json \
-         generic.py webster.py precision.py bench.py goldscore.py goldsplit.py; do
+         generic.py webster.py precision.py bench.py perline.py goldscore.py goldsplit.py; do
   cp "$SRC/pipeline/$f" "$HERE/pipeline/$f"
 done
 

@@ -111,7 +111,9 @@ $ python3 precision.py --sample 120
 It exits non-zero when that last figure goes above its ceiling, so it can sit in a build and stop one.
 
 `goldsplit.py` prints the development and control halves side by side, which is the quickest way to see
-whether a change is real or was merely tuned in.
+whether a change is real or was merely tuned in. `perline.py` scores whole lines rather than marks,
+which is the number to quote when somebody asks how often a line is right rather than how many of the
+marks on it are; `perline.py --show 10` prints the worst lines with both readings above the text.
 
 ## Rebuilding the measurements
 
@@ -132,6 +134,7 @@ down, which the corpus prefers to its own measurement wherever one exists.
 | `authorities.py` | Metres named by a scholar, with the scholar named. |
 | `precision.py` | What the scanner says about poems whose metre is not in doubt. |
 | `bench.py`, `goldsplit.py`, `goldscore.py` | Scoring against hand-annotated gold. |
+| `perline.py` | The same scoring by whole lines rather than by marks. |
 | `tei.py` | Writes the TEI in the folder above. |
 | `ingest.py`, `generic.py` | Turn Project Gutenberg texts into parsed works. |
 | `catalog.py` | The catalogue: every work, its Gutenberg number, its dates and its note. |
