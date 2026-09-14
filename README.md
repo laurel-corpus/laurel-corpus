@@ -82,6 +82,10 @@ means the scanner read the poem, and anything else is a citation to the scholars
 **Where a poem departs from its metre**, which is the question the corpus exists to answer:
 
 ```python
+import xml.etree.ElementTree as ET
+TEI = "{http://www.tei-c.org/ns/1.0}"
+tree = ET.parse("tei/shakespeare-sonnets.xml")
+
 for line in tree.iter(TEI + "l"):
     met, real = line.get("met"), line.get("real")
     if not met or not real or len(met) != len(real):

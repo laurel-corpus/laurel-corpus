@@ -113,12 +113,13 @@ def main(limit):
     print('  some other iambic      %5.1f%%' % (100*sum(v for k,v in got.items() if k.startswith('iambic') and k!='iambic pentameter')/max(1,n)))
     print('  NOT iambic at all      %5.1f%%   <- every one of these is wrong' % (100*len(wrong)/max(1,n)))
     print('  left unsettled         %5.1f%%' % (100*got['(unsettled)']/max(1,n)))
-    print('\nwhat it said instead:')
-    for k, v in collections.Counter(x[2] for x in wrong).most_common(10):
-        print('   %5s  %s' % (format(v, ','), k))
-    print('\na few of them:')
-    for slug, sid, name, conf in wrong[:8]:
-        print('   %-26s %-22s %-22s %.2f' % (slug[:26], sid[:22], name, conf))
+    if wrong:
+        print('\nwhat it said instead:')
+        for k, v in collections.Counter(x[2] for x in wrong).most_common(10):
+            print('   %5s  %s' % (format(v, ','), k))
+        print('\na few of them:')
+        for slug, sid, name, conf in wrong[:8]:
+            print('   %-26s %-22s %-22s %.2f' % (slug[:26], sid[:22], name, conf))
     pct = 100 * len(wrong) / max(1, n)
     if pct > CEILING:
         print('\n!! %.1f%% of sonnets called non-iambic, above the %.1f%% ceiling' % (pct, CEILING))
