@@ -1,0 +1,2755 @@
+[
+ {
+  "work": "longfellow-poems",
+  "section": "evangeline-a-tale-of-acadie",
+  "issue": "front-matter",
+  "note": "the table of contents, headed by its first entry; every line is a poem title",
+  "evidence": [
+   "Dedication",
+   "The Building of the Ship",
+   "VIII.  In the Garden"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "morituri-salutamus",
+  "issue": "front-matter",
+  "note": "second block of the table of contents",
+  "evidence": [
+   "Three Friends of Mine",
+   "Chaucer",
+   "Songo River"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "keramos",
+  "issue": "front-matter",
+  "note": "third block of the table of contents; the real Keramos is elsewhere in the work",
+  "evidence": [
+   "The Herons of Elmwood",
+   "A Dutch Picture",
+   "Ovid in Exile"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "act-i",
+  "issue": "drama",
+  "note": "The Spanish Student, Act I dialogue",
+  "evidence": [
+   "Lara.  You were not at the play tonight, Don Carlos;",
+   "Prec.  How slowly through the lilac-scented air"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "serenade",
+  "issue": "drama",
+  "note": "the serenade Stars of the summer night is the first four stanzas; the rest is The Spanish Student's dialogue",
+  "evidence": [
+   "Stars of the summer night!",
+   "Prec.  I am so frightened!  'T is for thee I tremble!"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "act-ii",
+  "issue": "drama",
+  "note": "The Spanish Student, Act II dialogue",
+  "evidence": [
+   "Padre C.                  I pray you!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "song",
+  "issue": "drama",
+  "note": "the song Good night! Good night, beloved! is the first three stanzas; then the play's dialogue",
+  "evidence": [
+   "Good night!  Good night, beloved!",
+   "Bart.  Follow that! follow that!",
+   "Prec.  I must go hence.  I pray you do not harm me!"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "act-iii",
+  "issue": "drama",
+  "note": "a stage direction only",
+  "evidence": [
+   "SCENE I. -- A cross-road through a wood.  In the background a",
+   "and sings."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "song-2",
+  "issue": "drama",
+  "note": "the song Ah, Love! Perjured, false, treacherous Love! is the first stanza; then Act III dialogue",
+  "evidence": [
+   "Ah, Love!",
+   "Vict.  Yes, Love is ever busy with his shuttle,",
+   "Hyp.  Thinking to walk in those Arcadian pastures,"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0
+   ]
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "padre-c-no-cicero",
+  "issue": "drama",
+  "note": "The Spanish Student dialogue cut at a speech",
+  "evidence": [
+   "Hyp.  Your Grace is right.  You are the better scholar.",
+   "SCENE VI. -- A pass in the Guadarrama mountains.  Early morning."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "song-3",
+  "issue": "drama",
+  "note": "the song If thou art sleeping, maiden is the first two stanzas; the third is a second song, then stage directions and dialogue",
+  "evidence": [
+   "If thou art sleeping, maiden,",
+   "(Song dies away.  Enter PRECIOSA, on horseback, attended by",
+   "Ha! ha!  Well whistled, my sweet caramillo!"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "part-ii-section-v",
+  "issue": "missed",
+  "note": "the Dedication of The Seaside and the Fireside (As one who, walking in the twilight gloom) follows the end of Evangeline in the source and is in no section",
+  "evidence": [
+   "DEDICATION",
+   "As one who, walking in the twilight gloom,",
+   "Hears round about him voices as it darkens,"
+  ],
+  "fix": {
+   "missed": {
+    "title": "Dedication",
+    "after_section": "part-ii-section-v"
+   }
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "by-lope-de-vega",
+  "issue": "joined",
+  "note": "two sonnets under the attribution line: The Good Shepherd and To-morrow; the source heads each with its title, then BY LOPE DE VEGA",
+  "evidence": [
+   "Shepherd! who with thine amorous, sylvan song",
+   "Lord, what am I, that with unceasing care,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "To-morrow"
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "by-francisco-de-aldana",
+  "issue": "joined",
+  "note": "two sonnets under the attribution line; the second begins O Lord! who seest",
+  "evidence": [
+   "Clear fount of light! my native land on high,",
+   "O Lord! who seest, from yon starry height,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "O Lord! who seest, from yon starry height"
+  }
+ },
+ {
+  "work": "longfellow-poems",
+  "section": "by-gonzalo-de-berceo",
+  "issue": "joined",
+  "note": "Vida de San Millan followed by San Miguel, the Convent, both headed BY GONZALO DE BERCEO in the source",
+  "evidence": [
+   "And when the kings were in the field,--their squadrons in array,--",
+   "San Miguel de la Tumba is a convent vast and wide;"
+  ],
+  "fix": {
+   "split_at_stanza": 10,
+   "second_title": "San Miguel, the Convent"
+  }
+ },
+ {
+  "work": "herrick-hesperides",
+  "section": "abdie-lady",
+  "issue": "front-matter",
+  "note": "entries from the index of persons at the back of the edition, with volume and page references",
+  "evidence": [
+   "Baldwin, Prudence,",
+   "I. 152, 189,",
+   "II. 33, 154."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "herrick-hesperides",
+  "section": "tracy-lady",
+  "issue": "front-matter",
+  "note": "more of the index of persons",
+  "evidence": [
+   "Wheeler, Elizabeth,",
+   "Williams, John, Bishop of Lincoln,",
+   "II. 267."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "herrick-hesperides",
+  "section": "transcriber-s-endnotes",
+  "issue": "not-a-poem",
+  "note": "the transcriber's endnotes",
+  "evidence": [
+   "\"923. Revenge. Tacitus, Hist. iv.\""
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "petrarch-sonnets",
+  "section": "e-en-in-our-ashes-live-our-wonted-fires",
+  "issue": "joined",
+  "note": "two translations of Sonnet XCVII, then two translations of Sonnet XCVIII, whose heading LEAVE-TAKING was not recognised",
+  "evidence": [
+   "LEAVE-TAKING.",
+   "That witching paleness, which with cloud of love"
+  ],
+  "fix": {
+   "split_at_stanza": 2,
+   "second_title": "Leave-Taking"
+  }
+ },
+ {
+  "work": "petrarch-sonnets",
+  "section": "the-charms-of-laura-when-she-first-met-his-sight",
+  "issue": "joined",
+  "note": "the translations of His Invincible Constancy (Place me where herb and flower) follow at stanza 2 under an unrecognised heading",
+  "evidence": [
+   "HIS INVINCIBLE CONSTANCY.",
+   "Place me where herb and flower the sun has dried,"
+  ],
+  "fix": {
+   "split_at_stanza": 2,
+   "second_title": "His Invincible Constancy"
+  }
+ },
+ {
+  "work": "burns-poems",
+  "section": "lassie-wi-the-lint-white-locks",
+  "issue": "joined",
+  "note": "the song is the chorus and five stanzas; from stanza 6 the dialogue song Philly and Willy (He. O Philly, happy be that day) follows, its heading unrecognised",
+  "evidence": [
+   "Chorus.—Lassie wi’the lint-white locks,",
+   "He. O Philly, happy be that day,",
+   "She. What’s a’ the joys that gowd can gie?"
+  ],
+  "fix": {
+   "split_at_stanza": 6,
+   "second_title": "Philly and Willy"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "page",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "Cadenus and Vanessa 1",
+   "Daphne 57"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "riddles",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "Pethox the Great 59",
+   "Probatur aliter 87"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "poems-composed-at-market-hill",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "On cutting down the Thorn 89",
+   "Twelve Articles 125"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "political-poetry",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "Parody 127",
+   "A Satirical Elegy 187"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "poems-chiefly-relating-to-irish-politics",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "Parody on Pratt's Speech 189",
+   "Epigram 297"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "trifles",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "George Rochfort's Verses 298",
+   "Verses by Sheridan 387"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "verses-addressed-to-swift-and-to-his-memory",
+  "issue": "front-matter",
+  "note": "table of contents with page numbers",
+  "evidence": [
+   "To Dr. Swift on his Birth-Day 390",
+   "Index 409"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "an-echo",
+  "issue": "joined",
+  "note": "three riddles under one heading: An Echo, On a Shadow in a Glass (stanza 1), and a third (Most things by me do rise and fall, stanza 2)",
+  "evidence": [
+   "ON A SHADOW IN A GLASS;",
+   "By something form'd, I nothing am,",
+   "Most things by me do rise and fall,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "On a Shadow in a Glass"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "on-the-same-2",
+  "issue": "joined",
+  "note": "three separate epigrams each headed ON THE SAME in the source; the second (Latin) begins at stanza 1",
+  "evidence": [
+   "ON THE SAME",
+   "Once Horace fancied from a man,",
+   "Talis erat quondam Tithoni splendida conjux,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "On the Same"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "to-the-dean-of-st-patrick-s",
+  "issue": "joined",
+  "note": "Sheridan's poem (signed THOMAS SHERIDAN) and a second poem under the same heading, Dear Dean, I'm in a sad condition, at stanza 7",
+  "evidence": [
+   "Dear Sir, Since you in humble wise",
+   "THOMAS SHERIDAN.",
+   "Dear Dean, I'm in a sad condition,"
+  ],
+  "fix": {
+   "split_at_stanza": 7,
+   "second_title": "To the Dean of St. Patrick's"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "on-the-same-picture",
+  "issue": "joined",
+  "note": "a chain of epigrams each headed ON THE SAME or ON THE SAME PICTURE; the second starts at stanza 1 and more follow",
+  "evidence": [
+   "Clarissa draws her scissars from the case",
+   "THO. SHERIDAN _sculp._",
+   "If you say this was made for friend Dan, you belie it,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "On the Same"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "sheridan-to-swift",
+  "issue": "joined",
+  "note": "two poems headed SHERIDAN TO SWIFT; the second, I can't but wonder, Mr. Dean, is stanza 3",
+  "evidence": [
+   "A Highlander once fought a Frenchman at Margate,",
+   "I can't but wonder, Mr. Dean,"
+  ],
+  "fix": {
+   "split_at_stanza": 3,
+   "second_title": "Sheridan to Swift"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "a-dialogue-between-tom-and-robin-1730",
+  "issue": "joined",
+  "note": "Traulus, Part II follows at stanza 9 under an unrecognised heading",
+  "evidence": [
+   "TRAULUS. PART II",
+   "TRAULUS, of amphibious breed,"
+  ],
+  "fix": {
+   "split_at_stanza": 9,
+   "second_title": "Traulus, Part II"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "the-dean-s-answer-2",
+  "issue": "joined",
+  "note": "Dr. Sheridan's Reply to the Dean follows at stanza 1",
+  "evidence": [
+   "DR. SHERIDAN'S REPLY TO THE DEAN",
+   "Don't think these few lines which I send, a reproach,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Dr. Sheridan's Reply to the Dean"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "the-dean-to-thomas-sheridan",
+  "issue": "joined",
+  "note": "Dr. Sheridan's Answer at stanza 5 and Dr. Swift's Reply at stanza 7 are separate poems in the source",
+  "evidence": [
+   "DR. SHERIDAN'S ANSWER",
+   "I'd have you to know, as sure as you're Dean,",
+   "The verses you sent on the bottling your wine"
+  ],
+  "fix": {
+   "split_at_stanza": 5,
+   "second_title": "Dr. Sheridan's Answer"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "dan-jackson-s-defence",
+  "issue": "joined",
+  "note": "Mr. Rochfort's Reply at stanza 2 and Dr. Delany's Reply at stanza 20 are separate poems in the source",
+  "evidence": [
+   "MR. ROCHFORT'S REPLY",
+   "You say your face is better hung",
+   "Assist me, my Muse, while I labour to limn him."
+  ],
+  "fix": {
+   "split_at_stanza": 2,
+   "second_title": "Mr. Rochfort's Reply"
+  }
+ },
+ {
+  "work": "swift-poems",
+  "section": "to-dr-sheridan",
+  "issue": "joined",
+  "note": "Dr. Helsham's Answer follows at stanza 1",
+  "evidence": [
+   "DR. HELSHAM'S ANSWER",
+   "The Doctor's first rhyme would make any Jew sick:"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Dr. Helsham's Answer"
+  }
+ },
+ {
+  "work": "hood-poems",
+  "section": "an-ode",
+  "issue": "joined",
+  "note": "the poem No! (No sun--no moon!) is the last stanza; its heading was not recognised",
+  "evidence": [
+   "NO!",
+   "No sun--no moon!",
+   "November!"
+  ],
+  "fix": {
+   "split_at_stanza": 16,
+   "second_title": "No!"
+  }
+ },
+ {
+  "work": "hood-poems",
+  "section": "a-pathetic-ballad-4",
+  "issue": "joined",
+  "note": "two ballads under the shared subtitle: the first is John Jones; Pompey's Ghost begins at stanza 17 with its Cowper epigraph",
+  "evidence": [
+   "POMPEY’S GHOST.",
+   "“Skins may differ, but affection",
+   "’Twas twelve o’clock, not twelve at night,"
+  ],
+  "fix": {
+   "split_at_stanza": 17,
+   "second_title": "Pompey's Ghost"
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "the-woody-hollow",
+  "issue": "joined",
+  "note": "the eclogues The 'Lotments (stanza 8) and A Bit o' Sly Coorten (stanza 16) follow the poem; their [Gothic: Eclogue.] headings were not recognised",
+  "evidence": [
+   "Zoo you be in your groun' then, I do zee,",
+   "Now, Fanny, 'tis too bad, you teazen maid!"
+  ],
+  "fix": {
+   "split_at_stanza": 8,
+   "second_title": "Eclogue: The 'Lotments"
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "meaken-up-a-miff",
+  "issue": "joined",
+  "note": "the eclogue The Best Man in the Vield (Sam and Bob) follows at stanza 11",
+  "evidence": [
+   "That's slowish work, Bob. What'st a-been about?"
+  ],
+  "fix": {
+   "split_at_stanza": 11,
+   "second_title": "Eclogue: The Best Man in the Vield"
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "the-weather-beaten-tree",
+  "issue": "joined",
+  "note": "the eclogue Two Farms in Woone (Robert an' Thomas) follows at stanza 22",
+  "evidence": [
+   "You'll lose your meaester soon, then, I do vind;"
+  ],
+  "fix": {
+   "split_at_stanza": 22,
+   "second_title": "Eclogue: Two Farms in Woone"
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "the-pleaece-our-own-ageaen",
+  "issue": "joined",
+  "note": "an untitled eclogue (John an' Thomas) follows at stanza 4",
+  "evidence": [
+   "How b'ye, then, John, to-night; an' how",
+   "Be times a-waggen on w' ye now?"
+  ],
+  "fix": {
+   "split_at_stanza": 4,
+   "second_title": "Eclogue: John an' Thomas"
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "child",
+  "issue": "cut-short",
+  "note": "the eclogue Father Come Hwome, cut at its speaker headings: child, wife, child-2, john are its four speeches and the title was lost; the source reads FATHER COME HWOME. / John, Wife, an' Child. / CHILD.",
+  "evidence": [
+   "FATHER COME HWOME.",
+   "O mother, mother! be the teaeties done?",
+   "The teaeties must be ready pretty nigh;"
+  ],
+  "fix": {
+   "append_from_next": 5
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "dick",
+  "issue": "cut-short",
+  "note": "the eclogue A Ghost (Jem an' Dick), cut at speaker headings: dick, jem, dick-2, jem-2, dick-3 are its later speeches; Jem's opening speech (This is a darkish evenen) is in no section",
+  "evidence": [
+   "A GHOST.",
+   "This is a darkish evenen; b'ye a-feaerd",
+   "No, I be'nt much a-feaer'd. If vo'k don't strive"
+  ],
+  "fix": {
+   "append_from_next": 4
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "jeaene-2",
+  "issue": "cut-short",
+  "note": "the eclogue John, Jealous at Shroton Feair, cut at speaker headings: jeaene-2, racketen-joe, john-2 are its speeches",
+  "evidence": [
+   "JOHN, JEALOUS AT SHROTON FEAeIR.",
+   "I'm thankvul I be out o' that",
+   "What d'ye meaen,"
+  ],
+  "fix": {
+   "append_from_next": 3
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "john-3",
+  "issue": "cut-short",
+  "note": "the eclogue Come and Zee Us in the Zummer, cut at speaker headings: john-3, william, william-s-bwoy, william-s-maid, john-4 are its speeches",
+  "evidence": [
+   "COME AND ZEE US IN THE ZUMMER.",
+   "Well now, I do hope we shall vind ye",
+   "Well, aye, when the mowen is over,"
+  ],
+  "fix": {
+   "append_from_next": 4
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "his-sister",
+  "issue": "cut-short",
+  "note": "the eclogue Racketen Joe, cut at speaker headings: his-sister, racketen-joe-2, his-sister-2 are its later speeches; Joe's opening speech (Heigh! heigh! here. Who's about?) is in no section",
+  "evidence": [
+   "RACKETEN JOE.",
+   "Heigh! heigh! here. Who's about?",
+   "An' there the pigs did scote"
+  ],
+  "fix": {
+   "append_from_next": 2
+  }
+ },
+ {
+  "work": "barnes-dorset",
+  "section": "the-castle-ruins",
+  "issue": "missed",
+  "note": "the eclogue The Veairies (Simon an' Samel) is in no section; also The Times (John an' Tom): neither first speech is anywhere in the work",
+  "evidence": [
+   "THE VEAIRIES.",
+   "There's what the vo'k do call a veaeiry ring",
+   "Well, Tom, how be'st? Zoo thou'st a-got thy neaeme"
+  ],
+  "fix": {
+   "missed": {
+    "title": "Eclogue: The Veairies",
+    "after_section": "readen-ov-a-head-stwone"
+   }
+  }
+ },
+ {
+  "work": "emerson-poems",
+  "section": "j-w",
+  "issue": "front-matter",
+  "note": "the index of titles, headed by a stray entry; lines are titles in index order",
+  "evidence": [
+   "Last Farewell, The",
+   "Merlin's Song",
+   "Prudence"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "emerson-poems",
+  "section": "quatrains-and-translations",
+  "issue": "front-matter",
+  "note": "the rest of the index of titles",
+  "evidence": [
+   "Rex",
+   "Terminus",
+   "Two Rivers"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "shelley-later-poems",
+  "section": "fragment-to-a-friend-released-from-prison",
+  "issue": "not-a-poem",
+  "note": "the second stanza is the editor's note on the metre",
+  "evidence": [
+   "NOTE:",
+   "For the metre see Fragment: \"A Gentle Story\" (A.C. Bradley.)"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0
+   ]
+  }
+ },
+ {
+  "work": "shelley-later-poems",
+  "section": "to-william-shelley-2",
+  "issue": "joined",
+  "note": "two poems both headed TO WILLIAM SHELLEY in the source; the second (Thy little footsteps on the sands) is the last stanza",
+  "evidence": [
+   "(With what truth may I say--",
+   "Thy little footsteps on the sands"
+  ],
+  "fix": {
+   "split_at_stanza": 3,
+   "second_title": "To William Shelley"
+  }
+ },
+ {
+  "work": "shelley-later-poems",
+  "section": "to-mary-shelley",
+  "issue": "joined",
+  "note": "two poems both headed TO MARY SHELLEY; the second (The world is dreary) is stanza 1",
+  "evidence": [
+   "My dearest Mary, wherefore hast thou gone,",
+   "The world is dreary,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "To Mary Shelley"
+  }
+ },
+ {
+  "work": "lowell-james-russell-poems",
+  "section": "introduction",
+  "issue": "not-a-poem",
+  "note": "prose of the Biglow Papers introduction, starting mid-sentence, with quoted verse",
+  "evidence": [
+   "(if he can find them) to \"A Sermon preached on the"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lowell-james-russell-poems",
+  "section": "page",
+  "issue": "front-matter",
+  "note": "the Biglow Papers table of contents",
+  "evidence": [
+   "No. I.--A Letter from Mr. Ezekiel Biglow of Jaalam to the Hon.",
+   "No. IV.--Remarks of Increase D. O'Phace, Esquire, at an"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "hull-gael",
+  "section": "introduction",
+  "issue": "front-matter",
+  "note": "the editor's introduction: quoted verse, ending in a list of sources",
+  "evidence": [
+   "Messrs. Constable & Co., Ancient Irish Poetry, by Professor Kuno",
+   "& Windus, Legends, Charms, and Cures of Ireland, by Lady Wilde."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "arnold-poems",
+  "section": "journey-to-the-dead",
+  "issue": "joined",
+  "note": "Balder Dead III is stanzas 0-2; from stanza 3 the whole of Tristram and Iseult follows (Is she not come? The messenger was sure) down to its last line",
+  "evidence": [
+   "Is she not come? The messenger was sure.",
+   "Raise the light, my page! that I may see her.--",
+   "A thousand years ago."
+  ],
+  "fix": {
+   "split_at_stanza": 3,
+   "second_title": "Tristram and Iseult"
+  }
+ },
+ {
+  "work": "arnold-poems",
+  "section": "crowell-s-red-line-poets",
+  "issue": "not-a-poem",
+  "note": "the publisher's advertisement at the back of the book",
+  "evidence": [
+   "Longfellow (Early Poems).",
+   "LINES, at $1.00 per volume."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "arnold-poems",
+  "section": "classic-juveniles",
+  "issue": "not-a-poem",
+  "note": "the publisher's advertisement at the back of the book",
+  "evidence": [
+   "I. Aboriginal America.",
+   "Heroism and Faithfulness to Duty. 12mo      1.50"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "cawein-poems",
+  "section": "the-poetry-of-madison-cawein",
+  "issue": "front-matter",
+  "note": "the table of contents; every line is a title",
+  "evidence": [
+   "Hymn to Spiritual Desire.",
+   "The Black Knight.",
+   "Uncalled."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "bridges-shorter-poems",
+  "section": "prometheus",
+  "issue": "drama",
+  "note": "the opening speech of Prometheus the Firegiver, a mask",
+  "evidence": [
+   "From high Olympus and the ætherial courts,",
+   "My shepherd's cloak will serve me for disguise."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "bridges-shorter-poems",
+  "section": "servant",
+  "issue": "drama",
+  "note": "Prometheus the Firegiver dialogue cut at a speaker heading",
+  "evidence": [
+   "SERV. Here's one I know not--nay, how came he here"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "bridges-shorter-poems",
+  "section": "inachus",
+  "issue": "drama",
+  "note": "Prometheus the Firegiver dialogue and chorus",
+  "evidence": [
+   "SEM. (maidens). My heart is stirred at the name of the wondrous thing,"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "bridges-shorter-poems",
+  "section": "dramatis-person-2",
+  "issue": "drama",
+  "note": "the cast list of Demeter, a mask",
+  "evidence": [
+   "HADES.    }",
+   "Chorus of OCEANIDES."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "bridges-shorter-poems",
+  "section": "lawrence",
+  "issue": "cut-short",
+  "note": "the dialogue poem Giovanni Dupre (Lawrence and Richard) cut at its speaker headings: lawrence, richard, lawrence-2, richard-2, lawrence-3, richard-3 are its speeches; the title was lost",
+  "evidence": [
+   "GIOVANNI DUPRÈ",
+   "Look down the river--against the western sky--",
+   "'Twill be the funeral of Giovánn Duprè"
+  ],
+  "fix": {
+   "append_from_next": 9
+  }
+ },
+ {
+  "work": "bridges-shorter-poems",
+  "section": "from-the-chinese",
+  "issue": "joined",
+  "note": "two poems: From the Chinese (4 lines) and The Ruin, From the Chinese (6 lines), numbered 11 and 12 in the source",
+  "evidence": [
+   "THE RUIN",
+   "These grey stones have rung with mirth and lordly carousel;"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "The Ruin"
+  }
+ },
+ {
+  "work": "bowles-sonnets",
+  "section": "from-the-same",
+  "issue": "joined",
+  "note": "two translations each headed FROM THE SAME; the second (Pan, Pan, oh mighty hunter) is stanza 1",
+  "evidence": [
+   "FROM THE SAME.",
+   "Where were ye, nymphs, when Daphnis drooped with love?",
+   "Pan, Pan, oh mighty hunter! whether now,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "From the Same"
+  }
+ },
+ {
+  "work": "bowles-sonnets",
+  "section": "indian-4",
+  "issue": "not-a-poem",
+  "note": "the last two stanzas are the transcriber's list of hyphenation variants",
+  "evidence": [
+   "eventide         even-tide",
+   "outstretched     out-stretched"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "work": "newbolt-poems",
+  "section": "persons-h-a-poet-c-his-daughter",
+  "issue": "drama",
+  "note": "a verse play's dialogue (H. and C., then Lucia and Flora)",
+  "evidence": [
+   "H.  Here then, if you insist, my daughter: still,",
+   "LUCIA.              Time has been"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "newbolt-poems",
+  "section": "song",
+  "issue": "drama",
+  "note": "the song from the play is the first stanzas; the last stanza is dialogue",
+  "evidence": [
+   "The flowers that in thy garden rise,",
+   "FLORA.  Your spell has won her, and I marvel not:"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "work": "rossetti-goblin-market",
+  "section": "goblin-market-and-other-poems-1862",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "Goblin Market",
+   "A Triad",
+   "Amen"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "rossetti-goblin-market",
+  "section": "an-end",
+  "issue": "joined",
+  "note": "An End is stanzas 0-2; then My Dream (stanza 3), Song: Oh roses for the flush of youth (stanza 7) and The Hour and the Ghost (stanza 9, Bride and Ghost) follow under unrecognised headings",
+  "evidence": [
+   "Love, strong as Death, is dead.",
+   "Hear now a curious dream I dreamed last night",
+   "Oh roses for the flush of youth,",
+   "O love, love, hold me fast,"
+  ],
+  "fix": {
+   "split_at_stanza": 3,
+   "second_title": "My Dream"
+  }
+ },
+ {
+  "work": "rossetti-goblin-market",
+  "section": "song-2",
+  "issue": "joined",
+  "note": "Song (She sat and sang alway) is stanzas 0-2; Song (When I am dead, my dearest) is stanzas 3-4",
+  "evidence": [
+   "She sat and sang alway",
+   "When I am dead, my dearest,"
+  ],
+  "fix": {
+   "split_at_stanza": 3,
+   "second_title": "Song"
+  }
+ },
+ {
+  "work": "michelangelo-sonnets",
+  "section": "amor-redivivus",
+  "issue": "joined",
+  "note": "sonnet XXXII and XXXIII (Second Reading of A Prayer to Nature) under one heading; the source has XXXIII. / SECOND READING. between them",
+  "evidence": [
+   "XXXIII.",
+   "SECOND READING.",
+   "If only that thy beauties here may be"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "A Prayer to Nature (Second Reading)"
+  }
+ },
+ {
+  "work": "lovelace-lucasta",
+  "section": "by-richard-lovelace-esq",
+  "issue": "front-matter",
+  "note": "the title-page imprint",
+  "evidence": [
+   "LONDON,",
+   "Ivie Lane. 1649."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lovelace-lucasta",
+  "section": "a-dialogue",
+  "issue": "joined",
+  "note": "the dialogue is stanzas 0-12; stanza 13 (384 lines) is the pastoral Aramantha and stanza 14 is the editor's notes",
+  "evidence": [
+   "Amyntor.",
+   "Up with the jolly bird of light",
+   "PLANTAGENET'S TRAGICALL STORY, by T. W. 1649, p. 105."
+  ],
+  "fix": {
+   "split_at_stanza": 13,
+   "second_title": "Aramantha. A Pastorall"
+  }
+ },
+ {
+  "work": "lovelace-lucasta",
+  "section": "to-lucasta-2",
+  "issue": "joined",
+  "note": "two poems both headed TO LUCASTA; the second (Like to the sent'nel stars) begins at stanza 2",
+  "evidence": [
+   "I laugh and sing, but cannot tell",
+   "Like to the sent'nel stars, I watch all night;"
+  ],
+  "fix": {
+   "split_at_stanza": 2,
+   "second_title": "To Lucasta"
+  }
+ },
+ {
+  "work": "bryant-poems",
+  "section": "poems",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "The Ages deg.",
+   "To the Apennines",
+   "The Stream of Life"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "bryant-poems",
+  "section": "a-sonnet",
+  "issue": "joined",
+  "note": "two sonnets; the source's heading A SONNET stands before the second (Yet one smile more, departing, distant sun)",
+  "evidence": [
+   "A SONNET.",
+   "Yet one smile more, departing, distant sun!"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "A Sonnet"
+  }
+ },
+ {
+  "work": "bryant-poems",
+  "section": "from-the-spanish-2",
+  "issue": "joined",
+  "note": "three translations: the song (stanzas 0-3), The Alcayde of Molina (stanza 4, To the town of Atienza) and The Death of Aliatar (stanzas 5-10)",
+  "evidence": [
+   "Airs, that wander and murmur round,",
+   "To the town of Atienza, Molina's brave Alcayde,",
+   "'Tis not with gilded sabres"
+  ],
+  "fix": {
+   "split_at_stanza": 4,
+   "second_title": "The Alcayde of Molina"
+  }
+ },
+ {
+  "work": "tennyson-in-memoriam",
+  "section": "prologue",
+  "issue": "not-a-poem",
+  "note": "the last stanza is the one-line heading IN MEMORIAM",
+  "evidence": [
+   "IN MEMORIAM"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ },
+ {
+  "work": "hemans-poems",
+  "section": "alcestis-pheres",
+  "issue": "drama",
+  "note": "a translated scene of Alfieri's Alcestis, cut at a speaker heading",
+  "evidence": [
+   "Alc. Weep thou no more! O monarch, dry thy tears!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "hemans-poems",
+  "section": "chorus-of-admetus",
+  "issue": "drama",
+  "note": "more of the Alcestis translation, dialogue with speaker tags",
+  "evidence": [
+   "Car. O God! I thank thee. O most merciful!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "hemans-poems",
+  "section": "caius-gracchus-by-monti",
+  "issue": "drama",
+  "note": "scenes translated from Monti's Caius Gracchus",
+  "evidence": [
+   "Caius, in Rome behold thyself! The night",
+   "Caius. (alone.) Ask my sister! What!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "tennyson-early-poems",
+  "section": "introduction-i",
+  "issue": "not-a-poem",
+  "note": "the editor's prose introduction with quoted verse",
+  "evidence": [
+   "The poems published in 1830 had the following title-page: “Poems,"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "tennyson-early-poems",
+  "section": "or-in-mariana-in-the-south",
+  "issue": "not-a-poem",
+  "note": "quotations inside the editor's introduction, cut at a phrase of his prose",
+  "evidence": [
+   "She mov’d her lips, she pray’d alone,"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "tennyson-early-poems",
+  "section": "again-in-the-lotos-eaters",
+  "issue": "not-a-poem",
+  "note": "quotations inside the editor's introduction",
+  "evidence": [
+   "Three thunder-cloven thrones of oldest snow"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "tennyson-early-poems",
+  "section": "none-the-lotos-eaters-ulysses",
+  "issue": "not-a-poem",
+  "note": "quotations inside the editor's introduction; the first line is a title",
+  "evidence": [
+   "The Miller’s Daughter.",
+   "Every sight"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "tennyson-early-poems",
+  "section": "so-in-edwin-morris",
+  "issue": "not-a-poem",
+  "note": "quotations inside the editor's introduction",
+  "evidence": [
+   "Ad unguem",
+   "But now will canker sorrow eat my bud,"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "tennyson-early-poems",
+  "section": "illustrations-of-tennyson-iv",
+  "issue": "not-a-poem",
+  "note": "an eight-line quotation in the editor's apparatus, not one of the early poems",
+  "evidence": [
+   "Sharers of our glorious past,",
+   "One life, one flag, one fleet, one Throne!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "crashaw-poems",
+  "section": "upon-the-gunpowder-treason",
+  "issue": "joined",
+  "note": "two poems with the same heading; the second (Grow plumpe, leane Death) is stanza 1",
+  "evidence": [
+   "UPON THE GUNPOWDER-TREASON.",
+   "Reach me a quill, pluckt from the flaming wing",
+   "Grow plumpe, leane Death; his Holinesse a feast"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Upon the Gunpowder-Treason"
+  }
+ },
+ {
+  "work": "kirke-white-poems",
+  "section": "miscellaneous-poems",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "Clifton Grove",
+   "The Prostitute"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "kirke-white-poems",
+  "section": "sonnet-7",
+  "issue": "joined",
+  "note": "three sonnets each headed SONNET",
+  "evidence": [
+   "When I sit musing on the chequer'd past",
+   "Quick o'er the wintry waste dart fiery shafts--"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Sonnet"
+  }
+ },
+ {
+  "work": "kirke-white-poems",
+  "section": "by-arthur-owen-esq",
+  "issue": "joined",
+  "note": "two tribute sonnets; the source heads the second SONNET TO HENRY KIRKE WHITE, ON HIS POEMS LATELY PUBLISHED. BY ARTHUR OWEN, ESQ.",
+  "evidence": [
+   "BY ARTHUR OWEN, ESQ.",
+   "Ah! once again the long left wires among,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Sonnet to Henry Kirke White, on his Poems Lately Published"
+  }
+ },
+ {
+  "work": "kirke-white-poems",
+  "section": "by-a-lady",
+  "issue": "joined",
+  "note": "a 76-line tribute poem, then Stanzas Supposed to Have Been Written at the Grave of Henry Kirke White, By a Lady (Ye gentlest gales)",
+  "evidence": [
+   "STANZAS,",
+   "BY A LADY.",
+   "Ye gentlest gales! oh, hither waft,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Stanzas Supposed to Have Been Written at the Grave of Henry Kirke White"
+  }
+ },
+ {
+  "work": "thackeray-ballads",
+  "section": "love-songs-made-easy",
+  "issue": "front-matter",
+  "note": "a block of the table of contents",
+  "evidence": [
+   "What makes my Heart to Thrill and Glow?",
+   "Come to the Greenwood Tree"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "thackeray-ballads",
+  "section": "five-german-ditties",
+  "issue": "front-matter",
+  "note": "a block of the table of contents",
+  "evidence": [
+   "A Tragic Story",
+   "A Credo"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "thackeray-ballads",
+  "section": "from-uhland",
+  "issue": "joined",
+  "note": "The Chaplet (A little girl through field and wood) and The King on the Tower, both headed FROM UHLAND; the second starts at stanza 10",
+  "evidence": [
+   "THE KING ON THE TOWER.",
+   "FROM UHLAND.",
+   "O blessed rest!  O royal night!"
+  ],
+  "fix": {
+   "split_at_stanza": 10,
+   "second_title": "The King on the Tower"
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "teig",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Teig); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Two nights ago, at Carrick-orus churchyard,",
+   "Squeal like a rabbit under a weasel's tooth?"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "mary",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Mary); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "You'll bring misfortune with your blasphemies",
+   "Out of my mind till you are home again."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "shemus",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Shemus); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "I'm in no mood to listen to your clatter.",
+   "And hunted me away with sticks and stones."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "mary-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Mary); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Maybe He'd have us die because He knows,",
+   "And there's the needle's eye at the end of all."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "cathleen",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Cathleen); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "God save all here. There is a certain house,",
+   "That he can give no help."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "mary-3",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Mary); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "You have still some way,",
+   "If you and yours should not be welcome here."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "cathleen-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Cathleen); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "So you are starving even in this wood,",
+   "Pine to my grave."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "oona",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Oona); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Have done.",
+   "Two grey-horned owls hooted above our heads."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "shemus-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Shemus); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "What's that for thanks,",
+   "And rising every day."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "mary-4",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Mary); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "When those that have read books,",
+   "It's time that poverty should bolt the door."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "shemus-3",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Shemus); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "I'll have no bolts, for there is not a thing",
+   "You'll find a crock of gold."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "teig-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Teig); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Whatever you are that walk the woods at night,",
+   "Why, if there is----"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "first-merchant",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (First Merchant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "We've travelled a long road,",
+   "And a safe corner to count money in."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "shemus-4",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Shemus); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "I thought you were ... but that's no matter now--",
+   "Knives thrown into a basket to be cleaned."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "first-merchant-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (First Merchant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "It's strange that she should think we cast no shadow,",
+   "That buy and sell you."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "mary-5",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Mary); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Those scruples may befit a common time.",
+   "And trampled measure down."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "first-merchant-3",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (First Merchant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "They have not sold all yet.",
+   "They call immortal for a story's sake."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "shemus-5",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Shemus); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "So then you're as deceitful as the rest,",
+   "Because that's how the trick-o'-the-loop man talks."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "first-merchant-4",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (First Merchant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "You've but to cry aloud at every cross-road,",
+   "And quench the stars in the ancestral night."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "second-merchant",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Second Merchant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Pray, you shall need Him.",
+   "We shall be near you."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "first-merchant-5",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (First Merchant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Our faces go unscratched,",
+   "And stretch and warm our heels among the ashes."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "aleel",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Aleel); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "A man, they say,",
+   "Is trodden down.\""
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "oona-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Oona); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "The empty rattle-pate! Lean on this arm,",
+   "When you were as helpless as a worm."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "aleel-2",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Aleel); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Old woman, old woman,",
+   "And climb Croaghpatrick, you shall not be pardoned."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "steward",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Steward); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Then God be thanked, I am the first to tell you.",
+   "For that is how the rogues got into the garden."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "cathleen-3",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Cathleen); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "And if it be a sin, while faith's unbroken",
+   "Although it were the wickedest in the world."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "shemus-6",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Shemus); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "There's something every man has carried with him",
+   "There's money for men's souls, good money, money.\""
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "cathleen-to-aleel",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Cathleen (To Aleel)); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Go call them here again, bring them by force,",
+   "That he could rob in safety.\""
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "a-woman",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (A Woman); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "\"Soft, handsome, and still young\"--not much, I think.",
+   "the ground before OONA and ALEEL. She lies there as if dead.)"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "a-peasant",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (A Peasant); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "We were under the tree where the path turns,",
+   "So black, bitter, blinding, and sudden a storm."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "hush",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Hush!); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Lay all the bags of money in a heap,",
+   "According to their needs."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "cathleen-4",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Cathleen); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Bend down your faces, Oona and Aleel;",
+   "The storm is in my hair and I must go."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "aleel-3",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Aleel); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "I shatter you in fragments, for the face",
+   "You shall not drift into eternity."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "the-angel",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (The Angel); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "The light beats down; the gates of pearl are wide",
+   "The Shadow of Shadows on the deed alone."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "yeats-poems",
+  "section": "oona-3",
+  "issue": "drama",
+  "note": "The Countess Cathleen, cut at a speaker heading (Oona); the poems begin at To the Rose upon the Rood of Time",
+  "evidence": [
+   "Tell them who walk upon the floor of peace",
+   "faintly in the darkness.)"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "skelton-poems",
+  "section": "some-account-of-skelton-and-his-writings",
+  "issue": "not-a-poem",
+  "note": "the editor's prose life of Skelton",
+  "evidence": [
+   "John Skelton is generally said to have been descended from the"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "skelton-poems",
+  "section": "imprynted-at-london-by-ihon-day",
+  "issue": "not-a-poem",
+  "note": "the editor's bibliographical notes on the early editions",
+  "evidence": [
+   "Here after foloweth certayne bokes, cōpyled by mayster Skelton, Poet",
+   "Of Skelton’s drama, The Nigramansir, the following account is given by"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "skelton-poems",
+  "section": "vilitissimus-scotus-dundas-allegat-caudas-contra-angligenas",
+  "issue": "joined",
+  "note": "the Latin invective is stanzas 0-3; stanza 4 and stanzas 6-8 are the editor's notes and stanza 5 is a separate Elegia",
+  "evidence": [
+   "Vilitissimus] So, perhaps, Skelton wrote; but qy.",
+   "Aspirate meis elegis, pia turma sororum,",
+   "Elegia, &c.] From Marshe’s ed. of Skelton’s Workes, 1568,"
+  ],
+  "fix": {
+   "split_at_stanza": 5,
+   "second_title": "Elegia"
+  }
+ },
+ {
+  "work": "skelton-poems",
+  "section": "magnyfycence",
+  "issue": "drama",
+  "note": "Magnyfycence, the morality play, 2013 lines of dialogue",
+  "evidence": [
+   "Lyberte. Mary, Welthe and I was apoynted to mete,"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lanier-poems",
+  "section": "hymns-of-the-marshes",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "I.  Sunrise.",
+   "The Harlequin of Dreams.",
+   "(April, 1878.)"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "coleridge-poems",
+  "section": "introduction",
+  "issue": "not-a-poem",
+  "note": "the editor's prose introduction with quoted verse",
+  "evidence": [
+   "In one of Rossetti's invaluable notes on poetry, he tells us that to him"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "coleridge-poems",
+  "section": "poet",
+  "issue": "cut-short",
+  "note": "a dialogue poem (Poet and Friend) cut at its speaker headings: poet, friend, poet-2 are its speeches",
+  "evidence": [
+   "I note the moods and feelings men betray,",
+   "Enough of Butler! we're agreed,",
+   "What think I now? Even what I thought before;--"
+  ],
+  "fix": {
+   "append_from_next": 5
+  }
+ },
+ {
+  "work": "timrod-poems",
+  "section": "introduction-the-late-judge-george-s-bryan",
+  "issue": "front-matter",
+  "note": "the table of contents, headed by a stray line",
+  "evidence": [
+   "Spring",
+   "A Common Thought"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lazarus-poems",
+  "section": "epochs",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "I. Youth.",
+   "HOW LONG!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lazarus-poems",
+  "section": "phantasies",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "I. Evening.",
+   "Spring Longing."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lazarus-poems",
+  "section": "sonnets",
+  "issue": "front-matter",
+  "note": "the table of contents (list of sonnet titles)",
+  "evidence": [
+   "Echoes.",
+   "Restlessness."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lazarus-poems",
+  "section": "fiametta-master",
+  "issue": "drama",
+  "note": "The Spagnoletto, a verse play, cut at a speech",
+  "evidence": [
+   "Dear master!",
+   "RIBERA (looks at her in silence, then pushing her from him laughs"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "dowson-poems",
+  "section": "verses",
+  "issue": "front-matter",
+  "note": "the table of contents of Verses",
+  "evidence": [
+   "Nuns of the Perpetual Adoration",
+   "Chanson sans Paroles"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "dowson-poems",
+  "section": "decorations",
+  "issue": "front-matter",
+  "note": "the table of contents of Decorations",
+  "evidence": [
+   "Beyond",
+   "A Last Word"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "davies-poems",
+  "section": "early-english-poets",
+  "issue": "not-a-poem",
+  "note": "the publisher's advertisement of the Early English Poets series",
+  "evidence": [
+   "Edited, with Introductions and copious Notes, by the REV",
+   "and copious Explanatory Notes. [In preparation."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "shelley-poems",
+  "section": "alastor-or-the-spirit-of-solitude-note-by-mrs-shelley",
+  "issue": "front-matter",
+  "note": "a list of cantos from the contents",
+  "evidence": [
+   "CANTO 1.",
+   "CANTO 12."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "shelley-poems",
+  "section": "julian-and-maddalo-a-conversation-note-by-mrs-shelley",
+  "issue": "front-matter",
+  "note": "a list of acts from the contents",
+  "evidence": [
+   "ACT 1.",
+   "ACT 5."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "shelley-poems",
+  "section": "preface-1",
+  "issue": "not-a-poem",
+  "note": "a prose preface",
+  "evidence": [
+   "The following Poem was found amongst other papers in the Portfolio of"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "shelley-poems",
+  "section": "part-vii-double-damnation",
+  "issue": "not-a-poem",
+  "note": "the last two stanzas are Shelley's prose notes to Peter Bell the Third",
+  "evidence": [
+   "NOTES:",
+   "(8 To those who have not duly appreciated the distinction between"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ]
+  }
+ },
+ {
+  "work": "hardy-past-and-present",
+  "section": "i-have-lived-with-shades",
+  "issue": "joined",
+  "note": "I Have Lived with Shades is stanzas 0-4; Memory and I (stanza 5) and the Greek-titled poem Long have I framed weak phantasies of Thee (stanza 15) follow under unrecognised headings",
+  "evidence": [
+   "I HAVE lived with shades so long,",
+   "“O MEMORY, where is now my youth,",
+   "LONG have I framed weak phantasies of Thee,"
+  ],
+  "fix": {
+   "split_at_stanza": 5,
+   "second_title": "Memory and I"
+  }
+ },
+ {
+  "work": "meredith-poems",
+  "section": "song-3",
+  "issue": "joined",
+  "note": "three songs under one heading: Fair and false (stanzas 0-1), Two wedded lovers (2-4), I cannot lose thee for a day (5-6)",
+  "evidence": [
+   "FAIR and false!  No dawn will greet",
+   "TWO wedded lovers watched the rising moon,",
+   "I CANNOT lose thee for a day,"
+  ],
+  "fix": {
+   "split_at_stanza": 2,
+   "second_title": "Song"
+  }
+ },
+ {
+  "work": "meredith-poems",
+  "section": "song-5",
+  "issue": "joined",
+  "note": "two songs: I would I were the drop of rain (stanzas 0-3) and Come to me in any shape (4-6)",
+  "evidence": [
+   "I WOULD I were the drop of rain",
+   "COME to me in any shape!"
+  ],
+  "fix": {
+   "split_at_stanza": 4,
+   "second_title": "Song"
+  }
+ },
+ {
+  "work": "seward-sonnets",
+  "section": "sonnet",
+  "issue": "joined",
+  "note": "49 sonnets in one section; the source numbers each (SONNET I., SONNET II., ...) and none of the numbered headings was recognised, so every stanza is a separate sonnet",
+  "evidence": [
+   "SONNET I.",
+   "When Life's realities the Soul perceives",
+   "SONNET II.",
+   "The Future, and its gifts, alone we prize,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Sonnet II"
+  }
+ },
+ {
+  "work": "bronte-poems",
+  "section": "plead-for-me",
+  "issue": "joined",
+  "note": "Self-Interrogation (The evening passes fast away) follows at stanza 8 under an unrecognised heading",
+  "evidence": [
+   "SELF-INTEROGATION,",
+   "\"The evening passes fast away."
+  ],
+  "fix": {
+   "split_at_stanza": 8,
+   "second_title": "Self-Interrogation"
+  }
+ },
+ {
+  "work": "bronte-poems",
+  "section": "self-congratulation",
+  "issue": "joined",
+  "note": "Fluctuations (What though the Sun had left my sky) follows at stanza 7",
+  "evidence": [
+   "FLUCTUATIONS,",
+   "What though the Sun had left my sky;"
+  ],
+  "fix": {
+   "split_at_stanza": 7,
+   "second_title": "Fluctuations"
+  }
+ },
+ {
+  "work": "field-poems",
+  "section": "penn-yan-bill",
+  "issue": "joined",
+  "note": "the poem Ed follows Penn-Yan Bill at stanza 9 under an unrecognised heading",
+  "evidence": [
+   "ED.",
+   "Ed was a man that played for keeps, 'nd when he tuk the notion,"
+  ],
+  "fix": {
+   "split_at_stanza": 9,
+   "second_title": "Ed"
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "the-wild-knight-2",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (The Wild Knight)",
+  "evidence": [
+   "The wasting thistle whitens on my crest,",
+   "Burning for ever in consuming fire."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "redfeather",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (Redfeather)",
+  "evidence": [
+   "I have drunk to all I know of,",
+   "Named...."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "olive",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (Olive)",
+  "evidence": [
+   "Captain, I tell you God once fell asleep.",
+   "His face!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "the-wild-knight-3",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (The Wild Knight)",
+  "evidence": [
+   "That house! the house at last, the house of God,",
+   "It is the house of God. He welcomes me."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "olive-2",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (Olive)",
+  "evidence": [
+   "But He is all too beautiful",
+   "No flesh shall look upon the Lord and live."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "the-wild-knight-4",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (The Wild Knight)",
+  "evidence": [
+   "Then I will go and lay me in the flowers,",
+   "In this black world I rend. Let there be light!"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "the-wild-knight-5",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (The Wild Knight)",
+  "evidence": [
+   "Earth grows too beautiful around me: shapes",
+   "No flesh shall look upon the Lord and live."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "chesterton-wild-knight",
+  "section": "redfeather-2",
+  "issue": "drama",
+  "note": "The Wild Knight, a verse play, cut at a speaker heading (Redfeather)",
+  "evidence": [
+   "The drawn sword at last!",
+   "And no good deed. I fear him. Come away."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "morris-defence-guenevere",
+  "section": "sir-galahad-a-christmas-mystery",
+  "issue": "cut-short",
+  "note": "Sir Galahad, a Christmas Mystery continues in the next section (an-angel) up to stanza 14; the poem was cut at the speaker heading AN ANGEL",
+  "evidence": [
+   "I doubt it grows to morning. Miserere!",
+   "O servant of the high God, Galahad!",
+   "O servant of the high God, Galahad!"
+  ],
+  "fix": {
+   "append_from_next": 15
+  }
+ },
+ {
+  "work": "morris-defence-guenevere",
+  "section": "an-angel",
+  "issue": "joined",
+  "note": "the rest of Sir Galahad (stanzas 0-14), then The Chapel in Lyoness from stanza 15 (Sir Ozana: All day long and every day), then Sir Peter Harpdon's End (Sir Lambert) further on, all under the speaker heading AN ANGEL",
+  "evidence": [
+   "SIR OZANA.",
+   "All day long and every day,",
+   "All day long and every day,"
+  ],
+  "fix": {
+   "split_at_stanza": 15,
+   "second_title": "The Chapel in Lyoness"
+  }
+ },
+ {
+  "work": "morris-defence-guenevere",
+  "section": "the-prince",
+  "issue": "cut-short",
+  "note": "Rapunzel, cut at its speaker headings: the-prince, rapunzel, the-prince-2 ... the-prince-8 (sections 4-18) are its speeches; the title was lost",
+  "evidence": [
+   "And left me there alone,",
+   "When I undo the knotted mass,",
+   "I put my armour on,"
+  ],
+  "fix": {
+   "append_from_next": 72
+  }
+ },
+ {
+  "work": "de-la-mare-peacock-pie",
+  "section": "up-and-down",
+  "issue": "joined",
+  "note": "Up and Down is stanza 0; Mrs. Earth is stanza 1 under an unrecognised heading",
+  "evidence": [
+   "MRS. EARTH",
+   "Mrs. Earth makes silver black,"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Mrs. Earth"
+  }
+ },
+ {
+  "work": "de-la-mare-peacock-pie",
+  "section": "sooeep",
+  "issue": "joined",
+  "note": "Sooeep! is stanzas 0-3; Mrs. MacQueen (or the Lollie-Shop) follows at stanza 4",
+  "evidence": [
+   "MRS. MACQUEEN (OR THE LOLLIE-SHOP)",
+   "With glass like a bull's-eye,"
+  ],
+  "fix": {
+   "split_at_stanza": 4,
+   "second_title": "Mrs. MacQueen (or the Lollie-Shop)"
+  }
+ },
+ {
+  "work": "teasdale-love-songs",
+  "section": "poem",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "Barter",
+   "The Flight",
+   "The Lamp"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lindsay-congo",
+  "section": "third-section",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "This Section is a Christmas Tree",
+   "IV.  In Praise of Gloriana's Remarkable Golden Hair"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "lindsay-congo",
+  "section": "once-more-to-gloriana",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "First Section:  Moon Poems for the Children/Fairy-tales for the Children",
+   "I.  Abraham Lincoln Walks at Midnight"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "hughes-weary-blues",
+  "section": "introducing-langston-hughes-to-the-reader-ii",
+  "issue": "not-a-poem",
+  "note": "verse quoted inside Carl Van Vechten's prose introduction, not a poem of the book",
+  "evidence": [
+   "“We should have a land of sun,",
+   "Black like me.”"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "johnson-fifty-years",
+  "section": "the-suicide",
+  "issue": "front-matter",
+  "note": "a block of the table of contents",
+  "evidence": [
+   "Down by the Carib Sea",
+   "VI.  Sunset in the Tropics"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "drayton-minor-poems",
+  "section": "introduction",
+  "issue": "not-a-poem",
+  "note": "lines quoted in the editor's introduction",
+  "evidence": [
+   "Till through the sleepy main, to Thuly I have gone,",
+   "Her Bowe is beauty with ten thousand strings...."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "drayton-minor-poems",
+  "section": "treasurer-for-the-english-colony-in-virginia",
+  "issue": "joined",
+  "note": "the Elegies upon Sundry Occasions, thirteen poems in one section headed by a line of the dedication (Treasurer for the English Colony in Virginia); each stanza is a separate elegy",
+  "evidence": [
+   "Friend, if you thinke my Papers may supplie",
+   "Accursed Death, what neede was there at all"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Elegies upon Sundry Occasions (second elegy)"
+  }
+ },
+ {
+  "work": "rogers-poems",
+  "section": "the-pleasures-of-memory-part-i",
+  "issue": "not-a-poem",
+  "note": "the Italian epigraph to The Pleasures of Memory, five lines",
+  "evidence": [
+   "Dolce sentier…….",
+   "Non, lasso, in me."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "rogers-poems",
+  "section": "additional-notes",
+  "issue": "not-a-poem",
+  "note": "the author's prose notes",
+  "evidence": [
+   "- - - - - venient annis",
+   "With my own eyes I saw kingdoms as full of people, as hives are full"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "corbet-poems",
+  "section": "iter-boreale",
+  "issue": "not-a-poem",
+  "note": "the editor's prose notes (stanzas 0-1) precede the poem Iter Boreale (stanza 2); stanza 3 is a Latin tag",
+  "evidence": [
+   "At Flore they were entertained by a country surgeon, or (in the vulgar",
+   "Non recito cuiquam nisi amicis, idque coactus,"
+  ],
+  "fix": {
+   "keep_stanzas": [
+    2
+   ]
+  }
+ },
+ {
+  "work": "lowell-amy-sword-blades",
+  "section": "sword-blades",
+  "issue": "front-matter",
+  "note": "the table of contents",
+  "evidence": [
+   "The Captured Goddess",
+   "In Answer to a Request"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "wordsworth-vol3",
+  "section": "sub-footnote-on-the-text",
+  "issue": "not-a-poem",
+  "note": "a prose footnote",
+  "evidence": [
+   "One of the two pictures of \"Peele Castle in a Storm\"--engraved by S. W."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "wordsworth-vol3",
+  "section": "sub-footnote-on-the-text-2",
+  "issue": "not-a-poem",
+  "note": "a prose footnote",
+  "evidence": [
+   "This wish was not granted; the lamented Person, not long after, perished",
+   "Since the above note was printed, new light has been cast on the"
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "clare-poems",
+  "section": "criticism-etc",
+  "issue": "not-a-poem",
+  "note": "a bibliography",
+  "evidence": [
+   "(References to Clare, pp. 162-166. Facsimile of Clare’s",
+   "Wilson (Professor). Clare’s Rural Muse. 16 pp."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "work": "beattie-minstrel",
+  "section": "epitaph",
+  "issue": "joined",
+  "note": "two epitaphs under one heading; the source has a second EPITAPH heading before O thou! whose steps",
+  "evidence": [
+   "EPITAPH",
+   "Farewell, my best beloved! whose heavenly mind",
+   "O thou! whose steps in sacred reverence tread"
+  ],
+  "fix": {
+   "split_at_stanza": 1,
+   "second_title": "Epitaph"
+  }
+ },
+ {
+  "work": "rosenberg-poems",
+  "section": "a-voice",
+  "issue": "drama",
+  "note": "speeches from Moses, a play, cut at a speaker heading; includes the stage direction for Scene II",
+  "evidence": [
+   "Ah! Koelue!",
+   "SCENE II.: Evening before Thebes. The Pyramids are being built."
+  ],
+  "fix": {
+   "drop": true
+  }
+ },
+ {
+  "doubts": [
+   {
+    "work": "petrarch-sonnets",
+    "note": "Sections titled with a translator's name (Nott, Macgregor, Wrangham, Capel Lofft, Charlemont, Wollaston, Merivale, Anon., Ox., 1795, and their -2, -3 ... variants, about 170 sections) are second translations of the sonnet before them: the source prints each translation's signature (NOTT., MACGREGOR.) after it, and the script took the signature as the heading of the next translation. The texts are complete; only the titles are wrong. Left alone.",
+    "evidence": [
+     "One sweet and signal vengeance to obtain",
+     "Whence, though alas! too weak, she fain had freed."
+    ]
+   },
+   {
+    "work": "petrarch-sonnets",
+    "section": "part-iv-2",
+    "note": "the source heading THE SAME. precedes When gods and men I saw in Cupid's chain at stanza 2; probably a second translation of the same piece rather than a new poem. Left alone.",
+    "evidence": [
+     "When gods and men I saw in Cupid's chain"
+    ]
+   },
+   {
+    "work": "longfellow-poems",
+    "note": "the sections titled By Lope de Vega, By Francisco de Aldana, Anonymous, By Gonzalo de Berceo, By Santa Teresa de Avila, By Diego de Saldana, By Cristobal de Castillejo, By El Commendador Escriva are titled from the attribution line under the real title (The Good Shepherd, To-morrow, Santa Teresa's Book-Mark, ...). Titles only; the joins are recorded as findings."
+   },
+   {
+    "work": "longfellow-poems",
+    "section": "song-3",
+    "note": "stanza 2 (Worn with speed is my good steed) is a second song in the same scene; keep_stanzas [0,1] keeps only the first song."
+   },
+   {
+    "work": "longfellow-poems",
+    "section": "song",
+    "note": "stanza 3 (The nuns in the cloister) is the same song heard dying away, after two lines of dialogue; keep_stanzas [0,1,2] follows the example given and drops it."
+   },
+   {
+    "work": "burns-poems",
+    "note": "sections Postscript, Postscript-2, Postscript-3 are verse postscripts to epistles, cut from their epistles; genuine verse, left alone."
+   },
+   {
+    "work": "barnes-dorset",
+    "section": "readen-ov-a-head-stwone",
+    "note": "the line Come out along wi' us, an' fling up thy heels appears twice in this section (stanzas 4 and 8) and is the last line before the eclogue The Veairies in the source; the section may itself contain a second poem. Not checked."
+   },
+   {
+    "work": "barnes-dorset",
+    "note": "the eclogue The Times (John an' Tom, Well, Tom, how be'st?) is also in no section; recorded with The Veairies. Section the-common-a-took-in is the song of that name, not the eclogue The Common a-took in (John and Thomas), whose text was not located."
+   },
+   {
+    "work": "hull-gael",
+    "section": "douglas-hyde",
+    "note": "titled from the translator's name; the first line I am watching my young calves sucking is the poem's title, and the 20 stanzas (17 of 4 lines, then 3 of 8) may be more than one poem. Not checked."
+   },
+   {
+    "work": "bridges-shorter-poems",
+    "note": "sections argeia, in-alas-alas, artemis, poem-ii, ode-3 (SPK flags, hundreds of lines with speaker tags) are almost certainly more of the masks Prometheus the Firegiver and Demeter; only prometheus, servant, inachus and dramatis-person-2 were checked and recorded."
+   },
+   {
+    "work": "bridges-shorter-poems",
+    "section": "elegy",
+    "note": "the source heading ELEGY stands 55 lines after this section's first line (Clear and gentle stream!); the four 12-line stanzas may belong to a different poem. Not resolved."
+   },
+   {
+    "work": "bowles-sonnets",
+    "note": "sections warrior, warrior-2, indian, indian-4 and the like are speeches of a dramatic poem cut at speaker headings, as in Barnes; not mapped."
+   },
+   {
+    "work": "newbolt-poems",
+    "section": "song",
+    "note": "whether stanza 4 (It is not far, it is not near) is still the song or already dialogue was not checked; keep_stanzas [0-4] assumes it is the song."
+   },
+   {
+    "work": "thackeray-ballads",
+    "section": "from-uhland",
+    "note": "the split index 10 is from the source heading THE KING ON THE TOWER / FROM UHLAND standing 40 lines after the section's first line; the exact stanza was not checked against the text."
+   },
+   {
+    "work": "wordsworth-vol2",
+    "section": "sub-footnotes-on-the-text",
+    "note": "this section is Lines composed a few miles above Tintern Abbey (Five years have past; five summers) under the heading of the previous poem's footnotes; a title error rather than a cut. Sections sub-footnote-on-the-text and sub-footnote-on-the-text-2 mix Dorothy Wordsworth's journal (prose) with the poems Alice Fell and another; not resolved.",
+    "evidence": [
+     "Five years have past; five summers, with the length",
+     "\"Thursday (March 11th).--A fine morning. William worked at the poem of"
+    ]
+   },
+   {
+    "work": "johnson-lionel-poems",
+    "section": "to-william-nash",
+    "note": "the source heading LUCRETIUS. matches a line inside stanza 8 and the 8-line stanzas 8-9 (Mightiest-minded of the Roman race) read like the poem Lucretius; stanzas 2-7 (Lucretious! King of men) may be another. Not resolved."
+   },
+   {
+    "work": "swift-poems",
+    "section": "on-the-same-picture",
+    "note": "the chain of ON THE SAME / ON THE SAME PICTURE epigrams continues past stanza 1; only the first split is recorded."
+   },
+   {
+    "work": "drayton-minor-poems",
+    "note": "the pastorals and nimphalls (sections to-the-soule, rodope-and-dorida, lalvs-cleon-and-lirope, with-nimphes-and-forresters, cloris-and-mertilla, claia-lelipa-clarinax-a-hermit, silvivs-halcivs-melanthvs, florimel-lelipa-naijs-codrvs-a-feriman, mertilla-claia-cloris, corbilus, borrill, batte) are dialogue poems titled from their speaker lists or cut at speaker headings (the source heading BATTE. stands 245 lines into section batte). Not mapped."
+   },
+   {
+    "work": "corbet-poems",
+    "section": "english-garden",
+    "note": "ends with Latin lines from Horace (Impiger extremos currit mercator ad Indos) that may be a note rather than the poem. Not checked."
+   },
+   {
+    "work": "skelton-poems",
+    "section": "vilitissimus-scotus-dundas-allegat-caudas-contra-angligenas",
+    "note": "stanza 3 (61 lines, Ye blot:) may be the English part of the invective or a note; the split at stanza 5 is approximate."
+   },
+   {
+    "work": "morris-defence-guenevere",
+    "section": "an-angel",
+    "note": "Sir Peter Harpdon's End (Sir Lambert) starts somewhere after stanza 15, inside a long stanza; the exact index was not found."
+   },
+   {
+    "work": "seward-sonnets",
+    "section": "sonnet",
+    "note": "the recorded fix splits only the first sonnet off; all 49 stanzas are separate numbered sonnets."
+   },
+   {
+    "work": "dickinson-poems",
+    "note": "only 4 of 253 sections could be matched line-for-line to the Gutenberg text, so the automatic checks say nothing about this work; no manual check was made."
+   },
+   {
+    "work": "general",
+    "note": "Works scanned only by the automatic signals, with nothing confirmed by hand: whitman-leaves, masters-spoon-river, byron-childe-harold, shakespeare-sonnets, henley-poems, lay-of-the-cid, sidney-astrophel, kipling-verses, carman-later-poems, patmore-angel, dante-divine-comedy, teasdale-flame-shadow, symonds-wine-women, thomas-edward-poems, robinson-children-of-night, lawrence-amores, verlaine-poems, russell-divine-vision, markham-lincoln, de-la-mare-listeners, crawford-poems, bloomfield-tales, lute-of-jade, cullen-color, stevenson-childs-garden, sassoon-war-poems, mahabharata, kalevala, yeats-responsibilities, canterbury-tales, williams-al-que-quiere, obev-anonymous-english, freneau-poems, akenside-poems, mckay-harlem-shadows, stedman-poems, praed-poems, horace-odes, catullus-carmina, harper-poems, pound-lustra, stevens-harmonium, stanley-lyrics, ingelow-poems, oxford-ballads, heine-poems-ballads, waller-denham, bell-ancient-poems, hemans-poems (beyond the three drama sections), watson-poems, blake-poems, hopkins-poems, seeger-poems, dunbar-poems, donne-poems, dickinson-poems."
+   }
+  ]
+ }
+]
