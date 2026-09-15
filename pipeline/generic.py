@@ -395,18 +395,37 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         return bool(ls) and len(ls) <= 12 and any(IMPRINT.search(l) for l in ls)
     while good and len(good) > 3 and title_page(good[0]): good = good[1:]
     if len(good) > 3 and title_page(good[1]) if len(good) > 1 else False: good = good[:1] + good[2:]
-    if False and len(good) > 40 and not meta.get('headre'):
+
+    # A publisher's trade catalogue is not front matter in the usual sense -- it is a list of other
+    # books, bound in at either end -- and its headings are short, capitalised and alone on a line,
+    # which is indistinguishable from a poem's title. Gutenberg 70950 opens with eleven thousand
+    # characters of Edward Moxon's 1850 list, and six of its headings were published as poems of
+    # Tennyson's: 'Lamb's Works', 'Dyce's Beaumont and Fletcher', 'Dramatic Library'.
+    #
+    # What gives it away is not the words but the shape of the lines. Verse keeps an EVEN line, because
+    # the poet chose where each one ends; a booklist does not, because its entries are as long as they
+    # happen to be. Three tests together, because no two of them are enough: the vocabulary of the book
+    # trade, lines too long for verse, and lines too ragged for verse.
+    #
+    # The third test is there because the first two would have deleted a poem. Douglas Hyde's 'Have you
+    # been at Carrack' is a real song in long lines that happens to say 'guineas' and 'price', and it
+    # was caught. Its lines vary by 7% about their mean; a booklist's by 19% to 28%. Publishing an
+    # advertisement as a poem is an embarrassment, but deleting a poem is worse, so the rule is set to
+    # miss rather than to overreach: across the whole library it drops six sections, and every one of
+    # them was read and confirmed to be a list of other people's books.
+    TRADE = re.compile(r'\b(price|cloth|vols?\.|8vo|12mo|fcap|post free|published by|sold by|bookseller|'
+                       r'second edition|third edition|now ready|in the press|shillings|guineas|'
+                       r'edited, with|crown 8vo|demy)\b', re.I)
+    def catalogue_page(sec):
+        ls = [l.strip() for st in sec['stanzas'] for l in st if l.strip()]
+        if not ls or len(ls) > 60: return False
+        if len(TRADE.findall(' '.join(ls))) < 2: return False
+        lens = [len(l) for l in ls]
+        avg = sum(lens) / len(lens)
+        if avg < 52: return False
         import statistics
-        med = statistics.median(sum(len(st) for st in s['stanzas']) for s in good)
-        if med < 14:
-            merged, cur = [], None
-            for s in good:
-                n = sum(len(st) for st in s['stanzas'])
-                if cur is None or sum(len(st) for st in cur['stanzas']) >= 40:
-                    cur = {'id': s['id'], 'title': s['title'], 'short': s['short'], 'stanzas': list(s['stanzas'])}; merged.append(cur)
-                else:
-                    cur['stanzas'].extend(s['stanzas']); cur['title'] = cur['title'].split(' – ')[0] + ' – ' + s['title'].split(' ')[-1]
-            good = merged
+        return statistics.pstdev(lens) / avg >= 0.19
+    good = [s for s in good if not catalogue_page(s)]
     good = [s for s in good if sum(1 for st in s['stanzas'] for l in st if re.match(r'^\d{1,4}\.\s', l)) < 0.3 * max(1, sum(len(st) for st in s['stanzas'])) or sum(len(st) for st in s['stanzas']) < 6]
     good = [s for s in good if not re.search(r'\]$|^(?:[A-Z][A-Za-z0-9\']{0,3},\s*){2,}', s['title'])]
     def prosey(sec):

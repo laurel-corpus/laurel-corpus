@@ -43,7 +43,6 @@ QUERIES = [
     ('wordsworth-vol2', 12145, 'The Poetical Works, Volume II', 'Wordsworth\'s shorter poems: "I wandered lonely as a cloud", "Composed upon Westminster Bridge", "The world is too much with us", the Lucy poems.', '1798–1807', None),
     ('wordsworth-vol3', 12383, 'The Poetical Works, Volume III', 'Wordsworth continued: "The Solitary Reaper", the "Ode: Intimations of Immortality", the later sonnets.', '1802–1815', None),
     ('shelley-poems', 4797, 'The Complete Poetical Works, Volume I', 'Shelley: Queen Mab, Alastor, Prometheus Unbound, and the lyrics to 1820, in the Hutchinson text.', '1813–1820', None),
-    ('tennyson-in-memoriam', 70950, 'In Memoriam A.H.H.', 'Tennyson\'s elegy for Arthur Hallam in a hundred and thirty-one sections of the ABBA stanza.', '1850', None),
     ('coleridge-poems', 8208, 'Poems of Coleridge', 'Kubla Khan, Christabel, Frost at Midnight, Dejection and the conversation poems.', '1796–1817', None),
     ('keats-endymion', 24280, 'Endymion: A Poetic Romance', 'Keats\'s four-book romance in couplets, "A thing of beauty is a joy for ever".', '1818', 'heroic couplets'),
     ('keats-1817', 8209, 'Poems (1817)', 'Keats\'s first book: "On First Looking into Chapman\'s Homer", "Sleep and Poetry", the early sonnets.', '1817', None),
@@ -421,7 +420,7 @@ if __name__ == '__main__':
     rows = [r for r in csv.DictReader(open(CAT, encoding='utf-8')) if r['Language'] == 'en' and r['Type'] == 'Text']
     index = json.load(open(os.path.join(OUT, 'index.json')))
     only = set(a for a in sys.argv[1:] if not a.startswith('-'))
-    keep = [w for w in index if w['slug'] in ('don-juan', 'shakespeare-sonnets', 'the-raven', 'ancient-mariner', 'keats-1820') or (only and w['slug'] not in only)]
+    keep = [w for w in index if w['slug'] in ('don-juan', 'shakespeare-sonnets', 'the-raven', 'ancient-mariner', 'keats-1820', 'tennyson-in-memoriam') or (only and w['slug'] not in only)]
     report = []
     for slug, query, title, blurb, published, hint in QUERIES:
         if only and slug not in only: continue

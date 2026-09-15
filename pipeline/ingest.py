@@ -116,6 +116,69 @@ def don_juan():
         'source': source(21700, 'Don Juan'), 'sections': sections,
     }
 
+# ---------------------------------------------------------------- In Memoriam
+def in_memoriam():
+    """Tennyson's elegy, in its prologue, hundred and thirty-one sections, and epilogue.
+
+    The generic parser could not read this book at all. Gutenberg 70950 opens with eleven thousand
+    characters of Edward Moxon's 1850 trade catalogue -- Haydn's Dictionary of Dates, Lamb's Letters,
+    Dyce's Beaumont and Fletcher -- whose headings are short, capitalised and alone on a line, which is
+    exactly what a poem title looks like. Six advertisements were published as poems. Then the whole
+    elegy went under the one heading that followed, so a poem in a hundred and thirty-one sections
+    appeared as a single section of 2,823 lines and no section of it could be cited.
+
+    Both faults are fixed here by finding the poem rather than guessing at it: the catalogue is
+    everything before the title block, and the sections are numbered in Roman on their own line.
+    """
+    lines = load(70950)
+    # The book proper begins at the dedication block 'IN MEMORIAM / A. H. H. / OBIIT MDCCCXXXIII.'.
+    # Everything before it is Moxon's catalogue and the title page; the prologue is the verse that
+    # stands between the printer's imprint and that block, and is untitled in the book.
+    obiit = next(k for k, l in enumerate(lines) if l.strip().startswith('OBIIT MDCCCXXXIII'))
+    imprint = max(k for k, l in enumerate(lines[:obiit]) if 'PRINTERS' in l.upper())
+    rom = re.compile(r'^([IVXLC]+)\.$')
+
+    sections = []
+    def add(sid, title, short, buf):
+        st = blocks([l for l in buf if l.strip() != '1849.'])
+        if st:
+            sections.append({'id': sid, 'title': title, 'short': short, 'stanzas': st})
+
+    add('prologue', 'Strong Son of God, immortal Love', 'Pro.', lines[imprint + 1:obiit - 2])
+
+    # The epilogue, the marriage song for Tennyson's sister, carries no heading in this edition: it
+    # simply follows the last section after a stanza break. It is split off by its first line, which is
+    # the only thing on the page that marks it.
+    EPILOGUE = 'O true and tried, so well and long,'
+
+    cur, buf, n = None, [], 0
+    for l in lines[obiit + 1:]:
+        m = rom.match(l.strip())
+        if m:
+            if cur: add(cur[0], cur[1], cur[2], buf)
+            n += 1
+            cur, buf = ('section-%d' % n, m.group(1), m.group(1)), []
+        elif cur:
+            buf.append(l)
+    if cur:
+        cut = next((k for k, l in enumerate(buf) if l.strip() == EPILOGUE), None)
+        if cut is None:
+            raise SystemExit('in_memoriam: the epilogue no longer begins where it did')
+        add(cur[0], cur[1], cur[2], buf[:cut])
+        add('epilogue', 'O true and tried, so well and long', 'Epi.', buf[cut:])
+
+    return {
+        'slug': 'tennyson-in-memoriam', 'title': 'In Memoriam A.H.H.', 'author': 'Alfred, Lord Tennyson',
+        'author_sort': 'Tennyson, Alfred', 'born': 1809, 'died': 1892, 'published': '1850',
+        'form': 'The In Memoriam stanza: four lines of iambic tetrameter rhyming ABBA',
+        'scheme': 'ABBA', 'meter': 'iambic tetrameter',
+        'blurb': "Tennyson's elegy for Arthur Hallam, written over seventeen years. This is the first "
+                 "edition of 1850, which has a prologue, a hundred and twenty-nine sections, and an "
+                 "epilogue for his sister's wedding; the two further sections everyone quotes were added "
+                 "to later editions.",
+        'source': source(70950, 'In memoriam'), 'sections': sections,
+    }
+
 # ---------------------------------------------------------------- Sonnets
 def sonnets():
     lines = load(1041)
@@ -234,7 +297,7 @@ def keats():
         'source': source(23684, 'Keats: Poems Published in 1820 (Clarendon Press, 1909, ed. M. Robertson)'), 'sections': sections,
     }
 
-WORKS = [don_juan, sonnets, raven, mariner, keats]
+WORKS = [don_juan, sonnets, raven, mariner, keats, in_memoriam]
 
 if __name__ == '__main__':
     # The Gutenberg texts are not shipped with the corpus, so say which folder they go in rather than
