@@ -130,6 +130,24 @@ def strip_gloss(l, notes):
     return l.replace('*', '') if '*' in l else l
 GLOSS_LINE = re.compile(r'^_([^_]{1,40})_,\s+(.{2,80})$')
 def clean_stanza(st, notes=None):
+    # Vachel Lindsay printed performance directions in the margin of The Congo, and Gutenberg 1021
+    # carries them inline between hash marks: '# A deep rolling bass. #', '# With a philosophic pause. #'.
+    # They are part of the poem as printed and they are not verse. Left in, they were scanned for metre,
+    # lettered for rhyme and counted as lines of the poem, which is why 79 of them turned up as verse.
+    # A direction can run over two lines, so the close is looked for rather than assumed.
+    if any('#' in l for l in st):
+        kept, skipping = [], False
+        for l in st:
+            t = l.strip()
+            if skipping:
+                if t.endswith('#'): skipping = False
+                continue
+            if t.startswith('#'):
+                if not t.endswith('#') or t == '#': skipping = True
+                continue
+            kept.append(l)
+        st = kept
+
     out = []
     if st and re.match(r'^[\(\[]?([IVXLC]+|\d{1,4})[\)\]\.]?$', st[0].strip()): st = st[1:]
     if st and re.match(r'^\d{1,3}\.\s+[A-Z“"‘\'(]', st[0]) and not re.search(r'\b(Cf|See|cf|Snorri|editors|stanza|line|MS)\b', st[0]): st = [re.sub(r'^\d{1,3}\.\s+', '', st[0])] + st[1:]   # "1.  Hearing I ask": a stanza number on the first line

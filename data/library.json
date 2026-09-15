@@ -3127,8 +3127,8 @@
  {
   "slug": "tennyson-in-memoriam",
   "title": "In Memoriam A.H.H.",
-  "author": "Alfred, Lord Tennyson",
-  "author_sort": "Tennyson, Alfred",
+  "author": "Alfred Tennyson",
+  "author_sort": "Tennyson, Alfred Tennyson, Baron",
   "born": 1809,
   "died": 1892,
   "published": "1850",
@@ -6987,734 +6987,6 @@
    }
   ],
   "meter_conf": 0.433
- },
- {
-  "slug": "lindsay-congo",
-  "title": "The Congo and Other Poems",
-  "author": "Vachel Lindsay",
-  "author_sort": "Lindsay, Vachel",
-  "born": 1879,
-  "died": 1931,
-  "published": "1914",
-  "form": "Mixed forms",
-  "scheme": null,
-  "meter": "iambic trimeter",
-  "blurb": "Vachel Lindsay's chanted \"higher vaudeville\": \"The Congo\", \"Abraham Lincoln Walks at Midnight\".",
-  "stats": {
-   "sections": 72,
-   "stanzas": 274,
-   "lines": 2448,
-   "distinct_end_words": 1216,
-   "hapax_share": 0.672,
-   "mean_syllables": 7.65,
-   "syllable_mode": 6,
-   "top_schemes": [
-    [
-     "-A-A",
-     107
-    ],
-    [
-     "-A-A-B-B",
-     18
-    ],
-    [
-     "ABAB",
-     13
-    ],
-    [
-     "long paragraph",
-     9
-    ],
-    [
-     "-A-A-B-B-C-C",
-     8
-    ]
-   ],
-   "top_end_words": [
-    [
-     "#",
-     62
-    ],
-    [
-     "day",
-     24
-    ],
-    [
-     "night",
-     21
-    ],
-    [
-     "down",
-     18
-    ],
-    [
-     "you",
-     17
-    ],
-    [
-     "sky",
-     17
-    ],
-    [
-     "horn",
-     16
-    ],
-    [
-     "song",
-     14
-    ]
-   ],
-   "glossary_words": 302,
-   "drifted_pairs": 0,
-   "mean_meter_fit": 0.94,
-   "suspect_lines": 0
-  },
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 1021,
-   "url": "https://www.gutenberg.org/ebooks/1021",
-   "title_as_published": "The Congo, and Other Poems",
-   "rights": "Public domain in the United States. Project Gutenberg header, footer and license text removed; the poem text itself carries no Gutenberg restrictions."
-  },
-  "corrections": 0,
-  "sections": [
-   {
-    "id": "first-section",
-    "title": "First Section",
-    "short": "First Section",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "incense",
-    "title": "Incense",
-    "short": "Incense",
-    "stanzas": 1,
-    "themes": [
-     "love"
-    ]
-   },
-   {
-    "id": "third-section",
-    "title": "Third Section",
-    "short": "Third Section",
-    "stanzas": 1,
-    "themes": [
-     "beauty"
-    ]
-   },
-   {
-    "id": "once-more-to-gloriana",
-    "title": "Once More—To Gloriana",
-    "short": "Once More—To Glor",
-    "stanzas": 4,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "their-basic-savagery",
-    "title": "Their Basic Savagery",
-    "short": "Their Basic Savage",
-    "stanzas": 1,
-    "themes": [
-     "nature",
-     "faith"
-    ]
-   },
-   {
-    "id": "their-irrepressible-high-spirits",
-    "title": "Their Irrepressible High Spirits",
-    "short": "Their Irrepressibl",
-    "stanzas": 7,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "the-santa-fe-trail",
-    "title": "The Santa Fe Trail",
-    "short": "The Santa Fe Trail",
-    "stanzas": 9,
-    "themes": [
-     "beauty",
-     "nature"
-    ]
-   },
-   {
-    "id": "section-one",
-    "title": "Section One",
-    "short": "Section One",
-    "stanzas": 1,
-    "themes": [
-     "death",
-     "satire and society",
-     "night"
-    ]
-   },
-   {
-    "id": "section-two",
-    "title": "Section Two",
-    "short": "Section Two",
-    "stanzas": 3,
-    "themes": [
-     "night",
-     "death",
-     "love"
-    ]
-   },
-   {
-    "id": "section-three",
-    "title": "Section Three",
-    "short": "Section Three",
-    "stanzas": 2,
-    "themes": [
-     "love",
-     "nature"
-    ]
-   },
-   {
-    "id": "the-master-of-the-dance",
-    "title": "The Master of the Dance",
-    "short": "The Master of the",
-    "stanzas": 3,
-    "themes": [
-     "nature",
-     "beauty"
-    ]
-   },
-   {
-    "id": "the-mysterious-cat",
-    "title": "The Mysterious Cat",
-    "short": "The Mysterious Cat",
-    "stanzas": 5,
-    "themes": []
-   },
-   {
-    "id": "a-dirge-for-a-righteous-kitten",
-    "title": "A Dirge for a Righteous Kitten",
-    "short": "A Dirge for a Righ",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "yankee-doodle",
-    "title": "Yankee Doodle",
-    "short": "Yankee Doodle",
-    "stanzas": 2,
-    "themes": [
-     "faith",
-     "nature"
-    ]
-   },
-   {
-    "id": "the-black-hawk-war-of-the-artists",
-    "title": "The Black Hawk War of the Artists",
-    "short": "The Black Hawk War",
-    "stanzas": 6,
-    "themes": [
-     "nature",
-     "war"
-    ]
-   },
-   {
-    "id": "the-jingo-and-the-minstrel",
-    "title": "The Jingo and the Minstrel",
-    "short": "The Jingo and the",
-    "stanzas": 11,
-    "themes": [
-     "love"
-    ]
-   },
-   {
-    "id": "i-heard-immanuel-singing",
-    "title": "I Heard Immanuel Singing",
-    "short": "I Heard Immanuel S",
-    "stanzas": 9,
-    "themes": [
-     "nature",
-     "time",
-     "melancholy"
-    ]
-   },
-   {
-    "id": "an-argument",
-    "title": "An Argument",
-    "short": "An Argument",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "the-rhymer-s-reply-incense-and-splendor",
-    "title": "The Rhymer's Reply. Incense and Splendor",
-    "short": "The Rhymer's Reply",
-    "stanzas": 3,
-    "themes": [
-     "time",
-     "beauty"
-    ]
-   },
-   {
-    "id": "in-memory-of-a-child",
-    "title": "In Memory of a Child",
-    "short": "In Memory of a Chi",
-    "stanzas": 4,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "galahad-knight-who-perished",
-    "title": "Galahad, Knight Who Perished",
-    "short": "Galahad, Knight Wh",
-    "stanzas": 2,
-    "themes": [
-     "war",
-     "faith"
-    ]
-   },
-   {
-    "id": "the-leaden-eyed",
-    "title": "The Leaden-eyed",
-    "short": "The Leaden-eyed",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "an-indian-summer-day-on-the-prairie",
-    "title": "An Indian Summer Day on the Prairie",
-    "short": "An Indian Summer D",
-    "stanzas": 4,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "the-hearth-eternal",
-    "title": "The Hearth Eternal",
-    "short": "The Hearth Eternal",
-    "stanzas": 7,
-    "themes": [
-     "death",
-     "faith",
-     "nature"
-    ]
-   },
-   {
-    "id": "by-the-spring-at-sunset",
-    "title": "By the Spring, at Sunset",
-    "short": "By the Spring, at",
-    "stanzas": 8,
-    "themes": [
-     "faith",
-     "nature"
-    ]
-   },
-   {
-    "id": "love-and-law",
-    "title": "Love and Law",
-    "short": "Love and Law",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "the-perfect-marriage",
-    "title": "The Perfect Marriage",
-    "short": "The Perfect Marria",
-    "stanzas": 4,
-    "themes": [
-     "love",
-     "faith",
-     "melancholy"
-    ]
-   },
-   {
-    "id": "darling-daughter-of-babylon",
-    "title": "Darling Daughter of Babylon",
-    "short": "Darling Daughter o",
-    "stanzas": 5,
-    "themes": [
-     "night",
-     "faith"
-    ]
-   },
-   {
-    "id": "the-amaranth",
-    "title": "The Amaranth",
-    "short": "The Amaranth",
-    "stanzas": 3,
-    "themes": [
-     "faith"
-    ]
-   },
-   {
-    "id": "the-alchemist-s-petition",
-    "title": "The Alchemist's Petition",
-    "short": "The Alchemist's Pe",
-    "stanzas": 2,
-    "themes": [
-     "faith",
-     "time"
-    ]
-   },
-   {
-    "id": "the-hope-of-the-resurrection",
-    "title": "The Hope of the Resurrection",
-    "short": "The Hope of the Re",
-    "stanzas": 1,
-    "themes": [
-     "death"
-    ]
-   },
-   {
-    "id": "poem-ii",
-    "title": "Poem II",
-    "short": "II",
-    "stanzas": 2,
-    "themes": [
-     "beauty",
-     "faith"
-    ]
-   },
-   {
-    "id": "the-traveller-heart",
-    "title": "The Traveller-heart",
-    "short": "The Traveller-hear",
-    "stanzas": 8,
-    "themes": [
-     "night",
-     "nature"
-    ]
-   },
-   {
-    "id": "the-north-star-whispers-to-the-blacksmith-s-son",
-    "title": "The North Star Whispers to the Blacksmith's Son",
-    "short": "The North Star Whi",
-    "stanzas": 7,
-    "themes": [
-     "nature",
-     "faith"
-    ]
-   },
-   {
-    "id": "the-lion",
-    "title": "The Lion",
-    "short": "The Lion",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "an-explanation-of-the-grasshopper",
-    "title": "An Explanation of the Grasshopper",
-    "short": "An Explanation of",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "the-dangerous-little-boy-fairies",
-    "title": "The Dangerous Little Boy Fairies",
-    "short": "The Dangerous Litt",
-    "stanzas": 5,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "parvenu",
-    "title": "Parvenu",
-    "short": "Parvenu",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "the-spider-and-the-ghost-of-the-fly",
-    "title": "The Spider and the Ghost of the Fly",
-    "short": "The Spider and the",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "crickets-on-a-strike",
-    "title": "Crickets on a Strike",
-    "short": "Crickets on a Stri",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "dedicated-to-lucy-bates",
-    "title": "Dedicated to Lucy Bates",
-    "short": "Dedicated to Lucy",
-    "stanzas": 9,
-    "themes": [
-     "nature",
-     "faith",
-     "art and poetry"
-    ]
-   },
-   {
-    "id": "moving-picture-actress",
-    "title": "Moving-picture Actress",
-    "short": "Moving-picture Act",
-    "stanzas": 8,
-    "themes": [
-     "love",
-     "time"
-    ]
-   },
-   {
-    "id": "sunshine",
-    "title": "Sunshine",
-    "short": "Sunshine",
-    "stanzas": 9,
-    "themes": [
-     "nature",
-     "faith"
-    ]
-   },
-   {
-    "id": "an-apology-for-the-bottle-volcanic",
-    "title": "An Apology for the Bottle Volcanic",
-    "short": "An Apology for the",
-    "stanzas": 10,
-    "themes": []
-   },
-   {
-    "id": "rhymes-for-gloriana",
-    "title": "Rhymes for Gloriana",
-    "short": "Rhymes for Glorian",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "on-suddenly-receiving-a-curl-long-refused",
-    "title": "On Suddenly Receiving a Curl Long Refused",
-    "short": "On Suddenly Receiv",
-    "stanzas": 3,
-    "themes": []
-   },
-   {
-    "id": "on-receiving-one-of-gloriana-s-letters",
-    "title": "On Receiving One of Gloriana's Letters",
-    "short": "On Receiving One o",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "in-praise-of-gloriana-s-remarkable-golden-hair",
-    "title": "In Praise of Gloriana's Remarkable Golden Hair",
-    "short": "In Praise of Glori",
-    "stanzas": 4,
-    "themes": []
-   },
-   {
-    "id": "once-more-to-gloriana-2",
-    "title": "Once More—To Gloriana",
-    "short": "Once More—To Glor",
-    "stanzas": 1,
-    "themes": [
-     "beauty"
-    ]
-   },
-   {
-    "id": "euclid",
-    "title": "Euclid",
-    "short": "Euclid",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "the-haughty-snail-king",
-    "title": "The Haughty Snail-king",
-    "short": "The Haughty Snail-",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "what-the-rattlesnake-said",
-    "title": "What the Rattlesnake Said",
-    "short": "What the Rattlesna",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "the-moon-s-the-north-wind-s-cooky",
-    "title": "The Moon's the North Wind's Cooky",
-    "short": "The Moon's the nor",
-    "stanzas": 3,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "what-the-gray-winged-fairy-said",
-    "title": "What the Gray-winged Fairy Said",
-    "short": "What the Gray-wing",
-    "stanzas": 7,
-    "themes": [
-     "art and poetry",
-     "nature",
-     "beauty"
-    ]
-   },
-   {
-    "id": "on-the-garden-wall",
-    "title": "On the Garden-wall",
-    "short": "On the Garden-wall",
-    "stanzas": 1,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "written-for-a-musician",
-    "title": "Written for a Musician",
-    "short": "Written for a Musi",
-    "stanzas": 6,
-    "themes": [
-     "love",
-     "night"
-    ]
-   },
-   {
-    "id": "the-encyclopaedia",
-    "title": "The Encyclopaedia",
-    "short": "The Encyclopaedia",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "what-the-miner-in-the-desert-said",
-    "title": "What the Miner in the Desert Said",
-    "short": "What the Miner in",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "what-the-coal-heaver-said",
-    "title": "What the Coal-heaver Said",
-    "short": "What the Coal-heav",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "what-the-moon-saw",
-    "title": "What the Moon Saw",
-    "short": "What the Moon Saw",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "what-semiramis-said",
-    "title": "What Semiramis Said",
-    "short": "What Semiramis Sai",
-    "stanzas": 1,
-    "themes": []
-   },
-   {
-    "id": "what-the-ghost-of-the-gambler-said",
-    "title": "What the Ghost of the Gambler Said",
-    "short": "What the Ghost of",
-    "stanzas": 1,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "the-spice-tree",
-    "title": "The Spice-tree",
-    "short": "The Spice-tree",
-    "stanzas": 4,
-    "themes": [
-     "love",
-     "nature"
-    ]
-   },
-   {
-    "id": "the-scissors-grinder",
-    "title": "The Scissors-grinder",
-    "short": "The Scissors-grind",
-    "stanzas": 8,
-    "themes": [
-     "time",
-     "nature",
-     "faith"
-    ]
-   },
-   {
-    "id": "aladdin-and-the-jinn",
-    "title": "Aladdin and the Jinn",
-    "short": "Aladdin and the Ji",
-    "stanzas": 3,
-    "themes": [
-     "beauty",
-     "art and poetry",
-     "nature"
-    ]
-   },
-   {
-    "id": "the-strength-of-the-lonely",
-    "title": "The Strength of the Lonely",
-    "short": "The Strength of th",
-    "stanzas": 2,
-    "themes": [
-     "nature"
-    ]
-   },
-   {
-    "id": "abraham-lincoln-walks-at-midnight",
-    "title": "Abraham Lincoln Walks at Midnight",
-    "short": "Abraham Lincoln Wa",
-    "stanzas": 8,
-    "themes": [
-     "night",
-     "time",
-     "love"
-    ]
-   },
-   {
-    "id": "ii-a-curse-for-kings",
-    "title": "II. A Curse for Kings",
-    "short": "II. a Curse for Ki",
-    "stanzas": 11,
-    "themes": [
-     "faith",
-     "death",
-     "time"
-    ]
-   },
-   {
-    "id": "who-knows",
-    "title": "Who Knows?",
-    "short": "Who Knows?",
-    "stanzas": 2,
-    "themes": []
-   },
-   {
-    "id": "to-buddha",
-    "title": "To Buddha",
-    "short": "To Buddha",
-    "stanzas": 3,
-    "themes": []
-   },
-   {
-    "id": "the-unpardonable-sin",
-    "title": "The Unpardonable Sin",
-    "short": "The Unpardonable S",
-    "stanzas": 4,
-    "themes": [
-     "faith",
-     "death"
-    ]
-   },
-   {
-    "id": "above-the-battle-s-front",
-    "title": "Above the Battle's Front",
-    "short": "Above the Battle's",
-    "stanzas": 8,
-    "themes": []
-   }
-  ],
-  "meter_conf": 0.185
  },
  {
   "slug": "stevens-harmonium",
@@ -195953,6 +195225,733 @@
      "nature",
      "time"
     ]
+   }
+  ]
+ },
+ {
+  "slug": "lindsay-congo",
+  "title": "The Congo and Other Poems",
+  "author": "Vachel Lindsay",
+  "author_sort": "Lindsay, Vachel",
+  "born": 1879,
+  "died": 1931,
+  "published": "1914",
+  "form": "Mixed forms",
+  "scheme": null,
+  "meter": "iambic trimeter",
+  "meter_conf": 0.19,
+  "blurb": "Vachel Lindsay's chanted \"higher vaudeville\": \"The Congo\", \"Abraham Lincoln Walks at Midnight\".",
+  "stats": {
+   "sections": 72,
+   "stanzas": 274,
+   "lines": 2368,
+   "distinct_end_words": 1202,
+   "hapax_share": 0.672,
+   "mean_syllables": 7.6,
+   "syllable_mode": 6,
+   "top_schemes": [
+    [
+     "-A-A",
+     107
+    ],
+    [
+     "-A-A-B-B",
+     25
+    ],
+    [
+     "ABAB",
+     13
+    ],
+    [
+     "long paragraph",
+     8
+    ],
+    [
+     "-A-A-B-B-C-C",
+     8
+    ]
+   ],
+   "top_end_words": [
+    [
+     "day",
+     24
+    ],
+    [
+     "night",
+     21
+    ],
+    [
+     "down",
+     18
+    ],
+    [
+     "you",
+     17
+    ],
+    [
+     "sky",
+     17
+    ],
+    [
+     "horn",
+     16
+    ],
+    [
+     "there",
+     14
+    ],
+    [
+     "song",
+     13
+    ]
+   ],
+   "glossary_words": 296,
+   "drifted_pairs": 0,
+   "mean_meter_fit": 0.94,
+   "suspect_lines": 82
+  },
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 1021,
+   "url": "https://www.gutenberg.org/ebooks/1021",
+   "title_as_published": "The Congo, and Other Poems",
+   "rights": "Public domain in the United States. Project Gutenberg header, footer and license text removed; the poem text itself carries no Gutenberg restrictions."
+  },
+  "corrections": 0,
+  "sections": [
+   {
+    "id": "first-section",
+    "title": "First Section",
+    "short": "First Section",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "incense",
+    "title": "Incense",
+    "short": "Incense",
+    "stanzas": 1,
+    "themes": [
+     "love"
+    ]
+   },
+   {
+    "id": "third-section",
+    "title": "Third Section",
+    "short": "Third Section",
+    "stanzas": 1,
+    "themes": [
+     "beauty"
+    ]
+   },
+   {
+    "id": "once-more-to-gloriana",
+    "title": "Once More—To Gloriana",
+    "short": "Once More—To Glor",
+    "stanzas": 4,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "their-basic-savagery",
+    "title": "Their Basic Savagery",
+    "short": "Their Basic Savage",
+    "stanzas": 1,
+    "themes": [
+     "faith"
+    ]
+   },
+   {
+    "id": "their-irrepressible-high-spirits",
+    "title": "Their Irrepressible High Spirits",
+    "short": "Their Irrepressibl",
+    "stanzas": 7,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "the-santa-fe-trail",
+    "title": "The Santa Fe Trail",
+    "short": "The Santa Fe Trail",
+    "stanzas": 9,
+    "themes": [
+     "beauty",
+     "nature"
+    ]
+   },
+   {
+    "id": "section-one",
+    "title": "Section One",
+    "short": "Section One",
+    "stanzas": 1,
+    "themes": [
+     "death",
+     "satire and society",
+     "night"
+    ]
+   },
+   {
+    "id": "section-two",
+    "title": "Section Two",
+    "short": "Section Two",
+    "stanzas": 3,
+    "themes": [
+     "night",
+     "death",
+     "love"
+    ]
+   },
+   {
+    "id": "section-three",
+    "title": "Section Three",
+    "short": "Section Three",
+    "stanzas": 2,
+    "themes": [
+     "love",
+     "nature"
+    ]
+   },
+   {
+    "id": "the-master-of-the-dance",
+    "title": "The Master of the Dance",
+    "short": "The Master of the",
+    "stanzas": 3,
+    "themes": [
+     "nature",
+     "beauty"
+    ]
+   },
+   {
+    "id": "the-mysterious-cat",
+    "title": "The Mysterious Cat",
+    "short": "The Mysterious Cat",
+    "stanzas": 5,
+    "themes": []
+   },
+   {
+    "id": "a-dirge-for-a-righteous-kitten",
+    "title": "A Dirge for a Righteous Kitten",
+    "short": "A Dirge for a Righ",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "yankee-doodle",
+    "title": "Yankee Doodle",
+    "short": "Yankee Doodle",
+    "stanzas": 2,
+    "themes": [
+     "faith",
+     "nature"
+    ]
+   },
+   {
+    "id": "the-black-hawk-war-of-the-artists",
+    "title": "The Black Hawk War of the Artists",
+    "short": "The Black Hawk War",
+    "stanzas": 6,
+    "themes": [
+     "nature",
+     "war"
+    ]
+   },
+   {
+    "id": "the-jingo-and-the-minstrel",
+    "title": "The Jingo and the Minstrel",
+    "short": "The Jingo and the",
+    "stanzas": 11,
+    "themes": [
+     "love"
+    ]
+   },
+   {
+    "id": "i-heard-immanuel-singing",
+    "title": "I Heard Immanuel Singing",
+    "short": "I Heard Immanuel S",
+    "stanzas": 9,
+    "themes": [
+     "nature",
+     "time",
+     "melancholy"
+    ]
+   },
+   {
+    "id": "an-argument",
+    "title": "An Argument",
+    "short": "An Argument",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "the-rhymer-s-reply-incense-and-splendor",
+    "title": "The Rhymer's Reply. Incense and Splendor",
+    "short": "The Rhymer's Reply",
+    "stanzas": 3,
+    "themes": [
+     "time",
+     "beauty"
+    ]
+   },
+   {
+    "id": "in-memory-of-a-child",
+    "title": "In Memory of a Child",
+    "short": "In Memory of a Chi",
+    "stanzas": 4,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "galahad-knight-who-perished",
+    "title": "Galahad, Knight Who Perished",
+    "short": "Galahad, Knight Wh",
+    "stanzas": 2,
+    "themes": [
+     "war",
+     "faith"
+    ]
+   },
+   {
+    "id": "the-leaden-eyed",
+    "title": "The Leaden-eyed",
+    "short": "The Leaden-eyed",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "an-indian-summer-day-on-the-prairie",
+    "title": "An Indian Summer Day on the Prairie",
+    "short": "An Indian Summer D",
+    "stanzas": 4,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "the-hearth-eternal",
+    "title": "The Hearth Eternal",
+    "short": "The Hearth Eternal",
+    "stanzas": 7,
+    "themes": [
+     "death",
+     "faith",
+     "nature"
+    ]
+   },
+   {
+    "id": "by-the-spring-at-sunset",
+    "title": "By the Spring, at Sunset",
+    "short": "By the Spring, at",
+    "stanzas": 8,
+    "themes": [
+     "faith",
+     "nature"
+    ]
+   },
+   {
+    "id": "love-and-law",
+    "title": "Love and Law",
+    "short": "Love and Law",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "the-perfect-marriage",
+    "title": "The Perfect Marriage",
+    "short": "The Perfect Marria",
+    "stanzas": 4,
+    "themes": [
+     "love",
+     "faith",
+     "melancholy"
+    ]
+   },
+   {
+    "id": "darling-daughter-of-babylon",
+    "title": "Darling Daughter of Babylon",
+    "short": "Darling Daughter o",
+    "stanzas": 5,
+    "themes": [
+     "night",
+     "faith"
+    ]
+   },
+   {
+    "id": "the-amaranth",
+    "title": "The Amaranth",
+    "short": "The Amaranth",
+    "stanzas": 3,
+    "themes": [
+     "faith"
+    ]
+   },
+   {
+    "id": "the-alchemist-s-petition",
+    "title": "The Alchemist's Petition",
+    "short": "The Alchemist's Pe",
+    "stanzas": 2,
+    "themes": [
+     "faith",
+     "time"
+    ]
+   },
+   {
+    "id": "the-hope-of-the-resurrection",
+    "title": "The Hope of the Resurrection",
+    "short": "The Hope of the Re",
+    "stanzas": 1,
+    "themes": [
+     "death"
+    ]
+   },
+   {
+    "id": "poem-ii",
+    "title": "Poem II",
+    "short": "II",
+    "stanzas": 2,
+    "themes": [
+     "beauty",
+     "faith"
+    ]
+   },
+   {
+    "id": "the-traveller-heart",
+    "title": "The Traveller-heart",
+    "short": "The Traveller-hear",
+    "stanzas": 8,
+    "themes": [
+     "night",
+     "nature"
+    ]
+   },
+   {
+    "id": "the-north-star-whispers-to-the-blacksmith-s-son",
+    "title": "The North Star Whispers to the Blacksmith's Son",
+    "short": "The North Star Whi",
+    "stanzas": 7,
+    "themes": [
+     "nature",
+     "faith"
+    ]
+   },
+   {
+    "id": "the-lion",
+    "title": "The Lion",
+    "short": "The Lion",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "an-explanation-of-the-grasshopper",
+    "title": "An Explanation of the Grasshopper",
+    "short": "An Explanation of",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "the-dangerous-little-boy-fairies",
+    "title": "The Dangerous Little Boy Fairies",
+    "short": "The Dangerous Litt",
+    "stanzas": 5,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "parvenu",
+    "title": "Parvenu",
+    "short": "Parvenu",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "the-spider-and-the-ghost-of-the-fly",
+    "title": "The Spider and the Ghost of the Fly",
+    "short": "The Spider and the",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "crickets-on-a-strike",
+    "title": "Crickets on a Strike",
+    "short": "Crickets on a Stri",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "dedicated-to-lucy-bates",
+    "title": "Dedicated to Lucy Bates",
+    "short": "Dedicated to Lucy",
+    "stanzas": 9,
+    "themes": [
+     "nature",
+     "faith",
+     "art and poetry"
+    ]
+   },
+   {
+    "id": "moving-picture-actress",
+    "title": "Moving-picture Actress",
+    "short": "Moving-picture Act",
+    "stanzas": 8,
+    "themes": [
+     "love",
+     "time"
+    ]
+   },
+   {
+    "id": "sunshine",
+    "title": "Sunshine",
+    "short": "Sunshine",
+    "stanzas": 9,
+    "themes": [
+     "nature",
+     "faith"
+    ]
+   },
+   {
+    "id": "an-apology-for-the-bottle-volcanic",
+    "title": "An Apology for the Bottle Volcanic",
+    "short": "An Apology for the",
+    "stanzas": 10,
+    "themes": []
+   },
+   {
+    "id": "rhymes-for-gloriana",
+    "title": "Rhymes for Gloriana",
+    "short": "Rhymes for Glorian",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "on-suddenly-receiving-a-curl-long-refused",
+    "title": "On Suddenly Receiving a Curl Long Refused",
+    "short": "On Suddenly Receiv",
+    "stanzas": 3,
+    "themes": []
+   },
+   {
+    "id": "on-receiving-one-of-gloriana-s-letters",
+    "title": "On Receiving One of Gloriana's Letters",
+    "short": "On Receiving One o",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "in-praise-of-gloriana-s-remarkable-golden-hair",
+    "title": "In Praise of Gloriana's Remarkable Golden Hair",
+    "short": "In Praise of Glori",
+    "stanzas": 4,
+    "themes": []
+   },
+   {
+    "id": "once-more-to-gloriana-2",
+    "title": "Once More—To Gloriana",
+    "short": "Once More—To Glor",
+    "stanzas": 1,
+    "themes": [
+     "beauty"
+    ]
+   },
+   {
+    "id": "euclid",
+    "title": "Euclid",
+    "short": "Euclid",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "the-haughty-snail-king",
+    "title": "The Haughty Snail-king",
+    "short": "The Haughty Snail-",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "what-the-rattlesnake-said",
+    "title": "What the Rattlesnake Said",
+    "short": "What the Rattlesna",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "the-moon-s-the-north-wind-s-cooky",
+    "title": "The Moon's the North Wind's Cooky",
+    "short": "The Moon's the nor",
+    "stanzas": 3,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "what-the-gray-winged-fairy-said",
+    "title": "What the Gray-winged Fairy Said",
+    "short": "What the Gray-wing",
+    "stanzas": 7,
+    "themes": [
+     "art and poetry",
+     "nature",
+     "beauty"
+    ]
+   },
+   {
+    "id": "on-the-garden-wall",
+    "title": "On the Garden-wall",
+    "short": "On the Garden-wall",
+    "stanzas": 1,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "written-for-a-musician",
+    "title": "Written for a Musician",
+    "short": "Written for a Musi",
+    "stanzas": 6,
+    "themes": [
+     "love",
+     "night"
+    ]
+   },
+   {
+    "id": "the-encyclopaedia",
+    "title": "The Encyclopaedia",
+    "short": "The Encyclopaedia",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "what-the-miner-in-the-desert-said",
+    "title": "What the Miner in the Desert Said",
+    "short": "What the Miner in",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "what-the-coal-heaver-said",
+    "title": "What the Coal-heaver Said",
+    "short": "What the Coal-heav",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "what-the-moon-saw",
+    "title": "What the Moon Saw",
+    "short": "What the Moon Saw",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "what-semiramis-said",
+    "title": "What Semiramis Said",
+    "short": "What Semiramis Sai",
+    "stanzas": 1,
+    "themes": []
+   },
+   {
+    "id": "what-the-ghost-of-the-gambler-said",
+    "title": "What the Ghost of the Gambler Said",
+    "short": "What the Ghost of",
+    "stanzas": 1,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "the-spice-tree",
+    "title": "The Spice-tree",
+    "short": "The Spice-tree",
+    "stanzas": 4,
+    "themes": [
+     "love",
+     "nature"
+    ]
+   },
+   {
+    "id": "the-scissors-grinder",
+    "title": "The Scissors-grinder",
+    "short": "The Scissors-grind",
+    "stanzas": 8,
+    "themes": [
+     "time",
+     "nature",
+     "faith"
+    ]
+   },
+   {
+    "id": "aladdin-and-the-jinn",
+    "title": "Aladdin and the Jinn",
+    "short": "Aladdin and the Ji",
+    "stanzas": 3,
+    "themes": [
+     "beauty",
+     "art and poetry",
+     "nature"
+    ]
+   },
+   {
+    "id": "the-strength-of-the-lonely",
+    "title": "The Strength of the Lonely",
+    "short": "The Strength of th",
+    "stanzas": 2,
+    "themes": [
+     "nature"
+    ]
+   },
+   {
+    "id": "abraham-lincoln-walks-at-midnight",
+    "title": "Abraham Lincoln Walks at Midnight",
+    "short": "Abraham Lincoln Wa",
+    "stanzas": 8,
+    "themes": [
+     "night",
+     "time",
+     "love"
+    ]
+   },
+   {
+    "id": "ii-a-curse-for-kings",
+    "title": "II. A Curse for Kings",
+    "short": "II. a Curse for Ki",
+    "stanzas": 11,
+    "themes": [
+     "faith",
+     "death",
+     "time"
+    ]
+   },
+   {
+    "id": "who-knows",
+    "title": "Who Knows?",
+    "short": "Who Knows?",
+    "stanzas": 2,
+    "themes": []
+   },
+   {
+    "id": "to-buddha",
+    "title": "To Buddha",
+    "short": "To Buddha",
+    "stanzas": 3,
+    "themes": []
+   },
+   {
+    "id": "the-unpardonable-sin",
+    "title": "The Unpardonable Sin",
+    "short": "The Unpardonable S",
+    "stanzas": 4,
+    "themes": [
+     "faith",
+     "death"
+    ]
+   },
+   {
+    "id": "above-the-battle-s-front",
+    "title": "Above the Battle's Front",
+    "short": "Above the Battle's",
+    "stanzas": 8,
+    "themes": []
    }
   ]
  }

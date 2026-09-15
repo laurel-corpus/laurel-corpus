@@ -168,8 +168,10 @@ def in_memoriam():
         add('epilogue', 'O true and tried, so well and long', 'Epi.', buf[cut:])
 
     return {
-        'slug': 'tennyson-in-memoriam', 'title': 'In Memoriam A.H.H.', 'author': 'Alfred, Lord Tennyson',
-        'author_sort': 'Tennyson, Alfred', 'born': 1809, 'died': 1892, 'published': '1850',
+        'slug': 'tennyson-in-memoriam', 'title': 'In Memoriam A.H.H.', 'author': 'Alfred Tennyson',
+        # The name has to match the form the rest of the library uses, or the poet splits in two and
+        # the new half has no portrait, no biography and no author page.
+        'author_sort': 'Tennyson, Alfred Tennyson, Baron', 'born': 1809, 'died': 1892, 'published': '1850',
         'form': 'The In Memoriam stanza: four lines of iambic tetrameter rhyming ABBA',
         'scheme': 'ABBA', 'meter': 'iambic tetrameter',
         'blurb': "Tennyson's elegy for Arthur Hallam, written over seventeen years. This is the first "
