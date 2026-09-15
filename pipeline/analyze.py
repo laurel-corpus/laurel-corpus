@@ -9,6 +9,7 @@ Outputs: site/data/works/<slug>.lines.json     line-level annotations
 Line record (compact arrays to keep files small):
   [section, stanza, line, endWord, rhymeKey, inCmu(0/1), syllables, stressStr, syllablesList, meterFit]
   stressStr: one char per syllable: 'S' stressed (from a polysyllable), 'U' unstressed (polysyllable or function word), 'x' free (other monosyllables, secondary stress)
+  readings.py adds a tenth field once the poem's metre is settled: the scanner's reading of the line, '+' a beat, '-' a slack
 """
 import json, sys, os, re, collections, itertools, unicodedata
 import pyphen

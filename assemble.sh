@@ -43,7 +43,7 @@ done
 for f in _paths.py teiread.py ingest.py catalog.py corrections.json analyze.py scansion.py tei.py \
          mono-corpus.json mono-stress.json metres.py authorities.py alden-matched.json \
          generic.py webster.py precision.py bench.py perline.py goldscore.py goldsplit.py marked.py \
-         markedin.py rules.py probe.py; do
+         markedin.py rules.py probe.py readings.py; do
   cp "$SRC/pipeline/$f" "$HERE/pipeline/$f"
 done
 # Verse a prosodist marked by hand, in print, a century ago: the third ruler, and the one that reaches

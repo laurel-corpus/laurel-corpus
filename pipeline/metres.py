@@ -15,7 +15,7 @@ the answer, and measuring is what you do when nobody has:
 Writes site/data/metres.json:  {slug: {"work": [name, confidence, source],
                                       "sections": {sectionId: [name, confidence, source]}}}
 
-    python3 metres.py           -> build it
+    python3 metres.py           -> build it, then readings.py, which stores each line's reading in it
     python3 metres.py --score   -> score the scanner against the documented metres and stop
 """
 import collections, json, os, sys

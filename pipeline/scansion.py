@@ -398,6 +398,23 @@ def best_line(ev, foot, lo=1, hi=8, prefer=None, cost=True):
     a feminine ending, and no line settles that by itself -- `prefer` lets the poem's prevailing count
     decide, which is how a reader settles it too.
     """
+    best = _best(ev, foot, lo, hi, prefer, cost)
+    if best is None: return 0.0, 0.0, 0
+    return max(0.0, best[2]), best[3], best[1]
+
+def reading(ev, foot, prefer=None):
+    """The template the scanner reads a line by, in a settled foot: '0100101010' for 'the fire indeed
+    from whence they caused be', or None where no template of the line's length exists.
+
+    This is what best_line ranks and never handed back, and it is the reading a reader should be
+    shown: the metre with the substitutions the scanner actually allowed, not the plain alternation
+    the site used to fill a monosyllable in with. Charged for substitutions as the foot decision is,
+    because the question here is which reading, not how many feet.
+    """
+    best = _best(ev, foot, 1, 8, prefer, True)
+    return best[4] if best else None
+
+def _best(ev, foot, lo, hi, prefer, cost):
     f = FEET[foot]
     best = None
     total, flat, s = weigh(ev)
@@ -422,9 +439,8 @@ def best_line(ev, foot, lo=1, hi=8, prefer=None, cost=True):
         # tied, and the poem's own prevailing measure breaks the tie. That is how a reader does it:
         # establish the measure, then read the doubtful line in it.
         key = (round(a, 2), -abs(n - prefer) if prefer else 0, w, len(f) * n == len(ev), n)
-        if best is None or key > best[0]: best = (key, n, a, w)
-    if best is None: return 0.0, 0.0, 0
-    return max(0.0, best[2]), best[3], best[1]
+        if best is None or key > best[0]: best = (key, n, a, w, tpl)
+    return best
 
 def scan(evs):
     """The metre of a set of lines: (foot, feet, confidence, shape), or (None, ...) if it will not settle.
