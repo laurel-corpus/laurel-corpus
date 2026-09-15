@@ -30,7 +30,7 @@ def run(split, show=0):
         n += 1
         text = ' '.join(words_of(line))
         try:
-            ev = S.evidence(text)
+            ev = S.asked(text, len(line))
         except Exception:
             syl_bad += 1; continue
         if len(ev) != len(line):

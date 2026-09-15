@@ -60,6 +60,11 @@ def by_stated_metre(limit=None):
     for w in lib:
         m = (w.get('meter') or '').strip().lower()
         if m not in ('blank verse', 'heroic couplets'): continue
+        # The book's own title page is the ground truth here, and it is true of the long poems the book
+        # is named for. It is not true of every short lyric bound in with them: Waller's 'To Amoret' is
+        # forty-five lines of seven syllables in a volume of heroic couplets, and counting the scanner
+        # wrong for reading it as trochaic was counting it wrong for being right. A poem whose lines are
+        # nowhere near ten syllables is not the iambic pentameter this test assumes.
         wk = load_work(w['slug'])
         if not wk: continue
         for s in wk.get('sections', []):
@@ -68,6 +73,15 @@ def by_stated_metre(limit=None):
                 if len(lines) >= SAMPLE: break
                 lines.extend(st); sizes.append(len(st))
             if len(lines) < 8: continue      # too short to settle anything
+            # ...and not a short lyric bound in with the long poems. This test is about iambic
+            # pentameter, so a poem whose lines are nowhere near ten syllables is not what it is
+            # testing. Waller's 'To Amoret' is forty-five lines of seven syllables in a volume of
+            # heroic couplets, and marking the scanner wrong for reading it as trochaic was marking it
+            # wrong for being right.
+            import statistics as _st
+            from scansion import evidence as _ev
+            _syl = [len(_ev(l)) for l in lines[:12]]
+            if _st.median(_syl) < 9: continue
             yield w['slug'], s['id'], lines, sizes
 
 # What share of a class whose answer is known may be called something else before the build stops.

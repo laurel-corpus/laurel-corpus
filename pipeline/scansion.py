@@ -98,21 +98,54 @@ def mono_opinion(core):
     w = MONO_MAX * min(1.0, (off - MONO_DEAD) / (0.5 - MONO_DEAD))
     return ('1' if r > 0.5 else '0', round(w, 3))
 
+class Evidence(list):
+    """The per-syllable evidence for a line, and where the words' edges fall.
+
+    `starts` holds the syllable positions that begin a word; `breaks` the positions of the last syllable
+    before a punctuation mark. The rules the prosodists license at a word boundary or a phrase edge read
+    these, and nothing else does: a plain list of pairs works everywhere and simply has neither.
+    """
+    starts = ()
+    breaks = ()
+
+# What counts as a phrase edge in a line: the marks a reader pauses at. A hyphen joins; a dash divides.
+BREAK = re.compile(r"[,;:.!?\u2014\u2013]|--")
+
+def edges(text):
+    """(token, breaks after it) for each word of a line, with the punctuation read off the gaps between."""
+    from analyze import TOKEN
+    out = []
+    ms = list(TOKEN.finditer(text))
+    for m, nxt in zip(ms, ms[1:] + [None]):
+        gap = text[m.end():nxt.start() if nxt else len(text)]
+        out.append((m.group(0), bool(BREAK.search(gap))))
+    return out
+
 def evidence(text):
     """One (wants, weight) per syllable of a line: what the words themselves insist on.
 
     `wants` is '1' for a stress, '0' for a slack, None where the words have no opinion and the metre
     may do as it likes.
     """
-    from analyze import TOKEN, norm, word_syls
-    out = []
-    for tok in TOKEN.findall(text):
+    from analyze import norm, word_syls
+    out = Evidence()
+    starts, breaks = [], []
+    for tok, brk in edges(text):
         for part in tok.split('-'):
             core = re.sub(r"^[^a-z']+|[^a-z']+$", '', norm(part))
             sy = word_syls(part)
             if not sy: continue
-            mono = len(sy) == 1
-            for _, c in sy:
+            starts.append(len(out))
+            out.extend(votes(core, sy))
+        if brk and out: breaks.append(len(out) - 1)
+    out.starts, out.breaks = tuple(starts), tuple(breaks)
+    return out
+
+def votes(core, sy):
+    """(wants, weight) for each syllable of one word."""
+    out = []
+    mono = len(sy) == 1
+    for _, c in sy:
                 if c == 'S': out.append(('1', 1.0))
                 elif c == 'U': out.append(('0', 1.0))
                 elif mono:
@@ -160,6 +193,44 @@ SUBSTITUTES = {
 }
 MAX_SUB = 2        # a line needing three is not that metre with substitutions, it is another metre
 HEAD_DISCOUNT = 0.45   # an inverted FIRST foot is so ordinary it should barely count against a reading
+# An inversion after the first foot is ordinary at a phrase edge and rare elsewhere. Kiparsky licenses
+# it after a syntactic break; Hayes, Wilson and Shisko find it after a stressed syllable with no break
+# between, the post-tonic case, weighted at 1.7 to 2.0. Punctuation stands in for the break, since
+# that is what the line carries. Relief and surcharge are in substitution units.
+EDGE_RELIEF = 1.0 - HEAD_DISCOUNT   # after a break, as ordinary as at the head
+POST_TONIC = 1.0   # an inversion straight after a stress with no break: twice the usual
+
+def edge_inversions(ev, foot, n, tpl):
+    """(inversions after the first foot that follow a break, inversions that follow a stress with none)."""
+    inv = SUBSTITUTES[foot][0][0] if foot in SUBSTITUTES else None
+    breaks = getattr(ev, 'breaks', ())
+    at_edge = post = 0
+    for p, f in feet_of(foot, n, tpl):
+        if p <= 0 or f != inv: continue
+        if p - 1 in breaks: at_edge += 1
+        elif ev[p - 1][0] == '1' and ev[p - 1][1] >= SOFT: post += 1   # a stress the words supply, of either kind
+    return at_edge, post
+
+def _place(i, n, rep, foot):
+    """What a substitution costs by where in the line it falls.
+
+    An inverted first foot is so ordinary it barely counts, which HEAD_DISCOUNT has said for some time.
+    The other end of the line is the opposite case, and every prosodist since Bridges says so: the last
+    foot must rise. Bridges finds inversion 'most common in the first foot ... most rare in fifth';
+    Groves excludes fifth-foot reversals and swaps by rule; Hayes, Wilson and Shisko count a falling
+    final foot in about half of one per cent of lines and fit it a weight of two. A flat charge let
+    the scanner invert or empty the last foot as readily as the third.
+    """
+    inverted = SUBSTITUTES[foot][0][0]
+    if i == 0:
+        # The discount is for a RISING metre, where an inverted opening is the commonest event in the
+        # language. Halle and Keyser find the converse does not hold: trochaic verse takes an extra
+        # initial syllable but never an initial iamb. A line that opens 01 in a poem of trochees is a
+        # line in the wrong foot, and the discount was letting it pass for less than an inversion costs
+        # anywhere else.
+        return 4.0 if rep == inverted and foot[0] == '1' else HEAD_DISCOUNT
+    if i == n - 1 and rep in (inverted, '00'): return 4.0
+    return 1.0
 
 def _feet(foot, n, most=1):
     """Every way to walk n feet: up to `most` of them swapping length, and up to MAX_SUB replaced by a
@@ -167,31 +238,48 @@ def _feet(foot, n, most=1):
     tie and a line bent in three places loses to one that simply is in another metre."""
     alt = SWAP[foot]
     out = {}
+    feetof = {}
     subs = SUBSTITUTES.get(foot, ())
     for mask in range(1 << n):
         k = bin(mask).count('1')
         if k > most: continue
         feet = [alt if (mask >> i) & 1 else foot for i in range(n)]
         base = ''.join(feet)
-        if out.get(base, 99) > k: out[base] = k
+        if out.get(base, 99) > k: out[base] = k; feetof[base] = tuple(feet)
         if not subs: continue
         # one substitution
         for i in range(n):
             if feet[i] != foot: continue          # a foot already swapped for length is not swapped again
             for rep, c in subs:
                 one = feet[:]; one[i] = rep
-                cost = k + c * (HEAD_DISCOUNT if i == 0 else 1.0)
+                cost = k + c * _place(i, n, rep, foot)
                 t = ''.join(one)
-                if out.get(t, 99) > cost: out[t] = cost
+                if out.get(t, 99) > cost: out[t] = cost; feetof[t] = tuple(one)
                 if MAX_SUB < 2: continue
                 # two, which is as far as this goes
                 for j in range(i + 1, n):
                     if feet[j] != foot: continue
                     for rep2, c2 in subs:
                         two = one[:]; two[j] = rep2
-                        cost2 = cost + c2
+                        cost2 = cost + c2 * _place(j, n, rep2, foot)
                         t2 = ''.join(two)
-                        if out.get(t2, 99) > cost2: out[t2] = cost2
+                        if out.get(t2, 99) > cost2: out[t2] = cost2; feetof[t2] = tuple(two)
+    return out, feetof
+
+# The feet behind each template, filed by (foot, feet, template) as variants() builds them, with
+# how many syllables were trimmed from the head. A rule licensed by what stands at a foot's edge
+# needs to know where the feet are, and the template string alone cannot say once a foot has
+# swapped length.
+ANATOMY = {}
+
+def feet_of(foot, n, tpl):
+    """[(start position, foot string)] for a template, or [] if it is not one variants() made."""
+    a = ANATOMY.get((foot, n, tpl))
+    if not a: return []
+    head, feet = a
+    out, pos = [], -head
+    for f in feet:
+        out.append((pos, f)); pos += len(f)
     return out
 
 def variants(foot, n):
@@ -203,10 +291,11 @@ def variants(foot, n):
     Refusing these would throw away most of English poetry as unscannable.
     """
     out = {}
-    def keep(t, cost):
-        if t and out.get(t, 99) > cost: out[t] = cost
+    def keep(t, cost, feet, head):
+        if t and out.get(t, 99) > cost: out[t] = cost; ANATOMY[(foot, n, t)] = (head, feet)
     k = len(foot) - 1                        # a foot may lose its slacks, never its stress
-    for base, subs in _feet(foot, n).items():
+    costs, feetof = _feet(foot, n)
+    for base, subs in costs.items():
         for head in range(k + 1):
             if '1' in base[:head]: break     # never trim into the first stress
             for tail in range(k + 1):
@@ -222,14 +311,14 @@ def variants(foot, n):
                 # reach another metre's plainest shape has not found a second reading of the poem.
                 if head and tail: continue
                 body = base[head:len(base) - tail] if tail else base[head:]
-                keep(body, subs)
+                keep(body, subs, feetof[base], head)
                 # A feminine ending -- one slack past the last stress -- but only on a line that has
                 # not already been licensed at the head. Allowing both at once lets an iambic
                 # tetrameter drop its first syllable and grow one at the end, which produces the
                 # trochaic template exactly; Hiawatha then reads as iambic, and no line is ever
                 # securely trochaic again. One licence to a line: a line that wants two is simply in
                 # the other foot.
-                if not head: keep(body + '0', subs)
+                if not head: keep(body + '0', subs, feetof[base], 0)
     return out
 
 # Every template is the same for every line, so build them once and file them by length. Without this
@@ -326,7 +415,9 @@ def best_line(ev, foot, lo=1, hi=8, prefer=None, cost=True):
         # foot is settled the question is only how many of them a line has, and charging for the
         # substitution there made 'Father, father, where are you going?' -- four beats and nine
         # syllables -- come out as five feet, which is how a ballad stanza loses its four-and-three.
-        if cost: a -= SUB_COST * subs
+        if cost:
+            edge, post = edge_inversions(ev, f, n, tpl)
+            a -= SUB_COST * (subs - EDGE_RELIEF * edge + POST_TONIC * post)
         # Agreement is rounded before ranking so that readings the words cannot separate count as
         # tied, and the poem's own prevailing measure breaks the tie. That is how a reader does it:
         # establish the measure, then read the doubtful line in it.
@@ -468,18 +559,18 @@ def refit(text, target):
     So nothing is shortened unless the metre asks, and then only as far as it asks: the word that can
     give up the most goes first, and the moment the line comes out right the rest are left alone.
     """
-    from analyze import TOKEN, norm, word_syls, elide_to
+    from analyze import norm, word_syls, elide_to
     parts = []
-    for tok in TOKEN.findall(text):
-        for part in tok.split('-'):
+    for tok, brk in edges(text):
+        bits = [p for p in tok.split('-') if word_syls(p)]
+        for k, part in enumerate(bits):
             core = re.sub(r"^[^a-z']+|[^a-z']+$", '', norm(part))
-            sy = word_syls(part)
-            if sy: parts.append([part, core, sy])
+            parts.append([part, core, word_syls(part), brk and k == len(bits) - 1])
     n = sum(len(p[2]) for p in parts)
     if n <= target: return None
     # what each word could give up, largest first
     room = []
-    for i, (part, core, sy) in enumerate(parts):
+    for i, (part, core, sy, _) in enumerate(parts):
         short = elide_to(core)
         if short is not None and 0 < short < len(sy): room.append((len(sy) - short, i, short))
     room.sort(reverse=True)
@@ -490,18 +581,37 @@ def refit(text, target):
         cut[i] = len(parts[i][2]) - take
         n -= take
     if n != target or not cut: return None
-    out = []
-    for i, (part, core, sy) in enumerate(parts):
+    out = Evidence()
+    starts, breaks = [], []
+    for i, (part, core, sy, brk) in enumerate(parts):
         if i in cut:
             k = cut[i]
-            sy = [(core, sy[0][1])] if k == 1 else sy[:k]
-        for _, c in sy:
-            if c == 'S': out.append(('1', 1.0))
-            elif c == 'U': out.append(('0', 1.0))
-            elif len(sy) == 1: out.append(('0' if core in FUNCTION else '1', SOFT))
-            else: out.append((None, 0.0))
+            # cut to one syllable it IS a monosyllable, and takes a monosyllable's opinion, not the fixed
+            # stress of the first syllable it used to have: 'our' read short is a possessive, not a beat
+            sy = [(core, 'x')] if k == 1 else sy[:k]
+        starts.append(len(out))
+        # The same votes evidence() gives, learned table and all. A flat SOFT for every monosyllable
+        # here meant a line re-read to fit the poem's length was scored on cruder evidence than its
+        # neighbours, and the comparison that decides whether the re-reading wins was between unequals.
+        out.extend(votes(core, sy))
+        if brk: breaks.append(len(out) - 1)
+    out.starts, out.breaks = tuple(starts), tuple(breaks)
     return out
 
+
+def asked(text, want):
+    """The evidence for a line read at the length the metre asks, if it can be, else as it stands.
+
+    This is what analyse() does for every line of a poem once the poem's measure is settled: a line that
+    comes out long is asked which word in it reads shorter. The benchmarks score lines without their
+    poems, so nothing asked, and 'our' counted two syllables against every annotator's one; the fault
+    was the harness, not the reading a reader is shown.
+    """
+    ev = evidence(text)
+    if len(ev) > want:
+        alt = refit(text, want)
+        if alt is not None and len(alt) == want: return alt
+    return ev
 
 # A metre is a claim about line length as well as about the foot, and the claim is checkable: an
 # octameter line has sixteen syllables, or fifteen when the last slack is dropped, or seventeen with one

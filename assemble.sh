@@ -42,9 +42,14 @@ done
 # config file with a live password, none of which belong in a public repository.
 for f in _paths.py teiread.py ingest.py catalog.py corrections.json analyze.py scansion.py tei.py \
          mono-corpus.json mono-stress.json metres.py authorities.py alden-matched.json \
-         generic.py webster.py precision.py bench.py perline.py goldscore.py goldsplit.py; do
+         generic.py webster.py precision.py bench.py perline.py goldscore.py goldsplit.py marked.py \
+         markedin.py rules.py probe.py; do
   cp "$SRC/pipeline/$f" "$HERE/pipeline/$f"
 done
+# Verse a prosodist marked by hand, in print, a century ago: the third ruler, and the one that reaches
+# the early modern verse the two modern gold corpora barely touch. Small, public domain, and it ships.
+# The rulers, the record of every rule tried against them, and the figures the battery compares with.
+mkdir -p "$HERE/pipeline/marked"; cp "$SRC/pipeline/marked/"*.tsv "$SRC/pipeline/marked/SOURCES.md" "$SRC/pipeline/marked/RULES.md" "$SRC/pipeline/marked/baseline.json" "$HERE/pipeline/marked/"
 
 # Only the files named above are copied, so nothing else can wander in. This repository used to carry a
 # .gitignore listing node_modules and __pycache__, which is boilerplate from a code project and belongs

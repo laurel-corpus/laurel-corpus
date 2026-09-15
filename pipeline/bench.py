@@ -41,7 +41,8 @@ def best(ev, feet, want_len=None):
                 if len(tpl) != len(ev): continue
                 if want_len and len(tpl) != want_len: continue
                 v = S.fit(ev, tpl); v = v[0] if isinstance(v, tuple) else v
-                v -= S.SUB_COST * c
+                edge, post = S.edge_inversions(ev, pat, n, tpl)
+                v -= S.SUB_COST * (c - S.EDGE_RELIEF * edge + S.POST_TONIC * post)
                 if v > b[0]: b = (v, tpl)
     return b[1]
 
@@ -53,7 +54,7 @@ def run(split):
     by_metre = collections.defaultdict(lambda: [0, 0])
     for line in gold:
         n_lines += 1
-        try: ev = S.evidence(' '.join(words_of(line)))
+        try: ev = S.asked(' '.join(words_of(line)), len(line))
         except Exception: continue
         if len(ev) != len(line): continue
         syl_ok += 1

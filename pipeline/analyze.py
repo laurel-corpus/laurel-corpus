@@ -26,6 +26,22 @@ HYPH = pyphen.Pyphen(lang='en_US')
 WEBFILE = os.path.join(HERE, 'cache', 'webster.json')
 WEB = json.load(open(WEBFILE, encoding='utf-8')) if os.path.exists(WEBFILE) else {}
 
+# Webster prints a respelling under each headword, and it carries what a scansion needs: where the
+# syllables divide, and which one takes the beat. Beau"te*ous is BEAU-te-ous; A*non" is a-NON.
+#
+# This matters because the pronouncing dictionary the pipeline otherwise runs on is a dictionary of
+# contemporary American speech, built for speech recognition, and it has not got the literary
+# vocabulary: no beheld, no quoth, no anon, no wherefore, no methinks. Across this library that left
+# 375,863 words of two syllables or more with no stress at all for the metre to read against, 4.4% of
+# every word in the corpus.
+#
+# webster.py writes this file; it is 1.3 MB against the dictionary's 16 MB, so it can travel with the
+# pipeline. Measured against the pronouncing dictionary on the 18,739 words both of them hold, it
+# agrees on the syllable count 92.1% of the time, and on which syllable takes the stress 96.5% of the
+# time where they agree on the count.
+SAIDFILE = os.path.join(HERE, 'cache', 'webster-stress.json')
+SAID = json.load(open(SAIDFILE, encoding='utf-8')) if os.path.exists(SAIDFILE) else {}
+
 # ------------------------------------------------------------ word helpers
 def norm(w):
     return w.lower().replace('’', "'").replace('‘', "'")
@@ -259,6 +275,21 @@ def word_syls(tok):
         parts = syllabify(core.replace("'", ''), n)
         if core in FUNC2: return [(parts[i] if i < len(parts) else '', 'x') for i in range(n)]
         return [(parts[i] if i < len(parts) else '', 'S' if vs[i] == '1' else 'U' if vs[i] == '0' else 'x') for i in range(n)]
+    # Webster knows the words the pronouncing dictionary does not, and knows their stress. Consulted
+    # only after the pronouncing dictionary has been asked, so nothing it says can override a modern
+    # pronunciation; and only for words of more than one syllable, because a monosyllable is left open
+    # for the metre to decide either way and Webster cannot improve on that.
+    said = SAID.get(core) or SAID.get(core.replace("'", ''))
+    if said:
+        n, st = said[0], said[1]
+        if n > 1:
+            parts = syllabify(core.replace("'", ''), n)
+            if core in FUNC2:
+                return [(parts[i] if i < len(parts) else '', 'x') for i in range(n)]
+            if st is None:
+                return [(parts[i] if i < len(parts) else '', 'x') for i in range(n)]
+            return [(parts[i] if i < len(parts) else '', 'S' if i == st else 'U') for i in range(n)]
+
     # heuristic count
     w2 = re.sub(r"[^a-z]", '', deaccent(core))
     v = re.findall(r'[aeiouy]+', w2); n = len(v)
