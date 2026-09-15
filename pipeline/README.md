@@ -3,6 +3,9 @@
 These are the scripts that made the corpus in the folder above. They travel with it so that the
 method can be read, checked and re-run, rather than described in a document and taken on trust.
 
+If a term here is unfamiliar — foot, catalexis, acephalous, feminine ending — it is defined with an
+example in [the glossary](../docs/glossary.md).
+
 Everything here is plain Python with two dependencies. There is no build step and no framework.
 
 ```

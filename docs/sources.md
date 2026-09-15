@@ -1,6 +1,7 @@
 # Sources and tools
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 Everything this corpus is built from is public, and named here so that any claim in it can be checked
 against the thing it came from.

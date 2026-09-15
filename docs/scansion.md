@@ -1,6 +1,7 @@
 # Syllables, stress and metre
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 Syllables are divided on the CMU Pronouncing Dictionary, with the elisions and expansions verse itself
 uses: *every* contracting to *ev'ry* where the line runs long, a spelled *-ed* opening into its own
@@ -20,10 +21,15 @@ duple, three is triple. It works on a whole book and fails on a single poem. Sha
 sonnet scans
 
 ```
-Shall I compare thee to a summer's day?      xuUSuuuSUx
+Shall I compare thee to a summer's day?      xx-+xxx+-x
 ```
 
-Ten syllables carrying two stresses the dictionary will vouch for. Paradise Lost supplies tens of
+That second column is the line's `@real`, the stress the words settle on their own: `+` stressed, `-`
+unstressed, `x` a syllable left open because the dictionary has no opinion about it. Only two syllables
+in the whole line are fixed, the *-pare* of *compare* and the *sum-* of *summer's*, because everything
+else is a word of one syllable and English does not fix those.
+
+Ten syllables, then, carrying two stresses the dictionary will vouch for. Paradise Lost supplies tens of
 thousands of such gaps and settles easily; fourteen lines supply twenty-eight and settle into nothing.
 Scanned that way, **roughly two thirds of this library returns no metre at all** — and not the obscure
 poems but the short ones, which is to say the lyric.
@@ -34,6 +40,26 @@ A reader does not scan by measuring gaps. A reader proposes iambic pentameter, r
 it, and sees whether the words fight. So does this. Every candidate metre is built as a template, every
 syllable of every line is tested against it, and the metre that argues least with the words wins. A
 sonnet then offers 140 syllables of evidence rather than 28.
+
+### A metre has to fit the shape of the poem, not just its words
+
+Agreement measures how well the words fall into the pattern. It cannot see that the pattern is the wrong
+size. A poem of eight-syllable lines can agree handsomely with anapaestic tetrameter, which wants twelve,
+because the alternation is right even though the measure is not: William Barnes's Dorset poems were named
+anapaestic tetrameter with not one line of forty at that length, at 0.85 agreement.
+
+So a second test, which the agreement cannot make: **more than half a poem's lines must be a length the
+named metre can actually make** — the metre's own length, or that less a syllable, or that plus one.
+Named stanza patterns are measured against all of their lengths rather than one, so common measure is
+tested against eight syllables and six, and the ballads are not condemned for alternating on purpose.
+
+Raising the confidence floor instead was tried and is much worse: the poems this catches score 0.81 at
+the median, so a floor high enough to reach them silences four sound poems for every unsound one.
+
+The rule moved 1,388 poems, about one in thirteen, from a named metre to none. It silences none of the
+422 sonnets and none of the 23 works whose metre a scholar has written down. Where an authority names a
+metre, the authority still stands: the measurement declining to publish a length of its own does not
+overrule a person who signed their work.
 
 ### What counts as evidence
 
@@ -47,7 +73,7 @@ sonnet then offers 140 syllables of evidence rather than 28.
 
 The dictionary fixes the stress inside a word of two syllables or more and says nothing about a word of
 one. That silence is most of English verse. A line of six monosyllables carries no dictionary evidence
-at all, which made the method deaf to the ballads, the hymns and most of Dickinson — the poems whose
+at all, which made the method deaf to the ballads, the hymns and much of Dickinson — the poems whose
 metre is least in doubt. A reader is not deaf to them, because a reader knows which words carry the
 sense. So a monosyllable votes too, from a closed-class list of **129 words** (articles, prepositions,
 conjunctions, pronouns, auxiliaries), at **0.30** of a dictionary stress. It is worth a fraction because

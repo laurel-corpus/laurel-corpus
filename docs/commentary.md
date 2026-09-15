@@ -1,6 +1,7 @@
 # Editorial commentary
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 **76 works carry editorial notes: 18,220 in all.** They come from the public domain school and
 scholarly editions that printed them, and are shown against the stanza they belong to.

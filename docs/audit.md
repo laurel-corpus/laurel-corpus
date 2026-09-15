@@ -1,6 +1,7 @@
 # The audit
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 `audit.py` is nineteen checks in one run. Each answers a question with a yes or a list, so a report can be
 read in a minute and acted on without re-deriving anything. Nothing it does changes a file; it only looks.

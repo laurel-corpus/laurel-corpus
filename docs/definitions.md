@@ -1,6 +1,7 @@
 # Definitions
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 ## Webster's 1913
 
@@ -8,16 +9,21 @@ Word definitions come from *Webster's Revised Unabridged Dictionary* (1913),
 [Project Gutenberg ebook 29765](https://www.gutenberg.org/ebooks/29765), which is public domain and of
 roughly the right century for most of this library. It has **96,527 headwords** and 16 MB of them.
 
-Shipping all of it would be absurd, and shipping only the rare words the pipeline had flagged was worse
-— it left a reader meeting *wont*, *ere* or *still* in its old sense with nothing. So the headwords the
-library actually contains are kept and sharded by their first letters: **55,867 headwords in 406
-files**, a click loading one file of a few dozen kilobytes.
+Shipping all of it would be absurd, and shipping only the rare words the pipeline had flagged was worse:
+it left a reader meeting *wont*, *ere* or *still* in its old sense with nothing. So the site keeps the
+headwords the library actually contains, split into small files by first letters, so that looking a word
+up fetches a few dozen kilobytes rather than sixteen megabytes.
+
+**Those files are not in this repository.** They are a public domain dictionary re-cut, not a part of the
+corpus, and they would roughly double its size. `pipeline/webster.py` builds them from the Gutenberg
+ebook in one pass, and `pipeline/analyze.py` cuts the per-work glossaries from the result. What this
+repository ships is the method, not the dictionary.
 
 ## What each work carries
 
-Every work has its own glossary of the words in it that a reader is likely to want: **119,651 glossed
-words across 417 works**. Each entry holds the part of speech, the definition, the etymology where
-Webster gives one, and how often the word occurs in that work.
+Every work has its own glossary of the words in it that a reader is likely to want. Each entry holds the
+part of speech, the definition, the etymology where Webster gives one, and how often the word occurs in
+that work. `library.json` records how many words each work has glossed, under `stats.glossary_words`.
 
 ## Where Webster is the wrong dictionary
 

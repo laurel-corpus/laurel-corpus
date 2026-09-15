@@ -83,7 +83,12 @@ def build(score_only=False):
             # poem, saying which line of it he quoted and for what.
             auth = AUTH.get(slug, {}).get(s['id'])
             if auth:
-                same = name and name.split()[0] == auth['metre'].split()[0]
+                # An authority still outranks the measurement when the measurement declines to name
+                # anything. analyse() now withholds a name from a poem whose lines are not lengths the
+                # metre can make, and it returns the foot regardless, so the two can still be compared:
+                # a scholar who says trochaic and a measurement that reads trochaic agree, whether or
+                # not the measurement was willing to publish a length of its own.
+                same = (name.split()[0] if name else foot) == auth['metre'].split()[0]
                 if name and name != auth['metre']:
                     disagree.append((slug, s['id'], auth['metre'], name, auth['cite'], bool(same)))
                 if same:

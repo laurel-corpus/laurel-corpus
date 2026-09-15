@@ -503,6 +503,36 @@ def refit(text, target):
     return out
 
 
+# A metre is a claim about line length as well as about the foot, and the claim is checkable: an
+# octameter line has sixteen syllables, or fifteen when the last slack is dropped, or seventeen with one
+# over. Anything else is not a line of that metre at all.
+#
+# Named stanza patterns answer differently, because their whole point is that the lengths alternate.
+# Common measure is four feet answered by three, so eight syllables and six are both right and testing
+# it against a single number would condemn every ballad in the library.
+def legal_lengths(foot, feet, name=None):
+    """The syllable counts a metre admits, give or take a syllable at the end."""
+    counts = None
+    if name:
+        for (f, shape), label in PATTERNS.items():
+            if label == name and f == foot:
+                counts = set(shape); break
+    if counts is None:
+        counts = {feet}
+    out = set()
+    for n in counts:
+        base = len(FEET[foot]) * n
+        out.update((base - 1, base, base + 1))
+    return out
+
+# How much of a poem has to be in the metre before the metre may be named. Below this the poem is left
+# without one, which is the honest answer and the one the reader can act on: William Barnes's Dorset
+# poems were coming out 'anapaestic tetrameter' with not one line of forty at that length.
+#
+# Half is deliberately lenient. It is not a claim that half a poem scanning is good enough to be
+# interesting, only that below half the name is describing something other than the poem in front of it.
+FIT = 0.5
+
 def analyse(lines, stanzas=None):
     """(label, confidence, foot, feet) -- everything known about a poem's metre.
 
@@ -534,6 +564,14 @@ def analyse(lines, stanzas=None):
     if not name:
         L = LENGTHS.get(feet)
         name = '%s %s' % (foot, L) if L else None
+    # Last, the check the confidence cannot make. Agreement measures how well the words fall into the
+    # pattern, and a poem can agree handsomely while being the wrong shape entirely: the poems this
+    # catches sit at 0.81 agreement, comfortably over the floor, with none of their lines the right
+    # length. Raising the floor instead would have silenced four good poems for every bad one.
+    if name:
+        ok = legal_lengths(foot, feet, name)
+        if sum(1 for e in evs if len(e) in ok) < FIT * len(evs):
+            return None, conf, foot, feet
     return name, conf, foot, feet
 
 def describe(lines, stanzas=None):

@@ -1,6 +1,7 @@
 # Original-language texts
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 17 works carry their original beside the English. Two things are done with them.
 

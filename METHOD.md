@@ -46,11 +46,12 @@ whether the scanner still believes a sonnet is in iambic pentameter.
 
 | | |
 |---|---|
+| [Glossary](docs/glossary.md) | every term used anywhere in this repository, with an example: foot, catalexis, caesura, hapax, z-score. Start here if any of the others assume something you have not been told |
 | [Texts](docs/texts.md) | which editions the poems come from, how they were cleaned, and why the choice of edition is this corpus's weakest point |
 | [Syllables, stress and metre](docs/scansion.md) | steps 2 to 5 above in full: how syllables are counted, what counts as evidence for a stress, how the templates are built, and how a metre is finally settled |
 | [Accuracy](docs/accuracy.md) | how well the scansion agrees with prosodists who did it by hand, on data held back from the design; and three ways that score flatters itself |
 | [Rhyme](docs/rhyme.md) | how end words are reduced to a rhyme key, how stanzas are lettered, and what happens to rhymes that have drifted apart since they were written |
-| [Measures](docs/measures.md) | the per-work figures — alliteration, vocabulary range, run-on lines — each given against a baseline so the number means something |
+| [Measures](docs/measures.md) | the per-work figures in `data/measures/`: alliteration, assonance, caesura, feminine endings, vocabulary range, each given against a baseline so the number means something |
 | [Definitions](docs/definitions.md) | where the glossaries come from, and the poets for whom a 1913 dictionary is the wrong one |
 | [Commentary](docs/commentary.md) | the editors' notes carried from the source editions, and how they are attached to lines |
 | [Original-language texts](docs/languages.md) | the Latin and Greek beside their translations: how quantity is scanned, and how a translation is lined up with its original |

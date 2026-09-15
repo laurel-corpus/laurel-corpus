@@ -1,6 +1,7 @@
 # The texts
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 ## Where they come from
 
@@ -31,12 +32,13 @@ them a poem whose entire text was Ancient Greek.
 
 Where the source text is wrong, the change is recorded rather than made silently. Every alteration this
 project made to a text is listed in `data/editions.json` under `changes`, and readers can see them on
-the site. **10 corrections** are recorded across the library at present.
+the site. The reason for each is recorded with it, in `pipeline/corrections.json`, which is the list the
+build actually applies: what was changed, in which work, and on whose authority.
 
 ## What edition a reader is actually reading
 
 A poem is not a fixed object. It is a particular edition, made by a particular editor, from particular
-copies. `data/editions.json` records all of it for **417 works**:
+copies. `data/editions.json` records all of it, for every work in the library:
 
 | field | what it holds |
 |---|---|

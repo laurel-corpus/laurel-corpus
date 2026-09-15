@@ -1,12 +1,19 @@
 # Rhyme
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 ## What counts as a rhyme
 
 Two lines rhyme when their last words share a **rhyme key**: the stressed vowel of the final foot and
 everything after it, taken from the [CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict).
 `prove` is `UW1 V`, `love` is `AH1 V`, and they do not match.
+
+Those codes are the dictionary's own alphabet for the sounds of English, one code to a sound: `UW` is
+the vowel in *boot*, `AH` the vowel in *but*, `V` the consonant at the end of both words. The digit on a
+vowel is its stress, `1` for the syllable you lean on and `0` for one you do not. So *prove* and *love*
+end on the same consonant after different vowels, which is why they look like a rhyme on the page and
+are not one in the mouth.
 
 Three rules keep the key from matching things that do not rhyme:
 

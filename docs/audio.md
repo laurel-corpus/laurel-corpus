@@ -1,6 +1,7 @@
 # Audio timings
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 Where `data/audio/<work>.json` exists, each poem carries the second at which every line is spoken in a
 LibriVox recording, along with the reader's name and the project.

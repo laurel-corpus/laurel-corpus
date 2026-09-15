@@ -15,27 +15,58 @@ one of them.
 
 ## What is in a line
 
-Every line is encoded twice over.
+If you already know what iambic pentameter is, skip to the example. If not, here is the whole of it in
+four sentences.
+
+English words have a syllable you lean on: *GAR-den*, *a-BOVE*. A metre is a pattern of leaned-on and
+not-leaned-on syllables that a poem keeps to. **Iambic pentameter**, much the commonest metre in
+English, is that pattern ten syllables long, alternating, starting soft: *da-DUM da-DUM da-DUM da-DUM
+da-DUM*. Marking which syllables of a line carry the beat is called **scansion**, and it is what this
+corpus does to every line of every poem.
+
+The interesting part is that poems do not keep to their metre exactly, and the places they break it are
+not mistakes. They are where the poem does its work. So every line here is written down **twice**: once
+as the metre asks for it, and once as the words themselves insist on it.
 
 ```xml
-<l n="6" real="+-x+-x-+-x" met="-+-+-+-+-+">Making a famine where abundance lies,</l>
+<l n="7" real="+-x+-x-+-x" met="-+-+-+-+-+">Making a famine where abundance lies,</l>
 ```
 
-`@real` is the stress the words themselves settle: taken from a pronouncing dictionary, together with
-this poem's own syllabification. `@met` is the stress the poem's metre asks for.
+* `met` is what the metre asks for. Sonnet 1 is iambic pentameter, so it alternates without exception.
+* `real` is what the words settle on their own, from a pronouncing dictionary and this poem's own
+  syllable counts.
 
-* `+` a stressed syllable
-* `-` an unstressed syllable
-* `x` a syllable the dictionary does not settle, which the metre may take either way
+Reading the marks:
 
-Keeping both is the point of the corpus, and this line shows why. Sonnet 1 is iambic pentameter, so
-`@met` alternates without exception. But the words open `+-`: "MAK-ing", stressed first. That is a
-trochee standing in the first foot of an iambic line — the commonest substitution in English verse, and
-the reason the line does not sound mechanical. Compare the two attributes and the corpus tells you
-exactly where it happens, in every line of every poem. A corpus that stores only the metre, or only the
-words, cannot tell you at all.
+* `+` a stressed syllable, one you lean on
+* `-` an unstressed one
+* `x` a syllable the dictionary does not settle, which the metre is free to take either way
 
-The third example under *Getting started* below does this comparison across a whole work.
+Now line them up:
+
+```
+     Mak- ing  a   fam- ine where  a-  bun- dance lies
+met   -    +    -    +    -    +    -    +    -    +
+real  +    -    x    +    -    x    -    +    -    x
+      ^    ^
+```
+
+The metre wants the line to open softly and lean on the second syllable. The word will not let it:
+*Making* is **MAK**-ing, and no reader says *ma-KING*. So the first two syllables are the wrong way
+round, and everything after them falls back into step. That is a **trochaic inversion**, a reversed
+foot at the head of the line, and it is the commonest thing a poet does to an iambic line. Shakespeare
+uses it here to put the weight on *Making*.
+
+Most of the line is `x`, and that is not a gap in the dictionary. It is a fact about English: whether
+*where* or *lies* carries a beat is decided by the line it sits in, not by the word. Those syllables
+the metre may take as it likes, and they are marked as open rather than guessed at.
+
+Keeping both rows is the point of the corpus. A corpus that stores only the metre cannot tell you where
+a poem departs from it. A corpus that stores only the words cannot tell you that a departure is what it
+is. The third example under **Getting started** below runs this comparison across a whole work.
+
+**Every term used in this repository is defined in [docs/glossary.md](docs/glossary.md)**, with an
+example: foot, catalexis, caesura, hapax, z-score and the rest. Nothing else assumes you have read it.
 
 The notation is declared in each file's `<metDecl>`, and follows
 [For Better For Verse](https://github.com/waynegraham/for_better_for_verse), the University of
@@ -138,15 +169,22 @@ it is stated wherever the figures are.
 
 ## Method, and where it is weak
 
-**[METHOD.md](METHOD.md)** is the index: twelve short documents, one per thing the corpus claims to know
+**[METHOD.md](METHOD.md)** is the index: thirteen short documents, one per thing the corpus claims to know
 — how a metre is determined and what counts as evidence, how accurate that has been measured to be, how
 rhyme is keyed, where the definitions come from, how a recording is aligned to its lines, and what the
 audit over the whole library last found.
 
 They are written to be checked rather than believed. Where a number flatters the method, the document
-says so. The known limits are collected at the foot of METHOD.md, and they include real ones: free verse
-is still given a metre it does not have, and a handful of pages that are not verse are scanned as though
-they were.
+says so, and the known limits are collected at the foot of METHOD.md.
+
+The largest of them has just been narrowed. A metre used to be named whenever the words fell into the
+pattern well enough, and a poem can do that while being the wrong shape entirely: William Barnes's
+Dorset poems were called anapaestic tetrameter with not one line of forty at that length. A metre is now
+named only where more than half a poem's lines are a length that metre can actually make. That is a test
+the confidence could not make, since the poems it catches were scoring 0.81 and better. It moved 1,388
+poems, about one in thirteen, from a wrong answer to no answer. What remains is that a poem with no
+metre is still not told apart from a poem whose metre could not be settled, and a handful of pages that
+are not verse are scanned as though they were.
 
 ## Licence
 

@@ -796,14 +796,24 @@ if __name__ == '__main__':
             if work.get(k) is not None: m[k] = work[k]
         m['source'] = work.get('source'); m['corrections'] = work.get('corrections', 0)
         m['sections'] = [{'id': s['id'], 'title': s['title'], 'short': s['short'], 'stanzas': len(s['stanzas']), 'themes': themes_for([l for st in s['stanzas'] for l in st])} for s in work['sections']]
-        # quality report: lines whose syllable count or rhyme breaks the pattern (likely OCR or parsing faults, or genuine irregularity)
-        expect = {'iambic pentameter': 10, 'mostly iambic pentameter': 10, 'trochaic octameter': 16}.get(work.get('meter'))
+        # Quality report: lines far off the length the work keeps, which are worth a human look. Some are
+        # scanning faults in the source text and some are the poet doing something on purpose, and this
+        # does not pretend to tell them apart.
+        #
+        # The length comes from the work itself rather than from a table of metres. A table only knew
+        # three metres, so every book in any other measure was checked against nothing; and it had to be
+        # told by name to forgive The Raven, whose refrain is deliberately short, which is a rule that
+        # holds for exactly one poem. A line that repeats at a length the poem uses on purpose is not
+        # suspect, so the lengths the work actually keeps are counted first and any of them is allowed.
+        syl_all = collections.Counter(r[6] for r in lines_out)
+        common = {n for n, c in syl_all.items() if c >= max(3, 0.05 * len(lines_out))}
         qc = []
-        for r in lines_out:
-            if expect and abs(r[6] - expect) > 2 and not (work['slug'] == 'the-raven' and r[2] == 5): qc.append({'sec': r[0], 'stanza': r[1], 'line': r[2], 'why': f'{r[6]} syllables, expected about {expect}', 'text': work['sections'][r[0]]['stanzas'][r[1]][r[2]]})
-        if known := work.get('scheme'):
-            for i, sch in enumerate(schemes):
-                pass
+        if common:
+            for r in lines_out:
+                if any(abs(r[6] - n) <= 2 for n in common): continue
+                qc.append({'sec': r[0], 'stanza': r[1], 'line': r[2],
+                           'why': f'{r[6]} syllables, where this work keeps to ' + ', '.join(str(n) for n in sorted(common)),
+                           'text': work['sections'][r[0]]['stanzas'][r[1]][r[2]]})
         json.dump(qc, open(os.path.join(WORKS, work['slug'] + '.qc.json'), 'w'), ensure_ascii=False, indent=0)
         m['stats']['suspect_lines'] = len(qc)
         library.append(m)

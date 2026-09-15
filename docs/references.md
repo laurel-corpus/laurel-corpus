@@ -1,6 +1,7 @@
 # Canonical references and permanent identity
 
-*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md).*
+*Part of the [Laurel corpus](../README.md) — see the [method index](../METHOD.md). Terms are defined in
+the [glossary](glossary.md).*
 
 A citation has to name the edition, not only the work. "The Iliad, line 1" is not a reference, because
 texts differ. The scheme follows CTS, which settled this for classical literature, and uses the same
