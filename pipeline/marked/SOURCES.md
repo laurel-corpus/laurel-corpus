@@ -115,8 +115,8 @@ is what a poem would have told the scanner:
 
 | ruler | lines | stress | lines fully right |
 |---|---|---|---|
-| Schipper 1910 | 493 | 89.4% | 54.6% |
-| Saintsbury 1910 | 164 | 78.6% | 37.9% |
+| Schipper 1910 | 493 | 89.5% | 54.8% |
+| Saintsbury 1910 | 164 | 78.6% | 38.5% |
 | Brown 1851 | 77 | 89.8% | 62.3% |
 | Latham 1841 | 40 | 91.8% | 71.1% |
 | Leigh 1840 | 19 | 97.6% | 78.9% |

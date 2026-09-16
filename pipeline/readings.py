@@ -48,39 +48,52 @@ def evidence_of(text, syls, codes):
     out.starts, out.breaks = tuple(starts), tuple(breaks)
     return out
 
+METRES = {}
+
+def read_work(w):
+    """One work's readings, for a pool worker: returns (slug, lines read, lines in all) or None."""
+    slug = w['slug']
+    path = os.path.join(WORKS, slug + '.lines.json')
+    if not os.path.exists(path): return None
+    ann = json.load(open(path, encoding='utf-8'))
+    work = json.load(open(os.path.join(WORKS, slug + '.json'), encoding='utf-8'))
+    secs = (METRES.get(slug) or {}).get('sections', {})
+    n_read = 0
+    for rec in ann['lines']:
+        while len(rec) <= READ: rec.append(None)
+        rec[READ] = None
+        sec = work['sections'][rec[0]]
+        m = secs.get(sec['id'])
+        if not m or len(m) < 5 or not m[3] or m[3] not in S.FEET: continue
+        foot, feet = m[3], m[4]
+        text = sec['stanzas'][rec[1]][rec[2]]
+        syls, codes = rec[8] or [], rec[7] or ''
+        if not syls or len(syls) != len(codes): continue
+        ev = evidence_of(text, syls, codes)
+        if ev is None or len(ev) != len(syls): continue
+        # the length the poem's own pass would give this line, then the best reading of that length
+        n = S.best_line(ev, foot, prefer=feet, cost=False)[2]
+        tpl = S.reading(ev, foot, prefer=feet, feet=n or None)
+        if not tpl or len(tpl) != len(syls): continue
+        rec[READ] = tpl.replace('1', '+').replace('0', '-')
+        n_read += 1
+    json.dump(ann, open(path, 'w', encoding='utf-8'), separators=(',', ':'), ensure_ascii=False)
+    return slug, n_read, len(ann['lines'])
+
 def main(only):
-    metres = json.load(open(os.path.join(DATA, 'metres.json'), encoding='utf-8'))
+    global METRES
+    METRES = json.load(open(os.path.join(DATA, 'metres.json'), encoding='utf-8'))
     lib = json.load(open(os.path.join(DATA, 'library.json'), encoding='utf-8'))
+    works = [w for w in lib if not only or w['slug'] in only]
     total = read = 0
-    for w in lib:
-        slug = w['slug']
-        if only and slug not in only: continue
-        path = os.path.join(WORKS, slug + '.lines.json')
-        if not os.path.exists(path): continue
-        ann = json.load(open(path, encoding='utf-8'))
-        work = json.load(open(os.path.join(WORKS, slug + '.json'), encoding='utf-8'))
-        secs = (metres.get(slug) or {}).get('sections', {})
-        n_read = 0
-        for rec in ann['lines']:
-            total += 1
-            while len(rec) <= READ: rec.append(None)
-            rec[READ] = None
-            sec = work['sections'][rec[0]]
-            m = secs.get(sec['id'])
-            if not m or len(m) < 5 or not m[3] or m[3] not in S.FEET: continue
-            foot, feet = m[3], m[4]
-            text = sec['stanzas'][rec[1]][rec[2]]
-            syls, codes = rec[8] or [], rec[7] or ''
-            if not syls or len(syls) != len(codes): continue
-            ev = evidence_of(text, syls, codes)
-            if ev is None or len(ev) != len(syls): continue
-            tpl = S.reading(ev, foot, prefer=feet)
-            if not tpl or len(tpl) != len(syls): continue
-            rec[READ] = tpl.replace('1', '+').replace('0', '-')
-            n_read += 1
-        read += n_read
-        json.dump(ann, open(path, 'w', encoding='utf-8'), separators=(',', ':'), ensure_ascii=False)
-        print('%-24s %6d of %6d lines read' % (slug, n_read, len(ann['lines'])), flush=True)
+    # the works are independent and each writes its own file, so they go to a pool of workers
+    import multiprocessing as mp
+    with mp.get_context('fork').Pool(max(1, mp.cpu_count() - 2)) as pool:
+        for r in pool.imap_unordered(read_work, works, chunksize=1):
+            if not r: continue
+            slug, n_read, n = r
+            read += n_read; total += n
+            print('%-24s %6d of %6d lines read' % (slug, n_read, n), flush=True)
     print('%s of %s lines carry the scanner\'s reading' % (format(read, ','), format(total, ',')))
 
 if __name__ == '__main__':

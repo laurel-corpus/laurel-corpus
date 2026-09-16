@@ -175,6 +175,12 @@ def votes(core, sy):
 # feet instead of four, which turned a ballad stanza into 'iambic tetrameter' and lost the four-and-
 # three that makes it a ballad. Anapaestic verse takes iambs just as freely.
 SWAP = {'01': '001', '10': '100', '001': '01', '100': '10'}
+# How many feet in one line may swap length. One was enough for a stray anapaest in an iambic line
+# and not for the loose four-beat verse of the ballads and Christabel, 'Though the breath of these
+# flowers is sweet to me', where two or three feet swap and a strict reading counted six iambs where
+# the poet has four beats; a poem in that measure then lost its four-and-three and was named
+# tetrameter. Each swap still costs a unit, so the plain reading wins wherever it fits.
+MAX_SWAP = 2
 
 # A foot may also be replaced by another of the SAME length, which is what a metrist means by
 # substitution. Until now the scanner could only say 'iambic pentameter' or not; it had no way to say
@@ -232,10 +238,11 @@ def _place(i, n, rep, foot):
     if i == n - 1 and rep in (inverted, '00'): return 4.0
     return 1.0
 
-def _feet(foot, n, most=1):
+def _feet(foot, n, most=None):
     """Every way to walk n feet: up to `most` of them swapping length, and up to MAX_SUB replaced by a
     foot of the same length. Values are what the reading costs, so the plainest account of a line wins a
     tie and a line bent in three places loses to one that simply is in another metre."""
+    if most is None: most = MAX_SWAP
     alt = SWAP[foot]
     out = {}
     feetof = {}
@@ -402,7 +409,7 @@ def best_line(ev, foot, lo=1, hi=8, prefer=None, cost=True):
     if best is None: return 0.0, 0.0, 0
     return max(0.0, best[2]), best[3], best[1]
 
-def reading(ev, foot, prefer=None):
+def reading(ev, foot, prefer=None, feet=None):
     """The template the scanner reads a line by, in a settled foot: '0100101010' for 'the fire indeed
     from whence they caused be', or None where no template of the line's length exists.
 
@@ -411,7 +418,12 @@ def reading(ev, foot, prefer=None):
     the site used to fill a monosyllable in with. Charged for substitutions as the foot decision is,
     because the question here is which reading, not how many feet.
     """
-    best = _best(ev, foot, 1, 8, prefer, True)
+    # `feet` holds the reading to a length. The poem settles how many feet a line has without
+    # charging for substitutions, which is how 'Though the breath of these flowers is sweet to me'
+    # comes out four; charged, three anapaests cost more than six iambs, and the reading came back
+    # with six beats in a four-beat line. Held to four, it is the best charged reading OF four.
+    lo, hi = (feet, feet) if feet else (1, 8)
+    best = _best(ev, foot, lo, hi, prefer, True)
     return best[4] if best else None
 
 def _best(ev, foot, lo, hi, prefer, cost):
@@ -542,9 +554,12 @@ def pattern_of(foot, stanzas):
     import itertools
     cols = []
     for i in range(k):
+        # The two commonest lengths in each position, not the one. Longfellow's Reaper runs 4/3/4/3
+        # in four stanzas of seven and 4/3/4/4 in the rest; the last position's commonest length was
+        # four by one stanza, only (4,3,4,4) was tried, and no such pattern exists, so a poem in common
+        # measure was named tetrameter. The 60% floor below still decides whether a shape is kept.
         col = collections.Counter(r[i] for r in rows)
-        top = max(col.values())
-        cols.append(sorted((v for v, n in col.items() if n >= top), reverse=True)[:3])
+        cols.append([v for v, n in col.most_common(2)])
     best = None
     for combo in itertools.product(*cols):
         agree = sum(sum(1 for r in rows if r[i] == combo[i]) for i in range(k))

@@ -71,6 +71,17 @@ Control, scored once after, read at the asked length: syllable count agrees 95.0
 scored for 436, 338 fully right for 327 (74.9%), stress in the poem's metre 92.9%; end to end, a wrong
 count counting as a wrong line, 70.5% → 73.2%.
 
+**A line may swap the length of two feet, not one** (`MAX_SWAP` in `_feet()`). One swap was enough
+for a stray anapaest in an iambic line and not for the loose four-beat verse of the ballads and
+Christabel: 'Though the breath of these flowers is sweet to me' needs three, was read as six iambs,
+and Longfellow's Reaper lost its four-and-three and was named tetrameter. Each swap still costs a
+unit, so the plain reading wins wherever it fits; the iambic template count goes from 13,357 to
+33,739. Result: Saintsbury 37.9% → 38.5% of lines, Schipper 54.6% → 54.8% and stress 89.4% → 89.5%,
+Haider development 75.6% → 75.7%, blank verse wrongly not iambic 0.7% → 0.6%, nothing worse. Two
+changes went in beside it that the battery cannot see: `pattern_of` tries the two commonest lengths
+in each stanza position, so the Reaper is named common measure; and `readings.py` holds a line's
+reading to the length the poem's own pass settled, so a four-beat line is no longer shown with six.
+
 ## Rejected
 
 **The pyrrhic-and-spondee as one unit.** Groves's "swap": the two feet are one figure, in 7-9% of

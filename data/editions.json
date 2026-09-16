@@ -52,13 +52,23 @@
   },
   "changes": [
    "the Project Gutenberg header, footer and licence were removed",
-   "1 misprint corrected against another edition, each listed below"
+   "3 misprints corrected against another edition, each listed below"
   ],
   "corrections": [
    {
     "from": "intermix’d’?",
     "to": "intermix’d?",
     "why": "stray apostrophe; #1105 reads intermixed?"
+   },
+   {
+    "from": "respose",
+    "to": "repose",
+    "why": "misprint in Project Gutenberg #1041; 'respose' is not a word. The 1609 Quarto and the Folger Shakespeare both read 'repose'. Found by diffing this text against Folger Digital Texts."
+   },
+   {
+    "from": "debarre’d",
+    "to": "debarr’d",
+    "why": "misprint in Project Gutenberg #1041, an extra e. The Folger Shakespeare reads 'debarred'. Found by diffing this text against Folger Digital Texts."
    }
   ],
   "rights": {
@@ -176,7 +186,7 @@
   "reprint_year": 1909
  },
  "shelley-poems": {
-  "title": "Adonais, and other poems",
+  "title": "The Complete Poetical Works, Volume I",
   "author": "Percy Bysshe Shelley",
   "translator": null,
   "poem_dated": null,
@@ -264,35 +274,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "keats-endymion": {
-  "title": "Endymion: A Poetic Romance",
-  "author": "John Keats",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1818,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 24280,
-   "url": "https://www.gutenberg.org/ebooks/24280",
-   "title_as_published": "Endymion: A Poetic Romance"
-  },
-  "printed": {
-   "transcribed_by": "Jonathan Ingram, Michael Roe and the Online",
-   "gutenberg_released": "January 14, 2008"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "keats-1817": {
   "title": "Poems (1817)",
   "author": "John Keats",
@@ -323,7 +304,7 @@
   "reprint_year": null
  },
  "goldsmith-poems": {
-  "title": "The Deserted Village, and other poems",
+  "title": "Poems",
   "author": "Oliver Goldsmith",
   "translator": null,
   "poem_dated": null,
@@ -359,7 +340,7 @@
   "reprint_year": null
  },
  "holmes-poems": {
-  "title": "The Last Leaf, and other poems",
+  "title": "Poetical Works, Volume I",
   "author": "Oliver Wendell Holmes",
   "translator": null,
   "poem_dated": null,
@@ -386,36 +367,6 @@
   "critical": [],
   "edition_named": false,
   "reprint_year": null
- },
- "dunbar-poems": {
-  "title": "We Wear the Mask, and other poems",
-  "author": "Paul Laurence Dunbar",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1905,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 18338,
-   "url": "https://www.gutenberg.org/ebooks/18338",
-   "title_as_published": "The Complete Poems of Paul Laurence Dunbar"
-  },
-  "printed": {
-   "transcribed_by": "Leonard Johnson and the Online Distributed",
-   "gutenberg_released": "May 7, 2006",
-   "printed_edition": "W. D. HOWELLS | NEW YORK | DODD, MEAD AND COMPANY | 1922"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1922
  },
  "crane-black-riders": {
   "title": "The Black Riders and Other Lines",
@@ -490,34 +441,6 @@
   "printed": {
    "transcribed_by": "David Maddock",
    "gutenberg_released": "May 1, 2004"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
- "lindsay-congo": {
-  "title": "The Congo and Other Poems",
-  "author": "Vachel Lindsay",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1914,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 1021,
-   "url": "https://www.gutenberg.org/ebooks/1021",
-   "title_as_published": "The Congo, and Other Poems"
-  },
-  "printed": {
-   "gutenberg_released": "August 1, 1997"
   },
   "changes": [
    "the Project Gutenberg header, footer and licence were removed"
@@ -914,7 +837,7 @@
   "reprint_year": null
  },
  "bridges-shorter-poems": {
-  "title": "London Snow, and other poems",
+  "title": "Poetical Works",
   "author": "Robert Bridges",
   "translator": null,
   "poem_dated": null,
@@ -944,7 +867,7 @@
   "reprint_year": null
  },
  "lazarus-poems": {
-  "title": "The New Colossus, and other poems",
+  "title": "Poems, Volume I",
   "author": "Emma Lazarus",
   "translator": null,
   "poem_dated": null,
@@ -1148,35 +1071,6 @@
   "edition_named": true,
   "reprint_year": 1920
  },
- "graves-fairies": {
-  "title": "Fairies and Fusiliers",
-  "author": "Robert Graves",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1917,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 10122,
-   "url": "https://www.gutenberg.org/ebooks/10122",
-   "title_as_published": "Fairies and Fusiliers"
-  },
-  "printed": {
-   "transcribed_by": "Ted Garvin, Sjaani, and Project Gutenberg Distributed Proofreaders",
-   "gutenberg_released": "November 1, 2003"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "mew-farmers-bride": {
   "title": "The Farmer's Bride",
   "author": "Charlotte Mew",
@@ -1208,7 +1102,7 @@
   "reprint_year": 1921
  },
  "rosenberg-poems": {
-  "title": "Break of Day in the Trenches, and other poems",
+  "title": "Poems",
   "author": "Isaac Rosenberg",
   "translator": null,
   "poem_dated": null,
@@ -1297,7 +1191,7 @@
   "reprint_year": null
  },
  "moore-poems": {
-  "title": "Poetry, and other poems",
+  "title": "Poems",
   "author": "Marianne Moore",
   "translator": null,
   "poem_dated": null,
@@ -1355,37 +1249,8 @@
   "edition_named": true,
   "reprint_year": 1921
  },
- "frost-new-hampshire": {
-  "title": "New Hampshire",
-  "author": "Robert Frost",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1923,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 58611,
-   "url": "https://www.gutenberg.org/ebooks/58611",
-   "title_as_published": "New Hampshire, A Poem; with Notes and Grace Notes"
-  },
-  "printed": {
-   "transcribed_by": "Al Haines, Mark Akrigg, Stephen Hutcheson &",
-   "gutenberg_released": "January 4, 2019"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "drayton-minor-poems": {
-  "title": "Treasurer for the English Colony in Virginia, and other poems",
+  "title": "Minor Poems",
   "author": "Michael Drayton",
   "translator": null,
   "poem_dated": null,
@@ -1550,35 +1415,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "burns-poems": {
-  "title": "A Red, Red Rose, and other poems",
-  "author": "Robert Burns",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1796,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 1279,
-   "url": "https://www.gutenberg.org/ebooks/1279",
-   "title_as_published": "Poems and Songs of Robert Burns"
-  },
-  "printed": {
-   "transcribed_by": "David Widger and an Anonymous Project Gutenberg Volunteer",
-   "gutenberg_released": "January 25, 2005"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "milton-paradise-lost": {
   "title": "Paradise Lost",
   "author": "John Milton",
@@ -1619,36 +1455,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "pope-rape-of-the-lock": {
-  "title": "The Rape of the Lock",
-  "author": "Alexander Pope",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1712,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 9800,
-   "url": "https://www.gutenberg.org/ebooks/9800",
-   "title_as_published": "The Rape of the Lock, and Other Poems"
-  },
-  "printed": {
-   "transcribed_by": "Clytie Siddall, Charles Aldarondo, Tiffany",
-   "gutenberg_released": "January 1, 2006"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the front matter before the poem was dropped"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "tennyson-idylls": {
   "title": "Idylls of the King",
   "author": "Alfred Tennyson",
@@ -1677,35 +1483,6 @@
   "critical": [],
   "edition_named": false,
   "reprint_year": null
- },
- "tennyson-poems": {
-  "title": "The Charge of the Light Brigade, and other poems",
-  "author": "Alfred Tennyson",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1842,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 56913,
-   "url": "https://www.gutenberg.org/ebooks/56913",
-   "title_as_published": "Maud, and Other Poems"
-  },
-  "printed": {
-   "gutenberg_released": "April 3, 2018",
-   "printed_edition": "A NEW EDITION. | LONDON: | EDWARD MOXON & Co., DOVER STREET. | 1859."
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1859
  },
  "browning-dramatic-lyrics": {
   "title": "Dramatic Lyrics",
@@ -1741,36 +1518,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "browning-men-and-women": {
-  "title": "Men and Women",
-  "author": "Robert Browning",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1855,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 17393,
-   "url": "https://www.gutenberg.org/ebooks/17393",
-   "title_as_published": "Men and Women"
-  },
-  "printed": {
-   "transcribed_by": "Dick Adicks",
-   "gutenberg_released": "December 26, 2005",
-   "printed_edition": "edition of Browning's poems published by Thomas Y. Crowell and | Company, New York, in 1898. | Editing conventions: The digraphs have been silently rendered as | \"ae\" or \"oe.\""
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1898
- },
  "barrett-browning-sonnets": {
   "title": "Sonnets from the Portuguese",
   "author": "Elizabeth Barrett Browning",
@@ -1801,7 +1548,7 @@
   "reprint_year": null
  },
  "dickinson-poems": {
-  "title": "The Chariot, and other poems",
+  "title": "Poems",
   "author": "Emily Dickinson",
   "translator": null,
   "poem_dated": null,
@@ -1868,7 +1615,7 @@
   "reprint_year": null
  },
  "poe-poems": {
-  "title": "The Raven, and other poems",
+  "title": "The Complete Poetical Works",
   "author": "Edgar Allan Poe",
   "translator": null,
   "poem_dated": null,
@@ -2033,7 +1780,7 @@
   "reprint_year": null
  },
  "hopkins-poems": {
-  "title": "The Windhover, and other poems",
+  "title": "Poems",
   "author": "Gerard Manley Hopkins",
   "translator": null,
   "poem_dated": null,
@@ -2184,36 +1931,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "yeats-responsibilities": {
-  "title": "Responsibilities",
-  "author": "W. B. Yeats",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1914,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 36865,
-   "url": "https://www.gutenberg.org/ebooks/36865",
-   "title_as_published": "Responsibilities, and other poems"
-  },
-  "printed": {
-   "transcribed_by": "Meredith Bach, David Garcia and the Online",
-   "gutenberg_released": "July 27, 2011",
-   "printed_edition": "BY WILLIAM BUTLER YEATS | =New York= | THE MACMILLAN COMPANY | 1916"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1916
- },
  "frost-north-of-boston": {
   "title": "North of Boston",
   "author": "Robert Frost",
@@ -2302,7 +2019,7 @@
   "reprint_year": null
  },
  "owen-poems": {
-  "title": "Anthem for Doomed Youth, and other poems",
+  "title": "Poems",
   "author": "Wilfred Owen",
   "translator": null,
   "poem_dated": null,
@@ -2419,75 +2136,8 @@
   "edition_named": true,
   "reprint_year": null
  },
- "donne-poems": {
-  "title": "The Flea, and other poems",
-  "author": "John Donne",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1633,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 48688,
-   "url": "https://www.gutenberg.org/ebooks/48688",
-   "title_as_published": "The Poems of John Donne, Volume 1 (of 2)\nEdited from the Old Editions and Numerous Manuscripts"
-  },
-  "printed": {
-   "transcribed_by": "Jonathan Ingram, Lesley Halamek, Stephen Rowland",
-   "gutenberg_released": "April 12, 2015",
-   "printed_edition": "THE TEXT OF THE POEMS WITH APPENDIXES | OXFORD | AT THE CLARENDON PRESS | 1912"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [
-   {
-    "edition": "The Variorum Edition of the Poetry of John Donne (Indiana, 1995– )",
-    "why": "the manuscript tradition in full; Donne circulated in manuscript and the texts differ",
-    "find": "https://search.worldcat.org/search?q=Variorum+Edition+Poetry+of+John+Donne"
-   }
-  ],
-  "edition_named": true,
-  "reprint_year": 1912
- },
- "herrick-hesperides": {
-  "title": "Hesperides",
-  "author": "Robert Herrick",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1648,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 22421,
-   "url": "https://www.gutenberg.org/ebooks/22421",
-   "title_as_published": "The Hesperides & Noble Numbers: Vol. 1 and 2"
-  },
-  "printed": {
-   "transcribed_by": "Stephen Blundell and the Online Distributed Proofreading Team",
-   "gutenberg_released": "August 28, 2007"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "running heads and stray printer’s marks were removed",
-   "the edition’s word glosses were moved out of the verse and into the commentary"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "gray-poems": {
-  "title": "Elegy Written in a Country Churchyard, and other poems",
+  "title": "Poems",
   "author": "Thomas Gray",
   "translator": null,
   "poem_dated": null,
@@ -2627,37 +2277,8 @@
   "edition_named": true,
   "reprint_year": 1883
  },
- "clare-poems": {
-  "title": "I Am! Yet What I Am, and other poems",
-  "author": "John Clare",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1835,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 52601,
-   "url": "https://www.gutenberg.org/ebooks/52601",
-   "title_as_published": "Poems"
-  },
-  "printed": {
-   "transcribed_by": "Larry B. Harrison, Chuck Greif and the Online",
-   "gutenberg_released": "July 18, 2016"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "hood-poems": {
-  "title": "A Tale of a Trumpet, and other poems",
+  "title": "Poems",
   "author": "Thomas Hood",
   "translator": null,
   "poem_dated": null,
@@ -2686,7 +2307,7 @@
   "reprint_year": null
  },
  "arnold-poems": {
-  "title": "Dover Beach, and other poems",
+  "title": "Poems",
   "author": "Matthew Arnold",
   "translator": null,
   "poem_dated": null,
@@ -2805,34 +2426,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "stevenson-childs-garden": {
-  "title": "A Child's Garden of Verses",
-  "author": "Robert Louis Stevenson",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1885,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 136,
-   "url": "https://www.gutenberg.org/ebooks/136",
-   "title_as_published": "A Child's Garden of Verses"
-  },
-  "printed": {
-   "gutenberg_released": "June 1, 1994"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "lear-nonsense": {
   "title": "A Book of Nonsense",
   "author": "Edward Lear",
@@ -2893,7 +2486,7 @@
   "reprint_year": null
  },
  "bryant-poems": {
-  "title": "Thanatopsis, and other poems",
+  "title": "Poems",
   "author": "William Cullen Bryant",
   "translator": null,
   "poem_dated": null,
@@ -2923,7 +2516,7 @@
   "reprint_year": null
  },
  "emerson-poems": {
-  "title": "The Rhodora, and other poems",
+  "title": "Poems",
   "author": "Ralph Waldo Emerson",
   "translator": null,
   "poem_dated": null,
@@ -2937,34 +2530,6 @@
   "printed": {
    "transcribed_by": "Etxt produced by Juliet Sutherland and PG Distributed Proofreaders",
    "gutenberg_released": "July 7, 2004"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
- "lanier-poems": {
-  "title": "The Marshes of Glynn, and other poems",
-  "author": "Sidney Lanier",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1884,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 579,
-   "url": "https://www.gutenberg.org/ebooks/579",
-   "title_as_published": "The Poems of Sidney Lanier"
-  },
-  "printed": {
-   "gutenberg_released": "July 1, 1996"
   },
   "changes": [
    "the Project Gutenberg header, footer and licence were removed"
@@ -3187,7 +2752,7 @@
   "reprint_year": null
  },
  "thomas-edward-poems": {
-  "title": "Adlestrop, and other poems",
+  "title": "Poems",
   "author": "Edward Thomas",
   "translator": null,
   "poem_dated": null,
@@ -3334,39 +2899,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "percy-reliques": {
-  "title": "Reliques of Ancient English Poetry, Volume I",
-  "author": "Thomas Percy",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1765,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 45939,
-   "url": "https://www.gutenberg.org/ebooks/45939",
-   "title_as_published": "Reliques of Ancient English Poetry, Volume 1 (of 3)\nConsisting of Old Heroic Ballads, Songs and Other Pieces of Our Earlier Poets Together With Some Few of Later Date"
-  },
-  "printed": {
-   "transcribed_by": "Richard Tonsing, Jonathan Ingram and the Online",
-   "gutenberg_released": "June 11, 2014"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the front matter before the poem was dropped",
-   "the matter printed after the poem was dropped",
-   "the edition’s numbering was used for the section titles",
-   "running heads and stray printer’s marks were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "child-ballads": {
   "title": "English and Scottish Ballads, Volume I",
   "author": "Francis James Child",
@@ -3428,38 +2960,8 @@
   "edition_named": false,
   "reprint_year": null
  },
- "skelton-poems": {
-  "title": "Magnyfycence, and other poems",
-  "author": "John Skelton",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1529,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 59997,
-   "url": "https://www.gutenberg.org/ebooks/59997",
-   "title_as_published": "The Poetical Works of John Skelton, Volume 1 (of 2)"
-  },
-  "printed": {
-   "transcribed_by": "Jonathan Ingram and the Online Distributed",
-   "gutenberg_released": "July 28, 2019"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the matter printed after the poem was dropped"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "davies-poems": {
-  "title": "A Poeme of Dauncing, and other poems",
+  "title": "The Complete Poems, Volume I",
   "author": "John Davies",
   "translator": null,
   "poem_dated": null,
@@ -3519,7 +3021,7 @@
   "reprint_year": null
  },
  "corbet-poems": {
-  "title": "Iter Boreale, and other poems",
+  "title": "Poems",
   "author": "Richard Corbet",
   "translator": null,
   "poem_dated": null,
@@ -3547,37 +3049,8 @@
   "edition_named": false,
   "reprint_year": null
  },
- "stanley-lyrics": {
-  "title": "Original Lyrics",
-  "author": "Thomas Stanley",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1651,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 32986,
-   "url": "https://www.gutenberg.org/ebooks/32986",
-   "title_as_published": "Thomas Stanley:  His Original Lyrics, Complete, In Their Collated Readings of 1647, 1651, 1657.\nWith an Introduction, Textual Notes, a List of Editions, an Appendix of Translations, and a Portrait."
-  },
-  "printed": {
-   "transcribed_by": "Charlene Taylor, Walt Farrell and the Online",
-   "gutenberg_released": "June 27, 2010"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "waller-denham": {
-  "title": "Go, Lovely Rose!, and other poems",
+  "title": "Poetical Works",
   "author": "Edmund Waller",
   "translator": null,
   "poem_dated": null,
@@ -3725,7 +3198,7 @@
   "reprint_year": null
  },
  "swift-poems": {
-  "title": "A New Song on Wood's Halfpence, and other poems",
+  "title": "Poems, Volume II",
   "author": "Jonathan Swift",
   "translator": null,
   "poem_dated": null,
@@ -3755,7 +3228,7 @@
   "reprint_year": 1910
  },
  "young-night-thoughts": {
-  "title": "Edward Young, and other poems",
+  "title": "The Poetical Works, Volume II",
   "author": "Edward Young",
   "translator": null,
   "poem_dated": null,
@@ -3813,7 +3286,7 @@
   "reprint_year": null
  },
  "churchill-poems": {
-  "title": "The Rosciad, and other poems",
+  "title": "Poetical Works",
   "author": "Charles Churchill",
   "translator": null,
   "poem_dated": null,
@@ -3827,35 +3300,6 @@
   "printed": {
    "transcribed_by": "Jonathan Ingram, Thomas Berger, and the Distributed Proofreaders Team",
    "gutenberg_released": "July 1, 2005"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
- "beattie-minstrel": {
-  "title": "The Minstrel and Other Poems",
-  "author": "James Beattie",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1774,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 8695,
-   "url": "https://www.gutenberg.org/ebooks/8695",
-   "title_as_published": "The Poetical Works of Beattie, Blair, and Falconer\nWith Lives, Critical Dissertations, and Explanatory Notes"
-  },
-  "printed": {
-   "transcribed_by": "Jonathan Ingram, Clytie Siddall, Charles Franks",
-   "gutenberg_released": "August 1, 2005"
   },
   "changes": [
    "the Project Gutenberg header, footer and licence were removed"
@@ -3929,7 +3373,7 @@
   "reprint_year": null
  },
  "rogers-poems": {
-  "title": "The Pleasures of Memory Part I, and other poems",
+  "title": "Poems",
   "author": "Samuel Rogers",
   "translator": null,
   "poem_dated": null,
@@ -4016,7 +3460,7 @@
   "reprint_year": null
  },
  "bowles-sonnets": {
-  "title": "The Sylph of Summer, and other poems",
+  "title": "The Poetical Works, Volume I",
   "author": "William Lisle Bowles",
   "translator": null,
   "poem_dated": null,
@@ -4103,7 +3547,7 @@
   "reprint_year": null
  },
  "praed-poems": {
-  "title": "The Vicar, and other poems",
+  "title": "Poems",
   "author": "Winthrop Mackworth Praed",
   "translator": null,
   "poem_dated": null,
@@ -4278,37 +3722,8 @@
   "edition_named": false,
   "reprint_year": null
  },
- "timrod-poems": {
-  "title": "The Cotton Boll, and other poems",
-  "author": "Henry Timrod",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1867,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 845,
-   "url": "https://www.gutenberg.org/ebooks/845",
-   "title_as_published": "Poems of Henry Timrod; with Memoir"
-  },
-  "printed": {
-   "transcribed_by": "Alan Light, and David Widger",
-   "gutenberg_released": "March 1, 1997"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "harper-poems": {
-  "title": "The Present Age, and other poems",
+  "title": "Poems",
   "author": "Frances Ellen Watkins Harper",
   "translator": null,
   "poem_dated": null,
@@ -4426,7 +3841,7 @@
   "reprint_year": null
  },
  "cawein-poems": {
-  "title": "Intimations of the Beautiful, and other poems",
+  "title": "Poems",
   "author": "Madison Julius Cawein",
   "translator": null,
   "poem_dated": null,
@@ -4455,7 +3870,7 @@
   "reprint_year": null
  },
  "carman-later-poems": {
-  "title": "The Gate of Peace, and other poems",
+  "title": "Later Poems",
   "author": "Bliss Carman",
   "translator": null,
   "poem_dated": null,
@@ -4509,36 +3924,6 @@
   },
   "critical": [],
   "edition_named": false,
-  "reprint_year": null
- },
- "roberts-new-poems": {
-  "title": "New Poems",
-  "author": "Charles G. D. Roberts",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1919,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 59897,
-   "url": "https://www.gutenberg.org/ebooks/59897",
-   "title_as_published": "New Poems"
-  },
-  "printed": {
-   "transcribed_by": "Al Haines",
-   "gutenberg_released": "July 10, 2019",
-   "printed_edition": "Date of first publication: 1919 | London: Constable, 1919 | [first edition] | Date first posted: 3 January 2011"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
   "reprint_year": null
  },
  "crawford-poems": {
@@ -4780,35 +4165,6 @@
   "edition_named": true,
   "reprint_year": null
  },
- "evans-welsh": {
-  "title": "Specimens of the Poetry of the Ancient Welsh Bards",
-  "author": "Evan Evans",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1764,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 32767,
-   "url": "https://www.gutenberg.org/ebooks/32767",
-   "title_as_published": "Some Specimens of the Poetry of the Ancient Welsh Bards"
-  },
-  "printed": {
-   "transcribed_by": "Transcribed from the [1862] John Pryse, Llanidloes edition by David Price",
-   "gutenberg_released": "June 10, 2010"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "bell-ancient-poems": {
   "title": "Ancient Poems, Ballads and Songs of the Peasantry of England",
   "author": "Robert Bell",
@@ -4926,11 +4282,11 @@
   ],
   "corrections": [],
   "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": [
-    "a copyright notice dated 1991 is in the file, on matter this site does not use"
-   ]
+   "status": "review",
+   "reasons": [
+    "a copyright notice dated 1991 covers matter this site publishes"
+   ],
+   "cleared": []
   },
   "critical": [],
   "edition_named": true,
@@ -5031,7 +4387,7 @@
   "reprint_year": 1891
  },
  "henley-poems": {
-  "title": "Arabian Nights’ Entertainments, and other poems",
+  "title": "Poems",
   "author": "W. E. Henley",
   "translator": null,
   "poem_dated": null,
@@ -5061,7 +4417,7 @@
   "reprint_year": null
  },
  "johnson-lionel-poems": {
-  "title": "Winchester, and other poems",
+  "title": "Poems",
   "author": "Lionel Johnson",
   "translator": null,
   "poem_dated": null,
@@ -5180,7 +4536,7 @@
   "reprint_year": 1915
  },
  "freneau-poems": {
-  "title": "Columbus to Ferdinand, and other poems",
+  "title": "Poems",
   "author": "Philip Freneau",
   "translator": null,
   "poem_dated": null,
@@ -5240,7 +4596,7 @@
   "reprint_year": null
  },
  "ingelow-poems": {
-  "title": "Brothers, and a Sermon, and other poems",
+  "title": "Poems, Volume I",
   "author": "Jean Ingelow",
   "translator": null,
   "poem_dated": null,
@@ -5270,7 +4626,7 @@
   "reprint_year": 1896
  },
  "meynell-poems": {
-  "title": "Renouncement, and other poems",
+  "title": "Poems",
   "author": "Alice Meynell",
   "translator": null,
   "poem_dated": null,
@@ -5329,7 +4685,7 @@
   "reprint_year": null
  },
  "seeger-poems": {
-  "title": "I Have a Rendezvous with Death, and other poems",
+  "title": "Poems",
   "author": "Alan Seeger",
   "translator": null,
   "poem_dated": null,
@@ -5392,7 +4748,7 @@
   "reprint_year": null
  },
  "meredith-poems": {
-  "title": "Modern Love, and other poems",
+  "title": "Poems, Volume I",
   "author": "George Meredith",
   "translator": null,
   "poem_dated": null,
@@ -5451,7 +4807,7 @@
   "reprint_year": null
  },
  "traherne-poems": {
-  "title": "Wonder, and other poems",
+  "title": "Poetical Works",
   "author": "Thomas Traherne",
   "translator": null,
   "poem_dated": null,
@@ -5480,39 +4836,6 @@
   "critical": [],
   "edition_named": false,
   "reprint_year": null
- },
- "collins-poems": {
-  "title": "Ode to Evening, and other poems",
-  "author": "William Collins",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1746,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 29879,
-   "url": "https://www.gutenberg.org/ebooks/29879",
-   "title_as_published": "The Poetical Works of William Collins; With a Memoir"
-  },
-  "printed": {
-   "transcribed_by": "Juliet Sutherland, Katherine Ward, and the",
-   "gutenberg_released": "August 31, 2009",
-   "printed_edition": "[Illustration: _Perennis et Fragrans._] | BOSTON: | LITTLE, BROWN, AND COMPANY. | 1865."
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the front matter before the poem was dropped",
-   "the matter printed after the poem was dropped",
-   "running heads and stray printer’s marks were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1865
  },
  "benet-young-adventure": {
   "title": "Young Adventure",
@@ -5545,7 +4868,7 @@
   "reprint_year": null
  },
  "hemans-poems": {
-  "title": "Modern Greece, and other poems",
+  "title": "Poems",
   "author": "Felicia Hemans",
   "translator": null,
   "poem_dated": null,
@@ -5664,38 +4987,8 @@
   "edition_named": false,
   "reprint_year": null
  },
- "lawrence-amores": {
-  "title": "Amores",
-  "author": "D. H. Lawrence",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": 1916,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 22531,
-   "url": "https://www.gutenberg.org/ebooks/22531",
-   "title_as_published": "Amores: Poems"
-  },
-  "printed": {
-   "transcribed_by": "Lewis Jones",
-   "gutenberg_released": "September 7, 2007",
-   "printed_edition": "D. H. LAWRENCE | New York | B. W. Huebsch | 1916"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": null
- },
  "lowell-james-russell-poems": {
-  "title": "A Fable for Critics, and other poems",
+  "title": "Poems",
   "author": "James Russell Lowell",
   "translator": null,
   "poem_dated": null,
@@ -5711,9 +5004,21 @@
    "gutenberg_released": "January 7, 2012"
   },
   "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
+   "the Project Gutenberg header, footer and licence were removed",
+   "2 misprints corrected against another edition, each listed below"
   ],
-  "corrections": [],
+  "corrections": [
+   {
+    "from": "Peg\u001asus",
+    "to": "Pegasus",
+    "why": "Project Gutenberg 38520 carries a control character (U+001A) where the letter 'a' belongs, here and in 'Pegasus' earlier in the same book. Both are ordinary words rather than Lowell's Yankee spelling, and the character is not permitted in XML, so the text could not be published as TEI until it was repaired."
+   },
+   {
+    "from": "ch\u001amber",
+    "to": "chamber",
+    "why": "Project Gutenberg 38520 carries a control character (U+001A) where the letter 'a' belongs, here and in 'Pegasus' earlier in the same book. Both are ordinary words rather than Lowell's Yankee spelling, and the character is not permitted in XML, so the text could not be published as TEI until it was repaired."
+   }
+  ],
   "rights": {
    "status": "clear",
    "reasons": [],
@@ -5756,84 +5061,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "catullus-carmina": {
-  "title": "The Carmina",
-  "author": "Catullus",
-  "translator": "Richard Burton",
-  "poem_dated": -55,
-  "text_dated": 1894,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 20732,
-   "url": "https://www.gutenberg.org/ebooks/20732",
-   "title_as_published": "The Carmina"
-  },
-  "printed": {
-   "transcribed_by": "Ted Garvin, Keith Edkins and the Online",
-   "gutenberg_released": "March 3, 2007"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the original text printed above each translation was separated from it",
-   "the edition’s numbering was used for the section titles",
-   "the front matter before the poem was dropped",
-   "the matter printed after the poem was dropped"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [
-   {
-    "edition": "Catullus: A Commentary, ed. C. J. Fordyce (Oxford, 1961) and the text of D. F. S. Thomson (Toronto, 1997)",
-    "why": "the standard commentary and a modern critical text",
-    "find": "https://search.worldcat.org/search?q=Catullus+Thomson+Toronto+1997"
-   }
-  ],
-  "edition_named": false,
-  "reprint_year": null
- },
- "horace-odes": {
-  "title": "The Odes and Carmen Saeculare",
-  "author": "Horace",
-  "translator": "John Conington",
-  "poem_dated": -23,
-  "text_dated": 1863,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 5432,
-   "url": "https://www.gutenberg.org/ebooks/5432",
-   "title_as_published": "The Odes and Carmen Saeculare"
-  },
-  "printed": {
-   "transcribed_by": "David Moynihan, Charles Franks and the Online Distributed Proofreading Team",
-   "gutenberg_released": "April 1, 2004"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the edition’s numbering was used for the section titles",
-   "titles were corrected where the edition printed a subtitle in their place",
-   "the matter printed after the poem was dropped",
-   "the front matter before the poem was dropped"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [
-   {
-    "edition": "Horace: Odes, ed. Nisbet and Hubbard (Books I–II) and Nisbet and Rudd (Book III), Oxford",
-    "why": "the standard commentaries",
-    "find": "https://search.worldcat.org/search?q=Nisbet+Hubbard+Horace+Odes"
-   }
-  ],
-  "edition_named": false,
-  "reprint_year": null
- },
  "juvenal-satires": {
   "title": "The Satires",
   "author": "Juvenal",
@@ -5867,46 +5094,6 @@
     "edition": "Juvenal: The Satires, ed. S. M. Braund (Cambridge) and the text of W. V. Clausen (OCT)",
     "why": "the current text and commentary",
     "find": "https://search.worldcat.org/search?q=Juvenal+Braund+Cambridge"
-   }
-  ],
-  "edition_named": false,
-  "reprint_year": null
- },
- "homer-iliad": {
-  "title": "The Iliad",
-  "author": "Homer",
-  "translator": "Alexander Pope",
-  "poem_dated": -750,
-  "text_dated": 1720,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 6130,
-   "url": "https://www.gutenberg.org/ebooks/6130",
-   "title_as_published": "The Iliad"
-  },
-  "printed": {
-   "transcribed_by": "Anne Soulard, Juliet Sutherland, Charles Franks, and The Online Distributed Proofreading Team",
-   "gutenberg_released": "July 1, 2004"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [
-   {
-    "edition": "Homeri Ilias, ed. M. L. West (Teubner, 1998–2000)",
-    "why": "the current critical text of the Greek, with the fullest apparatus",
-    "find": "https://search.worldcat.org/search?q=Homeri+Ilias+West+Teubner"
-   },
-   {
-    "edition": "The Iliad: A Commentary, gen. ed. G. S. Kirk (Cambridge, 1985–1993), 6 vols",
-    "why": "the standard line-by-line commentary in English",
-    "find": "https://search.worldcat.org/search?q=Iliad+Commentary+Kirk+Cambridge"
    }
   ],
   "edition_named": false,
@@ -6193,36 +5380,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "orlando-furioso": {
-  "title": "Orlando Furioso",
-  "author": "Ludovico Ariosto",
-  "translator": "William Stewart Rose",
-  "poem_dated": 1532,
-  "text_dated": 1823,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 615,
-   "url": "https://www.gutenberg.org/ebooks/615",
-   "title_as_published": "Orlando Furioso"
-  },
-  "printed": {
-   "transcribed_by": "Douglas B. Killings",
-   "gutenberg_released": "August 1, 1996",
-   "printed_edition": "(1474-1533) | Translated by William Stewart Rose | This electronic edition was edited, proofed, and prepared by | corrections made September, 1995."
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1995
- },
  "jerusalem-delivered": {
   "title": "Jerusalem Delivered",
   "author": "Torquato Tasso",
@@ -6252,36 +5409,6 @@
   "critical": [],
   "edition_named": true,
   "reprint_year": null
- },
- "lusiads": {
-  "title": "The Lusiad",
-  "author": "Luís de Camões",
-  "translator": "William Julius Mickle",
-  "poem_dated": 1572,
-  "text_dated": 1776,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 32528,
-   "url": "https://www.gutenberg.org/ebooks/32528",
-   "title_as_published": "The Lusiad"
-  },
-  "printed": {
-   "transcribed_by": "Chuck Greif and the Online Distributed",
-   "gutenberg_released": "May 26, 2010",
-   "printed_edition": "_Editor of \"Cory's Ancient Fragments,\" \"The Principia Hebraica,\" etc., etc._ | LONDON: GEORGE BELL AND SONS, YORK STREET, | COVENT GARDEN. | 1877."
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1877
  },
  "lucretius-nature": {
   "title": "On the Nature of Things",
@@ -6378,36 +5505,6 @@
   "edition_named": true,
   "reprint_year": null
  },
- "tibullus-elegies": {
-  "title": "The Elegies",
-  "author": "Tibullus",
-  "translator": "Theodore Chickering Williams",
-  "poem_dated": -25,
-  "text_dated": 1905,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 9610,
-   "url": "https://www.gutenberg.org/ebooks/9610",
-   "title_as_published": "The Elegies"
-  },
-  "printed": {
-   "transcribed_by": "Ted Garvin, David Garcia and the Online",
-   "gutenberg_released": "January 1, 2006"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed",
-   "the front matter before the poem was dropped"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "dante-vita-nuova": {
   "title": "The New Life",
   "author": "Dante Alighieri",
@@ -6470,35 +5567,6 @@
     "find": "https://search.worldcat.org/search?q=Virgil+Georgics+Thomas+Cambridge"
    }
   ],
-  "edition_named": false,
-  "reprint_year": null
- },
- "lucan-pharsalia": {
-  "title": "Pharsalia",
-  "author": "Lucan",
-  "translator": "Edward Ridley",
-  "poem_dated": 61,
-  "text_dated": 1896,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 602,
-   "url": "https://www.gutenberg.org/ebooks/602",
-   "title_as_published": "Pharsalia"
-  },
-  "printed": {
-   "transcribed_by": "Douglas B. Killings",
-   "gutenberg_released": "July 1, 1996"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
   "edition_named": false,
   "reprint_year": null
  },
@@ -6590,35 +5658,6 @@
   "edition_named": false,
   "reprint_year": null
  },
- "garcilaso-works": {
-  "title": "The Works of Garcilasso de la Vega",
-  "author": "Garcilaso de la Vega",
-  "translator": "J. H. Wiffen",
-  "poem_dated": 1535,
-  "text_dated": 1823,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 49410,
-   "url": "https://www.gutenberg.org/ebooks/49410",
-   "title_as_published": "The Works of Garcilasso de la Vega"
-  },
-  "printed": {
-   "transcribed_by": "Josep Cols Canals, Judith Wirawan, and the",
-   "gutenberg_released": "July 10, 2015"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": false,
-  "reprint_year": null
- },
  "leopardi-poems": {
   "title": "The Poems of Leopardi",
   "author": "Giacomo Leopardi",
@@ -6679,7 +5718,7 @@
   "reprint_year": null
  },
  "verlaine-poems": {
-  "title": "Ariettes Oubliees, and other poems",
+  "title": "Poems",
   "author": "Paul Verlaine",
   "translator": "Gertrude Hall",
   "poem_dated": 1875,
@@ -6734,36 +5773,6 @@
   },
   "critical": [],
   "edition_named": false,
-  "reprint_year": null
- },
- "waley-chinese": {
-  "title": "A Hundred and Seventy Chinese Poems",
-  "author": "Various (Chinese)",
-  "translator": "Arthur Waley",
-  "poem_dated": 800,
-  "text_dated": 1918,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 42290,
-   "url": "https://www.gutenberg.org/ebooks/42290",
-   "title_as_published": "A Hundred and Seventy Chinese Poems"
-  },
-  "printed": {
-   "transcribed_by": "Henry Flower and the Online Distributed",
-   "gutenberg_released": "March 10, 2013",
-   "printed_edition": "[Illustration] | LONDON | CONSTABLE AND COMPANY LTD. | 1918"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
   "reprint_year": null
  },
  "lute-of-jade": {
@@ -6821,36 +5830,6 @@
   },
   "critical": [],
   "edition_named": false,
-  "reprint_year": null
- },
- "hafiz-divan": {
-  "title": "Poems from the Divan of Hafiz",
-  "author": "Hafiz",
-  "translator": "Gertrude Lowthian Bell",
-  "poem_dated": 1370,
-  "text_dated": 1897,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 74883,
-   "url": "https://www.gutenberg.org/ebooks/74883",
-   "title_as_published": "Poems from the Divan of Hafiz"
-  },
-  "printed": {
-   "transcribed_by": "Richard Tonsing and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive)",
-   "gutenberg_released": "December 12, 2024",
-   "printed_edition": "London: Heinemann, 1897"
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": "clear",
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
   "reprint_year": null
  },
  "poetic-edda": {
@@ -7053,7 +6032,7 @@
   "reprint_year": null
  },
  "obev-anonymous-english": {
-  "title": "The Nut-Brown Maid, and other poems",
+  "title": "Poems",
   "author": "Anonymous (English)",
   "translator": null,
   "poem_dated": null,
@@ -7086,7 +6065,7 @@
   "reprint_year": 1931
  },
  "obev-john-barbour": {
-  "title": "Freedom",
+  "title": "Poems",
   "author": "John Barbour",
   "translator": null,
   "poem_dated": null,
@@ -7117,7 +6096,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-hoccleve": {
-  "title": "Lament for Chaucer",
+  "title": "Poems",
   "author": "Thomas Hoccleve",
   "translator": null,
   "poem_dated": null,
@@ -7148,7 +6127,7 @@
   "reprint_year": 1931
  },
  "obev-robert-henryson": {
-  "title": "Robin and Makyne, and other poems",
+  "title": "Poems",
   "author": "Robert Henryson",
   "translator": null,
   "poem_dated": null,
@@ -7179,7 +6158,7 @@
   "reprint_year": 1931
  },
  "obev-stephen-hawes": {
-  "title": "The True Knight, and other poems",
+  "title": "Poems",
   "author": "Stephen Hawes",
   "translator": null,
   "poem_dated": null,
@@ -7210,7 +6189,7 @@
   "reprint_year": 1931
  },
  "obev-sir-thomas-wyatt": {
-  "title": "To His Lute, and other poems",
+  "title": "Poems",
   "author": "Sir Thomas Wyatt",
   "translator": null,
   "poem_dated": null,
@@ -7241,7 +6220,7 @@
   "reprint_year": 1931
  },
  "obev-henry-howard-earl-of-surrey": {
-  "title": "The Means to attain Happy Life, and other poems",
+  "title": "Poems",
   "author": "Henry Howard, Earl of Surrey",
   "translator": null,
   "poem_dated": null,
@@ -7272,7 +6251,7 @@
   "reprint_year": 1931
  },
  "obev-nicholas-grimald": {
-  "title": "A True Love",
+  "title": "Poems",
   "author": "Nicholas Grimald",
   "translator": null,
   "poem_dated": null,
@@ -7303,7 +6282,7 @@
   "reprint_year": 1931
  },
  "obev-robert-wever": {
-  "title": "In Youth is Pleasure",
+  "title": "Poems",
   "author": "Robert Wever",
   "translator": null,
   "poem_dated": null,
@@ -7336,7 +6315,7 @@
   "reprint_year": 1931
  },
  "obev-richard-edwardes": {
-  "title": "Amantium Iræ",
+  "title": "Poems",
   "author": "Richard Edwardes",
   "translator": null,
   "poem_dated": null,
@@ -7367,7 +6346,7 @@
   "reprint_year": 1931
  },
  "obev-george-gascoigne": {
-  "title": "A Lover’s Lullaby",
+  "title": "Poems",
   "author": "George Gascoigne",
   "translator": null,
   "poem_dated": null,
@@ -7398,7 +6377,7 @@
   "reprint_year": 1931
  },
  "obev-alexander-montgomerie": {
-  "title": "The Night is Near Gone",
+  "title": "Poems",
   "author": "Alexander Montgomerie",
   "translator": null,
   "poem_dated": null,
@@ -7429,7 +6408,7 @@
   "reprint_year": 1931
  },
  "obev-sir-walter-raleigh": {
-  "title": "Her Reply, and other poems",
+  "title": "Poems",
   "author": "Sir Walter Raleigh",
   "translator": null,
   "poem_dated": null,
@@ -7460,7 +6439,7 @@
   "reprint_year": 1931
  },
  "obev-john-lyly": {
-  "title": "Cards and Kisses, and other poems",
+  "title": "Poems",
   "author": "John Lyly",
   "translator": null,
   "poem_dated": null,
@@ -7491,7 +6470,7 @@
   "reprint_year": 1931
  },
  "obev-anthony-munday": {
-  "title": "Beauty Bathing",
+  "title": "Poems",
   "author": "Anthony Munday",
   "translator": null,
   "poem_dated": null,
@@ -7522,7 +6501,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-lodge": {
-  "title": "Rosalind’s Madrigal, and other poems",
+  "title": "Poems",
   "author": "Thomas Lodge",
   "translator": null,
   "poem_dated": null,
@@ -7553,7 +6532,7 @@
   "reprint_year": 1931
  },
  "obev-george-peele": {
-  "title": "Fair and Fair",
+  "title": "Poems",
   "author": "George Peele",
   "translator": null,
   "poem_dated": null,
@@ -7584,7 +6563,7 @@
   "reprint_year": 1931
  },
  "obev-robert-greene": {
-  "title": "Sephestia’s Lullaby, and other poems",
+  "title": "Poems",
   "author": "Robert Greene",
   "translator": null,
   "poem_dated": null,
@@ -7615,7 +6594,7 @@
   "reprint_year": 1931
  },
  "obev-alexander-hume": {
-  "title": "A Summer Day",
+  "title": "Poems",
   "author": "Alexander Hume",
   "translator": null,
   "poem_dated": null,
@@ -7646,7 +6625,7 @@
   "reprint_year": 1931
  },
  "obev-george-chapman": {
-  "title": "Bridal Song",
+  "title": "Poems",
   "author": "George Chapman",
   "translator": null,
   "poem_dated": null,
@@ -7677,7 +6656,7 @@
   "reprint_year": 1931
  },
  "obev-robert-southwell": {
-  "title": "The Burning Babe, and other poems",
+  "title": "Poems",
   "author": "Robert Southwell",
   "translator": null,
   "poem_dated": null,
@@ -7708,7 +6687,7 @@
   "reprint_year": 1931
  },
  "obev-henry-constable": {
-  "title": "On the Death of Sir Philip Sidney",
+  "title": "Poems",
   "author": "Henry Constable",
   "translator": null,
   "poem_dated": null,
@@ -7739,7 +6718,7 @@
   "reprint_year": 1931
  },
  "obev-mark-alexander-boyd": {
-  "title": "Sonet",
+  "title": "Poems",
   "author": "Mark Alexander Boyd",
   "translator": null,
   "poem_dated": null,
@@ -7770,7 +6749,7 @@
   "reprint_year": 1931
  },
  "obev-joshua-sylvester": {
-  "title": "Ubique",
+  "title": "Poems",
   "author": "Joshua Sylvester",
   "translator": null,
   "poem_dated": null,
@@ -7801,7 +6780,7 @@
   "reprint_year": 1931
  },
  "obev-richard-rowlands": {
-  "title": "Lullaby",
+  "title": "Poems",
   "author": "Richard Rowlands",
   "translator": null,
   "poem_dated": null,
@@ -7832,7 +6811,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-nashe": {
-  "title": "In Time of Pestilence, and other poems",
+  "title": "Poems",
   "author": "Thomas Nashe",
   "translator": null,
   "poem_dated": null,
@@ -7863,7 +6842,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-campion": {
-  "title": "Winter Nights, and other poems",
+  "title": "Poems",
   "author": "Thomas Campion",
   "translator": null,
   "poem_dated": null,
@@ -7894,7 +6873,7 @@
   "reprint_year": 1931
  },
  "obev-john-reynolds": {
-  "title": "A Nosegay",
+  "title": "Poems",
   "author": "John Reynolds",
   "translator": null,
   "poem_dated": null,
@@ -7927,7 +6906,7 @@
   "reprint_year": 1931
  },
  "obev-sir-henry-wotton": {
-  "title": "The Character of a Happy Life, and other poems",
+  "title": "Poems",
   "author": "Sir Henry Wotton",
   "translator": null,
   "poem_dated": null,
@@ -7958,7 +6937,7 @@
   "reprint_year": 1931
  },
  "obev-sir-robert-ayton": {
-  "title": "To an Inconstant One, and other poems",
+  "title": "Poems",
   "author": "Sir Robert Ayton",
   "translator": null,
   "poem_dated": null,
@@ -7989,7 +6968,7 @@
   "reprint_year": 1931
  },
  "obev-ben-jonson": {
-  "title": "A Part of an Ode, and other poems",
+  "title": "Poems",
   "author": "Ben Jonson",
   "translator": null,
   "poem_dated": null,
@@ -8020,7 +6999,7 @@
   "reprint_year": 1931
  },
  "obev-richard-barnefield": {
-  "title": "Philomel",
+  "title": "Poems",
   "author": "Richard Barnefield",
   "translator": null,
   "poem_dated": null,
@@ -8051,7 +7030,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-dekker": {
-  "title": "Sweet Content",
+  "title": "Poems",
   "author": "Thomas Dekker",
   "translator": null,
   "poem_dated": null,
@@ -8082,7 +7061,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-heywood": {
-  "title": "The Message, and other poems",
+  "title": "Poems",
   "author": "Thomas Heywood",
   "translator": null,
   "poem_dated": null,
@@ -8113,7 +7092,7 @@
   "reprint_year": 1931
  },
  "obev-john-fletcher": {
-  "title": "Love’s Emblems, and other poems",
+  "title": "Poems",
   "author": "John Fletcher",
   "translator": null,
   "poem_dated": null,
@@ -8144,7 +7123,7 @@
   "reprint_year": 1931
  },
  "obev-john-webster": {
-  "title": "The Shrouding of the Duchess of Malfi, and other poems",
+  "title": "Poems",
   "author": "John Webster",
   "translator": null,
   "poem_dated": null,
@@ -8175,7 +7154,7 @@
   "reprint_year": 1931
  },
  "obev-william-alexander-earl-of-stirling": {
-  "title": "Aurora",
+  "title": "Poems",
   "author": "William Alexander, Earl of Stirling",
   "translator": null,
   "poem_dated": null,
@@ -8206,7 +7185,7 @@
   "reprint_year": 1931
  },
  "obev-phineas-fletcher": {
-  "title": "A Litany",
+  "title": "Poems",
   "author": "Phineas Fletcher",
   "translator": null,
   "poem_dated": null,
@@ -8237,7 +7216,7 @@
   "reprint_year": 1931
  },
  "obev-william-drummond-of-hawthornden": {
-  "title": "Invocation, and other poems",
+  "title": "Poems",
   "author": "William Drummond, of Hawthornden",
   "translator": null,
   "poem_dated": null,
@@ -8268,7 +7247,7 @@
   "reprint_year": 1931
  },
  "obev-giles-fletcher": {
-  "title": "Wooing Song",
+  "title": "Poems",
   "author": "Giles Fletcher",
   "translator": null,
   "poem_dated": null,
@@ -8299,7 +7278,7 @@
   "reprint_year": 1931
  },
  "obev-francis-beaumont": {
-  "title": "On the Tombs in Westminster Abbey",
+  "title": "Poems",
   "author": "Francis Beaumont",
   "translator": null,
   "poem_dated": null,
@@ -8330,7 +7309,7 @@
   "reprint_year": 1931
  },
  "obev-george-wither": {
-  "title": "The Choice, and other poems",
+  "title": "Poems",
   "author": "George Wither",
   "translator": null,
   "poem_dated": null,
@@ -8361,7 +7340,7 @@
   "reprint_year": 1931
  },
  "obev-william-browne-of-tavistock": {
-  "title": "A Welcome, and other poems",
+  "title": "Poems",
   "author": "William Browne, of Tavistock",
   "translator": null,
   "poem_dated": null,
@@ -8392,7 +7371,7 @@
   "reprint_year": 1931
  },
  "obev-francis-quarles": {
-  "title": "A Divine Rapture, and other poems",
+  "title": "Poems",
   "author": "Francis Quarles",
   "translator": null,
   "poem_dated": null,
@@ -8423,7 +7402,7 @@
   "reprint_year": 1931
  },
  "obev-henry-king-bishop-of-chichester": {
-  "title": "Exequy on his Wife, and other poems",
+  "title": "Poems",
   "author": "Henry King, Bishop of Chichester",
   "translator": null,
   "poem_dated": null,
@@ -8454,7 +7433,7 @@
   "reprint_year": 1931
  },
  "obev-george-herbert": {
-  "title": "Discipline, and other poems",
+  "title": "Poems",
   "author": "George Herbert",
   "translator": null,
   "poem_dated": null,
@@ -8485,7 +7464,7 @@
   "reprint_year": 1931
  },
  "obev-james-shirley": {
-  "title": "Death the Leveller, and other poems",
+  "title": "Poems",
   "author": "James Shirley",
   "translator": null,
   "poem_dated": null,
@@ -8516,7 +7495,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-carew": {
-  "title": "Ingrateful Beauty threatened, and other poems",
+  "title": "Poems",
   "author": "Thomas Carew",
   "translator": null,
   "poem_dated": null,
@@ -8547,7 +7526,7 @@
   "reprint_year": 1931
  },
  "obev-jasper-mayne": {
-  "title": "Time",
+  "title": "Poems",
   "author": "Jasper Mayne",
   "translator": null,
   "poem_dated": null,
@@ -8578,7 +7557,7 @@
   "reprint_year": 1931
  },
  "obev-william-habington": {
-  "title": "To Roses in the Bosom of Castara, and other poems",
+  "title": "Poems",
   "author": "William Habington",
   "translator": null,
   "poem_dated": null,
@@ -8609,7 +7588,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-randolph": {
-  "title": "An Ode to Master Anthony Stafford, and other poems",
+  "title": "Poems",
   "author": "Thomas Randolph",
   "translator": null,
   "poem_dated": null,
@@ -8640,7 +7619,7 @@
   "reprint_year": 1931
  },
  "obev-sir-william-davenant": {
-  "title": "To a Mistress Dying, and other poems",
+  "title": "Poems",
   "author": "Sir William Davenant",
   "translator": null,
   "poem_dated": null,
@@ -8671,7 +7650,7 @@
   "reprint_year": 1931
  },
  "obev-sir-john-suckling": {
-  "title": "A Doubt of Martyrdom, and other poems",
+  "title": "Poems",
   "author": "Sir John Suckling",
   "translator": null,
   "poem_dated": null,
@@ -8702,7 +7681,7 @@
   "reprint_year": 1931
  },
  "obev-sir-richard-fanshawe": {
-  "title": "A Rose",
+  "title": "Poems",
   "author": "Sir Richard Fanshawe",
   "translator": null,
   "poem_dated": null,
@@ -8733,7 +7712,7 @@
   "reprint_year": 1931
  },
  "obev-william-cartwright": {
-  "title": "Falsehood, and other poems",
+  "title": "Poems",
   "author": "William Cartwright",
   "translator": null,
   "poem_dated": null,
@@ -8764,7 +7743,7 @@
   "reprint_year": 1931
  },
  "obev-james-graham-marquis-of-montrose": {
-  "title": "I’ll never love Thee more",
+  "title": "Poems",
   "author": "James Graham, Marquis of Montrose",
   "translator": null,
   "poem_dated": null,
@@ -8795,7 +7774,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-jordan": {
-  "title": "Coronemus nos Rosis antequam marcescant",
+  "title": "Poems",
   "author": "Thomas Jordan",
   "translator": null,
   "poem_dated": null,
@@ -8826,7 +7805,7 @@
   "reprint_year": 1931
  },
  "obev-abraham-cowley": {
-  "title": "On the Death of Mr. William Hervey, and other poems",
+  "title": "Poems",
   "author": "Abraham Cowley",
   "translator": null,
   "poem_dated": null,
@@ -8857,7 +7836,7 @@
   "reprint_year": 1931
  },
  "obev-alexander-brome": {
-  "title": "The Resolve",
+  "title": "Poems",
   "author": "Alexander Brome",
   "translator": null,
   "poem_dated": null,
@@ -8888,7 +7867,7 @@
   "reprint_year": 1931
  },
  "obev-andrew-marvell": {
-  "title": "To His Coy Mistress, and other poems",
+  "title": "Poems",
   "author": "Andrew Marvell",
   "translator": null,
   "poem_dated": null,
@@ -8919,7 +7898,7 @@
   "reprint_year": 1931
  },
  "obev-henry-vaughan": {
-  "title": "The Retreat, and other poems",
+  "title": "Poems",
   "author": "Henry Vaughan",
   "translator": null,
   "poem_dated": null,
@@ -8950,7 +7929,7 @@
   "reprint_year": 1931
  },
  "obev-john-bunyan": {
-  "title": "The Shepherd Boy sings in the Valley of Humiliation",
+  "title": "Poems",
   "author": "John Bunyan",
   "translator": null,
   "poem_dated": null,
@@ -8981,7 +7960,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-durfey": {
-  "title": "Chloe Divine",
+  "title": "Poems",
   "author": "Thomas D’urfey",
   "translator": null,
   "poem_dated": null,
@@ -9012,7 +7991,7 @@
   "reprint_year": 1931
  },
  "obev-charles-cotton": {
-  "title": "To Cœlia",
+  "title": "Poems",
   "author": "Charles Cotton",
   "translator": null,
   "poem_dated": null,
@@ -9043,7 +8022,7 @@
   "reprint_year": 1931
  },
  "obev-katherine-philips-orinda": {
-  "title": "To One persuading a Lady to Marriage",
+  "title": "Poems",
   "author": "Katherine Philips (‘orinda’)",
   "translator": null,
   "poem_dated": null,
@@ -9074,7 +8053,7 @@
   "reprint_year": 1931
  },
  "obev-john-dryden": {
-  "title": "A Song for St. Cecilia’s Day, 1687, and other poems",
+  "title": "Poems",
   "author": "John Dryden",
   "translator": null,
   "poem_dated": null,
@@ -9105,7 +8084,7 @@
   "reprint_year": 1931
  },
  "obev-charles-webbe": {
-  "title": "Against Indifference",
+  "title": "Poems",
   "author": "Charles Webbe",
   "translator": null,
   "poem_dated": null,
@@ -9138,7 +8117,7 @@
   "reprint_year": 1931
  },
  "obev-sir-george-etherege": {
-  "title": "To a Lady asking him how long he would love her, and other poems",
+  "title": "Poems",
   "author": "Sir George Etherege",
   "translator": null,
   "poem_dated": null,
@@ -9169,7 +8148,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-flatman": {
-  "title": "The Sad Day",
+  "title": "Poems",
   "author": "Thomas Flatman",
   "translator": null,
   "poem_dated": null,
@@ -9200,7 +8179,7 @@
   "reprint_year": 1931
  },
  "obev-charles-sackville-earl-of-dorset": {
-  "title": "Song",
+  "title": "Poems",
   "author": "Charles Sackville, Earl of Dorset",
   "translator": null,
   "poem_dated": null,
@@ -9231,7 +8210,7 @@
   "reprint_year": 1931
  },
  "obev-sir-charles-sedley": {
-  "title": "To Chloris, and other poems",
+  "title": "Poems",
   "author": "Sir Charles Sedley",
   "translator": null,
   "poem_dated": null,
@@ -9262,7 +8241,7 @@
   "reprint_year": 1931
  },
  "obev-aphra-behn": {
-  "title": "The Libertine, and other poems",
+  "title": "Poems",
   "author": "Aphra Behn",
   "translator": null,
   "poem_dated": null,
@@ -9293,7 +8272,7 @@
   "reprint_year": 1931
  },
  "obev-john-sheffield-duke-of-buckinghamshire": {
-  "title": "On One who died discovering her Kindness, and other poems",
+  "title": "Poems",
   "author": "John Sheffield, Duke of Buckinghamshire",
   "translator": null,
   "poem_dated": null,
@@ -9324,7 +8303,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-otway": {
-  "title": "The Enchantment",
+  "title": "Poems",
   "author": "Thomas Otway",
   "translator": null,
   "poem_dated": null,
@@ -9355,7 +8334,7 @@
   "reprint_year": 1931
  },
  "obev-john-cutts-lord-cutts": {
-  "title": "Song",
+  "title": "Poems",
   "author": "John Cutts, Lord Cutts",
   "translator": null,
   "poem_dated": null,
@@ -9386,7 +8365,7 @@
   "reprint_year": 1931
  },
  "obev-matthew-prior": {
-  "title": "The Question to Lisetta, and other poems",
+  "title": "Poems",
   "author": "Matthew Prior",
   "translator": null,
   "poem_dated": null,
@@ -9417,7 +8396,7 @@
   "reprint_year": 1931
  },
  "obev-william-walsh": {
-  "title": "Rivals",
+  "title": "Poems",
   "author": "William Walsh",
   "translator": null,
   "poem_dated": null,
@@ -9448,7 +8427,7 @@
   "reprint_year": 1931
  },
  "obev-william-congreve": {
-  "title": "A Hue and Cry after Fair Amoret, and other poems",
+  "title": "Poems",
   "author": "William Congreve",
   "translator": null,
   "poem_dated": null,
@@ -9479,7 +8458,7 @@
   "reprint_year": 1931
  },
  "obev-joseph-addison": {
-  "title": "Hymn",
+  "title": "Poems",
   "author": "Joseph Addison",
   "translator": null,
   "poem_dated": null,
@@ -9510,7 +8489,7 @@
   "reprint_year": 1931
  },
  "obev-isaac-watts": {
-  "title": "A Cradle Hymn, and other poems",
+  "title": "Poems",
   "author": "Isaac Watts",
   "translator": null,
   "poem_dated": null,
@@ -9541,7 +8520,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-parnell": {
-  "title": "Song",
+  "title": "Poems",
   "author": "Thomas Parnell",
   "translator": null,
   "poem_dated": null,
@@ -9572,7 +8551,7 @@
   "reprint_year": 1931
  },
  "obev-allan-ramsay": {
-  "title": "Peggy",
+  "title": "Poems",
   "author": "Allan Ramsay",
   "translator": null,
   "poem_dated": null,
@@ -9603,7 +8582,7 @@
   "reprint_year": 1931
  },
  "obev-william-oldys": {
-  "title": "On a Fly drinking out of his Cup",
+  "title": "Poems",
   "author": "William Oldys",
   "translator": null,
   "poem_dated": null,
@@ -9634,7 +8613,7 @@
   "reprint_year": 1931
  },
  "obev-george-bubb-dodington-lord-melcombe": {
-  "title": "Shorten Sail",
+  "title": "Poems",
   "author": "George Bubb Dodington, Lord Melcombe",
   "translator": null,
   "poem_dated": null,
@@ -9665,7 +8644,7 @@
   "reprint_year": 1931
  },
  "obev-henry-carey": {
-  "title": "Sally in our Alley, and other poems",
+  "title": "Poems",
   "author": "Henry Carey",
   "translator": null,
   "poem_dated": null,
@@ -9696,7 +8675,7 @@
   "reprint_year": 1931
  },
  "obev-william-broome": {
-  "title": "The Rosebud, and other poems",
+  "title": "Poems",
   "author": "William Broome",
   "translator": null,
   "poem_dated": null,
@@ -9727,7 +8706,7 @@
   "reprint_year": 1931
  },
  "obev-james-thomson": {
-  "title": "In the Train, and other poems",
+  "title": "Poems",
   "author": "James Thomson",
   "translator": null,
   "poem_dated": null,
@@ -9758,7 +8737,7 @@
   "reprint_year": 1931
  },
  "obev-george-lyttelton-lord-lyttelton": {
-  "title": "Tell me, my Heart if this be Love",
+  "title": "Poems",
   "author": "George Lyttelton, Lord Lyttelton",
   "translator": null,
   "poem_dated": null,
@@ -9789,7 +8768,7 @@
   "reprint_year": 1931
  },
  "obev-tobias-george-smollett": {
-  "title": "To Leven Water",
+  "title": "Poems",
   "author": "Tobias George Smollett",
   "translator": null,
   "poem_dated": null,
@@ -9820,7 +8799,7 @@
   "reprint_year": 1931
  },
  "obev-christopher-smart": {
-  "title": "Song to David",
+  "title": "Poems",
   "author": "Christopher Smart",
   "translator": null,
   "poem_dated": null,
@@ -9851,7 +8830,7 @@
   "reprint_year": 1931
  },
  "obev-jane-elliot": {
-  "title": "A Lament for Flodden",
+  "title": "Poems",
   "author": "Jane Elliot",
   "translator": null,
   "poem_dated": null,
@@ -9882,7 +8861,7 @@
   "reprint_year": 1931
  },
  "obev-robert-cunninghame-graham-of-gartmore": {
-  "title": "If Doughty Deeds",
+  "title": "Poems",
   "author": "Robert Cunninghame-graham of Gartmore",
   "translator": null,
   "poem_dated": null,
@@ -9913,7 +8892,7 @@
   "reprint_year": 1931
  },
  "obev-isobel-pagan": {
-  "title": "Ca’ the Yowes to the Knowes",
+  "title": "Poems",
   "author": "Isobel Pagan",
   "translator": null,
   "poem_dated": null,
@@ -9944,7 +8923,7 @@
   "reprint_year": 1931
  },
  "obev-anna-ltitia-barbauld": {
-  "title": "Life",
+  "title": "Poems",
   "author": "Anna Lætitia Barbauld",
   "translator": null,
   "poem_dated": null,
@@ -9975,7 +8954,7 @@
   "reprint_year": 1931
  },
  "obev-fanny-greville": {
-  "title": "Prayer for Indifference",
+  "title": "Poems",
   "author": "Fanny Greville",
   "translator": null,
   "poem_dated": null,
@@ -10008,7 +8987,7 @@
   "reprint_year": 1931
  },
  "obev-john-logan": {
-  "title": "To the Cuckoo",
+  "title": "Poems",
   "author": "John Logan",
   "translator": null,
   "poem_dated": null,
@@ -10039,7 +9018,7 @@
   "reprint_year": 1931
  },
  "obev-henry-rowe": {
-  "title": "Moon, and other poems",
+  "title": "Poems",
   "author": "Henry Rowe",
   "translator": null,
   "poem_dated": null,
@@ -10070,7 +9049,7 @@
   "reprint_year": 1931
  },
  "obev-mary-lamb": {
-  "title": "A Child",
+  "title": "Poems",
   "author": "Mary Lamb",
   "translator": null,
   "poem_dated": null,
@@ -10101,7 +9080,7 @@
   "reprint_year": 1931
  },
  "obev-carolina-lady-nairne": {
-  "title": "The Land o’ the Leal",
+  "title": "Poems",
   "author": "Carolina, Lady Nairne",
   "translator": null,
   "poem_dated": null,
@@ -10132,7 +9111,7 @@
   "reprint_year": 1931
  },
  "obev-james-hogg": {
-  "title": "A Boy’s Song, and other poems",
+  "title": "Poems",
   "author": "James Hogg",
   "translator": null,
   "poem_dated": null,
@@ -10163,7 +9142,7 @@
   "reprint_year": 1931
  },
  "obev-charles-lamb": {
-  "title": "On an Infant dying as soon as born, and other poems",
+  "title": "Poems",
   "author": "Charles Lamb",
   "translator": null,
   "poem_dated": null,
@@ -10194,7 +9173,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-campbell": {
-  "title": "The Battle of the Baltic, and other poems",
+  "title": "Poems",
   "author": "Thomas Campbell",
   "translator": null,
   "poem_dated": null,
@@ -10225,7 +9204,7 @@
   "reprint_year": 1931
  },
  "obev-edward-thurlow-lord-thurlow": {
-  "title": "May",
+  "title": "Poems",
   "author": "Edward Thurlow, Lord Thurlow",
   "translator": null,
   "poem_dated": null,
@@ -10256,7 +9235,7 @@
   "reprint_year": 1931
  },
  "obev-ebenezer-elliott": {
-  "title": "Battle Song, and other poems",
+  "title": "Poems",
   "author": "Ebenezer Elliott",
   "translator": null,
   "poem_dated": null,
@@ -10287,7 +9266,7 @@
   "reprint_year": 1931
  },
  "obev-allan-cunningham": {
-  "title": "The Sun rises bright in France, and other poems",
+  "title": "Poems",
   "author": "Allan Cunningham",
   "translator": null,
   "poem_dated": null,
@@ -10318,7 +9297,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-love-peacock": {
-  "title": "Love and Age, and other poems",
+  "title": "Poems",
   "author": "Thomas Love Peacock",
   "translator": null,
   "poem_dated": null,
@@ -10349,7 +9328,7 @@
   "reprint_year": 1931
  },
  "obev-sir-aubrey-de-vere": {
-  "title": "The Children Band",
+  "title": "Poems",
   "author": "Sir Aubrey de Vere",
   "translator": null,
   "poem_dated": null,
@@ -10380,7 +9359,7 @@
   "reprint_year": 1931
  },
  "obev-charles-wolfe": {
-  "title": "The Burial of Sir John Moore after Corunna, and other poems",
+  "title": "Poems",
   "author": "Charles Wolfe",
   "translator": null,
   "poem_dated": null,
@@ -10411,7 +9390,7 @@
   "reprint_year": 1931
  },
  "obev-hew-ainslie": {
-  "title": "Willie and Helen",
+  "title": "Poems",
   "author": "Hew Ainslie",
   "translator": null,
   "poem_dated": null,
@@ -10442,7 +9421,7 @@
   "reprint_year": 1931
  },
  "obev-john-keble": {
-  "title": "Burial of the Dead",
+  "title": "Poems",
   "author": "John Keble",
   "translator": null,
   "poem_dated": null,
@@ -10473,7 +9452,7 @@
   "reprint_year": 1931
  },
  "obev-jeremiah-joseph-callanan": {
-  "title": "The Outlaw of Loch Lene",
+  "title": "Poems",
   "author": "Jeremiah Joseph Callanan",
   "translator": null,
   "poem_dated": null,
@@ -10504,7 +9483,7 @@
   "reprint_year": 1931
  },
  "obev-george-darley": {
-  "title": "The Fallen Star, and other poems",
+  "title": "Poems",
   "author": "George Darley",
   "translator": null,
   "poem_dated": null,
@@ -10535,7 +9514,7 @@
   "reprint_year": 1931
  },
  "obev-william-thom": {
-  "title": "The Blind Boy’s Pranks",
+  "title": "Poems",
   "author": "William Thom",
   "translator": null,
   "poem_dated": null,
@@ -10566,7 +9545,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-babington-macaulay-lord-macaulay": {
-  "title": "A Jacobite’s Epitaph",
+  "title": "Poems",
   "author": "Thomas Babington Macaulay, Lord Macaulay",
   "translator": null,
   "poem_dated": null,
@@ -10597,7 +9576,7 @@
   "reprint_year": 1931
  },
  "obev-gerald-griffin": {
-  "title": "Eileen Aroon",
+  "title": "Poems",
   "author": "Gerald Griffin",
   "translator": null,
   "poem_dated": null,
@@ -10628,7 +9607,7 @@
   "reprint_year": 1931
  },
  "obev-james-clarence-mangan": {
-  "title": "Dark Rosaleen, and other poems",
+  "title": "Poems",
   "author": "James Clarence Mangan",
   "translator": null,
   "poem_dated": null,
@@ -10659,7 +9638,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-lovell-beddoes": {
-  "title": "Dream-Pedlary, and other poems",
+  "title": "Poems",
   "author": "Thomas Lovell Beddoes",
   "translator": null,
   "poem_dated": null,
@@ -10690,7 +9669,7 @@
   "reprint_year": 1931
  },
  "obev-richard-henry-horne": {
-  "title": "The Plough",
+  "title": "Poems",
   "author": "Richard Henry Horne",
   "translator": null,
   "poem_dated": null,
@@ -10721,7 +9700,7 @@
   "reprint_year": 1931
  },
  "obev-robert-stephen-hawker": {
-  "title": "King Arthur’s Waes-hael, and other poems",
+  "title": "Poems",
   "author": "Robert Stephen Hawker",
   "translator": null,
   "poem_dated": null,
@@ -10752,7 +9731,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-wade": {
-  "title": "The Half-asleep",
+  "title": "Poems",
   "author": "Thomas Wade",
   "translator": null,
   "poem_dated": null,
@@ -10783,7 +9762,7 @@
   "reprint_year": 1931
  },
  "obev-francis-mahony": {
-  "title": "The Bells of Shandon",
+  "title": "Poems",
   "author": "Francis Mahony",
   "translator": null,
   "poem_dated": null,
@@ -10814,7 +9793,7 @@
   "reprint_year": 1931
  },
  "obev-helen-selina-lady-dufferin": {
-  "title": "Lament of the Irish Emigrant",
+  "title": "Poems",
   "author": "Helen Selina, Lady Dufferin",
   "translator": null,
   "poem_dated": null,
@@ -10845,7 +9824,7 @@
   "reprint_year": 1931
  },
  "obev-caroline-elizabeth-sarah-norton": {
-  "title": "I do not love Thee",
+  "title": "Poems",
   "author": "Caroline Elizabeth Sarah Norton",
   "translator": null,
   "poem_dated": null,
@@ -10876,7 +9855,7 @@
   "reprint_year": 1931
  },
  "obev-charles-tennyson-turner": {
-  "title": "Letty’s Globe",
+  "title": "Poems",
   "author": "Charles Tennyson Turner",
   "translator": null,
   "poem_dated": null,
@@ -10907,7 +9886,7 @@
   "reprint_year": 1931
  },
  "obev-edward-fitzgerald": {
-  "title": "Old Song, and other poems",
+  "title": "Poems",
   "author": "Edward Fitzgerald",
   "translator": null,
   "poem_dated": null,
@@ -10938,7 +9917,7 @@
   "reprint_year": 1931
  },
  "obev-richard-monckton-milnes-lord-houghton": {
-  "title": "Shadows",
+  "title": "Poems",
   "author": "Richard Monckton Milnes, Lord Houghton",
   "translator": null,
   "poem_dated": null,
@@ -10969,7 +9948,7 @@
   "reprint_year": 1931
  },
  "obev-henry-alford": {
-  "title": "The Bride",
+  "title": "Poems",
   "author": "Henry Alford",
   "translator": null,
   "poem_dated": null,
@@ -11000,7 +9979,7 @@
   "reprint_year": 1931
  },
  "obev-sir-samuel-ferguson": {
-  "title": "The Fair Hills of Ireland, and other poems",
+  "title": "Poems",
   "author": "Sir Samuel Ferguson",
   "translator": null,
   "poem_dated": null,
@@ -11031,7 +10010,7 @@
   "reprint_year": 1931
  },
  "obev-aubrey-de-vere": {
-  "title": "Serenade, and other poems",
+  "title": "Poems",
   "author": "Aubrey de Vere",
   "translator": null,
   "poem_dated": null,
@@ -11062,7 +10041,7 @@
   "reprint_year": 1931
  },
  "obev-george-fox": {
-  "title": "The County of Mayo",
+  "title": "Poems",
   "author": "George Fox",
   "translator": null,
   "poem_dated": null,
@@ -11095,7 +10074,7 @@
   "reprint_year": 1931
  },
  "obev-charles-kingsley": {
-  "title": "The Sands of Dee, and other poems",
+  "title": "Poems",
   "author": "Charles Kingsley",
   "translator": null,
   "poem_dated": null,
@@ -11126,7 +10105,7 @@
   "reprint_year": 1931
  },
  "obev-ebenezer-jones": {
-  "title": "When the World is burning",
+  "title": "Poems",
   "author": "Ebenezer Jones",
   "translator": null,
   "poem_dated": null,
@@ -11157,7 +10136,7 @@
   "reprint_year": 1931
  },
  "obev-frederick-locker-lampson": {
-  "title": "At Her Window",
+  "title": "Poems",
   "author": "Frederick Locker-lampson",
   "translator": null,
   "poem_dated": null,
@@ -11188,7 +10167,7 @@
   "reprint_year": 1931
  },
  "obev-william-brighty-rands": {
-  "title": "The Thought, and other poems",
+  "title": "Poems",
   "author": "William Brighty Rands",
   "translator": null,
   "poem_dated": null,
@@ -11219,7 +10198,7 @@
   "reprint_year": 1931
  },
  "obev-william-philpot": {
-  "title": "Maritæ Suæ",
+  "title": "Poems",
   "author": "William Philpot",
   "translator": null,
   "poem_dated": null,
@@ -11250,7 +10229,7 @@
   "reprint_year": 1931
  },
  "obev-william-johnson-cory": {
-  "title": "Mimnermus in Church, and other poems",
+  "title": "Poems",
   "author": "William (johnson) Cory",
   "translator": null,
   "poem_dated": null,
@@ -11281,7 +10260,7 @@
   "reprint_year": 1931
  },
  "obev-sydney-dobell": {
-  "title": "Laus Deo, and other poems",
+  "title": "Poems",
   "author": "Sydney Dobell",
   "translator": null,
   "poem_dated": null,
@@ -11312,7 +10291,7 @@
   "reprint_year": 1931
  },
  "obev-william-allingham": {
-  "title": "The Fairies",
+  "title": "Poems",
   "author": "William Allingham",
   "translator": null,
   "poem_dated": null,
@@ -11343,7 +10322,7 @@
   "reprint_year": 1931
  },
  "obev-george-mac-donald": {
-  "title": "That Holy Thing",
+  "title": "Poems",
   "author": "George Mac Donald",
   "translator": null,
   "poem_dated": null,
@@ -11374,7 +10353,7 @@
   "reprint_year": 1931
  },
  "obev-alexander-smith": {
-  "title": "Barbara, and other poems",
+  "title": "Poems",
   "author": "Alexander Smith",
   "translator": null,
   "poem_dated": null,
@@ -11405,7 +10384,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-edward-brown": {
-  "title": "Salve!, and other poems",
+  "title": "Poems",
   "author": "Thomas Edward Brown",
   "translator": null,
   "poem_dated": null,
@@ -11436,7 +10415,7 @@
   "reprint_year": 1931
  },
  "obev-edward-robert-bulwer-lytton-earl-of-lytton": {
-  "title": "A Night in Italy, and other poems",
+  "title": "Poems",
   "author": "Edward Robert Bulwer Lytton, Earl of Lytton",
   "translator": null,
   "poem_dated": null,
@@ -11467,7 +10446,7 @@
   "reprint_year": 1931
  },
  "obev-roden-berkeley-wriothesley-noel": {
-  "title": "The Water-Nymph and the Boy, and other poems",
+  "title": "Poems",
   "author": "Roden Berkeley Wriothesley Noel",
   "translator": null,
   "poem_dated": null,
@@ -11498,7 +10477,7 @@
   "reprint_year": 1931
  },
  "obev-thomas-ashe": {
-  "title": "Meet We no Angels, Pansie?, and other poems",
+  "title": "Poems",
   "author": "Thomas Ashe",
   "translator": null,
   "poem_dated": null,
@@ -11529,7 +10508,7 @@
   "reprint_year": 1931
  },
  "obev-theodore-watts-dunton": {
-  "title": "Wassail Chorus at the Mermaid Tavern",
+  "title": "Poems",
   "author": "Theodore Watts-dunton",
   "translator": null,
   "poem_dated": null,
@@ -11560,7 +10539,7 @@
   "reprint_year": 1931
  },
  "obev-william-dean-howells": {
-  "title": "Earliest Spring",
+  "title": "Poems",
   "author": "William Dean Howells",
   "translator": null,
   "poem_dated": null,
@@ -11593,7 +10572,7 @@
   "reprint_year": 1931
  },
  "obev-bret-harte": {
-  "title": "What the Bullet sang",
+  "title": "Poems",
   "author": "Bret Harte",
   "translator": null,
   "poem_dated": null,
@@ -11624,7 +10603,7 @@
   "reprint_year": 1931
  },
  "obev-john-todhunter": {
-  "title": "Aghadoe, and other poems",
+  "title": "Poems",
   "author": "John Todhunter",
   "translator": null,
   "poem_dated": null,
@@ -11655,7 +10634,7 @@
   "reprint_year": 1931
  },
  "obev-wilfrid-scawen-blunt": {
-  "title": "The Desolate City, and other poems",
+  "title": "Poems",
   "author": "Wilfrid Scawen Blunt",
   "translator": null,
   "poem_dated": null,
@@ -11688,7 +10667,7 @@
   "reprint_year": 1931
  },
  "obev-henry-austin-dobson": {
-  "title": "A Garden Song, and other poems",
+  "title": "Poems",
   "author": "Henry Austin Dobson",
   "translator": null,
   "poem_dated": null,
@@ -11721,7 +10700,7 @@
   "reprint_year": 1931
  },
  "obev-henry-clarence-kendall": {
-  "title": "Mooni",
+  "title": "Poems",
   "author": "Henry Clarence Kendall",
   "translator": null,
   "poem_dated": null,
@@ -11752,7 +10731,7 @@
   "reprint_year": 1931
  },
  "obev-arthur-william-edgar-oshaughnessy": {
-  "title": "The Fountain of Tears, and other poems",
+  "title": "Poems",
   "author": "Arthur William Edgar O’shaughnessy",
   "translator": null,
   "poem_dated": null,
@@ -11783,7 +10762,7 @@
   "reprint_year": 1931
  },
  "obev-andrew-lang": {
-  "title": "The Odyssey",
+  "title": "Poems",
   "author": "Andrew Lang",
   "translator": null,
   "poem_dated": null,
@@ -11814,7 +10793,7 @@
   "reprint_year": 1931
  },
  "obev-edmund-gosse": {
-  "title": "Revelation",
+  "title": "Poems",
   "author": "Edmund Gosse",
   "translator": null,
   "poem_dated": null,
@@ -11847,7 +10826,7 @@
   "reprint_year": 1931
  },
  "obev-t-w-rolleston": {
-  "title": "The Dead at Clonmacnois",
+  "title": "Poems",
   "author": "T. W. Rolleston",
   "translator": null,
   "poem_dated": null,
@@ -11880,7 +10859,7 @@
   "reprint_year": 1931
  },
  "obev-john-davidson": {
-  "title": "The Last Rose, and other poems",
+  "title": "Poems",
   "author": "John Davidson",
   "translator": null,
   "poem_dated": null,
@@ -11911,7 +10890,7 @@
   "reprint_year": 1931
  },
  "obev-henry-charles-beeching": {
-  "title": "Going down Hill on a Bicycle, and other poems",
+  "title": "Poems",
   "author": "Henry Charles Beeching",
   "translator": null,
   "poem_dated": null,
@@ -11942,7 +10921,7 @@
   "reprint_year": 1931
  },
  "obev-douglas-hyde": {
-  "title": "My Grief on the Sea",
+  "title": "Poems",
   "author": "Douglas Hyde",
   "translator": null,
   "poem_dated": null,
@@ -11975,7 +10954,7 @@
   "reprint_year": 1931
  },
  "obev-arthur-christopher-benson": {
-  "title": "The Phœnix",
+  "title": "Poems",
   "author": "Arthur Christopher Benson",
   "translator": null,
   "poem_dated": null,
@@ -12008,7 +10987,7 @@
   "reprint_year": 1931
  },
  "obev-gilbert-parker": {
-  "title": "Reunited",
+  "title": "Poems",
   "author": "Gilbert Parker",
   "translator": null,
   "poem_dated": null,
@@ -12041,7 +11020,7 @@
   "reprint_year": 1931
  },
  "obev-richard-le-gallienne": {
-  "title": "The Second Crucifixion, and other poems",
+  "title": "Poems",
   "author": "Richard Le Gallienne",
   "translator": null,
   "poem_dated": null,
@@ -12074,7 +11053,7 @@
   "reprint_year": 1931
  },
  "obev-laurence-binyon": {
-  "title": "Invocation to Youth, and other poems",
+  "title": "Poems",
   "author": "Laurence Binyon",
   "translator": null,
   "poem_dated": null,
@@ -12107,7 +11086,7 @@
   "reprint_year": 1931
  },
  "obev-george-william-russell-a-e": {
-  "title": "By the Margin of the Great Deep, and other poems",
+  "title": "Poems",
   "author": "George William Russell (‘a. E.’)",
   "translator": null,
   "poem_dated": null,
@@ -12140,7 +11119,7 @@
   "reprint_year": 1931
  },
  "obev-henry-cust": {
-  "title": "Non Nobis",
+  "title": "Poems",
   "author": "Henry Cust",
   "translator": null,
   "poem_dated": null,
@@ -12171,7 +11150,7 @@
   "reprint_year": 1931
  },
  "obev-katharine-tynan-hinkson": {
-  "title": "Sheep and Lambs",
+  "title": "Poems",
   "author": "Katharine Tynan Hinkson",
   "translator": null,
   "poem_dated": null,
@@ -12204,7 +11183,7 @@
   "reprint_year": 1931
  },
  "obev-frances-bannerman": {
-  "title": "An Upper Chamber",
+  "title": "Poems",
   "author": "Frances Bannerman",
   "translator": null,
   "poem_dated": null,
@@ -12237,7 +11216,7 @@
   "reprint_year": 1931
  },
  "obev-dora-sigerson": {
-  "title": "Ireland",
+  "title": "Poems",
   "author": "Dora Sigerson",
   "translator": null,
   "poem_dated": null,
@@ -12268,7 +11247,7 @@
   "reprint_year": 1931
  },
  "obev-margaret-l-woods": {
-  "title": "Genius Loci",
+  "title": "Poems",
   "author": "Margaret L. Woods",
   "translator": null,
   "poem_dated": null,
@@ -12301,7 +11280,7 @@
   "reprint_year": 1931
  },
  "obev-r-d-blackmore": {
-  "title": "Dominus Illuminatio Mea",
+  "title": "Poems",
   "author": "R. D. Blackmore",
   "translator": null,
   "poem_dated": null,
@@ -12332,11 +11311,11 @@
   "reprint_year": 1931
  },
  "shelley-later-poems": {
-  "title": "Ozymandias, and other poems",
+  "title": "The Complete Poetical Works, Volume II",
   "author": "Percy Bysshe Shelley",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1819,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 4798,
@@ -12353,7 +11332,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12362,11 +11341,11 @@
   "reprint_year": 1914
  },
  "tennyson-early-poems": {
-  "title": "Mariana, and other poems",
+  "title": "The Early Poems",
   "author": "Alfred Tennyson",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1842,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 8601,
@@ -12382,7 +11361,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12391,11 +11370,11 @@
   "reprint_year": null
  },
  "yeats-poems": {
-  "title": "The Lake Isle of Innisfree, and other poems",
+  "title": "Poems",
   "author": "W. B. Yeats",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1895,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 38877,
@@ -12410,7 +11389,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12423,7 +11402,7 @@
   "author": "Lewis Carroll",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1871,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 12,
@@ -12439,7 +11418,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12452,7 +11431,7 @@
   "author": "Edward Lear",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1871,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 13647,
@@ -12468,7 +11447,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12476,42 +11455,12 @@
   "edition_named": false,
   "reprint_year": null
  },
- "longfellow-poems": {
-  "title": "Paul Revere’s Ride, and other poems",
-  "author": "Henry Wadsworth Longfellow",
-  "translator": null,
-  "poem_dated": null,
-  "text_dated": null,
-  "source": {
-   "provider": "Project Gutenberg",
-   "ebook": 1365,
-   "url": "https://www.gutenberg.org/ebooks/1365",
-   "title_as_published": "The Complete Poetical Works of Henry Wadsworth Longfellow"
-  },
-  "printed": {
-   "transcribed_by": "Don Lainson and David Widger",
-   "gutenberg_released": "June 1, 1998",
-   "printed_edition": "the Divina Commedia. The poems are printed as nearly as possible | in chronological order . . . Boston, Autumn, 1902.” Houghton | Mifflin Company.) | CONTENTS."
-  },
-  "changes": [
-   "the Project Gutenberg header, footer and licence were removed"
-  ],
-  "corrections": [],
-  "rights": {
-   "status": null,
-   "reasons": [],
-   "cleared": []
-  },
-  "critical": [],
-  "edition_named": true,
-  "reprint_year": 1902
- },
  "kipling-verses": {
   "title": "Verses 1889–1896",
   "author": "Rudyard Kipling",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1896,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 323,
@@ -12527,7 +11476,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12540,7 +11489,7 @@
   "author": "Thomas Hardy",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1901,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 3168,
@@ -12557,7 +11506,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12570,7 +11519,7 @@
   "author": "Sara Teasdale",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1920,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 591,
@@ -12586,7 +11535,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12599,7 +11548,7 @@
   "author": "John McCrae",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1919,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 353,
@@ -12615,7 +11564,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12628,7 +11577,7 @@
   "author": "Walter de la Mare",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1912,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 22569,
@@ -12644,7 +11593,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12657,7 +11606,7 @@
   "author": "G. K. Chesterton",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1900,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 12037,
@@ -12673,7 +11622,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12686,7 +11635,7 @@
   "author": "Edwin Arlington Robinson",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1910,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 76699,
@@ -12703,7 +11652,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12716,7 +11665,7 @@
   "author": "Siegfried Sassoon",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1919,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 45199,
@@ -12733,7 +11682,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12742,11 +11691,11 @@
   "reprint_year": null
  },
  "wordsworth-vol2": {
-  "title": "Composed upon Westminster Bridge, September 3, 1802, and other poems",
+  "title": "The Poetical Works, Volume II",
   "author": "William Wordsworth",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1807,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 12145,
@@ -12762,7 +11711,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12771,11 +11720,11 @@
   "reprint_year": null
  },
  "wordsworth-vol3": {
-  "title": "\"I Wandered Lonely as a Cloud\", and other poems",
+  "title": "The Poetical Works, Volume III",
   "author": "William Wordsworth",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1815,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 12383,
@@ -12791,7 +11740,7 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },
@@ -12800,11 +11749,11 @@
   "reprint_year": null
  },
  "dryden-poems": {
-  "title": "John Dryden, and other poems",
+  "title": "The Poetical Works, Volume I",
   "author": "John Dryden",
   "translator": null,
   "poem_dated": null,
-  "text_dated": null,
+  "text_dated": 1700,
   "source": {
    "provider": "Project Gutenberg",
    "ebook": 11488,
@@ -12821,7 +11770,1088 @@
   ],
   "corrections": [],
   "rights": {
-   "status": null,
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": null
+ },
+ "longfellow-poems": {
+  "title": "The Complete Poetical Works",
+  "author": "Henry Wadsworth Longfellow",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1882,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 1365,
+   "url": "https://www.gutenberg.org/ebooks/1365",
+   "title_as_published": "The Complete Poetical Works of Henry Wadsworth Longfellow"
+  },
+  "printed": {
+   "transcribed_by": "Don Lainson and David Widger",
+   "gutenberg_released": "June 1, 1998",
+   "printed_edition": "the Divina Commedia. The poems are printed as nearly as possible | in chronological order . . . Boston, Autumn, 1902.” Houghton | Mifflin Company.) | CONTENTS."
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1902
+ },
+ "dunbar-poems": {
+  "title": "The Complete Poems",
+  "author": "Paul Laurence Dunbar",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1905,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 18338,
+   "url": "https://www.gutenberg.org/ebooks/18338",
+   "title_as_published": "The Complete Poems of Paul Laurence Dunbar"
+  },
+  "printed": {
+   "transcribed_by": "Leonard Johnson and the Online Distributed",
+   "gutenberg_released": "May 7, 2006",
+   "printed_edition": "W. D. HOWELLS | NEW YORK | DODD, MEAD AND COMPANY | 1922"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1922
+ },
+ "graves-fairies": {
+  "title": "Fairies and Fusiliers",
+  "author": "Robert Graves",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1917,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 10122,
+   "url": "https://www.gutenberg.org/ebooks/10122",
+   "title_as_published": "Fairies and Fusiliers"
+  },
+  "printed": {
+   "transcribed_by": "Ted Garvin, Sjaani, and Project Gutenberg Distributed Proofreaders",
+   "gutenberg_released": "November 1, 2003"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "frost-new-hampshire": {
+  "title": "New Hampshire",
+  "author": "Robert Frost",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1923,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 58611,
+   "url": "https://www.gutenberg.org/ebooks/58611",
+   "title_as_published": "New Hampshire, A Poem; with Notes and Grace Notes"
+  },
+  "printed": {
+   "transcribed_by": "Al Haines, Mark Akrigg, Stephen Hutcheson &",
+   "gutenberg_released": "January 4, 2019"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "yeats-responsibilities": {
+  "title": "Responsibilities",
+  "author": "W. B. Yeats",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1914,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 36865,
+   "url": "https://www.gutenberg.org/ebooks/36865",
+   "title_as_published": "Responsibilities, and other poems"
+  },
+  "printed": {
+   "transcribed_by": "Meredith Bach, David Garcia and the Online",
+   "gutenberg_released": "July 27, 2011",
+   "printed_edition": "BY WILLIAM BUTLER YEATS | =New York= | THE MACMILLAN COMPANY | 1916"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1916
+ },
+ "roberts-new-poems": {
+  "title": "New Poems",
+  "author": "Charles G. D. Roberts",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1919,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 59897,
+   "url": "https://www.gutenberg.org/ebooks/59897",
+   "title_as_published": "New Poems"
+  },
+  "printed": {
+   "transcribed_by": "Al Haines",
+   "gutenberg_released": "July 10, 2019",
+   "printed_edition": "Date of first publication: 1919 | London: Constable, 1919 | [first edition] | Date first posted: 3 January 2011"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": null
+ },
+ "lawrence-amores": {
+  "title": "Amores",
+  "author": "D. H. Lawrence",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1916,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 22531,
+   "url": "https://www.gutenberg.org/ebooks/22531",
+   "title_as_published": "Amores: Poems"
+  },
+  "printed": {
+   "transcribed_by": "Lewis Jones",
+   "gutenberg_released": "September 7, 2007",
+   "printed_edition": "D. H. LAWRENCE | New York | B. W. Huebsch | 1916"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": null
+ },
+ "stanley-lyrics": {
+  "title": "Original Lyrics",
+  "author": "Thomas Stanley",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1651,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 32986,
+   "url": "https://www.gutenberg.org/ebooks/32986",
+   "title_as_published": "Thomas Stanley:  His Original Lyrics, Complete, In Their Collated Readings of 1647, 1651, 1657.\nWith an Introduction, Textual Notes, a List of Editions, an Appendix of Translations, and a Portrait."
+  },
+  "printed": {
+   "transcribed_by": "Charlene Taylor, Walt Farrell and the Online",
+   "gutenberg_released": "June 27, 2010"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "evans-welsh": {
+  "title": "Specimens of the Poetry of the Ancient Welsh Bards",
+  "author": "Evan Evans",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1764,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 32767,
+   "url": "https://www.gutenberg.org/ebooks/32767",
+   "title_as_published": "Some Specimens of the Poetry of the Ancient Welsh Bards"
+  },
+  "printed": {
+   "transcribed_by": "Transcribed from the [1862] John Pryse, Llanidloes edition by David Price",
+   "gutenberg_released": "June 10, 2010"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "lindsay-congo": {
+  "title": "The Congo and Other Poems",
+  "author": "Vachel Lindsay",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1914,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 1021,
+   "url": "https://www.gutenberg.org/ebooks/1021",
+   "title_as_published": "The Congo, and Other Poems"
+  },
+  "printed": {
+   "gutenberg_released": "August 1, 1997"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "keats-endymion": {
+  "title": "Endymion: A Poetic Romance",
+  "author": "John Keats",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1818,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 24280,
+   "url": "https://www.gutenberg.org/ebooks/24280",
+   "title_as_published": "Endymion: A Poetic Romance"
+  },
+  "printed": {
+   "transcribed_by": "Jonathan Ingram, Michael Roe and the Online",
+   "gutenberg_released": "January 14, 2008"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "burns-poems": {
+  "title": "Poems and Songs",
+  "author": "Robert Burns",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1796,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 1279,
+   "url": "https://www.gutenberg.org/ebooks/1279",
+   "title_as_published": "Poems and Songs of Robert Burns"
+  },
+  "printed": {
+   "transcribed_by": "David Widger and an Anonymous Project Gutenberg Volunteer",
+   "gutenberg_released": "January 25, 2005"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "tennyson-poems": {
+  "title": "Poems",
+  "author": "Alfred Tennyson",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1842,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 56913,
+   "url": "https://www.gutenberg.org/ebooks/56913",
+   "title_as_published": "Maud, and Other Poems"
+  },
+  "printed": {
+   "gutenberg_released": "April 3, 2018",
+   "printed_edition": "A NEW EDITION. | LONDON: | EDWARD MOXON & Co., DOVER STREET. | 1859."
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1859
+ },
+ "browning-men-and-women": {
+  "title": "Men and Women",
+  "author": "Robert Browning",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1855,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 17393,
+   "url": "https://www.gutenberg.org/ebooks/17393",
+   "title_as_published": "Men and Women"
+  },
+  "printed": {
+   "transcribed_by": "Dick Adicks",
+   "gutenberg_released": "December 26, 2005",
+   "printed_edition": "edition of Browning's poems published by Thomas Y. Crowell and | Company, New York, in 1898. | Editing conventions: The digraphs have been silently rendered as | \"ae\" or \"oe.\""
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1898
+ },
+ "herrick-hesperides": {
+  "title": "Hesperides",
+  "author": "Robert Herrick",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1648,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 22421,
+   "url": "https://www.gutenberg.org/ebooks/22421",
+   "title_as_published": "The Hesperides & Noble Numbers: Vol. 1 and 2"
+  },
+  "printed": {
+   "transcribed_by": "Stephen Blundell and the Online Distributed Proofreading Team",
+   "gutenberg_released": "August 28, 2007"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "running heads and stray printer’s marks were removed",
+   "the edition’s word glosses were moved out of the verse and into the commentary"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "clare-poems": {
+  "title": "Poems",
+  "author": "John Clare",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1835,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 52601,
+   "url": "https://www.gutenberg.org/ebooks/52601",
+   "title_as_published": "Poems"
+  },
+  "printed": {
+   "transcribed_by": "Larry B. Harrison, Chuck Greif and the Online",
+   "gutenberg_released": "July 18, 2016"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "percy-reliques": {
+  "title": "Reliques of Ancient English Poetry, Volume I",
+  "author": "Thomas Percy",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1765,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 45939,
+   "url": "https://www.gutenberg.org/ebooks/45939",
+   "title_as_published": "Reliques of Ancient English Poetry, Volume 1 (of 3)\nConsisting of Old Heroic Ballads, Songs and Other Pieces of Our Earlier Poets Together With Some Few of Later Date"
+  },
+  "printed": {
+   "transcribed_by": "Richard Tonsing, Jonathan Ingram and the Online",
+   "gutenberg_released": "June 11, 2014"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the front matter before the poem was dropped",
+   "the matter printed after the poem was dropped",
+   "the edition’s numbering was used for the section titles",
+   "running heads and stray printer’s marks were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "skelton-poems": {
+  "title": "Poetical Works, Volume I",
+  "author": "John Skelton",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1529,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 59997,
+   "url": "https://www.gutenberg.org/ebooks/59997",
+   "title_as_published": "The Poetical Works of John Skelton, Volume 1 (of 2)"
+  },
+  "printed": {
+   "transcribed_by": "Jonathan Ingram and the Online Distributed",
+   "gutenberg_released": "July 28, 2019"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the matter printed after the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "donne-poems": {
+  "title": "Poems",
+  "author": "John Donne",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1633,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 48688,
+   "url": "https://www.gutenberg.org/ebooks/48688",
+   "title_as_published": "The Poems of John Donne, Volume 1 (of 2)\nEdited from the Old Editions and Numerous Manuscripts"
+  },
+  "printed": {
+   "transcribed_by": "Jonathan Ingram, Lesley Halamek, Stephen Rowland",
+   "gutenberg_released": "April 12, 2015",
+   "printed_edition": "THE TEXT OF THE POEMS WITH APPENDIXES | OXFORD | AT THE CLARENDON PRESS | 1912"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [
+   {
+    "edition": "The Variorum Edition of the Poetry of John Donne (Indiana, 1995– )",
+    "why": "the manuscript tradition in full; Donne circulated in manuscript and the texts differ",
+    "find": "https://search.worldcat.org/search?q=Variorum+Edition+Poetry+of+John+Donne"
+   }
+  ],
+  "edition_named": true,
+  "reprint_year": 1912
+ },
+ "lanier-poems": {
+  "title": "Poems",
+  "author": "Sidney Lanier",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1884,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 579,
+   "url": "https://www.gutenberg.org/ebooks/579",
+   "title_as_published": "The Poems of Sidney Lanier"
+  },
+  "printed": {
+   "gutenberg_released": "July 1, 1996"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "pope-rape-of-the-lock": {
+  "title": "The Rape of the Lock",
+  "author": "Alexander Pope",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1712,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 9800,
+   "url": "https://www.gutenberg.org/ebooks/9800",
+   "title_as_published": "The Rape of the Lock, and Other Poems"
+  },
+  "printed": {
+   "transcribed_by": "Clytie Siddall, Charles Aldarondo, Tiffany",
+   "gutenberg_released": "January 1, 2006"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the front matter before the poem was dropped",
+   "the matter printed after the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "stevenson-childs-garden": {
+  "title": "A Child's Garden of Verses",
+  "author": "Robert Louis Stevenson",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1885,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 136,
+   "url": "https://www.gutenberg.org/ebooks/136",
+   "title_as_published": "A Child's Garden of Verses"
+  },
+  "printed": {
+   "gutenberg_released": "June 1, 1994"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "beattie-minstrel": {
+  "title": "The Minstrel and Other Poems",
+  "author": "James Beattie",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1774,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 8695,
+   "url": "https://www.gutenberg.org/ebooks/8695",
+   "title_as_published": "The Poetical Works of Beattie, Blair, and Falconer\nWith Lives, Critical Dissertations, and Explanatory Notes"
+  },
+  "printed": {
+   "transcribed_by": "Jonathan Ingram, Clytie Siddall, Charles Franks",
+   "gutenberg_released": "August 1, 2005"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "timrod-poems": {
+  "title": "Poems",
+  "author": "Henry Timrod",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1867,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 845,
+   "url": "https://www.gutenberg.org/ebooks/845",
+   "title_as_published": "Poems of Henry Timrod; with Memoir"
+  },
+  "printed": {
+   "transcribed_by": "Alan Light, and David Widger",
+   "gutenberg_released": "March 1, 1997"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "collins-poems": {
+  "title": "Poetical Works",
+  "author": "William Collins",
+  "translator": null,
+  "poem_dated": null,
+  "text_dated": 1746,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 29879,
+   "url": "https://www.gutenberg.org/ebooks/29879",
+   "title_as_published": "The Poetical Works of William Collins; With a Memoir"
+  },
+  "printed": {
+   "transcribed_by": "Juliet Sutherland, Katherine Ward, and the",
+   "gutenberg_released": "August 31, 2009",
+   "printed_edition": "[Illustration: _Perennis et Fragrans._] | BOSTON: | LITTLE, BROWN, AND COMPANY. | 1865."
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the front matter before the poem was dropped",
+   "the matter printed after the poem was dropped",
+   "running heads and stray printer’s marks were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1865
+ },
+ "catullus-carmina": {
+  "title": "The Carmina",
+  "author": "Catullus",
+  "translator": "Richard Burton",
+  "poem_dated": -55,
+  "text_dated": 1894,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 20732,
+   "url": "https://www.gutenberg.org/ebooks/20732",
+   "title_as_published": "The Carmina"
+  },
+  "printed": {
+   "transcribed_by": "Ted Garvin, Keith Edkins and the Online",
+   "gutenberg_released": "March 3, 2007"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the original text printed above each translation was separated from it",
+   "the edition’s numbering was used for the section titles",
+   "the front matter before the poem was dropped",
+   "the matter printed after the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [
+   {
+    "edition": "Catullus: A Commentary, ed. C. J. Fordyce (Oxford, 1961) and the text of D. F. S. Thomson (Toronto, 1997)",
+    "why": "the standard commentary and a modern critical text",
+    "find": "https://search.worldcat.org/search?q=Catullus+Thomson+Toronto+1997"
+   }
+  ],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "horace-odes": {
+  "title": "The Odes and Carmen Saeculare",
+  "author": "Horace",
+  "translator": "John Conington",
+  "poem_dated": -23,
+  "text_dated": 1863,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 5432,
+   "url": "https://www.gutenberg.org/ebooks/5432",
+   "title_as_published": "The Odes and Carmen Saeculare"
+  },
+  "printed": {
+   "transcribed_by": "David Moynihan, Charles Franks and the Online Distributed Proofreading Team",
+   "gutenberg_released": "April 1, 2004"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the edition’s numbering was used for the section titles",
+   "titles were corrected where the edition printed a subtitle in their place",
+   "the matter printed after the poem was dropped",
+   "the front matter before the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [
+   {
+    "edition": "Horace: Odes, ed. Nisbet and Hubbard (Books I–II) and Nisbet and Rudd (Book III), Oxford",
+    "why": "the standard commentaries",
+    "find": "https://search.worldcat.org/search?q=Nisbet+Hubbard+Horace+Odes"
+   }
+  ],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "homer-iliad": {
+  "title": "The Iliad",
+  "author": "Homer",
+  "translator": "Alexander Pope",
+  "poem_dated": -750,
+  "text_dated": 1720,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 6130,
+   "url": "https://www.gutenberg.org/ebooks/6130",
+   "title_as_published": "The Iliad"
+  },
+  "printed": {
+   "transcribed_by": "Anne Soulard, Juliet Sutherland, Charles Franks, and The Online Distributed Proofreading Team",
+   "gutenberg_released": "July 1, 2004"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the matter printed after the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [
+   {
+    "edition": "Homeri Ilias, ed. M. L. West (Teubner, 1998–2000)",
+    "why": "the current critical text of the Greek, with the fullest apparatus",
+    "find": "https://search.worldcat.org/search?q=Homeri+Ilias+West+Teubner"
+   },
+   {
+    "edition": "The Iliad: A Commentary, gen. ed. G. S. Kirk (Cambridge, 1985–1993), 6 vols",
+    "why": "the standard line-by-line commentary in English",
+    "find": "https://search.worldcat.org/search?q=Iliad+Commentary+Kirk+Cambridge"
+   }
+  ],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "orlando-furioso": {
+  "title": "Orlando Furioso",
+  "author": "Ludovico Ariosto",
+  "translator": "William Stewart Rose",
+  "poem_dated": 1532,
+  "text_dated": 1823,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 615,
+   "url": "https://www.gutenberg.org/ebooks/615",
+   "title_as_published": "Orlando Furioso"
+  },
+  "printed": {
+   "transcribed_by": "Douglas B. Killings",
+   "gutenberg_released": "August 1, 1996",
+   "printed_edition": "(1474-1533) | Translated by William Stewart Rose | This electronic edition was edited, proofed, and prepared by | corrections made September, 1995."
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1995
+ },
+ "lusiads": {
+  "title": "The Lusiad",
+  "author": "Luís de Camões",
+  "translator": "William Julius Mickle",
+  "poem_dated": 1572,
+  "text_dated": 1776,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 32528,
+   "url": "https://www.gutenberg.org/ebooks/32528",
+   "title_as_published": "The Lusiad"
+  },
+  "printed": {
+   "transcribed_by": "Chuck Greif and the Online Distributed",
+   "gutenberg_released": "May 26, 2010",
+   "printed_edition": "_Editor of \"Cory's Ancient Fragments,\" \"The Principia Hebraica,\" etc., etc._ | LONDON: GEORGE BELL AND SONS, YORK STREET, | COVENT GARDEN. | 1877."
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the matter printed after the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": 1877
+ },
+ "tibullus-elegies": {
+  "title": "The Elegies",
+  "author": "Tibullus",
+  "translator": "Theodore Chickering Williams",
+  "poem_dated": -25,
+  "text_dated": 1905,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 9610,
+   "url": "https://www.gutenberg.org/ebooks/9610",
+   "title_as_published": "The Elegies"
+  },
+  "printed": {
+   "transcribed_by": "Ted Garvin, David Garcia and the Online",
+   "gutenberg_released": "January 1, 2006"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the front matter before the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "lucan-pharsalia": {
+  "title": "Pharsalia",
+  "author": "Lucan",
+  "translator": "Edward Ridley",
+  "poem_dated": 61,
+  "text_dated": 1896,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 602,
+   "url": "https://www.gutenberg.org/ebooks/602",
+   "title_as_published": "Pharsalia"
+  },
+  "printed": {
+   "transcribed_by": "Douglas B. Killings",
+   "gutenberg_released": "July 1, 1996"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the matter printed after the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "garcilaso-works": {
+  "title": "The Works of Garcilasso de la Vega",
+  "author": "Garcilaso de la Vega",
+  "translator": "J. H. Wiffen",
+  "poem_dated": 1535,
+  "text_dated": 1823,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 49410,
+   "url": "https://www.gutenberg.org/ebooks/49410",
+   "title_as_published": "The Works of Garcilasso de la Vega"
+  },
+  "printed": {
+   "transcribed_by": "Josep Cols Canals, Judith Wirawan, and the",
+   "gutenberg_released": "July 10, 2015"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the front matter before the poem was dropped",
+   "the matter printed after the poem was dropped",
+   "editorial headings inside the poem were not treated as titles"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": false,
+  "reprint_year": null
+ },
+ "waley-chinese": {
+  "title": "A Hundred and Seventy Chinese Poems",
+  "author": "Various (Chinese)",
+  "translator": "Arthur Waley",
+  "poem_dated": 800,
+  "text_dated": 1918,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 42290,
+   "url": "https://www.gutenberg.org/ebooks/42290",
+   "title_as_published": "A Hundred and Seventy Chinese Poems"
+  },
+  "printed": {
+   "transcribed_by": "Henry Flower and the Online Distributed",
+   "gutenberg_released": "March 10, 2013",
+   "printed_edition": "[Illustration] | LONDON | CONSTABLE AND COMPANY LTD. | 1918"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed",
+   "the front matter before the poem was dropped"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
+   "reasons": [],
+   "cleared": []
+  },
+  "critical": [],
+  "edition_named": true,
+  "reprint_year": null
+ },
+ "hafiz-divan": {
+  "title": "Poems from the Divan of Hafiz",
+  "author": "Hafiz",
+  "translator": "Gertrude Lowthian Bell",
+  "poem_dated": 1370,
+  "text_dated": 1897,
+  "source": {
+   "provider": "Project Gutenberg",
+   "ebook": 74883,
+   "url": "https://www.gutenberg.org/ebooks/74883",
+   "title_as_published": "Poems from the Divan of Hafiz"
+  },
+  "printed": {
+   "transcribed_by": "Richard Tonsing and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive)",
+   "gutenberg_released": "December 12, 2024",
+   "printed_edition": "London: Heinemann, 1897"
+  },
+  "changes": [
+   "the Project Gutenberg header, footer and licence were removed"
+  ],
+  "corrections": [],
+  "rights": {
+   "status": "clear",
    "reasons": [],
    "cleared": []
   },

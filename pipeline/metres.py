@@ -25,6 +25,7 @@ sys.path.insert(0, HERE)
 from generic import DOCUMENTED
 from scansion import describe, analyse, FLOOR
 from authorities import build as authorities
+from scansion import evidence, best_line
 from teiread import load_work
 
 from _paths import SITE
@@ -48,82 +49,130 @@ def section_lines(sec):
         lines.extend(st); sizes.append(len(st))
     return lines, sizes
 
+def published():
+    """The metre of a poem as an article on that poem states it: pipeline/poem-metres.json, from
+    poemmetres.py. {slug: {section: record}}, records with a foot only; free verse and sprung rhythm
+    carry a name and no foot, and are kept so the page can say so."""
+    d = load(os.path.join(HERE, 'poem-metres.json'), {}) or {}
+    return d.get('poems', {})
+
+def agreement(lines, foot, feet):
+    """How far the scanner agrees with a metre somebody published: the mean agreement of the lines
+    read in that foot at that length, on the same scale as a measured confidence."""
+    evs = [evidence(t) for t in lines]
+    evs = [e for e in evs if e]
+    if not evs: return 0.0
+    return round(sum(best_line(e, foot, prefer=feet)[0] for e in evs) / len(evs), 3)
+
+AUTH, PUB = {}, {}
+
+def one(w):
+    """Everything decided about one work: what a pool worker does, with the authorities and the
+    published metres already loaded in the parent before it forked."""
+    slug = w['slug']
+    wk = load_work(slug)
+    if not wk: return None
+    disagree, scored = [], None
+    named = sections_named = sections_total = 0
+    secs = {}
+    book_lines, book_sizes = [], []
+    for s in wk.get('sections', []):
+        sections_total += 1
+        lines, sizes = section_lines(s)
+        if len(book_lines) < SAMPLE * 2:
+            book_lines.extend(lines[:40]); book_sizes.extend(sizes)
+        if len(lines) < 6: continue
+        name, conf, foot, feet = analyse(lines, sizes)
+        # An authority outranks the measurement. The measured foot and length are kept beside it,
+        # because the reader tapping a line still needs a template to mark it against -- but the
+        # name, and the confidence, come from the person who signed their work.
+        # An authority outranks the measurement -- but only where it is talking about the same
+        # thing. Alden prints SPECIMENS: he quotes the four short lines of Pope's Ode on Solitude
+        # to illustrate two-stress iambic, and the poem itself is tetrameter. Reading his label as
+        # the poem's metre published 'iambic dimeter' over a poem in tetrameter, and 'trochaic
+        # trimeter' over To a Skylark, whose stanza is three trochaic trimeters and an alexandrine.
+        #
+        # So his judgement is taken where it and the measurement are describing the same verse --
+        # the foot agrees -- and is otherwise kept as what it is: a citation, recorded beside the
+        # poem, saying which line of it he quoted and for what.
+        # A published statement about THIS poem outranks the measurement, whether or not the two
+        # agree: 'The Raven is written in trochaic octameter' is about the whole poem, where Alden
+        # quotes specimens. The measured name and confidence stay beside it, and the confidence
+        # recorded is the scanner's agreement read in the published metre, so the page can say
+        # who named it and how far the scanner goes along.
+        pub = PUB.get(slug, {}).get(s['id'])
+        if pub:
+            cite = 'Wikipedia: ' + pub['article']
+            if pub.get('foot') and pub['foot'] in ('iambic', 'trochaic', 'anapaestic', 'dactylic') and pub.get('feet'):
+                agree = agreement(lines, pub['foot'], pub['feet'])
+                secs[s['id']] = [pub['metre'], agree, cite, pub['foot'], pub['feet'], name, round(conf, 3), pub.get('url')]
+            else:
+                secs[s['id']] = [pub['metre'], 0.0, cite, None, None, name, round(conf, 3), pub.get('url')]
+            sections_named += 1
+            if name and name != pub['metre']: disagree.append((slug, s['id'], pub['metre'], name, cite, bool(name.split()[0] == pub['metre'].split()[0])))
+            continue
+        auth = AUTH.get(slug, {}).get(s['id'])
+        if auth:
+            # An authority still outranks the measurement when the measurement declines to name
+            # anything. analyse() now withholds a name from a poem whose lines are not lengths the
+            # metre can make, and it returns the foot regardless, so the two can still be compared:
+            # a scholar who says trochaic and a measurement that reads trochaic agree, whether or
+            # not the measurement was willing to publish a length of its own.
+            same = (name.split()[0] if name else foot) == auth['metre'].split()[0]
+            if name and name != auth['metre']:
+                disagree.append((slug, s['id'], auth['metre'], name, auth['cite'], bool(same)))
+            if same:
+                secs[s['id']] = [auth['metre'], 1.0, auth['cite'], foot, feet]
+                sections_named += 1
+                continue
+        if name:
+            # The foot and the count travel with the name so a reader tapping a line can be shown
+            # that line read against this poem's own metre, rather than against an assumption that
+            # every poem alternates.
+            secs[s['id']] = [name, round(conf, 3), 'measured', foot, feet]
+            sections_named += 1
+
+    # A book of many metres has no metre. Dickinson's collected poems came out 'iambic trimeter'
+    # -- one label stamped across four hundred poems in common measure, short measure, tetrameter
+    # and hymn stanzas alike, which is the very claim this file exists to stop making. Where the
+    # poems have their own answers and those answers disagree, the book is left without one.
+    doc = DOCUMENTED.get(slug)
+    wname, wconf = describe(book_lines, book_sizes) if book_lines else (None, 0.0)
+    # A book of many metres has no metre -- but the test has to be on the FOOT, not on the whole name.
+    # Evangeline is eleven sections of dactyls whose lines run six feet in some and five in others,
+    # and comparing full names read that as a disagreement and withdrew the metre from the most famous
+    # hexameter poem in English. What makes a book metrically mixed is walking in different feet.
+    own = collections.Counter(v[0].split()[0] for v in secs.values())
+    if len(secs) >= 5 and own and own.most_common(1)[0][1] / len(secs) < 0.6:
+        wname, wconf = None, 0.0
+    if doc:
+        scored = (slug, doc, wname, wconf)
+        work_entry = [doc, 1.0, 'documented']
+    elif wname:
+        work_entry = [wname, round(wconf, 3), 'measured']
+    else:
+        work_entry = [None, round(wconf, 3), 'unsettled']
+    if work_entry[0]: named += 1
+    return {'slug': slug, 'entry': {'work': work_entry, 'sections': secs}, 'disagree': disagree, 'scored': scored,
+            'named': named, 'sections_total': sections_total, 'sections_named': sections_named}
+
 def build(score_only=False):
     lib = load(os.path.join(DATA, 'library.json'), []) or []
-    AUTH = authorities()
+    global AUTH, PUB
+    AUTH = authorities(); PUB = published()
     disagree = []
     out, scored = {}, []
     named = sections_named = sections_total = 0
-
-    for w in lib:
-        slug = w['slug']
-        wk = load_work(slug)
-        if not wk: continue
-
-        secs = {}
-        book_lines, book_sizes = [], []
-        for s in wk.get('sections', []):
-            sections_total += 1
-            lines, sizes = section_lines(s)
-            if len(book_lines) < SAMPLE * 2:
-                book_lines.extend(lines[:40]); book_sizes.extend(sizes)
-            if len(lines) < 6: continue
-            name, conf, foot, feet = analyse(lines, sizes)
-            # An authority outranks the measurement. The measured foot and length are kept beside it,
-            # because the reader tapping a line still needs a template to mark it against -- but the
-            # name, and the confidence, come from the person who signed their work.
-            # An authority outranks the measurement -- but only where it is talking about the same
-            # thing. Alden prints SPECIMENS: he quotes the four short lines of Pope's Ode on Solitude
-            # to illustrate two-stress iambic, and the poem itself is tetrameter. Reading his label as
-            # the poem's metre published 'iambic dimeter' over a poem in tetrameter, and 'trochaic
-            # trimeter' over To a Skylark, whose stanza is three trochaic trimeters and an alexandrine.
-            #
-            # So his judgement is taken where it and the measurement are describing the same verse --
-            # the foot agrees -- and is otherwise kept as what it is: a citation, recorded beside the
-            # poem, saying which line of it he quoted and for what.
-            auth = AUTH.get(slug, {}).get(s['id'])
-            if auth:
-                # An authority still outranks the measurement when the measurement declines to name
-                # anything. analyse() now withholds a name from a poem whose lines are not lengths the
-                # metre can make, and it returns the foot regardless, so the two can still be compared:
-                # a scholar who says trochaic and a measurement that reads trochaic agree, whether or
-                # not the measurement was willing to publish a length of its own.
-                same = (name.split()[0] if name else foot) == auth['metre'].split()[0]
-                if name and name != auth['metre']:
-                    disagree.append((slug, s['id'], auth['metre'], name, auth['cite'], bool(same)))
-                if same:
-                    secs[s['id']] = [auth['metre'], 1.0, auth['cite'], foot, feet]
-                    sections_named += 1
-                    continue
-            if name:
-                # The foot and the count travel with the name so a reader tapping a line can be shown
-                # that line read against this poem's own metre, rather than against an assumption that
-                # every poem alternates.
-                secs[s['id']] = [name, round(conf, 3), 'measured', foot, feet]
-                sections_named += 1
-
-        # A book of many metres has no metre. Dickinson's collected poems came out 'iambic trimeter'
-        # -- one label stamped across four hundred poems in common measure, short measure, tetrameter
-        # and hymn stanzas alike, which is the very claim this file exists to stop making. Where the
-        # poems have their own answers and those answers disagree, the book is left without one.
-        doc = DOCUMENTED.get(slug)
-        wname, wconf = describe(book_lines, book_sizes) if book_lines else (None, 0.0)
-        # A book of many metres has no metre -- but the test has to be on the FOOT, not on the whole name.
-        # Evangeline is eleven sections of dactyls whose lines run six feet in some and five in others,
-        # and comparing full names read that as a disagreement and withdrew the metre from the most famous
-        # hexameter poem in English. What makes a book metrically mixed is walking in different feet.
-        own = collections.Counter(v[0].split()[0] for v in secs.values())
-        if len(secs) >= 5 and own and own.most_common(1)[0][1] / len(secs) < 0.6:
-            wname, wconf = None, 0.0
-        if doc:
-            scored.append((slug, doc, wname, wconf))
-            work_entry = [doc, 1.0, 'documented']
-        elif wname:
-            work_entry = [wname, round(wconf, 3), 'measured']
-        else:
-            work_entry = [None, round(wconf, 3), 'unsettled']
-        if work_entry[0]: named += 1
-        out[slug] = {'work': work_entry, 'sections': secs}
+    # One core did every poem in turn and took an hour. The works are independent, so they go to a
+    # pool of workers, forked so each already holds the authorities and the published metres.
+    import multiprocessing as mp
+    with mp.get_context('fork').Pool(max(1, mp.cpu_count() - 2)) as pool:
+        results = pool.map(one, lib, chunksize=1)
+    for r in results:
+        if not r: continue
+        out[r['slug']] = r['entry']; disagree.extend(r['disagree'])
+        if r['scored']: scored.append(r['scored'])
+        named += r['named']; sections_total += r['sections_total']; sections_named += r['sections_named']
 
     if score_only:
         # The one test the scanner's design never saw: these labels come from published scholarship and

@@ -11,9 +11,14 @@ import re, os, json, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
 from ingest import load, clean, source
 
-SKIP_TITLES = re.compile(r'^(END OF.*|VOL\.? [IVX\d]+.*|VOLUME [IVX\d]+.*|A NOTE ON.*|FROM .*HOMES AND HAUNTS.*|BY [A-Z]\. ?[A-Z]\..*|BY [A-Z][A-Z]+ [A-Z][A-Z]+|PRONOUNCING INDEX.*|IN (TWO|THREE|FOUR) VOLUMES.*|THE POETIC PRINCIPLE|[A-Z]\. ?[A-Z]\. ?[A-Z]\.?|LONDON[:,;] .*|LONDON \d.*|.*ERRORS?( IN .*)?|NOTE ON.*|ABBREVIATIONS.*|LIST OF.*|PRINTER.*|EDITOR.*|TEXTUAL.*|WARRANTY|MAIN COMPONENTS|COPYRIGHT.*|TABLE OF CONTENTS.*|INTRODUCTORY MATTER|CONTENTS?( .*)?|INDEX( OF (FIRST LINES|TITLES))?|PREFACE|AUTHOR.?S PREFACE|.*CONTEMPORARY EVENTS.*|INTRODUCTION (TO|BY) .*|INTRODUCTORY (NOTE|MATTER|ESSAY|MEMOIR).*|NOTES?( (TO|ON|FOR|UPON) .*)?|EXPLANATORY NOTES.*|TEXTUAL NOTES.*|VARIANTS?.*|ERRATA.*|FOOTNOTES:?|GLOSSARY|APPENDIX.*|BIBLIOGRAPH.*|ADVERTISEMENT|DEDICATION|ILLUSTRATIONS|LIST OF ILLUSTRATIONS|TRANSCRIBER.?S? NOTES?|BIOGRAPHICAL.*|MEMOIR.*|LIFE OF.*|CHRONOLOG.*|ERRATA|THE END|FINIS)\.?$', re.I)
+SKIP_TITLES = re.compile(r'^(END OF.*|VOL\.? [IVX\d]+.*|VOLUME [IVX\d]+.*|A NOTE ON.*|FROM .*HOMES AND HAUNTS.*|BY [A-Z]\. ?[A-Z]\..*|BY [A-Z][A-Z]+ [A-Z][A-Z]+|PRONOUNCING INDEX.*|IN (TWO|THREE|FOUR) VOLUMES.*|THE POETIC PRINCIPLE|[A-Z]\. ?[A-Z]\. ?[A-Z]\.?|LONDON[:,;] .*|LONDON \d.*|.*ERRORS?( IN .*)?|NOTE ON.*|ABBREVIATIONS.*|LIST OF.*|PRINTER.*|EDITOR.*|TEXTUAL.*|WARRANTY|MAIN COMPONENTS|COPYRIGHT.*|TABLE OF CONTENTS.*|INTRODUCTORY MATTER|CONTENTS?( .*)?|INDEX( OF (FIRST LINES|TITLES))?|PREFACE|AUTHOR.?S PREFACE|.*CONTEMPORARY EVENTS.*|INTRODUCTION (TO|BY) .*|INTRODUCTORY (NOTE|MATTER|ESSAY|MEMOIR).*|NOTES?( (TO|ON|FOR|UPON) .*)?|EXPLANATORY NOTES.*|TEXTUAL NOTES.*|VARIANTS?.*|ERRATA.*|FOOTNOTES:?|END ?NOTES:?|PREPARER.?S NOTES?:?|SELECTED BIBLIOGRAPHY:?|RECOMMENDED READING.*|OTHER TRANSLATIONS.*|GLOSSARY|APPENDIX.*|BIBLIOGRAPH.*|ADVERTISEMENT|DEDICATION|ILLUSTRATIONS|LIST OF ILLUSTRATIONS|TRANSCRIBER.?S? NOTES?|BIOGRAPHICAL.*|MEMOIR.*|LIFE OF.*|CHRONOLOG.*|ERRATA|THE END|FINIS)\.?$', re.I)
 ROMAN = re.compile(r'^[\(\[]?[IVXLC]+[\)\]\.]?$|^[IVXLC]+\.\s*\d\.?$')
 NUMBER = re.compile(r'^\d{1,3}\.?$')
+# A numbered major division. Never taken as the subtitle of the heading before it: Lucan's 'ENDNOTES:' was
+# swallowing 'BOOK II' and 'BOOK IX' whenever the notes block had been rejected as prose, and the two books
+# went on under their subtitles and were folded into the book before.
+NUMHEAD = re.compile(r'^(book|canto|part|runo|fit|chapter|liber|adventure)( the \w+| [ivxlc]+| \d+| (first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|one|two|three|four|five|six|seven|eight|nine|ten))\.?$', re.I)
+NUMHEAD_ANY = re.compile(r'^(book|canto|part|runo|fit|chapter|liber|adventure|carmen|poem|ode|sonnet|idyll|satire|elegy|epistle|eclogue|hymn|epigram)( the \w+| [ivxlc]+| \d+| (first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|one|two|three|four|five|six|seven|eight|nine|ten))\b', re.I)
 
 def is_title(block, meta=None, flush=None):
     # Some editions set every poem title hard against the left margin and indent everything else: verse,
@@ -203,10 +208,10 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         blocks = kept
     sections, title, stanzas, skipping, base, part = [], None, [], True, None, None
     glosses = {}; base_has_verse = set(); major_title = None; prev_title = None
-    pending_heading = [None]; book_ctx = [None]
+    pending_heading = [None]; pending_epi = [False]; book_ctx = [None]
     def flush():
         nonlocal stanzas
-        if title and not SKIP_TITLES.match(title) and sum(len(s) for s in stanzas) < min_lines and not part and not skipping: pending_heading[0] = title
+        if title and not SKIP_TITLES.match(title) and sum(len(s) for s in stanzas) < min_lines and not part and not skipping: pending_heading[0] = title; pending_epi[0] = sum(len(s) for s in stanzas) > 0
         if title and not SKIP_TITLES.match(title) and sum(len(s) for s in stanzas) >= min_lines:
             base = meta.get('titlemap', {}).get(tmkey(title), title)
             pt = norm_roman(part) if part else part
@@ -219,9 +224,10 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                 fl = re.sub(r'[\s,;:.!?]+$', '', stanzas[0][0].strip()); fl = re.sub(r'^([A-Z])([A-Z]+)(?=\b)', lambda m: m.group(1) + m.group(2).lower(), fl); shown = fl if len(fl) <= 60 else fl[:57].rsplit(' ', 1)[0] + '…'
             sid = re.sub(r'[^a-z0-9]+', '-', shown.lower()).strip('-')[:60] or f'poem-{len(sections)+1}'
             if any(s['id'] == sid for s in sections): sid += f'-{len(sections)+1}'
-            if not part: base_has_verse.add(title); pending_heading[0] = None
+            carry, epi = pending_heading[0], pending_epi[0]
+            if not part: base_has_verse.add(title); pending_heading[0] = None; pending_epi[0] = False
             if os.environ.get('PARSE_TRACE'): print('FLUSH', repr(shown[:50]), sum(len(x) for x in stanzas))
-            sections.append({'id': sid, 'title': shown, 'short': (part if part else shown)[:18], 'stanzas': stanzas, '_base': title, '_part': part, '_heading': pending_heading[0], '_book': book_ctx[0], '_gl': {ti: g for (si, ti), g in glosses.items() if si == len(sections)}})
+            sections.append({'id': sid, 'title': shown, 'short': (part if part else shown)[:18], 'stanzas': stanzas, '_base': title, '_part': part, '_heading': pending_heading[0], '_carry': carry, '_epi': epi, '_book': book_ctx[0], '_gl': {ti: g for (si, ti), g in glosses.items() if si == len(sections)}})
         stanzas = []
     skip_blocks = set()
     for bi, b in enumerate(blocks):
@@ -256,16 +262,16 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             newt = re.sub(r'\s*<\d+\.\d+>', '', newt); newt = newt.replace(' ,', ',')
             newt = re.sub(r'^_?(the )?argument_?[.:]?\s+(?=\S)', '', newt, flags=re.I)   # "ARGUMENT. MINERVA'S DESCENT TO ITHACA" is the title without its label
             if skipping and meta.get('resume_only') and title and re.match(meta['resume_only'][0], title, re.I) and not re.match(meta['resume_only'][1], newt, re.I): continue   # inside the notes: only a named heading ends the skip
-            if meta.get('book_prefix') and re.match(r'^(BOOK|Book) [IVXLC]+\.?$', newt.strip()): book_ctx[0] = polish_title(newt.strip(' .'))
+            new_book = polish_title(newt.strip(' .')) if meta.get('book_prefix') and re.match(r'^(BOOK|Book) [IVXLC]+\.?$', newt.strip()) else None
             if meta.get('numbered_titles') and part and not stanzas: newt = f"{meta.get('partlabel', 'Part')} {norm_roman(part)}: {newt}"; part = None
             if title and not stanzas and not skipping and re.match(r'^(book|canto|part|runo|fit|chapter)( the)? ([ivxlc]+|\d+|\w+)\.?$', re.sub(r'[\*_]+', '', title), re.I) and not re.match(r'^(book|canto|part|runo|fit|chapter)\b', newt, re.I) and not SKIP_TITLES.match(newt):
                 title = polish_title(title) + ': ' + polish_title(newt); continue
             if title and not stanzas and not skipping and re.match(r'^\(.*\)$', newt.strip()) and not re.match(r'^\(.*\)$', title.strip()):
                 title = title + ' ' + newt.strip(); continue
             if title and not stanzas and not skipping and re.match(r'^(Tune|Air)\b', newt.strip(), re.I): continue   # a tune line under a song title
-            if meta.get('subtitle_join') and title and not stanzas and not skipping and not SKIP_TITLES.match(newt.strip().rstrip(': ')) and ':' not in title: title = title.strip() + ': ' + newt.strip(); continue
-            if title and not stanzas and not skipping and title.rstrip().endswith(':'): title = title.rstrip(': ') + ': ' + newt.strip(); continue
-            if title and not stanzas and not skipping and title.rstrip().endswith(',') and not SKIP_TITLES.match(newt.strip()): title = title.rstrip(', ') + ', ' + newt.strip(); continue
+            if meta.get('subtitle_join') and title and not stanzas and not skipping and not SKIP_TITLES.match(newt.strip().rstrip(': ')) and not NUMHEAD.match(re.sub(r'[\*_]+', '', newt).strip()) and (':' not in title or re.match(r'^[^:]+: (elegy|ode|idyll|satire|epistle|poem|sonnet|hymn|epigram)( the)? ([ivxlc]+|\d+|\w+)$', title.strip(), re.I)): title = title.strip() + ': ' + newt.strip(); continue
+            if title and not stanzas and not skipping and title.rstrip().endswith(':') and not NUMHEAD.match(re.sub(r'[\*_]+', '', newt).strip()): title = title.rstrip(': ') + ': ' + newt.strip(); continue
+            if title and not stanzas and not skipping and title.rstrip().endswith(',') and not SKIP_TITLES.match(newt.strip()) and not NUMHEAD.match(re.sub(r'[\*_]+', '', newt).strip()): title = title.rstrip(', ') + ', ' + newt.strip(); continue
             if os.environ.get('PARSE_DEBUG') and meta.get('carry_title') and newt.startswith('THALABA'): print('CARRY?', repr(title), len(stanzas), skipping, repr(newt))
             if meta.get('carry_title') and title and not stanzas and not skipping and re.match(meta['carry_title'], polish_title(meta.get('titlemap', {}).get(tmkey(title), title)), re.I): continue   # a speaker heading right under the work's title: the title stays
             elif meta.get('number_parts') and part and not stanzas: part = None
@@ -279,6 +285,7 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                     newt = f"{major_title}: {_rest}"
                 elif re.search(r'\btale\b', tclean, re.I) and not SKIP_TITLES.match(tclean) and not re.match(r'^notes', tclean, re.I): major_title = tclean
             flush()
+            if new_book: book_ctx[0] = new_book   # after the flush: the section before a BOOK heading belongs to the old book (Horace's I.38 was labelled Book II)
             if title and not (SKIP_TITLES.match(title.rstrip(': ')) or skipping): prev_title = title
             title = newt; part = None; skipping = bool(SKIP_TITLES.match(title.rstrip(': '))) or bool(meta.get('skipre') and re.match(meta['skipre'], title, re.I))
             if os.environ.get('PARSE_TRACE'): print('TITLE', repr(newt[:50]), 'skip' if skipping else '')
@@ -335,7 +342,7 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
     # roman numerals that mark single stanzas (Spenser, Byron's Childe Harold): fold the parts back under their base title
     parts = [s for s in sections if s.get('_part')]
     sonnets = meta.get('scheme') in ('ABABCDCDEFEFGG', 'ABBAABBACDCDCD')
-    if meta.get('epic') and not meta.get('headre') and parts and sum(1 for s in parts if len(s['stanzas']) == 1) >= 0.7 * len(parts):
+    if meta.get('epic') and not meta.get('headre') and not meta.get('no_fold') and parts and sum(1 for s in parts if len(s['stanzas']) == 1) >= 0.7 * len(parts):
         foldbases = {s['_base'] for s in parts}
     elif parts and not sonnets and not meta.get('headre') and not meta.get('no_fold'):
         # a poem whose roman numerals mark stanzas (Childe Roland, The Shrine) is one section, not thirty
@@ -357,7 +364,25 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
     if meta.get('book_prefix'):
         for s in sections:
             if s.get('_book') and not re.match(r'^(Book|Carmen Saeculare)\b', s['title']): s['title'] = f"{s['_book']}: {s['title']}"; s['id'] = re.sub(r'[^a-z0-9]+', '-', s['title'].lower()).strip('-')[:60]
-    for s in sections: s.pop('_base', None); s.pop('_part', None); s.pop('_book', None)
+    # A section titled by a lone name that stands under a numbered heading with no verse of its own takes that
+    # heading. Two shapes: an epigraph's author (Beattie: 'BOOK I', a Latin motto, 'VIRGIL', then the book, which
+    # was being titled Virgil and folded into the biography before it) and a dialogue's first speaker (Burton's
+    # Catullus: 'LXII.', the title, '_Youths._', then the song, which was being folded into poem LXI). A bare
+    # heading over a one-word poem title is left alone: the rename needs the epigraph or a run of speakers.
+    LONE = re.compile(r'^\(?[A-Z][A-Za-z.\'\u2019]*\.?\)?$')
+    for i, s in enumerate(sections):
+        h = s.get('_carry')
+        if not (h and LONE.match(s['title'].strip()) and NUMHEAD_ANY.match(polish_title(h))): continue
+        j = i + 1
+        while j < len(sections) and LONE.match(sections[j]['title'].strip()) and not sections[j].get('_carry'): j += 1
+        names = {sections[k]['title'] for k in range(i, j)}
+        if s.get('_epi') or (j - i >= 3 and len(names) <= 3):
+            s['title'] = polish_title(h); s['short'] = s['title'][:18]
+            sid = re.sub(r'[^a-z0-9]+', '-', s['title'].lower()).strip('-')[:60]
+            if any(x['id'] == sid for x in sections if x is not s): sid += f'-{i + 1}'
+            s['id'] = sid
+            if os.environ.get('PARSE_TRACE'): print('RENAME', repr(s['title'][:50]))
+    for s in sections: s.pop('_base', None); s.pop('_part', None); s.pop('_book', None); s.pop('_carry', None); s.pop('_epi', None)
     good = [s for s in sections if not (sum(1 for x in s['stanzas'] if len(x) == 1) > len(s['stanzas']) / 2 and len(s['stanzas']) > 6) and sum(len(x) for x in s['stanzas']) >= min_lines]
     # epics: drop anything before the first canto/book
     if meta.get('epic'):
@@ -372,11 +397,15 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         else: merged2.append(s)
     good = merged2
     # epics with numbered books: fold sub-headings (The Catalogue of the Ships) into the book they belong to
-    if meta.get('epic') or meta.get('foldsub'):
+    if (meta.get('epic') or meta.get('foldsub')) and not meta.get('no_foldsub'):
         NUM = re.compile(r'^(Book|Canto|Part|Runo|Fit|Chapter|Inferno|Purgatorio|Paradiso|Liber|Ode|Satire|Carmen)\b', re.I)
+        # a numbered poem of its own kind is not a sub-heading of the book before it (Garcilaso's eclogues, elegies and sonnets were all inside 'Chapter V' of Wiffen's essay)
+        KEEP = re.compile(r'^(Eclogue|Elegy|Sonnet|Epistle|Idyll|Hymn|Epigram|Psalm|Canzone|Ballad|Sestina|Madrigal)( the \w+| [IVXLC]+| \d+)\b', re.I)
         folded = []
         for s in good:
-            if folded and not NUM.match(s['title']) and NUM.match(folded[-1]['title']): folded[-1]['stanzas'].extend(s['stanzas'])
+            if folded and not NUM.match(s['title']) and not KEEP.match(s['title']) and NUM.match(folded[-1]['title']):
+                if os.environ.get('PARSE_TRACE'): print('FOLD', repr(s['title'][:40]), sum(len(x) for x in s['stanzas']), '->', repr(folded[-1]['title'][:40]))
+                folded[-1]['stanzas'].extend(s['stanzas'])
             else: folded.append(s)
         good = folded
     # Drop front matter — but by what it IS, not by how short it is. The old rule dropped every leading
@@ -695,7 +724,7 @@ def tidy_titles(good, meta):
     for k, s in enumerate(out):
         nxt = out[k + 1] if k + 1 < len(out) else None
         ln = [l for st in s['stanzas'] for l in st]
-        if nxt and len(ln) <= 8 and re.match(r'^[“"‘\']', ln[0]) and re.search(r'[”"’\'][.,!?]?$|[.,!?][”"’\']$', ln[-1]) and len(nxt['title'].split()) <= 3 and not re.match(r'^(the|a|an|on|to|in)\b', nxt['title'], re.I):
+        if nxt and len(ln) <= 8 and re.match(r'^[“"‘\']', ln[0]) and re.search(r'[”"’\'][.,!?]?$|[.,!?][”"’\']$', ln[-1]) and len(nxt['title'].split()) <= 3 and not re.match(r'^(the|a|an|on|to|in)\b', nxt['title'], re.I) and not NUMHEAD_ANY.match(nxt['title']):   # a numbered book is not an epigraph's author
             nxt['stanzas'] = s['stanzas'] + nxt['stanzas']; nxt['title'] = s['title']; nxt['short'] = s['short']; nxt['id'] = s['id']; continue
         ep.append(s)
     out = ep

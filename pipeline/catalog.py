@@ -292,7 +292,7 @@ SLUG_META = {
     'percy-reliques': {'start_at': r'^I\.$', 'start_occurrence': 2, 'stop_at': r'^APPENDIX I\.$', 'stop_occurrence': 2, 'numbered_titles': True, 'partlabel': 'Ballad', 'skipre': r'^(NOTES|GLOSSARY|ERRATA|PREFACE|INTRODUCTION|ADVERTISEMENT|RELIQUES OF)\b'},
     'gower-confessio': {'titlemap': {'INCIPIT LIBER PRIMUS': 'Book I', 'INCIPIT LIBER SECUNDUS': 'Book II', 'INCIPIT LIBER TERCIUS': 'Book III', 'INCIPIT LIBER QUARTUS': 'Book IV', 'INCIPIT LIBER QUINTUS': 'Book V', 'INCIPIT LIBER SEXTUS': 'Book VI', 'INCIPIT LIBER SEPTIMUS': 'Book VII', 'INCIPIT LIBER OCTAUUS': 'Book VIII', 'PROLOGUS': 'Prologue'}},
     'skelton-poems': {'stop_at': r'^NOTES\.?$'},
-    'tibullus-elegies': {'start_at': r'^BOOK I$', 'start_occurrence': 2, 'subtitle_join': True, 'book_prefix': True, 'titlere': r'^(ELEGY THE \w+|BOOK [IVX]+|[A-Z][A-Z \'’,;.\-]{3,48})$'},
+    'tibullus-elegies': {'start_at': r'^BOOK I$', 'start_occurrence': 2, 'start_inclusive': True, 'subtitle_join': True, 'book_prefix': True, 'titlere': r'^(ELEGY THE \w+|BOOK [IVX]+|[A-Z][A-Z \'’,;.\-]{3,48})$'},
     'dante-vita-nuova': {'numbered_titles': True, 'partlabel': 'Section'},
     'catullus-carmina': {'dual_numbered': True, 'partlabel': 'Carmen', 'numbered_titles': True, 'min_lines': 2, 'start_at': r'^LIBER\.$', 'stop_at': r'^NOTES$'},
     'sidney-astrophel': {'each_stanza': 'Sonnet', 'start_at': r'^\s*Lo[uv]ing in truth', 'start_inclusive': True, 'headre': r'^_?(the )?\w+ sonnet\.?_?$'},
@@ -307,10 +307,20 @@ SLUG_META = {
     'kalevala': {'append_gids': [33089], 'max_lines': 40000},
     'poetic-edda': {'subtitle_join': True, 'resume_after_note': True, 'start_at': r'^PART I$', 'skipre': r'^(THE POETIC EDDA|VOLUME [IVX]+|LAYS OF THE \w+|PART [IVX]+)$'},
     'nibelungenlied': {'partlabel': 'Adventure', 'numbered_titles': True},
-    'pope-rape-of-the-lock': {'start_at': r'^THE RAPE OF THE LOCK$', 'start_occurrence': 3},
+    'pope-rape-of-the-lock': {'start_at': r'^THE RAPE OF THE LOCK$', 'start_occurrence': 3, 'stop_at': r'^APPENDIX$', 'stop_occurrence': 2},
     'canterbury-tales': {'subparts': True, 'stop_at': r'^THE COURT OF LOVE\.$'},
     'wilde-reading-gaol': {'titlemap': {'VERSION TWO': 'The Ballad of Reading Gaol'}, 'skipre': r'^VERSION ONE', 'partlabel': 'Part'},
     'beowulf': {'partlabel': 'Part', 'titlemap': {'PRELUDE OF THE FOUNDER OF THE DANISH HOUSE': 'Prelude'}},
+    # found by the September 2026 missing-books scan (Lucan's Book II was the first case)
+    'lucan-pharsalia': {'stop_at': r"^PREPARER'S NOTES:$"},                  # the bibliography after Book X was folding into it
+    'homer-iliad': {'stop_at': r'^CONCLUDING NOTE\.$', 'stop_occurrence': 2},  # Pope's concluding note and the footnotes were folding into Book XXIV
+    'lusiads': {'stop_at': r'^THE END\.$'},                                 # Mickle's footnotes (Latin quotations read as verse) were folding into Book X
+    'orlando-furioso': {'max_lines': 45000},                                 # 38,700 lines: the 20,000-line epic cap stopped it inside Canto XXV
+    # Wiffen's volume: a prose essay in chapters, then the works. The poems were all folded into 'Chapter V' of the essay.
+    # The eclogues are dialogues: cast lists and speaker names are not headings, and the three silvas of Eclogue II are one poem.
+    'garcilaso-works': {'start_at': r'^THE WORKS OF GARCILASSO\.$', 'stop_at': r'^APPENDIX\.$', 'no_fold': True,
+                        'ignore_heading': r'^(SALICIO|NEMOROSO|ALBANIO|CAMILLA|TYRRENO|ALCINO)([.,] ?(SALICIO|NEMOROSO|ALBANIO|CAMILLA|TYRRENO|ALCINO))*\.?$|^SILVA [IVX]+\.?$|^YES\.?$'},
+    'waley-chinese': {'no_foldsub': True, 'start_at': r'^CHAPTER I:?$', 'start_occurrence': 2, 'start_inclusive': True},                                   # 170 poems grouped in chapters: keep the poems, not the chapters
 }
 EPICS = [
     ('hesiod-works', 66350, 'The Works and Days, the Theogony and the Shield of Hercules', 'Hesiod', (None, None), 'grc', -700, 'Charles Abraham Elton', '1812', 'The farmer\'s calendar, the genealogy of the gods and the shield, in Elton\'s blank verse.', 'blank verse', None),
