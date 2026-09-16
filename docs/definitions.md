@@ -11,7 +11,7 @@ and is of roughly the right century for most of this library. It has **96,527 he
 16 MB.
 
 Shipping all of it would be absurd, and shipping only the rare words that the pipeline had flagged
-turned out to be worse, since it left a reader who met *wont*, *ere* or *still* in its old sense with
+turned out to be worse. It left a reader who met *wont*, *ere* or *still* in its old sense with
 nothing at all. The site therefore keeps the headwords that the library actually contains, split into
 small files by their first letters, so that looking up a word fetches a few dozen kilobytes rather than
 sixteen megabytes.

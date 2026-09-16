@@ -16,7 +16,7 @@ one-syllable words. Whether *where* is stressed depends on the sentence it is in
 **Scansion.** Marking which syllables in a line carry the beat. It is what this corpus does to every
 line, and the marks are written `+` for a stressed syllable and `-` for an unstressed one.
 
-**Foot.** The unit that a metre repeats. English verse uses four:
+**Foot.** The unit that a meter repeats. English verse uses four:
 
 | foot | pattern | sounds like | example |
 |---|---|---|---|
@@ -25,10 +25,10 @@ line, and the marks are written `+` for a stressed syllable and `-` for an unstr
 | **anapaest** | `--+` | da-da-DUM | *in-ter-VENE* |
 | **dactyl** | `+--` | DUM-da-da | *MER-ri-ly* |
 
-An iamb and an anapaest are **rising**, because they end on the beat. A trochee and a dactyl are
-**falling**, because they begin on it.
+An iamb and an anapaest are **rising**: they end on the beat. A trochee and a dactyl are
+**falling**: they begin on it.
 
-**Metre.** The pattern a poem keeps, named by its foot and by how many feet the line has.
+**Meter.** The pattern a poem keeps, named by its foot and by how many feet the line has.
 
 | feet in the line | name |
 |---|---|
@@ -40,16 +40,16 @@ An iamb and an anapaest are **rising**, because they end on the beat. A trochee 
 | seven | heptameter |
 | eight | octameter |
 
-So **iambic pentameter** is five iambs, ten syllables, `-+-+-+-+-+`. It is the metre of Shakespeare's
+So **iambic pentameter** is five iambs, ten syllables, `-+-+-+-+-+`. It is the meter of Shakespeare's
 sonnets, of *Paradise Lost*, and of most long poems in English. **Trochaic octameter** is eight trochees,
-sixteen syllables, `+-+-+-+-+-+-+-+-`, and is the metre of *The Raven*.
+sixteen syllables, `+-+-+-+-+-+-+-+-`, and is the meter of *The Raven*.
 
-A metre is a property of a poem rather than of a line. One line rarely settles which foot it is in;
+A meter is a property of a poem rather than of a line. One line rarely settles which foot it is in;
 twenty lines almost always do.
 
-## Where a poem bends its metre
+## Where a poem bends its meter
 
-A poem that never departed from its metre would be unreadable. These are the licensed departures, and
+A poem that never departed from its meter would be unreadable. These are the licensed departures, and
 the corpus records where each one falls.
 
 **Substitution.** One foot swapped for a different foot of the same length. By far the commonest is a
@@ -67,7 +67,7 @@ syllables rather than sixteen, ending on the beat instead of after it. Poe alter
 unstressed syllable. An acephalous iambic pentameter is nine syllables, `+-+-+-+-+`. Sonnet 18 does
 this in its second line, *Thou art more lovely and more temperate*.
 
-Acephaly and catalexis are worth keeping straight, because a headless iambic line and a catalectic
+Acephaly and catalexis are worth keeping straight. A headless iambic line and a catalectic
 trochaic line are the same string of marks. Only the rest of the poem says which it is.
 
 **Feminine ending.** An unstressed syllable left over at the end of the line, so that an iambic
@@ -114,7 +114,7 @@ calling it iambic tetrameter throws away the half of the pattern that matters. *
 **Quantity.** How long a syllable takes to say, rather than how hard it is hit. Latin and Greek verse is
 built on quantity and English verse on stress, and the two are different systems: a Latin line is a
 pattern of long and short syllables. Laurel scans the original-language texts by quantity and their
-English translations by stress, which is why a translation's metre belongs to the translator and never
+English translations by stress, which is why a translation's meter belongs to the translator and never
 to the original poet.
 
 **Lemma.** In an editor's note, the word or phrase from the poem that the note is about, quoted at its
@@ -131,12 +131,12 @@ is its current version. It is XML with an agreed vocabulary, so a tool that read
 read another. Laurel publishes every work as TEI so that what it knows about a line travels with the
 line.
 
-**`@met`** on a line is the pattern that the poem's metre asks for. **`@real`** is what the words
+**`@met`** on a line is the pattern that the poem's meter asks for. **`@real`** is what the words
 themselves settle. The places where the two differ are the places of interest.
 
 * `+` stressed
 * `-` unstressed
-* `x` a syllable the dictionary does not settle, which the metre may take either way
+* `x` a syllable the dictionary does not settle, which the meter may take either way
 
 Most one-syllable words are `x`, and that is a fact about English rather than a gap in the dictionary.
 
@@ -149,9 +149,9 @@ that settled citation for classical literature, naming author, work, edition and
 `urn:laurel:eng:shakespeare.shakespeare-sonnets.pg1041:18.1-18.4` is the first four lines of Sonnet 18
 in the Gutenberg edition this corpus used. It says which text it means, which a page number does not.
 
-**Confidence.** The share of the evidence in a poem's lines that the named metre accounts for. It is
+**Confidence.** The share of the evidence in a poem's lines that the named meter accounts for. It is
 not a probability that the answer is right. Poems mostly land between 0.80 and 0.95, and below 0.70 the
-corpus names no metre at all. A low figure often means an interesting poem rather than a failed
+corpus names no meter at all. A low figure often means an interesting poem rather than a failed
 reading.
 
 ## Measurements

@@ -3,8 +3,8 @@
 *Part of the [Laurel corpus](../README.md). The [method index](../METHOD.md) lists the other documents,
 and terms are defined in the [glossary](glossary.md).*
 
-A citation has to name the edition, not only the work. "The Iliad, line 1" is not a reference, because
-texts differ. The scheme used here follows CTS, which settled this question for classical literature,
+A citation has to name the edition, not only the work. "The Iliad, line 1" is not a reference.
+Texts differ. The scheme used here follows CTS, which settled this question for classical literature,
 and it uses the same four parts:
 
 ```

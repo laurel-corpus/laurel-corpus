@@ -18,7 +18,7 @@ that they are taught:
 4. **Long by nature** where the alphabet says so. Greek marks much of its own quantity: eta and omega
    are long, epsilon and omicron are short, the diphthongs are long, and alpha, iota and upsilon are
    open. Latin marks none, so its quantities come from step 5 alone, together with the positions.
-5. **Fit the line to the metre.** For the hexameter this means five feet, each a dactyl or a spondee,
+5. **Fit the line to the meter.** For the hexameter this means five feet, each a dactyl or a spondee,
    and a sixth foot of two syllables. Only some arrangements give the right syllable count, and of those
    only some put a long where step 3 requires one. Where more than one arrangement still fits, a
    dactylic fifth foot is preferred, which is true of about ninety-five hexameters in a hundred, and
@@ -28,7 +28,7 @@ that they are taught:
 texts, 56,146 of 61,783 lines solve: between 98 and 99% of the Latin, and between 80 and 88% of the
 Greek. The gap is real, and it has a cause. The Greek texts are printed with accents and breathings that
 this method reads through, and their proper names admit quantities that the rules cannot settle. The
-lyric metres of Catullus and Horace are not attempted at all.
+lyric meters of Catullus and Horace are not attempted at all.
 
 ## Lining a translation up with its original
 

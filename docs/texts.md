@@ -15,14 +15,14 @@ known to be a poor witness, it should be treated as such.
 
 ## What was removed, and what was not
 
-The Gutenberg header, footer and licence text are removed. The verse is not otherwise altered. Two kinds
+The Gutenberg header, footer and license text are removed. The verse is not otherwise altered. Two kinds
 of matter that are *not* the poem are also taken out.
 
 **Printed line numbers.** Some editions set a number in the right margin, and Gutenberg preserves the
 margin by padding the line with spaces and putting the number at the end. Left in place, the reader is
 shown a figure that the poet did not write, and, worse, the parser takes it for the rhyming word: one
 line of Wordsworth had *--485* lettered as a rhyme. **2,659 lines across 23 works** carried such a
-number. The test for removing one is deliberately narrow, because a poem may legitimately end a line on
+number. The test for removing one is deliberately narrow. A poem may legitimately end a line on
 a number.
 
 **Front matter mistaken for verse.** Division titles, epigraphs and mottoes are folded into the poem
@@ -50,9 +50,9 @@ copies. `data/editions.json` records all of this for every work in the library:
 | `changes` | every alteration this project made on the way to the page |
 | `rights` | the public domain determination, with its reasons |
 
-The `edition_named` field deserves attention. It is often **false**, because many Gutenberg files do
+The `edition_named` field deserves attention. It is often **false**. Many Gutenberg files do
 not say which printed text they were set from. Where that is so, the corpus says so rather than
 guessing.
 
-The `critical` field does not mean that the corpus uses those editions. It cannot, since they are in
+The `critical` field does not mean that the corpus uses those editions. It cannot. They are in
 copyright. It names them so that a reader comparing texts knows which authority to compare against.

@@ -11,8 +11,8 @@ the corpus. It serves as a ruler, not as a source.
 | | |
 |---|---|
 | stress over 3,183 hand-annotated lines | **85.6%** |
-| stress read against the poem's own metre, held-out half | **92.3%** |
-| against separately documented metres | 21 of 23 exact, **23 of 23 on the foot** |
+| stress read against the poem's own meter, held-out half | **92.3%** |
+| against separately documented meters | 21 of 23 exact, **23 of 23 on the foot** |
 | sonnets called something other than iambic | **0.5%** of 422 |
 
 **These figures make the test look easier than it was, in three separate ways**, and I set them out
@@ -21,7 +21,7 @@ below rather than leave them to be found.
 *The corpus is about 90% iambic.* Sixty-two of its sixty-nine poems are iambic, so a scanner that
 always guessed "iambic" and counted feet would score well. Only seven non-iambic poems exist in it.
 
-## The metres that corpus could not test
+## The meters that corpus could not test
 
 That gap has since been closed against a second body of hand-annotated verse. The three English gold
 corpora (For Better For Verse, EPG64 and the prosodic corpus) were gathered into one format by
@@ -31,7 +31,7 @@ are not iambic**.
 
 Measured over the syllables where the words themselves settle a stress, the agreement is as follows:
 
-| metre | lines | syllables | agreement |
+| meter | lines | syllables | agreement |
 |---|---|---|---|
 | iambic | 1,782 | 13,947 | 83.8% |
 | trochaic | 417 | 3,264 | 82.0% |
@@ -41,7 +41,7 @@ Measured over the syllables where the words themselves settle a stress, the agre
 | hexameter | 128 | 1,894 | 91.3% |
 | **all** | **3,183** | **26,103** | **85.1%** |
 
-Two qualifications belong with these figures. First, **5% of lines are excluded**, because this
+Two qualifications belong with these figures. First, **5% of lines are excluded**. This
 syllabifier and the annotators disagree about how many syllables the line has. That is a real
 disagreement rather than a rounding error, and it is the honest place to look for the next improvement.
 Second, the gold data is stored one syllable per row, so its words have to be rebuilt before they can be
@@ -67,11 +67,11 @@ used to decide anything. On that control half:
 |---|---|
 | syllable count agrees with the annotator | 95.0% |
 | stress, from the words alone | 84.5% |
-| stress, read against the poem's own metre, which is **what the reader sees** | **92.8%** |
+| stress, read against the poem's own meter, which is **what the reader sees** | **92.8%** |
 | the foot a line reads in, judged from that line alone | 72.0% |
 
 The last two rows differ by twenty points, and the reason is worth stating. A single line of verse often
-does not say which foot it is in. Once the poem has settled its metre, the line falls into place, which
+does not say which foot it is in. Once the poem has settled its meter, the line falls into place, which
 is how a reader does it too, and it is why the figure shown on the site is the higher one.
 
 ### A whole line at a time
@@ -96,7 +96,7 @@ scanner is therefore not sprinkling error evenly over the corpus. Most lines com
 failures concentrate on particular lines, usually where a word was syllabified wrongly or where the
 stress is genuinely arguable. When a line is wrong, it is more often wrong twice than once.
 
-By metre, the share of lines that come out perfect:
+By meter, the share of lines that come out perfect:
 
 | | |
 |---|---|
@@ -115,7 +115,7 @@ says about that syllable, the result is this:
 | the dictionary sides with the scanner | 18.3% |
 | the dictionary sides with the annotator, and the scanner is simply wrong | 5.2% |
 
-Three quarters of the disagreement is over monosyllables that English does not fix and that the metre is
+Three quarters of the disagreement is over monosyllables that English does not fix and that the meter is
 free to take either way. *And on the pedestal these words appear* is marked in the gold data with the
 first foot inverted; the scanner reads it as regular iambic pentameter, and both are defensible readings
 of a line whose opening is three function words. Only the last row is error in any useful sense, which
@@ -123,9 +123,9 @@ is why chasing this figure much further would mean fitting one annotator's ear r
 anything right.
 
 One structural caution is in order. Haider's corpus is a bag of shuffled lines. Consecutive lines share
-a metre only 1.1 times running, so there are, in effect, no poems in it. Every figure here therefore
+a meter only 1.1 times running, so there are, in effect, no poems in it. Every figure here therefore
 measures a line read in isolation, whereas the site always has the whole poem in hand and settles the
-metre across it first. That is a reason to expect the site to do better than these figures, and it is
+meter across it first. That is a reason to expect the site to do better than these figures, and it is
 also the reason that none of them can prove it. The precision test described below exists because of
 that gap.
 
@@ -134,29 +134,29 @@ the development half; `--show 10` prints the worst lines with the two readings s
 
 The rest can be reproduced from this repository as well. In `pipeline/`, `python3 bench.py` scores the
 control half and `python3 bench.py --train` the development half; `python3 goldsplit.py` prints the two
-side by side, and `python3 goldscore.py` breaks the result down by metre. The gold data is fetched the
+side by side, and `python3 goldscore.py` breaks the result down by meter. The gold data is fetched the
 first time any of them is run and cached under `pipeline/cache/`. Nothing from it is copied into this
 corpus. It is a ruler, like For Better For Verse.
 
 ## What a balanced corpus cannot tell you
 
-Every figure above is a measure of **recall**: given a line whose metre the annotator recorded, how
+Every figure above is a measure of **recall**: given a line whose meter the annotator recorded, how
 often does the scanner agree? None of them asks the opposite question, which is how often a confident
 wrong answer is offered to a poem that was never in doubt.
 
-The distinction is not an academic one. A gold corpus for testing metre detection has to be balanced,
-and Haider's is: 44% of its lines are not iambic, deliberately, because a corpus that was all iambs
+The distinction is not an academic one. A gold corpus for testing meter detection has to be balanced,
+and Haider's is: 44% of its lines are not iambic, deliberately. A corpus that was all iambs
 could not tell a trochee detector from a coin toss. Real English verse is not balanced. This library is
 about nine tenths iambic. A scanner tuned until it finds every trochee in the balanced corpus will begin
 seeing trochees everywhere in the unbalanced one, and every measure above will go **up** while it
-happens, because none of them is looking.
+happens. None of them is looking.
 
 This happened here. A change that lifted trochaic recall from 16% to 60% on the held-out half took
 Shakespeare's sonnets from four wrong to twelve at the same time, and every sonnet in the library from
 2.4% misread to 14.5%. The benchmark registered an improvement throughout.
 
-There is therefore a second test, of a kind that the gold corpora cannot provide: poems whose metre
-needs no annotation, because the form already settles it. A sonnet is fourteen lines of iambic
+There is therefore a second test, of a kind that the gold corpora cannot provide: poems whose meter
+needs no annotation. The form already settles it. A sonnet is fourteen lines of iambic
 pentameter; that is most of what the word means. Anything else the scanner says about a sonnet is a
 false positive, and counting those is the precision that the benchmarks were missing.
 
@@ -181,7 +181,7 @@ the figures above are optimistic by an amount that nobody can put a number on.
 The errors are not the unconfident cases. They are the genuinely contested ones, where a good reader
 might also disagree. The floor exists to keep non-lyric material out, not to raise precision.
 
-The second and cleaner check is the twenty-three works whose metre is documented in published
+The second and cleaner check is the twenty-three works whose meter is documented in published
 scholarship, recorded before the scanner existed. Every one of them is now identified by the correct
 foot; two are named at the wrong length.
 

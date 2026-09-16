@@ -1,4 +1,4 @@
-# Syllables, stress and metre
+# Syllables, stress and meter
 
 *Part of the [Laurel corpus](../README.md). The [method index](../METHOD.md) lists the other documents,
 and terms are defined in the [glossary](glossary.md).*
@@ -10,10 +10,10 @@ own where a line runs short.
 
 The dictionary fixes the stress inside any word of two syllables or more. It says nothing about words of
 one syllable. Those appear in the TEI as `x` in `@real`, meaning that the words have left them open and
-the metre may take them either way. How much weight they carry when a metre is being determined is set
+the meter may take them either way. How much weight they carry when a meter is being determined is set
 out below.
 
-## How a poem's metre is determined
+## How a poem's meter is determined
 
 ### Why counting the gaps between stresses does not work
 
@@ -27,19 +27,19 @@ Shall I compare thee to a summer's day?      xx-+xxx+-x
 
 The second column is the line's `@real`, the stress that the words settle on their own: `+` for a
 stressed syllable, `-` for an unstressed one, and `x` for a syllable that the dictionary will not settle.
-Only two syllables out of ten are fixed, the *-pare* of *compare* and the *sum-* of *summer's*, because
-everything else is a word of one syllable and English does not fix those.
+Only two syllables out of ten are fixed, the *-pare* of *compare* and the *sum-* of *summer's*.
+Everything else is a word of one syllable and English does not fix those.
 
 *Paradise Lost* supplies tens of thousands of such gaps and settles easily. Fourteen lines supply
 twenty-eight, and settle into nothing. Scanned that way, **roughly two thirds of this library came back
-with no metre at all**, and the failures were not the obscure poems but the short ones, which is to say
+with no meter at all**, and the failures were not the obscure poems but the short ones, which is to say
 the lyric.
 
-### Proposing metres instead of measuring gaps
+### Proposing meters instead of measuring gaps
 
 A reader does not scan by measuring gaps. A reader proposes iambic pentameter, reads the line against
 it, and listens for the places where the words resist. The scanner now does the same. Every candidate
-metre is built as a template, every syllable of every line is tested against it, and the metre that
+meter is built as a template, every syllable of every line is tested against it, and the meter that
 argues least with the words wins. A sonnet then offers 140 syllables of evidence instead of 28.
 
 ### Checking the line length as well as the stresses
@@ -48,11 +48,11 @@ The agreement score says how well the stresses fall into the pattern. It says no
 pattern is the right size.
 
 William Barnes's Dorset poems were coming out as anapaestic tetrameter, which wants twelve syllables to a
-line, although not one line in forty was twelve syllables long. The score was 0.85, because the
+line, although not one line in forty was twelve syllables long. The score was 0.85. The
 alternation really was anapaestic; only the length was wrong.
 
 There is therefore a second test. More than half of a poem's lines have to be a length that the named
-metre can make: the metre's own length, one syllable less, or one syllable more. Stanza patterns are
+meter can make: the meter's own length, one syllable less, or one syllable more. Stanza patterns are
 checked against all of their lengths, so that common measure, which alternates eight syllables with six,
 counts at both.
 
@@ -60,8 +60,8 @@ I tried raising the confidence floor first, and it does not work. These poems si
 existing floor of 0.70, and a floor high enough to catch them takes out four good poems for every bad
 one.
 
-Under the length test, 1,388 poems lost their metre, roughly one in thirteen. No sonnets were among
-them, and none of the twenty-three works whose metre comes from a named scholar. Those still take the
+Under the length test, 1,388 poems lost their meter, roughly one in thirteen. No sonnets were among
+them, and none of the twenty-three works whose meter comes from a named scholar. Those still take the
 scholar's answer even where the measurement declines to give one.
 
 ### What counts as evidence
@@ -77,9 +77,9 @@ scholar's answer even where the measurement declines to give one.
 The dictionary fixes the stress inside a word of two syllables or more and says nothing about a word of
 one, and that silence covers most of English verse. A line of six monosyllables carries no dictionary
 evidence at all. This is what made the first method deaf to the ballads, the hymns and much of Dickinson,
-which are precisely the poems whose metre is least in doubt.
+which are precisely the poems whose meter is least in doubt.
 
-A reader is not deaf to them, because a reader knows which words carry the sense. So a monosyllable
+A reader is not deaf to them. A reader knows which words carry the sense. So a monosyllable
 votes as well. There is a closed-class list of **129 words** (articles, prepositions, conjunctions,
 pronouns, auxiliaries), and each one votes at **0.30** of a dictionary stress.
 
@@ -91,7 +91,7 @@ A free syllable is never evidence. Scoring it would let any template claim any l
 ### Building the templates
 
 The four feet (iambic `01`, trochaic `10`, anapaestic `001`, dactylic `100`) are taken at every length
-from one foot to eight, with the licences that real verse takes:
+from one foot to eight, with the licenses that real verse takes:
 
 * **acephaly**: the line may open without its first slack
 * **catalexis**: it may close without its last, though never losing a stress
@@ -102,26 +102,26 @@ Within the foot there are also **the substitutions that English verse actually m
 an iamb, which is the inverted first foot and the commonest event in the language; a spondee; a pyrrhic;
 and, for the triple feet, an inversion or an amphibrach.
 
-A line may take up to two of those. A line that needs three is not that metre with substitutions. It is
-another metre.
+A line may take up to two of those. A line that needs three is not that meter with substitutions. It is
+another meter.
 
 This is what lets the scanner report *iambic pentameter with a trochaic inversion in foot 3* instead of
-reaching for whichever whole-line pattern sits nearest. It is also where the falling metres had been
+reaching for whichever whole-line pattern sits nearest. It is also where the falling meters had been
 getting lost. Before this change, trochaic lines were identified 16% of the time and dactylic lines 10%.
 After it, both were identified 60% of the time.
 
 Each reading pays for what it bends, so the plainest account of a line wins a tie. An inverted **first**
-foot costs less than half as much as an inversion anywhere else, because "**Bát**tered the hóuse" is
+foot costs less than half as much as an inversion anywhere else. "**Bát**tered the hóuse" is
 completely ordinary and an inversion in the fourth foot is not. Iambic pentameter has 1,248 templates
 once all of this is allowed. It had about thirty before.
 
-**One licence to a line.** A line may take acephaly, or catalexis, or a feminine ending, but never two
+**One license to a line.** A line may take acephaly, or catalexis, or a feminine ending, but never two
 of them. The reason is worth spelling out. A trochaic hexameter that drops its first syllable and its
 last is `-+-+-+-+-+`. That is not merely like iambic pentameter; it is iambic pentameter, letter for
 letter. At ten syllables, twenty-six templates were reachable by both feet. A sonnet then scored
 identically either way, and the tie fell to whichever direction the line openings happened to lean.
 Shakespeare begins a great many lines on a stress, so Shakespeare came out trochaic. Forbidding the
-second licence closed the gap: the twenty-six shared templates became none, sonnets read as something
+second license closed the gap: the twenty-six shared templates became none, sonnets read as something
 other than iambic fell from 14.5% to 0.5%, and no recall was lost anywhere.
 
 Substitution costs **0.20** of a reading's agreement, and that cost is charged only while the scanner is
@@ -139,10 +139,10 @@ every syllable slack and then adds or subtracts each stress it does mark. The re
 faster, and it was checked against the plain statement of the same arithmetic across 96,792 scorings
 with no disagreements.
 
-### Three passes, because they are three different questions
+### Three passes, three different questions
 
-1. **Which foot** is asked of every line at once, since it is a property of the poem.
-2. **How long each line is** is asked of each line by itself, because a great many poems alternate
+1. **Which foot** is asked of every line at once. It is a property of the poem.
+2. **How long each line is** is asked of each line by itself. A great many poems alternate
    lengths on purpose, and the four-and-three of a ballad is not an average of three and a half.
 3. **The doubtful lines are asked again**, with the poem's prevailing length in hand. Nine syllables is
    either a headless pentameter or a tetrameter with a feminine ending, and no line settles that alone.
@@ -188,7 +188,7 @@ not say whether a poem is a hymn.
 
 ### What gets published
 
-A metre is published only above a confidence of **0.70**. **16,181 of 18,210 poems** receive one, of
+A meter is published only above a confidence of **0.70**. **16,181 of 18,210 poems** receive one, of
 which **794 carry a named measure** (common measure, short measure, fourteeners) rather than a foot and
 a length. The rest are left blank, which is the correct answer when the verse will not settle.
 

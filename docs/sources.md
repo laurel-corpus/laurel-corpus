@@ -41,11 +41,11 @@ corpus can be checked against the thing it came from.
 | [TEI P5](https://tei-c.org/guidelines/p5/) | the encoding of every work in `tei/` |
 | [CTS / the CITE Architecture](https://cite-architecture.github.io/) ([URN spec](https://cite-architecture.github.io/ctsurn_spec/)) | the model for canonical references: author, work, **edition**, passage |
 | [CFF](https://citation-file-format.github.io/) | `CITATION.cff`, so that this corpus can be cited as a dataset |
-| [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | the licence on the apparatus; the texts themselves are public domain |
+| [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | the license on the apparatus; the texts themselves are public domain |
 
 ## Illustrations
 
 The portraits and work illustrations shown on [laurelpoetry.com](https://laurelpoetry.com) come from
-[Wikimedia Commons](https://commons.wikimedia.org/). They are accepted only where the file's licence is
+[Wikimedia Commons](https://commons.wikimedia.org/). They are accepted only where the file's license is
 public domain or CC0 and rejected otherwise, and the file and its Commons page are recorded for each. No
 images are included in this repository.

@@ -20,8 +20,8 @@ is not there.
 | Pointers | illustrations and commentary point inside the text they are attached to |
 | Identity | every poem still resolves to its permanent id (see [references](references.md)) |
 | Glossary | glossed words actually occur in the work |
-| Catalogue | every work in the index has its text, lines, metre and measures |
-| Attribution | the credit each licence requires is present where it is required |
+| Catalog | every work in the index has its text, lines, meter and measures |
+| Attribution | the credit each license requires is present where it is required |
 | Encoding | mojibake and stray control characters |
 | Form | the stated form against the measured rhyme scheme |
 | Verse | lines out of step with their section; rhyme schemes that would not resolve |
@@ -41,7 +41,7 @@ There were 592 findings on 13 September 2026, and they are kept on record rather
 | 15 | lines out of step with their section |
 | 12 | page reachability |
 | 10 | near-duplicate pages |
-| 7 | sections not recognised as poems |
+| 7 | sections not recognized as poems |
 | 1 | a stated form the measured rhyme does not support |
 
 **The commentary findings have deliberately not been repaired automatically.** A fuzzy matcher run

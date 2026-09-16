@@ -10,7 +10,7 @@ Every work carries a set of measurements of its sound, its syntax and its vocabu
 ## The rule behind all of them
 
 A number without a baseline says nothing. If you count how often a poem alliterates and report that it
-does so in 27% of its lines, you have measured English rather than the poet, because English
+does so in 27% of its lines, you have measured English rather than the poet. English
 alliterates. The question is always whether *this* poem does it more than its own words would by
 accident.
 
@@ -57,7 +57,7 @@ whose intervals overlap is comparing noise.
 |---|---|
 | **caesura** | the strong pause inside a line. `share` is how many lines have one, `mean_position` is how far along the line it falls as a fraction, and `thirds` splits them into early, middle and late |
 | **feminine** | `rate` is the share of lines ending on an unstressed syllable, so an iambic pentameter running to eleven syllables rather than ten |
-| **meter_fit** | how closely the poem's lines follow the metre named for it, averaged over the lines |
+| **meter_fit** | how closely the poem's lines follow the meter named for it, averaged over the lines |
 | **mode_share** | `mode` is the poem's commonest line length in syllables and `rate` is the share of lines at that length. A poem in a strict measure scores near 1.0; a poem in varied measures scores low, which is itself the finding |
 
 ### Vocabulary
@@ -73,7 +73,7 @@ whose intervals overlap is comparing noise.
 
 | | |
 |---|---|
-| **scheme_entropy** | one number for how many different stanza forms a book uses, in bits. A book entirely in sonnets scores 0, because knowing that you are in that book tells you the form. A book that changes shape constantly scores high |
+| **scheme_entropy** | one number for how many different stanza forms a book uses, in bits. A book entirely in sonnets scores 0: knowing that you are in that book tells you the form. A book that changes shape constantly scores high |
 | **schemes_distinct** | how many different rhyme schemes appear |
 
 ### Housekeeping
@@ -87,7 +87,7 @@ whose intervals overlap is comparing noise.
 
 ## What is in library.json instead
 
-`data/library.json` carries a smaller set under each work's `stats`, intended for the catalogue rather
+`data/library.json` carries a smaller set under each work's `stats`, intended for the catalog rather
 than for analysis:
 
 | | |
@@ -97,7 +97,7 @@ than for analysis:
 | `distinct_end_words` | how many different words the work ends lines on |
 | `hapax_share` | of those, the share used only once. A high figure means that the poet keeps finding new rhymes; a low one means that the same handful come round again |
 | `top_schemes`, `top_end_words` | the commonest forms and rhyme words |
-| `mean_meter_fit` | average agreement between the lines and the work's metre |
+| `mean_meter_fit` | average agreement between the lines and the work's meter |
 | `glossary_words` | how many words the work has a gloss for |
 | `drifted_pairs` | pairs the poet rhymed that a modern dictionary does not, such as *love* and *prove*. These are shifts in pronunciation rather than errors, and counting them is a rough measure of how far the work's sound has moved from ours |
-| `suspect_lines` | lines whose syllable count departs far enough from the work's metre to be worth a human look. Some are scanning faults in the source text and some are the poet doing something deliberate, and the count does not distinguish between them |
+| `suspect_lines` | lines whose syllable count departs far enough from the work's meter to be worth a human look. Some are scanning faults in the source text and some are the poet doing something deliberate, and the count does not distinguish between them |

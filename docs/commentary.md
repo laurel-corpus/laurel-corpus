@@ -30,5 +30,5 @@ or two from where its editor intended.
 
 A small number of notes are keyed to sections that this corpus names differently (the same poem under a
 different slug), and they do not currently appear. They are counted in the corpus audit rather than
-quietly dropped, and they are not re-matched automatically, because a confident but wrong match would
+quietly dropped, and they are not re-matched automatically. A confident but wrong match would
 attach an editor's note to the wrong poem, which is worse than showing none.

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: >-
   Laurel: a scanned corpus of English verse, with per-line stress, identified
-  metre, rhyme, and canonical references
+  meter, rhyme, and canonical references
 message: "If you use this corpus, please cite it."
 type: dataset
 authors:
@@ -23,7 +23,7 @@ identifiers:
 url: "https://laurelpoetry.com"
 abstract: >-
   Laurel is a corpus of public domain English poetry in which every line carries a
-  scansion and most poems carry an identified metre. It runs from Homer in English
+  scansion and most poems carry an identified meter. It runs from Homer in English
   verse translation to the edge of the United States public domain in 1930, and it
   continues to grow, so the figures for any given release are kept in the repository
   rather than here.
@@ -31,25 +31,25 @@ abstract: >-
 
   Every line is encoded twice over. One pattern records the stress that the words
   themselves settle, taken from a pronouncing dictionary together with the poem's own
-  syllabification; the other records the stress that the poem's metre asks for. The
+  syllabification; the other records the stress that the poem's meter asks for. The
   difference between the two is where a poet departs from the measure, which is where
-  most of the interest in metre lies, and a corpus that stores only one of them
+  most of the interest in meter lies, and a corpus that stores only one of them
   cannot show it. Syllables that the dictionary does not settle are marked as open
   rather than guessed at. Stanzas carry a rhyme scheme lettered from rhyme keys, so
   that a sonnet's ABAB and a ballad's ABCB are machine-readable.
 
 
-  The metre is not looked up. Every candidate is built as a template (the four feet
-  at every length, with the licences that real verse takes and the substitutions
+  The meter is not looked up. Every candidate is built as a template (the four feet
+  at every length, with the licenses that real verse takes and the substitutions
   that English verse actually makes, such as the inverted first foot), and every
   syllable of the poem is tested against each. A poem whose verse will not settle is
-  left without a metre rather than given a guess.
+  left without a meter rather than given a guess.
 
 
   The accuracy has been measured and is reported in full: against hand-annotated
   lines gathered from three gold corpora, on a half of that data held out from every
-  design decision, against works whose metre is documented in published scholarship,
-  and against forms such as the sonnet whose metre needs no annotation because the
+  design decision, against works whose meter is documented in published scholarship,
+  and against forms such as the sonnet whose meter needs no annotation because the
   form settles it. That last test exists because the others cannot detect a scanner
   that begins offering confident wrong answers to poems that were never in doubt. The
   current figures, and the failures, are in the documentation.
@@ -64,7 +64,7 @@ abstract: >-
 
   The corpus is the material underneath laurelpoetry.com, a free reading room where
   the same data is set out for reading and teaching: rhyme lettered on the page,
-  stress marked against the poem's own metre, hard words glossed from a period
+  stress marked against the poem's own meter, hard words glossed from a period
   dictionary, editors' commentary, a short course in prosody, printable worksheets,
   and exercises in scanning and naming forms. Nothing there costs anything, and
   nothing is behind a login.
@@ -72,7 +72,7 @@ abstract: >-
 
   The texts are in the public domain. The encoding, the scansion and the annotation
   are CC BY-SA 4.0. The method is documented in METHOD.md, including the places where
-  it is weak: free verse is still given a metre that it does not have, and editions
+  it is weak: free verse is still given a meter that it does not have, and editions
   were chosen for being in the public domain rather than for being the best witness.
 
 
@@ -81,7 +81,7 @@ keywords:
   - English poetry
   - prosody
   - scansion
-  - metre
+  - meter
   - metrical analysis
   - computational prosody
   - stress annotation

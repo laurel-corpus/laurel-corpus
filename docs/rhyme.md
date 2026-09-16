@@ -39,7 +39,7 @@ Interlocking forms call for the opposite, and there the notation is the point. T
 CDC because the middle line of each tercet seeds the next, and restarting at A would hide the whole
 interest of the form. So each poem is asked which kind it is: the scanner counts how many stanza-final
 rhymes find their partner in the next stanza, and where that is how the poem works, it letters straight
-through. Matching stays strict (the same key, a different word, within six lines), since otherwise a
+through. Matching stays strict (the same key, a different word, within six lines). Otherwise a
 long poem lettered continuously collects every accidental echo down its length.
 
 ## Rhymes that have drifted
@@ -52,4 +52,4 @@ stanza has the expected number of lines, so the count is a floor rather than a c
 half of these pairs (Petrarch's sonnets, *Orlando Furioso*, *Jerusalem Delivered*) are in
 **translations**. Those are the translator's rhymes, in the translator's English, and nothing about them
 describes Petrarch, Ariosto or Tasso. The reader is told whose verse it is, and the same rule governs
-metre and form throughout this corpus.
+meter and form throughout this corpus.
