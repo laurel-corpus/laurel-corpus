@@ -180,7 +180,11 @@ SWAP = {'01': '001', '10': '100', '001': '01', '100': '10'}
 # flowers is sweet to me', where two or three feet swap and a strict reading counted six iambs where
 # the poet has four beats; a poem in that measure then lost its four-and-three and was named
 # tetrameter. Each swap still costs a unit, so the plain reading wins wherever it fits.
-MAX_SWAP = 2
+# Set back to one after a corpus rebuild: at two, the iambic foot absorbs an anapaestic poem, and 290
+# poems lost their metre (Barnes's Childhood, anapaestic trimeter at 84% with one swap, nothing with
+# two). The rulers read each line in a foot already given and could not see it. Two swaps wait on a
+# foot decision that charges them separately from the line reading.
+MAX_SWAP = 1
 
 # A foot may also be replaced by another of the SAME length, which is what a metrist means by
 # substitution. Until now the scanner could only say 'iambic pentameter' or not; it had no way to say

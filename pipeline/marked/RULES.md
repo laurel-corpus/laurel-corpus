@@ -82,6 +82,13 @@ changes went in beside it that the battery cannot see: `pattern_of` tries the tw
 in each stanza position, so the Reaper is named common measure; and `readings.py` holds a line's
 reading to the length the poem's own pass settled, so a four-beat line is no longer shown with six.
 
+**Withdrawn the same night.** On the corpus rebuild, 290 poems lost their metre: with two swaps the
+iambic foot absorbs an anapaestic poem, and the poem-level foot decision, which the rulers never test
+(they read each line in a foot already given), fails. Barnes's 'Childhood' is anapaestic trimeter at
+84% with one swap and nothing with two. `MAX_SWAP` is back at one; the namer's and the readings'
+changes stay. To be tried again once the foot decision charges swaps apart from the line reading, and
+once the battery has a poem-level check for anapaestic verse beside its sonnets and blank verse.
+
 ## Rejected
 
 **The pyrrhic-and-spondee as one unit.** Groves's "swap": the two feet are one figure, in 7-9% of
