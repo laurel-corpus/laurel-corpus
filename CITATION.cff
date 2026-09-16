@@ -25,56 +25,55 @@ abstract: >-
   Laurel is a corpus of public domain English poetry in which every line carries a
   scansion and most poems carry an identified metre. It runs from Homer in English
   verse translation to the edge of the United States public domain in 1930, and it
-  grows: the figures for any given release are in the repository rather than here.
+  continues to grow, so the figures for any given release are kept in the repository
+  rather than here.
 
 
-  Every line is encoded twice over. One pattern records the stress the words
-  themselves settle, taken from a pronouncing dictionary together with the poem's
-  own syllabification; the other records the stress the poem's metre asks for.
-  Holding both is the point of the corpus. The difference between them is where a
-  poet departs from the measure, which is where most of the interest in metre lies,
-  and a corpus that stores only one of them cannot show it. Syllables the
-  dictionary does not settle are marked as such rather than guessed at. Stanzas
-  carry a rhyme scheme lettered from rhyme keys, so a sonnet's ABAB and a ballad's
-  ABCB are machine-readable.
+  Every line is encoded twice over. One pattern records the stress that the words
+  themselves settle, taken from a pronouncing dictionary together with the poem's own
+  syllabification; the other records the stress that the poem's metre asks for. The
+  difference between the two is where a poet departs from the measure, which is where
+  most of the interest in metre lies, and a corpus that stores only one of them
+  cannot show it. Syllables that the dictionary does not settle are marked as open
+  rather than guessed at. Stanzas carry a rhyme scheme lettered from rhyme keys, so
+  that a sonnet's ABAB and a ballad's ABCB are machine-readable.
 
 
-  The metre is not looked up. Every candidate is built as a template — the four
-  feet at every length, with the licences real verse takes and the substitutions
-  English verse actually makes, such as the inverted first foot — and every
-  syllable of the poem is tested against each. A poem whose verse will not settle
-  is left without a metre rather than given a guess.
+  The metre is not looked up. Every candidate is built as a template (the four feet
+  at every length, with the licences that real verse takes and the substitutions
+  that English verse actually makes, such as the inverted first foot), and every
+  syllable of the poem is tested against each. A poem whose verse will not settle is
+  left without a metre rather than given a guess.
 
 
-  The accuracy is measured rather than asserted, and reported in full: against
-  hand-annotated lines gathered from three gold corpora, on a half of that data
-  held out from every design decision, against works whose metre is documented in
-  published scholarship, and against forms such as the sonnet whose metre needs no
-  annotation because the form settles it. That last test exists because the others
-  cannot see a scanner that begins offering confident wrong answers to poems that
-  were never in doubt. The current figures, and the failures, are in the
-  documentation.
+  The accuracy has been measured and is reported in full: against hand-annotated
+  lines gathered from three gold corpora, on a half of that data held out from every
+  design decision, against works whose metre is documented in published scholarship,
+  and against forms such as the sonnet whose metre needs no annotation because the
+  form settles it. That last test exists because the others cannot detect a scanner
+  that begins offering confident wrong answers to poems that were never in doubt. The
+  current figures, and the failures, are in the documentation.
 
 
   Every poem has a canonical reference on the CTS model that names its edition,
   because a citation to a poem is not reproducible unless it says which text it
-  means, and a permanent identifier that survives re-titling and re-parsing. Many
-  poems carry line-level timings against public domain recordings, so a reading can
-  be followed line by line.
+  means, and a permanent identifier that survives retitling and re-parsing. Many
+  poems carry line-level timings against public domain recordings, so that a reading
+  can be followed line by line.
 
 
-  The corpus is the material underneath laurelpoetry.com, a free reading room
-  where the same data is set out for reading and teaching: rhyme lettered on the
-  page, stress marked against the poem's own metre, hard words glossed from a
-  period dictionary, editors' commentary, a short course in prosody, printable
-  worksheets, and exercises in scanning and naming forms. Nothing there costs
-  anything and nothing is behind a login.
+  The corpus is the material underneath laurelpoetry.com, a free reading room where
+  the same data is set out for reading and teaching: rhyme lettered on the page,
+  stress marked against the poem's own metre, hard words glossed from a period
+  dictionary, editors' commentary, a short course in prosody, printable worksheets,
+  and exercises in scanning and naming forms. Nothing there costs anything, and
+  nothing is behind a login.
 
 
-  Texts are public domain. The encoding, the scansion and the annotation are
-  CC BY-SA 4.0. The method is documented in METHOD.md, including the places where
-  it is weak: free verse is still given a metre it does not have, and editions are
-  chosen for being public domain rather than for being the best witness.
+  The texts are in the public domain. The encoding, the scansion and the annotation
+  are CC BY-SA 4.0. The method is documented in METHOD.md, including the places where
+  it is weak: free verse is still given a metre that it does not have, and editions
+  were chosen for being in the public domain rather than for being the best witness.
 
 
 keywords:
