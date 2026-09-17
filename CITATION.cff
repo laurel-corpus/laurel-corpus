@@ -22,58 +22,59 @@ identifiers:
     description: "Version v1.01"
 url: "https://laurelpoetry.com"
 abstract: >-
-  Laurel is a corpus of public domain English poetry in which every line carries a
-  scansion and most poems carry an identified meter. It runs from Homer in English
-  verse translation to the edge of the United States public domain in 1930, and it
-  continues to grow, so the figures for any given release are kept in the repository
-  rather than here.
+  Laurel is a corpus of public domain English poetry in which every line has been scanned
+  and most poems have been given a meter. It runs from Homer in English verse translation
+  to the edge of the United States public domain in 1930. It grows with each release, so
+  the counts of works, poems and lines are printed by the build script in the repository
+  rather than repeated here.
 
 
-  Every line is encoded twice over. One pattern records the stress that the words
-  themselves settle, taken from a pronouncing dictionary together with the poem's own
-  syllabification; the other records the stress that the poem's meter asks for. The
-  difference between the two is where a poet departs from the measure, which is where
-  most of the interest in meter lies, and a corpus that stores only one of them
-  cannot show it. Syllables that the dictionary does not settle are marked as open
-  rather than guessed at. Stanzas carry a rhyme scheme lettered from rhyme keys, so
-  that a sonnet's ABAB and a ballad's ABCB are machine-readable.
+  Every line is recorded twice. One pattern is the stress the words themselves settle,
+  taken from a pronouncing dictionary and the poem's own syllabification. The other is the
+  stress the meter asks for. Holding both is the point of the corpus. The difference
+  between them is where a poet departs from the measure, and that is where most of the
+  interest in meter lies. A corpus that stores one pattern and not the other cannot show
+  it. Syllables the dictionary does not settle are marked as unsettled rather than guessed
+  at. Stanzas carry a rhyme scheme lettered from rhyme keys, so that a sonnet's ABAB and a
+  ballad's ABCB can be read by machine.
 
 
-  The meter is not looked up. Every candidate is built as a template (the four feet
-  at every length, with the licenses that real verse takes and the substitutions
-  that English verse actually makes, such as the inverted first foot), and every
-  syllable of the poem is tested against each. A poem whose verse will not settle is
-  left without a meter rather than given a guess.
+  The meter is not looked up. Every candidate is built as a template: the four feet at
+  every length, with the licenses that real verse takes and the substitutions that English
+  verse makes, such as the inverted first foot. Every syllable of the poem is then tested
+  against each template. A poem whose verse will not settle is left without a meter rather
+  than given a guess.
 
 
-  The accuracy has been measured and is reported in full: against hand-annotated
-  lines gathered from three gold corpora, on a half of that data held out from every
-  design decision, against works whose meter is documented in published scholarship,
-  and against forms such as the sonnet whose meter needs no annotation because the
-  form settles it. That last test exists because the others cannot detect a scanner
-  that begins offering confident wrong answers to poems that were never in doubt. The
-  current figures, and the failures, are in the documentation.
+  The accuracy is measured rather than asserted, and it is reported in full. The scanner
+  is scored against hand-annotated lines from three gold corpora, and again on the half of
+  that data held out from every design decision. It is scored against works whose meter is
+  documented in published scholarship. It is scored against forms such as the sonnet,
+  where the form settles the meter and no annotation is needed. That last test catches
+  what the others cannot: a scanner that has begun to offer confident wrong answers to
+  poems that were never in doubt. The current figures and the failures are in the
+  documentation.
 
 
-  Every poem has a canonical reference on the CTS model that names its edition,
-  because a citation to a poem is not reproducible unless it says which text it
-  means, and a permanent identifier that survives retitling and re-parsing. Many
-  poems carry line-level timings against public domain recordings, so that a reading
-  can be followed line by line.
+  Every poem has a canonical reference on the CTS model, and the reference names its
+  edition. A citation to a poem is not reproducible unless it says which text it means.
+  Every poem also has a permanent identifier that survives retitling and re-parsing. Many
+  poems carry line-level timings against public domain recordings, so that a reading can
+  be followed line by line.
 
 
-  The corpus is the material underneath laurelpoetry.com, a free reading room where
-  the same data is set out for reading and teaching: rhyme lettered on the page,
-  stress marked against the poem's own meter, hard words glossed from a period
-  dictionary, editors' commentary, a short course in prosody, printable worksheets,
-  and exercises in scanning and naming forms. Nothing there costs anything, and
-  nothing is behind a login.
+  The corpus is the material underneath laurelpoetry.com, a free reading room that I
+  maintain. The same data is set out there for reading and teaching: rhyme lettered on the
+  page, stress marked against the poem's own meter, hard words glossed from a period
+  dictionary, editors' commentary, a short course in prosody, printable worksheets, and
+  exercises in scanning and naming forms. Nothing there costs anything and nothing is
+  behind a login.
 
 
-  The texts are in the public domain. The encoding, the scansion and the annotation
-  are CC BY-SA 4.0. The method is documented in METHOD.md, including the places where
-  it is weak: free verse is still given a meter that it does not have, and editions
-  were chosen for being in the public domain rather than for being the best witness.
+  The texts are in the public domain. The encoding, the scansion and the annotation are CC
+  BY-SA 4.0. The method is documented in METHOD.md, including the places where it is weak.
+  Free verse is still given a meter it does not have. Editions were chosen for being in
+  the public domain rather than for being the best witness.
 
 
 keywords:
