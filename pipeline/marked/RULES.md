@@ -135,6 +135,41 @@ at 1.2, fourteen readings changed, six better and six worse. Rejected. What it s
 annotators, like the scanner, put the beat on the promoted function word, and the prosodists are
 divided, so part of the 'refused pyrrhic' count is a difference of convention between rulers.
 
+**Catalexis is free, beheading is not.** A falling metre drops its last slack as a matter of course --
+'Tyger! tyger! burning bright' is the ordinary form of trochaic tetrameter -- while a rising metre that
+loses its first slack is headless, which every prosodist marks as a licence. The scanner charged for
+neither, so in a seven-syllable line, where catalectic trochaic and headless iambic are the same
+template letter for letter, the rising reading came free. A head-trimmed template was charged in the
+foot decision only, at 0.1 to 0.6 of a substitution, so that the hand-marked rulers, which are given the
+foot, could not be moved by it. On the 57 poems whose metre an article states: 52 of 57 feet right at no
+charge, 51 at 0.1, and 52 at every value above, which is to say no gain anywhere, while The Ballad of
+East and West lost its metre from 0.2 up. In the library, at 0.3, of 1,500 sections sampled 6 lost their
+metre and 16 changed foot: twelve iambic to trochaic, in a library that is nine tenths iambic, and four
+anapaestic to iambic -- the rule pushing poems OUT of the triple metres it was meant to rescue, because
+anapaestic is a rising foot too and was charged alike. Charged to the iambic foot alone it was no better:
+52 of 57 to 0.3, then 51 at 0.5 with The Devil's Thoughts lost as well. Rejected, and the code came out.
+
+What it did show is where the fault really is. Alden names Shelley's Arethusa two-stress anapestic, and
+of his six quoted lines the scanner reads 'Like a gloomy stain' as 00101, which is what the words say,
+exactly. The anapaestic reading of that line is an anapaest and an iamb, so it pays a swap, 1.000 down to
+0.800; the iambic reading is a headless trimeter, which pays nothing, and wins at 0.963 while
+contradicting the first syllable. In a short line a triple metre must nearly always swap a foot and a
+duple one need only lose its head, and the charge falls on the reading that fits. Charging the head does
+not mend it: at 0.5 the scanner reads Alden's specimen as anapaestic dimeter, but the whole poem stays
+iambic trimeter, because scan() then requires a triple foot to beat its duple counterpart by 0.05 and
+the margin over ninety lines is 0.0035. Two knobs would have to move together, and the second is the one
+that cost 290 poems their metre when it was last touched.
+
+**And L'Allegro is not a miss.** The backlog reads 'L'Allegro is still read as iambic where Alden names
+it trochaic'. Alden names a SPECIMEN: six lines beginning 'Haste thee, Nymph, and bring with thee',
+filed under four-stress trochaic beside Hiawatha. Given those six lines the scanner answers trochaic
+tetrameter at 0.88, which is Alden's own answer. Given all 153 lines of the poem it answers iambic
+tetrameter, and on the 93 lines whose best reading differs between the two feet the iambic reading wins
+by 0.198. metres.py already records this trap for Pope's Ode on Solitude, where Alden's two-stress label
+sits over a poem in tetrameter, and alden.py's own comment calls Il Penseroso 'iambic tetrameter by
+anyone's account'. The scanner and the handbook are answering different questions. Nothing to fix in the
+scanner; the backlog entry was wrong.
+
 ## Already obeyed
 
 **A feminine ending must fall.** Hayes, Wilson and Shisko fit "no extrametrical syllable without a

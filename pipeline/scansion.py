@@ -430,9 +430,33 @@ def reading(ev, foot, prefer=None, feet=None):
     best = _best(ev, foot, lo, hi, prefer, True)
     return best[4] if best else None
 
+def second_reading(ev, foot, prefer=None, feet=None):
+    """A second reading the scanner could not separate from the first, or None.
+
+    best_line rounds agreement to two places before ranking, so that readings the words cannot tell
+    apart count as tied and the poem's measure breaks the tie. Where a tie was broken that way and the
+    two readings put the beat on different syllables, the line genuinely reads two ways, and a page
+    that shows one mark as the scansion is choosing for the reader. This returns the runner-up in that
+    case: the best reading of the same length whose rounded agreement equals the winner's and which
+    differs from it in at least one mark.
+    """
+    lo, hi = (feet, feet) if feet else (1, 8)
+    ranked = _ranked(ev, foot, lo, hi, prefer, True)
+    if len(ranked) < 2: return None
+    top = ranked[0]
+    for r in ranked[1:]:
+        if r[0][0] != top[0][0]: break            # the rounded agreement, first in the key
+        if r[4] != top[4] and r[1] == top[1]: return r[4]
+    return None
+
 def _best(ev, foot, lo, hi, prefer, cost):
+    r = _ranked(ev, foot, lo, hi, prefer, cost)
+    return r[0] if r else None
+
+def _ranked(ev, foot, lo, hi, prefer, cost):
+    """Every template of the line's length in this foot, best first, as (key, feet, agreement, weight, template)."""
     f = FEET[foot]
-    best = None
+    out = []
     total, flat, s = weigh(ev)
     w = total
     get = s.__getitem__
@@ -455,8 +479,9 @@ def _best(ev, foot, lo, hi, prefer, cost):
         # tied, and the poem's own prevailing measure breaks the tie. That is how a reader does it:
         # establish the measure, then read the doubtful line in it.
         key = (round(a, 2), -abs(n - prefer) if prefer else 0, w, len(f) * n == len(ev), n)
-        if best is None or key > best[0]: best = (key, n, a, w, tpl)
-    return best
+        out.append((key, n, a, w, tpl))
+    out.sort(key=lambda r: r[0], reverse=True)
+    return out
 
 def scan(evs):
     """The metre of a set of lines: (foot, feet, confidence, shape), or (None, ...) if it will not settle.

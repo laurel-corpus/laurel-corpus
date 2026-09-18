@@ -241,12 +241,40 @@ QUERIES = [
     ('holmes-poems', 'holmes, oliver wendell | poems', 'Poems', 'Oliver Wendell Holmes: "Old Ironsides", "The Chambered Nautilus".', '1836–1890', None),
     ('lowell-james-russell-poems', 'lowell, james russell | poems', 'Poems', 'James Russell Lowell.', '1844–1888', None),
     ('landon-poems', 'landon, letitia | poe', 'Poems', 'Letitia Elizabeth Landon (L.E.L.).', '1824–1838', None),
+    # The verse dramas. Each was printed inside a collection, and the parser read every speech as a
+    # poem of its own: Longfellow's Christus was some 250 "poems" named after whoever was speaking,
+    # and Poe's Politian was inside "The City in the Sea". They are published here as the plays they
+    # are, a section to a scene, and taken out of the collection they came from (see SLUG_META).
+    ('longfellow-christus', 1365, 'Christus: A Mystery', "Longfellow's trilogy on the Christian ages: the Divine Tragedy, the Golden Legend, the New England Tragedies.", '1872', None),
+    ('longfellow-judas-maccabaeus', 1365, 'Judas Maccabaeus', "Longfellow's tragedy in five acts on the Maccabean revolt.", '1872', None),
+    ('longfellow-michael-angelo', 1365, 'Michael Angelo: A Fragment', "Longfellow's unfinished dramatic poem on the sculptor's last years, published after his death.", '1883', None),
+    ('lazarus-spagnoletto', 3295, 'The Spagnoletto', "Emma Lazarus's tragedy in five acts, on the painter Ribera and his daughter.", '1876', None),
+    ('poe-politian', 79019, 'Politian', "Poe's only play: five scenes of an unfinished tragedy set in Rome.", '1835', None),
 ]
 
 # Epics with explicit Gutenberg editions. Non-English originals use public domain English verse translations.
 # (slug, gutenberg id, title, original author, author dates, lang, composed year, translator, translation year, blurb, meter hint, scheme)
 # per-work parsing hints for the generic parser (see generic.parse_gutenberg)
 SLUG_META = {
+    # --- the verse dramas, and the collections they are taken out of -------------------------
+    'longfellow-christus': {'start_at': r'^CHRISTUS: A MYSTERY$', 'stop_at': r'^JUDAS MACCABAEUS\.$',
+                            'drama': True, 'book_prefix': True, 'titlere': r"^[A-Z][A-Z' ,\-]{3,46}$"},
+    'longfellow-judas-maccabaeus': {'start_at': r'^JUDAS MACCABAEUS\.$', 'stop_at': r'^MICHAEL ANGELO$',
+                                    'stop_occurrence': 2, 'drama': True, 'book_prefix': True,
+                                    'titlere': r'^(ACT|SCENE)\b'},
+    'longfellow-michael-angelo': {'start_at': r'^MICHAEL ANGELO$', 'start_occurrence': 2,
+                                  'stop_at': r'^TRANSLATIONS$', 'drama': True, 'book_prefix': True,
+                                  'titlere': r"^(PART |PROLOGUE|MONOLOGUE|[A-Z][A-Z' ,\-]{3,46})$"},
+    'lazarus-spagnoletto': {'start_at': r'^THE SPAGNOLETTO\.$', 'drama': True, 'book_prefix': True,
+                            'titlere': r'^(ACT\.? |SCENE )'},
+    'poe-politian': {'start_at': r'^SCENES FROM .POLITIAN;.$', 'stop_at': r'^AL AARAAF\.\[2\]$',
+                     'drama': True, 'book_prefix': True, 'flush_titles': True,
+                     'titlere': r'^(ROME\.|_?[A-Z][a-z])'},
+    # Christus, Judas Maccabaeus and Michael Angelo run one after another in the middle of the
+    # Longfellow file, with the translations after them; Politian sits between two poems.
+    'longfellow-poems': {'drop_range': [(r'^CHRISTUS: A MYSTERY$', r'^TRANSLATIONS$')]},
+    'poe-poems': {'drop_range': [(r'^SCENES FROM .POLITIAN;.$', r'^AL AARAAF\.\[2\]$')]},
+    'lazarus-poems': {'stop_at': r'^THE SPAGNOLETTO\.$'},
     'masters-spoon-river': {'start_at': r'^The Hill$', 'start_occurrence': 1, 'start_inclusive': True},
     'hopkins-poems': {'number_parts': True},
     'goldsmith-poems': {'start_at': r'^THE TRAVELLER$', 'start_occurrence': 2, 'start_inclusive': True, 'stop_at': r'^INTRODUCTION$', 'stop_occurrence': 2, 'skipre': r'^(DEDICATION|TO SIR JOSHUA REYNOLDS|PORTRAIT OF GOLDSMITH|AFTER REYNOLDS|GOLDSMITH.S AUTOGRAPH|DESCRIPTIVE POEMS|LYRICAL AND MISCELLANEOUS)$',
@@ -298,11 +326,24 @@ SLUG_META = {
     'sidney-astrophel': {'each_stanza': 'Sonnet', 'start_at': r'^\s*Lo[uv]ing in truth', 'start_inclusive': True, 'headre': r'^_?(the )?\w+ sonnet\.?_?$'},
     'eugene-onegin': {'start_at': r'^CANTO THE FIRST', 'start_occurrence': 2},
     'faerie-queene': {'stop_at': r'^NOTES$', 'stop_occurrence': 2},
-    'wheatley-poems': {'titlemap': {'O N V I R T U E': 'On Virtue', 'TO M AE C E N A S': 'To Maecenas'}},
+    'wheatley-poems': {'titlemap': {'O N V I R T U E': 'On Virtue', 'TO M AE C E N A S': 'To Maecenas'}, 'prose_re': r'^Preface$'},
+    # Todd and Higginson number every poem and title only some. A numeral alone under a part heading
+    # (LIFE, LOVE, NATURE, TIME AND ETERNITY) is an untitled poem, so the part headings are mapped to
+    # the book's own title, which makes the numbered poems "Poem N" and lets first_line_titles name
+    # them by their first line, as the editors' convention has it. The prefatory poem has no heading
+    # at all and is split off at its first line.
+    'dickinson-poems': {'first_line_titles': True,
+                        # the commonest line length is six syllables in 40% of her lines, which the guess would
+                        # publish as 'iambic trimeter'; her measure is the hymn stanza, and it is named by hand
+                        'meter': 'common measure', 'form': 'Common measure: quatrains alternating iambic tetrameter and trimeter',
+                        'titlemap': {'I. LIFE': 'Poems', 'II. LOVE': 'Poems', 'III. NATURE': 'Poems', 'IV. TIME AND ETERNITY': 'Poems',
+                                     'LIFE': 'Poems', 'LOVE': 'Poems', 'NATURE': 'Poems', 'TIME AND ETERNITY': 'Poems'},
+                        'split_lines': [(r'^This is my letter to the world', 'This is my letter to the world')]},
+    'dowson-poems': {'prose_re': r'^An Orchestral Violin\b'},
     'scott-lady-of-the-lake': {'foldsub': True, 'stop_at': r'^NOTES\.?$'},
     'gray-poems': {'stop_at': r'^NOTES\.$'},
     'hemans-poems': {'stop_at': r'^THE VESPERS OF PALERMO\.$', 'start_at': r'^JUVENILE POEMS\.$', 'start_inclusive': True, 'subtitle_join': True, 'skipre': r'^(JUVENILE POEMS|TRANSLATIONS FROM CAMOENS AND OTHER POETS|MISCELLANEOUS POEMS|TALES AND HISTORIC SCENES|ITALIAN LITERATURE|PATRIOTIC EFFUSIONS OF THE ITALIAN POETS|WELSH MELODIES|SONGS OF THE CID|GREEK SONGS|LAYS OF MANY LANDS|RECORDS OF WOMAN|SONGS OF THE AFFECTIONS|HYMNS FOR CHILDHOOD|NATIONAL LYRICS, AND SONGS FOR MUSIC|NATIONAL LYRICS|SONGS OF A GUARDIAN SPIRIT|SONGS OF SPAIN|SONGS FOR SUMMER HOURS|SONGS OF CAPTIVITY|MISCELLANEOUS LYRICS|SCENES AND HYMNS OF LIFE|SONNETS|FEMALE CHARACTERS OF SCRIPTURE|SONNETS, DEVOTIONAL AND MEMORIAL|SCENES AND PASSAGES FROM GOETHE|THOUGHTS DURING SICKNESS|THE DOMESTIC AFFECTIONS, AND OTHER POEMS)\.?$'},
-    'rubaiyat': {'titlemap': {'FIRST EDITION': 'First Edition (1859)', 'FIFTH EDITION': 'Fifth Edition (1889)'}},
+    'rubaiyat': {'titlemap': {'FIRST EDITION': 'First Edition (1859)', 'FIFTH EDITION': 'Fifth Edition (1889)'}, 'prose_re': r'^Omar Khayyam, the Astronomer'},
     'herrick-hesperides': {'min_lines': 2, 'skipre': r'^LONDON$', 'gloss_lines': "Word-glosses from Pollard's edition (Muses' Library, 1891; Project Gutenberg #22421)."},
     'kalevala': {'append_gids': [33089], 'max_lines': 40000},
     'poetic-edda': {'subtitle_join': True, 'resume_after_note': True, 'start_at': r'^PART I$', 'skipre': r'^(THE POETIC EDDA|VOLUME [IVX]+|LAYS OF THE \w+|PART [IVX]+)$'},
@@ -401,20 +442,47 @@ NAME_FIX = {'Brontë, Charlotte': 'Charlotte, Emily and Anne Brontë', 'Meynell,
 
 # Where NAME_FIX replaces one person with another — Gutenberg files Daniel's Delia under its editor,
 # Martha Foote Crow — the dates in the Authors field are the wrong person's and have to be replaced too.
-DATE_FIX = {'Samuel Daniel': (1562, 1619)}
+# Hughes and McKay are a different case: the catalogue carries the birth years the poets themselves gave
+# out (Hughes 1902, McKay 1890) and the registers have since settled it the other way, Hughes born
+# 1 February 1901 and McKay 15 September 1889. pipeline/dates.py applies the same corrections to the
+# data already on disk, so the two do not have to agree by accident.
+# Langland is a third case: the catalogue's 1330?-1400? is the older guess, the references settle on
+# c. 1332 to c. 1386, and the site was corrected to those by hand in September 2026 without the
+# index being told, so a re-parse would have put 1330-1400 back.
+# Lovelace and Traherne are the same story as Langland: corrected on the site by hand, never in the
+# index, so the next analyze.py would have printed 1618-1658 and no dates at all for Traherne again.
+DATE_FIX = {'Samuel Daniel': (1562, 1619), 'Langston Hughes': (1901, 1967), 'Claude McKay': (1889, 1948),
+            'William Langland': (1332, 1386), 'Richard Lovelace': (1617, 1657), 'Thomas Traherne': (1636, 1674)}
+
+# Poets whose year is a scholarly guess, and which of the two: 'b', 'd' or 'bd'. Eleven of them are
+# taken from the question marks in the Authors field of the Gutenberg catalogue (the only poets in this
+# library it marks), Langland from the same convention every reference follows, c. 1332 to c. 1386;
+# his dates were set by hand here and the catalogue's entry for Piers Plowman does not carry them.
+# The works in EPICS and ORIGINALS below have their dates written by hand too, which is why this is
+# keyed by poet rather than read from the catalogue at the point of use.
+CIRCA = {'Geoffrey Chaucer': 'b', 'John Gower': 'b', 'John Skelton': 'b', 'Edmund Spenser': 'b',
+         'Sir Walter Raleigh': 'b', 'Ben Jonson': 'b', 'Richard Crashaw': 'b', 'Nicholas Breton': 'd',
+         'Oliver Goldsmith': 'b', 'Luís de Camões': 'b', 'Ebenezer Cooke': 'bd', 'William Langland': 'bd'}
 
 def author_meta(authors):
+    """Display name, sort name, born, died, and which of the two dates the catalogue marks uncertain.
+
+    The Authors field writes an uncertain year with a question mark, "Chaucer, Geoffrey, 1343?-1400".
+    That mark was read and thrown away, so the site printed a guess as a fact. It is kept now as
+    'b', 'd' or 'bd' and comes out as "c. 1343" where the years are shown.
+    """
     first = authors.split(';')[0].strip()
-    m = re.match(r'^(.*?),\s*(\d{4})\??-(\d{4})?', first)
+    m = re.match(r'^(.*?),\s*(\d{4})(\?)?-(\d{4})?(\?)?', first)
     name_sort = re.sub(r',\s*\d{4}.*$', '', first)
     name_sort = re.sub(r'\s*\(.*?\)', '', name_sort)
     parts = [p.strip() for p in name_sort.split(',')]
     display = (parts[1] + ' ' + parts[0]) if len(parts) > 1 else parts[0]
     if len(parts) > 1 and parts[1].endswith(parts[0]): display = parts[1]
     display = NAME_FIX.get(parts[0] + (', ' + parts[1] if len(parts) > 1 else ''), NAME_FIX.get(parts[0], display))
-    born = int(m.group(2)) if m else None; died = int(m.group(3)) if m and m.group(3) else None
-    if display in DATE_FIX: born, died = DATE_FIX[display]
-    return display, name_sort, born, died
+    born = int(m.group(2)) if m else None; died = int(m.group(4)) if m and m.group(4) else None
+    circa = ('b' if m and m.group(3) else '') + ('d' if m and m.group(5) else '')
+    if display in DATE_FIX: born, died = DATE_FIX[display]; circa = ''
+    return display, name_sort, born, died, CIRCA.get(display, circa)
 
 def fetch(gid):
     path = os.path.join(SRC, f'pg{gid}.txt')
@@ -425,6 +493,17 @@ def fetch(gid):
             if b'*** START OF' in data: open(path, 'wb').write(data); return path
         except Exception as e: pass
     return None
+
+def mark_prose(w, meta):
+    """Flag the sections an edition prints as prose -- FitzGerald's introduction to the Rubaiyat, Wheatley's
+    preface, Dowson's story -- so that nothing downstream letters them for rhyme, scans them or names a
+    metre. They stay in the book, because they are part of it; they are marked for what they are. The
+    parser drops most prose by its shape; these survived because a wrapped line can start with a capital."""
+    pat = meta.get('prose_re')
+    if not pat: return w
+    for s in w['sections']:
+        if re.match(pat, s['title'], re.I): s['prose'] = True
+    return w
 
 if __name__ == '__main__':
     rows = [r for r in csv.DictReader(open(CAT, encoding='utf-8')) if r['Language'] == 'en' and r['Type'] == 'Text']
@@ -438,14 +517,15 @@ if __name__ == '__main__':
         if not r: report.append((slug, 'NOT FOUND', query)); continue
         gid = int(r['Text#']); path = fetch(gid)
         if not path: report.append((slug, 'NO TEXT', gid)); continue
-        author, author_sort, born, died = author_meta(r['Authors'])
-        meta = {'title': title, 'title_as_published': r['Title'], 'author': author, 'author_sort': author_sort, 'born': born, 'died': died, 'published': published, 'blurb': blurb,
+        author, author_sort, born, died, circa = author_meta(r['Authors'])
+        meta = {'title': title, 'title_as_published': r['Title'], 'author': author, 'author_sort': author_sort, 'born': born, 'died': died, 'circa': circa, 'published': published, 'blurb': blurb,
                 'form': None, 'scheme': {'sonnet': 'ABABCDCDEFEFGG', 'petrarchan': 'ABBAABBACDCDCD', 'spenserian': 'ABABBCBCC'}.get(hint), 'meter': hint if hint in ('blank verse', 'heroic couplets', 'free verse', 'trochaic tetrameter', 'dactylic hexameter') else None}
         meta.update(SLUG_META.get(slug, {}))
         try:
             w = parse_gutenberg(gid, slug, meta)
         except Exception as e:
             report.append((slug, 'PARSE ERROR', str(e)[:80])); continue
+        w = mark_prose(w, meta)
         nl = sum(len(st) for s in w['sections'] for st in s['stanzas'])
         if nl < 60 or not w['sections']:
             report.append((slug, 'TOO LITTLE', f'{gid} {r["Title"][:40]} lines={nl}')); continue
@@ -453,11 +533,14 @@ if __name__ == '__main__':
             _lab, _sh = meter_share(w)
             w['meter'] = _lab or 'mixed'; w['meter_conf'] = round(_sh, 3)
         else: w['meter_conf'] = 1.0
-        if not w['form']: w['form'] = {'blank verse': 'Blank verse: unrhymed iambic pentameter', 'heroic couplets': 'Heroic couplets: rhymed pairs of iambic pentameter', 'free verse': 'Free verse', 'iambic pentameter': 'Mostly iambic pentameter', 'iambic tetrameter': 'Mostly iambic tetrameter'}.get(w['meter'], 'Mixed forms')
+        # `meter` stays as the working hint analyze.py and measures.py read for a syllable target; the FORM
+        # is what a page prints as a claim, and below METER_FLOOR the claim is not made (Hopkins was
+        # "Mostly iambic pentameter" on 18% of his lines).
+        if not w['form']: w['form'] = {'blank verse': 'Blank verse: unrhymed iambic pentameter', 'heroic couplets': 'Heroic couplets: rhymed pairs of iambic pentameter', 'free verse': 'Free verse', 'iambic pentameter': 'Mostly iambic pentameter', 'iambic tetrameter': 'Mostly iambic tetrameter'}.get(w['meter'] if w['meter_conf'] >= METER_FLOOR else None, 'Mixed forms')
         w['stats'] = {'sections': len(w['sections']), 'stanzas': sum(len(s['stanzas']) for s in w['sections']), 'lines': nl}
         w = apply_corrections(w)
         json.dump(w, open(os.path.join(OUT, slug + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
-        keep.append({k: w[k] for k in ('slug', 'title', 'author', 'author_sort', 'born', 'died', 'published', 'form', 'scheme', 'meter', 'meter_conf', 'blurb', 'stats')})
+        keep.append({k: w[k] for k in ('slug', 'title', 'author', 'author_sort', 'born', 'died', 'circa', 'published', 'form', 'scheme', 'meter', 'meter_conf', 'blurb', 'stats')})
         report.append((slug, 'OK', f'{gid} {r["Title"][:38]} | {author} | poems={len(w["sections"])} lines={nl}'))
     for slug, gid, title, orig, dates, lang, composed, translator, tyear, blurb, hint, scheme in EPICS:
         if only and slug not in only: continue
@@ -466,7 +549,7 @@ if __name__ == '__main__':
         if not path: report.append((slug, 'NO TEXT', gid)); continue
         _nm = orig.split(' (')[0].split(' ')
         sort_name = title if orig.startswith('Anonymous') else (_nm[-1] + ', ' + ' '.join(_nm[:-1])).strip(', ')
-        meta = {'title': title, 'title_as_published': title, 'author': orig, 'author_sort': sort_name, 'born': dates[0], 'died': dates[1], 'published': tyear, 'blurb': blurb,
+        meta = {'title': title, 'title_as_published': title, 'author': orig, 'author_sort': sort_name, 'born': dates[0], 'died': dates[1], 'circa': CIRCA.get(orig, ''), 'published': tyear, 'blurb': blurb,
                 'lang': lang, 'original_title': title, 'composed': composed, 'translator': translator, 'epic': True, 'max_lines': 20000, 'longs': slug == 'faerie-queene',
                 'form': None, 'scheme': scheme, 'meter': hint}
         # roman numerals under a prose heading are the manuscript's fitts, not parts of the heading
@@ -475,19 +558,20 @@ if __name__ == '__main__':
         meta.update(SLUG_META.get(slug, {}))
         try: w = parse_gutenberg(gid, slug, meta)
         except Exception as e: report.append((slug, 'PARSE ERROR', str(e)[:80])); continue
+        w = mark_prose(w, meta)
         nl = sum(len(st) for s in w['sections'] for st in s['stanzas'])
         if nl < 200: report.append((slug, 'TOO LITTLE', f'{gid} lines={nl}')); continue
         if not w['meter']:
             _lab, _sh = meter_share(w)
             w['meter'] = _lab or 'mixed'; w['meter_conf'] = round(_sh, 3)
         else: w['meter_conf'] = 1.0
-        if not w['form']: w['form'] = {'blank verse': 'Blank verse: unrhymed iambic pentameter', 'heroic couplets': 'Heroic couplets: rhymed pairs of iambic pentameter', 'trochaic tetrameter': 'Trochaic tetrameter', 'alliterative verse': 'Alliterative four-stress verse', 'iambic pentameter': 'Mostly iambic pentameter', 'iambic tetrameter': 'Mostly iambic tetrameter'}.get(w['meter'], 'Mixed forms')
+        if not w['form']: w['form'] = {'blank verse': 'Blank verse: unrhymed iambic pentameter', 'heroic couplets': 'Heroic couplets: rhymed pairs of iambic pentameter', 'trochaic tetrameter': 'Trochaic tetrameter', 'alliterative verse': 'Alliterative four-stress verse', 'iambic pentameter': 'Mostly iambic pentameter', 'iambic tetrameter': 'Mostly iambic tetrameter'}.get(w['meter'] if w['meter_conf'] >= METER_FLOOR else None, 'Mixed forms')
         w['stats'] = {'sections': len(w['sections']), 'stanzas': sum(len(s['stanzas']) for s in w['sections']), 'lines': nl}
         w = apply_corrections(w)
         if w.get('orig_sections'):
             json.dump({'lang': lang, 'source': f'{orig}, {title}: original text printed with the {translator} translation (Project Gutenberg #{gid})', 'multi': False, 'sections': w.pop('orig_sections')}, open(os.path.join(OUT, slug + '.orig.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
         json.dump(w, open(os.path.join(OUT, slug + '.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
-        keep.append({k: w.get(k) for k in ('slug', 'title', 'author', 'author_sort', 'born', 'died', 'published', 'form', 'scheme', 'meter', 'meter_conf', 'blurb', 'stats', 'lang', 'original_title', 'composed', 'translator', 'epic')})
+        keep.append({k: w.get(k) for k in ('slug', 'title', 'author', 'author_sort', 'born', 'died', 'circa', 'published', 'form', 'scheme', 'meter', 'meter_conf', 'blurb', 'stats', 'lang', 'original_title', 'composed', 'translator', 'epic')})
         report.append((slug, 'OK', f'{gid} | {orig} tr. {translator} | sections={len(w["sections"])} lines={nl}'))
     for slug, gid, lang, label, headre in ORIGINALS:
         path = fetch(gid)

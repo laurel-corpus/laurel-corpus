@@ -20,14 +20,40 @@ NUMBER = re.compile(r'^\d{1,3}\.?$')
 NUMHEAD = re.compile(r'^(book|canto|part|runo|fit|chapter|liber|adventure)( the \w+| [ivxlc]+| \d+| (first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|one|two|three|four|five|six|seven|eight|nine|ten))\.?$', re.I)
 NUMHEAD_ANY = re.compile(r'^(book|canto|part|runo|fit|chapter|liber|adventure|carmen|poem|ode|sonnet|idyll|satire|elegy|epistle|eclogue|hymn|epigram)( the \w+| [ivxlc]+| \d+| (first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|one|two|three|four|five|six|seven|eight|nine|ten))\b', re.I)
 
+# A date note printed under a title -- "(April, 1862.)", "(1859.)" -- is the edition's dating of the
+# poem, not part of its name. Counting its words against the title-case test is what hid thirty-three
+# of Melville's poems inside their neighbours: "Shiloh." passes on its own and fails under its date.
+# ONE date, never a span: "(1846-1899)" under a name is a dedicatee's life, and reading that as a
+# date note turns Henley's dedication into the title of Invictus.
+# A span is allowed only where it is written short -- '(1860-1.)' is one poem's two years, while
+# '(1846-1899)' under a name is a life.
+DATE_NOTE = re.compile(r'^\(\s*(?:published\s+)?(?:[A-Z][a-z]+\.?\s*\d{0,2},?\s*)?1[5-9]\d\d(?:[-–]\d{1,2})?\.?\s*\)\.?$')
+
+# "I. M." over a name is a dedication, and the year under it is the dedicatee's death, not the poem's
+# date. Henley's Echoes are headed that way, and reading the year as a date note makes the dedication
+# the title: "A Late Lark Twitters from the Quiet Skies" became "Xxxv, I. M, Margaritae Sorori".
+IN_MEM = re.compile(r'^(I\.\s*M\.?$|IN MEMORIAM\b|IN MEMORY OF\b)', re.I)
+
+def strip_date_note(block):
+    """The block as the title test should see it: without a trailing date note."""
+    if any(IN_MEM.match(l.strip()) for l in block): return block
+    return block[:-1] if len(block) > 1 and DATE_NOTE.match(block[-1].strip()) else block
+
 def is_title(block, meta=None, flush=None):
     # Some editions set every poem title hard against the left margin and indent everything else: verse,
     # subtitles, part labels and all. Where that holds, indentation settles the question on its own, and
     # nothing indented may be read as a heading. `flush` is read off the raw block, before clean() strips it.
     if meta and meta.get('flush_titles') and flush is False: return False
+    block = strip_date_note(block)
     if meta and meta.get('titlere'):
         # a scene heading, possibly preceded by its number on the line before
         if len(block) == 2 and ROMAN.match(block[0].strip()): block = block[1:]
+        # In a play the heading is often the setting, and a setting runs as long as it needs to:
+        # "ROME.--_A Lady's apartment, with a window open and looking into a garden._ LALAGE, _in
+        # deep mourning, reading at a table..._" is four lines. Reading only the first line of the
+        # block let two of Politian's five scenes fall into the scene before them.
+        if meta.get('drama') and 1 < len(block) <= 6:
+            return re.match(meta['titlere'], re.sub(r'[\*_]+', '', block[0]).strip()) is not None
         return len(block) == 1 and re.match(meta['titlere'], re.sub(r'[\*_]+', '', block[0]).strip()) is not None
     if 3 < len(block) <= 5 and all(re.sub(r'[^A-Za-z]', '', l) and re.sub(r'[^A-Za-z]', '', l).isupper() and len(l.strip()) <= 40 for l in block): return True
     if len(block) > 3 or (len(block) == 3 and len(' '.join(block)) > 60): return False
@@ -134,7 +160,7 @@ def strip_gloss(l, notes):
         return text
     return l.replace('*', '') if '*' in l else l
 GLOSS_LINE = re.compile(r'^_([^_]{1,40})_,\s+(.{2,80})$')
-def clean_stanza(st, notes=None):
+def clean_stanza(st, notes=None, keep_speakers=False):
     # Vachel Lindsay printed performance directions in the margin of The Congo, and Gutenberg 1021
     # carries them inline between hash marks: '# A deep rolling bass. #', '# With a philosophic pause. #'.
     # They are part of the poem as printed and they are not verse. Left in, they were scanned for metre,
@@ -161,7 +187,9 @@ def clean_stanza(st, notes=None):
         l = re.sub(r'^\d{1,4}\s+(?=[A-Za-z"\'])', '', l)          # leading line numbers
         l = re.sub(r'(?<=[\.,;:!\?\'"”’])\s+\d{2,4}$', '', l)   # trailing line numbers after punctuation
         if len(l) > 12 and l.upper() == l and re.search(r'[A-Z]{3}', l): continue   # shouting headers, publisher lines
-        if re.match(r'^[A-Z][A-Z .\-\']{2,30}\.?$', l.strip()) and l.strip().upper() == l.strip() and not re.match(r'^[IVXLC]+\.?$', l.strip()): continue   # speaker tags
+        # A speaker tag is noise in a book of lyrics and is the whole point in a play: without it
+        # nobody can tell who is talking. Dropping it cost Politian 203 of its 774 lines.
+        if not keep_speakers and re.match(r'^[A-Z][A-Z .\-\']{2,30}\.?$', l.strip()) and l.strip().upper() == l.strip() and not re.match(r'^[IVXLC]+\.?$', l.strip()): continue   # speaker tags
         if APPARATUS.search(l): continue
         if re.match(r'^[\W\d_]+$', l): continue
         out.append(l)
@@ -180,6 +208,18 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         hits = [i for i, l in enumerate(lines) if re.match(meta['start_at'], l.strip())]
         k = meta.get('start_occurrence', 1)
         if len(hits) >= k: lines = lines[hits[k - 1] + (0 if meta.get('start_inclusive') else 1):]
+    # A verse drama printed in the MIDDLE of a collection. start_at and stop_at can only cut the ends,
+    # and Longfellow's Christus has twenty-seven thousand lines of lyrics after it. Each pair here is
+    # (first line of the drama, first line of whatever follows it), and the drama is taken out so it
+    # can be published as the play it is rather than as three hundred poems named after whoever spoke.
+    for spec in meta.get('drop_range', []):
+        a, b = spec[0], spec[1]
+        occ = spec[2] if len(spec) > 2 else 1        # the table of contents names the play too
+        hits = [k for k, l in enumerate(lines) if re.match(a, l.strip())]
+        if len(hits) < occ: continue
+        i = hits[occ - 1]
+        j = next((k for k in range(i + 1, len(lines)) if re.match(b, lines[k].strip())), len(lines))
+        lines = lines[:i] + lines[j:]
     # raw blocks keeping original indentation info for prose detection
     blocks, cur = [], []
     for l in lines:
@@ -255,14 +295,19 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                   % (slug, format(meta.get('max_lines', MAX_LINES), ','), len(blocks) - bi, len(blocks)))
             break
         if (is_title(cb, meta, at_margin) or (meta.get('headre') and len(cb) == 1 and len(cb[0]) < 60 and re.search(meta['headre'], cb[0], re.I) and re.search(r'\b([ivxlc]+|\d+|\w+)\b', cb[0]))) and not (len(cb) == 1 and ROMAN.match(cb[0])):
-            hl = cb[1:] if meta.get('titlere') and len(cb) == 2 else cb
+            hl = strip_date_note(cb[1:] if meta.get('titlere') and len(cb) == 2 else cb)
             if len(hl) > 2: hl = [x for x in hl if not re.match(r'^\s*(A |AN )?(SONG|SONNET|ODE|SET BY|TUNE|AIR)\b', x)] or hl[:1]; hl = [hl[0].strip(' .')] + [', ' + x.strip(' .') for x in hl[1:]] if len(hl) > 1 else hl
             newt = re.sub(r'^\(\d+\)\s*', '', re.sub(r'\s+', ' ', ''.join(hl) if len(hl) > 1 and hl[1].startswith(', ') else ' '.join(hl)).strip(' .'))
             if meta.get('title_sub'): newt = re.sub(meta['title_sub'][0], meta['title_sub'][1], newt).strip(' .')
             newt = re.sub(r'\s*<\d+\.\d+>', '', newt); newt = newt.replace(' ,', ',')
             newt = re.sub(r'^_?(the )?argument_?[.:]?\s+(?=\S)', '', newt, flags=re.I)   # "ARGUMENT. MINERVA'S DESCENT TO ITHACA" is the title without its label
             if skipping and meta.get('resume_only') and title and re.match(meta['resume_only'][0], title, re.I) and not re.match(meta['resume_only'][1], newt, re.I): continue   # inside the notes: only a named heading ends the skip
-            new_book = polish_title(newt.strip(' .')) if meta.get('book_prefix') and re.match(r'^(BOOK|Book) [IVXLC]+\.?$', newt.strip()) else None
+            # A play's ACT does for its scenes what a BOOK does for its cantos: without it every act
+            # contributes a "Scene I" and the contents read as five poems of that name.
+            _div = r'^(BOOK|Book|ACT|Act)\.? ?[IVXLCD\d]+\.?$' if meta.get('drama') else r'^(BOOK|Book) [IVXLC]+\.?$'
+            # "ACT. I." keeps its stop through polish_title and comes out "Act. I", which reads as a
+            # speaker and gets folded away with its scenes. The stop goes here.
+            new_book = polish_title(re.sub(r'^(ACT|Act)\.', r'\1', newt.strip()).strip(' .')) if meta.get('book_prefix') and re.match(_div, newt.strip()) else None
             if meta.get('numbered_titles') and part and not stanzas: newt = f"{meta.get('partlabel', 'Part')} {norm_roman(part)}: {newt}"; part = None
             if title and not stanzas and not skipping and re.match(r'^(book|canto|part|runo|fit|chapter)( the)? ([ivxlc]+|\d+|\w+)\.?$', re.sub(r'[\*_]+', '', title), re.I) and not re.match(r'^(book|canto|part|runo|fit|chapter)\b', newt, re.I) and not SKIP_TITLES.match(newt):
                 title = polish_title(title) + ': ' + polish_title(newt); continue
@@ -323,7 +368,7 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                 if gl and len(gl) >= len(cb) - 1:
                     if stanzas: glosses[(len(sections), len(stanzas) - 1)] = ' · '.join(f"{m.group(1)}: {m.group(2).rstrip('.')}" for m in gl)
                     continue
-            cb = clean_stanza(cb, notes)
+            cb = clean_stanza(cb, notes, keep_speakers=bool(meta.get('drama')))
             if len(cb) >= 1:
                 stanzas.append(cb)
                 if notes: glosses[(len(sections), len(stanzas) - 1)] = ' · '.join(notes)
@@ -361,9 +406,28 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                 bybase[s['_base']] = s
             folded.append(s)
         sections = folded
+    if meta.get('drama'):
+        # Shelley heads a scene "SCENE 2.1:" and the setting follows on the same line, so the title
+        # comes out "Act 2: Scene 2.1:, Morning". The act is already on the front of it, and the
+        # stray punctuation is the join showing.
+        for s in sections:
+            t = re.sub(r'\bScene\s+\d+\.(\d+)', r'Scene \1', s['title'])
+            t = re.sub(r':\s*,\s*', ': ', t)
+            t = re.sub(r'[\s,;:.\u2014-]+$', '', t).strip()
+            t = re.sub(r'\s{2,}', ' ', t)
+            if t and t != s['title']:
+                s['title'] = t; s['short'] = t[:18]
+                s['id'] = re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:60]
+    # The act a scene stands under, kept as a level and not only glued onto its name. Flattening alone
+    # gave a contents page 100 odes each called "Book I: Ode 1" and eighteen rows of "Act I: Scene I",
+    # which is a list of a hundred things where a reader wants four books to open. The title and the id
+    # still carry the prefix, because the id is what every citation and every stable id resolves through
+    # and it must not move; `part` is what a contents page groups by, and it strips the prefix to print.
     if meta.get('book_prefix'):
         for s in sections:
-            if s.get('_book') and not re.match(r'^(Book|Carmen Saeculare)\b', s['title']): s['title'] = f"{s['_book']}: {s['title']}"; s['id'] = re.sub(r'[^a-z0-9]+', '-', s['title'].lower()).strip('-')[:60]
+            if s.get('_book') and not re.match(r'^(Book|Act|Carmen Saeculare)\b', s['title']):
+                s['part'] = [s['_book']]
+                s['title'] = f"{s['_book']}: {s['title']}"; s['id'] = re.sub(r'[^a-z0-9]+', '-', s['title'].lower()).strip('-')[:60]
     # A section titled by a lone name that stands under a numbered heading with no verse of its own takes that
     # heading. Two shapes: an epigraph's author (Beattie: 'BOOK I', a Latin motto, 'VIRGIL', then the book, which
     # was being titled Virgil and folded into the biography before it) and a dialogue's first speaker (Burton's
@@ -646,13 +710,28 @@ def meter_guess(work, floor=None):
 
 
 SMALL = {'a', 'an', 'the', 'of', 'in', 'on', 'at', 'to', 'for', 'and', 'or', 'but', 'nor', 'by', 'with', 'from', 'as', 'o', 'upon', 'into', 'unto', 'than'}
+# A full stop inside a title ends a sentence unless it is an abbreviation: "Shiloh. A Requiem" is a
+# title and its subtitle, while "Mr. Apollinax" and "Capt. Wm. Roddirk" are one name.
+ABBREV = {'mr', 'mrs', 'ms', 'dr', 'st', 'capt', 'col', 'gen', 'hon', 'rev', 'prof', 'sir', 'maj',
+          'sgt', 'lieut', 'messrs', 'esq', 'no', 'vol', 'pt', 'ch', 'jr', 'sr', 'ep', 'lib', 'cf'}
+
+def _new_sentence(prev):
+    if re.search(r'[:—–]$', prev): return True
+    if not prev.endswith('.'): return False
+    core = prev.rstrip('.').strip('"“”\'‘’(),')
+    if len(core) <= 1: return False          # an initial: "In Memory of H. of M."
+    return core.lower() not in ABBREV
+
 def smart_case(t):
-    """Title case that leaves small words lower except at the start, after a number, or after a colon or quote mark."""
+    """Title case that leaves small words lower except at the start, after a number, or after a full
+    stop, colon or quote mark. The full stop is there because a title and its subtitle are often
+    printed as two sentences -- "Shiloh. A Requiem", "Gettysburg. The Check" -- and the second half
+    starts a new one."""
     words = t.split(' '); out = []
     for i, w in enumerate(words):
         core = w.strip('"“”\'‘’(')
         lw = core.lower()
-        first = i == 0 or (i == 1 and re.match(r'^\d+\.$', words[0]))
+        first = i == 0 or (i == 1 and re.match(r'^\d+\.$', words[0])) or (i > 0 and _new_sentence(words[i - 1]))
         if not first and lw in SMALL and not re.search(r'[:—–]$', words[i - 1]) and not re.match(r'^["“‘(]', w): out.append(w.replace(core, lw, 1))
         elif first and lw in SMALL: out.append(w.replace(core, core[:1].upper() + core[1:], 1))
         else: out.append(w)
@@ -687,8 +766,43 @@ def canto_key_of(t):
     # the innermost numbering wins: "Book I: Ode V" is keyed by the ode, not the book
     ms = list(re.finditer(r'\b(Canto|Book|Part|Runo|Fit|Chapter|Ode|Satire|Carmen) ([IVXLC]+|\d+)\b', t))
     return (ms[-1].group(1), ms[-1].group(2)) if ms else None
+# "Manahem. Nothing" is a character speaking and belongs to the poem above; "Shiloh. A Requiem" is a
+# title and its subtitle. They are the same shape, and the thing that tells them apart is that a
+# character speaks more than once while a title is its own. Folding on the shape alone cost Melville
+# "Shiloh" and "Lyon", which is how they came to be inside their neighbours.
+#
+# A name that appears once is read by what it is. "Mr." and "St." open a title (Eliot's "Mr.
+# Apollinax", "St. Agnes"); a genre does too ("Elegy. To Chast Love"); and a short abbreviation over
+# two or three words is a speaker in a play ("Ant. Great God!", "Ful. Nothing" in Hemans's Vespers).
+SPEECH_PREFIX = re.compile(r'^([A-Z][a-z]+)\.\s+[A-Z]')
+NOT_A_SPEAKER = {'mr', 'mrs', 'ms', 'dr', 'st', 'capt', 'col', 'gen', 'hon', 'rev', 'prof', 'sir',
+                 'maj', 'sgt', 'lieut', 'messrs', 'esq',
+                 'song', 'sonnet', 'elegy', 'ode', 'hymn', 'epitaph', 'epigram', 'psalm', 'ballad',
+                 'dialogue', 'epistle', 'satire', 'idyll', 'eclogue', 'prologue', 'epilogue',
+                 'chorus', 'fragment', 'canzone', 'madrigal', 'inscription'}
+
+# What follows the name settles it. A subtitle is a phrase, and an English phrase carries an article
+# or a preposition: "Shiloh. A Requiem", "Gettysburg. The Check", "Isolation. To Marguerite". A
+# speech is an answer: it ends in a question or an exclamation, or it is a word or two with nothing
+# holding it together -- "Chamberlain. Yes", "Malvolio. Fool".
+SUBTITLE_WORD = re.compile(r'\b(a|an|the|of|to|in|on|at|by|from|with|for|or|part|book|canto|scene|act)\b', re.I)
+
+def is_speech(title, spoken):
+    """Is this title a character speaking, rather than a title with its subtitle?"""
+    m = SPEECH_PREFIX.match(title)
+    if not m: return False
+    who = m.group(1)
+    if spoken[who] >= 2: return True                      # the same voice, more than once
+    if who.lower() in NOT_A_SPEAKER: return False
+    rest = title[m.end(1) + 1:].strip()
+    if rest.endswith(('?', '!')): return True
+    if SUBTITLE_WORD.search(rest) or re.search(r'\b1[5-9]\d\d\b', rest): return False
+    return len(rest.split()) <= 2
+
 def tidy_titles(good, meta):
+    from collections import Counter
     good = strip_numbering(good)
+    spoken = Counter(m.group(1) for s in good if (m := SPEECH_PREFIX.match(s['title'].strip())))
     NUMT = re.compile(r'^(Book|Canto|Part|Runo|Idyll|Liber|Fit|Chapter) ([IVXLC]+|\d+): (.+)$')
     # continuation headings (a bracketed apparatus line, a parenthetical note) belong to the section before
     out = []
@@ -704,7 +818,10 @@ def tidy_titles(good, meta):
             else: heading = None; first_run = False
     for s in good:
         t = s['title'].strip()
-        if out and (re.match(r'^[\[\{]', t) or re.match(r'^\(.*\)$', t) or re.match(r'^(Enter|Exit|Exeunt|Re-enter|ROME\.|SCENE\b|Scene\b)', t) or re.match(r'^(Chorus|Semi-Chorus|Recitative|Air|Duet|Trio|Strophe|Antistrophe|Epode|Strophe [IVX]+|Antistrophe [IVX]+|Epode [IVX]+)$', t, re.I) or re.match(r'^[A-Z][a-z]+\.\s+[A-Z]', t) or re.match(r'^[A-Z][a-z]+, \d{2}$', t) or re.search(r'\bVOICE\b|^THE VALLEY\b', t) or re.match(r'^[a-z]', t) or len(re.sub(r'[^A-Za-z]', '', t)) <= 2):
+        # In a play a scene heading is the section, not a stage direction to be folded into the one
+        # before it. Folding them is why The Spagnoletto came out as a single 2,607-line section.
+        _stage = r'^(Enter|Exit|Exeunt|Re-enter)' if meta.get('drama') else r'^(Enter|Exit|Exeunt|Re-enter|ROME\.|SCENE\b|Scene\b)'
+        if out and (re.match(r'^[\[\{]', t) or re.match(r'^\(.*\)$', t) or re.match(_stage, t) or re.match(r'^(Chorus|Semi-Chorus|Recitative|Air|Duet|Trio|Strophe|Antistrophe|Epode|Strophe [IVX]+|Antistrophe [IVX]+|Epode [IVX]+)$', t, re.I) or is_speech(t, spoken) or re.match(r'^[A-Z][a-z]+, \d{2}$', t) or re.search(r'\bVOICE\b|^THE VALLEY\b', t) or re.match(r'^[a-z]', t) or len(re.sub(r'[^A-Za-z]', '', t)) <= 2):
             out[-1]['stanzas'].extend(s['stanzas']); continue
         out.append(s)
     # a dialogue poem parsed by speaker: a run of four or more short titles drawn from two or three names folds into the section before it
@@ -757,8 +874,16 @@ def tidy_titles(good, meta):
                 for x in run[1:]: head['stanzas'].extend(x['stanzas'])
                 out = [x for x in out if x is head or x not in run]
             elif k > 0 and not re.match(r'^(.+?) ([IVXLC]+)$', out[k - 1]['title']):
-                for x in run: out[k - 1]['stanzas'].extend(x['stanzas'])
-                out = [x for x in out if x not in run]
+                # Numbered stanza groups of one poem (Childe Roland's I, II, III) stand together after
+                # the title they belong to. A run that is broken up by titled poems is not that: it is
+                # the untitled poems of a collection, each numbered by the editor, and folding them
+                # into the section before the first of them put two hundred of Dickinson's poems
+                # under "Success". Only a contiguous run folds.
+                j = k
+                while j < len(out) and out[j] in run: j += 1
+                if j - k == len(run):
+                    for x in run: out[k - 1]['stanzas'].extend(x['stanzas'])
+                    out = [x for x in out if x not in run]
     if meta.get('fold_into_prev'):
         fp = []
         for s in out:

@@ -102,6 +102,11 @@ def main(write):
         print('%-28s %3d findings applied %3d   sections %4d -> %4d   lines %6d -> %6d' % (slug, len(rs), changed, n0, n1, l0, l1))
         if write:
             shutil.copy(path, os.path.join(backup, slug + '.json'))
+            # The counts are derived, and dropping or splitting a section changes them. Leaving them
+            # as the parser wrote them is why 53 works told the library one number of poems and held
+            # another; analyze.py updates the statistics it computes and keeps these as it finds them.
+            if work.get('stats'):
+                work['stats'].update({'sections': n1, 'stanzas': sum(len(x['stanzas']) for x in work['sections']), 'lines': l1})
             json.dump(work, open(path, 'w', encoding='utf-8'), ensure_ascii=False)
     print('\n%d findings applied across %d works; sections %d -> %d%s' % (total, len(by_work), before, after, '' if write else '   (dry run; --write to apply)'))
     if log: print('\nnot applied:'); print('\n'.join(log))

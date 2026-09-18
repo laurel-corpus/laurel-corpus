@@ -77,6 +77,7 @@ def one(w):
     secs = {}
     book_lines, book_sizes = [], []
     for s in wk.get('sections', []):
+        if s.get('prose'): continue          # the edition prints it as prose; there is no metre to settle
         sections_total += 1
         lines, sizes = section_lines(s)
         if len(book_lines) < SAMPLE * 2:

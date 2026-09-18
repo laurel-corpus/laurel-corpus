@@ -5,7 +5,9 @@ foot and length. Neither wrote down how the scanner reads the line in that metre
 was filling the open syllables in by plain alternation, so that 'the fire indeed from whence they
 caused be' came out FROM whence THEY. This asks the scanner and keeps the answer: one more field on
 the line record, the template the line is read by, '+' for a beat and '-' for a slack, only where the
-poem's metre is settled and the reading matches the syllables analyze.py counted.
+poem's metre is settled and the reading matches the syllables analyze.py counted. An eleventh field
+holds a second reading where the scanner could not separate two, so the page can show the line reads
+two ways instead of choosing for the reader.
 
 Runs after metres.py and before finish.py:
 
@@ -20,6 +22,7 @@ import scansion as S
 from analyze import TOKEN, norm
 
 READ = 10   # the field's index on the line record; analyze.py's record ends at 9
+READ2 = 11  # a second reading the scanner could not separate from the first, where the line has one
 
 def evidence_of(text, syls, codes):
     """The scanner's evidence for a line, on the syllables analyze.py counted rather than its own.
@@ -60,8 +63,8 @@ def read_work(w):
     secs = (METRES.get(slug) or {}).get('sections', {})
     n_read = 0
     for rec in ann['lines']:
-        while len(rec) <= READ: rec.append(None)
-        rec[READ] = None
+        while len(rec) <= READ2: rec.append(None)
+        rec[READ] = rec[READ2] = None
         sec = work['sections'][rec[0]]
         m = secs.get(sec['id'])
         if not m or len(m) < 5 or not m[3] or m[3] not in S.FEET: continue
@@ -76,6 +79,8 @@ def read_work(w):
         tpl = S.reading(ev, foot, prefer=feet, feet=n or None)
         if not tpl or len(tpl) != len(syls): continue
         rec[READ] = tpl.replace('1', '+').replace('0', '-')
+        alt = S.second_reading(ev, foot, prefer=feet, feet=n or None)
+        if alt: rec[READ2] = alt.replace('1', '+').replace('0', '-')
         n_read += 1
     json.dump(ann, open(path, 'w', encoding='utf-8'), separators=(',', ':'), ensure_ascii=False)
     return slug, n_read, len(ann['lines'])

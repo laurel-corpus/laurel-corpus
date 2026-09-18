@@ -6,7 +6,7 @@ Output: site/data/works/<slug>.json
 Only the poem text is kept. Gutenberg headers, footers and license text are
 stripped, so the output carries no Project Gutenberg trademark boilerplate.
 """
-import json, os, re, sys
+import html, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, 'sources')
@@ -24,6 +24,11 @@ def clean(line):
     t = line.rstrip()
     t = re.sub(r'\s{2,}\d+$', '', t)          # trailing line numbers (Keats edition)
     t = t.replace('_', '')                    # italics markers
+    # Some transcriptions carry HTML entities ('overplus,&mdash;') and mark an emphasised word with angle
+    # brackets ('her <brow>'); both reached the page as code. The entity becomes its character, the
+    # brackets come off the word.
+    if '&' in t: t = html.unescape(t)
+    t = re.sub(r"<([A-Za-z][A-Za-z'\u2019-]*)>", r'\1', t)
     t = re.sub(r'\{[)=~^.:]?([A-Za-z])\}', r'\1', t)          # diacritic markup: Cyb{)e}l{=e} -> Cybele
     t = re.sub(r'\^\{([^}]*)\}', r'\1', t)                     # superscripts: 6^{th} -> 6th
     t = re.sub(r'(?<=[A-Za-z0-9])\^([a-z]{1,2})\b', r'\1', t)     # S^r, 2^d

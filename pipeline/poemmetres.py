@@ -73,7 +73,19 @@ def poems_in_category(article):
     encyclopedia keeps for every poet with poem articles. The query service was tried first and
     answered one batch in three; the ordinary API answers at once."""
     out = set()
-    for cat in ('Category:Poetry by ' + article, 'Category:Poems by ' + article):
+    cats = ['Category:Poetry by ' + article, 'Category:Poems by ' + article]
+    # The encyclopedia files a poet's best-known poems one level down: Blake's Songs of Innocence and
+    # of Experience are a subcategory of 'Poetry by William Blake', and the top category holds only
+    # the prophetic books. One level of subcategories is walked; deeper than that is another subject.
+    for cat in list(cats):
+        try:
+            resp = S.get(API, params={'action': 'query', 'list': 'categorymembers', 'cmtitle': cat, 'cmtype': 'subcat', 'cmlimit': 100, 'format': 'json'}, timeout=30)
+            if resp.status_code == 200:
+                for m in resp.json().get('query', {}).get('categorymembers', []): cats.append(m['title'])
+        except Exception:
+            pass
+        time.sleep(0.2)
+    for cat in cats:
         cont = {}
         while True:
             r = None
@@ -112,6 +124,10 @@ OVERRIDES = {
 
 key = lambda t: re.sub(r'[^a-z0-9]', '', re.sub(r'\s*\([^)]*\)\s*$', '', t).lower())
 
+# Where the article's title and the edition's differ by spelling, so the key of one never meets the
+# key of the other. Blake's edition prints The Tiger; the encyclopedia, and everyone else, has The Tyger.
+ALIASES = {'thetyger': 'thetiger'}
+
 def statement(text):
     """(term, sentence, where) for the metre an article states, or None."""
     lead = text.split('\n==')[0]
@@ -149,7 +165,9 @@ def main(only):
         found = []
         for t in titles:
             n_art += 1
-            hit = secs.get(key(t)) or secs.get(key(re.sub(r'^(The|A|An)\s+', '', re.sub(r'\s*\([^)]*\)\s*$', '', t))))
+            # a poem printed in two of the poet's books under two spellings is matched in both
+            hit = (secs.get(key(t)) or []) + (secs.get(ALIASES.get(key(t), '')) or [])
+            if not hit: hit = secs.get(key(re.sub(r'^(The|A|An)\s+', '', re.sub(r'\s*\([^)]*\)\s*$', '', t))))
             if not hit: continue
             n_match += 1
             page = fetch(t)

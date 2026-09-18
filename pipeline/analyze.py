@@ -585,6 +585,22 @@ INTERLOCK_SHARE = 0.40    # this share of a poem's unlettered ends must find the
 ALPHA52 = [chr(ord('A') + k) for k in range(26)] + [chr(ord('a') + k) for k in range(26)]
 
 
+_norm = lambda t: __import__('re').sub(r'[^a-z0-9]+', ' ', (t or '').lower()).strip()
+CURATED = {}
+def load_curated(works_dir, lib):
+    """title and author of every work that carries a curated rhyme scheme, so the same poem sitting
+       inside a collection can be lettered the way its own page letters it."""
+    import os
+    CURATED.clear()
+    for m in lib:
+        f = os.path.join(works_dir, m['slug'] + '.json')
+        if not os.path.exists(f): continue
+        try: full = json.load(open(f, encoding='utf-8'))
+        except Exception: continue
+        if full.get('scheme') and len(full['sections']) == 1:
+            CURATED[(_norm(full.get('title')), _norm(full.get('author')))] = full['scheme']
+
+
 def relink_interlocking(work, lines_out, schemes):
     """Letter a poem straight through where its rhyme crosses the stanza break.
 
@@ -671,9 +687,27 @@ def analyze(work):
     LEARNED.clear(); LEARNED.update(learn_syllables(work, rising))
     known = work.get('scheme')
     for si, sec in enumerate(work['sections']):
+        # A curated scheme is recorded on a work, which serves a single poem published on its own and
+        # leaves the same poem inside a collection to be computed from scratch. The Raven is in the
+        # library twice, once as its own work and once in Poe's collected poems, and the two disagreed:
+        # the curated ABCBBB against a computed -A-AAA, which letters only the -ore rhyme and dashes
+        # the two lines that rhyme inside themselves. Same poem, same poet, two different answers on
+        # two pages. A section that is the same poem as a curated work now inherits its scheme.
+        sec_known = known or CURATED.get((_norm(sec.get('title')), _norm(work.get('author'))))
         # A book holds many poems, so the measure is asked of the poem, not of the book. The catalogue's
         # meter is preferred where it states one; where it does not, the section's own lines are asked.
         sec_expect = expect or local_expect([t for st in sec['stanzas'] for t in st], rising)
+        if sec.get('prose'):
+            # The edition prints this as prose. A record per line keeps every index downstream aligned,
+            # but it carries no end word, no rhyme key, no stress and no fit, and its 'stanzas' letter
+            # as blanks: nothing here may be lettered, scanned or drawn on by a game.
+            for ti, st in enumerate(sec['stanzas']):
+                for li, text in enumerate(st):
+                    lines_out.append([si, ti, li, '', '', 0, len(line_syls(text, None, rising)), '', [], 0.0])
+                    for tok in TOKEN.findall(text):
+                        counts[re.sub(r"^[^a-z']+|[^a-z']+$", '', norm(tok))] += 1
+                stanza_schemes.append('-' * len(st)); forms['prose'] += 1
+            continue
         for ti, st in enumerate(sec['stanzas']):
             keys, alls = [], []
             for li, text in enumerate(st):
@@ -742,7 +776,7 @@ def analyze(work):
                 if l == '-': out += '-'; continue
                 if l not in remap: remap[l] = chr(ord('A') + len(remap))
                 out += remap[l]
-            if known and len(known) == len(keys): out = known
+            if sec_known and len(sec_known) == len(keys): out = sec_known
             stanza_schemes.append(out)
             forms[out] += 1
     # Poems whose rhyme runs across the stanza break are lettered straight through, as terza rima must be.
@@ -799,10 +833,24 @@ if __name__ == '__main__':
                  'The published corpus carries the TEI, which already holds what this writes. To read\n'
                  'poems out of it instead, use teiread.py.' % WORKS)
     index = json.load(open(_index))
+    # which poems carry a curated rhyme scheme, before any work is annotated, so a collection's copy
+    # of a poem can be lettered the way that poem's own page letters it
+    load_curated(WORKS, index)
     library = []
     # `python3 analyze.py slug ...` recomputes only those works and keeps the rest of library.json as it was
     only = set(sys.argv[1:]); old_lib = {}
-    if only and os.path.exists(os.path.join(DATA, 'library.json')): old_lib = {m['slug']: m for m in json.load(open(os.path.join(DATA, 'library.json')))}
+    if only and os.path.exists(os.path.join(DATA, 'library.json')):
+        old_lib = {m['slug']: m for m in json.load(open(os.path.join(DATA, 'library.json')))}
+        # The index no longer carries the section lists, and a partial run reuses these entries whole
+        # for every work it is not re-analyzing. Without putting the sections back first, one
+        # `analyze.py <slug>` would rewrite sections.json with that work alone and empty the other
+        # four hundred, which takes out the edition builder, the theme filters, section-title search
+        # and the seasonal shelf, quietly and all at once.
+        sp = os.path.join(DATA, 'sections.json')
+        if os.path.exists(sp):
+            old_secs = json.load(open(sp, encoding='utf-8'))
+            for slug, m in old_lib.items():
+                if 'sections' not in m and slug in old_secs: m['sections'] = old_secs[slug]
     for meta in index:
         if only and meta['slug'] not in only and meta['slug'] in old_lib: library.append(old_lib[meta['slug']]); continue
         work = json.load(open(os.path.join(WORKS, meta['slug'] + '.json')))
@@ -850,7 +898,15 @@ if __name__ == '__main__':
         m['stats']['suspect_lines'] = len(qc)
         library.append(m)
         print(f"{work['slug']:22s} lines={len(lines_out):6d} schemes={forms.most_common(3)} gloss={len(gl):5d} drifted={len(nm):4d} fit={stats['mean_meter_fit']}")
-    json.dump(library, open(os.path.join(DATA, 'library.json'), 'w'), ensure_ascii=False, indent=1)
+    # The index is fetched by every page. Its section lists were four fifths of it: 18,630 entries,
+    # the whole table of contents of all 416 works, downloaded to render a page that usually wants a
+    # title and an author. They go in a file of their own, which the handful of pages that walk the
+    # library's sections (the edition builder, the theme filters, section-title search) ask for by
+    # name. Nothing else pays for them.
+    sections = {m['slug']: m.get('sections', []) for m in library}
+    lean = [{k: v for k, v in m.items() if k != 'sections'} for m in library]
+    json.dump(lean, open(os.path.join(DATA, 'library.json'), 'w'), ensure_ascii=False, indent=1)
+    json.dump(sections, open(os.path.join(DATA, 'sections.json'), 'w'), ensure_ascii=False, indent=0)
     import datetime; json.dump({'build': datetime.datetime.utcnow().strftime('%Y%m%d%H%M')}, open(os.path.join(DATA, 'build.json'), 'w'))
     # compact pronouncing dictionary for the browser-side form checker: word -> [stress digits, rhyme key]
     comp = {}

@@ -66,7 +66,9 @@ aud = json.load(open(os.path.join(src, 'site/data/audio/index.json'), encoding='
 audit = json.load(open(os.path.join(src, 'site/data/audit.json'), encoding='utf-8'))
 lines = audit['summary'].get('encoding', '').split()[0]
 print('   works      %s' % format(len(lib), ','))
-print('   poems      %s' % format(sum(len(w['sections']) for w in lib), ','))
+# library.json used to carry a 'sections' list per work; it now carries the count in
+# stats.sections, and this line counted the old shape until the release of 18 September.
+print('   poems      %s' % format(sum((w.get('stats') or {}).get('sections', 0) for w in lib), ','))
 print('   lines      %s' % lines)
 print('   recordings %s across %d works' % (format(sum(len(v) for v in aud.values()), ','), len(aud)))
 print('   tei files  %d' % len(glob.glob(os.path.join(here, 'tei', '*.xml'))))
