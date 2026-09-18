@@ -189,6 +189,16 @@ wrong answer to no answer as a result. What remains is that a poem with no meter
 distinguished from a poem whose meter could not be settled, and a small number of pages that are not
 verse at all are still scanned as though they were.
 
+A second limit arrived with this release, and it is in the structure rather than the scansion. Five
+verse dramas were added at v1.03, and two of them are divided wrongly. Longfellow's *Christus* carries
+the whole of *John Endicott* in a single 2,111-line section headed with that play's cast list, and its
+*Giles Corey* has an act heading fused to the first line of dialogue. *Michael Angelo* reads several
+speech lines as section headings, so that sections appear under titles such as "To marry him?". The
+lines themselves are correct and scanned as usual; it is the division into sections, and therefore the
+canonical references that depend on it, that is wrong for those two works. Poe's *Politian*, Lazarus's
+*The Spagnoletto* and Longfellow's *Judas Maccabaeus* came out correctly. The parser is being fixed and
+the next release will re-divide them.
+
 ## License
 
 Two different things are released under two different terms. The poems are in the public domain, and
