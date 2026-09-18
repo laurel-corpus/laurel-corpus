@@ -23,37 +23,18 @@ identifiers:
 url: "https://laurelpoetry.com"
 abstract: >-
   Laurel is a corpus of public domain English poetry, encoded in TEI P5, in which every
-  line has been scanned. It is the material underneath laurelpoetry.com, a free reading
-  room, and is published separately so that the work behind the site can be examined,
-  corrected and put to other uses. It grows with each release, so the counts of works,
-  poems and lines are printed by the build script in the repository rather than repeated
-  here.
-
-
-  Every line is recorded twice: once as the meter asks for it, and once as the words
-  themselves require. In Shakespeare's "Making a famine where abundance lies", the meter
-  wants the line to open unstressed and the word refuses, since "Making" is MAK-ing and no
-  reader would say ma-KING. That disagreement is the point of the corpus. It is where a
-  poet departs from the measure, and that is where most of the interest in meter lies; a
-  corpus holding only one of the two rows cannot show it. Syllables that neither settles
-  are marked open rather than guessed at. Stanzas carry a rhyme scheme lettered from rhyme
-  keys, and every poem has a canonical reference on the CTS model that names its edition,
-  since a citation to a poem is not reproducible unless it says which text it means.
-
-
-  How well the scansion works is measured rather than claimed. Against 3,183 lines marked
-  by hand by prosodists, on the half of that data held back from every design decision, it
-  agrees with the annotator on 92.8 per cent of syllables. Counted a line at a time, with
-  a single wrong mark condemning the line, 74.5 per cent come out right, and 70 per cent
-  if the lines it could not scan at all are counted as failures too. That second figure is
-  the one that matters for analysis rather than display, and it is the one usually left
-  out.
+  line has been scanned. Every line carries two rows of marks: the stress the meter asks
+  for, and the stress the words themselves require, with the syllables that neither
+  settles left open rather than guessed at. Stanzas carry a rhyme scheme lettered from
+  rhyme keys, and every poem has a canonical reference on the CTS model that names its
+  edition, since a citation to a poem is not reproducible unless it says which text it
+  means.
 
 
   The texts are in the public domain. The encoding, the scansion and the annotation are CC
   BY-SA 4.0. METHOD.md in the repository documents the method and the places where it is
-  weak, including the limits of the selection and, in this release, two verse dramas whose
-  division into sections is wrong.
+  weak, including how accurate the scansion has been measured to be, the limits of the
+  selection and, in this release, two verse dramas whose division into sections is wrong.
 
 
 keywords:
