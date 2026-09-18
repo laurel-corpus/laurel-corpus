@@ -24,65 +24,36 @@ url: "https://laurelpoetry.com"
 abstract: >-
   Laurel is a corpus of public domain English poetry, encoded in TEI P5, in which every
   line has been scanned. It is the material underneath laurelpoetry.com, a free reading
-  room, and it is published separately so that the work behind the site can be examined,
+  room, and is published separately so that the work behind the site can be examined,
   corrected and put to other uses. It grows with each release, so the counts of works,
   poems and lines are printed by the build script in the repository rather than repeated
   here.
 
 
   Every line is recorded twice: once as the meter asks for it, and once as the words
-  themselves require. Take the seventh line of Shakespeare's first sonnet, "Making a
-  famine where abundance lies." The meter is iambic pentameter, so it wants the line to
-  open unstressed and put the weight on the second syllable. The word will not allow it.
-  "Making" is pronounced MAK-ing, and no reader would say ma-KING. The first foot is
-  reversed and the rest of the line falls back into step. That is a trochaic inversion,
-  the commonest liberty a poet takes with an iambic line. The disagreement between the two
-  rows is the point of the corpus. It is where a poet departs from the measure, and that
-  is where most of the interest in meter lies. A corpus that stores only the meter cannot
-  show that a departure happened, and one that stores only the words cannot show that it
-  was a departure from anything. Syllables that neither settles are marked open rather
-  than guessed at. Stanzas carry a rhyme scheme lettered from rhyme keys, so that a
-  sonnet's ABAB and a ballad's ABCB can be read by machine.
+  themselves require. In Shakespeare's "Making a famine where abundance lies", the meter
+  wants the line to open unstressed and the word refuses, since "Making" is MAK-ing and no
+  reader would say ma-KING. That disagreement is the point of the corpus. It is where a
+  poet departs from the measure, and that is where most of the interest in meter lies; a
+  corpus holding only one of the two rows cannot show it. Syllables that neither settles
+  are marked open rather than guessed at. Stanzas carry a rhyme scheme lettered from rhyme
+  keys, and every poem has a canonical reference on the CTS model that names its edition,
+  since a citation to a poem is not reproducible unless it says which text it means.
 
 
-  The meter is not looked up from a title or a form. Every candidate is built as a
-  template, the four feet at every length with the licenses that real verse takes and the
-  substitutions English verse makes, such as the inverted first foot. Every syllable of
-  the poem is then tested against each template. A poem whose verse will not settle is
-  left without a meter rather than given a plausible wrong one.
-
-
-  How well this works is measured rather than claimed. The scanner is scored against 3,183
-  lines marked by hand by prosodists, gathered from three corpora by Haider's Metrical
-  Tagging in the Wild (2021), of which nearly half are not iambic. On the half of that
-  data held back from every design decision, it agrees with the annotator on 92.8 per cent
-  of syllables. Counted a line at a time, with a single wrong mark condemning the line,
-  74.5 per cent come out right, and 70 per cent if the lines it could not scan at all are
-  counted as failures too. That second figure is the one that matters for analysis rather
-  than display, and it is the one usually left out. The errors cluster rather than
-  scatter: falling independently they would spoil nearly half of all lines, and they spoil
-  a quarter. The scanner is also scored against works whose meter is documented in
-  published scholarship, and against forms such as the sonnet, where the form settles the
-  meter and no annotation is needed. That last test catches what the others cannot, which
-  is a scanner that has begun to offer confident wrong answers to poems that were never in
-  doubt.
-
-
-  Every poem has a canonical reference on the CTS model, and the reference names its
-  edition, since a citation to a poem is not reproducible unless it says which text it
-  means. Every poem also has a permanent identifier that survives retitling and
-  re-parsing. The commentary from the printed editions is anchored to the lines it
-  glosses rather than collected at the back. Seventeen works carry their Greek, Latin or
-  Italian original lined up against the translation, with the classical languages scanned
-  by quantity. Many poems carry line-level timings against public domain recordings, so
-  that a reading can be followed line by line.
+  How well the scansion works is measured rather than claimed. Against 3,183 lines marked
+  by hand by prosodists, on the half of that data held back from every design decision, it
+  agrees with the annotator on 92.8 per cent of syllables. Counted a line at a time, with
+  a single wrong mark condemning the line, 74.5 per cent come out right, and 70 per cent
+  if the lines it could not scan at all are counted as failures too. That second figure is
+  the one that matters for analysis rather than display, and it is the one usually left
+  out.
 
 
   The texts are in the public domain. The encoding, the scansion and the annotation are CC
-  BY-SA 4.0. The method is documented in METHOD.md, including the places where it is weak.
-  Free verse is still given a meter it does not have. A poem with no meter is not yet
-  distinguished from a poem whose meter could not be settled. Editions were chosen for
-  being in the public domain rather than for being the best witnesses to their texts.
+  BY-SA 4.0. METHOD.md in the repository documents the method and the places where it is
+  weak, including the limits of the selection and, in this release, two verse dramas whose
+  division into sections is wrong.
 
 
 keywords:
