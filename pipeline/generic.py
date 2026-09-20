@@ -45,6 +45,21 @@ def is_title(block, meta=None, flush=None):
     # nothing indented may be read as a heading. `flush` is read off the raw block, before clean() strips it.
     if meta and meta.get('flush_titles') and flush is False: return False
     block = strip_date_note(block)
+    # A scene heading in a play names the scene, and it is written as the setting: "SCENE I. -- The
+    # woods near Salem Village.  Enter TITUBA, with a basket of herbs." Christus's titlere asks for
+    # small caps and at most 46 characters, so no scene of John Endicott or Giles Corey matched and
+    # all 2,111 lines of John Endicott fell into one section named after a line of its cast list.
+    # A line that opens with SCENE, in a work already declared a drama, is a heading whatever its
+    # case and length. The plays whose titlere already admits SCENE read exactly as they did.
+    # ACT belongs here for the same reason, and its absence made the acts inconsistent: Longfellow's
+    # printer set "ACT I." and "ACT II" in the same play, and Christus's titlere admits the second and
+    # not the first, so two of Giles Corey's five acts headed their scenes and three did not.
+    # PROLOGUE, FINALE and INTERLUDE are headings of the same kind: named divisions of a play that a
+    # small-caps titlere with a length cap does not admit. Without them the prologue of John Endicott
+    # kept the title left over from the cast list before it, and the Finale of the whole trilogy was
+    # called "Saint John" after the first speaker.
+    if meta and meta.get('drama') and block and re.match(r'^(SCENE|ACT|PROLOGUE|FINALE|INTERLUDE)\b', re.sub(r'[\*_]+', '', block[0]).strip(), re.I):
+        return True
     if meta and meta.get('titlere'):
         # a scene heading, possibly preceded by its number on the line before
         if len(block) == 2 and ROMAN.match(block[0].strip()): block = block[1:]
@@ -248,7 +263,24 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         blocks = kept
     sections, title, stanzas, skipping, base, part = [], None, [], True, None, None
     glosses = {}; base_has_verse = set(); major_title = None; prev_title = None
-    pending_heading = [None]; pending_epi = [False]; book_ctx = [None]
+    pending_heading = [None]; pending_epi = [False]; book_ctx = [None]; in_cast = False; scene_next = False
+    # Who speaks in this play. A speaker tag is set as "JULIA." and a scene title as "SAN SILVESTRO",
+    # and the only thing telling them apart is the full stop -- so where the printer dropped one, as he
+    # did twice in Michael Angelo, the speaker matched the title pattern and took a section with him:
+    # "Julia, Yes, for Ippolito the Magnificent, 't Is Always Flattering to a Woman's Pride". The names
+    # are read off the work itself rather than configured, because every play has its own and the same
+    # slip can happen in any of them. A name has to speak twice WITH its stop to count, so a scene title
+    # that happens to be a character's name -- Vittoria Colonna heads a scene and speaks in it -- is not
+    # swept up by a single stray line.
+    drama_speakers = set()
+    if meta.get('drama'):
+        # "SCENE I." is set exactly like a speaker tag and recurs once an act, so without this it counted
+        # as one of the play's speakers and every scene heading in The Spagnoletto was suppressed: the
+        # play came out as five acts with no scenes in them. A division is never a speaker.
+        _div_head = re.compile(r'^(SCENE|ACT|PROLOGUE|EPILOGUE|FINALE|INTERLUDE|PART)\b', re.I)
+        _tags = [re.sub(r'[^A-Z ]', '', l.strip()).strip() for l in lines
+                 if re.match(r"^[A-Z][A-Z .'\u2019-]{1,28}\.$", l.strip()) and not _div_head.match(l.strip())]
+        drama_speakers = {t for t in _tags if _tags.count(t) >= 2}
     def flush():
         nonlocal stanzas
         if title and not SKIP_TITLES.match(title) and sum(len(s) for s in stanzas) < min_lines and not part and not skipping: pending_heading[0] = title; pending_epi[0] = sum(len(s) for s in stanzas) > 0
@@ -285,6 +317,24 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             if len(nb) == 1 and re.match(r'^\(.*\)$', nb[0].strip()): skip_blocks.add(bi + 1); continue
         if meta.get('ignore_heading') and len(cb) <= 2 and re.match(meta['ignore_heading'], ' '.join(cb).strip(), re.I): continue
         if meta.get('drop_block') and len(cb) > 3 and re.match(meta['drop_block'], cb[0].strip()): continue   # a dramatis personae under a title
+        # A cast list: a column of names set against the parts they play, which is not a poem and whose
+        # names are not titles. Christus carried two of them. One stood as an 8-line section called
+        # "John Endicott", and the other gave its title to the 2,111 lines of the play that followed:
+        # "Wenlock Christison, Edith, His Daughter, Edward Wharton". Recognised by shape rather than by
+        # a heading, because the heading is a block of its own and the names are not always under one.
+        # The cast runs from the DRAMATIS PERSONAE heading to the first verse or the first real heading.
+        # Shape alone was not enough: "WENLOCK CHRISTISON / EDITH, his daughter / EDWARD WHARTON
+        # Quakers" has one line in the column shape and two that are simply names, and that block is
+        # the one that gave its name to the whole of John Endicott.
+        if meta.get('drama') and len(cb) == 1 and re.match(r'^DRAMATIS PERSONAE', cb[0].strip(), re.I):
+            in_cast = True; continue
+        if in_cast:
+            # A cast list reads as verse to is_verse -- short lines, no punctuation to speak of -- so the
+            # run has to end on shape, not on "the first thing that looks like a poem". A cast line is a
+            # name in capitals, alone, or against the part played, or against a description after a comma.
+            _cast = lambda l: re.match(r"^[A-Z][A-Z .'\u2019-]{2,}(\s{2,}\S|,\s+[a-z]|$)", l.strip())
+            if is_title(cb, meta, at_margin) or sum(1 for l in cb if _cast(l)) * 2 < len(cb): in_cast = False
+            else: continue
         if len(cb) == 2 and NUMBER.match(cb[0].strip()) and 3 < len(cb[1].strip()) < 70 and (meta.get('number_parts') or is_title([cb[1]], meta)):
             part = None; cb = [cb[1]]   # "14 / Hurrahing in Harvest": a numbered, titled poem
         if os.environ.get('PARSE_DEBUG') and any('Oxenford' in l or l.strip() == 'THE TALE.' for l in cb): print('BLK', cb[:1], 'title=', title, 'skipping=', skipping, 'is_title=', is_title(cb, meta), 'verse=', is_verse(cb))
@@ -294,8 +344,24 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             print('   !! %s stopped at the %s-line cap with %d of %d blocks left; the text is being truncated'
                   % (slug, format(meta.get('max_lines', MAX_LINES), ','), len(blocks) - bi, len(blocks)))
             break
-        if (is_title(cb, meta, at_margin) or (meta.get('headre') and len(cb) == 1 and len(cb[0]) < 60 and re.search(meta['headre'], cb[0], re.I) and re.search(r'\b([ivxlc]+|\d+|\w+)\b', cb[0]))) and not (len(cb) == 1 and ROMAN.match(cb[0])):
-            hl = strip_date_note(cb[1:] if meta.get('titlere') and len(cb) == 2 else cb)
+        _forced = scene_next and not is_verse(cb) and len(cb) <= 3
+        # a speaker who lost his full stop: a lone name that speaks elsewhere in this play, and that no
+        # scene number introduces. Left to the verse rather than read as a heading.
+        # The stop is not the only thing the printer dropped: at 'JULIA / Yes, for Ippolito the
+        # Magnificent.' the blank line went too, so the speaker and his speech are one block of four
+        # lines and the test has to look at the first line of it, not at a block of one.
+        _speaker = (not _forced and meta.get('drama') and len(cb) <= 6
+                    and re.sub(r'[^A-Z ]', '', cb[0].strip()).strip() in drama_speakers)
+        scene_next = False
+        if (_forced or (is_title(cb, meta, at_margin) and not _speaker) or (meta.get('headre') and len(cb) == 1 and len(cb[0]) < 60 and re.search(meta['headre'], cb[0], re.I) and re.search(r'\b([ivxlc]+|\d+|\w+)\b', cb[0]))) and not (len(cb) == 1 and ROMAN.match(cb[0])):
+            # A two-line heading under titlere is normally a scene NUMBER over its title ("I." then
+            # "PROLOGUE AT ISCHIA"), so the number is dropped. A scene heading that merely WRAPPED is
+            # the opposite shape, and dropping its first line kept the wrap and threw the heading away:
+            # "SCENE I. -- GILES COREY's farm.  Morning.  Enter COREY, with a / horseshoe and a hammer."
+            # came out titled "horseshoe and a hammer". Only drop the first line where it really is the
+            # number; a wrapped scene heading keeps both.
+            _scene = meta.get('drama') and re.match(r'^SCENE\b', re.sub(r'[\*_]+', '', cb[0]).strip(), re.I)
+            hl = strip_date_note(cb[1:] if meta.get('titlere') and len(cb) == 2 and not _scene else cb)
             if len(hl) > 2: hl = [x for x in hl if not re.match(r'^\s*(A |AN )?(SONG|SONNET|ODE|SET BY|TUNE|AIR)\b', x)] or hl[:1]; hl = [hl[0].strip(' .')] + [', ' + x.strip(' .') for x in hl[1:]] if len(hl) > 1 else hl
             newt = re.sub(r'^\(\d+\)\s*', '', re.sub(r'\s+', ' ', ''.join(hl) if len(hl) > 1 and hl[1].startswith(', ') else ' '.join(hl)).strip(' .'))
             if meta.get('title_sub'): newt = re.sub(meta['title_sub'][0], meta['title_sub'][1], newt).strip(' .')
@@ -331,6 +397,12 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                 elif re.search(r'\btale\b', tclean, re.I) and not SKIP_TITLES.match(tclean) and not re.match(r'^notes', tclean, re.I): major_title = tclean
             flush()
             if new_book: book_ctx[0] = new_book   # after the flush: the section before a BOOK heading belongs to the old book (Horace's I.38 was labelled Book II)
+            # An act ends with its play. In a book that prints two plays and then a finale, the act
+            # context ran straight through: Giles Corey's cast list came out "Act V: Giles Corey of the
+            # Salem Farms" under John Endicott's fifth act, and the Finale of the whole trilogy came out
+            # "Act V: Saint John". A heading in a play that is neither an act nor a scene is a division
+            # above them, so it closes the act that was open.
+            elif meta.get('drama') and not re.match(r'^(Act|Scene)\b', newt.strip(), re.I): book_ctx[0] = None
             if title and not (SKIP_TITLES.match(title.rstrip(': ')) or skipping): prev_title = title
             title = newt; part = None; skipping = bool(SKIP_TITLES.match(title.rstrip(': '))) or bool(meta.get('skipre') and re.match(meta['skipre'], title, re.I))
             if os.environ.get('PARSE_TRACE'): print('TITLE', repr(newt[:50]), 'skip' if skipping else '')
@@ -344,7 +416,15 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             # "III" glued to the first line of its part: split it off as the part marker
             if stanzas: flush()
             part = cb[0].strip().strip('()[].'); cb = cb[1:]
-        if len(cb) == 1 and ROMAN.match(cb[0]) and meta.get('titlere'): continue   # scene numbers in a play
+        # A scene number in a play. The block after it is the scene's name, and in Michael Angelo three
+        # of those names end in a full stop -- "CARDINAL IPPOLITO." -- which the work's titlere rejects,
+        # so the parser fell through to the first line of dialogue and titled the scene with it. Widening
+        # titlere to admit a trailing stop is not the fix: every speaker tag ends in one, and it broke the
+        # play into "Hypocrite!", "No more" and "His Holiness". The number itself is the reliable mark, so
+        # what follows it is taken as the heading whether or not it matches.
+        if len(cb) == 1 and ROMAN.match(cb[0]) and meta.get('titlere'):
+            if meta.get('drama'): scene_next = True
+            continue   # scene numbers in a play
         if len(cb) == 1 and ROMAN.match(cb[0]):
             # numbered part or sonnet: becomes its own section under the current title
             if stanzas: flush()
@@ -412,6 +492,12 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         # stray punctuation is the join showing.
         for s in sections:
             t = re.sub(r'\bScene\s+\d+\.(\d+)', r'Scene \1', s['title'])
+            # polish_title title-cases every word, and a roman numeral is not a word: "SCENE II." came
+            # back "Scene Ii." and "SCENE III--" came back "Scene Iii—". Put the numeral back up, and
+            # tidy the stops and the dash the join leaves behind.
+            t = re.sub(r'\b(Act|Scene)\s+([IVXLCivxlc]+)\b', lambda m: '%s %s' % (m.group(1), m.group(2).upper()), t)
+            t = re.sub(r'\.\.+', '.', t)
+            t = re.sub('([IVXLC])\\s*—', '\\1. —', t)
             t = re.sub(r':\s*,\s*', ': ', t)
             t = re.sub(r'[\s,;:.\u2014-]+$', '', t).strip()
             t = re.sub(r'\s{2,}', ' ', t)

@@ -356,7 +356,7 @@ def deaccent(w):
     """Latin letters with their marks removed, for the spelling heuristics, which only know a-z."""
     w = w.replace('æ', 'ae').replace('œ', 'oe').replace('ß', 'ss')
     return ''.join(c for c in unicodedata.normalize('NFKD', w) if not unicodedata.combining(c))
-def line_syls(text, expect=None, rising=True):
+def line_syls(text, expect=None, rising=True, spell_ed=True):
     """Syllables for a line. If the work expects N syllables, apply poetic elisions
     (every -> ev'ry, heaven -> heav'n) when the line runs long, or expand a spelled -ed
     (learned -> learn-ed) when it runs short."""
@@ -399,7 +399,7 @@ def line_syls(text, expect=None, rising=True):
         # Too short: expand a spelled -ed to a syllable. Only for a line that is nearly its measure already.
         # Where a stanza mixes line lengths -- Burns's Standard Habbie runs 8-8-8-4-8-4 -- the short lines
         # are short because the poet wrote them so, and stretching them to the long measure invents beats.
-        if expect - 2 <= total < expect:
+        if spell_ed and expect - 2 <= total < expect:
             for i, (core, sy) in enumerate(words):
                 if core.endswith('ed') and not core.endswith(('eed', 'ied')) and len(core) > 4 and total < expect:
                     last = sy[-1]
@@ -580,6 +580,33 @@ def local_expect(lines, rising, floor=8):
     return mode if (n >= len(raw) * 0.40 and near >= len(raw) * 0.60) else None
 
 
+def mixed_lengths(lines, rising, floor=8):
+    """True when the poem alternates line lengths rather than keeping one.
+
+    Common measure runs 8-6-8-6, so the commonest length is 8 with about half the lines and the sixes
+    sit exactly two syllables away. local_expect()'s guards both pass on that -- 42% and 63% on the
+    Ancient Mariner's Part III -- and every line is then held to 8. A six-syllable line is thereby two
+    short of a measure it never had, which is exactly the window in which line_syls() expands a spelled
+    -ed to make up the difference: 'Was parched, and glazed each eye' came out as parch-ed and glaz-ed,
+    eight syllables, and was marked as a tetrameter it is not.
+
+    The expectation is still worth having for elision, which can only ever merge syllables that
+    genuinely contract. It is the -ed expansion, which invents one, that must not fire here.
+    """
+    if len(lines) < floor: return False
+    raw = [len(line_syls(t, None, rising)) for t in lines if t.strip()]
+    if len(raw) < floor: return False
+    counts = collections.Counter(raw)
+    mode, _ = counts.most_common(1)[0]
+    # A second PEAK, not merely spread. Summing every length two or more away from the mode flagged two
+    # sections in five, because loose verse scatters that many lines on its own; what marks an
+    # alternating metre is one other length holding a large share by itself. Common measure puts a
+    # quarter to a half of its lines on the short measure -- 30 of 81 at six syllables in the Ancient
+    # Mariner's Part III against 34 at eight.
+    second = max((c for v, c in counts.items() if abs(v - mode) >= 2), default=0)
+    return second >= len(raw) * 0.25
+
+
 INTERLOCK_WINDOW = 6      # a rhyme partner this far away or nearer, counted across the stanza break
 INTERLOCK_SHARE = 0.40    # this share of a poem's unlettered ends must find their partner next door
 ALPHA52 = [chr(ord('A') + k) for k in range(26)] + [chr(ord('a') + k) for k in range(26)]
@@ -696,7 +723,11 @@ def analyze(work):
         sec_known = known or CURATED.get((_norm(sec.get('title')), _norm(work.get('author'))))
         # A book holds many poems, so the measure is asked of the poem, not of the book. The catalogue's
         # meter is preferred where it states one; where it does not, the section's own lines are asked.
-        sec_expect = expect or local_expect([t for st in sec['stanzas'] for t in st], rising)
+        sec_lines = [t for st in sec['stanzas'] for t in st]
+        sec_expect = expect or local_expect(sec_lines, rising)
+        # A poem that alternates its line lengths keeps the expectation, for elision, but is not allowed
+        # to have a syllable invented to reach it. See mixed_lengths().
+        sec_ed = not mixed_lengths(sec_lines, rising)
         if sec.get('prose'):
             # The edition prints this as prose. A record per line keeps every index downstream aligned,
             # but it carries no end word, no rhyme key, no stress and no fit, and its 'stanzas' letter
@@ -713,7 +744,7 @@ def analyze(work):
             for li, text in enumerate(st):
                 ew = end_word(text)
                 rk, incmu = rhyme_key(ew) if ew else ('', 0)
-                syls = line_syls(text, sec_expect, rising)
+                syls = line_syls(text, sec_expect, rising, sec_ed)
                 stress = ''.join(c for _, c in syls)
                 fit, off = meter_fit(stress, rising)
                 lines_out.append([si, ti, li, ew, rk, incmu, len(syls), stress, [s for s, _ in syls], fit])
@@ -871,6 +902,19 @@ if __name__ == '__main__':
         json.dump({'slug': work['slug'], 'lines': lines_out, 'schemes': schemes, 'nonmodern': nm, 'stats': stats},
                   open(os.path.join(WORKS, work['slug'] + '.lines.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
         json.dump(gl, open(os.path.join(WORKS, work['slug'] + '.glossary.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
+        # Webster's is a modern dictionary and answers Middle English confidently and wrongly: it
+        # glosses Chaucer's `holt` (a wood) as "3d pers. sing. pres. of Hold". Where an editor
+        # glossed the text himself, his glosses win. chaucergloss.py rewrites the file just written,
+        # the way plates.py lets platecaptions.json overwrite a generated caption.
+        if work['slug'] == 'canterbury-tales':
+            try:
+                import chaucergloss
+                merged, _old, _rep, _drop = chaucergloss.merge(chaucergloss.build()[0])
+                json.dump(merged, open(os.path.join(WORKS, work['slug'] + '.glossary.json'), 'w'),
+                          ensure_ascii=False, separators=(',', ':'))
+                print('  chaucergloss: %d headwords from Purves 1870 over Webster' % len(merged))
+            except Exception as e:
+                print('  chaucergloss failed, glossary left as Webster: %s' % e)
         m = dict(meta); m['stats'].update(stats)
         for k in ('lang', 'original_title', 'composed', 'translator', 'epic'):
             if work.get(k) is not None: m[k] = work[k]
