@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Blessed Damozel</title><author>Dante Gabriel Rossetti</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Blessed Damozel. Project Gutenberg ebook #52695. <ref target="https://www.gutenberg.org/ebooks/52695">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="tailpiece" n="L23552">
+      <head>Tailpiece</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-blessed-damozel.pg52695:tailpiece</idno><idno type="laurel-id">L23552</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a---a">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">The blessed Damozel leaned out</l>
+        <l n="2" real="xxxxx+-" met="+-+-+-+">From the gold bar of Heaven:</l>
+        <l n="3" real="xxxxx+-x" met="-+-+-+-+">Her blue-grey eyes were deeper much</l>
+        <l n="4" real="xxx+-+-" met="+-+-+-+">Than a deep water, even.</l>
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">She had three lilies in her hand,</l>
+        <l n="6" real="xxxxxxx+" met="-+-+-+-+">And the stars in her hair were seven.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a-a">
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Her robe, ungirt from clasp to hem,</l>
+        <l n="8" real="xx+x-+" met="-+-+-+">No wrought flowers did adorn,</l>
+        <l n="9" real="xxxxx+-x" met="-+-+-+-+">But a white rose of Mary&#x27;s gift</l>
+        <l n="10" real="xxx+-x" met="-+-+-+">On the neck meetly worn;</l>
+        <l n="11" real="xxx+-xxx" met="-+-+-+-+">And her hair, lying down her back,</l>
+        <l n="12" real="x+-xxx" met="-+-+-+">Was yellow like ripe corn.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ab-bab">
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Herseemed she scarce had been a day</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">One of God&#x27;s choristers;</l>
+        <l n="15" real="x+-xxxxx" met="-+-+-+-+">The wonder was not yet quite gone</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">From that still look of hers;</l>
+        <l n="17" real="-+-xxxxxx" met="-+-+-+-+-">Albeit to them she left, her day</l>
+        <l n="18" real="x+-xxx" met="-+-+-+">Had counted as ten years.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a-a">
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">(To one it is ten years of years</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">. . . Yet now, here in this place,</l>
+        <l n="21" real="+-xxxxxx" met="-+-+-+-+">Surely she leaned o&#x27;er me,--her hair</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">Fell all about my face . . .</l>
+        <l n="23" real="+-x+-xxx" met="-+-+-+-+">Nothing: the Autumn-fall of leaves.</l>
+        <l n="24" real="xxxx-+" met="-+-+-+">The whole year sets apace.)</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="---a-a">
+        <l n="25" real="xxx+-xxx" met="-+-+-+-+">It was the terrace of God&#x27;s house</l>
+        <l n="26" real="xxx+-x" met="-+-+-+">That she was standing on,--</l>
+        <l n="27" real="xxxxxxx" met="+-+-+-+">By God built over the sheer depth</l>
+        <l n="28" real="xxxx-+" met="-+-+-+">In which Space is begun;</l>
+        <l n="29" real="xxx+-+x" met="+-+-+-+">So high, that looking downward thence,</l>
+        <l n="30" real="xxxxxx" met="-+-+-+">She could scarce see the sun.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a-a">
+        <l n="31" real="xxx+-+xx" met="-+-+-+-+">It lies from Heaven across the flood</l>
+        <l n="32" real="x+-xxx" met="-+-+-+">Of ether, as a bridge.</l>
+        <l n="33" real="xxxxxxxx" met="-+-+-+-+">Beneath, the tides of day and night</l>
+        <l n="34" real="xxx+-x" met="-+-+-+">With flame and blackness ridge</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">The void, as low as where this earth</l>
+        <l n="36" real="xxx+-x" met="-+-+-+">Spins like a fretful midge.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a-a">
+        <l n="37" real="xxxxxxxx" met="-+-+-+-+">But in those tracts, with her, it was</l>
+        <l n="38" real="xxx+-x" met="-+-+-+">The peace of utter light</l>
+        <l n="39" real="x+-xxxxx" met="-+-+-+-+">And silence.  For no breeze may stir</l>
+        <l n="40" real="-+x+-x" met="-+-+-+">Along the steady flight</l>
+        <l n="41" real="x+--x+-x" met="-+-+-+-+">Of seraphim; no echo there,</l>
+        <l n="42" real="xxxxxx" met="-+-+-+">Beyond all depth or height.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="-a-a-a">
+        <l n="43" real="x+-xxxxx" met="-+-+-+-+">Heard hardly, some of her new friends,</l>
+        <l n="44" real="+-x+-x" met="-+-+-+">Playing at holy games,</l>
+        <l n="45" real="x+-xxx-+" met="-+-+-+-+">Spake, gentle-mouthed, among themselves,</l>
+        <l n="46" real="x+--xx" met="-+-+-+">Their virginal chaste names;</l>
+        <l n="47" real="xxx+-xxx" met="-+-+-+-+">And the souls, mounting up to God,</l>
+        <l n="48" real="xxxxxx" met="-+-+-+">Went by her like thin flames.</l>
+      </lg>
+      <lg type="stanza" n="9">
+        <l n="49" real="xxxx-+xx" met="-+-+-+-+">And still she bowed herself, and stooped</l>
+        <l n="50" real="xxxxxx" met="-+-+-+">Into the vast waste calm;</l>
+        <l n="51" real="xx+-+-xxx" met="-+-+-+-+-">Till her bosom&#x27;s pressure must have made</l>
+        <l n="52" real="xxxxxx" met="-+-+-+">The bar she leaned on warm,</l>
+        <l n="53" real="xx+-xxx-+" met="-+-+-+-+-">And the lilies lay as if asleep</l>
+        <l n="54" real="-+x+-x" met="-+-+-+">Along her bended arm.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a--">
+        <l n="55" real="xxxxx+xx" met="-+-+-+-+">From the fixt lull of heaven, she saw</l>
+        <l n="56" real="xxxxxx" met="-+-+-+">Time, like a pulse, shake fierce</l>
+        <l n="57" real="xxxxxxxx" met="-+-+-+-+">Through all the worlds.  Her gaze still strove,</l>
+        <l n="58" real="xxxxxx" met="-+-+-+">In that steep gulph, to pierce</l>
+        <l n="59" real="xxxxxxxx" met="-+-+-+-+">The swarm: and then she spake, as when</l>
+        <l n="60" real="xxxxxx" met="-+-+-+">The stars sang in their spheres.</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="---a-a">
+        <l n="61" real="xxxxxxxx" met="-+-+-+-+">&quot;I wish that he were come to me,</l>
+        <l n="62" real="xxxxxx" met="-+-+-+">For he will come,&quot; she said.</l>
+        <l n="63" real="xxxxx+-+" met="-+-+-+-+">&quot;Have I not prayed in solemn heaven?</l>
+        <l n="64" real="xxxxxx" met="-+-+-+">On earth, has he not prayed?</l>
+        <l n="65" real="xxxxx-+x" met="-+-+-+-+">Are not two prayers a perfect strength?</l>
+        <l n="66" real="xxxx-+" met="-+-+-+">And shall I feel afraid?</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a-a">
+        <l n="67" real="xxxxx+-x" met="-+-+-+-+">&quot;When round his head the aureole clings,</l>
+        <l n="68" real="xxxxxx" met="-+-+-+">And he is clothed in white,</l>
+        <l n="69" real="xxxxxxxx" met="-+-+-+-+">I&#x27;ll take his hand, and go with him</l>
+        <l n="70" real="xxxxxx" met="-+-+-+">To the deep wells of light,</l>
+        <l n="71" real="xxxxxxxxx" met="-+-+-+-+-">And we will step down as to a stream</l>
+        <l n="72" real="xxxxxx" met="-+-+-+">And bathe there in God&#x27;s sight.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a-a">
+        <l n="73" real="xxxx-+xx" met="-+-+-+-+">&quot;We two will stand beside that shrine,</l>
+        <l n="74" real="-+-+xx" met="-+-+-+">Occult, withheld, untrod,</l>
+        <l n="75" real="xx+--+-" met="+-+-+-+">Whose lamps tremble continually</l>
+        <l n="76" real="xxxxxx" met="-+-+-+">With prayer sent up to God;</l>
+        <l n="77" real="xxxx-+-+" met="-+-+-+-+">And where each need, revealed, expects</l>
+        <l n="78" real="x+-+--" met="-+-+-+">Its patient period.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abab--">
+        <l n="79" real="xxxxxx+xx" met="-+-+-+-+-">&quot;We two will lie i&#x27; the shadow of</l>
+        <l n="80" real="x+-+-x" met="-+-+-+">That living mystic tree,</l>
+        <l n="81" real="xxx+-xxx" met="-+-+-+-+">Within whose secret growth the Dove</l>
+        <l n="82" real="-+xxxx" met="-+-+-+">Sometimes is felt to be,</l>
+        <l n="83" real="x+-xxxxx" met="-+-+-+-+">While every leaf that His plumes touch</l>
+        <l n="84" real="xxx+--" met="-+-+-+">Saith His name audibly.</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a-a">
+        <l n="85" real="xxx+xxxx" met="-+-+-+-+">&quot;And I myself will teach to him--</l>
+        <l n="86" real="xx++-x" met="-+-+-+">I myself, lying so--</l>
+        <l n="87" real="xxxxxxxx" met="-+-+-+-+">The songs I sing here; which his mouth</l>
+        <l n="88" real="xxxxxx" met="-+-+-+">Shall pause in, hushed and slow,</l>
+        <l n="89" real="+-x+-xxx" met="-+-+-+-+">Finding some knowledge at each pause</l>
+        <l n="90" real="xxxxxx" met="-+-+-+">And some new thing to know.&quot;</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="-a-a-a">
+        <l n="91" real="-+xxx+-x" met="-+-+-+-+">(Alas! to her wise simple mind</l>
+        <l n="92" real="xxxxxx" met="-+-+-+">These things were all but known</l>
+        <l n="93" real="xxx+-xxx" met="-+-+-+-+">Before: they trembled on her sense,--</l>
+        <l n="94" real="xxxxxx" met="-+-+-+">Her voice had caught their tone.</l>
+        <l n="95" real="-+x+-+-+" met="-+-+-+-+">Alas for lonely Heaven!  Alas</l>
+        <l n="96" real="xxxx-+" met="-+-+-+">For life wrung out alone!</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="-a-a-a">
+        <l n="97" real="-+xxxxxx" met="-+-+-+-+">Alas, and though the end were reached?</l>
+        <l n="98" real="xxxx-+" met="-+-+-+">Was thy part understood</l>
+        <l n="99" real="xxxxxxxx" met="-+-+-+-+">Or borne in trust?  And for her sake</l>
+        <l n="100" real="xxxxxx" met="-+-+-+">Shall this too be found good?--</l>
+        <l n="101" real="xxxxxxxx" met="-+-+-+-+">May the close lips that knew not prayer</l>
+        <l n="102" real="x+-xxx" met="-+-+-+">Praise ever, though they would?)</l>
+      </lg>
+      <lg type="stanza" n="18" rhyme="-a-a--">
+        <l n="103" real="xxxxxxxx" met="-+-+-+-+">&quot;We two,&quot; she said, &quot;will seek the groves</l>
+        <l n="104" real="xx+-+-x" met="+-+-+-+">Where the lady Mary is,</l>
+        <l n="105" real="xxxxxxxx" met="-+-+-+-+">With her five handmaidens, whose names</l>
+        <l n="106" real="xxx+--" met="-+-+-+">Are five sweet symphonies:--</l>
+        <l n="107" real="xxx+-+-" met="+-+-+-+">Cecily, Gertrude, Magdalen,</l>
+        <l n="108" real="+-xxxx" met="-+-+-+">Margaret, and Rosalys.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a-a">
+        <l n="109" real="+-xxxxxx" met="-+-+-+-+">&quot;Circle-wise sit they, with bound locks</l>
+        <l n="110" real="x+-+-" met="-+-+-">And bosoms covered;</l>
+        <l n="111" real="xxxxxxxx" met="-+-+-+-+">Into the fine cloths, white like flame,</l>
+        <l n="112" real="+-x+-x" met="-+-+-+">Weaving the golden thread,</l>
+        <l n="113" real="x+-xxxxx" met="-+-+-+-+">To fashion the birth-robes for them</l>
+        <l n="114" real="xxxx+x" met="-+-+-+">Who are just born, being dead.</l>
+      </lg>
+      <lg type="stanza" n="20" rhyme="-ababa">
+        <l n="115" real="xxx+-xxx" met="-+-+-+-+">He shall fear haply, and be dumb.</l>
+        <l n="116" real="xxxxxx" met="-+-+-+">Then will I lay my cheek</l>
+        <l n="117" real="xxxxxx+x" met="-+-+-+-+">To his, and tell about our love,</l>
+        <l n="118" real="xx-+xx" met="-+-+-+">Not once abashed or weak:</l>
+        <l n="119" real="xxx+-x-+" met="-+-+-+-+">And the dear Mother will approve</l>
+        <l n="120" real="xxxxxx" met="-+-+-+">My pride, and let me speak.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="-a-a-a">
+        <l n="121" real="-+xxxxxx" met="-+-+-+-+">&#x27;Herself shall bring us, hand in hand,</l>
+        <l n="122" real="xxxxxx" met="-+-+-+">To Him round whom all souls</l>
+        <l n="123" real="xxxxx+-x" met="-+-+-+-+">Kneel--the unnumber&#x27;d solemn heads</l>
+        <l n="124" real="xxx+--" met="-+-+-+">Bowed with their aureoles:</l>
+        <l n="125" real="x+-+-xxx" met="-+-+-+-+">And Angels, meeting us, shall sing</l>
+        <l n="126" real="xxxxxxx" met="+-+-+-+">To their citherns and citoles.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="-a-a--">
+        <l n="127" real="xxxxxxxx" met="-+-+-+-+">&quot;There will I ask of Christ the Lord</l>
+        <l n="128" real="xxxxxx" met="-+-+-+">Thus much for him and me:--</l>
+        <l n="129" real="xxx+-xxx" met="-+-+-+-+">To have more blessing than on earth</l>
+        <l n="130" real="x+-xxx" met="-+-+-+">In nowise; but to be</l>
+        <l n="131" real="xxxx+xx" met="+-+-+-+">As then we were,--being as then</l>
+        <l n="132" real="xxx+--" met="-+-+-+">At peace.  Yea, verily.</l>
+      </lg>
+      <lg type="stanza" n="23" rhyme="-a-a-a">
+        <l n="133" real="x+--xxxx" met="-+-+-+-+">&quot;Yea, verily; when he is come</l>
+        <l n="134" real="xxxxxx" met="-+-+-+">We will do thus and thus:</l>
+        <l n="135" real="xxx+-xxx" met="-+-+-+-+">Till this my vigil seem quite strange</l>
+        <l n="136" real="x+x+--" met="-+-+-+">And almost fabulous;</l>
+        <l n="137" real="xxxxxxxx" met="-+-+-+-+">We two will live at once, one life;</l>
+        <l n="138" real="xxxxxx" met="-+-+-+">And peace will be with us.&quot;</l>
+      </lg>
+      <lg type="stanza" n="24" rhyme="-a---a">
+        <l n="139" real="xxx+-xxx" met="-+-+-+-+">She gazed, and listened, and then said,</l>
+        <l n="140" real="xxxxxx" met="-+-+-+">Less sad of speech than mild;</l>
+        <l n="141" real="xxxxxxxx" met="-+-+-+-+">&quot;All this is when he comes.&quot;  She ceased;</l>
+        <l n="142" real="xxxxxx" met="-+-+-+">The light thrilled past her, filled</l>
+        <l n="143" real="x+-xx+-x" met="-+-+-+-+">With Angels, in strong level lapse.</l>
+        <l n="144" real="xxxxxx" met="-+-+-+">Her eyes prayed, and she smiled.</l>
+      </lg>
+      <lg type="stanza" n="25" rhyme="-a---a">
+        <l n="145" real="xxxxxxxx" met="-+-+-+-+">(I saw her smile.)  But soon their flight</l>
+        <l n="146" real="xxxxxx" met="-+-+-+">Was vague &#x27;mid the poised spheres.</l>
+        <l n="147" real="xxxxxx-+" met="-+-+-+-+">And then she cast her arms along</l>
+        <l n="148" real="x+-+--" met="-+-+-+">The golden barriers,</l>
+        <l n="149" real="xxxxxxxx" met="-+-+-+-+">And laid her face between her hands,</l>
+        <l n="150" real="xxxxxx" met="-+-+-+">And wept (I heard her tears).</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="edited-by-frederic-chapman" n="L23553">
+      <head>Edited by Frederic Chapman</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-blessed-damozel.pg52695:edited-by-frederic-chapman</idno><idno type="laurel-id">L23553</idno>
+      <lg type="stanza" n="1" rhyme="aa">
+        <l n="1" real="xxxxxxxx">Price 1/6 net Bound in Cloth Price 50 cents net</l>
+        <l n="2" real="xxxx+-xxx">Price 2/- net Bound in Leather Price 75 cents net</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="xxxx+-x+-">Vol. I.  THE LOVE POEMS OF SHELLEY</l>
+        <l n="4" real="xxxx+-x+-">Vol. II.  THE LOVE POEMS OF BROWNING</l>
+        <l n="5" real="xxx+-xx">Vol. III.  THE SILENCE OF LOVE</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="under-the-general-editorship-of-f-b-money-coutts" n="L23554">
+      <head>Under the General Editorship of F. B. Money-Coutts</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-blessed-damozel.pg52695:under-the-general-editorship-of-f-b-money-coutts</idno><idno type="laurel-id">L23554</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-xxxx+-+-x+-+-">Vol. I.  Gray&#x27;s Elegy and Ode on a Distant Prospect of Eton College.</l>
+        <l n="2" real="xxx-+-xxxxxx">With Twelve Illustrations by J. T. Friedenson.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="xxx+xxxxx+-+-xx">Vol. II.  The Statue and the Bust.  By Robert Browning.  With Nine</l>
+        <l n="4" real="x-+-x+-xx">Illustrations by Philip Connard.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="5" real="xxxxxx+-+-x+x-+-x">Vol. III.  Marpessa.  By Stephen Phillips.  With Seven Illustrations by</l>
+        <l n="6" real="+-xx">Philip Connard.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="7" real="xxxxxxx+-+--+-xx">IV.  The Blessed Damozel.  By Dante Gabriel Rossetti. With Eight</l>
+        <l n="8" real="x-+-x+-xx">Illustrations by Percy Bulcock.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="9" real="xxxxxxxx+-xxx+-xx">Vol. V.  The Nut-Brown Maid.  A New Version by F. B. Money-Coutts. With</l>
+        <l n="10" real="xx-+-x+-x">Nine Illustrations by Herbert Cole.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="11" real="xxxxxx+-x+-+-x">Vol. VI.  A Dream of Fair Women.  By Alfred Tennyson.  With</l>
+        <l n="12" real="x-+-">Illustrations.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="13" real="xxx-+xxx+-xxx+-xx">Vol. VIII.  A Ballade upon a Wedding.  By Sir John Suckling. With Nine</l>
+        <l n="14" real="x-+-x+-x">Illustrations by Herbert Cole.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

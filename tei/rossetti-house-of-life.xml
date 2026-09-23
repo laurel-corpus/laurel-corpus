@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The House of Life</title><author>Dante Gabriel Rossetti</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The House of Life. Project Gutenberg ebook #3692. <ref target="https://www.gutenberg.org/ebooks/3692">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="introductory-sonnet" n="L20919">
+      <head>Introductory Sonnet</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:introductory-sonnet</idno><idno type="laurel-id">L20919</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--abb-ab">
+        <l n="1" real="x+-xx+-+--" met="-+-+-+-+-+">A Sonnet is a moment&#x27;s monument,--</l>
+        <l n="2" real="-+--xxx-+--" met="-+-+-+-+-+-">Memorial from the Soul&#x27;s eternity</l>
+        <l n="3" real="xxx+-+xxxx" met="-+-+-+-+-+">To one dead deathless hour. Look that it be,</l>
+        <l n="4" real="xxx+-xxx+-" met="-+-+-+-+-+">Whether for lustral rite or dire portent,</l>
+        <l n="5" real="xxx+--+-+--" met="-+-+-+-+-+-">Of its own arduous fulness reverent:</l>
+        <l n="6" real="xxx+--xx+--" met="-+-+-+-+-+-">Carve it in ivory or in ebony,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">As Day or Night may rule; and let Time see</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">Its flowering crest impearled and orient.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="x+-xxxxx-+" met="-+-+-+-+-+">A Sonnet is a coin: its face reveals</l>
+        <l n="10" real="xxx+-xx+xx" met="-+-+-+-+-+">The soul,--its converse, to what Power &#x27;tis due:--</l>
+        <l n="11" real="xxx+-xx+--+" met="-+-+-+-+-+-">Whether for tribute to the august appeals</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Of Life, or dower in Love&#x27;s high retinue,</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">It serve; or, &#x27;mid the dark wharf&#x27;s cavernous breath,</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">In Charon&#x27;s palm it pay the toll to Death.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-enthroned" n="L20920">
+      <head>Love Enthroned</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-enthroned</idno><idno type="laurel-id">L20920</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxx+-+xxxx" met="-+-+-+-+-+">I marked all kindred Powers the heart finds fair:--</l>
+        <l n="2" real="xxxxxxxx+-" met="-+-+-+-+-+">Truth, with awed lips; and Hope, with eyes upcast;</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">And Fame, whose loud wings fan the ashen Past</l>
+        <l n="4" real="x+-+-+-xxx" met="-+-+-+-+-+">To signal-fires, Oblivion&#x27;s flight to scare;</l>
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">And Youth, with still some single golden hair</l>
+        <l n="6" real="xxx+-+-xxx" met="-+-+-+-+-+">Unto his shoulder clinging, since the last</l>
+        <l n="7" real="-+xxxxxxxx" met="-+-+-+-+-+">Embrace wherein two sweet arms held him fast;</l>
+        <l n="8" real="xxx+-+xxxx" met="-+-+-+-+-+">And Life, still wreathing flowers for Death to wear.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Love&#x27;s throne was not with these; but far above</l>
+        <l n="10" real="x+-xx+-xx+" met="-+-+-+-+-+">All passionate wind of welcome and farewell</l>
+        <l n="11" real="xxx+-+xxxx" met="-+-+-+-+-+">He sat in breathless bowers they dream not of;</l>
+        <l n="12" real="xx-+xxxx-+" met="-+-+-+-+-+">Though Truth foreknow Love&#x27;s heart, and Hope foretell,</l>
+        <l n="13" real="xxxxxx-+--" met="-+-+-+-+-+">And Fame be for Love&#x27;s sake desirable,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">And Youth be dear, and Life be sweet to Love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="bridal-birth" n="L20921">
+      <head>Bridal Birth</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:bridal-birth</idno><idno type="laurel-id">L20921</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xx-+x+-xxx" met="-+-+-+-+-+">As when desire, long darkling, dawns, and first</l>
+        <l n="2" real="x+-xxxxxxx" met="-+-+-+-+-+">The mother looks upon the new-born child,</l>
+        <l n="3" real="+xx+-xxxxx" met="-+-+-+-+-+">Even so my Lady stood at gaze and smiled</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">When her soul knew at length the Love it nursed.</l>
+        <l n="5" real="xxxx+-x+-x" met="-+-+-+-+-+">Born with her life, creature of poignant thirst</l>
+        <l n="6" real="x+-+-xxxxx" met="-+-+-+-+-+">And exquisite hunger, at her heart Love lay</l>
+        <l n="7" real="+-x+-xxxxx" met="-+-+-+-+-+">Quickening in darkness, till a voice that day</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Cried on him, and the bonds of birth were burst.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="x+-xxx++-x" met="-+-+-+-+-+">Now, shielded in his wings, our faces yearn</l>
+        <l n="10" real="-+-xx+-xxx" met="-+-+-+-+-+">Together, as his fullgrown feet now range</l>
+        <l n="11" real="xxxxxx+x-+" met="-+-+-+-+-+">The grove, and his warm hands our couch prepare:</l>
+        <l n="12" real="xxxx++--xxx" met="-+-+-+-+-+-">Till to his song our bodiless souls in turn</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">Be born his children, when Death&#x27;s nuptial change</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">Leaves us for light the halo of his hair.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="redemption" n="L20922">
+      <head>Redemption</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:redemption</idno><idno type="laurel-id">L20922</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aab-aab">
+        <l n="1" real="xxxxx+--+--" met="-+-+-+-+-+-">O Thou who at Love&#x27;s hour ecstatically</l>
+        <l n="2" real="xxxxx+-x-+" met="-+-+-+-+-+">Unto my lips dost evermore present</l>
+        <l n="3" real="x+-xxxxx+--" met="-+-+-+-+-+-">The body and blood of Love in sacrament;</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Whom I have neared and felt thy breath to be</l>
+        <l n="5" real="x+-+xxx+-x-" met="-+-+-+-+-+-">The inmost incense of his sanctuary;</l>
+        <l n="6" real="xxxxxxxx-+" met="-+-+-+-+-+">Who without speech hast owned him, and intent</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Upon his will, thy life with mine hast blent,</l>
+        <l n="8" real="x+-xxx-+-x" met="-+-+-+-+-+">And murmured o&#x27;er the cup, Remember me!--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">O what from thee the grace, for me the prize,</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">And what to Love the glory,--when the whole</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Of the deep stair thou tread&#x27;st to the dim shoal</l>
+        <l n="12" real="x+-+-xxxxx" met="-+-+-+-+-+">And weary water of the place of sighs,</l>
+        <l n="13" real="xxxx-+-xxx" met="-+-+-+-+-+">And there dost work deliverance, as thine eyes</l>
+        <l n="14" real="xxx+-+-xxx" met="-+-+-+-+-+">Draw up my prisoned spirit to thy soul!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lovesight" n="L20923">
+      <head>Lovesight</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:lovesight</idno><idno type="laurel-id">L20923</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aabbaab">
+        <l n="1" real="xxxxxx-+-x" met="-+-+-+-+-+">When do I see thee most, beloved one?</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">When in the light the spirits of mine eyes</l>
+        <l n="3" real="xxxxx+-+--" met="-+-+-+-+-+">Before thy face, their altar, solemnize</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">The worship of that Love through thee made known?</l>
+        <l n="5" real="xxxxx+xx-+" met="-+-+-+-+-+">Or when in the dusk hours, (we two alone,)</l>
+        <l n="6" real="xxx+--xx-+" met="-+-+-+-+-+">Close-kissed and eloquent of still replies</l>
+        <l n="7" real="x+x+-+-+-x" met="-+-+-+-+-+">Thy twilight-hidden glimmering visage lies,</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">And my soul only sees thy soul its own?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">O love, my love! if I no more should see</l>
+        <l n="10" real="-+xxxxx+xxx" met="-+-+-+-+-+-">Thyself, nor on the earth the shadow of thee,</l>
+        <l n="11" real="x+-xxxx+-x" met="-+-+-+-+-+">Nor image of thine eyes in any spring,--</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">How then should sound upon Life&#x27;s darkening slope</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">The ground-whirl of the perished leaves of Hope,</l>
+        <l n="14" real="xxxx-+---x" met="-+-+-+-+-+">The wind of Death&#x27;s imperishable wing?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="heart-s-hope" n="L20924">
+      <head>Heart&#x27;s Hope</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:heart-s-hope</idno><idno type="laurel-id">L20924</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxx+xxxxxx" met="-+-+-+-+-+">By what word&#x27;s power, the key of paths untrod,</l>
+        <l n="2" real="xxx+-xxx-+" met="-+-+-+-+-+">Shall I the difficult deeps of Love explore,</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">Till parted waves of Song yield up the shore</l>
+        <l n="4" real="+xxxx+-xxx" met="-+-+-+-+-+">Even as that sea which Israel crossed dry-shod?</l>
+        <l n="5" real="xxxxx+-+--" met="-+-+-+-+-+">For lo! in some poor rhythmic period,</l>
+        <l n="6" real="+-xxxxx+-x" met="-+-+-+-+-+">Lady, I fain would tell how evermore</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Thy soul I know not from thy body, nor</l>
+        <l n="8" real="xxx++-+xxx" met="-+-+-+-+-+">Thee from myself, neither our love from God.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Yea, in God&#x27;s name, and Love&#x27;s, and thine, would I</l>
+        <l n="10" real="xxx+-xx+--" met="-+-+-+-+-+">Draw from one loving heart such evidence</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">As to all hearts all things shall signify;</l>
+        <l n="12" real="+-xxxx+x-+" met="-+-+-+-+-+">Tender as dawn&#x27;s first hill-fire, and intense</l>
+        <l n="13" real="xx-+-+-x-x" met="-+-+-+-+-+">As instantaneous penetrating sense,</l>
+        <l n="14" real="xxx+x+-xxx" met="-+-+-+-+-+">In Spring&#x27;s birth-hour, of other Springs gone by.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-kiss" n="L20925">
+      <head>The Kiss</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-kiss</idno><idno type="laurel-id">L20925</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxx+-xxx-+" met="-+-+-+-+-+-">What smouldering senses in death&#x27;s sick delay</l>
+        <l n="2" real="x+-x-+x+--" met="-+-+-+-+-+">Or seizure of malign vicissitude</l>
+        <l n="3" real="xxx+-x+-x-+" met="-+-+-+-+-+-">Can rob this body of honour, or denude</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">This soul of wedding-raiment worn to-day?</l>
+        <l n="5" real="xx+xx+-xxx" met="-+-+-+-+-+">For lo! even now my lady&#x27;s lips did play</l>
+        <l n="6" real="xxxxx+-+-x" met="-+-+-+-+-+">With these my lips such consonant interlude</l>
+        <l n="7" real="x+-+-xxxxx" met="-+-+-+-+-+">As laurelled Orpheus longed for when he wooed</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">The half-drawn hungering face with that last lay.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaa-">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">I was a child beneath her touch,--a man</l>
+        <l n="10" real="xxxxxx+xxx" met="-+-+-+-+-+">When breast to breast we clung, even I and she,--</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">A spirit when her spirit looked through me,--</l>
+        <l n="12" real="xxxx+xxxxx" met="-+-+-+-+-+">A god when all our life-breath met to fan</l>
+        <l n="13" real="+xxxx+--+-x" met="-+-+-+-+-+-">Our life-blood, till love&#x27;s emulous ardours ran,</l>
+        <l n="14" real="+xx+-+-x+--" met="-+-+-+-+-+-">Fire within fire, desire in deity.*</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="nuptial-sleep" n="L20926">
+      <head>Nuptial Sleep</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:nuptial-sleep</idno><idno type="laurel-id">L20926</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">At length their long kiss severed, with sweet smart:</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">And as the last slow sudden drops are shed</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">From sparkling eaves when all the storm has fled,</l>
+        <l n="4" real="x+-xx+-xxx" met="-+-+-+-+-+">So singly flagged the pulses of each heart.</l>
+        <l n="5" real="x+-+-xx+-x" met="-+-+-+-+-+">Their bosoms sundered, with the opening start</l>
+        <l n="6" real="x+-+x+-x-+" met="-+-+-+-+-+">Of married flowers to either side outspread</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">From the knit stem; yet still their mouths, burnt red,</l>
+        <l n="8" real="xxx+-xxx-+" met="-+-+-+-+-+">Fawned on each other where they lay apart.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababab">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">Sleep sank them lower than the tide of dreams,</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">And their dreams watched them sink, and slid away.</l>
+        <l n="11" real="+-xxxx-+xx" met="-+-+-+-+-+">Slowly their souls swam up again, through gleams</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">Of watered light and dull drowned waifs of day;</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">Till from some wonder of new woods and streams</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">He woke, and wondered more: for there she lay.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="supreme-surrender" n="L20927">
+      <head>Supreme Surrender</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:supreme-surrender</idno><idno type="laurel-id">L20927</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxx+-xxx+-x" met="-+-+-+-+-+-">O all the spirits of love that wander by</l>
+        <l n="2" real="-+xxxxxxxx" met="-+-+-+-+-+">Along the love-sown fallowfield of sleep</l>
+        <l n="3" real="x+-x-+-xxx" met="-+-+-+-+-+">My lady lies apparent; and the deep</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Calls to the deep; and no man sees but I.</l>
+        <l n="5" real="xxxx-+xxxx" met="-+-+-+-+-+">The bliss so long afar, at length so nigh,</l>
+        <l n="6" real="xx-+-+xxxx" met="-+-+-+-+-+">Rests there attained. Methinks proud Love must weep</l>
+        <l n="7" real="xx-+xxx+-x" met="-+-+-+-+-+">When Fate&#x27;s control doth from his harvest reap</l>
+        <l n="8" real="x+-+xxxxxx" met="-+-+-+-+-+">The sacred hour for which the years did sigh.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aabba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">First touched, the hand now warm around my neck</l>
+        <l n="10" real="x+-xxx-+xx" met="-+-+-+-+-+">Taught memory long to mock desire: and lo!</l>
+        <l n="11" real="-+xxx-+-xxx" met="-+-+-+-+-+-">Across my breast the abandoned hair doth flow,</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Where one shorn tress long stirred the longing ache:</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">And next the heart that trembled for its sake</l>
+        <l n="14" real="xxxxx+-+-x" met="-+-+-+-+-+">Lies the queen-heart in sovereign overthrow.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-s-lovers" n="L20928">
+      <head>Love&#x27;s Lovers</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-s-lovers</idno><idno type="laurel-id">L20928</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xx+-xxx" met="-+-+-+-+-+">Some ladies love the jewels in Love&#x27;s zone</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">And gold-tipped darts he hath for painless play</l>
+        <l n="3" real="x+-+-+xx-+" met="-+-+-+-+-+">In idle scornful hours he flings away;</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">And some that listen to his lure&#x27;s soft tone</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">Do love to deem the silver praise their own;</l>
+        <l n="6" real="xxx+xxxxxx" met="-+-+-+-+-+">Some prize his blindfold sight; and there be they</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Who kissed his wings which brought him yesterday</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">And thank his wings to-day that he is flown.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaa-">
+        <l n="9" real="x+-+-xxxxx" met="-+-+-+-+-+">My lady only loves the heart of Love:</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Therefore Love&#x27;s heart, my lady, hath for thee</l>
+        <l n="11" real="x+xx-+-+xx" met="-+-+-+-+-+">His bower of unimagined flower and tree:</l>
+        <l n="12" real="xxxxxx-+-x" met="-+-+-+-+-+">There kneels he now, and all-anhungered of</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">Thine eyes grey-lit in shadowing hair above,</l>
+        <l n="14" real="xxxxxx-+--" met="-+-+-+-+-+">Seals with thy mouth his immortality.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="passion-and-worship" n="L20929">
+      <head>Passion and Worship</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:passion-and-worship</idno><idno type="laurel-id">L20929</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aabbaab">
+        <l n="1" real="xxxxxxxx+-" met="-+-+-+-+-+">One flame-winged brought a white-winged harp-player</l>
+        <l n="2" real="+xx+-xxxx-+" met="-+-+-+-+-+-">Even where my lady and I lay all alone;</l>
+        <l n="3" real="+--+x+-x-+" met="-+-+-+-+-+">Saying: &#x27;Behold, this minstrel is unknown;</l>
+        <l n="4" real="xx-+xxx+-x" met="-+-+-+-+-+">Bid him depart, for I am minstrel here:</l>
+        <l n="5" real="+-xxxxxxxx" met="-+-+-+-+-+">Only my strains are to Love&#x27;s dear ones, dear.&#x27;</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Then said I: &#x27;Through thine hautboy&#x27;s rapturous tone</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">Unto my lady still this harp makes moan,</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">And still she deems the cadence deep and clear.&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abb-a-">
+        <l n="9" real="xxx+-xx+-xx" met="-+-+-+-+-+-">Then said my lady: &#x27;Thou art Passion of Love,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">And this Love&#x27;s Worship: both he plights to me.</l>
+        <l n="11" real="x+-+-xx+xx" met="-+-+-+-+-+">Thy mastering music walks the sunlit sea:</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">But where wan water trembles in the grove</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">And the wan moon is all the light thereof,</l>
+        <l n="14" real="xxxxxxx+---" met="-+-+-+-+-+-">This harp still makes my name its voluntary.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-portrait" n="L20930">
+      <head>The Portrait</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-portrait</idno><idno type="laurel-id">L20930</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxx-+---+" met="-+-+-+-+-+">O Lord of all compassionate control,</l>
+        <l n="2" real="xxxxx+-+-x" met="-+-+-+-+-+">O Love! let this my lady&#x27;s picture glow</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Under my hand to praise her name, and show</l>
+        <l n="4" real="+xx+-xx+xx" met="-+-+-+-+-+">Even of her inner self the perfect whole:</l>
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">That he who seeks her beauty&#x27;s furthest goal,</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Beyond the light that the sweet glances throw</l>
+        <l n="7" real="x+--xxxxxxx" met="-+-+-+-+-+-">And refluent wave of the sweet smile, may know</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">The very sky and sea-line of her soul.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Lo! it is done. Above the long lithe throat</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">The mouth&#x27;s mould testifies of voice and kiss,</l>
+        <l n="11" real="x+-x-+-x-+" met="-+-+-+-+-+">The shadowed eyes remember and foresee.</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Her face is made her shrine. Let all men note</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">That in all years (O Love, thy gift is this!)</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">They that would look on her must come to me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-love-letter" n="L20931">
+      <head>The Love-Letter</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-love-letter</idno><idno type="laurel-id">L20931</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ab-aabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Warmed by her hand and shadowed by her hair</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">As close she leaned and poured her heart through thee,</l>
+        <l n="3" real="xxx-+--x-+-" met="-+-+-+-+-+-">Whereof the articulate throbs accompany</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">The smooth black stream that makes thy whiteness fair,--</l>
+        <l n="5" real="x+-x+xxx-+" met="-+-+-+-+-+">Sweet fluttering sheet, even of her breath aware,--</l>
+        <l n="6" real="xxx+-x-+xx" met="-+-+-+-+-+">Oh let thy silent song disclose to me</l>
+        <l n="7" real="xx-+xxxx-+" met="-+-+-+-+-+">That soul wherewith her lips and eyes agree</l>
+        <l n="8" real="x+-+-xx+-x" met="-+-+-+-+-+">Like married music in Love&#x27;s answering air.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Fain had I watched her when, at some fond thought,</l>
+        <l n="10" real="x+-xx+-xxxx" met="-+-+-+-+-+-">Her bosom to the writing closelier press&#x27;d,</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">And her breast&#x27;s secrets peered into her breast;</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">When, through eyes raised an instant, her soul sought</l>
+        <l n="13" real="xxxxx+-+-x" met="-+-+-+-+-+">My soul, and from the sudden confluence caught</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">The words that made her love the loveliest.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lovers-walk" n="L20932">
+      <head>The Lovers&#x27; Walk</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-lovers-walk</idno><idno type="laurel-id">L20932</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xxxxxxxxx" met="--+-+-+-+-+-">Sweet twining hedgeflowers wind-stirred in no wise</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">On this June day; and hand that clings in hand:--</l>
+        <l n="3" real="xxx+-+-+-x" met="-+-+-+-+-+">Still glades; and meeting faces scarcely fann&#x27;d:--</l>
+        <l n="4" real="x+-+-xxxxx" met="-+-+-+-+-+">An osier-odoured stream that draws the skies</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">Deep to its heart; and mirrored eyes in eyes:--</l>
+        <l n="6" real="x+-+-xx+-x" met="-+-+-+-+-+">Fresh hourly wonder o&#x27;er the Summer land</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Of light and cloud; and two souls softly spann&#x27;d</l>
+        <l n="8" real="xxxxx+xxxx" met="-+-+-+-+-+">With one o&#x27;erarching heaven of smiles and sighs:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--abba">
+        <l n="9" real="+xxxx+-xxx" met="-+-+-+-+-+">Even such their path, whose bodies lean unto</l>
+        <l n="10" real="x+-+-+-+---" met="-+-+-+-+-+-">Each other&#x27;s visible sweetness amorously,--</l>
+        <l n="11" real="x+-xxxxx-+" met="-+-+-+-+-+">Whose passionate hearts lean by Love&#x27;s high decree</l>
+        <l n="12" real="-+-xxxx+-x" met="-+-+-+-+-+">Together on his heart for ever true,</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">As the cloud-foaming firmamental blue</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">Rests on the blue line of a foamless sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="antiphony" n="L20933">
+      <head>Antiphony</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:antiphony</idno><idno type="laurel-id">L20933</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">&#x27;I love you, sweet: how can you ever learn</l>
+        <l n="2" real="xxxxxxxx+x" met="-+-+-+-+-+">How much I love you?&#x27; &#x27;You I love even so,</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">And so I learn it.&#x27; &#x27;Sweet, you cannot know</l>
+        <l n="4" real="xxxxxx-+xx" met="-+-+-+-+-+">How fair you are.&#x27; &#x27;If fair enough to earn</l>
+        <l n="5" real="xxxxxxxx-+" met="-+-+-+-+-+">Your love, so much is all my love&#x27;s concern.&#x27;</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">&#x27;My love grows hourly, sweet.&#x27; &#x27;Mine too doth grow,</l>
+        <l n="7" real="xxxxx++--+" met="-+-+-+-+-+">Yet love seemed full so many hours ago!&#x27;</l>
+        <l n="8" real="x+-xx+-xxx" met="-+-+-+-+-+">Thus lovers speak, till kisses claim their turn.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">Ah! happy they to whom such words as these</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">In youth have served for speech the whole day long,</l>
+        <l n="11" real="+xx+-+xxxx" met="-+-+-+-+-+">Hour after hour, remote from the world&#x27;s throng,</l>
+        <l n="12" real="x+-xxx-+-x" met="-+-+-+-+-+">Work, contest, fame, all life&#x27;s confederate pleas,--</l>
+        <l n="13" real="xxxxxxx+--" met="-+-+-+-+-+">What while Love breathed in sighs and silences</l>
+        <l n="14" real="xxxxx+--+--" met="-+-+-+-+-+-">Through two blent souls one rapturous undersong.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="youth-s-spring-tribute" n="L20934">
+      <head>Youth&#x27;s Spring-Tribute</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:youth-s-spring-tribute</idno><idno type="laurel-id">L20934</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">On this sweet bank your head thrice sweet and dear</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">I lay, and spread your hair on either side,</l>
+        <l n="3" real="xxx+-x++-x" met="-+-+-+-+-+">And see the newborn wood flowers bashful-eyed</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">Look through the golden tresses here and there.</l>
+        <l n="5" real="xxxxxx+-xxx" met="-+-+-+-+-+-">On these debateable borders of the year</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">Spring&#x27;s foot half falters; scarce she yet may know</l>
+        <l n="7" real="x+-+-+-xxx" met="-+-+-+-+-+">The leafless blackthorn-blossom from the snow;</l>
+        <l n="8" real="xxx+xxxxxx" met="-+-+-+-+-+">And through her bowers the wind&#x27;s way still is clear.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-a">
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">But April&#x27;s sun strikes down the glades to-day;</l>
+        <l n="10" real="xxxx-+xxxx" met="-+-+-+-+-+">So shut your eyes upturned, and feel my kiss</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Creep, as the Spring now thrills through every spray,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Up your warm throat to your warm lips: for this</l>
+        <l n="13" real="x+x+xxxxxx" met="-+-+-+-+-+">Is even the hour of Love&#x27;s sworn suitservice,</l>
+        <l n="14" real="xxxxx+-+-x" met="-+-+-+-+-+">With whom cold hearts are counted castaway.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-birth-bond" n="L20935">
+      <head>The Birth-Bond</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-birth-bond</idno><idno type="laurel-id">L20935</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aabbcc-">
+        <l n="1" real="xxx+-xx+--" met="-+-+-+-+-+">Have you not noted, in some family</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Where two were born of a first marriage-bed,</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">How still they own their gracious bond, though fed</l>
+        <l n="4" real="xxxx-+-xxx" met="-+-+-+-+-+">And nursed on the forgotten breast and knee?--</l>
+        <l n="5" real="xxx+-+-xxx" met="-+-+-+-+-+">How to their father&#x27;s children they shall be</l>
+        <l n="6" real="xxxxxx++xx" met="-+-+-+-+-+">In act and thought of one goodwill; but each</l>
+        <l n="7" real="xxx+-xx+-x" met="-+-+-+-+-+">Shall for the other have, in silence speech,</l>
+        <l n="8" real="xxxx-+-+--" met="-+-+-+-+-+">And in a word complete community?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababb-">
+        <l n="9" real="+xxxxxxxxx" met="-+-+-+-+-+">Even so, when first I saw you, seemed it, love,</l>
+        <l n="10" real="xxxx-+xxxx" met="-+-+-+-+-+">That among souls allied to mine was yet</l>
+        <l n="11" real="x+-+-xx+-x" met="-+-+-+-+-+">One nearer kindred than life hinted of.</l>
+        <l n="12" real="xxxx+xxx-+" met="-+-+-+-+-+">O born with me somewhere that men forget,</l>
+        <l n="13" real="xxxxxxxx-+" met="-+-+-+-+-+">And though in years of sight and sound unmet,</l>
+        <l n="14" real="xxxxx+-x-+" met="-+-+-+-+-+">Known for my soul&#x27;s birth-partner well enough!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-day-of-love" n="L20936">
+      <head>A Day of Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:a-day-of-love</idno><idno type="laurel-id">L20936</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="x+-+-xxxxx" met="-+-+-+-+-+">Those envied places which do know her well,</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">And are so scornful of this lonely place,</l>
+        <l n="3" real="+xxxx+-xxx" met="-+-+-+-+-+">Even now for once are emptied of her grace:</l>
+        <l n="4" real="+xxxxxxxxx" met="-+-+-+-+-+">Nowhere but here she is: and while Love&#x27;s spell</l>
+        <l n="5" real="xx-+-+-x-+" met="-+-+-+-+-+">From his predominant presence doth compel</l>
+        <l n="6" real="x+--+xxx+--" met="-+-+-+-+-+-">All alien hours, an outworn populace,</l>
+        <l n="7" real="x+xxxxx+-x" met="-+-+-+-+-+">The hours of Love fill full the echoing space</l>
+        <l n="8" real="xx-+-+-xxxx" met="-+-+-+-+-+-">With sweet confederate music favourable.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaba">
+        <l n="9" real="x+-+--x-+--" met="-+-+-+-+-+-">Now many memories make solicitous</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">The delicate love-lines of her mouth, till, lit</l>
+        <l n="11" real="x+-+xxxxxx" met="-+-+-+-+-+">With quivering fire, the words take wing from it;</l>
+        <l n="12" real="xxxx++-xxx" met="-+-+-+-+-+">As here between our kisses we sit thus</l>
+        <l n="13" real="+-xx-+-xxx" met="-+-+-+-+-+">Speaking of things remembered, and so sit</l>
+        <l n="14" real="+-xx-+-xxx" met="-+-+-+-+-+">Speechless while things forgotten call to us.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="beauty-s-pageant" n="L20937">
+      <head>Beauty&#x27;s Pageant</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:beauty-s-pageant</idno><idno type="laurel-id">L20937</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xxxxxxx+xx" met="-+-+-+-+-+">What dawn-pulse at the heart of heaven, or last</l>
+        <l n="2" real="-+-+x+-x-x" met="-+-+-+-+-+">Incarnate flower of culminating day,--</l>
+        <l n="3" real="x+-+-xxxxx" met="-+-+-+-+-+">What marshalled marvels on the skirts of May,</l>
+        <l n="4" real="xxxxxx-+--" met="-+-+-+-+-+">Or song full-quired, sweet June&#x27;s encomiast;</l>
+        <l n="5" real="x+-xxx+-x-+" met="-+-+-+-+-+-">What glory of change by nature&#x27;s hand amass&#x27;d</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Can vie with all those moods of varying grace</l>
+        <l n="7" real="xxxxxx+-xxx" met="-+-+-+-+-+-">Which o&#x27;er one loveliest woman&#x27;s form and face</l>
+        <l n="8" real="xxx+xxxxxx" met="-+-+-+-+-+">Within this hour, within this room, have pass&#x27;d?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--aa-">
+        <l n="9" real="x+-+-x-+-+" met="-+-+-+-+-+">Love&#x27;s very vesture and elect disguise</l>
+        <l n="10" real="xxx+-+-x-+" met="-+-+-+-+-+">Was each fine movement,--wonder new-begot</l>
+        <l n="11" real="x+-xxxxx+--" met="-+-+-+-+-+-">Of lily or swan or swan-stemmed galiot;</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Joy to his sight who now the sadlier sighs,</l>
+        <l n="13" real="+--+x+-xxx" met="-+-+-+-+-+">Parted again; and sorrow yet for eyes</l>
+        <l n="14" real="++xxxxxxxx" met="-+-+-+-+-+">Unborn that read these words and saw her not.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="genius-in-beauty" n="L20938">
+      <head>Genius in Beauty</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:genius-in-beauty</idno><idno type="laurel-id">L20938</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa--a">
+        <l n="1" real="+-xxx+-xxx" met="-+-+-+-+-+">Beauty like hers is genius. Not the call</l>
+        <l n="2" real="x+-xx+-x-+" met="-+-+-+-+-+">Of Homer&#x27;s or of Dante&#x27;s heart sublime,--</l>
+        <l n="3" real="x+-x+-xxxx" met="-+-+-+-+-+">Not Michael&#x27;s hand furrowing the zones of time,--</l>
+        <l n="4" real="xxx+-+--+--" met="-+-+-+-+-+-">Is more with compassed mysteries musical;</l>
+        <l n="5" real="xxxxx+-x+x" met="-+-+-+-+-+">Nay, not in Spring&#x27;s or Summer&#x27;s sweet footfall</l>
+        <l n="6" real="x+-x-+-x-+" met="-+-+-+-+-+">More gathered gifts exuberant Life bequeathes</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">Than doth this sovereign face, whose love-spell breathes</l>
+        <l n="8" real="+xx+-+xxxx" met="-+-+-+-+-+">Even from its shadowed contour on the wall.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">As many men are poets in their youth,</l>
+        <l n="10" real="xxxxxxx+-+" met="-+-+-+-+-+">But for one sweet-strung soul the wires prolong</l>
+        <l n="11" real="+xxxx-+--x" met="-+-+-+-+-+">Even through all change the indomitable song;</l>
+        <l n="12" real="xx+xxxxxxxx" met="-+-+-+-+-+-">So in likewise the envenomed years, whose tooth</l>
+        <l n="13" real="x+--xx+xxx" met="-+-+-+-+-+">Rends shallower grace with ruin void of ruth,</l>
+        <l n="14" real="xxx+-+xxxx" met="-+-+-+-+-+">Upon this beauty&#x27;s power shall wreak no wrong.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="silent-noon" n="L20939">
+      <head>Silent Noon</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:silent-noon</idno><idno type="laurel-id">L20939</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">Your hands lie open in the long fresh grass,--</l>
+        <l n="2" real="x+-xxxx+-x" met="-+-+-+-+-+">The finger-points look through the rosy blooms:</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Your eyes smile peace. The pasture gleams and glooms</l>
+        <l n="4" real="x+-xx+-x-+" met="-+-+-+-+-+">&#x27;Neath billowing skies that scatter and amass.</l>
+        <l n="5" real="xx+xxxxxxx" met="-+-+-+-+-+">All round our nest, far as the eye can pass,</l>
+        <l n="6" real="x+-+-xx+-x" met="-+-+-+-+-+">Are golden kingcup-fields with silver edge</l>
+        <l n="7" real="xxx+-xx+xx" met="-+-+-+-+-+">Where the cow-parsley skirts the hawthorn-hedge.</l>
+        <l n="8" real="x+-+-xxx+x" met="-+-+-+-+-+">&#x27;Tis visible silence, still as the hour-glass.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">Deep in the sun-searched growths the dragon-fly</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Hangs like a blue thread loosened from the sky:</l>
+        <l n="11" real="xxx+xxxxxxx" met="-+-+-+-+-+-">So this wing&#x27;d hour is dropt to us from above.</l>
+        <l n="12" real="xxxx+xx+-x" met="-+-+-+-+-+">Oh! clasp we to our hearts, for deathless dower,</l>
+        <l n="13" real="xx-+---+-+" met="-+-+-+-+-+">This close-companioned inarticulate hour</l>
+        <l n="14" real="x+++-xxxxx" met="-+-+-+-+-+">When twofold silence was the song of love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="gracious-moonlight" n="L20940">
+      <head>Gracious Moonlight</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:gracious-moonlight</idno><idno type="laurel-id">L20940</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="+xxxxxxxxx" met="-+-+-+-+-+">Even as the moon grows queenlier in mid-space</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">When the sky darkens, and her cloud-rapt car</l>
+        <l n="3" real="xxxxx+-x-+" met="-+-+-+-+-+">Thrills with intenser radiance from afar,--</l>
+        <l n="4" real="x+-+-xx+-x" met="-+-+-+-+-+">So lambent, lady, beams thy sovereign grace</l>
+        <l n="5" real="xxxx-+xxxx" met="-+-+-+-+-+">When the drear soul desires thee. Of that face</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">What shall be said,--which, like a governing star,</l>
+        <l n="7" real="+-x+-xxxxx" met="-+-+-+-+-+">Gathers and garners from all things that are</l>
+        <l n="8" real="x+-+---+--" met="-+-+-+-+-+">Their silent penetrative loveliness?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="x+-+-xxxxx" met="-+-+-+-+-+">O&#x27;er water-daisies and wild waifs of Spring,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">There where the iris rears its gold-crowned sheaf</l>
+        <l n="11" real="x+-xx+-+-x" met="-+-+-+-+-+">With flowering rush and sceptred arrow-leaf,</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">So have I marked Queen Dian, in bright ring</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Of cloud above and wave below, take wing</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">And chase night&#x27;s gloom, as thou the spirit&#x27;s grief.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-sweetness" n="L20941">
+      <head>Love-Sweetness</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-sweetness</idno><idno type="laurel-id">L20941</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xx+-x+x" met="-+-+-+-+-+">Sweet dimness of her loosened hair&#x27;s downfall</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">About thy face; her sweet hands round thy head</l>
+        <l n="3" real="x+-+--+-+--" met="-+-+-+-+-+-">In gracious fostering union garlanded,</l>
+        <l n="4" real="x+-xx+-x-+" met="-+-+-+-+-+">Her tremulous smiles, her glances&#x27; sweet recall</l>
+        <l n="5" real="xxx+--x-+--" met="-+-+-+-+-+-">Of love; her murmuring sighs memorial;</l>
+        <l n="6" real="xxx+-xx+-x" met="-+-+-+-+-+">Her mouth&#x27;s culled sweetness by thy kisses shed</l>
+        <l n="7" real="xxxxx+xxxx" met="-+-+-+-+-+">On cheeks and neck and eyelids, and so led</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">Back to her mouth which answers there for all:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">What sweeter than these things, except the thing</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">In lacking which all these would lose their sweet:--</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">The confident heart&#x27;s still fervour: the swift beat</l>
+        <l n="12" real="xx-+-xx+-x" met="-+-+-+-+-+">And soft subsidence of the spirit&#x27;s wing,</l>
+        <l n="13" real="xxxxxxx+-" met="+-+-+-+-+">Then when it feels, in cloud--girt wayfaring,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">The breath of kindred plumes against its feet?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="heart-s-haven" n="L20942">
+      <head>Heart&#x27;s Haven</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:heart-s-haven</idno><idno type="laurel-id">L20942</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="-+xxxxxxxx" met="-+-+-+-+-+">Sometimes she is a child within mine arms,</l>
+        <l n="2" real="+-xxxxxxxx" met="-+-+-+-+-+">Cowering beneath dark wings that love must chase,--</l>
+        <l n="3" real="xxx+-x-+-x" met="-+-+-+-+-+">With still tears showering and averted face,</l>
+        <l n="4" real="x-+--xxx-+" met="-+-+-+-+-+">Inexplicably filled with faint alarms:</l>
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">And oft from mine own spirit&#x27;s hurtling harms</l>
+        <l n="6" real="xxx+-xxx-+" met="-+-+-+-+-+">I crave the refuge of her deep embrace,--</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">Against all ills the fortified strong place</l>
+        <l n="8" real="xx-+x+-+-x" met="-+-+-+-+-+">And sweet reserve of sovereign counter-charms.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xx+xxxxxxx" met="-+-+-+-+-+">And Love, our light at night and shade at noon,</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">Lulls us to rest with songs, and turns away</l>
+        <l n="11" real="xxx+--x+-x" met="-+-+-+-+-+">All shafts of shelterless tumultuous day.</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Like the moon&#x27;s growth, his face gleams through his tune;</l>
+        <l n="13" real="xxx+-+-xxx" met="-+-+-+-+-+">And as soft waters warble to the moon,</l>
+        <l n="14" real="++--+-xx+--" met="-+-+-+-+-+-">Our answering spirits chime one roundelay.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-s-baubles" n="L20943">
+      <head>Love&#x27;s Baubles</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-s-baubles</idno><idno type="laurel-id">L20943</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">I stood where Love in brimming armfuls bore</l>
+        <l n="2" real="x+-+x+-xxx" met="-+-+-+-+-+">Slight wanton flowers and foolish toys of fruit:</l>
+        <l n="3" real="xxx+-xxx-+" met="-+-+-+-+-+">And round him ladies thronged in warm pursuit,</l>
+        <l n="4" real="+-xxx+-xxx" met="-+-+-+-+-+">Fingered and lipped and proffered the strange store:</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">And from one hand the petal and the core</l>
+        <l n="6" real="+-xxx+-xxx" met="-+-+-+-+-+">Savoured of sleep; and cluster and curled shoot</l>
+        <l n="7" real="xx-+-xxx-+" met="-+-+-+-+-+">Seemed from another hand like shame&#x27;s salute,--</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">Gifts that I felt my cheek was blushing for.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--a--">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">At last Love bade my Lady give the same:</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">And as I looked, the dew was light thereon;</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">And as I took them, at her touch they shone</l>
+        <l n="12" real="x+-+xxxxxx" met="-+-+-+-+-+">With inmost heaven-hue of the heart of flame.</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">And then Love said: &#x27;Lo! when the hand is hers,</l>
+        <l n="14" real="+-xxxxx+--" met="-+-+-+-+-+">Follies of love are love&#x27;s true ministers.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="pride-of-youth" n="L20944">
+      <head>Pride of Youth</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:pride-of-youth</idno><idno type="laurel-id">L20944</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba-bba">
+        <l n="1" real="+xxxx+-xxx" met="-+-+-+-+-+">Even as a child, of sorrow that we give</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">The dead, but little in his heart can find,</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Since without need of thought to his clear mind</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Their turn it is to die and his to live:</l>
+        <l n="5" real="+xxxxxxx-+" met="-+-+-+-+-+">Even so the winged New Love smiles to receive</l>
+        <l n="6" real="-+x+-xx-+-x" met="-+-+-+-+-+-">Along his eddying plumes the auroral wind,</l>
+        <l n="7" real="x+-+-xxxxx" met="-+-+-+-+-+">Nor, forward glorying, casts one look behind</l>
+        <l n="8" real="xxxxxxx+--" met="-+-+-+-+-+">Where night-rack shrouds the Old Love fugitive.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--aa-">
+        <l n="9" real="xxxxx+-+-+" met="-+-+-+-+-+">There is a change in every hour&#x27;s recall,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">And the last cowslip in the fields we see</l>
+        <l n="11" real="xxxxxxxx+-" met="-+-+-+-+-+">On the same day with the first corn-poppy.</l>
+        <l n="12" real="-+x+-x-+xx" met="-+-+-+-+-+">Alas for hourly change! Alas for all</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">The loves that from his hand proud Youth lets fall,</l>
+        <l n="14" real="+-xxxxxx+--" met="-+-+-+-+-+-">Even as the beads of a told rosary!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="winged-hours" n="L20945">
+      <head>Winged Hours</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:winged-hours</idno><idno type="laurel-id">L20945</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa-a">
+        <l n="1" real="x+xxxxxxxx" met="-+-+-+-+-+">Each hour until we meet is as a bird</l>
+        <l n="2" real="xxxxx+-x-+" met="-+-+-+-+-+">That wings from far his gradual way along</l>
+        <l n="3" real="x+-+-xxxxx" met="-+-+-+-+-+">The rustling covert of my soul,--his song</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">Still loudlier trilled through leaves more deeply stirr&#x27;d:</l>
+        <l n="5" real="xxx+x+-xxx" met="-+-+-+-+-+">But at the hour of meeting, a clear word</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">Is every note he sings, in Love&#x27;s own tongue;</l>
+        <l n="7" real="x+-+-+-x-+" met="-+-+-+-+-+">Through our contending kisses oft unheard.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--abb">
+        <l n="8" real="xxx+xxxxxx" met="-+-+-+-+-+">What of that hour at last, when for her sake</l>
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">No wing may fly to me nor song may flow;</l>
+        <l n="10" real="x+--xxxxxx" met="-+-+-+-+-+">When, wandering round my life unleaved, I</l>
+        <l n="11" real="x+-+-+-xxx" met="-+-+-+-+-+">The bloodied feathers scattered in the brake,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">And think how she, far from me, with like eyes</l>
+        <l n="13" real="xxxxxxxxx+-x" met="--+-+-+-+-+-">Sees through the untuneful bough the wingless skies?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="mid-rapture" n="L20946">
+      <head>Mid-Rapture</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:mid-rapture</idno><idno type="laurel-id">L20946</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="x+-x-+-xxx" met="-+-+-+-+-+">Thou lovely and beloved, thou my love;</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Whose kiss seems still the first; whose summoning eyes,</l>
+        <l n="3" real="+xxx+xxx+x" met="-+-+-+-+-+">Even now, as for our love-world&#x27;s new sunrise,</l>
+        <l n="4" real="x+-xxx-+xx" met="-+-+-+-+-+">Shed very dawn; whose voice, attuned above</l>
+        <l n="5" real="xx-+-xxx+x" met="-+-+-+-+-+">All modulation of the deep-bowered dove,</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Is like a hand laid softly on the soul;</l>
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">Whose hand is like a sweet voice to control</l>
+        <l n="8" real="xx+xxxx+-x" met="-+-+-+-+-+">Those worn tired brows it hath the keeping of:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">What word can answer to thy word,--what gaze</l>
+        <l n="10" real="xxxx-+xxxx" met="-+-+-+-+-+">To thine, which now absorbs within its sphere</l>
+        <l n="11" real="x+-xxxx+-x" met="-+-+-+-+-+">My worshipping face, till I am mirrored there</l>
+        <l n="12" real="x+-xx+xxxx" met="-+-+-+-+-+">Light-circled in a heaven of deep-drawn rays?</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">What clasp, what kiss mine inmost heart can prove,</l>
+        <l n="14" real="x+-x-+-xxx" met="-+-+-+-+-+">O lovely and beloved, O my love?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="heart-s-compass" n="L20947">
+      <head>Heart&#x27;s Compass</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:heart-s-compass</idno><idno type="laurel-id">L20947</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacc-">
+        <l n="1" real="-+xxxx-+-+" met="-+-+-+-+-+">Sometimes thou seem&#x27;st not as thyself alone,</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">But as the meaning of all things that are;</l>
+        <l n="3" real="x+-+-+-x-+" met="-+-+-+-+-+">A breathless wonder, shadowing forth afar</l>
+        <l n="4" real="x+--+-xx+--" met="-+-+-+-+-+-">Some heavenly solstice hushed and halcyon;</l>
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">Whose unstirred lips are music&#x27;s visible tone;</l>
+        <l n="6" real="xxxxxxxx-+" met="-+-+-+-+-+">Whose eyes the sun-gate of the soul unbar,</l>
+        <l n="7" real="+xx+-+--+--" met="-+-+-+-+-+-">Being of its furthest fires oracular;--</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">The evident heart of all life sown and mown.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="+xxxxxxxxx" met="-+-+-+-+-+">Even such Love is; and is not thy name Love?</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">Yea, by thy hand the Love-god rends apart</l>
+        <l n="11" real="x+-xxx-+-x" met="-+-+-+-+-+">All gathering clouds of Night&#x27;s ambiguous art;</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Flings them far down, and sets thine eyes above;</l>
+        <l n="13" real="x+-xxxx+xx" met="-+-+-+-+-+">And simply, as some gage of flower or glove,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Stakes with a smile the world against thy heart.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="soul-light" n="L20948">
+      <head>Soul-Light</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:soul-light</idno><idno type="laurel-id">L20948</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-+-xxxxx" met="-+-+-+-+-+">What other woman could be loved like you,</l>
+        <l n="2" real="xxxxxx-+xx" met="-+-+-+-+-+">Or how of you should love possess his fill?</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">After the fulness of all rapture, still,--</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">As at the end of some deep avenue</l>
+        <l n="5" real="x+-+-xxxxxx" met="-+-+-+-+-+-">A tender glamour of day,--there comes to view</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">Far in your eyes a yet more hungering thrill,--</l>
+        <l n="7" real="x+xxx+x-x-+" met="-+-+-+-+-+-">Such fire as Love&#x27;s soul-winnowing hands distil</l>
+        <l n="8" real="+xx+-xxxxx" met="-+-+-+-+-+">Even from his inmost arc of light and dew.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">And as the traveller triumphs with the sun,</l>
+        <l n="10" real="+-xxxxxxxx" met="-+-+-+-+-+">Glorying in heat&#x27;s mid-height, yet startide brings</l>
+        <l n="11" real="+-xxxxx-+x" met="-+-+-+-+-+">Wonder new-born, and still fresh transport springs</l>
+        <l n="12" real="x+-+-+xx-+" met="-+-+-+-+-+">From limpid lambent hours of day begun;--</l>
+        <l n="13" real="+xxxxxxxxx" met="-+-+-+-+-+">Even so, through eyes and voice, your soul doth move</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">My soul with changeful light of infinite love.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-moonstar" n="L20949">
+      <head>The Moonstar</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-moonstar</idno><idno type="laurel-id">L20949</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="+-xxxxx+--" met="-+-+-+-+-+">Lady, I thank thee for thy loveliness,</l>
+        <l n="2" real="xxx+-xx+-x" met="-+-+-+-+-+">Because my lady is more lovely still.</l>
+        <l n="3" real="+-xxxxxx++" met="-+-+-+-+-+">Glorying I gaze, and yield with glad goodwill</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">To thee thy tribute; by whose sweet-spun dress</l>
+        <l n="5" real="x+-xx+-x-+" met="-+-+-+-+-+">Of delicate life Love labours to assess</l>
+        <l n="6" real="x+-+-x+-+-x" met="-+-+-+-+-+-">My Lady&#x27;s absolute queendom; saying, &#x27;Lo!</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">How high this beauty is, which yet doth show</l>
+        <l n="8" real="xxx+-+-+--" met="-+-+-+-+-+">But as that beauty&#x27;s sovereign votaress.&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="+-xxxxxxxx" met="-+-+-+-+-+">Lady, I saw thee with her, side by side;</l>
+        <l n="10" real="xxxxx+xx-+" met="-+-+-+-+-+">And as, when night&#x27;s fair fires their queen surround,</l>
+        <l n="11" real="x+--xxxxxxx" met="-+-+-+-+-+-">An emulous star too near the moon will ride,--</l>
+        <l n="12" real="+xxxxxx+-x" met="-+-+-+-+-+">Even so thy rays within her luminous bound</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Were traced no more; and by the light so drown&#x27;d,</l>
+        <l n="14" real="+-xxxxx+-x" met="-+-+-+-+-+">Lady, not thou but she was glorified.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="last-fire" n="L20950">
+      <head>Last Fire</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:last-fire</idno><idno type="laurel-id">L20950</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxx+xxx+-x" met="-+-+-+-+-+">Love, through your spirit and mine what summer eve</l>
+        <l n="2" real="xxx+-xxx-+" met="-+-+-+-+-+">Now glows with glory of all things possess&#x27;d,</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Since this day&#x27;s sun of rapture filled the west</l>
+        <l n="4" real="xxx+-xx+xx" met="-+-+-+-+-+">And the light sweetened as the fire took leave?</l>
+        <l n="5" real="-+xxxxx+-x" met="-+-+-+-+-+">Awhile now softlier let your bosom heave,</l>
+        <l n="6" real="xxx+-+x+-x" met="-+-+-+-+-+">As in Love&#x27;s harbour, even that loving breast,</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">All care takes refuge while we sink to rest,</l>
+        <l n="8" real="x+-xx+xx-+" met="-+-+-+-+-+">And mutual dreams the bygone bliss retrieve.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abb-ab">
+        <l n="9" real="+-xxx+-xxx" met="-+-+-+-+-+">Many the days that Winter keeps in store,</l>
+        <l n="10" real="+-xxxxxx+-" met="-+-+-+-+-+">Sunless throughout, or whose brief sun-glimpses</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Scarce shed the heaped snow through the naked trees.</l>
+        <l n="12" real="xxxxx+-+--" met="-+-+-+-+-+">This day at least was Summer&#x27;s paramour,</l>
+        <l n="13" real="x+-xx-+---x" met="-+-+-+-+-+-">Sun-coloured to the imperishable core</l>
+        <l n="14" real="xxx+xxxxxx" met="-+-+-+-+-+">With sweet well-being of love and full heart&#x27;s ease.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="her-gifts" n="L20951">
+      <head>Her Gifts</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:her-gifts</idno><idno type="laurel-id">L20951</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="xxxxxxxxxxx" met="-+-+-+-+-+-">High grace, the dower of queens; and therewithal</l>
+        <l n="2" real="xxx+-x-+--" met="-+-+-+-+-+">Some wood-born wonder&#x27;s sweet simplicity;</l>
+        <l n="3" real="xxx+-+-xxx" met="-+-+-+-+-+">A glance like water brimming with the sky</l>
+        <l n="4" real="x+-xxx+-+xx" met="-+-+-+-+-+-">Or hyacinth-light where forest-shadows fall;</l>
+        <l n="5" real="x+-+-xxxx-+" met="-+-+-+-+-+-">Such thrilling pallor of cheek as doth enthral</l>
+        <l n="6" real="xxxxx+-x-+" met="-+-+-+-+-+">The heart; a mouth whose passionate forms imply</l>
+        <l n="7" real="x+-xx+-xxx" met="-+-+-+-+-+">All music and all silence held thereby;</l>
+        <l n="8" real="x+-xx+-+--" met="-+-+-+-+-+">Deep golden locks, her sovereign coronal;</l>
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">A round reared neck, meet column of Love&#x27;s shrine</l>
+        <l n="10" real="xxxxxxx+-x-" met="-+-+-+-+-+-">To cling to when the heart takes sanctuary;</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Hands which for ever at Love&#x27;s bidding be,</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">And soft-stirred feet still answering to his sign:--</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">These are her gifts, as tongue may tell them o&#x27;er.</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Breathe low her name, my soul; for that means more.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="equal-troth" n="L20952">
+      <head>Equal Troth</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:equal-troth</idno><idno type="laurel-id">L20952</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ab-acbbc">
+        <l n="1" real="xxx+-xxx+x" met="-+-+-+-+-+">Not by one measure mayst thou mete our love;</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">For how should I be loved as I love thee?--</l>
+        <l n="3" real="x+-+-+-x-+-" met="-+-+-+-+-+-">I, graceless, joyless, lacking absolutely</l>
+        <l n="4" real="xxxxx+-x-+" met="-+-+-+-+-+">All gifts that with thy queenship best behove;--</l>
+        <l n="5" real="xxx+-x-++x" met="-+-+-+-+-+">Thou, throned in every heart&#x27;s elect alcove,</l>
+        <l n="6" real="xxx+-xx+-x" met="-+-+-+-+-+">And crowned with garlands culled from every tree,</l>
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">Which for no head but thine, by Love&#x27;s decree,</l>
+        <l n="8" real="x+-xx+-xxx" met="-+-+-+-+-+">All beauties and all mysteries interwove.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a--a-">
+        <l n="9" real="xxxxxxxx-+" met="-+-+-+-+-+">But here thine eyes and lips yield soft rebuke:--</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">&#x27;Then only,&#x27; (say&#x27;st thou), &#x27;could I love thee less,</l>
+        <l n="11" real="xxxxxx-+--" met="-+-+-+-+-+">When thou couldst doubt my love&#x27;s equality.&#x27;</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Peace, sweet! If not to sum but worth we look,</l>
+        <l n="13" real="xx-+-xxx-+" met="-+-+-+-+-+">Thy heart&#x27;s transcendence, not my heart&#x27;s excess,</l>
+        <l n="14" real="xxx+--xxxx" met="-+-+-+-+-+">Then more a thousandfold thou lov&#x27;st than I.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="venus-victrix" n="L20953">
+      <head>Venus Victrix</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:venus-victrix</idno><idno type="laurel-id">L20953</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="x+-xx+-+-x" met="-+-+-+-+-+">Could Juno&#x27;s self more sovereign presence wear</l>
+        <l n="2" real="xxx+-+-xxx" met="-+-+-+-+-+">Than thou, &#x27;mid other ladies throned in grace?--</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Or Pallas, when thou bend&#x27;st with soul-stilled face</l>
+        <l n="4" real="x+-xx+-xxx" met="-+-+-+-+-+">O&#x27;er poet&#x27;s page gold-shadowed in thy hair?</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">Dost thou than Venus seem less heavenly fair</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">When o&#x27;er the sea of love&#x27;s tumultuous trance</l>
+        <l n="7" real="+-xxx+-xxx" met="-+-+-+-+-+">Hovers thy smile, and mingles with thy glance</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">That sweet voice like the last wave murmuring there?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="xxx+-+---+" met="-+-+-+-+-+">Before such triune loveliness divine</l>
+        <l n="10" real="+xxxx+-xxx" met="-+-+-+-+-+">Awestruck I ask, which goddess here most claims</l>
+        <l n="11" real="xxxxx-+-xx" met="-+-+-+-+-+">The prize that, howsoe&#x27;er adjudged, is thine?</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">Then Love breathes low the sweetest of thy names;</l>
+        <l n="13" real="x+-+-xxxxx" met="-+-+-+-+-+">And Venus Victrix to my heart doth bring</l>
+        <l n="14" real="-+x+-xxxxx" met="-+-+-+-+-+">Herself, the Helen of her guerdoning.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-dark-glass" n="L20954">
+      <head>The Dark Glass</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-dark-glass</idno><idno type="laurel-id">L20954</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="xxx+xxxxxx" met="-+-+-+-+-+">Not I myself know all my love for thee:</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">How should I reach so far, who cannot weigh</l>
+        <l n="3" real="x+-xxxx+-x" met="-+-+-+-+-+">To-morrow&#x27;s dower by gage of yesterday?</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Shall birth and death, and all dark names that be</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">As doors and windows bared to some loud sea,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Lash deaf mine ears and blind my face with spray;</l>
+        <l n="7" real="xxxxxxxx+x" met="-+-+-+-+-+">And shall my sense pierce love,--the last relay</l>
+        <l n="8" real="x+--+xx-+--" met="-+-+-+-+-+-">And ultimate outpost of eternity?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Lo! what am I to Love, the lord of all?</l>
+        <l n="10" real="x+-xx+-xxx" met="-+-+-+-+-+">One murmuring shell he gathers from the sand,--</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">One little heart-flame sheltered in his hand.</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Yet through thine eyes he grants me clearest call</l>
+        <l n="13" real="xxxxx+--+--" met="-+-+-+-+-+-">And veriest touch of powers primordial</l>
+        <l n="14" real="x+-+xxxx-+" met="-+-+-+-+-+">That any hour-girt life may understand.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-lamp-s-shrine" n="L20955">
+      <head>The Lamp&#x27;s Shrine</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-lamp-s-shrine</idno><idno type="laurel-id">L20955</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="-+xxxxxxxx" met="-+-+-+-+-+">Sometimes I fain would find in thee some fault,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">That I might love thee still in spite of it:</l>
+        <l n="3" real="xxx+xx-+xx" met="-+-+-+-+-+">Yet how should our Lord Love curtail one whit</l>
+        <l n="4" real="x+xxxxxx-+" met="-+-+-+-+-+">Thy perfect praise whom most he would exalt?</l>
+        <l n="5" real="-+xxxxxxxx" met="-+-+-+-+-+">Alas! he can but make my heart&#x27;s low vault</l>
+        <l n="6" real="+xxxxxx+-x" met="-+-+-+-+-+">Even in men&#x27;s sight unworthier, being lit</l>
+        <l n="7" real="xxxxxxx+--" met="-+-+-+-+-+">By thee, who thereby show&#x27;st more exquisite</l>
+        <l n="8" real="x+-+--xx-+" met="-+-+-+-+-+">Like fiery chrysoprase in deep basalt.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">Yet will I nowise shrink; but at Love&#x27;s shrine</l>
+        <l n="10" real="x+xxxxxxxx" met="-+-+-+-+-+">Myself within the beams his brow doth dart</l>
+        <l n="11" real="xxx+-+-xxx" met="-+-+-+-+-+">Will set the flashing jewel of thy heart</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">In that dull chamber where it deigns to shine:</l>
+        <l n="13" real="xxx+-xx++-" met="-+-+-+-+-+">For lo! in honour of thine excellencies</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">My heart takes pride to show how poor it is.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="life-in-love" n="L20956">
+      <head>Life-In-Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:life-in-love</idno><idno type="laurel-id">L20956</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">Not in thy body is thy life at all</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">But in this lady&#x27;s lips and hands and eyes;</l>
+        <l n="3" real="xxxxxxxxx" met="+-+-+-+-+">Through these she yields the life that vivifies</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">What else were sorrow&#x27;s servant and death&#x27;s thrall.</l>
+        <l n="5" real="xx-+xxxx-+" met="-+-+-+-+-+">Look on thyself without her, and recall</l>
+        <l n="6" real="xx-+-x-+-+" met="-+-+-+-+-+">The waste remembrance and forlorn surmise</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">That lived but in a dead-drawn breath of sighs</l>
+        <l n="8" real="x+-+x+--+--" met="-+-+-+-+-+-">O&#x27;er vanished hours and hours eventual.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="+xxxxxxxxx" met="-+-+-+-+-+">Even so much life hath the poor tress of hair</l>
+        <l n="10" real="xx-+xxxxxx" met="-+-+-+-+-+">Which, stored apart, is all love hath to show</l>
+        <l n="11" real="xxxxx+xx-+" met="-+-+-+-+-+">For heart-beats and for fire-heats long ago;</l>
+        <l n="12" real="+xxx-+-++x" met="-+-+-+-+-+">Even so much life endures unknown, even where,</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">&#x27;Mid change the changeless night environeth,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Lies all that golden hair undimmed in death.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-love-moon" n="L20957">
+      <head>The Love-Moon</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-love-moon</idno><idno type="laurel-id">L20957</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ab-a-bba">
+        <l n="1" real="xxxx+xx+-x" met="-+-+-+-+-+">&#x27;When that dead face, bowered in the furthest years,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Which once was all the life years held for thee,</l>
+        <l n="3" real="xxxxxxx+--" met="-+-+-+-+-+">Can now scarce bide the tides of memory</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">Cast on thy soul a little spray of tears,--</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">How canst thou gaze into these eyes of hers</l>
+        <l n="6" real="xxxx-+xxxx" met="-+-+-+-+-+">Whom now thy heart delights in, and not see</l>
+        <l n="7" real="xxxxxx-+--" met="-+-+-+-+-+">Within each orb Love&#x27;s philtred euphrasy</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">Make them of buried troth remembrancers?&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="x+-xx+-+-x" met="-+-+-+-+-+">&#x27;Nay, pitiful Love, nay, loving Pity! Well</l>
+        <l n="10" real="x+-xxxxxx-+" met="-+-+-+-+-+-">Thou knowest that in these twain I have confess&#x27;d</l>
+        <l n="11" real="x+-+-xx+-x" met="-+-+-+-+-+">Two very voices of thy summoning bell.</l>
+        <l n="12" real="x+-xxxx+-x" met="-+-+-+-+-+">Nay, Master, shall not Death make manifest</l>
+        <l n="13" real="xxx+--+-x-+" met="-+-+-+-+-+-">In these the culminant changes which approve</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">The love-moon that must light my soul to Love?&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-morrow-s-message" n="L20958">
+      <head>The Morrow&#x27;s Message</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-morrow-s-message</idno><idno type="laurel-id">L20958</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Thou Ghost,&#x27; I said, &#x27;and is thy name To-day?--</l>
+        <l n="2" real="+--xxxx+-x" met="-+-+-+-+-+">Yesterday&#x27;s son, with such an abject brow!--</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">And can To-morrow be more pale than thou?&#x27;</l>
+        <l n="4" real="xxxxx+-+-x" met="-+-+-+-+-+">While yet I spoke, the silence answered: &#x27;Yea,</l>
+        <l n="5" real="++++-xxxxx" met="-+-+-+-+-+">Henceforth our issue is all grieved and grey,</l>
+        <l n="6" real="xx-+xxxx-+" met="-+-+-+-+-+">And each beforehand makes such poor avow</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">As of old leaves beneath the budding bough</l>
+        <l n="8" real="xxxxxxxx-+" met="-+-+-+-+-+">Or night-drift that the sundawn shreds away.&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxx+-x+xxx" met="-+-+-+-+-+">Then cried I: &#x27;Mother of many malisons,</l>
+        <l n="10" real="xx-+xxx+-x" met="-+-+-+-+-+">O Earth, receive me to thy dusty bed!&#x27;</l>
+        <l n="11" real="xxxxxx+-+-x" met="-+-+-+-+-+-">But therewithal the tremulous silence said:</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">&#x27;Lo! Love yet bids thy lady greet thee once:--</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Yea, twice,--whereby thy life is still the sun&#x27;s;</l>
+        <l n="14" real="xxxxx+xxxxx" met="-+-+-+-+-+-">And thrice,--whereby the shadow of death is dead.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="sleepless-dreams" n="L20959">
+      <head>Sleepless Dreams</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:sleepless-dreams</idno><idno type="laurel-id">L20959</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Girt in dark growths, yet glimmering with one star,</l>
+        <l n="2" real="xx-+-xxxxx" met="-+-+-+-+-+">O night desirous as the nights of youth!</l>
+        <l n="3" real="xxxxxxxx-+" met="-+-+-+-+-+">Why should my heart within thy spell, forsooth,</l>
+        <l n="4" real="xxxxx+-+-x" met="-+-+-+-+-+">Now beat, as the bride&#x27;s finger-pulses are</l>
+        <l n="5" real="+-xxx+-+-x" met="-+-+-+-+-+">Quickened within the girdling golden bar?</l>
+        <l n="6" real="xxxxxxx+-x" met="-+-+-+-+-+">What wings are these that fan my pillow smooth?</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">And why does Sleep, waved back by Joy and Ruth,</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">Tread softly round and gaze at me from far?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-a-b">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Nay, night deep-leaved! And would Love feign in thee</l>
+        <l n="10" real="x+-+---xxx" met="-+-+-+-+-+">Some shadowy palpitating grove that bears</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">Rest for man&#x27;s eyes and music for his ears?</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">O lonely night! art thou not known to me,</l>
+        <l n="13" real="x+-xxxx+--" met="-+-+-+-+-+">A thicket hung with masks of mockery</l>
+        <l n="14" real="x+-xx+-xxx" met="-+-+-+-+-+">And watered with the wasteful warmth of tears?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="severed-selves" n="L20960">
+      <head>Severed Selves</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:severed-selves</idno><idno type="laurel-id">L20960</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="x+-x-+-+--" met="-+-+-+-+-+">Two separate divided silences,</l>
+        <l n="2" real="xx-+-xx+-x" met="-+-+-+-+-+">Which, brought together, would find loving voice;</l>
+        <l n="3" real="x+-x-+-x-+" met="-+-+-+-+-+">Two glances which together would rejoice</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">In love, now lost like stars beyond dark trees;</l>
+        <l n="5" real="xx-+xx-+xx" met="-+-+-+-+-+">Two hands apart whose touch alone gives ease;</l>
+        <l n="6" real="x+-xxxx+-x" met="-+-+-+-+-+">Two bosoms which, heart-shrined with mutual flame,</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">Would, meeting in one clasp, be made the same;</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">Two souls, the shores wave-mocked of sundering seas:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxx+x+x" met="-+-+-+-+-+">Such are we now. Ah! may our hope forecast</l>
+        <l n="10" real="-+x+-+xxxx" met="-+-+-+-+-+">Indeed one hour again, when on this stream</l>
+        <l n="11" real="x+-xxxxxxx" met="-+-+-+-+-+">Of darkened love once more the light shall gleam?</l>
+        <l n="12" real="x+xxxxx+-x" met="-+-+-+-+-+">An hour how slow to come, how quickly past,</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">Which blooms and fades, and only leaves at last,</l>
+        <l n="14" real="xxx+x-+-x-x" met="-+-+-+-+-+-">Faint as shed flowers, the attenuated dream.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="through-death-to-love" n="L20961">
+      <head>Through Death to Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:through-death-to-love</idno><idno type="laurel-id">L20961</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacc-">
+        <l n="1" real="x+x+-xxxxx" met="-+-+-+-+-+">Like labour-laden moonclouds faint to flee</l>
+        <l n="2" real="xxxxx+-+-x" met="-+-+-+-+-+">From winds that sweep the winter-bitten wold,--</l>
+        <l n="3" real="x+---+--+-x" met="-+-+-+-+-+-">Like multiform circumfluence manifold</l>
+        <l n="4" real="xxxxx+-x-+" met="-+-+-+-+-+">Of night&#x27;s flood-tide,--like terrors that agree</l>
+        <l n="5" real="xxx+x--+-x" met="-+-+-+-+-+">Of hoarse-tongued fire and inarticulate sea,--</l>
+        <l n="6" real="+xxxxxxx+x" met="-+-+-+-+-+">Even such, within some glass dimmed by our breath,</l>
+        <l n="7" real="+x-+x+--xx" met="-+-+-+-+-+">Our hearts discern wild images of Death,</l>
+        <l n="8" real="+xxxxx-+--" met="-+-+-+-+-+">Shadows and shoals that edge eternity.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="-+--+x+-xxx" met="-+-+-+-+-+-">Howbeit athwart Death&#x27;s imminent shade doth soar</l>
+        <l n="10" real="x+xxxxxxxx" met="-+-+-+-+-+">One Power, than flow of stream or flight of dove</l>
+        <l n="11" real="+-xxxxxxxx" met="-+-+-+-+-+">Sweeter to glide around, to brood above.</l>
+        <l n="12" real="xxxxx+-+-x" met="-+-+-+-+-+">Tell me, my heart;--what angel-greeted door</l>
+        <l n="13" real="x+xxx+x+-x" met="-+-+-+-+-+">Or threshold of wing-winnowed threshing-floor</l>
+        <l n="14" real="xx+xxxxxxx" met="-+-+-+-+-+">Hath guest fire-fledged as thine, whose lord is Love?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hope-overtaken" n="L20962">
+      <head>Hope Overtaken</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:hope-overtaken</idno><idno type="laurel-id">L20962</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa-ba">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">I deemed thy garments, O my Hope, were grey,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">So far I viewed thee. Now the space between</l>
+        <l n="3" real="xxxxx+--xx" met="-+-+-+-+-+">Is passed at length; and garmented in green</l>
+        <l n="4" real="+xxxxxxxxx" met="-+-+-+-+-+">Even as in days of yore thou stand&#x27;st to-day.</l>
+        <l n="5" real="xxxxx+-x-+" met="-+-+-+-+-+">Ah God! and but for lingering dull dismay,</l>
+        <l n="6" real="xxxx++xxxx" met="-+-+-+-+-+">On all that road our footsteps erst had been</l>
+        <l n="7" real="+x-+-x++xx" met="-+-+-+-+-+">Even thus commingled, and our shadows seen</l>
+        <l n="8" real="xxxxxxxx+-x" met="-+-+-+-+-+-">Blent on the hedgerows and the water-way.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">O Hope of mine whose eyes are living love,</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">No eyes but hers,--O Love and Hope the same!--</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Lean close to me, for now the sinking sun</l>
+        <l n="12" real="xx+xxx+xxx" met="-+-+-+-+-+">That warmed our feet scarce gilds our hair above.</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">O hers thy voice and very hers thy name!</l>
+        <l n="14" real="-+xxxxxxxx" met="-+-+-+-+-+">Alas, cling round me, for the day is done!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-and-hope" n="L20963">
+      <head>Love and Hope</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-and-hope</idno><idno type="laurel-id">L20963</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+x+-x" met="-+-+-+-+-+">Bless love and hope. Full many a withered year</l>
+        <l n="2" real="xxx+-xxx+x" met="-+-+-+-+-+">Whirled past us, eddying to its chill doomsday;</l>
+        <l n="3" real="xx-+-xxxxx" met="-+-+-+-+-+">And clasped together where the blown leaves lay,</l>
+        <l n="4" real="xxxxxxx+xx" met="-+-+-+-+-+">We long have knelt and wept full many a tear.</l>
+        <l n="5" real="xxx+xxxx-+" met="-+-+-+-+-+">Yet lo! one hour at last, the Spring&#x27;s compeer,</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">Flutes softly to us from some green byeway:*</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">Those years, those tears are dead, but only they:--</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Bless love and hope, true soul; for we are here.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxx+-+" met="-+-+-+-+-+">Cling heart to heart; nor of this hour demand</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">Whether in very truth, when we are dead,</l>
+        <l n="11" real="+xxxxxx+-x" met="-+-+-+-+-+">Our hearts shall wake to know Love&#x27;s golden head</l>
+        <l n="12" real="x+xxx-+---x" met="-+-+-+-+-+-">Sole sunshine of the imperishable land;</l>
+        <l n="13" real="xx-+xx-+-x" met="-+-+-+-+-+">Or but discern, through night&#x27;s unfeatured scope,</l>
+        <l n="14" real="x+xxx-+-xxx" met="-+-+-+-+-+-">Scorn-fired at length the illusive eyes of Hope.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="cloud-and-wind" n="L20964">
+      <head>Cloud and Wind</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:cloud-and-wind</idno><idno type="laurel-id">L20964</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abb-abb-">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Love, should I fear death most for you or me?</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Yet if you die, can I not follow you,</l>
+        <l n="3" real="+-xxxx-+xx" met="-+-+-+-+-+">Forcing the straits of change? Alas! but who</l>
+        <l n="4" real="xxxxxx-+---" met="-+-+-+-+-+-">Shall wrest a bond from night&#x27;s inveteracy,</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">Ere yet my hazardous soul put forth, to be</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">Her warrant against all her haste might rue?--</l>
+        <l n="7" real="xxxxxxxx-+" met="-+-+-+-+-+">Ah! in your eyes so reached what dumb adieu,</l>
+        <l n="8" real="xxxxxx-+--" met="-+-+-+-+-+">What unsunned gyres of waste eternity?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aabba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And if I die the first, shall death be then</l>
+        <l n="10" real="x+-+-xxxxx" met="-+-+-+-+-+">A lampless watchtower whence I see you weep?--</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Or (woe is me!) a bed wherein my sleep</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Ne&#x27;er notes (as death&#x27;s dear cup at last you drain),</l>
+        <l n="13" real="x+xxxxxxxx" met="-+-+-+-+-+">The hour when you too learn that all is vain</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">And that Hope sows what Love shall never reap?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="secret-parting" n="L20965">
+      <head>Secret Parting</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:secret-parting</idno><idno type="laurel-id">L20965</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xx+xxxxx-+" met="-+-+-+-+-+">Because our talk was of the cloud-control</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">And moon-track of the journeying face of Fate,</l>
+        <l n="3" real="x+-+-+-xxx" met="-+-+-+-+-+">Her tremulous kisses faltered at love&#x27;s gate</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">And her eyes dreamed against a distant goal:</l>
+        <l n="5" real="xx-+-xxxxx" met="-+-+-+-+-+">But soon, remembering her how brief the whole</l>
+        <l n="6" real="xxxxx+-+-x" met="-+-+-+-+-+">Of joy, which its own hours annihilate,</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">Her set gaze gathered, thirstier than of late,</l>
+        <l n="8" real="xxxxxx-+xx" met="-+-+-+-+-+">And as she kissed, her mouth became her soul.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abb-a-">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Thence in what ways we wandered, and how strove</l>
+        <l n="10" real="xxx+xxx+--x" met="-+-+-+-+-+-">To build with fire-tried vows the piteous home</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">Which memory haunts and whither sleep may roam,--</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">They only know for whom the roof of Love</l>
+        <l n="13" real="xxx+-+-xxx" met="-+-+-+-+-+">Is the still-seated secret of the grove,</l>
+        <l n="14" real="xxxxxxxx-+" met="-+-+-+-+-+">Nor spire may rise nor bell be heard therefrom.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="parted-love" n="L20966">
+      <head>Parted Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:parted-love</idno><idno type="laurel-id">L20966</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxx-+-x" met="-+-+-+-+-+">What shall be said of this embattled day</l>
+        <l n="2" real="xx-x-+-xxx" met="-+-+-+-+-+">And armed occupation of this night</l>
+        <l n="3" real="xxxx-+-xxx" met="-+-+-+-+-+">By all thy foes beleaguered,--now when sight</l>
+        <l n="4" real="xx-+xxxx-+" met="-+-+-+-+-+">Nor sound denotes the loved one far away?</l>
+        <l n="5" real="xxx+-+xxxx" met="-+-+-+-+-+">Of these thy vanquished hours what shalt thou say,--</l>
+        <l n="6" real="x+-xxxxx-+" met="-+-+-+-+-+">As every sense to which she dealt delight</l>
+        <l n="7" real="x+-+-xxxxx" met="-+-+-+-+-+">Now labours lonely o&#x27;er the stark noon-height</l>
+        <l n="8" real="xxx+x+-x-+" met="-+-+-+-+-+">To reach the sunset&#x27;s desolate disarray?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-aab">
+        <l n="9" real="xxx+-xx+-x" met="-+-+-+-+-+">Stand still, fond fettered wretch! while Memory&#x27;s art</l>
+        <l n="10" real="-+xxxxxxxx" met="-+-+-+-+-+">Parades the Past before thy face, and lures</l>
+        <l n="11" real="x+xx+--xxx" met="-+-+-+-+-+">Thy spirit to her passionate portraitures:</l>
+        <l n="12" real="xxx+-xxx-+" met="-+-+-+-+-+">Till the tempestuous tide-gates flung apart</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">Flood with wild will the hollows of thy heart,</l>
+        <l n="14" real="xxxxxxx+--+" met="-+-+-+-+-+-">And thy heart rends thee, and thy body endures.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="broken-music" n="L20967">
+      <head>Broken Music</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:broken-music</idno><idno type="laurel-id">L20967</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa--a">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">The mother will not turn, who thinks she hears</l>
+        <l n="2" real="xxxxxx-+-x" met="-+-+-+-+-+">Her nursling&#x27;s speech first grow articulate;</l>
+        <l n="3" real="x+-x-+-x-+" met="-+-+-+-+-+">But breathless with averted eyes elate</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">She sits, with open lips and open ears,</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">That it may call her twice. &#x27;Mid doubts and fears</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Thus oft my soul has hearkened; till the song,</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">A central moan for days, at length found tongue,</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">And the sweet music welled and the sweet tears.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-abab">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">But now, whatever while the soul is fain</l>
+        <l n="10" real="xxx+-+-xxx" met="-+-+-+-+-+">To list that wonted murmur, as it were</l>
+        <l n="11" real="xxxxxx-+--x" met="-+-+-+-+-+-">The speech-bound sea-shell&#x27;s low importunate strain,--</l>
+        <l n="12" real="xxxxxx-+xx" met="-+-+-+-+-+">No breath of song, thy voice alone is there,</l>
+        <l n="13" real="x+---+xxxx" met="-+-+-+-+-+">O bitterly beloved! and all her gain</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Is but the pang of unpermitted prayer.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="death-in-love" n="L20968">
+      <head>Death-In-Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:death-in-love</idno><idno type="laurel-id">L20968</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a--aabba">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">There came an image in Life&#x27;s retinue</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">That had Love&#x27;s wings and bore his gonfalon:</l>
+        <l n="3" real="xxxxx+-x-+" met="-+-+-+-+-+">Fair was the web, and nobly wrought thereon,</l>
+        <l n="4" real="xx-+-xxxxx" met="-+-+-+-+-+">O soul-sequestered face, thy form and hue!</l>
+        <l n="5" real="-+-xxxx+-x" met="-+-+-+-+-+">Bewildering sounds, such as Spring wakens to,</l>
+        <l n="6" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Shook in its folds; and through my heart its power</l>
+        <l n="7" real="x+-xx-+---+" met="-+-+-+-+-+-">Sped trackless as the immemorable hour</l>
+        <l n="8" real="xxx+-xxxxx" met="-+-+-+-+-+">When birth&#x27;s dark portal groaned and all was new.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">But a veiled woman followed, and she caught</l>
+        <l n="10" real="x+-xxxxxxx" met="-+-+-+-+-+">The banner round its staff, to furl and cling,--</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Then plucked a feather from the bearer&#x27;s wing,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">And held it to his lips that stirred it not,</l>
+        <l n="13" real="xxxx-+xxxx" met="-+-+-+-+-+">And said to me, &#x27;Behold, there is no breath:</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">I and this Love are one, and I am Death.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="willowwood" n="L20969">
+      <head>Willowwood</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:willowwood</idno><idno type="laurel-id">L20969</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa-ba">
+        <l n="1" real="xxxxxxx+xx" met="-+-+-+-+-+">I sat with Love upon a woodside well,</l>
+        <l n="2" real="+--+x+-xxx" met="-+-+-+-+-+">Leaning across the water, I and he;</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">Nor ever did he speak nor looked at me,</l>
+        <l n="4" real="xxxxxxx+--" met="-+-+-+-+-+">But touched his lute wherein was audible</l>
+        <l n="5" real="x+-+-xxxxx" met="-+-+-+-+-+">The certain secret thing he had to tell:</l>
+        <l n="6" real="+-+-+-xx+--" met="-+-+-+-+-+-">Only our mirrored eyes met silently</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">In the low wave; and that sound came to be</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">The passionate voice I knew; and my tears fell.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--abba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And at their fall, his eyes beneath grew hers;</l>
+        <l n="10" real="xxxxxxxx+-" met="-+-+-+-+-+">And with his foot and with his wing-feathers</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">He swept the spring that watered my heart&#x27;s drouth.</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">Then the dark ripples spread to waving hair,</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">And as I stooped, her own lips rising there</l>
+        <l n="14" real="+-x+-+-xxx" met="-+-+-+-+-+">Bubbled with brimming kisses at my mouth.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ab-aabb-">
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">And now Love sang: but his was such a song,</l>
+        <l n="16" real="xxxx-+-xxx" met="-+-+-+-+-+">So meshed with half-remembrance hard to free,</l>
+        <l n="17" real="xx-+xx-+--" met="-+-+-+-+-+">As souls disused in death&#x27;s sterility</l>
+        <l n="18" real="xxxxx+x+-x" met="-+-+-+-+-+">May sing when the new birthday tarries long.</l>
+        <l n="19" real="xxxx-+xxxx" met="-+-+-+-+-+">And I was made aware of a dumb throng</l>
+        <l n="20" real="xx-+xxx+-x" met="-+-+-+-+-+">That stood aloof, one form by every tree,</l>
+        <l n="21" real="x+-xxxxxxx" met="-+-+-+-+-+">All mournful forms, for each was I or she,</l>
+        <l n="22" real="xxxx+xxxxx" met="-+-+-+-+-+">The shades of those our days that had no tongue.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abbaab">
+        <l n="23" real="xxxxxxxxxx" met="-+-+-+-+-+">They looked on us, and knew us and were known;</l>
+        <l n="24" real="xx-+--+xx-+" met="-+-+-+-+-+-">While fast together, alive from the abyss,</l>
+        <l n="25" real="xxxx-+--xx" met="-+-+-+-+-+">Clung the soul-wrung implacable close kiss;</l>
+        <l n="26" real="x+-xxxxx+-x" met="-+-+-+-+-+-">And pity of self through all made broken moan</l>
+        <l n="27" real="xxxxxxxx-+" met="-+-+-+-+-+">Which said, &#x27;For once, for once, for once alone!&#x27;</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">And still Love sang, and what he sang was this:--</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="ababcbcb">
+        <l n="29" real="xxxxxxx+xx" met="-+-+-+-+-+">&#x27;O ye, all ye that walk in Willow-wood,</l>
+        <l n="30" real="xxx+-+-+-x" met="-+-+-+-+-+">That walk with hollow faces burning white;</l>
+        <l n="31" real="x+-xxxx+--" met="-+-+-+-+-+">What fathom-depth of soul-struck widowhood,</l>
+        <l n="32" real="xxx+-+x++x" met="-+-+-+-+-+">What long, what longer hours, one lifelong night,</l>
+        <l n="33" real="xx-+xxxxxx" met="-+-+-+-+-+">Ere ye again, who so in vain have wooed</l>
+        <l n="34" real="xxxxxxxx-+" met="-+-+-+-+-+">Your last hope lost, who so in vain invite</l>
+        <l n="35" real="xxxxxxxxxx" met="-+-+-+-+-+">Your lips to that their unforgotten food,</l>
+        <l n="36" real="xxxx-+xxxx" met="-+-+-+-+-+">Ere ye, ere ye again shall see the light!</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="ababcc">
+        <l n="37" real="-+x+-xxxxx" met="-+-+-+-+-+">Alas! the bitter banks in Willowwood,</l>
+        <l n="38" real="xxxxxxx+-x" met="-+-+-+-+-+">With tear-spurge wan, with blood-wort burning red:</l>
+        <l n="39" real="-+x+-xx+-x" met="-+-+-+-+-+">Alas! if ever such a pillow could</l>
+        <l n="40" real="xxxxxxxxxx" met="-+-+-+-+-+">Steep deep the soul in sleep till she were dead,--</l>
+        <l n="41" real="+-xx-+xxxx" met="-+-+-+-+-+">Better all life forget her than this thing,</l>
+        <l n="42" real="xxxxxxx+--" met="-+-+-+-+-+">That Willowwood should hold her wandering!&#x27;</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="a-baabba">
+        <l n="43" real="xxxxx+-xxx" met="-+-+-+-+-+">So sang he: and as meeting rose and rose</l>
+        <l n="44" real="-+-xxxxxxx" met="-+-+-+-+-+">Together cling through the wind&#x27;s wellaway</l>
+        <l n="45" real="xxxxxxxxxx" met="-+-+-+-+-+">Nor change at once, yet near the end of day</l>
+        <l n="46" real="xxx+-xxxxx" met="-+-+-+-+-+">The leaves drop loosened where the heart-stain glows,--</l>
+        <l n="47" real="xxxxxxxx-+" met="-+-+-+-+-+">So when the song died did the kiss unclose;</l>
+        <l n="48" real="xxxxxxxxxx" met="-+-+-+-+-+">And her face fell back drowned, and was as grey</l>
+        <l n="49" real="xxxxxxx+-x" met="-+-+-+-+-+">As its grey eyes; and if it ever may</l>
+        <l n="50" real="xx-+xxxxxx" met="-+-+-+-+-+">Meet mine again I know not if Love knows.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabccb">
+        <l n="51" real="+-xxxxxxxx" met="-+-+-+-+-+">Only I know that I leaned low and drank</l>
+        <l n="52" real="xxxxx+-xxx" met="-+-+-+-+-+">A long draught from the water where she sank,</l>
+        <l n="53" real="xxxxxxxxxx" met="-+-+-+-+-+">Her breath and all her tears and all her soul:</l>
+        <l n="54" real="xxxxxxxxxx" met="-+-+-+-+-+">And as I leaned, I know I felt Love&#x27;s face</l>
+        <l n="55" real="xxxxxxx+-xx" met="-+-+-+-+-+-">Pressed on my neck with moan of pity and grace,</l>
+        <l n="56" real="xx+-xxxx+--" met="-+-+-+-+-+-">Till both our heads were in his aureole.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="without-her" n="L20970">
+      <head>Without Her</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:without-her</idno><idno type="laurel-id">L20970</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">What of her glass without her? The blank grey</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">There where the pool is blind of the moon&#x27;s face.</l>
+        <l n="3" real="xxxxxxx+-x" met="-+-+-+-+-+">Her dress without her? The tossed empty space</l>
+        <l n="4" real="xxxxxxxx-+" met="-+-+-+-+-+">Of cloud-rack whence the moon has passed away.</l>
+        <l n="5" real="xxxxxx-+-x" met="-+-+-+-+-+">Her paths without her? Day&#x27;s appointed sway</l>
+        <l n="6" real="x+x+-xx+-x" met="-+-+-+-+-+">Usurped by desolate night. Her pillowed place</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Without her? Tears, ah me! for love&#x27;s good grace,</l>
+        <l n="8" real="xx-+--xxxx" met="-+-+-+-+-+">And cold forgetfulness of night or day.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">What of the heart without her? Nay, poor heart,</l>
+        <l n="10" real="xxxx-+xxxx" met="-+-+-+-+-+">Of thee what word remains ere speech be still?</l>
+        <l n="11" real="x+-x+-xxx" met="+-+-+-+-+">A wayfarer by barren ways and chill,</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">Steep ways and weary, without her thou art,</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">Where the long cloud, the long wood&#x27;s counterpart,</l>
+        <l n="14" real="x+-+-xx+-x" met="-+-+-+-+-+">Sheds doubled darkness up the labouring hill.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-s-fatality" n="L20971">
+      <head>Love&#x27;s Fatality</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-s-fatality</idno><idno type="laurel-id">L20971</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbac-bc">
+        <l n="1" real="xxxxxx-+xx" met="-+-+-+-+-+">Sweet Love,--but oh! most dread Desire of Love</l>
+        <l n="2" real="x+-xxxxxxx" met="-+-+-+-+-+">Life-thwarted. Linked in gyves I saw them stand,</l>
+        <l n="3" real="x+-xx+-xxx" met="-+-+-+-+-+">Love shackled with Vain-longing, hand to hand:</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">And one was eyed as the blue vault above:</l>
+        <l n="5" real="xxx+-xx+xx" met="-+-+-+-+-+">But hope tempestuous like a fire-cloud hove</l>
+        <l n="6" real="xx+-x+xxxxx" met="-+-+-+-+-+-">I&#x27; the other&#x27;s gaze, even as in his whose wand</l>
+        <l n="7" real="+-xxxxx+xx" met="-+-+-+-+-+">Vainly all night with spell-wrought power has spann&#x27;d</l>
+        <l n="8" real="x-+-xxxx+-x" met="-+-+-+-+-+-">The unyielding caves of some deep treasure-trove.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaa-">
+        <l n="9" real="+-xxx+-xxx" met="-+-+-+-+-+">Also his lips, two writhen flakes of flame,</l>
+        <l n="10" real="xx-+xxxxxx" met="-+-+-+-+-+">Made moan: &#x27;Alas O Love, thus leashed with me!</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">Wing-footed thou, wing-shouldered, once born free:</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">And I, thy cowering self, in chains grown tame,</l>
+        <l n="13" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Bound to thy body and soul, named with thy name,</l>
+        <l n="14" real="x+-x+-x-+--" met="-+-+-+-+-+-">Life&#x27;s iron heart, even Love&#x27;s Fatality.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="stillborn-love" n="L20972">
+      <head>Stillborn Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:stillborn-love</idno><idno type="laurel-id">L20972</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="x+xxxxxxxx" met="-+-+-+-+-+">The hour which might have been yet might not be,</l>
+        <l n="2" real="xxx+-x-+xx" met="-+-+-+-+-+">Which man&#x27;s and woman&#x27;s heart conceived and bore</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Yet whereof life was barren,--on what shore</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">Bides it the breaking of Time&#x27;s weary sea?</l>
+        <l n="5" real="xxxx+-xxxx" met="-+-+-+-+-+">Bondchild of all consummate joys set free,</l>
+        <l n="6" real="x+xxxxxxxx" met="-+-+-+-+-+">It somewhere sighs and serves, and mute before</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">The house of Love, hears through the echoing door</l>
+        <l n="8" real="x+-+x+-xxxx" met="-+-+-+-+-+-">His hours elect in choral consonancy.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">But lo! what wedded souls now hand in hand</l>
+        <l n="10" real="-+-xxxx-+-x" met="-+-+-+-+-+-">Together tread at last the immortal strand</l>
+        <l n="11" real="xxx+-+-xxx" met="-+-+-+-+-+">With eyes where burning memory lights love home?</l>
+        <l n="12" real="xxx+-+x+xx" met="-+-+-+-+-+">Lo! how the little outcast hour has turned</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">And leaped to them and in their faces yearned:--</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">&#x27;I am your child: O parents, ye have come!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="herself" n="L20973">
+      <head>Herself</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:herself</idno><idno type="laurel-id">L20973</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa-ba">
+        <l n="1" real="xxx+-x-+xx" met="-+-+-+-+-+">To be a sweetness more desired than Spring;</l>
+        <l n="2" real="x+--+-x-+--" met="-+-+-+-+-+-">A bodily beauty more acceptable</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Than the wild rose-tree&#x27;s arch that crowns the fell;</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">To be an essence more environing</l>
+        <l n="5" real="xxxxx+-+--" met="-+-+-+-+-+">Than wine&#x27;s drained juice; a music ravishing</l>
+        <l n="6" real="xxx+--xx+--" met="-+-+-+-+-+-">More than the passionate pulse of Philomel;--</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">To be all this &#x27;neath one soft bosom&#x27;s swell</l>
+        <l n="8" real="xxx+xxxxxx" met="-+-+-+-+-+">That is the flower of life:--how strange a thing!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">How strange a thing to be what Man can know</l>
+        <l n="10" real="xxx+-+-+-xx" met="-+-+-+-+-+-">But as a sacred secret! Heaven&#x27;s own screen</l>
+        <l n="11" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Hides her soul&#x27;s purest depth and loveliest glow;</l>
+        <l n="12" real="+--+xxxx-+" met="-+-+-+-+-+">Closely withheld, as all things most unseen,--</l>
+        <l n="13" real="xx+xxxxxxx" met="-+-+-+-+-+">The wave-bowered pearl, the heart-shaped seal of green</l>
+        <l n="14" real="xxx+-x-+xx" met="-+-+-+-+-+">That flecks the snowdrop underneath the snow.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="her-love" n="L20974">
+      <head>Her Love</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:her-love</idno><idno type="laurel-id">L20974</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ab-aabb-">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">She loves him; for her infinite soul is Love,</l>
+        <l n="2" real="xxx+x+-xxx" met="-+-+-+-+-+">And he her lodestar. Passion in her is</l>
+        <l n="3" real="xx+-x+xxxx" met="-+-+-+-+-+">A glass facing his fire, where the bright bliss</l>
+        <l n="4" real="x+-xxx-+xx" met="-+-+-+-+-+">Is mirrored, and the heat returned. Yet move</l>
+        <l n="5" real="xxx+-+-xxx" met="-+-+-+-+-+">That glass, a stranger&#x27;s amorous flame to prove,</l>
+        <l n="6" real="xxxxx+-+--" met="-+-+-+-+-+">And it shall turn, by instant contraries,</l>
+        <l n="7" real="xxxxxxx+xx" met="-+-+-+-+-+">Ice to the moon; while her pure fire to his</l>
+        <l n="8" real="xxxxxxxxx+x" met="-+-+-+-+-+-">For whom it burns, clings close i&#x27; the heart&#x27;s alcove.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Lo! they are one. With wifely breast to breast</l>
+        <l n="10" real="x+-xx+-x-+" met="-+-+-+-+-+">And circling arms, she welcomes all command</l>
+        <l n="11" real="xxxxx+-+-x" met="-+-+-+-+-+">Of love,--her soul to answering ardours fann&#x27;d:</l>
+        <l n="12" real="xxxxx+xxxx" met="-+-+-+-+-+">Yet as morn springs or twilight sinks to rest,</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah! who shall say she deems not loveliest</l>
+        <l n="14" real="x+x+--xxxx" met="-+-+-+-+-+">The hour of sisterly sweet hand-in-hand?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="her-heaven" n="L20975">
+      <head>Her Heaven</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:her-heaven</idno><idno type="laurel-id">L20975</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaab-a">
+        <l n="1" real="xxxxx+xxxx" met="-+-+-+-+-+">If to grow old in Heaven is to grow young,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">(As the Seer saw and said,) then blest were he</l>
+        <l n="3" real="xxxxxxx+xx" met="-+-+-+-+-+">With youth forevermore, whose heaven should be</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">True Woman, she whom these weak notes have sung.</l>
+        <l n="5" real="xx-+-+xxxx" met="-+-+-+-+-+">Here and hereafter,--choir-strains of her tongue,--</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">Sky-spaces of her eyes,--sweet signs that flee</l>
+        <l n="7" real="xxxx-+-+-x-" met="-+-+-+-+-+-">About her soul&#x27;s immediate sanctuary,--</l>
+        <l n="8" real="x+-xx+--xxx" met="-+-+-+-+-+-">Were Paradise all uttermost worlds among.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a--abb">
+        <l n="9" real="x+xxx+-xxx" met="-+-+-+-+-+">The sunrise blooms and withers on the hill</l>
+        <l n="10" real="x+-xxxxx+-x" met="-+-+-+-+-+-">Like any hillflower; and the noblest troth</l>
+        <l n="11" real="xxxxxx+-+-x" met="-+-+-+-+-+-">Dies here to dust. Yet shall Heaven&#x27;s promise clothe</l>
+        <l n="12" real="+xx+-xx+-x" met="-+-+-+-+-+">Even yet those lovers who have cherished still</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">This test for love:--in every kiss sealed fast</l>
+        <l n="14" real="xxxxxx-+xx" met="-+-+-+-+-+">To feel the first kiss and forebode the last.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="love-s-last-gift" n="L20976">
+      <head>Love&#x27;s Last Gift</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:love-s-last-gift</idno><idno type="laurel-id">L20976</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaab-a">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">Love to his singer held a glistening leaf,</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">And said: &#x27;The rose-tree and the apple-tree</l>
+        <l n="3" real="xxxxx+xxxx" met="-+-+-+-+-+">Have fruits to vaunt or flowers to lure the bee;</l>
+        <l n="4" real="x+-xxxx+-x" met="-+-+-+-+-+">And golden shafts are in the feathered sheaf</l>
+        <l n="5" real="xxx+-+-xxx" met="-+-+-+-+-+">Of the great harvest-marshal, the year&#x27;s chief,</l>
+        <l n="6" real="-+-+-xxxxx" met="-+-+-+-+-+">Victorious Summer; aye, and &#x27;neath warm sea</l>
+        <l n="7" real="x+-+-x-+---" met="-+-+-+-+-+-">Strange secret grasses lurk inviolably</l>
+        <l n="8" real="xxx+-+-xxx" met="-+-+-+-+-+">Between the filtering channels of sunk reef.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">All are my blooms; and all sweet blooms of love</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">To thee I gave while Spring and Summer sang;</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">But Autumn stops to listen, with some pang</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">From those worse things the wind is moaning of.</l>
+        <l n="13" real="+-x+-xx+-x" met="-+-+-+-+-+">Only this laurel dreads no winter days:</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Take my last gift; thy heart hath sung my praise.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="transfigured-life" n="L20977">
+      <head>Transfigured Life</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:transfigured-life</idno><idno type="laurel-id">L20977</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-x-x" met="-+-+-+-+-+">As growth of form or momentary glance</l>
+        <l n="2" real="xxx+-x-+xx" met="-+-+-+-+-+">In a child&#x27;s features will recall to mind</l>
+        <l n="3" real="x+-xx+-x-+" met="-+-+-+-+-+">The father&#x27;s with the mother&#x27;s face combin&#x27;d,--</l>
+        <l n="4" real="xx-+x+-x-+" met="-+-+-+-+-+">Sweet interchange that memories still enhance:</l>
+        <l n="5" real="xxx+xxxx-+" met="-+-+-+-+-+">And yet, as childhood&#x27;s years and youth&#x27;s advance,</l>
+        <l n="6" real="x+-+-xxxxx" met="-+-+-+-+-+">The gradual mouldings leave one stamp behind,</l>
+        <l n="7" real="xxx+-+-xxx" met="-+-+-+-+-+">Till in the blended likeness now we find</l>
+        <l n="8" real="x+--xx+-+--" met="-+-+-+-+-+-">A separate man&#x27;s or woman&#x27;s countenance:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">So in the Song, the singer&#x27;s Joy and Pain,</l>
+        <l n="10" real="x+-+-+-x-+" met="-+-+-+-+-+">Its very parents, evermore expand</l>
+        <l n="11" real="xxx+-+-x-+" met="-+-+-+-+-+">To bid the passion&#x27;s fullgrown birth remain,</l>
+        <l n="12" real="xxxxxx+-+-x" met="-+-+-+-+-+-">By Art&#x27;s transfiguring essence subtly spann&#x27;d;</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">And from that song-cloud shaped as a man&#x27;s hand</l>
+        <l n="14" real="xxxxxx-+-x" met="-+-+-+-+-+">There comes the sound as of abundant rain.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-song-throe" n="L20978">
+      <head>The Song-Throe</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-song-throe</idno><idno type="laurel-id">L20978</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a--aabba">
+        <l n="1" real="xxxxxxxx-+" met="-+-+-+-+-+">By thine own tears thy song must tears beget,</l>
+        <l n="2" real="x+-+-+-xxx" met="-+-+-+-+-+">O Singer! Magic mirror thou hast none</l>
+        <l n="3" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Except thy manifest heart; and save thine own</l>
+        <l n="4" real="+-x+-xx+--" met="-+-+-+-+-+">Anguish or ardour, else no amulet.</l>
+        <l n="5" real="+-xxxxx+-x" met="-+-+-+-+-+">Cisterned in Pride, verse is the feathery jet</l>
+        <l n="6" real="x+-xx+-xxx" met="-+-+-+-+-+">Of soulless air-flung fountains; nay, more dry</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Than the Dead Sea for throats that thirst and sigh,</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">That song o&#x27;er which no singer&#x27;s lids grew wet.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">The Song-god--He the Sun-god--is no slave</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">Of thine: thy Hunter he, who for thy soul</l>
+        <l n="11" real="+-xxxx+--+" met="-+-+-+-+-+">Fledges his shaft: to no august control</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">Of thy skilled hand his quivered store he gave:</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">But if thy lips&#x27; loud cry leap to his smart,</l>
+        <l n="14" real="x-+-+xxx+-x" met="-+-+-+-+-+-">The inspir&#x27;d recoil shall pierce thy brother&#x27;s heart.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-soul-s-sphere" n="L20979">
+      <head>The Soul&#x27;s Sphere</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-soul-s-sphere</idno><idno type="laurel-id">L20979</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="x+-xxxx+--" met="-+-+-+-+-+">Come prisoned moon in steep cloud-fastnesses,--</l>
+        <l n="2" real="xxxxx+-xx+-" met="-+-+-+-+-+-">Throned queen and thralled; some dying sun whose pyre</l>
+        <l n="3" real="xx-+-+---+-" met="-+-+-+-+-+-">Blazed with momentous memorable fire;--</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Who hath not yearned and fed his heart with these?</l>
+        <l n="5" real="x+-xx+-x-+" met="-+-+-+-+-+">Who, sleepless, hath not anguished to appease</l>
+        <l n="6" real="xxx+xxxxxx" met="-+-+-+-+-+">Tragical shadow&#x27;s realm of sound and sight</l>
+        <l n="7" real="-+-xx-+--x" met="-+-+-+-+-+">Conjectured in the lamentable night?...</l>
+        <l n="8" real="xxxxx+--+--" met="-+-+-+-+-+-">Lo! the soul&#x27;s sphere of infinite images!</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxxx+x" met="-+-+-+-+-+">What sense shall count them? Whether it forecast</l>
+        <l n="10" real="xxx+x+-xxx" met="-+-+-+-+-+">The rose-winged hours that flutter in the van</l>
+        <l n="11" real="xx-+--xxxx" met="-+-+-+-+-+">Of Love&#x27;s unquestioning unreveale&#x27;d span,--</l>
+        <l n="12" real="+-x+-+-xxx" met="-+-+-+-+-+">Visions of golden futures: or that last</l>
+        <l n="13" real="x+-xx-+-x-x" met="-+-+-+-+-+-">Wild pageant of the accumulated past</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">That clangs and flashes for a drowning man.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="inclusiveness" n="L20980">
+      <head>Inclusiveness</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:inclusiveness</idno><idno type="laurel-id">L20980</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xxxx+-x" met="-+-+-+-+-+">The changing guests, each in a different mood,</l>
+        <l n="2" real="xxx+x+-x-+" met="-+-+-+-+-+">Sit at the roadside table and arise:</l>
+        <l n="3" real="x+-xxxxx+x" met="-+-+-+-+-+">And every life among them in likewise</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">Is a soul&#x27;s board set daily with new food.</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">What man has bent o&#x27;er his son&#x27;s sleep, to brood</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">How that face shall watch his when cold it lies?--</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">Or thought, as his own mother kissed his eyes,</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">Of what her kiss was when his father wooed?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaba">
+        <l n="9" real="xxx+-xxxxx" met="-+-+-+-+-+">May not this ancient room thou sit&#x27;st in dwell</l>
+        <l n="10" real="x+--+-xxxxx" met="-+-+-+-+-+-">In separate living souls for joy or pain?</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Nay, all its corners may be painted plain</l>
+        <l n="12" real="x+x+-xxxxx" met="-+-+-+-+-+">Where Heaven shows pictures of some life spent well;</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">And may be stamped, a memory all in vain,</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">Upon the sight of lidless eyes in Hell.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="ardour-and-memory" n="L20981">
+      <head>Ardour and Memory</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:ardour-and-memory</idno><idno type="laurel-id">L20981</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="x+xxx+xxxx" met="-+-+-+-+-+">The cuckoo-throb, the heartbeat of the Spring;</l>
+        <l n="2" real="x+-xxxxxxx" met="-+-+-+-+-+">The rosebud&#x27;s blush that leaves it as it grows</l>
+        <l n="3" real="xxxxxx-+-x" met="-+-+-+-+-+">Into the full-eyed fair unblushing rose;</l>
+        <l n="4" real="x+-xx+-+-x" met="-+-+-+-+-+">The summer clouds that visit every wing</l>
+        <l n="5" real="x+-x+xxx+x-" met="-+-+-+-+-+-">With fires of sunrise and of sunsetting;</l>
+        <l n="6" real="x+-+-xxxxx" met="-+-+-+-+-+">The furtive flickering streams to light re-born</l>
+        <l n="7" real="xxxxx+--xxx" met="-+-+-+-+-+-">&#x27;Mid airs new-fledged and valorous lusts of morn,</l>
+        <l n="8" real="xxx+-xx+xx" met="-+-+-+-+-+">While all the daughters of the daybreak sing:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba-b">
+        <l n="9" real="x+-xx+-xxx" met="-+-+-+-+-+">These ardour loves, and memory: and when flown</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">All joys, and through dark forest-boughs in flight</l>
+        <l n="11" real="xxx+-+--xx" met="-+-+-+-+-+">The wind swoops onward brandishing the light,</l>
+        <l n="12" real="+xxxx+-x-+" met="-+-+-+-+-+">Even yet the rose-tree&#x27;s verdure left alone</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">Will flush all ruddy though the rose be gone;</l>
+        <l n="14" real="x+-xx+-+--" met="-+-+-+-+-+">With ditties and with dirges infinite.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="known-in-vain" n="L20982">
+      <head>Known in Vain</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:known-in-vain</idno><idno type="laurel-id">L20982</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="xxxxx+-+-x" met="-+-+-+-+-+">As two whose love, first foolish, widening scope,</l>
+        <l n="2" real="x+--x+-xxx" met="-+-+-+-+-+">Knows suddenly, with music high and soft,</l>
+        <l n="3" real="x+-x+-xxxxx" met="-+-+-+-+-+-">The Holy of holies; who because they scoff&#x27;d</l>
+        <l n="4" real="xx-+xxxxxx" met="-+-+-+-+-+">Are now amazed with shame, nor dare to cope</l>
+        <l n="5" real="xxxx-+x+xx" met="-+-+-+-+-+">With the whole truth aloud, lest heaven should ope;</l>
+        <l n="6" real="xxx+-xxxx" met="+-+-+-+-+">Yet, at their meetings, laugh not as they</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">In speech; nor speak, at length; but sitting oft</l>
+        <l n="8" real="-+-xx+-xxx" met="-+-+-+-+-+">Together, within hopeless sight of hope</l>
+        <l n="9" real="x+-x+-xx+--" met="-+-+-+-+-+-">For hours are silent:--So it happeneth</l>
+        <l n="10" real="xxxx-+xxxx" met="-+-+-+-+-+">When Work and Will awake too late, to gaze</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">After their life sailed by, and hold their breath.</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah! who shall dare to search through what sad maze</l>
+        <l n="13" real="x+xxxxxxxx" met="-+-+-+-+-+">Thenceforth their incommunicable ways</l>
+        <l n="14" real="+-x+-x-xxx" met="-+-+-+-+-+">Follow the desultory feet of Death?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="heart-of-the-night" n="L20983">
+      <head>Heart of the Night</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:heart-of-the-night</idno><idno type="laurel-id">L20983</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa--a">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">From child to youth; from youth to arduous man;</l>
+        <l n="2" real="x+--x+-xxx" met="-+-+-+-+-+">From lethargy to fever of the heart;</l>
+        <l n="3" real="x+-xxxxx-+" met="-+-+-+-+-+">From faithful life to dream-dowered days apart;</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">From trust to doubt; from doubt to brink of ban;--</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">Thus much of change in one swift cycle ran</l>
+        <l n="6" real="xx-+xxxxxx" met="-+-+-+-+-+">Till now. Alas, the soul!--how soon must she</l>
+        <l n="7" real="-+x+-x-+--" met="-+-+-+-+-+">Accept her primal immortality,--</l>
+        <l n="8" real="xx-+xxxx-+" met="-+-+-+-+-+">The flesh resume its dust whence it began?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">O Lord of work and peace! O Lord of life!</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">O Lord, the awful Lord of will! though late,</l>
+        <l n="11" real="+x-+xxx+--x" met="-+-+-+-+-+-">Even yet renew this soul with duteous breath:</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">That when the peace is garnered in from strife,</l>
+        <l n="13" real="xx-+xx-+-x" met="-+-+-+-+-+">The work retrieved, the will regenerate,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">This soul may see thy face, O Lord of death!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-landmark" n="L20984">
+      <head>The Landmark</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-landmark</idno><idno type="laurel-id">L20984</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xxx+xxx+-x" met="-+-+-+-+-+">Was that the landmark? What,--the foolish well</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Whose wave, low down, I did not stoop to drink,</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">But sat and flung the pebbles from its brink</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">In sport to send its imaged skies pell-mell,</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">(And mine own image, had I noted well!)</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Was that my point of turning?--I had thought</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">The stations of my course should rise unsought,</l>
+        <l n="8" real="x+-xx+-+-x" met="-+-+-+-+-+">As altar-stone or ensigned citadel.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">But lo! the path is missed, I must go back,</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">And thirst to drink when next I reach the spring</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Which once I stained, which since may have grown black.</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet though no light be left nor bird now sing</l>
+        <l n="13" real="xxxxxxx+--" met="-+-+-+-+-+">As here I turn, I&#x27;ll thank God, hastening,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">That the same goal is still on the same track.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-dark-day" n="L20985">
+      <head>A Dark Day</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:a-dark-day</idno><idno type="laurel-id">L20985</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba-bba">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">The gloom that breathes upon me with these airs</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Is like the drops which strike the traveller&#x27;s brow</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">Who knows not, darkling, if they bring him now</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">Fresh storm, or be old rain the covert bears.</l>
+        <l n="5" real="xxx+x+-xxx" met="-+-+-+-+-+">Ah! bodes this hour some harvest of new tares,</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">Or hath but memory of the day whose plough</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">Sowed hunger once,--the night at length when thou,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">O prayer found vain, didst fall from out my prayers?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-b">
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">How prickly were the growths which yet how smooth,</l>
+        <l n="10" real="-+xxxxxx+-x" met="-+-+-+-+-+-">Along the hedgerows of this journey shed,</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Lie by Time&#x27;s grace till night and sleep may soothe!</l>
+        <l n="12" real="+xxxxxxxxx" met="-+-+-+-+-+">Even as the thistledown from pathsides dead</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">Gleaned by a girl in autumns of her youth,</l>
+        <l n="14" real="xxxxxxx+-x" met="-+-+-+-+-+">Which one new year makes soft her marriage-bed.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="autumn-idleness" n="L20986">
+      <head>Autumn Idleness</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:autumn-idleness</idno><idno type="laurel-id">L20986</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+xx-+-xxx" met="-+-+-+-+-+">This sunlight shames November where he grieves</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">In dead red leaves, and will not let him shun</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">The day, though bough with bough be over-run.</l>
+        <l n="4" real="xxx+-+-x-+" met="-+-+-+-+-+">But with a blessing every glade receives</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">High salutation; while from hillock-eaves</l>
+        <l n="6" real="xxx+-x-xxx" met="-+-+-+-+-+">The deer gaze calling, dappled white and dun,</l>
+        <l n="7" real="xx++--xxxx" met="-+-+-+-+-+">As if, being foresters of old, the sun</l>
+        <l n="8" real="xxxxxxx+-x" met="-+-+-+-+-+">Had marked them with the shade of forest-leaves.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababab">
+        <l n="9" real="xxxx-+x+-x" met="-+-+-+-+-+">Here dawn to-day unveiled her magic glass;</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Here noon now gives the thirst and takes the dew;</l>
+        <l n="11" real="xxxxx+-xxx" met="-+-+-+-+-+">Till eve bring rest when other good things pass.</l>
+        <l n="12" real="xxxx+xx+-+" met="-+-+-+-+-+">And here the lost hours the lost hours renew</l>
+        <l n="13" real="xxxxx+xxxx" met="-+-+-+-+-+">While I still lead my shadow o&#x27;er the grass,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Nor know, for longing, that which I should do.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-hill-summit" n="L20987">
+      <head>The Hill Summit</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-hill-summit</idno><idno type="laurel-id">L20987</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abb-acca">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">This feast-day of the sun, his altar there</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">In the broad west has blazed for vesper-song;</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">And I have loitered in the vale too long</l>
+        <l n="4" real="xxxx-+-xxx" met="-+-+-+-+-+">And gaze now a belated worshipper.</l>
+        <l n="5" real="xxxx-+xxxx" met="-+-+-+-+-+">Yet may I not forget that I was &#x27;ware,</l>
+        <l n="6" real="x+--xxxx+--" met="-+-+-+-+-+-">So journeying, of his face at intervals</l>
+        <l n="7" real="xxxxxx-+-x" met="-+-+-+-+-+">Transfigured where the fringed horizon falls,--</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">A fiery bush with coruscating hair.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And now that I have climbed and won this height,</l>
+        <l n="10" real="xxx+-xx+-x" met="-+-+-+-+-+">I must tread downward through the sloping shade</l>
+        <l n="11" real="x+-x-+-xxx" met="-+-+-+-+-+">And travel the bewildered tracks till night.</l>
+        <l n="12" real="xxx+xxxxxx" met="-+-+-+-+-+">Yet for this hour I still may here be stayed</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">And see the gold air and the silver fade</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">And the last bird fly into the last light.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-choice-i" n="L20988">
+      <head>The Choice I</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-choice-i</idno><idno type="laurel-id">L20988</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaab-a">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Eat thou and drink; to-morrow thou shalt die.</l>
+        <l n="2" real="+-xxxx++-x" met="-+-+-+-+-+">Surely the earth, that&#x27;s wise being very old,</l>
+        <l n="3" real="xx+xxxxxxx" met="-+-+-+-+-+">Needs not our help. Then loose me, love, and hold</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">Thy sultry hair up from my face that I</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">May pour for thee this yellow wine, brim-high,</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Till round the glass thy fingers glow like gold.</l>
+        <l n="7" real="xxx+xxx+-x" met="-+-+-+-+-+">We&#x27;ll drown all hours: thy song, while hours toil&#x27;d,</l>
+        <l n="8" real="xxx+-xx+-x" met="-+-+-+-+-+">Shall leap, as fountains veil the changing sky.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abccba">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">Now kiss, and think that there are really those,</l>
+        <l n="10" real="xxx+-+-x-+" met="-+-+-+-+-+">My own high-bosomed beauty, who increase</l>
+        <l n="11" real="xxxxxxxx+x" met="-+-+-+-+-+">Vain gold, vain lore, and yet might choose our way</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">Through many days they toil; then comes a day</l>
+        <l n="13" real="xxx+-+-xxx" met="-+-+-+-+-+">They die not,--never having lived,--but cease;</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">And round their narrow lips the mould falls close.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-choice-ii" n="L20989">
+      <head>The Choice II</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-choice-ii</idno><idno type="laurel-id">L20989</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba-">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Watch thou and fear; to-morrow thou shalt die.</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Or art thou sure thou shalt have time for death?</l>
+        <l n="3" real="xxxxxxx+--" met="-+-+-+-+-+">Is not the day which God&#x27;s word promiseth</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">To come man knows not when? In yonder sky,</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Now while we speak, the sun speeds forth: can I</l>
+        <l n="6" real="xx-+xxxxxx" met="-+-+-+-+-+">Or thou assure him of his goal? God&#x27;s breath</l>
+        <l n="7" real="+-xx+-+-+--" met="-+-+-+-+-+-">Even at the moment haply quickeneth</l>
+        <l n="8" real="xxxxxx+-+xx" met="-+-+-+-+-+-">The air to a flame; till spirits, always nigh</l>
+        <l n="9" real="xxxxxxx+xx" met="-+-+-+-+-+">Though screened and hid, shall walk the daylight here.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba-">
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">And dost thou prate of all that man shall do?</l>
+        <l n="11" real="xxxxxx-+xx" met="-+-+-+-+-+">Canst thou, who hast but plagues, presume to be</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">Glad in his gladness that comes after thee?</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Will his strength slay thy worm in Hell? Go to:</l>
+        <l n="14" real="+-x+--xxxx" met="-+-+-+-+-+">Cover thy countenance, and watch, and fear.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ab-aabba">
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">Think thou and act; to-morrow thou shalt die.</l>
+        <l n="16" real="-+xxxxxxxx" met="-+-+-+-+-+">Outstretched in the sun&#x27;s warmth upon the shore,</l>
+        <l n="17" real="xxx+-xxxxx" met="-+-+-+-+-+">Thou say&#x27;st: &#x27;Man&#x27;s measured path is all gone o&#x27;er:</l>
+        <l n="18" real="xxxx+-xxxx" met="-+-+-+-+-+">Up all his years, steeply, with strain and sigh,</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">Man clomb until he touched the truth; and I,</l>
+        <l n="20" real="+xxxxxx+-x" met="-+-+-+-+-+">Even I, am he whom it was destined for.&#x27;</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">How should this be? Art thou then so much more</l>
+        <l n="22" real="xxxxxxxxxx" met="-+-+-+-+-+">Than they who sowed, that thou shouldst reap thereby?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="abab-b">
+        <l n="23" real="xxx+-xxxxx" met="-+-+-+-+-+">Nay, come up hither. From this wave-washed mound</l>
+        <l n="24" real="xxx+-xxxxx" met="-+-+-+-+-+">Unto the furthest flood-brim look with me;</l>
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">Then reach on with thy thought till it be drown&#x27;d.</l>
+        <l n="26" real="xxx+-xxxxx" met="-+-+-+-+-+">Miles and miles distant though the grey line be,</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">And though thy soul sail leagues and leagues beyond,--</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Still, leagues beyond those leagues there is more sea.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="st-luke-the-painter" n="L20990">
+      <head>St. Luke the Painter</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:st-luke-the-painter</idno><idno type="laurel-id">L20990</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="x+-xxx-+--" met="-+-+-+-+-+">Give honour unto Luke Evangelist;</l>
+        <l n="2" real="xxxxxx+-x" met="+-+-+-+-+">For he it was (the aged legends say)</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Who first taught Art to fold her hands and pray.</l>
+        <l n="4" real="+-xxxxxxxx" met="-+-+-+-+-+">Scarcely at once she dared to rend the mist</l>
+        <l n="5" real="x+-+-xx+-x" met="-+-+-+-+-+">Of devious symbols: but soon having wist</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">How sky-breadth and field-silence and this day</l>
+        <l n="7" real="x+-+-xx+-x" met="-+-+-+-+-+">Are symbols also in some deeper way,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">She looked through these to God and was God&#x27;s priest.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abccba">
+        <l n="9" real="xxxxxx-+xx" met="-+-+-+-+-+">And if, past noon, her toil began to irk,</l>
+        <l n="10" real="xxx+--xxxx" met="-+-+-+-+-+">And she sought talismans, and turned in vain</l>
+        <l n="11" real="x+-x-+-xxx" met="-+-+-+-+-+">To soulless self-reflections of man&#x27;s skill,</l>
+        <l n="12" real="xxxxx+xxxx" met="-+-+-+-+-+">Yet now, in this the twilight, she might still</l>
+        <l n="13" real="xxx+-xxx-+" met="-+-+-+-+-+">Kneel in the latter grass to pray again,</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Ere the night cometh and she may not work.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="not-as-these" n="L20991">
+      <head>Not as These</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:not-as-these</idno><idno type="laurel-id">L20991</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">&#x27;I am not as these are,&#x27; the poet saith</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">In youth&#x27;s pride, and the painter, among men</l>
+        <l n="3" real="xxx+-+-xxx" met="-+-+-+-+-+">At bay, where never pencil comes nor pen,</l>
+        <l n="4" real="xxxxxxx+-x" met="-+-+-+-+-+">And shut about with his own frozen breath.</l>
+        <l n="5" real="x+-xx+-xxx" met="-+-+-+-+-+">To others, for whom only rhyme wins faith</l>
+        <l n="6" real="x+-+-xx+-x" met="-+-+-+-+-+">As poets,--only paint as painters,--then</l>
+        <l n="7" real="xxxxx+-x-+" met="-+-+-+-+-+">He turns in the cold silence; and again</l>
+        <l n="8" real="+-xxxxxxxx" met="-+-+-+-+-+">Shrinking, &#x27;I am not as these are,&#x27; he saith.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">And say that this is so, what follows it?</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">For were thine eyes set backwards in thine head,</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Such words were well; but they see on, and far.</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Unto the lights of the great Past, new-lit</l>
+        <l n="13" real="xxx+-xxx-+" met="-+-+-+-+-+">Fair for the Future&#x27;s track, look thou instead,--</l>
+        <l n="14" real="xx-+xxxxxx" met="-+-+-+-+-+">Say thou instead &#x27;I am not as these are.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-husbandmen" n="L20992">
+      <head>The Husbandmen</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-husbandmen</idno><idno type="laurel-id">L20992</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="xxxxxxx+x-" met="-+-+-+-+-+">Though God, as one that is an householder,</l>
+        <l n="2" real="xxx+xxxxxx" met="-+-+-+-+-+">Called these to labour in his vine-yard first,</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Before the husk of darkness was well burst</l>
+        <l n="4" real="+-xxxxxx-+" met="-+-+-+-+-+">Bidding them grope their way out and bestir,</l>
+        <l n="5" real="x+-xx+-+-x" met="-+-+-+-+-+">(Who, questioned of their wages, answered, &#x27;Sir,</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Unto each man a penny:&#x27;) though the worst</l>
+        <l n="7" real="+-xxxxxxxx" met="-+-+-+-+-+">Burthen of heat was theirs and the dry thirst:</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Though God hath since found none such as these were</l>
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">To do their work like them:--Because of this</l>
+        <l n="10" real="xxx+-xx+-x" met="-+-+-+-+-+">Stand not ye idle in the market-place.</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">Which of ye knoweth he is not that last</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Who may be first by faith and will?--yea, his</l>
+        <l n="13" real="xxxxxx-+-x" met="-+-+-+-+-+">The hand which after the appointed days</l>
+        <l n="14" real="x+xxx+-xxx" met="-+-+-+-+-+">And hours shall give a Future to their Past?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="soul-s-beauty" n="L20993">
+      <head>Soul&#x27;s Beauty</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:soul-s-beauty</idno><idno type="laurel-id">L20993</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbacbbc">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Under the arch of Life, where love and death,</l>
+        <l n="2" real="+-x+-xxxxx" met="-+-+-+-+-+">Terror and mystery, guard her shrine, I saw</l>
+        <l n="3" real="+-xxxxxxxx" met="-+-+-+-+-+">Beauty enthroned; and though her gaze struck awe,</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">I drew it in as simply as my breath.</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Hers are the eyes which, over and beneath,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">The sky and sea bend on thee,--which can draw,</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">By sea or sky or woman, to one law,</l>
+        <l n="8" real="x-+-+-xxxxx" met="-+-+-+-+-+-">The allotted bondman of her palm and wreath.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-bb-a">
+        <l n="9" real="xxx+-+-xxx" met="-+-+-+-+-+">This is that Lady Beauty, in whose praise</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Thy voice and hand shake still,--long known to thee</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">By flying hair and fluttering hem,--the beat</l>
+        <l n="12" real="+-x+-xxxxx" met="-+-+-+-+-+">Following her daily of thy heart and feet,</l>
+        <l n="13" real="x+---x--+--" met="-+-+-+-+-+-">How passionately and irretrievably,</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">In what fond flight, how many ways and days!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="body-s-beauty" n="L20994">
+      <head>Body&#x27;s Beauty</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:body-s-beauty</idno><idno type="laurel-id">L20994</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="x+-xx+-xxx" met="-+-+-+-+-+">Of Adam&#x27;s first wife, Lilith, it is told</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">(The witch he loved before the gift of Eve,)</l>
+        <l n="3" real="xxxxxxxx-+" met="-+-+-+-+-+">That, ere the snake&#x27;s, her sweet tongue could deceive,</l>
+        <l n="4" real="xx-+-xxxxx" met="-+-+-+-+-+">And her enchanted hair was the first gold.</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">And still she sits, young while the earth is old,</l>
+        <l n="6" real="x+--x-+-+--" met="-+-+-+-+-+-">And, subtly of herself contemplative,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Draws men to watch the bright web she can weave,</l>
+        <l n="8" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Till heart and body and life are in its hold.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="xxx+-xx+xx" met="-+-+-+-+-+">The rose and poppy are her flowers; for where</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Is he not found, O Lilith, whom shed scent</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">And soft-shed kisses and soft sleep shall snare?</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Lo! as that youth&#x27;s eyes burned at thine, so went</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Thy spell through him, and left his straight neck bent</l>
+        <l n="14" real="xxxxx+-+-x" met="-+-+-+-+-+">And round his heart one strangling golden hair.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-monochord" n="L20995">
+      <head>The Monochord</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-monochord</idno><idno type="laurel-id">L20995</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaa-ba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">Is it this sky&#x27;s vast vault or ocean&#x27;s sound</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">That is Life&#x27;s self and draws my life from me,</l>
+        <l n="3" real="xx+--+---+" met="-+-+-+-+-+">And by instinct ineffable decree</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">Holds my breath quailing on the bitter bound?</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">Nay, is it Life or Death, thus thunder-crown&#x27;d,</l>
+        <l n="6" real="xxxxxx-+--" met="-+-+-+-+-+">That &#x27;mid the tide of all emergency</l>
+        <l n="7" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Now notes my separate wave, and to what sea</l>
+        <l n="8" real="x+-+-+xxxx" met="-+-+-+-+-+">Its difficult eddies labour in the ground?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccb">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Oh! what is this that knows the road I came,</l>
+        <l n="10" real="xxxxxx-+xx" met="-+-+-+-+-+">The flame turned cloud, the cloud returned to flame,</l>
+        <l n="11" real="x+-+-xxxxx" met="-+-+-+-+-+">The lifted shifted steeps and all the way?--</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">That draws round me at last this wind-warm space,</l>
+        <l n="13" real="xx-+-x+-xxx" met="-+-+-+-+-+-">And in regenerate rapture turns my face</l>
+        <l n="14" real="xxx+-+-x-+" met="-+-+-+-+-+">Upon the devious coverts of dismay?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="from-dawn-to-noon" n="L20996">
+      <head>From Dawn to Noon</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:from-dawn-to-noon</idno><idno type="laurel-id">L20996</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">As the child knows not if his mother&#x27;s face</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">Be fair; nor of his elders yet can deem</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">What each most is; but as of hill or stream</l>
+        <l n="4" real="xxx+-x-+xx" met="-+-+-+-+-+">At dawn, all glimmering life surrounds his place:</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">Who yet, tow&#x27;rd noon of his half-weary race,</l>
+        <l n="6" real="+--+xxxxxx" met="-+-+-+-+-+">Pausing awhile beneath the high sun-beam</l>
+        <l n="7" real="x+-+-xxxxx" met="-+-+-+-+-+">And gazing steadily back,--as through a dream,</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">In things long past new features now can trace:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababba">
+        <l n="9" real="+-xxxxxxx+-" met="-+-+-+-+-+-">Even so the thought that is at length fullgrown</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Turns back to note the sun-smit paths, all grey</l>
+        <l n="11" real="xxxxxxxxx-+" met="-+-+-+-+-+-">And marvellous once, where first it walked alone;</l>
+        <l n="12" real="x+-x-+xxxxx" met="-+-+-+-+-+-">And haply doubts, amid the unblenching day,</l>
+        <l n="13" real="xxxx-+x+-x" met="-+-+-+-+-+">Which most or least impelled its onward way,--</l>
+        <l n="14" real="x-+xxxxxxx" met="-+-+-+-+-+">Those unknown things or these things overknown.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="memorial-thresholds" n="L20997">
+      <head>Memorial Thresholds</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:memorial-thresholds</idno><idno type="laurel-id">L20997</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxxx-x" met="-+-+-+-+-+">What place so strange,--though unrevealed snow</l>
+        <l n="2" real="xx-+---+-+" met="-+-+-+-+-+">With unimaginable fires arise</l>
+        <l n="3" real="xxxxx+-x-+" met="-+-+-+-+-+">At the earth&#x27;s end,--what passion of surprise</l>
+        <l n="4" real="xxx+xxxx-+" met="-+-+-+-+-+">Like frost-bound fire-girt scenes of long ago?</l>
+        <l n="5" real="xxxxxxx+xx" met="-+-+-+-+-+">Lo! this is none but I this hour; and lo!</l>
+        <l n="6" real="xxx+-xxxxx" met="-+-+-+-+-+">This is the very place which to mine eyes</l>
+        <l n="7" real="x+-+-xx-+--" met="-+-+-+-+-+-">Those mortal hours in vain immortalize,</l>
+        <l n="8" real="x+-xxx-+xx" met="-+-+-+-+-+">&#x27;Mid hurrying crowds, with what alone I know.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-aab">
+        <l n="9" real="+-xxx+-+-x" met="-+-+-+-+-+">City, of thine a single simple door,</l>
+        <l n="10" real="xxx+-+--xx" met="-+-+-+-+-+">By some new Power reduplicate, must be</l>
+        <l n="11" real="+-xxxxx-+--" met="-+-+-+-+-+-">Even yet my life-porch in eternity,</l>
+        <l n="12" real="+xx+-xxxxx" met="-+-+-+-+-+">Even with one presence filled, as once of yore</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">Or mocking winds whirl round a chaff-strown floor</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">Thee and thy years and these my words and me.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hoarded-joy" n="L20998">
+      <head>Hoarded Joy</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:hoarded-joy</idno><idno type="laurel-id">L20998</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abb-acca">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">I said: &#x27;Nay, pluck not,--let the first fruit be:</l>
+        <l n="2" real="+-xxxxxxxx" met="-+-+-+-+-+">Even as thou sayest, it is sweet and red,</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">But let it ripen still. The tree&#x27;s bent head</l>
+        <l n="4" real="xxxxxx-+--" met="-+-+-+-+-+">Sees in the stream its own fecundity</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">And bides the day of fulness. Shall not we</l>
+        <l n="6" real="xxx+xx-+xx" met="-+-+-+-+-+">At the sun&#x27;s hour that day possess the shade,</l>
+        <l n="7" real="xx+xxxx+-x" met="-+-+-+-+-+">And claim our fruit before its ripeness fade,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">And eat it from the branch and praise the tree?&#x27;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="9" real="xx-++xxxxx" met="-+-+-+-+-+">I say: &#x27;Alas! our fruit hath wooed the sun</l>
+        <l n="10" real="xxx+-xx-+xx" met="-+-+-+-+-+-">Too long,--&#x27;tis fallen and floats adown the stream.</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Lo, the last clusters! Pluck them every one,</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">And let us sup with summer; ere the gleam</l>
+        <l n="13" real="x+-xxxx+-x" met="-+-+-+-+-+">Of autumn set the year&#x27;s pent sorrow free,</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">And the woods wail like echoes from the sea.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="barren-spring" n="L20999">
+      <head>Barren Spring</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:barren-spring</idno><idno type="laurel-id">L20999</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-x-+" met="-+-+-+-+-+">So now the changed year&#x27;s turning wheel returns</l>
+        <l n="2" real="xxxxx+-xxx" met="-+-+-+-+-+">And as a girl sails balanced in the wind,</l>
+        <l n="3" real="xxxxxx-+xx" met="-+-+-+-+-+">And now before and now again behind</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Stoops as it swoops, with cheek that laughs and burns,--</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">So Spring comes merry towards me now, but earns</l>
+        <l n="6" real="x+-xxxxxxx" met="-+-+-+-+-+">No answering smile from me, whose life is twin&#x27;d</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">With the dead boughs that winter still must bind,</l>
+        <l n="8" real="xxxxxxxx-+" met="-+-+-+-+-+">And whom to-day the Spring no more concerns.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-aabba">
+        <l n="9" real="-+x+-xx+-x" met="-+-+-+-+-+">Behold, this crocus is a withering flame;</l>
+        <l n="10" real="x+-xx+-+-x" met="-+-+-+-+-+">This snowdrop, snow; this apple-blossom&#x27;s part</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">To breed the fruit that breeds the serpent&#x27;s art.</l>
+        <l n="12" real="xxxx+xxxxx" met="-+-+-+-+-+">Nay, for these Spring-flowers, turn thy face from them,</l>
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">Nor gaze till on the year&#x27;s last lily-stem</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">The white cup shrivels round the golden heart.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="farewell-to-the-glen" n="L21000">
+      <head>Farewell to the Glen</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:farewell-to-the-glen</idno><idno type="laurel-id">L21000</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abca-bc-">
+        <l n="1" real="xxxxxxx+xx" met="-+-+-+-+-+">Sweet stream-fed glen, why say &#x27;farewell&#x27; to thee</l>
+        <l n="2" real="xxxxxxx+-x" met="-+-+-+-+-+">Who far&#x27;st so well and find&#x27;st for ever smooth</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">The brow of Time where man may read no ruth?</l>
+        <l n="4" real="xxx+-xx+xx" met="-+-+-+-+-+">Nay, do thou rather say &#x27;farewell&#x27; to me,</l>
+        <l n="5" real="xxxxxxxx+--" met="-+-+-+-+-+-">Who now fare forth in bitterer fantasy</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Than erst was mine where other shade might soothe</l>
+        <l n="7" real="x+-xxxx+-x" met="-+-+-+-+-+">By other streams, what while in fragrant youth</l>
+        <l n="8" real="xxx+-xx+-x-" met="-+-+-+-+-+-">The bliss of being sad made melancholy.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababab">
+        <l n="9" real="xxx+x+-xxx" met="-+-+-+-+-+">And yet, farewell! For better shalt thou fare</l>
+        <l n="10" real="x+-xx+-xxx" met="-+-+-+-+-+">When children bathe sweet faces in thy flow</l>
+        <l n="11" real="x+-+-xx+xx" met="-+-+-+-+-+">And happy lovers blend sweet shadows there</l>
+        <l n="12" real="x+xxxxx+-+" met="-+-+-+-+-+">In hours to come, than when an hour ago</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">Thine echoes had but one man&#x27;s sighs to bear</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">And thy trees whispered what he feared to know.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="vain-virtues" n="L21001">
+      <head>Vain Virtues</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:vain-virtues</idno><idno type="laurel-id">L21001</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">What is the sorriest thing that enters Hell?</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">None of the sins,--but this and that fair deed</l>
+        <l n="3" real="xxxxxxxx-+" met="-+-+-+-+-+">Which a soul&#x27;s sin at length could supersede.</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">These yet are virgins, whom death&#x27;s timely knell</l>
+        <l n="5" real="xxx+-xxx-+" met="-+-+-+-+-+">Might once have sainted; whom the fiends compel</l>
+        <l n="6" real="-+-xxxx+-x" met="-+-+-+-+-+">Together now, in snake-bound shuddering sheaves</l>
+        <l n="7" real="x+-xx+-+xx" met="-+-+-+-+-+">Of anguish, while the scorching bridegroom leaves</l>
+        <l n="8" real="x+x+---+---" met="-+-+-+-+-+-">Their refuse maidenhood abominable.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Night sucks them down, the garbage of the pit,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">Whose names, half entered in the book of Life,</l>
+        <l n="11" real="xx-+xxxxxx" met="-+-+-+-+-+">Were God&#x27;s desire at noon. And as their hair</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">And eyes sink last, the Torturer deigns no whit</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">To gaze, but, yearning, waits his worthier wife,</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">The Sin still blithe on earth that sent them there.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lost-days" n="L21002">
+      <head>Lost Days</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:lost-days</idno><idno type="laurel-id">L21002</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabb-">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">The lost days of my life until to-day,</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">What were they, could I see them on the street</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Lie as they fell? Would they be ears of wheat</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">Sown once for food but trodden into clay?</l>
+        <l n="5" real="x+-x+-xxxx" met="-+-+-+-+-+">Or golden coins squandered and still to pay?</l>
+        <l n="6" real="xxxx+-x+-x" met="-+-+-+-+-+">Or drops of blood dabbling the guilty feet?</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">Or such spilt water as in dreams must cheat</l>
+        <l n="8" real="xxxxxxxx+-" met="-+-+-+-+-+">The throats of men in Hell, who thirst alway?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababa-">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">I do not see them here; but after death</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">God knows I know the faces I shall see,</l>
+        <l n="11" real="xxx+-xxxxx" met="-+-+-+-+-+">Each one a murdered self, with low last breath.</l>
+        <l n="12" real="xx-+xxxxxx" met="-+-+-+-+-+">&#x27;I am thyself,--what hast thou done to me?&#x27;</l>
+        <l n="13" real="xxxx-+xxxx" met="-+-+-+-+-+">&#x27;And I--and I--thyself,&#x27; (lo! each one saith,)</l>
+        <l n="14" real="xx-+xx-+--" met="-+-+-+-+-+">&#x27;And thou thyself to all eternity!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="death-s-songsters" n="L21003">
+      <head>Death&#x27;s Songsters</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:death-s-songsters</idno><idno type="laurel-id">L21003</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aabbccb">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">When first that horse, within whose populous womb</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">The birth was death, o&#x27;ershadowed Troy with fate,</l>
+        <l n="3" real="x+-+-xx+-x" met="-+-+-+-+-+">Her elders, dubious of its Grecian freight,</l>
+        <l n="4" real="x+-xxxxxxx" met="-+-+-+-+-+">Brought Helen there to sing the songs of home:</l>
+        <l n="5" real="x+-xxx-+xx" met="-+-+-+-+-+">She whispered, &#x27;Friends, I am alone; come, come!&#x27;</l>
+        <l n="6" real="xxxx-+-x-+" met="-+-+-+-+-+">Then, crouched within, Ulysses waxed afraid,</l>
+        <l n="7" real="xxx+x+-xxx" met="-+-+-+-+-+">And on his comrades&#x27; quivering mouths he laid</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">His hands, and held them till the voice was dumb.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab--">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">The same was he who, lashed to his own mast,</l>
+        <l n="10" real="xxxx+xx+-x" met="-+-+-+-+-+">There where the sea-flowers screen the charnel-caves,</l>
+        <l n="11" real="-+x+-+-+-x" met="-+-+-+-+-+">Beside the sirens&#x27; singing island pass&#x27;d,</l>
+        <l n="12" real="x+-x-+x-+-x" met="-+-+-+-+-+-">Till sweetness failed along the inveterate waves...</l>
+        <l n="13" real="xxxxxxx+xx" met="-+-+-+-+-+">Say, soul,--are songs of Death no heaven to thee,</l>
+        <l n="14" real="xxxxxxx+--" met="-+-+-+-+-+">Nor shames her lip the cheek of Victory?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="hero-s-lamp" n="L21004">
+      <head>Hero&#x27;s Lamp</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:hero-s-lamp</idno><idno type="laurel-id">L21004</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">That lamp thou fill&#x27;st in Eros name to-night,</l>
+        <l n="2" real="x+-xxxx+-x" met="-+-+-+-+-+">O Hero, shall the Sestian augurs take</l>
+        <l n="3" real="x+-xxx-+-x" met="-+-+-+-+-+">To-morrow, and for drowned Leander&#x27;s sake</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">To Anteros its fireless lip shall plight.</l>
+        <l n="5" real="xxx-+-xxxxx" met="-+-+-+-+-+-">Aye, waft the unspoken vow: yet dawn&#x27;s first light</l>
+        <l n="6" real="x+-xxxx+-xx" met="-+-+-+-+-+-">On ebbing storm and life twice ebb&#x27;d must break;</l>
+        <l n="7" real="xxx+xxxxxxx" met="-+-+-+-+-+-">While &#x27;neath no sunrise, by the Avernian Lake,</l>
+        <l n="8" real="xxxxx+-+-x" met="-+-+-+-+-+">Lo where Love walks, Death&#x27;s pallid neophyte.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">That lamp within Anteros&#x27; shadowy shrine</l>
+        <l n="10" real="xxxxxxxx-+" met="-+-+-+-+-+">Shall stand unlit (for so the gods decree)</l>
+        <l n="11" real="xxxxx+-+-x" met="-+-+-+-+-+">Till some one man the happy issue see</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Of a life&#x27;s love, and bid its flame to shine:</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Which still may rest unfir&#x27;d; for, theirs or thine,</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">O brother, what brought love to them or thee?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-trees-of-the-garden" n="L21005">
+      <head>The Trees of the Garden</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-trees-of-the-garden</idno><idno type="laurel-id">L21005</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abba-cc-">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">Ye who have passed Death&#x27;s haggard hills; and ye</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Whom trees that knew your sires shall cease to know</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">And still stand silent:--is it all a show,</l>
+        <l n="4" real="xxxxxxxx-+" met="-+-+-+-+-+">A wisp that laughs upon the wall?--decree</l>
+        <l n="5" real="xxx+----+--" met="-+-+-+-+-+-">Of some inexorable supremacy</l>
+        <l n="6" real="x+-xxxxx-+" met="-+-+-+-+-+">Which ever, as man strains his blind surmise</l>
+        <l n="7" real="xxx+-xxxxx" met="-+-+-+-+-+">From depth to ominous depth, looks past his eyes,</l>
+        <l n="8" real="xx-xx-++--" met="-+-+-+-+-+">Sphinx-faced with unabashed augury?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="x+-+-xxx-+" met="-+-+-+-+-+">Nay, rather question the Earth&#x27;s self. Invoke</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">The storm-felled forest-trees moss-grown to-day</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Whose roots are hillocks where the children play;</l>
+        <l n="12" real="xxx+-+-xxx" met="-+-+-+-+-+">Or ask the silver sapling &#x27;neath what yoke</l>
+        <l n="13" real="xxxxx+-xxx" met="-+-+-+-+-+">Those stars, his spray-crown&#x27;s clustering gems, shall wage</l>
+        <l n="14" real="x+-xxxxxxx" met="-+-+-+-+-+">Their journey still when his boughs shrink with age.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="retro-me-sathana" n="L21006">
+      <head>&#x27;Retro Me, Sathana!&#x27;</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:retro-me-sathana</idno><idno type="laurel-id">L21006</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="xxxxx+x+-x" met="-+-+-+-+-+">Get thee behind me. Even as, heavy-curled,</l>
+        <l n="2" real="+-xxxxxxxx" met="-+-+-+-+-+">Stooping against the wind, a charioteer</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">Is snatched from out his chariot by the hair,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">So shall Time be; and as the void car, hurled</l>
+        <l n="5" real="-+x+-x+xxx" met="-+-+-+-+-+">Abroad by reinless steeds, even so the world:</l>
+        <l n="6" real="x+x+-xxxxx" met="-+-+-+-+-+">Yea, even as chariot-dust upon the air,</l>
+        <l n="7" real="xxxxxxx+-x" met="-+-+-+-+-+">It shall be sought and not found anywhere.</l>
+        <l n="8" real="xxxxx+-x-+" met="-+-+-+-+-+">Get thee behind me, Satan. Oft unfurled,</l>
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">Thy perilous wings can beat and break like lath</l>
+        <l n="10" real="x+--xxxxxx" met="-+-+-+-+-+">Much mightiness of men to win thee praise.</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Leave these weak feet to tread in narrow ways.</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Thou still, upon the broad vine-sheltered path,</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">Mayst wait the turning of the phials of wrath</l>
+        <l n="14" real="x+-xx+-xxx" met="-+-+-+-+-+">For certain years, for certain months and days.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="lost-on-both-sides" n="L21007">
+      <head>Lost on Both Sides</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:lost-on-both-sides</idno><idno type="laurel-id">L21007</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">As when two men have loved a woman well,</l>
+        <l n="2" real="x+-xxxxx-+" met="-+-+-+-+-+">Each hating each, through Love&#x27;s and Death&#x27;s deceit;</l>
+        <l n="3" real="xxx+-xx+-x" met="-+-+-+-+-+">Since not for either this stark marriage-sheet</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">And the long pauses of this wedding bell;</l>
+        <l n="5" real="xxxxxxxx-+" met="-+-+-+-+-+">Yet o&#x27;er her grave the night and day dispel</l>
+        <l n="6" real="xxxx-+xxxx" met="-+-+-+-+-+">At last their feud forlorn, with cold and heat;</l>
+        <l n="7" real="x+-xxxxxxx" met="-+-+-+-+-+">Nor other than dear friends to death may fleet</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">The two lives left that most of her can tell:--</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="9" real="x+-xxxxxxxx" met="-+-+-+-+-+-">So separate hopes, which in a soul had wooed</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">The one same Peace, strove with each other long,</l>
+        <l n="11" real="xxxxx+-+-x" met="-+-+-+-+-+">And Peace before their faces perished since:</l>
+        <l n="12" real="xxxxx+-+-x" met="-+-+-+-+-+">So through that soul, in restless brotherhood,</l>
+        <l n="13" real="xx-+-xxxxx" met="-+-+-+-+-+">They roam together now, and wind among</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">Its bye-streets, knocking at the dusty inns.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-sun-s-shame-i" n="L21008">
+      <head>The Sun&#x27;s Shame I</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-sun-s-shame-i</idno><idno type="laurel-id">L21008</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdefefgg">
+        <l n="1" real="-+-xxxx+-x" met="-+-+-+-+-+">Beholding youth and hope in mockery caught</l>
+        <l n="2" real="xxx+-+-x-+" met="-+-+-+-+-+">From life; and mocking pulses that remain</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">When the soul&#x27;s death of bodily death is fain;</l>
+        <l n="4" real="+--+x+-xxx" met="-+-+-+-+-+">Honour unknown, and honour known unsought;</l>
+        <l n="5" real="x+-+--x+-x" met="-+-+-+-+-+">And penury&#x27;s sedulous self-torturing thought</l>
+        <l n="6" real="xxx+--+xxx" met="-+-+-+-+-+">On gold, whose master therewith buys his bane;</l>
+        <l n="7" real="xxx+-+-xxx" met="-+-+-+-+-+">And longed-for woman longing all in vain</l>
+        <l n="8" real="x+-xxx-+-+" met="-+-+-+-+-+">For lonely man with love&#x27;s desire distraught;</l>
+        <l n="9" real="xxxxx+-x+--" met="-+-+-+-+-+-">And wealth, and strength, and power, and pleasantness,</l>
+        <l n="10" real="+xx+-xxxxx" met="-+-+-+-+-+">Given unto bodies of whose souls men say,</l>
+        <l n="11" real="xxxx+-xxxx" met="-+-+-+-+-+">None poor and weak, slavish and foul, as they:--</l>
+        <l n="12" real="-+-xxx-+xx" met="-+-+-+-+-+">Beholding these things, I behold no less</l>
+        <l n="13" real="x+-xx+-x-+" met="-+-+-+-+-+">The blushing morn and blushing eve confess</l>
+        <l n="14" real="xxxxx-+--x" met="-+-+-+-+-+">The shame that loads the intolerable day.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaacca">
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">As some true chief of men, bowed down with stress</l>
+        <l n="16" real="xx-+-xx+-x" met="-+-+-+-+-+">Of life&#x27;s disastrous eld, on blossoming youth</l>
+        <l n="17" real="xxx+-xx+-xx" met="-+-+-+-+-+-">May gaze, and murmur with self-pity and ruth,</l>
+        <l n="18" real="xxx+-+-x-+" met="-+-+-+-+-+">&#x27;Might I thy fruitless treasure but possess,</l>
+        <l n="19" real="x+-xxx+-xxx" met="-+-+-+-+-+-">Such blessing of mine all coming years should bless;&#x27;--</l>
+        <l n="20" real="xxxxxxx-+x" met="-+-+-+-+-+">Then sends one sigh forth to the unknown goal,</l>
+        <l n="21" real="x+--xxxxxx" met="-+-+-+-+-+">And bitterly feels breathe against his soul</l>
+        <l n="22" real="x+-xxx+-+--" met="-+-+-+-+-+-">The hour swift-winged of nearer nothingness:--</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abbacc">
+        <l n="23" real="+xxxxxxxxx" met="-+-+-+-+-+">Even so the World&#x27;s grey Soul to the green World</l>
+        <l n="24" real="-+x+xxxxxx" met="-+-+-+-+-+">Perchance one hour must cry: &#x27;Woe&#x27;s me, for whom</l>
+        <l n="25" real="-+---xx-+xx" met="-+-+-+-+-+-">Inveteracy of ill portends the doom,--</l>
+        <l n="26" real="xxx+x+xxxxx" met="-+-+-+-+-+-">Whose heart&#x27;s old fire in shadow of shame is furl&#x27;d:</l>
+        <l n="27" real="xx+-xxxx+--" met="-+-+-+-+-+-">While thou even as of yore art journeying,</l>
+        <l n="28" real="x+-xx+-xxx" met="-+-+-+-+-+">All soulless now, yet merry with the Spring!&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="michelangelo-s-kiss" n="L21009">
+      <head>Michelangelo&#x27;s Kiss</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:michelangelo-s-kiss</idno><idno type="laurel-id">L21009</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xx-+-xxxxx" met="-+-+-+-+-+">Great Michelangelo, with age grown bleak</l>
+        <l n="2" real="x+--+-+-xxx" met="-+-+-+-+-+-">And uttermost labours, having once o&#x27;ersaid</l>
+        <l n="3" real="x+-+-xxxxx" met="-+-+-+-+-+">All grievous memories on his long life shed,</l>
+        <l n="4" real="xx-+xxxxxx" met="-+-+-+-+-+">This worst regret to one true heart could speak:--</l>
+        <l n="5" real="xxx+-xx+-x" met="-+-+-+-+-+">That when, with sorrowing love and reverence meek,</l>
+        <l n="6" real="xxxx-+-+-x" met="-+-+-+-+-+">He stooped o&#x27;er sweet Colonna&#x27;s dying bed,</l>
+        <l n="7" real="xxx+--+-+x" met="-+-+-+-+-+">His Muse and dominant Lady, spirit-wed,</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Her hand he kissed, but not her brow or cheek.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacc">
+        <l n="9" real="xxxxxxxx+x" met="-+-+-+-+-+">O Buonarruoti,--good at Art&#x27;s fire-wheels</l>
+        <l n="10" real="xxx+--+xxx" met="-+-+-+-+-+">To urge her chariot!--even thus the Soul,</l>
+        <l n="11" real="+-xxx+-+-x" met="-+-+-+-+-+">Touching at length some sorely-chastened goal,</l>
+        <l n="12" real="x+-xx+-x-+" met="-+-+-+-+-+">Earns oftenest but a little: her appeals</l>
+        <l n="13" real="xxxx+-xxxx" met="-+-+-+-+-+">Were deep and mute,--lowly her claim. Let be:</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">What holds for her Death&#x27;s garner? And for thee?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-vase-of-life" n="L21010">
+      <head>The Vase of Life</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-vase-of-life</idno><idno type="laurel-id">L21010</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaacca">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Around the vase of Life at your slow pace</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">He has not crept, but turned it with his hands,</l>
+        <l n="3" real="xxxx-+-x-+" met="-+-+-+-+-+">And all its sides already understands.</l>
+        <l n="4" real="xxxx-+xxxx" met="-+-+-+-+-+">There, girt, one breathes alert for some great race;</l>
+        <l n="5" real="xxxxxxx+-x" met="-+-+-+-+-+">Whose road runs far by sands and fruitful space;</l>
+        <l n="6" real="xxxxx+-xxx" met="-+-+-+-+-+">Who laughs, yet through the jolly throng has pass&#x27;d;</l>
+        <l n="7" real="xxxxx+-xxx" met="-+-+-+-+-+">Who weeps, nor stays for weeping; who at last,</l>
+        <l n="8" real="xxx+xxx+-x" met="-+-+-+-+-+">A youth, stands somewhere crowned, with silent face.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abcabc">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">And he has filled this vase with wine for blood,</l>
+        <l n="10" real="xxxxxxx+-x" met="-+-+-+-+-+">With blood for tears, with spice for burning vow,</l>
+        <l n="11" real="x+-+x+-xxx" met="-+-+-+-+-+">With watered flowers for buried love most fit;</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">And would have cast it shattered to the flood,</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet in Fate&#x27;s name has kept it whole; which now</l>
+        <l n="14" real="x+-xx+-xxx" met="-+-+-+-+-+">Stands empty till his ashes fall in it.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="life-the-beloved" n="L21011">
+      <head>Life the Beloved</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:life-the-beloved</idno><idno type="laurel-id">L21011</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a-baabba">
+        <l n="1" real="xxxxx+xxxxx" met="-+-+-+-+-+-">As thy friend&#x27;s face, with shadow of soul o&#x27;erspread,</l>
+        <l n="2" real="+-xxxx-+xx" met="-+-+-+-+-+">Somewhile unto thy sight perchance hath been</l>
+        <l n="3" real="+-xxx+-xxx" met="-+-+-+-+-+">Ghastly and strange, yet never so is seen</l>
+        <l n="4" real="xxxxx+-+-x" met="-+-+-+-+-+">In thought, but to all fortunate favour wed;</l>
+        <l n="5" real="xxxxx+-+-x" met="-+-+-+-+-+">As thy love&#x27;s death-bound features never dead</l>
+        <l n="6" real="x+-x-+x+-x" met="-+-+-+-+-+">To memory&#x27;s glass return, but contravene</l>
+        <l n="7" real="x+-xx+xxxx" met="-+-+-+-+-+">Frail fugitive days, and always keep, I ween</l>
+        <l n="8" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Than all new life a livelier lovelihead:--</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="--a--a">
+        <l n="9" real="xx-+x+-xxx" met="-+-+-+-+-+">So Life herself, thy spirit&#x27;s friend and love,</l>
+        <l n="10" real="+-xxx-+-+--" met="-+-+-+-+-+-">Even still as Spring&#x27;s authentic harbinger</l>
+        <l n="11" real="xxx+xxx+-x" met="-+-+-+-+-+">Glows with fresh hours for hope to glorify;</l>
+        <l n="12" real="xxxxxxx+-x" met="-+-+-+-+-+">Though pale she lay when in the winter grove</l>
+        <l n="13" real="x+-+xxxxxx" met="-+-+-+-+-+">Her funeral flowers were snow-flakes shed on her</l>
+        <l n="14" real="xxxxxx+xxx" met="-+-+-+-+-+">And the red wings of frost-fire rent the sky.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="a-superscription" n="L21012">
+      <head>A Superscription</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:a-superscription</idno><idno type="laurel-id">L21012</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-aabbaab">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Look in my face; my name is Might-have-been;</l>
+        <l n="2" real="xx+-xxxxxx+" met="-+-+-+-+-+-">I am also called No-more, Too-late, Farewell;</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Unto thine ear I hold the dead-sea shell</l>
+        <l n="4" real="xxxxx+-xxx" met="-+-+-+-+-+">Cast up thy Life&#x27;s foam-fretted feet between;</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Unto thine eyes the glass where that is seen</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Which had Life&#x27;s form and Love&#x27;s, but by my spell</l>
+        <l n="7" real="xxx+-+x-+--" met="-+-+-+-+-+-">Is now a shaken shadow intolerable,</l>
+        <l n="8" real="x+-xxxxxxx" met="-+-+-+-+-+">Of ultimate things unuttered the frail screen.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbaab">
+        <l n="9" real="xxxxxxxxxx" met="-+-+-+-+-+">Mark me, how still I am! But should there dart</l>
+        <l n="10" real="x+-xxxxx-+" met="-+-+-+-+-+">One moment through thy soul the soft surprise</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">Of that winged Peace which lulls the breath of sighs,</l>
+        <l n="12" real="xxxxxxxx-+" met="-+-+-+-+-+">Then shalt thou see me smile, and turn apart</l>
+        <l n="13" real="x+-xx+xxxx" met="-+-+-+-+-+">Thy visage to mine ambush at thy heart</l>
+        <l n="14" real="+-xx-+--x" met="+-+-+-+-+">Sleepless with cold commemorative eyes.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="he-and-i" n="L21013">
+      <head>He and I</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:he-and-i</idno><idno type="laurel-id">L21013</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Whence came his feet into my field, and why?</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">How is it that he sees it all so drear?</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">How do I see his seeing, and how hear</l>
+        <l n="4" real="xxx+-+-xxx" met="-+-+-+-+-+">The name his bitter silence knows it by?</l>
+        <l n="5" real="xxx+-xx+-xx" met="-+-+-+-+-+-">This was the little fold of separate sky</l>
+        <l n="6" real="x+-xxxx+-x" met="-+-+-+-+-+">Whose pasturing clouds in the soul&#x27;s atmosphere</l>
+        <l n="7" real="x+-xxx-+-x" met="-+-+-+-+-+">Drew living light from one continual year:</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">How should he find it lifeless? He, or I?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ab-aab">
+        <l n="9" real="xxxxx+-xxx" met="-+-+-+-+-+">Lo! this new Self now wanders round my field,</l>
+        <l n="10" real="xxx+-+xxxx" met="-+-+-+-+-+">With plaints for every flower, and for each tree</l>
+        <l n="11" real="xxx+-x-+--" met="-+-+-+-+-+">A moan, the sighing wind&#x27;s auxiliary:</l>
+        <l n="12" real="xxx+-xxxxx" met="-+-+-+-+-+">And o&#x27;er sweet waters of my life, that yield</l>
+        <l n="13" real="xxxxxxxx-+" met="-+-+-+-+-+">Unto his lips no draught but tears unseal&#x27;d,</l>
+        <l n="14" real="+xxxxx+xxx" met="-+-+-+-+-+">Even in my place he weeps.  Even I, not he.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="newborn-death-i" n="L21014">
+      <head>Newborn Death I</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:newborn-death-i</idno><idno type="laurel-id">L21014</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxxxx+-x" met="-+-+-+-+-+">To-day Death seems to me an infant child</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">Which her worn mother Life upon my knee</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Has set to grow my friend and play with me;</l>
+        <l n="4" real="x+-xxxxx-+" met="-+-+-+-+-+">If haply so my heart might be beguil&#x27;d</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">To find no terrors in a face so mild,--</l>
+        <l n="6" real="x+-xx+-xxx" met="-+-+-+-+-+">If haply so my weary heart might be</l>
+        <l n="7" real="xxx+-+-xxx" met="-+-+-+-+-+">Unto the newborn milky eyes of thee,</l>
+        <l n="8" real="xxxx-+-+-x" met="-+-+-+-+-+">O Death, before resentment reconcil&#x27;d.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababab">
+        <l n="9" real="xxxxxxxx-+" met="-+-+-+-+-+">How long, O Death? And shall thy feet depart</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Still a young child&#x27;s with mine, or wilt thou stand</l>
+        <l n="11" real="+-x+-+-xxx" met="-+-+-+-+-+">Fullgrown the helpful daughter of my heart,</l>
+        <l n="12" real="xxxx-+xxxx" met="-+-+-+-+-+">What time with thee indeed I reach the strand</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">Of the pale wave which knows thee what thou art,</l>
+        <l n="14" real="xxxxx+-xxx" met="-+-+-+-+-+">And drink it in the hollow of thy hand?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="newborn-death-ii" n="L21015">
+      <head>Newborn Death II</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:newborn-death-ii</idno><idno type="laurel-id">L21015</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xxxxx+-xxx" met="-+-+-+-+-+">And thou, O Life, the lady of all bliss,</l>
+        <l n="2" real="xxx+xxxxxx" met="-+-+-+-+-+">With whom, when our first heart beat full and fast,</l>
+        <l n="3" real="x+-xxxxxxx" met="-+-+-+-+-+">I wandered till the haunts of men were pass&#x27;d,</l>
+        <l n="4" real="xxx+-xx+-+" met="-+-+-+-+-+">And in fair places found all bowers amiss</l>
+        <l n="5" real="x+-xxxxx+x" met="-+-+-+-+-+">Till only woods and waves might hear our kiss,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">While to the winds all thought of Death we cast:</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Ah, Life! and must I have from thee at last</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">No smile to greet me and no babe but this?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-abab">
+        <l n="9" real="xxxxx+xxxx" met="-+-+-+-+-+">Lo! Love, the child once ours; and Song, whose hair</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">Blew like a flame and blossomed like a wreath;</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">And Art, whose eyes were worlds by God found fair;</l>
+        <l n="12" real="xxxxx+-xxx" met="-+-+-+-+-+">These o&#x27;er the book of Nature mixed their breath</l>
+        <l n="13" real="xxxxxxxxxx" met="-+-+-+-+-+">With neck-twined arms, as oft we watched them there:</l>
+        <l n="14" real="xxxxxxxxxx" met="-+-+-+-+-+">And did these die that thou mightst bear me Death?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="the-one-hope" n="L21016">
+      <head>The One Hope</head>
+      <idno type="URN">urn:laurel:eng:rossetti.rossetti-house-of-life.pg3692:the-one-hope</idno><idno type="laurel-id">L21016</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="abbaabba">
+        <l n="1" real="xx-+xxxx-+" met="-+-+-+-+-+">When all desire at last and all regret</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Go hand in hand to death, and all is vain,</l>
+        <l n="3" real="xx-+xxxxxx" met="-+-+-+-+-+">What shall assuage the unforgotten pain</l>
+        <l n="4" real="xxxxxxxx-+" met="-+-+-+-+-+">And teach the unforgetful to forget?</l>
+        <l n="5" real="xxxxxxxx-+" met="-+-+-+-+-+">Shall Peace be still a sunk stream long unmet,--</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Or may the soul at once in a green plain</l>
+        <l n="7" real="xxxxxxxx+-" met="-+-+-+-+-+">Stoop through the spray of some sweet life-fountain</l>
+        <l n="8" real="xxxxx+--+--" met="-+-+-+-+-+-">And cull the dew-drenched flowering amulet?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abb-ab">
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">Ah! when the wan soul in that golden air</l>
+        <l n="10" real="xxx+-+-+-x" met="-+-+-+-+-+">Between the scriptured petals softly blown</l>
+        <l n="11" real="x+-xxxxx-+" met="-+-+-+-+-+">Peers breathless for the gift of grace unknown,</l>
+        <l n="12" real="xxx+-+-xx" met="+-+-+-+-+">Ah! let none other written spell soe&#x27;er</l>
+        <l n="13" real="x+-xxxxxxx" met="-+-+-+-+-+">But only the one Hope&#x27;s one name be there,--</l>
+        <l n="14" real="xxxxx+xx-+" met="-+-+-+-+-+">Not less nor more, but even that word alone.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

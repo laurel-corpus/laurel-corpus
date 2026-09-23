@@ -724,7 +724,16 @@ def analyze(work):
         # A book holds many poems, so the measure is asked of the poem, not of the book. The catalogue's
         # meter is preferred where it states one; where it does not, the section's own lines are asked.
         sec_lines = [t for st in sec['stanzas'] for t in st]
-        sec_expect = expect or local_expect(sec_lines, rising)
+        # The catalogued meter describes the BOOK, and a book of many poems is not all in one measure.
+        # Elinor Wylie's Nets to Catch the Wind is catalogued iambic trimeter, so every eight-syllable
+        # line in it was measured against six and elided down to fit: "Strange things, but never while
+        # we live" lost a syllable of 'never', came out at seven, and was read in a template the poem
+        # never uses, while the three lines around it scanned as the tetrameter they are. Where the
+        # poem's own lines say something different by two syllables or more, the poem wins. A work of
+        # one section IS a single poem, and there the catalogued measure is a curated fact about it.
+        _local = local_expect(sec_lines, rising)
+        _book_wrong = expect and _local and len(work['sections']) > 1 and abs(_local - expect) >= 2
+        sec_expect = _local if _book_wrong else (expect or _local)
         # A poem that alternates its line lengths keeps the expectation, for elision, but is not allowed
         # to have a syllable invented to reach it. See mixed_lengths().
         sec_ed = not mixed_lengths(sec_lines, rising)

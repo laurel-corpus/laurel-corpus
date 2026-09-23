@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Love to the Church</title><author>Timothy Dwight</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Selections from American Poetry, with Special Reference to Poe, Longfellow, Lowell and Whittier, edited by Margaret Sprague Carhart. Project Gutenberg ebook #3650. <ref target="https://www.gutenberg.org/ebooks/3650">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="love-to-the-church" n="L25951">
+      <head>Love to the Church</head>
+      <idno type="URN">urn:laurel:eng:dwight.carhart-timothy-dwight.pg3650:love-to-the-church</idno><idno type="laurel-id">L25951</idno><note type="metre">short measure</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-x" met="-+-+-+">I love thy kingdom, Lord,</l>
+        <l n="2" real="xxxx-+" met="-+-+-+">The house of thine abode,</l>
+        <l n="3" real="xx+x-+-x" met="--+-+-+-">The church our blest Redeemer saved</l>
+        <l n="4" real="xxx+-x" met="-+-+-+">With his own precious blood.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="xxxxxx" met="-+-+-+">I love thy church, O God!</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Her walls before thee stand,</l>
+        <l n="7" real="xxx+-xxx" met="--+-+-+-">Dear as the apple of thine eye,</l>
+        <l n="8" real="x+-xxx" met="-+-+-+">And graven on thy hand.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xxxxxx" met="-+-+-+">If e&#x27;er to bless thy sons</l>
+        <l n="10" real="xxxx-+" met="-+-+-+">My voice or hands deny,</l>
+        <l n="11" real="xxx+-x-+" met="--+-+-+-">These hands let useful skill forsake,</l>
+        <l n="12" real="xxx+-x" met="-+-+-+">This voice in silence die.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="xxxxxx" met="-+-+-+">For her my tears shall fall,</l>
+        <l n="14" real="xxxx-+" met="-+-+-+">For her my prayers ascend;</l>
+        <l n="15" real="xxxxxxx+" met="--+-+-+-">To her my cares and toils be given</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Till toils and cares shall end.</l>
+      </lg>
+      <lg type="stanza" n="5" rhyme="-a-a">
+        <l n="17" real="xxx+-x" met="-+-+-+">Beyond my highest joy</l>
+        <l n="18" real="xxx+-x" met="-+-+-+">I prize her heavenly ways,</l>
+        <l n="19" real="xx-+-+-x" met="--+-+-+-">Her sweet communion, solemn vows,</l>
+        <l n="20" real="xxxxxx" met="-+-+-+">Her hymns of love and praise.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="+-xx-+" met="-+-+-+">Jesus, thou friend divine,</l>
+        <l n="22" real="++-x+x" met="-+-+-+">Our Saviour and our King,</l>
+        <l n="23" real="xxx+-xxx" met="--+-+-+-">Thy hand from every snare and foe</l>
+        <l n="24" real="xx-+-x" met="-+-+-+">Shall great deliverance bring.</l>
+      </lg>
+      <lg type="stanza" n="7">
+        <l n="25" real="xxxxxx" met="-+-+-+">Sure as thy truth shall last,</l>
+        <l n="26" real="x+-xx+-" met="-+-+-+-">To Zion shall be given</l>
+        <l n="27" real="x+-+-xxx" met="--+-+-+-">The brightest glories earth can yield,</l>
+        <l n="28" real="x+-xx+-" met="-+-+-+-">And brighter bliss of heaven.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

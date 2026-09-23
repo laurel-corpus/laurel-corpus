@@ -11,7 +11,7 @@ import re, os, json, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
 from ingest import load, clean, source
 
-SKIP_TITLES = re.compile(r'^(END OF.*|VOL\.? [IVX\d]+.*|VOLUME [IVX\d]+.*|A NOTE ON.*|FROM .*HOMES AND HAUNTS.*|BY [A-Z]\. ?[A-Z]\..*|BY [A-Z][A-Z]+ [A-Z][A-Z]+|PRONOUNCING INDEX.*|IN (TWO|THREE|FOUR) VOLUMES.*|THE POETIC PRINCIPLE|[A-Z]\. ?[A-Z]\. ?[A-Z]\.?|LONDON[:,;] .*|LONDON \d.*|.*ERRORS?( IN .*)?|NOTE ON.*|ABBREVIATIONS.*|LIST OF.*|PRINTER.*|EDITOR.*|TEXTUAL.*|WARRANTY|MAIN COMPONENTS|COPYRIGHT.*|TABLE OF CONTENTS.*|INTRODUCTORY MATTER|CONTENTS?( .*)?|INDEX( OF (FIRST LINES|TITLES))?|PREFACE|AUTHOR.?S PREFACE|.*CONTEMPORARY EVENTS.*|INTRODUCTION (TO|BY) .*|INTRODUCTORY (NOTE|MATTER|ESSAY|MEMOIR).*|NOTES?( (TO|ON|FOR|UPON) .*)?|EXPLANATORY NOTES.*|TEXTUAL NOTES.*|VARIANTS?.*|ERRATA.*|FOOTNOTES:?|END ?NOTES:?|PREPARER.?S NOTES?:?|SELECTED BIBLIOGRAPHY:?|RECOMMENDED READING.*|OTHER TRANSLATIONS.*|GLOSSARY|APPENDIX.*|BIBLIOGRAPH.*|ADVERTISEMENT|DEDICATION|ILLUSTRATIONS|LIST OF ILLUSTRATIONS|TRANSCRIBER.?S? NOTES?|BIOGRAPHICAL.*|MEMOIR.*|LIFE OF.*|CHRONOLOG.*|ERRATA|THE END|FINIS)\.?$', re.I)
+SKIP_TITLES = re.compile(r'^(END OF.*|VOL\.? [IVX\d]+.*|VOLUME [IVX\d]+.*|A NOTE ON.*|FROM .*HOMES AND HAUNTS.*|BY [A-Z]\. ?[A-Z]\..*|BY [A-Z][A-Z]+ [A-Z][A-Z]+|PRONOUNCING INDEX.*|IN (TWO|THREE|FOUR) VOLUMES.*|THE POETIC PRINCIPLE|[A-Z]\. ?[A-Z]\. ?[A-Z]\.?|LONDON[:,;] .*|LONDON \d.*|.*ERRORS?( IN .*)?|NOTE ON.*|ABBREVIATIONS.*|LIST OF.*|PRINTER.*|EDITOR.*|TEXTUAL.*|WARRANTY|MAIN COMPONENTS|COPYRIGHT.*|TABLE OF CONTENTS.*|INTRODUCTORY MATTER|CONTENTS?( .*)?|INDEX( (OF|TO) (FIRST LINES|TITLES))?|PREFACE|AUTHOR.?S PREFACE|.*CONTEMPORARY EVENTS.*|INTRODUCTION (TO|BY) .*|INTRODUCTORY (NOTE|MATTER|ESSAY|MEMOIR).*|NOTES?( (TO|ON|FOR|UPON) .*)?|EXPLANATORY NOTES.*|TEXTUAL NOTES.*|VARIANTS?.*|ERRATA.*|FOOTNOTES:?|END ?NOTES:?|PREPARER.?S NOTES?:?|SELECTED BIBLIOGRAPHY:?|RECOMMENDED READING.*|OTHER TRANSLATIONS.*|GLOSSARY|APPENDIX.*|BIBLIOGRAPH.*|ADVERTISEMENT|DEDICATION|ILLUSTRATIONS|LIST OF ILLUSTRATIONS|TRANSCRIBER.?S? NOTES?|BIOGRAPHICAL.*|MEMOIR.*|LIFE OF.*|CHRONOLOG.*|ERRATA|THE END|FINIS)\.?$', re.I)
 ROMAN = re.compile(r'^[\(\[]?[IVXLC]+[\)\]\.]?$|^[IVXLC]+\.\s*\d\.?$')
 NUMBER = re.compile(r'^\d{1,3}\.?$')
 # A numbered major division. Never taken as the subtitle of the heading before it: Lucan's 'ENDNOTES:' was
@@ -33,6 +33,10 @@ DATE_NOTE = re.compile(r'^\(\s*(?:published\s+)?(?:[A-Z][a-z]+\.?\s*\d{0,2},?\s*
 # date. Henley's Echoes are headed that way, and reading the year as a date note makes the dedication
 # the title: "A Late Lark Twitters from the Quiet Skies" became "Xxxv, I. M, Margaritae Sorori".
 IN_MEM = re.compile(r'^(I\.\s*M\.?$|IN MEMORIAM\b|IN MEMORY OF\b)', re.I)
+
+# The labels a printer sets over a song's name -- "SONG.", "SET BY MR. HENRY LAWES.", "AIR." --
+# which the heading-forming code in parse_gutenberg drops from a heading of more than two lines.
+SONG_LABEL = re.compile(r'^\s*(A |AN )?(SONG|SONNET|ODE|SET BY|TUNE|AIR)\b')
 
 def strip_date_note(block):
     """The block as the title test should see it: without a trailing date note."""
@@ -71,7 +75,13 @@ def is_title(block, meta=None, flush=None):
             return re.match(meta['titlere'], re.sub(r'[\*_]+', '', block[0]).strip()) is not None
         return len(block) == 1 and re.match(meta['titlere'], re.sub(r'[\*_]+', '', block[0]).strip()) is not None
     if 3 < len(block) <= 5 and all(re.sub(r'[^A-Za-z]', '', l) and re.sub(r'[^A-Za-z]', '', l).isupper() and len(l.strip()) <= 40 for l in block): return True
-    if len(block) > 3 or (len(block) == 3 and len(' '.join(block)) > 60): return False
+    # A three-line heading whose first lines are the printer's labels and not the name: "SONG. /
+    # SET BY MR. HENRY LAWES. / TO LUCASTA.  GOING BEYOND THE SEAS." The heading-forming code below
+    # already drops those labels, but they were counted against the sixty-character cap here, so the
+    # heading was refused, the skip that 'POEMS.' opened was never closed, and the only line of
+    # Lovelace anybody quotes was swallowed with the poem it ends. Measure what will survive as the title.
+    if len(block) > 3: return False
+    if len(block) == 3 and len(' '.join([l for l in block if not SONG_LABEL.match(l.strip())] or block)) > 60: return False
     if len(block) == 1 and re.match(r'^(fit|canto|book|part|chapter|runo) the \w+\.?$', block[0].strip(), re.I): return True
     if len(block) == 2 and ROMAN.match(block[0].strip()) and 3 < len(block[1].strip()) < 70 and not re.search(r'[.;,!?]$', block[1].strip().rstrip('.')):
         ws = block[1].strip().split(); tc = sum(1 for w in ws if w[:1].isupper() or w.lower() in ('a', 'an', 'the', 'of', 'to', 'in', 'on', 'and', 'or', 'for', 'at', 'by', 'from', 'with')) / len(ws)
@@ -264,6 +274,11 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
     sections, title, stanzas, skipping, base, part = [], None, [], True, None, None
     glosses = {}; base_has_verse = set(); major_title = None; prev_title = None
     pending_heading = [None]; pending_epi = [False]; book_ctx = [None]; in_cast = False; scene_next = False
+    # A book of plays has three levels, not two: the play, its acts, and the scenes in them. book_ctx
+    # holds what a section is prefixed with; div_ctx remembers the PLAY on its own, so that the next act
+    # heading can rebuild 'The Andrian: Act the First' instead of dropping the play and leaving five
+    # scenes called Scene I in every one of six comedies.
+    div_ctx = [None]
     # Who speaks in this play. A speaker tag is set as "JULIA." and a scene title as "SAN SILVESTRO",
     # and the only thing telling them apart is the full stop -- so where the printer dropped one, as he
     # did twice in Michael Angelo, the speaker matched the title pattern and took a section with him:
@@ -272,7 +287,7 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
     # slip can happen in any of them. A name has to speak twice WITH its stop to count, so a scene title
     # that happens to be a character's name -- Vittoria Colonna heads a scene and speaks in it -- is not
     # swept up by a single stray line.
-    drama_speakers = set()
+    drama_speakers = set(); colon_speakers = set()
     if meta.get('drama'):
         # "SCENE I." is set exactly like a speaker tag and recurs once an act, so without this it counted
         # as one of the play's speakers and every scene heading in The Spagnoletto was suppressed: the
@@ -281,6 +296,13 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         _tags = [re.sub(r'[^A-Z ]', '', l.strip()).strip() for l in lines
                  if re.match(r"^[A-Z][A-Z .'\u2019-]{1,28}\.$", l.strip()) and not _div_head.match(l.strip())]
         drama_speakers = {t for t in _tags if _tags.count(t) >= 2}
+        # Not every edition sets a speaker in capitals with a stop. Miller's Seneca writes "Medea: We
+        # are undone!", so a one-line speech that happened to stand alone -- "Nurse: Flee!" -- was read
+        # as a heading and cut Medea's second act in two. A name that opens a line twice or more in the
+        # same play is a speaker wherever it opens a line.
+        _sp = re.compile(r"^_*([A-Z][a-z]+(?: [A-Z][a-z]+)?)_*:_*\s")
+        _cn = [m.group(1) for m in (_sp.match(l.strip()) for l in lines) if m]
+        colon_speakers = {t for t in _cn if _cn.count(t) >= 2}
     def flush():
         nonlocal stanzas
         if title and not SKIP_TITLES.match(title) and sum(len(s) for s in stanzas) < min_lines and not part and not skipping: pending_heading[0] = title; pending_epi[0] = sum(len(s) for s in stanzas) > 0
@@ -301,7 +323,7 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             if os.environ.get('PARSE_TRACE'): print('FLUSH', repr(shown[:50]), sum(len(x) for x in stanzas))
             sections.append({'id': sid, 'title': shown, 'short': (part if part else shown)[:18], 'stanzas': stanzas, '_base': title, '_part': part, '_heading': pending_heading[0], '_carry': carry, '_epi': epi, '_book': book_ctx[0], '_gl': {ti: g for (si, ti), g in glosses.items() if si == len(sections)}})
         stanzas = []
-    skip_blocks = set()
+    skip_blocks = set(); in_notes = [False]
     for bi, b in enumerate(blocks):
         if len(b) >= 4 and sum(1 for l in b if re.search(r'(\.{3,}|\s{2,})\s*([ivxlc\d]+|_?ib\._?)\s*$', l.strip())) >= 0.4 * len(b): continue   # contents page
         if bi in skip_blocks: continue
@@ -312,11 +334,39 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         cb = [clean(l) for l in b]; cb = [l for l in cb if l and not l.startswith('[Illustration') and not l.startswith('[Picture')]
         at_margin = not b[0][:1].isspace() if b else None
         if not cb: continue
+        # An edition that indents every line of verse and sets everything else at the margin: Pattee's
+        # Freneau prints his footnotes, his lists of variant readings, the datelines and the speakers'
+        # names flush left, and they were being read as verse -- 'Here follow lines 72-131 above, with
+        # the following variations' stood in The Midnight Consultations as a stanza of the poem. In such
+        # a book a block at the margin is a heading or it is apparatus.
+        # Pattee's footnotes also quote the verse of earlier versions, indented like the poem, and those
+        # quotations stood as 42 lines of The House of Night that are not in it. Once a footnote opens,
+        # everything to the next heading is apparatus.
+        if meta.get('margin_prose'):
+            if is_title(cb, meta, at_margin): in_notes[0] = False
+            elif at_margin:
+                if re.match(r'^\[\w+\]', b[0]): in_notes[0] = True
+                continue
+            elif in_notes[0]: continue
+            elif re.match(r'^\s*\[\w+\]\s', b[0]): continue   # the poet's own note, set indented inside the poem
         if b[0].lstrip().startswith('[Illustration') and len(cb) == 1 and is_title(cb, meta) and bi + 1 < len(blocks):
             nb = [clean(l) for l in blocks[bi + 1]]; nb = [l for l in nb if l]
             if len(nb) == 1 and re.match(r'^\(.*\)$', nb[0].strip()): skip_blocks.add(bi + 1); continue
         if meta.get('ignore_heading') and len(cb) <= 2 and re.match(meta['ignore_heading'], ' '.join(cb).strip(), re.I): continue
         if meta.get('drop_block') and len(cb) > 3 and re.match(meta['drop_block'], cb[0].strip()): continue   # a dramatis personae under a title
+        # An apparatus note of any length, which drop_block cannot catch because it insists on
+        # four lines. Grierson prints Donne's variants as indented bracketed blocks, most of them
+        # one line: "[7 reall] Roiall _Lec_]". They were read as verse, which is why The
+        # Canonization stood at 103 lines where the poem is 45. Indentation is required as well as
+        # the bracket, so a poem that opens on a bracketed line at the margin is left alone.
+        # A long note breaks across blank lines, and only its FIRST block opens with a bracket:
+        # "[45 your 1669 ... / from] frow 1633] / love! Ed: love. 1633-69]" is three blocks, two of
+        # which merely END with the closing bracket. Those continuations were still read as verse,
+        # and a run of them swallowed the next poem's title, which is how The Canonization came to
+        # hold The triple Foole and Lovers infinitenesse as well. Indentation is required either
+        # way, so verse at the margin is never touched.
+        if meta.get('apparatus_block') and not at_margin and (
+                re.match(meta['apparatus_block'], cb[0].strip()) or cb[-1].strip().endswith(']')): continue
         # A cast list: a column of names set against the parts they play, which is not a poem and whose
         # names are not titles. Christus carried two of them. One stood as an 8-line section called
         # "John Endicott", and the other gave its title to the 2,111 lines of the play that followed:
@@ -350,8 +400,15 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
         # The stop is not the only thing the printer dropped: at 'JULIA / Yes, for Ippolito the
         # Magnificent.' the blank line went too, so the speaker and his speech are one block of four
         # lines and the test has to look at the first line of it, not at a block of one.
-        _speaker = (not _forced and meta.get('drama') and len(cb) <= 6
-                    and re.sub(r'[^A-Z ]', '', cb[0].strip()).strip() in drama_speakers)
+        _cm = re.match(r"^_*([A-Z][a-z]+(?: [A-Z][a-z]+)?)_*:_*\s", cb[0].strip())
+        # A play named after its title character collides with its own cast: "PHORMIO." is both the
+        # sixth comedy in Colman's Terence and a man who speaks in it forty times, so the heading was
+        # suppressed as a speaker and the whole play was swallowed by The Step-Mother before it. A
+        # heading the work names as a division is a division, whoever else answers to the name.
+        _is_div = meta.get('division') and re.match(meta['division'], cb[0].strip())
+        _speaker = (not _forced and not _is_div and meta.get('drama') and len(cb) <= 6
+                    and (re.sub(r'[^A-Z ]', '', cb[0].strip()).strip() in drama_speakers
+                         or (_cm and _cm.group(1) in colon_speakers)))
         scene_next = False
         if (_forced or (is_title(cb, meta, at_margin) and not _speaker) or (meta.get('headre') and len(cb) == 1 and len(cb[0]) < 60 and re.search(meta['headre'], cb[0], re.I) and re.search(r'\b([ivxlc]+|\d+|\w+)\b', cb[0]))) and not (len(cb) == 1 and ROMAN.match(cb[0])):
             # A two-line heading under titlere is normally a scene NUMBER over its title ("I." then
@@ -362,7 +419,7 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             # number; a wrapped scene heading keeps both.
             _scene = meta.get('drama') and re.match(r'^SCENE\b', re.sub(r'[\*_]+', '', cb[0]).strip(), re.I)
             hl = strip_date_note(cb[1:] if meta.get('titlere') and len(cb) == 2 and not _scene else cb)
-            if len(hl) > 2: hl = [x for x in hl if not re.match(r'^\s*(A |AN )?(SONG|SONNET|ODE|SET BY|TUNE|AIR)\b', x)] or hl[:1]; hl = [hl[0].strip(' .')] + [', ' + x.strip(' .') for x in hl[1:]] if len(hl) > 1 else hl
+            if len(hl) > 2: hl = [x for x in hl if not SONG_LABEL.match(x)] or hl[:1]; hl = [hl[0].strip(' .')] + [', ' + x.strip(' .') for x in hl[1:]] if len(hl) > 1 else hl
             newt = re.sub(r'^\(\d+\)\s*', '', re.sub(r'\s+', ' ', ''.join(hl) if len(hl) > 1 and hl[1].startswith(', ') else ' '.join(hl)).strip(' .'))
             if meta.get('title_sub'): newt = re.sub(meta['title_sub'][0], meta['title_sub'][1], newt).strip(' .')
             newt = re.sub(r'\s*<\d+\.\d+>', '', newt); newt = newt.replace(' ,', ',')
@@ -370,10 +427,16 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
             if skipping and meta.get('resume_only') and title and re.match(meta['resume_only'][0], title, re.I) and not re.match(meta['resume_only'][1], newt, re.I): continue   # inside the notes: only a named heading ends the skip
             # A play's ACT does for its scenes what a BOOK does for its cantos: without it every act
             # contributes a "Scene I" and the contents read as five poems of that name.
-            _div = r'^(BOOK|Book|ACT|Act)\.? ?[IVXLCD\d]+\.?$' if meta.get('drama') else r'^(BOOK|Book) [IVXLC]+\.?$'
+            # A division is not always numbered. Seneca's ten plays each carry the same five acts, so
+            # the contents page read "Act I" ten times over and nothing said which play. A work whose
+            # divisions have names gives the pattern that matches them.
+            _div = meta.get('division') or (r'^(BOOK|Book|ACT|Act)\.? ?[IVXLCD\d]+\.?$' if meta.get('drama') else r'^(BOOK|Book) [IVXLC]+\.?$')
             # "ACT. I." keeps its stop through polish_title and comes out "Act. I", which reads as a
             # speaker and gets folded away with its scenes. The stop goes here.
             new_book = polish_title(re.sub(r'^(ACT|Act)\.', r'\1', newt.strip()).strip(' .')) if meta.get('book_prefix') and re.match(_div, newt.strip()) else None
+            # the level between the named division and the sections: Terence's "ACT THE FIRST."
+            new_sub = (polish_title(newt.strip().strip(' .'))
+                       if meta.get('subdivision') and meta.get('book_prefix') and re.match(meta['subdivision'], newt.strip()) else None)
             if meta.get('numbered_titles') and part and not stanzas: newt = f"{meta.get('partlabel', 'Part')} {norm_roman(part)}: {newt}"; part = None
             if title and not stanzas and not skipping and re.match(r'^(book|canto|part|runo|fit|chapter)( the)? ([ivxlc]+|\d+|\w+)\.?$', re.sub(r'[\*_]+', '', title), re.I) and not re.match(r'^(book|canto|part|runo|fit|chapter)\b', newt, re.I) and not SKIP_TITLES.match(newt):
                 title = polish_title(title) + ': ' + polish_title(newt); continue
@@ -396,13 +459,14 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
                     newt = f"{major_title}: {_rest}"
                 elif re.search(r'\btale\b', tclean, re.I) and not SKIP_TITLES.match(tclean) and not re.match(r'^notes', tclean, re.I): major_title = tclean
             flush()
-            if new_book: book_ctx[0] = new_book   # after the flush: the section before a BOOK heading belongs to the old book (Horace's I.38 was labelled Book II)
+            if new_book: book_ctx[0] = new_book; div_ctx[0] = new_book   # after the flush: the section before a BOOK heading belongs to the old book (Horace's I.38 was labelled Book II)
+            elif new_sub: book_ctx[0] = (div_ctx[0] + ': ' + new_sub) if div_ctx[0] else new_sub
             # An act ends with its play. In a book that prints two plays and then a finale, the act
             # context ran straight through: Giles Corey's cast list came out "Act V: Giles Corey of the
             # Salem Farms" under John Endicott's fifth act, and the Finale of the whole trilogy came out
             # "Act V: Saint John". A heading in a play that is neither an act nor a scene is a division
             # above them, so it closes the act that was open.
-            elif meta.get('drama') and not re.match(r'^(Act|Scene)\b', newt.strip(), re.I): book_ctx[0] = None
+            elif meta.get('drama') and not meta.get('division') and not re.match(r'^(Act|Scene)\b', newt.strip(), re.I): book_ctx[0] = None
             if title and not (SKIP_TITLES.match(title.rstrip(': ')) or skipping): prev_title = title
             title = newt; part = None; skipping = bool(SKIP_TITLES.match(title.rstrip(': '))) or bool(meta.get('skipre') and re.match(meta['skipre'], title, re.I))
             if os.environ.get('PARSE_TRACE'): print('TITLE', repr(newt[:50]), 'skip' if skipping else '')
@@ -511,7 +575,13 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
     # and it must not move; `part` is what a contents page groups by, and it strips the prefix to print.
     if meta.get('book_prefix'):
         for s in sections:
-            if s.get('_book') and not re.match(r'^(Book|Act|Carmen Saeculare)\b', s['title']):
+            if not s.get('_book'): continue
+            # The guard is against prefixing a heading with itself. Where the division is numbered that
+            # means the word Book or Act; where it is named it means the name, because a named play's
+            # sections are called Act I and must keep the prefix that tells them apart.
+            own = (re.match(r'^' + re.escape(s['_book']) + r'\b', s['title']) if meta.get('division')
+                   else re.match(r'^(Book|Act|Carmen Saeculare)\b', s['title']))
+            if not own:
                 s['part'] = [s['_book']]
                 s['title'] = f"{s['_book']}: {s['title']}"; s['id'] = re.sub(r'[^a-z0-9]+', '-', s['title'].lower()).strip('-')[:60]
     # A section titled by a lone name that stands under a numbered heading with no verse of its own takes that
@@ -626,11 +696,31 @@ def parse_gutenberg(gid, slug, meta, min_lines=4):
     good = [s for s in good if sum(1 for st in s['stanzas'] for l in st if re.match(r'^\d{1,4}\.\s', l)) < 0.3 * max(1, sum(len(st) for st in s['stanzas'])) or sum(len(st) for st in s['stanzas']) < 6]
     good = [s for s in good if not re.search(r'\]$|^(?:[A-Z][A-Za-z0-9\']{0,3},\s*){2,}', s['title'])]
     def prosey(sec):
+        # A section is prose if its lines run long and few of them begin with a capital. That test on
+        # its own was deleting 95 sections across the library and most of them were poems: Hopkins's
+        # "Spelt from Sibyl's Leaves", Service's "The Shooting of Dan McGrew", Thackeray's "King
+        # Canute", seventeen of Swinburne and seventeen of Meredith. Long-lined verse looks exactly
+        # like prose to it, and so does verse the transcriber wrapped, because the wrap leaves half
+        # the lines starting in lower case.
+        #
+        # What tells them apart is that PROSE IS JUSTIFIED. Every line of a prose paragraph but the
+        # last reaches the same right margin, so its line lengths hardly vary; verse ends where the
+        # line ends and is ragged. Measured over all 95, the coefficient of variation of line length
+        # puts every prose block in the library below 0.49 and 45 of the poems at or above 0.50, with
+        # nothing of either kind crossing. Widening the capital test instead was tried first and could
+        # not be made safe: it re-admitted 22 real prose blocks, and no threshold separated them.
         ls = [l for st in sec['stanzas'] for l in st]
         if len(ls) < 6: return False
         med = sorted(len(l) for l in ls)[len(ls) // 2]; caps = sum(1 for l in ls if l[:1].isupper()) / len(ls)
-        return med > 58 and caps < 0.6
-    good = [s for s in good if not prosey(s)]
+        if not (med > 58 and caps < 0.6): return False
+        mean = sum(len(l) for l in ls) / len(ls)
+        if not mean: return False
+        ragged = (sum((len(l) - mean) ** 2 for l in ls) / len(ls)) ** 0.5 / mean
+        return ragged < 0.50
+    # Thirty sections are still lost to it, Danny Deever among them: a ballad in dialogue whose lines
+    # are long AND evenly measured, which is the one shape the test cannot read. Those works turn it
+    # off entirely in SLUG_META.
+    if not meta.get('no_prose_filter'): good = [s for s in good if not prosey(s)]
     if meta.get('each_stanza'):
         label = meta['each_stanza']; split = []; k = 0; song = 0
         for sec in good:
@@ -873,11 +963,21 @@ NOT_A_SPEAKER = {'mr', 'mrs', 'ms', 'dr', 'st', 'capt', 'col', 'gen', 'hon', 're
 # holding it together -- "Chamberlain. Yes", "Malvolio. Fool".
 SUBTITLE_WORD = re.compile(r'\b(a|an|the|of|to|in|on|at|by|from|with|for|or|part|book|canto|scene|act)\b', re.I)
 
-def is_speech(title, spoken):
+def is_speech(title, spoken, drama=False):
     """Is this title a character speaking, rather than a title with its subtitle?"""
     m = SPEECH_PREFIX.match(title)
     if not m: return False
     who = m.group(1)
+    # Outside a play an honorific opens a title, not a speech. The count used to come first, so any
+    # book with two poems headed "Mrs." or "Rev." read the honorific as a voice heard twice and folded
+    # every such poem into the one before it: Sigourney's In Memoriam is sixty-two elegies, each headed
+    # by the name of the person mourned, and twenty-six of them vanished into their neighbours, "Mrs.
+    # Payne" inside "Rev. Dr. F. W. Hatch". Measured over all 323 works with a source: nine change, and
+    # the fold was hiding real poems in eight -- Spoon River's Mrs. Benjamin Pantier and ten more
+    # epitaphs, twenty Swift and Sheridan exchanges, de la Mare's Mrs. Earth. The ninth, Goldsmith's
+    # cantata, needed its MAN SPEAKER labels named in fold_into_prev. In a play "Mrs. Malaprop." really
+    # can be a speaker, so there the count still decides.
+    if not drama and who.lower() in NOT_A_SPEAKER: return False
     if spoken[who] >= 2: return True                      # the same voice, more than once
     if who.lower() in NOT_A_SPEAKER: return False
     rest = title[m.end(1) + 1:].strip()
@@ -907,7 +1007,7 @@ def tidy_titles(good, meta):
         # In a play a scene heading is the section, not a stage direction to be folded into the one
         # before it. Folding them is why The Spagnoletto came out as a single 2,607-line section.
         _stage = r'^(Enter|Exit|Exeunt|Re-enter)' if meta.get('drama') else r'^(Enter|Exit|Exeunt|Re-enter|ROME\.|SCENE\b|Scene\b)'
-        if out and (re.match(r'^[\[\{]', t) or re.match(r'^\(.*\)$', t) or re.match(_stage, t) or re.match(r'^(Chorus|Semi-Chorus|Recitative|Air|Duet|Trio|Strophe|Antistrophe|Epode|Strophe [IVX]+|Antistrophe [IVX]+|Epode [IVX]+)$', t, re.I) or is_speech(t, spoken) or re.match(r'^[A-Z][a-z]+, \d{2}$', t) or re.search(r'\bVOICE\b|^THE VALLEY\b', t) or re.match(r'^[a-z]', t) or len(re.sub(r'[^A-Za-z]', '', t)) <= 2):
+        if out and (re.match(r'^[\[\{]', t) or re.match(r'^\(.*\)$', t) or re.match(_stage, t) or re.match(r'^(Chorus|Semi-Chorus|Recitative|Air|Duet|Trio|Strophe|Antistrophe|Epode|Strophe [IVX]+|Antistrophe [IVX]+|Epode [IVX]+)$', t, re.I) or is_speech(t, spoken, meta.get('drama')) or re.match(r'^[A-Z][a-z]+, \d{2}$', t) or re.search(r'\bVOICE\b|^THE VALLEY\b', t) or re.match(r'^[a-z]', t) or len(re.sub(r'[^A-Za-z]', '', t)) <= 2):
             out[-1]['stanzas'].extend(s['stanzas']); continue
         out.append(s)
     # a dialogue poem parsed by speaker: a run of four or more short titles drawn from two or three names folds into the section before it

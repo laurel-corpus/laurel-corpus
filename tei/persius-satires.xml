@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Satires of Persius</title><author>Persius</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Satires of Juvenal, Persius, Sulpicia, and Lucilius
+Literally translated into English prose, with notes, chronological tables, arguments, &amp;c.. Project Gutenberg ebook #50657. <ref target="https://www.gutenberg.org/ebooks/50657">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="prologue" n="L23623">
+      <head>Prologue</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:prologue</idno><idno type="laurel-id">L23623</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffggddhhiijjkkllmm">
+        <l n="1" real="x+-xxxxx" met="-+-+-+-+">&#x27;Twas never yet my luck, I ween,</l>
+        <l n="2" real="xxxxx+--" met="-+-+-+-+">To drench my lips in Hippocrene;</l>
+        <l n="3" real="xxxx-+-+" met="-+-+-+-+">Nor, if I recollect aright,</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">On the forked Hill to sleep a night,</l>
+        <l n="5" real="xxx+-xxx" met="-+-+-+-+">That I, like others of the trade,</l>
+        <l n="6" real="xxx+-+-x" met="-+-+-+-+">Might wake--a poet ready made!</l>
+        <l n="7" real="x+-xxxxx" met="-+-+-+-+">Thee, Helicon, with all the Nine,</l>
+        <l n="8" real="xx+-x-+" met="+-+-+-+">And pale Pyrene, I resign,</l>
+        <l n="9" real="xxxx+-x" met="+-+-+-+">Unenvied, to the tuneful race,</l>
+        <l n="10" real="xxx+xxxx" met="-+-+-+-+">Whose busts (of many a fane the grace)</l>
+        <l n="11" real="-+-+-xxx" met="-+-+-+-+">Sequacious ivy climbs, and spreads</l>
+        <l n="12" real="xxx+-xxx" met="-+-+-+-+">Unfading verdure round their heads.</l>
+        <l n="13" real="-+xxxxxx" met="-+-+-+-+">Enough for me, too mean for praise,</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">To bear my rude, uncultured lays</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">To Phœbus and the Muses&#x27; shrine,</l>
+        <l n="16" real="xxxxxx-+" met="-+-+-+-+">And place them near their gifts divine.</l>
+        <l n="17" real="xxx+-x" met="-+-+-+">Who bade the parrot χαῖρε cry;</l>
+        <l n="18" real="xx++-xxx" met="-+-+-+-+">And forced our language on the pie?</l>
+        <l n="19" real="x+-+-xxx" met="-+-+-+-+">The BELLY: Master, he, of Arts,</l>
+        <l n="20" real="-+-x-+-x" met="-+-+-+-+">Bestower of ingenious parts;</l>
+        <l n="21" real="+-x+-x-+" met="-+-+-+-+">Powerful the creatures to endue</l>
+        <l n="22" real="xxx+-+-x" met="-+-+-+-+">With sounds their natures never knew!</l>
+        <l n="23" real="xxx+-x-+" met="-+-+-+-+">For, let the wily hand unfold</l>
+        <l n="24" real="x+-xx+-x" met="-+-+-+-+">The glittering bait of tempting gold,</l>
+        <l n="25" real="xxx+xxxx" met="-+-+-+-+">And straight the choir of daws and pies,</l>
+        <l n="26" real="xx-+-xxx" met="-+-+-+-+">To such poetic heights shall rise,</l>
+        <l n="27" real="xxx+-xxx" met="-+-+-+-+">That, lost in wonder, you will swear</l>
+        <l n="28" real="-+-xxxxx" met="-+-+-+-+">Apollo and the Nine are there!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="satire-i" n="L23624">
+      <head>Satire I</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:satire-i</idno><idno type="laurel-id">L23624</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijj--kkllmmnnooppqq--rrssttuuvvwwxxyyzzaabbccddeeffgghhiijjkkllmmnnooppqq--rrss--ttuuvvwwxxyyzzaabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzaabbccddee--ffgghhiijj--kkllmmnn--ooppqqrrsstt-uuvvwwxxyyzzaa--bbccdd--eeffgghhiijjkkllmmnn">
+        <l n="1" real="-+xxxxxxxx" met="-+-+-+-+-+">Alas, for man! how vain are all his cares!</l>
+        <l n="2" real="xxx+-xxx-+" met="-+-+-+-+-+">And oh! what bubbles, his most grave affairs!</l>
+        <l n="3" real="xxxxxx+-xxx" met="-+-+-+-+-+-">Tush! who will read such trite--Heavens! this to me?</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Not one, by Jove. Not one? Well, two, or three;</l>
+        <l n="5" real="x+-xx+--xxx" met="-+-+-+-+-+-">Or rather--none: a piteous case, in truth!</l>
+        <l n="6" real="x+--xxxxx-+" met="-+-+-+-+-+-">Why piteous? lest Polydamas, forsooth,</l>
+        <l n="7" real="xxxx-+x+-x" met="-+-+-+-+-+">And Troy&#x27;s proud dames, pronounce my merits fall</l>
+        <l n="8" real="xxxxxxxxxx" met="-+-+-+-+-+">Beneath their Labeo&#x27;s! I can bear it all.</l>
+        <l n="9" real="xxxxxxx+-x" met="-+-+-+-+-+">Nor should my friend, though still, as fashion sways,</l>
+        <l n="10" real="x+-x-+xxxx" met="-+-+-+-+-+">The purblind town conspire to sink or raise,</l>
+        <l n="11" real="-+-xx+-x-+" met="-+-+-+-+-+">Determine, as her wavering beam prevails,</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">And trust his judgment to her coarser scales.</l>
+        <l n="13" real="xx-+xx-+-x" met="-+-+-+-+-+">O not abroad for vague opinion roam;</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">The wise man&#x27;s bosom is his proper home:</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">And Rome is--What? Ah, might the truth be told!--</l>
+        <l n="16" real="xxxxxxxx-+" met="-+-+-+-+-+">And, sure it may, it must.--When I behold</l>
+        <l n="17" real="xx-+xx+x-+" met="-+-+-+-+-+">What fond pursuits have formed our prime employ,</l>
+        <l n="18" real="xxxxx+xxxx" met="-+-+-+-+-+">Since first we dropped the playthings of the boy,</l>
+        <l n="19" real="xx-+--xxx+-" met="-+-+-+-+-+-">To gray maturity, to this late hour,</l>
+        <l n="20" real="x+-xxx-+--+" met="-+-+-+-+-+-">When every brow frowns with censorial power,</l>
+        <l n="21" real="xxxx-+x+-x" met="-+-+-+-+-+">Then, then--O yet suppress this carping mood.</l>
+        <l n="22" real="-+--xxxxxx" met="-+-+-+-+-+">Impossible! I could not if I would;</l>
+        <l n="23" real="x+-xxx-+-x" met="-+-+-+-+-+">For nature framed me of satiric mould,</l>
+        <l n="24" real="xxx+--xx-+" met="-+-+-+-+-+">And spleen, too petulant to be controlled.</l>
+        <l n="25" real="xxxx++-x-+" met="-+-+-+-+-+">Immured within our studies, we compose;</l>
+        <l n="26" real="x+-+-xx+-x" met="-+-+-+-+-+">Some, shackled metre; some, free-footed prose;</l>
+        <l n="27" real="xx+-xxxxxx" met="-+-+-+-+-+">But all, bombast; stuff, which the breast may strain,</l>
+        <l n="28" real="xxxxxxx+-x" met="-+-+-+-+-+">And the huge lungs puff forth with awkward pain.</l>
+        <l n="29" real="xxxxxx-+xx" met="-+-+-+-+-+">&#x27;Tis done! and now the bard, elate and proud,</l>
+        <l n="30" real="-+xx-+-xxx" met="-+-+-+-+-+">Prepares a grand rehearsal for the crowd.</l>
+        <l n="31" real="xxxxx+x+-x" met="-+-+-+-+-+">Lo! he steps forth in birthday splendor bright,</l>
+        <l n="32" real="xx-+xxx+-x" met="-+-+-+-+-+">Combed and perfumed, and robed in dazzling white;</l>
+        <l n="33" real="xxxxx+-xxx" met="-+-+-+-+-+">And mounts the desk; his pliant throat he clears,</l>
+        <l n="34" real="xx-+-xx+-x" met="-+-+-+-+-+">And deals, insidious, round his wanton leers;</l>
+        <l n="35" real="xxx+-xx+xx" met="-+-+-+-+-+">While Rome&#x27;s first nobles, by the prelude wrought,</l>
+        <l n="36" real="xx-+-xx+-x" met="-+-+-+-+-+">Watch, with indecent glee, each prurient thought,</l>
+        <l n="37" real="xxx+-xx+-x" met="-+-+-+-+-+">And squeal with rapture, as the luscious line</l>
+        <l n="38" real="xxx+-x-+xx" met="-+-+-+-+-+">Thrills through the marrow, and inflames the chine.</l>
+        <l n="39" real="x+-xxx-+xx" met="-+-+-+-+-+">Vile dotard! Canst thou thus consent to please!</l>
+        <l n="40" real="x+-xx+-xxx" met="-+-+-+-+-+">To pander for such itching fools as these!</l>
+        <l n="41" real="xx-+xxxxxx" met="-+-+-+-+-+">Fools--whose applause must shoot beyond thy aim,</l>
+        <l n="42" real="xxxxxxxxxx" met="-+-+-+-+-+">And tinge thy cheek, bronzed as it is, with shame!</l>
+        <l n="43" real="x+-xxxxx+--" met="-+-+-+-+-+-">But wherefore have I learned, if, thus represt,</l>
+        <l n="44" real="x+-xxxxxxx" met="-+-+-+-+-+">The leaven still must swell within my breast?</l>
+        <l n="45" real="xxxxx+-+-x" met="-+-+-+-+-+">If the wild fig-tree, deeply rooted there,</l>
+        <l n="46" real="x+-xxxxxxx" met="-+-+-+-+-+">Must never burst its bounds, and shoot in air?</l>
+        <l n="47" real="xxxxx+-xxx" met="-+-+-+-+-+">Are these the fruits of study! these of age!</l>
+        <l n="48" real="xxx+-x-+-x" met="-+-+-+-+-+">O times, O manners--Thou misjudging sage,</l>
+        <l n="49" real="x+-+-+-xxx" met="-+-+-+-+-+">Is science only useful as &#x27;tis shown,</l>
+        <l n="50" real="xxx+-+-xxx" met="-+-+-+-+-+">And is thy knowledge nothing, if not known?</l>
+        <l n="51" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;But, sure, &#x27;tis pleasant, as we walk, to see</l>
+        <l n="52" real="x+-+-xxxxx" met="-+-+-+-+-+">The pointed finger, hear the loud That&#x27;s he,</l>
+        <l n="53" real="x+-xxxxxxx" met="-+-+-+-+-+">On every side:--and seems it, in your sight,</l>
+        <l n="54" real="xxx+-x--+xx" met="-+-+-+-+-+-">So poor a trifle, that whate&#x27;er we write</l>
+        <l n="55" real="xx-+x+-xxx" met="-+-+-+-+-+">Is introduced to every school of note,</l>
+        <l n="56" real="xxxxx+--xx" met="-+-+-+-+-+">And taught the youth of quality by rote?</l>
+        <l n="57" real="xx++-xxxxx" met="-+-+-+-+-+">--Nay, more! Our nobles, gorged, and swilled with wine,</l>
+        <l n="58" real="xxx+-xxx-+" met="-+-+-+-+-+">Call, o&#x27;er the banquet, for a lay divine.</l>
+        <l n="59" real="xxxxx+-+-x" met="-+-+-+-+-+">Here one, on whom the princely purple glows,</l>
+        <l n="60" real="xx+-+-xxx" met="+-+-+-+-+">Snuffles some musty legend through his nose;</l>
+        <l n="61" real="+--+xxxxx" met="+-+-+-+-+">Slowly distills Hypsipyle&#x27;s sad fate,</l>
+        <l n="62" real="xxx+-+-xxx" met="-+-+-+-+-+">And love-lorn Phillis, dying for her mate,</l>
+        <l n="63" real="xxx+-xxxxx" met="-+-+-+-+-+">With what of woeful else is said or sung;</l>
+        <l n="64" real="xxx+-xx+-x" met="-+-+-+-+-+">And trips up every word, with lisping tongue.</l>
+        <l n="65" real="x+-+-xx+-x" met="-+-+-+-+-+">The maudlin audience, from the couches round,</l>
+        <l n="66" real="xx-+-+-xxx" met="-+-+-+-+-+">Hum their assent, responsive to the sound.--</l>
+        <l n="67" real="xxxxx+-+-x" met="-+-+-+-+-+">And are not now the poet&#x27;s ashes blest!</l>
+        <l n="68" real="xxxxx+-xxx" met="-+-+-+-+-+">Now lies the turf not lightly on his breast!</l>
+        <l n="69" real="xxx+-x-+xx" met="-+-+-+-+-+">They pause a moment--and again, the room</l>
+        <l n="70" real="xxxxxxx+-x" met="-+-+-+-+-+">Rings with his praise: now will not roses bloom,</l>
+        <l n="71" real="xxx+-xx+-x" met="-+-+-+-+-+">Now, from his relics, will not violets spring,</l>
+        <l n="72" real="xxx+-xx+-x" met="-+-+-+-+-+">And o&#x27;er his hallowed urn their fragrance fling!</l>
+        <l n="73" real="xxx+-xx+-x" met="-+-+-+-+-+">&quot;You laugh (&#x27;tis answered), and too freely here</l>
+        <l n="74" real="-+xx-+--xx" met="-+-+-+-+-+">Indulge that vile propensity to sneer.</l>
+        <l n="75" real="xxxxxx-+-+" met="-+-+-+-+-+">Lives there, who would not at applause rejoice,</l>
+        <l n="76" real="x+-xxxx+-x" met="-+-+-+-+-+">And merit, if he could, the public voice?</l>
+        <l n="77" real="xxxx-+--xx" met="-+-+-+-+-+">Who would not leave posterity such rhymes,</l>
+        <l n="78" real="x+-xxxx+-x" met="-+-+-+-+-+">As cedar oil might keep to latest times;</l>
+        <l n="79" real="xxxxx+-+-x" met="-+-+-+-+-+">Rhymes, which should fear no desperate grocer&#x27;s hand,</l>
+        <l n="80" real="xxxxx+-xxx" met="-+-+-+-+-+">Nor fly with fish and spices through the land!</l>
+        <l n="81" real="xxx+--xxx" met="+-+-+-+-+">Thou, my kind monitor, whoe&#x27;er thou art,</l>
+        <l n="82" real="xx-+xxx-+-x" met="-+-+-+-+-+-">Whom I suppose to play the opponent&#x27;s part,</l>
+        <l n="83" real="xxxxxxx+-x" met="-+-+-+-+-+">Know--when I write, if chance some happier strain</l>
+        <l n="84" real="xxxxxx-+xx" met="-+-+-+-+-+">(And chance it needs must be) rewards my pain,</l>
+        <l n="85" real="xxx+-xx+-x" met="-+-+-+-+-+">Know, I can relish praise with genuine zest;</l>
+        <l n="86" real="xxx+-xx-+-x" met="-+-+-+-+-+-">Not mine the torpid, mine the unfeeling breast:</l>
+        <l n="87" real="xxx+-xxx-+" met="-+-+-+-+-+">But that I merely toil for this acclaim,</l>
+        <l n="88" real="xxx+--xxxx" met="-+-+-+-+-+">And make these eulogies my end and aim,</l>
+        <l n="89" real="xxxxxxxxxx" met="-+-+-+-+-+">I must not, can not grant: for--sift them all,</l>
+        <l n="90" real="xxx+-xxxxx" met="-+-+-+-+-+">Mark well their value, and on what they fall:</l>
+        <l n="91" real="xxx+xxx+-x" met="-+-+-+-+-+">Are they not showered (to pass these trifles o&#x27;er)</l>
+        <l n="92" real="xxx+--xx+--" met="-+-+-+-+-+-">On Labeo&#x27;s Iliad, drunk with hellebore?</l>
+        <l n="93" real="x+-xx+-xxx" met="-+-+-+-+-+">On princely love-lays driveled without thought,</l>
+        <l n="94" real="xxxxx+-+-x" met="-+-+-+-+-+">And the crude trash on citron couches wrought?</l>
+        <l n="95" real="xxx+-xx+-x" met="-+-+-+-+-+">You spread the table--&#x27;tis a master-stroke,</l>
+        <l n="96" real="xxx+-xx+xx" met="-+-+-+-+-+">And give the shivering guest a threadbare cloak,</l>
+        <l n="97" real="xxxxx+-x-+" met="-+-+-+-+-+">Then, while his heart with gratitude dilates</l>
+        <l n="98" real="xxxxxx-+-x" met="-+-+-+-+-+">At the glad vest and the delicious cates,</l>
+        <l n="99" real="xxxxxxxx-+" met="-+-+-+-+-+">Tell me, you cry--for truth is my delight,</l>
+        <l n="100" real="xxxxxxxxxx" met="-+-+-+-+-+">What says the Town of me, and what I write?</l>
+        <l n="101" real="xxxxx+-xxx" met="-+-+-+-+-+">He can not:--he has neither ears nor eyes.</l>
+        <l n="102" real="xxxxxxxx-+" met="-+-+-+-+-+">But shall I tell you, who your bribes despise?</l>
+        <l n="103" real="x+-xxxx+-x" met="-+-+-+-+-+">--Bald trifler! cease at once your thriftless trade;</l>
+        <l n="104" real="x+-xxxx+-x" met="-+-+-+-+-+">That mountain paunch for verse was never made.</l>
+        <l n="105" real="x+-+-xx+-x" met="-+-+-+-+-+">O Janus, happiest of thy happy kind!--</l>
+        <l n="106" real="x+-xxxxxxx" met="-+-+-+-+-+">No waggish stork can peck at thee behind:</l>
+        <l n="107" real="xxxx-+x+-x" met="-+-+-+-+-+">No tongue thrust forth, expose to passing jeers;</l>
+        <l n="108" real="x+-+-xx+-x" met="-+-+-+-+-+">No twinkling fingers, perked like ass&#x27;s ears,</l>
+        <l n="109" real="xxx+-xxxxx" met="-+-+-+-+-+">Point to the vulgar mirth:--but you, ye Great,</l>
+        <l n="110" real="xxx+---+xx" met="-+-+-+-+-+">To a blind occiput condemned by fate,</l>
+        <l n="111" real="-+xxxxx+-x" met="-+-+-+-+-+">Prevent, while yet you may, the rabble&#x27;s glee,</l>
+        <l n="112" real="x+-xxxxxxx" met="-+-+-+-+-+">And tremble at the scoff you can not see!--</l>
+        <l n="113" real="xxxx-+-xxx" met="-+-+-+-+-+">&quot;What says the Town&quot;--precisely what it ought:</l>
+        <l n="114" real="xx-+xxxxxx" met="-+-+-+-+-+">All you produce, sir, with such skill is wrought,</l>
+        <l n="115" real="xxx+-+-xxx" met="-+-+-+-+-+">That o&#x27;er the polished surface, far and wide,</l>
+        <l n="116" real="x+-xxxxxxx" met="-+-+-+-+-+">The critic nail without a jar must glide;</l>
+        <l n="117" real="x+-xxxxxxx" met="-+-+-+-+-+">Since every verse is drawn as straight and fine</l>
+        <l n="118" real="xxxxxxx+-x" met="-+-+-+-+-+">As if one eye had fixed the ruddled line.</l>
+        <l n="119" real="--+x+-xx+-x" met="-+-+-+-+-+-">--Whate&#x27;er the subject of his varied rhymes,</l>
+        <l n="120" real="x+-+-+-xxx" met="-+-+-+-+-+">The humors, passions, vices of the times;</l>
+        <l n="121" real="xxx+-+-xxx" met="-+-+-+-+-+">The pomp of nobles, barbarous pride of kings,</l>
+        <l n="122" real="xxxxxx-+xx" met="-+-+-+-+-+">All, all is great, and all inspired he sings!</l>
+        <l n="123" real="x+-+-xx+-x" met="-+-+-+-+-+">Lo! striplings, scarcely from the ferule freed,</l>
+        <l n="124" real="x+-xxxx+xx" met="-+-+-+-+-+">And smarting yet from Greek, with headlong speed</l>
+        <l n="125" real="xx-+-x-+xx" met="-+-+-+-+-+">Rush on heroics; though devoid of skill</l>
+        <l n="126" real="xxx+-xx+-x" met="-+-+-+-+-+">To paint the rustling grove, or purling rill;</l>
+        <l n="127" real="xxx+-xx+-x" met="-+-+-+-+-+">Or praise the country, robed in cheerful green,</l>
+        <l n="128" real="xxxxx+-xxx" met="-+-+-+-+-+">Where hogs, and hearths, and osier frails are seen,</l>
+        <l n="129" real="x+-xxxxxxxx" met="-+-+-+-+-+-">And happy hinds, who leap o&#x27;er smouldering hay,</l>
+        <l n="130" real="x+-xxx+--x" met="-+-+-+-+-+">In honor, Pales, of thy sacred day.</l>
+        <l n="131" real="xx-+x+-xxx" met="-+-+-+-+-+">--Scenes of delight!--there Remus lived, and there,</l>
+        <l n="132" real="x+-+-xx+xx" met="-+-+-+-+-+">In grassy furrows Quinctius tired his share;</l>
+        <l n="133" real="xxxxxxx+-x" met="-+-+-+-+-+">Quinctius, on whom his wife, with trembling haste,</l>
+        <l n="134" real="xx-+-x-+-x" met="-+-+-+-+-+">The dictatorial robes, exulting, placed,</l>
+        <l n="135" real="xxxxx+-xxx" met="-+-+-+-+-+">Before his team; while homeward, with his plow,</l>
+        <l n="136" real="xxx+-xx+-x" met="-+-+-+-+-+">The lictors hurried--Good! a Homer, thou!</l>
+        <l n="137" real="xxxxx+-x-x" met="-+-+-+-+-+">There are, who hunt out antiquated lore;</l>
+        <l n="138" real="x+-xx+-+-x" met="-+-+-+-+-+">And never, but on musty authors, pore;</l>
+        <l n="139" real="xxxxx+-x-+" met="-+-+-+-+-+">These, Accius&#x27; jagged and knotty lines engage,</l>
+        <l n="140" real="xxxxxxx+-x" met="-+-+-+-+-+">And those, Pacuvius&#x27; hard and horny page;</l>
+        <l n="141" real="xxxxxxxxx" met="+-+-+-+-+">Where, in quaint tropes, Antiopa is seen</l>
+        <l n="142" real="xxxxxxxxxx" met="-+-+-+-+-+">To--prop her dolorific heart with teen!</l>
+        <l n="143" real="xxxxx+x+-x" met="-+-+-+-+-+">O, when you mark the sire, to judgment blind,</l>
+        <l n="144" real="-+x+-xx+-x" met="-+-+-+-+-+">Commend such models to the infant mind,</l>
+        <l n="145" real="-+x+-xx+--x" met="-+-+-+-+-+-">Forbear to wonder whence this olio sprung,</l>
+        <l n="146" real="x+-+-x-++x" met="-+-+-+-+-+">This sputtering jargon which infests our tongue;</l>
+        <l n="147" real="x+-xxxxxxx" met="-+-+-+-+-+">This scandal of the times, which shocks my ear,</l>
+        <l n="148" real="xx+xxxxxxx" met="-+-+-+-+-+">And which our knights bound from their seats to hear!</l>
+        <l n="149" real="x+-xxxxxxx" met="-+-+-+-+-+">How monstrous seems it, that we can not plead,</l>
+        <l n="150" real="xxx+-xx+-x" met="-+-+-+-+-+">When called to answer for some felon deed,</l>
+        <l n="151" real="x+-xx+-x-+" met="-+-+-+-+-+">Nor danger from the trembling head repel,</l>
+        <l n="152" real="xxxxx+-+-x" met="-+-+-+-+-+">Without a wish for--Bravo! Vastly well!</l>
+        <l n="153" real="xxxxxxx-+-x" met="-+-+-+-+-+-">This Pedius is a thief, the accusers cry.</l>
+        <l n="154" real="xxxxxxxx-+" met="-+-+-+-+-+">You hear them, Pedius; now, for your reply?</l>
+        <l n="155" real="xxxxxxxxxx" met="-+-+-+-+-+">In terse antitheses he weighs the crime,</l>
+        <l n="156" real="+-xxx+--xx" met="-+-+-+-+-+">Equals the pause, and balances the chime;</l>
+        <l n="157" real="xxxxx+-x-+" met="-+-+-+-+-+">And with such skill his flowery tropes employs,</l>
+        <l n="158" real="xxx+-x-+xx" met="-+-+-+-+-+">That the rapt audience scarce contain their joys.</l>
+        <l n="159" real="x+-+-xxx-+" met="-+-+-+-+-+">O charming! charming! he must sure prevail.</l>
+        <l n="160" real="x+-xx+-xxx" met="-+-+-+-+-+">THIS, charming! Can a Roman wag the tail?</l>
+        <l n="161" real="xxx+--xxxx" met="-+-+-+-+-+">Were the wrecked mariner to chant his woe,</l>
+        <l n="162" real="xxx+--xx-+" met="-+-+-+-+-+">Should I or sympathy or alms bestow?</l>
+        <l n="163" real="xxxxx+-xxx" met="-+-+-+-+-+">Sing you, when, in that tablet on your breast,</l>
+        <l n="164" real="xxx+-xxxxx" met="-+-+-+-+-+">I see your story to the life exprest;</l>
+        <l n="165" real="x+-xx+-xxx" met="-+-+-+-+-+">A shattered bark, dashed madly on the shore,</l>
+        <l n="166" real="xxx+-xx+-x" met="-+-+-+-+-+">And you, scarce floating, on a broken oar!--</l>
+        <l n="167" real="xxxxxxx+-x" met="-+-+-+-+-+">No, he must feel that would my pity share,</l>
+        <l n="168" real="xxx+-xx+-x" met="-+-+-+-+-+">And drop a natural, not a studied tear.</l>
+        <l n="169" real="xx++-xxx-+" met="-+-+-+-+-+">But yet our numbers boast a grace unknown</l>
+        <l n="170" real="x+xxx+-x+x" met="-+-+-+-+-+">To our rough sires, a smoothness all our own.</l>
+        <l n="171" real="xxx+-xx+-x" met="-+-+-+-+-+">True: the spruce metre in sweet cadence flows,</l>
+        <l n="172" real="x+-xx+-x-+" met="-+-+-+-+-+">And answering sounds a tuneful chime compose:</l>
+        <l n="173" real="xxxxx+-x-+" met="-+-+-+-+-+">Blue Nereus here, the Dolphin swift divides;</l>
+        <l n="174" real="xxxxxxxxx" met="+-+-+-+-+">And Idè there, sees Attin climb her sides:</l>
+        <l n="175" real="xx-+xxx+-x" met="-+-+-+-+-+">Nor this alone--for, in some happier line,</l>
+        <l n="176" real="xxxxxxx+-x" met="-+-+-+-+-+">We win the chine of the long Apennine!</l>
+        <l n="177" real="xxxxxx-+xx" met="-+-+-+-+-+">Arms and the man--Here, too, perhaps, you find</l>
+        <l n="178" real="x+-xxxx+-x" met="-+-+-+-+-+">A pithless branch beneath a fungous rind?</l>
+        <l n="179" real="xxx+-xx+xx" met="-+-+-+-+-+">Not so;--a seasoned trunk of many a day,</l>
+        <l n="180" real="xxx+-xxx-+" met="-+-+-+-+-+">Whose gross and watery parts are drawn away.</l>
+        <l n="181" real="xxxxxxxxxx" met="-+-+-+-+-+">But what, in fine (for still you jeer me), call</l>
+        <l n="182" real="xxxxxxx+-x" met="-+-+-+-+-+">For the moist eye, bowed head, and lengthened drawl,</l>
+        <l n="183" real="xxx+-+-xxx" met="-+-+-+-+-+">What strains of genuine pathos?--O&#x27;er the hill</l>
+        <l n="184" real="x+-xx+-xxx" met="-+-+-+-+-+">The dismal slug-horn sounded, loud and shrill,</l>
+        <l n="185" real="xxxxxx+xxx" met="-+-+-+-+-+">A Mimallonian blast: fired at the sound,</l>
+        <l n="186" real="x+-xxxxxxx" met="-+-+-+-+-+">In maddening groups the Bacchants pour around,</l>
+        <l n="187" real="+-x+-xx+-x" met="-+-+-+-+-+">Mangle the haughty calf with gory hands,</l>
+        <l n="188" real="xxx-+-xx+-x" met="-+-+-+-+-+-">And scourge the indocile lynx with ivy wands;</l>
+        <l n="189" real="x+-+-xx+-x" met="-+-+-+-+-+">While Echo lengthens out the barbarous yell,</l>
+        <l n="190" real="x+-xxxxxxx" met="-+-+-+-+-+">And propagates the din from cell to cell!</l>
+        <l n="191" real="xxx+-xx+-x" met="-+-+-+-+-+">O were not every spark of manly sense,</l>
+        <l n="192" real="x+-+-xx+-x" met="-+-+-+-+-+">Of pristine vigor quenched, or banished hence,</l>
+        <l n="193" real="xxxxx+xxxx" met="-+-+-+-+-+">Could this be borne! this cuckoo-spit of Rome,</l>
+        <l n="194" real="x+-xxxxxxx" met="-+-+-+-+-+">Which gathers round the lips in froth and foam!</l>
+        <l n="195" real="x+-xxxx+-x" met="-+-+-+-+-+">--The haughty calf, and Attin&#x27;s jangling strain,</l>
+        <l n="196" real="xxx+-xx+-x" met="-+-+-+-+-+">Dropped, without effort, from the rheumy brain;</l>
+        <l n="197" real="x+-xx+-x-+" met="-+-+-+-+-+">No savor they of bleeding nails afford,</l>
+        <l n="198" real="xxx+-xx+-x" met="-+-+-+-+-+">Or desk, oft smitten for the happy word.</l>
+        <l n="199" real="xxxx-+-+-+" met="-+-+-+-+-+">But why must you, alone, displeased appear,</l>
+        <l n="200" real="xxxxxxx+-x" met="-+-+-+-+-+">And with harsh truths thus grate the tender ear?</l>
+        <l n="201" real="xx-+xxx+-x" met="-+-+-+-+-+">O yet beware! think of the closing gate!</l>
+        <l n="202" real="xxxx-+-xxx" met="-+-+-+-+-+">And dread the cold reception of the great:</l>
+        <l n="203" real="x+-+-x-+xx" met="-+-+-+-+-+">This currish humor you extend too far,</l>
+        <l n="204" real="x+-xxxx+-x" met="-+-+-+-+-+">While every word growls with that hateful gnar!</l>
+        <l n="205" real="xxx+xxxxxx" met="-+-+-+-+-+">Right! From this hour (for now my fault I see)</l>
+        <l n="206" real="xxx+-+-xxx" met="-+-+-+-+-+">All shall be charming--charming all, for me:</l>
+        <l n="207" real="xxxx-+-x-+" met="-+-+-+-+-+">What late seemed base, already looks divine,</l>
+        <l n="208" real="x+-xxxx+-x" met="-+-+-+-+-+">And wonders start to view in every line!</l>
+        <l n="209" real="xxxxxxxx-+" met="-+-+-+-+-+">Tis well, you cry: this spot let none defile,</l>
+        <l n="210" real="xxx+---+xx" met="-+-+-+-+-+">Or turn to purposes obscene and vile.</l>
+        <l n="211" real="xxxx-+xxxx" met="-+-+-+-+-+">Paint, then, two snakes entwined; and write around,</l>
+        <l n="212" real="xx-+xxxx-+" met="-+-+-+-+-+">Awed, I retire: and yet--when vice appeared,</l>
+        <l n="213" real="xxxxxxx+-x" met="-+-+-+-+-+">Lucilius o&#x27;er the town his falchion reared;</l>
+        <l n="214" real="x+-xxxxxxx" met="-+-+-+-+-+">On Lupus, Mutius, poured his rage by name,</l>
+        <l n="215" real="xxx+-xx+-x" met="-+-+-+-+-+">And broke his grinders on their bleeding fame.</l>
+        <l n="216" real="xxx+-xxxxx" met="-+-+-+-+-+">And yet--arch Horace, while he strove to mend,</l>
+        <l n="217" real="xxx+-xx+-x" met="-+-+-+-+-+">Probed all the foibles of his smiling friend;</l>
+        <l n="218" real="x+-xxxx+-x" met="-+-+-+-+-+">Played lightly round and round the peccant part,</l>
+        <l n="219" real="xxxxx+-xxx" met="-+-+-+-+-+">And won, unfelt, an entrance to his heart.</l>
+        <l n="220" real="xxx+-xxxxx" met="-+-+-+-+-+">Well skilled the follies of the crowd to trace,</l>
+        <l n="221" real="xxxxx+-xxx" met="-+-+-+-+-+">And sneer, with gay good humor in his face.</l>
+        <l n="222" real="xxxxx+-xxx" met="-+-+-+-+-+">And I!--I must not mutter? No; nor dare--</l>
+        <l n="223" real="xxx+xxxx+x" met="-+-+-+-+-+">Not to myself? No. To a ditch? Nowhere.</l>
+        <l n="224" real="xxxxxxxx-+" met="-+-+-+-+-+">Yes, here I&#x27;ll dig--here, to sure trust confide</l>
+        <l n="225" real="x+-xxxxxxx" met="-+-+-+-+-+">The secret which I would, but can not, hide.</l>
+        <l n="226" real="x+-xxxx+-x" met="-+-+-+-+-+">My darling book, a word;--&quot;King Midas wears</l>
+        <l n="227" real="xx-+xxx+-x" met="-+-+-+-+-+">(These eyes beheld them, these!) such ass&#x27;s ears!&quot;--</l>
+        <l n="228" real="xxxxxxxxxx" met="-+-+-+-+-+">This quip of mine, which none must hear, or know,</l>
+        <l n="229" real="xx-+xxx+-x" met="-+-+-+-+-+">This fond conceit, which takes my fancy so,</l>
+        <l n="230" real="x+-xxxxxxx" met="-+-+-+-+-+">This nothing, if you will; you should not buy</l>
+        <l n="231" real="xxx+-xxxxx" met="-+-+-+-+-+">With all those Iliads that you prize so high.</l>
+        <l n="232" real="xxxxxx-+-x" met="-+-+-+-+-+">But thou, whom Eupolis&#x27; impassioned page,</l>
+        <l n="233" real="-+xx-+x+-x" met="-+-+-+-+-+">Hostile to vice, inflames with kindred rage,</l>
+        <l n="234" real="xxxxxxx+-+-" met="-+-+-+-+-+-">Whom bold Cratinus, and that awful sire,</l>
+        <l n="235" real="xxx+-x+-x-+" met="-+-+-+-+-+-">Force, as thou readest, to tremble and admire;</l>
+        <l n="236" real="xxx+-+-xxx" met="-+-+-+-+-+">O, view my humbler labors:--there, if aught</l>
+        <l n="237" real="x+-+-x-+-x" met="-+-+-+-+-+">More highly finished, more maturely wrought,</l>
+        <l n="238" real="-+xxxxxxxx" met="-+-+-+-+-+">Detain thy ear, and give thy breast to glow</l>
+        <l n="239" real="xx-+-xx-+-x" met="-+-+-+-+-+-">With warmth, responsive to the inspiring flow--</l>
+        <l n="240" real="xxx+-xxxxx" met="-+-+-+-+-+">I seek no farther:--Far from me the rest,</l>
+        <l n="241" real="xxxxxxxxxx" met="-+-+-+-+-+">Yes, far the wretch, who, with a low-born jest,</l>
+        <l n="242" real="xxxxx+-x-+" met="-+-+-+-+-+">Can mock the blind for blindness, and pursue</l>
+        <l n="243" real="x+-+--x+-x" met="-+-+-+-+-+">With vulgar ribaldry the Grecian shoe:</l>
+        <l n="244" real="+-xx-+xx-+" met="-+-+-+-+-+">Bursting with self-conceit, with pride elate,</l>
+        <l n="245" real="xx-+xx-+-x" met="-+-+-+-+-+">Because, forsooth, in magisterial state,</l>
+        <l n="246" real="x+-xxxx+-x" met="-+-+-+-+-+">His worship (ædile of some paltry town)</l>
+        <l n="247" real="x+-xxxx+-x" met="-+-+-+-+-+">Broke scanty weights, and put false measures down.</l>
+        <l n="248" real="xxxxx+-+-x" met="-+-+-+-+-+">Far too be he--the monstrous witty fool,</l>
+        <l n="249" real="xxx+-xx+-x" met="-+-+-+-+-+">Who turns the numeral scale to ridicule;</l>
+        <l n="250" real="-+x+-xxxxx" met="-+-+-+-+-+">Derides the problems traced in dust or sand,</l>
+        <l n="251" real="xxxx-+--xx" met="-+-+-+-+-+">And treads out all Geometry has planned--</l>
+        <l n="252" real="xx++xxxxxx" met="-+-+-+-+-+">Who roars outright to see Nonaria seize,</l>
+        <l n="253" real="xxx+-xxxxx" met="-+-+-+-+-+">And tug the cynic&#x27;s beard--To such as these</l>
+        <l n="254" real="xx-+xxxxxx" met="-+-+-+-+-+">I recommend, at morn, the Prætor&#x27;s bill,</l>
+        <l n="255" real="xxxxxxxxx" met="+-+-+-+-+">At eve, Calirrhoë, or--what they will.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-plotius-macrinus-on-his-birthday" n="L23625">
+      <head>To Plotius Macrinus (On His Birthday)</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:to-plotius-macrinus-on-his-birthday</idno><idno type="laurel-id">L23625</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffeeffgg--hhiijjkkllmm--nn--ooppppqqrrssttuuvvwwxxyyzzaabbccddeeffgghhiijjkkllmmnnooppqq--rrssttuuvvwwxxyyzzaa--bbccdd">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Health to my friend! and while my vows I pay,</l>
+        <l n="2" real="xxxxxx-+-x" met="-+-+-+-+-+">O mark, Macrinus, this auspicious day,</l>
+        <l n="3" real="xxxxxx-+-x" met="-+-+-+-+-+">Which, to your sum of years already flown,</l>
+        <l n="4" real="xx-+-xx+-x" met="-+-+-+-+-+">Adds yet another--with a whiter stone.</l>
+        <l n="5" real="-+x+-xxxxx" met="-+-+-+-+-+">Indulge your Genius, drench in wine your cares:--</l>
+        <l n="6" real="xxxxx+-x-x" met="-+-+-+-+-+">It is not yours, with mercenary prayers</l>
+        <l n="7" real="xxx+xxxxxx" met="-+-+-+-+-+">To ask of Heaven what you would die with shame,</l>
+        <l n="8" real="xxxxxx-+xx" met="-+-+-+-+-+">Unless you drew the gods aside, to name;</l>
+        <l n="9" real="x+-xxxxxxx" met="-+-+-+-+-+">While other great ones stand, with down-cast eyes,</l>
+        <l n="10" real="xxx+-+-xxx" met="-+-+-+-+-+">And with a silent censer tempt the skies!--</l>
+        <l n="11" real="xxxxxxx+-x" met="-+-+-+-+-+">Hard, hard the task, from the low, muttered prayer,</l>
+        <l n="12" real="xxxxxxx+--x" met="-+-+-+-+-+-">To free the fanes; or find one suppliant there,</l>
+        <l n="13" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Who dares to ask but what his state requires,</l>
+        <l n="14" real="xxx+xxxx-+-" met="-+-+-+-+-+-">And live to heaven and earth with known desires!</l>
+        <l n="15" real="xx-+--x+-x" met="-+-+-+-+-+">Sound sense, integrity, a conscience clear,</l>
+        <l n="16" real="xx-+xxxxxx" met="-+-+-+-+-+">Are begged aloud, that all at hand may hear:</l>
+        <l n="17" real="xxxxx+-x+--" met="-+-+-+-+-+-">But prayers like these (half whispered, half supprest)</l>
+        <l n="18" real="xxx+-xx+-x" met="-+-+-+-+-+">The tongue scarce hazards from the conscious breast:</l>
+        <l n="19" real="xxxxxxx+-x" met="-+-+-+-+-+">O that I could my rich old uncle see,</l>
+        <l n="20" real="x+--xxxx+--" met="-+-+-+-+-+-">In funeral pomp!--O that some deity       20</l>
+        <l n="21" real="xxx+-xxxxx" met="-+-+-+-+-+">To pots of buried gold would guide my share!</l>
+        <l n="22" real="xxxxxx-+xx" met="-+-+-+-+-+">O that my ward, whom I succeed as heir,</l>
+        <l n="23" real="xxxxxxxxxx" met="-+-+-+-+-+">Were once at rest! poor child, he lives in pain,</l>
+        <l n="24" real="xxxxxx-+-x" met="-+-+-+-+-+">And death to him must be accounted gain.--</l>
+        <l n="25" real="x+xxxxxxxx" met="-+-+-+-+-+">By wedlock, thrice has Nerius swelled his store,</l>
+        <l n="26" real="xxxxx+--xx" met="-+-+-+-+-+">And now--is he a widower once more!</l>
+        <l n="27" real="x+-xx+--xx" met="-+-+-+-+-+">These blessings, with due sanctity, to crave,</l>
+        <l n="28" real="xxxxx++--x" met="-+-+-+-+-+">Once, twice, and thrice in Tiber&#x27;s eddying wave</l>
+        <l n="29" real="xxxxxxxx-+" met="-+-+-+-+-+">He dips each morn, and bids the stream convey</l>
+        <l n="30" real="x+-+-xxx-+" met="-+-+-+-+-+">The gathered evils of the night, away!</l>
+        <l n="31" real="x+-xx+-xxx" met="-+-+-+-+-+">One question, friend:--an easy one, in fine--</l>
+        <l n="32" real="xxxxxxxxxx" met="-+-+-+-+-+">What are thy thoughts of Jove? My thoughts! Yes; thine.</l>
+        <l n="33" real="xx-+xxxxxx" met="-+-+-+-+-+">Wouldst thou prefer him to the herd of Rome?</l>
+        <l n="34" real="x+-x-+-xxx" met="-+-+-+-+-+">To any individual?--But, to whom?</l>
+        <l n="35" real="xxx-+-+-xx" met="-+-+-+-+-+">To Staius, for example. Heavens! a pause?</l>
+        <l n="36" real="xxxxxx-+xx" met="-+-+-+-+-+">Which of the two would best dispense the laws?</l>
+        <l n="37" real="xxx-+-+-xxx" met="-+-+-+-+-+-">Best shield the unfriended orphan? Good! Now move</l>
+        <l n="38" real="xxxxx-+-xx" met="-+-+-+-+-+">The suit to Staius, late preferred to Jove:--</l>
+        <l n="39" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;O Jove! good Jove!&quot; he cries, o&#x27;erwhelmed with shame,</l>
+        <l n="40" real="xxxx-+xx-+" met="-+-+-+-+-+">And must not Jove himself, O Jove! exclaim?</l>
+        <l n="41" real="xxxxx-+-x-+-" met="--+-+-+-+-+-">Or dost thou think the impious wish forgiven,</l>
+        <l n="42" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Because, when thunder shakes the vault of heaven,</l>
+        <l n="43" real="xx-+-xxxxx" met="-+-+-+-+-+">The bolt innoxious flies o&#x27;er thee and thine,</l>
+        <l n="44" real="xxx+-xx+-x" met="-+-+-+-+-+">To rend the forest oak and mountain pine?</l>
+        <l n="45" real="xxx+-xx+-x" met="-+-+-+-+-+">--Because, yet livid from the lightning&#x27;s seath,</l>
+        <l n="46" real="x+-xx+--xx" met="-+-+-+-+-+">Thy mouldering corpse (a monument of wrath)</l>
+        <l n="47" real="xxx+-xx+-x" met="-+-+-+-+-+">Lies in no blasted grove, for public care</l>
+        <l n="48" real="x+-xx+-xxx" met="-+-+-+-+-+">To expiate with sacrifice and prayer;</l>
+        <l n="49" real="xxxxxx-xxx" met="-+-+-+-+-+">Must, therefore, Jove, unsceptred and unfeared,</l>
+        <l n="50" real="xxx+-xx+-x" met="-+-+-+-+-+">Give to thy ruder mirth his foolish beard?</l>
+        <l n="51" real="xxxxxxx+-+" met="-+-+-+-+-+">What bribe hast thou to win the Powers divine,</l>
+        <l n="52" real="xxxxxxxxxx" met="-+-+-+-+-+">Thus, to thy nod? The lungs and lights of swine.</l>
+        <l n="53" real="xxx+-xx+-x" met="-+-+-+-+-+">Lo! from his little crib, the grandam hoar,</l>
+        <l n="54" real="xxxxxx-+-x" met="-+-+-+-+-+">Or aunt, well versed in superstitious lore,</l>
+        <l n="55" real="+-xxx+-+-x" met="-+-+-+-+-+">Snatches the babe; in lustral spittle dips</l>
+        <l n="56" real="x+-+-x-+xx" met="-+-+-+-+-+">Her middle finger, and anoints his lips</l>
+        <l n="57" real="x+-xx+--xx" met="-+-+-+-+-+">And forehead:--&quot;Charms of potency,&quot; she cries,</l>
+        <l n="58" real="xxx+--x+-x" met="-+-+-+-+-+">&quot;To break the influence of evil eyes!&quot;</l>
+        <l n="59" real="xx-+xxxxx" met="+-+-+-+-+">The spell complete, she dandles high in air</l>
+        <l n="60" real="x+-xxxx+-x" met="-+-+-+-+-+">Her starveling hope; and breathes a humble prayer,</l>
+        <l n="61" real="x+x+-+-xxx" met="-+-+-+-+-+">That heaven would only tender to his hands</l>
+        <l n="62" real="xxx+-xxxxx" met="-+-+-+-+-+">All Crassus&#x27; houses, all Licinius&#x27; lands!--</l>
+        <l n="63" real="x+-+-xxxxx" met="-+-+-+-+-+">&quot;Let every gazer by his charms be won,</l>
+        <l n="64" real="xxxx-+xxxx" met="-+-+-+-+-+">And kings and queens aspire to call him son:</l>
+        <l n="65" real="-+-+-xxxxx" met="-+-+-+-+-+">Contending virgins fly his smiles to meet,</l>
+        <l n="66" real="x+-x--+xxxx" met="-+-+-+-+-+-">And roses spring where&#x27;er he sets his feet!&quot;</l>
+        <l n="67" real="-+xxxxxxxx" met="-+-+-+-+-+">Insane of soul--but I, O Jove, am free.</l>
+        <l n="68" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Thou knowest, I trust no nurse with prayers for me:</l>
+        <l n="69" real="x+-x-+xx-+" met="-+-+-+-+-+">In mercy, then, reject each fond demand,</l>
+        <l n="70" real="xxxxxxx+-x" met="-+-+-+-+-+">Though, robed in white, she at thy altar stand.</l>
+        <l n="71" real="xxxxxxx+-x" met="-+-+-+-+-+">This begs for nerves to pain and sickness steeled,</l>
+        <l n="72" real="xxx+-xx+-x" met="-+-+-+-+-+">A frame of body that shall slowly yield</l>
+        <l n="73" real="xxxxxx-+xx" met="-+-+-+-+-+">To late old age:--&#x27;Tis well, enjoy thy wish.--</l>
+        <l n="74" real="xxx+-xx+-x" met="-+-+-+-+-+">But the huge platter, and high-seasoned dish,</l>
+        <l n="75" real="xxxxx+-x-+" met="-+-+-+-+-+">Day after day the willing gods withstand,</l>
+        <l n="76" real="xxx+-xx+-x" met="-+-+-+-+-+">And dash the blessing from their opening hand.</l>
+        <l n="77" real="xxxxx+-xxx" met="-+-+-+-+-+">That sues for wealth: the laboring ox is slain,</l>
+        <l n="78" real="x+-+-xxxxx" met="-+-+-+-+-+">And frequent victims woo the &quot;god of gain.&quot;</l>
+        <l n="79" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;O crown my hearth with plenty and with peace,</l>
+        <l n="80" real="xxxxxxxx-+" met="-+-+-+-+-+">And give my flocks and herds a large increase!&quot;</l>
+        <l n="81" real="+xxxxxxxxx" met="-+-+-+-+-+">Madman! how can he, when, from day to day,</l>
+        <l n="82" real="xxxxx+-x-+" met="-+-+-+-+-+">Steer after steer in offerings melt away?--</l>
+        <l n="83" real="xx-+xxxx-+" met="-+-+-+-+-+">Still he persists; and still new hopes arise,</l>
+        <l n="84" real="x+-xxxxxxx" met="-+-+-+-+-+">With harslet and with tripe, to storm the skies.</l>
+        <l n="85" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;Now swell my harvests! now my fields! now, now,</l>
+        <l n="86" real="xxxx-+-xxx" met="-+-+-+-+-+">It comes--it comes--auspicious to my vow!&quot;</l>
+        <l n="87" real="xxxxxxxxxx" met="-+-+-+-+-+">While thus, poor wretch, he hangs &#x27;twixt hope and fear,</l>
+        <l n="88" real="xxx+-+--xx" met="-+-+-+-+-+">He starts, in dreadful certainty, to hear</l>
+        <l n="89" real="xx-+--x+-x" met="-+-+-+-+-+">His chest reverberate the hollow groan</l>
+        <l n="90" real="xxxxxx-+-+" met="-+-+-+-+-+">Of his last piece, to find itself alone?</l>
+        <l n="91" real="xxx+-xxxxx" met="-+-+-+-+-+">If from my sideboard I should bid you take</l>
+        <l n="92" real="+-xxx+-xxx" met="-+-+-+-+-+">Goblets of gold or silver, you would shake</l>
+        <l n="93" real="x+-+-xxxxx" met="-+-+-+-+-+">With eager rapture; drops of joy would start,</l>
+        <l n="94" real="xxxxxxx+-x" met="-+-+-+-+-+">And your left breast scarce hold your fluttering heart:</l>
+        <l n="95" real="xx-+xxxxxx" met="-+-+-+-+-+">Hence, you presume the gods are bought and sold;</l>
+        <l n="96" real="x+-xxxx+-x" met="-+-+-+-+-+">And overlay their busts with captured gold.</l>
+        <l n="97" real="xxx+-+-xx+-" met="-+-+-+-+-+-">For, of the brazen brotherhood, the Power</l>
+        <l n="98" real="xxxxx+-+-+-" met="-+-+-+-+-+-">Who sends you dreams, at morning&#x27;s truer hour,</l>
+        <l n="99" real="xxxx-+xx-+" met="-+-+-+-+-+">Most purged from phlegm, enjoys your best regards,</l>
+        <l n="100" real="xxxxx+-x-+" met="-+-+-+-+-+">And a gold beard his prescient skill rewards!</l>
+        <l n="101" real="xxx+-xxxxx" met="-+-+-+-+-+">Now, from the temples, GOLD has chased the plain</l>
+        <l n="102" real="x+-xxxx+-x" met="-+-+-+-+-+">And frugal ware of Numa&#x27;s pious reign;.</l>
+        <l n="103" real="x+-xxxxxxx" met="-+-+-+-+-+">The ritual pots of brass are seen no more,</l>
+        <l n="104" real="x+-+-xx+-x" met="-+-+-+-+-+">And Vesta&#x27;s pitchers blaze in burnished ore.</l>
+        <l n="105" real="x+-xxxxx-+" met="-+-+-+-+-+">O groveling souls! and void of things divine!</l>
+        <l n="106" real="xx++-xx-+-x" met="-+-+-+-+-+-">Why bring our passions to the Immortals&#x27; shrine,</l>
+        <l n="107" real="xxxxx+-x-+" met="-+-+-+-+-+">And judge, from what this CARNAL SENSE delights,</l>
+        <l n="108" real="xxx+-xx+-x" met="-+-+-+-+-+">Of what is pleasing in their purer sights?</l>
+        <l n="109" real="xxxxxxx+-x" met="-+-+-+-+-+">THIS, the Calabrian fleece with purple soils,</l>
+        <l n="110" real="x+-+-x++-x" met="-+-+-+-+-+">And mingles cassia with our native oils;</l>
+        <l n="111" real="xxx+-xx+-x" met="-+-+-+-+-+">Tears from the rocky conch its pearly store,</l>
+        <l n="112" real="xxx+-xx+-x" met="-+-+-+-+-+">And strains the metal from the glowing ore.</l>
+        <l n="113" real="xx-+x+-xxx" met="-+-+-+-+-+">This, this, indeed, is vicious; yet it tends</l>
+        <l n="114" real="x+-x-+xxxx" met="-+-+-+-+-+">To gladden life, perhaps; and boasts its ends;</l>
+        <l n="115" real="xxxxxxxx-+" met="-+-+-+-+-+">But you, ye priests (for, sure, ye can), unfold--</l>
+        <l n="116" real="x+-xxxxxxx" met="-+-+-+-+-+">In heavenly things, what boots this pomp of gold?</l>
+        <l n="117" real="xxxxxxx+-x" met="-+-+-+-+-+">No more, in truth, than dolls to Venus paid</l>
+        <l n="118" real="xxx+xxxxxx" met="-+-+-+-+-+">(The toys of childhood), by the riper maid!</l>
+        <l n="119" real="xxxxx-+-xxx" met="-+-+-+-+-+-">No; let me bring the Immortals, what the race</l>
+        <l n="120" real="xxxxxx-+xx" met="-+-+-+-+-+">Of great Messala, now depraved and base,</l>
+        <l n="121" real="xxx+-xxxxx" met="-+-+-+-+-+">On their huge charger, can not;--bring a mind,</l>
+        <l n="122" real="x+-xx+-xxx" met="-+-+-+-+-+">Where legal and where moral sense are joined</l>
+        <l n="123" real="xxx+-+-xxx" met="-+-+-+-+-+">With the pure essence; holy thoughts, that dwell</l>
+        <l n="124" real="xxxx-+x+-x" met="-+-+-+-+-+">In the soul&#x27;s most retired and sacred cell;</l>
+        <l n="125" real="x+-xx+-+-x" met="-+-+-+-+-+">A bosom dyed in honor&#x27;s noblest grain,</l>
+        <l n="126" real="xxxxxx-+xx" met="-+-+-+-+-+">Deep-dyed:--with these let me approach the fane,</l>
+        <l n="127" real="x+xxx+-xxx" met="-+-+-+-+-+">And Heaven will hear the humble prayer I make,</l>
+        <l n="128" real="xxx+-xx+-x" met="-+-+-+-+-+">Though all my offering be a barley cake.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="satire-iii" n="L23626">
+      <head>Satire III</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:satire-iii</idno><idno type="laurel-id">L23626</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjkkllmmnnoo--ppqqpprrssttuuvvwwxxyyzzaabb--ccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzaabbccddeeffgghhiiiijjkkllmm--nnooppqqrr--ssttuuvvwwxxyyzzaabb----ccddeeffgg--hhiijjkkllmmnnoooo--ppqq">
+        <l n="1" real="x+-xxxxxxx" met="-+-+-+-+-+">What! ever thus? See! while the beams of day</l>
+        <l n="2" real="xx-+-xx+-x" met="-+-+-+-+-+">In broad effulgence o&#x27;er the shutters play,</l>
+        <l n="3" real="xxx+-+-xxx" met="-+-+-+-+-+">Stream through the crevice, widen on the walls,</l>
+        <l n="4" real="xxxxxxx+xx" met="-+-+-+-+-+">On the fifth line the gnomon&#x27;s shadow falls!</l>
+        <l n="5" real="xxxxxxxx-+" met="-+-+-+-+-+">Yet still you sleep, like one that, stretched supine,</l>
+        <l n="6" real="xxxxxx-+--x" met="-+-+-+-+-+-">Snores off the fumes of strong Falernian wine.</l>
+        <l n="7" real="xxx+--+-+-x" met="-+-+-+-+-+-">Up! up! mad Sirius parches every blade,</l>
+        <l n="8" real="xxxxx+-xxx" met="-+-+-+-+-+">And flocks and herds lie panting in the shade.</l>
+        <l n="9" real="xxx+-xx+-x" met="-+-+-+-+-+">Here my youth rouses, rubs his heavy eyes,</l>
+        <l n="10" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;Is it so late? so very late?&quot; he cries;</l>
+        <l n="11" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;Shame, shame! Who waits? Who waits there? quick, my page!</l>
+        <l n="12" real="xxxx+-xxxxx" met="-+-+-+-+-+-">Why, when!&quot; His bile overflows; he foams with rage,</l>
+        <l n="13" real="xxx+-xxxxx" met="-+-+-+-+-+">And brays so loudly, that you start in fear,</l>
+        <l n="14" real="x+-x-+-xxx" met="-+-+-+-+-+">And fancy all Arcadia at your ear.</l>
+        <l n="15" real="-+xxx+-xxx" met="-+-+-+-+-+">Behold him, with his bedgown and his books,</l>
+        <l n="16" real="xxx+-xx+-x" met="-+-+-+-+-+">His pens and paper, and his studious looks,</l>
+        <l n="17" real="-+x+-x-+xx" met="-+-+-+-+-+">Intent and earnest! What arrests his speed,</l>
+        <l n="18" real="-+x+-+-xxx" met="-+-+-+-+-+">Alas! the viscous liquid clogs the reed.</l>
+        <l n="19" real="-+xxx+-xxx" met="-+-+-+-+-+">Dilute it. Pish! now every word I write</l>
+        <l n="20" real="xxx+-x-+xx" met="-+-+-+-+-+">Sinks through the paper, and eludes the sight;</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">Now the pen leaves no mark, the point&#x27;s too fine;</l>
+        <l n="22" real="xxxxx+-+-x" met="-+-+-+-+-+">Now &#x27;tis too blunt, and doubles every line!</l>
+        <l n="23" real="xxx+-xx+-x" met="-+-+-+-+-+">O wretch! whom every day more wretched sees--</l>
+        <l n="24" real="xxxxxxx+-x" met="-+-+-+-+-+">Are these the fruits of all your studies? these!</l>
+        <l n="25" real="xxxxxxx+-x" met="-+-+-+-+-+">Give o&#x27;er at once: and like same callow dove,</l>
+        <l n="26" real="x+-xx+-+-x" met="-+-+-+-+-+">Some prince&#x27;s heir, some lady&#x27;s infant love,</l>
+        <l n="27" real="xxxxx+-xxx" met="-+-+-+-+-+">Call for chewed pap; and, pouting at the breast,</l>
+        <l n="28" real="xxx+-xxxxx" met="-+-+-+-+-+">Scream at the lullaby that woos to rest!</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;But why such warmth? See what a pen! nay, see!&quot;--</l>
+        <l n="30" real="xxx+-x-+xx" met="-+-+-+-+-+">And is this subterfuge employed on me?</l>
+        <l n="31" real="xxxxxx+xxx" met="-+-+-+-+-+">Fond boy! your time, with your pretext, is lost;</l>
+        <l n="32" real="xxxxxxx+-x" met="-+-+-+-+-+">And all your arts are at your proper cost.</l>
+        <l n="33" real="xx-+-xx+-x" met="-+-+-+-+-+">While with occasion thus you madly play,</l>
+        <l n="34" real="xxxx-+-x-+" met="-+-+-+-+-+">Your best of life unheeded leaks away,</l>
+        <l n="35" real="xxxx-+xxxx" met="-+-+-+-+-+">And scorn flows in apace: the ill-baked ware,</l>
+        <l n="36" real="xxx+-xxx-+" met="-+-+-+-+-+">Rung by the potter, will its fault declare;</l>
+        <l n="37" real="xxxxxxx+-x" met="-+-+-+-+-+">Thus--But you yet are moist and yielding clay:</l>
+        <l n="38" real="xxx+-xxx-+" met="-+-+-+-+-+">Call for some plastic hand without delay,</l>
+        <l n="39" real="xxx+-xxx-+" met="-+-+-+-+-+">Nor cease the labor, till the wheel produce</l>
+        <l n="40" real="x+-+-xxxxx" met="-+-+-+-+-+">A vessel nicely formed, and fit for use.</l>
+        <l n="41" real="x+-xx+-xxx" met="-+-+-+-+-+">&quot;But wherefore this? My father, thanks to fate,</l>
+        <l n="42" real="xxxxxxxx-+" met="-+-+-+-+-+">Left me a fair, if not a large, estate:--</l>
+        <l n="43" real="xx-+-xx+-x" met="-+-+-+-+-+">A salt unsullied on my table shines,</l>
+        <l n="44" real="xxxxxxx+-x" met="-+-+-+-+-+">And due oblations, in their little shrines,</l>
+        <l n="45" real="x+xx-+xxxx" met="-+-+-+-+-+">My household gods receive; my hearth is pure,</l>
+        <l n="46" real="xxxxxx-+xx" met="-+-+-+-+-+">And all my means of life confirmed and sure:</l>
+        <l n="47" real="xxxxx+-xxx" met="-+-+-+-+-+">What need I more?&quot; Nay, nothing; it is well.</l>
+        <l n="48" real="xx-+xxxxxx" met="-+-+-+-+-+">--And it becomes you, too, with pride to swell,</l>
+        <l n="49" real="xxx+-x-+xx" met="-+-+-+-+-+">Because, the thousandth in descent, you trace</l>
+        <l n="50" real="xx-+xxx+-x" met="-+-+-+-+-+">Your blood, unmixed, from some high Tuscan race;</l>
+        <l n="51" real="xxxxxxx+-x" met="-+-+-+-+-+">Or, when the knights march by the censor&#x27;s chair,</l>
+        <l n="52" real="x+-xxxx+xx" met="-+-+-+-+-+">In annual pomp, can greet a kinsman there!</l>
+        <l n="53" real="-+x+-xx+-x" met="-+-+-+-+-+">Away! these trappings to the rabble show:</l>
+        <l n="54" real="xx-+xxxxxx" met="-+-+-+-+-+">Me they deceive not; for your soul I know,</l>
+        <l n="55" real="xxxxxxxxxx" met="-+-+-+-+-+">Within, without.--And blush you not to see</l>
+        <l n="56" real="xxxxxxxx-+" met="-+-+-+-+-+">Loose Natta&#x27;s life and yours so well agree?</l>
+        <l n="57" real="xxxxxxxxxx" met="-+-+-+-+-+">--But Natta&#x27;s is not life: the sleep of sin</l>
+        <l n="58" real="xxx+x+-xxx" met="-+-+-+-+-+">Has seized his powers, and palsied all within;</l>
+        <l n="59" real="xxxx+-x+-x" met="-+-+-+-+-+">Huge cawls of fat envelope every part,</l>
+        <l n="60" real="x+-xxx-+-x" met="-+-+-+-+-+">And torpor weighs on his insensate heart:</l>
+        <l n="61" real="-+xxx+--xx" met="-+-+-+-+-+">Absolved from blame by ignorance so gross,</l>
+        <l n="62" real="x+-xxx-+xx" met="-+-+-+-+-+">He neither sees nor comprehends his loss;</l>
+        <l n="63" real="-+xx-+-+xx" met="-+-+-+-+-+">Content in guilt&#x27;s profound abyss to drop,</l>
+        <l n="64" real="x+-xx+-xxx" met="-+-+-+-+-+">Nor, struggling, send one bubble to the top!</l>
+        <l n="65" real="x+xxxxxxxx" met="-+-+-+-+-+">Dread sire of gods! when lust&#x27;s envenomed stings</l>
+        <l n="66" real="xxx+-xxxxx" met="-+-+-+-+-+">Stir the fierce natures of tyrannic kings;</l>
+        <l n="67" real="xxxxxxx+-x" met="-+-+-+-+-+">When storms of rage within their bosoms roll,</l>
+        <l n="68" real="xxx+-xxx-+" met="-+-+-+-+-+">And call, in thunder, for thy just control,</l>
+        <l n="69" real="xx-+xx-+xx" met="-+-+-+-+-+">O, then relax the bolt, suspend the blow,</l>
+        <l n="70" real="xxxx-+x+-x" met="-+-+-+-+-+">And thus, and thus alone, thy vengeance show,</l>
+        <l n="71" real="xxxxx+-xxx" met="-+-+-+-+-+">In all her charms, set Virtue in their eye,</l>
+        <l n="72" real="xxxxxx-+xx" met="-+-+-+-+-+">And let them see their loss, despair, and--die!</l>
+        <l n="73" real="xxxxxxx+-x" met="-+-+-+-+-+">Say, could the wretch severer tortures feel,</l>
+        <l n="74" real="xxx+-xxxxx" met="-+-+-+-+-+">Closed in the brazen bull?--Could the bright steel,</l>
+        <l n="75" real="xxxxx+-xxx" met="-+-+-+-+-+">That, while the board with regal pomp was spread,</l>
+        <l n="76" real="xxxx-+-xxx" met="-+-+-+-+-+">Gleamed o&#x27;er the guest, suspended by a thread,</l>
+        <l n="77" real="xx-+xx-+xx" met="-+-+-+-+-+">Worse pangs inflict than he endures, who cries</l>
+        <l n="78" real="xxxxx+-xxx" met="-+-+-+-+-+">(As on the rack of conscious guilt he lies,</l>
+        <l n="79" real="x+-+---+xx" met="-+-+-+-+-+">In mental agony), &quot;Alas! I fall,</l>
+        <l n="80" real="xxxxxxxxx+x" met="-+-+-+-+-+-">Down, down the unfathomed steep, without recall!&quot;</l>
+        <l n="81" real="x+-xxxxxxx" met="-+-+-+-+-+">And withers at the heart, and dares not show</l>
+        <l n="82" real="x+-xx+-xxx" met="-+-+-+-+-+">His bosom wife the secret of his woe!</l>
+        <l n="83" real="xx-+-xxxxx" met="-+-+-+-+-+">Oft (I remember yet), my sight to spoil.</l>
+        <l n="84" real="xxxxxxxxxx" met="-+-+-+-+-+">Oft, when a boy, I bleared my eyes with oil,</l>
+        <l n="85" real="xxxxx+-x-+" met="-+-+-+-+-+">What time I wished my studies to decline,</l>
+        <l n="86" real="xxx+-+-+-x" met="-+-+-+-+-+">Nor make great Cato&#x27;s dying speeches mine;</l>
+        <l n="87" real="+-x+-xxxxx" met="-+-+-+-+-+">Speeches my master to the skies had raised,</l>
+        <l n="88" real="x+---+-xxx" met="-+-+-+-+-+">Poor pedagogue! unknowing what he praised;</l>
+        <l n="89" real="xxx+-+xxxx" met="-+-+-+-+-+">And which my sire, suspense &#x27;twixt hope and fear,</l>
+        <l n="90" real="x+--xxxxxxx" met="-+-+-+-+-+-">With venial pride, had brought his friends to hear.</l>
+        <l n="91" real="xx-+xx-+-+" met="-+-+-+-+-+">For then, alas! &#x27;twas my supreme delight</l>
+        <l n="92" real="x+-+-x-+-+" met="-+-+-+-+-+">To study chances, and compute aright,</l>
+        <l n="93" real="xxx+-xxxxx" met="-+-+-+-+-+">What sum the lucky sice would yield in play,</l>
+        <l n="94" real="xxx+-+-x-+" met="-+-+-+-+-+">And what the fatal aces sweep away:</l>
+        <l n="95" real="+-x+-+--xx" met="-+-+-+-+-+">Anxious no rival candidate for fame</l>
+        <l n="96" real="xxxxxxx+-x" met="-+-+-+-+-+">Should hit the long-necked jar with nicer aim;</l>
+        <l n="97" real="xxx+-x-+xx" met="-+-+-+-+-+">Nor, while the whirling top beguiled the eye,</l>
+        <l n="98" real="x+-xx+-x-+" met="-+-+-+-+-+">With happier skill the sounding scourge apply.</l>
+        <l n="99" real="xxxxxxx+-x" met="-+-+-+-+-+">But you have passed the schools; have studied long,</l>
+        <l n="100" real="xxx-+-xxxxx" met="-+-+-+-+-+-">And learned the eternal bounds of Right and Wrong,</l>
+        <l n="101" real="xxxxxxxxxx" met="-+-+-+-+-+">And what the Porch (by Mycon limned, of yore,</l>
+        <l n="102" real="xxxx-+x+-x" met="-+-+-+-+-+">With trowsered Medes), unfolds of ethic lore,</l>
+        <l n="103" real="xxxxxxx+-x" met="-+-+-+-+-+">Where the shorn youth, on herbs and pottage fed,</l>
+        <l n="104" real="xxx+xxx+-x" met="-+-+-+-+-+">Bend, o&#x27;er the midnight page, the sleepless head:</l>
+        <l n="105" real="xxx+-x-+-x" met="-+-+-+-+-+">And, sure, the letter where, divergent wide,</l>
+        <l n="106" real="x+--+-xx+-x" met="-+-+-+-+-+-">The Samian branches shoot on either side,</l>
+        <l n="107" real="xxxxxx-+-+" met="-+-+-+-+-+">Has to your view, with no obscure display,</l>
+        <l n="108" real="xxxxxxx+-x" met="-+-+-+-+-+">Marked, on the right, the strait but better way.</l>
+        <l n="109" real="xxx+-xxx+--" met="-+-+-+-+-+-">And yet you slumber still! and still opprest</l>
+        <l n="110" real="xxx+-xxxxx" met="-+-+-+-+-+">With last night&#x27;s revels, knock your head and breast!</l>
+        <l n="111" real="x+-xx+-x-+" met="-+-+-+-+-+">And stretching o&#x27;er your drowsy couch, produce</l>
+        <l n="112" real="xxxxxxxxxx" met="-+-+-+-+-+">Yawn after yawn, as if your jaws were loose!</l>
+        <l n="113" real="xxx+-xxxxx" met="-+-+-+-+-+">Is there no certain mark at which to aim?--</l>
+        <l n="114" real="xxxxxxx+-x" met="-+-+-+-+-+">Still must your bow be bent at casual game?</l>
+        <l n="115" real="xxxxxxxx-+" met="-+-+-+-+-+">With clods, and potsherds, must you still pursue</l>
+        <l n="116" real="x+-xxx-+xx" met="-+-+-+-+-+">Each wandering crow that chance presents to view;</l>
+        <l n="117" real="x+-xxx+--x" met="-+-+-+-+-+">And, careless of your life&#x27;s contracted span,</l>
+        <l n="118" real="xxx+-xxxxx" met="-+-+-+-+-+">Live from the moment, and without a plan?</l>
+        <l n="119" real="x+-+-+-x-+" met="-+-+-+-+-+">When bloated dropsies every limb invade.</l>
+        <l n="120" real="xxx+--xxxx" met="-+-+-+-+-+">In vain to hellebore you fly for aid:</l>
+        <l n="121" real="xx-+-xxx-+" met="-+-+-+-+-+">Meet with preventive skill the young disease,</l>
+        <l n="122" real="xxxxxxx+-x" met="-+-+-+-+-+">And Craterus will boast no golden fees.</l>
+        <l n="123" real="x+-xxx-+-x" met="-+-+-+-+-+">Mount, hapless youths, on Contemplation&#x27;s wings,</l>
+        <l n="124" real="xxx+-xxxxx" met="-+-+-+-+-+">And mark the Causes and the End of things:--</l>
+        <l n="125" real="xxxxxxx+-x" met="-+-+-+-+-+">Learn what we are, and for what purpose born,</l>
+        <l n="126" real="x+-xx+xx-+" met="-+-+-+-+-+">What station here &#x27;tis given us to adorn;</l>
+        <l n="127" real="xxxx-+--xx" met="-+-+-+-+-+">How best to blend security with ease,</l>
+        <l n="128" real="xx+xxxx+-x" met="-+-+-+-+-+">And win our way through life&#x27;s tempestuous seas;</l>
+        <l n="129" real="xxxxx+---+-" met="-+-+-+-+-+-">What bounds the love of property requires,</l>
+        <l n="130" real="xxxxxxxx-+-" met="-+-+-+-+-+-">And what to wish, with unreproved desires;</l>
+        <l n="131" real="xxx+-xxx-+" met="-+-+-+-+-+">How far the genuine use of wealth extends;</l>
+        <l n="132" real="xxxxx+-+-x" met="-+-+-+-+-+">And the just claims of country, kindred, friends</l>
+        <l n="133" real="x+xxxxxx+x" met="-+-+-+-+-+">What Heaven would have us be, and where our stand,</l>
+        <l n="134" real="xxxxxxxx-+" met="-+-+-+-+-+">In this GREAT WHOLE, is fixed by high command.</l>
+        <l n="135" real="xxx+-xx+-x" met="-+-+-+-+-+">Learn these--and envy not the sordid gains</l>
+        <l n="136" real="x+-xxxx+-x" met="-+-+-+-+-+">Which recompense the well-tongued lawyer&#x27;s pains;</l>
+        <l n="137" real="xxx+-xxx-+" met="-+-+-+-+-+">Though Umbrian rustics, for his sage advice,</l>
+        <l n="138" real="xxxxxxxxxx" met="-+-+-+-+-+">Pour in their jars of fish, and oil, and spice,</l>
+        <l n="139" real="xxxxxxxxxx" met="-+-+-+-+-+">So thick and fast, that, ere the first be o&#x27;er,</l>
+        <l n="140" real="x+-xxxxxxx" met="-+-+-+-+-+">A second, and a third, are at the door.</l>
+        <l n="141" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;But here, some brother of the blade, some coarse</l>
+        <l n="142" real="xxx+-+-xxx" met="-+-+-+-+-+">And shag-haired captain, bellows loud and hoarse;</l>
+        <l n="143" real="-+xxxx-+-x" met="-+-+-+-+-+">Away with this cramp, philosophic stuff!</l>
+        <l n="144" real="x+-xxxxx-+" met="-+-+-+-+-+">My learning serves my turn, and that&#x27;s enough.</l>
+        <l n="145" real="xxxxx+-+-x" met="-+-+-+-+-+">I laugh at all your dismal Solons, I;</l>
+        <l n="146" real="xxx+xxxx-+" met="-+-+-+-+-+">Who stalk with downcast looks, and heads awry,</l>
+        <l n="147" real="+-xx-+--+xx" met="-+-+-+-+-+-">Muttering within themselves, where&#x27;er they roam,</l>
+        <l n="148" real="x+-xx+-xxx" met="-+-+-+-+-+">And churning their mad silence till it foam!</l>
+        <l n="149" real="xxxxxxxx-+" met="-+-+-+-+-+">Who mope o&#x27;er sick men&#x27;s dreams, howe&#x27;er absurd,</l>
+        <l n="150" real="xx-+-xx+-x" met="-+-+-+-+-+">And on protruded lips poise every word;</l>
+        <l n="151" real="+-xxx+-xxx" met="-+-+-+-+-+">Nothing can come from nothing. Apt and plain!</l>
+        <l n="152" real="+--+x+-x-+" met="-+-+-+-+-+">Nothing return to nothing. Good, again!</l>
+        <l n="153" real="xxxxxxxxxx" met="-+-+-+-+-+">And this it is for which they peak and pine,</l>
+        <l n="154" real="x+-xxxx+-x" met="-+-+-+-+-+">This precious stuff, for which they never dine!&quot;</l>
+        <l n="155" real="xxxxx+-xxx" met="-+-+-+-+-+">Jove, how he laughs! the brawny youths around</l>
+        <l n="156" real="xx-+-x-+xx" met="-+-+-+-+-+">Catch the contagion, and return the sound;</l>
+        <l n="157" real="-+-xx+-x-+" met="-+-+-+-+-+">Convulsive mirth on every cheek appears,</l>
+        <l n="158" real="x+-xx+-xxx" met="-+-+-+-+-+">And every nose is wrinkled into sneers!</l>
+        <l n="159" real="+-x+-x-+xx" met="-+-+-+-+-+">&quot;Doctor, a patient said, employ your art,</l>
+        <l n="160" real="xxxxx+-xxx" met="-+-+-+-+-+">I feel a strange wild fluttering at the heart;</l>
+        <l n="161" real="xxx+-xx+-x" met="-+-+-+-+-+">My breast seems tightened, and a fetid smell</l>
+        <l n="162" real="xxxxxxxxx" met="+-+-+-+-+">sets my breath--feel here; all is not well,&quot;</l>
+        <l n="163" real="+-xxx+-x-+" met="-+-+-+-+-+">Medicine and rest the fever&#x27;s rage compose,</l>
+        <l n="164" real="xxxxxxx+-x" met="-+-+-+-+-+">And the third day his blood more calmly flows.</l>
+        <l n="165" real="xx-+-x-+xx" met="-+-+-+-+-+">The fourth, unable to contain, he sends</l>
+        <l n="166" real="x+-+-xx+-x" met="-+-+-+-+-+">A hasty message to his wealthier friends,</l>
+        <l n="167" real="xxxxxx-+xx" met="-+-+-+-+-+">And just about to bathe--requests, in fine,</l>
+        <l n="168" real="x+-xxxxxxx" met="-+-+-+-+-+">A moderate flask of old Surrentin wine.</l>
+        <l n="169" real="x+-xxx+-xxx" met="-+-+-+-+-+-">&quot;Good heavens! my friend, what sallow looks are here?&quot;</l>
+        <l n="170" real="x+-+-xxxxx" met="-+-+-+-+-+">Pshaw! nonsense! nothing! &quot;Yet &#x27;tis worth your fear,</l>
+        <l n="171" real="--+xxx+-xxx" met="-+-+-+-+-+-">Whate&#x27;er it be: the waters rise within,</l>
+        <l n="172" real="xxxx-+x+-x" met="-+-+-+-+-+">And, though unfelt, distend your sickly skin.&quot;</l>
+        <l n="173" real="xxxxxxx+-x" met="-+-+-+-+-+">--And yours still more! Whence springs this freedom, tro&#x27;?</l>
+        <l n="174" real="xx-+x+-x-+" met="-+-+-+-+-+">Are you, forsooth, my guardian? Long ago</l>
+        <l n="175" real="x+-xxxx+-x" met="-+-+-+-+-+">I buried him; and thought my nonage o&#x27;er:</l>
+        <l n="176" real="xx-+xxxxxx" met="-+-+-+-+-+">But you remain to school me! &quot;Sir, no more.&quot;--</l>
+        <l n="177" real="xxxxxxx+-x" met="-+-+-+-+-+">Now to the bath, full gorged with luscious fare,</l>
+        <l n="178" real="xxxxx+-+-x" met="-+-+-+-+-+">See the pale wretch his bloated carcass bear;</l>
+        <l n="179" real="xxxxx+-xxx" met="-+-+-+-+-+">While from his lungs, that faintly play by fits,</l>
+        <l n="180" real="x+-x-+--x-+" met="-+-+-+-+-+-">His gasping throat sulphureous steam emits!--</l>
+        <l n="181" real="x+-xxxxxxx" met="-+-+-+-+-+">Cold shiverings seize him, as for wine he calls,</l>
+        <l n="182" real="xx-+xxx+-x" met="-+-+-+-+-+">His grasp betrays him, and the goblet falls!</l>
+        <l n="183" real="xxxxxxxx-+" met="-+-+-+-+-+">From his loose teeth the lip, convulsed, withdraws,</l>
+        <l n="184" real="xxxxxxx+-x" met="-+-+-+-+-+">And the rich cates drop through his listless jaws.</l>
+        <l n="185" real="x+-+-xx+-x" met="-+-+-+-+-+">Then trumpets, torches come, in solemn state;</l>
+        <l n="186" real="xxxxx+--xx" met="-+-+-+-+-+">And my fine youth, so confident of late,</l>
+        <l n="187" real="xxx+-xx+-x" met="-+-+-+-+-+">Stretched on a splendid bier, and essenced o&#x27;er,</l>
+        <l n="188" real="xxxxx+xxxx" met="-+-+-+-+-+">Lies, a stiff corpse, heels foremost at the door.</l>
+        <l n="189" real="+-x+-xx+-x" met="-+-+-+-+-+">Romans of yesterday, with covered head,</l>
+        <l n="190" real="+-xxx+xxxx" met="-+-+-+-+-+">Shoulder him to the pyre, and--all is said!--</l>
+        <l n="191" real="xxxx-+-+-x" met="-+-+-+-+-+">&quot;But why to me? Examine every part;</l>
+        <l n="192" real="xxxxx+-xxx" met="-+-+-+-+-+">My pulse:--and lay your finger on my heart;</l>
+        <l n="193" real="xxx+-xxxxx" met="-+-+-+-+-+">You&#x27;ll find no fever: touch my hands and feet,</l>
+        <l n="194" real="x+-xx+-xxx" met="-+-+-+-+-+">A natural warmth, and nothing more, you&#x27;ll meet.&quot;</l>
+        <l n="195" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Tis well! But if you light on gold by chance,</l>
+        <l n="196" real="xxx+-xx+-x" met="-+-+-+-+-+">If a fair neighbor cast a sidelong glance,</l>
+        <l n="197" real="xxxxx+-+-x" met="-+-+-+-+-+">Still will that pulse with equal calmness flow,</l>
+        <l n="198" real="xxxxx+-+-x" met="-+-+-+-+-+">And still that heart no fiercer throbbings know?</l>
+        <l n="199" real="xx-+xxxx-+" met="-+-+-+-+-+">Try yet again. In a brown dish behold,</l>
+        <l n="200" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Coarse gritty bread, and coleworts stale and old:</l>
+        <l n="201" real="xxxxxx-+-x" met="-+-+-+-+-+">Now, prove your taste. Why those averted eyes?</l>
+        <l n="202" real="xx-+x+-+-x" met="-+-+-+-+-+">Hah! I perceive:--a secret ulcer lies</l>
+        <l n="203" real="xxx+-xxxxx" met="-+-+-+-+-+">Within that pampered mouth, too sore to bear</l>
+        <l n="204" real="xxxx+-x-+-x" met="-+-+-+-+-+-">The untender grating of plebeian fare!</l>
+        <l n="205" real="xxx+-xx+-x" met="-+-+-+-+-+">Where dwells this natural warmth, when danger&#x27;s near,</l>
+        <l n="206" real="xx-+-xxxxx" met="-+-+-+-+-+">And &quot;each particular hair&quot; starts up with fear?</l>
+        <l n="207" real="xx-+xx-+-x" met="-+-+-+-+-+">Or where resides it, when vindictive ire</l>
+        <l n="208" real="-+x+-xxxx+-" met="-+-+-+-+-+-">Inflames the bosom; when the veins run fire,</l>
+        <l n="209" real="x+-xxxxxxx" met="-+-+-+-+-+">The reddening eye-balls glare; and all you say,</l>
+        <l n="210" real="xxxxxxxx-+" met="-+-+-+-+-+">And all you do, a mind so warped betray,</l>
+        <l n="211" real="xx-+-xxxxx" met="-+-+-+-+-+">That mad Orestes, if the freaks he saw,</l>
+        <l n="212" real="xxxxxxxxxx" met="-+-+-+-+-+">Would give you up at once to chains and straw!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="satire-iv" n="L23627">
+      <head>Satire IV</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:satire-iv</idno><idno type="laurel-id">L23627</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="----aa--bbccdd--eeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxx--yyzzaabbccddeeffgghhiijjkkllmm--mm">
+        <l n="1" real="xxxxxx-+" met="-+-+-+-+">What! you, my Alcibiades, aspire</l>
+        <l n="2" real="xxxx-+x+-+-" met="-+-+-+-+-+-">To sway the state!--(Suppose that bearded sire,</l>
+        <l n="3" real="x+xxx+-x-+" met="-+-+-+-+-+">Whom hemlock from a guilty world removed,</l>
+        <l n="4" real="xx-+x+-xxx" met="-+-+-+-+-+">Thus to address the stripling that he loved.)</l>
+        <l n="5" real="xxx+-xxxxx" met="-+-+-+-+-+">On what apt talents for a charge so high,</l>
+        <l n="6" real="xxxxxxx-+" met="+-+-+-+-+">Ward of great Pericles, do you rely?</l>
+        <l n="7" real="+xx+-xxx-+" met="-+-+-+-+-+">Forecast on others by gray hairs conferred,</l>
+        <l n="8" real="+-xx-+-xxx" met="-+-+-+-+-+">Haply, with you, anticipates the beard!</l>
+        <l n="9" real="xxx+-xx+-x" met="-+-+-+-+-+">And prompts you, prescient of the public weal,</l>
+        <l n="10" real="xx-+xxxx-+" met="-+-+-+-+-+">Now to disclose your thoughts, and now conceal!</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Hence, when the rabble form some daring plan,</l>
+        <l n="12" real="x+-+-xxxxx" met="-+-+-+-+-+">And factious murmurs spread from man to man,</l>
+        <l n="13" real="xx-+-xxxxx" met="-+-+-+-+-+">Mute and attentive you can bid them stand,</l>
+        <l n="14" real="xx-+-+-xxx" met="-+-+-+-+-+">By the majestic wafture of your hand!</l>
+        <l n="15" real="xxxxxxxxxx" met="-+-+-+-+-+">Lo! all is hushed: what now, what will he speak,</l>
+        <l n="16" real="xxxxxxx+-x" met="-+-+-+-+-+">What floods of sense from his charged bosom break!</l>
+        <l n="17" real="+-xxxxxxxx" met="-+-+-+-+-+">&quot;Romans! I think--I fear--I think, I say,</l>
+        <l n="18" real="xxxx-+x+-x" met="-+-+-+-+-+">This is not well:--perhaps, the better way.&quot;--</l>
+        <l n="19" real="x+x+--xx-+" met="-+-+-+-+-+">O power of eloquence! But you, forsooth,</l>
+        <l n="20" real="xxx+-xxxxx" met="-+-+-+-+-+">In the nice, trembling scale can poise the truth,</l>
+        <l n="21" real="x+-xxx-+-x" met="-+-+-+-+-+">With even hand; can with intentive view,</l>
+        <l n="22" real="-+-+-xxx-+" met="-+-+-+-+-+">Amid deflecting curves, the right pursue;</l>
+        <l n="23" real="xxxx-+x+-x" met="-+-+-+-+-+">Or, where the rule deceives the vulgar eye</l>
+        <l n="24" real="xxxxx-+-x-+" met="-+-+-+-+-+-">With its warped foot, the unerring line apply:</l>
+        <l n="25" real="xxx+-xxx-+" met="-+-+-+-+-+">And, while your sentence strikes with doom precise,</l>
+        <l n="26" real="xxx+-xxxxx" met="-+-+-+-+-+">Stamp the black Theta on the front of vice!</l>
+        <l n="27" real="xx-+-xx+-x" met="-+-+-+-+-+">Rash youth! relying on a specious skin,</l>
+        <l n="28" real="xxxx-+--xx" met="-+-+-+-+-+">While all is dark deformity within,</l>
+        <l n="29" real="xxxxxxx+xx" met="-+-+-+-+-+">Check the fond thought; nor, like the peacock proud,</l>
+        <l n="30" real="xxx+-xx-+-x" met="-+-+-+-+-+-">Spread your gay plumage to the applauding crowd,</l>
+        <l n="31" real="xxx+-+x+-x" met="-+-+-+-+-+">Before your hour arrive:--Ah, rather drain</l>
+        <l n="32" real="xxx+--xxxx" met="-+-+-+-+-+">Whole isles of hellebore, to cool your brain!</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">For, what is YOUR chief good? &quot;To heap my board</l>
+        <l n="34" real="x+-+-xxx-+" met="-+-+-+-+-+">With every dainty earth and sea afford;</l>
+        <l n="35" real="xxxxxxx+-x" met="-+-+-+-+-+">To bathe, and bask me in the sunny ray,</l>
+        <l n="36" real="xxx+-+xx-+" met="-+-+-+-+-+">And doze the careless hours of life away.&quot;</l>
+        <l n="37" real="xxx+-xx+-x" met="-+-+-+-+-+">Hold, hold! you tattered beldame, hobbling by,</l>
+        <l n="38" real="x+-xxxxx-+" met="-+-+-+-+-+">If haply asked, would make the same reply.</l>
+        <l n="39" real="xxx+-x-+xx" met="-+-+-+-+-+">&quot;But I am nobly born.&quot; Agreed. &quot;And fair.&quot;</l>
+        <l n="40" real="x+-xx+-xxx" met="-+-+-+-+-+">&#x27;Tis granted too: yet goody Baucis there,</l>
+        <l n="41" real="xxx+-xxxxx" met="-+-+-+-+-+">Who, to the looser slaves, her pot-herbs cries,</l>
+        <l n="42" real="xxxx-+-xxx" met="-+-+-+-+-+">Is just as philosophic, just as wise.--</l>
+        <l n="43" real="xx-+x+-x-+" met="-+-+-+-+-+">How few, alas! their proper faults explore!</l>
+        <l n="44" real="xxx+-xxxxx" met="-+-+-+-+-+">While, on his loaded back, who walks before,</l>
+        <l n="45" real="xxxxxxx+-x" met="-+-+-+-+-+">Each eye is fixed.--You touch a stranger&#x27;s arm,</l>
+        <l n="46" real="xxxxxxxxxx" met="-+-+-+-+-+">And ask him if he knows Vectidius&#x27; farm?</l>
+        <l n="47" real="xx-+xxxxxx" met="-+-+-+-+-+">&quot;Whose,&quot; he replies? That rich old chuff&#x27;s, whose ground</l>
+        <l n="48" real="x+xxxxx+-x" met="-+-+-+-+-+">Would tire a hawk to wheel it fairly round.</l>
+        <l n="49" real="xxxxxx-+-x" met="-+-+-+-+-+">&quot;O ho! that wretch, on whose devoted head</l>
+        <l n="50" real="xxx+-xxxxx" met="-+-+-+-+-+">Ill stars and angry gods their rage have shed!</l>
+        <l n="51" real="xxx+--xxxx" met="-+-+-+-+-+">Who on high festivals, when all is glee,</l>
+        <l n="52" real="xxxxxxxxxx" met="-+-+-+-+-+">And the loose yoke hangs on the cross-way tree,</l>
+        <l n="53" real="xxxxxxx-+-x" met="-+-+-+-+-+-">As, from the jar, he scrapes the incrusted clay,</l>
+        <l n="54" real="xxx+-xxxxx" met="-+-+-+-+-+">Groans o&#x27;er the revels of so dear a day;</l>
+        <l n="55" real="xxx+-+-xxx" met="-+-+-+-+-+">Champs on a coated onion dipt in brine;</l>
+        <l n="56" real="xxx+-x-+-x" met="-+-+-+-+-+">And while his hungry hinds exulting dine</l>
+        <l n="57" real="x+-xxxx+-x" met="-+-+-+-+-+">On barley broth, sucks up, with thrifty care,</l>
+        <l n="58" real="x+--xxxx+--" met="-+-+-+-+-+-">The mothery dregs of his palled vinegar!&quot;</l>
+        <l n="59" real="xxxxxxx+-x" met="-+-+-+-+-+">But, if &quot;YOU bask you in the sunny ray,</l>
+        <l n="60" real="xxx+-+xx-+" met="-+-+-+-+-+">And doze the careless hours of youth away,&quot;</l>
+        <l n="61" real="xxxxxx-+xx" met="-+-+-+-+-+">There are, who at such gross delights will spurn,</l>
+        <l n="62" real="xxx+-xxxxx" met="-+-+-+-+-+">And spit their venom on your life in turn;</l>
+        <l n="63" real="-+x+-xxx-+-" met="-+-+-+-+-+-">Expose, with eager hate, your low desires,</l>
+        <l n="64" real="x+-+-x-+-+-" met="-+-+-+-+-+-">Your secret passions, and unhallowed fires.--</l>
+        <l n="65" real="xxxxxxx+-x" met="-+-+-+-+-+">&quot;Why, while the beard is nursed with every art,</l>
+        <l n="66" real="x+-xxxx+-x" met="-+-+-+-+-+">Those anxious pains to bare the shameful part?</l>
+        <l n="67" real="xxxx-+-x-+" met="-+-+-+-+-+">In vain:--should five athletic knaves essay</l>
+        <l n="68" real="xxx+-xxx-+" met="-+-+-+-+-+">To pluck, with ceaseless care, the weeds away,</l>
+        <l n="69" real="xxxx-+-xxx" met="-+-+-+-+-+">Still the rank fern, congenial to the soil,</l>
+        <l n="70" real="xx-+-x-+xx" met="-+-+-+-+-+">Would spread luxuriant, and defeat their toil!&quot;</l>
+        <l n="71" real="-+xx++-x-+" met="-+-+-+-+-+">Misled by rage, our bodies we expose,</l>
+        <l n="72" real="xxxx-+xxxx" met="-+-+-+-+-+">And while we give, forget to ward, the blows;</l>
+        <l n="73" real="xxxxxx+xxx" met="-+-+-+-+-+">This, this is life! and thus our faults are shown,</l>
+        <l n="74" real="x+-xxxxxxx" met="-+-+-+-+-+">By mutual spleen: we know--and we are known!</l>
+        <l n="75" real="xx-+-+-+-x" met="-+-+-+-+-+">But your defects elude inquiring eyes!--</l>
+        <l n="76" real="xxxxx+--+x" met="-+-+-+-+-+">Beneath the groin the ulcerous evil lies,</l>
+        <l n="77" real="-+-xxxxxxx" met="-+-+-+-+-+">Impervious to the view; and o&#x27;er the wound</l>
+        <l n="78" real="xx-+-xxxxx" met="-+-+-+-+-+">The broad effulgence of the zone is bound!</l>
+        <l n="79" real="xxxxx+-x-+" met="-+-+-+-+-+">But can you, thus, the inward pang restrain,</l>
+        <l n="80" real="xxxxx+-xxx" met="-+-+-+-+-+">Thus cheat the sense of languor and of pain?</l>
+        <l n="81" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;But if the people call me wise and just,</l>
+        <l n="82" real="xxxxx+-xxx" met="-+-+-+-+-+">Sure I may take the general voice on trust!&quot;--</l>
+        <l n="83" real="xxx+-xxxxx" met="-+-+-+-+-+">No:--If you tremble at the sight of gold;</l>
+        <l n="84" real="-+x+-+-x-+" met="-+-+-+-+-+">Indulge lust&#x27;s wildest sallies uncontrolled;</l>
+        <l n="85" real="xxx+xxx+x+-" met="-+-+-+-+-+-">Or, bent on outrage, at the midnight hour,</l>
+        <l n="86" real="xxx+-xx+-+-" met="-+-+-+-+-+-">Girt with a ruffian band, the Forum scour;</l>
+        <l n="87" real="xxxxxxxxxx" met="-+-+-+-+-+">Then, wretch! in vain the voice of praise you hear,</l>
+        <l n="88" real="xxx+-xx+-x" met="-+-+-+-+-+">And drink the vulgar shout with greedy ear.</l>
+        <l n="89" real="xxx+-x-+xx" met="-+-+-+-+-+">Hence, with your spurious claims! Rejudge your cause</l>
+        <l n="90" real="xxx+-xxx-+" met="-+-+-+-+-+">And fling the rabble back their vile applause;</l>
+        <l n="91" real="xxxxxxxx-+" met="-+-+-+-+-+">To your own breast, in quest of worth, repair,</l>
+        <l n="92" real="xxxxxxxxxx" met="-+-+-+-+-+">And blush to find how poor a stock is there!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-ann-us-cornutus" n="L23628">
+      <head>To Annæus Cornutus</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:to-ann-us-cornutus</idno><idno type="laurel-id">L23628</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxx--yyzzaabbccddeeffgghhiijjkkllmmnn--ooppqqrrssttuuvvwwxxyyzzaabbccddee--ffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyy--zzaabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzzaabbccddeeffgg--hhiih-jjkkllmmnnooppqqrrssttuuvvwwxxyyzzaabbccddeeffgghhiijjkk--llmmnnoo---pp--qqrrssttuuvvwwxxyyzzaabbccdd">
+        <l n="1" real="xx+-xxx+-xxx" met="--+-+-+-+-+-">PERSIUS. Poets are wont a hundred mouths to ask,</l>
+        <l n="2" real="x+-x--+x+-x" met="-+-+-+-+-+-">A hundred tongues--whate&#x27;er the purposed task;</l>
+        <l n="3" real="xxx+-xxxxx" met="-+-+-+-+-+">Whether a tragic tale of Pelops&#x27; line</l>
+        <l n="4" real="xxx+-xxxxx" met="-+-+-+-+-+">For the sad actor, with deep mouth, to whine;</l>
+        <l n="5" real="x+-xx+-xxx" met="-+-+-+-+-+">Or Epic lay;--the Parthian winged with fear,</l>
+        <l n="6" real="x+-xxxx+-x" met="-+-+-+-+-+">And wrenching from his groin the Roman spear.</l>
+        <l n="7" real="xxx+-xx+-xxxxx" met="-+-+-+-+-+-+-+">CORNUTUS. Heavens! to what purpose (sure I heard thee wrong),</l>
+        <l n="8" real="xxxxxx-+-x" met="-+-+-+-+-+">Tend those huge gobbets of robustious song,</l>
+        <l n="9" real="x+-xxx-+xx" met="-+-+-+-+-+">Which, struggling into day, distend thy lungs,</l>
+        <l n="10" real="xxx+-xx+-x" met="-+-+-+-+-+">And need a hundred mouths, a hundred tongues?</l>
+        <l n="11" real="x+-xx+-x-+" met="-+-+-+-+-+">Let fustian bards to Helicon repair,</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">And suck the spongy fogs that hover there,</l>
+        <l n="13" real="xxx+-xxx-+" met="-+-+-+-+-+">Bards, in whose fervid brains, while sense recoils,</l>
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">The pot of Progne, or Thyestes boils,</l>
+        <l n="15" real="xxxxxxxx-+" met="-+-+-+-+-+">Dull Glyco&#x27;s feast!--But what canst thou propose?</l>
+        <l n="16" real="xxx+-xx+-x" met="-+-+-+-+-+">Puffed by thy heaving lungs no metal glows;</l>
+        <l n="17" real="xxx+-xxxxx" met="-+-+-+-+-+">Nor dost thou, mumbling o&#x27;er some close-spent strain,</l>
+        <l n="18" real="xxx+-xx+-x" met="-+-+-+-+-+">Croak the grave nothings of an idle brain;</l>
+        <l n="19" real="xxxxxxx+-x" met="-+-+-+-+-+">Nor swell, until thy cheeks, with thundering sound,</l>
+        <l n="20" real="-+xxx+-xxx" met="-+-+-+-+-+">Displode, and spurt their airy froth around.</l>
+        <l n="21" real="-+x+-xx+-x" met="-+-+-+-+-+">Confined to common life, thy numbers flow,</l>
+        <l n="22" real="x+-xxxxxxx" met="-+-+-+-+-+">And neither soar too high, nor sink too low;</l>
+        <l n="23" real="xxxxx+-+-x" met="-+-+-+-+-+">There strength and ease in graceful union meet,</l>
+        <l n="24" real="x+-+-xx+-x" met="-+-+-+-+-+">Though polished, subtle, and though poignant, sweet;</l>
+        <l n="25" real="x+-x-+xxxx" met="-+-+-+-+-+">Yet powerful to abash the front of crime,</l>
+        <l n="26" real="x+-+-xx+-x" met="-+-+-+-+-+">And crimson error&#x27;s cheek with sportive rhyme.</l>
+        <l n="27" real="xxxxx+-xxx" met="-+-+-+-+-+">O still be this thy study, this thy care:</l>
+        <l n="28" real="xxxxxx+-x" met="+-+-+-+-+">Leave to Mycenæ&#x27;s prince his horrid fare,</l>
+        <l n="29" real="xxxxxxx+-x" met="-+-+-+-+-+">His head and feet; and seek, with Roman taste,</l>
+        <l n="30" real="x+-xxxxx-+" met="-+-+-+-+-+">For Roman food--a plain but pure repast.</l>
+        <l n="31" real="xx-+xxx+-x-+" met="--+-+-+-+-+-">PERSIUS. Mistake me not. Far other thoughts engage</l>
+        <l n="32" real="xxxxxxxxxx" met="-+-+-+-+-+">My mind, Cornutus, than to swell my page</l>
+        <l n="33" real="xxx+-+--xx" met="-+-+-+-+-+">With air-blown trifles, impotent and vain,</l>
+        <l n="34" real="xxx+-xx+-x" met="-+-+-+-+-+">And grace, with noisy pomp, an empty strain.</l>
+        <l n="35" real="xxxxxxxx-+" met="-+-+-+-+-+">Oh, no: the world shut out, &#x27;tis my design,</l>
+        <l n="36" real="x+-+-xx-+-x" met="-+-+-+-+-+-">To open (prompted by the inspiring Nine)</l>
+        <l n="37" real="xx+--xxxxx" met="-+-+-+-+-+">The close recesses of my breast, and bare</l>
+        <l n="38" real="xxxxxxx+-x" met="-+-+-+-+-+">To your keen eye each thought, each feeling, there;</l>
+        <l n="39" real="xxxxxxxxxx" met="-+-+-+-+-+">Yes, best of friends! &#x27;tis now my wish to prove</l>
+        <l n="40" real="xxxxxx-+xx" met="-+-+-+-+-+">How much you fill my heart, engross my love.</l>
+        <l n="41" real="xxxxx+-xxx" met="-+-+-+-+-+">Ring then--for, to your practiced ear, the sound</l>
+        <l n="42" real="xxx+-xxxxx" met="-+-+-+-+-+">Will show the solid, and where guile is found</l>
+        <l n="43" real="xxx+-xxxxx" met="-+-+-+-+-+">Beneath the varnished tongue: for THIS, in fine,</l>
+        <l n="44" real="xxxxx+-+-x" met="-+-+-+-+-+">I dared to wish a hundred voices mine;</l>
+        <l n="45" real="xx-+x+-xxx" met="-+-+-+-+-+">Proud to declare, in language void of art,</l>
+        <l n="46" real="xxxxx+-xxx" met="-+-+-+-+-+">How deep your form is rooted in my heart,</l>
+        <l n="47" real="xxxxxxxxxx" met="-+-+-+-+-+">And paint, in words--ah! could they paint the whole--</l>
+        <l n="48" real="x-+--+-xxx" met="-+-+-+-+-+">The ineffable sensations of my soul.</l>
+        <l n="49" real="xxxxx+-xxx" met="-+-+-+-+-+">When first I laid the purple by, and free,</l>
+        <l n="50" real="x+--xxxx+--" met="-+-+-+-+-+-">Yet trembling at my new-felt liberty,</l>
+        <l n="51" real="-+-xxxxxxx" met="-+-+-+-+-+">Approached the hearth, and on the Lares hung</l>
+        <l n="52" real="x+-xx+-xxx" met="-+-+-+-+-+">The bulla, from my willing neck unstrung;</l>
+        <l n="53" real="xx-+-+-xxx" met="-+-+-+-+-+">When gay associates, sporting at my side.</l>
+        <l n="54" real="xxxx-+x+-x" met="-+-+-+-+-+">And the white boss, displayed with conscious pride,</l>
+        <l n="55" real="xx-+xxxxxx" met="-+-+-+-+-+">Gave me, unchecked, the haunts of vice to trace,</l>
+        <l n="56" real="xxx+-xx+-x" met="-+-+-+-+-+">And throw my wandering eyes on every face,</l>
+        <l n="57" real="xx-+-xxxxx" met="-+-+-+-+-+">When life&#x27;s perplexing maze before me lay,</l>
+        <l n="58" real="x+-+-xx+-x" met="-+-+-+-+-+">And error, heedless of the better way,</l>
+        <l n="59" real="x+-xxxxxxx" met="-+-+-+-+-+">To straggling paths, far from the route of truth,</l>
+        <l n="60" real="xxx+-x+--x" met="-+-+-+-+-+">Woo&#x27;d, with blind confidence, my timorous youth,</l>
+        <l n="61" real="xxxxxxxxxx" met="-+-+-+-+-+">I fled to you, Cornutus, pleased to rest</l>
+        <l n="62" real="xxxxxx-+-x" met="-+-+-+-+-+">My hopes and fears on your Socratic breast,</l>
+        <l n="63" real="xxx+-xxx-+" met="-+-+-+-+-+">Nor did you, gentle Sage, the charge decline:</l>
+        <l n="64" real="x+-x-+x+-x" met="-+-+-+-+-+">Then, dextrous to beguile, your steady line</l>
+        <l n="65" real="-+xxxxx+-x" met="-+-+-+-+-+">Reclaimed, I know not by what winning force,</l>
+        <l n="66" real="x+-xx+-+-x" met="-+-+-+-+-+">My morals, warped from virtue&#x27;s straighter course;</l>
+        <l n="67" real="x+-x-+-xxx" met="-+-+-+-+-+">While reason pressed incumbent on my soul,</l>
+        <l n="68" real="x+-x-+xx-+" met="-+-+-+-+-+">That struggled to receive the strong control,</l>
+        <l n="69" real="xxxx+-x+-x" met="-+-+-+-+-+">And took like wax, tempered by plastic skill;</l>
+        <l n="70" real="xxxx-+xxxx" met="-+-+-+-+-+">The form your hand imposed; and bears it still!</l>
+        <l n="71" real="xx-+x+x+-x" met="-+-+-+-+-+">Can I forget how many a summer&#x27;s day,</l>
+        <l n="72" real="xxx+-x-+-+" met="-+-+-+-+-+">Spent in your converse, stole, unmarked, away?</l>
+        <l n="73" real="xxx+-x-+-+" met="-+-+-+-+-+">Or how, while listening with increased delight,</l>
+        <l n="74" real="xxxxx+-+xx" met="-+-+-+-+-+">I snatched from feasts the earlier hours of night?</l>
+        <l n="75" real="xxxxx+-xxx" met="-+-+-+-+-+">--One time (for to your bosom still I grew),</l>
+        <l n="76" real="xxx+-xxxxx" met="-+-+-+-+-+">One time of study, and of rest, we knew;</l>
+        <l n="77" real="x+-xx+-x-+" met="-+-+-+-+-+">One frugal board where, every care resigned,</l>
+        <l n="78" real="x+x+-x-+xx" met="-+-+-+-+-+">An hour of blameless mirth relaxed the mind.</l>
+        <l n="79" real="xx+xxx-+-x" met="-+-+-+-+-+">And sure our lives, which thus accordant move</l>
+        <l n="80" real="-+xxxxx+-x" met="-+-+-+-+-+">(Indulge me here, Cornutus), clearly prove</l>
+        <l n="81" real="xxx-+xxxxx" met="-+-+-+-+-+">That both are subject to the self-same law,</l>
+        <l n="82" real="xxx+-xx+-x" met="-+-+-+-+-+">And from one horoscope their fortunes draw;</l>
+        <l n="83" real="xxx+---+-x" met="-+-+-+-+-+">And whether Destiny&#x27;s unerring doom</l>
+        <l n="84" real="x+-+-x+xxx" met="-+-+-+-+-+">In equal Libra poised our days to come;</l>
+        <l n="85" real="x+-+-++x-+" met="-+-+-+-+-+">Or friendship&#x27;s holy hour our fates combined,</l>
+        <l n="86" real="xxxxx+-x-+" met="-+-+-+-+-+">And to the Twins a sacred charge assigned;</l>
+        <l n="87" real="xx-+-xx+-x" met="-+-+-+-+-+">Or Jove, benignant, broke the gloomy spell</l>
+        <l n="88" real="x+-+-xxxxx" met="-+-+-+-+-+">By angry Saturn wove;--I know not well--</l>
+        <l n="89" real="xxxxxxxx-+" met="-+-+-+-+-+">But sure some star there is, whose bland control</l>
+        <l n="90" real="-+xxx+-xxx" met="-+-+-+-+-+">Subdues, to yours, the temper of my soul!</l>
+        <l n="91" real="+-x+-+-x++" met="-+-+-+-+-+">Countless the various species of mankind,</l>
+        <l n="92" real="+-xxx+--xxx" met="-+-+-+-+-+-">Countless the shades which separate mind from mind;</l>
+        <l n="93" real="x+-+-x-+xx" met="-+-+-+-+-+">No general object of desire is known;</l>
+        <l n="94" real="xxxxxx-+xx" met="-+-+-+-+-+">Each has his will, and each pursues his own;</l>
+        <l n="95" real="x+-xxxx+-x" met="-+-+-+-+-+">With Latian wares, one roams the Eastern main,</l>
+        <l n="96" real="x+-xx+-+-x" met="-+-+-+-+-+">To purchase spice, and cummin&#x27;s blanching grain;</l>
+        <l n="97" real="-+-xx+-xxx" met="-+-+-+-+-+">Another, gorged with dainties, swilled with wine,</l>
+        <l n="98" real="+-xxxxxx+-" met="-+-+-+-+-+">Fattens in sloth, and snores out life, supine;</l>
+        <l n="99" real="xxx+-x-+-x" met="-+-+-+-+-+">This loves the Campus; that, destructive play;</l>
+        <l n="100" real="xxx+-+-x-+" met="-+-+-+-+-+">And those, in wanton dalliance melt away:--</l>
+        <l n="101" real="xxx+-xxxxx" met="-+-+-+-+-+">But when the knotty gout their strength has broke,</l>
+        <l n="102" real="xxxxxxx+-x" met="-+-+-+-+-+">And their dry joints crack like some withered oak,</l>
+        <l n="103" real="xxxx-+-x-+" met="-+-+-+-+-+">Then they look back, confounded and aghast,</l>
+        <l n="104" real="xxxxxxx+-x" met="-+-+-+-+-+">On the gross days in fogs and vapors past;</l>
+        <l n="105" real="xx-+xxxx-+" met="-+-+-+-+-+">With late regret the waste of life deplore,</l>
+        <l n="106" real="x+-xxx-+xx" met="-+-+-+-+-+">No purpose gained, and time, alas! no more.</l>
+        <l n="107" real="xxxxx+-x-+" met="-+-+-+-+-+">But you, my friend, whom nobler views delight,</l>
+        <l n="108" real="x+-+-xx+-x" met="-+-+-+-+-+">To pallid vigils give the studious night;</l>
+        <l n="109" real="x+-xx+-+-x" met="-+-+-+-+-+">Cleanse youthful breasts from every noxious weed,</l>
+        <l n="110" real="xxxxxxxx" met="-+-+-+-+">And sow the tilth with Cleanthean seed.</l>
+        <l n="111" real="xxxxxx-+xx" met="-+-+-+-+-+">There seek, ye young, ye old, secure to find</l>
+        <l n="112" real="x+-xxxx+-x" met="-+-+-+-+-+">That certain end which stays the wavering mind;</l>
+        <l n="113" real="xx-+x+-x-+" met="-+-+-+-+-+">Stores, which endure, when other means decay,</l>
+        <l n="114" real="xxxxxxx+-x" met="-+-+-+-+-+">Through life&#x27;s last stage, a sad and cheerless way.</l>
+        <l n="115" real="xxx+-xxx+x" met="-+-+-+-+-+">&quot;Right; and to-morrow this shall be our care.&quot;</l>
+        <l n="116" real="-+x+-xxxxx" met="-+-+-+-+-+">Alas! to-morrow, like to-day, will fare.</l>
+        <l n="117" real="xxxx-+xxxx" met="-+-+-+-+-+">&quot;What! is one day, forsooth, so great a boon?&quot;</l>
+        <l n="118" real="xxxxxxxxxx" met="-+-+-+-+-+">But when it comes (and come it will too soon),</l>
+        <l n="119" real="-+x+-xx+-x" met="-+-+-+-+-+">Reflect, that yesterday&#x27;s to-morrow&#x27;s o&#x27;er.--</l>
+        <l n="120" real="xxx+-xx+-x" met="-+-+-+-+-+">Thus &quot;one to-morrow! one to-morrow! more,&quot;</l>
+        <l n="121" real="xxxxxxxx-+" met="-+-+-+-+-+">Have seen long years before them fade away;</l>
+        <l n="122" real="xx-+x+-xxx" met="-+-+-+-+-+">And still appear no nearer than to-day!</l>
+        <l n="123" real="xxxxx+-+-x" met="-+-+-+-+-+">So while the wheels on different axles roll,</l>
+        <l n="124" real="xxx+-xxxxx" met="-+-+-+-+-+">In vain (though governed by the self-same pole)</l>
+        <l n="125" real="xxxxxxx+xx" met="-+-+-+-+-+">The hindmost to o&#x27;ertake the foremost tries:</l>
+        <l n="126" real="xxxx-+x+-x" met="-+-+-+-+-+">Fast as the one pursues the other flies!</l>
+        <l n="127" real="+-xxxxxxxx" met="-+-+-+-+-+">FREEDOM, in truth, it steads us much to have:</l>
+        <l n="128" real="xxxxxxxxxx" met="-+-+-+-+-+">Not that by which each manumitted slave,</l>
+        <l n="129" real="xxxxx+-x-+" met="-+-+-+-+-+">Each Publius, with his tally, may obtain</l>
+        <l n="130" real="x+-xxxx+-x" met="-+-+-+-+-+">A casual dole of coarse and damaged grain.</l>
+        <l n="131" real="xx-+x+-+-x" met="-+-+-+-+-+">--O souls! involved in Error&#x27;s thickest shade,</l>
+        <l n="132" real="xxx+-xxxxx" met="-+-+-+-+-+">Who think a Roman with one turn is made!</l>
+        <l n="133" real="xxx+-xx+-x" met="-+-+-+-+-+">Look on this paltry groom, this Dama here,</l>
+        <l n="134" real="xxx+-xxxxx" met="-+-+-+-+-+">Who at three farthings would be prized too dear;</l>
+        <l n="135" real="xxx+-xxxxx" met="-+-+-+-+-+">This blear-eyed scoundrel, who your husks would steal,</l>
+        <l n="136" real="x-+xxxx+-x" met="-+-+-+-+-+">And outface truth to hide the starving meal;</l>
+        <l n="137" real="xxx+-xxxxx" met="-+-+-+-+-+">Yet--let his master twirl this knave about,</l>
+        <l n="138" real="x+-+-xxxxx" met="-+-+-+-+-+">And MARCUS DAMA in a trice steps out!</l>
+        <l n="139" real="-+-+-+-x-+" met="-+-+-+-+-+">Amazing! MARCUS surety?--yet distrust!</l>
+        <l n="140" real="+-xxxxxx-+" met="-+-+-+-+-+">MARCUS your judge?--yet fear a doom unjust!</l>
+        <l n="141" real="+--+xxxxxx" met="-+-+-+-+-+">MARCUS avouch it?--then the fact is clear.</l>
+        <l n="142" real="x+-xxxx+-x" met="-+-+-+-+-+">The writings!--set your hand, good MARCUS, here.&quot;</l>
+        <l n="143" real="xxx+--xx-+" met="-+-+-+-+-+">This is mere liberty--a name, alone:</l>
+        <l n="144" real="xxxxxxxx+x" met="-+-+-+-+-+">Yet this is all the cap can make our own.</l>
+        <l n="145" real="xxx+-x++-+" met="-+-+-+-+-+">&quot;Sure, there&#x27;s no other. All mankind agree</l>
+        <l n="146" real="xxxxxx-+xx" met="-+-+-+-+-+">That those who live without control are free:</l>
+        <l n="147" real="xxxx-+xxxx" met="-+-+-+-+-+">I live without control; and therefore hold</l>
+        <l n="148" real="x+xxx+-xxx" met="-+-+-+-+-+">Myself more free than Brutus was of old.&quot;</l>
+        <l n="149" real="-+-xx+-xxx" met="-+-+-+-+-+">Absurdly put; a Stoic cries, whose ear,</l>
+        <l n="150" real="xxx+--xxxx" met="-+-+-+-+-+">Rinsed with sharp vinegar, is quick to hear:</l>
+        <l n="151" real="xxxxxx-+xx" met="-+-+-+-+-+">True;--all who live without control are free;</l>
+        <l n="152" real="xxxxxxxx-+" met="-+-+-+-+-+">But that YOU live so, I can ne&#x27;er agree.</l>
+        <l n="153" real="xxxxxxxx-+" met="-+-+-+-+-+">&quot;No? From the Prætor&#x27;s wand when I withdrew,</l>
+        <l n="154" real="xxx+xxxx-+" met="-+-+-+-+-+">Lord of myself, why, might I not pursue</l>
+        <l n="155" real="x+-x-+-+xx" met="-+-+-+-+-+">My pleasure unrestrained, respect still had</l>
+        <l n="156" real="xxx+-xxx-+" met="-+-+-+-+-+">To what the rubric of the law forbad?&quot;</l>
+        <l n="157" real="+-xxxxx+-x" met="-+-+-+-+-+">Listen--but first your brows from anger clear,</l>
+        <l n="158" real="xxxx-+x+-x" met="-+-+-+-+-+">And bid your nose dismiss that rising sneer;</l>
+        <l n="159" real="+-xxx+-x-+" met="-+-+-+-+-+">Listen, while I the genuine truth impart,</l>
+        <l n="160" real="xxxxx+-xxx" met="-+-+-+-+-+">And root those old wives&#x27; fables from your heart.</l>
+        <l n="161" real="xxxxxxxxxx" met="-+-+-+-+-+">It was not, is not in the &quot;Prætor&#x27;s wand,&quot;</l>
+        <l n="162" real="xxxxx+xx-+" met="-+-+-+-+-+">To gift a fool with power, to understand</l>
+        <l n="163" real="x+-xx+-x-+" met="-+-+-+-+-+">The nicer shades of duty, and educe,</l>
+        <l n="164" real="xxx+-xxxxx" met="-+-+-+-+-+">From short and rapid life, its end and use;</l>
+        <l n="165" real="x+-xx+-xxx" met="-+-+-+-+-+">The laboring hind shall sooner seize the quill,</l>
+        <l n="166" real="xxxxxxx+-x" met="-+-+-+-+-+">And strike the lyre with all a master&#x27;s skill.</l>
+        <l n="167" real="+--+xxxx-+" met="-+-+-+-+-+">Reason condemns the thought, with mien severe,</l>
+        <l n="168" real="xxx+-xx+-x" met="-+-+-+-+-+">And drops this maxim in the secret ear,</l>
+        <l n="169" real="-+x+-x-+-x" met="-+-+-+-+-+">&quot;Forbear to venture, with preposterous toil,</l>
+        <l n="170" real="xxx+-xxxxx" met="-+-+-+-+-+">On what, in venturing, you are sure to spoil.&quot;</l>
+        <l n="171" real="xxxxxxxxxx" met="-+-+-+-+-+">In this plain sense of what is just and right</l>
+        <l n="172" real="xxx+-xxx+x" met="-+-+-+-+-+">The laws of nature and of man unite;</l>
+        <l n="173" real="xx-+-xx+-x" met="-+-+-+-+-+">That Inexperience should some caution show,</l>
+        <l n="174" real="xxxxxxxxxx" met="-+-+-+-+-+">And spare to reach at what she does not know.</l>
+        <l n="175" real="-+x+--xxxx" met="-+-+-+-+-+">Prescribe you hellebore! without the skill</l>
+        <l n="176" real="xxx-+-x-+xx" met="-+-+-+-+-+-">To weigh the ingredients, or compound the pill?--</l>
+        <l n="177" real="+--+xx-+-+" met="-+-+-+-+-+">Physic, alarmed, the rash attempt withstands,</l>
+        <l n="178" real="xxx+-+-xxx" met="-+-+-+-+-+">And wrests the dangerous mixture from your hands.</l>
+        <l n="179" real="xxxxxxxxxx" met="-+-+-+-+-+">Should the rude clown, skilled in no star to guide</l>
+        <l n="180" real="x+-xxxx+-x" met="-+-+-+-+-+">His dubious course, rush on the trackless tide,</l>
+        <l n="181" real="xxxxxxxx-+" met="-+-+-+-+-+">Would not Palemon at the fact exclaim,</l>
+        <l n="182" real="xxxxxxxxxx" met="-+-+-+-+-+">And swear the world had lost all sense of shame!</l>
+        <l n="183" real="xxxxx+-+-x" met="-+-+-+-+-+">Say, is it yours, by wisdom&#x27;s steady rays,</l>
+        <l n="184" real="xx-+xx-+-x" met="-+-+-+-+-+">To walk secure through life&#x27;s entangled maze?</l>
+        <l n="185" real="xx-+x+-xxx" met="-+-+-+-+-+">Yours to discern the specious from the true,</l>
+        <l n="186" real="xxxx-+xxxx" met="-+-+-+-+-+">And where the gilt conceals the brass from view?</l>
+        <l n="187" real="xxxxxx-+-x" met="-+-+-+-+-+">Speak, can you mark, with some appropriate sign,</l>
+        <l n="188" real="xx-+xxxx-+" met="-+-+-+-+-+">What to pursue, and what, in turn, decline?</l>
+        <l n="189" real="xx-+-xx+-x" met="-+-+-+-+-+">Does moderation all your wishes guide,</l>
+        <l n="190" real="x+-xx+-x-+" met="-+-+-+-+-+">And temperance at your cheerful board preside?</l>
+        <l n="191" real="xxxx-+-xxx" met="-+-+-+-+-+">Do friends your love experience? are your stores</l>
+        <l n="192" real="xxxxxxx+-x" met="-+-+-+-+-+">Now dealt with closed and now with open doors,</l>
+        <l n="193" real="xx-+-xxx-+" met="-+-+-+-+-+">As fit occasion calls? Can you restrain</l>
+        <l n="194" real="x+-+-xx+-x" met="-+-+-+-+-+">The eager appetite of sordid gain?</l>
+        <l n="195" real="xxxxxxxxxx" met="-+-+-+-+-+">Nor feel, when in the mire a doit, you note,</l>
+        <l n="196" real="-+-+-+-xxx" met="-+-+-+-+-+">Mercurial spittle gurgle in your throat?</l>
+        <l n="197" real="xxxxx+-xxx" met="-+-+-+-+-+">If you can say, and truly, &quot;THESE ARE MINE,</l>
+        <l n="198" real="xxxx-+xx-+" met="-+-+-+-+-+">And THIS I CAN:&quot;--suffice it. I decline</l>
+        <l n="199" real="x+-+-xxxxx" met="-+-+-+-+-+">All farther question; you are wise and free,</l>
+        <l n="200" real="xxxxxxxx-+" met="-+-+-+-+-+">No less by Jove&#x27;s than by the law&#x27;s decree.</l>
+        <l n="201" real="xxx+-xxxxx" met="-+-+-+-+-+">But if, good Marcus, you who formed so late</l>
+        <l n="202" real="xx+xx+-+-+" met="-+-+-+-+-+">One of our batch, of our enslaved estate,</l>
+        <l n="203" real="xxx+-++x-+" met="-+-+-+-+-+">Beneath a specious outside, still retain</l>
+        <l n="204" real="xx-+-xx+-x" met="-+-+-+-+-+">The foul contagion of your ancient strain;</l>
+        <l n="205" real="xxxxx+-xxx" met="-+-+-+-+-+">If the sly fox still burrow in some part,</l>
+        <l n="206" real="x+-+-xx+-x" met="-+-+-+-+-+">Some secret corner, of your tainted heart;</l>
+        <l n="207" real="xx-+x+-xxx" met="-+-+-+-+-+">I straight retract the freedom which I gave,</l>
+        <l n="208" real="xxx+-xxxxx" met="-+-+-+-+-+">And hold your Dama still, and still a slave!</l>
+        <l n="209" real="+--+x+-xxx" met="-+-+-+-+-+">Reason concedes you nothing. Let us try.</l>
+        <l n="210" real="xxx+-xx+--+" met="-+-+-+-+-+-">Thrust forth your finger. &quot;See.&quot; O, heavens, awry!</l>
+        <l n="211" real="xxx+-xx+-x" met="-+-+-+-+-+">Yet what so trifling?--But, though altars smoke,</l>
+        <l n="212" real="xxx+x+-x-+" met="-+-+-+-+-+">Though clouds of incense every god invoke,</l>
+        <l n="213" real="xxxxxxxxxx" met="-+-+-+-+-+">In vain you sue, one drachm of RIGHT to find,</l>
+        <l n="214" real="x+-+-xx+-x" met="-+-+-+-+-+">One scruple, lurking in the foolish mind.</l>
+        <l n="215" real="+--+x+-xxx" met="-+-+-+-+-+">Nature abhors the mixture; the rude clown</l>
+        <l n="216" real="xxxxxxx+-x" met="-+-+-+-+-+">As well may lay his spade and mattock down,</l>
+        <l n="217" real="xxxxx+-x-+" met="-+-+-+-+-+">And with light foot and agile limbs prepare</l>
+        <l n="218" real="xxxxxxxxxx" met="-+-+-+-+-+">To dance three steps with soft Bathyllus&#x27; air!</l>
+        <l n="219" real="xxxxx-+xxx" met="-+-+-+-+-+">&quot;Still I am free.&quot; You! subject to the sway</l>
+        <l n="220" real="x+-+-xx+-x" met="-+-+-+-+-+">Of countless masters, FREE! What datum, pray,</l>
+        <l n="221" real="-+xxxxx+-x" met="-+-+-+-+-+">Supports your claim? Is there no other yoke</l>
+        <l n="222" real="xxxxxxxxxx" met="-+-+-+-+-+">Than that which, from your neck, the Prætor broke!</l>
+        <l n="223" real="xxx+-xxxxx" met="-+-+-+-+-+">&quot;Go, bear these scrapers to the bath with speed;</l>
+        <l n="224" real="x+-xx+-x-+" met="-+-+-+-+-+">What! loitering, knave?&quot;--Here&#x27;s servitude indeed!</l>
+        <l n="225" real="xx-+x+-xxx" met="-+-+-+-+-+">Yet you unmoved the angry sounds would hear;</l>
+        <l n="226" real="xxx+-xxxxx" met="-+-+-+-+-+">You owe no duty, and can know no fear.</l>
+        <l n="227" real="xxxxxxxx-+" met="-+-+-+-+-+">But if within you feel the strong control--</l>
+        <l n="228" real="x+-+-xxxxx" met="-+-+-+-+-+">If stormy passions lord it o&#x27;er your soul,</l>
+        <l n="229" real="xxxxxxx+-x" met="-+-+-+-+-+">Are you more free than he whom threatenings urge</l>
+        <l n="230" real="xxxxxx-+xx" met="-+-+-+-+-+">To bear the strigils and escape the scourge?</l>
+        <l n="231" real="xxxxxxx+-x" met="-+-+-+-+-+">&#x27;Tis morn; yet sunk in sloth you snoring lie.</l>
+        <l n="232" real="xxx+-xx+-x" met="-+-+-+-+-+">&quot;Up! up!&quot; cries Avarice, &quot;and to business hie;</l>
+        <l n="233" real="xxxxxxx+-x" met="-+-+-+-+-+">Nay, stir.&quot; I will not. Still she presses, &quot;Rise!&quot;</l>
+        <l n="234" real="xxxxxxxxxx" met="-+-+-+-+-+">I can not. &quot;But you must and shall,&quot; she cries.</l>
+        <l n="235" real="xxx+-xx+-x" met="-+-+-+-+-+">And to what purpose? &quot;This a question! Go,</l>
+        <l n="236" real="xxxxxxxxxx" met="-+-+-+-+-+">Bear fish to Pontus, and bring wines from Co;</l>
+        <l n="237" real="x+-x--+xx-+" met="-+-+-+-+-+-">Bring ebon, flax, whate&#x27;er the East supplies,</l>
+        <l n="238" real="xx-+xxx+-x" met="-+-+-+-+-+">Musk for perfumes, and gums for sacrifice:</l>
+        <l n="239" real="-+xxxxx+-x" met="-+-+-+-+-+">Prevent the mart, and the first pepper take</l>
+        <l n="240" real="xx++-xxxxx" met="-+-+-+-+-+">From the tired camel ere his thirst he slake.</l>
+        <l n="241" real="+--+x+-x-+" met="-+-+-+-+-+">Traffic forswear, if interest intervene&quot;--</l>
+        <l n="242" real="xxx+-+xxxx" met="-+-+-+-+-+">But Jove will overhear me.--&quot;Hold, my spleen!</l>
+        <l n="243" real="xxxxxxxxxx" met="-+-+-+-+-+">O dolt; but, mark--that thumb will bore and bore</l>
+        <l n="244" real="x+-xxxxxxx" met="-+-+-+-+-+">The empty salt (scraped to the quick before)</l>
+        <l n="245" real="xxxxx+-xxx" met="-+-+-+-+-+">For one poor grain, a vapid meal to mend,</l>
+        <l n="246" real="xx-+xxxxxx" met="-+-+-+-+-+">If you aspire to thrive with Jove your friend!&quot;</l>
+        <l n="247" real="xxxxxxxx-+" met="-+-+-+-+-+">You rouse (for who can truths like these withstand?),</l>
+        <l n="248" real="+-xxxxxxxx" met="-+-+-+-+-+">Victual your slaves, and urge them to the strand.</l>
+        <l n="249" real="-+xxx+-xxx" met="-+-+-+-+-+">Prepared in haste to follow; and, ere now,</l>
+        <l n="250" real="xxxxx-xxxx" met="-+-+-+-+-+">Had to the Ægean turned your vent&#x27;rous prow,</l>
+        <l n="251" real="xxx+--x+xx" met="-+-+-+-+-+">But that sly Luxury the process eyed,</l>
+        <l n="252" real="+xx+-xx+-x" met="-+-+-+-+-+">Waylaid your desperate steps, and, taunting, cried,</l>
+        <l n="253" real="x+x+-xx+-x" met="-+-+-+-+-+">&quot;Ho, madman, whither, in this hasty plight?</l>
+        <l n="254" real="x+-xxxx+-x" met="-+-+-+-+-+">What passion drives you forth? what furies fright?</l>
+        <l n="255" real="xxx+--xxxx" met="-+-+-+-+-+">Whole urns of hellebore might hope in vain</l>
+        <l n="256" real="xxxxx+-xxx" met="-+-+-+-+-+">To cool this high-wrought fever of the brain.</l>
+        <l n="257" real="xxx+-x-+xx" met="-+-+-+-+-+">What! quit your peaceful couch, renounce your ease,</l>
+        <l n="258" real="xxx+-xxxxx" met="-+-+-+-+-+">To rush on hardships, and to dare the seas!</l>
+        <l n="259" real="xxx+-x-+xx" met="-+-+-+-+-+">And while a broken plank supports your meat,</l>
+        <l n="260" real="xxx+-xx+-x" met="-+-+-+-+-+">And a coiled cable proves your softest seat,</l>
+        <l n="261" real="xxxxx+-x-+" met="-+-+-+-+-+">Suck from squab jugs that pitchy scents exhale,</l>
+        <l n="262" real="x+-+-+xxxx" met="-+-+-+-+-+">The seaman&#x27;s beverage, sour at once and stale!</l>
+        <l n="263" real="xxxxxxxxxx" met="-+-+-+-+-+">And all for what? that sums, which now are lent,</l>
+        <l n="264" real="x+-xxxxxxx" met="-+-+-+-+-+">At modest five, may sweat out twelve per cent.!--</l>
+        <l n="265" real="x+-+-xxxxx" met="-+-+-+-+-+">&quot;O rather cultivate the joys of sense,</l>
+        <l n="266" real="xxxxxxxx-+" met="-+-+-+-+-+">And crop the sweets which youth and health dispense;</l>
+        <l n="267" real="xxx+x+-xxx" met="-+-+-+-+-+">Give the light hours to banquets, love, and wine:</l>
+        <l n="268" real="xxxxxxxxxx" met="-+-+-+-+-+">THESE are the zest of life, and THESE are mine!</l>
+        <l n="269" real="xxxxxxxxxx" met="-+-+-+-+-+">Dust and a shade are all you soon must be:</l>
+        <l n="270" real="xxxxxxx+-x" met="-+-+-+-+-+">Live, thou, while yet you may. Time presses.--See!</l>
+        <l n="271" real="+xxxx+-x-+" met="-+-+-+-+-+">Even while I speak, the present is become</l>
+        <l n="272" real="xxx+-xx+-x" met="-+-+-+-+-+">The past, and lessens still life&#x27;s little sum.&quot;</l>
+        <l n="273" real="xx-+xxxx-+" met="-+-+-+-+-+">Now, sir, decide; shall this, or that, command?</l>
+        <l n="274" real="-+xx-+x+-x" met="-+-+-+-+-+">Alas, the bait, displayed on either hand,</l>
+        <l n="275" real="-+xxx+-xxx" met="-+-+-+-+-+">Distracts your choice:--but, ponder as you may,</l>
+        <l n="276" real="xxxxxx+-xx" met="-+-+-+-+-+">Of this be sure; both, with alternate sway,</l>
+        <l n="277" real="xxxxxxx+-x" met="-+-+-+-+-+">Will lord it o&#x27;er you, while, with slavish fears,</l>
+        <l n="278" real="xxxxx+-+-x" met="-+-+-+-+-+">From side to side your doubtful duty veers.</l>
+        <l n="279" real="xxxxxx-+-+-" met="-+-+-+-+-+-">Nor must you, though in some auspicious hour</l>
+        <l n="280" real="xxx+xx-+x+-" met="-+-+-+-+-+-">You spurn their mandate, and resist their power,</l>
+        <l n="281" real="xx-+x+-+-x" met="-+-+-+-+-+">At once conclude their future influence vain:--</l>
+        <l n="282" real="x+-xxxxxxx" met="-+-+-+-+-+">With struggling hard the dog may snap his chain;</l>
+        <l n="283" real="x+-+-xx+-x" met="-+-+-+-+-+">Yet little freedom from the effort find,</l>
+        <l n="284" real="xxxxxxxxxx" met="-+-+-+-+-+">If, as he flies, he trails its length behind.</l>
+        <l n="285" real="xxxxxxxx-+" met="-+-+-+-+-+">&quot;Yes, I am fixed; to Love a long adieu!--</l>
+        <l n="286" real="xxxxxxxxxx" met="-+-+-+-+-+">Nay, smile not, Davus; you will find it true.&quot;</l>
+        <l n="287" real="xxxxxxxxxx" met="-+-+-+-+-+">So, while his nails, gnawn to the quick, yet bled,</l>
+        <l n="288" real="xxxxxxx+-x" met="-+-+-+-+-+">The sage Chærestratus, deep-musing, said.--</l>
+        <l n="289" real="xxx+-+---+" met="-+-+-+-+-+">&quot;Shall I my virtuous ancestry defame,</l>
+        <l n="290" real="-+x+-x-+xx" met="-+-+-+-+-+">Consume my fortune, and disgrace my name,</l>
+        <l n="291" real="xxx+-+-+xx" met="-+-+-+-+-+">While, at a harlot&#x27;s wanton threshold laid,</l>
+        <l n="292" real="+-xxx+-x-+" met="-+-+-+-+-+">Darkling, I whine my drunken serenade!&quot;</l>
+        <l n="293" real="x+-+-xxxxx" met="-+-+-+-+-+">Tis nobly spoken:--Let a lamb be brought</l>
+        <l n="294" real="xxx+xx-+-x" met="-+-+-+-+-+">To the Twin Powers that this deliverance wrought.</l>
+        <l n="295" real="xxxxxxxx-+" met="-+-+-+-+-+">&quot;But--if I quit her, will she not complain?</l>
+        <l n="296" real="xxxxxxxx-+" met="-+-+-+-+-+">Will she not grieve? Good Davus, think again.&quot;</l>
+        <l n="297" real="x+-xxxxxxx" met="-+-+-+-+-+">Fond trifler! you will find her &quot;grief&quot; too late;</l>
+        <l n="298" real="xxx+-+-xxx" met="-+-+-+-+-+">When the red slipper rattles round your pate,</l>
+        <l n="299" real="-+-xxx-+xx" met="-+-+-+-+-+">Vindictive of the mad attempt to foil</l>
+        <l n="300" real="x+-xxx-+-x" met="-+-+-+-+-+">Her potent spell, and all-involving toil.</l>
+        <l n="301" real="-+xxx+-xxx" met="-+-+-+-+-+">Dismissed, you storm and bluster: hark! she calls</l>
+        <l n="302" real="xxxxx+-+xx" met="-+-+-+-+-+">And, at the word, your boasted manhood falls.</l>
+        <l n="303" real="xxxxxx-+xx" met="-+-+-+-+-+">&quot;Mark, Davus; of her own accord, she sues!</l>
+        <l n="304" real="xx-+xxxx-+" met="-+-+-+-+-+">Mark, she invites me! Can I now refuse?&quot;</l>
+        <l n="305" real="xx-+xx-+xx" met="-+-+-+-+-+">Whole and entire, you must return no more.</l>
+        <l n="306" real="xxxxxxxx-+" met="-+-+-+-+-+">Right. This is He, the man whom I demand;</l>
+        <l n="307" real="xxxxx+-xxx" met="-+-+-+-+-+">This, Davus; not the creature of a wand</l>
+        <l n="308" real="xxx+-+-xxx" met="-+-+-+-+-+">Waved by some foolish lictor.--And is he,</l>
+        <l n="309" real="x+-x-+x+-x" met="-+-+-+-+-+">This master of himself, this truly free,</l>
+        <l n="310" real="xxx+-x-+-x" met="-+-+-+-+-+">Who marks the dazzling lure Ambition spreads,</l>
+        <l n="311" real="x+x+-xx+-x" met="-+-+-+-+-+">And headlong follows where the meteor leads?</l>
+        <l n="312" real="xxx+xxx+-x" met="-+-+-+-+-+">&quot;Watch the nice hour, and on the scrambling tribes</l>
+        <l n="313" real="xxxxx+-x-x" met="-+-+-+-+-+">Pour, without stint, your mercenary bribes,</l>
+        <l n="314" real="xxxxx+xxxx" met="-+-+-+-+-+">Vetches and pulse; that, many a year gone by,</l>
+        <l n="315" real="+-x+-xxxxx" met="-+-+-+-+-+">Graybeards, as basking in the sun they lie,</l>
+        <l n="316" real="xxxxx+-xxx" met="-+-+-+-+-+">May boast how much your Floral Games surpast,</l>
+        <l n="317" real="xxx+-xx+-x" met="-+-+-+-+-+">In cost and splendor, those they witnessed last!&quot;</l>
+        <l n="318" real="x+-+-xx+-x" met="-+-+-+-+-+">A glorious motive! And on Herod&#x27;s day,</l>
+        <l n="319" real="x+-xxxxx-+" met="-+-+-+-+-+">When every room is decked in meet array,</l>
+        <l n="320" real="xx-+x+-+-x" met="-+-+-+-+-+">And lamps along the greasy windows spread,</l>
+        <l n="321" real="-+x+x+-+-x" met="-+-+-+-+-+">Profuse of flowers, gross, oily vapors shed;</l>
+        <l n="322" real="xxx+-xx+-x" met="-+-+-+-+-+">When the vast tunny&#x27;s tail in pickle swims,</l>
+        <l n="323" real="xxxxxxx+-x" met="-+-+-+-+-+">And the crude must foams o&#x27;er the pitcher&#x27;s brims;</l>
+        <l n="324" real="x+-+-xxx-+" met="-+-+-+-+-+">You mutter secret prayers, by fear devised,</l>
+        <l n="325" real="xxx+-xx+-x" met="-+-+-+-+-+">And dread the sabbaths of the circumcised!</l>
+        <l n="326" real="xxxxxxxx-+" met="-+-+-+-+-+">Then a cracked egg-shell fills you with affright,</l>
+        <l n="327" real="xxx+-xx+-x" met="-+-+-+-+-+">And ghosts and goblins haunt your sleepless night.</l>
+        <l n="328" real="xxx+-xx+-x" met="-+-+-+-+-+">Last, the blind priestess, with her sistrum shrill,</l>
+        <l n="329" real="x+-xxxxx-+" met="-+-+-+-+-+">And Galli, huge and high, a dread instill</l>
+        <l n="330" real="xx-+xxx+-x" met="-+-+-+-+-+">Of gods, prepared to vex the human frame</l>
+        <l n="331" real="x+-+-xx+-x" met="-+-+-+-+-+">With dropsies, palsies, ills of every name,</l>
+        <l n="332" real="xxx+-+-xxx" met="-+-+-+-+-+">Unless the trembling victim champ, in bed,</l>
+        <l n="333" real="x+-xxxx+-x" met="-+-+-+-+-+">Thrice every morn, on a charmed garlic-head.</l>
+        <l n="334" real="xxx+-xx+-x" met="-+-+-+-+-+">Preach to the martial throng these lofty strains,</l>
+        <l n="335" real="xxxxxxxxxx" met="-+-+-+-+-+">And lo! some chief more famed for bulk than brains,</l>
+        <l n="336" real="xxxxxxxxxx" met="-+-+-+-+-+">Some vast Vulfenius, blessed with lungs of brass,</l>
+        <l n="337" real="xxxxxx-+-x" met="-+-+-+-+-+">Laughs loud and long at the scholastic ass;</l>
+        <l n="338" real="xxxxxxxxxx" met="-+-+-+-+-+">And, for a clipt cent-piece, sets, by the tale,</l>
+        <l n="339" real="x+-x-+--xx" met="-+-+-+-+-+">A hundred Greek philosophers to sale!</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="to-c-sius-bassus" n="L23629">
+      <head>To Cæsius Bassus</head>
+      <idno type="URN">urn:laurel:eng:persius.persius-satires.pg50657:to-c-sius-bassus</idno><idno type="laurel-id">L23629</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxwwyyzzaabbccddeeff--gghhhhiijjkkllmmnnooppqqrr--ssttuuvvvvww--xxxxyyzzaabbccddeeffgghhiijjkkllmmnnooppqqrrss">
+        <l n="1" real="xxx+-xxxxx" met="-+-+-+-+-+">Say, have the wintry storms, which round us beat,</l>
+        <l n="2" real="xxxxxxx-+x" met="-+-+-+-+-+">Chased thee, my Bassus, to thy Sabine seat?</l>
+        <l n="3" real="x+-xx+-+-x" met="-+-+-+-+-+">Does music there thy sacred leisure fill,</l>
+        <l n="4" real="xxx+-xx+-x" met="-+-+-+-+-+">While the strings quicken to thy manly quill?--</l>
+        <l n="5" real="xxx+-+-x-+" met="-+-+-+-+-+">O skilled, in matchless numbers, to disclose</l>
+        <l n="6" real="xxxxxx-+-x" met="-+-+-+-+-+">How first from Night this fair creation rose;</l>
+        <l n="7" real="x+-xx+-x-+" met="-+-+-+-+-+">And kindling, as the lofty themes inspire,</l>
+        <l n="8" real="xxx+-xx+-x" met="-+-+-+-+-+">To smite, with daring hand, the Latian lyre!</l>
+        <l n="9" real="-+xxxx-+xx" met="-+-+-+-+-+">Anon, with youth and youth&#x27;s delights to toy,</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">And give the dancing chords to love and joy;</l>
+        <l n="11" real="xxx+-xx+-x" met="-+-+-+-+-+">Or wake, with moral touch, to accents sage,</l>
+        <l n="12" real="xxx+-xx+-x" met="-+-+-+-+-+">And hymn the heroes of a nobler age!</l>
+        <l n="13" real="xxx+-xx+-x" met="-+-+-+-+-+">To me, while tempests howl and billows rise,</l>
+        <l n="14" real="xxxxxx-+-+" met="-+-+-+-+-+">Liguria&#x27;s coast a warm retreat supplies,</l>
+        <l n="15" real="xxxxx+-x-+" met="-+-+-+-+-+">Where the huge cliffs an ample front display,</l>
+        <l n="16" real="xxxx-+x+-x" met="-+-+-+-+-+">And, deep within, recedes the sheltering bay.</l>
+        <l n="17" real="xxx+-xxxxx" met="-+-+-+-+-+">The Port of Luna, friends, is worth your note--</l>
+        <l n="18" real="xxx+-+-xxx" met="-+-+-+-+-+">So, in his sober moments, Ennius wrote,</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">When, all his dreams of transmigration past,</l>
+        <l n="20" real="xx-+xxxxxx" met="-+-+-+-+-+">He found himself plain Quintus at the last!</l>
+        <l n="21" real="xx-+xxx+-x" met="-+-+-+-+-+">Here to repose I give the cheerful day,</l>
+        <l n="22" real="+-xxx+-xxx" met="-+-+-+-+-+">Careless of what the vulgar think or say;</l>
+        <l n="23" real="xxxxxxx+-x" met="-+-+-+-+-+">Or what the South, from Afric&#x27;s burning air,</l>
+        <l n="24" real="-+-xxxx+-x" met="-+-+-+-+-+">Unfriendly to the fold, may haply bear:</l>
+        <l n="25" real="x+-xx+-+-x" met="-+-+-+-+-+">And careless still, though richer herbage crown</l>
+        <l n="26" real="x+-xx+-x-+" met="-+-+-+-+-+">My neighbors&#x27; fields, or heavier crops embrown.</l>
+        <l n="27" real="xxxx-+-+-x" met="-+-+-+-+-+">--Nor, Bassus, though capricious Fortune grace</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Thus with her smiles a low-bred, low-born race,</l>
+        <l n="29" real="xxxxxxx+-x" met="-+-+-+-+-+">Will e&#x27;er thy friend, for that, let Envy plow,</l>
+        <l n="30" real="x+-+-xx+-x" met="-+-+-+-+-+">One careful furrow on his open brow;</l>
+        <l n="31" real="x+-xxxxxxx" met="-+-+-+-+-+">Give crooked age upon his youth to steal,</l>
+        <l n="32" real="-+x+-xx+-x" met="-+-+-+-+-+">Defraud his table of one generous meal;</l>
+        <l n="33" real="x+-xxxx+--x" met="-+-+-+-+-+-">Or, stooping o&#x27;er the dregs of mothery wine,</l>
+        <l n="34" real="xx-+-xx+-x" met="-+-+-+-+-+">Touch, with suspicious nose, the sacred sign.</l>
+        <l n="35" real="xx-+-+-xx+-" met="-+-+-+-+-+-">But inclinations vary:--and the Power</l>
+        <l n="36" real="xx-+-xx+-+-" met="-+-+-+-+-+-">That beams, ascendant, on the natal hour,</l>
+        <l n="37" real="+x-+-x-+-x" met="-+-+-+-+-+">Even Twins produces of discordant souls,</l>
+        <l n="38" real="x+-x-+-xxx" met="-+-+-+-+-+">And tempers, wide asunder as the poles.</l>
+        <l n="39" real="xxx+xxxx-+" met="-+-+-+-+-+">The one on birthdays, and on those alone,</l>
+        <l n="40" real="-+xxx+xxxx" met="-+-+-+-+-+">Prepares (but with a forecast all his own)</l>
+        <l n="41" real="x+-+-xxxxx" met="-+-+-+-+-+">On tunny-pickle, from the shops, to dine,</l>
+        <l n="42" real="xxx+-xxxxx" met="-+-+-+-+-+">And dips his withered pot-herbs in the brine;</l>
+        <l n="43" real="+-x+-xxxxx" met="-+-+-+-+-+">Trembles the pepper from his hands to trust,</l>
+        <l n="44" real="x+-xxxx+-x" met="-+-+-+-+-+">And sprinkles, grain by grain, the sacred dust.</l>
+        <l n="45" real="x+-xxx-+xx" met="-+-+-+-+-+">The other, large of soul, exhausts his hoard,</l>
+        <l n="46" real="xxx+-xx+-x" met="-+-+-+-+-+">While yet a stripling, at the festive board.</l>
+        <l n="47" real="xxx+-xxx-+" met="-+-+-+-+-+">To USE my fortune, Bassus, I intend:</l>
+        <l n="48" real="xxxxxx-+xx" met="-+-+-+-+-+">Nor, therefore, deem me so profuse, my friend,</l>
+        <l n="49" real="x+---xxx-+" met="-+-+-+-+-+">So prodigally vain, as to afford</l>
+        <l n="50" real="x+-+xxxxxx" met="-+-+-+-+-+">The costly turbot for my freedmen&#x27;s board;</l>
+        <l n="51" real="xx+-x+-xxx" met="-+-+-+-+-+">Or so expert in flavors, as to show</l>
+        <l n="52" real="xxx+-xxxxx" met="-+-+-+-+-+">How, by the relish, thrush from thrush I know.</l>
+        <l n="53" real="xxxxx+-xxx" met="-+-+-+-+-+">&quot;Live to your means&quot;--&#x27;tis wisdom&#x27;s voice you hear--</l>
+        <l n="54" real="x+-xx+-xxx" met="-+-+-+-+-+">And freely grind the produce of the year:</l>
+        <l n="55" real="x+-xxxxxxx" met="-+-+-+-+-+">What scruples check you? Ply the hoe and spade,</l>
+        <l n="56" real="xx-+-xxxxx" met="-+-+-+-+-+">And lo! another crop is in the blade.</l>
+        <l n="57" real="xxxxx+-+-x" met="-+-+-+-+-+">True; but the claims of duty caution crave.</l>
+        <l n="58" real="xxx+-xx-+--x" met="--+-+-+-+-+-">A friend, scarce rescued from the Ionian wave,</l>
+        <l n="59" real="xx-+-xxxxx" met="-+-+-+-+-+">Grasps a projecting rock, while in the deep</l>
+        <l n="60" real="x+-xxx-+-x" met="-+-+-+-+-+">His treasures, with his prayers, unheeded sleep:</l>
+        <l n="61" real="xxxxxxxxxx" met="-+-+-+-+-+">I see him stretched, desponding, on the ground.</l>
+        <l n="62" real="xxxxxxxxxx" met="-+-+-+-+-+">His tutelary gods all wrecked around,</l>
+        <l n="63" real="xx-+x+-xxx" met="-+-+-+-+-+">His bark dispersed in fragments o&#x27;er the tide,</l>
+        <l n="64" real="xxx+-xx+-x" met="-+-+-+-+-+">And sea-mews sporting on the ruins wide.</l>
+        <l n="65" real="xxx+-xxx-+" met="-+-+-+-+-+">Sell, then, a pittance (&#x27;tis my prompt advice)</l>
+        <l n="66" real="xxxxxxxxxx" met="-+-+-+-+-+">Of this your land, and send your friend the price;</l>
+        <l n="67" real="xxx+-x-+xx" met="-+-+-+-+-+">Lest, with a pictured storm, forlorn and poor,</l>
+        <l n="68" real="xxx+--xxxx" met="-+-+-+-+-+">He ask cheap charity from door to door.</l>
+        <l n="69" real="xxx+-x-+xx" met="-+-+-+-+-+">&quot;But then, my angry heir, displeased to find</l>
+        <l n="70" real="x+-+-xxxxx" met="-+-+-+-+-+">His prospects lessened by an act so kind,</l>
+        <l n="71" real="xxx+--xx-+" met="-+-+-+-+-+">May slight my obsequies; and, in return,</l>
+        <l n="72" real="xxx+-xx+-x" met="-+-+-+-+-+">Give my cold ashes to a scentless urn;</l>
+        <l n="73" real="+-x+-xxx-+" met="-+-+-+-+-+">Reckless what vapid drugs he flings thereon,</l>
+        <l n="74" real="-+-x+-xx+--" met="-+-+-+-+-+-">Adulterate cassia, or dead cinnamon!--</l>
+        <l n="75" real="xx-+xxxx-+" met="-+-+-+-+-+">Can I (bethink in time) my means impair,</l>
+        <l n="76" real="xx-+---+xx" met="-+-+-+-+-+">And with impunity provoke my heir?&quot;</l>
+        <l n="77" real="xxxxxxxxxx" met="-+-+-+-+-+">--Here Bestius rails--&quot;A plague on Greece,&quot; he cries,</l>
+        <l n="78" real="xxxxxxx+-x" met="-+-+-+-+-+">&quot;And all her pedants!--there the evil lies;</l>
+        <l n="79" real="xxx+-x-+-x" met="-+-+-+-+-+">For since their mawkish, their enervate lore,</l>
+        <l n="80" real="xxx+-x++-x" met="-+-+-+-+-+">With dates and pepper, cursed our luckless shore,</l>
+        <l n="81" real="+-x+-xxxxx" met="-+-+-+-+-+">Luxury has tainted all; and plowmen spoil</l>
+        <l n="82" real="x+-+-xx+-x" met="-+-+-+-+-+">Their wholesome barley-broth with luscious oil.&quot;</l>
+        <l n="83" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Heavens! can you stretch (to fears like these a slave)</l>
+        <l n="84" real="xx-+-xxxxx" met="-+-+-+-+-+">Your fond solicitude beyond the grave?</l>
+        <l n="85" real="-+xxxxxxx" met="+-+-+-+-+">Away!--But thou, my heir, whoe&#x27;er thou art,</l>
+        <l n="86" real="xxxxxxxx-+" met="-+-+-+-+-+">Step from the crowd, and let us talk apart.</l>
+        <l n="87" real="+-xxxxxxxx" met="-+-+-+-+-+">Hearest thou the news? Cæsar has won the day</l>
+        <l n="88" real="xxxxx+-+-x" met="-+-+-+-+-+">(So, from the camp, his laureled missives say),</l>
+        <l n="89" real="x+--x+x+-x" met="-+-+-+-+-+">And Germany is ours! The city wakes,</l>
+        <l n="90" real="xxx+-xx+-x" met="-+-+-+-+-+">And from her altars the cold ashes shakes.--</l>
+        <l n="91" real="xxx-+-xxxxx" met="-+-+-+-+-+-">Lo! from the imperial spoils, Cæsonia brings</l>
+        <l n="92" real="xxx+-xx+-x" met="-+-+-+-+-+">Arms, and the martial robes of conquered kings,</l>
+        <l n="93" real="xxx+-xx+-x" met="-+-+-+-+-+">To deck the temples; while, on either hand,</l>
+        <l n="94" real="+-xxx+-+-x" met="-+-+-+-+-+">Chariots of war and bulky captives stand</l>
+        <l n="95" real="xx-+xxxxxx" met="-+-+-+-+-+">In long array. I, too, my joy to prove,</l>
+        <l n="96" real="xxx+-+-xxx" met="-+-+-+-+-+">Will to the emperor&#x27;s Genius, and to Jove,</l>
+        <l n="97" real="-+x+-xxxxx" met="-+-+-+-+-+">Devote, in gratitude for deeds so rare,</l>
+        <l n="98" real="x+-xxxxxxx" met="-+-+-+-+-+">Two hundred well-matched fencers, pair by pair.</l>
+        <l n="99" real="xxx+-x-+xx" met="-+-+-+-+-+">Who blames--who ventures to forbid me? You?</l>
+        <l n="100" real="xxx+-+-xxx" met="-+-+-+-+-+">Woe to your future prospects! if you do.</l>
+        <l n="101" real="xxxx-+xxxx" met="-+-+-+-+-+">--And, sir, not this alone; for I have vowed</l>
+        <l n="102" real="xx-+-+-xxx" met="-+-+-+-+-+">A supplemental largess to the crowd,</l>
+        <l n="103" real="xxxxx+-xxx" met="-+-+-+-+-+">Of corn and oil. What! muttering still? draw near,</l>
+        <l n="104" real="xx-+xxxxxx" met="-+-+-+-+-+">And speak aloud, for once, that I may hear.</l>
+        <l n="105" real="xxxxxxxxxx" met="-+-+-+-+-+">&quot;My means are not so low that I should care</l>
+        <l n="106" real="xxx+-xxxxx" met="-+-+-+-+-+">For that poor pittance you may leave your heir.&quot;</l>
+        <l n="107" real="xxxxxxxx-+" met="-+-+-+-+-+">Just as you please: but were I, sir, bereft</l>
+        <l n="108" real="xxxxxxx+-x" met="-+-+-+-+-+">Of all my kin; no aunt, no uncle left;</l>
+        <l n="109" real="x+-xxxx+-x" met="-+-+-+-+-+">No nephew, niece; were all my cousins gone,</l>
+        <l n="110" real="xxx+-+-+-x" met="-+-+-+-+-+">And all my cousins&#x27; cousins, every one,</l>
+        <l n="111" real="xxxxxxxx-+" met="-+-+-+-+-+">Aricia soon some Manius would supply,</l>
+        <l n="112" real="xxxxx+-xxx" met="-+-+-+-+-+">Well pleased to take that &quot;pittance,&quot; when I die.</l>
+        <l n="113" real="xxx+-xxx-+" met="-+-+-+-+-+">&quot;Manius! a beggar of the first degree,</l>
+        <l n="114" real="xxxxxxx+-x" met="-+-+-+-+-+">A son of earth, your heir!&quot; Nay, question me,</l>
+        <l n="115" real="xxxxx+xxxx" met="-+-+-+-+-+">Ask who my grandsire&#x27;s sire? I know not well,</l>
+        <l n="116" real="xxxx-+-xxx" met="-+-+-+-+-+">And yet, on recollection, I might tell;</l>
+        <l n="117" real="xxxxx+-xxx" met="-+-+-+-+-+">But urge me one step farther--I am mute:</l>
+        <l n="118" real="xxxxxxxx-+" met="-+-+-+-+-+">A son of earth, like Manius, past dispute.</l>
+        <l n="119" real="xx-+xxx+-x" met="-+-+-+-+-+">Thus his descent and mine are equal proved,</l>
+        <l n="120" real="xxxxx+-x-+" met="-+-+-+-+-+">And we at last are cousins, though removed.</l>
+        <l n="121" real="xxxxxxxxxx" met="-+-+-+-+-+">But why should you, who still before me run,</l>
+        <l n="122" real="x+xxxxxxxx" met="-+-+-+-+-+">Require my torch ere yet the race be won?</l>
+        <l n="123" real="xxx+--xxxx" met="-+-+-+-+-+">Think me your Mercury: Lo! here I stand,</l>
+        <l n="124" real="x+-x-+xxxx" met="-+-+-+-+-+">As painters represent him, purse in hand:</l>
+        <l n="125" real="xxxxx+-x-+" met="-+-+-+-+-+">Will you, or not, the proffered boon receive,</l>
+        <l n="126" real="xxxxxx--+xx" met="-+-+-+-+-+-">And take, with thankfulness, whate&#x27;er I leave?</l>
+        <l n="127" real="+-x+-xxxxx" met="-+-+-+-+-+">Something, you murmur, of the heap is spent.</l>
+        <l n="128" real="xx-+-xx+-x" met="-+-+-+-+-+">True: as occasion called it freely went;</l>
+        <l n="129" real="xxxxxxxx-+" met="-+-+-+-+-+">In life &#x27;twas mine: but death your chance secures,</l>
+        <l n="130" real="xx-+xxxxxx" met="-+-+-+-+-+">And what remains, or more or less, is yours.</l>
+        <l n="131" real="xxx+--x+-x" met="-+-+-+-+-+">Of Tadius&#x27; legacy no questions raise,</l>
+        <l n="132" real="xxxxxxx+-x" met="-+-+-+-+-+">Nor turn upon me with a grandsire-phrase,</l>
+        <l n="133" real="xxx+-xx+-x" met="-+-+-+-+-+">&quot;Live on the interest of your fortune, boy;</l>
+        <l n="134" real="xxx+--xx-+" met="-+-+-+-+-+">To touch the principal is to destroy.&quot;</l>
+        <l n="135" real="xxxxxx-+xx" met="-+-+-+-+-+">&quot;What, after all, may I expect to have?&quot;</l>
+        <l n="136" real="-+xxxxxxx" met="+-+-+-+-+">Expect!--Pour oil upon my viands, slave,</l>
+        <l n="137" real="xx-+-xxxxx" met="-+-+-+-+-+">Pour with unsparing hand! shall my best cheer</l>
+        <l n="138" real="xxx+-xxxxx" met="-+-+-+-+-+">On high and solemn days be the singed ear</l>
+        <l n="139" real="xxxxxxx+-x" met="-+-+-+-+-+">Of some tough, smoke-dried hog, with nettles drest;</l>
+        <l n="140" real="xx-+-xxxxx" met="-+-+-+-+-+">That your descendant, while in earth I rest,</l>
+        <l n="141" real="xxx+-xxx-+" met="-+-+-+-+-+">May gorge on dainties, and, when lust excites,</l>
+        <l n="142" real="xx-+-xx+-x" met="-+-+-+-+-+">Give to patrician beds his wasteful nights?</l>
+        <l n="143" real="xxx+-+-xxx" met="-+-+-+-+-+">Shall I, a napless figure, pale and thin,</l>
+        <l n="144" real="xx-+-xx+-x" met="-+-+-+-+-+">Glide by, transparent, in a parchment skin,</l>
+        <l n="145" real="xxxxxxx+-x" met="-+-+-+-+-+">That he may strut with more than priestly pride,</l>
+        <l n="146" real="xxx+-xxxxx" met="-+-+-+-+-+">And swag his portly paunch from side to side?</l>
+        <l n="147" real="xxxxxxxx-+" met="-+-+-+-+-+">Go, truck your soul for gain! buy, sell, exchange;</l>
+        <l n="148" real="xxxxxxx+-x" met="-+-+-+-+-+">From pole to pole in quest of profit range.</l>
+        <l n="149" real="xxx+-xx+-x" met="-+-+-+-+-+">Let none more shrewdly play the factor&#x27;s part;</l>
+        <l n="150" real="xxxxx+-xxx" met="-+-+-+-+-+">None bring his slaves more timely to the mart;</l>
+        <l n="151" real="xxx+-xxxxx" met="-+-+-+-+-+">Puff them with happier skill, as caged they stand,</l>
+        <l n="152" real="xxxxxxx+-x" met="-+-+-+-+-+">Or clap their well-fed sides with nicer hand.</l>
+        <l n="153" real="+-x+-+-xxx" met="-+-+-+-+-+">Double your fortune--treble it--yet more--</l>
+        <l n="154" real="xxxxxxxxxx" met="-+-+-+-+-+">&#x27;Tis four, six, ten-fold what it was before:</l>
+        <l n="155" real="xxxxxxxx-+" met="-+-+-+-+-+">O bound the heap--You, who could yours confine,</l>
+        <l n="156" real="xxxxxxx+-x" met="-+-+-+-+-+">Tell me, Chrysippus, how to limit mine!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

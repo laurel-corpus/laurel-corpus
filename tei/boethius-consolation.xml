@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Consolation of Philosophy</title><author>Boethius</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>The Theological Tractates and The Consolation of Philosophy. Project Gutenberg ebook #13316. <ref target="https://www.gutenberg.org/ebooks/13316">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="h-f-s-e-k-r" n="L23699">
+      <head>H.F.S. E.K.R.</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:h-f-s-e-k-r</idno><idno type="laurel-id">L23699</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxxxxxxxxxxxx">Cp. H. de Wulf, Histoire de la Philosophie médiévale (Louvain and</l>
+        <l n="2" real="+-x">Paris 1915), p. 332.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-x+-+--+x+-x-+-xxxx">Mr. G. Bayley Dolson suggests with greater probability that I.T. was</l>
+        <l n="4" real="xxx+-xx+-+xxx+-">John Thorpe (fl. 1570-1610), architect to Thomas Sackville, Earl of Dorset.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="illustrative-works" n="L23700">
+      <head>Illustrative Works</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:illustrative-works</idno><idno type="laurel-id">L23700</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="x+-xxxxxxxxxxxxx">A. Engelbrecht. Die Consolatio Phil. der B. Sitzungsberichte der</l>
+        <l n="2" real="xxx-+-">Kön. Akad. Vienna, 1902.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aa">
+        <l n="3" real="xxxxxxxxxxxxxxxx">Bardenhewer, Patrologie (Boethius und Cassiodor, pp. 584 sqq.).</l>
+        <l n="4" real="xxxxx">Freiburg im Breslau, 1894.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="5" real="+-xxxx+-xxxxxx">Hildebrand. Boethius und seine Stellung zum Christentum.</l>
+        <l n="6" real="+--">Regensburg, 1885.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="7" real="xxxxxxxxxxxxxxx">Fritz Klingner. De Boethii consolatione, Philol. Unters. xxvii.</l>
+        <l n="8" real="-+">Berlin, 1921.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="9" real="xxxxxxxxxxxxxxxxxx">E.K. Rand. Der dem B. zugeschriebene Traktat de Fide catholica</l>
+        <l n="10" real="xxxxxx">(Jahrbuch für kl. Phil. xxvi.). 1901.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="from-the-same-to-the-same" n="L23701">
+      <head>From the Same to the Same</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:from-the-same-to-the-same</idno><idno type="laurel-id">L23701</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx-+x-++--+-+x+-x">IV. That which exists can possess something besides itself. But absolute</l>
+        <l n="2" real="+xx-+-xxx+-+">Being has no admixture of aught besides Itself.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="3" real="+-+--+-xxxxxxxxx">Similarly Porphyry divided the works of Plotinus into six</l>
+        <l n="4" real="xxxxxx">Enneades or groups of nine.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="5" real="+-x">(infra, p. 270).</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="liber-i-i" n="L23702">
+      <head>Liber I I</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:liber-i-i</idno><idno type="laurel-id">L23702</idno><note type="metre">trochaic hexameter</note>
+      <lg type="stanza" n="1" rhyme="--a---ab---b----------">
+        <l n="1" real="xxxx+-+-xxxxxx" met="+--+-+-+-+-+--">Carmina qui quondam studio florente peregi,</l>
+        <l n="2" real="xxxxxxxxxxxx" met="+-+-+-+-+-+-">Flebilis heu maestos cogor inire modos.</l>
+        <l n="3" real="xxxxxxxxxxxx" met="+-+-+-+-+-+-">Ecce mihi lacerae dictant scribenda Camenae</l>
+        <l n="4" real="xxxxxxxxx+-xx" met="+-+-+-+-+-+--">Et ueris elegi fletibus ora rigant.</l>
+        <l n="5" real="xxxxxxxxxx+-" met="+-+-+-+-+-+-">Has saltem nullus potuit peruincere terror,</l>
+        <l n="6" real="x+-xxxxxxx+-" met="+-+-+-+-+-+-">Ne nostrum comites prosequerentur iter.</l>
+        <l n="7" real="+--xxxxxxxxx" met="+-+-+-+-+-+-">Gloria felicis olim uiridisque iuuentae</l>
+        <l n="8" real="xxxxxxx+-xx" met="+-+-+-+-+-+">Solantur maesti nunc mea fata senis.</l>
+        <l n="9" real="xxxxxxxx+-xxxxxxx" met="+-+-+-+-+-+-+-+--">Venit enim properata malis inopina senectus</l>
+        <l n="10" real="x+-xxxxx-+x" met="+-+-+-+-+-+">Et dolor aetatem iussit inesse suam.</l>
+        <l n="11" real="xxxxxxxxxxx" met="+-+-+-+-+-+">Intempestiui funduntur uertice cani</l>
+        <l n="12" real="xxxxxxxxxx+-" met="+-+-+-+-+-+-">Et tremit effeto corpore laxa cutis.</l>
+        <l n="13" real="xxxx+-xx+xxxx+-" met="+-+-+-+-+-+-+--">Mors hominum felix quae se nec dulcibus annis</l>
+        <l n="14" real="xxxxxxxxxxxx" met="+-+-+-+-+-+-">Inserit et maestis saepe uocata uenit.</l>
+        <l n="15" real="xxxxxxxxxxx+-" met="+-+-+-+-+-+--">Eheu quam surda miseros auertitur aure</l>
+        <l n="16" real="xxxxxxxxxx" met="+-+-+-+-+-">Et flentes oculos claudere saeua negat.</l>
+        <l n="17" real="xxxxxx+--+-xx" met="+-+-+-+-+-+--">Dum leuibus male fida bonis fortuna faueret,</l>
+        <l n="18" real="x-+xxxxx+-+-" met="+-+-+-+-+-+-">Paene caput tristis merserat hora meum.</l>
+        <l n="19" real="xxxxxxxxxxxx" met="+-+-+-+-+-+-">Nunc quia fallacem mutauit nubila uultum,</l>
+        <l n="20" real="xxxxxxxxxx+-" met="+-+-+-+-+-+-">Protrahit ingratas impia uita moras.</l>
+        <l n="21" real="xxxxxxxxxxxxx" met="+-+-+-+-+-+--">Quid me felicem totiens iactastis amici?</l>
+        <l n="22" real="xxxxxxxxxxxxx" met="+-+-+-+-+-+--">Qui cecidit, stabili non erat ille gradu.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="containing-his-complaint-and-miseries" n="L23703">
+      <head>Containing His Complaint and Miseries</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:containing-his-complaint-and-miseries</idno><idno type="laurel-id">L23703</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="aabb----ccddeeffgghhii">
+        <l n="1" real="xxx+-xx+-x" met="-+-+-+-+-+">I that with youthful heat did verses write,</l>
+        <l n="2" real="xxxxx+-x-+" met="-+-+-+-+-+">Must now my woes in doleful tunes indite.</l>
+        <l n="3" real="xxxxx+-xxx" met="-+-+-+-+-+">My work is framed by Muses torn and rude,</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">And my sad cheeks are with true tears bedewed:</l>
+        <l n="5" real="xx-+x+-x-+" met="-+-+-+-+-+">For these alone no terror could affray</l>
+        <l n="6" real="x+-+-xx+-x" met="-+-+-+-+-+">From being partners of my weary way.</l>
+        <l n="7" real="xxxxxxxxx+-" met="-+-+-+-+-+-">The art that was my young life&#x27;s joy and glory</l>
+        <l n="8" real="-+x+-xxxx+-" met="-+-+-+-+-+-">Becomes my solace now I&#x27;m old and sorry;</l>
+        <l n="9" real="+-xxxxxxxx" met="-+-+-+-+-+">Sorrow has filched my youth from me, the thief!</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">My days are numbered not by time but Grief.</l>
+        <l n="11" real="-+-+-x+-xx" met="-+-+-+-+-+">Untimely hoary hairs cover my head,</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">And my loose skin quakes on my flesh half dead.</l>
+        <l n="13" real="x+-xx+-+-x" met="-+-+-+-+-+">O happy death, that spareth sweetest years,</l>
+        <l n="14" real="xxx+-+-xxx" met="-+-+-+-+-+">And comes in sorrow often called with tears.</l>
+        <l n="15" real="-+xxxxxxx" met="+-+-+-+-+">Alas, how deaf is he to wretch&#x27;s cries;</l>
+        <l n="16" real="xxxxxxx+-x" met="-+-+-+-+-+">And loath he is to close up weeping eyes;</l>
+        <l n="17" real="x+-xxxx+-x" met="-+-+-+-+-+">While trustless chance me with vain favours crowned,</l>
+        <l n="18" real="x+-+xxx+xx" met="-+-+-+-+-+">That saddest hour my life had almost drowned:</l>
+        <l n="19" real="xxx+-x-+-x" met="-+-+-+-+-+">Now she hath clouded her deceitful face,</l>
+        <l n="20" real="x+-x-+x+-x" met="-+-+-+-+-+">My spiteful days prolong their weary race.</l>
+        <l n="21" real="xxxxxxx+--" met="-+-+-+-+-+">My friends, why did you count me fortunate?</l>
+        <l n="22" real="xxx+-xxx+-x" met="-+-+-+-+-+-">He that is fallen, ne&#x27;er stood in settled state.</l>
+      </lg>
+      <lg type="stanza" n="2">
+        <l n="23" real="+-xxx-+xxx+-xxx" met="-+-+-+-+-+-+-+-">Literally &quot;For Old Age, unlooked for, sped by evils, has come, and</l>
+        <l n="24" real="xx+-xxxxx" met="+-+-+-+-+">Grief has bidden her years lie on me.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="------a--a-----------b-bb--">
+        <l n="25" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Heu quam praecipiti mersa profundo</l>
+        <l n="26" real="xxxxxxxxxx" met="-+-+-+-+-+">Mens hebet et propria luce relicta</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">Tendit in externas ire tenebras,</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Terrenis quotiens flatibus aucta</l>
+        <l n="29" real="xxxxxxxxxx" met="-+-+-+-+-+">Crescit in inmensum noxia cura.</l>
+        <l n="30" real="x+-xx+-xxx" met="-+-+-+-+-+">Hic quondam caelo liber aperto</l>
+        <l n="31" real="xxxxxxx-+-" met="-+-+-+-+-+">Suetus in aetherios ire meatus</l>
+        <l n="32" real="xxxxx+--+-" met="-+-+-+-+-+">Cernebat rosei lumina solis,</l>
+        <l n="33" real="xxxxxxxxx" met="+-+-+-+-+">Visebat gelidae sidera lunae</l>
+        <l n="34" real="xxxxx+-xxx" met="-+-+-+-+-+">Et quaecumque uagos stella recursus</l>
+        <l n="35" real="xxxxxxxxx" met="+-+-+-+-+">Exercet uarios flexa per orbes,</l>
+        <l n="36" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Comprensam numeris uictor habebat.</l>
+        <l n="37" real="xxxxx+--+-" met="-+-+-+-+-+">Quin etiam causas unde sonora</l>
+        <l n="38" real="xxxxxxxxxx+-" met="--+-+-+-+-+-">Flamina sollicitent aequora ponti,</l>
+        <l n="39" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Quis uoluat stabilem spiritus orbem</l>
+        <l n="40" real="xxxxxxxxxx" met="-+-+-+-+-+">Vel cur hesperias sidus in undas</l>
+        <l n="41" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Casurum rutilo surgat ab ortu,</l>
+        <l n="42" real="xxx-+-xxx+-" met="-+-+-+-+-+-">Quid ueris placidas temperet horas,</l>
+        <l n="43" real="xxxxxxxxxx" met="-+-+-+-+-+">Vt terram roseis floribus ornet,</l>
+        <l n="44" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Quis dedit ut pleno fertilis anno</l>
+        <l n="45" real="xxxxxxxx" met="-+-+-+-+">Autumnus grauidis influat uuis</l>
+        <l n="46" real="xxxxxxxxxx" met="-+-+-+-+-+">Rimari solitus atque latentis</l>
+        <l n="47" real="xxxxxxxx" met="-+-+-+-+">Naturae uarias reddere causas,</l>
+        <l n="48" real="xxxxxx+-xx" met="-+-+-+-+-+">Nunc iacet effeto lumine mentis</l>
+        <l n="49" real="xxxxx+-xxx" met="-+-+-+-+-+">Et pressus grauibus colla catenis</l>
+        <l n="50" real="xx+-xxxx" met="-+-+-+-+">Decliuemque gerens pondere uultum</l>
+        <l n="51" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Cogitur, heu, stolidam cernere terram.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aaaabcbcd-d-efefghghijij">
+        <l n="52" real="-+xxxxx+xx" met="-+-+-+-+-+">Alas, how thy dull mind is headlong cast</l>
+        <l n="53" real="xxxxxxxxxx" met="-+-+-+-+-+">In depths of woe, where, all her light once lost,</l>
+        <l n="54" real="xxxxx+-+-x" met="-+-+-+-+-+">She doth to walk in utter darkness haste,</l>
+        <l n="55" real="xxxxx+-+-x" met="-+-+-+-+-+">While cares grow great with earthly tempests tost.</l>
+        <l n="56" real="xxxx+-+-x+-x" met="--+-+-+-+-+-">He that through the opened heavens did freely run,</l>
+        <l n="57" real="xxx+-x-+-x" met="-+-+-+-+-+">And used to travel the celestial ways,</l>
+        <l n="58" real="+-x+-+-xxx" met="-+-+-+-+-+">Marking the rosy splendour of the sun,</l>
+        <l n="59" real="x+-+-xx+-x" met="-+-+-+-+-+">And noting Cynthia&#x27;s cold and watery rays;</l>
+        <l n="60" real="xxx+-x-+xx" met="-+-+-+-+-+">He that did bravely comprehend in verse</l>
+        <l n="61" real="x+-xx+-xxx" met="-+-+-+-+-+">The different spheres and wandering course of stars,</l>
+        <l n="62" real="xxxxx+-x-+" met="-+-+-+-+-+">He that was wont the causes to rehearse</l>
+        <l n="63" real="x+-xxxxxxx" met="-+-+-+-+-+">Why sounding winds do with the seas make wars,</l>
+        <l n="64" real="x+-xxxx+-x" met="-+-+-+-+-+">What spirit moves the world&#x27;s well-settled frame,</l>
+        <l n="65" real="xxxxxxxxxx" met="-+-+-+-+-+">And why the sun, whom forth the east doth bring,</l>
+        <l n="66" real="x+-xxxx+-x" met="-+-+-+-+-+">In western waves doth hide his falling flame,</l>
+        <l n="67" real="+-x++-x+-x" met="-+-+-+-+-+">Searching what power tempers the pleasing Spring</l>
+        <l n="68" real="xxxxx+-+xx" met="-+-+-+-+-+">Which makes the earth her rosy flowers to bear,</l>
+        <l n="69" real="xxxxx+-+-+-" met="-+-+-+-+-+-">Whose gift it is that Autumn&#x27;s fruitful season</l>
+        <l n="70" real="xxxxxxx+--x" met="-+-+-+-+-+-">Should with full grapes flow in a plenteous year,</l>
+        <l n="71" real="+-x+-+-+-+-" met="-+-+-+-+-+-">Telling of secret Nature every reason,</l>
+        <l n="72" real="x+-xx+-xxx" met="-+-+-+-+-+">Now having lost the beauty of his mind</l>
+        <l n="73" real="xxxx+-x+-x" met="-+-+-+-+-+">Lies with his neck compassed in ponderous chains;</l>
+        <l n="74" real="x+--x+-x-+" met="-+-+-+-+-+">His countenance with heavy weight declined,</l>
+        <l n="75" real="xx-+x+-x-+" met="-+-+-+-+-+">Him to behold the sullen earth constrains.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="76" real="xxxxxxxxx+--" met="--+-+-+-+-+-">Tunc me discussa liquerunt nocte tenebrae</l>
+        <l n="77" real="xxxx+-xxxx" met="-+-+-+-+-+">Luminibusque prior rediit uigor,</l>
+        <l n="78" real="xxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-">Vt, cum praecipiti glomerantur sidera Coro</l>
+        <l n="79" real="xxx+-xxxxx" met="-+-+-+-+-+">Nimbosisque polus stetit imbribus,</l>
+        <l n="80" real="xxx++xxxxxxxxxx" met="-+-+-+-+-+-+-+-">Sol latet ac nondum caelo uenientibus astris,</l>
+        <l n="81" real="xxxxxxxxxx" met="-+-+-+-+-+">Desuper in terram nox funditur;</l>
+        <l n="82" real="xxxx+--xxxxxx" met="-+-+-+-+-+-+-">Hanc si Threicio Boreas emissus ab antro</l>
+        <l n="83" real="xxxxxxxxxx" met="-+-+-+-+-+">Verberet et clausam reseret diem,</l>
+        <l n="84" real="xxx+++--xxx+-+-" met="-+-+-+-+-+-+-+-">Emicat ac subito uibratus lumine Phoebus</l>
+        <l n="85" real="xxxxxxxxx" met="+-+-+-+-+">Mirantes oculos radiis ferit.</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="aabbccddee">
+        <l n="86" real="xxxxx+-xxx" met="-+-+-+-+-+">Then fled the night and darkness did me leave.</l>
+        <l n="87" real="xxx+-x-+" met="-+-+-+-+">Mine eyes their wonted strength receive,</l>
+        <l n="88" real="xxxxxxxxxx" met="-+-+-+-+-+">As when swift Corus spreads the stars with clouds</l>
+        <l n="89" real="xxxxxxx+-x" met="-+-+-+-+-+">And the clear sky a veil of tempest shrouds</l>
+        <l n="90" real="xxxxxx-+-x" met="-+-+-+-+-+">The sun doth lurk, the earth receiveth night.</l>
+        <l n="91" real="+-xxx+-x" met="-+-+-+-+">Lacking the boon of starry light;</l>
+        <l n="92" real="xxx+--xxxxx" met="-+-+-+-+-+-">But if fierce Boreas, sent from Thrace, make way</l>
+        <l n="93" real="xx-+-xxx" met="-+-+-+-+">For the restoring of the day,</l>
+        <l n="94" real="+-xxx+-xxx" met="-+-+-+-+-+">Phoebus with fresh and sudden beams doth rise,</l>
+        <l n="95" real="+-xx+-+--x" met="-+-+-+-+-+">Striking with light our wondering eyes.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a-a-bb--b-c---c">
+        <l n="96" real="xxxxxxxxxx" met="-+-+-+-+-+">Quisquis composito serenus aeuo</l>
+        <l n="97" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Fatum sub pedibus egit superbum</l>
+        <l n="98" real="xxxxxx+-" met="-+-+-+-+">Fortunamque tuens utramque rectus</l>
+        <l n="99" real="xxxxxxxxx" met="+-+-+-+-+">Inuictum potuit tenere uultum,</l>
+        <l n="100" real="xxx+-xx+-" met="+-+-+-+-+">Non illum rabies minaeque ponti</l>
+        <l n="101" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Versum funditus exagitantis aestum</l>
+        <l n="102" real="xxxxxxxxxx" met="-+-+-+-+-+">Nec ruptis quotiens uagus caminis</l>
+        <l n="103" real="xxxxxxxxx" met="+-+-+-+-+">Torquet fumificos Vesaeuus ignes</l>
+        <l n="104" real="xxxxxxxxx" met="+-+-+-+-+">Aut celsas soliti ferire turres</l>
+        <l n="105" real="xxxxxxxxx" met="+-+-+-+-+">Ardentis uia fulminis mouebit.</l>
+        <l n="106" real="xxxxxxxxxx" met="-+-+-+-+-+">Quid tantum miseri saeuos tyrannos</l>
+        <l n="107" real="xxxxxxxxx" met="+-+-+-+-+">Mirantur sine uiribus furentes?</l>
+        <l n="108" real="xxxxxxxxxx" met="-+-+-+-+-+">Nec speres aliquid nec extimescas,</l>
+        <l n="109" real="xxxxxxxxxx" met="-+-+-+-+-+">Exarmaueris impotentis iram.</l>
+        <l n="110" real="xxxxxxxxxx" met="-+-+-+-+-+">At quisquis trepidus pauet uel optat,</l>
+        <l n="111" real="xxxxxxxxx" met="+-+-+-+-+">Quod non sit stabilis suique iuris,</l>
+        <l n="112" real="xxxxxxxxx" met="+-+-+-+-+">Abiecit clipeum locoque motus</l>
+        <l n="113" real="xxxxxxxxxx" met="-+-+-+-+-+">Nectit qua ualeat trahi catenam.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="aabb--ccddeeff--gg">
+        <l n="114" real="x+-xxx-+" met="-+-+-+-+">Who mildly can his age dispose,</l>
+        <l n="115" real="xxxxx+--x" met="+-+-+-+-+">And at his feet proud destiny throws:</l>
+        <l n="116" real="x+-xxx-+" met="-+-+-+-+">Who stoutly doth each chance behold,</l>
+        <l n="117" real="+-x+--x-+-" met="-+-+-+-+-+">Keeping his countenance uncontrolled:</l>
+        <l n="118" real="xxx+-xxx" met="-+-+-+-+">Not him the ocean&#x27;s rage and threat,</l>
+        <l n="119" real="+-xxx+-x" met="-+-+-+-+">Stirring the waves with angry heat,</l>
+        <l n="120" real="xx-+--xxx" met="+-+-+-+-+">Nor hot Vesuvius when he casts</l>
+        <l n="121" real="x+-xxxx" met="-+-+-+-">From broken hills enflaméd blasts,</l>
+        <l n="122" real="x+--+-x-+" met="+-+-+-+-+">Nor fiery thunder can dismay,</l>
+        <l n="123" real="xxxxx+--+" met="+-+-+-+-+">Which takes the tops of towers away.</l>
+        <l n="124" real="xxx+-x-+" met="-+-+-+-+">Why do fierce tyrants us affright,</l>
+        <l n="125" real="xxxxxxxx" met="-+-+-+-+">Whose rage is far beyond their might?</l>
+        <l n="126" real="x+-xxxxx" met="-+-+-+-+">For nothing hope, nor fear thou harm,</l>
+        <l n="127" real="xxxxxx-+" met="-+-+-+-+">So their weak wrath thou shalt disarm.</l>
+        <l n="128" real="xxxxx+-x" met="-+-+-+-+">But he whom hope or terror takes,</l>
+        <l n="129" real="+-xxxx-+" met="-+-+-+-+">Being a slave, his shield forsakes,</l>
+        <l n="130" real="xxxxxx-+" met="-+-+-+-+">And leaves his place, and doth provide</l>
+        <l n="131" real="xx-+xxxx" met="-+-+-+-+">A chain wherewith his hands are tied.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="---a-a---a-b---b------------c---c---------dd----">
+        <l n="132" real="xxxxxxxx+-" met="-+-+-+-+-+">O stelliferi conditor orbis</l>
+        <l n="133" real="xxxxxxxx" met="-+-+-+-+">Qui perpetuo nixus solio</l>
+        <l n="134" real="xxxxx+-xx" met="+-+-+-+-+">Rapido caelum turbine uersas</l>
+        <l n="135" real="xxxxxxxxx" met="+-+-+-+-+">Legemque pati sidera cogis,</l>
+        <l n="136" real="xxxx-+-+-" met="+-+-+-+-+">Vt nunc pleno lucida cornu</l>
+        <l n="137" real="+-xxxxxx" met="-+-+-+-+">Totis fratris obuia flammis</l>
+        <l n="138" real="xx+-+-+-" met="-+-+-+-+">Condat stellas luna minores,</l>
+        <l n="139" real="xxxxxxx+-" met="+-+-+-+-+">Nunc obscuro pallida cornu</l>
+        <l n="140" real="xxxx+--xx" met="+-+-+-+-+">Phoebo propior lumina perdat,</l>
+        <l n="141" real="xxx+-xx" met="-+-+-+-">Et qui primae tempore noctis</l>
+        <l n="142" real="xxxxxxxxx" met="+-+-+-+-+">Agit algentes Hesperos ortus,</l>
+        <l n="143" real="-+-xxxxxxxx" met="-+-+-+-+-+-">Solitas iterum mutet habenas</l>
+        <l n="144" real="xxxx+--xx" met="+-+-+-+-+">Phoebi pallens Lucifer ortu.</l>
+        <l n="145" real="xxxxxx" met="-+-+-+">Tu frondifluae frigore brumae</l>
+        <l n="146" real="xxxxx+-" met="-+-+-+-">Stringis lucem breuiore mora:</l>
+        <l n="147" real="xxxxxxxxxx" met="-+-+-+-+-+">Tu, cum feruida uenerit aestas,</l>
+        <l n="148" real="+-xxxx+-" met="-+-+-+-+">Agiles nocti diuidis horas.</l>
+        <l n="149" real="xxxxxxx+-" met="+-+-+-+-+">Tua uis uarium temperat annum</l>
+        <l n="150" real="xxxxxxxx" met="-+-+-+-+">Vt quas Boreae spiritus aufert</l>
+        <l n="151" real="xxx+--x" met="-+-+-+-">Reuehat mites Zephyrus frondes</l>
+        <l n="152" real="xx+-xxxxx" met="+-+-+-+-+">Quaeque Arcturus semina uidit</l>
+        <l n="153" real="+--+-xxxx" met="+-+-+-+-+">Sirius altas urat segetes.</l>
+        <l n="154" real="+-xxxxxxx" met="+-+-+-+-+">Nihil antiqua lege solutum</l>
+        <l n="155" real="xxxxxx+-" met="-+-+-+-+">Linquit propriae stationis opus.</l>
+        <l n="156" real="xx+-xxxx" met="-+-+-+-+">Omnia certo fine gubernans</l>
+        <l n="157" real="xxx+-xx+-" met="+-+-+-+-+">Hominum solos respuis actus</l>
+        <l n="158" real="xxx+-xxxxx" met="-+-+-+-+-+">Merito rector cohibere modo.</l>
+        <l n="159" real="xxxxxxxxx" met="+-+-+-+-+">Nam cur tantas lubrica uersat</l>
+        <l n="160" real="-+-xx-+xx" met="+-+-+-+-+">Fortuna uices? Premit insontes</l>
+        <l n="161" real="xxxxxxxxxx" met="-+-+-+-+-+">Debita sceleri noxia poena,</l>
+        <l n="162" real="xxxx+--+-" met="+-+-+-+-+">At peruersi resident celso</l>
+        <l n="163" real="+xxxxxxx" met="-+-+-+-+">Mores solio sanctaque calcant</l>
+        <l n="164" real="xxxx+-xx" met="-+-+-+-+">Iniusta uice colla nocentes.</l>
+        <l n="165" real="xxxxxxxxxx" met="-+-+-+-+-+">Latet obscuris condita uirtus</l>
+        <l n="166" real="+-xxxxxxx" met="+-+-+-+-+">Clara tenebris iustusque tulit</l>
+        <l n="167" real="xxxxx" met="-+-+-">Crimen iniqui.</l>
+        <l n="168" real="xxxxxxxxx" met="+-+-+-+-+">Nil periuria, nil nocet ipsis</l>
+        <l n="169" real="xxxxxxxx" met="-+-+-+-+">Fraus mendaci compta colore.</l>
+        <l n="170" real="xxxxxxxxx" met="+-+-+-+-+">Sed cum libuit uiribus uti,</l>
+        <l n="171" real="xxxxxxxxxx" met="-+-+-+-+-+">Quos innumeri metuunt populi</l>
+        <l n="172" real="xxxxxxxx" met="-+-+-+-+">Summos gaudent subdere reges.</l>
+        <l n="173" real="xxxxxxx+-" met="+-+-+-+-+">O iam miseras respice terras</l>
+        <l n="174" real="xxxxxxxxx" met="+-+-+-+-+">Quisquis rerum foedera nectis.</l>
+        <l n="175" real="xxxxxxxxx" met="+-+-+-+-+">Operis tanti pars non uilis</l>
+        <l n="176" real="xxxxxxx+-" met="+-+-+-+-+">Homines quatimur fortunae salo.</l>
+        <l n="177" real="xxx+-xxxx" met="+-+-+-+-+">Rapidos rector comprime fluctus</l>
+        <l n="178" real="xxxx+-xxx" met="+-+-+-+-+">Et quo caelum regis immensum</l>
+        <l n="179" real="+-+-xx+-" met="-+-+-+-+">Firma stabiles foedere terras.&quot;</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="aa--bbccddeeffgghhiijjkkllmmnnoo--ppqqrrssssttuuvvwwxx">
+        <l n="180" real="-+-xxx" met="-+-+-+">Creator of the Sky,</l>
+        <l n="181" real="x+-xx-+-xxx" met="-+-+-+-+-+-">Who sittest on Thine eternal throne on high,</l>
+        <l n="182" real="xxx+-x" met="-+-+-+">Who dost quick motions cause</l>
+        <l n="183" real="xxx+-xxxxxx" met="-+-+-+-+-+-">In all the heavens, and givest stars their laws,</l>
+        <l n="184" real="xxxxxx" met="-+-+-+">That the pale Queen of Night,</l>
+        <l n="185" real="-+-+-xx+-x" met="-+-+-+-+-+">Sometimes receiving all her brother&#x27;s light,</l>
+        <l n="186" real="xxxxxx" met="-+-+-+">Should shine in her full pride,</l>
+        <l n="187" real="xxxxx+-xxx" met="-+-+-+-+-+">And with her beams the lesser stars should hide;</l>
+        <l n="188" real="-+xxxx" met="-+-+-+">Sometimes she wants her grace,</l>
+        <l n="189" real="xxxxxxx+-x" met="-+-+-+-+-+">When the sun&#x27;s rays are in less distant place;</l>
+        <l n="190" real="x+--xx" met="-+-+-+">And Hesperus that flies,</l>
+        <l n="191" real="+-xxxxxxxx" met="-+-+-+-+-+">Driving the cold, before the night doth rise,</l>
+        <l n="192" real="xxx+-x" met="-+-+-+">And oft with sudden change</l>
+        <l n="193" real="xxxxx+--xx" met="-+-+-+-+-+">Before the sun as Lucifer doth range.</l>
+        <l n="194" real="xxxxxx" met="-+-+-+">Thou short the days dost make,</l>
+        <l n="195" real="x+-xxxxxxx" met="-+-+-+-+-+">When Winter from the trees the leaves doth take;</l>
+        <l n="196" real="xxx+--x" met="-+-+-+-">Thou, when the fiery sun</l>
+        <l n="197" real="x+-xxxxx+-x" met="-+-+-+-+-+-">Doth Summer cause, makest the nights swiftly run.</l>
+        <l n="198" real="xxxxxx" met="-+-+-+">Thy might doth rule the year,</l>
+        <l n="199" real="x+-xxx-+xx" met="-+-+-+-+-+">As northern winds the leaves away do bear,</l>
+        <l n="200" real="x+--xx" met="-+-+-+">So Zephyrus from west</l>
+        <l n="201" real="xxxxx+-x-+" met="-+-+-+-+-+">The plants in all their freshness doth revest;</l>
+        <l n="202" real="xxxxxx" met="-+-+-+">And Syrius burns that corn</l>
+        <l n="203" real="xxx+-xxx-+" met="-+-+-+-+-+">With which Arcturus did the earth adorn.</l>
+        <l n="204" real="xxxxxx" met="-+-+-+">None from Thy laws are free,</l>
+        <l n="205" real="xx-+xx-+xx" met="-+-+-+-+-+">Nor can forsake their place ordained by Thee.</l>
+        <l n="206" real="xxx+-x" met="-+-+-+">Thou to that certain end</l>
+        <l n="207" real="+-xxxxxx-+" met="-+-+-+-+-+">Governest all things; deniest Thou to intend</l>
+        <l n="208" real="xxxx-+" met="-+-+-+">The acts of men alone,</l>
+        <l n="209" real="-+-xx+-xxx" met="-+-+-+-+-+">Directing them in measure from Thy throne?</l>
+        <l n="210" real="xxx+--x" met="-+-+-+-">For why should slippery chance</l>
+        <l n="211" real="xxxxx+-+--" met="-+-+-+-+-+">Rule all things with such doubtful governance?</l>
+        <l n="212" real="xxx+--" met="-+-+-+">Or why should punishments,</l>
+        <l n="213" real="xxx+-xx+--" met="-+-+-+-+-+">Due to the guilty, light on innocents?</l>
+        <l n="214" real="xxx+-x" met="-+-+-+">But now the highest place</l>
+        <l n="215" real="+-x+-+-+-x" met="-+-+-+-+-+">Giveth to naughty manners greatest grace,</l>
+        <l n="216" real="x+-+-x" met="-+-+-+">And wicked people vex</l>
+        <l n="217" real="xxxx-+-xxx" met="-+-+-+-+-+">Good men, and tread unjustly on their necks;</l>
+        <l n="218" real="+-x+-x" met="-+-+-+">Virtue in darkness lurks,</l>
+        <l n="219" real="x+-xxxx-+-x" met="-+-+-+-+-+-">And righteous souls are charged with impious works,</l>
+        <l n="220" real="-+x+--" met="-+-+-+">Deceits nor perjuries</l>
+        <l n="221" real="-+xxx+-xxx" met="-+-+-+-+-+">Disgrace not those who colour them with lies,</l>
+        <l n="222" real="xxxxxx" met="-+-+-+">For, when it doth them please</l>
+        <l n="223" real="xxxxxxxxxx" met="-+-+-+-+-+">To show their force, they to their will with ease</l>
+        <l n="224" real="xxxxxx" met="-+-+-+">The hearts of kings can steer,</l>
+        <l n="225" real="xxx+xx+--x" met="-+-+-+-+-+">To whom so many crouch with trembling fear.</l>
+        <l n="226" real="xxx+-xx" met="-+-+-+-">O Thou that joinest with love</l>
+        <l n="227" real="x+-xxxxxxx" met="-+-+-+-+-+">All worldly things, look from Thy seat above</l>
+        <l n="228" real="xxx+-x" met="-+-+-+">On the earth&#x27;s wretched state;</l>
+        <l n="229" real="xxxxxxxx-+" met="-+-+-+-+-+">We men, not the least work thou didst create,</l>
+        <l n="230" real="x+-xxx" met="-+-+-+">With fortune&#x27;s blasts do shake;</l>
+        <l n="231" real="x+-+-xx+-x" met="-+-+-+-+-+">Thou careful ruler, these fierce tempests slake,</l>
+        <l n="232" real="xxxx-+" met="-+-+-+">And for the earth provide</l>
+        <l n="233" real="xxxxx+xxxx" met="-+-+-+-+-+">Those laws by which Thou heaven in peace dost guide.&quot;</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="a-b---b-b-a-----------">
+        <l n="234" real="xxxxxx" met="-+-+-+">Cum Phoebi radiis graue</l>
+        <l n="235" real="xxxxxxx" met="-+-+-+-">Cancri sidus inaestuat,</l>
+        <l n="236" real="xxxxxxxx" met="-+-+-+-+">Tum qui larga negantibus</l>
+        <l n="237" real="xxxxxxxx" met="-+-+-+-+">Sulcis semina credidit,</l>
+        <l n="238" real="xxxxxxx" met="-+-+-+-">Elusus Cereris fide</l>
+        <l n="239" real="xxxxx+-" met="-+-+-+-">Quernas pergat ad arbores.</l>
+        <l n="240" real="xxxxxxx" met="-+-+-+-">Numquam purpureum nemus</l>
+        <l n="241" real="xxxxx+-" met="-+-+-+-">Lecturus uiolas petas</l>
+        <l n="242" real="xxxxxxx" met="-+-+-+-">Cum saeuis aquilonibus</l>
+        <l n="243" real="xx+-xxx" met="-+-+-+-">Stridens campus inhorruit,</l>
+        <l n="244" real="xxxxx+x" met="-+-+-+-">Nec quaeras auida manu</l>
+        <l n="245" real="+-xxxx" met="-+-+-+">Vernos stringere palmites,</l>
+        <l n="246" real="xxxxx" met="-+-+-">Vuis si libeat frui;</l>
+        <l n="247" real="xxxxxx" met="-+-+-+">Autumno potius sua</l>
+        <l n="248" real="+-xxxxxx" met="-+-+-+-+">Bacchus munera contulit.</l>
+        <l n="249" real="xxxxxxx" met="-+-+-+-">Signat tempora propriis</l>
+        <l n="250" real="xxxxxx" met="-+-+-+">Aptans officiis deus</l>
+        <l n="251" real="xxxxx" met="-+-+-">Nec quas ipse coercuit</l>
+        <l n="252" real="xxxxxxxx" met="-+-+-+-+">Misceri patitur uices.</l>
+        <l n="253" real="xxxxxxx" met="-+-+-+-">Sic quod praecipiti uia</l>
+        <l n="254" real="xxxxxxxx" met="-+-+-+-+">Certum deserit ordinem</l>
+        <l n="255" real="xxxxxxxx" met="-+-+-+-+">Laetos non habet exitus.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="aabbcc--ddeeffgghhiijj">
+        <l n="256" real="xxx+-x" met="-+-+-+">When hot with Phoebus&#x27; beams</l>
+        <l n="257" real="xxx+--x" met="-+-+-+-">The Crab casts fiery gleams,</l>
+        <l n="258" real="xxxxxx" met="-+-+-+">He that doth then with seed</l>
+        <l n="259" real="xxx+-x" met="-+-+-+">Th&#x27;unwilling furrows feed,</l>
+        <l n="260" real="xxxxx" met="-+-+-">Deceivéd of his bread</l>
+        <l n="261" real="xxx+-x" met="-+-+-+">Must be with acorns fed.</l>
+        <l n="262" real="xxx+--x" met="-+-+-+-">Seek not the flowery woods</l>
+        <l n="263" real="x+--xx" met="-+-+-+">For violets&#x27; sweet buds,</l>
+        <l n="264" real="xxx+-x" met="-+-+-+">When fields are overcast</l>
+        <l n="265" real="xxx+-x" met="-+-+-+">With the fierce northern blast,</l>
+        <l n="266" real="xxxxxx" met="-+-+-+">Nor hope thou home to bring</l>
+        <l n="267" real="x+-xxx" met="-+-+-+">Vine-clusters in the Spring</l>
+        <l n="268" real="xxxx-+" met="-+-+-+">If thou in grapes delight:</l>
+        <l n="269" real="x+-+-x" met="-+-+-+">In autumn Bacchus&#x27; might</l>
+        <l n="270" real="xxxx+-x" met="-+-+-+-">With them doth deck our clime.</l>
+        <l n="271" real="x+--+-x" met="-+-+-+-">God every several time</l>
+        <l n="272" real="x+-xxx" met="-+-+-+">With proper grace hath crowned</l>
+        <l n="273" real="xxxx-+" met="-+-+-+">Nor will those laws confound</l>
+        <l n="274" real="xxx+-x" met="-+-+-+">Which He once settled hath.</l>
+        <l n="275" real="xxx+xx" met="-+-+-+">He that with headlong path</l>
+        <l n="276" real="x+-+-x" met="-+-+-+">This certain order leaves,</l>
+        <l n="277" real="x+-x-+" met="-+-+-+">An hapless end receives.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="------aa------bb-------c-c-dd--">
+        <l n="278" real="xxxxx" met="-+-+-">Nubibus atris</l>
+        <l n="279" real="xxxxx" met="-+-+-">Condita nullum</l>
+        <l n="280" real="xxxx" met="-+-+">Fundere possunt</l>
+        <l n="281" real="xxx+-" met="-+-+-">Sidera lumen.</l>
+        <l n="282" real="xxxx" met="-+-+">Si mare uoluens</l>
+        <l n="283" real="xxx+-" met="-+-+-">Turbidus Auster</l>
+        <l n="284" real="xxxx" met="-+-+">Misceat aestum,</l>
+        <l n="285" real="xxxx" met="-+-+">Vitrea dudum</l>
+        <l n="286" real="xxxx" met="-+-+">Parque serenis</l>
+        <l n="287" real="xxx" met="-+-">Vnda diebus</l>
+        <l n="288" real="xxxxx" met="-+-+-">Mox resoluto</l>
+        <l n="289" real="xxxxx" met="-+-+-">Sordida caeno</l>
+        <l n="290" real="xxxxx" met="-+-+-">Visibus obstat.</l>
+        <l n="291" real="xxxx" met="-+-+">Quique uagatur</l>
+        <l n="292" real="xxxxx" met="-+-+-">Montibus altis</l>
+        <l n="293" real="xxxx" met="-+-+">Defluus amnis,</l>
+        <l n="294" real="xxxx" met="-+-+">Saepe resistit</l>
+        <l n="295" real="xxxx" met="-+-+">Rupe soluti</l>
+        <l n="296" real="xxxx" met="-+-+">Obice saxi.</l>
+        <l n="297" real="xxxx" met="-+-+">Tu quoque si uis</l>
+        <l n="298" real="+-+-" met="-+-+">Lumine claro</l>
+        <l n="299" real="xxxx" met="-+-+">Cernere uerum,</l>
+        <l n="300" real="xx+-" met="-+-+">Tramite recto</l>
+        <l n="301" real="xxxx" met="-+-+">Carpere callem,</l>
+        <l n="302" real="xxx" met="-+-">Gaudia pelle,</l>
+        <l n="303" real="xxxx" met="-+-+">Pelle timorem</l>
+        <l n="304" real="x-+-" met="-+-+">Spemque fugato</l>
+        <l n="305" real="x+-+-" met="-+-+-">Nec dolor adsit.</l>
+        <l n="306" real="xxxx-+" met="-+-+-+">Nubila mens est</l>
+        <l n="307" real="xx+-" met="-+-+">Vinctaque frenis,</l>
+        <l n="308" real="xxx+-" met="-+-+-">Haec ubi regnant.&quot;</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="abbac--cdeedfggfhiihjkkj">
+        <l n="309" real="xxx+-" met="-+-+-">When stars are shrouded</l>
+        <l n="310" real="x+-x" met="-+-+">With dusky night,</l>
+        <l n="311" real="xxxx" met="-+-+">They yield no light</l>
+        <l n="312" real="+-x+-" met="-+-+-">Being so clouded.</l>
+        <l n="313" real="xxxxx" met="-+-+-">When the wind moveth</l>
+        <l n="314" real="x+-xx" met="-+-+-">And churneth the sea,</l>
+        <l n="315" real="xxxxx" met="-+-+-">The flood, clear as day,</l>
+        <l n="316" real="xxx+-" met="-+-+-">Foul and dark proveth.</l>
+        <l n="317" real="x+-+-" met="-+-+-">And rivers creeping</l>
+        <l n="318" real="xxxx" met="-+-+">Down a high hill</l>
+        <l n="319" real="x+-x" met="-+-+">Stand often still,</l>
+        <l n="320" real="xxx+-" met="-+-+-">Rocks them back keeping.</l>
+        <l n="321" real="xxx+-" met="-+-+-">If thou wouldst brightly</l>
+        <l n="322" real="xxxx" met="-+-+">See Truth&#x27;s clear rays,</l>
+        <l n="323" real="xxxx" met="-+-+">Or walk those ways</l>
+        <l n="324" real="xxx+-" met="-+-+-">Which lead most rightly,</l>
+        <l n="325" real="xx-+-" met="-+-+-">All joy forsaking</l>
+        <l n="326" real="xxxx" met="-+-+">Fear must thou fly,</l>
+        <l n="327" real="xx-+" met="-+-+">And hopes defy,</l>
+        <l n="328" real="x+-+-" met="-+-+-">No sorrow taking.</l>
+        <l n="329" real="xxx+-" met="-+-+-">For where these terrors</l>
+        <l n="330" real="xxxx" met="-+-+">Reign in the mind,</l>
+        <l n="331" real="xxxx" met="-+-+">They it do bind</l>
+        <l n="332" real="x+-+-" met="-+-+-">In cloudy errors.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-ii" n="L23704">
+      <head>Book II II</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23704</idno>
+      <lg type="stanza" n="1" rhyme="--a---a--">
+        <l n="1" real="xxxxxxxxxx+-">Haec cum superba uerterit uices dextra</l>
+        <l n="2" real="xxxxxxxxxx">Et aestuantis more fertur Euripi,</l>
+        <l n="3" real="xxxxxxxxxxx">Dudum tremendos saeua proterit reges</l>
+        <l n="4" real="xxxxxxx+-xx">Humilemque uicti subleuat fallax uultum.</l>
+        <l n="5" real="xxxxxx+-x+-xx">Non illa miseros audit aut curat fletus</l>
+        <l n="6" real="xxxx+-xxxxx">Vltroque gemitus dura quos fecit ridet.</l>
+        <l n="7" real="xxxxxxxxxx">Sic illa ludit, sic suas probat uires</l>
+        <l n="8" real="xxxxxxxxxxx">Magnumque suis demonstrat ostentum, si quis</l>
+        <l n="9" real="xxx+-+-+++-+-">Visatur una stratus ac felix hora.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-abababcc">
+        <l n="10" real="xxx+-+-+-x">The pride of fickle fortune spareth none,</l>
+        <l n="11" real="xxxxxx-+-x">And, like the floods of swift Euripus borne,</l>
+        <l n="12" real="x+-+-+-xxx">Oft casteth mighty princes from their throne,</l>
+        <l n="13" real="xxx+-+-x-+">And oft the abject captive doth adorn.</l>
+        <l n="14" real="xxxxxxxxx">She cares not for the wretch&#x27;s tears and moan,</l>
+        <l n="15" real="xxxxxxxxxx">And the sad groans, which she hath caused, doth scorn.</l>
+        <l n="16" real="xxxxxxx+xx">Thus doth she play, to make her power more known,</l>
+        <l n="17" real="+-xxx+-xxx">Showing her slaves a marvel, when man&#x27;s state</l>
+        <l n="18" real="xxx+x+xx+--">Is in one hour both downcast and fortunate.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-----------------">
+        <l n="19" real="xxxxxxxxxxxx">Si quantas rapidis flatibus incitus</l>
+        <l n="20" real="xxxxxxx">Pontus uersat harenas</l>
+        <l n="21" real="xxxxxxxxxxxx">Aut quot stelliferis edita noctibus</l>
+        <l n="22" real="xxxxx+-">Caelo sidera fulgent</l>
+        <l n="23" real="xxxxxxxxxxx">Tantas fundat opes nec retrahat manum</l>
+        <l n="24" real="xxxx+-">Pleno copia cornu,</l>
+        <l n="25" real="xxxxxxx+--+-">Humanum miseras haud ideo genus</l>
+        <l n="26" real="xxxxxx">Cesset flere querellas.</l>
+        <l n="27" real="xxxxxxxxxx">Quamuis uota libens excipiat deus</l>
+        <l n="28" real="+-xxxxx">Multi prodigus auri</l>
+        <l n="29" real="x+-xxxxxxxx">Et claris auidos ornet honoribus,</l>
+        <l n="30" real="xxxxxxx">Nil iam parta uidentur,</l>
+        <l n="31" real="xxxxxxxxxxx">Sed quaesita uorans saeua rapacitas</l>
+        <l n="32" real="+-+--+-">Altos pandit hiatus.</l>
+        <l n="33" real="xxxxxxxxxxxx">Quae iam praecipitem frena cupidinem</l>
+        <l n="34" real="+-xxxx">Certo fine retentent,</l>
+        <l n="35" real="xxxxxxxxxx">Largis cum potius muneribus fluens</l>
+        <l n="36" real="xxxxxxxx">Sitis ardescit habendi?</l>
+        <l n="37" real="xxxxxxxxxxx">Numquam diues agit qui trepidus gemens</l>
+        <l n="38" real="+-+-xxx">Sese credit egentem.&#x27;</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="aabb--cc--">
+        <l n="39" real="x+-xxxxxx+-xxx">If Plenty as much wealth should give, ne&#x27;er holding back her hand,</l>
+        <l n="40" real="xxxxx+-xxxxxxx">As the swift winds in troubled seas do toss up heaps of sand,</l>
+        <l n="41" real="xxxxx+-xxxx+-x">Or as the stars in lightsome nights shine forth on heaven&#x27;s face,</l>
+        <l n="42" real="x+-xxx-+x+-x">Yet wretched men would still accuse their miserable case.</l>
+        <l n="43" real="xxx+-xxxx+-+-x">Should God, too liberal of His gold, their greedy wishes hear,</l>
+        <l n="44" real="xxx+-x-+xxx+-x">And with bright honour them adorn; yet all that nothing were,</l>
+        <l n="45" real="x+-x-+-xxxx+-x">Since ravenous minds, devouring all, for more are ready still.</l>
+        <l n="46" real="x+-x-+xxxx-+-x">What bridle can contain in bounds this their contentless will,</l>
+        <l n="47" real="xxx+-x-+xxx+-x">When filled with riches they retain the thirst of having more?</l>
+        <l n="48" real="xxxxxxxxxx-+xx">He is not rich that fears and grieves, and counts himself but poor.&#x27;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-iii" n="L23705">
+      <head>Book II III</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23705</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a-bbaa-b-b-----b--">
+        <l n="1" real="x+-+-xxxxx" met="--+-+-+-+-">Cum polo Phoebus roseis quadrigis</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Lucem spargere coeperit,</l>
+        <l n="3" real="+-xxxxxxxx" met="--+-+-+-+-">Pallet albentes hebetata uultus</l>
+        <l n="4" real="xx+-xxxx" met="-+-+-+-+">Flammis stella prementibus.</l>
+        <l n="5" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Cum nemus flatu Zephyri tepentis</l>
+        <l n="6" real="+-xxxxx" met="+-+-+-+">Vernis inrubuit rosis,</l>
+        <l n="7" real="xxxxxxxxx+-" met="-+-+-+-+-+-">Spiret insanum nebulosus Auster:</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">Iam spinis abeat decus.</l>
+        <l n="9" real="xxxxxx-+-" met="-+-+-+-+-">Saepe tranquillo radiat sereno</l>
+        <l n="10" real="xxxxxxx" met="+-+-+-+">Immotis mare fluctibus,</l>
+        <l n="11" real="xxxxxxxxx" met="-+-+-+-+-">Saepe feruentes Aquilo procellas</l>
+        <l n="12" real="+-xxxxx" met="+-+-+-+">Verso concitat aequore.</l>
+        <l n="13" real="+-x+-x+-+-" met="--+-+-+-+-">Rara si constat sua forma mundo,</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">Si tantas uariat uices,</l>
+        <l n="15" real="xxxxxxxxxx" met="--+-+-+-+-">Crede fortunis hominum caducis,</l>
+        <l n="16" real="+-xxxxx" met="+-+-+-+">Bonis crede fugacibus.</l>
+        <l n="17" real="+-xxxxxxx-+" met="-+-+-+-+-+-">Constat aeterna positumque lege est</l>
+        <l n="18" real="xxxxxx+-" met="-+-+-+-+">Vt constet genitum nihil.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgghhii">
+        <l n="19" real="x+-xx+-x" met="-+-+-+-+">When Phoebus with his rosy team</l>
+        <l n="20" real="+-x+-x" met="-+-+-+">Showeth his lightsome beam,</l>
+        <l n="21" real="xxx+--x-+" met="-+-+-+-+-">The dull and darkened stars retire</l>
+        <l n="22" real="+-x+-+-" met="+-+-+-+">Yielding to greater fire.</l>
+        <l n="23" real="x+--xxxx" met="-+-+-+-+">When Zephyrus his warmth doth bring,</l>
+        <l n="24" real="x+-xxx" met="-+-+-+">Sweet roses deck the spring;</l>
+        <l n="25" real="x+-+-x-+" met="-+-+-+-+">Let noisome Auster blow apace,</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">Plants soon will lose their grace.</l>
+        <l n="27" real="xxx+-+-x" met="-+-+-+-+">The sea hath often quiet stood</l>
+        <l n="28" real="xx-+x" met="-+-+-">With an unmoved flood,</l>
+        <l n="29" real="x+-x+x-xx" met="-+-+-+-+-">And often is turmoiled with waves,</l>
+        <l n="30" real="x+--+--x" met="-+-+-+-+">When boisterous Boreas raves.</l>
+        <l n="31" real="xxxx+-x+-" met="-+-+-+-+-">If thus the world never long tarry</l>
+        <l n="32" real="xxx+-+-" met="+-+-+-+">The same, but often vary,</l>
+        <l n="33" real="x+-+-x-+" met="-+-+-+-+">On fading fortunes then rely,</l>
+        <l n="34" real="xxxxxx" met="-+-+-+">Trust to those goods that fly.</l>
+        <l n="35" real="xx-+-xxx" met="-+-+-+-+">An everlasting law is made,</l>
+        <l n="36" real="xxxxxx" met="-+-+-+">That all things born shall fade.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-iv" n="L23706">
+      <head>Book II IV</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23706</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="aa--a-----b--b--------">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">Quisquis uolet perennem</l>
+        <l n="2" real="xxxxxx" met="-+-+-+">Cautus ponere sedem</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Stabilisque nec sonori</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">Sterni flatibus Euri</l>
+        <l n="5" real="xxxxxxx" met="+-+-+-+">Et fluctibus minantem</l>
+        <l n="6" real="+-xxxx" met="-+-+-+">Curat spernere pontum,</l>
+        <l n="7" real="+-xxxxx" met="+-+-+-+">Montis cacumen alti,</l>
+        <l n="8" real="xxxxxxxx" met="-+-+-+-+">Bibulas uitet harenas.</l>
+        <l n="9" real="xxxxx+-" met="+-+-+-+">Illud proteruus Auster</l>
+        <l n="10" real="+-xxxxx" met="+-+-+-+">Totis uiribus urget,</l>
+        <l n="11" real="x+--xx" met="-+-+-+">Hae pendulum solutae</l>
+        <l n="12" real="xxx-+-" met="-+-+-+">Pondus ferre recusant.</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">Fugiens periculosam</l>
+        <l n="14" real="xxxxxx" met="-+-+-+">Sortem sedis amoenae</l>
+        <l n="15" real="xxxxx-+-" met="-+-+-+-+">Humili domum memento</l>
+        <l n="16" real="xxxxxx" met="-+-+-+">Certus figere saxo.</l>
+        <l n="17" real="xxxxxx" met="-+-+-+">Quamuis tonet ruinis</l>
+        <l n="18" real="xxxxxxx" met="+-+-+-+">Miscens aequora uentus,</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">Tu conditus quieti</l>
+        <l n="20" real="+-xxxx" met="-+-+-+">Felix robore ualli</l>
+        <l n="21" real="+-xxxx" met="-+-+-+">Duces serenus aeuum</l>
+        <l n="22" real="+-xxx+-" met="+-+-+-+">Ridens aetheris iras.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccdd----eeffgghhii">
+        <l n="23" real="xxx+-x" met="-+-+-+">Who with an heedful care</l>
+        <l n="24" real="xx-+-x-+" met="-+-+-+-+">Will an eternal seat prepare,</l>
+        <l n="25" real="x+-xxx" met="-+-+-+">Which cannot be down cast</l>
+        <l n="26" real="xxx+-x" met="-+-+-+">By force of windy blast,</l>
+        <l n="27" real="xxxx-+" met="-+-+-+">And will the floods despise,</l>
+        <l n="28" real="x+-+-x-+" met="-+-+-+-+">When threatening billows do arise,</l>
+        <l n="29" real="xxxxxx" met="-+-+-+">He not on hills must stand,</l>
+        <l n="30" real="xxx+-+-x" met="-+-+-+-+">Nor on the dangerous sinking sand.</l>
+        <l n="31" real="xxxxxx" met="-+-+-+">For there the winds will threat,</l>
+        <l n="32" real="xxx+-+-x" met="-+-+-+-+">And him with furious tempests beat,</l>
+        <l n="33" real="xxxxxx" met="-+-+-+">And here the ground too weak</l>
+        <l n="34" real="xxx+-+-x" met="-+-+-+-+">Will with the heavy burden break.</l>
+        <l n="35" real="xxx+-x" met="-+-+-+">Fly then the dangerous case</l>
+        <l n="36" real="xx-+-+-x" met="-+-+-+-+">Of an untried delightful place,</l>
+        <l n="37" real="xxxx-+" met="-+-+-+">And thy poor house bestow</l>
+        <l n="38" real="x+-+-xxx" met="-+-+-+-+">In stony places firm and low.</l>
+        <l n="39" real="xxxxxx" met="-+-+-+">For though the winds do sound,</l>
+        <l n="40" real="xxx+-x-+" met="-+-+-+-+">And waves of troubled seas confound:</l>
+        <l n="41" real="xxxx-+" met="-+-+-+">Yet thou to rest disposed</l>
+        <l n="42" real="xxx+-xxx" met="-+-+-+-+">In thy safe lowly vale inclosed,</l>
+        <l n="43" real="xxx+-x" met="-+-+-+">Mayst live a quiet age,</l>
+        <l n="44" real="+-xx-+-x" met="-+-+-+-+">Scorning the air&#x27;s distempered rage.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-v" n="L23707">
+      <head>Book II V</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23707</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="----------a--a--a-b-cbc----ddd">
+        <l n="1" real="+-xx+-xx" met="-+-+-+-+">Felix nimium prior aetas</l>
+        <l n="2" real="xxxxxxxxx" met="-+-+-+-+-">Contenta fidelibus aruis</l>
+        <l n="3" real="xxxx-+-xx" met="-+-+-+-+-">Nec inerti perdita luxu,</l>
+        <l n="4" real="xxxx+-xxx" met="-+-+-+-+-">Facili quae sera solebat</l>
+        <l n="5" real="xxxxx" met="-+-+-">Ieiunia soluere glande.</l>
+        <l n="6" real="xxxxxxxxx" met="-+-+-+-+-">Non Bacchica munera norant</l>
+        <l n="7" real="xxxxxxx" met="+-+-+-+">Liquido confundere melle</l>
+        <l n="8" real="x-+-xxx+-" met="-+-+-+-+-">Nec lucida uellera Serum</l>
+        <l n="9" real="xxxxxxx" met="+-+-+-+">Tyrio miscere ueneno.</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Somnos dabat herba salubres,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">Potum quoque lubricus amnis,</l>
+        <l n="12" real="xxxxx+-" met="+-+-+-+">Vmbras altissima pinus.</l>
+        <l n="13" real="xx+-+-xxx" met="-+-+-+-+-">Nondum maris alta secabat</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Nec mercibus undique lectis</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Noua litora uiderat hospes.</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Tunc classica saeua tacebant,</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Odiis neque fusus acerbis</l>
+        <l n="18" real="+-xxxxxxxx" met="--+-+-+-+-">Cruor horrida tinxerat arua.</l>
+        <l n="19" real="xxx+-xxxxx" met="--+-+-+-+-">Quid enim furor hosticus ulla</l>
+        <l n="20" real="+-+-xxx" met="+-+-+-+">Vellet prior arma mouere,</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">Cum uulnera saeua uiderent</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">Nec praemia sanguinis ulla?</l>
+        <l n="23" real="xxxx+-xxx" met="-+-+-+-+-">Vtinam modo nostra redirent</l>
+        <l n="24" real="x+xxxx+-" met="-+-+-+-+">In mores tempora priscos!</l>
+        <l n="25" real="xxxxxx" met="-+-+-+">Sed saeuior ignibus Aetnae</l>
+        <l n="26" real="xx+-xxxxx" met="-+-+-+-+-">Feruens amor ardet habendi.</l>
+        <l n="27" real="x+-xxx" met="-+-+-+">Heu primus quis fuit ille</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">Auri qui pondera tecti</l>
+        <l n="29" real="xxxxxx" met="-+-+-+">Gemmasque latere uolentes</l>
+        <l n="30" real="xxxxxxxxx" met="-+-+-+-+-">Pretiosa pericula fodit?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abab-c-cdedef-f-ghgh-i-ijkjk">
+        <l n="31" real="xxx+-xxx" met="-+-+-+-+">Too much the former age was blest,</l>
+        <l n="32" real="xxxx+-xx" met="-+-+-+-+">When fields their pleaséd owners failéd not,</l>
+        <l n="33" real="xxx+-x+--" met="-+-+-+-+-">Who, with no slothful lust opprest,</l>
+        <l n="34" real="xxxxx+-xxx" met="--+-+-+-+-">Broke their long fasts with acorns eas&#x27;ly got.</l>
+        <l n="35" real="xxx+-xx" met="+-+-+-+">No wine with honey mixéd was,</l>
+        <l n="36" real="xxxxx+-+-x" met="--+-+-+-+-">Nor did they silk in purple colours steep;</l>
+        <l n="37" real="xxxxx+-x" met="-+-+-+-+">They slept upon the wholesome grass,</l>
+        <l n="38" real="xxxxxxx+-x" met="--+-+-+-+-">And their cool drink did fetch from rivers deep.</l>
+        <l n="39" real="xxxxxxxx" met="-+-+-+-+">The pines did hide them with their shade,</l>
+        <l n="40" real="x+-xx+-+-x" met="--+-+-+-+-">No merchants through the dangerous billows went,</l>
+        <l n="41" real="xx-+-x+-x" met="-+-+-+-+-">Nor with desire of gainful trade</l>
+        <l n="42" real="x+-xx+-+-x" met="--+-+-+-+-">Their traffic into foreign countries sent.</l>
+        <l n="43" real="xxx+-x-+" met="-+-+-+-+">Then no shrill trumpets did amate</l>
+        <l n="44" real="xxx+-xx+-x" met="--+-+-+-+-">The minds of soldiers with their daunting sounds,</l>
+        <l n="45" real="x+-xx+-x" met="-+-+-+-+">Nor weapons were with deadly hate</l>
+        <l n="46" real="xxx+-xx+-x" met="--+-+-+-+-">Dyed with the dreadful blood of gaping wounds.</l>
+        <l n="47" real="xxx+-+-x" met="-+-+-+-+">For how could any fury draw</l>
+        <l n="48" real="xxxxxxxxxx" met="--+-+-+-+-">The mind of man to stir up war in vain,</l>
+        <l n="49" real="x+-xxxxx" met="-+-+-+-+">When nothing but fierce wounds he saw,</l>
+        <l n="50" real="xxxxx+-xxx" met="--+-+-+-+-">And for his blood no recompense should gain?</l>
+        <l n="51" real="xxx+-+-x" met="-+-+-+-+">O that the ancient manners would</l>
+        <l n="52" real="xx++-+-x-+" met="--+-+-+-+-">In these our latter hapless times return!</l>
+        <l n="53" real="xx-+-x+-x" met="-+-+-+-+-">Now the desire of having gold</l>
+        <l n="54" real="xxx+-+x+-x" met="--+-+-+-+-">Doth like the flaming fires of Aetna burn.</l>
+        <l n="55" real="xxxxxxxx" met="-+-+-+-+">Ah, who was he that first did show</l>
+        <l n="56" real="xxx+-xxxxx" met="--+-+-+-+-">The heaps of treasure which the earth did hide,</l>
+        <l n="57" real="x+-xxxxx" met="-+-+-+-+">And jewels which lay close below,</l>
+        <l n="58" real="xxx+-+-x-+" met="--+-+-+-+-">By which he costly dangers did provide?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-vi" n="L23708">
+      <head>Book II VI</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23708</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="--------a---aa---">
+        <l n="1" real="xxxxxxxxx" met="+-+-+-+-+">Nouimus quantas dederit ruinas</l>
+        <l n="2" real="xxxxxxxxx" met="+-+-+-+-+">Vrbe flammata patribusque caesis</l>
+        <l n="3" real="+-x+-xxxxxx" met="-+-+-+-+-+-">Fratre qui quondam ferus interempto</l>
+        <l n="4" real="xxxxxxxx" met="-+-+-+-+">Matris effuso maduit cruore</l>
+        <l n="5" real="+-xxxxxxxxx" met="-+-+-+-+-+-">Corpus et uisu gelidum pererrans</l>
+        <l n="6" real="+-xxxxxxxx" met="-+-+-+-+-+">Ora non tinxit lacrimis, sed esse</l>
+        <l n="7" real="+-xxxxxxxx" met="-+-+-+-+-+">Censor extincti potuit decoris.</l>
+        <l n="8" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Hic tamen sceptro populos regebat</l>
+        <l n="9" real="xxxxx+-xxxx" met="-+-+-+-+-+-">Quos uidet condens radios sub undas</l>
+        <l n="10" real="+-xxxxxxxx" met="-+-+-+-+-+">Phoebus extremo ueniens ab ortu,</l>
+        <l n="11" real="xxxxxxxxx" met="+-+-+-+-+">Quos premunt septem gelidi triones,</l>
+        <l n="12" real="x+-xxxxxxx" met="-+-+-+-+-+">Quos Notus sicco uiolentus aestu</l>
+        <l n="13" real="xx+-xxxxxx" met="-+-+-+-+-+">Torret ardentes recoquens harenas.</l>
+        <l n="14" real="xxx+-xxxxx" met="-+-+-+-+-+">Celsa num tandem ualuit potestas</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Vertere praui rabiem Neronis?</l>
+        <l n="16" real="xxxxxxxxx" met="+-+-+-+-+">Heu grauem sortem, quotiens iniquus</l>
+        <l n="17" real="xxxx+--xxx" met="-+-+-+-+-+">Additur saeuo gladius ueneno!&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgghh">
+        <l n="18" real="xxxxxx" met="-+-+-+">We know what stirs he made</l>
+        <l n="19" real="xxx+-xxxx+-+" met="--+-+-+-+-+-">Who did the Senate slay and Rome with fire invade,</l>
+        <l n="20" real="xxx+-x" met="-+-+-+">Who did his brother kill,</l>
+        <l n="21" real="xxx+-xx+-xxx" met="--+-+-+-+-+-">And with his mother&#x27;s blood his moistened hand did fill;</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">Who looked on that cold face</l>
+        <l n="23" real="+-x+-xx+-+-x" met="--+-+-+-+-+-">Tearless, and nicely marked her members&#x27; several grace.</l>
+        <l n="24" real="xxx+--+" met="-+-+-+-">Yet his dread power controlled</l>
+        <l n="25" real="x+-xxxxxxx-+" met="--+-+-+-+-+-">Those people whom the sun doth in the east behold,</l>
+        <l n="26" real="xxxx-+" met="-+-+-+">And those who do remain</l>
+        <l n="27" real="x+-xxxxxxx" met="-+-+-+-+-+">In western lands or dwell under Boötes&#x27; wain</l>
+        <l n="28" real="xxxxxx" met="-+-+-+">And those whose skins are tanned</l>
+        <l n="29" real="x+-xxxxxxxx" met="-+-+-+-+-+-">With southern winds, which roast and burn the parched sand.</l>
+        <l n="30" real="xxx+--x" met="-+-+-+-">What? Could this glorious might</l>
+        <l n="31" real="-+x+-xx+-+-x" met="--+-+-+-+-+-">Restrain the furious rage of wicked Nero&#x27;s spite?</l>
+        <l n="32" real="xx+xxx" met="-+-+-+">But oh! mishap most bad,</l>
+        <l n="33" real="xxx+-xx++-x" met="-+-+-+-+-+-">Which doth the wicked sword to cruel poison add!&quot;</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="34" real="+-xxx" met="-+-+-">Nero 24; Tac. Ann. xiv. 9.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-vii" n="L23709">
+      <head>Book II VII</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23709</idno>
+      <lg type="stanza" n="1" rhyme="-a-bbc-----a----dd-----c--">
+        <l n="1" real="xxxxxxxxx+-">Quicumque solam mente praecipiti petit</l>
+        <l n="2" real="xx+-xx">Summumque credit gloriam,</l>
+        <l n="3" real="x+-xxxxxxx">Late patentes aetheris cernat plagas</l>
+        <l n="4" real="xxxxxxx">Artumque terrarum situm.</l>
+        <l n="5" real="xxxxxxxxxx">Breuem replere non ualentis ambitum</l>
+        <l n="6" real="xxxxxxxx">Pudebit aucti nominis.</l>
+        <l n="7" real="xxxxx+-xxxxx">Quid o superbi colla mortali iugo</l>
+        <l n="8" real="xxxxx">Frustra leuare gestiunt?</l>
+        <l n="9" real="xxxxx+-xxxxx">Licet remotos fama per populos means</l>
+        <l n="10" real="xxx+-xxx">Diffusa linguas explicet</l>
+        <l n="11" real="x+-xxxxx+-xx">Et magna titulis fulgeat claris domus,</l>
+        <l n="12" real="xxxxxxx">Mors spernit altam gloriam,</l>
+        <l n="13" real="xxxxxxxxxxxx-+">Inuoluit humile pariter et celsum caput</l>
+        <l n="14" real="xxxxxxx">Aequatque summis infima.</l>
+        <l n="15" real="xxxxx+-xxxxx">Vbi nunc fidelis ossa Fabricii manent,</l>
+        <l n="16" real="x+-xxxx+-">Quid Brutus aut rigidus Cato?</l>
+        <l n="17" real="xxxx+-+--xxx">Signat superstes fama tenuis pauculis</l>
+        <l n="18" real="-+xxxxx">Inane nomen litteris.</l>
+        <l n="19" real="xxxxxxxxxxx">Sed quod decora nouimus uocabula,</l>
+        <l n="20" real="xxxxxxx">Num scire consumptos datur?</l>
+        <l n="21" real="xxx+-xxxxxx">Iacetis ergo prorsus ignorabiles</l>
+        <l n="22" real="x+-+-xxx">Nec fama notos efficit.</l>
+        <l n="23" real="xxxxxxxxxxx">Quod si putatis longius uitam trahi</l>
+        <l n="24" real="xxx+-xxx">Mortalis aura nominis,</l>
+        <l n="25" real="x+-xxxxxxxx">Cum sera uobis rapiet hoc etiam dies,</l>
+        <l n="26" real="xx-+-x-+">Iam uos secunda mors manet.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccdd--eeffgghhii--jjbb">
+        <l n="27" real="xxx+-+-xxx">He that to honour only seeks to mount</l>
+        <l n="28" real="xxx+-xxx">And that his chiefest end doth count,</l>
+        <l n="29" real="xx-+x+-xxx">Let him behold the largeness of the skies</l>
+        <l n="30" real="xxxxxxxx">And on the strait earth cast his eyes;</l>
+        <l n="31" real="xx-+x+-xxx">He will despise the glory of his name,</l>
+        <l n="32" real="x+-xxxxx">Which cannot fill so small a frame.</l>
+        <l n="33" real="xxxxxxxxxx">Why do proud men scorn that their necks should bear</l>
+        <l n="34" real="xxx+--xxx">That yoke which every man must wear?</l>
+        <l n="35" real="xxx+-+-x-+">Though fame through many nations fly along</l>
+        <l n="36" real="xxxxx+--x">And should be blazed by every tongue,</l>
+        <l n="37" real="x+-xx++x-+-">And houses shine with our forefathers&#x27; stories,</l>
+        <l n="38" real="xxxxx+-+-">Yet Death contemns these stately glories,</l>
+        <l n="39" real="x+--xxxxxx">And, summoning both rich and poor to die,</l>
+        <l n="40" real="xxx+-xxx">Makes the low equal with the high.</l>
+        <l n="41" real="xxx+-xxxxx">Who knows where faithful Fabrice&#x27; bones are pressed,</l>
+        <l n="42" real="x+-xx+-x">Where Brutus and strict Cato rest?</l>
+        <l n="43" real="x+-x-+x+-x">A slender fame consigns their titles vain</l>
+        <l n="44" real="xxx+-x-+">In some few letters to remain.</l>
+        <l n="45" real="xxx+-xxxxx">Because their famous names in books we read,</l>
+        <l n="46" real="xxxxxxxx">Come we by them to know the dead?</l>
+        <l n="47" real="x+-x-+-xxx">You dying, then, remembered are by none,</l>
+        <l n="48" real="x+-xxxxx">Nor any fame can make you known.</l>
+        <l n="49" real="xxxxxx-+-x">But if you think that life outstrippeth death,</l>
+        <l n="50" real="xxxxx+-x">Your names borne up with mortal breath,</l>
+        <l n="51" real="xxxxxx-++x">When length of time takes this away likewise,</l>
+        <l n="52" real="x+-xxx-+">A second death shall you surprise.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="53" real="xxxxxxx+-xx-+-xxx">Caius Luscinus Fabricius, Consul 282 B.C., opponent of Pyrrhus;</l>
+        <l n="54" real="+-xx+-+-xx+xx-+-+-">Lucius Iunius Brutus, Consul 509 B.C., founder of the Republic; Marcus</l>
+        <l n="55" real="xx+-+-x+-xxx+x-xx">Porcius Cato (Cato maior). Consul 195 B.C., great-grandfather of M.</l>
+        <l n="56" real="xx+-xxxx">Porcius Cato (Uticensis).</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-ii-viii" n="L23710">
+      <head>Book II VIII</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:2</idno><idno type="laurel-id">L23710</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="a------b------cb-ba-----d-d-c-">
+        <l n="1" real="xxxxxxx" met="+-+-+-+">Quod mundus stabili fide</l>
+        <l n="2" real="+xxxxx" met="-+-+-+">Concordes uariat uices,</l>
+        <l n="3" real="xxxxxxx" met="+-+-+-+">Quod pugnantia semina</l>
+        <l n="4" real="xxxxx+-" met="+-+-+-+">Foedus perpetuum tenent,</l>
+        <l n="5" real="x+-xxx" met="-+-+-+">Quod Phoebus roseum diem</l>
+        <l n="6" real="xxxxxx" met="-+-+-+">Curru prouehit aureo,</l>
+        <l n="7" real="xxxxxxxx" met="-+-+-+-+">Vt quas duxerit Hesperos</l>
+        <l n="8" real="+-xxxxxx" met="-+-+-+-+">Phoebe noctibus imperet,</l>
+        <l n="9" real="xxxxxx" met="-+-+-+">Vt fluctus auidum mare</l>
+        <l n="10" real="+-xxx" met="-+-+-">Certo fine coerceat,</l>
+        <l n="11" real="x+-xxxx" met="+-+-+-+">Ne terris liceat uagis</l>
+        <l n="12" real="+-xxxxx" met="+-+-+-+">Latos tendere terminos,</l>
+        <l n="13" real="xxxxxxx" met="+-+-+-+">Hanc rerum seriem ligat</l>
+        <l n="14" real="+-++xxx+-" met="-+-+-+-+-">Terras ac pelagus regens</l>
+        <l n="15" real="xxxxxxx+-" met="-+-+-+-+-">Et caelo imperitans amor.</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Hic si frena remiserit,</l>
+        <l n="17" real="xxxxxxxx" met="-+-+-+-+">Quidquid nunc amat inuicem</l>
+        <l n="18" real="+--+--xx" met="-+-+-+-+">Bellum continuo geret</l>
+        <l n="19" real="xxx+-x" met="-+-+-+">Et quam nunc socia fide</l>
+        <l n="20" real="xxxxx-+-" met="-+-+-+-+">Pulchris motibus incitant,</l>
+        <l n="21" real="xxxxxxx" met="+-+-+-+">Certent soluere machinam.</l>
+        <l n="22" real="xxxxxxx" met="+-+-+-+">Hic sancto populos quoque</l>
+        <l n="23" real="xxxxxxx" met="+-+-+-+">Iunctos foedere continet,</l>
+        <l n="24" real="xxxxxxx" met="+-+-+-+">Hic et coniugii sacrum</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">Castis nectit amoribus,</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">Hic fidis etiam sua</l>
+        <l n="27" real="xxxxxxxx" met="-+-+-+-+">Dictat iura sodalibus.</l>
+        <l n="28" real="x+-xxx+-" met="-+-+-+-+">O felix hominum genus,</l>
+        <l n="29" real="xxxxxx+-" met="-+-+-+-+">Si uestros animos amor</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Quo caelum regitur regat.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababc-c--d--d">
+        <l n="31" real="xxxxx+-xx+-xx+-" met="-+-+-+-+-+-+-+-">That this fair world in settled course her several forms should vary,</l>
+        <l n="32" real="xx-+-xxxx+-xxx" met="-+-+-+-+-+-+-+">That a perpetual law should tame the fighting seeds of things,</l>
+        <l n="33" real="x+-xx+-xxxx+-+-" met="-+-+-+-+-+-+-+-">That Phoebus should the rosy day in his bright chariot carry,</l>
+        <l n="34" real="x+-x+-xxx+--xx" met="-+-+-+-+-+-+-+">That Phoebe should govern the nights which Hesperus forth brings,</l>
+        <l n="35" real="xxxxx+-xx+-x-+" met="-+-+-+-+-+-+-+">That to the floods of greedy seas are certain bounds assigned,</l>
+        <l n="36" real="xxxxx+xxxxxx-+" met="-+-+-+-+-+-+-+">Which them, lest they usurp too much upon the earth, debar,</l>
+        <l n="37" real="x+-+xxxxxxxxxx" met="-+-+-+-+-+-+-+">Love ruling heaven, and earth, and seas, them in this course doth bind.</l>
+        <l n="38" real="xxxxxxxxx+-xxx" met="-+-+-+-+-+-+-+">And if it once let loose their reins, their friendship turns to war,</l>
+        <l n="39" real="+-xxx+-xx++-x" met="-+-+-+-+-+-+-">Tearing the world whose ordered form their quiet motions bear.</l>
+        <l n="40" real="xxx+-xxxx+-xxx" met="-+-+-+-+-+-+-+">By it all holy laws are made and marriage rites are tied,</l>
+        <l n="41" real="xxx+-+-xx+-+-x" met="-+-+-+-+-+-+-+">By it is faithful friendship joined. How happy mortals were,</l>
+        <l n="42" real="xxxxxxxxx+-x" met="-+-+-+-+-+-+">If that pure love did guide their minds, which heavenly spheres</l>
+        <l n="43" real="xx" met="-+">doth guide!&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-i" n="L23711">
+      <head>Book III I</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23711</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="--a--a-------">
+        <l n="1" real="xxxxxxxxxx" met="--+-+-+-+-">Qui serere ingenuum uolet agrum,</l>
+        <l n="2" real="xxxxxxxxxx" met="--+-+-+-+-">Liberat arua prius fruticibus,</l>
+        <l n="3" real="xxxxxxxxx" met="-+-+-+-+-">Falce rubos filicemque resecat,</l>
+        <l n="4" real="xxxx+-x" met="+-+-+-+">Vt noua fruge grauis Ceres eat.</l>
+        <l n="5" real="xx-+xxx+-" met="-+-+-+-+-">Dulcior est apium mage labor,</l>
+        <l n="6" real="xxx+-x+-xx" met="--+-+-+-+-">Si malus ora prius sapor edat.</l>
+        <l n="7" real="xx+-xxxx+-" met="--+-+-+-+-">Gratius astra nitent ubi Notus</l>
+        <l n="8" real="xxxxxxxxxx" met="--+-+-+-+-">Desinit imbriferos dare sonos.</l>
+        <l n="9" real="+-xxxxxxxx" met="--+-+-+-+-">Lucifer ut tenebras pepulerit</l>
+        <l n="10" real="xxxxxxxxx" met="-+-+-+-+-">Pulchra dies roseos agit equos.</l>
+        <l n="11" real="xxxxx+-x" met="-+-+-+-+">Tu quoque falsa tuens bona prius</l>
+        <l n="12" real="xx+-xxxxx" met="-+-+-+-+-">Incipe colla iugo retrahere.</l>
+        <l n="13" real="+-xxxxxxxx" met="--+-+-+-+-">Vera dehinc animum subierint.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcb-dcddee">
+        <l n="14" real="xxx+-xxx" met="-+-+-+-+">He that a fruitful field will sow,</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">Doth first the ground from bushes free,</l>
+        <l n="16" real="xxx+-+xx" met="-+-+-+-+">All fern and briars likewise mow,</l>
+        <l n="17" real="xxx+-xxx" met="-+-+-+-+">That he his harvest great may see.</l>
+        <l n="18" real="+-x+-x+x" met="-+-+-+-+">Honey seems sweeter to our taste,</l>
+        <l n="19" real="xxx+-xxx" met="-+-+-+-+">If cloyed with noisome food it be.</l>
+        <l n="20" real="x+-xx+-x" met="-+-+-+-+">Stars clearer shine when Notus&#x27; blast</l>
+        <l n="21" real="xxx+-xxx" met="-+-+-+-+">Hath ceased the rainy storms to breed.</l>
+        <l n="22" real="x+--xx-+" met="-+-+-+-+">When Lucifer hath night defaced,</l>
+        <l n="23" real="xxx+-x-+" met="-+-+-+-+">The day&#x27;s bright horses then succeed.</l>
+        <l n="24" real="xxx+-xxx" met="-+-+-+-+">So thou, whom seeming goods do feed,</l>
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">First shake off yokes which so thee press</l>
+        <l n="26" real="xxxxxx-+" met="-+-+-+-+">That Truth may then thy mind possess.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-ii" n="L23712">
+      <head>Book III II</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23712</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="---aa-------------------b---b--ccc----">
+        <l n="1" real="xxxxxxxxx" met="+-+-+-+-+">Quantas rerum flectat habenas</l>
+        <l n="2" real="xxx+-xxxxx" met="-+-+-+-+-+">Natura potens, quibus inmensum</l>
+        <l n="3" real="xxxxxxxxx" met="+-+-+-+-+">Legibus orbem prouida seruet</l>
+        <l n="4" real="xxxxxxxxx" met="+-+-+-+-+">Stringatque ligans inresoluto</l>
+        <l n="5" real="xxxxx+-xxx" met="-+-+-+-+-+">Singula nexu, placet arguto</l>
+        <l n="6" real="xxxxxxx+-" met="+-+-+-+-+">Fidibus lentis promere cantu.</l>
+        <l n="7" real="xxxxxx-+" met="-+-+-+-+">Quamuis Poeni pulchra leones</l>
+        <l n="8" real="xxxxxxxx+-" met="-+-+-+-+-+">Vincula gestent manibusque datas</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Captent escas metuantque trucem</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Soliti uerbera ferre magistrum,</l>
+        <l n="11" real="x+-xxxxxx+-" met="-+-+-+-+-+-">Si cruor horrida tinxerit ora,</l>
+        <l n="12" real="-+xxxxxxx" met="+-+-+-+-+">Resides olim redeunt animi</l>
+        <l n="13" real="xxxxxxx+-" met="+-+-+-+-+">Fremituque graui meminere sui;</l>
+        <l n="14" real="xxxx+-xxx" met="+-+-+-+-+">Laxant nodis colla solutis</l>
+        <l n="15" real="xx+-xxx" met="-+-+-+-">Primusque lacer dente cruento</l>
+        <l n="16" real="xxxxxxxx+-" met="-+-+-+-+-+">Domitor rabidas imbuit iras.</l>
+        <l n="17" real="xxxxxxxx+-" met="-+-+-+-+-+">Quae canit altis garrula ramis</l>
+        <l n="18" real="xxxxxxx" met="-+-+-+-">Ales caueae clauditur antro;</l>
+        <l n="19" real="xxxxxxxxxx" met="-+-+-+-+-+">Huic licet inlita pocula melle</l>
+        <l n="20" real="xxxxx+-x" met="-+-+-+-+">Largasque dapes dulci studio</l>
+        <l n="21" real="xxxxxxxxxx" met="-+-+-+-+-+">Ludens hominum cura ministret,</l>
+        <l n="22" real="xxxxxxxxx" met="+-+-+-+-+">Si tamen arto saliens texto</l>
+        <l n="23" real="xxx+-xxx+-" met="-+-+-+-+-+">Nemorum gratas uiderit umbras,</l>
+        <l n="24" real="xxxxxxxxxx" met="-+-+-+-+-+">Sparsas pedibus proterit escas,</l>
+        <l n="25" real="xxxxxxxxx" met="+-+-+-+-+">Siluas tantum maesta requirit,</l>
+        <l n="26" real="xxxxxxxx" met="-+-+-+-+">Siluas dulci uoce susurrat.</l>
+        <l n="27" real="xxx+-xxxxx" met="-+-+-+-+-+">Validis quondam uiribus acta</l>
+        <l n="28" real="xxxxxxxxx" met="+-+-+-+-+">Pronum flectit uirga cacumen;</l>
+        <l n="29" real="xxxx+-xxx" met="+-+-+-+-+">Hanc si curuans dextra remisit,</l>
+        <l n="30" real="+-xxxxxx" met="-+-+-+-+">Recto spectat uertice caelum.</l>
+        <l n="31" real="xxxxx+-xxx" met="-+-+-+-+-+">Cadit Hesperias Phoebus in undas,</l>
+        <l n="32" real="xxxxxxxx" met="-+-+-+-+">Sed secreto tramite rursus</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">Currum solitos uertit ad ortus.</l>
+        <l n="34" real="xxxxxxxxx" met="+-+-+-+-+">Repetunt proprios quaeque recursus</l>
+        <l n="35" real="xxxxxxxxx" met="+-+-+-+-+">Redituque suo singula gaudent</l>
+        <l n="36" real="x-+xxxxxxx" met="-+-+-+-+-+">Nec manet ulli traditus ordo</l>
+        <l n="37" real="+-x+-xxxxx" met="-+-+-+-+-+">Nisi quod fini iunxerit ortum</l>
+        <l n="38" real="xxx+-xxxxx" met="-+-+-+-+-+">Stabilemque sui fecerit orbem.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="---ababcbcdc-edefefgfghghihiji-kjklklmlm">
+        <l n="39" real="xxxxxxx+-x" met="-+-+-+-+-+">How the first reins of all things guided are</l>
+        <l n="40" real="x+-+-xx+-x" met="-+-+-+-+-+">By powerful Nature as the chiefest cause,</l>
+        <l n="41" real="xxxxxx-+-x" met="-+-+-+-+-+">And how she keeps, with a foreseeing care,</l>
+        <l n="42" real="x+-xx+-xxx" met="-+-+-+-+-+">The spacious world in order by her laws,</l>
+        <l n="43" real="xxxxx+-x-+" met="-+-+-+-+-+">And to sure knots which nothing can untie,</l>
+        <l n="44" real="xxxxx+-+-x" met="-+-+-+-+-+">By her strong hand all earthly motions draws--</l>
+        <l n="45" real="xxxxx+-xxx" met="-+-+-+-+-+">To show all this we purpose now to try</l>
+        <l n="46" real="++-x++-+-x" met="-+-+-+-+-+">Our pliant string, our musick&#x27;s thrilling sound.</l>
+        <l n="47" real="xxx+-+-+-x" met="-+-+-+-+-+">Although the Libyan lions often lie</l>
+        <l n="48" real="+-xxx+-+-x" met="-+-+-+-+-+">Gentle and tame in splendid fetters bound,</l>
+        <l n="49" real="x+-x+x-+-x" met="-+-+-+-+-+">And fearing their incensed master&#x27;s wrath,</l>
+        <l n="50" real="x+-x-+xxxx" met="-+-+-+-+-+">With patient looks endure each blow and wound,</l>
+        <l n="51" real="xxxxxxxxxx" met="-+-+-+-+-+">Yet if their jaws they once in blood do bathe,</l>
+        <l n="52" real="x+-+-xxx-+" met="-+-+-+-+-+">They, gaining courage, with fierce noise awake</l>
+        <l n="53" real="xxx+-xx+-x" met="-+-+-+-+-+">The force which Nature in them seated hath,</l>
+        <l n="54" real="xxxxx+-xxx" met="-+-+-+-+-+">And from their necks the broken chains do shake;</l>
+        <l n="55" real="xxxxxxxxxx" met="-+-+-+-+-+">Then he that tamed them first doth feel their rage,</l>
+        <l n="56" real="xxx+-xx+-x" met="-+-+-+-+-+">And torn in pieces doth their fury slake.</l>
+        <l n="57" real="xxxxxxxxxx" met="-+-+-+-+-+">The bird shut up in an unpleasing cage,</l>
+        <l n="58" real="xxx+-xx+-x" met="-+-+-+-+-+">Which on the lofty trees did lately sing,</l>
+        <l n="59" real="xxxxx+-x-+" met="-+-+-+-+-+">Though men, her want of freedom to assuage,</l>
+        <l n="60" real="xxxxx+-+xx" met="-+-+-+-+-+">Should unto her with careful labour bring</l>
+        <l n="61" real="x+-xxxxx-+" met="-+-+-+-+-+">The sweetest meats which they can best devise,</l>
+        <l n="62" real="xxxxx+-+--" met="-+-+-+-+-+">Yet when within her prison fluttering</l>
+        <l n="63" real="x+-+xxxxxx" met="-+-+-+-+-+">The pleasing shadows of the groves she spies,</l>
+        <l n="64" real="x+-xx+-xxx" met="-+-+-+-+-+">Her hated food she scatters with her feet,</l>
+        <l n="65" real="x+-+-xxxxx" met="-+-+-+-+-+">In yearning spirit to the woods she flies,</l>
+        <l n="66" real="xx-+xxx+-x" met="-+-+-+-+-+">The woods&#x27; delights do tune her accents sweet.</l>
+        <l n="67" real="xxxxx+-x-+" met="-+-+-+-+-+">When some strong hand doth tender plant constrain</l>
+        <l n="68" real="xx-+-xxxxx" met="-+-+-+-+-+">With his debased top the ground to meet,</l>
+        <l n="69" real="xxxxx+-x-+" met="-+-+-+-+-+">If it let go, the crooked twig again</l>
+        <l n="70" real="xxx+-+xxxx" met="-+-+-+-+-+">Up toward Heaven itself it straight doth raise.</l>
+        <l n="71" real="+-xxxxx+-x" met="-+-+-+-+-+">Phoebus doth fall into the western main,</l>
+        <l n="72" real="xxxx-+x+-x" met="-+-+-+-+-+">Yet doth he back return by secret ways,</l>
+        <l n="73" real="xxxxxxx+-x" met="-+-+-+-+-+">And to the earth doth guide his chariot&#x27;s race.</l>
+        <l n="74" real="xxx+-xxx-+" met="-+-+-+-+-+">Each thing a certain course and laws obeys,</l>
+        <l n="75" real="+-xxxxx+-x" met="-+-+-+-+-+">Striving to turn back to his proper place;</l>
+        <l n="76" real="x+-+-+-xxx" met="-+-+-+-+-+">Nor any settled order can be found,</l>
+        <l n="77" real="xxxxxx-+-+" met="-+-+-+-+-+">But that which doth within itself embrace</l>
+        <l n="78" real="xxxxxxxxxx" met="-+-+-+-+-+">The births and ends of all things in a round.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-iv" n="L23713">
+      <head>Book III IV</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23713</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-a---a">
+        <l n="1" real="xxxxxxxx" met="-+-+-+-+">Quamuis fluente diues auri gurgite</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Non expleturas cogat auarus opes</l>
+        <l n="3" real="xxxxx+-xxxxx" met="--+-+-+-+-+-">Oneretque bacis colla rubri litoris</l>
+        <l n="4" real="xx-+-xxxxxx" met="-+-+-+-+-+-">Ruraque centeno scindat opima boue,</l>
+        <l n="5" real="xxxxxx-+xxxx" met="--+-+-+-+-+-">Nec cura mordax deseret superstitem,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Defunctumque leues non comitantur opes.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcc">
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Although the rich man from his mines of gold</l>
+        <l n="8" real="x+-xxxx+-x" met="-+-+-+-+-+">Dig treasure which his mind can never fill,</l>
+        <l n="9" real="x+-xx+-x-+" met="-+-+-+-+-+">And lofty neck with precious pearls enfold,</l>
+        <l n="10" real="xxxxx+-+-x" met="-+-+-+-+-+">And his fat fields with many oxen till,</l>
+        <l n="11" real="x+-xx+-xxx" met="-+-+-+-+-+">Yet biting cares will never leave his head,</l>
+        <l n="12" real="xxxx-+x+-x" met="-+-+-+-+-+">Nor will his wealth attend him being dead.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-aa---">
+        <l n="13" real="xxx+xxxxxxx" met="-+-+-+-+-+-">Quamuis se Tyrio superbus ostro</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Comeret et niueis lapillis,</l>
+        <l n="15" real="xxxxx+-xxx" met="-+-+-+-+-+">Inuisus tamen omnibus uigebat</l>
+        <l n="16" real="xx+-xx" met="-+-+-+">Luxuriae Nero saeuientis.</l>
+        <l n="17" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Sed quondam dabat improbus uerendis</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">Patribus indecores curules.</l>
+        <l n="19" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Quis illos igitur putet beatos</l>
+        <l n="20" real="xxxxxx+-" met="-+-+-+-+">Quos miseri tribuunt honores?</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababbcc">
+        <l n="21" real="xxx+-+-x-+" met="-+-+-+-+-+">Though fierce and lustful Nero did adorn</l>
+        <l n="22" real="-+x+-xxxxx" met="-+-+-+-+-+">Himself with purple robes, which pearls did grace,</l>
+        <l n="23" real="xxxxx+-xxx" met="-+-+-+-+-+">He did but gain a general hate and scorn.</l>
+        <l n="24" real="x+--x+--xx" met="-+-+-+-+-+">Yet wickedly he officers most base</l>
+        <l n="25" real="xx+--+--xx" met="-+-+-+-+-+">Over the reverend Senators did place.</l>
+        <l n="26" real="xx-+x+-+-x" met="-+-+-+-+-+">Who would esteem of fading honours then</l>
+        <l n="27" real="xxx+xxx+-x" met="-+-+-+-+-+">Which may be given thus by the wickedest men?</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-v" n="L23714">
+      <head>Book III V</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23714</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-------aa-">
+        <l n="1" real="xx+xxxxxx" met="-+-+-+-+-">Qui se uolet esse potentem</l>
+        <l n="2" real="xxxxxxxxx" met="-+-+-+-+-">Animos domet ille feroces</l>
+        <l n="3" real="xxxxxx+-" met="--+-+-+-">Nec uicta libidine colla</l>
+        <l n="4" real="xxxxxxxx" met="--+-+-+-">Foedis submittat habenis.</l>
+        <l n="5" real="xxxxx+--x" met="-+-+-+-+-">Etenim licet Indica longe</l>
+        <l n="6" real="xxxxxxxx" met="--+-+-+-">Tellus tua iura tremescat</l>
+        <l n="7" real="xxx+--xx" met="--+-+-+-">Et seruiat ultima Thyle,</l>
+        <l n="8" real="xx+-xxxx" met="--+-+-+-">Tamen atras pellere curas</l>
+        <l n="9" real="xxxxxxxx" met="--+-+-+-">Miserasque fugare querelas</l>
+        <l n="10" real="x+-xxxx-+" met="-+-+-+-+-">Non posse potentia non est.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcbcdcd--">
+        <l n="11" real="xxx+--x" met="-+-+-+-">Who would be powerful, must</l>
+        <l n="12" real="xx-+-x" met="-+-+-+">His own affections check,</l>
+        <l n="13" real="xxxxxx" met="-+-+-+">Nor let foul reins of lust</l>
+        <l n="14" real="-+x+-x" met="-+-+-+">Subdue his conquered neck.</l>
+        <l n="15" real="xxx+--x" met="-+-+-+-">For though the Indian land</l>
+        <l n="16" real="x+-xxx" met="-+-+-+">Should tremble at thy beck,</l>
+        <l n="17" real="xxxx-+" met="-+-+-+">And though thy dread command</l>
+        <l n="18" real="xxx-+" met="+-+-+">Far Thule&#x27;s isle obey,</l>
+        <l n="19" real="xxxx-+" met="-+-+-+">Unless thou canst withstand</l>
+        <l n="20" real="x+-x-+" met="-+-+-+">And boldly drive away</l>
+        <l n="21" real="xxx+-x" met="-+-+-+">Black care and wretched moan,</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">Thy might is small or none.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-vii" n="L23715">
+      <head>Book III VII</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23715</idno>
+      <lg type="stanza" n="1" rhyme="-a-----a-">
+        <l n="1" real="xxxx+-x+-xxxxxxxx">Omne hominum genus in terris simili surgit ab ortu.</l>
+        <l n="2" real="xxxxx+--+xxxxxxx">Vnus enim rerum pater est, unus cuncta ministrat.</l>
+        <l n="3" real="xxxxx+-xxxxxxx">Ille dedit Phoebo radios dedit et cornua lunae,</l>
+        <l n="4" real="xxxxx+-xxxxxxxx">Ille homines etiam terris dedit ut sidera caelo,</l>
+        <l n="5" real="xxxxxxxxxxx-+-">Hic clausit membris animos celsa sede petitos.</l>
+        <l n="6" real="+-xxxxx+-+-+-">Mortales igitur cunctos edit nobile germen.</l>
+        <l n="7" real="x+-xxxxxxxxxxx">Quid genus et proauos strepitis? Si primordia uestra</l>
+        <l n="8" real="xxxxxxx+-xx">Auctoremque deum spectes, nullus degener exstat,</l>
+        <l n="9" real="xxxxxxxxxxxxx">Ni uitiis peiora fouens proprium deserat ortum.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaabbbccc">
+        <l n="10" real="x+-xxxxxxxxx">The general race of men from a like birth is born.</l>
+        <l n="11" real="xxx+-xxxxx-+">All things one Father have, Who doth them all adorn,</l>
+        <l n="12" real="xxxxxxxxxxxx">Who gave the sun his rays, and the pale moon her horn,</l>
+        <l n="13" real="x+-+xxxxx+-x">The lofty heaven for stars, low earth for mortals chose;</l>
+        <l n="14" real="xxxxxxx+-x-+">He souls fetched down from high in bodies did enclose;</l>
+        <l n="15" real="xxx+-xxxxx-+">And thus from noble seed all men did first compose.</l>
+        <l n="16" real="xxxxxxxxx+-x">Why brag you of your stock? Since none is counted base,</l>
+        <l n="17" real="xx-+-xx+-xxx">If you consider God the author of your race,</l>
+        <l n="18" real="xxxxxxxxxx-+">But he that with foul vice doth his own birth deface.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="19" real="xxxxxx+-">Habet hoc uoluptas omnis,</l>
+        <l n="20" real="+-xxxx">Stimulis agit fruentes</l>
+        <l n="21" real="xxxxxx">Apiumque par uolantum</l>
+        <l n="22" real="x+-+-xx">Vbi grata mella fudit,</l>
+        <l n="23" real="xxxxxxxx">Fugit et nimis tenaci</l>
+        <l n="24" real="xxxx+-xx">Ferit icta corda morsu.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="----aa">
+        <l n="25" real="x+-xx+--">All pleasure hath this property,</l>
+        <l n="26" real="x+-xxxxx">She woundeth those who have her most.</l>
+        <l n="27" real="xxxxx+-x">And, like unto the angry bee</l>
+        <l n="28" real="xxx+-+-x">Who hath her pleasant honey lost,</l>
+        <l n="29" real="xx-+x+-x">She flies away with nimble wing</l>
+        <l n="30" real="xx+-xxxxx">And in our hearts doth leave her sting.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-viii" n="L23716">
+      <head>Book III VIII</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23716</idno>
+      <lg type="stanza" n="1" rhyme="---aa----b--b---------">
+        <l n="1" real="xxxxxxxxx">Eheu quae miseros tramite deuios</l>
+        <l n="2" real="xxxxxxx">Abducit ignorantia!</l>
+        <l n="3" real="x+-xxxxxxxxx">Non aurum in uiridi quaeritis arbore</l>
+        <l n="4" real="xx+-xxx">Nec uite gemmas carpitis,</l>
+        <l n="5" real="xxxxxxxxxxx">Non altis laqueos montibus abditis</l>
+        <l n="6" real="xxxxxx">Vt pisce ditetis dapes</l>
+        <l n="7" real="xxxxxxxxxx">Nec uobis capreas si libeat sequi,</l>
+        <l n="8" real="xxxxxxxx">Tyrrhena captatis uada.</l>
+        <l n="9" real="xxxxxxxxxxx">Ipsos quin etiam fluctibus abditos</l>
+        <l n="10" real="xxxxxxxx">Norunt recessus aequoris,</l>
+        <l n="11" real="xxxxxxxxx">Quae gemmis niueis unda feracior</l>
+        <l n="12" real="xxxxxxx">Vel quae rubentis purpurae</l>
+        <l n="13" real="xxxxxxxxxxx">Nec non quae tenero pisce uel asperis</l>
+        <l n="14" real="xxxxxxxx">Praestent echinis litora.</l>
+        <l n="15" real="xxxxxxxx+-">Sed quonam lateat quod cupiunt bonum,</l>
+        <l n="16" real="xxxxxxx">Nescire caeci sustinent,</l>
+        <l n="17" real="xxxxxxxxxxx">Et quod stelliferum trans abiit polum,</l>
+        <l n="18" real="xxxxxxx">Tellure demersi petunt.</l>
+        <l n="19" real="xxxxxxxxxxxx">Quid dignum stolidis mentibus inprecer?</l>
+        <l n="20" real="x+-xx">Opes honores ambiant;</l>
+        <l n="21" real="xxxxxxxxx">Et cum falsa graui mole parauerint,</l>
+        <l n="22" real="xxxxxx+-">Tum uera cognoscant bona.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgghhiijjkk">
+        <l n="23" real="-+x+--xxxx">Alas, how ignorance makes wretches stray</l>
+        <l n="24" real="xxxx">Out of the way!</l>
+        <l n="25" real="xxxx-+x+-x">You from green trees expect no golden mines</l>
+        <l n="26" real="xxxx">Nor pearls from vines,</l>
+        <l n="27" real="xxxx+-xxxx">Nor use you on mountains to lay your net</l>
+        <l n="28" real="+-xx">Fishes to get,</l>
+        <l n="29" real="xxx+-xx+-x">Nor, if the pleasant sport of hunting please,</l>
+        <l n="30" real="xxxx">Run you to seas.</l>
+        <l n="31" real="xxx+-xx+-x">Men will be skilful in the hidden caves</l>
+        <l n="32" real="xx+-x">Of the ocean waves,</l>
+        <l n="33" real="xxxxx+-xxxx">And in what coasts the orient pearls are bred,</l>
+        <l n="34" real="x+-x">Or purple red,</l>
+        <l n="35" real="+-x+-xx+-x">Also, what different sorts of fishes store</l>
+        <l n="36" real="x+-x">Each several shore.</l>
+        <l n="37" real="xxxxx+-xxx">But when they come their chiefest good to find,</l>
+        <l n="38" real="xxxx">Then are they blind,</l>
+        <l n="39" real="xxxxxxxxxx">And search for that under the earth, which lies</l>
+        <l n="40" real="xxxx">Above the skies.</l>
+        <l n="41" real="xxxxxxxxxx">How should I curse these fools? Let thirst them hold</l>
+        <l n="42" real="xxxx">Of fame and gold,</l>
+        <l n="43" real="x+-xxxxxxx">That, having got false goods with pain, they learn</l>
+        <l n="44" real="xx-+">True to discern.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-ix" n="L23717">
+      <head>Book III IX</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23717</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1" rhyme="-------a-bb-------a---------">
+        <l n="1" real="xx-+-xxxxxxx" met="-+-+-+-+-+-+">&quot;O qui perpetua mundum ratione gubernas</l>
+        <l n="2" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Terrarum caelique sator qui tempus ab aeuo</l>
+        <l n="3" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Ire iubes stabilisque manens das cuncta moueri.</l>
+        <l n="4" real="xxxxxxxxxxx" met="+-+-+-+-+-+">Quem non externae pepulerunt fingere causae</l>
+        <l n="5" real="xxxxx+-xxxxxxx" met="--+-+-+-+-+-+-">Materiae fluitantis opus, uerum insita summi</l>
+        <l n="6" real="+-+-xxxxxxxxx" met="-+-+-+-+-+-+-">Forma boni liuore carens, tu cuncta superno</l>
+        <l n="7" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">Ducis ab exemplo, pulchrum pulcherrimus ipse</l>
+        <l n="8" real="xxx+-xxxx-+-+x" met="--+-+-+-+-+-+-">Mundum mente gerens similique in imagine formans</l>
+        <l n="9" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Perfectasque iubens perfectum absoluere partes.</l>
+        <l n="10" real="xxxxxxxx+-xxxxxx" met="-+-+-+-+-+-+-+-+">Tu numeris elementa ligas ut frigora flammis</l>
+        <l n="11" real="-+-xxxxxxxxxxx" met="--+-+-+-+-+-+-">Arida conueniant liquidis, ne purior ignis</l>
+        <l n="12" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">Euolet aut mersas deducant pondera terras.</l>
+        <l n="13" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Tu triplicis mediam naturae cuncta mouentem</l>
+        <l n="14" real="xxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-">Conectens animam per consona membra resoluis.</l>
+        <l n="15" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Quae cum secta duos motum glomerauit in orbes,</l>
+        <l n="16" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">In semet reditura meat mentemque profundam</l>
+        <l n="17" real="+-xxxxxxx-+-xx" met="--+-+-+-+-+-+-">Circuit et simili conuertit imagine caelum.</l>
+        <l n="18" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">Tu causis animas paribus uitasque minores</l>
+        <l n="19" real="xxxxx-+xxxxx" met="-+-+-+-+-+-+">Prouehis et leuibus sublimes curribus aptans</l>
+        <l n="20" real="xxxxxxxxx-+-" met="-+-+-+-+-+-+">In caelum terramque seris quas lege benigna</l>
+        <l n="21" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">Ad te conuersas reduci facis igne reuerti.</l>
+        <l n="22" real="x+-xxxxxxxxxx" met="-+-+-+-+-+-+-">Da pater augustam menti conscendere sedem,</l>
+        <l n="23" real="xxxxx+-xxxxx" met="-+-+-+-+-+-+">Da fontem lustrare boni, da luce reperta</l>
+        <l n="24" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">In te conspicuos animi defigere uisus.</l>
+        <l n="25" real="xxxx+-xxxxxx" met="-+-+-+-+-+-+">Dissice terrenae nebulas et pondera molis</l>
+        <l n="26" real="xxxx+-xxxxx" met="+-+-+-+-+-+">Atque tuo splendore mica! Tu namque serenum,</l>
+        <l n="27" real="xxxxxxxxx+-" met="+-+-+-+-+-+">Tu requies tranquilla piis, te cernere finis,</l>
+        <l n="28" real="xxxxxx+--+--+-" met="--+-+-+-+-+-+-">Principium, uector, dux, semita, terminus idem.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeff--ccgghh--iihhjj">
+        <l n="29" real="xxxxxxx+-+-x" met="-+-+-+-+-+-+">&quot;O Thou, that dost the world in lasting order guide,</l>
+        <l n="30" real="+-x+xxxxxx+-x" met="-+-+-+-+-+-+-">Father of heaven and earth, Who makest time swiftly slide,</l>
+        <l n="31" real="x+-x-+xxx+-x" met="-+-+-+-+-+-+">And, standing still Thyself, yet fram&#x27;st all moving laws,</l>
+        <l n="32" real="xxxxxxxx-+-x" met="-+-+-+-+-+-+">Who to Thy work wert moved by no external cause:</l>
+        <l n="33" real="xxxx-+x+-xxx" met="-+-+-+-+-+-+">But by a sweet desire, where envy hath no place,</l>
+        <l n="34" real="x+-+-xxxxxxx" met="-+-+-+-+-+-+">Thy goodness moving Thee to give each thing his grace,</l>
+        <l n="35" real="xxx+-xx+-+-x" met="-+-+-+-+-+-+">Thou dost all creatures&#x27; forms from highest patterns take,</l>
+        <l n="36" real="xxxxxxxx-+xx" met="-+-+-+-+-+-+">From Thy fair mind the world fair like Thyself doth make.</l>
+        <l n="37" real="xx-+xx-+xxxx" met="-+-+-+-+-+-+">Thus Thou perfect the whole perfect each part dost frame.</l>
+        <l n="38" real="xxx+--+-xxxx" met="-+-+-+-+-+-+">Thou temp&#x27;rest elements, making cold mixed with flame</l>
+        <l n="39" real="xxxxxxx+-+xx" met="-+-+-+-+-+-+">And dry things join with moist, lest fire away should fly,</l>
+        <l n="40" real="xx+-xx+-xxxx" met="-+-+-+-+-+-+">Or earth, opprest with weight, buried too low should lie.</l>
+        <l n="41" real="xx-+-x+--+-x" met="-+-+-+-+-+-+">Thou in consenting parts fitly disposed hast</l>
+        <l n="42" real="x+-xxxx+x+-x" met="-+-+-+-+-+-+">Th&#x27;all-moving soul in midst of threefold nature placed,</l>
+        <l n="43" real="xxx+-xxxx+-x" met="-+-+-+-+-+-+">Which, cut in several parts that run a different race,</l>
+        <l n="44" real="xx-+-+x+-x-+" met="-+-+-+-+-+-+">Into itself returns, and circling doth embrace</l>
+        <l n="45" real="x+-xx+xx-+-x" met="-+-+-+-+-+-+">The highest mind, and heaven with like proportion drives.</l>
+        <l n="46" real="xxxxxxxxx+-x" met="-+-+-+-+-+-+">Thou with like cause dost make the souls and lesser lives,</l>
+        <l n="47" real="xxx+--xx+-+--" met="-+-+-+-+-+-+-">Fix them in chariots swift, and widely scatterest</l>
+        <l n="48" real="x+xxxxx+---+" met="-+-+-+-+-+-+">O&#x27;er heaven and earth; then at Thy fatherly behest</l>
+        <l n="49" real="xxx+-+-xxxxx" met="-+-+-+-+-+-+">They stream, like fire returning, back to Thee, their God.</l>
+        <l n="50" real="x+-xxxx+-x-+" met="-+-+-+-+-+-+">Dear Father, let my mind Thy hallowed seat ascend,</l>
+        <l n="51" real="xx-+xxxxxxxx" met="-+-+-+-+-+-+">Let me behold the spring of grace and find Thy light,</l>
+        <l n="52" real="xxxxxxxxxxx" met="+-+-+-+-+-+">That I on Thee may fix my soul&#x27;s well clearéd sight.</l>
+        <l n="53" real="xxx+-x-+xx+--" met="-+-+-+-+-+-+-">Cast off the earthly weight wherewith I am opprest,</l>
+        <l n="54" real="xxxxxxx+-xxx" met="-+-+-+-+-+-+">Shine as Thou art most bright, Thou only calm and rest</l>
+        <l n="55" real="x+-xxxxx-+xx" met="-+-+-+-+-+-+">To pious men whose end is to behold Thy ray,</l>
+        <l n="56" real="xx-+-xxxxxxx" met="-+-+-+-+-+-+">Who their beginning art, their guide, their bound, and way.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-">
+        <l n="57" real="x+xx+--+-xxxxxx" met="-+-+-+-+-+-+-+-">This poem is a masterly abridgment of the first part of the</l>
+        <l n="58" real="xxxx+-+-xx+-x-xx+-" met="--+-+-+-+-+-+-+-+-">Timaeus, and was eagerly fastened on by commentators of the early</l>
+        <l n="59" real="+-+-x-++-x+-x-+xx" met="-+-+-+-+-+-+-+-+-">Middle Ages whose direct knowledge of Plato was confined to the</l>
+        <l n="60" real="-+-xx+-xxxxx" met="-+-+-+-+-+-+">translation of that dialogue by Chalcidius.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-x" n="L23718">
+      <head>Book III X</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23718</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="-ab---a--ccdb--d--">
+        <l n="1" real="xxxxxxxxx" met="+-+-+-+-+">Huc omnes pariter uenite capti</l>
+        <l n="2" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Quos fallax ligat improbis catenis</l>
+        <l n="3" real="xxxxxx-+-x" met="-+-+-+-+-+">Terrenas habitans libido mentes,</l>
+        <l n="4" real="xxxxxxxxx" met="+-+-+-+-+">Haec erit uobis requies laborum,</l>
+        <l n="5" real="xxx-+-xxx" met="+-+-+-+-+">Hic portus placida manens quiete,</l>
+        <l n="6" real="xxx+-xxx-+-" met="-+-+-+-+-+-">Hoc patens unum miseris asylum,</l>
+        <l n="7" real="xxxxxxxxxx" met="-+-+-+-+-+">Non quidquid Tagus aureis harenis</l>
+        <l n="8" real="+-xxxxxx+-" met="-+-+-+-+-+">Donat aut Hermus rutilante ripa</l>
+        <l n="9" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Aut Indus calido propinquus orbi</l>
+        <l n="10" real="xxxxxxxxxx" met="-+-+-+-+-+">Candidis miscens uirides lapillos,</l>
+        <l n="11" real="xxxxxxxxx" met="+-+-+-+-+">Inlustrent aciem magisque caecos</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">In suas condunt animos tenebras.</l>
+        <l n="13" real="xxx+-xxxx" met="+-+-+-+-+">Hoc quidquid placet excitatque mentes,</l>
+        <l n="14" real="xxxxxxxxx" met="+-+-+-+-+">Infimis tellus aluit cauernis;</l>
+        <l n="15" real="+-xxxxxxxx" met="-+-+-+-+-+">Splendor quo regitur uigetque caelum,</l>
+        <l n="16" real="xxxxxxxxx" met="+-+-+-+-+">Vitat obscuras animae ruinas.</l>
+        <l n="17" real="xxxxxxxxxx" met="-+-+-+-+-+">Hanc quisquis poterit notare lucem,</l>
+        <l n="18" real="-+-xx+-xxxx" met="-+-+-+-+-+-">Candidos Phoebi radios negabit.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccbddeffegghiih">
+        <l n="19" real="x+-xxxxx" met="-+-+-+-+">Come hither, all you that are bound,</l>
+        <l n="20" real="xxx+-xxx" met="-+-+-+-+">Whose base and earthly minds are drowned</l>
+        <l n="21" real="xxxxxxx+-x" met="-+-+-+-+-+">By lust which doth them tie in cruel chains:</l>
+        <l n="22" real="xxxxxx+--" met="+-+-+-+-+">Here is a seat for men opprest,</l>
+        <l n="23" real="xxxxx+-x" met="-+-+-+-+">Here is a port of pleasant rest;</l>
+        <l n="24" real="xxxxx+-xxx" met="-+-+-+-+-+">Here may a wretch have refuge from his pains.</l>
+        <l n="25" real="xxxxxx-+" met="-+-+-+-+">No gold, which Tagus&#x27; sands bestow,</l>
+        <l n="26" real="xxxxxxxx" met="-+-+-+-+">Nor which on Hermus&#x27; banks doth flow,</l>
+        <l n="27" real="x+-xxx+--x" met="-+-+-+-+-+">Nor precious stones which scorched Indians get,</l>
+        <l n="28" real="xxx+-xxx" met="-+-+-+-+">Can clear the sharpness of the mind,</l>
+        <l n="29" real="x+-xxxxx" met="-+-+-+-+">But rather make it far more blind,</l>
+        <l n="30" real="xxx+-xx+-x" met="-+-+-+-+-+">And in the farther depth of darkness set.</l>
+        <l n="31" real="xxxx+-xxx" met="+-+-+-+-+">For this that sets our souls on work</l>
+        <l n="32" real="+-xxxxxx" met="-+-+-+-+">Buried in caves of earth doth lurk.</l>
+        <l n="33" real="x+x+-x-+-x" met="-+-+-+-+-+">But heaven is guided by another light,</l>
+        <l n="34" real="x+-xxxxx" met="-+-+-+-+">Which causeth us to shun the dark,</l>
+        <l n="35" real="xxxxx+-x" met="-+-+-+-+">And who this light doth truly mark,</l>
+        <l n="36" real="xx-+x+-xxx" met="-+-+-+-+-+">Must needs deny that Phoebus&#x27; beams are bright.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-xi" n="L23719">
+      <head>Book III XI</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23719</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="a-bb----------a-">
+        <l n="1" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Quisquis profunda mente uestigat uerum</l>
+        <l n="2" real="xxxxxxxx" met="-+-+-+-+">Cupitque nullis ille deuiis falli,</l>
+        <l n="3" real="xx+xxxxxxxxx" met="--+-+-+-+-+-">In se reuoluat intimi lucem uisus</l>
+        <l n="4" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Longosque in orbem cogat inflectens motus</l>
+        <l n="5" real="xxxxxxx+-xxx" met="--+-+-+-+-+-">Animumque doceat quidquid extra molitur</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Suis retrusum possidere thesauris.</l>
+        <l n="7" real="xxx+-xxxxxx" met="-+-+-+-+-+-">Dudum quod atra texit erroris nubes</l>
+        <l n="8" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Lucebit ipso perspicacius Phoebo.</l>
+        <l n="9" real="xxxxxxx+-" met="+-+-+-+-+">Non omne namque mente depulit lumen</l>
+        <l n="10" real="xxx+-xxxxx" met="-+-+-+-+-+">Obliuiosam corpus inuehens molem.</l>
+        <l n="11" real="xxxxx+-xxxxx" met="--+-+-+-+-+-">Haeret profecto semen introrsum ueri</l>
+        <l n="12" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Quod excitatur uentilante doctrina.</l>
+        <l n="13" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Nam cur rogati sponte recta censetis,</l>
+        <l n="14" real="xxx+-xx+-x" met="-+-+-+-+-+">Ni mersus alto uiueret fomes corde?</l>
+        <l n="15" real="xxxxx+-xxxxx" met="--+-+-+-+-+-">Quod si Platonis Musa personat uerum,</l>
+        <l n="16" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Quod quisque discit immemor recordatur.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacddcbeebfggf">
+        <l n="17" real="xxxxxxxx-+" met="-+-+-+-+-+">He that would seek the truth with thoughts profound</l>
+        <l n="18" real="xxxxxxxxxx" met="-+-+-+-+-+">And would not stray in ways that are not right,</l>
+        <l n="19" real="xx-+xxx+-x" met="-+-+-+-+-+">He to himself must turn his inward sight,</l>
+        <l n="20" real="xxx+-xx+-x" met="-+-+-+-+-+">And guide his motions in a circled round,</l>
+        <l n="21" real="+-xxx+-x-+" met="-+-+-+-+-+">Teaching his mind that ever she design</l>
+        <l n="22" real="-+xxx+-x-+" met="-+-+-+-+-+">Herself in her own treasures to possess:</l>
+        <l n="23" real="xxxxx+-x+--" met="-+-+-+-+-+-">So that which late lay hidden in cloudiness</l>
+        <l n="24" real="xxxxx+-xxx" met="-+-+-+-+-+">More bright and clear than Phoebus&#x27; beams shall shine.</l>
+        <l n="25" real="xxxx-xx+-x" met="-+-+-+-+-+">Flesh hath not quenched all the spirit&#x27;s light,</l>
+        <l n="26" real="xx-+-xxx+--" met="-+-+-+-+-+-">Though this oblivion&#x27;s lump holds her opprest.</l>
+        <l n="27" real="xxxx-+-x+x" met="-+-+-+-+-+">Some seed of truth remaineth in our breast,</l>
+        <l n="28" real="x+-+-xxx-+" met="-+-+-+-+-+">Which skilful learning eas&#x27;ly doth excite.</l>
+        <l n="29" real="x+-xxxx+-x" met="-+-+-+-+-+">For being askt how can we answer true</l>
+        <l n="30" real="xxxxxx+xxx" met="-+-+-+-+-+">Unless that grace within our hearts did dwell?</l>
+        <l n="31" real="x+-+-xxxxx" met="-+-+-+-+-+">If Plato&#x27;s heavenly muse the truth us tell,</l>
+        <l n="32" real="x+-x-+-x-+" met="-+-+-+-+-+">We learning things remember them anew.&quot;</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="33" real="xx" met="-+">Phaedo 72-76.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iii-xii" n="L23720">
+      <head>Book III XII</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:3</idno><idno type="laurel-id">L23720</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="---------aaa--------------------------------------bb---bb-">
+        <l n="1" real="+-xxx+-" met="+-+-+-+">Felix qui potuit boni</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Fontem uisere lucidum,</l>
+        <l n="3" real="+-xxxx" met="-+-+-+">Felix qui potuit grauis</l>
+        <l n="4" real="xxxxxx" met="-+-+-+">Terrae soluere uincula.</l>
+        <l n="5" real="+-xxxxxx" met="-+-+-+-+">Quondam funera coniugis</l>
+        <l n="6" real="xxxxx" met="-+-+-">Vates Threicius gemens</l>
+        <l n="7" real="xxxxxx+-" met="-+-+-+-+">Postquam flebilibus modis</l>
+        <l n="8" real="xxxx+-" met="-+-+-+">Siluas currere mobiles,</l>
+        <l n="9" real="xxxxx" met="-+-+-">Amnes stare coegerat,</l>
+        <l n="10" real="xxxxxxxx" met="-+-+-+-+">Iunxitque intrepidum latus</l>
+        <l n="11" real="xxxxxx" met="-+-+-+">Saeuis cerua leonibus,</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">Nec uisum timuit lepus</l>
+        <l n="13" real="x+-xxxxx" met="-+-+-+-+">Iam cantu placidum canem,</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">Cum flagrantior intima</l>
+        <l n="15" real="xx+--xxx" met="-+-+-+-+">Feruor pectoris ureret,</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Nec qui cuncta subegerant</l>
+        <l n="17" real="xxxxxx+-" met="-+-+-+-+">Mulcerent dominum modi,</l>
+        <l n="18" real="xxxxxxx" met="+-+-+-+">Inmites superos querens</l>
+        <l n="19" real="xxxxxxx" met="+-+-+-+">Infernas adiit domos.</l>
+        <l n="20" real="xx+-xxxx" met="-+-+-+-+">Illic blanda sonantibus</l>
+        <l n="21" real="xxxxxxxx" met="-+-+-+-+">Chordis carmina temperans</l>
+        <l n="22" real="xxxxxx" met="-+-+-+">Quidquid praecipuis deae</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">Matris fontibus hauserat,</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">Quod luctus dabat impotens,</l>
+        <l n="25" real="xxxxxx+-" met="-+-+-+-+">Quod luctum geminans amor,</l>
+        <l n="26" real="xxxxxxx" met="+-+-+-+">Deflet Taenara commouens</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">Et dulci ueniam prece</l>
+        <l n="28" real="xx+-xxx" met="+-+-+-+">Vmbrarum dominos rogat.</l>
+        <l n="29" real="xxxxxxx" met="+-+-+-+">Stupet tergeminus nouo</l>
+        <l n="30" real="xx+-xxx" met="+-+-+-+">Captus carmine ianitor,</l>
+        <l n="31" real="xxxxxxx" met="+-+-+-+">Quae sontes agitant metu</l>
+        <l n="32" real="xxxxxx" met="-+-+-+">Vltrices scelerum deae</l>
+        <l n="33" real="xxxxxxx" met="+-+-+-+">Iam maestae lacrimis madent.</l>
+        <l n="34" real="xxxx-+" met="-+-+-+">Non Ixionium caput</l>
+        <l n="35" real="xxxxxx+-" met="-+-+-+-+">Velox praecipitat rota</l>
+        <l n="36" real="xxxxxxx" met="+-+-+-+">Et longa site perditus</l>
+        <l n="37" real="xxxxx+--" met="-+-+-+-+">Spernit flumina Tantalus.</l>
+        <l n="38" real="xxxxx-++-" met="-+-+-+-+-">Vultur dum satur est modis,</l>
+        <l n="39" real="xxxxxxx" met="+-+-+-+">Non traxit Tityi iecur.</l>
+        <l n="40" real="+-xxx+--" met="-+-+-+-+">Tandem, &#x27;Vincimur,&#x27; arbiter</l>
+        <l n="41" real="xxxxxx" met="-+-+-+">Vmbrarum miserans ait,</l>
+        <l n="42" real="xxxxxxxx" met="-+-+-+-+">&#x27;Donamus comitem uiro</l>
+        <l n="43" real="xx+-xxx" met="+-+-+-+">Emptam carmine coniugem.</l>
+        <l n="44" real="xx+-xx" met="-+-+-+">Sed lex dona coerceat,</l>
+        <l n="45" real="xxxxxxxx" met="-+-+-+-+">Ne, dum Tartara liquerit,</l>
+        <l n="46" real="xx+--xx" met="+-+-+-+">Fas sit lumina flectere.&#x27;</l>
+        <l n="47" real="xxxxxxxx" met="-+-+-+-+">Quis legem det amantibus?</l>
+        <l n="48" real="xx+--+xx" met="-+-+-+-+">Maior lex amor est sibi.</l>
+        <l n="49" real="xxxxxxx" met="+-+-+-+">Heu, noctis prope terminos</l>
+        <l n="50" real="+--xxxxx" met="-+-+-+-+">Orpheus Eurydicen suam</l>
+        <l n="51" real="xxxxxxxx" met="-+-+-+-+">Vidit, perdidit, occidit.</l>
+        <l n="52" real="xxxxxxxx" met="-+-+-+-+">Vos haec fabula respicit</l>
+        <l n="53" real="xxxxxxx" met="+-+-+-+">Quicumque in superum diem</l>
+        <l n="54" real="xxxxxxx" met="+-+-+-+">Mentem ducere quaeritis.</l>
+        <l n="55" real="xxxxxxxx" met="-+-+-+-+">Nam qui Tartareum in specus</l>
+        <l n="56" real="+-+--xxx" met="-+-+-+-+">Victus lumina flexerit,</l>
+        <l n="57" real="xxxxxxx" met="+-+-+-+">Quidquid praecipuum trahit</l>
+        <l n="58" real="xxxxxxxx" met="-+-+-+-+">Perdit, dum uidet inferos.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcbcdcd-defefgfghgh-h-i-ijijkjklklmlmnmnonopopqpqr-rsrstt">
+        <l n="59" real="+-xxxx-+" met="-+-+-+-+">Happy is he that can behold</l>
+        <l n="60" real="xxxxxxxx" met="-+-+-+-+">The well-spring whence all good doth rise,</l>
+        <l n="61" real="+-xxxx-+" met="-+-+-+-+">Happy is he that can unfold</l>
+        <l n="62" real="xxxxxxxx" met="-+-+-+-+">The bands with which the earth him ties.</l>
+        <l n="63" real="x+-+-xxx" met="-+-+-+-+">The Thracian poet whose sweet song</l>
+        <l n="64" real="-+xxx+--" met="-+-+-+-+">Performed his wife&#x27;s sad obsequies,</l>
+        <l n="65" real="xxxxxx-+" met="-+-+-+-+">And forced the woods to run along</l>
+        <l n="66" real="xxx+-xxx" met="-+-+-+-+">When he his mournful tunes did play,</l>
+        <l n="67" real="x+-+-xxx" met="-+-+-+-+">Whose powerful music was so strong</l>
+        <l n="68" real="xxxxx+-x" met="-+-+-+-+">That it could make the rivers stay;</l>
+        <l n="69" real="x+-xx+-x" met="-+-+-+-+">The fearful hinds not daunted were,</l>
+        <l n="70" real="xxx+-xxx" met="-+-+-+-+">But with the lions took their way,</l>
+        <l n="71" real="xxxx-+xx" met="-+-+-+-+">Nor did the hare behold with fear</l>
+        <l n="72" real="xxxxxx-+" met="-+-+-+-+">The dog whom these sweet notes appease.</l>
+        <l n="73" real="xxxxxxxx" met="-+-+-+-+">When force of grief drew yet more near,</l>
+        <l n="74" real="xxxxx+-x" met="-+-+-+-+">And on his heart did burning seize,</l>
+        <l n="75" real="xxxxx+-x" met="-+-+-+-+">Nor tunes which all in quiet bound</l>
+        <l n="76" real="x+-xx+-x" met="-+-+-+-+">Could any jot their master ease,</l>
+        <l n="77" real="xxxxxxxx" met="-+-+-+-+">The gods above too hard he found,</l>
+        <l n="78" real="x+-+-+--" met="-+-+-+-+">And Pluto&#x27;s palace visiting.</l>
+        <l n="79" real="xxx+-xxx" met="-+-+-+-+">He mixed sweet verses with the sound</l>
+        <l n="80" real="xxxx-+-x" met="-+-+-+-+">Of his loud harp&#x27;s delightful string,</l>
+        <l n="81" real="xxxxx+-x" met="-+-+-+-+">All that he drank with thirsty draught</l>
+        <l n="82" real="xxx+-+-x" met="-+-+-+-+">From his high mother&#x27;s chiefest spring,</l>
+        <l n="83" real="xxx+-xxx" met="-+-+-+-+">All that his restless grief him taught,</l>
+        <l n="84" real="xxxxx+-x" met="-+-+-+-+">And love which gives grief double aid,</l>
+        <l n="85" real="xx+x-+xx" met="-+-+-+-+">With this even hell itself was caught,</l>
+        <l n="86" real="+-xxx+-x" met="-+-+-+-+">Whither he went, and pardon prayed</l>
+        <l n="87" real="xxxx-+-+" met="-+-+-+-+">For his dear spouse (unheard request).</l>
+        <l n="88" real="xxx+-x-+" met="-+-+-+-+">The three-head porter was dismayed,</l>
+        <l n="89" real="xxxx-+-x" met="-+-+-+-+">Ravished with his unwonted guest,</l>
+        <l n="90" real="x+-xx+-x" met="-+-+-+-+">The Furies, which in tortures keep</l>
+        <l n="91" real="x+-xxx+--" met="-+-+-+-+-">The guilty souls with pains opprest,</l>
+        <l n="92" real="xxxx-+xx" met="-+-+-+-+">Moved with his song began to weep.</l>
+        <l n="93" real="-+-xx+-x" met="-+-+-+-+">Ixion&#x27;s wheel now standing still</l>
+        <l n="94" real="xxxxx+-x" met="-+-+-+-+">Turns not his head with motions steep.</l>
+        <l n="95" real="x+--xxxx" met="-+-+-+-+">Though Tantalus might drink at will,</l>
+        <l n="96" real="xxxxxx-+" met="-+-+-+-+">To quench his thirst he would forbear.</l>
+        <l n="97" real="x+-xx+-x" met="-+-+-+-+">The vulture full with music shrill</l>
+        <l n="98" real="xxxxx+-x" met="-+-+-+-+">Doth not poor Tityus&#x27; liver tear.</l>
+        <l n="99" real="xxx+-+-x" met="-+-+-+-+">&#x27;We by his verses conquered are,&#x27;</l>
+        <l n="100" real="xxxxx+-x" met="-+-+-+-+">Saith the great King whom spirits fear.</l>
+        <l n="101" real="xxxxxx-+" met="-+-+-+-+">&#x27;Let us not then from him debar</l>
+        <l n="102" real="xxxxxxxx" met="-+-+-+-+">His wife whom he with songs doth gain.</l>
+        <l n="103" real="xx+xxxxx" met="-+-+-+-+">Yet lest our gift should stretch too far,</l>
+        <l n="104" real="xxxxxx-+" met="-+-+-+-+">We will it with this law restrain,</l>
+        <l n="105" real="xxxxxxxx" met="-+-+-+-+">That when from hell he takes his flight,</l>
+        <l n="106" real="xxx+-x-+" met="-+-+-+-+">He shall from looking back refrain.&#x27;</l>
+        <l n="107" real="xxx+-x-+" met="-+-+-+-+">Who can for lovers laws indite?</l>
+        <l n="108" real="xxxxxxxx" met="-+-+-+-+">Love hath no law but her own will.</l>
+        <l n="109" real="+-+xxxxx" met="-+-+-+-+">Orpheus, seeing on the verge of night</l>
+        <l n="110" real="xxxxxxx" met="+-+-+-+">Eurydice, doth lose and kill</l>
+        <l n="111" real="xx-+x+-x" met="-+-+-+-+">Her and himself with foolish love.</l>
+        <l n="112" real="xxxx-xxx" met="-+-+-+-+">But you this feigned tale fulfil,</l>
+        <l n="113" real="xxxxxxxx" met="-+-+-+-+">Who think unto the day above</l>
+        <l n="114" real="xxxxx+-x" met="-+-+-+-+">To bring with speed your darksome mind.</l>
+        <l n="115" real="xxxx+-xx" met="-+-+-+-+">For if, your eye conquered, you move</l>
+        <l n="116" real="+-x+-xxx" met="-+-+-+-+">Backward to Pluto left behind,</l>
+        <l n="117" real="xxxxxxxx" met="-+-+-+-+">All the rich prey which thence you took,</l>
+        <l n="118" real="xxxxxxxx" met="-+-+-+-+">You lose while back to hell you look.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-i" n="L23721">
+      <head>Book IV I</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23721</idno>
+      <lg type="stanza" n="1" rhyme="a-----b---b--cbcbb------a---dd">
+        <l n="1" real="xxxxxxxxx">Sunt etenim pennae uolucres mihi</l>
+        <l n="2" real="xxxxxx+-">Quae celsa conscendant poli.</l>
+        <l n="3" real="xxxxxxxxx">Quas sibi cum uelox mens induit,</l>
+        <l n="4" real="+-xxxxxx">Terras perosa despicit,</l>
+        <l n="5" real="xxxxxxxxxx">Aeris inmensi superat globum,</l>
+        <l n="6" real="xxxxxxx">Nubesque postergum uidet,</l>
+        <l n="7" real="xxxxxxxxxxx">Quique agili motu calet aetheris,</l>
+        <l n="8" real="xxxxxxxx">Transcendit ignis uerticem,</l>
+        <l n="9" real="xxxxxxxxxxx">Donec in astriferas surgat domos</l>
+        <l n="10" real="xxxxxx">Phoeboque coniungat uias</l>
+        <l n="11" real="xxxxx+-xxxxx">Aut comitetur iter gelidi senis</l>
+        <l n="12" real="xxxx+--">Miles corusci sideris,</l>
+        <l n="13" real="xxxxxxxxx">Vel quocumque micans nox pingitur,</l>
+        <l n="14" real="xxxxxxxx">Recurrat astri circulum</l>
+        <l n="15" real="xxxxxxxxxxx">Atque ubi iam exhausti fuerit satis,</l>
+        <l n="16" real="xxxxxxxx">Polum relinquat extimum</l>
+        <l n="17" real="xxxxxxxxxx">Dorsaque uelocis premat aetheris</l>
+        <l n="18" real="+xxxxxxx">Compos uerendi luminis.</l>
+        <l n="19" real="xxxxx-+-+-">Hic regum sceptrum dominus tenet</l>
+        <l n="20" real="xxxxxxxx">Orbisque habenas temperat</l>
+        <l n="21" real="xxxxxxxxxxx">Et uolucrem currum stabilis regit</l>
+        <l n="22" real="xxxxx+--">Rerum coruscus arbiter.</l>
+        <l n="23" real="xxxxxxxxxx">Huc te si reducem referat uia,</l>
+        <l n="24" real="xxxxxxxx">Quam nunc requiris immemor:</l>
+        <l n="25" real="x+-xxxxx-+xx">&#x27;Haec,&#x27; dices, &#x27;memini, patria est mihi,</l>
+        <l n="26" real="xxxxxxxx">Hinc ortus; hic sistam gradum.&quot;</l>
+        <l n="27" real="xxxxxxx+x">Quod si terrarum placeat tibi</l>
+        <l n="28" real="xxxxxxx">Noctem relictam uisere,</l>
+        <l n="29" real="xxxxxxxxxxx">Quos miseri toruos populi timent</l>
+        <l n="30" real="xxxxxx">Cernes tyrannos exules.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="a-ab-bccdde-ef-fgg-h-h">
+        <l n="31" real="xxxxx+-xxx-+x+-x">For I have swift and nimble wings which will ascend the lofty skies,</l>
+        <l n="32" real="xxxxxxxxxxxxx">With which when thy quick mind is clad, it will the loathéd earth</l>
+        <l n="33" real="-+">despise,</l>
+        <l n="34" real="xxxxx+-xx+-xxxxx">And go beyond the airy globe, and watery clouds behind thee leave,</l>
+        <l n="35" real="+-x+x+-xxxx+-x">Passing the fire which scorching heat doth from the heavens&#x27; swift</l>
+        <l n="36" real="x-+">course receive,</l>
+        <l n="37" real="xxxxx+-xxxxxx+-x">Until it reach the starry house, and get to tread bright Phoebus&#x27; ways,</l>
+        <l n="38" real="+-x+-xx-+-xx+-x">Following the chilly sire&#x27;s path, companion of his flashing rays,</l>
+        <l n="39" real="xxx+-xxxxxxxxx-+">And trace the circle of the stars which in the night to us appear,</l>
+        <l n="40" real="x+-xxx-+xxxxx+-x">And having stayed there long enough go on beyond the farthest sphere,</l>
+        <l n="41" real="+-xxx+-x-+-xx+-x">Sitting upon the highest orb partaker of the glorious light,</l>
+        <l n="42" real="xxxxx+-xxxxxxx">Where the great King his sceptre holds, and the world&#x27;s reins doth guide</l>
+        <l n="43" real="-+">aright,</l>
+        <l n="44" real="xxxxx+-x+-xx+-x">And, firm in his swift chariot, doth everything in order set.</l>
+        <l n="45" real="xxxxxxxxx+-xxx">Unto this seat when thou art brought, thy country, which thou didst</l>
+        <l n="46" real="-+">forget,</l>
+        <l n="47" real="xxx+-x-++-xxx+-x">Thou then wilt challenge to thyself, saying: &#x27;This is the glorious land</l>
+        <l n="48" real="xxxxxxxxxxx+-xxx">Where I was born, and in this soil my feet for evermore shall stand.</l>
+        <l n="49" real="xxx+-x-+x+-xxxx">Whence if thou pleasest to behold the earthly night which thou hast</l>
+        <l n="50" real="x">left,</l>
+        <l n="51" real="x+-xx+-xxxxxxx">Those tyrants which the people fear will seem of their true home</l>
+        <l n="52" real="-+">bereft.&#x27;&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-ii" n="L23722">
+      <head>Book IV II</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23722</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="-a---a----">
+        <l n="1" real="xxxx+-xxxxxx" met="-+-+-+-+-+-+">Quos uides sedere celsos solii culmine reges</l>
+        <l n="2" real="+--+-xxxxxxxxx" met="-+-+-+-+-+-+-+">Purpura claros nitente saeptos tristibus armis</l>
+        <l n="3" real="xxxxxxxx+-xxx" met="-+-+-+-+-+-+-">Ore toruo comminantes rabie cordis anhelos,</l>
+        <l n="4" real="xxxxxxxxxxxxx+-" met="-+-+-+-+-+-+-+-">Detrahat si quis superbis uani tegmina cultus,</l>
+        <l n="5" real="xxxxxxxx+-xx-+-" met="-+-+-+-+-+-+-+-">Iam uidebit intus artas dominos ferre catenas.</l>
+        <l n="6" real="xxx-+-xxxx+-xxx" met="-+-+-+-+-+-+-+-">Hinc enim libido uersat auidis corda uenenis,</l>
+        <l n="7" real="xxxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+-">Hinc flagellat ira mentem fluctus turbida tollens</l>
+        <l n="8" real="xxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-">Maeror aut captos fatigat aut spes lubrica torquet</l>
+        <l n="9" real="+-x-+x+-+-xxxx" met="-+-+-+-+-+-+-+">Ergo cum caput tot unum cernas ferre tyrannos,</l>
+        <l n="10" real="xxxxxxx+-xxxxx" met="-+-+-+-+-+-+-+">Non facit quod optat ipse dominis pressus iniquis.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abba-cc-deedfggfhiih">
+        <l n="11" real="xxxx-+" met="-+-+-+">The kings whom we behold</l>
+        <l n="12" real="x+-+-x" met="-+-+-+">In highest glory placed,</l>
+        <l n="13" real="xxx+-x" met="-+-+-+">And with rich purple graced,</l>
+        <l n="14" real="+-x+-x" met="-+-+-+">Compassed with soldiers bold;</l>
+        <l n="15" real="x+-xxx" met="-+-+-+">Whose countenance shows fierce threats,</l>
+        <l n="16" real="xxx+-x" met="-+-+-+">Who with rash fury chide,</l>
+        <l n="17" real="x+-xxx" met="-+-+-+">If any strip the pride</l>
+        <l n="18" real="xxxxxx" met="-+-+-+">From their vainglorious feats;</l>
+        <l n="19" real="xxxx-+" met="-+-+-+">He&#x27;ll see them close oppressed</l>
+        <l n="20" real="xxx+-x" met="-+-+-+">Within by galling chains</l>
+        <l n="21" real="x+-xxx" met="-+-+-+">For filthy lust there reigns</l>
+        <l n="22" real="x+--xx" met="-+-+-+">And poisoneth their breast,</l>
+        <l n="23" real="x+-x-+-" met="-+-+-+-">Wrath often them perplexeth</l>
+        <l n="24" real="+-xxxx" met="-+-+-+">Raising their minds like waves,</l>
+        <l n="25" real="+-x+-+" met="-+-+-+">Sorrow their power enslaves</l>
+        <l n="26" real="x+-xxxx" met="-+-+-+-">And sliding hope them vexeth.</l>
+        <l n="27" real="x+-+-x" met="-+-+-+">So many tyrants still</l>
+        <l n="28" real="+-xxxx" met="-+-+-+">Dwelling in one poor heart,</l>
+        <l n="29" real="xxxx-+" met="-+-+-+">Except they first depart</l>
+        <l n="30" real="x+-xxx" met="-+-+-+">She cannot have her will.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-iii" n="L23723">
+      <head>Book IV III</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23723</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-----------aab-b-c-c-d-de---e-------f-f">
+        <l n="1" real="+-xxxxx" met="+-+-+-+">Vela Neritii ducis</l>
+        <l n="2" real="xxxxxxx" met="+-+-+-+">Et uagas pelago rates</l>
+        <l n="3" real="+-xxxxx" met="+-+-+-+">Eurus appulit insulae,</l>
+        <l n="4" real="xxxxxxx" met="+-+-+-+">Pulchra qua residens dea</l>
+        <l n="5" real="+-xxxxx" met="+-+-+-+">Solis edita semine</l>
+        <l n="6" real="xxxxxxx" met="+-+-+-+">Miscet hospitibus nouis</l>
+        <l n="7" real="xx+-xxx" met="+-+-+-+">Tacta carmine pocula.</l>
+        <l n="8" real="xxxxxxx" met="+-+-+-+">Quos ut in uarios modos</l>
+        <l n="9" real="xxxxxx+-" met="-+-+-+-+">Vertit herbipotens manus,</l>
+        <l n="10" real="xxx+-xx" met="+-+-+-+">Hunc apri facies tegit,</l>
+        <l n="11" real="xxxxx+-" met="+-+-+-+">Ille Marmaricus leo</l>
+        <l n="12" real="xxxxxxx" met="+-+-+-+">Dente crescit et unguibus.</l>
+        <l n="13" real="x+-xxxxx" met="-+-+-+-+">Hic lupis nuper additus,</l>
+        <l n="14" real="xxxxxxx" met="+-+-+-+">Flere dum parat, ululat.</l>
+        <l n="15" real="x+-x+--" met="+-+-+-+">Ille tigris ut Indica</l>
+        <l n="16" real="xx+xxxxx" met="-+-+-+-+">Tecta mitis obambulat.</l>
+        <l n="17" real="xxxxx+-" met="+-+-+-+">Sed licet uariis malis</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">Numen Arcadis alitis</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">Obsitum miserans ducem</l>
+        <l n="20" real="xxxxxxx" met="+-+-+-+">Peste soluerit hospitis,</l>
+        <l n="21" real="xxx+-+--" met="-+-+-+-+">Iam tamen mala remiges</l>
+        <l n="22" real="xxxxxxx" met="+-+-+-+">Ore pocula traxerant,</l>
+        <l n="23" real="xxxxx" met="-+-+-">Iam sues Cerealia</l>
+        <l n="24" real="xxxxxxx" met="+-+-+-+">Glande pabula uerterant</l>
+        <l n="25" real="x+--+xxx" met="-+-+-+-+">Et nihil manet integrum</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">Voce corpore perditis.</l>
+        <l n="27" real="+-xxxx+-" met="-+-+-+-+">Sola mens stabilis super</l>
+        <l n="28" real="xxxxxxxx" met="-+-+-+-+">Monstra quae patitur gemit.</l>
+        <l n="29" real="xxxxxx" met="-+-+-+">O leuem nimium manum</l>
+        <l n="30" real="xxxxxxx" met="+-+-+-+">Nec potentia gramina,</l>
+        <l n="31" real="xxxxxxx" met="+-+-+-+">Membra quae ualeant licet,</l>
+        <l n="32" real="+-xxxxx" met="+-+-+-+">Corda uertere non ualent!</l>
+        <l n="33" real="xx-+xxxxx" met="-+-+-+-+-">Intus est hominum uigor</l>
+        <l n="34" real="xxxxxxx" met="+-+-+-+">Arce conditus abdita.</l>
+        <l n="35" real="xxxxxxx" met="+-+-+-+">Haec uenena potentius</l>
+        <l n="36" real="xxx+--xx" met="-+-+-+-+">Detrahunt hominem sibi</l>
+        <l n="37" real="xxxxxxx" met="+-+-+-+">Dira quae penitus meant</l>
+        <l n="38" real="xxxxxxx" met="+-+-+-+">Nec nocentia corpori</l>
+        <l n="39" real="xxxxx" met="-+-+-">Mentis uulnere saeuiunt.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcbcdcdedefefgfghghi-ij-jkjklk-mlm">
+        <l n="40" real="xxxx-+-x" met="-+-+-+-+">The sails which wise Ulysses bore,</l>
+        <l n="41" real="xxxxxxxxxx" met="--+-+-+-+-">And ships which in the seas long time did stray</l>
+        <l n="42" real="x+-xxxxx" met="-+-+-+-+">The eastern wind drave to that shore</l>
+        <l n="43" real="xxx+-+-xx" met="-+-+-+-+-">Where the fair Goddess Lady Circe lay,</l>
+        <l n="44" real="+-xxx+-x" met="-+-+-+-+">Daughter by birth to Phoebus bright,</l>
+        <l n="45" real="xx-+-xxxxx" met="--+-+-+-+-">Who with enchanted cups and charms did stay</l>
+        <l n="46" real="xx-+-xx-+" met="-+-+-+-+-">Her guests, deceived with their delight</l>
+        <l n="47" real="xxx+-+-xxx" met="--+-+-+-+-">And into sundry figures them did change,</l>
+        <l n="48" real="+-x+-xxx" met="-+-+-+-+">Being most skilful in the might</l>
+        <l n="49" real="x+-xxxx+-x" met="--+-+-+-+-">And secret force of herbs and simples strange;</l>
+        <l n="50" real="xxx+-xxx" met="-+-+-+-+">Some like to savage boars, and some</l>
+        <l n="51" real="x+-xx+-xxx" met="--+-+-+-+-">Like lions fierce, which daily use to range</l>
+        <l n="52" real="x+--xxxx-+" met="--+-+-+-+-">Through Libya, in tooth and claw become.</l>
+        <l n="53" real="+-xx-xxxxx" met="--+-+-+-+-">Others are changed to the shape and guise</l>
+        <l n="54" real="x+--xx+-x" met="-+-+-+-+-">Of ravenous wolves, and waxing dumb</l>
+        <l n="55" real="x+-xxxx+-x" met="--+-+-+-+-">Use howling in the stead of manly cries.</l>
+        <l n="56" real="+-xxx+-x" met="-+-+-+-+">Others like to the tiger rove</l>
+        <l n="57" real="xxxx+---+x" met="--+-+-+-+-">Which in the scorched Indian desert lies.</l>
+        <l n="58" real="xxxxxxx" met="+-+-+-+">And though the winged son of Jove</l>
+        <l n="59" real="xxxxx-+-x" met="-+-+-+-+-">From these bewitchéd cups&#x27; delightful taste</l>
+        <l n="60" real="xxx+-+-x" met="-+-+-+-+">To keep the famous captain strove,</l>
+        <l n="61" real="xxx+-+---+" met="--+-+-+-+-">Yet them the greedy mariners embraced</l>
+        <l n="62" real="xx-+-xx-xx" met="--+-+-+-+-">With much desire, till turned to swine</l>
+        <l n="63" real="-+xxxxx+-x" met="--+-+-+-+-">Instead of bread they fed on oaken mast.</l>
+        <l n="64" real="+--xxxxxx" met="-+-+-+-+-">Ruined in voice and form, no sign</l>
+        <l n="65" real="-+xxx+-+-x" met="--+-+-+-+-">Remains to them of any human grace;</l>
+        <l n="66" real="+-xx-+--+" met="-+-+-+-+-">Only their minds unchanged repine</l>
+        <l n="67" real="xxx+-xx+-x" met="--+-+-+-+-">To see their bodies in such ugly case.</l>
+        <l n="68" real="x+-xx+-x" met="-+-+-+-+">O feeble hand and idle art</l>
+        <l n="69" real="xxxxx+-x-+" met="--+-+-+-+-">Which, though it could the outward limbs deface,</l>
+        <l n="70" real="xxxxxxxx" met="-+-+-+-+">Yet had no force to change the heart.</l>
+        <l n="71" real="xxxxxx+xxx" met="--+-+-+-+-">For all the force of men given by God&#x27;s arm</l>
+        <l n="72" real="x+-xx+-x" met="-+-+-+-+">Lies hidden in their inmost part.</l>
+        <l n="73" real="x+-xxxxxxx" met="--+-+-+-+-">The poisons therefore which within them swarm</l>
+        <l n="74" real="x+-xxxxx" met="-+-+-+-+">More deeply pierce, and with more might,</l>
+        <l n="75" real="xxx+-xxxxx" met="--+-+-+-+-">For to the body though they do no harm,</l>
+        <l n="76" real="xxxxxxxx" met="-+-+-+-+">Yet on the soul they work their spite.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-iv" n="L23724">
+      <head>Book IV IV</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23724</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxx" met="+-+-+-+-+">Quod tantos iuuat excitare motus</l>
+        <l n="2" real="xxxxxxxxx+x" met="-+-+-+-+-+-">Et propria fatum sollicitare manu?</l>
+        <l n="3" real="x+-xxxxxxxx" met="-+-+-+-+-+-">Si mortem petitis, propinquat ipsa</l>
+        <l n="4" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Sponte sua uolucres nec remoratur equos.</l>
+        <l n="5" real="x+-+-+-+-+-" met="-+-+-+-+-+-">Quos serpens leo tigris ursus aper</l>
+        <l n="6" real="xxx+-++xxxxx" met="--+-+-+-+-+-">Dente petunt, idem se tamen ense petunt.</l>
+        <l n="7" real="x+-xxxx+x" met="+-+-+-+-+">An distant quia dissidentque mores,</l>
+        <l n="8" real="xxxxx+-+-x" met="-+-+-+-+-+">Iniustas acies et fera bella mouent</l>
+        <l n="9" real="xxxxxxxxx" met="+-+-+-+-+">Alternisque uolunt perire telis?</l>
+        <l n="10" real="x-+xxxxx+-x" met="-+-+-+-+-+-">Non est iusta satis saeuitiae ratio.</l>
+        <l n="11" real="xxxxxxxx-+" met="-+-+-+-+-+">Vis aptam meritis uicem referre?</l>
+        <l n="12" real="xxx+-xxxx+-" met="-+-+-+-+-+-">Dilige iure bonos et miseresce malis.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacddceffe">
+        <l n="13" real="xxxxxxx+-x" met="-+-+-+-+-+">Why should we strive to die so many ways,</l>
+        <l n="14" real="xx--+x+-xx" met="-+-+-+-+-+">And slay ourselves with our own hands?</l>
+        <l n="15" real="xxxxx+-x" met="-+-+-+-+">If we seek death, she ready stands,</l>
+        <l n="16" real="x+-xx+--+x" met="-+-+-+-+-+">She willing comes, her chariot never stays.</l>
+        <l n="17" real="xxxxxxxxx" met="+-+-+-+-+">Those against whom the wild beasts arméd be,</l>
+        <l n="18" real="xx-+x+-x" met="-+-+-+-+">Against themselves with weapons rage.</l>
+        <l n="19" real="xxxx-+-x" met="-+-+-+-+">Do they such wars unjustly wage,</l>
+        <l n="20" real="xxxxx+---+" met="-+-+-+-+-+">Because their lives and manners disagree,</l>
+        <l n="21" real="xx-+x+-+-x" met="-+-+-+-+-+">And so themselves with mutual weapons kill?</l>
+        <l n="22" real="-+xx-+xx" met="-+-+-+-+">Alas, but this revenge is small.</l>
+        <l n="23" real="xxxx+-xx" met="-+-+-+-+">Wouldst thou give due desert to all?</l>
+        <l n="24" real="xxxxx+-xxx" met="-+-+-+-+-+">Love then the good, and pity thou the ill.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-v" n="L23725">
+      <head>Book IV V</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23725</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="------aa--b---------b-">
+        <l n="1" real="xxxxxxxxxx" met="-+-+-+-+-+">Si quis Arcturi sidera nescit</l>
+        <l n="2" real="xxxxxxxxx" met="+-+-+-+-+">Propinqua summo cardine labi,</l>
+        <l n="3" real="xxxxxxxx" met="-+-+-+-+">Cur legat tardus plaustra Bootes</l>
+        <l n="4" real="xx+-xxxx" met="-+-+-+-+">Mergatque seras aequore flammas,</l>
+        <l n="5" real="xxxxxxxxxx" met="-+-+-+-+-+">Cum nimis celeres explicet ortus,</l>
+        <l n="6" real="xxxxxxxxxx" met="-+-+-+-+-+">Legem stupebit aetheris alti.</l>
+        <l n="7" real="xxxxxx" met="-+-+-+">Palleant plenae cornua lunae</l>
+        <l n="8" real="xxx+-xxxx" met="+-+-+-+-+">Infecta metis noctis opacae</l>
+        <l n="9" real="xxxxxxxx" met="-+-+-+-+">Quaeque fulgenti texerat ore</l>
+        <l n="10" real="xxx+-xxx+-" met="-+-+-+-+-+">Confusa Phoebe detegat astra,</l>
+        <l n="11" real="xxxxxx+-" met="-+-+-+-+">Commouet gentes publicus error</l>
+        <l n="12" real="xxxxxxxxx" met="+-+-+-+-+">Lassantque crebris pulsibus aera.</l>
+        <l n="13" real="+-xxxxxxxx" met="-+-+-+-+-+">Nemo miratur flamina Cori</l>
+        <l n="14" real="xxxxxxxxx" met="+-+-+-+-+">Litus frementi tundere fluctu</l>
+        <l n="15" real="xxxxxxxx" met="-+-+-+-+">Nec niuis duram frigore molem</l>
+        <l n="16" real="xxxxxxxx" met="-+-+-+-+">Feruente Phoebi soluier aestu.</l>
+        <l n="17" real="xxxxxxxxx-+" met="-+-+-+-+-+-">Hic enim causas cernere promptum est,</l>
+        <l n="18" real="xx+-xxx+-" met="+-+-+-+-+">Illic latentes pectora turbant.</l>
+        <l n="19" real="xxx+-xxxx" met="+-+-+-+-+">Cuncta quae rara prouehit aetas</l>
+        <l n="20" real="xxxxx+-xx" met="+-+-+-+-+">Stupetque subitis mobile uulgus,</l>
+        <l n="21" real="xxxxxxx+-" met="+-+-+-+-+">Cedat inscitiae nubilus error,</l>
+        <l n="22" real="xxxxx+-xxx" met="-+-+-+-+-+">Cessent profecto mira uideri.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgghhii">
+        <l n="23" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">Who knows not how the stars near to the poles do slide,</l>
+        <l n="24" real="xxxxxxxx" met="-+-+-+-+">And how Boötes his slow wain doth guide,</l>
+        <l n="25" real="xxxxxxxxx+-x" met="--+-+-+-+-+-">And why he sets so late, and doth so early rise,</l>
+        <l n="26" real="x+-xx+-xxx" met="-+-+-+-+-+">May wonder at the courses of the skies.</l>
+        <l n="27" real="xxxxxxxxxxxx" met="--+-+-+-+-+-">If when the moon is full her horns seem pale to sight,</l>
+        <l n="28" real="-+-xx+-xxx" met="-+-+-+-+-+">Infested with the darkness of the night,</l>
+        <l n="29" real="xxxxxxxxx+-x" met="--+-+-+-+-+-">And stars from which all grace she with her brightness took,</l>
+        <l n="30" real="xx-+xxx+-x" met="-+-+-+-+-+">Now show themselves, while she doth dimly look,</l>
+        <l n="31" real="x+-+-xx+-xxx" met="--+-+-+-+-+-">A public error straight through vulgar minds doth pass,</l>
+        <l n="32" real="xxx+-xxxxx" met="-+-+-+-+-+">And they with many strokes beat upon brass.</l>
+        <l n="33" real="x+-xxxxxx+-x" met="--+-+-+-+-+-">None wonders why the winds upon the waters blow.</l>
+        <l n="34" real="xxx+-x-+xx" met="-+-+-+-+-+">Nor why hot Phoebus&#x27; beams dissolve the snow.</l>
+        <l n="35" real="x+-xxxx+-+-x" met="--+-+-+-+-+-">These easy are to know, the other hidden lie,</l>
+        <l n="36" real="xxxx+xx+-x" met="-+-+-+-+-+">And therefore more our hearts they terrify.</l>
+        <l n="37" real="xx-+xxxxx+-x" met="--+-+-+-+-+-">All strange events which time to light more seldom brings,</l>
+        <l n="38" real="xxx+-xx+-x" met="-+-+-+-+-+">And the vain people count as sudden things,</l>
+        <l n="39" real="xx++-xx+-xx" met="-+-+-+-+-+-">If we our clouded minds from ignorance could free,</l>
+        <l n="40" real="x+-xxx-+-x" met="-+-+-+-+-+">No longer would by us admired be.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-vi" n="L23726">
+      <head>Book IV VI</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23726</idno>
+      <lg type="stanza" n="1" rhyme="----a-a---------bb--bb-------c-c----------------">
+        <l n="1" real="xxxxxxxxx">Si uis celsi iura tonantis</l>
+        <l n="2" real="+-+-xxx">Pura sollers cernere mente,</l>
+        <l n="3" real="xxxxxxxxx">Aspice summi culmina caeli.</l>
+        <l n="4" real="xxxxxxxx">Illic iusto foedere rerum</l>
+        <l n="5" real="xxxxxxxxxx">Veterem seruant sidera pacem.</l>
+        <l n="6" real="xxxxxxxxx">Non sol rutilo concitus igne</l>
+        <l n="7" real="xxx+-xxxxx">Gelidum Phoebes impedit axem</l>
+        <l n="8" real="xxxxxx+-">Nec quae summo uertice mundi</l>
+        <l n="9" real="xxxxxx-+-">Flectit rapidos Vrsa meatus.</l>
+        <l n="10" real="xxxxxxxxxx">Numquam occiduo lota profundo</l>
+        <l n="11" real="+--xxxxxxx">Cetera cernens sidera mergi</l>
+        <l n="12" real="+-xxxxxxx">Cupit oceano tingere flammas.</l>
+        <l n="13" real="xxxxxxxxxx">Semper uicibus temporis aequis</l>
+        <l n="14" real="+-+-xx+-">Vesper seras nuntiat umbras</l>
+        <l n="15" real="xxx+--xx">Reuehitque diem Lucifer almum.</l>
+        <l n="16" real="xxxxxxxxx">Sic aeternos reficit cursus</l>
+        <l n="17" real="xxx+-xxxxx">Alternus amor, sic astrigeris</l>
+        <l n="18" real="+-xxxxxxx">Bellum discors exulat oris.</l>
+        <l n="19" real="xxxxxxxxx">Haec concordia temperat aequis</l>
+        <l n="20" real="xxxx+-xxxx">Elementa modis, ut pugnantia</l>
+        <l n="21" real="xxxxxxxxxx">Vicibus cedant umida siccis</l>
+        <l n="22" real="xxxxxxxxx">Iungantque fidem frigora flammis</l>
+        <l n="23" real="xxxxxxxxxx">Pendulus ignis surgat in altum</l>
+        <l n="24" real="xxxxxxx">Terraeque graues pondere sidant.</l>
+        <l n="25" real="xxxxxxxx">Isdem causis uere tepenti</l>
+        <l n="26" real="xxxxxxx+-">Spirat florifer annus odores,</l>
+        <l n="27" real="xxxxxxxxxx">Aestas Cererem feruida siccat,</l>
+        <l n="28" real="xxxxxxxx">Remeat pomis grauis autumnus,</l>
+        <l n="29" real="xxxxxxx+-">Hiemem defluus inrigat imber.</l>
+        <l n="30" real="xxxxx+++-">Haec temperies alit ac profert</l>
+        <l n="31" real="xxxxxxxx">Quidquid uitam spirat in orbe.</l>
+        <l n="32" real="xxxx+-xxx">Eadem rapiens condit et aufert</l>
+        <l n="33" real="xxx+-+-xxx">Obitu mergens orta supremo.</l>
+        <l n="34" real="xxxxxxxx+-">Sedet interea conditor altus</l>
+        <l n="35" real="xx+-xxxxx">Rerumque regens flectit habenas</l>
+        <l n="36" real="xx-+-xxxxx">Rex et dominus fons et origo</l>
+        <l n="37" real="xx+--+--xx">Lex et sapiens arbiter aequi</l>
+        <l n="38" real="xxxxxxxx">Et quae motu concitat ire,</l>
+        <l n="39" real="xxxxx++xxxx">Sistit retrahens ac uaga firmat.</l>
+        <l n="40" real="x+-xxxxxx">Nam nisi rectos reuocans itus</l>
+        <l n="41" real="xxxxxxxxx">Flexos iterum cogat in orbes,</l>
+        <l n="42" real="xxxxxxxxxx">Quae nunc stabilis continet ordo</l>
+        <l n="43" real="xxxxxxxx">Dissaepta suo fonte fatiscant.</l>
+        <l n="44" real="x-+xxxxx+-">Hic est cunctis communis amor</l>
+        <l n="45" real="xxx+-xxxx">Repetuntque boni fine teneri,</l>
+        <l n="46" real="xxxxxxxx">Quia non aliter durare queant,</l>
+        <l n="47" real="+-xxxxx+-">Nisi conuerso rursus amore</l>
+        <l n="48" real="xxxxxxx">Refluant causae quae dedit esse.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcde-e-fgfghihijkjklmlmnonop-p-qrqrststuvuvwxwxyzyzababcdcd">
+        <l n="49" real="xxxx">If thou would&#x27;st see</l>
+        <l n="50" real="xxx+-x">God&#x27;s laws with purest mind,</l>
+        <l n="51" real="xxx+-xxx">Thy sight on heaven must fixéd be,</l>
+        <l n="52" real="x+-xxxxxxx">Whose settled course the stars in peace doth bind.</l>
+        <l n="53" real="xxx+-">The sun&#x27;s bright fire</l>
+        <l n="54" real="xxx+-x">Stops not his sister&#x27;s team,</l>
+        <l n="55" real="xxx+-x-+-">Nor doth the northern bear desire</l>
+        <l n="56" real="xxx+-xxxxx">Within the ocean&#x27;s wave to hide her beam.</l>
+        <l n="57" real="xx-+">Though she behold</l>
+        <l n="58" real="x+-xx+-">The other stars there couching,</l>
+        <l n="59" real="xxxxxxxx-">Yet she uncessantly is rolled</l>
+        <l n="60" real="xxx+x+-+-+-">About high heaven, the ocean never touching.</l>
+        <l n="61" real="x+-x">The evening light</l>
+        <l n="62" real="x+-xxx">With certain course doth show</l>
+        <l n="63" real="x+-xx+-x">The coming of the shady night,</l>
+        <l n="64" real="x+--xxxxxx">And Lucifer before the day doth go.</l>
+        <l n="65" real="x+--x">This mutual love</l>
+        <l n="66" real="+--+-x">Courses eternal makes,</l>
+        <l n="67" real="xxx+-xxx">And from the starry spheres above</l>
+        <l n="68" real="xxxxx+-+-x">All cause of war and dangerous discord takes.</l>
+        <l n="69" real="xx-+">This sweet consent</l>
+        <l n="70" real="x+-xxx">In equal bands doth tie</l>
+        <l n="71" real="x+-xx+--">The nature of each element,</l>
+        <l n="72" real="xxxxxxxxxx">So that the moist things yield unto the dry,</l>
+        <l n="73" real="x+-x">The piercing cold</l>
+        <l n="74" real="xxx+-x">With flames doth friendship keep,</l>
+        <l n="75" real="x+-+x+-xxx">The trembling fire the highest place doth hold,</l>
+        <l n="76" real="xxxxxxxxxx">And the gross earth sinks down into the deep.</l>
+        <l n="77" real="x+--x">The flowery year</l>
+        <l n="78" real="x+-xxx">Breathes odours in the spring</l>
+        <l n="79" real="x+-+-xxx">The scorching summer corn doth bear,</l>
+        <l n="80" real="x+-xx+-xxx">The autumn fruit from laden trees doth bring.</l>
+        <l n="81" real="x+-x">The falling rain</l>
+        <l n="82" real="x+-+-x">Doth winter&#x27;s moisture give.</l>
+        <l n="83" real="xxx+-x-+">These rules thus nourish and maintain</l>
+        <l n="84" real="x+-xxxxxxx">All creatures which we see on earth to live.</l>
+        <l n="85" real="xxxx">And when they die,</l>
+        <l n="86" real="xxxxxx">These bring them to their end,</l>
+        <l n="87" real="xx-+-xxx">While their Creator sits on high,</l>
+        <l n="88" real="xxxxxxxxxx">Whose hand the reins of the whole world doth bend.</l>
+        <l n="89" real="xxxx">He as their King</l>
+        <l n="90" real="xxx+-x">Rules them with lordly might.</l>
+        <l n="91" real="xxxx+-xx">From Him they rise, flourish, and spring,</l>
+        <l n="92" real="xxxxxx-+xx">He as their law and judge decides their right.</l>
+        <l n="93" real="xxxx">Those things whose course</l>
+        <l n="94" real="x+-x-+">Most swiftly glides away</l>
+        <l n="95" real="xxx+-+-x">His might doth often backward force,</l>
+        <l n="96" real="x+-x+--+-x">And suddenly their wandering motion stay.</l>
+        <l n="97" real="xxxx">Unless His strength</l>
+        <l n="98" real="x+--xx">Their violence should bound,</l>
+        <l n="99" real="xxxxxxxx">And them which else would run at length,</l>
+        <l n="100" real="xxxxx+-xxx">Should bring within the compass of a round,</l>
+        <l n="101" real="xx-+">That firm decree</l>
+        <l n="102" real="xxxx-+">Which now doth all adorn</l>
+        <l n="103" real="xx-+-x+-x">Would soon destroyed and broken be,</l>
+        <l n="104" real="x+-xxx-+-x">Things being far from their beginning borne.</l>
+        <l n="105" real="x+--x">This powerful love</l>
+        <l n="106" real="x+-xxx">Is common unto all,</l>
+        <l n="107" real="xx-+-xxxx">Which for desire of good do move</l>
+        <l n="108" real="xxxxxxxxxx">Back to the springs from whence they first did fall.</l>
+        <l n="109" real="x+-x">No worldly thing</l>
+        <l n="110" real="xx-+--x">Can a continuance have</l>
+        <l n="111" real="xxxx-+xx">Unless love back again it bring</l>
+        <l n="112" real="xxxxxxx+-x">Unto the cause which first the essence gave.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-iv-vii" n="L23727">
+      <head>Book IV VII</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:4</idno><idno type="laurel-id">L23727</idno>
+      <lg type="stanza" n="1" rhyme="-a---a--------b-b---c-ccc----d---d-">
+        <l n="1" real="+-xxxxxxx+-">Bella bis quinis operatus annis</l>
+        <l n="2" real="xxxxxx">Vltor Atrides Phrygiae ruinis</l>
+        <l n="3" real="xxxxxxxxx">Fratris amissos thalamos piauit;</l>
+        <l n="4" real="xxxxxxxx">Ille dum Graiae dare uela classi</l>
+        <l n="5" real="xxxxxxxxx">Optat et uentos redimit cruore,</l>
+        <l n="6" real="xxxxxxxxx">Exuit patrem miserumque tristis</l>
+        <l n="7" real="xxxxxxxxxx">Foederat natae iugulum sacerdos.</l>
+        <l n="8" real="xxxxxxxxx">Fleuit amissos Ithacus sodales</l>
+        <l n="9" real="xxxxxxxxxxx">Quos ferus uasto recubans in antro</l>
+        <l n="10" real="xxxxxxxxxxx">Mersit inmani Polyphemus aluo;</l>
+        <l n="11" real="xxxxxxxxxx">Sed tamen caeco furibundus ore</l>
+        <l n="12" real="xxxxxxxxxx">Gaudium maestis lacrimis rependit.</l>
+        <l n="13" real="xxx+-+--+-">Herculem duri celebrant labores.</l>
+        <l n="14" real="xxxxxxxxx">Ille Centauros domuit superbos,</l>
+        <l n="15" real="xxxxxx-+-">Abstulit saeuo spolium leoni</l>
+        <l n="16" real="xxxxxxxxxx">Fixit et certis uolucres sagittis,</l>
+        <l n="17" real="+-xxxxxxxx">Poma cernenti rapuit draconi</l>
+        <l n="18" real="xxxx-+-">Aureo laeuam grauior metallo,</l>
+        <l n="19" real="xxxxxxxx-+-">Cerberum traxit triplici catena.</l>
+        <l n="20" real="+-xxxxxxx">Victor immitem posuisse fertur</l>
+        <l n="21" real="+--xxxxxxx">Pabulum saeuis dominum quadrigis.</l>
+        <l n="22" real="+-xxxxxxxx">Hydra combusto periit ueneno,</l>
+        <l n="23" real="xxxxxxxxx">Fronte turpatus Achelous amnis</l>
+        <l n="24" real="+-xxxxxxxxx">Ora demersit pudibunda ripis.</l>
+        <l n="25" real="xxxxxxxxx">Strauit Antaeum Libycis harenis,</l>
+        <l n="26" real="xxxxxx+-">Cacus Euandri satiauit iras</l>
+        <l n="27" real="xxxxx+-+-">Quosque pressurus foret altus orbis</l>
+        <l n="28" real="xxxxxxxxxx">Saetiger spumis umeros notauit.</l>
+        <l n="29" real="xxxx+-xxxx">Vltimus caelum labor inreflexo</l>
+        <l n="30" real="xxxxxxxxx">Sustulit collo pretiumque rursus</l>
+        <l n="31" real="xxxxxxxxx">Vltimi caelum meruit laboris.</l>
+        <l n="32" real="xx+-xxxxxx">Ite nunc fortes ubi celsa magni</l>
+        <l n="33" real="xxxxxxx-+">Ducit exempli uia! Cur inertes</l>
+        <l n="34" real="xxxxxxxxxxx">Terga nudatis? Superata tellus</l>
+        <l n="35" real="xxx+-">Sidera donat.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabbccddeeffgghhii--jj--kk">
+        <l n="36" real="-+-xxxxxxx-+">Revengeful Atreus&#x27; son did ten whole years employ</l>
+        <l n="37" real="xxxxx+-x-+x+xx">In wars, till he his brother&#x27;s loss repaid with ransacked Troy.</l>
+        <l n="38" real="x+-xxxxxxxxx">He setting forth the fleet of Greece upon the seas,</l>
+        <l n="39" real="x+xx+-xx+-xxx">And knowing well that only blood the angry winds would please,</l>
+        <l n="40" real="-+x+-xxxx+x">Forgot a father&#x27;s part, and with his cruel knife</l>
+        <l n="41" real="xxxxx+-xx+-+-x">Unto the gods did sacrifice his dearest daughter&#x27;s life.</l>
+        <l n="42" real="-+-xxxxxx+-x">Ulysses wailed the loss of his most faithful men,</l>
+        <l n="43" real="xxxxxx-+-+xxx">Whom Polyphemus did devour enclosed in his den</l>
+        <l n="44" real="xxxxxxxxx+xx">But when his hands by sleight had made the Cyclops blind,</l>
+        <l n="45" real="x+-x-+x+-x-+xx">Most pleasant joy instead of former tears possessed his mind.</l>
+        <l n="46" real="+-x+-xxx-+-x">Hercules famous is for his laborious toil,</l>
+        <l n="47" real="xxx+xxxxx+-+-x">Who tamed the Centaurs and did take the dreadful lion&#x27;s spoil.</l>
+        <l n="48" real="xxxxxxx+-+-x">He the Stymphalian birds with piercing arrows strook,</l>
+        <l n="49" real="xxx+-+-xx+-+-x">And from the watchful dragon&#x27;s care the golden apples took.</l>
+        <l n="50" real="xxx+xxx+-+-x">He in a threefold chain the hellish porter led,</l>
+        <l n="51" real="xxx++-xx+-+-x">And with their cruel master&#x27;s flesh the savage horses fed.</l>
+        <l n="52" real="xx-+-xx+-+-x">He did th&#x27; increasing heads of poisonous Hydra burn,</l>
+        <l n="53" real="x+-xxxxxxxx-+">And breaking Achelous&#x27; horns, did make him back return.*</l>
+        <l n="54" real="xxx+-xxxxxx">He on the Libyan sands did proud Antaeus kill,</l>
+        <l n="55" real="xxx+-xxxxxxxx">And with the mighty Cacus&#x27; blood Euander&#x27;s wrath fulfil.</l>
+        <l n="56" real="xx+x-xxxxxxx">That world-uplifting back the boar&#x27;s white foam did fleck.</l>
+        <l n="57" real="xxxxxxx+x++-x">To hold on high the sphere of heaven with never bending neck</l>
+        <l n="58" real="xxx+xxxxxxx">Of all his many toils the last was, and most hard,</l>
+        <l n="59" real="xxxxx+-xx+xx-+">And for this last and greatest toil the heaven was his reward.</l>
+        <l n="60" real="x+-x-+xxxx-+">You gallant men pursue this way of high renown,</l>
+        <l n="61" real="xxx+-xxxxxxxxx">Why yield you? Overcome the earth, and you the stars shall crown,&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-v-i" n="L23728">
+      <head>Book V I</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:5</idno><idno type="laurel-id">L23728</idno><note type="metre">iambic hexameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-">Rupis Achaemeniae scopulis ubi uersa sequentum</l>
+        <l n="2" real="xxxxxx+--xxxx" met="-+-+-+-+-+-+-">Pectoribus figit spicula pugna fugax,</l>
+        <l n="3" real="+-x-+-+x++xxxx" met="--+-+-+-+-+-+-">Tigris et Euphrates uno se fonte resoluunt</l>
+        <l n="4" real="xxxxxxxxxxx" met="+-+-+-+-+-+">Et mox abiunctis dissociantur aquis.</l>
+        <l n="5" real="xxxxxxxxxxx+-" met="-+-+-+-+-+-+-">Si coeant cursumque iterum reuocentur in unum,</l>
+        <l n="6" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Confluat alterni quod trahit unda uadi;</l>
+        <l n="7" real="xxxxxxxxxxx" met="+-+-+-+-+-+">Conuenient puppes et uulsi flumine trunci</l>
+        <l n="8" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Mixtaque fortuitos implicet unda modos,</l>
+        <l n="9" real="xxxxxxxxxx+-" met="-+-+-+-+-+-+">Quos tamen ipsa uagos terrae decliuia casus</l>
+        <l n="10" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">Gurgitis et lapsi defluus ordo regit.</l>
+        <l n="11" real="xxxxxxxxxxxxx" met="-+-+-+-+-+-+-">Sic quae permissis fluitare uidetur habenis</l>
+        <l n="12" real="xxxxxxxxxx" met="-+-+-+-+-+">Fors patitur frenos ipsaque lege meat.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abbacddceffe">
+        <l n="13" real="xxxxxxxx+-xxx" met="-+-+-+-+-+-+-">In the Achaemenian rocks, where Parthians with their darts</l>
+        <l n="14" real="xx-+-xxxx+--" met="-+-+-+-+-+-+">In their dissembled flight do wound their enemies,</l>
+        <l n="15" real="+-xxxxxx-+-x" met="-+-+-+-+-+-+">Tigris from the same head doth with Euphrates rise,</l>
+        <l n="16" real="x++x-+-+x+-x" met="-+-+-+-+-+-+">And forthwith they themselves divide in several parts;</l>
+        <l n="17" real="xxxx-+xxx+-x" met="-+-+-+-+-+-+">But if they join again, and them one channel bound,</l>
+        <l n="18" real="+--+-xxxxxxx" met="-+-+-+-+-+-+">Bringing together all that both their waves do bear;</l>
+        <l n="19" real="xxxxxxxxxxxx" met="-+-+-+-+-+-+">The ships and trees, whose roots they from the bank do tear,</l>
+        <l n="20" real="xxxxxxx+-x-+" met="-+-+-+-+-+-+">Will meet, and they their floods will mingle and confound,</l>
+        <l n="21" real="xxx+-xx+-xxx" met="-+-+-+-+-+-+">Yet run this wandering course in places which are low,</l>
+        <l n="22" real="xxx+-xx+-x-+" met="-+-+-+-+-+-+">And in these sliding streams a settled law remains.</l>
+        <l n="23" real="x+-xxxxxx+-x" met="-+-+-+-+-+-+">So fortune, though it seems to run with careless reins,</l>
+        <l n="24" real="xxx+-xxxx+-x" met="-+-+-+-+-+-+">Yet hath it certain rule, and doth in order flow.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-v-ii" n="L23729">
+      <head>Book V II</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:5</idno><idno type="laurel-id">L23729</idno><note type="metre">iambic trimeter</note>
+      <lg type="stanza" n="1" rhyme="a--abb-------">
+        <l n="1" real="xxxx+-xx" met="--+-+-+-">Puro clarum lumine Phoebum</l>
+        <l n="2" real="xxxxxxxxxx" met="-+-+-+-+-+">Melliflui canit oris Homerus:</l>
+        <l n="3" real="xxxxxxxxxx" met="-+-+-+-+-+">Qui tamen intima uiscera terrae</l>
+        <l n="4" real="xxxxxxxxxx" met="-+-+-+-+-+">Non ualet aut pelagi radiorum</l>
+        <l n="5" real="xxxxxxx" met="-+-+-+-">Infirma perrumpere luce.</l>
+        <l n="6" real="xxxxxxx+-" met="-+-+-+-+-">Haud sic magni conditor orbis;</l>
+        <l n="7" real="xx+-xxxx" met="--+-+-+-">Huic ex alto cuncta tuenti</l>
+        <l n="8" real="xxxxxxx" met="-+-+-+-">Nulla terrae mole resistunt,</l>
+        <l n="9" real="xxxxxxxxx" met="-+-+-+-+-">Non nox atris nubibus obstat.</l>
+        <l n="10" real="xxxxxxx" met="-+-+-+-">Quae sint, quae fuerint ueniantque</l>
+        <l n="11" real="xxxxxxxx" met="--+-+-+-">Vno mentis cernit in ictu;</l>
+        <l n="12" real="xxxxxxxxx" met="-+-+-+-+-">Quem, quia respicit omnia solus,</l>
+        <l n="13" real="xxxxxx+-" met="--+-+-+-">Verum possis dicere solem.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="abababcc">
+        <l n="14" real="x+-xxx" met="-+-+-+">Sweet Homer sings the praise</l>
+        <l n="15" real="x+-xxx" met="-+-+-+">Of Phoebus clear and bright,</l>
+        <l n="16" real="xxx+-x" met="-+-+-+">And yet his strongest rays</l>
+        <l n="17" real="-+x+-x" met="-+-+-+">Cannot with feeble light</l>
+        <l n="18" real="xxx+-x" met="-+-+-+">Cast through the secret ways</l>
+        <l n="19" real="xxxxxx" met="-+-+-+">Of earth and seas his sight,</l>
+        <l n="20" real="xxx+-xxx" met="--+-+-+-">Though &#x27;all lies open to his eyes.&#x27;</l>
+        <l n="21" real="xxxxxx-+" met="--+-+-+-">But He who did this world devise--</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="abab-bcc">
+        <l n="22" real="xxxx-+" met="-+-+-+">The earth&#x27;s vast depths unseen</l>
+        <l n="23" real="xxxxxx" met="-+-+-+">From his sight are not free,</l>
+        <l n="24" real="xxxxxx" met="-+-+-+">No clouds can stand between,</l>
+        <l n="25" real="xxxxxx" met="-+-+-+">He at one time doth see</l>
+        <l n="26" real="xxxxxx" met="-+-+-+">What are, and what have been,</l>
+        <l n="27" real="xxxxxx" met="-+-+-+">And what shall after be.</l>
+        <l n="28" real="xxx+-+-x" met="--+-+-+-">Whom, since he only vieweth all,</l>
+        <l n="29" real="x+-xxxxx" met="--+-+-+-">You rightly the true Sun may call.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-v-iii" n="L23730">
+      <head>Book V III</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:5</idno><idno type="laurel-id">L23730</idno><note type="metre">iambic pentameter</note>
+      <lg type="stanza" n="1" rhyme="---a-bab---------ccc----d-d----">
+        <l n="1" real="xxxxxxxxx" met="+-+-+-+-+">Quaenam discors foedera rerum</l>
+        <l n="2" real="xxxxxxxxx" met="+-+-+-+-+">Causa resoluit? Quis tanta deus</l>
+        <l n="3" real="xxxx+-xx" met="-+-+-+-+">Veris statuit bella duobus,</l>
+        <l n="4" real="xxxxxxxxx" met="+-+-+-+-+">Vt quae carptim singula constent</l>
+        <l n="5" real="xxxxxxxxx" met="+-+-+-+-+">Eadem nolint mixta iugari?</l>
+        <l n="6" real="xxx-+xxxxx" met="-+-+-+-+-+">An nulla est discordia ueris</l>
+        <l n="7" real="xxxxxxxxx" met="+-+-+-+-+">Semperque sibi certa cohaerent?</l>
+        <l n="8" real="xxxxxxxxx" met="+-+-+-+-+">Sed mens caecis obruta membris</l>
+        <l n="9" real="xxxxxxxxx" met="+-+-+-+-+">Nequit oppressi luminis igne</l>
+        <l n="10" real="xxxxx+-" met="-+-+-+-">Rerum tenues noscere nexus.</l>
+        <l n="11" real="xxxxxx+-" met="-+-+-+-+">Sed cur tanto flagrat amore</l>
+        <l n="12" real="xxxxxxxxx" met="+-+-+-+-+">Veri tectas reperire notas?</l>
+        <l n="13" real="xxxxxxxx" met="-+-+-+-+">Scitne quod appetit anxia nosse?</l>
+        <l n="14" real="xxxxxxxx" met="-+-+-+-+">Sed quis nota scire laborat?</l>
+        <l n="15" real="xxxxxxx+-" met="+-+-+-+-+">At si nescit, quid caeca petit?</l>
+        <l n="16" real="xxxxxxxxx" met="+-+-+-+-+">Quis enim quidquam nescius optet</l>
+        <l n="17" real="xxxxxxxxx" met="+-+-+-+-+">Aut quis ualeat nescita sequi?</l>
+        <l n="18" real="xxxxxxxx" met="-+-+-+-+">Quoue inueniat, quisque repertam</l>
+        <l n="19" real="xxxxxxxx" met="-+-+-+-+">Queat ignarus noscere formam?</l>
+        <l n="20" real="xxxxxxxxx" met="+-+-+-+-+">An cum mentem cerneret altam,</l>
+        <l n="21" real="xxxxxxxxxxx" met="-+-+-+-+-+-">Pariter summam et singula norat?</l>
+        <l n="22" real="xxxxxxxx" met="-+-+-+-+">Nunc membrorum condita nube</l>
+        <l n="23" real="xxxx-+xxx+-" met="-+-+-+-+-+-">Non in totum est oblita sui</l>
+        <l n="24" real="xx+-xxxxx" met="+-+-+-+-+">Summamque tenet singula perdens.</l>
+        <l n="25" real="xxxxxxxxxx" met="-+-+-+-+-+">Igitur quisquis uera requirit,</l>
+        <l n="26" real="xx-+xxxxxx" met="-+-+-+-+-+">Neutro est habitu; nam neque nouit</l>
+        <l n="27" real="xxxxxxxxxx" met="-+-+-+-+-+">Nec penitus tamen omnia nescit,</l>
+        <l n="28" real="xxxxxxxxxx" met="-+-+-+-+-+">Sed quam retinens meminit summam</l>
+        <l n="29" real="xxxxxxxxx" met="+-+-+-+-+">Consulit alte uisa retractans,</l>
+        <l n="30" real="xxxxxxxx" met="-+-+-+-+">Vt seruatis queat oblitas</l>
+        <l n="31" real="xxx" met="-+-">Addere partes.&quot;</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aababbccdcddeefeffgghgh-iijijj">
+        <l n="32" real="xxx+-xxxxx" met="-+-+-+-+-+">What cause of discord breaks the bands of love?</l>
+        <l n="33" real="xxxxxxxxxx" met="-+-+-+-+-+">What God between two truths such wars doth move?</l>
+        <l n="34" real="xxx+--x+-x" met="-+-+-+-+-+">That things which severally well settled be</l>
+        <l n="35" real="xxxxx+-+-x" met="-+-+-+-+-+">Yet joined in one will never friendly prove?</l>
+        <l n="36" real="xxxxxxx+-x" met="-+-+-+-+-+">Or in true things can we no discord see,</l>
+        <l n="37" real="xxx+--xx-+" met="-+-+-+-+-+">Because all certainties do still agree?</l>
+        <l n="38" real="x+xx+-x+-x" met="-+-+-+-+-+">But our dull soul, covered with members blind,</l>
+        <l n="39" real="xxx+-xxxxx" met="-+-+-+-+-+">Knows not the secret laws which things do bind,</l>
+        <l n="40" real="xxxxxx-++-" met="-+-+-+-+-+">By the drowned light of her oppressed fire.</l>
+        <l n="41" real="xxx+-xxxxx" met="-+-+-+-+-+">Why then, the hidden notes of things to find,</l>
+        <l n="42" real="xxxxxxxx-+-" met="-+-+-+-+-+-">Doth she with such a love of truth desire?</l>
+        <l n="43" real="xxxxxxxxx+-" met="-+-+-+-+-+-">If she knows that which she doth so require,</l>
+        <l n="44" real="x+-xxxxx-+" met="-+-+-+-+-+">Why wisheth she known things to know again?</l>
+        <l n="45" real="xxxxxxxxxx" met="-+-+-+-+-+">If she knows not, why strives she with blind pain?</l>
+        <l n="46" real="xxxx-+xxxx" met="-+-+-+-+-+">Who after things unknown will strive to go?</l>
+        <l n="47" real="xxx+---+-+" met="-+-+-+-+-+">Or will such ignorant pursuit maintain?</l>
+        <l n="48" real="xxxxxxx+-x" met="-+-+-+-+-+">How shall she find them out? Or having so,</l>
+        <l n="49" real="xxxxxxx+-x" met="-+-+-+-+-+">How shall she then their forms and natures know?</l>
+        <l n="50" real="xxxxx+-xxx" met="-+-+-+-+-+">Because this soul the highest mind did view,</l>
+        <l n="51" real="xxxxxxx+-x" met="-+-+-+-+-+">Must we needs say that it all nature knew?</l>
+        <l n="52" real="xxxxxxxx-+" met="-+-+-+-+-+">Now she, though clouds of flesh do her debar,</l>
+        <l n="53" real="-+xxxxx+-x" met="-+-+-+-+-+">Forgets not all that was her ancient due,</l>
+        <l n="54" real="xxxxx+-+-x" met="-+-+-+-+-+">But in her mind some general motions are,</l>
+        <l n="55" real="xxxxxx-+--" met="-+-+-+-+-+">Though not the skill of things particular.</l>
+        <l n="56" real="xxxxx+-xxx" met="-+-+-+-+-+">He that seeks truth in neither course doth fall;</l>
+        <l n="57" real="x+-xx+--xx" met="-+-+-+-+-+">Not knowing all, nor ignorant of all,</l>
+        <l n="58" real="x+-+-xxx-+" met="-+-+-+-+-+">He marketh general things which he retains,</l>
+        <l n="59" real="x+-xxxxx-+" met="-+-+-+-+-+">And matters seen on high doth back recall,</l>
+        <l n="60" real="xx-+-xxx-+" met="-+-+-+-+-+">And things forgotten to his mind regains,</l>
+        <l n="61" real="xxxxxxxx-+" met="-+-+-+-+-+">And joins them to that part which there remains.&quot;</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-v-iv" n="L23731">
+      <head>Book V IV</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:5</idno><idno type="laurel-id">L23731</idno>
+      <lg type="stanza" n="1" rhyme="-------aa--b---b-ccc-c----------dde-feef">
+        <l n="1" real="+-xxxxxx">Quondam porticus attulit</l>
+        <l n="2" real="xxxxxx">Obscuros nimium senes</l>
+        <l n="3" real="xxxx-+-">Qui sensus et imagines</l>
+        <l n="4" real="xxxxxxxx">E corporibus extimis</l>
+        <l n="5" real="xxxxxxxx">Credant mentibus imprimi,</l>
+        <l n="6" real="x+-xxxxx">Vt quondam celeri stilo</l>
+        <l n="7" real="x-+xxxx">Mos est aequore paginae,</l>
+        <l n="8" real="xxxxxxx">Quae nullas habeat notas,</l>
+        <l n="9" real="xxxxxxx">Pressas figere litteras.</l>
+        <l n="10" real="xxxxxxx">Sed mens si propriis uigens</l>
+        <l n="11" real="+-xxxxxx">Nihil motibus explicat,</l>
+        <l n="12" real="xxxxxxx">Sed tantum patiens iacet</l>
+        <l n="13" real="+-xxxxxx">Notis subdita corporum</l>
+        <l n="14" real="xxxxxxxx">Cassasque in speculi uicem</l>
+        <l n="15" real="xxxx-+-">Rerum reddit imagines,</l>
+        <l n="16" real="xxxxxxxx">Vnde haec sic animis uiget</l>
+        <l n="17" real="xxxxxx">Cernens omnia notio?</l>
+        <l n="18" real="xxxxxxxx">Quae uis singula perspicit</l>
+        <l n="19" real="xxxxxxx">Aut quae cognita diuidit?</l>
+        <l n="20" real="xxxxxxx">Quae diuisa recolligit</l>
+        <l n="21" real="xxxxx+-">Alternumque legens iter</l>
+        <l n="22" real="xxx-+xxx">Nunc summis caput inserit,</l>
+        <l n="23" real="xxxxxxxx">Nunc decedit in infima,</l>
+        <l n="24" real="x+-xxxxx">Tum sese referens sibi</l>
+        <l n="25" real="xxxxxxx">Veris falsa redarguit?</l>
+        <l n="26" real="x-+xxx+-">Haec est efficiens magis</l>
+        <l n="27" real="xxxxxx">Longe causa potentior</l>
+        <l n="28" real="xxxxxx">Quam quae materiae modo</l>
+        <l n="29" real="xxxxxxxx">Impressas patitur notas.</l>
+        <l n="30" real="xxxxxxxx">Praecedit tamen excitans</l>
+        <l n="31" real="++xxxxx">Ac uires animi mouens</l>
+        <l n="32" real="xxxxxx">Viuo in corpore passio.</l>
+        <l n="33" real="xxxxxxxx">Cum uel lux oculos ferit</l>
+        <l n="34" real="xxxxxxxx">Vel uox auribus instrepit,</l>
+        <l n="35" real="xxxxxxxx">Tum mentis uigor excitus</l>
+        <l n="36" real="xxx+-+-">Quas intus species tenet</l>
+        <l n="37" real="xxxxxxx">Ad motus similes uocans</l>
+        <l n="38" real="+-xxxxxx">Notis applicat exteris</l>
+        <l n="39" real="xxxxxxx">Introrsumque reconditis</l>
+        <l n="40" real="xxxx-+-">Formis miscet imagines.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aabccbddeffeggh--hii-jj-kklmmlnnoppo">
+        <l n="41" real="+-x+-xxxxx">Cloudy old prophets of the Porch once taught</l>
+        <l n="42" real="xxxx-+-xxx">That sense and shape presented to the thought</l>
+        <l n="43" real="x+-+-x-+-x">From outward objects their impression take,</l>
+        <l n="44" real="xxxxx+-xxx">As when upon a paper smooth and plain</l>
+        <l n="45" real="xxxxxxxxxx">On which as yet no marks of ink have lain</l>
+        <l n="46" real="xxx+-xx+-x">We with a nimble pen do letters make.</l>
+        <l n="47" real="xx+xx+-x-+">But if our minds to nothing can apply</l>
+        <l n="48" real="x+-+-xx+-x">Their proper motions, but do patient lie</l>
+        <l n="49" real="-+xxxxx+-x">Subject to forms which do from bodies flow,</l>
+        <l n="50" real="xxx+-+-xxx">As a glass renders empty shapes of things,</l>
+        <l n="51" real="xxxxxxx+-x">Who then can show from whence that motion springs</l>
+        <l n="52" real="xxxxxxxxxx">By force of which the mind all things doth know?</l>
+        <l n="53" real="xxxxx+-xx">Or by what skill are several things espied?</l>
+        <l n="54" real="x+xx+-xx-+">And being known what power doth them divide,</l>
+        <l n="55" real="xx-+-x-++x">And thus divided doth again unite,</l>
+        <l n="56" real="xxx+-+-x-+-">And with a various journey oft aspires</l>
+        <l n="57" real="x+-xxx-+-+">To highest things, and oft again retires</l>
+        <l n="58" real="xxx+-+-xxx">To basest, nothing being out of sight,</l>
+        <l n="59" real="xxxxxx-+xx">And when she back unto herself doth move,</l>
+        <l n="60" real="xxx+xxxx-+">Doth all the falsehoods by the truth reprove?</l>
+        <l n="61" real="x+-xxxx+-x">This vigour needs must be an active cause,</l>
+        <l n="62" real="xxx+-+-xxx">And with more powerful forces must be deckt,</l>
+        <l n="63" real="xxxxxxxx-+">Than that which from those forms, that do reflect</l>
+        <l n="64" real="x+-+-xx+-x">From outward matter, all her virtue draws.</l>
+        <l n="65" real="xxx+-+-+-x">And yet in living bodies passion&#x27;s might</l>
+        <l n="66" real="xxxxx+-xx-+">Doth go before, whose office is to incite,</l>
+        <l n="67" real="xxx+-xxxxx">And the first motions in the mind to make.</l>
+        <l n="68" real="xxxxxx+x-+">As when the light unto our eyes appears,</l>
+        <l n="69" real="xxxxx+-x+x">Or some loud voice is sounded in our ears,</l>
+        <l n="70" real="xxxxxxxx-+">Then doth the strength of the dull mind awake</l>
+        <l n="71" real="xxxxx-+xx">Those phantasies which she retains within;</l>
+        <l n="72" real="x+-xx+-x-+">She stirreth up such notions to begin,</l>
+        <l n="73" real="x+-xx+-x-+">Whose objects with their natures best agree,</l>
+        <l n="74" real="xx-+-xx+-x">And thus applying them to outward things,</l>
+        <l n="75" real="xxx-+-xxxxx">She joins the external shapes which thence she brings</l>
+        <l n="76" real="xxxx-+-+-x">With forms which in herself included be.</l>
+      </lg>
+      <lg type="stanza" n="3">
+        <l n="77" real="xxxxx+-xxxxxx">The Porch, i.e. the Painted Porch ([Greek: stoa poikilae]) at</l>
+        <l n="78" real="+-xxx-+x+-xx+-x+-x">Athens, the great hall adorned with frescoes of the battle of Marathon,</l>
+        <l n="79" real="xxx+-xx+-x+xx+-x">which served as lecture-room to Zeno, the founder of the Stoic sect.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="80" real="xx+-+-xxxxxxx">Multa modis multis nulla ui cassaque sensu.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="book-v-v" n="L23732">
+      <head>Book V V</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:5</idno><idno type="laurel-id">L23732</idno><note type="metre">iambic heptameter</note>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxx+-xxxx+--xxx" met="-+-+-+-+-+-+-+-">Quam uariis terras animalia permeant figuris!</l>
+        <l n="2" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">Namque alia extento sunt corpore pulueremque uerrunt</l>
+        <l n="3" real="xxxxxx+-xxxxxx" met="-+-+-+-+-+-+-+">Continuumque trahunt ui pectoris incitata sulcum</l>
+        <l n="4" real="xxx-+-xxxxxxxxx" met="-+-+-+-+-+-+-+-">Sunt quibus alarum leuitas uaga uerberetque uentos</l>
+        <l n="5" real="xxxxxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+-+-">Et liquido longi spatia aetheris enatet uolatu,</l>
+        <l n="6" real="xxx+xxxxxxxxx" met="+-+-+-+-+-+-+">Haec pressisse solo uestigia gressibusque gaudent</l>
+        <l n="7" real="xxx+-xxxxxxxx" met="+-+-+-+-+-+-+">Vel uirides campos transmittere uel subire siluas.</l>
+        <l n="8" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">Quae uariis uideas licet omnia discrepare formis,</l>
+        <l n="9" real="xxxx+-xxxxxxxx" met="-+-+-+-+-+-+-+">Prona tamen facies hebetes ualet ingrauare sensus.</l>
+        <l n="10" real="xxxxxxxxxxxxxx" met="-+-+-+-+-+-+-+">Vnica gens hominum celsum leuat altius cacumen</l>
+        <l n="11" real="xx+-xxxxxx+-" met="-+-+-+-+-+-+">Atque leuis recto stat corpore despicitque terras.</l>
+        <l n="12" real="x+-xxxxxxxxxx-+-" met="--+-+-+-+-+-+-+-">Haec nisi terrenus male desipis, admonet figura,</l>
+        <l n="13" real="x+-xxxxxxxxxxx" met="-+-+-+-+-+-+-+">Qui recto caelum uultu petis exserisque frontem,</l>
+        <l n="14" real="x-++-xxxxxxxxx" met="-+-+-+-+-+-+-+">In sublime feras animum quoque, ne grauata pessum</l>
+        <l n="15" real="-+--xxxxx+--xx" met="-+-+-+-+-+-+-+">Inferior sidat mens corpore celsius leuata.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="aaabbbcccdddeee">
+        <l n="16" real="x+-+-xxxxxxxxx" met="-+-+-+-+-+-+-+">What several figures things that live upon the earth do keep!</l>
+        <l n="17" real="xxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+">Some have their bodies stretched in length by which the dust they sweep</l>
+        <l n="18" real="xx-+-+-xxxxxxx" met="-+-+-+-+-+-+-+">And do continual furrows make while on their breasts they creep.</l>
+        <l n="19" real="x+-+-xxxxxxxxx" met="-+-+-+-+-+-+-+">Some lightly soaring up on high with wings the wind do smite</l>
+        <l n="20" real="xxx+-+-xxxx+-x" met="-+-+-+-+-+-+-+">And through the longest airy space pass with an easy flight.</l>
+        <l n="21" real="xxx+-x-+xxxx-+" met="-+-+-+-+-+-+-+">Some by their paces to imprint the ground with steps delight,</l>
+        <l n="22" real="xxx+-xxxxxxxxx" met="-+-+-+-+-+-+-+">Which through the pleasant fields do pass or to the woods do go,</l>
+        <l n="23" real="x+-xxx+xxxx+-x" met="-+-+-+-+-+-+-+">Whose several forms though to our eyes they do a difference show,</l>
+        <l n="24" real="xxxxxxxxx+-+-x" met="-+-+-+-+-+-+-+">Yet by their looks cast down on earth their senses heavy grow.</l>
+        <l n="25" real="x+-xx+-xx+-+-x" met="-+-+-+-+-+-+-+">Men only with more stately shape to higher objects rise,</l>
+        <l n="26" real="xx-+-+-xxxxx-+" met="-+-+-+-+-+-+-+">Who with erected bodies stand and do the earth despise.</l>
+        <l n="27" real="x+-xx+-xxxx+-x" met="-+-+-+-+-+-+-+">These figures warn (if baser thoughts blind not thine earthly eyes)</l>
+        <l n="28" real="xxxxx-+xxxxxxx" met="-+-+-+-+-+-+-+">That thou who with an upright face dost look upon the sky,</l>
+        <l n="29" real="x+-xxx-+xxx+-x" met="-+-+-+-+-+-+-+">Shouldst also raise thy mind aloft, lest while thou bearest high</l>
+        <l n="30" real="x+-xxx+-xxx+-x" met="-+-+-+-+-+-+-+">Thine earthly head, thy soul opprest beneath thy body lie.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="symmachi-versvs" n="L23733">
+      <head>Symmachi Versvs</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:symmachi-versvs</idno><idno type="laurel-id">L23733</idno>
+      <lg type="stanza" n="1">
+        <l n="1" real="xxxxxx+-xxxx">Fortunae et uirtutis opus, Seuerine Boethi,</l>
+        <l n="2" real="xxxxxxxxxxx">E patria pulsus non tua per scelera,</l>
+        <l n="3" real="+-xxxxxxxxxxxx">Tandem ignotus habes qui te colat, ut tua uirtus</l>
+        <l n="4" real="xx-+-xxx">Vt tua fortuna promeruitque</l>
+        <l n="5" real="xxxxx+-xxx+-xx">Post obitum dant fata locum, post fata superstes</l>
+        <l n="6" real="xxxxx+-xx">Vxoris propriae te quoque fama colit.</l>
+      </lg>
+    </div>
+    <div type="poem" xml:id="epigram-by-symmachus" n="L23734">
+      <head>Epigram by Symmachus</head>
+      <idno type="URN">urn:laurel:eng:boethius.boethius-consolation.pg13316:epigram-by-symmachus</idno><idno type="laurel-id">L23734</idno><note type="metre">trochaic dimeter</note>
+      <lg type="stanza" n="1" rhyme="a-bbaa">
+        <l n="1" real="xx+-xxxxx" met="+-+-+-+--">Boethius! model of all weal and worth,</l>
+        <l n="2" real="-+-xx+-+-x" met="+-+-+-+-+-">Unjustly from thy country driven forth,</l>
+        <l n="3" real="xxxxxxxxxx" met="+-+-+-+-+-">Thy fame, unfamed at last, yet one shall praise,</l>
+        <l n="4" real="xxxxxx-+-x" met="+-+-+-+-+-">One voice the cry of approbation raise;</l>
+        <l n="5" real="xx-+xxx+-+-" met="+-+-+-+-+--">What life denied, through death kind heaven giveth;</l>
+        <l n="6" real="x+-xxxx+xx" met="+-+-+-+-+-">Thine honour in thy wife&#x27;s for ever liveth.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a--a-------------------------b--b----c-c---">
+        <l n="7" real="xxxxx" met="+-+--">Palatini canes.</l>
+        <l n="8" real="xxxx" met="+-+-">Papinianus.</l>
+        <l n="9" real="xxx" met="+-+">Parmenides.</l>
+        <l n="10" real="xx" met="+-">Parthiaus.</l>
+        <l n="11" real="xxx" met="+-+">Paulinus.</l>
+        <l n="12" real="+-xxxx+-" met="+-+-+-+-">Paulus, see Aemilius Paulus.</l>
+        <l n="13" real="xxx" met="+-+">Pelagius.</l>
+        <l n="14" real="+-" met="+-">Perses.</l>
+        <l n="15" real="-+-" met="+-+">persona.</l>
+        <l n="16" real="+--+" met="+-+-">Person defined.</l>
+        <l n="17" real="+-" met="+-">Pharaoh.</l>
+        <l n="18" real="-+--" met="+-+-">Philosophy,</l>
+        <l n="19" real="-+-x" met="+-+-">appearance of;</l>
+        <l n="20" real="+--" met="+-+">character;</l>
+        <l n="21" real="+-" met="+-">function;</l>
+        <l n="22" real="+-" met="+-">power.</l>
+        <l n="23" real="+-" met="+-">Phoebe.</l>
+        <l n="24" real="+-" met="+-">Phoebus.</l>
+        <l n="25" real="+-" met="+-">physics.</l>
+        <l n="26" real="+-" met="+-">Plato,</l>
+        <l n="27" real="xxx" met="+-+">and Boethius;</l>
+        <l n="28" real="xx+-" met="+-+-">and S. Thomas;</l>
+        <l n="29" real="xx-+--" met="+--+--">and the Academy;</l>
+        <l n="30" real="xx" met="+-">his muse;</l>
+        <l n="31" real="x-+-" met="+-+-">Reminiscence;</l>
+        <l n="32" real="+-x-+xx" met="+-+-+--">quoted or referred to, Gorg.;</l>
+        <l n="33" real="x" met="+">Tim;</l>
+        <l n="34" real="+-" met="+-">Meno;</l>
+        <l n="35" real="xx" met="+-">Phaedo;</l>
+        <l n="36" real="x" met="+">Rep.</l>
+        <l n="37" real="xxx" met="+-+">Plotinus.</l>
+        <l n="38" real="-+--" met="+-+-">Plurality.</l>
+        <l n="39" real="+-" met="+-">Pluto.</l>
+        <l n="40" real="xxxx" met="+-+-">Polyphemus.</l>
+        <l n="41" real="x" met="+">Porch.</l>
+        <l n="42" real="xxx" met="+-+">porisma.</l>
+        <l n="43" real="+--" met="+-+">Porphyry.</l>
+        <l n="44" real="xxx" met="+-+">praetorship.</l>
+        <l n="45" real="xxx" met="+-+">praevidence.</l>
+        <l n="46" real="-+--x+-x-" met="+-+-+-+--">predicaments, see categories.</l>
+        <l n="47" real="+--" met="+-+">Providence.</l>
+        <l n="48" real="+--" met="+-+">Ptolemy.</l>
+        <l n="49" real="-+-" met="+-+">purgation.</l>
+        <l n="50" real="xxxx" met="+-+-">Pythagoras.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="---------------aa---------b--bb--">
+        <l n="51" real="xxx" met="+-+">Sabellians.</l>
+        <l n="52" real="+x+-" met="+-+-">Sackville, Thomas.</l>
+        <l n="53" real="xxxx" met="+-+-">sacrilegium.</l>
+        <l n="54" real="x" met="+">saints.</l>
+        <l n="55" real="+-" met="+-">Saturn.</l>
+        <l n="56" real="x" met="+">Saul.</l>
+        <l n="57" real="+-" met="+-">scripture.</l>
+        <l n="58" real="xxxxx" met="+-+--">sempiternitas.</l>
+        <l n="59" real="+-" met="+-">senate.</l>
+        <l n="60" real="+--" met="+-+">Seneca.</l>
+        <l n="61" real="+-" met="+-">Simon.</l>
+        <l n="62" real="+x" met="+-">Sinai.</l>
+        <l n="63" real="+--" met="+-+">Sirius.</l>
+        <l n="64" real="+-x" met="+-+">Socrates.</l>
+        <l n="65" real="xxx+--" met="+--+--">Son, the, see Trinity.</l>
+        <l n="66" real="xxx" met="+-+">Soranus.</l>
+        <l n="67" real="xxx" met="+-+">Spartianus.</l>
+        <l n="68" real="+-+-x+--" met="+-+-+-+-">Spirit, Holy, see Trinity,</l>
+        <l n="69" real="-+-x" met="+-+-">procession of;</l>
+        <l n="70" real="x+-" met="+-+">a substance.</l>
+        <l n="71" real="+xx-+-" met="+--+--">statue of Achilles.</l>
+        <l n="72" real="+-" met="+-">Stoics.</l>
+        <l n="73" real="xxxx" met="+-+-">Stymphalian birds.</l>
+        <l n="74" real="xxxxxxxx" met="+-+-+-+-">subsisistentia, subsistere.</l>
+        <l n="75" real="+--+" met="+-+-">substance, divine.</l>
+        <l n="76" real="xxxxx" met="+-+--">substantia, substare.</l>
+        <l n="77" real="xxx" met="+-+">Suetonius.</l>
+        <l n="78" real="xx+-" met="+-+-">sun, see Phoebus.</l>
+        <l n="79" real="xxxxxx" met="+--+--">Symmachus, Q. Aurel.,</l>
+        <l n="80" real="xxxx" met="+-+-">Q. Aur. Memmius;</l>
+        <l n="81" real="xx" met="+-">Boethius;</l>
+        <l n="82" real="x" met="+">Pope.</l>
+        <l n="83" real="x" met="+">Syrtes.</l>
+      </lg>
+      <lg type="stanza" n="4">
+        <l n="84" real="xxx" met="+-+">Tacitus.</l>
+        <l n="85" real="+--" met="+-+">Tantalus.</l>
+        <l n="86" real="xxx" met="+-+">Tertullian.</l>
+        <l n="87" real="+--xxx" met="+--+--">Testament, Old and New.</l>
+        <l n="88" real="xxx" met="+-+">Theodoric.</l>
+        <l n="89" real="-+--" met="+-+-">Theology.</l>
+        <l n="90" real="+-x" met="+-+">Thomas, St.</l>
+        <l n="91" real="xxx" met="+-+">Thorie, J.</l>
+        <l n="92" real="x" met="+">Thrace.</l>
+        <l n="93" real="+-" met="+-">Thule.</l>
+        <l n="94" real="+-" met="+-">Tigris.</l>
+        <l n="95" real="xxx+-" met="+-+--">Timaeus, see Plato.</l>
+        <l n="96" real="xxx" met="+-+">Tiresias.</l>
+        <l n="97" real="xx" met="+-">Tityus.</l>
+        <l n="98" real="xx" met="+-">triangie.</l>
+        <l n="99" real="xxx" met="+-+">Triguilla.</l>
+        <l n="100" real="+--" met="+-+">Trinity,</l>
+        <l n="101" real="x+--x" met="+-+--">the unity of;</l>
+        <l n="102" real="+-x-+-+-x-xx" met="+-+-+-+-+-+-">cannot be substantially predicated of God.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="103" real="xx" met="+-">UEL = et.</l>
+        <l n="104" real="-+-" met="+-+">Verona.</l>
+        <l n="105" real="-+--" met="+-+-">Vesuvius.</l>
+        <l n="106" real="x+--" met="+-+-">uia media.</l>
+        <l n="107" real="+-" met="+-">Virgil.</l>
+        <l n="108" real="xx" met="+-">uirtus.</l>
+      </lg>
+      <lg type="stanza" n="6">
+        <l n="109" real="xxxx" met="+-+-">Will, see free-will.</l>
+        <l n="110" real="xxx" met="+-+">Wulf, H. de.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

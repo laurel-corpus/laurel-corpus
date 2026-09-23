@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Battle of the Kegs</title><author>Francis Hopkinson</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Selections from American Poetry, with Special Reference to Poe, Longfellow, Lowell and Whittier, edited by Margaret Sprague Carhart. Project Gutenberg ebook #3650. <ref target="https://www.gutenberg.org/ebooks/3650">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-battle-of-the-kegs" n="L25949">
+      <head>The Battle of the Kegs</head>
+      <idno type="URN">urn:laurel:eng:hopkinson.carhart-francis-hopkinson.pg3650:the-battle-of-the-kegs</idno><idno type="laurel-id">L25949</idno><note type="metre">iambic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="-a-a">
+        <l n="1" real="+--+xxxx" met="-+-+-+-+">Gallants attend and hear a friend</l>
+        <l n="2" real="xx-+--+-" met="-+-+-+-+">Trill forth harmonious ditty,</l>
+        <l n="3" real="xxxxxx-+" met="-+-+-+-+">Strange things I&#x27;ll tell which late befell</l>
+        <l n="4" real="xx-+--+-" met="-+-+-+-+">In Philadelphia city.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="-a-a">
+        <l n="5" real="x+-xx+-x" met="-+-+-+-+">&#x27;Twas early day, as poets say,</l>
+        <l n="6" real="xxxxx+-" met="+-+-+-+">Just when the sun was rising,</l>
+        <l n="7" real="x+-xxxxxx" met="-+-+-+-+-">A soldier stood on a log of wood,</l>
+        <l n="8" real="xxxx-+-" met="+-+-+-+">And saw a thing surprising.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="-a-a">
+        <l n="9" real="xx-+xxxx" met="-+-+-+-+">As in amaze he stood to gaze,</l>
+        <l n="10" real="xxxx-+x" met="+-+-+-+">The truth can&#x27;t be denied, sir,</l>
+        <l n="11" real="xxxxxxxx" met="-+-+-+-+">He spied a score of kegs or more</l>
+        <l n="12" real="x+-xxxx" met="+-+-+-+">Come floating down the tide, sir.</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="-a-a">
+        <l n="13" real="x+-xx+-x" met="-+-+-+-+">A sailor too in jerkin blue,</l>
+        <l n="14" real="xx-+-+-" met="+-+-+-+">This strange appearance viewing,</l>
+        <l n="15" real="xxxxxx-+" met="-+-+-+-+">First damned his eyes, in great surprise,</l>
+        <l n="16" real="xxx+-+-" met="+-+-+-+">Then said, &quot;Some mischief&#x27;s brewing.</l>
+      </lg>
+      <lg type="stanza" n="5">
+        <l n="17" real="xxxxx+-x" met="-+-+-+-+">&quot;These kegs, I&#x27;m told, the rebels hold,</l>
+        <l n="18" real="x-xx+-+-" met="-+-+-+-+">Packed up like pickled herring;</l>
+        <l n="19" real="xxxxx-+xx" met="-+-+-+-+-">And they&#x27;re come down to attack the town,</l>
+        <l n="20" real="xxxxx+--" met="-+-+-+-+">In this new way of ferrying.&quot;</l>
+      </lg>
+      <lg type="stanza" n="6" rhyme="-a-a">
+        <l n="21" real="x+-xx+-x" met="-+-+-+-+">The soldier flew, the sailor too,</l>
+        <l n="22" real="xx-+xxxx" met="-+-+-+-+">And scared almost to death, sir,</l>
+        <l n="23" real="xxxxxxxx" met="-+-+-+-+">Wore out their shoes, to spread the news,</l>
+        <l n="24" real="xxxxxxx" met="+-+-+-+">And ran till out of breath, sir.</l>
+      </lg>
+      <lg type="stanza" n="7" rhyme="-a-a">
+        <l n="25" real="xxxxxxxx" met="-+-+-+-+">Now up and down throughout the town,</l>
+        <l n="26" real="x+-xx+-" met="+-+-+-+">Most frantic scenes were acted;</l>
+        <l n="27" real="xxxxx+-x" met="-+-+-+-+">And some ran here, and others there,</l>
+        <l n="28" real="xx+x-+-" met="+-+-+-+">Like men almost distracted.</l>
+      </lg>
+      <lg type="stanza" n="8" rhyme="a--a">
+        <l n="29" real="x+-xxx-+" met="-+-+-+-+">Some fire cried, which some denied,</l>
+        <l n="30" real="xxxxxx-" met="+-+-+-+">But said the earth had quaked;</l>
+        <l n="31" real="xxxxx+-x" met="-+-+-+-+">And girls and boys, with hideous noise,</l>
+        <l n="32" real="xxxxx+--" met="-+-+-+-+">Ran through the streets half naked.</l>
+      </lg>
+      <lg type="stanza" n="9" rhyme="-a-a">
+        <l n="33" real="x+-xxxxx" met="-+-+-+-+">Sir William he, snug as a flea,</l>
+        <l n="34" real="xxxxx+-" met="+-+-+-+">Lay all this time a snoring,</l>
+        <l n="35" real="xxxxxxxx" met="-+-+-+-+">Nor dreamed of harm as he lay warm,</l>
+        <l n="36" real="xxx+-+-" met="+-+-+-+">In bed with Mrs. Loring.</l>
+      </lg>
+      <lg type="stanza" n="10" rhyme="-a-a">
+        <l n="37" real="xxxxxx-+" met="-+-+-+-+">Now in a fright, he starts upright,</l>
+        <l n="38" real="-+-xxx+-" met="-+-+-+-+">Awaked by such a clatter;</l>
+        <l n="39" real="xxxxx+-x" met="-+-+-+-+">He rubs both eyes, and boldly cries,</l>
+        <l n="40" real="xxxxx+-" met="+-+-+-+">&quot;For God&#x27;s sake, what&#x27;s the matter?&quot;</l>
+      </lg>
+      <lg type="stanza" n="11" rhyme="-a-a">
+        <l n="41" real="xx+xxxx" met="+-+-+-+">At his bedside he then espied,</l>
+        <l n="42" real="x+xx-+x" met="+-+-+-+">Sir Erskine at command, sir,</l>
+        <l n="43" real="xxxxxxxx" met="-+-+-+-+">Upon one foot he had one boot,</l>
+        <l n="44" real="x+-xxxx" met="+-+-+-+">And th&#x27; other in his hand, sir.</l>
+      </lg>
+      <lg type="stanza" n="12" rhyme="-a-a">
+        <l n="45" real="-+-+x+xx" met="-+-+-+-+">&quot;Arise, arise,&quot; Sir Erskine cries,</l>
+        <l n="46" real="x-++xx+-" met="-+-+-+-+">&quot;The rebels--more&#x27;s the pity,</l>
+        <l n="47" real="xxxxxx-+" met="-+-+-+-+">Without a boat are all afloat,</l>
+        <l n="48" real="xx-xxx+-" met="-+-+-+-+">And ranged before the city.</l>
+      </lg>
+      <lg type="stanza" n="13" rhyme="-a-a">
+        <l n="49" real="x+-xx+-x" met="-+-+-+-+">&quot;The motley crew, in vessels new,</l>
+        <l n="50" real="x+-xxxx" met="+-+-+-+">With Satan for their guide, sir,</l>
+        <l n="51" real="xxxxx+-x" met="-+-+-+-+">Packed up in bags, or wooden kegs,</l>
+        <l n="52" real="x+-xxxx" met="+-+-+-+">Come driving down the tide, sir.</l>
+      </lg>
+      <lg type="stanza" n="14" rhyme="-a-a">
+        <l n="53" real="xx-+x+-x" met="-+-+-+-+">&quot;Therefore prepare for bloody war;</l>
+        <l n="54" real="xxxxx+-" met="+-+-+-+">These kegs must all be routed,</l>
+        <l n="55" real="x+-x-+xx" met="-+-+-+-+">Or surely we despised shall be,</l>
+        <l n="56" real="x+-+-+-" met="+-+-+-+">And British courage doubted.&quot;</l>
+      </lg>
+      <lg type="stanza" n="15" rhyme="-a-a">
+        <l n="57" real="x+-xx+-x" met="-+-+-+-+">The royal band now ready stand</l>
+        <l n="58" real="xx-xx-+x" met="-+-+-+-+">All ranged in dread array, sir,</l>
+        <l n="59" real="x+-xxxxx" met="-+-+-+-+">With stomach&#x27; stout to see it out,</l>
+        <l n="60" real="xxx+-xx" met="+-+-+-+">And make a bloody day, sir.</l>
+      </lg>
+      <lg type="stanza" n="16" rhyme="-a-a">
+        <l n="61" real="x+-xxxxx" met="-+-+-+-+">The cannons roar from shore to shore.</l>
+        <l n="62" real="xxxxx+-" met="+-+-+-+">The small arms make a rattle;</l>
+        <l n="63" real="xx-+xxxx" met="-+-+-+-+">Since wars began I&#x27;m sure no man</l>
+        <l n="64" real="xxxxx+-" met="+-+-+-+">E&#x27;er saw so strange a battle.</l>
+      </lg>
+      <lg type="stanza" n="17" rhyme="-a-a">
+        <l n="65" real="x+-xx+-x" met="-+-+-+-+">The rebel dales, the rebel vales,</l>
+        <l n="66" real="x+-x-+-" met="+-+-+-+">With rebel trees surrounded,</l>
+        <l n="67" real="x+-xxxxx" met="-+-+-+-+">The distant woods, the hills and floods,</l>
+        <l n="68" real="x+-+-+-" met="+-+-+-+">With rebel echoes sounded.</l>
+      </lg>
+      <lg type="stanza" n="18">
+        <l n="69" real="xxxxxxxx" met="-+-+-+-+">The fish below swam to and fro,</l>
+        <l n="70" real="-+x+--+-" met="-+-+-+-+">Attacked from every quarter;</l>
+        <l n="71" real="xxxxx+-xx" met="-+-+-+-+-">Why sure, thought they, the devil&#x27;s to pay,</l>
+        <l n="72" real="xxxxx+-" met="+-+-+-+">&#x27;Mongst folks above the water.</l>
+      </lg>
+      <lg type="stanza" n="19" rhyme="-a-a">
+        <l n="73" real="xxxxx+-x" met="-+-+-+-+">The kegs, &#x27;tis said, though strongly made,</l>
+        <l n="74" real="x+-xxxx" met="+-+-+-+">Of rebel staves and hoops, sir,</l>
+        <l n="75" real="xx-+x+-x" met="-+-+-+-+">Could not oppose their powerful foes,</l>
+        <l n="76" real="x+--+-xx" met="-+-+-+-+">The conquering British troops, sir.</l>
+      </lg>
+      <lg type="stanza" n="20">
+        <l n="77" real="xxxxxxxx" met="-+-+-+-+">From morn to night these men of might</l>
+        <l n="78" real="-+--+-+-" met="-+-+-+-+">Displayed amazing courage;</l>
+        <l n="79" real="xxxxx+-x" met="-+-+-+-+">And when the sun was fairly down,</l>
+        <l n="80" real="-+-xxx+-" met="-+-+-+-+">Retired to sup their porridge.</l>
+      </lg>
+      <lg type="stanza" n="21" rhyme="-a-a">
+        <l n="81" real="x+-xxxxx" met="-+-+-+-+">A hundred men with each a pen,</l>
+        <l n="82" real="xxxxxxx" met="+-+-+-+">Or more upon my word, sir,</l>
+        <l n="83" real="xxxxxxxx" met="-+-+-+-+">It is most true would be too few,</l>
+        <l n="84" real="x+-x-+x" met="+-+-+-+">Their valor to record, sir.</l>
+      </lg>
+      <lg type="stanza" n="22" rhyme="-a-a">
+        <l n="85" real="xxxx-+xx" met="-+-+-+-+">Such feats did they perform that day,</l>
+        <l n="86" real="xxx+--xx" met="-+-+-+-+">Against these wicked kegs, sir,</l>
+        <l n="87" real="xxxxxxxx" met="-+-+-+-+">That years to come: if they get home,</l>
+        <l n="88" real="xxxxxxx" met="+-+-+-+">They&#x27;ll make their boasts and brags, sir.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

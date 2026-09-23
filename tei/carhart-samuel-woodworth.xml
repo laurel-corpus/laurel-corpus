@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Old Oaken Bucket</title><author>Samuel Woodworth</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Selections from American Poetry, with Special Reference to Poe, Longfellow, Lowell and Whittier, edited by Margaret Sprague Carhart. Project Gutenberg ebook #3650. <ref target="https://www.gutenberg.org/ebooks/3650">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-old-oaken-bucket" n="L25952">
+      <head>The Old Oaken Bucket</head>
+      <idno type="URN">urn:laurel:eng:woodworth.carhart-samuel-woodworth.pg3650:the-old-oaken-bucket</idno><idno type="laurel-id">L25952</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababcdcdcd">
+        <l n="1" real="xxxxxxxxxx+x" met="--+--+--+--+">How dear to this heart are the scenes of my childhood,</l>
+        <l n="2" real="xxx-+-+-xxx" met="-+--+--+--+">When fond recollection presents them to view!</l>
+        <l n="3" real="x+-x+xxx+-xx" met="--+--+--+--+">The orchard, the meadow, the deep-tangled wild-wood,</l>
+        <l n="4" real="x+--xxxx+--x" met="--+--+--+--+">And every loved spot which my infancy knew!</l>
+        <l n="5" real="xx+-xxxxxxxx" met="--+--+--+--+">The wide-spreading pond, and the mill that stood by it,</l>
+        <l n="6" real="xxxxxxx+--x" met="-+--+--+--+">The bridge, and the rock where the cataract fell,</l>
+        <l n="7" real="xxxx+-x+-xxx" met="--+--+--+--+">The cot of my father, the dairy-house nigh it,</l>
+        <l n="8" real="xxxx+-xxxxx" met="-+--+--+--+">And e&#x27;en the rude bucket that hung in the well--</l>
+        <l n="9" real="xx+-+-x+-x+-" met="--+--+--+--+">The old oaken bucket, the iron-bound bucket,</l>
+        <l n="10" real="xx+--+-xxxxx" met="--+--+--+--+">The moss-covered bucket which hung in the well.</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababcdcd-d">
+        <l n="11" real="xx+-+-xxxx+-" met="--+--+--+--+">That moss-covered vessel I hailed as a treasure,</l>
+        <l n="12" real="x+-xxx-+-xxx" met="--+--+--+--+">For often at noon, when returned from the field,</l>
+        <l n="13" real="xxxxxxx+--+-" met="--+--+--+--+">I found it the source of an exquisite pleasure,</l>
+        <l n="14" real="x+-x+-x+-xx" met="-+--+--+--+">The purest and sweetest that nature can yield.</l>
+        <l n="15" real="x+-xxxxxxx+-" met="--+--+--+--+">How ardent I seized it, with hands that were glowing,</l>
+        <l n="16" real="xxxxx+--+-xx" met="--+--+--+--+">And quick to the white-pebbled bottom it fell;</l>
+        <l n="17" real="xxxx+-xx+-x-" met="--+--+--+--+">Then soon, with the emblem of truth overflowing,</l>
+        <l n="18" real="x+-x+-xxxxx" met="-+--+--+--+">And dripping with coolness, it rose from the well</l>
+        <l n="19" real="xx+-+-x+-x+-" met="--+--+--+--+">The old oaken bucket, the iron-bound bucket,</l>
+        <l n="20" real="xx+--+--+xxx" met="--+--+--+--+">The moss-covered bucket arose from the well.</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="ababcdcd-d">
+        <l n="21" real="xxxxx+-xx-+x" met="--+--+--+--+">How sweet from the green mossy brim to receive it,</l>
+        <l n="22" real="xx-xxxx-+xxx" met="--+--+--+--+">As poised on the curb it inclined to my lips!</l>
+        <l n="23" real="xxx+-+-xxxxxx" met="--+--+--+--+-">Not a full blushing goblet could tempt me to leave it,</l>
+        <l n="24" real="x+-x+-x+--x" met="-+--+--+--+">The brightest that beauty or revelry sips.</l>
+        <l n="25" real="xxx-+xxxx-+-" met="--+--+--+--+">And now, far removed from the loved habitation,</l>
+        <l n="26" real="xxx-+xxxxxxx" met="--+--+--+--+">The tear of regret will intrusively swell,</l>
+        <l n="27" real="x+--+xx+-x+-" met="--+--+--+--+">As fancy reverts to my father&#x27;s plantation,</l>
+        <l n="28" real="xxxx+-xxxxx" met="-+--+--+--+">And sighs for the bucket that hangs in the well</l>
+        <l n="29" real="xx+-+-x+-x+-" met="--+--+--+--+">The old oaken bucket, the iron-bound bucket,</l>
+        <l n="30" real="xx+--+-xxxxx" met="--+--+--+--+">The moss-covered bucket that hangs in the well!</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>

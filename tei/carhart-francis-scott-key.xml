@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>The Star-Spangled Banner</title><author>Francis Scott Key</author></titleStmt>
+      <publicationStmt>
+        <publisher>Laurel</publisher>
+        <distributor><ref target="https://laurelpoetry.com/">laurelpoetry.com</ref></distributor>
+        <availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The text is in the public domain. The scansion, rhyme lettering and references added here are published under CC BY-SA 4.0: use them freely, credit Laurel, and keep derivatives as open.</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Selections from American Poetry, with Special Reference to Poe, Longfellow, Lowell and Whittier, edited by Margaret Sprague Carhart. Project Gutenberg ebook #3650. <ref target="https://www.gutenberg.org/ebooks/3650">source</ref></bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl xml:id="laurel-stress" type="met real" pattern="[+\-x]+">
+        <metSym value="+">a stressed syllable</metSym>
+        <metSym value="-">an unstressed syllable</metSym>
+        <metSym value="x">a syllable the dictionary does not settle; the metre may take it either way</metSym>
+      </metDecl>
+      <p>@met is the pattern this poem's metre asks for; @real is what the words themselves insist on. Notation after For Better For Verse (University of Virginia).</p>
+    </encodingDesc>
+  </teiHeader>
+  <text><body>
+    <div type="poem" xml:id="the-star-spangled-banner" n="L25953">
+      <head>The Star-Spangled Banner</head>
+      <idno type="URN">urn:laurel:eng:key.carhart-francis-scott-key.pg3650:the-star-spangled-banner</idno><idno type="laurel-id">L25953</idno><note type="metre">anapaestic tetrameter</note>
+      <lg type="stanza" n="1" rhyme="ababccdd">
+        <l n="1" real="xxxxxxxx+-x" met="-+--+--+--+">O say, can you see, by the dawn&#x27;s early light,</l>
+        <l n="2" real="xx+-xxxx+xx+-" met="--+--+--+--+-">What so proudly we hailed at the twilight&#x27;s last gleaming?</l>
+        <l n="3" real="xxxxxxxx+--x" met="--+--+--+--+">Whose broad stripes and bright stars through the perilous fight,</l>
+        <l n="4" real="xx+xxxxx+--+-" met="--+--+--+--+-">O&#x27;er the ramparts we watched were so gallantly streaming;</l>
+        <l n="5" real="xx+-xxxx+-xx" met="--+--+--+--+">And the rocket&#x27;s red glare, the bombs bursting in air,</l>
+        <l n="6" real="xxxxxx+-xxxx" met="--+--+--+--+">Gave proof through the night that our flag was still there;</l>
+        <l n="7" real="xxxxx+--+-xx" met="--+--+--+--+">O say, does that star-spangled banner yet wave</l>
+        <l n="8" real="xxxxxxxxxxxx" met="--+--+--+--+">O&#x27;er the land of the free, and the home of the brave?</l>
+      </lg>
+      <lg type="stanza" n="2" rhyme="ababccdd">
+        <l n="9" real="xxx+-xxxxxxx" met="--+--+--+--+">On the shore dimly seen through the mists of the deep,</l>
+        <l n="10" real="xxx+-xxx+-+x-" met="--+--+--+--+-">Where the foes haughty host in dread silence reposes,</l>
+        <l n="11" real="xxxxxxxx+--x" met="--+--+--+--+">What is that which the breeze, o&#x27;er the towering steep,</l>
+        <l n="12" real="xx+--xx-+x-+-" met="--+--+--+--+-">As it fitfully blows, now conceals, now discloses?</l>
+        <l n="13" real="xx+-xxxx+-xx" met="--+--+--+--+">Now it catches the gleam of the morning&#x27;s first beam,</l>
+        <l n="14" real="xx+--+-xxxxx" met="--+--+--+--+">In full glory reflected now shines on the stream;</l>
+        <l n="15" real="xxx+-+-xxxxx" met="--+--+--+--+">&#x27;Tis the star-spangled banner; O long may it wave</l>
+        <l n="16" real="xxxxxxxxxxxx" met="--+--+--+--+">O&#x27;er the land of the free, and the home of the brave!</l>
+      </lg>
+      <lg type="stanza" n="3" rhyme="a-a-bbbb">
+        <l n="17" real="xxxxxxx+--x" met="-+--+--+--+">And where is that band who so vauntingly swore</l>
+        <l n="18" real="xx+-xxxx+--+-" met="--+--+--+--+-">That the havoc of war and the battle&#x27;s confusion</l>
+        <l n="19" real="xxxx+-xxxxx" met="-+--+--+--+">A home and a country should leave us no more?</l>
+        <l n="20" real="xxxxxxx+x-+-" met="--+--+--+--+">Their blood has washed out their foul footsteps&#x27; pollution.</l>
+        <l n="21" real="x+-xxx+-xx" met="+--+--+--+">No refuge could save the hireling and slave,</l>
+        <l n="22" real="xx+-xxxxxxxx" met="--+--+--+--+">From the terror of flight and the gloom of the grave;</l>
+        <l n="23" real="xxx+-+-x+-xx" met="--+--+--+--+">And the star-spangled banner in triumph doth wave</l>
+        <l n="24" real="xxxxxxxxxxxx" met="--+--+--+--+">O&#x27;er the land of the free, and the home of the brave!</l>
+      </lg>
+      <lg type="stanza" n="4" rhyme="ababccdd">
+        <l n="25" real="xxxx+-x+-xx" met="-+--+--+--+">O! thus be it ever, when freemen shall stand</l>
+        <l n="26" real="xxxxxxxxx-+-" met="--+--+--+--+">Between their loved homes and the war&#x27;s desolation</l>
+        <l n="27" real="xx+-xxxxx+-x" met="--+--+--+--+">Blest with victory and peace, may the heav&#x27;n-rescued land,</l>
+        <l n="28" real="xx+xxxx-+xx+-" met="--+--+--+--+-">Praise the power that hath made and preserved us a nation.</l>
+        <l n="29" real="x+-xxx+-xxxx" met="--+--+--+--+">Then conquer we must, for our cause it is just.</l>
+        <l n="30" real="xxx++-xxx+-x" met="--+--+--+--+">And this be our motto--&quot;In God is our trust&quot;;</l>
+        <l n="31" real="xxx+-+-x+-xx" met="--+--+--+--+">And the star-spangled banner in triumph shall wave</l>
+        <l n="32" real="xxxxxxxxxxxx" met="--+--+--+--+">O&#x27;er the land of the free, and the home of the brave.</l>
+      </lg>
+    </div>
+  </body></text>
+</TEI>
